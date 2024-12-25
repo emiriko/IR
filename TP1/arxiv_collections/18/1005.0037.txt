@@ -1,0 +1,18 @@
+We present a systematic approach for calculating higher-order derivatives of
+smooth functions on a uniform grid using Pad\'e approximants. We illustrate our
+findings by deriving higher-order approximations using traditional second-order
+finite-differences formulas as our starting point. We employ these schemes to
+study the stability and dynamical properties of K(2,2) Rosenau-Hyman (RH)
+compactons including the collision of two compactons and resultant shock
+formation. Our approach uses a differencing scheme involving only nearest and
+next-to-nearest neighbors on a uniform spatial grid. The partial differential
+equation for the compactons involves first, second and third partial
+derivatives in the spatial coordinate and we concentrate on four different
+fourth-order methods which differ in the possibility of increasing the degree
+of accuracy (or not) of one of the spatial derivatives to sixth order. A method
+designed to reduce roundoff errors was found to be the most accurate
+approximation in stability studies of single solitary waves, even though all
+derivates are accurate only to fourth order. Simulating compacton scattering
+requires the addition of fourth derivatives related to artificial viscosity.
+For those problems the different choices lead to different amounts of
+"spurious" radiation and we compare the virtues of the different choices.

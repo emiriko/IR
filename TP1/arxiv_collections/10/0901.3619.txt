@@ -1,0 +1,9 @@
+This article presents the formal semantics of a large subset of the C
+language called Clight. Clight includes pointer arithmetic, "struct" and
+"union" types, C loops and structured "switch" statements. Clight is the source
+language of the CompCert verified compiler. The formal semantics of Clight is a
+big-step operational semantics that observes both terminating and diverging
+executions and produces traces of input/output events. The formal semantics of
+Clight is mechanized using the Coq proof assistant. In addition to the
+semantics of Clight, this article describes its integration in the CompCert
+verified compiler and several ways by which the semantics was validated.

@@ -1,0 +1,18 @@
+Observations and theoretical calculations have shown the importance of
+non-spherically symmetric structures in supernovae. Thus, the interpretation of
+observed supernova spectra requires the ability to solve the transfer equation
+in 3-D moving atmospheres. We present an implementation of the solution of the
+radiative transfer equation in 3-D homologously expanding atmospheres in
+spherical coordinates. The implementation is exact to all orders in v/c. We use
+a new affine method that makes use of the fact that photons travel on straight
+lines. We compare our results in 3-D for spherically symmetric test problems
+with high velocity fields and find excellent agreement. Our well-tested 1-D
+results are based on methods where the momentum directions vary along the
+characteristic (co-moving momentum directions). Thus, we are able to verify
+both the analytic framework and its numerical implementation. Additionally, we
+have been able to test the parallelization over characteristics. Using 512^2
+momentum angles we ran the code on 16,384 Opteron processors and achieved
+excellent scaling. It is now possible to calculate synthetic spectra from
+realistic 3D hydro simulations. This should open an era of progress in hydro
+modeling, similar to that that occurred in the 1980s when 1-D models were
+confronted with synthetic spectra.

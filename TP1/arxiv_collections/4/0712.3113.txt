@@ -1,0 +1,14 @@
+The SINTAGMA information integration system is an infrastructure for
+accessing several different information sources together. Besides providing a
+uniform interface to the information sources (databases, web services, web
+sites, RDF resources, XML files), semantic integration is also needed. Semantic
+integration is carried out by providing a high-level model and the mappings to
+the models of the sources. When executing a query of the high level model, a
+query is transformed to a low-level query plan, which is a piece of Prolog code
+that answers the high-level query. This transformation is done in two phases.
+First, the Query Planner produces a plan as a logic formula expressing the
+low-level query. Next, the Query Optimizer transforms this formula to
+executable Prolog code and optimizes it according to structural and statistical
+information about the information sources.
+  This article discusses the main ideas of the optimization algorithm and its
+implementation.

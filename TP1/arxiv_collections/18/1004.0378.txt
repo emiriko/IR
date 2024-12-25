@@ -1,0 +1,18 @@
+In this paper, a novel method for representation and recognition of the
+facial expressions in two-dimensional image sequences is presented. We apply a
+variation of two-dimensional heteroscedastic linear discriminant analysis
+(2DHLDA) algorithm, as an efficient dimensionality reduction technique, to
+Gabor representation of the input sequence. 2DHLDA is an extension of the
+two-dimensional linear discriminant analysis (2DLDA) approach and it removes
+the equal within-class covariance. By applying 2DHLDA in two directions, we
+eliminate the correlations between both image columns and image rows. Then, we
+perform a one-dimensional LDA on the new features. This combined method can
+alleviate the small sample size problem and instability encountered by HLDA.
+Also, employing both geometric and appearance features and using an ensemble
+learning scheme based on data fusion, we create a classifier which can
+efficiently classify the facial expressions. The proposed method is robust to
+illumination changes and it can properly represent temporal information as well
+as subtle changes in facial muscles. We provide experiments on Cohn-Kanade
+database that show the superiority of the proposed method. KEYWORDS:
+two-dimensional heteroscedastic linear discriminant analysis (2DHLDA), subspace
+learning, facial expression analysis, Gabor wavelets, ensemble learning.

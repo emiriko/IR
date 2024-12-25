@@ -1,0 +1,15 @@
+We consider model-based reinforcement learning in finite Markov De- cision
+Processes (MDPs), focussing on so-called optimistic strategies. In MDPs,
+optimism can be implemented by carrying out extended value it- erations under a
+constraint of consistency with the estimated model tran- sition probabilities.
+The UCRL2 algorithm by Auer, Jaksch and Ortner (2009), which follows this
+strategy, has recently been shown to guarantee near-optimal regret bounds. In
+this paper, we strongly argue in favor of using the Kullback-Leibler (KL)
+divergence for this purpose. By studying the linear maximization problem under
+KL constraints, we provide an ef- ficient algorithm, termed KL-UCRL, for
+solving KL-optimistic extended value iteration. Using recent deviation bounds
+on the KL divergence, we prove that KL-UCRL provides the same guarantees as
+UCRL2 in terms of regret. However, numerical experiments on classical
+benchmarks show a significantly improved behavior, particularly when the MDP
+has reduced connectivity. To support this observation, we provide elements of
+com- parison between the two algorithms based on geometric considerations.

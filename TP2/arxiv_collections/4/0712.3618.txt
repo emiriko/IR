@@ -1,0 +1,14 @@
+The statistical problem for network tomography is to infer the distribution
+of $\mathbf{X}$, with mutually independent components, from a measurement model
+$\mathbf{Y}=A\mathbf{X}$, where $A$ is a given binary matrix representing the
+routing topology of a network under consideration. The challenge is that the
+dimension of $\mathbf{X}$ is much larger than that of $\mathbf{Y}$ and thus the
+problem is often called ill-posed. This paper studies some statistical aspects
+of network tomography. We first address the identifiability issue and prove
+that the $\mathbf{X}$ distribution is identifiable up to a shift parameter
+under mild conditions. We then use a mixture model of characteristic functions
+to derive a fast algorithm for estimating the distribution of $\mathbf{X}$
+based on the General method of Moments. Through extensive model simulation and
+real Internet trace driven simulation, the proposed approach is shown to be
+favorable comparing to previous methods using simple discretization for
+inferring link delays in a heterogeneous network.

@@ -1,0 +1,13 @@
+Since the kinetic and the potential energy term of the real time nonlinear
+Schr\"odinger equation can each be solved exactly, the entire equation can be
+solved to any order via splitting algorithms. We verified the fourth-order
+convergence of some well known algorithms by solving the Gross-Pitaevskii
+equation numerically. All such splitting algorithms suffer from a latent
+numerical instability even when the total energy is very well conserved. A
+detail error analysis reveals that the noise, or elementary excitations of the
+nonlinear Schr\"odinger, obeys the Bogoliubov spectrum and the instability is
+due to the exponential growth of high wave number noises caused by the
+splitting process. For a continuum wave function, this instability is
+unavoidable no matter how small the time step. For a discrete wave function,
+the instability can be avoided only for $\dt k_{max}^2{<\atop\sim}2 \pi$, where
+$k_{max}=\pi/\Delta x$.

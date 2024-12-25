@@ -1,0 +1,12 @@
+Local branching is an improvement heuristic, developed within the context of
+branch-and-bound algorithms for MILPs, which has proved to be very effective in
+practice. For the binary case, it is based on defining a neighbourhood of the
+current incumbent solution by allowing only a few binary variables to flip
+their value, through the addition of a local branching constraint. The
+neighbourhood is then explored with a branch-and-bound solver. We propose a
+local branching scheme for (nonconvex) MINLPs which is based on iteratively
+solving MILPs and NLPs. Preliminary computational experiments show that this
+approach is able to improve the incumbent solution on the majority of the test
+instances, requiring only a short CPU time. Moreover, we provide algorithmic
+ideas for a primal heuristic whose purpose is to find a first feasible
+solution, based on the same scheme.

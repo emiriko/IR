@@ -1,0 +1,11 @@
+In this paper, we present results of a discontinuous Galerkin (DG) scheme
+applied to deterministic computations of the transients for the
+Boltzmann-Poisson system describing electron transport in semiconductor
+devices. The collisional term models optical-phonon interactions which become
+dominant under strong energetic conditions corresponding to nano-scale active
+regions under applied bias. The proposed numerical technique is a finite
+element method using discontinuous piecewise polynomials as basis functions on
+unstructured meshes. It is applied to simulate hot electron transport in bulk
+silicon, in a silicon $n^+$-$n$-$n^+$ diode and in a double gated 12nm MOSFET.
+Additionally, the obtained results are compared to those of a high order WENO
+scheme simulation and DSMC (Discrete Simulation Monte Carlo) solvers.

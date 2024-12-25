@@ -1,0 +1,13 @@
+In the coarse grained Brownian Dynamics simulation method the many solvent
+molecules are replaced by random thermal kicks and an effective friction acting
+on the particles of interest. For Brownian Dynamics the friction has to be so
+strong that the particles' velocities are damped much faster than the duration
+of an integration timestep. Here we show that this conceptual limit can be
+dropped with an analytic integration of the equations of damped motion. In the
+resulting Langevin integration scheme our recently proposed approximate form of
+the hydrodynamic interactions between the particles can be incorparated
+conveniently, leading to a fast multi-particle propagation scheme, which
+captures more of the short-time and short-range solvent effects than standard
+BD. Comparing the dynamics of a bead-spring model of a short peptide, we
+recommend to run simulations of small biological molecules with the Langevin
+type finite damping and to include the hydrodynamic interactions.

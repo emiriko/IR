@@ -1,0 +1,16 @@
+This paper considers distributed computing on an anonymous quantum network, a
+network in which no party has a unique identifier and quantum communication and
+computation are available. It is proved that the leader election problem can
+exactly (i.e., without error in bounded time) be solved with at most the same
+complexity up to a constant factor as that of exactly computing symmetric
+functions (without intermediate measurements for a distributed and superposed
+input), if the number of parties is given to every party. A corollary of this
+result is a more efficient quantum leader election algorithm than existing
+ones: the new quantum algorithm runs in O(n) rounds with bit complexity
+O(mn^2), on an anonymous quantum network with n parties and m communication
+links. Another corollary is the first quantum algorithm that exactly computes
+any computable Boolean function with round complexity O(n) and with smaller bit
+complexity than that of existing classical algorithms in the worst case over
+all (computable) Boolean functions and network topologies. More generally, any
+n-qubit state can be shared with that complexity on an anonymous quantum
+network with n parties.

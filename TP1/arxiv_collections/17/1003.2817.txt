@@ -1,0 +1,21 @@
+Simulation of materials at the atomistic level is an important tool in
+studying microscopic structure and processes. The atomic interactions necessary
+for the simulation are correctly described by Quantum Mechanics. However, the
+computational resources required to solve the quantum mechanical equations
+limits the use of Quantum Mechanics at most to a few hundreds of atoms and only
+to a small fraction of the available configurational space. This thesis
+presents the results of my research on the development of a new interatomic
+potential generation scheme, which we refer to as Gaussian Approximation
+Potentials. In our framework, the quantum mechanical potential energy surface
+is interpolated between a set of predetermined values at different points in
+atomic configurational space by a non-linear, non-parametric regression method,
+the Gaussian Process. To perform the fitting, we represent the atomic
+environments by the bispectrum, which is invariant to permutations of the atoms
+in the neighbourhood and to global rotations. The result is a general scheme,
+that allows one to generate interatomic potentials based on arbitrary quantum
+mechanical data. We built a series of Gaussian Approximation Potentials using
+data obtained from Density Functional Theory and tested the capabilities of the
+method. We showed that our models reproduce the quantum mechanical potential
+energy surface remarkably well for the group IV semiconductors, iron and
+gallium nitride. Our potentials, while maintaining quantum mechanical accuracy,
+are several orders of magnitude faster than Quantum Mechanical methods.

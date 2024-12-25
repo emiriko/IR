@@ -1,0 +1,11 @@
+Network intrusion detection systems are themselves becoming targets of
+attackers. Alert flood attacks may be used to conceal malicious activity by
+hiding it among a deluge of false alerts sent by the attacker. Although these
+types of attacks are very hard to stop completely, our aim is to present
+techniques that improve alert throughput and capacity to such an extent that
+the resources required to successfully mount the attack become prohibitive. The
+key idea presented is to combine a token bucket filter with a realtime
+correlation algorithm. The proposed algorithm throttles alert output from the
+IDS when an attack is detected. The attack graph used in the correlation
+algorithm is used to make sure that alerts crucial to forming strategies are
+not discarded by throttling.

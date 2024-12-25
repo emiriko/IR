@@ -1,0 +1,18 @@
+In colocated multiple-input multiple-output (MIMO) radar using compressive
+sensing (CS), a receive node compresses its received signal via a linear
+transformation, referred to as measurement matrix. The samples are subsequently
+forwarded to a fusion center, where an L1-optimization problem is formulated
+and solved for target information. CS-based MIMO radar exploits the target
+sparsity in the angle-Doppler-range space and thus achieves the high
+localization performance of traditional MIMO radar but with many fewer
+measurements. The measurement matrix is vital for CS recovery performance. This
+paper considers the design of measurement matrices that achieve an optimality
+criterion that depends on the coherence of the sensing matrix (CSM) and/or
+signal-to-interference ratio (SIR). The first approach minimizes a performance
+penalty that is a linear combination of CSM and the inverse SIR. The second one
+imposes a structure on the measurement matrix and determines the parameters
+involved so that the SIR is enhanced. Depending on the transmit waveforms, the
+second approach can significantly improve SIR, while maintaining CSM comparable
+to that of the Gaussian random measurement matrix (GRMM). Simulations indicate
+that the proposed measurement matrices can improve detection accuracy as
+compared to a GRMM.

@@ -1,0 +1,12 @@
+A linear graph is a graph whose vertices are totally ordered. Biological and
+linguistic sequences with interactions among symbols are naturally represented
+as linear graphs. Examples include protein contact maps, RNA secondary
+structures and predicate-argument structures. Our algorithm, linear graph miner
+(LGM), leverages the vertex order for efficient enumeration of frequent
+subgraphs. Based on the reverse search principle, the pattern space is
+systematically traversed without expensive duplication checking. Disconnected
+subgraph patterns are particularly important in linear graphs due to their
+sequential nature. Unlike conventional graph mining algorithms detecting
+connected patterns only, LGM can detect disconnected patterns as well. The
+utility and efficiency of LGM are demonstrated in experiments on protein
+contact maps.

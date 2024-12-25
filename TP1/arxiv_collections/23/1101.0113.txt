@@ -1,0 +1,25 @@
+The reported new algorithm determines the exact exchange potential v_x in a
+iterative way using energy and orbital shifts (ES, OS) obtained - with
+finite-difference formulas - from the solutions (occupied orbitals and their
+energies) of the Hartree-Fock-like equation and the Kohn-Sham-like equation,
+the former used for the initial approximation to v_x and the latter - for
+increments of ES and OS due to subsequent changes of v_x. Thus, solution of the
+differential equations for OS, used by Kummel and Perdew (KP) [Phys. Rev. Lett.
+90, 043004 (2003)], is avoided. The iterated exchange potential, expressed in
+terms of ES and OS, is improved by modifying ES at odd iteration steps and OS
+at even steps. The modification formulas are related to the OEP equation
+(satisfied at convergence) written as the condition of vanishing density shift
+(DS) - they are obtained, respectively, by enforcing its satisfaction through
+corrections to approximate OS and by determining optimal ES that minimize the
+DS norm. The proposed method, successfully tested for several closed-(sub)shell
+atoms, from Be to Kr, within the DFT exchange-only approximation, proves highly
+efficient. The calculations using pseudospectral method for representing
+orbitals give iterative sequences of approximate exchange potentials (starting
+with the Krieger-Li-Iafrate approximation) that rapidly approach the exact v_x
+so that, for Ne, Ar and Zn, the corresponding DS norm becomes less than 10^{-6}
+after 13, 13 and 9 iteration steps for a given electron density. In
+self-consistent density calculations, orbital energies of 10^{-4} Hartree
+accuracy are obtained for these atoms after, respectively, 9, 12 and 12 density
+iteration steps, each involving just 2 steps of v_x iteration, while the
+accuracy limit of 10^{-6}--10^{-7} Hartree is reached after 20 density
+iterations.

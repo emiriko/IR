@@ -1,0 +1,10 @@
+A Hidden Markov Model (HMM) is a common statistical model which is widely
+used for analysis of biological sequence data and other sequential phenomena.
+In the present paper we show how HMMs can be extended with side-constraints and
+present constraint solving techniques for efficient inference. Defining HMMs
+with side-constraints in Constraint Logic Programming have advantages in terms
+of more compact expression and pruning opportunities during inference.
+  We present a PRISM-based framework for extending HMMs with side-constraints
+and show how well-known constraints such as cardinality and all different are
+integrated. We experimentally validate our approach on the biologically
+motivated problem of global pairwise alignment.

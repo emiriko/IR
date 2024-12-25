@@ -1,0 +1,15 @@
+Different techniques of event biasing have been implemented in the
+particle-based Monte Carlo simulations of a 15nm n-channel MOSFET. The primary
+goal is to achieve enhancement in the channel statistics and faster convergence
+in the calculation of terminal current. Enhancement algorithms are especially
+useful when the device behavior is governed by rare events in the carrier
+transport process. After presenting a brief overview on the Monte Carlo
+technique for solving the Boltzmann transport equation, the basic steps of
+deriving the approach in presence of both the initial and the boundary
+conditions have been discussed. In the derivation, the linearity of the
+transport problem has been utilized first, where Coulomb forces between the
+carriers are initially neglected. The generalization of the approach for
+Hartree carriers has been established in the iterative procedure of coupling
+with the Poisson equation. It is shown that the weight of the particles, as
+obtained by biasing of the Boltzmann equation, survives between the successive
+steps of solving the Poisson equation.

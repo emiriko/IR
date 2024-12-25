@@ -1,0 +1,12 @@
+We have developed a strategy for the analysis of newly available binary data
+to improve outcome predictions based on existing data (binary or non-binary).
+Our strategy involves two modeling approaches for the newly available data, one
+combining binary covariate selection via LASSO with logistic regression and one
+based on logic trees. The results of these models are then compared to the
+results of a model based on existing data with the objective of combining model
+results to achieve the most accurate predictions. The combination of model
+predictions is aided by the use of support vector machines to identify
+subspaces of the covariate space in which specific models lead to successful
+predictions. We demonstrate our approach in the analysis of single nucleotide
+polymorphism (SNP) data and traditional clinical risk factors for the
+prediction of coronary heart disease.

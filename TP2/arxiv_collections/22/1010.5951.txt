@@ -1,0 +1,17 @@
+Determining a Nash equilibrium in a $2$-player non-zero sum game is known to
+be PPAD-hard (Chen and Deng (2006), Chen, Deng and Teng (2009)). The problem,
+even when restricted to win-lose bimatrix games, remains PPAD-hard (Abbott,
+Kane and Valiant (2005)). However, there do exist polynomial time tractable
+classes of win-lose bimatrix games - such as, very sparse games (Codenotti,
+Leoncini and Resta (2006)) and planar games (Addario-Berry, Olver and Vetta
+(2007)).
+  We extend the results in the latter work to $K_{3,3}$ minor-free games and a
+subclass of $K_5$ minor-free games. Both these classes of games strictly
+contain planar games. Further, we sharpen the upper bound to unambiguous
+logspace, a small complexity class contained well within polynomial time. Apart
+from these classes of games, our results also extend to a class of games that
+contain both $K_{3,3}$ and $K_5$ as minors, thereby covering a large and
+non-trivial class of win-lose bimatrix games. For this class, we prove an upper
+bound of nondeterministic logspace, again a small complexity class within
+polynomial time. Our techniques are primarily graph theoretic and use
+structural characterizations of the considered minor-closed families.

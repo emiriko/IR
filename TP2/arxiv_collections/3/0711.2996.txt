@@ -1,0 +1,20 @@
+A system of electrons in a local or nonlocal external potential can be
+studied with 1-matrix functional theory (1MFT), which is similar to density
+functional theory (DFT) but takes the one-particle reduced density matrix
+(1-matrix) instead of the density as its basic variable. Within 1MFT, Gilbert
+derived [PRB 12, 2111 (1975)] effective single-particle equations analogous to
+the Kohn-Sham (KS) equations in DFT. The self-consistent solution of these
+1MFT-KS equations reproduces not only the density of the original electron
+system but also its 1-matrix. While in DFT it is usually possible to reproduce
+the density using KS orbitals with integer (0 or 1) occupancy, in 1MFT
+reproducing the 1-matrix requires in general fractional occupancies. The
+variational principle implies that the KS eigenvalues of all fractionally
+occupied orbitals must collapse at self-consistency to a single level, equal to
+the chemical potential. We show that as a consequence of the degeneracy the
+iteration of the KS equations is intrinsically divergent. Fortunately, the
+level shifting method, commonly introduced in Hartree-Fock calculations, is
+always able to force convergence. We introduce an alternative derivation of the
+1MFT-KS equations that allows control of the eigenvalue collapse by
+constraining the occupancies. As an explicit example, we apply the 1MFT-KS
+scheme to calculate the ground state 1-matrix of an exactly solvable two-site
+Hubbard model.

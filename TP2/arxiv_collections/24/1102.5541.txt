@@ -1,0 +1,13 @@
+We develop exact Markov chain Monte Carlo methods for discretely-sampled,
+directly and indirectly observed diffusions. The qualification "exact" refers
+to the fact that the invariant and limiting distribution of the Markov chains
+is the posterior distribution of the parameters free of any discretisation
+error. The class of processes to which our methods directly apply are those
+which can be simulated using the most general to date exact simulation
+algorithm. The article introduces various methods to boost the performance of
+the basic scheme, including reparametrisations and auxiliary Poisson sampling.
+We contrast both theoretically and empirically how this new approach compares
+to irreducible high frequency imputation, which is the state-of-the-art
+alternative for the class of processes we consider, and we uncover intriguing
+connections. All methods discussed in the article are tested on typical
+examples.

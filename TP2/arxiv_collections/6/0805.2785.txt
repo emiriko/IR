@@ -1,0 +1,20 @@
+We specify the operational semantics and bisimulation relations for the
+finite pi-calculus within a logic that contains the nabla quantifier for
+encoding generic judgments and definitions for encoding fixed points. Since we
+restrict to the finite case, the ability of the logic to unfold fixed points
+allows this logic to be complete for both the inductive nature of operational
+semantics and the coinductive nature of bisimulation. The nabla quantifier
+helps with the delicate issues surrounding the scope of variables within
+pi-calculus expressions and their executions (proofs). We illustrate several
+merits of the logical specifications permitted by this logic: they are natural
+and declarative; they contain no side-conditions concerning names of variables
+while maintaining a completely formal treatment of such variables; differences
+between late and open bisimulation relations arise from familar logic
+distinctions; the interplay between the three quantifiers (for all, exists, and
+nabla) and their scopes can explain the differences between early and late
+bisimulation and between various modal operators based on bound input and
+output actions; and proof search involving the application of inference rules,
+unification, and backtracking can provide complete proof systems for one-step
+transitions, bisimulation, and satisfaction in modal logic. We also illustrate
+how one can encode the pi-calculus with replications, in an extended logic with
+induction and co-induction.

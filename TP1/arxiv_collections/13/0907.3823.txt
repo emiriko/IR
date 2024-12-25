@@ -1,0 +1,13 @@
+Huge amount of information is present in the World Wide Web and a large
+amount is being added to it frequently. A query-specific summary of multiple
+documents is very helpful to the user in this context. Currently, few systems
+have been proposed for query-specific, extractive multi-document summarization.
+If a summary is available for a set of documents on a given query and if a new
+document is added to the corpus, generating an updated summary from the scratch
+is time consuming and many a times it is not practical/possible. In this paper
+we propose a solution to this problem. This is especially useful in a scenario
+where the source documents are not accessible. We cleverly embed the sentences
+of the current summary into the new document and then perform query-specific
+summary generation on that document. Our experimental results show that the
+performance of the proposed approach is good in terms of both quality and
+efficiency.

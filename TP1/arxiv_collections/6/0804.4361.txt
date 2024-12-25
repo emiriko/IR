@@ -1,0 +1,12 @@
+The block bootstrap confidence interval based on dependent data can
+outperform the computationally more convenient normal approximation only with
+non-trivial Studentization which, in the case of complicated statistics, calls
+for highly specialist treatment. We propose two different approaches to
+improving the accuracy of the block bootstrap confidence interval under very
+general conditions. The first calibrates the coverage level by iterating the
+block bootstrap. The second calculates Studentizing factors directly from block
+bootstrap series and requires no non-trivial analytic treatment. Both
+approaches involve two nested levels of block bootstrap resampling and yield
+high-order accuracy with simple tuning of block lengths at the two resampling
+levels. A simulation study is reported to provide empirical support for our
+theory.

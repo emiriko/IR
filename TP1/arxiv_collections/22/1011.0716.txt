@@ -1,0 +1,12 @@
+BellQMA protocols are a subclass of multi-prover quantum Merlin-Arthur
+protocols in which the verifier is restricted to perform
+nonadaptive,unentangled measurements on the quantum states received from each
+Merlin. In this paper, we prove that m-clause 3-SAT instances have BellQMA
+proofs of satisfiability with constant soundness gap, in which
+O(sqrt(m)polylog(m)) Merlins each send O(log m) qubits to Arthur. Our result
+answers a question of Aaronson et al., who gave a protocol with similar
+parameters that used entangled measurements; the analysis of our protocol is
+significantly simpler than that of Aaronson et al. Our result also complements
+recent work of Brandao, Christandl, and Yard, who showed upper bounds on the
+power of multiprover quantum proofs with unentangled but adaptive (LOCC)
+measurements.

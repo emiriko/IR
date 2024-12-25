@@ -1,0 +1,13 @@
+We discuss a weighted estimation of correlation and covariance matrices from
+historical financial data. To this end, we introduce a weighting scheme that
+accounts for similarity of previous market conditions to the present one. The
+resulting estimators are less biased and show lower variance than either
+unweighted or exponentially weighted estimators. The weighting scheme is based
+on a similarity measure which compares the current correlation structure of the
+market to the structures at past times. Similarity is then measured by the
+matrix 2-norm of the difference of probe correlation matrices estimated for two
+different times. The method is validated in a simulation study and tested
+empirically in the context of mean-variance portfolio optimization. In the
+latter case we find an enhanced realized portfolio return as well as a reduced
+portfolio volatility compared to alternative approaches based on different
+strategies and estimators.

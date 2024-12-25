@@ -1,0 +1,18 @@
+The accurate representation of geostrophic balance is an essential
+requirement for numerical modelling of geophysical flows. Significant effort is
+often put into the selection of accurate or optimal balance representation by
+the discretisation of the fundamental equations. The issue of accurate balance
+representation is particularly challenging when applying dynamic mesh
+adaptivity, where there is potential for additional imbalance injection when
+interpolating to new, optimised meshes.
+  In the context of shallow-water modelling, we present a new method for
+preservation of geostrophic balance when applying dynamic mesh adaptivity. This
+approach is based upon interpolation of the Helmholtz decomposition of the
+Coriolis acceleration. We apply this in combination with a discretisation for
+which states in geostrophic balance are exactly steady solutions of the
+linearised equations on an f-plane; this method guarantees that a balanced and
+steady flow on a donor mesh remains balanced and steady after interpolation
+onto an arbitrary target mesh, to within machine precision. We further
+demonstrate the utility of this interpolant for states close to geostrophic
+balance, and show that it prevents pollution of the resulting solutions by
+imbalanced perturbations introduced by the interpolation.

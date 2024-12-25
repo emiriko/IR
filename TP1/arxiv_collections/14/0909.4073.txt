@@ -1,0 +1,22 @@
+We address the asymptotic and approximate distributions of a large class of
+test statistics with quadratic forms used in association studies. The
+statistics of interest do not necessarily follow a chi-square distribution and
+take the general form $D=X^T A X$, where $X$ follows the multivariate normal
+distribution, and $A$ is a general similarity matrix which may or may not be
+positive semi-definite. We show that $D$ can be written as a linear combination
+of independent chi-square random variables, whose distribution can be
+approximated by a chi-square or the difference of two chi-square distributions.
+In the setting of association testing, our methods are especially useful in two
+situations. First, for a genome screen, the required significance level is much
+smaller than 0.05 due to multiple comparisons, and estimation of p-values using
+permutation procedures is particularly challenging. An efficient and accurate
+estimation procedure would therefore be useful. Second, in a candidate gene
+study based on haplotypes when phase is unknown a computationally expensive
+method-the EM algorithm-is usually required to infer haplotype frequencies.
+Because the EM algorithm is needed for each permutation, this results in a
+substantial computational burden, which can be eliminated with our mathematical
+solution. We assess the practical utility of our method using extensive
+simulation studies based on two example statistics and apply it to find the
+sample size needed for a typical candidate gene association study when phase
+information is not available. Our method can be applied to any quadratic form
+statistic and therefore should be of general interest.

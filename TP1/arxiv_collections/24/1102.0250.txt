@@ -1,0 +1,15 @@
+In this paper we consider an interacting two-agent sequential decision-making
+problem consisting of a Markov source process, a causal encoder with feedback,
+and a causal decoder. Motivated by a desire to foster links between control and
+information theory, we augment the standard formulation by considering general
+alphabets and a cost function operating on current and previous symbols. Using
+dynamic programming, we provide a structural result whereby an optimal scheme
+exists that operates on appropriate sufficient statistics. We emphasize an
+example where the decoder alphabet lies in a space of beliefs on the source
+alphabet, and the additive cost function is a log likelihood ratio pertaining
+to sequential information gain. We also consider the inverse optimal control
+problem, where a fixed encoder/decoder pair satisfying statistical conditions
+is shown to be optimal for some cost function, using probabilistic matching. We
+provide examples of the applicability of this framework to communication with
+feedback, hidden Markov models and the nonlinear filter, decentralized control,
+brain-machine interfaces, and queuing theory.

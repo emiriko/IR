@@ -1,0 +1,18 @@
+We use co-evolutionary genetic algorithms to model the players' learning
+process in several Cournot models, and evaluate them in terms of their
+convergence to the Nash Equilibrium. The "social-learning" versions of the two
+co-evolutionary algorithms we introduce, establish Nash Equilibrium in those
+models, in contrast to the "individual learning" versions which, as we see
+here, do not imply the convergence of the players' strategies to the Nash
+outcome. When players use "canonical co-evolutionary genetic algorithms" as
+learning algorithms, the process of the game is an ergodic Markov Chain, and
+therefore we analyze simulation results using both the relevant methodology and
+more general statistical tests, to find that in the "social" case, states
+leading to NE play are highly frequent at the stationary distribution of the
+chain, in contrast to the "individual learning" case, when NE is not reached at
+all in our simulations; to find that the expected Hamming distance of the
+states at the limiting distribution from the "NE state" is significantly
+smaller in the "social" than in the "individual learning case"; to estimate the
+expected time that the "social" algorithms need to get to the "NE state" and
+verify their robustness and finally to show that a large fraction of the games
+played are indeed at the Nash Equilibrium.

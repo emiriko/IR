@@ -1,0 +1,8 @@
+A brief introduction to the Python computing environment is given. By solving
+the master equation encountered in quantum transport, we give an example of how
+to solve the ODE problems in Python. The ODE solvers used are the ZVODE routine
+in Scipy and the bsimp solver in GSL. For the former, the equation can be in
+its complex-valued form, while for the latter, it has to be rewritten to a
+real-valued form. The focus is on the detailed workflow of the implementation
+process, rather than on the syntax of the python language, with the hope to
+help readers simulate their own models in Python.

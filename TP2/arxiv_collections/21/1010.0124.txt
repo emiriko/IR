@@ -1,0 +1,20 @@
+For the vast majority of genome wide association studies (GWAS) published so
+far, statistical analysis was performed by testing markers individually. In
+this article we present some elementary statistical considerations which
+clearly show that in case of complex traits the approach based on multiple
+regression or generalized linear models is preferable to multiple testing. We
+introduce a model selection approach to GWAS based on modifications of Bayesian
+Information Criterion (BIC) and develop some simple search strategies to deal
+with the huge number of potential models. Comprehensive simulations based on
+real SNP data confirm that model selection has larger power than multiple
+testing to detect causal SNPs in complex models. On the other hand multiple
+testing has substantial problems with proper ranking of causal SNPs and tends
+to detect a certain number of false positive SNPs, which are not linked to any
+of the causal mutations. We show that this behavior is typical in GWAS for
+complex traits and can be explained by an aggregated influence of many small
+random sample correlations between genotypes of a SNP under investigation and
+other causal SNPs. We believe that our findings at least partially explain
+problems with low power and nonreplicability of results in many real data GWAS.
+Finally, we discuss the advantages of our model selection approach in the
+context of real data analysis, where we consider publicly available gene
+expression data as traits for individuals from the HapMap project.

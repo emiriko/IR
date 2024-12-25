@@ -1,0 +1,22 @@
+Previous studies have reported that common dense linear algebra operations do
+not achieve speed up by using multiple geographical sites of a computational
+grid. Because such operations are the building blocks of most scientific
+applications, conventional supercomputers are still strongly predominant in
+high-performance computing and the use of grids for speeding up large-scale
+scientific problems is limited to applications exhibiting parallelism at a
+higher level. We have identified two performance bottlenecks in the distributed
+memory algorithms implemented in ScaLAPACK, a state-of-the-art dense linear
+algebra library. First, because ScaLAPACK assumes a homogeneous communication
+network, the implementations of ScaLAPACK algorithms lack locality in their
+communication pattern. Second, the number of messages sent in the ScaLAPACK
+algorithms is significantly greater than other algorithms that trade flops for
+communication. In this paper, we present a new approach for computing a QR
+factorization -- one of the main dense linear algebra kernels -- of tall and
+skinny matrices in a grid computing environment that overcomes these two
+bottlenecks. Our contribution is to articulate a recently proposed algorithm
+(Communication Avoiding QR) with a topology-aware middleware (QCG-OMPI) in
+order to confine intensive communications (ScaLAPACK calls) within the
+different geographical sites. An experimental study conducted on the Grid'5000
+platform shows that the resulting performance increases linearly with the
+number of geographical sites on large-scale problems (and is in particular
+consistently higher than ScaLAPACK's).

@@ -1,0 +1,19 @@
+We design algorithms for computing approximately revenue-maximizing {\em
+sequential posted-pricing mechanisms (SPM)} in $K$-unit auctions, in a standard
+Bayesian model. A seller has $K$ copies of an item to sell, and there are $n$
+buyers, each interested in only one copy, who have some value for the item. The
+seller must post a price for each buyer, the buyers arrive in a sequence
+enforced by the seller, and a buyer buys the item if its value exceeds the
+price posted to it. The seller does not know the values of the buyers, but have
+Bayesian information about them. An SPM specifies the ordering of buyers and
+the posted prices, and may be {\em adaptive} or {\em non-adaptive} in its
+behavior.
+  The goal is to design SPM in polynomial time to maximize expected revenue. We
+compare against the expected revenue of optimal SPM, and provide a polynomial
+time approximation scheme (PTAS) for both non-adaptive and adaptive SPMs. This
+is achieved by two algorithms: an efficient algorithm that gives a
+$(1-\frac{1}{\sqrt{2\pi K}})$-approximation (and hence a PTAS for sufficiently
+large $K$), and another that is a PTAS for constant $K$. The first algorithm
+yields a non-adaptive SPM that yields its approximation guarantees against an
+optimal adaptive SPM -- this implies that the {\em adaptivity gap} in SPMs
+vanishes as $K$ becomes larger.

@@ -1,0 +1,20 @@
+Papers I and II of this series have extended the radio interferometry
+measurement equation (RIME) formalism to the full-sky case, and provided a
+RIME-based description of calibration and the problem of direction-dependent
+effects (DDEs). This paper aims to provide a practical demonstration of a
+RIME-based approach to calibration, via an example of extremely high-dynamic
+range calibration of WSRT observations of 3C 147 at 21 cm, with full treatment
+of DDEs.
+  A version of the RIME incorporating differential gains has been implemented
+in MeqTrees, and applied to the 3C 147 data. This was used to perform regular
+selfcal, then solve for interferometer-based errors and for differential gains.
+The resulting image of the field around 3C 147 is thermal noise-limited, has a
+very high dynamic range (1.6 million), and none of the off-axis artefacts that
+plague regular selfcal. The differential gain solutions show a high
+signal-to-noise ratio, and may be used to extract information on DDEs and
+errors in the sky model.
+  The differential gain approach can eliminate DDE-related artefacts, and
+provide information for iterative improvements of sky models. Perhaps most
+importantly, sources as faint as 2 mJy have been shown to yield meaningful
+differential gain solutions, and thus can be used as potential calibration
+beacons in other DDE-related schemes.

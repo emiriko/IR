@@ -1,0 +1,24 @@
+Let $F$ denote a field and let $V$ denote a vector space over $F$ with finite
+positive dimension. We consider a pair of linear transformations $A:V \to V$
+and $A^*:V \to V$ that satisfy the following conditions: (i) each of $A,A^*$ is
+diagonalizable; (ii) there exists an ordering $\{V_i\}_{i=0}^d$ of the
+eigenspaces of $A$ such that $A^* V_i \subseteq V_{i-1} + V_{i} + V_{i+1}$ for
+$0 \leq i \leq d$, where $V_{-1}=0$ and $V_{d+1}=0$; (iii) there exists an
+ordering $\{V^*_i\}_{i=0}^\delta$ of the eigenspaces of $A^*$ such that $A
+V^*_i \subseteq V^*_{i-1} + V^*_{i} + V^*_{i+1}$ for $0 \leq i \leq \delta$,
+where $V^*_{-1}=0$ and $V^*_{\delta+1}=0$; (iv) there is no subspace $W$ of $V$
+such that $AW \subseteq W$, $A^* W \subseteq W$, $W \neq 0$, $W \neq V$. We
+call such a pair a {\it tridiagonal pair} on $V$. It is known that $d=\delta$
+and for $0 \leq i \leq d$ the dimensions of $V_i$, $V_{d-i}$, $V^*_i$,
+$V^*_{d-i}$ coincide. We say the pair $A,A^*$ is {\it sharp} whenever $\dim
+V_0=1$. It is known that if $F$ is algebraically closed then $A,A^*$ is sharp.
+A conjectured classification of the sharp tridiagonal pairs was recently
+introduced by T. Ito and the second author. We present a result which supports
+the conjecture. Given scalars $\{\th_i\}_{i=0}^d$, $\{\th^*_i\}_{i=0}^d$ in $F$
+that satisfy the known constraints on the eigenvalues of a tridiagonal pair, we
+define an $F$-algebra $T$ by generators and relations. We consider the algebra
+$e^*_0Te^*_0$ for a certain idempotent $e^*_0 \in T$. Let $R$ denote the
+polynomial algebra over $F$ involving $d$ variables.We display a surjective
+algebra homomorphism $\mu: R \to e^*_0Te^*_0$. We conjecture that $\mu$ is an
+isomorphism. We show that this $\mu$-conjecture implies the classification
+conjecture, and that the $\mu$-conjecture holds for $d\leq 5$.

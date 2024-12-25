@@ -1,0 +1,10 @@
+This work presents GROUSE (Grassmanian Rank-One Update Subspace Estimation),
+an efficient online algorithm for tracking subspaces from highly incomplete
+observations. GROUSE requires only basic linear algebraic manipulations at each
+iteration, and each subspace update can be performed in linear time in the
+dimension of the subspace. The algorithm is derived by analyzing incremental
+gradient descent on the Grassmannian manifold of subspaces. With a slight
+modification, GROUSE can also be used as an online incremental algorithm for
+the matrix completion problem of imputing missing entries of a low-rank matrix.
+GROUSE performs exceptionally well in practice both in tracking subspaces and
+as an online algorithm for matrix completion.

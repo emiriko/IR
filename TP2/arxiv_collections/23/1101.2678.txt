@@ -1,0 +1,15 @@
+Ant Colony Optimisation (ACO) is an effective population-based meta-heuristic
+for the solution of a wide variety of problems. As a population-based
+algorithm, its computation is intrinsically massively parallel, and it is
+there- fore theoretically well-suited for implementation on Graphics Processing
+Units (GPUs). The ACO algorithm comprises two main stages: Tour construction
+and Pheromone update. The former has been previously implemented on the GPU,
+using a task-based parallelism approach. However, up until now, the latter has
+always been implemented on the CPU. In this paper, we discuss several
+parallelisation strategies for both stages of the ACO algorithm on the GPU. We
+propose an alternative data-based parallelism scheme for Tour construction,
+which fits better on the GPU architecture. We also describe novel GPU
+programming strategies for the Pheromone update stage. Our results show a total
+speed-up exceeding 28x for the Tour construction stage, and 20x for Pheromone
+update, and suggest that ACO is a potentially fruitful area for future research
+in the GPU domain.

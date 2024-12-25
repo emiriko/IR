@@ -1,0 +1,14 @@
+Coecke, Sadrzadeh, and Clark (arXiv:1003.4394v1 [cs.CL]) developed a
+compositional model of meaning for distributional semantics, in which each word
+in a sentence has a meaning vector and the distributional meaning of the
+sentence is a function of the tensor products of the word vectors. Abstractly
+speaking, this function is the morphism corresponding to the grammatical
+structure of the sentence in the category of finite dimensional vector spaces.
+In this paper, we provide a concrete method for implementing this linear
+meaning map, by constructing a corpus-based vector space for the type of
+sentence. Our construction method is based on structured vector spaces whereby
+meaning vectors of all sentences, regardless of their grammatical structure,
+live in the same vector space. Our proposed sentence space is the tensor
+product of two noun spaces, in which the basis vectors are pairs of words each
+augmented with a grammatical role. This enables us to compare meanings of
+sentences by simply taking the inner product of their vectors.

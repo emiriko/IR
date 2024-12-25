@@ -1,0 +1,11 @@
+It is well established that lattice artifacts can be suppressed substantially
+by the use of SU(3)-projected smeared links in the fermion action. An example
+is the Highly Improved Staggered Quark action where the ASQ-like effective
+links are constructed from reunitarized Fat7 links. A general procedure is
+presented for computing the derivative of the fermion action with respect to
+the base links (fermion force) - a key component in dynamical simulations using
+molecular dynamics evolution. The method is iterative and can be applied to
+actions with arbitrary levels of smearing and reunitarization. The cost of
+calculating the fermion force is determined for the ASQ action and the HISQ
+action. Test results show that calculating the HISQ force is about two times
+more expensive than the ASQ force.

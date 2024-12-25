@@ -1,0 +1,10 @@
+This paper develops an algorithm that identifies and decomposes a median
+graph of a triangulation of a 2-dimensional (2D) oriented bordered surface and
+in addition restores all corresponding triangulation whenever they exist. The
+algorithm is based on the consecutive simplification of the given graph by
+reducing degrees of its nodes. From the paper \cite{FST1}, it is known that
+such graphs can not have nodes of degrees above 8. Neighborhood of nodes of
+degrees 8,7,6,5, and 4 are consecutively simplified. Then, a criterion is
+provided to identify median graphs with nodes of degrees at most 3. As a
+byproduct, we produce an algorithm that is more effective than previous known
+to determine quivers of finite mutation type of size greater than 10.

@@ -1,0 +1,18 @@
+This paper presents a distributed algorithm on wireless ad-hoc networks that
+runs in polylogarithmic number of rounds in the size of the network and
+constructs a linear size, lightweight, (1+\epsilon)-spanner for any given
+\epsilon > 0. A wireless network is modeled by a d-dimensional \alpha-quasi
+unit ball graph (\alpha-UBG), which is a higher dimensional generalization of
+the standard unit disk graph (UDG) model. The d-dimensional \alpha-UBG model
+goes beyond the unrealistic ``flat world'' assumption of UDGs and also takes
+into account transmission errors, fading signal strength, and physical
+obstructions. The main result in the paper is this: for any fixed \epsilon > 0,
+0 < \alpha \le 1, and d \ge 2, there is a distributed algorithm running in
+O(\log n \log^* n) communication rounds on an n-node, d-dimensional \alpha-UBG
+G that computes a (1+\epsilon)-spanner G' of G with maximum degree \Delta(G') =
+O(1) and total weight w(G') = O(w(MST(G)). This result is motivated by the
+topology control problem in wireless ad-hoc networks and improves on existing
+topology control algorithms along several dimensions. The technical
+contributions of the paper include a new, sequential, greedy algorithm with
+relaxed edge ordering and lazy updating, and clustering techniques for
+filtering out unnecessary edges.

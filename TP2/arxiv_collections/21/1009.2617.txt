@@ -1,0 +1,24 @@
+We present a formal model for studying fashion trends, in terms of three
+parameters of fashionable items: (1) their innate utility; (2) individual
+boredom associated with repeated usage of an item; and (3) social influences
+associated with the preferences from other people. While there are several
+works that emphasize the effect of social influence in understanding fashion
+trends, in this paper we show how boredom plays a strong role in both
+individual and social choices. We show how boredom can be used to explain the
+cyclic choices in several scenarios such as an individual who has to pick a
+restaurant to visit every day, or a society that has to repeatedly `vote' on a
+single fashion style from a collection. We formally show that a society that
+votes for a single fashion style can be viewed as a single individual cycling
+through different choices.
+  In our model, the utility of an item gets discounted by the amount of boredom
+that has accumulated over the past; this boredom increases with every use of
+the item and decays exponentially when not used. We address the problem of
+optimally choosing items for usage, so as to maximize over-all satisfaction,
+i.e., composite utility, over a period of time. First we show that the simple
+greedy heuristic of always choosing the item with the maximum current composite
+utility can be arbitrarily worse than the optimal. Second, we prove that even
+with just a single individual, determining the optimal strategy for choosing
+items is NP-hard. Third, we show that a simple modification to the greedy
+algorithm that simply doubles the boredom of each item is a provably close
+approximation to the optimal strategy. Finally, we present an experimental
+study over real-world data collected from query logs to compare our algorithms.

@@ -1,0 +1,22 @@
+We introduce a new paradigm for quantum computing called Ancilla-Driven
+Quantum Computation (ADQC) combines aspects of the quantum circuit and the
+one-way model to overcome challenging issues in building large-scale quantum
+computers. Instead of directly manipulating each qubit to perform universal
+quantum logic gates or measurements, ADQC uses a fixed two-qubit interaction to
+couple the memory register of a quantum computer to an ancilla qubit. By
+measuring the ancilla, the measurement-induced back-action on the system
+performs the desired logical operations.
+  By demanding that the ancilla-system qubit interaction should lead to unitary
+and stepwise deterministic evolution, and that it should be possible to
+standardise the computation, that is, applying all global operations at the
+beginning, we are able to place conditions on the interactions that can be used
+for ADQC. We prove there are only two such classes of interactions
+characterised in terms of the non-local part of the interaction operator. This
+leads to the definition of a new entanglement resource called twisted graph
+states generated from non-commuting operators. The ADQC model is formalised in
+an algebraic framework similar to the Measurement Calculus. Furthermore, we
+present the notion of causal flow for twisted graph states, based on the
+stabiliser formalism, to characterise the determinism. Finally we demonstrate
+compositional embedding between ADQC and both the one-way and circuit models
+which will allow us to transfer recently developed theory and toolkits of
+measurement-based quantum computing directly into ADQC.

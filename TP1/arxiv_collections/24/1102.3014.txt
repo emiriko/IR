@@ -1,0 +1,15 @@
+In the framework of fractional stochastic calculus, we study the existence
+and the uniqueness of the solution for a backward stochastic differential
+equation, formally written as: [{[c]{l}% -dY(t)=
+f(t,\eta(t),Y(t),Z(t))dt-Z(t)\delta B^{H}(t), \quad t\in[0,T], Y(T)=\xi,.]
+where $\eta$ is a stochastic process given by $\eta(t)=\eta(0)
++\int_{0}^{t}\sigma(s) \delta B^{H}(s)$, $t\in[0,T]$, and $B^{H}$ is a
+fractional Brownian motion with Hurst parameter greater than 1/2. The
+stochastic integral used in above equation is the divergence-type integral.
+Based on Hu and Peng's paper, \textit{BDSEs driven by fBm}, SIAM J Control
+Optim. (2009), we develop a rigorous approach for this equation. Moreover, we
+study the existence of the solution for the multivalued backward stochastic
+differential equation [{[c]{l} -dY(t)+\partial\varphi(Y(t))dt\ni
+f(t,\eta(t),Y(t),Z(t))dt-Z(t)\delta B^{H}(t),\quad t\in[0,T], Y(T)=\xi,.] where
+$\partial\varphi$ is a multivalued operator of subdifferential type associated
+with the convex function $\varphi$.

@@ -1,0 +1,8 @@
+We describe two slice sampling methods for taking multivariate steps using
+the crumb framework. These methods use the gradients at rejected proposals to
+adapt to the local curvature of the log-density surface, a technique that can
+produce much better proposals when parameters are highly correlated. We
+evaluate our methods on four distributions and compare their performance to
+that of a non-adaptive slice sampling method and a Metropolis method. The
+adaptive methods perform favorably on low-dimensional target distributions with
+highly-correlated parameters.

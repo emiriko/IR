@@ -1,0 +1,16 @@
+We study the degree to which a character string, $Q$, leaks details about
+itself any time it engages in comparison protocols with a strings provided by a
+querier, Bob, even if those protocols are cryptographically guaranteed to
+produce no additional information other than the scores that assess the degree
+to which $Q$ matches strings offered by Bob. We show that such scenarios allow
+Bob to play variants of the game of Mastermind with $Q$ so as to learn the
+complete identity of $Q$. We show that there are a number of efficient
+implementations for Bob to employ in these Mastermind attacks, depending on
+knowledge he has about the structure of $Q$, which show how quickly he can
+determine $Q$. Indeed, we show that Bob can discover $Q$ using a number of
+rounds of test comparisons that is much smaller than the length of $Q$, under
+reasonable assumptions regarding the types of scores that are returned by the
+cryptographic protocols and whether he can use knowledge about the distribution
+that $Q$ comes from. We also provide the results of a case study we performed
+on a database of mitochondrial DNA, showing the vulnerability of existing
+real-world DNA data to the Mastermind attack.

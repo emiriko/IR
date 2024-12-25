@@ -1,0 +1,19 @@
+Recognizing the successes of treed Gaussian process (TGP) models as an
+interpretable and thrifty model for nonparametric regression, we seek to extend
+the model to classification. Both treed models and Gaussian processes (GPs)
+have, separately, enjoyed great success in application to classification
+problems. An example of the former is Bayesian CART. In the latter, real-valued
+GP output may be utilized for classification via latent variables, which
+provide classification rules by means of a softmax function. We formulate a
+Bayesian model averaging scheme to combine these two models and describe a
+Monte Carlo method for sampling from the full posterior distribution with joint
+proposals for the tree topology and the GP parameters corresponding to latent
+variables at the leaves. We concentrate on efficient sampling of the latent
+variables, which is important to obtain good mixing in the expanded parameter
+space. The tree structure is particularly helpful for this task and also for
+developing an efficient scheme for handling categorical predictors, which
+commonly arise in classification problems. Our proposed classification TGP
+(CTGP) methodology is illustrated on a collection of synthetic and real data
+sets. We assess performance relative to existing methods and thereby show how
+CTGP is highly flexible, offers tractable inference, produces rules that are
+easy to interpret, and performs well out of sample.

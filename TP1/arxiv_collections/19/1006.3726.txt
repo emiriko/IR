@@ -1,0 +1,13 @@
+In OLAP, analysts often select an interesting sample of the data. For
+example, an analyst might focus on products bringing revenues of at least 100
+000 dollars, or on shops having sales greater than 400 000 dollars. However,
+current systems do not allow the application of both of these thresholds
+simultaneously, selecting products and shops satisfying both thresholds. For
+such purposes, we introduce the diamond cube operator, filling a gap among
+existing data warehouse operations.
+  Because of the interaction between dimensions the computation of diamond
+cubes is challenging. We compare and test various algorithms on large data sets
+of more than 100 million facts. We find that while it is possible to implement
+diamonds in SQL, it is inefficient. Indeed, our custom implementation can be a
+hundred times faster than popular database engines (including a row-store and a
+column-store).

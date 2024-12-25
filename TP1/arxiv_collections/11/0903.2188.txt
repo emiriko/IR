@@ -1,0 +1,15 @@
+Fuzzy reasoning is a very productive research field that during the last
+years has provided a number of theoretical approaches and practical
+implementation prototypes. Nevertheless, the classical implementations, like
+Fril, are not adapted to the latest formal approaches, like multi-adjoint logic
+semantics. Some promising implementations, like Fuzzy Prolog, are so general
+that the regular user/programmer does not feel comfortable because either
+representation of fuzzy concepts is complex or the results difficult to
+interpret. In this paper we present a modern framework, Rfuzzy, that is
+modelling multi-adjoint logic. It provides some extensions as default values
+(to represent missing information, even partial default values) and typed
+variables. Rfuzzy represents the truth value of predicates through facts, rules
+and functions. Rfuzzy answers queries with direct results (instead of
+constraints) and it is easy to use for any person that wants to represent a
+problem using fuzzy reasoning in a simple way (by using the classical
+representation with real numbers).

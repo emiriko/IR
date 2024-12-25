@@ -1,0 +1,10 @@
+The canonical problem of solving a system of linear equations arises in
+numerous contexts in information theory, communication theory, and related
+fields. In this contribution, we develop a solution based upon Gaussian belief
+propagation (GaBP) that does not involve direct matrix inversion. The iterative
+nature of our approach allows for a distributed message-passing implementation
+of the solution algorithm. We also address some properties of the GaBP solver,
+including convergence, exactness, its max-product version and relation to
+classical solution methods. The application example of decorrelation in CDMA is
+used to demonstrate the faster convergence rate of the proposed solver in
+comparison to conventional linear-algebraic iterative solution methods.

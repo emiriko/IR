@@ -1,0 +1,18 @@
+We provide a rigorous mathematical analysis of two communication strategies:
+soft decode-and-forward (soft-DF) for relay channels, and soft partial
+interference-cancelation (soft-IC) for interference channels. Both strategies
+involve soft estimation, which assists the decoding process. We consider LDPC
+codes, not because of their practical benefits, but because of their analytic
+tractability, which enables an asymptotic analysis similar to random coding
+methods of information theory. Unlike some works on the closely-related
+demodulate-and-forward, we assume non-memoryless, code-structure-aware
+estimation. With soft-DF, we develop {\it simultaneous density evolution} to
+bound the decoding error probability at the destination. This result applies to
+erasure relay channels. In one variant of soft-DF, the relay applies Wyner-Ziv
+coding to enhance its communication with the destination, borrowing from
+compress-and-forward. To analyze soft-IC, we adapt existing techniques for
+iterative multiuser detection, and focus on binary-input additive white
+Gaussian noise (BIAWGN) interference channels. We prove that optimal
+point-to-point codes are unsuitable for soft-IC, as well as for all strategies
+that apply partial decoding to improve upon single-user detection (SUD) and
+multiuser detection (MUD), including Han-Kobayashi (HK).

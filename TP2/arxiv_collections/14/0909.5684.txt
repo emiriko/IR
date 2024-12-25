@@ -1,0 +1,20 @@
+Consider the "Number in Hand" multiparty communication complexity model,
+where k players holding inputs x_1,...,x_k in {0,1}^n communicate to compute
+the value f(x_1,...,x_k) of a function f known to all of them. The main lower
+bound technique for the communication complexity of such problems is that of
+partition arguments: partition the k players into two disjoint sets of players
+and find a lower bound for the induced two-party communication complexity
+problem.
+  In this paper, we study the power of partition arguments. Our two main
+results are very different in nature: (i) For randomized communication
+complexity, we show that partition arguments may yield bounds that are
+exponentially far from the true communication complexity. Specifically, we
+prove that there exists a 3-argument function f whose communication complexity
+is Omega(n), while partition arguments can only yield an Omega(log n) lower
+bound. The same holds for nondeterministic communication complexity. (ii) For
+deterministic communication complexity, we prove that finding significant gaps
+between the true communication complexity and the best lower bound that can be
+obtained via partition arguments, would imply progress on a generalized version
+of the "log-rank conjecture" in communication complexity.
+  We conclude with two results on the multiparty "fooling set technique",
+another method for obtaining communication complexity lower bounds.

@@ -1,0 +1,13 @@
+Wiener's attack is a well-known polynomial-time attack on a RSA cryptosystem
+with small secret decryption exponent d, which works if d<n^{0.25}, where n=pq
+is the modulus of the cryptosystem. Namely, in that case, d is the denominator
+of some convergent p_m/q_m of the continued fraction expansion of e/n, and
+therefore d can be computed efficiently from the public key (n,e).
+  There are several extensions of Wiener's attack that allow the RSA
+cryptosystem to be broken when d is a few bits longer than n^{0.25}. They all
+have the run-time complexity (at least) O(D^2), where d=Dn^{0.25}. Here we
+propose a new variant of Wiener's attack, which uses results on Diophantine
+approximations of the form |\alpha - p/q| < c/q^2, and "meet-in-the-middle"
+variant for testing the candidates (of the form rq_{m+1} + sq_m) for the secret
+exponent. This decreases the run-time complexity of the attack to O(D log(D))
+(with the space complexity O(D)).

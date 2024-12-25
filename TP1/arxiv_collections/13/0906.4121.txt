@@ -1,0 +1,6 @@
+Given an n x n matrix over the ring of differential polynomials
+F(t)[\D;\delta], we show how to compute the Hermite form H of A, and a
+unimodular matrix U such that UA=H. The algorithm requires a polynomial number
+of operations in terms of n, deg_D(A), and deg_t(A). When F is the field of
+rational numbers, it also requires time polynomial in the bit-length of the
+coefficients.

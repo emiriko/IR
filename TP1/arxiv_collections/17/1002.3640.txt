@@ -1,0 +1,16 @@
+Improved EM strategies, based on the idea of efficient data augmentation
+(Meng and van Dyk 1997, 1998), are presented for ML estimation of mixture
+proportions. The resulting algorithms inherit the simplicity, ease of
+implementation, and monotonic convergence properties of EM, but have
+considerably improved speed. Because conventional EM tends to be slow when
+there exists a large overlap between the mixture components, we can improve the
+speed without sacrificing the simplicity or stability, if we can reformulate
+the problem so as to reduce the amount of overlap. We propose simple
+"squeezing" strategies for that purpose. Moreover, for high-dimensional
+problems, such as computing the nonparametric MLE of the distribution function
+with censored data, a natural and effective remedy for conventional EM is to
+add exchange steps (based on improved EM) between adjacent mixture components,
+where the overlap is most severe. Theoretical considerations show that the
+resulting EM-type algorithms, when carefully implemented, are globally
+convergent. Simulated and real data examples show dramatic improvement in speed
+in realistic situations.

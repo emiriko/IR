@@ -1,0 +1,10 @@
+We propose a quantum error correction without error detection. A quantum
+state $\rho_0$ combined with an ancilla state $\sigma$ is encoded unitarily and
+an error operator is applied on the encoded state. The recovery operation then
+produces a tensor product state $\rho_0 \otimes \sigma'$. The decoding
+operation is combined with the recovery operation and the state $\rho_0$ is
+directly reproduced without referring to the code word. A higher rank
+projection operator required for a conventional operator quantum error
+correction is not necessary to implement. Encoding and the recovery operations
+are implemented with unitary operators only, which makes quantum error
+correction much easier than any other proposals.

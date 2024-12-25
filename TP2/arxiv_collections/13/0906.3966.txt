@@ -1,0 +1,18 @@
+This paper proposes a new scheduler applying the concept of non-uniform
+laxity to Earliest deadline first (EDF) approach for aperiodic tasks. This
+scheduler improves task utilisation (Execution time / deadline) and also
+increases the number of tasks that are being scheduled. Laxity is a measure of
+the spare time permitted for the task before it misses its deadline, and is
+computed using the expression (deadline - (current time + execution time)).
+Weight decides the priority of the task and is defined by the expression
+(quantum slice time / allocated time)*total core time for the task. Quantum
+slice time is the time actually used, allocated time is the time allocated by
+the scheduler, and total core time is the time actually reserved by the core
+for execution of one quantum of the task. Non-uniform laxity enables scheduling
+of tasks that have higher priority before the normal execution of other tasks
+and is computed by multiplying the weight of the task with its laxity. The
+algorithm presented in the paper has been simulated on Cheddar, a real time
+scheduling tool and also on SESC, an architectural simulator for multicore
+platforms, for upto 5000 random task sets, and upto 5000 cores. This scheduler
+improves task utilisation by 35% and the number of tasks being scheduled by
+36%, compared to conventional EDF.

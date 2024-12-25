@@ -1,0 +1,16 @@
+A number of flexible tactic-based logical frameworks are nowadays available
+that can implement a wide range of mathematical theories using a common
+higher-order metalanguage. Used as proof assistants, one of the advantages of
+such powerful systems resides in their responsiveness to extensibility of their
+reasoning capabilities, being designed over rule-based programming languages
+that allow the user to build her own `programs to construct proofs' - the
+so-called proof tactics.
+  The present contribution discusses the implementation of an algorithm that
+generates sound and complete tableau systems for a very inclusive class of
+sufficiently expressive finite-valued propositional logics, and then
+illustrates some of the challenges and difficulties related to the algorithmic
+formation of automated theorem proving tactics for such logics. The procedure
+on whose implementation we will report is based on a generalized notion of
+analyticity of proof systems that is intended to guarantee termination of the
+corresponding automated tactics on what concerns theoremhood in our targeted
+logics.

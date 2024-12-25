@@ -1,0 +1,17 @@
+A code for communication over the k-receiver additive white Gaussian noise
+broadcast channel with feedback is presented and analyzed using tools from the
+theory of linear quadratic Gaussian optimal control. It is shown that the
+performance of this code depends on the noise correlation at the receivers and
+it is related to the solution of a discrete algebraic Riccati equation. For the
+case of independent noises, the sum rate achieved by the proposed code,
+satisfying average power constraint P, is characterized as 1/2 log (1+P*phi),
+where the coefficient "phi" in the interval [1,k] quantifies the power gain due
+to the presence of feedback. When specialized to the case of two receivers,
+this includes a previous result by Elia and strictly improves upon the code of
+Ozarow and Leung. When the noises are correlated, the pre-log of the
+sum-capacity of the broadcast channel with feedback can be strictly greater
+than one. It is established that for all noise covariance matrices of rank r
+the pre-log of the sum capacity is at most k-r+1 and, conversely, there exists
+a noise covariance matrix of rank r for which the proposed code achieves this
+upper bound. This generalizes a previous result by Gastpar and Wigger for the
+two-receiver broadcast channel.

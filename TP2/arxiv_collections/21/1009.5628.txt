@@ -1,0 +1,9 @@
+An n-town, for a natural number n, is a group of n buildings, each occupying
+a distinct position on a 2-dimensional integer grid. If we measure the distance
+between two buildings along the axis-parallel street grid, then an n-town has
+optimal shape if the sum of all pairwise Manhattan distances is minimized. This
+problem has been studied for cities, i.e., the limiting case of very large n.
+For cities, it is known that the optimal shape can be described by a
+differential equation, for which no closed-form is known. We show that optimal
+n-towns can be computed in O(n^7.5) time. This is also practically useful, as
+it allows us to compute optimal solutions up to n=80.

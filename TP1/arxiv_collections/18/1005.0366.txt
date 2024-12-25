@@ -1,0 +1,15 @@
+We propose a new and computationally efficient algorithm for maximizing the
+observed log-likelihood for a multivariate normal data matrix with missing
+values. We show that our procedure based on iteratively regressing the missing
+on the observed variables, generalizes the standard EM algorithm by alternating
+between different complete data spaces and performing the E-Step incrementally.
+In this non-standard setup we prove numerical convergence to a stationary point
+of the observed log-likelihood.
+  For high-dimensional data, where the number of variables may greatly exceed
+sample size, we add a Lasso penalty in the regression part of our algorithm and
+perform coordinate descent approximations. This leads to a computationally very
+attractive technique with sparse regression coefficients for missing data
+imputation. Simulations and results on four microarray datasets show that the
+new method often outperforms other imputation techniques as k-nearest neighbors
+imputation, nuclear norm minimization or a penalized likelihood approach with
+an l1-penalty on the inverse covariance matrix.

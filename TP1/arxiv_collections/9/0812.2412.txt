@@ -1,0 +1,16 @@
+This paper presents an impact assessment for the imputation of missing data.
+The data set used is HIV Seroprevalence data from an antenatal clinic study
+survey performed in 2001. Data imputation is performed through five methods:
+Random Forests, Autoassociative Neural Networks with Genetic Algorithms,
+Autoassociative Neuro-Fuzzy configurations, and two Random Forest and Neural
+Network based hybrids. Results indicate that Random Forests are superior in
+imputing missing data in terms both of accuracy and of computation time, with
+accuracy increases of up to 32% on average for certain variables when compared
+with autoassociative networks. While the hybrid systems have significant
+promise, they are hindered by their Neural Network components. The imputed data
+is used to test for impact in three ways: through statistical analysis, HIV
+status classification and through probability prediction with Logistic
+Regression. Results indicate that these methods are fairly immune to imputed
+data, and that the impact is not highly significant, with linear correlations
+of 96% between HIV probability prediction and a set of two imputed variables
+using the logistic regression analysis.

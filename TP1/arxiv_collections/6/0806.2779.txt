@@ -1,0 +1,18 @@
+A Steinhaus matrix is a binary square matrix of size $n$ which is symmetric,
+with diagonal of zeros, and whose upper-triangular coefficients satisfy
+$a_{i,j}=a_{i-1,j-1}+a_{i-1,j}$ for all $2\leq i<j\leq n$. Steinhaus matrices
+are determined by their first row. A Steinhaus graph is a simple graph whose
+adjacency matrix is a Steinhaus matrix. We give a short new proof of a theorem,
+due to Dymacek, which states that even Steinhaus graphs, i.e. those with all
+vertex degrees even, have doubly-symmetric Steinhaus matrices. In 1979 Dymacek
+conjectured that the complete graph on two vertices $K_2$ is the only regular
+Steinhaus graph of odd degree. Using Dymacek's theorem, we prove that if
+$(a_{i,j})_{1\leq i,j\leq n}$ is a Steinhaus matrix associated with a regular
+Steinhaus graph of odd degree then its sub-matrix $(a_{i,j})_{2\leq i,j\leq
+n-1}$ is a multi-symmetric matrix, that is a doubly-symmetric matrix where each
+row of its upper-triangular part is a symmetric sequence. We prove that the
+multi-symmetric Steinhaus matrices of size $n$ whose Steinhaus graphs are
+regular modulo 4, i.e. where all vertex degrees are equal modulo 4, only depend
+on $\lceil \frac{n}{24}\rceil$ parameters for all even numbers $n$, and on
+$\lceil \frac{n}{30}\rceil$ parameters in the odd case. This result permits us
+to verify the Dymacek's conjecture up to 1500 vertices in the odd case.

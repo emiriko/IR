@@ -1,0 +1,16 @@
+Algorithmic entropy and Shannon entropy are two conceptually different
+information measures, as the former is based on size of programs and the later
+in probability distributions. However, it is known that, for any recursive
+probability distribution, the expected value of algorithmic entropy equals its
+Shannon entropy, up to a constant that depends only on the distribution. We
+study if a similar relationship holds for R\'{e}nyi and Tsallis entropies of
+order $\alpha$, showing that it only holds for R\'{e}nyi and Tsallis entropies
+of order 1 (i.e., for Shannon entropy). Regarding a time bounded analogue
+relationship, we show that, for distributions such that the cumulative
+probability distribution is computable in time $t(n)$, the expected value of
+time-bounded algorithmic entropy (where the alloted time is $nt(n)\log
+(nt(n))$) is in the same range as the unbounded version. So, for these
+distributions, Shannon entropy captures the notion of computationally
+accessible information. We prove that, for universal time-bounded distribution
+$\m^t(x)$, Tsallis and R\'{e}nyi entropies converge if and only if $\alpha$ is
+greater than 1.

@@ -1,0 +1,17 @@
+We establish concrete mathematical criteria to distinguish between different
+kinds of written storytelling, fictional and non-fictional. Specifically, we
+constructed a semantic network from both novels and news stories, with $N$
+independent words as vertices or nodes, and edges or links allotted to words
+occurring within $m$ places of a given vertex; we call $m$ the word distance.
+We then used measures from complex network theory to distinguish between news
+and fiction, studying the minimal text length needed as well as the optimized
+word distance $m$. The literature samples were found to be most effectively
+represented by their corresponding power laws over degree distribution $P(k)$
+and clustering coefficient $C(k)$; we also studied the mean geodesic distance,
+and found all our texts were small-world networks. We observed a natural
+break-point at $k=\sqrt{N}$ where the power law in the degree distribution
+changed, leading to separate power law fit for the bulk and the tail of $P(k)$.
+Our linear discriminant analysis yielded a $73.8 \pm 5.15%$ accuracy for the
+correct classification of novels and $69.1 \pm 1.22%$ for news stories. We
+found an optimal word distance of $m=4$ and a minimum text length of 100 to 200
+words $N$.

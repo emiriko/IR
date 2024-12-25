@@ -1,0 +1,20 @@
+We present and compare third- as well as fifth-order accurate finite
+difference schemes for the numerical solution of the compressible ideal MHD
+equations in multiple spatial dimensions. The selected methods lean on four
+different reconstruction techniques based on recently improved versions of the
+weighted essentially non-oscillatory (WENO) schemes, monotonicity preserving
+(MP) schemes as well as slope-limited polynomial reconstruction. The proposed
+numerical methods are highly accurate in smooth regions of the flow, avoid loss
+of accuracy in proximity of smooth extrema and provide sharp non-oscillatory
+transitions at discontinuities. We suggest a numerical formulation based on a
+cell-centered approach where all of the primary flow variables are discretized
+at the zone center. The divergence-free condition is enforced by augmenting the
+MHD equations with a generalized Lagrange multiplier yielding a mixed
+hyperbolic/parabolic correction, as in Dedner et al. (J. Comput. Phys. 175
+(2002) 645-673). The resulting family of schemes is robust, cost-effective and
+straightforward to implement. Compared to previous existing approaches, it
+completely avoids the CPU intensive workload associated with an elliptic
+divergence cleaning step and the additional complexities required by staggered
+mesh algorithms. Extensive numerical testing demonstrate the robustness and
+reliability of the proposed framework for computations involving both smooth
+and discontinuous features.

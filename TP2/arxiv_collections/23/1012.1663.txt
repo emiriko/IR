@@ -1,0 +1,13 @@
+Unstructured information comprises a valuable source of data in clinical
+records. For text mining in clinical records, concept extraction is the first
+step in finding assertions and relationships. This study presents a system
+developed for the annotation of medical concepts, including medical problems,
+tests, and treatments, mentioned in clinical records. The system combines six
+publicly available named entity recognition system into one framework, and uses
+a simple voting scheme that allows to tune precision and recall of the system
+to specific needs. The system provides both a web service interface and a UIMA
+interface which can be easily used by other systems. The system was tested in
+the fourth i2b2 challenge and achieved an F-score of 82.1% for the concept
+exact match task, a score which is among the top-ranking systems. To our
+knowledge, this is the first publicly available clinical record concept
+annotation system.

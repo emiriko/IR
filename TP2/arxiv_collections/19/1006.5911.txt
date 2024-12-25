@@ -1,0 +1,10 @@
+In this paper a scheme for offline Handwritten Devnagari Character
+Recognition is proposed, which uses different feature extraction methodologies
+and recognition algorithms. The proposed system assumes no constraints in
+writing style or size. First the character is preprocessed and features namely
+: Chain code histogram and moment invariant features are extracted and fed to
+Multilayer Perceptrons as a preliminary recognition step. Finally the results
+of both MLP's are combined using weighted majority scheme. The proposed system
+is tested on 1500 handwritten devnagari character database collected from
+different people. It is observed that the proposed system achieves recognition
+rates 98.03% for top 5 results and 89.46% for top 1 result.

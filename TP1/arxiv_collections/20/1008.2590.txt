@@ -1,0 +1,11 @@
+Streams are infinite sequences over a given data type. A stream specification
+is a set of equations intended to define a stream. We propose a transformation
+from such a stream specification to a term rewriting system (TRS) in such a way
+that termination of the resulting TRS implies that the stream specification is
+well-defined, that is, admits a unique solution. As a consequence, proving
+well-definedness of several interesting stream specifications can be done fully
+automatically using present powerful tools for proving TRS termination. In
+order to increase the power of this approach, we investigate transformations
+that preserve semantics and well-definedness. We give examples for which the
+above mentioned technique applies for the ransformed specification while it
+fails for the original one.

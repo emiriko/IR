@@ -1,0 +1,22 @@
+As more and more service providers choose Cloud platforms, which is provided
+by third party resource providers, resource providers needs to provision
+resources for heterogeneous workloads in different Cloud scenarios. Taking into
+account the dramatic differences of heterogeneous workloads, can we
+coordinately provision resources for heterogeneous workloads in Cloud
+computing? In this paper we focus on this important issue, which is
+investigated by few previous work. Our contributions are threefold: (1) we
+respectively propose a coordinated resource provisioning solution for
+heterogeneous workloads in two typical Cloud scenarios: first, a large
+organization operates a private Cloud for two heterogeneous workloads; second,
+a large organization or two service providers running heterogeneous workloads
+revert to a public Cloud; (2) we build an agile system PhoenixCloud that
+enables a resource provider to create coordinated runtime environments on
+demand for heterogeneous workloads when they are consolidated on a Cloud site;
+and (3) A comprehensive evaluation has been performed in experiments. For two
+typical heterogeneous workload traces: parallel batch jobs and Web services,
+our experiments show that: a) in a private Cloud scenario, when the throughput
+is almost same like that of a dedicated cluster system, our solution decreases
+the configuration size of a cluster by about 40%; b) in a public Cloud
+scenario, our solution decreases not only the total resource consumption, but
+also the peak resource consumption maximally to 31% with respect to that of EC2
++RightScale solution.

@@ -1,0 +1,15 @@
+For the multi-peg Tower of Hanoi problem with $k \geqslant 4$ pegs, so far
+the best solution is obtained by the Stewart's algorithm based on the the
+following recurrence relation: $\mathrm{S}\_k(n)=\min\_{1 \leqslant t \leqslant
+n} \left\{2 \cdot \mathrm{S}\_k(n-t) + \mathrm{S}\_{k-1}(t)\right\}$,
+$\mathrm{S}\_3(n) = 2^n -- 1$. In this paper, we generalize this recurrence
+relation to $\mathrm{G}\_k(n) = \min\_{1\leqslant t\leqslant n}\left\{
+p\_k\cdot \mathrm{G}\_k(n-t) + q\_k\cdot \mathrm{G}\_{k-1}(t) \right\}$,
+$\mathrm{G}\_3(n) = p\_3\cdot \mathrm{G}\_3(n-1) + q\_3$, for two sequences of
+arbitrary positive integers $\left(p\_i\right)\_{i \geqslant 3}$ and
+$\left(q\_i\right)\_{i \geqslant 3}$ and we show that the sequence of
+differences $\left(\mathrm{G}\_k(n)- \mathrm{G}\_k(n-1)\right)\_{n \geqslant
+1}$ consists of numbers of the form $\left(\prod\_{i=3}^{k}q\_i\right) \cdot
+\left(\prod\_{i=3}^{k}{p\_i}^{\alpha\_i}\right)$, with $\alpha\_i\geqslant 0$
+for all $i$, arranged in nondecreasing order. We also apply this result to
+analyze recurrence relations for the Tower of Hanoi problems on several graphs.

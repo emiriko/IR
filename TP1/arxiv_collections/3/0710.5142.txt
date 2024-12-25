@@ -1,0 +1,15 @@
+The popular neighbor-joining (NJ) algorithm used in phylogenetics is a greedy
+algorithm for finding the balanced minimum evolution (BME) tree associated to a
+dissimilarity map. From this point of view, NJ is ``optimal'' when the
+algorithm outputs the tree which minimizes the balanced minimum evolution
+criterion. We use the fact that the NJ tree topology and the BME tree topology
+are determined by polyhedral subdivisions of the spaces of dissimilarity maps
+${\R}_{+}^{n \choose 2}$ to study the optimality of the neighbor-joining
+algorithm. In particular, we investigate and compare the polyhedral
+subdivisions for $n \leq 8$. A key requirement is the measurement of volumes of
+spherical polytopes in high dimension, which we obtain using a combination of
+Monte Carlo methods and polyhedral algorithms. We show that highly unrelated
+trees can be co-optimal in BME reconstruction, and that NJ regions are not
+convex. We obtain the $l_2$ radius for neighbor-joining for $n=5$ and we
+conjecture that the ability of the neighbor-joining algorithm to recover the
+BME tree depends on the diameter of the BME tree.

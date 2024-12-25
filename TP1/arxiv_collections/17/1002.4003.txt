@@ -1,0 +1,16 @@
+Outlier detection in data streams has gained wide importance presently due to
+the increasing cases of fraud in various applications of data streams. The
+techniques for outlier detection have been divided into either statistics
+based, distance based, density based or deviation based. Till now, most of the
+work in the field of fraud detection was distance based but it is incompetent
+from computational point of view. In this paper we introduced a new clustering
+based approach, which divides the stream in chunks and clusters each chunk
+using kmedian into variable number of clusters. Instead of storing complete
+data stream chunk in memory, we replace it with the weighted medians found
+after mining a data stream chunk and pass that information along with the newly
+arrived data chunk to the next phase. The weighted medians found in each phase
+are tested for outlierness and after a given number of phases, it is either
+declared as a real outlier or an inlier. Our technique is theoretically better
+than the k-means as it does not fix the number of clusters to k rather gives a
+range to it and provides a more stable and better solution which runs in
+poly-logarithmic space.

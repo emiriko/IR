@@ -1,0 +1,20 @@
+Principal component analysis (PCA) is a classical method for dimensionality
+reduction based on extracting the dominant eigenvectors of the sample
+covariance matrix. However, PCA is well known to behave poorly in the ``large
+$p$, small $n$'' setting, in which the problem dimension $p$ is comparable to
+or larger than the sample size $n$. This paper studies PCA in this
+high-dimensional regime, but under the additional assumption that the maximal
+eigenvector is sparse, say, with at most $k$ nonzero components. We consider a
+spiked covariance model in which a base matrix is perturbed by adding a
+$k$-sparse maximal eigenvector, and we analyze two computationally tractable
+methods for recovering the support set of this maximal eigenvector, as follows:
+(a) a simple diagonal thresholding method, which transitions from success to
+failure as a function of the rescaled sample size
+$\theta_{\mathrm{dia}}(n,p,k)=n/[k^2\log(p-k)]$; and (b) a more sophisticated
+semidefinite programming (SDP) relaxation, which succeeds once the rescaled
+sample size $\theta_{\mathrm{sdp}}(n,p,k)=n/[k\log(p-k)]$ is larger than a
+critical threshold. In addition, we prove that no method, including the best
+method which has exponential-time complexity, can succeed in recovering the
+support if the order parameter $\theta_{\mathrm{sdp}}(n,p,k)$ is below a
+threshold. Our results thus highlight an interesting trade-off between
+computational and statistical efficiency in high-dimensional inference.

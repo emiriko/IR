@@ -1,0 +1,12 @@
+We propose a technique for pattern classification in symbolic streams via
+selective erasure of observed symbols, in cases where the patterns of interest
+are represented as Probabilistic Finite State Automata (PFSA). We define an
+additive abelian group for a slightly restricted subset of probabilistic finite
+state automata (PFSA), and the group sum is used to formulate pattern-specific
+semantic annihilators. The annihilators attempt to identify pre-specified
+patterns via removal of essentially all inter-symbol correlations from observed
+sequences, thereby turning them into symbolic white noise. Thus a perfect
+annihilation corresponds to a perfect pattern match. This approach of
+classification via information annihilation is shown to be strictly
+advantageous, with theoretical guarantees, for a large class of PFSA models.
+The results are supported by simulation experiments.

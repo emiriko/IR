@@ -1,0 +1,13 @@
+Component-based systems often describe context requirements in terms of
+explicit inter-component dependencies. Studying large instances of such
+systems?such as free and open source software (FOSS) distributions?in terms of
+declared dependencies between packages is appealing. It is however also
+misleading when the language to express dependencies is as expressive as
+boolean formulae, which is often the case. In such settings, a more appropriate
+notion of component dependency exists: strong dependency. This paper introduces
+such notion as a first step towards modeling semantic, rather then syntactic,
+inter-component relationships. Furthermore, a notion of component sensitivity
+is derived from strong dependencies, with ap- plications to quality assurance
+and to the evaluation of upgrade risks. An empirical study of strong
+dependencies and sensitivity is presented, in the context of one of the
+largest, freely available, component-based system.

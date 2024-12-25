@@ -1,0 +1,24 @@
+In this paper, we consider rendering color videos using a non-photo-realistic
+art form technique commonly called stippling. Stippling is the art of rendering
+images using point sets, possibly with various attributes like sizes,
+elementary shapes, and colors. Producing nice stippling is attractive not only
+for the sake of image depiction but also because it yields a compact vectorial
+format for storing the semantic information of media. Moreover, stippling is by
+construction easily tunable to various device resolutions without suffering
+from bitmap sampling artifacts when resizing. The underlying core technique for
+stippling images is to compute a centroidal Voronoi tessellation on a
+well-designed underlying density. This density relates to the image content,
+and is used to compute a weighted Voronoi diagram. By considering videos as
+image sequences and initializing properly the stippling of one image by the
+result of its predecessor, one avoids undesirable point flickering artifacts
+and can produce stippled videos that nevertheless still exhibit noticeable
+artifacts. To overcome this, our method improves over the naive scheme by
+considering dynamic point creation and deletion according to the current scene
+semantic complexity, and show how to effectively vectorize video while
+adjusting for both color and contrast characteristics. Furthermore, we explain
+how to produce high quality stippled ``videos'' (eg., fully dynamic
+spatio-temporal point sets) for media containing various fading effects, like
+quick motions of objects or progressive shot changes. We report on practical
+performances of our implementation, and present several stippled video results
+rendered on-the-fly using our viewer that allows both spatio-temporal dynamic
+rescaling (eg., upscale vectorially frame rate).

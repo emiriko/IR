@@ -1,0 +1,16 @@
+We start with a set of n players. With some probability P(n,k), we kill n-k
+players; the other ones stay alive, and we repeat with them. What is the
+distribution of the number X_n of phases (or rounds) before getting only one
+player? We present a probabilistic analysis of this algorithm under some
+conditions on the probability distributions P(n,k), including stochastic
+monotonicity and the assumption that roughly a fixed proportion alpha of the
+players survive in each round.
+  We prove a kind of convergence in distribution for X_n-log_a n, where the
+basis a=1/alpha; as in many other similar problems there are oscillations and
+no true limit distribution, but suitable subsequences converge, and there is an
+absolutely continuous random variable Z such that the distribution of X_n can
+be approximated by Z+log_a n rounded to the nearest larger integer.
+  Applications of the general result include the leader election algorithm
+where players are eliminated by independent coin tosses and a variation of the
+leader election algorithm proposed by W.R. Franklin. We study the latter
+algorithm further, including numerical results.

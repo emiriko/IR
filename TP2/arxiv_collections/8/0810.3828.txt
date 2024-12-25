@@ -1,0 +1,20 @@
+The key approaches for machine learning, especially learning in unknown
+probabilistic environments are new representations and computation mechanisms.
+In this paper, a novel quantum reinforcement learning (QRL) method is proposed
+by combining quantum theory and reinforcement learning (RL). Inspired by the
+state superposition principle and quantum parallelism, a framework of value
+updating algorithm is introduced. The state (action) in traditional RL is
+identified as the eigen state (eigen action) in QRL. The state (action) set can
+be represented with a quantum superposition state and the eigen state (eigen
+action) can be obtained by randomly observing the simulated quantum state
+according to the collapse postulate of quantum measurement. The probability of
+the eigen action is determined by the probability amplitude, which is
+parallelly updated according to rewards. Some related characteristics of QRL
+such as convergence, optimality and balancing between exploration and
+exploitation are also analyzed, which shows that this approach makes a good
+tradeoff between exploration and exploitation using the probability amplitude
+and can speed up learning through the quantum parallelism. To evaluate the
+performance and practicability of QRL, several simulated experiments are given
+and the results demonstrate the effectiveness and superiority of QRL algorithm
+for some complex problems. The present work is also an effective exploration on
+the application of quantum computation to artificial intelligence.

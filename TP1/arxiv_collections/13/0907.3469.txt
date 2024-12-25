@@ -1,0 +1,19 @@
+To understand the performance of popular density-functional theory (DFT)
+exchange-correlation (xc) functionals in simulations of liquid water, water
+monomers and dimers were extracted from a PBE simulation of liquid water and
+examined with coupled cluster with single and double excitations plus a
+perturbative correction for connected triples [CCSD(T)]. CCSD(T) reveals that
+most of the dimers are unbound compared to two gas phase equilibrium water
+monomers, largely because monomers within the liquid have distorted geometries.
+Of the three xc functionals tested, PBE and BLYP systematically underestimate
+the cost of the monomer deformations and consequently predict too large
+dissociation energies between monomers within the dimers. This is in marked
+contrast to how these functionals perform for an equilibrium water dimer and
+other small water clusters in the gas phase, which only have moderately
+deformed monomers. PBE0 reproduces the CCSD(T) monomer deformation energies
+very well and consequently the dimer dissociation energies much more accurately
+than PBE and BLYP. Although this study is limited to water monomers and dimers,
+the results reported here may provide an explanation for the overstructured
+radial distribution functions routinely observed in BLYP and PBE simulations of
+liquid water and are of relevance to water in other phases and to other
+associated molecular liquids.

@@ -1,0 +1,11 @@
+The Osher-Chakrabarthy family of linear flux-modification schemes is
+considered. Improved lower bounds on the compression factors are provided,
+which suggest the viability of using the unlimited version. The LLF flux
+formula is combined with these schemes in order to obtain efficient
+finite-difference algorithms. The resulting schemes are applied to a battery of
+numerical tests, going from advection and Burgers equations to Euler and MHD
+equations, including the double Mach reflection and the Orszag-Tang 2D vortex
+problem. Total-variation-bounded behavior is evident in all cases, even with
+time-independent upper bounds. The proposed schemes, however, do not deal
+properly with compound shocks, arising from non-convex fluxes, as shown by
+Buckley-Leverett test simulations.

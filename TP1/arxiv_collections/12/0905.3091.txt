@@ -1,0 +1,16 @@
+This paper proposes and analyzes fully data driven methods for inference
+about the mean function of a stochastic process from a sample of independent
+trajectories of the process, observed at discrete time points and corrupted by
+additive random error. The proposed method uses thresholded least squares
+estimators relative to an approximating function basis. The variable threshold
+levels are estimated from the data and the basis is chosen via cross-validation
+from a library of bases. The resulting estimates adapt to the unknown sparsity
+of the mean function relative to the selected approximating basis, both in
+terms of the mean squared error and supremum norm. These results are based on
+novel oracle inequalities. In addition, uniform confidence bands for the mean
+function of the process are constructed. The bands also adapt to the unknown
+regularity of the mean function, are easy to compute, and do not require
+explicit estimation of the covariance operator of the process. The simulation
+study that complements the theoretical results shows that the new method
+performs very well in practice, and is robust against large variations
+introduced by the random error terms.

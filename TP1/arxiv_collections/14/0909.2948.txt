@@ -1,0 +1,17 @@
+Given independent random points $\mathcal{X}_n=\{X_1,...,X_n\}$ in
+$\mathbb{R}^2$, drawn according to some probability density function $f$ on
+$\mathbb{R}^2$, and a cutoff $r_n>0$ we construct a random geometric digraph
+$G(\mathcal{X}_n,\mathcal{Y}_n,r_n)$ with vertex set $\mathcal{X}_n$. Each
+vertex $X_i$ is assigned uniformly at random a sector $S_i$, of central angle
+$\alpha$ with inclination $Y_i$, in a circle of radius $r_n$ (with vertex $X_i$
+as the origin). An arc is present from $X_i$ to $X_j$, if $X_j$ falls in $S_i$.
+We also introduce another random geometric digraph
+$G(\mathcal{X}_n,\mathcal{R}_n)$ with vertex set
+$\mathcal{X}_n=\{X_1,...,X_n\}$ in $\mathbb{R}^d$, $d\ge1$ and an arc present
+from $X_i$ to $X_j$ if $||X_i-X_j||<R_{n,i}$. Here $\{R_{n,i}\}_{i\ge1}$ are
+i.i.d. random variables and we may take an arbitrary norm $||\cdot||$. In this
+paper we investigate two kinds of small subgraphs--induced and isolated--in the
+above two directed networks, which contribute to understanding the local
+topology of many spatial networks, such as wireless communication networks. We
+give some strong laws of large numbers of subgraph counts thus extending those
+results of Penrose [Random Geometric Graphs, Oxford University Press, 2003].

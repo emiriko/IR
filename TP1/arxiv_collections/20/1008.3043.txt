@@ -1,0 +1,18 @@
+Let us assume that $f$ is a continuous function defined on the unit ball of
+$\mathbb R^d$, of the form $f(x) = g (A x)$, where $A$ is a $k \times d$ matrix
+and $g$ is a function of $k$ variables for $k \ll d$. We are given a budget $m
+\in \mathbb N$ of possible point evaluations $f(x_i)$, $i=1,...,m$, of $f$,
+which we are allowed to query in order to construct a uniform approximating
+function. Under certain smoothness and variation assumptions on the function
+$g$, and an {\it arbitrary} choice of the matrix $A$, we present in this paper
+  1. a sampling choice of the points $\{x_i\}$ drawn at random for each
+function approximation;
+  2. algorithms (Algorithm 1 and Algorithm 2) for computing the approximating
+function, whose complexity is at most polynomial in the dimension $d$ and in
+the number $m$ of points.
+  Due to the arbitrariness of $A$, the choice of the sampling points will be
+according to suitable random distributions and our results hold with
+overwhelming probability. Our approach uses tools taken from the {\it
+compressed sensing} framework, recent Chernoff bounds for sums of
+positive-semidefinite matrices, and classical stability bounds for invariant
+subspaces of singular value decompositions.

@@ -1,0 +1,23 @@
+The number of scientific publications is constantly rising, increasing the
+strain on the review process. The number of submissions is actually higher, as
+each manuscript is often reviewed several times before publication. To face the
+deluge of submissions, top journals reject a considerable fraction of
+manuscripts without review, potentially declining manuscripts with merit. The
+situation is frustrating for authors, reviewers and editors alike. Recently,
+several editors wrote about the ``tragedy of the reviewer commons', advocating
+for urgent corrections to the system. Almost every scientist has ideas on how
+to improve the system, but it is very difficult, if not impossible, to perform
+experiments to test which measures would be most effective. Surprisingly,
+relatively few attempts have been made to model peer review. Here I implement a
+simulation framework in which ideas on peer review can be quantitatively
+tested. I incorporate authors, reviewers, manuscripts and journals into an
+agent-based model and a peer review system emerges from their interactions. As
+a proof-of-concept, I contrast an implementation of the current system, in
+which authors decide the journal for their submissions, with a system in which
+journals bid on manuscripts for publication. I show that, all other things
+being equal, this latter system solves most of the problems currently
+associated with the peer review process. Manuscripts' evaluation is faster,
+authors publish more and in better journals, and reviewers' effort is optimally
+utilized. However, more work is required from editors. This modeling framework
+can be used to test other solutions for peer review, leading the way for an
+improvement of how science is disseminated.

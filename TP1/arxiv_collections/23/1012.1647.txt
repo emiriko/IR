@@ -1,0 +1,23 @@
+Three-dimensional field distributions from realistic beamline elements can be
+obtained only by measurement or by numerical solution of a boundary-value
+problem. In numerical charged-particle map generation, fields along a reference
+trajectory are differentiated multiple times. Any attempt to differentiate
+directly such field data multiple times is soon dominated by "noise" due to
+finite meshing and/or measurement errors. This problem can be overcome by the
+use of field data on a surface outside of the reference trajectory to
+reconstruct the fields along and around the reference trajectory. The integral
+kernels for Laplace's equation that provide interior fields in terms of
+boundary data or boundary sources are smoothing: interior fields will be
+analytic even if the boundary data or source distributions fail to be
+differentiable or are even discontinuous. In our approach, we employ all three
+components of the field on the surface to find a superposition of single-layer
+and double-layer surface source distributions that can be used together with
+simple, surface-shape-independent kernels for computing vector potentials and
+their multiple derivatives (required for a Hamiltonian map integration) at
+interior points. These distributions and kernels are found by the aid of
+Helmholtz's theorem (or equivalently, by Green's theorem). A novel application
+of the Dirac-monopole vector potential is used to find a kernel for the
+single-layer distribution. These methods are the basis for map-generating
+modules that can be added to existing numerical electromagnetic field-solving
+codes and would produce transfer maps to any order for arbitrary static
+charged-particle beamline elements.

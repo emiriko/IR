@@ -1,0 +1,12 @@
+This paper introduces the concept of incremental traceback for determining
+changes in the trace of a network as it evolves with time. A distributed
+algorithm, based on the methodology of algebraic traceback developed by Dean et
+al, is proposed which can completely determine a path of d nodes/routers using
+O(d) marked packets, and subsequently determine the changes in its topology
+using O(log d) marked packets with high probability. The algorithm is
+established to be order-wise optimal i.e., no other distributed algorithm can
+determine changes in the path topology using lesser order of bits (i.e., marked
+packets). The algorithm is shown to have a computational complexity of O(d log
+d), which is significantly less than that of any existing non-incremental
+algorithm of algebraic traceback. Extensions of this algorithm to settings with
+node identity spoofing and network coding are also presented.

@@ -1,0 +1,14 @@
+Nuclear norm minimization (NNM) has recently gained significant attention for
+its use in rank minimization problems. Similar to compressed sensing, using
+null space characterizations, recovery thresholds for NNM have been studied in
+\cite{arxiv,Recht_Xu_Hassibi}. However simulations show that the thresholds are
+far from optimal, especially in the low rank region. In this paper we apply the
+recent analysis of Stojnic for compressed sensing \cite{mihailo} to the null
+space conditions of NNM. The resulting thresholds are significantly better and
+in particular our weak threshold appears to match with simulation results.
+Further our curves suggest for any rank growing linearly with matrix size $n$
+we need only three times of oversampling (the model complexity) for weak
+recovery. Similar to \cite{arxiv} we analyze the conditions for weak, sectional
+and strong thresholds. Additionally a separate analysis is given for special
+case of positive semidefinite matrices. We conclude by discussing simulation
+results and future research directions.

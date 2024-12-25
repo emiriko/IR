@@ -1,0 +1,21 @@
+We have developed a new programming framework, called Sieve, to support
+parallel numerical PDE algorithms operating over distributed meshes. We have
+also developed a reference implementation of Sieve in C++ as a library of
+generic algorithms operating on distributed containers conforming to the Sieve
+interface. Sieve makes instances of the incidence relation, or \emph{arrows},
+the conceptual first-class objects represented in the containers. Further,
+generic algorithms acting on this arrow container are systematically used to
+provide natural geometric operations on the topology and also, through duality,
+on the data. Finally, coverings and duality are used to encode not only
+individual meshes, but all types of hierarchies underlying PDE data structures,
+including multigrid and mesh partitions.
+  In order to demonstrate the usefulness of the framework, we show how the mesh
+partition data can be represented and manipulated using the same fundamental
+mechanisms used to represent meshes. We present the complete description of an
+algorithm to encode a mesh partition and then distribute a mesh, which is
+independent of the mesh dimension, element shape, or embedding. Moreover, data
+associated with the mesh can be similarly distributed with exactly the same
+algorithm. The use of a high level of abstraction within the Sieve leads to
+several benefits in terms of code reuse, simplicity, and extensibility. We
+discuss these benefits and compare our approach to other existing mesh
+libraries.

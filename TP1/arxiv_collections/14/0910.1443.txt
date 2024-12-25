@@ -1,0 +1,19 @@
+In (Kabanets, Impagliazzo, 2004) it is shown how to decide the circuit
+polynomial identity testing problem (CPIT) in deterministic subexponential
+time, assuming hardness of some explicit multilinear polynomial family for
+arithmetical circuits. In this paper, a special case of CPIT is considered,
+namely low-degree non-singular matrix completion (NSMC). For this subclass of
+problems it is shown how to obtain the same deterministic time bound, using a
+weaker assumption in terms of determinantal complexity.
+  Hardness-randomness tradeoffs will also be shown in the converse direction,
+in an effort to make progress on Valiant's VP versus VNP problem. To separate
+VP and VNP, it is known to be sufficient to prove that the determinantal
+complexity of the m-by-m permanent is $m^{\omega(\log m)}$. In this paper it is
+shown, for an appropriate notion of explicitness, that the existence of an
+explicit multilinear polynomial family with determinantal complexity
+m^{\omega(\log m)}$ is equivalent to the existence of an efficiently computable
+generator $G_n$ for multilinear NSMC with seed length $O(n^{1/\sqrt{\log n}})$.
+The latter is a combinatorial object that provides an efficient deterministic
+black-box algorithm for NSMC. ``Multilinear NSMC'' indicates that $G_n$ only
+has to work for matrices $M(x)$ of $poly(n)$ size in $n$ variables, for which
+$det(M(x))$ is a multilinear polynomial.

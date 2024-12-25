@@ -1,0 +1,13 @@
+We describe the hashing technique to obtain a fast approximation of a target
+quantum gate in the unitary group SU(2) represented by a product of the
+elements of a universal basis. The hashing exploits the structure of the
+icosahedral group [or other finite subgroups of SU(2)] and its pseudogroup
+approximations to reduce the search within a small number of elements. One of
+the main advantages of the pseudogroup hashing is the possibility to iterate to
+obtain more accurate representations of the targets in the spirit of the
+renormalization group approach. We describe the iterative pseudogroup hashing
+algorithm using the universal basis given by the braidings of Fibonacci anyons.
+The analysis of the efficiency of the iterations based on the random matrix
+theory indicates that the runtime and the braid length scale
+poly-logarithmically with the final error, comparing favorably to the
+Solovay-Kitaev algorithm.

@@ -1,0 +1,10 @@
+Prediction of a vector of ordered parameters or part of it arises naturally
+in the context of Small Area Estimation (SAE). For example, one may want to
+estimate the parameters associated with the top ten areas, the best or worst
+area, or a certain percentile. We use a simple SAE model to show that
+estimation of ordered parameters by the corresponding ordered estimates of each
+area separately does not yield good results with respect to MSE. Shrinkage-type
+predictors, with an appropriate amount of shrinkage for the particular problem
+of ordered parameters, are considerably better, and their performance is close
+to that of the optimal predictors, which cannot in general be computed
+explicitly.

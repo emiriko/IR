@@ -1,0 +1,20 @@
+In this survey we concern ourself with the question, wether there exists a
+fix-free code for a given sequence of codeword lengths. For a given alphabet,
+we obtain the {\em Kraftsum} of a code, if we divide for every length the
+number of codewords of this length in the code by the total number of all
+possible words of this length and then take summation over all codeword lengths
+which appears in the code. The same way the Kraftsum of a lengths sequence
+$(l_1,..., l_n) $ is given by $\sum_{i=1}^n q^{-l_i} $, where $q$ is the
+numbers of letters in the alphabet. Kraft and McMillan have shown in
+\cite{kraft} (1956), that there exists a prefix-free code with codeword lengths
+of a certain lengths sequence, if the Kraftsum of the lengths sequence is
+smaller than or equal to one. Furthermore they have shown, that the converse
+also holds for all (uniquely decipherable) codes.\footnote{In this survey a
+code means a set of words, such that any message which is encoded with these
+words can be uniquely decoded. Therefore we omit in future the "uniquely
+decipherable" and write only "code".} The question rises, if Kraft's and
+McMillan's result can be generalized to other types of codes? Throughout, we
+try to give an answer on this question for the class of fix-free codes. Since
+any code has Kraftsum smaller than or equal to one, this answers the question
+for the second implication of Kraft-McMillan's theorem. Therefore we pay
+attention mainly to the first implication.

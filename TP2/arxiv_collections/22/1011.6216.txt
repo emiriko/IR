@@ -1,0 +1,15 @@
+Network structures are reconstructed from dynamical data by respectively
+naive mean field (nMF) and Thouless-Anderson-Palmer (TAP) approximations. For
+TAP approximation, we use two methods to reconstruct the network: a) iteration
+method; b) casting the inference formula to a set of cubic equations and
+solving it directly. We investigate inference of the asymmetric Sherrington-
+Kirkpatrick (S-K) model using asynchronous update. The solutions of the sets
+cubic equation depend of temperature T in the S-K model, and a critical
+temperature Tc is found around 2.1. For T < Tc, the solutions of the cubic
+equation sets are composed of 1 real root and two conjugate complex roots while
+for T > Tc there are three real roots. The iteration method is convergent only
+if the cubic equations have three real solutions. The two methods give same
+results when the iteration method is convergent. Compared to nMF, TAP is
+somewhat better at low temperatures, but approaches the same performance as
+temperature increase. Both methods behave better for longer data length, but
+for improvement arises, TAP is well pronounced.

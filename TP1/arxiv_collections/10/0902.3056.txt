@@ -1,0 +1,19 @@
+Consider the following Simultaneous Message Passing (SMP) model for computing
+a relation f subset of X x Y x Z. In this model Alice, on input x in X and Bob,
+on input y in Y, send one message each to a third party Referee who then
+outputs a z in Z such that (x,y,z) in f. We first show optimal 'Direct sum'
+results for all relations f in this model, both in the quantum and classical
+settings, in the situation where we allow shared resources (shared entanglement
+in quantum protocols and public coins in classical protocols) between Alice and
+Referee and Bob and Referee and no shared resource between Alice and Bob. This
+implies that, in this model, the communication required to compute k
+simultaneous instances of f, with constant success overall, is at least k-times
+the communication required to compute one instance with constant success.
+  This in particular implies an earlier Direct sum result, shown by
+Chakrabarti, Shi, Wirth and Yao, 2001, for the Equality function (and a class
+of other so-called robust functions), in the classical smp model with no shared
+resources between any parties.
+  Furthermore we investigate the gap between the smp model and the one-way
+model in communication complexity and exhibit a partial function that is
+exponentially more expensive in the former if quantum communication with
+entanglement is allowed, compared to the latter even in the deterministic case.

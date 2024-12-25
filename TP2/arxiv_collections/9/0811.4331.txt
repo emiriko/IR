@@ -1,0 +1,8 @@
+We present promising initial results of our adaptive multigrid solver
+developed for application directly to the non-Hermitian Wilson-Dirac system in
+4 dimensions, as opposed to the solver developed in [1] for the corresponding
+normal equations. The key behind the success of this algorithm is the use of an
+adaptive projection onto coarse grids that preserves the near null space of the
+system matrix. We demonstrate that the resulting algorithm has weak dependence
+on the gauge coupling and exhibits extremely mild critical slowing down in the
+chiral limit.

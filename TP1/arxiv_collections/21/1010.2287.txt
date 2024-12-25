@@ -1,0 +1,12 @@
+The paper describes an abstraction for protocols that are based on multiple
+rounds of Chaum's Dining Cryptographers protocol. It is proved that the
+abstraction preserves a rich class of specifications in the logic of knowledge,
+including specifications describing what an agent knows about other agents'
+knowledge. This result can be used to optimize model checking of Dining
+Cryptographers-based protocols, and applied within a methodology for
+knowledge-based program implementation and verification. Some case studies of
+such an application are given, for a protocol that uses the Dining
+Cryptographers protocol as a primitive in an anonymous broadcast system.
+Performance results are given for model checking knowledge-based specifications
+in the concrete and abstract models of this protocol, and some new conclusions
+about the protocol are derived.

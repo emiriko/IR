@@ -1,0 +1,21 @@
+The application package "IONORT" for the calculation of ray-tracing can be
+used by customers using the Windows operating system. It is a program whose
+interface with the user is created in MATLAB. In fact, the program launches an
+executable that integrates the system of differential equations written in
+Fortran and importing the output in the MATLAB program, which generates
+graphics and other information on the ray. This work is inspired mainly by the
+program of Jones and Stephenson, widespread in the scientific community that is
+interested in radio propagation via the ionosphere. The program is written in
+FORTRAN 77, a mainframe CDC-3800. The code itself, as well as being very
+elegant, is highly efficient and provides the basis for many programs now in
+use mainly in the Coordinate Registration (CR) of Over The Horizon (OTH)
+radars. The input and output of this program require devices no longer in use
+for several decades and there are no compilers that accept instructions written
+for that type of mainframe. For this reason, the core of the program to perform
+numerical integration, after the necessary amendments, was passed to a modern
+compiler under the Windows operating system and the executable has been
+imported into a MATLAB program. Thus, all input and output operations are
+handled by modern MATLAB program that implements the Fortran program and
+importing the output. This provides great versatility to the entire application
+package with presentations in two dimensions (2D) and three-dimensional (3D) on
+real geo-referenced maps.

@@ -1,0 +1,11 @@
+In mathematical finance and other applications of stochastic processes, it is
+frequently the case that the characteristic function may be known but explicit
+forms for density functions are not available. The simulation of any
+distribution is greatly facilitated by a knowledge of the quantile function, by
+which uniformly distributed samples may be converted to samples of the given
+distribution. This article analyzes the calculation of a quantile function
+direct from the characteristic function of a probability distribution, without
+explicit knowledge of the density. We form a non-linear integro-differential
+equation that despite its complexity admits an iterative solution for the power
+series of the quantile about the median. We give some examples including tail
+models and show how to generate C-code for examples.

@@ -1,0 +1,15 @@
+This paper is concerned with the problem of designing computationally
+efficient Generalized Comb Filters (GCF). Basically, GCF filters are
+anti-aliasing filters that guarantee superior performance in terms of
+selectivity and quantization noise rejection compared to classical comb
+filters, when used as decimation filters in multistage architectures. Upon
+employing a partial polyphase (PP) architecture proposed in a companion paper,
+we develop a sensitivity analysis in order to investigate the effects of the
+coefficients' quantization on the frequency response of the designed filters.
+We show that the sensitivity of the filter response to errors in the
+coefficients is dependent on the particular split of the decimation factor
+between the two sub-filters constituting the PP architecture. The sensitivity
+analysis is then used for developing a fixed-point implementation of a sample
+filter from the class of GCF filters, used as reference filter throughout the
+paper. Finally, we present computer simulations in order to evaluate the
+performance of the designed fixed-point filters.

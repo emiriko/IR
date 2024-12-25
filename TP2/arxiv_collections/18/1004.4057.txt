@@ -1,0 +1,13 @@
+We give efficient algorithms for volume sampling, i.e., for picking
+$k$-subsets of the rows of any given matrix with probabilities proportional to
+the squared volumes of the simplices defined by them and the origin (or the
+squared volumes of the parallelepipeds defined by these subsets of rows). This
+solves an open problem from the monograph on spectral algorithms by Kannan and
+Vempala. Our first algorithm for volume sampling $k$-subsets of rows from an
+$m$-by-$n$ matrix runs in $O(kmn^{\omega} \log n)$ arithmetic operations and a
+second variant of it for $(1+\epsilon)$-approximate volume sampling runs in
+$O(mn \log m \cdot k^{2}/\epsilon^{2} + m \log^{\omega} m \cdot
+k^{2\omega+1}/\epsilon^{2\omega} \cdot \log(k \epsilon^{-1} \log m))$
+arithmetic operations, which is almost linear in the size of the input (i.e.,
+the number of entries) for small $k$. Our efficient volume sampling algorithms
+imply several interesting results for low-rank matrix approximation.

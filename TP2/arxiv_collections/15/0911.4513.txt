@@ -1,0 +1,17 @@
+We introduce the BioBeta Framework, a meta-model for both protein-level and
+membrane-level interactions of living cells. This formalism aims to provide a
+formal setting where to encode, compare and merge models at different
+abstraction levels; in particular, higher-level (e.g. membrane) activities can
+be given a formal biological justification in terms of low-level (i.e.,
+protein) interactions. A BioBeta specification provides a protein signature
+together a set of protein reactions, in the spirit of the kappa-calculus.
+Moreover, the specification describes when a protein configuration triggers one
+of the only two membrane interaction allowed, that is "pinch" and "fuse". In
+this paper we define the syntax and semantics of BioBeta, analyse its
+properties, give it an interpretation as biobigraphical reactive systems, and
+discuss its expressivity by comparing with kappa-calculus and modelling
+significant examples. Notably, BioBeta has been designed after a bigraphical
+metamodel for the same purposes. Hence, each instance of the calculus
+corresponds to a bigraphical reactive system, and vice versa (almost).
+Therefore, we can inherith the rich theory of bigraphs, such as the automatic
+construction of labelled transition systems and behavioural congruences.

@@ -1,0 +1,19 @@
+This paper describes a series of model-checking experiments to verify
+optimistic replication algorithms based on Operational Transformation (OT)
+approach used for supporting collaborative edition. We formally define, using
+tool UPPAAL, the behavior and the main consistency requirement (i.e.
+convergence property) of the collaborative editing systems, as well as the
+abstract behavior of the environment where these systems are supposed to
+operate. Due to data replication and the unpredictable nature of user
+interactions, such systems have infinitely many states. So, we show how to
+exploit some features of the UPPAAL specification language to attenuate the
+severe state explosion problem. Two models are proposed. The first one, called
+concrete model, is very close to the system implementation but runs up against
+a severe explosion of states. The second model, called symbolic model, aims to
+overcome the limitation of the concrete model by delaying the effective
+selection and execution of editing operations until the construction of
+symbolic execution traces of all sites is completed. Experimental results have
+shown that the symbolic model allows a significant gain in both space and time.
+Using the symbolic model, we have been able to show that if the number of sites
+exceeds 2 then the convergence property is not satisfied for all OT algorithms
+considered here. A counterexample is provided for every algorithm.

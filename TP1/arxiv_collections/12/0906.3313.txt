@@ -1,0 +1,13 @@
+Future wireless communication systems should be flexible to support different
+waveforms (WFs) and be cognitive to sense the environment and tune themselves.
+This has lead to tremendous interest in software defined radios (SDRs).
+Constraints like throughput, latency and low energy demand high implementation
+efficiency. The tradeoff of going for a highly efficient implementation is the
+increase of porting effort to a new hardware (HW) platform. In this paper, we
+propose a novel concept for WF development, the Nucleus concept, that exploits
+the common structure in various wireless signal processing algorithms and
+provides a way for efficient and portable implementation. Tool assisted WF
+mapping and exploration is done efficiently by propagating the implementation
+and interface properties of Nuclei. The Nucleus concept aims at providing
+software flexibility with high level programmability, but at the same time
+limiting HW flexibility to maximize area and energy efficiency.

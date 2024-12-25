@@ -1,0 +1,13 @@
+Delaunay flip is an elegant, simple tool to convert a triangulation of a
+point set to its Delaunay triangulation. The technique has been researched
+extensively for full dimensional triangulations of point sets. However, an
+important case of triangulations which are not full dimensional is surface
+triangulations in three dimensions. In this paper we address the question of
+converting a surface triangulation to a subcomplex of the Delaunay
+triangulation with edge flips. We show that the surface triangulations which
+closely approximate a smooth surface with uniform density can be transformed to
+a Delaunay triangulation with a simple edge flip algorithm. The condition on
+uniformity becomes less stringent with increasing density of the triangulation.
+If the condition is dropped completely, the flip algorithm still terminates
+although the output surface triangulation becomes "almost Delaunay" instead of
+exactly Delaunay.

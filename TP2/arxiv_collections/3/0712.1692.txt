@@ -1,0 +1,13 @@
+Given a data set (t_i, y_i), i=1,..., n with the t_i in [0,1] non-parametric
+regression is concerned with the problem of specifying a suitable function
+f_n:[0,1] -> R such that the data can be reasonably approximated by the points
+(t_i, f_n(t_i)), i=1,..., n. If a data set exhibits large variations in local
+behaviour, for example large peaks as in spectroscopy data, then the method
+must be able to adapt to the local changes in smoothness. Whilst many methods
+are able to accomplish this they are less successful at adapting derivatives.
+In this paper we show how the goal of local adaptivity of the function and its
+first and second derivatives can be attained in a simple manner using weighted
+smoothing splines. A residual based concept of approximation is used which
+forces local adaptivity of the regression function together with a global
+regularization which makes the function as smooth as possible subject to the
+approximation constraints.

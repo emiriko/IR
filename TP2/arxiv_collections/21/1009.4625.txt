@@ -1,0 +1,8 @@
+We formalize automated analysis techniques for the validation of web services
+specified in BPEL and a RBAC variant tailored to BPEL. The idea is to use
+decidable fragments of first-order logic to describe the state space of a
+certain class of web services and then use state-of-the-art SMT solvers to
+handle their reachability problems. To assess the practical viability of our
+approach, we have developed a prototype tool implementing our techniques and
+applied it to a digital contract signing service inspired by an industrial case
+study.

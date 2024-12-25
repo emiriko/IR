@@ -1,0 +1,11 @@
+Density estimates based on point processes are often restrained to regions
+with irregular boundaries or holes. We propose a density estimator, the
+lattice-based density estimator, which produces reasonable density estimates
+under these circumstances. The estimation process starts with overlaying the
+region with nodes, linking these together in a lattice and then computing the
+density of random walks of length k on the lattice. We use an approximation to
+the unbiased crossvalidation criterion to find the optimal walk length k. The
+technique is illustrated using walleye (Sander vitreus) radiotelemetry
+relocations in Lake Monroe, Indiana. We also use simulation to compare the
+technique to the traditional kernel density estimate in the situation where
+there are no significant boundary effects.

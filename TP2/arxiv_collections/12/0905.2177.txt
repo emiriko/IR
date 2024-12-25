@@ -1,0 +1,7 @@
+We present an algorithm for solving the discrete logarithm problem in
+Jacobians of families of plane curves whose degrees in $X$ and $Y$ are low with
+respect to their genera. The finite base fields $\FF_q$ are arbitrary, but
+their sizes should not grow too fast compared to the genus. For such families,
+the group structure and discrete logarithms can be computed in subexponential
+time of $L_{q^g}(1/3, O(1))$. The runtime bounds rely on heuristics similar to
+the ones used in the number field sieve or the function field sieve.

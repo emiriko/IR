@@ -1,0 +1,13 @@
+Experimental designs are tools which can dramatically reduce the number of
+simulations required by time-consuming computer codes. Because we don't know
+the true relation between the response and inputs, designs should allow one to
+fit a variety of models and should provide information about all portions of
+the experimental region. One strategy for selecting the values of the inputs at
+which to observe the response is to choose these values so they are spread
+evenly throughout the experimental region, according to "space-filling
+designs". In this article, we suggest a new method based on comparing the
+empirical distribution of the points in a design to the uniform distribution
+with the Kullback-Leibler information. The considered approach consists in
+estimating this difference or, reciprocally, the Shannon entropy. The entropy
+is estimated by a Monte Carlo method where the density function is replaced by
+its kernel density estimator or by using the nearest neighbor distances

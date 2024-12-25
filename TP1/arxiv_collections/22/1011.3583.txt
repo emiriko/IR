@@ -1,0 +1,10 @@
+Many high performance-computing algorithms are bandwidth limited, hence the
+need for optimal data rearrangement kernels as well as their easy integration
+into the rest of the application. In this work, we have built a CUDA library of
+fast kernels for a set of data rearrangement operations. In particular, we have
+built generic kernels for rearranging m dimensional data into n dimensions,
+including Permute, Reorder, Interlace/De-interlace, etc. We have also built
+kernels for generic Stencil computations on a two-dimensional data using
+templates and functors that allow application developers to rapidly build
+customized high performance kernels. All the kernels built achieve or surpass
+best-known performance in terms of bandwidth utilization.

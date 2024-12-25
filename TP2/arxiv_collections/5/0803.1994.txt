@@ -1,0 +1,13 @@
+Two ideas taken from Bayesian optimization and classifier systems are
+presented for personnel scheduling based on choosing a suitable scheduling rule
+from a set for each persons assignment. Unlike our previous work of using
+genetic algorithms whose learning is implicit, the learning in both approaches
+is explicit, i.e. we are able to identify building blocks directly. To achieve
+this target, the Bayesian optimization algorithm builds a Bayesian network of
+the joint probability distribution of the rules used to construct solutions,
+while the adapted classifier system assigns each rule a strength value that is
+constantly updated according to its usefulness in the current situation.
+Computational results from 52 real data instances of nurse scheduling
+demonstrate the success of both approaches. It is also suggested that the
+learning mechanism in the proposed approaches might be suitable for other
+scheduling problems.

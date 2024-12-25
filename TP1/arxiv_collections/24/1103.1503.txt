@@ -1,0 +1,16 @@
+Computational protein design aims at constructing novel or improved functions
+on the structure of a given protein backbone and has important applications in
+the pharmaceutical and biotechnical industry. The underlying combinatorial
+side-chain placement problem consists of choosing a side-chain placement for
+each residue position such that the resulting overall energy is minimum. The
+choice of the side-chain then also determines the amino acid for this position.
+Many algorithms for this NP-hard problem have been proposed in the context of
+homology modeling, which, however, reach their limits when faced with large
+protein design instances.
+  In this paper, we propose a new exact method for the side-chain placement
+problem that works well even for large instance sizes as they appear in protein
+design. Our main contribution is a dedicated branch-and-bound algorithm that
+combines tight upper and lower bounds resulting from a novel Lagrangian
+relaxation approach for side-chain placement. Our experimental results show
+that our method outperforms alternative state-of-the art exact approaches and
+makes it possible to optimally solve large protein design instances routinely.

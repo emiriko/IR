@@ -1,0 +1,10 @@
+We consider the unconstrained optimization problem whose objective function
+is composed of a smooth and a non-smooth conponents where the smooth component
+is the expectation a random function. This type of problem arises in some
+interesting applications in machine learning. We propose a stochastic gradient
+descent algorithm for this class of optimization problem. When the non-smooth
+component has a particular structure, we propose another stochastic gradient
+descent algorithm by incorporating a smoothing method into our first algorithm.
+The proofs of the convergence rates of these two algorithms are given and we
+show the numerical performance of our algorithm by applying them to regularized
+linear regression problems with different sets of synthetic data.

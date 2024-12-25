@@ -1,0 +1,12 @@
+In long-term deployments of sensor networks, monitoring the quality of
+gathered data is a critical issue. Over the time of deployment, sensors are
+exposed to harsh conditions, causing some of them to fail or to deliver less
+accurate data. If such a degradation remains undetected, the usefulness of a
+sensor network can be greatly reduced. We present an approach that learns
+spatio-temporal correlations between different sensors, and makes use of the
+learned model to detect misbehaving sensors by using distributed computation
+and only local communication between nodes. We introduce SODESN, a distributed
+recurrent neural network architecture, and a learning method to train SODESN
+for fault detection in a distributed scenario. Our approach is evaluated using
+data from different types of sensors and is able to work well even with
+less-than-perfect link qualities and more than 50% of failed nodes.

@@ -1,0 +1,15 @@
+We investigate the space complexity of certain perfect matching problems over
+bipartite graphs embedded on surfaces of constant genus (orientable or
+non-orientable). We show that the problems of deciding whether such graphs have
+(1) a perfect matching or not and (2) a unique perfect matching or not, are in
+the logspace complexity class \SPL. Since \SPL\ is contained in the logspace
+counting classes $\oplus\L$ (in fact in \modk\ for all $k\geq 2$), \CeqL, and
+\PL, our upper bound places the above-mentioned matching problems in these
+counting classes as well. We also show that the search version, computing a
+perfect matching, for this class of graphs is in $\FL^{\SPL}$. Our results
+extend the same upper bounds for these problems over bipartite planar graphs
+known earlier. As our main technical result, we design a logspace computable
+and polynomially bounded weight function which isolates a minimum weight
+perfect matching in bipartite graphs embedded on surfaces of constant genus. We
+use results from algebraic topology for proving the correctness of the weight
+function.

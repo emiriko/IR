@@ -1,0 +1,13 @@
+In biomedical studies, researchers are often interested in assessing the
+association between one or more ordinal explanatory variables and an outcome
+variable, at the same time adjusting for covariates of any type. The outcome
+variable may be continuous, binary, or represent censored survival times. In
+the absence of precise knowledge of the response function, using monotonicity
+constraints on the ordinal variables improves efficiency in estimating
+parameters, especially when sample sizes are small. An active set algorithm
+that can efficiently compute such estimators is proposed, and a
+characterization of the solution is provided. Having an efficient algorithm at
+hand is especially relevant when applying likelihood ratio tests in restricted
+generalized linear models, where one needs the value of the likelihood at the
+restricted maximizer. The algorithm is illustrated on a real life data set from
+oncology.

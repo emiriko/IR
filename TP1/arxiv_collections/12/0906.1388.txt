@@ -1,0 +1,14 @@
+The recently developed Flexible Local Approximation MEthod (FLAME) produces
+accurate difference schemes by replacing the usual Taylor expansion with
+Trefftz functions -- local solutions of the underlying differential equation.
+This paper advances and casts in a general form a significant modification of
+FLAME proposed recently by Pinheiro & Webb: a least-squares fit instead of the
+exact match of the approximate solution at the stencil nodes. As a consequence
+of that, FLAME schemes can now be generated on irregular stencils with the
+number of nodes substantially greater than the number of approximating
+functions. The accuracy of the method is preserved but its robustness is
+improved. For demonstration, the paper presents a number of numerical examples
+in 2D and 3D: electrostatic (magnetostatic) particle interactions, scattering
+of electromagnetic (acoustic) waves, and wave propagation in a photonic
+crystal. The examples explore the role of the grid and stencil size, of the
+number of approximating functions, and of the irregularity of the stencils.

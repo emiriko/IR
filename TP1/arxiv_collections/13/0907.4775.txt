@@ -1,0 +1,18 @@
+To determine if two lists of numbers are the same set, we sort both lists and
+see if we get the same result. The sorted list is a canonical form for the
+equivalence relation of set equality. Other canonical forms arise in graph
+isomorphism algorithms, and the equality of permutation groups given by
+generators. To determine if two graphs are cospectral (have the same
+eigenvalues), however, we compute their characteristic polynomials and see if
+they are the same; the characteristic polynomial is a complete invariant for
+the equivalence relation of cospectrality. This is weaker than a canonical
+form, and it is not known whether a polynomial-time canonical form for
+cospectrality exists. Note that it is a priori possible for an equivalence
+relation to be decidable in polynomial time without either a complete invariant
+or canonical form.
+  Blass and Gurevich (SIAM J. Comput., 1984) ask whether these conditions on
+equivalence relations -- having an FP canonical form, having an FP complete
+invariant, and simply being in P -- are in fact different. They showed that
+this question requires non-relativizing techniques to resolve. Here we extend
+their results, and give new connections to probabilistic and quantum
+computation.

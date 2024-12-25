@@ -1,0 +1,17 @@
+Matrix Product State (MPS) wavefunctions have many applications in quantum
+information and condensed matter physics. One application is to represent
+states in the thermodynamic limit directly, using a small set of position
+independent matrices. For this infinite MPS ansatz to be useful it is necessary
+to be able to calculate expectation values, and we show here that a large class
+of observables, including operators transforming under lattice translations as
+eigenstates of arbitrary momentum $k$, can be represented in the Schur form of
+a lower or upper triangular matrix and we present an algorithm for evaluating
+such expectation values in the asymptotic limit. The sum or the product of two
+such Schur operators is also a Schur operator, and is easily constructed to
+give a simple method of constructing arbitrary polynomial combinations of
+operators. Some simple examples are the variance $\langle (H-E)^2\rangle$ of an
+infinite MPS, which gives a simple method of evaluating the accuracy of a
+numerical approximation to a eigenstate, or a vertex operator $\langle
+c^\dagger_{k_1} c^\dagger_{k_2} c_{k_4} c_{k_3}\rangle$. This approach is a
+step towards improved algorithms for the calculation of dynamical properties
+and excited states.

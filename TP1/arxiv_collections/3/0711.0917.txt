@@ -1,0 +1,13 @@
+Where Prolog is commonly seen as a component in a Web application that is
+either embedded or communicates using a proprietary protocol, we propose an
+architecture where Prolog communicates to other components in a Web application
+using the standard HTTP protocol. By avoiding embedding in external Web servers
+development and deployment become much easier. To support this architecture, in
+addition to the transfer protocol, we must also support parsing, representing
+and generating the key Web document types such as HTML, XML and RDF.
+  This paper motivates the design decisions in the libraries and extensions to
+Prolog for handling Web documents and protocols. The design has been guided by
+the requirement to handle large documents efficiently. The described libraries
+support a wide range of Web applications ranging from HTML and XML documents to
+Semantic Web RDF processing.
+  To appear in Theory and Practice of Logic Programming (TPLP)

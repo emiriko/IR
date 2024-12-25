@@ -1,0 +1,24 @@
+Modeling viral dynamics in HIV/AIDS studies has resulted in a deep
+understanding of pathogenesis of HIV infection from which novel antiviral
+treatment guidance and strategies have been derived. Viral dynamics models
+based on nonlinear differential equations have been proposed and well developed
+over the past few decades. However, it is quite challenging to use experimental
+or clinical data to estimate the unknown parameters (both constant and
+time-varying parameters) in complex nonlinear differential equation models.
+Therefore, investigators usually fix some parameter values, from the literature
+or by experience, to obtain only parameter estimates of interest from clinical
+or experimental data. However, when such prior information is not available, it
+is desirable to determine all the parameter estimates from data. In this paper
+we intend to combine the newly developed approaches, a multi-stage
+smoothing-based (MSSB) method and the spline-enhanced nonlinear least squares
+(SNLS) approach, to estimate all HIV viral dynamic parameters in a nonlinear
+differential equation model. In particular, to the best of our knowledge, this
+is the first attempt to propose a comparatively thorough procedure, accounting
+for both efficiency and accuracy, to rigorously estimate all key kinetic
+parameters in a nonlinear differential equation model of HIV dynamics from
+clinical data. These parameters include the proliferation rate and death rate
+of uninfected HIV-targeted cells, the average number of virions produced by an
+infected cell, and the infection rate which is related to the antiviral
+treatment effect and is time-varying. To validate the estimation methods, we
+verified the identifiability of the HIV viral dynamic model and performed
+simulation studies.

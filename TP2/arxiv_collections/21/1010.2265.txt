@@ -1,0 +1,14 @@
+I present a parametric, bijective transformation to generate heavy tail
+versions Y of arbitrary RVs X ~ F. The tail behavior of the so-called 'heavy
+tail Lambert W x F' RV Y depends on a tail parameter delta >= 0: for delta = 0,
+Y = X, for delta > 0 Y has heavier tails than X. For X being Gaussian, this
+meta-family of heavy-tailed distributions reduces to Tukey's h distribution.
+Lambert's W function provides an explicit inverse transformation, which can be
+estimated by maximum likelihood. This inverse can remove heavy tails from data,
+and also provide analytical expressions for the cumulative distribution (cdf)
+and probability density function (pdf). As a special case, these yield explicit
+formulas for Tukey's h pdf and cdf - to the author's knowledge for the first
+time in the literature. Simulations and applications to S&P 500 log-returns and
+solar flares data demonstrate the usefulness of the introduced methodology. The
+R package "LambertW" (cran.r-project.org/web/packages/LambertW) implementing
+the presented methodology is publicly available at CRAN.

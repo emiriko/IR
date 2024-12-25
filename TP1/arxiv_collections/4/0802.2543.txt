@@ -1,0 +1,18 @@
+Unexpected increases in demand and most of all flash crowds are considered
+the bane of every web application as they may cause intolerable delays or even
+service unavailability. Proper quality of service policies must guarantee rapid
+reactivity and responsiveness even in such critical situations. Previous
+solutions fail to meet common performance requirements when the system has to
+face sudden and unpredictable surges of traffic. Indeed they often rely on a
+proper setting of key parameters which requires laborious manual tuning,
+preventing a fast adaptation of the control policies. We contribute an original
+Self-* Overload Control (SOC) policy. This allows the system to self-configure
+a dynamic constraint on the rate of admitted sessions in order to respect
+service level agreements and maximize the resource utilization at the same
+time. Our policy does not require any prior information on the incoming traffic
+or manual configuration of key parameters. We ran extensive simulations under a
+wide range of operating conditions, showing that SOC rapidly adapts to time
+varying traffic and self-optimizes the resource utilization. It admits as many
+new sessions as possible in observance of the agreements, even under intense
+workload variations. We compared our algorithm to previously proposed
+approaches highlighting a more stable behavior and a better performance.

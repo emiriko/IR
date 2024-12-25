@@ -1,0 +1,8 @@
+We use the graphics processing unit (GPU) for fast calculations of helicity
+amplitudes of physics processes. As our first attempt, we compute $u\bar{u}\to
+n\gamma$ ($n=2$ to 8) processes in $pp$ collisions at $\sqrt{s} = 14$TeV by
+transferring the MadGraph generated HELAS amplitudes (FORTRAN) into newly
+developed HEGET ({\bf H}ELAS {\bf E}valuation with {\bf G}PU {\bf E}nhanced
+{\bf T}echnology) codes written in CUDA, a C-platform developed by NVIDIA for
+general purpose computing on the GPU. Compared with the usual CPU programs, we
+obtain 40-150 times better performance on the GPU.

@@ -1,0 +1,13 @@
+An efficient method for the simulation of strained heteroepitaxial growth
+with intermixing using kinetic Monte Carlo is presented. The model used is
+based on a solid-on-solid bond counting formulation in which elastic effects
+are incorporated using a ball and spring model. While idealized, this model
+nevertheless captures many aspects of heteroepitaxial growth, including
+nucleation, surface diffusion, and long range effects due elastic interaction.
+The algorithm combines a fast evaluation of the elastic displacement field with
+an efficient implementation of a rejection-reduced kinetic Monte Carlo based on
+using upper bounds for the rates. The former is achieved by using a multigrid
+method for global updates of the displacement field and an expanding box method
+for local updates. The simulations show the importance of intermixing on the
+growth of a strained film. Further the method is used to simulate the growth of
+self-assembled stacked quantum dots.

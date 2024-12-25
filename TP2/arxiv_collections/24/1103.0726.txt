@@ -1,0 +1,20 @@
+We investigate the convergence of a nonlinear approximation method introduced
+by Ammar et al. (J. Non-Newtonian Fluid Mech. 139:153-176, 2006) for the
+numerical solution of high-dimensional Fokker-Planck equations featuring in
+Navier-Stokes-Fokker-Planck systems that arise in kinetic models of dilute
+polymers. In the case of Poisson's equation on a rectangular domain in R^2,
+subject to a homogeneous Dirichlet boundary condition, the mathematical
+analysis of the algorithm was carried out recently by Le Bris, Leli\`evre and
+Maday (Const. Approx. 30:621-651, 2009), by exploiting its connection to greedy
+algorithms from nonlinear approximation theory, explored, for example, by
+DeVore and Temlyakov (Adv. Comput. Math. 5:173-187, 1996); hence, the
+variational version of the algorithm, based on the minimization of a sequence
+of Dirichlet energies, was shown to converge. Here, we extend the convergence
+analysis of the pure greedy and orthogonal greedy algorithms considered by Le
+Bris et al. to a technically more complicated situation, where the Laplace
+operator is replaced by an Ornstein-Uhlenbeck operator of the kind that appears
+in Fokker-Planck equations that arise in bead-spring chain type kinetic polymer
+models with finitely extensible nonlinear elastic potentials, posed on a
+high-dimensional Cartesian product configuration space D = D_1 x ... x D_N
+contained in R^(N d), where each set D_i, i = 1, ..., N, is a bounded open ball
+in R^d, d = 2, 3.

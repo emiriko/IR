@@ -1,0 +1,9 @@
+Solving linear systems of equations is a common problem that arises both on
+its own and as a subroutine in more complex problems: given a matrix A and a
+vector b, find a vector x such that Ax=b. We consider the case where one
+doesn't need to know the solution x itself, but rather an approximation of the
+expectation value of some operator associated with x, e.g., x'Mx for some
+matrix M. In this case, when A is sparse, N by N and has condition number
+kappa, classical algorithms can find x and estimate x'Mx in O(N sqrt(kappa))
+time. Here, we exhibit a quantum algorithm for this task that runs in poly(log
+N, kappa) time, an exponential improvement over the best classical algorithm.

@@ -1,0 +1,21 @@
+We present the largest Wiener reconstruction of the cosmic density field made
+to date. The reconstruction is based on the Sloan Digital Sky Survey data
+release 6 covering the northern Galactic cap. We use a novel supersampling
+algorithm to suppress aliasing effects and a Krylov-space inversion method to
+enable high performance with high resolution. These techniques are implemented
+in the ARGO computer code. We reconstruct the field over a 500 Mpc cube with
+Mpc grid-resolution while accounting both for the angular and radial selection
+functions of the SDSS, and the shot noise giving an effective resolution of the
+order of ~10 Mpc. In addition, we correct for the redshift distortions in the
+linear and nonlinear regimes in an approximate way. We show that the commonly
+used method of inverse weighting the galaxies by the corresponding selection
+function heads to excess noise in regions where the density of the observed
+galaxies is small. It is more accurate and conservative to adopt a Bayesian
+framework in which we model the galaxy selection/detection process to be
+Poisson-binomial. This results in heavier smoothing in regions of reduced
+sampling density. Our results show a complex cosmic web structure with huge
+void regions indicating that the recovered matter distribution is highly
+non-Gaussian. Filamentary structures are clearly visible on scales up to ~20
+Mpc. We also calculate the statistical distribution of density after smoothing
+the reconstruction with Gaussian kernels of different radii r_S and find good
+agreement with a log-normal distribution for ~10 Mpc < r_S < ~30 Mpc.

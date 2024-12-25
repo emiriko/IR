@@ -1,0 +1,11 @@
+Decoding sparse quantum codes can be accomplished by syndrome-based decoding
+using a belief propagation (BP) algorithm.We significantly improve this
+decoding scheme by developing a new feedback adjustment strategy for the
+standard BP algorithm. In our feedback procedure, we exploit much of the
+information from stabilizers, not just the syndrome but also the values of the
+frustrated checks on individual qubits of the code and the channel model.
+Furthermore we show that our decoding algorithm is superior to belief
+propagation algorithms using only the syndrome in the feedback procedure for
+all cases of the depolarizing channel. Our algorithm does not increase the
+measurement overhead compared to the previous method, as the extra information
+comes for free from the requisite stabilizer measurements.

@@ -1,0 +1,8 @@
+FastFlow is a programming environment specifically targeting cache-coherent
+shared-memory multi-cores. FastFlow is implemented as a stack of C++ template
+libraries built on top of lock-free (fence-free) synchronization mechanisms. In
+this paper we present a further evolution of FastFlow enabling programmers to
+offload part of their workload on a dynamically created software accelerator
+running on unused CPUs. The offloaded function can be easily derived from
+pre-existing sequential code. We emphasize in particular the effective
+trade-off between human productivity and execution efficiency of the approach.

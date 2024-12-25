@@ -1,0 +1,24 @@
+We present an approach that combines the local density approximation (LDA)
+and the dynamical mean-field theory (DMFT) in the framework of the
+full-potential linear augmented plane waves (FLAPW) method. Wannier-like
+functions for the correlated shell are constructed by projecting local orbitals
+onto a set of Bloch eigenstates located within a certain energy window. The
+screened Coulomb interaction and Hund's coupling are calculated from a
+first-principle constrained RPA scheme. We apply this LDA+DMFT implementation,
+in conjunction with continuous-time quantum Monte-Carlo, to study the
+electronic correlations in LaFeAsO. Our findings support the physical picture
+of a metal with intermediate correlations. The average value of the mass
+renormalization of the Fe 3d bands is about 1.6, in reasonable agreement with
+the picture inferred from photoemission experiments. The discrepancies between
+different LDA+DMFT calculations (all technically correct) which have been
+reported in the literature are shown to have two causes: i) the specific value
+of the interaction parameters used in these calculations and ii) the degree of
+localization of the Wannier orbitals chosen to represent the Fe 3d states, to
+which many-body terms are applied. The latter is a fundamental issue in the
+application of many-body calculations, such as DMFT, in a realistic setting. We
+provide strong evidence that the DMFT approximation is more accurate and more
+straightforward to implement when well-localized orbitals are constructed from
+a large energy window encompassing Fe-3d, As-4p and O-2p, and point out several
+difficulties associated with the use of extended Wannier functions associated
+with the low-energy iron bands. Some of these issues have important physical
+consequences, regarding in particular the sensitivity to the Hund's coupling.

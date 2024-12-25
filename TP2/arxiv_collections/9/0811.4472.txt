@@ -1,0 +1,15 @@
+The n-dimensional hypercube quantum random walk (QRW) is a particularily
+appealing example of a quantum walk because it has a natural implementation on
+a register on $n$ qubits. However, any real implementation will encounter
+decoherence effects due to interactions with uncontrollable degrees of freedom.
+We present a complete characterization of the mixing properties of the
+hypercube QRW under a physically relevant Markovian decoherence model. In the
+local decoherence model considered the non-unitary dynamics are modeled as a
+sum of projections on individual qubits to an arbitrary direction on the Bloch
+sphere. We prove that there is always classical (asymptotic) mixing in this
+model and specify the conditions under which instantaneous mixing
+\textit{always} exists. And we show that the latter mixing property, as well as
+the classical mixing time, depend heavily on the exact environmental
+interaction and its strength. Therefore, algorithmic applications of the QRW on
+the hypercube, if they intend to employ mixing properties, need to consider
+both the walk dynamics and the precise decoherence model.

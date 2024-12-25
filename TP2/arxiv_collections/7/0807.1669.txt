@@ -1,0 +1,13 @@
+In this article we present a method for formally proving the correctness of
+the lazy algorithms for computing homographic and quadratic transformations --
+of which field operations are special cases-- on a representation of real
+numbers by coinductive streams. The algorithms work on coinductive stream of
+M\"{o}bius maps and form the basis of the Edalat--Potts exact real arithmetic.
+We use the machinery of the Coq proof assistant for the coinductive types to
+present the formalisation. The formalised algorithms are only partially
+productive, i.e., they do not output provably infinite streams for all possible
+inputs. We show how to deal with this partiality in the presence of syntactic
+restrictions posed by the constructive type theory of Coq. Furthermore we show
+that the type theoretic techniques that we develop are compatible with the
+semantics of the algorithms as continuous maps on real numbers. The resulting
+Coq formalisation is available for public download.

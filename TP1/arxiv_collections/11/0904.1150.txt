@@ -1,0 +1,17 @@
+Noncontrollable finite-state channels (FSCs) are FSCs in which the channel
+inputs have no influence on the channel states, i.e., the channel states evolve
+freely. Since single-letter formulae for the channel capacities are rarely
+available for general noncontrollable FSCs, computable bounds are usually
+utilized to numerically bound the capacities. In this paper, we take the
+delayed channel state as part of the channel input and then define the {\em
+directed information rate} from the new channel input (including the source and
+the delayed channel state) sequence to the channel output sequence. With this
+technique, we derive a series of upper bounds on the capacities of
+noncontrollable FSCs with/without feedback. These upper bounds can be achieved
+by conditional Markov sources and computed by solving an average reward per
+stage stochastic control problem (ARSCP) with a compact state space and a
+compact action space. By showing that the ARSCP has a uniformly continuous
+reward function, we transform the original ARSCP into a finite-state and
+finite-action ARSCP that can be solved by a value iteration method. Under a
+mild assumption, the value iteration algorithm is convergent and delivers a
+near-optimal stationary policy and a numerical upper bound.

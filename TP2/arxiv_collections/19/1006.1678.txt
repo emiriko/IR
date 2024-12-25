@@ -1,0 +1,24 @@
+The MUSIC algorithm, with its extension for imaging sparse {\em extended}
+objects, is analyzed by compressed sensing (CS) techniques. The notion of
+restricted isometry property (RIP) and an upper bound on the restricted
+isometry constant (RIC) are employed to establish sufficient conditions for the
+exact localization by MUSIC with or without the presence of noise. In the
+noiseless case, the sufficient condition gives an upper bound on the numbers of
+random sampling and incident directions necessary for exact localization. In
+the noisy case, the sufficient condition assumes additionally an upper bound
+for the noise-to-object ratio in terms of the RIC and the condition number of
+objects. Rigorous comparison of performance between MUSIC and the CS
+minimization principle, Lasso, is given. In general, the MUSIC algorithm
+guarantees to recover, with high probability, $s$ scatterers with $n=\cO(s^2)$
+random sampling and incident directions and sufficiently high frequency. For
+the favorable imaging geometry where the scatterers are distributed on a
+transverse plane MUSIC guarantees to recover, with high probability, $s$
+scatterers with a median frequency and $n=\cO(s)$ random sampling/incident
+directions. Numerical results confirm that the Lasso outperforms MUSIC in the
+well-resolved case while the opposite is true for the under-resolved case. The
+latter effect indicates the superresolution capability of the MUSIC algorithm.
+Another advantage of MUSIC over the Lasso as applied to imaging is the former's
+flexibility with grid spacing and guarantee of {\em approximate} localization
+of sufficiently separated objects in an arbitrarily fine grid. The error can be
+bounded from above by $\cO(\lambda s)$ for general configurations and
+$\cO(\lambda)$ for objects distributed in a transverse plane.

@@ -1,0 +1,18 @@
+We report new results on the complexity of the valued constraint satisfaction
+problem (VCSP). Under the unique games conjecture, the approximability of
+finite-valued VCSP is fairly well-understood. However, there is yet no
+characterisation of VCSPs that can be solved exactly in polynomial time. This
+is unsatisfactory, since such results are interesting from a combinatorial
+optimisation perspective; there are deep connections with, for instance,
+submodular and bisubmodular minimisation. We consider the Min and Max CSP
+problems (i.e. where the cost functions only attain values in {0,1}) over
+four-element domains and identify all tractable fragments. Similar
+classifications were previously known for two- and three-element domains. In
+the process, we introduce a new class of tractable VCSPs based on a
+generalisation of submodularity. We also extend and modify a graph-based
+technique by Kolmogorov and Zivny (originally introduced by Takhanov) for
+efficiently obtaining hardness results in our setting. This allow us to prove
+the result without relying on computer-assisted case analyses (which otherwise
+are fairly common when studying the complexity and approximability of VCSPs.)
+The hardness results are further simplified by the introduction of powerful
+reduction techniques.

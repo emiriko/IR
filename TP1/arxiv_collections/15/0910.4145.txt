@@ -1,0 +1,11 @@
+We consider deterministic and {\em randomized} quantum algorithms simulating
+$e^{-iHt}$ by a product of unitary operators $e^{-iA_jt_j}$, $j=1,...,N$, where
+$A_j\in\{H_1,...,H_m\}$, $H=\sum_{i=1}^m H_i$ and $t_j > 0$ for every $j$.
+Randomized algorithms are algorithms approximating the final state of the
+system by a mixed quantum state. First, we provide a scheme to bound the trace
+distance of the final quantum states of randomized algorithms. Then, we show
+some randomized algorithms, which have the same efficiency as certain
+deterministic algorithms, but are less complicated than their opponentes.
+Moreover, we prove that both deterministic and randomized algorithms simulating
+$e^{-iHt}$ with error $\e$ at least have $\Omega(t^{3/2}\e^{-1/2})$
+exponentials.

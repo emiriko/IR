@@ -1,0 +1,10 @@
+We study the power of nonadaptive quantum query algorithms, which are
+algorithms whose queries to the input do not depend on the result of previous
+queries. First, we show that any bounded-error nonadaptive quantum query
+algorithm that computes some total boolean function depending on n variables
+must make Omega(n) queries to the input in total. Second, we show that, if
+there exists a quantum algorithm that uses k nonadaptive oracle queries to
+learn which one of a set of m boolean functions it has been given, there exists
+a nonadaptive classical algorithm using O(k log m) queries to solve the same
+problem. Thus, in the nonadaptive setting, quantum algorithms can achieve at
+most a very limited speed-up over classical query algorithms.

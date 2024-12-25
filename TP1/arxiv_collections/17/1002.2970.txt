@@ -1,0 +1,14 @@
+The problem of memory checking considers storing files on an unreliable
+public server whose memory can be modified by a malicious party. The main task
+is to design an online memory checker with the capability to verify that the
+information on the server has not been corrupted. To store n bits of public
+information, the memory checker has s private reliable bits for verification
+purpose; while to retrieve each bit of public information the checker
+communicates t bits with the public memory. Earlier work showed that, for
+classical memory checkers, the lower bound s*t \in Omega(n) holds. In this
+article we study quantum memory checkers that have s private qubits and that
+are allowed to quantum query the public memory using t qubits. We prove an
+exponential improvement over the classical setting by showing the existence of
+a quantum checker that, using quantum fingerprints, requires only s \in O(log
+n) qubits of local memory and t \in O(polylog n) qubits of communication with
+the public memory.

@@ -1,0 +1,10 @@
+A (non-circular) de Bruijn sequence w of order n is a word such that every
+word of length n appears exactly once in w as a factor. In this paper, we
+generalize the concept to a multi-shift setting: a multi-shift de Bruijn
+sequence tau(m,n) of shift m and order n is a word such that every word of
+length n appears exactly once in w as a factor that starts at index im+1 for
+some integer i>=0. We show the number of the multi-shift de Bruijn sequence
+tau(m,n) is (a^n)!a^{(m-n)(a^n-1)} for 1<=n<=m and is (a^m!)^{a^{n-m}} for
+1<=m<=n, where a=|Sigma|. We provide two algorithms for generating a tau(m,n).
+The multi-shift de Bruijn sequence is important in solving the Frobenius
+problem in a free monoid.

@@ -1,0 +1,19 @@
+Rotating modulation is a technique for indirect imaging in the hard x-ray and
+soft gamma-ray energy bands, which may offer an advantage over coded aperture
+imaging at high energies. A rotating modulator (RM) consists of a single mask
+of co-planar parallel slats typically spaced equidistance apart, suspended
+above an array of circular non-imaging detectors. The mask rotates, temporally
+modulating the transmitted image of the object scene. The measured count rate
+profiles of each detector are folded modulo the mask rotational period, and the
+object scene is reconstructed using pre-determined characteristic modulation
+profiles. The use of Monte Carlo simulation to derive the characteristic count
+rate profiles is accurate but computationally expensive; an analytic approach
+is preferred for its speed of computation. We present both the standard and a
+new advanced characteristic formula describing the modulation pattern of the
+RM; the latter is a more robust description of the instrument response
+developed as part of the design of a wide-field high-resolution telescope for
+gamma-ray astronomy. We examine an approximation to the advanced formula to
+simplify reconstruction software and increase computational speed, and comment
+on both the inherent limitations and usefulness of the approach. Finally, we
+show comparisons to the standard formula and demonstrate image reconstructions
+from Monte Carlo simulations.

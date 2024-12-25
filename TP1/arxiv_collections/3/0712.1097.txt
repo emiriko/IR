@@ -1,0 +1,14 @@
+Maximum Satisfiability (MaxSAT) is a well-known optimization pro- blem, with
+several practical applications. The most widely known MAXS AT algorithms are
+ineffective at solving hard problems instances from practical application
+domains. Recent work proposed using efficient Boolean Satisfiability (SAT)
+solvers for solving the MaxSAT problem, based on identifying and eliminating
+unsatisfiable subformulas. However, these algorithms do not scale in practice.
+This paper analyzes existing MaxSAT algorithms based on unsatisfiable
+subformula identification. Moreover, the paper proposes a number of key
+optimizations to these MaxSAT algorithms and a new alternative algorithm. The
+proposed optimizations and the new algorithm provide significant performance
+improvements on MaxSAT instances from practical applications. Moreover, the
+efficiency of the new generation of unsatisfiability-based MaxSAT solvers
+becomes effectively indexed to the ability of modern SAT solvers to proving
+unsatisfiability and identifying unsatisfiable subformulas.

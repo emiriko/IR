@@ -1,0 +1,15 @@
+Side channel attacks have emerged as a serious threat to the security of both
+networked and embedded systems -- in particular through the implementations of
+cryptographic operations. Side channels can be difficult to model formally, but
+with careful coding and program transformation techniques it may be possible to
+verify security in the presence of specific side-channel attacks. But what if a
+program intentionally makes a tradeoff between security and efficiency and
+leaks some information through a side channel? In this paper we study such
+tradeoffs using ideas from recent research on declassification. We present a
+semantic model of security for programs which allow for declassification
+through side channels, and show how side-channel declassification can be
+verified using off-the-shelf software model checking tools. Finally, to make it
+simpler for verifiers to check that a program conforms to a particular
+side-channel declassification policy we introduce a further tradeoff between
+efficiency and verifiability: by writing programs in a particular "manifest
+form" security becomes considerably easier to verify.

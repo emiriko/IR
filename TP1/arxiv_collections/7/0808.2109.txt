@@ -1,0 +1,9 @@
+In this article, we present two different parallel Swendsen-Wang Cluster(SWC)
+algorithms using message-passing interface(MPI). One is based on Master-Slave
+Parallel Model(MSPM) and the other is based on Data-Parallel Model(DPM). A
+speedup of 24 with 40 processors and 16 with 37 processors is achieved with the
+DPM and MSPM respectively. The speedup of both algorithms at different
+temperature and system size is carefully examined both experimentally and
+theoretically, and a comparison of their efficiency is made. In the last
+section, based on these two parallel SWC algorithms, two parallel probability
+changing cluster(PCC) algorithms are proposed.

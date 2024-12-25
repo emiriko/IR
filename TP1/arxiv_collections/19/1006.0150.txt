@@ -1,0 +1,19 @@
+Self-tested quantum information processing provides a means for doing useful
+information processing with untrusted quantum apparatus. Previous work was
+limited to performing computations and protocols in real Hilbert spaces, which
+is not a serious obstacle if one is only interested in final measurement
+statistics being correct (for example, getting the correct factors of a large
+number after running Shor's factoring algorithm). This limitation was shown by
+McKague et al. to be fundamental, since there is no way to experimentally
+distinguish any quantum experiment from a special simulation using states and
+operators with only real coefficients.
+  In this paper, we show that one can still do a meaningful self-test of
+quantum apparatus with complex amplitudes. In particular, we define a family of
+simulations of quantum experiments, based on complex conjugation, with two
+interesting properties. First, we are able to define a self-test which may be
+passed only by states and operators that are equivalent to simulations within
+the family. This extends work of Mayers and Yao and Magniez et al. in
+self-testing of quantum apparatus, and includes a complex measurement. Second,
+any of the simulations in the family may be used to implement a secure 6-state
+QKD protocol, which was previously not known to be implementable in a
+self-tested framework.

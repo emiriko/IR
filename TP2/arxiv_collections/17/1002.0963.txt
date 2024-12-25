@@ -1,0 +1,20 @@
+As mobile devices with positioning capabilities continue to proliferate, data
+management for so-called trajectory databases that capture the historical
+movements of populations of moving objects becomes important. This paper
+considers the querying of such databases for convoys, a convoy being a group of
+objects that have traveled together for some time. More specifically, this
+paper formalizes the concept of a convoy query using density-based notions, in
+order to capture groups of arbitrary extents and shapes. Convoy discovery is
+relevant for real-life applications in throughput planning of trucks and
+carpooling of vehicles. Although there has been extensive research on
+trajectories in the literature, none of this can be applied to retrieve
+correctly exact convoy result sets. Motivated by this, we develop three
+efficient algorithms for convoy discovery that adopt the well-known
+filter-refinement framework. In the filter step, we apply line-simplification
+techniques on the trajectories and establish distance bounds between the
+simplified trajectories. This permits efficient convoy discovery over the
+simplified trajectories without missing any actual convoys. In the refinement
+step, the candidate convoys are further processed to obtain the actual convoys.
+Our comprehensive empirical study offers insight into the properties of the
+paper's proposals and demonstrates that the proposals are effective and
+efficient on real-world trajectory data.

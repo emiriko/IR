@@ -1,0 +1,12 @@
+Finitarily Markovian processes are those processes
+$\{X_n\}_{n=-\infty}^{\infty}$ for which there is a finite $K$ ($K =
+K(\{X_n\}_{n=-\infty}^0$) such that the conditional distribution of $X_1$ given
+the entire past is equal to the conditional distribution of $X_1$ given only
+$\{X_n\}_{n=1-K}^0$. The least such value of $K$ is called the memory length.
+We give a rather complete analysis of the problems of universally estimating
+the least such value of $K$, both in the backward sense that we have just
+described and in the forward sense, where one observes successive values of
+$\{X_n\}$ for $n \geq 0$ and asks for the least value $K$ such that the
+conditional distribution of $X_{n+1}$ given $\{X_i\}_{i=n-K+1}^n$ is the same
+as the conditional distribution of $X_{n+1}$ given $\{X_i\}_{i=-\infty}^n$. We
+allow for finite or countably infinite alphabet size.

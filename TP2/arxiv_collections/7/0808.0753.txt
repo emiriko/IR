@@ -1,0 +1,17 @@
+Using specializations of unfold and fold on a generic tree data type we
+derive unranking and ranking functions providing natural number encodings for
+various Hereditarily Finite datatypes.
+  In this context, we interpret unranking operations as instances of a generic
+anamorphism and ranking operations as instances of the corresponding
+catamorphism.
+  Starting with Ackerman's Encoding from Hereditarily Finite Sets to Natural
+Numbers we define pairings and tuple encodings that provide building blocks for
+a theory of Hereditarily Finite Functions.
+  The more difficult problem of ranking and unranking Hereditarily Finite
+Permutations is then tackled using Lehmer codes and factoradics.
+  The self-contained source code of the paper, as generated from a literate
+Haskell program, is available at
+\url{http://logic.csci.unt.edu/tarau/research/2008/fFUN.zip}.
+  Keywords: ranking/unranking, pairing/tupling functions, Ackermann encoding,
+hereditarily finite sets, hereditarily finite functions, permutations and
+factoradics, computational mathematics, Haskell data representations

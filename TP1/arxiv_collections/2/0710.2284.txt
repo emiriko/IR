@@ -1,0 +1,13 @@
+Motivated by distributed implementations of game-theoretical algorithms, we
+study symmetric process systems and the problem of attaining common knowledge
+between processes. We formalize our setting by defining a notion of
+peer-to-peer networks(*) and appropriate symmetry concepts in the context of
+Communicating Sequential Processes (CSP), due to the common knowledge creating
+effects of its synchronous communication primitives. We then prove that CSP
+with input and output guards makes common knowledge in symmetric peer-to-peer
+networks possible, but not the restricted version which disallows output
+statements in guards and is commonly implemented.
+  (*) Please note that we are not dealing with fashionable incarnations such as
+file-sharing networks, but merely use this name for a mathematical notion of a
+network consisting of directly connected peers "treated on an equal footing",
+i.e. not having a client-server structure or otherwise pre-determined roles.)

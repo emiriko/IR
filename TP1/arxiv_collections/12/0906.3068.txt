@@ -1,0 +1,15 @@
+We present a parametric deformable model which recovers image components with
+a complexity independent from the resolution of input images. The proposed
+model also automatically changes its topology and remains fully compatible with
+the general framework of deformable models. More precisely, the image space is
+equipped with a metric that expands salient image details according to their
+strength and their curvature. During the whole evolution of the model, the
+sampling of the contour is kept regular with respect to this metric. By this
+way, the vertex density is reduced along most parts of the curve while a high
+quality of shape representation is preserved. The complexity of the deformable
+model is thus improved and is no longer influenced by feature-preserving
+changes in the resolution of input images. Building the metric requires a prior
+estimation of contour curvature. It is obtained using a robust estimator which
+investigates the local variations in the orientation of image gradient.
+Experimental results on both computer generated and biomedical images are
+presented to illustrate the advantages of our approach.

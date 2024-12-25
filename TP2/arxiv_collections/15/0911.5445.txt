@@ -1,0 +1,18 @@
+Wegner describes coordination as constrained interaction. We take this
+approach literally and define a coordination model based on interaction
+constraints and partial, iterative and interactive constraint satisfaction. Our
+model captures behaviour described in terms of synchronisation and data flow
+constraints, plus various modes of interaction with the outside world provided
+by external constraint symbols, on-the-fly constraint generation, and
+coordination variables. Underlying our approach is an engine performing
+(partial) constraint satisfaction of the sets of constraints. Our model extends
+previous work on three counts: firstly, a more advanced notion of external
+interaction is offered; secondly, our approach enables local satisfaction of
+constraints with appropriate partial solutions, avoiding global synchronisation
+over the entire constraints set; and, as a consequence, constraint satisfaction
+can finally occur concurrently, and multiple parts of a set of constraints can
+be solved and interact with the outside world in an asynchronous manner, unless
+synchronisation is required by the constraints. This paper describes the
+underlying logic, which enables a notion of local solution, and relates this
+logic to the more global approach of our previous work based on classical
+logic.

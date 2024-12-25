@@ -1,0 +1,8 @@
+We discuss an implementation of molecular dynamics (MD) simulations on a
+graphic processing unit (GPU) in the NVIDIA CUDA language. We tested our code
+on a modern GPU, the NVIDIA GeForce 8800 GTX. Results for two MD algorithms
+suitable for short-ranged and long-ranged interactions, and a congruential
+shift random number generator are presented. The performance of the GPU's is
+compared to their main processor counterpart. We achieve speedups of up to 80,
+40 and 150 fold, respectively. With newest generation of GPU's one can run
+standard MD simulations at 10^7 flops/$.

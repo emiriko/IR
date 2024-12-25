@@ -1,0 +1,8 @@
+In this paper, the application of a cycle accurate binary translator for
+rapid prototyping of SoCs will be presented. This translator generates code to
+run on a rapid prototyping system consisting of a VLIW processor and FPGAs. The
+generated code is annotated with information that triggers cycle generation for
+the hardware in parallel to the execution of the translated program. The VLIW
+processor executes the translated program whereas the FPGAs contain the
+hardware for the parallel cycle generation and the bus interface that adapts
+the bus of the VLIW processor to the SoC bus of the emulated processor core.

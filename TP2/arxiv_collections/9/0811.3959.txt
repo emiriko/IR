@@ -1,0 +1,16 @@
+Although a deterministic polytime algorithm for primality testing is now
+known, the Rabin-Miller randomized test of primality continues being the most
+efficient and widely used algorithm.
+  We prove the correctness of the Rabin-Miller algorithm in the theory V1 for
+polynomial time reasoning, from Fermat's little theorem. This is interesting
+because the Rabin-Miller algorithm is a polytime randomized algorithm, which
+runs in the class RP (i.e., the class of polytime Monte-Carlo algorithms), with
+a sampling space exponential in the length of the binary encoding of the input
+number. (The class RP contains polytime P.) However, we show how to express the
+correctness in the language of V1, and we also show that we can prove the
+formula expressing correctness with polytime reasoning from Fermat's Little
+theorem, which is generally expected to be independent of V1.
+  Our proof is also conceptually very basic in the sense that we use the
+extended Euclid's algorithm, for computing greatest common divisors, as the
+main workhorse of the proof. For example, we make do without proving the
+Chinese Reminder theorem, which is used in the standard proofs.

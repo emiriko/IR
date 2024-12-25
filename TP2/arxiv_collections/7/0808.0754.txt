@@ -1,0 +1,17 @@
+The paper is organized as a self-contained literate Haskell program that
+implements elements of an executable finite set theory with focus on
+combinatorial generation and arithmetic encodings. The code, tested under GHC
+6.6.1, is available at http://logic.csci.unt.edu/tarau/research/2008/fSET.zip .
+  We introduce ranking and unranking functions generalizing Ackermann's
+encoding to the universe of Hereditarily Finite Sets with Urelements. Then we
+build a lazy enumerator for Hereditarily Finite Sets with Urelements that
+matches the unranking function provided by the inverse of Ackermann's encoding
+and we describe functors between them resulting in arithmetic encodings for
+powersets, hypergraphs, ordinals and choice functions. After implementing a
+digraph representation of Hereditarily Finite Sets we define {\em decoration
+functions} that can recover well-founded sets from encodings of their
+associated acyclic digraphs. We conclude with an encoding of arbitrary digraphs
+and discuss a concept of duality induced by the set membership relation.
+  Keywords: hereditarily finite sets, ranking and unranking functions,
+executable set theory, arithmetic encodings, Haskell data representations,
+functional programming and computational mathematics

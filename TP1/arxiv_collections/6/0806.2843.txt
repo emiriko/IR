@@ -1,0 +1,9 @@
+Migration policies in distributed evolutionary algorithms has not been an
+active research area until recently. However, in the same way as operators have
+an impact on performance, the choice of migrants is due to have an impact too.
+In this paper we propose a new policy (named multikulti) for choosing the
+individuals that are going to be sent to other nodes, based on
+multiculturality: the individual sent should be as different as possible to the
+receiving population. We have checked this policy on different discrete
+optimization problems, and found that, in average or in median, this policy
+outperforms classical ones like sending the best or a random individual.

@@ -1,0 +1,16 @@
+Fault analysis is a powerful attack to stream ciphers. Up to now, the major
+idea of fault analysis is to simplify the cipher system by injecting some soft
+faults. We call it soft fault analysis. As a hardware-oriented stream cipher,
+Trivium is weak under soft fault analysis.
+  In this paper we consider another type of fault analysis of stream cipher,
+which is to simplify the cipher system by injecting some hard faults. We call
+it hard fault analysis. We present the following results about such attack to
+Trivium. In Case 1 with the probability not smaller than 0.2396, the attacker
+can obtain 69 bits of 80-bits-key. In Case 2 with the probability not smaller
+than 0.2291, the attacker can obtain all of 80-bits-key. In Case 3 with the
+probability not smaller than 0.2291, the attacker can partially solve the key.
+In Case 4 with non-neglectable probability, the attacker can obtain a
+simplified cipher, with smaller number of state bits and slower
+non-linearization procedure. In Case 5 with non-neglectable probability, the
+attacker can obtain another simplified cipher. Besides, these 5 cases can be
+checked out by observing the key-stream.

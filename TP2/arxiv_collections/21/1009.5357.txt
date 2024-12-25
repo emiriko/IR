@@ -1,0 +1,10 @@
+Let (t_n) be the classical Thue-Morse sequence defined by t_n = s_2(n) (mod
+2), where s_2 is the sum of the bits in the binary representation of n. It is
+well known that for any integer k>=1 the frequency of the letter "1" in the
+subsequence t_0, t_k, t_{2k}, ... is asymptotically 1/2. Here we prove that for
+any k there is a n<=k+4 such that t_{kn}=1. Moreover, we show that n can be
+chosen to have Hamming weight <=3. This is best in a twofold sense. First,
+there are infinitely many k such that t_{kn}=1 implies that n has Hamming
+weight >=3. Second, we characterize all k where the minimal n equals k, k+1,
+k+2, k+3, or k+4. Finally, we present some results and conjectures for the
+generalized problem, where s_2 is replaced by s_b for an arbitrary base b>=2.

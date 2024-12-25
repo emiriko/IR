@@ -1,0 +1,13 @@
+The proliferation of ontologies and taxonomies in many domains increasingly
+demands the integration of multiple such ontologies. The goal of ontology
+integration is to merge two or more given ontologies in order to provide a
+unified view on the input ontologies while maintaining all information coming
+from them. We propose a new taxonomy merging algorithm that, given as input two
+taxonomies and an equivalence matching between them, can generate an integrated
+taxonomy in a fully automatic manner. The approach is target-driven, i.e. we
+merge a source taxonomy into the target taxonomy and preserve the structure of
+the target ontology as much as possible. We also discuss how to extend the
+merge algorithm providing auxiliary information, like additional relationships
+between source and target concepts, in order to semantically improve the final
+result. The algorithm was implemented in a working prototype and evaluated
+using synthetic and real-world scenarios.

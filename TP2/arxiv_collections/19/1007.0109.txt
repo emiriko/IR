@@ -1,0 +1,29 @@
+Motivated by several models introduced in the physics literature to study the
+nonequilibrium coarsening dynamics of one-dimensional systems, we consider a
+large class of "hierarchical coalescence processes" (HCP). An HCP consists of
+an infinite sequence of coalescence processes ${\xi^{(n)}(\cdot)}_{n\ge1}$:
+each process occurs in a different "epoch" (indexed by $n$) and evolves for an
+infinite time, while the evolution in subsequent epochs are linked in such a
+way that the initial distribution of $\xi^{(n+1)}$ coincides with the final
+distribution of $\xi^{(n)}$. Inside each epoch the process, described by a
+suitable simple point process representing the boundaries between adjacent
+intervals (domains), evolves as follows. Only intervals whose length belongs to
+a certain epoch-dependent finite range are active, that is, they can
+incorporate their left or right neighboring interval with quite general rates.
+Inactive intervals cannot incorporate their neighbors and can increase their
+length only if they are incorporated by active neighbors. The activity ranges
+are such that after a merging step the newly produced interval always becomes
+inactive for that epoch but active for some future epoch. Without making any
+mean-field assumption we show that: (i) if the initial distribution describes a
+renewal process, then such a property is preserved at all later times and all
+future epochs; (ii) the distribution of certain rescaled variables, for
+example, the domain length, has a well-defined and universal limiting behavior
+as $n\to \infty$ independent of the details of the process (merging rates,
+activity ranges$,...$). This last result explains the universality in the
+limiting behavior of several very different physical systems (e.g., the East
+model of glassy dynamics or the Paste-all model) which was observed in several
+simulations and analyzed in many physics papers. The main idea to obtain the
+asymptotic result is to first write down a recursive set of nonlinear
+identities for the Laplace transforms of the relevant quantities on different
+epochs and then to solve it by means of a transformation which in some sense
+linearizes the system.

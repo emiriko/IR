@@ -1,0 +1,11 @@
+The Kaczmarz method is an iterative algorithm for solving systems of linear
+equations Ax=b. Theoretical convergence rates for this algorithm were largely
+unknown until recently when work was done on a randomized version of the
+algorithm. It was proved that for overdetermined systems, the randomized
+Kaczmarz method converges with expected exponential rate, independent of the
+number of equations in the system. Here we analyze the case where the system
+Ax=b is corrupted by noise, so we consider the system where Ax is approximately
+b + r where r is an arbitrary error vector. We prove that in this noisy
+version, the randomized method reaches an error threshold dependent on the
+matrix A with the same rate as in the error-free case. We provide examples
+showing our results are sharp in the general context.

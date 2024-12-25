@@ -1,0 +1,14 @@
+We present a new algorithm for the reduction of one-loop \emph{tensor}
+Feynman integrals with $n\leq 4$ external legs to \emph{scalar} Feynman
+integrals $I_n^D$ with $n=3,4$ legs in $D$ dimensions, where $D=d+2l$ with
+integer $l \geq 0$ and generic dimension $d=4-2\epsilon$, thus avoiding the
+appearance of inverse Gram determinants $()_4$. As long as $()_4\neq 0$, the
+integrals $I_{3,4}^D$ with $D>d$ may be further expressed by the usual
+dimensionally regularized scalar functions $I_{2,3,4}^d$. The integrals
+$I_{4}^D$ are known at $()_4 \equiv 0$, so that we may extend the numerics to
+small, non-vanishing $()_4$ by applying a dimensional recurrence relation. A
+numerical example is worked out. Together with a recursive reduction of 6- and
+5-point functions, derived earlier, the calculational scheme allows a
+stabilized reduction of $n$-point functions with $n\leq 6$ at arbitrary phase
+space points. The algorithm is worked out explicitely for tensors of rank
+$R\leq n$.

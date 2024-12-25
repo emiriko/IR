@@ -1,0 +1,20 @@
+Since its original use on the Hubble Deep Field, "Drizzle" has become a de
+facto standard for the combination of images taken by the Hubble Space Tele-
+scope. However, the drizzle algorithm was developed with small, faint,
+partially resolved sources in mind, and is not the best possible algorithm for
+high signal-to-noise unresolved objects. Here, a new method for creating
+band-limited images from undersampled data is presented. The method uses a
+drizzled image as a first order approximation and then rapidly converges toward
+a band-limited image which fits the data given the statistical weighting
+provided by the drizzled image. The method, named iDrizzle, for iterative
+Drizzle, effectively eliminates both the small high-frequency artifacts and
+convolution with an interpolant kernel that can be introduced by drizzling. The
+method works well in the presence of geometric distortion, and can easily
+handle cosmic rays, bad pixels, or other missing data. It can combine images
+taken with random dithers, though the number of dithers required to obtain a
+good final image depends in part on the quality of the dither placements.
+iDrizzle may prove most beneficial for producing high-fidelity point spread
+functions from undersampled images, and could be particularly valuable for
+future Dark Energy missions such as WFIRST and EUCLID, which will likely
+attempt to do high precision supernova photometry and lensing experiments with
+undersampled detectors.

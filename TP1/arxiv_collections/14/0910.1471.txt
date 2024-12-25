@@ -1,0 +1,15 @@
+Streaming high quality videos consumes significantly large amount of network
+resources. In this context request to service delay, network traffic,
+congestion and server overloading are the main parameters to be considered in
+video streaming over the internet that effect the quality of service (QoS). In
+this paper, we propose an efficient architecture as a cluster of proxy servers
+and clients that uses a peer to peer (P2P) approach to cooperatively stream the
+video using chaining technique. We consider the following two key issues in the
+proposed architecture (1) Prefix caching technique to accommodate more number
+of videos close to client (2) Cooperative client and proxy chaining to achieve
+the network efficiency. Our simulation results shows that the proposed approach
+yields a prefix caching close to the optimal solution minimizing WAN bandwidth
+usage on server-proxy path by utilizing the proxy-client and client-client path
+bandwidth, which is much cheaper than the expensive server proxy path
+bandwidth, server load, and client rejection ratio significantly using
+chaining.

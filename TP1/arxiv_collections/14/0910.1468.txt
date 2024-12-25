@@ -1,0 +1,14 @@
+In this paper, we propose a novel approach to group users according to the
+VoD user request pattern. We cluster the user requests based on ART1 neural
+network algorithm. The knowledge extracted from the cluster is used to prefetch
+the multimedia object from each cluster before the users request. We have
+developed an algorithm to cluster users according to the users request patterns
+based on ART1 neural network algorithm that offers an unsupervised clustering.
+This approach adapts to changes in user request patterns over period without
+losing previous information. Each cluster is represented as prototype vector by
+generalizing the most frequently used URLs that are accessed by all the cluster
+members. The simulation results of our proposed clustering and prefetching
+algorithm, shows enormous increase in the performance of streaming server. Our
+algorithm helps the servers agent to learn user preferences and discover the
+information about the corresponding sources and other similar interested
+individuals.

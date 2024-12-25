@@ -1,0 +1,7 @@
+We consider boolean circuits computing n-operators f:{0,1}^n --> {0,1}^n. As
+gates we allow arbitrary boolean functions; neither fanin nor fanout of gates
+is restricted. An operator is linear if it computes n linear forms, that is,
+computes a matrix-vector product y=Ax over GF(2). We prove the existence of
+n-operators requiring about n^2 wires in any circuit, and linear n-operators
+requiring about n^2/\log n wires in depth-2 circuits, if either all output
+gates or all gates on the middle layer are linear.

@@ -1,0 +1,17 @@
+We consider minimal-rate sampling schemes for infinite streams of delayed and
+weighted versions of a known pulse shape. The minimal sampling rate for these
+parametric signals is referred to as the rate of innovation and is equal to the
+number of degrees of freedom per unit time. Although sampling of infinite pulse
+streams was treated in previous works, either the rate of innovation was not
+achieved, or the pulse shape was limited to Diracs. In this paper we propose a
+multichannel architecture for sampling pulse streams with arbitrary shape,
+operating at the rate of innovation. Our approach is based on modulating the
+input signal with a set of properly chosen waveforms, followed by a bank of
+integrators. This architecture is motivated by recent work on sub-Nyquist
+sampling of multiband signals. We show that the pulse stream can be recovered
+from the proposed minimal-rate samples using standard tools taken from spectral
+estimation in a stable way even at high rates of innovation. In addition, we
+address practical implementation issues, such as reduction of hardware
+complexity and immunity to failure in the sampling channels. The resulting
+scheme is flexible and exhibits better noise robustness than previous
+approaches.

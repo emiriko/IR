@@ -1,0 +1,15 @@
+Sound behavioral equations on open terms may become unsound after
+conservative extensions of the underlying operational semantics. Providing
+criteria under which such equations are preserved is extremely useful; in
+particular, it can avoid the need to repeat proofs when extending the specified
+language.
+  This paper investigates preservation of sound equations for several notions
+of bisimilarity on open terms: closed-instance (ci-)bisimilarity and
+formal-hypothesis (fh-)bisimilarity, both due to Robert de Simone, and
+hypothesis-preserving (hp-)bisimilarity, due to Arend Rensink. For both
+fh-bisimilarity and hp-bisimilarity, we prove that arbitrary sound equations on
+open terms are preserved by all disjoint extensions which do not add labels. We
+also define slight variations of fh- and hp-bisimilarity such that all sound
+equations are preserved by arbitrary disjoint extensions. Finally, we give two
+sets of syntactic criteria (on equations, resp. operational extensions) and
+prove each of them to be sufficient for preserving ci-bisimilarity.

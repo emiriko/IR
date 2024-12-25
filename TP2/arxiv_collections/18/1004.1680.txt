@@ -1,0 +1,14 @@
+We present magneto-hydrodynamic simulation results for heterogeneous systems.
+Heterogeneous architectures combine high floating point performance many-core
+units hosted in conventional server nodes. Examples include Graphics Processing
+Units (GPU's) and Cell. They have potentially large gains in performance, at
+modest power and monetary cost. We implemented a magneto-hydrodynamic (MHD)
+simulation code on a variety of heterogeneous and multi-core architectures ---
+multi-core x86, Cell, Nvidia and ATI GPU --- in different languages, FORTRAN,
+C, Cell, CUDA and OpenCL. We present initial performance results for these
+systems. To our knowledge, this is the widest comparison of heterogeneous
+systems for MHD simulations. We review the different challenges faced in each
+architecture, and potential bottlenecks. We conclude that substantial gains in
+performance over traditional systems are possible, and in particular that is
+possible to extract a greater percentage of peak theoretical performance from
+some systems when compared to x86 architectures.

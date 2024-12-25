@@ -1,0 +1,19 @@
+If a one-dimensional quantum lattice system is subject to one step of a
+reversible discrete-time dynamics, it is intuitive that as much "quantum
+information" as moves into any given block of cells from the left, has to exit
+that block to the right. For two types of such systems - namely quantum walks
+and cellular automata - we make this intuition precise by defining an index, a
+quantity that measures the "net flow of quantum information" through the
+system. The index supplies a complete characterization of two properties of the
+discrete dynamics. First, two systems S_1, S_2 can be pieced together, in the
+sense that there is a system S which locally acts like S_1 in one region and
+like S_2 in some other region, if and only if S_1 and S_2 have the same index.
+Second, the index labels connected components of such systems: equality of the
+index is necessary and sufficient for the existence of a continuous deformation
+of S_1 into S_2. In the case of quantum walks, the index is integer-valued,
+whereas for cellular automata, it takes values in the group of positive
+rationals. In both cases, the map S -> ind S is a group homomorphism if
+composition of the discrete dynamics is taken as the group law of the quantum
+systems. Systems with trivial index are precisely those which can be realized
+by partitioned unitaries, and the prototypes of systems with non-trivial index
+are shifts.

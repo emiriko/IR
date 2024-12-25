@@ -1,0 +1,12 @@
+The implementation of fault-tolerant quantum gates on encoded logic qubits is
+considered. It is shown that transversal implementation of logic gates based on
+simple geometric control ideas is problematic for realistic physical systems
+suffering from imperfections such as qubit inhomogeneity or uncontrollable
+interactions between qubits. However, this problem can be overcome by
+formulating the task as an optimal control problem and designing efficient
+algorithms to solve it. In particular, we can find solutions that implement all
+of the elementary logic gates in a fixed amount of time with limited control
+resources for the five-qubit stabilizer code. Most importantly, logic gates
+that are extremely difficult to implement using conventional techniques even
+for ideal systems, such as the T-gate for the five-qubit stabilizer code, do
+not appear to pose a problem for optimal control.

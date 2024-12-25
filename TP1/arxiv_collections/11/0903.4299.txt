@@ -1,0 +1,9 @@
+Ring topology is a simple configuration used to connect processes that
+communicate among themselves. A number of network standards such as token ring,
+token bus, and FDDI are based on the ring connectivity. This article will
+develop an implementation of a ring of processes that communicate among
+themselves via pipe links. The processes are nodes in the ring. Each process
+reads from its standard input and writes in its standard output. N-1 process
+redirects the its standard output to a standard input of the process through a
+pipe. When the ring-structure is designed, the project can be extended to
+simulate networks or to implement algorithms for mutual exclusion.

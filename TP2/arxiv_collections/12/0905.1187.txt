@@ -1,0 +1,21 @@
+Although the \emph{residual method}, or \emph{constrained regularization}, is
+frequently used in applications, a detailed study of its properties is still
+missing. This sharply contrasts the progress of the theory of Tikhonov
+regularization, where a series of new results for regularization in Banach
+spaces has been published in the recent years. The present paper intends to
+bridge the gap between the existing theories as far as possible. We develop a
+stability and convergence theory for the residual method in general topological
+spaces. In addition, we prove convergence rates in terms of (generalized)
+Bregman distances, which can also be applied to non-convex regularization
+functionals. We provide three examples that show the applicability of our
+theory. The first example is the regularized solution of linear operator
+equations on $L^p$-spaces, where we show that the results of Tikhonov
+regularization generalize unchanged to the residual method. As a second
+example, we consider the problem of density estimation from a finite number of
+sampling points, using the Wasserstein distance as a fidelity term and an
+entropy measure as regularization term. It is shown that the densities obtained
+in this way depend continuously on the location of the sampled points and that
+the underlying density can be recovered as the number of sampling points tends
+to infinity. Finally, we apply our theory to compressed sensing. Here, we show
+the well-posedness of the method and derive convergence rates both for convex
+and non-convex regularization under rather weak conditions.

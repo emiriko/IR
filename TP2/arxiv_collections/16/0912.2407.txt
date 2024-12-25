@@ -1,0 +1,22 @@
+A covariance graph is an undirected graph associated with a multivariate
+probability distribution of a given random vector where each vertex represents
+each of the different components of the random vector and where the absence of
+an edge between any pair of variables implies marginal independence between
+these two variables. Covariance graph models have recently received much
+attention in the literature and constitute a sub-family of graphical models.
+Though they are conceptually simple to understand, they are considerably more
+difficult to analyze. Under some suitable assumption on the probability
+distribution, covariance graph models can also be used to represent more
+complex conditional independence relationships between subsets of variables.
+When the covariance graph captures or reflects all the conditional independence
+statements present in the probability distribution the latter is said to be
+faithful to its covariance graph - though no such prior guarantee exists.
+Despite the increasingly widespread use of these two types of graphical models,
+to date no deep probabilistic analysis of this class of models, in terms of the
+faithfulness assumption, is available. Such an analysis is crucial in
+understanding the ability of the graph, a discrete object, to fully capture the
+salient features of the probability distribution it aims to describe. In this
+paper we demonstrate that multivariate Gaussian distributions that have trees
+as covariance graphs are necessarily faithful. The method of proof is original
+as it uses an entirely new approach and in the process yields a technique that
+is novel to the field of graphical models.

@@ -1,0 +1,18 @@
+The study of fingerprint individuality aims to determine to what extent a
+fingerprint uniquely identifies an individual. Recent court cases have
+highlighted the need for measures of fingerprint individuality when a person is
+identified based on fingerprint evidence. The main challenge in studies of
+fingerprint individuality is to adequately capture the variability of
+fingerprint features in a population. In this paper hierarchical mixture models
+are introduced to infer the extent of individualization. Hierarchical mixtures
+utilize complementary aspects of mixtures at different levels of the hierarchy.
+At the first (top) level, a mixture is used to represent homogeneous groups of
+fingerprints in the population, whereas at the second level, nested mixtures
+are used as flexible representations of distributions of features from each
+fingerprint. Inference for hierarchical mixtures is more challenging since the
+number of unknown mixture components arise in both the first and second levels
+of the hierarchy. A Bayesian approach based on reversible jump Markov chain
+Monte Carlo methodology is developed for the inference of all unknown
+parameters of hierarchical mixtures. The methodology is illustrated on
+fingerprint images from the NIST database and is used to make inference on
+fingerprint individuality estimates from this population.

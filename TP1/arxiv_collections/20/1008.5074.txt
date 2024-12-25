@@ -1,0 +1,25 @@
+We briefly review and highlight the consequences of rigorous and exact
+results obtained in \cite{cessac:10}, characterizing the statistics of spike
+trains in a network of leaky Integrate-and-Fire neurons, where time is discrete
+and where neurons are subject to noise, without restriction on the synaptic
+weights connectivity. The main result is that spike trains statistics are
+characterized by a Gibbs distribution, whose potential is explicitly
+computable. This establishes, on one hand, a rigorous ground for the current
+investigations attempting to characterize real spike trains data with Gibbs
+distributions, such as the Ising-like distribution, using the maximal entropy
+principle. However, it transpires from the present analysis that the Ising
+model might be a rather weak approximation. Indeed, the Gibbs potential (the
+formal "Hamiltonian") is the log of the so-called "conditional intensity" (the
+probability that a neuron fires given the past of the whole network). But, in
+the present example, this probability has an infinite memory, and the
+corresponding process is non-Markovian (resp. the Gibbs potential has infinite
+range). Moreover, causality implies that the conditional intensity does not
+depend on the state of the neurons at the \textit{same time}, ruling out the
+Ising model as a candidate for an exact characterization of spike trains
+statistics. However, Markovian approximations can be proposed whose degree of
+approximation can be rigorously controlled. In this setting, Ising model
+appears as the "next step" after the Bernoulli model (independent neurons)
+since it introduces spatial pairwise correlations, but not time correlations.
+The range of validity of this approximation is discussed together with possible
+approaches allowing to introduce time correlations, with algorithmic
+extensions.

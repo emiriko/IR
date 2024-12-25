@@ -1,0 +1,21 @@
+We study sincere-strategy preference-based approval voting (SP-AV), a system
+proposed by Brams and Sanver [Electoral Studies, 25(2):287-305, 2006], and here
+adjusted so as to coerce admissibility of the votes (rather than excluding
+inadmissible votes a priori), with respect to procedural control. In such
+control scenarios, an external agent seeks to change the outcome of an election
+via actions such as adding/deleting/partitioning either candidates or voters.
+SP-AV combines the voters' preference rankings with their approvals of
+candidates, where in elections with at least two candidates the voters'
+approval strategies are adjusted--if needed--to approve of their most-preferred
+candidate and to disapprove of their least-preferred candidate. This rule
+coerces admissibility of the votes even in the presence of control actions, and
+hybridizes, in effect, approval with pluralitiy voting.
+  We prove that this system is computationally resistant (i.e., the
+corresponding control problems are NP-hard) to 19 out of 22 types of
+constructive and destructive control. Thus, SP-AV has more resistances to
+control than is currently known for any other natural voting system with a
+polynomial-time winner problem. In particular, SP-AV is (after Copeland voting,
+see Faliszewski et al. [AAIM-2008, Springer LNCS 5034, pp. 165-176, 2008]) the
+second natural voting system with an easy winner-determination procedure that
+is known to have full resistance to constructive control, and unlike Copeland
+voting it in addition displays broad resistance to destructive control.

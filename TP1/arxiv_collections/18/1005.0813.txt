@@ -1,0 +1,18 @@
+Time Series Data Server (TSDS) is a software package for implementing a
+server that provides fast super-setting, sub-setting, filtering, and uniform
+gridding of time series-like data. TSDS was developed to respond quickly to
+requests for long time spans of data. Data may be served from a fast database,
+typically created by aggregating granules (e.g., data files) from a remote data
+source and storing them in a local cache that is optimized for serving time
+series. The system was designed specifically for time series data, and is
+optimized for requests where the longest dimension of the requested data
+structure is time. Scalar, vector, and spectrogram time series types are
+supported. The user can interact with the server by requesting a time series, a
+date range, and an optional filter to apply to the data. Available filters
+include strides, block average/minimum/maximum, exclude, and inequality.
+Constraint expressions are supported, which allow such operations as a request
+for data from one time series when a different time series satisfied a
+specified relationship. TSDS builds upon DAP (Data Access Protocol), NcML
+(netCDF Mark-up language) and related software libraries. In this work, we
+describe the current design of this server, as well as planned features and
+potential implementation strategies.

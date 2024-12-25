@@ -1,0 +1,18 @@
+We consider a group of Bayesian agents who try to estimate a state of the
+world $\theta$ through interaction on a social network. Each agent $v$
+initially receives a private measurement of $\theta$: a number $S_v$ picked
+from a Gaussian distribution with mean $\theta$ and standard deviation one.
+Then, in each discrete time iteration, each reveals its estimate of $\theta$ to
+its neighbors, and, observing its neighbors' actions, updates its belief using
+Bayes' Law.
+  This process aggregates information efficiently, in the sense that all the
+agents converge to the belief that they would have, had they access to all the
+private measurements. We show that this process is computationally efficient,
+so that each agent's calculation can be easily carried out. We also show that
+on any graph the process converges after at most $2N \cdot D$ steps, where $N$
+is the number of agents and $D$ is the diameter of the network. Finally, we
+show that on trees and on distance transitive-graphs the process converges
+after $D$ steps, and that it preserves privacy, so that agents learn very
+little about the private signal of most other agents, despite the efficient
+aggregation of information. Our results extend those in an unpublished
+manuscript of the first and last authors.

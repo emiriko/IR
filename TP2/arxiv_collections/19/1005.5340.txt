@@ -1,0 +1,16 @@
+We describe a fast parallel iterative method for computing molecular
+absorption spectra within TDDFT linear response and using the LCAO method. We
+use a local basis of "dominant products" to parametrize the space of orbital
+products that occur in the LCAO approach. In this basis, the dynamical
+polarizability is computed iteratively within an appropriate Krylov subspace.
+The iterative procedure uses a a matrix-free GMRES method to determine the
+(interacting) density response. The resulting code is about one order of
+magnitude faster than our previous full-matrix method. This acceleration makes
+the speed of our TDDFT code comparable with codes based on Casida's equation.
+The implementation of our method uses hybrid MPI and OpenMP parallelization in
+which load balancing and memory access are optimized. To validate our approach
+and to establish benchmarks, we compute spectra of large molecules on various
+types of parallel machines.
+  The methods developed here are fairly general and we believe they will find
+useful applications in molecular physics/chemistry, even for problems that are
+beyond TDDFT, such as organic semiconductors, particularly in photovoltaics.

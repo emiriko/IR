@@ -1,0 +1,11 @@
+We consider the complexity of problems related to the combinatorial game
+Free-Flood-It, in which players aim to make a coloured graph monochromatic with
+the minimum possible number of flooding operations. Although computing the
+minimum number of moves required to flood an arbitrary graph is known to be
+NP-hard, we demonstrate a polynomial time algorithm to compute the minimum
+number of moves required to link each pair of vertices. We apply this result to
+compute in polynomial time the minimum number of moves required to flood a
+path, and an additive approximation to this quantity for an arbitrary k x n
+board, coloured with a bounded number of colours, for any fixed k. On the other
+hand, we show that, for k>=3, determining the minimum number of moves required
+to flood a k x n board coloured with at least four colours remains NP-hard.

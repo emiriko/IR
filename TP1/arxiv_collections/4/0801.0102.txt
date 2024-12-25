@@ -1,0 +1,10 @@
+Huffman coding finds an optimal prefix code for a given probability mass
+function. Consider situations in which one wishes to find an optimal code with
+the restriction that all codewords have lengths that lie in a user-specified
+set of lengths (or, equivalently, no codewords have lengths that lie in a
+complementary set). This paper introduces a polynomial-time dynamic programming
+algorithm that finds optimal codes for this reserved-length prefix coding
+problem. This has applications to quickly encoding and decoding lossless codes.
+In addition, one modification of the approach solves any quasiarithmetic prefix
+coding problem, while another finds optimal codes restricted to the set of
+codes with g codeword lengths for user-specified g (e.g., g=2).

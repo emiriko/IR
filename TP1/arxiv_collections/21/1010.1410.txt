@@ -1,0 +1,17 @@
+In a clinical trial of a treatment for alcoholism, a common response variable
+of interest is the number of alcoholic drinks consumed by each subject each
+day, or an ordinal version of this response, with levels corresponding to
+abstinence, light drinking and heavy drinking. In these trials, within-subject
+drinking patterns are often characterized by alternating periods of heavy
+drinking and abstinence. For this reason, many statistical models for time
+series that assume steady behavior over time and white noise errors do not fit
+alcohol data well. In this paper we propose to describe subjects' drinking
+behavior using Markov models and hidden Markov models (HMMs), which are better
+suited to describe processes that make sudden, rather than gradual, changes
+over time. We incorporate random effects into these models using a hierarchical
+Bayes structure to account for correlated responses within subjects over time,
+and we estimate the effects of covariates, including a randomized treatment, on
+the outcome in a novel way. We illustrate the models by fitting them to a large
+data set from a clinical trial of the drug Naltrexone. The HMM, in particular,
+fits this data well and also contains unique features that allow for useful
+clinical interpretations of alcohol consumption behavior.

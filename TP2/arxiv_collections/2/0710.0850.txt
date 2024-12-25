@@ -1,0 +1,19 @@
+We consider the problem of pricing path-dependent options on a basket of
+underlying assets using simulations. As an example we develop our studies using
+Asian options. Asian options are derivative contracts in which the underlying
+variable is the average price of given assets sampled over a period of time.
+Due to this structure, Asian options display a lower volatility and are
+therefore cheaper than their standard European counterparts. This paper is a
+survey of some recent enhancements to improve efficiency when pricing Asian
+options by Monte Carlo simulation in the Black-Scholes model. We analyze the
+dynamics with constant and time-dependent volatilities of the underlying asset
+returns. We present a comparison between the precision of the standard Monte
+Carlo method (MC) and the stratified Latin Hypercube Sampling (LHS). In
+particular, we discuss the use of low-discrepancy sequences, also known as
+Quasi-Monte Carlo method (QMC), and a randomized version of these sequences,
+known as Randomized Quasi Monte Carlo (RQMC). The latter has proven to be a
+useful variance reduction technique for both problems of up to 20 dimensions
+and for very high dimensions. Moreover, we present and test a new path
+generation approach based on a Kronecker product approximation (KPA) in the
+case of time-dependent volatilities. KPA proves to be a fast generation
+technique and reduces the computational cost of the simulation procedure.

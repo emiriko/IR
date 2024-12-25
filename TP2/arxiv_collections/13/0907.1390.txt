@@ -1,0 +1,14 @@
+We introduce a method for accurate quantum chemical calculations based on a
+simple variational wave function, defined by a single geminal that couples all
+the electrons into singlet pairs, combined with a real space correlation
+factor. The method uses a constrained variational optimization, based on an
+expansion of the geminal in terms of molecular orbitals. It is shown that the
+most relevant non-dynamical correlations are correctly reproduced once an
+appropriate number $n$ of molecular orbitals is considered. The value of $n$ is
+determined by requiring that, in the atomization limit, the atoms are described
+by Hartree-Fock Slater determinants with Jastrow correlations. The energetics,
+as well as other physical and chemical properties, are then given by an
+efficient variational approach based on standard quantum Monte Carlo
+techniques. We test this method on a set of homonuclear (Be2, B2, C2, N2, O2,
+and F2) and heteronuclear (LiF, and CN) dimers for which strong non-dynamical
+correlations and/or weak van der Waals interactions are present.

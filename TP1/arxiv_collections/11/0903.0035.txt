@@ -1,0 +1,17 @@
+As supercomputers continue to grow in scale and capabilities, it is becoming
+increasingly difficult to isolate processor and system level causes of
+performance degradation. Over the last several years, a significant number of
+performance analysis and monitoring tools have been built/proposed. However,
+these tools suffer from several important shortcomings, particularly in
+distributed environments. In this paper we present ScALPEL, a Scalable Adaptive
+Lightweight Performance Evaluation Library for application performance
+monitoring at the functional level. Our approach provides several distinct
+advantages. First, ScALPEL is portable across a wide variety of architectures,
+and its ability to selectively monitor functions presents low run-time
+overhead, enabling its use for large-scale production applications. Second, it
+is run-time configurable, enabling both dynamic selection of functions to
+profile as well as events of interest on a per function basis. Third, our
+approach is transparent in that it requires no source code modifications.
+Finally, ScALPEL is implemented as a pluggable unit by reusing existing
+performance monitoring frameworks such as Perfmon and PAPI and extending them
+to support both sequential and MPI applications.

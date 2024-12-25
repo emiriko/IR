@@ -1,0 +1,15 @@
+This paper studies how to verify the conformity of a program with its
+specification and proposes a novel constraint-programming framework for bounded
+program verification (CPBPV). The CPBPV framework uses constraint stores to
+represent the specification and the program and explores execution paths
+nondeterministically. The input program is partially correct if each constraint
+store so produced implies the post-condition. CPBPV does not explore spurious
+execution paths as it incrementally prunes execution paths early by detecting
+that the constraint store is not consistent. CPBPV uses the rich language of
+constraint programming to express the constraint store. Finally, CPBPV is
+parametrized with a list of solvers which are tried in sequence, starting with
+the least expensive and less general. Experimental results often produce orders
+of magnitude improvements over earlier approaches, running times being often
+independent of the variable domains. Moreover, CPBPV was able to detect subtle
+errors in some programs while other frameworks based on model checking have
+failed.

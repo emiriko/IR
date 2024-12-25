@@ -1,0 +1,11 @@
+Using constraint-based local search, we effectively model and efficiently
+solve the problem of balancing the traffic demands on portions of the European
+airspace while ensuring that their capacity constraints are satisfied. The
+traffic demand of a portion of airspace is the hourly number of flights planned
+to enter it, and its capacity is the upper bound on this number under which
+air-traffic controllers can work. Currently, the only form of demand-capacity
+balancing we allow is ground holding, that is the changing of the take-off
+times of not yet airborne flights. Experiments with projected European flight
+plans of the year 2030 show that already this first form of demand-capacity
+balancing is feasible without incurring too much total delay and that it can
+lead to a significantly better demand-capacity balance.

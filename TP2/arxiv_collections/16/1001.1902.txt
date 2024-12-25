@@ -1,0 +1,12 @@
+Recently, hybrid architectures using accelerators like GPGPUs or the Cell
+processor have gained much interest in the HPC community. The RapidMind
+Multi-Core Development Platform is a programming environment that allows
+generating code which is able to seamlessly run on hardware accelerators like
+GPUs or the Cell processor and multicore CPUs both from AMD and Intel. This
+paper describes the ports of three mathematical kernels to RapidMind which are
+chosen as synthetic benchmarks and representatives of scientific codes.
+Performance of these kernels has been measured on various RapidMind backends
+(cuda, cell and x86) and compared to other hardware-specific implementations
+(using CUDA, Cell SDK and Intel MKL). The results give an insight in the degree
+of portability of RapidMind code and code performance across different
+architectures.

@@ -1,0 +1,13 @@
+This paper describes the design and implementation of GridCertLib, a Java
+library leveraging a Shibboleth-based authentication infrastructure and the
+SLCS online certificate signing service, to provide short-lived X.509
+certificates and Grid proxies. The main use case envisioned for GridCertLib, is
+to provide seamless and secure access to Grid/X.509 certificates and proxies in
+web applications and portals: when a user logs in to the portal using
+Shibboleth authentication, GridCertLib can automatically obtain a Grid/X.509
+certificate from the SLCS service and generate a VOMS proxy from it. We give an
+overview of the architecture of GridCertLib and briefly describe its
+programming model. Its application to some deployment scenarios is outlined, as
+well as a report on practical experience integrating GridCertLib into portals
+for Bioinformatics and Computational Chemistry applications, based on the
+popular P-GRADE and Django softwares.

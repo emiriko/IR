@@ -1,0 +1,21 @@
+The safety of infinite state systems can be checked by a backward
+reachability procedure. For certain classes of systems, it is possible to prove
+the termination of the procedure and hence conclude the decidability of the
+safety problem. Although backward reachability is property-directed, it can
+unnecessarily explore (large) portions of the state space of a system which are
+not required to verify the safety property under consideration. To avoid this,
+invariants can be used to dramatically prune the search space. Indeed, the
+problem is to guess such appropriate invariants. In this paper, we present a
+fully declarative and symbolic approach to the mechanization of backward
+reachability of infinite state systems manipulating arrays by Satisfiability
+Modulo Theories solving. Theories are used to specify the topology and the data
+manipulated by the system. We identify sufficient conditions on the theories to
+ensure the termination of backward reachability and we show the completeness of
+a method for invariant synthesis (obtained as the dual of backward
+reachability), again, under suitable hypotheses on the theories. We also
+present a pragmatic approach to interleave invariant synthesis and backward
+reachability so that a fix-point for the set of backward reachable states is
+more easily obtained. Finally, we discuss heuristics that allow us to derive an
+implementation of the techniques in the model checker MCMT, showing remarkable
+speed-ups on a significant set of safety problems extracted from a variety of
+sources.

@@ -1,0 +1,16 @@
+Fast Congestion Notification (FN) is one of the proactive queue management
+mechanisms that practices congestion avoidance to help avoid the beginning of
+congestion by marking or dropping packets before the routers queue gets full;
+and exercises congestion control, when congestion avoidance fails, by
+increasing the rate of packet marking or dropping. Technically, FN avoids the
+queue overflows by controlling the instantaneous queue size below the optimal
+queue size, and control congestion by keeping the average arrival rate close to
+the outgoing link capacity. Upon arrival of each packet, FN uses the
+instantaneous queue size and the average arrival rate to calculate the packet
+marking or dropping probability. FN marks or drops packets at fairly regular
+intervals to avoid long intermarking intervals and clustered packet marks or
+drops. Too many marked or dropped packets close together can cause global
+synchronization, and also too long packet intermarking times between marked or
+dropped packets can cause large queue sizes and congestion. This paper shows
+how FN controls the queue size, avoids congestion, and reduces global
+synchronization by uniformizing marked or dropped packet intervals.

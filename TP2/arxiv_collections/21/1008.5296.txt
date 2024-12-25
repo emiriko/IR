@@ -1,0 +1,12 @@
+Recently, Alomair et al. proposed the first UnConditionally Secure mutual
+authentication protocol for low-cost RFID systems(UCS-RFID). The security of
+the UCS-RFID relies on five dynamic secret keys which are updated at every
+protocol run using a fresh random number (nonce) secretly transmitted from a
+reader to tags. Our results show that, at the highest security level of the
+protocol (security parameter= 256), inferring a nonce is feasible with the
+probability of 0.99 by eavesdropping(observing) about 90 runs of the protocol.
+Finding a nonce enable a passive attacker to recover all five secret keys of
+the protocol. To do so, we propose a three-phase probabilistic approach in this
+paper. Our attack recovers the secret keys with a probability that increases by
+accessing to more protocol runs. We also show that tracing a tag using this
+protocol is also possible even with less runs of the protocol.

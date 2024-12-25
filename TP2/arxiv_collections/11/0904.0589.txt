@@ -1,0 +1,18 @@
+The paper introduces fuzzy linguistic logic programming, which is a
+combination of fuzzy logic programming, introduced by P. Vojtas, and hedge
+algebras in order to facilitate the representation and reasoning on human
+knowledge expressed in natural languages. In fuzzy linguistic logic
+programming, truth values are linguistic ones, e.g., VeryTrue,
+VeryProbablyTrue, and LittleFalse, taken from a hedge algebra of a linguistic
+truth variable, and linguistic hedges (modifiers) can be used as unary
+connectives in formulae. This is motivated by the fact that humans reason
+mostly in terms of linguistic terms rather than in terms of numbers, and
+linguistic hedges are often used in natural languages to express different
+levels of emphasis. The paper presents: (i) the language of fuzzy linguistic
+logic programming; (ii) a declarative semantics in terms of Herbrand
+interpretations and models; (iii) a procedural semantics which directly
+manipulates linguistic terms to compute a lower bound to the truth value of a
+query, and proves its soundness; (iv) a fixpoint semantics of logic programs,
+and based on it, proves the completeness of the procedural semantics; (v)
+several applications of fuzzy linguistic logic programming; and (vi) an idea of
+implementing a system to execute fuzzy linguistic logic programs.

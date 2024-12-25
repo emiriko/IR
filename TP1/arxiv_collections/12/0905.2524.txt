@@ -1,0 +1,19 @@
+The state of a non-relativistic gravitational dynamical system is known at
+any time $t$ if the dynamical rule, i.e. Newton's equations of motion, can be
+solved; this requires specification of the gravitational potential. The
+evolution of a bunch of phase space coordinates ${\bf w}$ is deterministic,
+though generally non-linear. We discuss the novel Bayesian non-parametric
+algorithm CHASSIS that gives phase space $pdf$ $f({\bf w})$ and potential
+$\Phi({\bf x})$ of a relaxed gravitational system. CHASSIS is undemanding in
+terms of input requirements in that it is viable given incomplete,
+single-component velocity information of system members. Here ${\bf x}$ is the
+3-D spatial coordinate and ${\bf w}={\bf x+v}$ where ${\bf v}$ is the 3-D
+velocity vector. CHASSIS works with a 2-integral $f=f(E, L)$ where energy
+$E=\Phi + v^2/2, \: v^2 = \sum_{i=1}^{3}{v_i^2}$ and the angular momentum is $L
+= |{\bf r}\times{\bf v}|$, where ${\bf r}$ is the spherical spatial vector.
+Also, we assume spherical symmetry. CHASSIS obtains the $f(\cdot)$ from which
+the kinematic data is most likely to have been drawn, in the best choice for
+$\Phi(\cdot)$, using an MCMC optimiser (Metropolis-Hastings). The likelihood
+function ${\cal{L}}$ is defined in terms of the projections of $f(\cdot)$ into
+the space of observables and the maximum in ${\cal{L}}$ is sought by the
+optimiser.

@@ -1,0 +1,20 @@
+A distributed algorithm is self-stabilizing if after faults and attacks hit
+the system and place it in some arbitrary global state, the systems recovers
+from this catastrophic situation without external intervention in finite time.
+Unidirectional networks preclude many common techniques in self-stabilization
+from being used, such as preserving local predicates. In this paper, we
+investigate the intrinsic complexity of achieving self-stabilization in
+unidirectional networks, and focus on the classical vertex coloring problem.
+When deterministic solutions are considered, we prove a lower bound of $n$
+states per process (where $n$ is the network size) and a recovery time of at
+least $n(n-1)/2$ actions in total. We present a deterministic algorithm with
+matching upper bounds that performs in arbitrary graphs. When probabilistic
+solutions are considered, we observe that at least $\Delta + 1$ states per
+process and a recovery time of $\Omega(n)$ actions in total are required (where
+$\Delta$ denotes the maximal degree of the underlying simple undirected graph).
+We present a probabilistically self-stabilizing algorithm that uses
+$\mathtt{k}$ states per process, where $\mathtt{k}$ is a parameter of the
+algorithm. When $\mathtt{k}=\Delta+1$, the algorithm recovers in expected
+$O(\Delta n)$ actions. When $\mathtt{k}$ may grow arbitrarily, the algorithm
+recovers in expected O(n) actions in total. Thus, our algorithm can be made
+optimal with respect to space or time complexity.

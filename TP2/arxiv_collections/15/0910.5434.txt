@@ -1,0 +1,17 @@
+One of the most used approaches in simulating materials is the tight-binding
+approximation. When using this method in a material simulation, it is necessary
+to compute the eigenvalues and eigenvectors of the Hamiltonian describing the
+system. In general, the system possesses few explicit symmetries. Due to them,
+the problem has many degenerate eigenvalues. The ambiguity in choosing a
+orthonormal basis of the invariant subspaces, associated with degenerate
+eigenvalues, will result in eigenvectors which are not invariant under the
+action of the symmetry operators in matrix form. A meaningful computation of
+the eigenvectors needs to take those symmetries into account. A natural choice
+is a set of eigenvectors, which simultaneously diagonalizes the Hamiltonian and
+the symmetry matrices. This is possible because all the matrices commute with
+each other. The simultaneous eigenvectors and the corresponding eigenvalues
+will be in a parametrized form in terms of the lattice momentum components.
+This functional dependence of the eigenvalues is the dispersion relation and
+describes the band structure of a material. Therefore it is important to find
+this functional dependence in any numerical computation related to material
+properties.

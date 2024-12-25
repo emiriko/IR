@@ -1,0 +1,10 @@
+XML data warehouses form an interesting basis for decision-support
+applications that exploit complex data. However, native XML database management
+systems currently bear limited performances and it is necessary to design
+strategies to optimize them. In this paper, we propose an automatic strategy
+for the selection of XML materialized views that exploits a data mining
+technique, more precisely the clustering of the query workload. To validate our
+strategy, we implemented an XML warehouse modeled along the XCube
+specifications. We executed a workload of XQuery decision-support queries on
+this warehouse, with and without using our strategy. Our experimental results
+demonstrate its efficiency, even when queries are complex.

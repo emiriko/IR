@@ -1,0 +1,10 @@
+The two major approaches to sparse recovery are L1-minimization and greedy
+methods. Recently, Needell and Vershynin developed Regularized Orthogonal
+Matching Pursuit (ROMP) that has bridged the gap between these two approaches.
+ROMP is the first stable greedy algorithm providing uniform guarantees.
+  Even more recently, Needell and Tropp developed the stable greedy algorithm
+Compressive Sampling Matching Pursuit (CoSaMP). CoSaMP provides uniform
+guarantees and improves upon the stability bounds and RIC requirements of ROMP.
+CoSaMP offers rigorous bounds on computational cost and storage. In many cases,
+the running time is just O(NlogN), where N is the ambient dimension of the
+signal. This review summarizes these major advances.

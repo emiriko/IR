@@ -1,0 +1,17 @@
+As an immune inspired algorithm, the Dendritic Cell Algorithm (DCA) has been
+applied to a range of problems, particularly in the area of intrusion
+detection. Ideally, the intrusion detection should be performed in real-time,
+to continuously detect misuses as soon as they occur. Consequently, the
+analysis process performed by an intrusion detection system must operate in
+real-time or near-to real-time. The analysis process of the DCA is currently
+performed offline, therefore to improve the algorithm's performance we suggest
+the development of a real-time analysis component. The initial step of the
+development is to apply segmentation to the DCA. This involves segmenting the
+current output of the DCA into slices and performing the analysis in various
+ways. Two segmentation approaches are introduced and tested in this paper,
+namely antigen based segmentation (ABS) and time based segmentation (TBS). The
+results of the corresponding experiments suggest that applying segmentation
+produces different and significantly better results in some cases, when
+compared to the standard DCA without segmentation. Therefore, we conclude that
+the segmentation is applicable to the DCA for the purpose of real-time
+analysis.

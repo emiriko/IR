@@ -1,0 +1,20 @@
+In radio astronomy, reference signals from auxiliary antennas that receive
+only the radio frequency interference (RFI) can be modified to model the RFI
+environment at the astronomy receivers. The RFI can then be canceled from the
+astronomy signal paths. However, astronomers typically only require signal
+statistics. If the RFI statistics are changing slowly, the cancellation can be
+applied to the signal correlations at a much lower rate than is required for
+standard adaptive filters. In this paper we describe five canceler setups;
+precorrelation and postcorrelation cancelers that use one or two reference
+signals in different ways. The theoretical residual RFI and added noise levels
+are examined and are demonstrated using microwave television RFI at the
+Australia Telescope Compact Array. The RFI is attenuated to below the system
+noise, a reduction of at least 20 dB. While dual-reference cancelers add more
+reference noise than single-reference cancelers, this noise is zero-mean and
+only adds to the system noise, decreasing the sensitivity. The residual RFI
+that remains in the output of single-reference cancelers (but not
+dual-reference cancelers) sets a nonzero noise floor that does not act like
+random system noise and may limit the achievable sensitivity. Thus,
+dual-reference cancelers often result in superior cancellation. Dual-reference
+precorrelation cancelers require a double-canceler setup to be useful and to
+give equivalent results to dual-reference postcorrelation cancelers.

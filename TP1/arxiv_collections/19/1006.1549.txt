@@ -1,0 +1,16 @@
+We present a basic high-level structures used for developing quantum
+programming languages. The presented structures are commonly used in many
+existing quantum programming languages and we use quantum pseudo-code based on
+QCL quantum programming language to describe them. We also present the
+implementation of introduced structures in GNU Octave language for scientific
+computing. Procedures used in the implementation are available as a package
+quantum-octave, providing a library of functions, which facilitates the
+simulation of quantum computing. This package allows also to incorporate
+high-level programming concepts into the simulation in GNU Octave and Matlab.
+As such it connects features unique for high-level quantum programming
+languages, with the full palette of efficient computational routines commonly
+available in modern scientific computing systems. To present the major features
+of the described package we provide the implementation of selected quantum
+algorithms. We also show how quantum errors can be taken into account during
+the simulation of quantum algorithms using quantum-octave package. This is
+possible thanks to the ability to operate on density matrices.

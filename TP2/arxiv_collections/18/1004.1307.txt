@@ -1,0 +1,20 @@
+Fuzzy c-means clustering is widely used to identify cluster structures in
+high-dimensional data sets, such as those obtained in DNA microarray and
+quantitative proteomics experiments. One of its main limitations is the lack of
+a computationally fast method to determine the two parameters fuzzifier and
+cluster number. Wrong parameter values may either lead to the inclusion of
+purely random fluctuations in the results or ignore potentially important data.
+The optimal solution has parameter values for which the clustering does not
+yield any results for a purely random data set but which detects cluster
+formation with maximum resolution on the edge of randomness. Estimation of the
+optimal parameter values is achieved by evaluation of the results of the
+clustering procedure applied to randomized data sets. In this case, the optimal
+value of the fuzzifier follows common rules that depend only on the main
+properties of the data set. Taking the dimension of the set and the number of
+objects as input values instead of evaluating the entire data set allows us to
+propose a functional relationship determining its value directly. This result
+speaks strongly against setting the fuzzifier equal to 2 as typically done in
+many previous studies. Validation indices are generally used for the estimation
+of the optimal number of clusters. A comparison shows that the minimum distance
+between the centroids provides results that are at least equivalent or better
+than those obtained by other computationally more expensive indices.

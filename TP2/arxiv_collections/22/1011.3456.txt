@@ -1,0 +1,17 @@
+In the present work, we present a novel numerical algorithm to couple the
+Direct Simulation Monte Carlo method (DSMC) for the solution of the Boltzmann
+equation with a finite volume like method for the solution of the Euler
+equations. Recently we presented in [14],[16],[17] different methodologies
+which permit to solve fluid dynamics problems with localized regions of
+departure from thermodynamical equilibrium. The methods rely on the
+introduction of buffer zones which realize a smooth transition between the
+kinetic and the fluid regions. In this paper we extend the idea of buffer zones
+and dynamic coupling to the case of the Monte Carlo methods. To facilitate the
+coupling and avoid the onset of spurious oscillations in the fluid regions
+which are consequences of the coupling with a stochastic numerical scheme, we
+use a new technique which permits to reduce the variance of the particle
+methods [11]. In addition, the use of this method permits to obtain estimations
+of the breakdowns of the fluid models less affected by fluctuations and
+consequently to reduce the kinetic regions and optimize the coupling. In the
+last part of the paper several numerical examples are presented to validate the
+method and measure its computational performances.

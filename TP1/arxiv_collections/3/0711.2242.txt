@@ -1,0 +1,17 @@
+The problem of Group Testing is to identify defective items out of a set of
+objects by means of pool queries of the form "Does the pool contain at least a
+defective?". The aim is of course to perform detection with the fewest possible
+queries, a problem which has relevant practical applications in different
+fields including molecular biology and computer science. Here we study GT in
+the probabilistic setting focusing on the regime of small defective probability
+and large number of objects, $p \to 0$ and $N \to \infty$. We construct and
+analyze one-stage algorithms for which we establish the occurrence of a
+non-detection/detection phase transition resulting in a sharp threshold, $\bar
+M$, for the number of tests. By optimizing the pool design we construct
+algorithms whose detection threshold follows the optimal scaling $\bar M\propto
+Np|\log p|$. Then we consider two-stages algorithms and analyze their
+performance for different choices of the first stage pools. In particular, via
+a proper random choice of the pools, we construct algorithms which attain the
+optimal value (previously determined in Ref. [16]) for the mean number of tests
+required for complete detection. We finally discuss the optimal pool design in
+the case of finite $p$.

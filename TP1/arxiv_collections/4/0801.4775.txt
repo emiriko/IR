@@ -1,0 +1,12 @@
+The traditional approach to spreadsheet auditing generally consists of
+auditing every distinct formula within a spreadsheet. Although tools are
+developed to support auditors during this process, the approach is still very
+time consuming and therefore relatively expensive. As an alternative to the
+traditional "control through" approach, this paper discusses a "control around"
+approach. Within the proposed approach not all distinct formulas are audited
+separately, but the relationship between input data and output data of a
+spreadsheet is audited through comparison with a shadow model developed in a
+modelling language. Differences between the two models then imply possible
+errors in the spreadsheet. This paper describes relevant issues regarding the
+"control around" approach and the circumstances in which this approach is
+preferred above a traditional spreadsheet audit approach.

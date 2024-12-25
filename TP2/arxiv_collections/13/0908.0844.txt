@@ -1,0 +1,15 @@
+Dynamical quantum-cluster approaches, such as different cluster extensions of
+the dynamical mean-field theory (cluster DMFT) or the variational cluster
+approximation (VCA), combined with efficient cluster solvers, such as the
+quantum Monte-Carlo (QMC) method, provide controlled approximations of the
+single-particle Green's function for lattice models of strongly correlated
+electrons. To access the thermodynamics, however, a thermodynamical potential
+is needed. We present an efficient numerical algorithm to compute the grand
+potential within cluster-embedding approaches that are based on novel
+continuous-time QMC schemes: It is shown that the numerically exact cluster
+grand potential can be obtained from a quantum Wang-Landau technique to
+reweight the coefficients in the expansion of the partition function. The
+lattice contributions to the grand potential are computed by a proper infinite
+summation over Matsubara frequencies. A proof of principle is given by applying
+the VCA to antiferromagnetic (short-range) order in the two-dimensional Hubbard
+model at finite temperatures.

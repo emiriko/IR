@@ -1,0 +1,17 @@
+An algorithm is derived for computer simulation of geodesics on the constant
+potential-energy hypersurface of a system of N classical particles. First, a
+basic time-reversible geodesic algorithm is derived by discretizing the
+geodesic stationarity condition and implementing the constant potential energy
+constraint via standard Lagrangian multipliers. The basic NVU algorithm is
+tested by single-precision computer simulations of the Lennard-Jones liquid.
+Excellent numerical stability is obtained if the force cutoff is smoothed and
+the two initial configurations have identical potential energy within machine
+precision. Nevertheless, just as for NVE algorithms, stabilizers are needed for
+very long runs in order to compensate for the accumulation of numerical errors
+that eventually lead to "entropic drift" of the potential energy towards higher
+values. A modification of the basic NVU algorithm is introduced that ensures
+potential-energy and step-length conservation; center-of-mass drift is also
+eliminated. Analytical arguments confirmed by simulations demonstrate that the
+modified NVU algorithm is absolutely stable. Finally, simulations show that the
+NVU algorithm and the standard leap-frog NVE algorithm have identical radial
+distribution functions for the Lennard-Jones liquid.

@@ -1,0 +1,10 @@
+The most expensive source of errors and the more difficult to detect in a
+formal development is the error during specification. Hence, the first step in
+a formal development usually consists in exhibiting the set of all behaviors of
+the specification, for instance with an automaton. Starting from this
+observation, many researches are about the generation of a B machine from a
+behavioral specification, such as UML. However, no backward verification are
+done. This is why, we propose the GeneSyst tool, which aims at generating an
+automaton describing at least all behaviors of the specification. The
+refinement step is considered and appears as sub-automatons in the produced
+SLTS.

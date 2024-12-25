@@ -1,0 +1,17 @@
+We present in this paper a multigroup model for radiation hydrodynamics to
+account for variations of the gas opacity as a function of frequency. The
+entropy closure model (M1) is applied to multigroup radiation transfer in a
+radiation hydrodynamics code. In difference from the previous grey model, we
+are able to reproduce the crucial effects of frequency-variable gas opacities,
+a situation omnipresent in physics and astrophysics. We also account for the
+energy exchange between neighbouring groups which is important in flows with
+strong velocity divergence. These terms were computed using a finite volume
+method in the frequency domain. The radiative transfer aspect of the method was
+first tested separately for global consistency (reversion to grey model) and
+against a well established kinetic model through Marshak wave tests with
+frequency dependent opacities. Very good agreement between the multigroup M1
+and kinetic models was observed in all tests. The successful coupling of the
+multigroup radiative transfer to the hydrodynamics was then confirmed through a
+second series of tests. Finally, the model was linked to a database of
+opacities for a Xe gas in order to simulate realistic multigroup radiative
+shocks in Xe. The differences with the previous grey models are discussed.

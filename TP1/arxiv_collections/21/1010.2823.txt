@@ -1,0 +1,22 @@
+Automata-based modeling languages, like Component Interaction Automata, offer
+an attractive means to capture and analyze the behavioral aspects of
+interacting components. At the center of these modeling languages we find
+finite state machines that allow for a fine-grained description how and when
+specific service requests may interact with other components or the
+environment. Unfortunately, automata-based approaches suffer from exponential
+state explosion, a major obstacle to the successful application of these
+formalisms in modeling real-world scenarios. In order to cope with the
+complexity of individual specifications we can apply partition refinement, an
+abstraction technique to alleviate the state explosion problem. But this
+technique too exhibits exponential time and space complexity and, worse, does
+not offer any guarantees for success. To better understand as to why partition
+refinement succeeds in some cases while it fails in others, we conducted an
+empirical study on the performance of a partition refinement algorithm for
+Component Interaction Automata specifications. As a result we have identified
+suitable predictors for the expected effectiveness of partition refinement. It
+is the structure, not the size, of a specification that weighs heavier on the
+outcome of partition refinement. In particular, Component Interaction Automata
+specifications for real-world systems are capable of producing scale-free
+networks containing structural artifacts that can assist the partition
+refinement algorithm not only converge earlier, but also yield a significant
+state space reduction on occasion.

@@ -1,0 +1,21 @@
+The fundamental problem faced in quantum chemistry is the calculation of
+molecular properties, which are of practical importance in fields ranging from
+materials science to biochemistry. Within chemical precision, the total energy
+of a molecule as well as most other properties, can be calculated by solving
+the Schrodinger equation. However, the computational resources required to
+obtain exact solutions on a conventional computer generally increase
+exponentially with the number of atoms involved. This renders such calculations
+intractable for all but the smallest of systems. Recently, an efficient
+algorithm has been proposed enabling a quantum computer to overcome this
+problem by achieving only a polynomial resource scaling with system size. Such
+a tool would therefore provide an extremely powerful tool for new science and
+technology. Here we present a photonic implementation for the smallest problem:
+obtaining the energies of H2, the hydrogen molecule in a minimal basis. We
+perform a key algorithmic step - the iterative phase estimation algorithm - in
+full, achieving a high level of precision and robustness to error. We implement
+other algorithmic steps with assistance from a classical computer and explain
+how this non-scalable approach could be avoided. Finally, we provide new
+theoretical results which lay the foundations for the next generation of
+simulation experiments using quantum computers. We have made early experimental
+progress towards the long-term goal of exploiting quantum information to speed
+up quantum chemistry calculations.

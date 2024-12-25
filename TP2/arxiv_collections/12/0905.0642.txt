@@ -1,0 +1,20 @@
+Consider the use of $\ell_{1}/\ell_{\infty}$-regularized regression for joint
+estimation of a $\pdim \times \numreg$ matrix of regression coefficients. We
+analyze the high-dimensional scaling of $\ell_1/\ell_\infty$-regularized
+quadratic programming, considering both consistency in $\ell_\infty$-norm, and
+variable selection. We begin by establishing bounds on the $\ell_\infty$-error
+as well sufficient conditions for exact variable selection for fixed and random
+designs. Our second set of results applies to $\numreg = 2$ linear regression
+problems with standard Gaussian designs whose supports overlap in a fraction
+$\alpha \in [0,1]$ of their entries: for this problem class, we prove that the
+$\ell_{1}/\ell_{\infty}$-regularized method undergoes a phase transition--that
+is, a sharp change from failure to success--characterized by the rescaled
+sample size $\theta_{1,\infty}(n, p, s, \alpha) = n/\{(4 - 3 \alpha) s
+\log(p-(2- \alpha) s)\}$. An implication of this threshold is that use of
+$\ell_1 / \ell_{\infty}$-regularization yields improved statistical efficiency
+if the overlap parameter is large enough ($\alpha > 2/3$), but has \emph{worse}
+statistical efficiency than a naive Lasso-based approach for moderate to small
+overlap ($\alpha < 2/3$). These results indicate that some caution needs to be
+exercised in the application of $\ell_1/\ell_\infty$ block regularization: if
+the data does not match its structure closely enough, it can impair statistical
+performance relative to computationally less expensive schemes.

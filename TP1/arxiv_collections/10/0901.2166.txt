@@ -1,0 +1,11 @@
+A notion of open bisimulation is formulated for the spi calculus, an
+extension of the pi-calculus with cryptographic primitives. In this
+formulation, open bisimulation is indexed by pairs of symbolic traces, which
+represent the history of interactions between the environment with the pairs of
+processes being checked for bisimilarity. The use of symbolic traces allows for
+a symbolic treatment of bound input in bisimulation checking which avoids
+quantification over input values. Open bisimilarity is shown to be sound with
+respect to testing equivalence, and futher, it is shown to be an equivalence
+relation on processes and a congruence relation on finite processes. As far as
+we know, this is the first formulation of open bisimulation for the spi
+calculus for which the congruence result is proved.

@@ -1,0 +1,11 @@
+This paper proposes a simple strategy to simulate stochastic differential
+equations (SDE) arising in constant temperature molecular dynamics. The main
+idea is to patch an explicit integrator with Metropolis accept or reject steps.
+The resulting `Metropolized integrator' preserves the SDE's equilibrium
+distribution and is pathwise accurate on finite time intervals. As a corollary
+the integrator can be used to estimate finite-time dynamical properties along
+an infinitely long solution. The paper explains how to implement the patch
+(even in the presence of multiple-time-stepsizes and holonomic constraints),
+how it scales with system size, and how much overhead it requires. We test the
+integrator on a Lennard-Jones cluster of particles and `dumbbells' at constant
+temperature.

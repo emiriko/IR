@@ -1,0 +1,10 @@
+Conventional Non-Linear Feedback Shift Registers (NLFSRs) use the Fibonacci
+configuration in which the value of the first bit is updated according to some
+non-linear feedback function of previous values of other bits, and each
+remaining bit repeats the value of its previous bit. We show how to transform
+the feedback function of a Fibonacci NLFSR into several smaller feedback
+functions of individual bits. Such a transformation reduces the propagation
+time, thus increasing the speed of pseudo-random sequence generation. The
+practical significance of the presented technique is that is makes possible
+increasing the keystream generation speed of any Fibonacci NLFSR-based stream
+cipher with no penalty in area.

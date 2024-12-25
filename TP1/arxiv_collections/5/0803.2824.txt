@@ -1,0 +1,17 @@
+A well-known approach to intradomain traffic engineering consists in finding
+the set of link weights that minimizes a network-wide objective function for a
+given intradomain traffic matrix. This approach is inadequate because it
+ignores a potential impact on interdomain routing. Indeed, the resulting set of
+link weights may trigger BGP to change the BGP next hop for some destination
+prefixes, to enforce hot-potato routing policies. In turn, this results in
+changes in the intradomain traffic matrix that have not been anticipated by the
+link weights optimizer, possibly leading to degraded network performance.
+  We propose a BGP-aware link weights optimization method that takes these
+effects into account, and even turns them into an advantage. This method uses
+the interdomain traffic matrix and other available BGP data, to extend the
+intradomain topology with external virtual nodes and links, on which all the
+well-tuned heuristics of a classical link weights optimizer can be applied. A
+key innovative asset of our method is its ability to also optimize the traffic
+on the interdomain peering links. We show, using an operational network as a
+case study, that our approach does so efficiently at almost no extra
+computational cost.

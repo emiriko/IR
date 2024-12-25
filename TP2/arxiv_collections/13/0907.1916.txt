@@ -1,0 +1,20 @@
+We consider a class of fully stochastic and fully distributed algorithms,
+that we prove to learn equilibria in games.
+  Indeed, we consider a family of stochastic distributed dynamics that we prove
+to converge weakly (in the sense of weak convergence for probabilistic
+processes) towards their mean-field limit, i.e an ordinary differential
+equation (ODE) in the general case. We focus then on a class of stochastic
+dynamics where this ODE turns out to be related to multipopulation replicator
+dynamics.
+  Using facts known about convergence of this ODE, we discuss the convergence
+of the initial stochastic dynamics: For general games, there might be
+non-convergence, but when convergence of the ODE holds, considered stochastic
+algorithms converge towards Nash equilibria. For games admitting Lyapunov
+functions, that we call Lyapunov games, the stochastic dynamics converge. We
+prove that any ordinal potential game, and hence any potential game is a
+Lyapunov game, with a multiaffine Lyapunov function. For Lyapunov games with a
+multiaffine Lyapunov function, we prove that this Lyapunov function is a
+super-martingale over the stochastic dynamics. This leads a way to provide
+bounds on their time of convergence by martingale arguments. This applies in
+particular for many classes of games that have been considered in literature,
+including several load balancing game scenarios and congestion games.

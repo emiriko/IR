@@ -1,0 +1,11 @@
+The design of embedded control systems is mainly done with model-based tools
+such as Matlab/Simulink. Numerical simulation is the central technique of
+development and verification of such tools. Floating-point arithmetic, that is
+well-known to only provide approximated results, is omnipresent in this
+activity. In order to validate the behaviors of numerical simulations using
+abstract interpretation-based static analysis, we present, theoretically and
+with experiments, a new partially relational abstract domain dedicated to
+floating-point variables. It comes from interval expansion of non-linear
+functions using slopes and it is able to mimic all the behaviors of the
+floating-point arithmetic. Hence it is adapted to prove the absence of run-time
+errors or to analyze the numerical precision of embedded control systems.

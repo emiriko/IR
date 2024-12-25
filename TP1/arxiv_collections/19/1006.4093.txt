@@ -1,0 +1,6 @@
+In this paper we describe a dynamic external memory data structure that
+supports range reporting queries in three dimensions in $O(\log_B^2 N +
+\frac{k}{B})$ I/O operations, where $k$ is the number of points in the answer
+and $B$ is the block size. This is the first dynamic data structure that
+answers three-dimensional range reporting queries in $\log_B^{O(1)} N +
+O(\frac{k}{B})$ I/Os.

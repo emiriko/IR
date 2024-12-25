@@ -1,0 +1,18 @@
+Online adaptive radiation therapy (ART) promises the ability to deliver an
+optimal treatment in response to daily patient anatomic variation. A major
+technical barrier for the clinical implementation of online ART is the
+requirement of rapid image segmentation. Deformable image registration (DIR)
+has been used as an automated segmentation method to transfer tumor/organ
+contours from the planning image to daily images. However, the current
+computational time of DIR is insufficient for online ART. In this work, this
+issue is addressed by using computer graphics processing units (GPUs). A
+grey-scale based DIR algorithm called demons and five of its variants were
+implemented on GPUs using the Compute Unified Device Architecture (CUDA)
+programming environment. The spatial accuracy of these algorithms was evaluated
+over five sets of pulmonary 4DCT images with an average size of 256x256x100 and
+more than 1,100 expert-determined landmark point pairs each. For all the
+testing scenarios presented in this paper, the GPU-based DIR computation
+required around 7 to 11 seconds to yield an average 3D error ranging from 1.5
+to 1.8 mm. It is interesting to find out that the original passive force demons
+algorithms outperform subsequently proposed variants based on the combination
+of accuracy, efficiency, and ease of implementation.

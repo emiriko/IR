@@ -1,0 +1,15 @@
+This paper considers the problem of using MCMC to fit sparse Bayesian models
+based on normal scale-mixture priors. Examples of this framework include the
+Bayesian LASSO and the horseshoe prior. We study the usefulness of parameter
+expansion (PX) for improving convergence in such models, which is notoriously
+slow when the global variance component is near zero. Our conclusion is that
+parameter expansion does improve matters in LASSO-type models, but only
+modestly. In most cases this improvement, while noticeable, is less than what
+might be expected, especially compared to the improvements that PX makes
+possible for models very similar to those considered here. We give some
+examples, and we attempt to provide some intuition as to why this is so. We
+also describe how slice sampling may be used to update the global variance
+component. In practice, this approach seems to perform almost as well as
+parameter expansion. As a practical matter, however, it is perhaps best viewed
+not as a replacement for PX, but as a tool for expanding the class of models to
+which PX is applicable.

@@ -1,0 +1,10 @@
+We develop an extension of the classical Zellner's g-prior to generalized
+linear models. The prior on the hyperparameter g is handled in a flexible way,
+so that any continuous proper hyperprior f(g) can be used, giving rise to a
+large class of hyper-g priors. Connections with the literature are described in
+detail. A fast and accurate integrated Laplace approximation of the marginal
+likelihood makes inference in large model spaces feasible. For posterior
+parameter estimation we propose an efficient and tuning-free
+Metropolis-Hastings sampler. The methodology is illustrated with variable
+selection and automatic covariate transformation in the Pima Indians diabetes
+data set.

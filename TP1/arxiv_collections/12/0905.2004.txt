@@ -1,0 +1,14 @@
+We present a heuristic framework for attacking the undecidable termination
+problem of logic programs, as an alternative to current
+termination/non-termination proof approaches. We introduce an idea of
+termination prediction, which predicts termination of a logic program in case
+that neither a termination nor a non-termination proof is applicable. We
+establish a necessary and sufficient characterization of infinite (generalized)
+SLDNF-derivations with arbitrary (concrete or moded) queries, and develop an
+algorithm that predicts termination of general logic programs with arbitrary
+non-floundering queries. We have implemented a termination prediction tool and
+obtained quite satisfactory experimental results. Except for five programs
+which break the experiment time limit, our prediction is 100% correct for all
+296 benchmark programs of the Termination Competition 2007, of which eighteen
+programs cannot be proved by any of the existing state-of-the-art analyzers
+like AProVE07, NTI, Polytool and TALP.

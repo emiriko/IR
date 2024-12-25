@@ -1,0 +1,12 @@
+To analyze complex and heterogeneous real-time embedded systems, recent works
+have proposed interface techniques between real-time calculus (RTC) and timed
+automata (TA), in order to take advantage of the strengths of each technique
+for analyzing various components. But the time to analyze a state-based
+component modeled by TA may be prohibitively high, due to the state space
+explosion problem. In this paper, we propose a framework of granularity-based
+interfacing to speed up the analysis of a TA modeled component. First, we
+abstract fine models to work with event streams at coarse granularity. We
+perform analysis of the component at multiple coarse granularities and then
+based on RTC theory, we derive lower and upper bounds on arrival patterns of
+the fine output streams using the causality closure algorithm. Our framework
+can help to achieve tradeoffs between precision and analysis time.

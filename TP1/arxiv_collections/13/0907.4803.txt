@@ -1,0 +1,12 @@
+We study the problem of graph partitioning, or clustering, in sparse networks
+with prior information about the clusters. Specifically, we assume that for a
+fraction $\rho$ of the nodes their true cluster assignments are known in
+advance. This can be understood as a semi--supervised version of clustering, in
+contrast to unsupervised clustering where the only available information is the
+graph structure. In the unsupervised case, it is known that there is a
+threshold of the inter--cluster connectivity beyond which clusters cannot be
+detected. Here we study the impact of the prior information on the detection
+threshold, and show that even minute [but generic] values of $\rho>0$ shift the
+threshold downwards to its lowest possible value. For weighted graphs we show
+that a small semi--supervising can be used for a non-trivial definition of
+communities.

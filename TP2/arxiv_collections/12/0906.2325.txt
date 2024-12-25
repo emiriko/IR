@@ -1,0 +1,24 @@
+Large LAr TPCs are among the most powerful detectors to address open problems
+in particle and astro-particle physics, such as CP violation in leptonic
+sector, neutrino properties and their astrophysical implications, proton decay
+search etc. The scale of such detector implies severe constraints on their
+readout and DAQ system. In this article we describe a data acquisition scheme
+for this new generation of large detectors. The main challenge is to propose a
+scalable and easy to use solution able to manage a large number of channels at
+the lowest cost. It is interesting to note that these constraints are very
+similar to those existing in Network Telecommunication Industry. We propose to
+study how emerging technologies like ATCA and $\mu$TCA could be used in
+neutrino experiments. We describe the design of an Advanced Mezzanine Board
+(AMC) including 32 ADC channels. This board receives 32 analogical channels at
+the front panel and sends the formatted data through the $\mu$TCA backplane
+using a Gigabit Ethernet link. The gigabit switch of the MCH is used to
+centralize and to send the data to the event building computer. The core of
+this card is a FPGA (ARIA-GX from ALTERA) including the whole system except the
+memories. A hardware accelerator has been implemented using a NIOS II $\mu$P
+and a Gigabit MAC IP. Obviously, in order to be able to reconstruct the tracks
+from the events a time synchronisation system is mandatory. We decided to
+implement the IEEE1588 standard also called Precision Timing Protocol, another
+emerging and promising technology in Telecommunication Industry. In this
+article we describe a Gigabit PTP implementation using the recovered clock of
+the gigabit link. By doing so the drift is directly cancelled and the PTP will
+be used only to evaluate and to correct the offset.

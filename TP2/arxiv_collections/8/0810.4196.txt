@@ -1,0 +1,10 @@
+If the non-zero finite floating-point numbers are interpreted as point
+intervals, then the effect of rounding can be interpreted as computing one of
+the bounds of the result according to interval arithmetic. We give an interval
+interpretation for the signed zeros and infinities, so that the undefined
+operations 0*inf, inf - inf, inf/inf, and 0/0 become defined.
+  In this way no operation remains that gives rise to an error condition.
+Mathematically questionable features of the floating-point standard become
+well-defined sets of reals. Interval semantics provides a basis for the
+verification of numerical algorithms. We derive the results of the newly
+defined operations and consider the implications for hardware implementation.

@@ -1,0 +1,8 @@
+We study the PageRank mass of principal components in a bow-tie Web Graph, as
+a function of the damping factor c. Using a singular perturbation approach, we
+show that the PageRank share of IN and SCC components remains high even for
+very large values of the damping factor, in spite of the fact that it drops to
+zero when c goes to one. However, a detailed study of the OUT component reveals
+the presence ``dead-ends'' (small groups of pages linking only to each other)
+that receive an unfairly high ranking when c is close to one. We argue that
+this problem can be mitigated by choosing c as small as 1/2.

@@ -1,0 +1,10 @@
+Propositional Projection Temporal Logic (PPTL) is a useful formalism for
+reasoning about period of time in hardware and software systems and can handle
+both sequential and parallel compositions. In this paper, based on discrete
+time Markov chains, we investigate the probabilistic model checking approach
+for PPTL towards verifying arbitrary linear-time properties. We first define a
+normal form graph, denoted by NFG_inf, to capture the infinite paths of PPTL
+formulas. Then we present an algorithm to generate the NFG_inf. Since
+discrete-time Markov chains are the deterministic probabilistic models, we
+further give an algorithm to determinize and minimize the nondeterministic
+NFG_inf following the Safra's construction.

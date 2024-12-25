@@ -1,0 +1,18 @@
+Models of computational trust support users in taking decisions. They are
+commonly used to guide users' judgements in online auction sites; or to
+determine quality of contributions in Web 2.0 sites. However, most existing
+systems require historical information about the past behavior of the specific
+agent being judged. In contrast, in real life, to anticipate and to predict a
+stranger's actions in absence of the knowledge of such behavioral history, we
+often use our "instinct"- essentially stereotypes developed from our past
+interactions with other "similar" persons. In this paper, we propose
+StereoTrust, a computational trust model inspired by stereotypes as used in
+real-life. A stereotype contains certain features of agents and an expected
+outcome of the transaction. When facing a stranger, an agent derives its trust
+by aggregating stereotypes matching the stranger's profile. Since stereotypes
+are formed locally, recommendations stem from the trustor's own personal
+experiences and perspective. Historical behavioral information, when available,
+can be used to refine the analysis. According to our experiments using
+Epinions.com dataset, StereoTrust compares favorably with existing trust models
+that use different kinds of information and more complete historical
+information.

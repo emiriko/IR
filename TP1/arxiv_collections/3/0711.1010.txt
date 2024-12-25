@@ -1,0 +1,19 @@
+Position-specific scoring matrices (PSSMs) are useful for detecting weak
+homology in protein sequence analysis, and they are thought to contain some
+essential signatures of the protein families. In order to elucidate what kind
+of ingredients constitute such family-specific signatures, we apply singular
+value decomposition to a set of PSSMs and examine the properties of dominant
+right and left singular vectors. The first right singular vectors were
+correlated with various amino acid indices including relative mutability, amino
+acid composition in protein interior, hydropathy, or turn propensity, depending
+on proteins. A significant correlation between the first left singular vector
+and a measure of site conservation was observed. It is shown that the
+contribution of the first singular component to the PSSMs act to disfavor
+potentially but falsely functionally important residues at conserved sites. The
+second right singular vectors were highly correlated with hydrophobicity
+scales, and the corresponding left singular vectors with contact numbers of
+protein structures. It is suggested that sequence alignment with a PSSM is
+essentially equivalent to threading supplemented with functional information.
+The presented method may be used to separate functionally important sites from
+structurally important ones, and thus it may be a useful tool for predicting
+protein functions.

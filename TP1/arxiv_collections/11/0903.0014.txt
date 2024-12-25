@@ -1,0 +1,16 @@
+Lubrication equations allow to describe many structurin processes of thin
+liquid films. We develop and apply numerical tools suitable for their analysis
+employing a dynamical systems approach. In particular, we present a time
+integration algorithm based on exponential propagation and an algorithm for
+steady-state continuation. In both algorithms a Cayley transform is employed to
+overcome numerical problems resulting from scale separation in space and time.
+An adaptive time-step allows to study the dynamics close to hetero- or
+homoclinic connections. The developed framework is employed on the one hand to
+analyse different phases of the dewetting of a liquid film on a horizontal
+homogeneous substrate. On the other hand, we consider the depinning of drops
+pinned by a wettability defect. Time-stepping and path-following are used in
+both cases to analyse steady-state solutions and their bifurcations as well as
+dynamic processes on short and long time-scales. Both examples are treated for
+two- and three-dimensional physical settings and prove that the developed
+algorithms are reliable and efficient for 1d and 2d lubrication equations,
+respectively.

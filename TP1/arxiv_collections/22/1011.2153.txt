@@ -1,0 +1,19 @@
+Smoothing in state-space models amounts to computing the conditional
+distribution of the latent state trajectory, given observations, or
+expectations of functionals of the state trajectory with respect to this
+distributions. For models that are not linear Gaussian or possess finite state
+space, smoothing distributions are in general infeasible to compute as they
+involve intergrals over a space of dimensionality at least equal to the number
+of observations. Recent years have seen an increased interest in Monte
+Carlo-based methods for smoothing, often involving particle filters. One such
+method is to approximate filter distributions with a particle filter, and then
+to simulate backwards on the trellis of particles using a backward kernel. We
+show that by supplementing this procedure with a Metropolis-Hastings step
+deciding whether to accept a proposed trajectory or not, one obtains a Markov
+chain Monte Carlo scheme whose stationary distribution is the exact smoothing
+distribution. We also show that in this procedure, backward sampling can be
+replaced by backward smoothing, which effectively means averaging over all
+possible trajectories. In an example we compare these approaches to a similar
+one recently proposed by Andrieu, Doucet and Holenstein, and show that the new
+methods can be more efficient in terms of precision (inverse variance) per
+computation time.

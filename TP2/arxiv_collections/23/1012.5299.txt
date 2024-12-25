@@ -1,0 +1,14 @@
+We describe a novel approach to accelerating Monte Carlo Markov Chains. Our
+focus is cosmological parameter estimation, but the algorithm is applicable to
+any problem for which the likelihood surface is a smooth function of the free
+parameters and computationally expensive to evaluate. We generate a high-order
+interpolating polynomial for the log-likelihood using the first points gathered
+by the Markov chains as a training set. This polynomial then accurately
+computes the majority of the likelihoods needed in the latter parts of the
+chains. We implement a simple version of this algorithm as a patch (InterpMC)
+to CosmoMC and show that it accelerates parameter estimatation by a factor of
+between two and four for well-converged chains. The current code is primarily
+intended as a "proof of concept", and we argue that there is considerable room
+for further performance gains. Unlike other approaches to accelerating
+parameter fits, we make no use of precomputed training sets or special choices
+of variables, and InterpMC is almost entirely transparent to the user.

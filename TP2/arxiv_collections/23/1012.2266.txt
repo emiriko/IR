@@ -1,0 +1,17 @@
+For decades now, scientific data volumes have experienced relentless,
+exponential growth. As a result, legacy astronomical data formats are straining
+under a burden not conceived when these formats were first introduced. With
+future astronomical projects ensuring this trend, ASTRON and the LOFAR project
+are exploring the use of the Hierarchical Data Format, version 5 (HDF5), for
+LOFAR radio data encapsulation. Most of LOFAR's standard data products will be
+stored using the HDF5 format. In addition, HDF5 analogues for traditional radio
+data structures such as visibility data and spectral image cubes are also being
+developed. The HDF5 libraries allow for the construction of distributed,
+entirely unbounded files. The nature of the HDF5 format further provides the
+ability to custom design a data encapsulation format, specifying hierarchies,
+content and attributes. The LOFAR project has designed several data formats
+that will accommodate and house all LOFAR data products, the primary styles and
+kinds of which are presented in this paper. With proper development and
+support, it is hoped that these data formats will be adopted by other
+astronomical projects as they, too, attempt to grapple with a future filled
+with mountains of data.

@@ -1,0 +1,7 @@
+Let $S_n=\e_1+...+\e_n$, where $ \e_i $ are i.i.d. Bernoulli r.v.'s. Let
+$0\le r_d(n)<2d$ be the least residue of $n$ mod$(2d)$, $\bar r_d(n)= 2d
+-r_d(n)$ and $\b(n,d)=\max ({1\over d}, {1\over \sqrt n})[e^{- {r_d(n)^2/2 n}}
++e^{- {\bar r_d(n)^2/2 n}}]$. We show that $$\sup_{2\le d\le n}
+\big|\P\big\{d|S_n\big\}- E(n,d) \big|= {\cal O}\big({\log^{5/2} n \over
+n^{3/2}}\big), $$ where $E(n,d) $ verifies $c_1\b(n,d)\le E(n,d)\le c_2\b(n,d)
+$ and $c_1,c_2 $ are numerical constants.

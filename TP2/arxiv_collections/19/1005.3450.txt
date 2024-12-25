@@ -1,0 +1,14 @@
+Deterministic execution offers many benefits for debugging, fault tolerance,
+and security. Running parallel programs deterministically is usually difficult
+and costly, however - especially if we desire system-enforced determinism,
+ensuring precise repeatability of arbitrarily buggy or malicious software.
+Determinator is a novel operating system that enforces determinism on both
+multithreaded and multi-process computations. Determinator's kernel provides
+only single-threaded, "shared-nothing" address spaces interacting via
+deterministic synchronization. An untrusted user-level runtime uses distributed
+computing techniques to emulate familiar abstractions such as Unix processes,
+file systems, and shared memory multithreading. The system runs parallel
+applications deterministically both on multicore PCs and across nodes in a
+cluster. Coarse-grained parallel benchmarks perform and scale comparably to -
+sometimes better than - conventional systems, though determinism is costly for
+fine-grained parallel applications.

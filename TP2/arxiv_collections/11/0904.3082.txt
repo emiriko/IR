@@ -1,0 +1,14 @@
+We designed and implemented our own versatile simulation software in order to
+understand the velocity changes and track patterns observed in slow moving
+vortex lattices. The data was obtained from time series of STM images on
+NbSe$_2$ in a magnetic field range of 250-750 mT. The main thrust is to explore
+possible driving mechanism and to test the effect of various defect
+configuration on vortex velocity and tracks. The simulation uses the full
+vortex--vortex and vortex--defect interaction. It allows for periodic boundary
+conditions as well as a repulsive sample edge. In early versions the time
+intervals for recalculating the force were estimated for individual vortices.
+This, however, led to a positional 'noise' of unacceptable temperature of the
+vortex lattice and was hence replaced by a global time step control. We were
+able to produce similar track and velocity patterns as well as local lattice
+distortions near point defects as observed by STM. A detailed analysis is,
+however, beyond the scope of this paper.

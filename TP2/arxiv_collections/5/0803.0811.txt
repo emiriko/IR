@@ -1,0 +1,12 @@
+We propose a new method for reconstruction of sparse signals with and without
+noisy perturbations, termed the subspace pursuit algorithm. The algorithm has
+two important characteristics: low computational complexity, comparable to that
+of orthogonal matching pursuit techniques when applied to very sparse signals,
+and reconstruction accuracy of the same order as that of LP optimization
+methods. The presented analysis shows that in the noiseless setting, the
+proposed algorithm can exactly reconstruct arbitrary sparse signals provided
+that the sensing matrix satisfies the restricted isometry property with a
+constant parameter. In the noisy setting and in the case that the signal is not
+exactly sparse, it can be shown that the mean squared error of the
+reconstruction is upper bounded by constant multiples of the measurement and
+signal perturbation energies.

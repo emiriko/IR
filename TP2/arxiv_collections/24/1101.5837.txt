@@ -1,0 +1,10 @@
+The Nummellin's split chain construction allows to decompose a Markov chain
+Monte Carlo (MCMC) trajectory into i.i.d. "excursions". RegenerativeMCMC
+algorithms based on this technique use a random number of samples. They have
+been proposed as a promising alternative to usual fixed length simulation [25,
+33, 14]. In this note we derive nonasymptotic bounds on the mean square error
+(MSE) of regenerative MCMC estimates via techniques of renewal theory and
+sequential statistics. These results are applied to costruct confidence
+intervals. We then focus on two cases of particular interest: chains satisfying
+the Doeblin condition and a geometric drift condition. Available explicit
+nonasymptotic results are compared for different schemes of MCMC simulation.

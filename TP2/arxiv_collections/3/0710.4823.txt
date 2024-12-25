@@ -1,0 +1,16 @@
+Visual information processing will play an increasingly important role in
+future electronics systems. In many applications, e.g. video surveillance
+cameras, data throughput of microprocessors is not sufficient and power
+consumption is too high. Instruction profiling on a typical test algorithm has
+shown that pixel address calculations are the dominant operations to be
+optimized. Therefore AddressLib, a structured scheme for pixel addressing was
+developed, that can be accelerated by AddressEngine, a coprocessor for visual
+information processing. In this paper, the architectural design of
+AddressEngine is described, which in the first step supports a subset of the
+AddressLib. Dataflow and memory organization are optimized during architectural
+design. AddressEngine was implemented in a FPGA and was tested with MPEG-7
+Global Motion Estimation algorithm. Results on processing speed and circuit
+complexity are given and compared to a pure software implementation. The next
+step will be the support for the full AddressLib, including segment addressing.
+An outlook on further investigations on dynamic reconfiguration capabilities is
+given.

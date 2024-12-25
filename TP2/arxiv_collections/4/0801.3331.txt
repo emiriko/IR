@@ -1,0 +1,10 @@
+The Hermite-Korkine-Zolotarev reduction plays a central role in strong
+lattice reduction algorithms. By building upon a technique introduced by Ajtai,
+we show the existence of Hermite-Korkine-Zolotarev reduced bases that are
+arguably least reduced. We prove that for such bases, Kannan's algorithm
+solving the shortest lattice vector problem requires
+$d^{\frac{d}{2\e}(1+o(1))}$ bit operations in dimension $d$. This matches the
+best complexity upper bound known for this algorithm. These bases also provide
+lower bounds on Schnorr's constants $\alpha_d$ and $\beta_d$ that are
+essentially equal to the best upper bounds. Finally, we also show the existence
+of particularly bad bases for Schnorr's hierarchy of reductions.

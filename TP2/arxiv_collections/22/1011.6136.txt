@@ -1,0 +1,9 @@
+The concept of a carrying capacity is essential in most models to prevent
+unlimited growth. Despite the large amount of deaths it introduces, the actual
+influence of the Verhulst term in simulations is often times not accounted for.
+Generally, it is treated merely as a scaling parameter that functions to keep
+simulated populations within computer limits. Here, we compare two different
+implementations of the concept in the Penna model - Vehulst applied to all
+individuals (VA) and to newborns only (VB). We observe variations in certain
+model features when random Verhulst deaths are restricted to a single age
+group.

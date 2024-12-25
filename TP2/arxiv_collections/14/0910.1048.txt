@@ -1,0 +1,15 @@
+The overlap operator in lattice QCD requires the computation of the sign
+function of a matrix, which is non-Hermitian in the presence of a quark
+chemical potential. In previous work we introduced an Arnoldi-based Krylov
+subspace approximation, which uses long recurrences. Even after the deflation
+of critical eigenvalues, the low efficiency of the method restricts its
+application to small lattices. Here we propose new short-recurrence methods
+which strongly enhance the efficiency of the computational method. Using
+rational approximations to the sign function we introduce two variants, based
+on the restarted Arnoldi process and on the two-sided Lanczos method,
+respectively, which become very efficient when combined with multishift
+solvers. Alternatively, in the variant based on the two-sided Lanczos method
+the sign function can be evaluated directly. We present numerical results which
+compare the efficiencies of a restarted Arnoldi-based method and the direct
+two-sided Lanczos approximation for various lattice sizes. We also show that
+our new methods gain substantially when combined with deflation.

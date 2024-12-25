@@ -1,0 +1,21 @@
+In this paper we first study a smooth optimization approach for solving a
+class of nonsmooth strictly concave maximization problems whose objective
+functions admit smooth convex minimization reformulations. In particular, we
+apply Nesterov's smooth optimization technique [Y.E. Nesterov, Dokl. Akad. Nauk
+SSSR, 269 (1983), pp. 543--547; Y. E. Nesterov, Math. Programming, 103 (2005),
+pp. 127--152] to their dual counterparts that are smooth convex problems. It is
+shown that the resulting approach has ${\cal O}(1/{\sqrt{\epsilon}})$ iteration
+complexity for finding an $\epsilon$-optimal solution to both primal and dual
+problems. We then discuss the application of this approach to sparse covariance
+selection that is approximately solved as an $l_1$-norm penalized maximum
+likelihood estimation problem, and also propose a variant of this approach
+which has substantially outperformed the latter one in our computational
+experiments. We finally compare the performance of these approaches with other
+first-order methods, namely, Nesterov's ${\cal O}(1/\epsilon)$ smooth
+approximation scheme and block-coordinate descent method studied in [A.
+d'Aspremont, O. Banerjee, and L. El Ghaoui, SIAM J. Matrix Anal. Appl., 30
+(2008), pp. 56--66; J. Friedman, T. Hastie, and R. Tibshirani, Biostatistics, 9
+(2008), pp. 432--441] for sparse covariance selection on a set of randomly
+generated instances. It shows that our smooth optimization approach
+substantially outperforms the first method above, and moreover, its variant
+substantially outperforms both methods above.

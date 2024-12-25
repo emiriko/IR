@@ -1,0 +1,12 @@
+Associate to each sequence $A$ of integers (intending to represent packet
+IDs) a sequence of positive integers of the same length ${\mathcal M}(A)$. The
+$i$'th entry of ${\mathcal M}(A)$ is the size (at time $i$) of the smallest
+buffer needed to hold out-of-order packets, where space is accounted for
+unreceived packets as well. Call two sequences $A$, $B$ {\em equivalent}
+(written $A\equiv_{FB} B$) if ${\mathcal M}(A)={\mathcal M}(B)$.
+  We prove the following result: any two permutations $A,B$ of the same length
+with $SUS(A)$, $SUS(B)\leq 3$ (where SUS is the {\em shuffled-up-sequences}
+reordering measure), and such that $A\equiv_{FB} B$ are identical.
+  The result (which is no longer valid if we replace the upper bound 3 by 4)
+was motivated by RESTORED, a receiver-oriented model of network traffic we have
+previously introduced.

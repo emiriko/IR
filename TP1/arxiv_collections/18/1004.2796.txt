@@ -1,0 +1,9 @@
+Microlensing light curves are typically computed either by ray-shooting maps
+or by contour integration via Green's theorem. We present an improved version
+of the second method that includes a parabolic correction in Green's line
+integral. In addition, we present an accurate analytical estimate of the
+residual errors, which allows the implementation of an optimal strategy for the
+contour sampling. Finally, we give a prescription for dealing with
+limb-darkened sources reaching arbitrary accuracy. These optimizations lead to
+a substantial speed-up of contour integration codes along with a full mastery
+of the errors.

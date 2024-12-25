@@ -1,0 +1,12 @@
+In [Choi08], we introduced the notion of minor-embedding in adiabatic quantum
+optimization. A minor-embedding of a graph G in a quantum hardware graph U is a
+subgraph of U such that G can be obtained from it by contracting edges. In this
+paper, we describe the intertwined adiabatic quantum architecture design
+problem, which is to construct a hardware graph U that satisfies all known
+physical constraints and, at the same time, permits an efficient
+minor-embedding algorithm. We illustrate an optimal complete-graph-minor
+hardware graph. Given a family F of graphs, a (host) graph U is called
+F-minor-universal if for each graph G in F, U contains a minor-embedding of G.
+The problem for designing a F-minor-universal hardware graph U_{sparse} in
+which F consists of a family of sparse graphs (e.g., bounded degree graphs) is
+open.

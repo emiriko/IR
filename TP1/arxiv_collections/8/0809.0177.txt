@@ -1,0 +1,11 @@
+Consider a Markov chain $\{X_n\}_{n\ge 0}$ with an ergodic probability
+measure $\pi$. Let $\Psi$ a function on the state space of the chain, with
+$\alpha$-tails with respect to $\pi$, $\alpha\in (0,2)$. We find sufficient
+conditions on the probability transition to prove convergence in law of
+$N^{1/\alpha}\sum_n^N \Psi(X_n)$ to a $\alpha$-stable law. ``Martingale
+approximation'' approach and ``coupling'' approach give two different sets of
+conditions. We extend these results to continuous time Markov jump processes
+$X_t$, whose skeleton chain satisfies our assumptions. If waiting time between
+jumps has finite expectation, we prove convergence of $N^{-1/\alpha}\int_0^{Nt}
+V(X_s) ds$ to a stable process. In the case of waiting times with infinite
+average, we prove convergence to a Mittag-Leffler process.

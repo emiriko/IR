@@ -1,0 +1,23 @@
+The modeling flexibility provided by hypergraphs has drawn a lot of interest
+from the combinatorial scientific community, leading to novel models and
+algorithms, their applications, and development of associated tools.
+Hypergraphs are now a standard tool in combinatorial scientific computing. The
+modeling flexibility of hypergraphs however, comes at a cost: algorithms on
+hypergraphs are inherently more complicated than those on graphs, which
+sometimes translate to nontrivial increases in processing times. Neither the
+modeling flexibility of hypergraphs, nor the runtime efficiency of graph
+algorithms can be overlooked. Therefore, the new research thrust should be how
+to cleverly trade-off between the two. This work addresses one method for this
+trade-off by solving the hypergraph partitioning problem by finding vertex
+separators on graphs. Specifically, we investigate how to solve the hypergraph
+partitioning problem by seeking a vertex separator on its net intersection
+graph (NIG), where each net of the hypergraph is represented by a vertex, and
+two vertices share an edge if their nets have a common vertex. We propose a
+vertex-weighting scheme to attain good node-balanced hypergraphs, since NIG
+model cannot preserve node balancing information. Vertex-removal and
+vertex-splitting techniques are described to optimize cutnet and connectivity
+metrics, respectively, under the recursive bipartitioning paradigm. We also
+developed an implementation for our GPVS-based HP formulations by adopting and
+modifying a state-of-the-art GPVS tool onmetis. Experiments conducted on a
+large collection of sparse matrices confirmed the validity of our proposed
+techniques.

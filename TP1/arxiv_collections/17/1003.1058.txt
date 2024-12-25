@@ -1,0 +1,16 @@
+We consider asynchronous message-passing systems in which some links are
+timely and processes may crash. Each run defines a timeliness graph among
+correct processes: (p; q) is an edge of the timeliness graph if the link from p
+to q is timely (that is, there is bound on communication delays from p to q).
+The main goal of this paper is to approximate this timeliness graph by graphs
+having some properties (such as being trees, rings, ...). Given a family S of
+graphs, for runs such that the timeliness graph contains at least one graph in
+S then using an extraction algorithm, each correct process has to converge to
+the same graph in S that is, in a precise sense, an approximation of the
+timeliness graph of the run. For example, if the timeliness graph contains a
+ring, then using an extraction algorithm, all correct processes eventually
+converge to the same ring and in this ring all nodes will be correct processes
+and all links will be timely. We first present a general extraction algorithm
+and then a more specific extraction algorithm that is communication efficient
+(i.e., eventually all the messages of the extraction algorithm use only links
+of the extracted graph).

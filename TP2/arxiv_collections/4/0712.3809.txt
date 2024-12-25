@@ -1,0 +1,14 @@
+A framework for performing event-driven, adaptive time step simulations of
+systems of rigid bodies interacting under stepped or terraced potentials in
+which the potential energy is only allowed to have discrete values is outlined.
+The scheme is based on a discretization of an underlying continuous potential
+that effectively determines the times at which interaction energies change. As
+in most event-driven approaches, the method consists of specifying a means of
+computing the free motion, evaluating the times at which interactions occur,
+and determining the consequences of interactions on subsequent motion for the
+terraced-potential. The latter two aspects are shown to be simply expressible
+in terms of the underlying smooth potential. Within this context, algorithms
+for computing the times of interaction events and carrying out efficient
+event-driven simulations are discussed. The method is illustrated on system
+composed of rigid rods in which the constituents interact via a terraced
+potential that depends on the relative orientations of the rods.

@@ -1,0 +1,16 @@
+Safety of medical devices and of their interoperation is an unresolved issue
+causing severe and sometimes deadly accidents for patients with shocking
+frequency. Formal methods, particularly in support of highly reusable and
+provably safe patterns which can be instantiated to many device instances can
+help in this regard. However, this still leaves open the issue of how to pass
+from their formal specifications in logical time to executable emulations that
+can interoperate in physical time with other devices and with simulations of
+patient and/or doctor behaviors. This work presents a specification-based
+methodology in which virtual emulation environments can be easily developed
+from formal specifications in Real-Time Maude, and can support interactions
+with other real devices and with simulation models. This general methodology is
+explained in detail and is illustrated with two concrete scenarios which are
+both instances of a common safe formal pattern: one scenario involves the
+interaction of a provably safe pacemaker with a simulated heart; the other
+involves the interaction of a safe controller for patient-induced analgesia
+with a real syringe pump.

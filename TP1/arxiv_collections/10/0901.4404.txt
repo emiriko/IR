@@ -1,0 +1,11 @@
+Prime-based ordering which is proved to be admissible, is the encoding of
+indeterminates in power-products with prime numbers and ordering them by using
+the natural number order. Using Eiffel, four versions of Buchberger's improved
+algorithm for obtaining Groebner Bases have been developed: two total degree
+versions, representing power products as strings and the other two as integers
+based on prime-based ordering. The versions are further distinguished by
+implementing coefficients as 64-bit integers and as multiple-precision
+integers. By using primebased power product coding, iterative or recursive
+operations on power products are replaced with integer operations. It is found
+that on a series of example polynomial sets, significant reductions in
+computation time of 30% or more are almost always obtained.

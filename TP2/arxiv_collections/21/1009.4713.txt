@@ -1,0 +1,17 @@
+The Sersic model has become the standard to parametrize the surface
+brightness distribution of early-type galaxies and bulges of spiral galaxies. A
+major problem is that the deprojection of the Sersic surface brightness profile
+to a luminosity density cannot be executed analytically for general values of
+the Sersic index. Mazure & Capelato (2002) used the Mathematica computer
+package to derive an expression of the Sersic luminosity density in terms of
+the Meijer G function for integer values of the Sersic index. We generalize
+this work using analytical means and use Mellin integral transforms to derive
+an exact, analytical expression for the luminosity density in terms of the Fox
+H function for all values of the Sersic index. We derive simplified expressions
+for the luminosity density, cumulative luminosity and gravitational potential
+in terms of the Meijer G function for all rational values of the Sersic index
+and we investigate their asymptotic behaviour at small and large radii. As
+implementations of the Meijer G function are nowadays available both in
+symbolic computer algebra packages and as high-performance computing code, our
+results open up the possibility to calculate the density of the Sersic models
+to arbitrary precision.

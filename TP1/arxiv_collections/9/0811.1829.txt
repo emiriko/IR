@@ -1,0 +1,15 @@
+We presented an efficient algorithm, fast adaptive flat-histogram ensemble
+(FAFE), to estimate the density of states (DOS) and to enhance sampling in
+large systems. FAFE calculates the means of an arbitrary extensive variable $U$
+in generalized ensembles to form points on the curve $\beta_{s}(U) \equiv
+\frac{\partial S(U)}{\partial U}$, the derivative of the logarithmic DOS.
+Unlike the popular Wang-Landau-like (WLL) methods, FAFE satisfies the
+detailed-balance condition through out the simulation and automatically
+generates non-uniform $(\beta_{i}, U_{i})$ data points to follow the real
+change rate of $\beta_{s}(U)$ in different $U$ regions and in different
+systems. Combined with a $U-$compression transformation, FAFE reduces the
+required simulation steps from $O(N^{3/2})$ in WLL to $O(N^{1/2})$, where $N$
+is the system size. We demonstrate the efficiency of FAFE in Lennard-Jones
+liquids with several $N$ values. More importantly, we show its abilities in
+finding and identifying different macroscopic states including meta-stable
+states in phase co-existing regions.

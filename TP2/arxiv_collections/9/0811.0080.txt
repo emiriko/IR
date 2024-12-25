@@ -1,0 +1,24 @@
+Ant Colony Optimization (ACO) is a metaheuristic for solving difficult
+discrete optimization problems. This paper presents a deterministic model based
+on differential equation to analyze the dynamics of basic Ant System algorithm.
+Traditionally, the deposition of pheromone on different parts of the tour of a
+particular ant is always kept unvarying. Thus the pheromone concentration
+remains uniform throughout the entire path of an ant. This article introduces
+an exponentially increasing pheromone deposition approach by artificial ants to
+improve the performance of basic Ant System algorithm. The idea here is to
+introduce an additional attracting force to guide the ants towards destination
+more easily by constructing an artificial potential field identified by
+increasing pheromone concentration towards the goal. Apart from carrying out
+analysis of Ant System dynamics with both traditional and the newly proposed
+deposition rules, the paper presents an exhaustive set of experiments performed
+to find out suitable parameter ranges for best performance of Ant System with
+the proposed deposition approach. Simulations reveal that the proposed
+deposition rule outperforms the traditional one by a large extent both in terms
+of solution quality and algorithm convergence. Thus, the contributions of the
+article can be presented as follows: i) it introduces differential equation and
+explores a novel method of analyzing the dynamics of ant system algorithms, ii)
+it initiates an exponentially increasing pheromone deposition approach by
+artificial ants to improve the performance of algorithm in terms of solution
+quality and convergence time, iii) exhaustive experimentation performed
+facilitates the discovery of an algebraic relationship between the parameter
+set of the algorithm and feature of the problem environment.

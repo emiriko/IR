@@ -1,0 +1,15 @@
+The aim of this work is to provide fast and accurate approximation schemes
+for the Monte Carlo pricing of derivatives in LIBOR market models. Standard
+methods can be applied to solve the stochastic differential equations of the
+successive LIBOR rates but the methods are generally slow. Our contribution is
+twofold. Firstly, we propose an alternative approximation scheme based on
+Picard iterations. This approach is similar in accuracy to the Euler
+discretization, but with the feature that each rate is evolved independently of
+the other rates in the term structure. This enables simultaneous calculation of
+derivative prices of different maturities using parallel computing. Secondly,
+the product terms occurring in the drift of a LIBOR market model driven by a
+jump process grow exponentially as a function of the number of rates, quickly
+rendering the model intractable. We reduce this growth from exponential to
+quadratic using truncated expansions of the product terms. We include numerical
+illustrations of the accuracy and speed of our method pricing caplets,
+swaptions and forward rate agreements.

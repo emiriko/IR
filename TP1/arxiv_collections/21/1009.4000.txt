@@ -1,0 +1,14 @@
+Fighting against computer malware require a mandatory step of reverse
+engineering. As soon as the code has been disassemblied/decompiled (including a
+dynamic analysis step), there is a hope to understand what the malware actually
+does and to implement a detection mean. This also applies to protection of
+software whenever one wishes to analyze them. In this paper, we show how to
+amour code in such a way that reserse engineering techniques (static and
+dymanic) are absolutely impossible by combining malicious cryptography
+techniques developped in our laboratory and new types of programming (k-ary
+codes). Suitable encryption algorithms combined with new cryptanalytic
+approaches to ease the protection of (malicious or not) binaries, enable to
+provide both total code armouring and large scale polymorphic features at the
+same time. A simple 400 Kb of executable code enables to produce a binary code
+and around $2^{140}$ mutated forms natively while going far beyond the old
+concept of decryptor.

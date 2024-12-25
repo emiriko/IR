@@ -1,0 +1,21 @@
+The generation of multi-step density forecasts for non-Gaussian data mostly
+relies on Monte Carlo simulations which are computationally intensive. Using
+aggregated wind power in Ireland, we study two approaches of multi-step density
+forecasts which can be obtained from simple iterations so that intensive
+computations are avoided. In the first approach, we apply a logistic
+transformation to normalize the data approximately and describe the transformed
+data using ARIMA--GARCH models so that multi-step forecasts can be iterated
+easily. In the second approach, we describe the forecast densities by truncated
+normal distributions which are governed by two parameters, namely, the
+conditional mean and conditional variance. We apply exponential smoothing
+methods to forecast the two parameters simultaneously. Since the underlying
+model of exponential smoothing is Gaussian, we are able to obtain multi-step
+forecasts of the parameters by simple iterations and thus generate forecast
+densities as truncated normal distributions. We generate forecasts for wind
+power from 15 minutes to 24 hours ahead. Results show that the first approach
+generates superior forecasts and slightly outperforms the second approach under
+various proper scores. Nevertheless, the second approach is computationally
+more efficient and gives more robust results under different lengths of
+training data. It also provides an attractive alternative approach since one is
+allowed to choose a particular parametric density for the forecasts, and is
+valuable when there are no obvious transformations to normalize the data.

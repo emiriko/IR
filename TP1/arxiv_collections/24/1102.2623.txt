@@ -1,0 +1,23 @@
+In the last few years, there has been a great interest in detecting
+overlapping communities in complex networks, which is understood as dense
+groups of nodes featuring a low outbound density. To date, most methods used to
+compute such communities stem from the field of disjoint community detection by
+either extending the concept of modularity to an overlapping context or by
+attempting to decompose the whole set of nodes into several possibly
+overlapping subsets. In this report we take an orthogonal approach by
+introducing a metric, the cohesion, rooted in sociological considerations. The
+cohesion quantifies the community-ness of one given set of nodes, based on the
+notions of triangles - triplets of connected nodes - and weak ties, instead of
+the classical view using only edge density. A set of nodes has a high cohesion
+if it features a high density of triangles and intersects few triangles with
+the rest of the network. As such, we introduce a numerical characterization of
+communities: sets of nodes featuring a high cohesion. We then present a new
+approach to the problem of overlapping communities by introducing the concept
+of ego-munities, which are subjective communities centered around a given node,
+specifically inside its neighborhood. We build upon the cohesion to construct a
+heuristic algorithm which outputs a node's ego-munities by attempting to
+maximize their cohesion. We illustrate the pertinence of our method with a
+detailed description of one person's ego-munities among Facebook friends. We
+finally conclude by describing promising applications of ego-munities such as
+information inference and interest recommendations, and present a possible
+extension to cohesion in the case of weighted networks.

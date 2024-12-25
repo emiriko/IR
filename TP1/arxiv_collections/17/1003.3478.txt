@@ -1,0 +1,21 @@
+Bernstein-Sato polynomial of a hypersurface is an important object with
+numerous applications. It is known, that it is complicated to obtain it
+computationally, as a number of open questions and challenges indicate. In this
+paper we propose a family of algorithms called \texttt{checkRoot} for optimized
+check of whether a given rational number is a root of Bernstein-Sato polynomial
+and the computations of its multiplicity. This algorithms are used in the new
+approach to compute the whole global or local Bernstein-Sato polynomial and
+$b$-function of a holonomic ideal with respect to weights. They are applied in
+numerous situations, where there is a possibility to compute an upper bound for
+the polynomial. Namely, it can be achieved by means of embedded resolution, for
+topologically equivalent singularities or using the formula of A'Campo and
+spectral numbers. We also present approaches to the logarithmic comparison
+problem and the intersection homology D-module. Several applications are
+presented as well as solutions to some challenges which were intractable with
+the classical methods. One of the main applications consists of computing of a
+stratification of affine space with the local $b$-function being constant on
+each stratum. Notably, the algorithm we propose does not employ primary
+decomposition. Also we apply our results for the computation of Bernstein-Sato
+polynomials for varieties. The methods from this paper have been implemented in
+{\sc Singular:Plural} as libraries {\tt dmod.lib} and {\tt bfun.lib}. All the
+examples from the paper have been computed with this implementation.

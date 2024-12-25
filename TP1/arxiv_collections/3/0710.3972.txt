@@ -1,0 +1,18 @@
+In the study of small and large networks it is customary to perform a simple
+random walk, where the random walker jumps from one node to one of its
+neighbours with uniform probability. The properties of this random walk are
+intimately related to the combinatorial properties of the network. In this
+paper we propose to use the Ruelle-Bowens random walk instead, whose
+probability transitions are chosen in order to maximise the entropy rate of the
+walk on an unweighted graph. If the graph is weighted, then a free energy is
+optimised instead of entropy rate.
+  Specifically, we introduce a centrality measure for large networks, which is
+the stationary distribution attained by the the Ruelle-Bowens random walk; we
+name it Entropy Rank. We introduce a more general version, able to deal with
+disconnected networks, under the name of Free Energy Rank. We compare the
+properties of those centrality measures with the classic PageRank and HITS on
+both toy and real-life examples, in particular their robustness to small
+modifications of the network. It is observed that our centrality measures have
+a better discriminating power than PageRank, being able to distinguish clearly
+pages that PageRank holds for almost equally interesting, and is more sensitive
+to the medium-scale details of the graph.

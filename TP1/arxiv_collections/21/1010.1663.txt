@@ -1,0 +1,24 @@
+Purpose: Iterative projection reconstruction algorithms are currently the
+preferred reconstruction method in proton computed tomography (pCT). However,
+due to inconsistencies in the measured data arising from proton energy
+straggling and multiple Coulomb scattering, noise in the reconstructed image
+increases with successive iterations. In the current work, we investigated the
+use of total variation superiorization (TVS) schemes that can be applied as an
+algorithmic add-on to perturbation-resilient iterative projection algorithms
+for pCT image reconstruction. Methods: The block-iterative diagonally relaxed
+orthogonal projections (DROP) algorithm was used for reconstructing Geant4
+Monte Carlo simulated pCT data sets. Two TVS schemes added on to DROP were
+investigated; the first carried out the superiorization steps once per cycle
+and the second once per block. Simplifications of these schemes, involving the
+elimination of the computationally expensive feasibility proximity checking
+step of the TVS framework, were also investigated. The modulation transfer
+function and contrast discrimination function were used to quantify spatial and
+density resolution, respectively. Results: With both TVS schemes, superior
+spatial and density resolution was achieved compared to the standard DROP
+algorithm. Eliminating the feasibility proximity check improved the image
+quality, in particular image noise, in the once-per-block superiorization,
+while also halving image reconstruction time. Overall, the greatest image
+quality was observed when carrying out the superiorization once-per-block and
+eliminating the feasibility proximity check. Conclusions: The low contrast
+imaging made possible with TVS holds a promise for its incorporation into our
+future pCT studies.

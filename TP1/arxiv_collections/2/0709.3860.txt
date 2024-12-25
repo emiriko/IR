@@ -1,0 +1,10 @@
+We describe here a new method to estimate copula measure. From N observations
+of two variables X and Y, we draw a huge number m of subsamples (size n<N), and
+we compute the joint ranks in these subsamples. Then, for each bivariate rank
+(p,q) (0<p,q<n+1), we count the number of subsamples such that there exist an
+observation of the subsample with bivariate rank (p,q). This counting gives an
+estimate of the density of the copula. The simulation study shows that this
+method seems to gives a better than the usual kernel method. The main advantage
+of this new method is then we do not need to choose and justify the kernel. In
+exchange, we have to choose a subsample size: this is in fact a problem very
+similar to the bandwidth choice. We have then reduced the overall difficulty.

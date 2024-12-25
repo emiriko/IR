@@ -1,0 +1,19 @@
+This paper introduces a novel paradigm for design- ing the physical and
+medium access control (MAC) layers of mobile ad hoc or peer-to-peer networks
+formed by half-duplex radios. A node equipped with such a radio cannot
+simultaneously transmit and receive useful signals at the same frequency.
+Unlike in conventional designs, where a node's transmission frames are
+scheduled away from its reception, each node transmits its signal through a
+randomly generated on-off duplex mask (or signature) over every frame interval,
+and receive a signal through each of its own off-slots. This is called rapid
+on-off- division duplex (RODD). Over the period of a single frame, every node
+can transmit a message to some or all of its peers, and may simultaneously
+receive a message from each peer. Thus RODD achieves virtual full-duplex
+communication using half-duplex radios and can simplify the design of higher
+layers of a network protocol stack significantly. The throughput of RODD is
+evaluated under some general settings, which is significantly larger than that
+of ALOHA. RODD is especially efficient in case the dominant traffic is
+simultaneous broadcast from nodes to their one-hop peers, such as in
+spontaneous wireless social networks, emergency situations or on battlefield.
+Important design issues of peer discovery, distribution of on-off signatures,
+synchronization and error-control coding are also addressed.

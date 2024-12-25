@@ -1,0 +1,18 @@
+Two fundamental objects in knot theory are the minimal genus surface and the
+least area surface bounded by a knot in a 3-dimensional manifold. When the knot
+is embedded in a general 3-manifold, the problems of finding these surfaces
+were shown to be NP-complete and NP-hard respectively. However, there is
+evidence that the special case when the ambient manifold is R^3, or more
+generally when the second homology is trivial, should be considerably more
+tractable. Indeed, we show here that a natural discrete version of the least
+area surface can be found in polynomial time. The precise setting is that the
+knot is a 1-dimensional subcomplex of a triangulation of the ambient
+3-manifold. The main tool we use is a linear programming formulation of the
+Optimal Bounding Chain Problem (OBCP), where one is required to find the
+smallest norm chain with a given boundary. While the decision variant of OBCP
+is NP-complete in general, we give conditions under which it can be solved in
+polynomial time. We then show that the least area surface can be constructed
+from the optimal bounding chain using a standard desingularization argument
+from 3-dimensional topology. We also prove that the related Optimal Homologous
+Chain Problem is NP-complete for homology with integer coefficients,
+complementing the corresponding result of Chen and Freedman for mod 2 homology.

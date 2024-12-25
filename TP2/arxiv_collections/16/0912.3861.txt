@@ -1,0 +1,20 @@
+Deriving optimal designs for nonlinear models is in general challenging. One
+crucial step is to determine the number of support points needed. Current tools
+handle this on a case-by-case basis. Each combination of model, optimality
+criterion and objective requires its own proof. The celebrated de la Garza
+Phenomenon states that under a (p-1)th-degree polynomial regression model, any
+optimal design can be based on at most p design points, the minimum number of
+support points such that all parameters are estimable. Does this conclusion
+also hold for nonlinear models? If the answer is yes, it would be relatively
+easy to derive any optimal design, analytically or numerically. In this paper,
+a novel approach is developed to address this question. Using this new
+approach, it can be easily shown that the de la Garza phenomenon exists for
+many commonly studied nonlinear models, such as the Emax model, exponential
+model, three- and four-parameter log-linear models, Emax-PK1 model, as well as
+many classical polynomial regression models. The proposed approach unifies and
+extends many well-known results in the optimal design literature. It has four
+advantages over current tools: (i) it can be applied to many forms of nonlinear
+models; to continuous or discrete data; to data with homogeneous or
+non-homogeneous errors; (ii) it can be applied to any design region; (iii) it
+can be applied to multiple-stage optimal design; and (iv) it can be easily
+implemented.

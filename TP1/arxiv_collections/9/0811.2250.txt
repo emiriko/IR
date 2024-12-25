@@ -1,0 +1,14 @@
+We study here fundamental issues involved in top-k query evaluation in
+probabilistic databases. We consider simple probabilistic databases in which
+probabilities are associated with individual tuples, and general probabilistic
+databases in which, additionally, exclusivity relationships between tuples can
+be represented. In contrast to other recent research in this area, we do not
+limit ourselves to injective scoring functions. We formulate three intuitive
+postulates that the semantics of top-k queries in probabilistic databases
+should satisfy, and introduce a new semantics, Global-Topk, that satisfies
+those postulates to a large degree. We also show how to evaluate queries under
+the Global-Topk semantics. For simple databases we design dynamic-programming
+based algorithms, and for general databases we show polynomial-time reductions
+to the simple cases. For example, we demonstrate that for a fixed k the time
+complexity of top-k query evaluation is as low as linear, under the assumption
+that probabilistic databases are simple and scoring functions are injective.

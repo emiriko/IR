@@ -1,0 +1,14 @@
+The present paper considers distributed consensus algorithms that involve N
+agents evolving on a connected compact homogeneous manifold. The agents track
+no external reference and communicate their relative state according to a
+communication graph. The consensus problem is formulated in terms of the
+extrema of a cost function. This leads to efficient gradient algorithms to
+synchronize (i.e. maximizing the consensus) or balance (i.e. minimizing the
+consensus) the agents; a convenient adaptation of the gradient algorithms is
+used when the communication graph is directed and time-varying. The cost
+function is linked to a specific centroid definition on manifolds, introduced
+here as the induced arithmetic mean, that is easily computable in closed form
+and may be of independent interest for a number of manifolds. The special
+orthogonal group SO(n) and the Grassmann manifold Gr(p,n) are treated as
+original examples. A link is also drawn with the many existing results on the
+circle.

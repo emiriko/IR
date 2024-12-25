@@ -1,0 +1,16 @@
+A scheme that publishes aggregate information about sensitive data must
+resolve the trade-off between utility to information consumers and privacy of
+the database participants. Differential privacy is a well-established
+definition of privacy--this is a universal guarantee against all attackers,
+whatever their side-information or intent. In this paper, we present a
+universal treatment of utility based on the standard minimax rule from decision
+theory (in contrast to the utility model in, which is Bayesian). In our model,
+information consumers are minimax (risk-averse) agents, each possessing some
+side-information about the query, and each endowed with a loss-function which
+models their tolerance to inaccuracies. Further, information consumers are
+rational in the sense that they actively combine information from the mechanism
+with their side-information in a way that minimizes their loss. Under this
+assumption of rational behavior, we show that for every fixed count query, a
+certain geometric mechanism is universally optimal for all minimax information
+consumers. Additionally, our solution makes it possible to release query
+results at multiple levels of privacy in a collusion-resistant manner.

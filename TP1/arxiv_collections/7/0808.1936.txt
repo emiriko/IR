@@ -1,0 +1,21 @@
+Given a (known) function $f:[0,1] \to (0,1)$, we consider the problem of
+simulating a coin with probability of heads $f(p)$ by tossing a coin with
+unknown heads probability $p$, as well as a fair coin, $N$ times each, where
+$N$ may be random. The work of Keane and O'Brien (1994) implies that such a
+simulation scheme with the probability $\P_p(N<\infty)$ equal to 1 exists iff
+$f$ is continuous. Nacu and Peres (2005) proved that $f$ is real analytic in an
+open set $S \subset (0,1)$ iff such a simulation scheme exists with the
+probability $\P_p(N>n)$ decaying exponentially in $n$ for every $p \in S$. We
+prove that for $\alpha>0$ non-integer, $f$ is in the space $C^\alpha [0,1]$ if
+and only if a simulation scheme as above exists with $\P_p(N>n) \le C
+(\Delta_n(p))^\alpha$, where $\Delta_n(x)\eqbd \max \{\sqrt{x(1-x)/n},1/n \}$.
+The key to the proof is a new result in approximation theory:
+  Let $\B_n$ be the cone of univariate polynomials with nonnegative Bernstein
+coefficients of degree $n$. We show that a function $f:[0,1] \to (0,1)$ is in
+$C^\alpha [0,1]$ if and only if $f$ has a series representation
+$\sum_{n=1}^\infty F_n$ with $F_n \in \B_n$ and $\sum_{k>n} F_k(x) \le
+C(\Delta_n(x))^\alpha$ for all $ x \in [0,1]$ and $n \ge 1$. We also provide a
+counterexample to a theorem stated without proof by Lorentz (1963), who claimed
+that if some $\phi_n \in \B_n$ satisfy $|f(x)-\phi_n(x)| \le C
+(\Delta_n(x))^\alpha$ for all $ x \in [0,1]$ and $n \ge 1$, then $f \in
+C^\alpha [0,1]$.

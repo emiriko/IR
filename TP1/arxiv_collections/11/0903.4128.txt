@@ -1,0 +1,23 @@
+We consider adapting the transmission rate to maximize the goodput, i.e., the
+amount of data transmitted without error, over a continuous Markov flat-fading
+wireless channel. In particular, we consider schemes in which transmitter
+channel state is inferred from degraded causal error-rate feedback, such as
+packet-level ACK/NAKs in an automatic repeat request (ARQ) system. In such
+schemes, the choice of transmission rate affects not only the subsequent
+goodput but also the subsequent feedback, implying that the optimal rate
+schedule is given by a partially observable Markov decision process (POMDP).
+Because solution of the POMDP is computationally impractical, we consider
+simple suboptimal greedy rate assignment and show that the optimal scheme would
+itself be greedy if the error-rate feedback was non-degraded. Furthermore, we
+show that greedy rate assignment using non-degraded feedback yields a total
+goodput that upper bounds that of optimal rate assignment using degraded
+feedback. We then detail the implementation of the greedy scheme and propose a
+reduced-complexity greedy scheme that adapts the transmission rate only once
+per block of packets. We also investigate the performance of the schemes
+numerically, and show that the proposed greedy scheme achieves steady-state
+goodputs that are reasonably close to the upper bound on goodput calculated
+using non-degraded feedback. A similar improvement is obtained in steady-state
+goodput, drop rate, and average buffer occupancy in the presence of data
+buffers. We also investigate an upper bound on the performance of optimal rate
+assignment for a discrete approximation of the channel and show that such
+quantization leads to a significant loss in achievable goodput.

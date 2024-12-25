@@ -1,0 +1,13 @@
+Reaction paths and probabilities are inferred, in a usual Monte Carlo or
+Molecular Dynamic simulation, directly from the evolution of the positions of
+the particles. The process becomes time-consuming in many interesting cases in
+which the transition probabilities are small. A radically different approach
+consists of setting up a computation scheme where the object whose time
+evolution is simulated is the transition current itself. The relevant timescale
+for such a computation is the one needed for the transition probability rate to
+reach a stationary level, and this is usually substantially shorter than the
+passage time of an individual system. As an example, we show, in the context of
+the `benchmark' case of 38 particles interacting via the Lennard-Jones
+potential (`LJ38' cluster), how this method may be used to explore the
+reactions that take place between different phases, recovering efficiently
+known results and uncovering new ones with small computational effort.

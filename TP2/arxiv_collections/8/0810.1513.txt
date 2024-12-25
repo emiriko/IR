@@ -1,0 +1,12 @@
+Existing transport protocols, be it TCP, SCTP or DCCP, do not provide an
+efficient congestion control mechanism for heterogeneous wired-cum-wireless
+networks. Solutions involving implicit loss discrimination schemes have been
+proposed but were never implemented. Appropriate mechanisms can dramatically
+improve bandwidth usage over the Internet, especially for multimedia transport
+based on partial reliability. In this paper we have implemented and evaluated a
+congestion control mechanism that implicitly discriminates congestion and
+wireless losses in the datagram congestion control protocol (DCCP) congestion
+control identification (CCID) framework. The new CCID was implemented as a NS-2
+module. Comparisons were made with the TCP-like CCID and showed that the
+bandwidth utilization was improved by more than 30% and up to 50% in
+significant setups.

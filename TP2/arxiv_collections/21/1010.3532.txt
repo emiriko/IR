@@ -1,0 +1,23 @@
+We present a new numerical code, X-ECHO, for general relativistic
+magnetohydrodynamics (GRMHD) in dynamical spacetimes. This is aimed at studying
+astrophysical situations where strong gravity and magnetic fields are both
+supposed to play an important role, such as for the evolution of magnetized
+neutron stars or for the gravitational collapse of the magnetized rotating
+cores of massive stars, which is the astrophysical scenario believed to
+eventually lead to (long) GRB events. The code is based on the extension of the
+Eulerian conservative high-order (ECHO) scheme [Del Zanna et al., A&A 473, 11
+(2007)] for GRMHD, here coupled to a novel solver for the Einstein equations in
+the extended conformally flat condition (XCFC). We fully exploit the 3+1
+Eulerian formalism, so that all the equations are written in terms of familiar
+3D vectors and tensors alone, we adopt spherical coordinates for the conformal
+background metric, and we consider axisymmetric spacetimes and fluid
+configurations. The GRMHD conservation laws are solved by means of
+shock-capturing methods within a finite-difference discretization, whereas, on
+the same numerical grid, the Einstein elliptic equations are treated by
+resorting to spherical harmonics decomposition and solved, for each harmonic,
+by inverting band diagonal matrices. As a side product, we build and make
+available to the community a code to produce GRMHD axisymmetric equilibria for
+polytropic relativistic stars in the presence of differential rotation and a
+purely toroidal magnetic field. This uses the same XCFC metric solver of the
+main code and has been named XNS. Both XNS and the full X-ECHO codes are
+validated through several tests of astrophysical interest.

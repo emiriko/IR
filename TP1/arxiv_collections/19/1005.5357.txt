@@ -1,0 +1,17 @@
+Data analyses in hadron collider physics depend on background simulations
+performed by Monte Carlo (MC) event generators. However, calculational
+limitations and non-perturbative effects require approximate models with
+adjustable parameters. In fact, we need to simultaneously tune many
+phenomenological parameters in a high-dimensional parameter-space in order to
+make the MC generator predictions fit the data. It is desirable to achieve this
+goal without spending too much time or computing resources iterating parameter
+settings and comparing the same set of plots over and over again. We present
+extensions and improvements to the MC tuning system, Professor, which addresses
+the aforementioned problems by constructing a fast analytic model of a MC
+generator which can then be easily fitted to data. Using this procedure it is
+for the first time possible to get a robust estimate of the uncertainty of
+generator tunings. Furthermore, we can use these uncertainty estimates to study
+the effect of new (pseudo-) data on the quality of tunings and therefore decide
+if a measurement is worthwhile in the prospect of generator tuning. The
+potential of the Professor method outside the MC tuning area is presented as
+well.

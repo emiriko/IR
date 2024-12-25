@@ -1,0 +1,9 @@
+We consider the following modification of annihilation game called node
+blocking. Given a directed graph, each vertex can be occupied by at most one
+token. There are two types of tokens, each player can move his type of tokens.
+The players alternate their moves and the current player $i$ selects one token
+of type $i$ and moves the token along a directed edge to an unoccupied vertex.
+If a player cannot make a move then he loses. We consider the problem of
+determining the complexity of the game: given an arbitrary configuration of
+tokens in a directed acyclic graph, does the current player has a winning
+strategy? We prove that the problem is PSPACE-complete.

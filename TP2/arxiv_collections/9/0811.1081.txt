@@ -1,0 +1,11 @@
+Principal component analysis (PCA) is a key statistical technique for
+multivariate data analysis. For large data sets the common approach to PCA
+computation is based on the standard NIPALS-PCA algorithm, which unfortunately
+suffers from loss of orthogonality, and therefore its applicability is usually
+limited to the estimation of the first few components. Here we present an
+algorithm based on Gram-Schmidt orthogonalization (called GS-PCA), which
+eliminates this shortcoming of NIPALS-PCA. Also, we discuss the GPU (Graphics
+Processing Unit) parallel implementation of both NIPALS-PCA and GS-PCA
+algorithms. The numerical results show that the GPU parallel optimized
+versions, based on CUBLAS (NVIDIA) are substantially faster (up to 12 times)
+than the CPU optimized versions based on CBLAS (GNU Scientific Library).

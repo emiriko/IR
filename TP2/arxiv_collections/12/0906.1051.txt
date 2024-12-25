@@ -1,0 +1,12 @@
+We propose a new monotonically convergent algorithm which can enforce
+spectral constraints on the control field (and extends to arbitrary filters).
+The procedure differs from standard algorithms in that at each iteration the
+control field is taken as a linear combination of the control field (computed
+by the standard algorithm) and the filtered field. The parameter of the linear
+combination is chosen to respect the monotonic behavior of the algorithm and to
+be as close to the filtered field as possible. We test the efficiency of this
+method on molecular alignment. Using band-pass filters, we show how to select
+particular rotational transitions to reach high alignment efficiency. We also
+consider spectral constraints corresponding to experimental conditions using
+pulse shaping techniques. We determine an optimal solution that could be
+implemented experimentally with this technique.

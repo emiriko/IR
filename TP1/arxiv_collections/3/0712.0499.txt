@@ -1,0 +1,11 @@
+We focus on the problem of query rewriting for sponsored search. We base
+rewrites on a historical click graph that records the ads that have been
+clicked on in response to past user queries. Given a query q, we first consider
+Simrank as a way to identify queries similar to q, i.e., queries whose ads a
+user may be interested in. We argue that Simrank fails to properly identify
+query similarities in our application, and we present two enhanced version of
+Simrank: one that exploits weights on click graph edges and another that
+exploits ``evidence.'' We experimentally evaluate our new schemes against
+Simrank, using actual click graphs and queries form Yahoo!, and using a variety
+of metrics. Our results show that the enhanced methods can yield more and
+better query rewrites.

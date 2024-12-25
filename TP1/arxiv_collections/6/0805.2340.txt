@@ -1,0 +1,15 @@
+We study solutions to nonlinear stochastic differential systems driven by a
+multi-dimensional Wiener process. A useful algorithm for strongly simulating
+such stochastic systems is the Castell--Gaines method, which is based on the
+exponential Lie series. When the diffusion vector fields commute, it has been
+proved that at low orders this method is more accurate in the mean-square error
+than corresponding stochastic Taylor methods. However it has also been shown
+that when the diffusion vector fields do not commute, this is not true for
+strong order one methods. Here we prove that when there is no drift, and the
+diffusion vector fields do not commute, the exponential Lie series is usurped
+by the sinh-log series. In other words, the mean-square error associated with a
+numerical method based on the sinh-log series, is always smaller than the
+corresponding stochastic Taylor error, in fact to all orders. Our proof
+utilizes the underlying Hopf algebra structure of these series, and a
+two-alphabet associative algebra of shuffle and concatenation operations. We
+illustrate the benefits of the proposed series in numerical studies.

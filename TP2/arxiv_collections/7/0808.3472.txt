@@ -1,0 +1,16 @@
+The effects of several nonlinear regularization techniques are discussed in
+the framework of 3D seismic tomography. Traditional, linear, $\ell_2$ penalties
+are compared to so-called sparsity promoting $\ell_1$ and $\ell_0$ penalties,
+and a total variation penalty. Which of these algorithms is judged optimal
+depends on the specific requirements of the scientific experiment. If the
+correct reproduction of model amplitudes is important, classical damping
+towards a smooth model using an $\ell_2$ norm works almost as well as
+minimizing the total variation but is much more efficient. If gradients (edges
+of anomalies) should be resolved with a minimum of distortion, we prefer
+$\ell_1$ damping of Daubechies-4 wavelet coefficients. It has the additional
+advantage of yielding a noiseless reconstruction, contrary to simple $\ell_2$
+minimization (`Tikhonov regularization') which should be avoided. In some of
+our examples, the $\ell_0$ method produced notable artifacts. In addition we
+show how nonlinear $\ell_1$ methods for finding sparse models can be
+competitive in speed with the widely used $\ell_2$ methods, certainly under
+noisy conditions, so that there is no need to shun $\ell_1$ penalizations.

@@ -1,0 +1,15 @@
+We investigate numerical methods for wave equations in $n+2$ spacetime
+dimensions, written in spherical coordinates, decomposed in spherical harmonics
+on $S^n$, and finite-differenced in the remaining coordinates $r$ and $t$. Such
+an approach is useful when the full physical problem has spherical symmetry,
+for perturbation theory about a spherical background, or in the presence of
+boundaries with spherical topology. The key numerical difficulty arises from
+lower-order $1/r$ terms at the origin $r=0$. As a toy model for this, we
+consider the flat space linear wave equation in the form
+$\dot\pi=\psi'+p\psi/r$, $\dot\psi=\pi'$, where $p=2l+n$, and $l$ is the
+leading spherical harmonic index. We propose a class of summation by parts
+(SBP) finite differencing methods that conserve a discrete energy up to
+boundary terms, thus guaranteeing stability and convergence in the energy norm.
+We explicitly construct SBP schemes that are second and fourth-order accurate
+at interior points and the symmetry boundary $r=0$, and first and second-order
+accurate at the outer boundary $r=R$.

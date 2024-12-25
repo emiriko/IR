@@ -1,0 +1,10 @@
+Grammatic is a tool for grammar definition and manipulation aimed to improve
+modularity and reuse of grammars and related development artifacts. It is
+independent from parsing technology and any other details of target system
+implementation. Grammatic provides a way for annotating grammars with arbitrary
+metadata (like associativity attributes, semantic actions or anything else). It
+might be used as a front-end for external tools like parser generators to make
+their input grammars modular and reusable. This paper describes main principles
+behind Grammatic and gives an overview of languages it provides and their
+ability to separate concerns and define reusable modules. Also it presents
+sketches of possible use cases for the tool.

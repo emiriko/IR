@@ -1,0 +1,12 @@
+A two-dimensional arrangement of toothpicks is constructed by the following
+iterative procedure. At stage 1, place a single toothpick of length 1 on a
+square grid, aligned with the y-axis. At each subsequent stage, for every
+exposed toothpick end, place an orthogonal toothpick centered at that end. The
+resulting structure has a fractal-like appearance. We will analyze the
+toothpick sequence, which gives the total number of toothpicks after n steps.
+We also study several related sequences that arise from enumerating active
+cells in cellular automata. Some unusual recurrences appear: a typical example
+is that instead of the Fibonacci recurrence, which we may write as a(2+i) =
+a(i) + a(i+1), we set n = 2^k+i (0 <= i < 2^k), and then
+a(n)=a(2^k+i)=2a(i)+a(i+1). The corresponding generating functions look like
+Prod{k >= 0} (1+x^{2^k-1}+2x^{2^k}) and variations thereof.

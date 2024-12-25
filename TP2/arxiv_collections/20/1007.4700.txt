@@ -1,0 +1,19 @@
+We present a review of recent developments of simulations of the
+Vlasov-Maxwell system of equations using a Fourier transform method in velocity
+space. In this method, the distribution functions for electrons and ions are
+Fourier transformed in velocity space, and the resulting set of equations are
+solved numerically. In the original Vlasov equation, phase mixing may lead to
+an oscillatory behavior and sharp gradients of the distribution function in
+velocity space, which is problematic in simulations where it can lead to
+unphysical electric fields and instabilities and to the recurrence effect where
+parts of the initial condition recur in the simulation. The particle
+distribution function is in general smoother in the Fourier transformed
+velocity space, which is desirable for the numerical approximations. By
+designing outflow boundary conditions in the Fourier transformed velocity
+space, the highest oscillating terms are allowed to propagate out through the
+boundary and are removed from the calculations, thereby strongly reducing the
+numerical recurrence effect. The outflow boundary conditions in higher
+dimensions including electromagnetic effects are discussed. The Fourier
+transform method is also suitable to solve the Fourier transformed Wigner
+equation, which is the quantum mechanical analogue of the Vlasov equation for
+classical particles.

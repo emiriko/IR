@@ -1,0 +1,12 @@
+We introduce the class of rational Kripke models and study symbolic model
+checking of the basic tense logic Kt and some extensions of it in models from
+that class. Rational Kripke models are based on (generally infinite) rational
+graphs, with vertices labeled by the words in some regular language and
+transitions recognized by asynchronous two-head finite automata, also known as
+rational transducers. Every atomic proposition in a rational Kripke model is
+evaluated in a regular set of states. We show that every formula of Kt has an
+effectively computable regular extension in every rational Kripke model, and
+therefore local model checking and global model checking of Kt in rational
+Kripke models are decidable. These results are lifted to a number of extensions
+of Kt. We study and partly determine the complexity of the model checking
+procedures.

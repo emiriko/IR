@@ -1,0 +1,18 @@
+Numeric convergence studies demonstrate that the evolution of an adiabatic
+clump is well-captured by roughly 100 cells per clump radius. The presence of
+radiative cooling, however, imposes limits on the problem due to the removal of
+thermal energy. Numerical studies which include radiative cooling typically
+adopt the 100--200 cells per clump radius resolution. In this paper we present
+the results of a convergence study for radiatively cooling clumps undertaken
+over a broad range of resolutions, from 12 to 1,536 cells per clump radius,
+employing adaptive mesh refinement (AMR) in a 2D axisymmetric geometry
+("2.5D"). We also provide a fully 3D simulation, at 192 cells per clump radius,
+which supports our 2.5D results. We find no appreciable self-convergence at
+~100 cells per clump radius as small-scale differences owing to increasingly
+resolving the "cooling length" have global effects. We therefore conclude that
+self-convergence is an insufficient criterion to apply on its own when
+addressing the question of sufficient resolution for radiatively cooled shocked
+clump simulations. We suggest the adoption of alternate criteria to support a
+statement of sufficient resolution, such as the demonstration of adequate
+resolution of the cooling layers behind shocks. We discuss an associated
+refinement criteria for AMR codes.

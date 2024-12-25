@@ -1,0 +1,17 @@
+We present a new efficient method for Monte Carlo simulations of
+diffusion-reaction processes. First introduced by us in [Phys. Rev. Lett.,
+97:230602, 2006], the new algorithm skips the traditional small diffusion hops
+and propagates the diffusing particles over long distances through a sequence
+of super-hops, one particle at a time. By partitioning the simulation space
+into non-overlapping protecting domains each containing only one or two
+particles, the algorithm factorizes the N-body problem of collisions among
+multiple Brownian particles into a set of much simpler single-body and two-body
+problems. Efficient propagation of particles inside their protective domains is
+enabled through the use of time-dependent Green's functions (propagators)
+obtained as solutions for the first-passage statistics of random walks. The
+resulting Monte Carlo algorithm is event-driven and asynchronous; each Brownian
+particle propagates inside its own protective domain and on its own time clock.
+The algorithm reproduces the statistics of the underlying Monte-Carlo model
+exactly. Extensive numerical examples demonstrate that for an important class
+of diffusion-reaction models the new algorithm is efficient at low particle
+densities, where other existing algorithms slow down severely.

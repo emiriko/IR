@@ -1,0 +1,8 @@
+We consider the recovery of real-valued bandlimited functions from the
+absolute values of their samples, possibly spaced nonuniformly. We show that
+such a reconstruction is always possible if the function is sampled at more
+than twice its Nyquist rate, and may not necessarily be possible if the samples
+are taken at less than twice the Nyquist rate. In the case of uniform samples,
+we also describe an FFT-based algorithm to perform the reconstruction. We prove
+that it converges exponentially rapidly in the number of samples used and
+examine its numerical behavior on some test cases.

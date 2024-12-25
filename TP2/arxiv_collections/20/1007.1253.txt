@@ -1,0 +1,13 @@
+We develop an algorithm for estimating the values of a vector x in R^n over a
+support S of size k from a randomized sparse binary linear sketch Ax of size
+O(k). Given Ax and S, we can recover x' with ||x' - x_S||_2 <= eps ||x -
+x_S||_2 with probability at least 1 - k^{-\Omega(1)}. The recovery takes O(k)
+time.
+  While interesting in its own right, this primitive also has a number of
+applications. For example, we can:
+  1. Improve the linear k-sparse recovery of heavy hitters in Zipfian
+distributions with O(k log n) space from a (1+eps) approximation to a (1 +
+o(1)) approximation, giving the first such approximation in O(k log n) space
+when k <= O(n^{1-eps}).
+  2. Recover block-sparse vectors with O(k) space and a (1+eps) approximation.
+Previous algorithms required either omega(k) space or omega(1) approximation.

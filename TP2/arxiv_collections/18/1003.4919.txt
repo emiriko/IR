@@ -1,0 +1,13 @@
+Due to implementation constraints the XOR operation is widely used in order
+to combine plaintext and key bit-strings in secret-key block ciphers. This
+choice directly induces the classical version of the differential attack by the
+use of XOR-kind differences. While very natural, there are many alternatives to
+the XOR. Each of them inducing a new form for its corresponding differential
+attack (using the appropriate notion of difference) and therefore block-ciphers
+need to use S-boxes that are resistant against these nonstandard differential
+cryptanalysis. In this contribution we study the functions that offer the best
+resistance against a differential attack based on a finite field
+multiplication. We also show that in some particular cases, there are robust
+permutations which offers the best resistant against both multiplication and
+exponentiation base differential attacks. We call them doubly perfect nonlinear
+permutations.

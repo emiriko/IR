@@ -1,0 +1,16 @@
+Genetic data obtained on population samples convey information about their
+evolutionary history. Inference methods can extract this information (at least
+partially) but they require sophisticated statistical techniques that have been
+made available to the biologist community (through computer programs) only for
+simple and standard situations typically involving a small number of samples.
+We propose here a computer program (DIYABC) for inference based on Approximate
+Bayesian Computation (ABC), in which scenarios can be customized by the user to
+fit many complex situations involving any number of populations and samples.
+Such scenarios involve any combination of population divergences, admixtures
+and stepwise population size changes. DIYABC can be used to compare competing
+scenarios, estimate parameters for one or more scenarios, and compute bias and
+precision measures for a given scenario and known values of parameters (the
+current version applies to unlinked microsatellite data). This article
+describes key methods used in the program and provides its main features. The
+analysis of one simulated and one real data set, both with complex evolutionary
+scenarios, illustrates the main possibilities of DIYABC

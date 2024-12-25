@@ -1,0 +1,9 @@
+We present a sub-matrix update algorithm for the continuous-time auxiliary
+field method that allows the simulation of large lattice and impurity problems.
+The algorithm takes optimal advantage of modern CPU architectures by
+consistently using matrix instead of vector operations, resulting in a speedup
+of a factor of $\approx 8$ and thereby allowing access to larger systems and
+lower temperature. We illustrate the power of our algorithm at the example of a
+cluster dynamical mean field simulation of the N\'{e}el transition in the
+three-dimensional Hubbard model, where we show momentum dependent self-energies
+for clusters with up to 100 sites.

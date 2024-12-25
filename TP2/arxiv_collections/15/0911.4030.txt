@@ -1,0 +1,24 @@
+In this paper we introduce a novel approach to risk estimation based on
+nonlinear factor models - the "StressVaR" (SVaR). Developed to evaluate the
+risk of hedge funds, the SVaR appears to be applicable to a wide range of
+investments. Its principle is to use the fairly short and sparse history of the
+hedge fund returns to identify relevant risk factors among a very broad set of
+possible risk sources. This risk profile is obtained by calibrating a
+collection of nonlinear single-factor models as opposed to a single
+multi-factor model. We then use the risk profile and the very long and rich
+history of the factors to asses the possible impact of known past crises on the
+funds, unveiling their hidden risks and so called "black swans".
+  In backtests using data of 1060 hedge funds we demonstrate that the SVaR has
+better or comparable properties than several common VaR measures - shows less
+VaR exceptions and, perhaps even more importantly, in case of an exception, by
+smaller amounts.
+  The ultimate test of the StressVaR however, is in its usage as a fund
+allocating tool. By simulating a realistic investment in a portfolio of hedge
+funds, we show that the portfolio constructed using the StressVaR on average
+outperforms both the market and the portfolios constructed using common VaR
+measures.
+  For the period from Feb. 2003 to June 2009, the StressVaR constructed
+portfolio outperforms the market by about 6% annually, and on average the
+competing VaR measures by around 3%. The performance numbers from Aug. 2007 to
+June 2009 are even more impressive. The SVaR portfolio outperforms the market
+by 20%, and the best competing measure by 4%.

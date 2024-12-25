@@ -1,0 +1,22 @@
+In secure multi-party computation $n$ parties jointly evaluate an $n$-variate
+function $f$ in the presence of an adversary which can corrupt up till $t$
+parties. Almost all the works that have appeared in the literature so far
+assume the presence of authenticated channels between the parties. This
+assumption is far from realistic. Two directions of research have been borne
+from relaxing this (strong) assumption: (a) The adversary is virtually
+omnipotent and can control all the communication channels in the network, (b)
+Only a partially connected topology of authenticated channels is guaranteed and
+adversary controls a subset of the communication channels in the network.
+  This work introduces a new setting for (unconditional) secure multiparty
+computation problem which is an interesting intermediate model with respect to
+the above well studied models from the literature (by sharing a salient feature
+from both the above models). We consider the problem of (unconditional) secure
+multi-party computation when 'some' of the communication channels connecting
+the parties can be corrupted passively as well as actively. For this setting,
+some honest parties may be connected to several other honest parties via
+corrupted channels and may not be able to authentically communicate with them.
+Such parties may not be assured the canonical guarantees of correctness or
+privacy. We present refined definitions of security for this new intermediate
+model of unconditional multiparty computation. We show how to adapt protocols
+for (Unconditional) secure multiparty computation to realize the definitions
+and also argue the tightness of the results achieved by us.

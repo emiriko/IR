@@ -1,0 +1,13 @@
+We introduce a new class of measurement matrices for compressed sensing,
+using low order summaries over binary sequences of a given length. We prove
+recovery guarantees for three reconstruction algorithms using the proposed
+measurements, including $\ell_1$ minimization and two combinatorial methods. In
+particular, one of the algorithms recovers $k$-sparse vectors of length $N$ in
+sublinear time $\text{poly}(k\log{N})$, and requires at most
+$\Omega(k\log{N}\log\log{N})$ measurements. The empirical oversampling constant
+of the algorithm is significantly better than existing sublinear recovery
+algorithms such as Chaining Pursuit and Sudocodes. In particular, for $10^3\leq
+N\leq 10^8$ and $k=100$, the oversampling factor is between 3 to 8. We provide
+preliminary insight into how the proposed constructions, and the fast recovery
+scheme can be used in a number of practical applications such as market basket
+analysis, and real time compressed sensing implementation.

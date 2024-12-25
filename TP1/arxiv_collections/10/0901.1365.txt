@@ -1,0 +1,11 @@
+This work studies formal utility and privacy guarantees for a simple
+multiplicative database transformation, where the data are compressed by a
+random linear or affine transformation, reducing the number of data records
+substantially, while preserving the number of original input variables. We
+provide an analysis framework inspired by a recent concept known as
+differential privacy (Dwork 06). Our goal is to show that, despite the general
+difficulty of achieving the differential privacy guarantee, it is possible to
+publish synthetic data that are useful for a number of common statistical
+learning applications. This includes high dimensional sparse regression (Zhou
+et al. 07), principal component analysis (PCA), and other statistical measures
+(Liu et al. 06) based on the covariance of the initial data.

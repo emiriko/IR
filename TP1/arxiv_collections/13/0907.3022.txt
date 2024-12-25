@@ -1,0 +1,16 @@
+We examine several numerical techniques for the calculation of the dynamics
+of quantum systems. In particular, we single out an iterative method which is
+based on expanding the time evolution operator into a finite series of
+Chebyshev polynomials. The Chebyshev approach benefits from two advantages over
+the standard time-integration Crank-Nicholson scheme: speedup and efficiency.
+Potential competitors are semiclassical methods such as the Wigner-Moyal or
+quantum tomographic approaches. We outline the basic concepts of these
+techniques and benchmark their performance against the Chebyshev approach by
+monitoring the time evolution of a Gaussian wave packet in restricted
+one-dimensional (1D) geometries. Thereby the focus is on tunnelling processes
+and the motion in anharmonic potentials. Finally we apply the prominent
+Chebyshev technique to two highly non-trivial problems of current interest: (i)
+the injection of a particle in a disordered 2D graphene nanoribbon and (ii) the
+spatiotemporal evolution of polaron states in finite quantum systems. Here,
+depending on the disorder/electron-phonon coupling strength and the device
+dimensions, we observe transmission or localisation of the matter wave.

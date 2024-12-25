@@ -1,0 +1,16 @@
+Counting problems, determining the number of possible states of a large
+system under certain constraints, play an important role in many areas of
+science. They naturally arise for complex disordered systems in physics and
+chemistry, in mathematical graph theory, and in computer science. Counting
+problems, however, are among the hardest problems to access computationally.
+Here, we suggest a novel method to access a benchmark counting problem, finding
+chromatic polynomials of graphs. We develop a vertex-oriented symbolic pattern
+matching algorithm that exploits the equivalence between the chromatic
+polynomial and the zero-temperature partition function of the Potts
+antiferromagnet on the same graph. Implementing this bottom-up algorithm using
+appropriate computer algebra, the new method outperforms standard top-down
+methods by several orders of magnitude, already for moderately sized graphs. As
+a first application, we compute chromatic polynomials of samples of the simple
+cubic lattice, for the first time computationally accessing three-dimensional
+lattices of physical relevance. The method offers straightforward
+generalizations to several other counting problems.

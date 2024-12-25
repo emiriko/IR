@@ -1,0 +1,13 @@
+A time-dependent double-barrier option is a derivative security that delivers
+the terminal value $\phi(S_T)$ at expiry $T$ if neither of the continuous
+time-dependent barriers $b_\pm:[0,T]\to \RR_+$ have been hit during the time
+interval $[0,T]$. Using a probabilistic approach we obtain a decomposition of
+the barrier option price into the corresponding European option price minus the
+barrier premium for a wide class of payoff functions $\phi$, barrier functions
+$b_\pm$ and linear diffusions $(S_t)_{t\in[0,T]}$. We show that the barrier
+premium can be expressed as a sum of integrals along the barriers $b_\pm$ of
+the option's deltas $\Delta_\pm:[0,T]\to\RR$ at the barriers and that the pair
+of functions $(\Delta_+,\Delta_-)$ solves a system of Volterra integral
+equations of the first kind. We find a semi-analytic solution for this system
+in the case of constant double barriers and briefly discus a numerical
+algorithm for the time-dependent case.

@@ -1,0 +1,10 @@
+The absolute free energy -- or partition function, equivalently -- of a
+molecule can be estimated computationally using a suitable reference system.
+Here, we demonstrate a practical method for staging such calculations by
+growing a molecule based on a series of fragments. Significant computer time is
+saved by pre-calculating fragment configurations and interactions for re-use in
+a variety of molecules. We employ such fragment libraries and interaction
+tables for amino acids and capping groups to estimate free energies for small
+peptides. Equilibrium ensembles for the molecules are generated at no
+additional computational cost, and are used to check our results by comparison
+to standard dynamics simulation.

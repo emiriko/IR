@@ -1,0 +1,11 @@
+We apply the concept of subset seeds proposed in [1] to similarity search in
+protein sequences. The main question studied is the design of efficient seed
+alphabets to construct seeds with optimal sensitivity/selectivity trade-offs.
+We propose several different design methods and use them to construct several
+alphabets.We then perform an analysis of seeds built over those alphabet and
+compare them with the standard Blastp seeding method [2,3], as well as with the
+family of vector seeds proposed in [4]. While the formalism of subset seed is
+less expressive (but less costly to implement) than the accumulative principle
+used in Blastp and vector seeds, our seeds show a similar or even better
+performance than Blastp on Bernoulli models of proteins compatible with the
+common BLOSUM62 matrix.

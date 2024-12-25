@@ -1,0 +1,16 @@
+This paper deals with a common verification methodology and environment for
+SystemC BCA and RTL models. The aim is to save effort by avoiding the same work
+done twice by different people and to reuse the same environment for the two
+design views. Applying this methodology the verification task starts as soon as
+the functional specification is signed off and it runs in parallel to the
+models and design development. The verification environment is modeled with the
+aid of dedicated verification languages and it is applied to both the models.
+The test suite is exactly the same and thus it's possible to verify the
+alignment between the two models. In fact the final step is to check the
+cycle-by-cycle match of the interface behavior. A regression tool and a bus
+analyzer have been developed to help the verification and the alignment
+process. The former is used to automate the testbench generation and to run the
+two test suites. The latter is used to verify the alignment between the two
+models comparing the waveforms obtained in each run. The quality metrics used
+to validate the flow are full functional coverage and full alignment at each IP
+port.

@@ -1,0 +1,10 @@
+We perform Markov chain Monte Carlo simulations for a Bayesian inference of
+the GJR-GARCH model which is one of asymmetric GARCH models. The adaptive
+construction scheme is used for the construction of the proposal density in the
+Metropolis-Hastings algorithm and the parameters of the proposal density are
+determined adaptively by using the data sampled by the Markov chain Monte Carlo
+simulation. We study the performance of the scheme with the artificial
+GJR-GARCH data. We find that the adaptive construction scheme samples GJR-GARCH
+parameters effectively and conclude that the Metropolis-Hastings algorithm with
+the adaptive construction scheme is an efficient method to the Bayesian
+inference of the GJR-GARCH model.

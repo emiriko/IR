@@ -1,0 +1,23 @@
+We present a Markov chain (Dikin walk) for sampling from a convex body
+equipped with a self-concordant barrier, whose mixing time from a "central
+point" is strongly polynomial in the description of the convex set. The mixing
+time of this chain is invariant under affine transformations of the convex set,
+thus eliminating the need for first placing the body in an isotropic position.
+This recovers and extends previous results of from polytopes to more general
+convex sets. On every convex set of dimension $n$, there exists a
+self-concordant barrier whose "complexity" is polynomially bounded.
+Consequently, a rapidly mixing Markov chain of the kind we describe can be
+defined on any convex set. We use these results to design an algorithm
+consisting of a single random walk for optimizing a linear function on a convex
+set. We show that this random walk reaches an approximately optimal point in
+polynomial time with high probability and that the corresponding objective
+values converge with probability 1 to the optimal objective value as the number
+of steps tends to infinity. One technical contribution is a family of lower
+bounds for the isoperimetric constants of (weighted) Riemannian manifolds on
+which, interior point methods perform a kind of steepest descent. Using results
+of Barthe \cite{barthe} and Bobkov and Houdr\'e, on the isoperimetry of
+products of (weighted) Riemannian manifolds, we obtain sharper upper bounds on
+the mixing time of Dikin walk on products of convex sets than the bounds
+obtained from a direct application of the Localization Lemma, on which, since
+(Lov\'asz and Simonovits), the analyses of all random walks on convex sets have
+relied.

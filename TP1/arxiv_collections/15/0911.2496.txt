@@ -1,0 +1,21 @@
+In this work we present a new and efficient Bayesian method for nonlinear
+three dimensional large scale structure inference. We employ a Hamiltonian
+Monte Carlo (HMC) sampler to obtain samples from a multivariate highly
+non-Gaussian lognormal Poissonian density posterior given a set of
+observations. The HMC allows us to take into account the nonlinear relations
+between the observations and the underlying density field which we seek to
+recover. As the HMC provides a sampled representation of the density posterior
+any desired statistical summary, such as the mean, mode or variance, can be
+calculated from the set of samples. Further, it permits us to seamlessly
+propagate non-Gaussian uncertainty information to any final quantity inferred
+from the set of samples. The developed method is extensively tested in a
+variety of test scenarios, taking into account a highly structured survey
+geometry and selection effects. Tests with a mock galaxy catalog based on the
+millennium run show that the method is able to recover the filamentary
+structure of the nonlinear density field. The results further demonstrate the
+feasibility of non-Gaussian sampling in high dimensional spaces, as required
+for precision nonlinear large scale structure inference. The HMC is a flexible
+and efficient method, which permits for simple extension and incorporation of
+additional observational constraints. Thus, the method presented here provides
+an efficient and flexible basis for future high precision large scale structure
+inference.

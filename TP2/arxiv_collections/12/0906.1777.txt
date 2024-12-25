@@ -1,0 +1,11 @@
+Here we present a work aimed on efficiently creating textual language
+dialects and supporting tools for them (e.g. compiler front-ends, IDE support,
+pretty-printers, etc.). A dialect is a language which may be described with a
+(relatively small) set of changes to some other language (a parent language).
+For example we can consider SQL dialects used in DB-management systems.
+  We propose to use aspects for grammars to define different features of the
+anguage and to transform grammars. A dialect is created by defining a
+syntactical spect which modifies the parent language. This technique is not
+dependent on any particular language design, AST structure or parsing
+technology and provides a uniform way for creating dialects, which extend or
+restrict languages.

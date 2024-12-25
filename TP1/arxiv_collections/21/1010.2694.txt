@@ -1,0 +1,25 @@
+We study one-dimensional scattering for a decaying potential with rapid
+periodic oscillations and strong localized singularities. In particular, we
+consider the Schr\"odinger equation \[ H_\epsilon \psi := (-\partial_x^2 +
+V_0(x) + q(x,x/\epsilon)) \psi = k^2 \psi, \] for $k\in\RR$ and $\epsilon <<
+1$. Here, $q(.,y+1)=q(.,y)$, has mean zero and $|V_0(x)+q(x,.)|$ goes to zero
+as $|x|$ goes to infinity. The distorted plane waves of $H_\epsilon$ are
+solutions of the form: $e^{\pm ikx}+u^s_\pm(x;k)$, $u^s_\pm$ outgoing as $|x|$
+goes to infinity. We derive their $\epsilon$ small asymptotic behavior, from
+which the asymptotic behavior of scattering quantities such as the transmission
+coefficient, $t^\epsilon (k)$, follow.
+  Let $t_0^{hom}(k)$ denote the homogenized transmission coefficient associated
+with the average potential $V_0$. If the potential is smooth, then classical
+homogenization theory gives asymptotic expansions of, for example, distorted
+plane waves, and transmission and reflection coefficients. Singularities of
+$V_0$ or discontinuities of $q_\epsilon $, that our theory admits, are
+"interfaces" across which a solution must satisfy interface conditions
+(continuity or jump conditions). To satisfy these conditions it is necessary to
+introduce interface correctors, which are highly oscillatory in $\epsilon$.
+  A consequence of our main results is that $t^\epsilon (k)-t_0^{hom}(k)$, the
+error in the homogenized transmission coefficient is (i) $O(\epsilon ^2)$ if
+$q_\epsilon $ is continuous and (ii) $O(\epsilon)$ if $q_\epsilon $ has
+discontinuities. Moreover, in the discontinuous case the correctors are highly
+oscillatory in $\epsilon$, so that a first order corrector is not well-defined.
+The analysis is based on a (pre-conditioned) Lippman-Schwinger equation,
+introduced in [SIAM J. Mult. Mod. Sim. (3), 3 (2005), pp. 477--521].

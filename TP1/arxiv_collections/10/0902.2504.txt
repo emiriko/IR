@@ -1,0 +1,19 @@
+This thesis presents practical suggestions towards the implementation of the
+hyperset approach to semi-structured databases and the associated query
+language Delta. This work can be characterised as part of a top-down approach
+to semi-structured databases, from theory to practice. The main original part
+of this work consisted in implementation of the hyperset Delta query language
+to semi-structured databases, including worked example queries. In fact, the
+goal was to demonstrate the practical details of this approach and language.
+The required development of an extended, practical version of the language
+based on the existing theoretical version, and the corresponding operational
+semantics. Here we present detailed description of the most essential steps of
+the implementation. Another crucial problem for this approach was to
+demonstrate how to deal in reality with the concept of the equality relation
+between (hyper)sets, which is computationally realised by the bisimulation
+relation. In fact, this expensive procedure, especially in the case of
+distributed semi-structured data, required some additional theoretical
+considerations and practical suggestions for efficient implementation. To this
+end the 'local/global' strategy for computing the bisimulation relation over
+distributed semi-structured data was developed and its efficiency was
+experimentally confirmed.

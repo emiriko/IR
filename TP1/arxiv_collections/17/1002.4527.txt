@@ -1,0 +1,15 @@
+Convex optimization problems are common in hyperspectral unmixing. Examples
+include: the constrained least squares (CLS) and the fully constrained least
+squares (FCLS) problems, which are used to compute the fractional abundances in
+linear mixtures of known spectra; the constrained basis pursuit (CBP) problem,
+which is used to find sparse (i.e., with a small number of non-zero terms)
+linear mixtures of spectra from large libraries; the constrained basis pursuit
+denoising (CBPDN) problem, which is a generalization of BP that admits modeling
+errors. In this paper, we introduce two new algorithms to efficiently solve
+these optimization problems, based on the alternating direction method of
+multipliers, a method from the augmented Lagrangian family. The algorithms are
+termed SUnSAL (sparse unmixing by variable splitting and augmented Lagrangian)
+and C-SUnSAL (constrained SUnSAL). C-SUnSAL solves the CBP and CBPDN problems,
+while SUnSAL solves CLS and FCLS, as well as a more general version thereof,
+called constrained sparse regression (CSR). C-SUnSAL and SUnSAL are shown to
+outperform off-the-shelf methods in terms of speed and accuracy.

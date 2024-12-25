@@ -1,0 +1,14 @@
+The paper studies randomness extraction from sources with bounded
+independence and the issue of independence amplification of sources, using the
+framework of Kolmogorov complexity. The dependency of strings $x$ and $y$ is
+${\rm dep}(x,y) = \max\{C(x) - C(x \mid y), C(y) - C(y\mid x)\}$, where
+$C(\cdot)$ denotes the Kolmogorov complexity. It is shown that there exists a
+computable Kolmogorov extractor $f$ such that, for any two $n$-bit strings with
+complexity $s(n)$ and dependency $\alpha(n)$, it outputs a string of length
+$s(n)$ with complexity $s(n)- \alpha(n)$ conditioned by any one of the input
+strings. It is proven that the above are the optimal parameters a Kolmogorov
+extractor can achieve. It is shown that independence amplification cannot be
+effectively realized. Specifically, if (after excluding a trivial case) there
+exist computable functions $f_1$ and $f_2$ such that ${\rm dep}(f_1(x,y),
+f_2(x,y)) \leq \beta(n)$ for all $n$-bit strings $x$ and $y$ with ${\rm
+dep}(x,y) \leq \alpha(n)$, then $\beta(n) \geq \alpha(n) - O(\log n)$.

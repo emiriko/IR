@@ -1,0 +1,7 @@
+We present a new model for distributed shared memory systems, based on remote
+data accesses. Such features are offered by network interface cards that allow
+one-sided operations, remote direct memory access and OS bypass. This model
+leads to new interpretations of distributed algorithms allowing us to propose
+an innovative detection technique of race conditions only based on logical
+clocks. Indeed, the presence of (data) races in a parallel program makes it
+hard to reason about and is usually considered as a bug.

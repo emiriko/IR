@@ -1,0 +1,23 @@
+Spacetime discontinuous Galerkin (SDG) finite element methods are used to
+solve such PDEs involving space and time variables arising from wave
+propagation phenomena in important applications in science and engineering.
+  To support an accurate and efficient solution procedure using SDG methods and
+to exploit the flexibility of these methods, we give a meshing algorithm to
+construct an unstructured simplicial spacetime mesh over an arbitrary
+simplicial space domain. Our algorithm is the first spacetime meshing algorithm
+suitable for efficient solution of nonlinear phenomena in anisotropic media
+using novel discontinuous Galerkin finite element methods for implicit
+solutions directly in spacetime. Given a triangulated d-dimensional Euclidean
+space domain M (a simplicial complex) and initial conditions of the underlying
+hyperbolic spacetime PDE, we construct an unstructured simplicial mesh of the
+(d+1)-dimensional spacetime domain M x [0,infinity). Our algorithm uses a
+near-optimal number of spacetime elements, each with bounded temporal aspect
+ratio for any finite prefix M x [0,T] of spacetime. Our algorithm is an
+advancing front procedure that constructs the spacetime mesh incrementally, an
+extension of the Tent Pitcher algorithm of Ungor and Sheffer (2000).
+  In 2DxTime, our algorithm simultaneously adapts the size and shape of
+spacetime tetrahedra to a spacetime error indicator. We are able to incorporate
+more general front modification operations, such as edge flips and limited mesh
+smoothing. Our algorithm represents recent progress towards a meshing algorithm
+in 2DxTime to track moving domain boundaries and other singular surfaces such
+as shock fronts.

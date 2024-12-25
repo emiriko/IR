@@ -1,0 +1,13 @@
+A completion of an m-by-n matrix A with entries in {0,1,*} is obtained by
+setting all *-entries to constants 0 or 1. A system of semi-linear equations
+over GF(2) has the form Mx=f(x), where M is a completion of A and f:{0,1}^n -->
+{0,1}^m is an operator, the i-th coordinate of which can only depend on
+variables corresponding to *-entries in the i-th row of A. We conjecture that
+no such system can have more than 2^{n-c\cdot mr(A)} solutions, where c>0 is an
+absolute constant and mr(A) is the smallest rank over GF(2) of a completion of
+A. The conjecture is related to an old problem of proving super-linear lower
+bounds on the size of log-depth boolean circuits computing linear operators x
+--> Mx. The conjecture is also a generalization of a classical question about
+how much larger can non-linear codes be than linear ones. We prove some special
+cases of the conjecture and establish some structural properties of solution
+sets.

@@ -1,0 +1,7 @@
+Angular Voronoi diagram was introduced by Asano et al. as fundamental
+research for a mesh generation. In an angular Voronoi diagram, the edges are
+curves of degree three. From view of computational robustness we need to treat
+the curves carefully, because they might have a singularity.
+  We enumerate all the possible types of curves that appear as an edge of an
+angular Voronoi diagram, which tells us what kind of degeneracy is possible and
+tells us necessity of considering a singularity for computational robustness.

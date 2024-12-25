@@ -1,0 +1,9 @@
+In a recent paper we have suggested that the finite temperature density
+matrix can be computed efficiently by a combination of polynomial expansion and
+iterative inversion techniques. We present here significant improvements over
+this scheme. The original complex-valued formalism is turned into a purely real
+one. In addition, we use Chebyshev polynomials expansion and fast summation
+techniques. This drastically reduces the scaling of the algorithm with the
+width of the Hamiltonian spectrum, which is now of the order of the cubic root
+of such parameter. This makes our method very competitive for applications to
+ab-initio simulations, when high energy resolution is required.

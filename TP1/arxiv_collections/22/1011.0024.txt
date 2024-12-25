@@ -1,0 +1,14 @@
+Graphics Processing Units (GPUs) are having a transformational effect on
+numerical lattice quantum chromodynamics (LQCD) calculations of importance in
+nuclear and particle physics. The QUDA library provides a package of mixed
+precision sparse matrix linear solvers for LQCD applications, supporting single
+GPUs based on NVIDIA's Compute Unified Device Architecture (CUDA). This
+library, interfaced to the QDP++/Chroma framework for LQCD calculations, is
+currently in production use on the "9g" cluster at the Jefferson Laboratory,
+enabling unprecedented price/performance for a range of problems in LQCD.
+Nevertheless, memory constraints on current GPU devices limit the problem sizes
+that can be tackled. In this contribution we describe the parallelization of
+the QUDA library onto multiple GPUs using MPI, including strategies for the
+overlapping of communication and computation. We report on both weak and strong
+scaling for up to 32 GPUs interconnected by InfiniBand, on which we sustain in
+excess of 4 Tflops.

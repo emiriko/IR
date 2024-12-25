@@ -1,0 +1,18 @@
+Modern Internet services, such as those at Google, Yahoo!, and Amazon, handle
+billions of requests per day on clusters of thousands of computers. Because
+these services operate under strict performance requirements, a statistical
+understanding of their performance is of great practical interest. Such
+services are modeled by networks of queues, where each queue models one of the
+computers in the system. A key challenge is that the data are incomplete,
+because recording detailed information about every request to a heavily used
+system can require unacceptable overhead. In this paper we develop a Bayesian
+perspective on queueing models in which the arrival and departure times that
+are not observed are treated as latent variables. Underlying this viewpoint is
+the observation that a queueing model defines a deterministic transformation
+between the data and a set of independent variables called the service times.
+With this viewpoint in hand, we sample from the posterior distribution over
+missing data and model parameters using Markov chain Monte Carlo. We evaluate
+our framework on data from a benchmark Web application. We also present a
+simple technique for selection among nested queueing models. We are unaware of
+any previous work that considers inference in networks of queues in the
+presence of missing data.

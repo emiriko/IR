@@ -1,0 +1,21 @@
+One of the key challenges in sensor networks is the extraction of information
+by fusing data from a multitude of distinct, but possibly unreliable sensors.
+Recovering information from the maximum number of dependable sensors while
+specifying the unreliable ones is critical for robust sensing. This sensing
+task is formulated here as that of finding the maximum number of feasible
+subsystems of linear equations, and proved to be NP-hard. Useful links are
+established with compressive sampling, which aims at recovering vectors that
+are sparse. In contrast, the signals here are not sparse, but give rise to
+sparse residuals. Capitalizing on this form of sparsity, four sensing schemes
+with complementary strengths are developed. The first scheme is a convex
+relaxation of the original problem expressed as a second-order cone program
+(SOCP). It is shown that when the involved sensing matrices are Gaussian and
+the reliable measurements are sufficiently many, the SOCP can recover the
+optimal solution with overwhelming probability. The second scheme is obtained
+by replacing the initial objective function with a concave one. The third and
+fourth schemes are tailored for noisy sensor data. The noisy case is cast as a
+combinatorial problem that is subsequently surrogated by a (weighted) SOCP.
+Interestingly, the derived cost functions fall into the framework of robust
+multivariate linear regression, while an efficient block-coordinate descent
+algorithm is developed for their minimization. The robust sensing capabilities
+of all schemes are verified by simulated tests.

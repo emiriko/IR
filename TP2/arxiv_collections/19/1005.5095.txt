@@ -1,0 +1,19 @@
+The study of multiple extrasolar planetary systems has the opportunity to
+obtain constraints for the planetary masses and orbital inclinations via the
+detection of mutual perturbations. The analysis of precise radial velocity
+measurements might reveal these planet-planet interactions and yields a more
+accurate view of such planetary systems. Like in the generic data modelling
+problems, a fit to radial velocity data series has a set of unknown parameters
+of which parametric derivatives have to be known by both the regression methods
+and the estimations for the uncertainties. In this paper an algorithm is
+described that aids the computation of such derivatives in case of when
+planetary perturbations are not neglected. The application of the algorithm is
+demonstrated on the planetary systems of HD 73526, HD 128311 and HD 155358. In
+addition to the functions related to radial velocity analysis, the actual
+implementation of the algorithm contains functions that computes spatial
+coordinates, velocities and barycentric coordinates for each planet. These
+functions aid the joint analysis of multiple transiting planetary systems,
+transit timing and/or duration variations or systems where the proper motion of
+the host star is also measured involving high precision astrometry. The
+practical implementation related to the above mentioned problems features
+functions that makethese kind of investigations rather simple and effective.

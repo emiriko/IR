@@ -1,0 +1,12 @@
+When a matrix A with n columns is known to be well approximated by a linear
+combination of basis matrices B_1,..., B_p, we can apply A to a random vector
+and solve a linear system to recover this linear combination. The same
+technique can be used to recover an approximation to A^-1. A basic question is
+whether this linear system is invertible and well-conditioned. In this paper,
+we show that if the Gram matrix of the B_j's is sufficiently well-conditioned
+and each B_j has a high numerical rank, then n {proportional} p log^2 n will
+ensure that the linear system is well-conditioned with high probability. Our
+main application is probing linear operators with smooth pseudodifferential
+symbols such as the wave equation Hessian in seismic imaging. We demonstrate
+numerically that matrix probing can also produce good preconditioners for
+inverting elliptic operators in variable media.

@@ -1,0 +1,12 @@
+The computational complexity of different steps of the basic SSA is
+discussed. It is shown that the use of the general-purpose "blackbox" routines
+(e.g. found in packages like LAPACK) leads to huge waste of time resources
+since the special Hankel structure of the trajectory matrix is not taken into
+account. We outline several state-of-the-art algorithms (for example,
+Lanczos-based truncated SVD) which can be modified to exploit the structure of
+the trajectory matrix. The key components here are hankel matrix-vector
+multiplication and hankelization operator. We show that both can be computed
+efficiently by the means of Fast Fourier Transform. The use of these methods
+yields the reduction of the worst-case computational complexity from O(N^3) to
+O(k N log(N)), where N is series length and k is the number of eigentriples
+desired.

@@ -1,0 +1,13 @@
+This report proposes to discuss the Fourier domain analysis performances of a
+RESPER probe. A uniform ADC, which is characterized by a sensible phase
+inaccuracy depending on frequency, is connected to a Fast Fourier Transform
+(FFT) processor, that is especially affected by a round-off amplitude noise
+linked to both the FFT register length and samples number. If the register
+length is equal to 32 bits, then the round-off noise is entirely negligible,
+else, once bits are reduced to 16, a technique of compensation must occur. In
+fact, oversampling can be employed within a short time window, reaching a
+compromise between the needs of limiting the phase inaccuracy due to ADC and
+not raising too much the number of averaged FFT values sufficient to bound the
+round-off. Finally, the appendix presents an outline of somewhat lengthy
+demonstrations needed to calculate the amplitude and especially phase
+inaccuracies due to the round-off noise of FFT processors.

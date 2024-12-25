@@ -1,0 +1,13 @@
+Central Force Optimization is a global search and optimization algorithm that
+searches a decision space by flying "probes" whose trajectories are
+deterministically computed using two equations of motion. Because it is
+possible for a probe to fly outside the domain of feasible solutions, a simple
+errant probe retrieval method has been used previously that does not include
+the directional information contained in a probe's acceleration vector. This
+note investigates the effect of adding directionality to the "repositioning
+factor" approach. As a general proposition, it appears that doing so does not
+improve convergence speed or accuracy. In fact, adding directionality to the
+original errant probe retrieval scheme appears to be highly inadvisable.
+Nevertheless, there may be alternative probe retrieval schemes that do benefit
+from directional information, and the results reported here may assist in or
+encourage their development.

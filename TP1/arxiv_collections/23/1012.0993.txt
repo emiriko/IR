@@ -1,0 +1,9 @@
+We propose a hash function based on arithmetic coding and public-key
+cryptography. The resistance of the hash function to second preimage attack,
+collision and differential cryptanalysis is based on the properties of
+arithmetic coding as a non-linear dynamical system. The resistance of the hash
+function to first preimage attack is based on the public-key cryptography. The
+new hash function uses the strength of HMAC with the difference that it didn't
+need a secret key for calculating the hash (in this step, it uses one, two or
+three public -keys) and in the classical attack, an adversary need to break the
+public key algorithm or to have all the secret keys to perform his attack.

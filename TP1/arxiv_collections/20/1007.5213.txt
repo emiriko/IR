@@ -1,0 +1,12 @@
+We investigate the use of inexact solves for interpolatory model reduction
+and consider associated perturbation effects on the underlying model reduction
+problem. We give bounds on system perturbations induced by inexact solves and
+relate this to termination criteria for iterative solution methods. We show
+that when a Petrov-Galerkin framework is employed for the inexact solves, the
+associated reduced order model is an exact interpolatory model for a nearby
+full-order system; thus demonstrating backward stability. We also give evidence
+that for $\h2$-optimal interpolation points, interpolatory model reduction is
+robust with respect to perturbations due to inexact solves. Finally, we
+demonstrate the effecitveness of direct use of inexact solves in optimal
+${\mathcal H}_2$ approximation. The result is an effective model reduction
+strategy that is applicable in realistically large-scale settings.

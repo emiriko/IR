@@ -1,0 +1,14 @@
+This paper studies a fully Bayesian algorithm for endmember extraction and
+abundance estimation for hyperspectral imagery. Each pixel of the hyperspectral
+image is decomposed as a linear combination of pure endmember spectra following
+the linear mixing model. The estimation of the unknown endmember spectra is
+conducted in a unified manner by generating the posterior distribution of
+abundances and endmember parameters under a hierarchical Bayesian model. This
+model assumes conjugate prior distributions for these parameters, accounts for
+non-negativity and full-additivity constraints, and exploits the fact that the
+endmember proportions lie on a lower dimensional simplex. A Gibbs sampler is
+proposed to overcome the complexity of evaluating the resulting posterior
+distribution. This sampler generates samples distributed according to the
+posterior distribution and estimates the unknown parameters using these
+generated samples. The accuracy of the joint Bayesian estimator is illustrated
+by simulations conducted on synthetic and real AVIRIS images.

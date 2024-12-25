@@ -1,0 +1,18 @@
+The k-means method is a widely used clustering algorithm. One of its
+distinguished features is its speed in practice. Its worst-case running-time,
+however, is exponential, leaving a gap between practical and theoretical
+performance. Arthur and Vassilvitskii (FOCS 2006) aimed at closing this gap,
+and they proved a bound of $\poly(n^k, \sigma^{-1})$ on the smoothed
+running-time of the k-means method, where n is the number of data points and
+$\sigma$ is the standard deviation of the Gaussian perturbation. This bound,
+though better than the worst-case bound, is still much larger than the
+running-time observed in practice.
+  We improve the smoothed analysis of the k-means method by showing two upper
+bounds on the expected running-time of k-means. First, we prove that the
+expected running-time is bounded by a polynomial in $n^{\sqrt k}$ and
+$\sigma^{-1}$. Second, we prove an upper bound of $k^{kd} \cdot \poly(n,
+\sigma^{-1})$, where d is the dimension of the data space. The polynomial is
+independent of k and d, and we obtain a polynomial bound for the expected
+running-time for $k, d \in O(\sqrt{\log n/\log \log n})$.
+  Finally, we show that k-means runs in smoothed polynomial time for
+one-dimensional instances.

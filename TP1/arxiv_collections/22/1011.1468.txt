@@ -1,0 +1,15 @@
+Recently, the idea of classical Metropolis sampling through Markov chains has
+been generalized for quantum Hamiltonians. However, the underlying Markov chain
+of this algorithm is still classical in nature. Due to Szegedy's method, the
+Markov chains of classical Hamiltonians can achieve a quadratic quantum speedup
+in the eigenvalue gap of the corresponding transition matrix. A natural
+question to ask is whether Szegedy's quantum speedup is merely a consequence of
+employing classical Hamiltonians, where the eigenstates simply coincide with
+the computational basis, making cloning of the classical information possible.
+We solve this problem by introducing a quantum version of the method of
+Markov-chain quantization combined with the quantum simulated annealing (QSA)
+procedure, and describe explicitly a novel quantum Metropolis algorithm, which
+exhibits a quadratic quantum speedup in the eigenvalue gap of the corresponding
+Metropolis Markov chain for any quantum Hamiltonian. This result provides a
+complete generalization of the classical Metropolis method to the quantum
+domain.

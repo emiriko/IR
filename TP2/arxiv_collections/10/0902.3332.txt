@@ -1,0 +1,20 @@
+Radio frequency interference (RFI) is the principal factor limiting the
+sensitivities of radio telescopes, particularly at frequencies below 1 GHz. I
+present a conceptually new approach to mitigation of RFI in interferometric
+data. This has been used to develop a software tool (RfiX) to remove RFI from
+observations using the Giant Metrewave Radio Telescope, India. However, the
+concept can be used to excise RFI in any interferometer. Briefly, the
+fringe-stopped correlator output of an interferometer baseline oscillates with
+the fringe-stop period in the presence of RFI. RfiX works by identifying such a
+pattern and subtracting it from the data. It is perhaps the only purely
+software technique which can salvage the true visibility value from
+RFI-corrupted data. It neither requires high-speed hardware nor real-time
+processing and works best on normal correlator output integrated for 1-10s. It
+complements other mitigation schemes with its different approach and the regime
+it addresses. Its ability to work with data integrated over many seconds gives
+it an advantage while excising weak, persistent RFI unlike most other
+techniques which use high-speed sampling to localise RFI in time-frequency
+plane. RfiX is also different in that it does not require RFI-free data to
+identify corrupted sections. Some results from the application of RfiX is
+presented including an image at 240 MHz with a Peak/noise ratio of 43000, the
+highest till date at wavelengths >1m.

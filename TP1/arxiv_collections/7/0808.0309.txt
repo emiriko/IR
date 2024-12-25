@@ -1,0 +1,9 @@
+We propose a novel scheme for watermarking of digital images based on
+singular value decomposition (SVD), which makes use of the fact that the SVD
+subspace preserves significant amount of information of an image, as compared
+to its singular value matrix, Zhang and Li (2005). The principal components of
+the watermark are embedded in the original image, leaving the detector with a
+complimentary set of singular vectors for watermark extraction. The above step
+invariably ensures that watermark extraction from the embedded watermark image,
+using a modified matrix, is not possible, thereby removing a major drawback of
+an earlier proposed algorithm by Liu and Tan (2002).

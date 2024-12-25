@@ -1,0 +1,15 @@
+Memory becomes a limiting factor in contemporary applications, such as
+analyses of the Webgraph and molecular sequences, when many objects need to be
+counted simultaneously. Robert Morris [Communications of the ACM, 21:840--842,
+1978] proposed a probabilistic technique for approximate counting that is
+extremely space-efficient. The basic idea is to increment a counter containing
+the value $X$ with probability $2^{-X}$. As a result, the counter contains an
+approximation of $\lg n$ after $n$ probabilistic updates stored in $\lg\lg n$
+bits. Here we revisit the original idea of Morris, and introduce a binary
+floating-point counter that uses a $d$-bit significand in conjunction with a
+binary exponent. The counter yields a simple formula for an unbiased estimation
+of $n$ with a standard deviation of about $0.6\cdot n2^{-d/2}$, and uses
+$d+\lg\lg n$ bits.
+  We analyze the floating-point counter's performance in a general framework
+that applies to any probabilistic counter, and derive practical formulas to
+assess its accuracy.

@@ -1,0 +1,23 @@
+Four-dimensional computed tomography (4DCT) has been widely used in cancer
+radiotherapy for accurate target delineation and motion measurement for tumors
+in thorax and upper abdomen areas. However, 4DCT simulation is associated with
+much higher imaging dose than conventional CT simulation, which is a major
+concern in its clinical application. Conventionally, each phase of 4DCT is
+reconstructed independently using the filtered backprojection (FBP) algorithm.
+The basic idea of our new algorithm is that, by utilizing the common
+information among different phases, the input information required to
+reconstruct image of high quality, and thus the imaging dose, can be reduced.
+We proposed a temporal non-local means (TNLM) method to explore the inter-phase
+similarity. All phases of the 4DCT images are reconstructed simultaneously by
+minimizing a cost function consisting of a data fidelity term and a TNLM
+regularization term. We utilized a forward-backward splitting algorithm and a
+Gauss-Jacobi iteration method to efficiently solve the minimization problem.
+The algorithm was also implemented on graphics processing unit (GPU) to achieve
+a high computational speed. Our reconstruction algorithm has been tested on a
+digital NCAT thorax phantom in three low dose scenarios. Our new algorithm
+generates visually much better CT images containing less image noise and
+streaking artifacts compared with the standard FBP algorithm. Quantitative
+analysis shows that much higher contrast-to-noise ratio and signal-to-noise
+ratio can be obtained using our algorithm. The total reconstruction time for
+all 10 phases of a slice ranges from 90 to 140 seconds on an NVIDIA Tesla C1060
+GPU card.

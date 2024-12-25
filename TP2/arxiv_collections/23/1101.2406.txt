@@ -1,0 +1,17 @@
+We present an evaluation of the performance of an automated classification of
+the Hipparcos periodic variable stars into 26 types. The sub-sample with the
+most reliable variability types available in the literature is used to train
+supervised algorithms to characterize the type dependencies on a number of
+attributes. The most useful attributes evaluated with the random forest
+methodology include, in decreasing order of importance, the period, the
+amplitude, the V-I colour index, the absolute magnitude, the residual around
+the folded light-curve model, the magnitude distribution skewness and the
+amplitude of the second harmonic of the Fourier series model relative to that
+of the fundamental frequency. Random forests and a multi-stage scheme involving
+Bayesian network and Gaussian mixture methods lead to statistically equivalent
+results. In standard 10-fold cross-validation experiments, the rate of correct
+classification is between 90 and 100%, depending on the variability type. The
+main mis-classification cases, up to a rate of about 10%, arise due to
+confusion between SPB and ACV blue variables and between eclipsing binaries,
+ellipsoidal variables and other variability types. Our training set and the
+predicted types for the other Hipparcos periodic stars are available online.

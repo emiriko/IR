@@ -1,0 +1,22 @@
+We examine the combination of two directions in the field of privacy
+concerning computations over distributed private inputs - secure function
+evaluation (SFE) and differential privacy. While in both the goal is to
+privately evaluate some function of the individual inputs, the privacy
+requirements are significantly different. The general feasibility results for
+SFE suggest a natural paradigm for implementing differentially private analyses
+distributively: First choose what to compute, i.e., a differentially private
+analysis; Then decide how to compute it, i.e., construct an SFE protocol for
+this analysis.
+  We initiate an examination whether there are advantages to a paradigm where
+both decisions are made simultaneously. In particular, we investigate under
+which accuracy requirements it is beneficial to adapt this paradigm for
+computing a collection of functions including binary sum, gap threshold, and
+approximate median queries. Our results imply that when computing the binary
+sum of $n$ distributed inputs then:
+  * When we require that the error is $o(\sqrt{n})$ and the number of rounds is
+constant, there is no benefit in the new paradigm.
+  * When we allow an error of $O(\sqrt{n})$, the new paradigm yields more
+efficient protocols when we consider protocols that compute symmetric
+functions.
+  Our results also yield new separations between the local and global models of
+computations for private data analysis.

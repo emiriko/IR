@@ -1,0 +1,13 @@
+We present an algorithm to perform a simultaneous modular reduction of
+several residues. This algorithm is applied fast modular polynomial
+multiplication. The idea is to convert the $X$-adic representation of modular
+polynomials, with $X$ an indeterminate, to a $q$-adic representation where $q$
+is an integer larger than the field characteristic. With some control on the
+different involved sizes it is then possible to perform some of the $q$-adic
+arithmetic directly with machine integers or floating points. Depending also on
+the number of performed numerical operations one can then convert back to the
+$q$-adic or $X$-adic representation and eventually mod out high residues. In
+this note we present a new version of both conversions: more tabulations and a
+way to reduce the number of divisions involved in the process are presented.
+The polynomial multiplication is then applied to arithmetic in small finite
+field extensions.

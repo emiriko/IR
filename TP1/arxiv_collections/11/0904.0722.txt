@@ -1,0 +1,14 @@
+We propose and analyze a finite element method for a semi-stationary Stokes
+system modeling compressible fluid flow subject to a Navier-slip boundary
+condition. The velocity (momentum) equation is approximated by a mixed finite
+element method using the lowest order Nedelec spaces of the first kind. The
+continuity equation is approximated by a standard piecewise constant upwind
+discontinuous Galerkin scheme. Our main result states that the numerical method
+converges to a weak solution. The convergence proof consists of two main steps:
+(i) To establish strong spatial compactness of the velocity field, which is
+intricate since the element spaces are only div or curl conforming. (ii) To
+prove that the discontinuous Galerkin approximations converge strongly, which
+is required in view of the nonlinear pressure function. Tools involved in the
+analysis include a higher integrability estimate for the discontinuous Galerkin
+approximations, a discrete equation for the effective viscous flux, and various
+renormalized formulations of the discontinuous Galerkin scheme.

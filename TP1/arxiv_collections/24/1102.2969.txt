@@ -1,0 +1,17 @@
+As the structural databases continue to expand, efficient methods are
+required to search similar structures of the query structure from the database.
+There are many previous works about comparing protein 3D structures and
+scanning the database with a query structure. However, they generally have
+limitations on practical use because of large computational and storage
+requirements.
+  We propose two new types of queries for searching similar sub-structures on
+the structural database: LSPM (Local Spatial Pattern Matching) and RLSPM
+(Reverse LSPM). Between two types of queries, we focus on RLSPM problem,
+because it is more practical and general than LSPM. As a naive algorithm, we
+adopt geometric hashing techniques to RLSPM problem and then propose our
+proposed algorithm which improves the baseline algorithm to deal with
+large-scale data and provide an efficient matching algorithm. We employ the
+sub-sampling and Z-ordering to reduce the storage requirement and execution
+time, respectively. We conduct our experiments to show the correctness and
+reliability of the proposed method. Our experiment shows that the true positive
+rate is at least 0.8 using the reliability measure.

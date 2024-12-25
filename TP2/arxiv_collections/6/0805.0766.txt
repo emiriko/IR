@@ -1,0 +1,24 @@
+Sponsored search involves running an auction among advertisers who bid in
+order to have their ad shown next to search results for specific keywords.
+Currently, the most popular auction for sponsored search is the "Generalized
+Second Price" (GSP) auction in which advertisers are assigned to slots in the
+decreasing order of their "score," which is defined as the product of their bid
+and click-through rate. In the past few years, there has been significant
+research on the game-theoretic issues that arise in an advertiser's interaction
+with the mechanism as well as possible redesigns of the mechanism, but this
+ranking order has remained standard.
+  From a search engine's perspective, the fundamental question is: what is the
+best assignment of advertisers to slots? Here "best" could mean "maximizing
+user satisfaction," "most efficient," "revenue-maximizing," "simplest to
+interact with," or a combination of these. To answer this question we need to
+understand the behavior of a search engine user when she sees the displayed
+ads, since that defines the commodity the advertisers are bidding on, and its
+value. Most prior work has assumed that the probability of a user clicking on
+an ad is independent of the other ads shown on the page.
+  We propose a simple Markovian user model that does not make this assumption.
+We then present an algorithm to determine the most efficient assignment under
+this model, which turns out to be different than that of GSP. A truthful
+auction then follows from an application of the Vickrey-Clarke-Groves (VCG)
+mechanism. Further, we show that our assignment has many of the desirable
+properties of GSP that makes bidding intuitive. At the technical core of our
+result are a number of insights about the structure of the optimal assignment.

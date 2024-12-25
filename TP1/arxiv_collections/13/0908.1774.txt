@@ -1,0 +1,22 @@
+We consider a single source transmitting data to one or more receivers/users
+over a shared wireless channel. Due to random fading, the wireless channel
+conditions vary with time and from user to user. Each user has a buffer to
+store received packets before they are drained. At each time step, the source
+determines how much power to use for transmission to each user. The source's
+objective is to allocate power in a manner that minimizes an expected cost
+measure, while satisfying strict buffer underflow constraints and a total power
+constraint in each slot. The expected cost measure is composed of costs
+associated with power consumption from transmission and packet holding costs.
+The primary application motivating this problem is wireless media streaming.
+For this application, the buffer underflow constraints prevent the user buffers
+from emptying, so as to maintain playout quality. In the case of a single user
+with linear power-rate curves, we show that a modified base-stock policy is
+optimal under the finite horizon, infinite horizon discounted, and infinite
+horizon average expected cost criteria. For a single user with piecewise-linear
+convex power-rate curves, we show that a finite generalized base-stock policy
+is optimal under all three expected cost criteria. We also present the
+sequences of critical numbers that complete the characterization of the optimal
+control laws in each of these cases when some additional technical conditions
+are satisfied. We then analyze the structure of the optimal policy for the case
+of two users. We conclude with a discussion of methods to identify
+implementable near-optimal policies for the most general case of M users.

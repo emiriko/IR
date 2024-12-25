@@ -1,0 +1,15 @@
+The Ap\'ery polynomials are given by $$A_n(x)=\sum_{k=0}^n\binom
+nk^2\binom{n+k}k^2x^k\ \ (n=0,1,2,\ldots).$$ (Those $A_n=A_n(1)$ are Ap\'ery
+numbers.) Let $p$ be an odd prime. We show that
+$$\sum_{k=0}^{p-1}(-1)^kA_k(x)\equiv\sum_{k=0}^{p-1}\frac{\binom{2k}k^3}{16^k}x^k\pmod{p^2},$$
+and that $$\sum_{k=0}^{p-1}A_k(x)\equiv\left(\frac
+xp\right)\sum_{k=0}^{p-1}\frac{\binom{4k}{k,k,k,k}}{(256x)^k}\pmod{p}$$ for any
+$p$-adic integer $x\not\equiv 0\pmod p$. This enables us to determine
+explicitly $\sum_{k=0}^{p-1}(\pm1)^kA_k$ mod $p$, and
+$\sum_{k=0}^{p-1}(-1)^kA_k$ mod $p^2$ in the case $p\equiv 2\pmod3$. Another
+consequence states that
+$$\sum_{k=0}^{p-1}(-1)^kA_k(-2)\equiv\begin{cases}4x^2-2p\pmod{p^2}&\mbox{if}\
+p=x^2+4y^2\ (x,y\in\mathbb Z),\\0\pmod{p^2}&\mbox{if}\
+p\equiv3\pmod4.\end{cases}$$ We also prove that for any prime $p>3$ we have
+$$\sum_{k=0}^{p-1}(2k+1)A_k\equiv p+\frac 76p^4B_{p-3}\pmod{p^5}$$ where
+$B_0,B_1,B_2,\ldots$ are Bernoulli numbers.

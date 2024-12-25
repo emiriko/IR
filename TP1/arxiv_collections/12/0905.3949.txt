@@ -1,0 +1,18 @@
+Graph pebbling is the study of moving discrete pebbles from certain initial
+distributions on the vertices of a graph to various target distributions via
+pebbling moves. A pebbling move removes two pebbles from a vertex and places
+one pebble on one of its neighbors (losing the other as a toll). For t >= 1 the
+t-pebbling number of a graph is the minimum number of pebbles necessary so that
+from any initial distribution of them it is possible to move t pebbles to any
+vertex. We provide the best possible upper bound on the t-pebbling number of a
+diameter two graph, proving a conjecture of Curtis, et al., in the process. We
+also give a linear time (in the number of edges) algorithm to t-pebble such
+graphs, as well as a quartic time (in the number of vertices) algorithm to
+compute the pebbling number of such graphs, improving the best known result of
+Bekmetjev and Cusack. Furthermore, we show that, for complete graphs, cycles,
+trees, and cubes, we can allow the target to be any distribution of t pebbles
+without increasing the corresponding t-pebbling numbers; we conjecture that
+this behavior holds for all graphs. Finally, we explore fractional and optimal
+fractional versions of pebbling, proving the fractional pebbling number
+conjecture of Hurlbert and using linear optimization to reveal results on the
+optimal fractional pebbling number of vertex-transitive graphs.

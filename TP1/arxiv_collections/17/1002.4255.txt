@@ -1,0 +1,14 @@
+We propose a scheme to reduce the overhead associated with channel state
+information (CSI) feedback required for opportunistic scheduling in
+multicarrier access networks. We study the case where CSI is partially
+overheard by mobiles and one can suppress transmitting CSI reports for time
+varying channel of inferior quality. As a means to assess channel quality and
+exploit multiuser diversity we adopt maximum quantile (MQ) scheduling. We show
+that the problem of minimizing the average feedback overhead can be formulated
+as a Bayesian network problem. A greedy heuristic using probabilistic inference
+is proposed to deal with the NP-hardness of the problem. Leveraging properties
+of MQ scheduling we first show that networks having tree-like overhearing
+graphs admit simple inference. We then present a class of more general network
+structures for which exact inference is computationally tractable. Simulation
+results are provided to demonstrate the improvements offered by the proposed
+heuristic.

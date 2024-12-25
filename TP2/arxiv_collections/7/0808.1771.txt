@@ -1,0 +1,22 @@
+Compressed Counting (CC)} was recently proposed for approximating the
+$\alpha$th frequency moments of data streams, for $0<\alpha \leq 2$. Under the
+relaxed strict-Turnstile model, CC dramatically improves the standard algorithm
+based on symmetric stable random projections}, especially as $\alpha\to 1$. A
+direct application of CC is to estimate the entropy, which is an important
+summary statistic in Web/network measurement and often serves a crucial
+"feature" for data mining. The R\'enyi entropy and the Tsallis entropy are
+functions of the $\alpha$th frequency moments; and both approach the Shannon
+entropy as $\alpha\to 1$. A recent theoretical work suggested using the
+$\alpha$th frequency moment to approximate the Shannon entropy with
+$\alpha=1+\delta$ and very small $|\delta|$ (e.g., $<10^{-4}$).
+  In this study, we experiment using CC to estimate frequency moments, R\'enyi
+entropy, Tsallis entropy, and Shannon entropy, on real Web crawl data. We
+demonstrate the variance-bias trade-off in estimating Shannon entropy and
+provide practical recommendations. In particular, our experiments enable us to
+draw some important conclusions:
+  (1) As $\alpha\to 1$, CC dramatically improves {\em symmetric stable random
+projections} in estimating frequency moments, R\'enyi entropy, Tsallis entropy,
+and Shannon entropy. The improvements appear to approach "infinity."
+  (2) Using {\em symmetric stable random projections} and $\alpha = 1+\delta$
+with very small $|\delta|$ does not provide a practical algorithm because the
+required sample size is enormous.

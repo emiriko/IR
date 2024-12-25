@@ -1,0 +1,13 @@
+The overlap Dirac operator at nonzero quark chemical potential involves the
+computation of the sign function of a non-Hermitian matrix. In this talk we
+present an iterative method, first proposed by us in Ref. [1], which allows for
+an efficient computation of the operator, even on large lattices. The starting
+point is a Krylov subspace approximation, based on the Arnoldi algorithm, for
+the evaluation of a generic matrix function. The efficiency of this method is
+spoiled when the matrix has eigenvalues close to a function discontinuity. To
+cure this, a small number of critical eigenvectors are added to the Krylov
+subspace, and two different deflation schemes are proposed in this augmented
+subspace. The ensuing method is then applied to the sign function of the
+overlap Dirac operator, for two different lattice sizes. The sign function has
+a discontinuity along the imaginary axis, and the numerical results show how
+deflation dramatically improves the efficiency of the method.

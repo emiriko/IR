@@ -1,0 +1,13 @@
+Evaluation of pfaffians arises in a number of physics applications, and for
+some of them a direct method is preferable to using the determinantal formula.
+We discuss two methods for the numerical evaluation of pfaffians. The first is
+tridiagonalization based on Householder transformations. The main advantage of
+this method is its numerical stability that makes unnecessary the
+implementation of a pivoting strategy. The second method considered is based on
+Aitken's block diagonalization formula. It yields to a kind of LU (similar to
+Cholesky's factorization) decomposition (under congruence) of arbitrary
+skew-symmetric matrices that is well suited both for the numeric and symbolic
+evaluations of the pfaffian. Fortran subroutines (FORTRAN 77 and 90)
+implementing both methods are given. We also provide simple implementations in
+Python and Mathematica for purpose of testing, or for exploratory studies of
+methods that make use of pfaffians.

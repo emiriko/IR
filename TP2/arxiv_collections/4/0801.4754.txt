@@ -1,0 +1,17 @@
+The name graph state is used to describe a certain class of pure quantum
+state which models a physical structure on which one can perform
+measurement-based quantum computing, and which has a natural graphical
+description. We present the two-graph state, this being a generalisation of the
+graph state and a two-graph representation of a stabilizer state.
+Mathematically, the two-graph state can be viewed as a simultaneous
+generalisation of a binary linear code and quadratic Boolean function. It
+describes precisely the coefficients of the pure quantum state vector resulting
+from the action of a member of the local Clifford group on a graph state, and
+comprises a graph which encodes the magnitude properties of the state, and a
+graph encoding its phase properties. This description facilitates a
+computationally efficient spectral analysis of the graph state with respect to
+operations from the local Clifford group on the state, as all operations can be
+realised graphically. By focusing on the so-called local transform group, which
+is a size 3 cyclic subgroup of the local Clifford group over one qubit, and
+over $n$ qubits is of size $3^n$, we can efficiently compute spectral
+properties of the graph state.

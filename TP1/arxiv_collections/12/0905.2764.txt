@@ -1,0 +1,11 @@
+We derive energy-norm aposteriori error bounds, using gradient recovery (ZZ)
+estimators to control the spatial error, for fully discrete schemes for the
+linear heat equation. This appears to be the first completely rigorous
+derivation of ZZ estimators for fully discrete schemes for evolution problems,
+without any restrictive assumption on the timestep size. An essential tool for
+the analysis is the elliptic reconstruction technique.
+  Our theoretical results are backed with extensive numerical experimentation
+aimed at (a) testing the practical sharpness and asymptotic behaviour of the
+error estimator against the error, and (b) deriving an adaptive method based on
+our estimators. An extra novelty provided is an implementation of a coarsening
+error "preindicator", with a complete implementation guide in ALBERTA.

@@ -1,0 +1,20 @@
+The arrival process of bidders and bids in online auctions is important for
+studying and modeling supply and demand in the online marketplace. A popular
+assumption in the online auction literature is that a Poisson bidder arrival
+process is a reasonable approximation. This approximation underlies theoretical
+derivations, statistical models and simulations used in field studies. However,
+when it comes to the bid arrivals, empirical research has shown that the
+process is far from Poisson, with early bidding and last-moment bids taking
+place. An additional feature that has been reported by various authors is an
+apparent self-similarity in the bid arrival process. Despite the wide evidence
+for the changing bidding intensities and the self-similarity, there has been no
+rigorous attempt at developing a model that adequately approximates bid
+arrivals and accounts for these features. The goal of this paper is to
+introduce a family of distributions that well-approximate the bid time
+distribution in hard-close auctions. We call this the BARISTA process (Bid
+ARrivals In STAges) because of its ability to generate different intensities at
+different stages. We describe the properties of this model, show how to
+simulate bid arrivals from it, and how to use it for estimation and inference.
+We illustrate its power and usefulness by fitting simulated and real data from
+eBay.com. Finally, we show how a Poisson bidder arrival process relates to a
+BARISTA bid arrival process.

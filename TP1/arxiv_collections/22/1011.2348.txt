@@ -1,0 +1,18 @@
+We study a general class of PageRank optimization problems which consist in
+finding an optimal outlink strategy for a web site subject to design
+constraints. We consider both a continuous problem, in which one can choose the
+intensity of a link, and a discrete one, in which in each page, there are
+obligatory links, facultative links and forbidden links. We show that the
+continuous problem, as well as its discrete variant when there are no
+constraints coupling different pages, can both be modeled by constrained Markov
+decision processes with ergodic reward, in which the webmaster determines the
+transition probabilities of websurfers. Although the number of actions turns
+out to be exponential, we show that an associated polytope of transition
+measures has a concise representation, from which we deduce that the continuous
+problem is solvable in polynomial time, and that the same is true for the
+discrete problem when there are no coupling constraints. We also provide
+efficient algorithms, adapted to very large networks. Then, we investigate the
+qualitative features of optimal outlink strategies, and identify in particular
+assumptions under which there exists a "master" page to which all controlled
+pages should point. We report numerical results on fragments of the real web
+graph.

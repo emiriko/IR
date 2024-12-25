@@ -1,0 +1,22 @@
+In this paper we present an equilibrium value based framework for solving
+SDPs via the multiplicative weight update method which is different from the
+one in Kale's thesis \cite{Kale07}. One of the main advantages of the new
+framework is that we can guarantee the convertibility from approximate to exact
+feasibility in a much more general class of SDPs than previous result. Another
+advantage is the design of the oracle which is necessary for applying the
+multiplicative weight update method is much simplified in general cases. This
+leads to an alternative and easier solutions to the SDPs used in the previous
+results \class{QIP(2)}$\subseteq$\class{PSPACE} \cite{JainUW09} and
+\class{QMAM}=\class{PSPACE} \cite{JainJUW09}. Furthermore, we provide a generic
+form of SDPs which can be solved in the similar way. By parallelizing every
+step in our solution, we are able to solve a class of SDPs in \class{NC}.
+Although our motivation is from quantum computing, our result will also apply
+directly to any SDP which satisfies our conditions. In addition to the new
+framework for solving SDPs, we also provide a novel framework which improves
+the range of equilibrium value problems that can be solved via the
+multiplicative weight update method. Before this work we are only able to
+calculate the equilibrium value where one of the two convex sets needs to be
+the set of density operators. Our work demonstrates that in the case when one
+set is the set of density operators with further linear constraints, we are
+still able to approximate the equilibrium value to high precision via the
+multiplicative weight update method.

@@ -1,0 +1,12 @@
+Orthogonal Frequency Division Multiplexing (OFDM) is the key component of
+many emerging broadband wireless access standards. The resource allocation in
+OFDM uplink, however, is challenging due to heterogeneity of users' Quality of
+Service requirements, channel conditions, and individual resource constraints.
+We formulate the resource allocation problem as a non-strictly convex
+optimization problem, which typically has multiple global optimal solutions. We
+then propose a reduced primal-dual algorithm, which is distributed, low in
+computational complexity, and probably globally convergent to a global optimal
+solution. The performance of the algorithm is studied through a realistic OFDM
+simulator. Compared with the previously proposed centralized optimal algorithm,
+our algorithm not only significantly reduces the message overhead but also
+requires less iterations to converge.

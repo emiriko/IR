@@ -1,0 +1,13 @@
+Today's sequencing technology allows sequencing an individual genome within a
+few weeks for a fraction of the costs of the original Human Genome project.
+Genomics labs are faced with dozens of TB of data per week that have to be
+automatically processed and made available to scientists for further analysis.
+This paper explores the potential and the limitations of using relational
+database systems as the data processing platform for high-throughput genomics.
+In particular, we are interested in the storage management for high-throughput
+sequence data and in leveraging SQL and user-defined functions for data
+analysis inside a database system. We give an overview of a database design for
+high-throughput genomics, how we used a SQL Server database in some
+unconventional ways to prototype this scenario, and we will discuss some
+initial findings about the scalability and performance of such a more
+database-centric approach.

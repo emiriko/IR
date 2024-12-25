@@ -1,0 +1,15 @@
+As two-dimensional fluid shells, lipid bilayer membranes resist bending and
+stretching but are unable to sustain shear stresses. This property gives
+membranes the ability to adopt dramatic shape changes. In this paper, a finite
+element model is developed to study static equilibrium mechanics of membranes.
+In particular, a viscous regularization method is proposed to stabilize
+tangential mesh deformations and improve the convergence rate of nonlinear
+solvers. The Augmented Lagrangian method is used to enforce global constraints
+on area and volume during membrane deformations. As a validation of the method,
+equilibrium shapes for a shape-phase diagram of lipid bilayer vesicle are
+calculated. These numerical techniques are also shown to be useful for
+simulations of three-dimensional large-deformation problems: the formation of
+tethers (long tube-like exetensions); and Ginzburg-Landau phase separation of a
+two-lipid-component vesicle. To deal with the large mesh distortions of the
+two-phase model, modification of vicous regularization is explored to achieve
+r-adaptive mesh optimization.

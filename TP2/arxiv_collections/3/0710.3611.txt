@@ -1,0 +1,11 @@
+We discuss how dynamical fermion computations may be made yet cheaper by
+using symplectic integrators that conserve energy much more accurately without
+decreasing the integration step size. We first explain why symplectic
+integrators exactly conserve a ``shadow'' Hamiltonian close to the desired one,
+and how this Hamiltonian may be computed in terms of Poisson brackets. We then
+discuss how classical mechanics may be implemented on Lie groups and derive the
+form of the Poisson brackets and force terms for some interesting integrators
+such as those making use of second derivatives of the action (Hessian or force
+gradient integrators). We hope that these will be seen to greatly improve
+energy conservation for only a small additional cost and that their use will
+significantly reduce the cost of dynamical fermion computations.

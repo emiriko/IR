@@ -1,0 +1,22 @@
+The fractional Brownian motion is a generalization of ordinary Brownian
+motion, used particularly when long-range dependence is required. Its explicit
+introduction is due to B.B. Mandelbrot and J.W. van Ness (1968) as a
+self-similar Gaussian process $\WH (t)$ with stationary increments. Here
+self-similarity means that $(a^{-H}\WH(at): t \ge 0) \stackrel{d}{=} (\WH(t): t
+\ge 0)$, where $H\in (0, 1)$ is the Hurst parameter of fractional Brownian
+motion.
+  F.B. Knight gave a construction of ordinary Brownian motion as a limit of
+simple random walks in 1961. Later his method was simplified by P. R\'ev\'esz
+(1990) and then by the present author (1996). This approach is quite natural
+and elementary, and as such, can be extended to more general situations. Based
+on this, here we use moving averages of a suitable nested sequence of simple
+random walks that almost surely uniformly converge to fractional Brownian
+motion on compacts when $H \in (\quart , 1)$. The rate of convergence proved in
+this case is $O(N^{-\min(H-\quart,\quart)}\log N)$, where $N$ is the number of
+steps used for the approximation.
+  If the more accurate (but also more intricate) Koml\'os, Major, Tusn\'ady
+(1975, 1976) approximation is used instead to embed random walks into ordinary
+Brownian motion, then the same type of moving averages almost surely uniformly
+converge to fractional Brownian motion on compacts for any $H \in (0, 1)$.
+Moreover, the convergence rate is conjectured to be the best possible
+$O(N^{-H}\log N)$, though only $O(N^{-\min(H,\half)}\log N)$ is proved here.

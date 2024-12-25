@@ -1,0 +1,12 @@
+It is well known that the spectral radius of a tree whose maximum degree is D
+cannot exceed 2sqrt{D-1}. Similar upper bound holds for arbitrary planar
+graphs, whose spectral radius cannot exceed sqrt{8D}+10, and more generally,
+for all d-degenerate graphs, where the corresponding upper bound is sqrt{4dD}.
+Following this, we say that a graph G is spectrally d-degenerate if every
+subgraph H of G has spectral radius at most sqrt{d.Delta(H)}. In this paper we
+derive a rough converse of the above-mentioned results by proving that each
+spectrally d-degenerate graph G contains a vertex whose degree is at most
+4dlog_2(D/d) (if D>=2d). It is shown that the dependence on D in this upper
+bound cannot be eliminated, as long as the dependence on d is subexponential.
+It is also proved that the problem of deciding if a graph is spectrally
+d-degenerate is co-NP-complete.

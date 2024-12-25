@@ -1,0 +1,13 @@
+We develop a multiresolution approach to the problem of polygonal curve
+approximation. We show theoretically and experimentally that, if the
+simplification algorithm A used between any two successive levels of resolution
+satisfies some conditions, the multiresolution algorithm MR will have a
+complexity lower than the complexity of A. In particular, we show that if A has
+a O(N2/K) complexity (the complexity of a reduced search dynamic solution
+approach), where N and K are respectively the initial and the final number of
+segments, the complexity of MR is in O(N).We experimentally compare the
+outcomes of MR with those of the optimal "full search" dynamic programming
+solution and of classical merge and split approaches. The experimental
+evaluations confirm the theoretical derivations and show that the proposed
+approach evaluated on 2D coastal maps either shows a lower complexity or
+provides polygonal approximations closer to the initial curves.

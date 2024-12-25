@@ -1,0 +1,11 @@
+The current SINR mechanism does not provide the base station (BS) with any
+knowledge on the frequency selectivity of channel from mobile service
+station(MSS). This knowledge is important since, contrary to the AWGN channel,
+in a frequency selective channel there is no longer a 1 to 1 relation between
+amount of increase in power and amount of improvement in effective SINR 1.
+Furthermore, the relation is dependent on MCS level. This lack of knowledge in
+the BS side results in larger fade margins, which translates directly to
+reduction in capacity. In this paper we propose a enhanced algorithm on the
+EESM model with weighted beta (\beta) that provides the BS with sufficient
+knowledge on the channel-dependent relationship between power increase, MCS
+change and improvement in effective SINR.

@@ -1,0 +1,13 @@
+This paper introduces a method to generate hierarchically modular networks
+with prescribed node degree list by link switching. Unlike many existing
+network generating models, our method does not use link probabilities to
+achieve modularity. Instead, it utilizes a user-specified topology to determine
+relatedness between pairs of nodes in terms of edge distances and links are
+switched to increase edge distances. To measure the modular-ness of a network
+as a whole, a new metric called Q2 is proposed. Comparisons are made between
+the Q [15] and Q2 measures. We also comment on the effect of our modularization
+method on other network characteristics such as clustering, hierarchy, average
+path length, small-worldness, degree correlation and centrality. An application
+of this method is reported elsewhere [12]. Briefly, the generated networks are
+used as test problems to explore the effect of modularity and degree
+distribution on evolutionary search algorithms.

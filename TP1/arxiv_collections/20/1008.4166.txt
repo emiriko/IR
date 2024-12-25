@@ -1,0 +1,10 @@
+The paper describes several efficient parallel implementations of the
+one-sided hyperbolic Jacobi-type algorithm for computing eigenvalues and
+eigenvectors of Hermitian matrices. By appropriate blocking of the algorithms
+an almost ideal load balancing between all available processors/cores is
+obtained. A similar blocking technique can be used to exploit local cache
+memory of each processor to further speed up the process. Due to diversity of
+modern computer architectures, each of the algorithms described here may be the
+method of choice for a particular hardware and a given matrix size. All
+proposed block algorithms compute the eigenvalues with relative accuracy
+similar to the original non-blocked Jacobi algorithm.

@@ -1,0 +1,17 @@
+Size-Change Termination is an increasingly-popular technique for verifying
+program termination. These termination proofs are deduced from an abstract
+representation of the program in the form of "size-change graphs".
+  We present algorithms that, for certain classes of size-change graphs, deduce
+a global ranking function: an expression that ranks program states, and
+decreases on every transition. A ranking function serves as a witness for a
+termination proof, and is therefore interesting for program certification. The
+particular form of the ranking expressions that represent SCT termination
+proofs sheds light on the scope of the proof method. The complexity of the
+expressions is also interesting, both practicaly and theoretically.
+  While deducing ranking functions from size-change graphs has already been
+shown possible, the constructions in this paper are simpler and more
+transparent than previously known. They improve the upper bound on the size of
+the ranking expression from triply exponential down to singly exponential (for
+certain classes of instances). We claim that this result is, in some sense,
+optimal. To this end, we introduce a framework for lower bounds on the
+complexity of ranking expressions and prove exponential lower bounds.

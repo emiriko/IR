@@ -1,0 +1,18 @@
+Today's call center managers face multiple operational decision-making tasks.
+One of the most common is determining the weekly staffing levels to ensure
+customer satisfaction and meeting their needs while minimizing service costs.
+An initial step for producing the weekly schedule is forecasting the future
+system loads which involves predicting both arrival counts and average service
+times. We introduce an arrival count model which is based on a mixed Poisson
+process approach. The model is applied to data from an Israeli Telecom company
+call center. In our model, we also consider the effect of events such as
+billing on the arrival process and we demonstrate how to incorporate them as
+exogenous variables in the model. After obtaining the forecasted system load,
+in large call centers, a manager can choose to apply the QED
+(Quality-Efficiency Driven) regime's "square-root staffing" rule in order to
+balance the offered-load per server with the quality of service. Implementing
+this staffing rule requires that the forecasted values of the arrival counts
+and average service times maintain certain levels of precision. We develop
+different goodness of fit criteria that help determine our model's practical
+performance under the QED regime. These show that during most hours of the day
+the model can reach desired precision levels.

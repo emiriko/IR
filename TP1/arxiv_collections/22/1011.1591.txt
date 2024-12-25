@@ -1,0 +1,8 @@
+Necessary and sufficient conditions for the existence of limits of the form
+{equation*} \lim_{(x,y)\rightarrow (a,b)}\frac{f(x,y)}{g(x,y)} {equation*} are
+given, under the hipothesis that $f$ and $g$ are real analytic functions near
+the point $(a,b)$, and $g$ has an isolated zero at $(a,b)$. An algorithm
+(implemented in MAPLE 12) is also provided. This algorithm determines the
+existence of the limit, and computes it in case it exists. It is shown to be
+more powerful than the one found in the latest versions of MAPLE. The main
+tools used throughout are Hensel's Lemma and the theory of Puiseux series.

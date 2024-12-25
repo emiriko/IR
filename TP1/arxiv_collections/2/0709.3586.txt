@@ -1,0 +1,15 @@
+Many data analysis methods cannot be applied to data that are not represented
+by a fixed number of real values, whereas most of real world observations are
+not readily available in such a format. Vector based data analysis methods have
+therefore to be adapted in order to be used with non standard complex data. A
+flexible and general solution for this adaptation is to use a (dis)similarity
+measure. Indeed, thanks to expert knowledge on the studied data, it is
+generally possible to define a measure that can be used to make pairwise
+comparison between observations. General data analysis methods are then
+obtained by adapting existing methods to (dis)similarity matrices. In this
+article, we propose an adaptation of Kohonen's Self Organizing Map (SOM) to
+(dis)similarity data. The proposed algorithm is an adapted version of the
+vector based batch SOM. The method is validated on real world data: we provide
+an analysis of the usage patterns of the web site of the Institut National de
+Recherche en Informatique et Automatique, constructed thanks to web log mining
+method.

@@ -1,0 +1,17 @@
+An important aspect of computational fluid dynamics is related to the
+determination of the fluid pressure in isothermal incompressible fluids. In
+particular this concerns the construction of an exact evolution equation for
+the fluid pressure which replaces the Poisson equation and yields an algorithm
+which is a Poisson solver, i.e., it permits to time-advance exactly the same
+fluid pressure \textit{without solving the Poisson equation}% . In fact, the
+incompressible Navier-Stokes equations represent a mixture of hyperbolic and
+elliptic pde's, which are extremely hard to study both analytically and
+numerically. In this paper we intend to show that an exact solution to this
+problem can be achieved adopting the approach based on inverse kinetic theory
+(IKT) recently developed for incompressible fluids by Ellero and Tessarotto
+(2004-2007). In particular we intend to prove that the evolution of the fluid
+fields can be achieved by means of a suitable dynamical system, to be
+identified with the so-called Navier-Stokes (N-S) dynamical system. As a
+consequence it is found that the fluid pressure obeys a well-defined evolution
+equation. The result appears relevant for the construction of Lagrangian
+approaches to fluid dynamics.

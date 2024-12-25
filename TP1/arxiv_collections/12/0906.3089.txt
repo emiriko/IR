@@ -1,0 +1,9 @@
+Discrete geometric estimators aim at estimating geometric characteristics of
+a shape with only its digitization as input data. Such an estimator is
+multigrid convergent when its estimates tend toward the geometric
+characteristics of the shape as the digitization step h tends toward 0. This
+paper studies the multigrid convergence of tangent estimators based on maximal
+digital straight segment recognition. We show that such estimators are
+multigrid convergent for some family of convex shapes and that their speed of
+convergence is on average O(h^(2/3)). Experiments confirm this result and
+suggest that the bound is tight.

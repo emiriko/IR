@@ -1,0 +1,9 @@
+Marsaglia recently introduced a class of xorshift random number generators
+(RNGs) with periods 2n-1 for n = 32, 64, etc. Here we give a generalisation of
+Marsaglia's xorshift generators in order to obtain fast and high-quality RNGs
+with extremely long periods. RNGs based on primitive trinomials may be
+unsatisfactory because a trinomial has very small weight. In contrast, our
+generators can be chosen so that their minimal polynomials have large weight
+(number of nonzero terms). A computer search using Magma has found good
+generators for n a power of two up to 4096. These have been implemented in a
+free software package xorgens.

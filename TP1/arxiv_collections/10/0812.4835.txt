@@ -1,0 +1,17 @@
+Secure key distribution among two remote parties is impossible when both are
+classical, unless some unproven (and arguably unrealistic)
+computation-complexity assumptions are made, such as the difficulty of
+factorizing large numbers. On the other hand, a secure key distribution is
+possible when both parties are quantum. What is possible when only one party
+(Alice) is quantum, yet the other (Bob) has only classical capabilities?
+Recently, a semi-quantum key distribution protocol was presented (Boyer,
+Kenigsberg and Mor, Physical Review Letters, 2007), in which one of the parties
+(Bob) is classical, and yet, the protocol is proven to be completely robust
+against an eavesdropping attempt.
+  Here we extend that result much further. We present two protocols with this
+constraint, and prove their robustness against attacks: we prove that any
+attempt of an adversary to obtain information (and even a tiny amount of
+information) necessarily induces some errors that the legitimate parties could
+notice. One protocol presented here is identical to the one referred to above,
+however, its robustness is proven here in a much more general scenario. The
+other protocol is very different as it is based on randomization.

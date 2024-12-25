@@ -1,0 +1,11 @@
+Bitmap indexes must be compressed to reduce input/output costs and minimize
+CPU usage. To accelerate logical operations (AND, OR, XOR) over bitmaps, we use
+techniques based on run-length encoding (RLE), such as Word-Aligned Hybrid
+(WAH) compression. These techniques are sensitive to the order of the rows: a
+simple lexicographical sort can divide the index size by 9 and make indexes
+several times faster. We investigate row-reordering heuristics. Simply
+permuting the columns of the table can increase the sorting efficiency by 40%.
+Secondary contributions include efficient algorithms to construct and aggregate
+bitmaps. The effect of word length is also reviewed by constructing 16-bit,
+32-bit and 64-bit indexes. Using 64-bit CPUs, we find that 64-bit indexes are
+slightly faster than 32-bit indexes despite being nearly twice as large.

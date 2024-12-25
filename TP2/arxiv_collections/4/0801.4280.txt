@@ -1,0 +1,12 @@
+Spreadsheet programs, artifacts developed by non-programmers, are used for a
+variety of important tasks and decisions. Yet a significant proportion of them
+have severe quality problems. To address this issue, our previous work
+presented an interval-based testing methodology for spreadsheets.
+Interval-based testing rests on the observation that spreadsheets are mainly
+used for numerical computations. It also incorporates ideas from symbolic
+testing and interval analysis. This paper addresses the issue of efficiently
+debugging spreadsheets. Based on the interval-based testing methodology, this
+paper presents a technique for tracing faults in spreadsheet programs. The
+fault tracing technique proposed uses the dataflow information and cell marks
+to identify the most influential faulty cell(s) for a given formula cell
+containing a propagated fault.

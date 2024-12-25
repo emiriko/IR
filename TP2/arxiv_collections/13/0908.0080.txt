@@ -1,0 +1,12 @@
+- In this paper a session based symmetric key encryption system has been
+proposed and is termed as Permutated Cipher Technique (PCT). This technique is
+more fast, suitable and secure for larger files. In this technique the input
+file is broken down into blocks of various sizes (of 2 power n order) and
+encrypted by shifting the position of each bit by a certain value for a certain
+number of times. A key is generated randomly wherein the length of each block
+is determined. Each block length generates a unique value of number of bits to
+be skipped. This value determines the new position of the bits within the block
+that are to be shifted. After the shifting and inverting each block is XORed
+with SHA 512 digest of the key. The resultant blocks from the cipher text. The
+key is generated according to the binary value of the input file size.
+Decryption is done following the same process as the technique is symmetric.

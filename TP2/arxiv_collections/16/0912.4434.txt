@@ -1,0 +1,11 @@
+Gaussian Graphical Models provide a convenient framework for representing
+dependencies between variables. Recently, this tool has received a high
+interest for the discovery of biological networks. The literature focuses on
+the case where a single network is inferred from a set of measurements, but, as
+wetlab data is typically scarce, several assays, where the experimental
+conditions affect interactions, are usually merged to infer a single network.
+In this paper, we propose two approaches for estimating multiple related
+graphs, by rendering the closeness assumption into an empirical prior or group
+penalties. We provide quantitative results demonstrating the benefits of the
+proposed approaches. The methods presented in this paper are embeded in the R
+package 'simone' from version 1.0-0 and later.

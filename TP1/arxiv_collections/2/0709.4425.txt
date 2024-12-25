@@ -1,0 +1,24 @@
+BACKGROUND: One of the most evident achievements of bioinformatics is the
+development of methods that transfer biological knowledge from characterised
+proteins to uncharacterised sequences. This mode of protein function assignment
+is mostly based on the detection of sequence similarity and the premise that
+functional properties are conserved during evolution. Most automatic approaches
+developed to date rely on the identification of clusters of homologous proteins
+and the mapping of new proteins onto these clusters, which are expected to
+share functional characteristics. RESULTS: Here, we inverse the logic of this
+process, by considering the mapping of sequences directly to a functional
+classification instead of mapping functions to a sequence clustering. In this
+mode, the starting point is a database of labelled proteins according to a
+functional classification scheme, and the subsequent use of sequence similarity
+allows defining the membership of new proteins to these functional classes. In
+this framework, we define the Correspondence Indicators as measures of
+relationship between sequence and function and further formulate two Bayesian
+approaches to estimate the probability for a sequence of unknown function to
+belong to a functional class. This approach allows the parametrisation of
+different sequence search strategies and provides a direct measure of
+annotation error rates. We validate this approach with a database of enzymes
+labelled by their corresponding four-digit EC numbers and analyse specific
+cases. CONCLUSION: The performance of this method is significantly higher than
+the simple strategy consisting in transferring the annotation from the highest
+scoring BLAST match and is expected to find applications in automated
+functional annotation pipelines.

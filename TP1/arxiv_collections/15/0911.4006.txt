@@ -1,0 +1,10 @@
+We describe the architecture evolution of the highly-parallel dedicated
+processor FTK, which is driven by the simulation of LHC events at high
+luminosity (1034 cm-2 s-1). FTK is able to provide precise on-line track
+reconstruction for future hadronic collider experiments. The processor,
+organized in a two-tiered pipelined architecture, execute very fast algorithms
+based on the use of a large bank of pre-stored patterns of trajectory points
+(first tier) in combination with full resolution track fitting to refine
+pattern recognition and to determine off-line quality track parameters. We
+describe here how the high luminosity simulation results have produced a new
+organization of the hardware inside the FTK processor core.

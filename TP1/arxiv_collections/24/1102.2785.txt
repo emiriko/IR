@@ -1,0 +1,10 @@
+We consider a topology control problem in which we are given a set of $n$
+sensors in the plane and we would like to assign a communication radius to each
+of them. The radii assignment must generate a strongly connected network and
+have low receiver-based interference (i.e., we minimize the largest in-degree
+of the network). We give an algorithm that generates a network with $O(\log
+\Delta)$ interference, where $\Delta$ is the interference of a uniform-radius
+ad-hoc network. We then adapt the construction to the case in which no sensor
+can have a communication radius larger than $R_{\min}$, the minimum value
+needed to obtain connectivity. We also show that $\log \Delta$ interference is
+needed for some instances, making our algorithms asymptotically optimal.

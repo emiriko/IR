@@ -1,0 +1,24 @@
+Performing fully general relativistic simulations taking account of
+microphysical processes is one of long standing problems in numerical
+relativity. One of main difficulties in implementation of weak interactions in
+the general relativistic framework lies on the fact that the characteristic
+timescale of weak interaction processes (the WP timescale) in hot dense matters
+is much shorter than the dynamical timescale. Numerically this means that stiff
+source terms appears in the equations so that an implicit scheme is in general
+necessary to stably solve the relevant equations. Otherwise a very short
+timestep will be required to solve them explicitly. Furthermore, in the
+relativistic framework, the Lorentz factor is coupled with the rest mass
+density and the energy density. The specific enthalpy is also coupled with the
+momentum. Due to these couplings, it is very complicated to recover the
+primitive variables and the Lorentz factor from conserved quantities. At the
+current status, no implicit procedure have been proposed except for the case of
+the spherical symmetry. Therefore, an approximate, explicit procedure is
+developed in the fully general relativistic framework in this paper as an first
+implementation of the microphysics toward a more realistic sophisticated model.
+The procedure is based on the so-called neutrino leakage schemes which is based
+on the property that the characteristic timescale in which neutrinos leak out
+of the system (the leakage timescale) is much longer than the WP timescale. In
+this paper, I present a detailed neutrino leakage scheme and a simple and
+stable method for solving the equations explicitly in the fully general
+relativistic framework. I also perform a test simulation to check the validity
+of the present method, showing that it works fairly well.

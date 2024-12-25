@@ -1,0 +1,16 @@
+We present a data analysis pipeline for CMB polarization experiments, running
+from multi-frequency maps to the power spectra. We focus mainly on component
+separation and, for the first time, we work out the covariance matrix
+accounting for errors associated to the separation itself. This allows us to
+propagate such errors and evaluate their contributions to the uncertainties on
+the final products.The pipeline is optimized for intermediate and small scales,
+but could be easily extended to lower multipoles. We exploit realistic
+simulations of the sky, tailored for the Planck mission. The component
+separation is achieved by exploiting the Correlated Component Analysis in the
+harmonic domain, that we demonstrate to be superior to the real-space
+application (Bonaldi et al. 2006). We present two techniques to estimate the
+uncertainties on the spectral parameters of the separated components. The
+component separation errors are then propagated by means of Monte Carlo
+simulations to obtain the corresponding contributions to uncertainties on the
+component maps and on the CMB power spectra. For the Planck polarization case
+they are found to be subdominant compared to noise.

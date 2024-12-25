@@ -1,0 +1,19 @@
+The wireless medium contains domain-specific information that can be used to
+complement and enhance traditional security mechanisms. In this paper we
+propose ways to exploit the fact that, in a typically rich scattering
+environment, the radio channel response decorrelates quite rapidly in space.
+Specifically, we describe a physical-layer algorithm that combines channel
+probing (M complex frequency response samples over a bandwidth W) with
+hypothesis testing to determine whether current and prior communication
+attempts are made by the same user (same channel response). In this way,
+legitimate users can be reliably authenticated and false users can be reliably
+detected. To evaluate the feasibility of our algorithm, we simulate spatially
+variable channel responses in real environments using the WiSE ray-tracing
+tool; and we analyze the ability of a receiver to discriminate between
+transmitters (users) based on their channel frequency responses in a given
+office environment. For several rooms in the extremities of the building we
+considered, we have confirmed the efficacy of our approach under static channel
+conditions. For example, measuring five frequency response samples over a
+bandwidth of 100 MHz and using a transmit power of 100 mW, valid users can be
+verified with 99% confidence while rejecting false users with greater than 95%
+confidence.

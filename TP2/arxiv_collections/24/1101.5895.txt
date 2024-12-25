@@ -1,0 +1,21 @@
+We show that recursively generated Chebyshev expansions offer numerically
+efficient representations for calculating zero-temperature spectral functions
+of one-dimensional lattice models using matrix product state (MPS) methods. The
+main features of this Chebychev matrix product state (CheMPS) approach are: (i)
+it achieves uniform resolution over the spectral function's entire spectral
+width; (ii) it can exploit the fact that the latter can be much smaller than
+the model's many-body bandwidth; (iii) it offers a well-controlled broadening
+scheme; (iv) it is based on a succession of Chebychev vectors |t_n>, (v) whose
+entanglement entropies were found to remain bounded with increasing recursion
+order n for all cases analyzed here; (vi) it distributes the total entanglement
+entropy that accumulates with increasing n over the set of Chebyshev vectors
+|t_n>. We present zero-temperature CheMPS results for the structure factor of
+spin-1/2 antiferromagnetic Heisenberg chains and perform a detailed finite-size
+analysis. Making comparisons to three benchmark methods, we find that CheMPS
+(1) yields results comparable in quality to those of correction vector DMRG, at
+dramatically reduced numerical cost; (2) agrees well with Bethe Ansatz results
+for an infinite system, within the limitations expected for numerics on finite
+systems; (3) can also be applied in the time domain, where it has potential to
+serve as a viable alternative to time-dependent DMRG (in particular at finite
+temperatures). Finally, we present a detailed error analysis of CheMPS for the
+case of the noninteracting resonant level model.

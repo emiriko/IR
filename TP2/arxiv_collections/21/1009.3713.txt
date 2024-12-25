@@ -1,0 +1,8 @@
+This paper proposes a relational constraint driven technique that synthesizes
+test cases automatically for web applications. Using a static analysis,
+servlets can be modeled as relational transducers, which manipulate backend
+databases. We present a synthesis algorithm that generates a sequence of HTTP
+requests for simulating a user session. The algorithm relies on backward
+symbolic image computation for reaching a certain database state, given a code
+coverage objective. With a slight adaptation, the technique can be used for
+discovering workflow attacks on web applications.

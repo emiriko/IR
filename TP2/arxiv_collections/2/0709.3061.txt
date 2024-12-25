@@ -1,0 +1,24 @@
+In 2002 Biskup et al. [Europhys. Lett. 60, 21 (2002)] sketched a rigorous
+proof for the behavior of the 2D Ising lattice gas, at a finite volume and a
+fixed excess \delta M of particles (spins) above the ambient gas density
+(spontaneous magnetisation). By identifying a dimensionless parameter \Delta
+(\delta M) and a universal constant \Delta_c, they showed in the limit of large
+system sizes that for \Delta < \Delta_c the excess is absorbed in the
+background (``evaporated'' system), while for \Delta > \Delta_c a droplet of
+the dense phase occurs (``condensed'' system).
+  To check the applicability of the analytical results to much smaller,
+practically accessible system sizes, we performed several Monte Carlo
+simulations for the 2D Ising model with nearest-neighbour couplings on a square
+lattice at fixed magnetisation M. Thereby, we measured the largest minority
+droplet, corresponding to the condensed phase, at various system sizes (L=40,
+>..., 640). With analytic values for for the spontaneous magnetisation m_0, the
+susceptibility \chi and the Wulff interfacial free energy density \tau_W for
+the infinite system, we were able to determine \lambda numerically in very good
+agreement with the theoretical prediction.
+  Furthermore, we did simulations for the spin-1/2 Ising model on a triangular
+lattice and with next-nearest-neighbour couplings on a square lattice. Again,
+finding a very good agreement with the analytic formula, we demonstrate the
+universal aspects of the theory with respect to the underlying lattice. For the
+case of the next-nearest-neighbour model, where \tau_W is unknown analytically,
+we present different methods to obtain it numerically by fitting to the
+distribution of the magnetisation density P(m).

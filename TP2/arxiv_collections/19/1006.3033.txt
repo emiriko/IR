@@ -1,0 +1,24 @@
+Over the last decade, kernel methods for nonlinear processing have
+successfully been used in the machine learning community. The primary
+mathematical tool employed in these methods is the notion of the Reproducing
+Kernel Hilbert Space. However, so far, the emphasis has been on batch
+techniques. It is only recently, that online techniques have been considered in
+the context of adaptive signal processing tasks. Moreover, these efforts have
+only been focussed on real valued data sequences. To the best of our knowledge,
+no adaptive kernel-based strategy has been developed, so far, for complex
+valued signals. Furthermore, although the real reproducing kernels are used in
+an increasing number of machine learning problems, complex kernels have not,
+yet, been used, in spite of their potential interest in applications that deal
+with complex signals, with Communications being a typical example. In this
+paper, we present a general framework to attack the problem of adaptive
+filtering of complex signals, using either real reproducing kernels, taking
+advantage of a technique called \textit{complexification} of real RKHSs, or
+complex reproducing kernels, highlighting the use of the complex gaussian
+kernel. In order to derive gradients of operators that need to be defined on
+the associated complex RKHSs, we employ the powerful tool of Wirtinger's
+Calculus, which has recently attracted attention in the signal processing
+community. To this end, in this paper, the notion of Wirtinger's calculus is
+extended, for the first time, to include complex RKHSs and use it to derive
+several realizations of the Complex Kernel Least-Mean-Square (CKLMS) algorithm.
+Experiments verify that the CKLMS offers significant performance improvements
+over several linear and nonlinear algorithms, when dealing with nonlinearities.

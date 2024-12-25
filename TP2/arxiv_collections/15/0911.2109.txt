@@ -1,0 +1,10 @@
+A channel is degradable if there exists a second channel that maps the output
+state of the channel to the environment state. These channels satisfy the
+property that the output state contains more information about the input than
+the environment does. A complementary class of channels is the antidegradable
+channels, which admit channels that map the environment state to the output
+state of the channel. In this paper we show that the computational problem of
+distinguishing two channels remains PSPACE-complete when restricted to these
+classes of channels. This is shown using a construction of Cubitt, Ruskai, and
+Smith that embeds any channel into a degradable channel, and a related
+construction for the case of antidegradable channels.

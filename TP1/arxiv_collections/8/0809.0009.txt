@@ -1,0 +1,20 @@
+The paper studies distributed static parameter (vector) estimation in sensor
+networks with nonlinear observation models and noisy inter-sensor
+communication. It introduces \emph{separably estimable} observation models that
+generalize the observability condition in linear centralized estimation to
+nonlinear distributed estimation. It studies two distributed estimation
+algorithms in separably estimable models, the $\mathcal{NU}$ (with its linear
+counterpart $\mathcal{LU}$) and the $\mathcal{NLU}$. Their update rule combines
+a \emph{consensus} step (where each sensor updates the state by weight
+averaging it with its neighbors' states) and an \emph{innovation} step (where
+each sensor processes its local current observation.) This makes the three
+algorithms of the \textit{consensus + innovations} type, very different from
+traditional consensus. The paper proves consistency (all sensors reach
+consensus almost surely and converge to the true parameter value,) efficiency,
+and asymptotic unbiasedness. For $\mathcal{LU}$ and $\mathcal{NU}$, it proves
+asymptotic normality and provides convergence rate guarantees. The three
+algorithms are characterized by appropriately chosen decaying weight sequences.
+Algorithms $\mathcal{LU}$ and $\mathcal{NU}$ are analyzed in the framework of
+stochastic approximation theory; algorithm $\mathcal{NLU}$ exhibits mixed
+time-scale behavior and biased perturbations, and its analysis requires a
+different approach that is developed in the paper.

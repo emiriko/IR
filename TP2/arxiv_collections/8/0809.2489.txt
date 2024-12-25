@@ -1,0 +1,9 @@
+We present an algorithm for evaluating a linear ``intersection transform'' of
+a function defined on the lattice of subsets of an $n$-element set. In
+particular, the algorithm constructs an arithmetic circuit for evaluating the
+transform in ``down-closure time'' relative to the support of the function and
+the evaluation domain. As an application, we develop an algorithm that, given
+as input a digraph with $n$ vertices and bounded integer weights at the edges,
+counts paths by weight and given length $0\leq\ell\leq n-1$ in time
+$O^*(\exp(n\cdot H(\ell/(2n))))$, where $H(p)=-p\log p-(1-p)\log(1-p)$, and the
+notation $O^*(\cdot)$ suppresses a factor polynomial in $n$.

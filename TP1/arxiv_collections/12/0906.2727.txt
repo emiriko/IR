@@ -1,0 +1,19 @@
+First, we extend Leifer-Milner RPO theory, by giving general conditions to
+obtain IPO labelled transition systems (and bisimilarities) with a reduced set
+of transitions, and possibly finitely branching. Moreover, we study the weak
+variant of Leifer-Milner theory, by giving general conditions under which the
+weak bisimilarity is a congruence. Then, we apply such extended RPO technique
+to the lambda-calculus, endowed with lazy and call by value reduction
+strategies.
+  We show that, contrary to process calculi, one can deal directly with the
+lambda-calculus syntax and apply Leifer-Milner technique to a category of
+contexts, provided that we work in the framework of weak bisimilarities.
+  However, even in the case of the transition system with minimal contexts, the
+resulting bisimilarity is infinitely branching, due to the fact that, in
+standard context categories, parametric rules such as the beta-rule can be
+represented only by infinitely many ground rules.
+  To overcome this problem, we introduce the general notion of second-order
+context category. We show that, by carrying out the RPO construction in this
+setting, the lazy observational equivalence can be captured as a weak
+bisimilarity equivalence on a finitely branching transition system. This result
+is achieved by considering an encoding of lambda-calculus in Combinatory Logic.

@@ -1,0 +1,12 @@
+For a given graph G and integers b,f >= 0, let S be a subset of vertices of G
+of size b+1 such that the subgraph of G induced by S is connected and S can be
+separated from other vertices of G by removing f vertices. We prove that every
+graph on n vertices contains at most n\binom{b+f}{b} such vertex subsets. This
+result from extremal combinatorics appears to be very useful in the design of
+several enumeration and exact algorithms. In particular, we use it to provide
+algorithms that for a given n-vertex graph G - compute the treewidth of G in
+time O(1.7549^n) by making use of exponential space and in time O(2.6151^n) and
+polynomial space; - decide in time O(({\frac{2n+k+1}{3})^{k+1}\cdot kn^6}) if
+the treewidth of G is at most k; - list all minimal separators of G in time
+O(1.6181^n) and all potential maximal cliques of G in time O(1.7549^n). This
+significantly improves previous algorithms for these problems.

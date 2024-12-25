@@ -1,0 +1,14 @@
+We discuss a stochastic approach for reconstructing the native structures of
+proteins from the knowledge of the "effective connectivity", which is a
+one-dimensional structural profile constructed as a linear combination of the
+eigenvectors of the contact map of the target structure. The structural profile
+is used to bias a search of the conformational space towards the target
+structure in a Monte Carlo scheme operating on a C_alpha-chain of uniform,
+finite thickness. Structure information thus enters the folding dynamics via
+the effective connectivity, but the interaction is not restricted to pairs of
+amino acids that form native contacts, resulting in a free energy landscape
+which does not rely on the assumption of minimal frustration. Moreover,
+effective connectivity vectors can be predicted more readily from the amino
+acid sequence of proteins than the corresponding contact maps, thus suggesting
+that the stochastic protocol presented here could be effectively combined with
+other current methods for predicting native structures.

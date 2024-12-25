@@ -1,0 +1,21 @@
+In this paper we introduce a novel 3D Lattice-Boltzmann model that recovers
+in the continuous limit the Maxwell equations in materials. In order to build
+conservation equations with antisymmetric tensors, like the Faraday law, the
+model assigns four auxiliary vectors to each velocity vector. These auxiliary
+vectors, when combined with the distribution functions, give the
+electromagnetic fields. The evolution is driven by the usual BGK collision
+rule, but with a different form for the equilibrium distribution functions.
+This LBGK model allows us to consider for both dielectrics and conductors with
+realistic parameters, and therefore it is adequate to simulate the most diverse
+electromagnetic problems, like the propagation of electromagnetic waves (both
+in dielectric media and in waveguides), the skin effect, the radiation pattern
+of a small dipole antenna and the natural frequencies of a resonant cavity, all
+with 2% accuracy. Actually, it shows to be one order of magnitude faster than
+the original FDTD formulation by Yee to reach the same accuracy. It is,
+therefore, a valuable alternative to simulate electromagnetic fields and opens
+lattice Boltzmann for a broad spectrum of new applications in electrodynamics.
+In this paper we develop a 3D Lattice-Boltzmann model that recovers in the
+continuous limit the Maxwell equations for macroscopic mediums. The model can
+sucessfully reproduces the propagation of the electromagnetic waves in
+dielectric mediums and waveguide, the skin effect, the electrical dipole
+radiation and the electromagnetic response of a resonant cavity.

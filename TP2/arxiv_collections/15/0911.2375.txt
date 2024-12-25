@@ -1,0 +1,9 @@
+We present a graph-based technique for estimating sparse covariance matrices
+and their inverses from high-dimensional data. The method is based on learning
+a directed acyclic graph (DAG) and estimating parameters of a multivariate
+Gaussian distribution based on a DAG. For inferring the underlying DAG we use
+the PC-algorithm and for estimating the DAG-based covariance matrix and its
+inverse, we use a Cholesky decomposition approach which provides a positive
+(semi-)definite sparse estimate. We present a consistency result in the
+high-dimensional framework and we compare our method with the Glasso for
+simulated and real data.

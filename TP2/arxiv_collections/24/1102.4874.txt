@@ -1,0 +1,11 @@
+We describe the process implemented in the DASCH pipeline which applies a
+reliable astrometric correction to each scanned plate. Our first blind
+astrometric fit resolves the pointing, scale and orientation of the plate in
+the sky using astrometry. net code. Then we iteratively improve this solution
+with WCSTools imwcs. Finally, we apply a 6th order polynomial fit with SCAMP to
+correct the image for distortions. During a test on 140 plates, this process
+has allowed us to successfully correct 79% of the plates. With further
+refinements of the process we now reach a 95% success rate after reprocessing
+all our scanned plates (~11 000 in Nov. 2010). We could extract a lightcurve
+for 2.85 times more objects than with the previous Pipeline, down to magnitude
+17. The resulting median RMS error is 0.13" for objects with mag. 8 to 17.

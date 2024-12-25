@@ -1,0 +1,6 @@
+We present a practical algorithm to decode erasures of Reed-Solomon codes
+over the q elements binary field in O(q \log_2^2 q) time where the constant
+implied by the O-notation is very small. Asymptotically fast algorithms based
+on fast polynomial arithmetic were already known, but even if their complexity
+is similar, they are mostly impractical. By comparison our algorithm uses only
+a few Walsh transforms and has been easily implemented.

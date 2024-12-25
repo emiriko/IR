@@ -1,0 +1,12 @@
+In this paper, we propose two algorithms for solving linear inverse problems
+when the observations are corrupted by Poisson noise. A proper data fidelity
+term (log-likelihood) is introduced to reflect the Poisson statistics of the
+noise. On the other hand, as a prior, the images to restore are assumed to be
+positive and sparsely represented in a dictionary of waveforms. Piecing
+together the data fidelity and the prior terms, the solution to the inverse
+problem is cast as the minimization of a non-smooth convex functional. We
+establish the well-posedness of the optimization problem, characterize the
+corresponding minimizers, and solve it by means of primal and primal-dual
+proximal splitting algorithms originating from the field of non-smooth convex
+optimization theory. Experimental results on deconvolution and comparison to
+prior methods are also reported.

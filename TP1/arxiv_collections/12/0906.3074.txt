@@ -1,0 +1,23 @@
+We implement for comparative purposes the Feynman algorithm within a
+C++-based framework for two-layer uniform facet elastic object for real-time
+softbody simulation based on physics modeling methods. To facilitate the
+comparison, we implement initial timing measurements on the same hardware
+against that of Euler integrator in the softbody framework by varying different
+algorithm parameters. Due to a relatively large number of such variations we
+implement a GLUI-based user-interface to allow for much more finer control over
+the simulation process at real-time, which was lacking completely in the
+previous versions of the framework. We show our currents results based on the
+enhanced framework. The two-layered elastic object consists of inner and outer
+elastic mass-spring surfaces and compressible internal pressure. The density of
+the inner layer can be set differently from the density of the outer layer; the
+motion of the inner layer can be opposite to the motion of the outer layer.
+These special features, which cannot be achieved by a single layered object,
+result in improved imitation of a soft body, such as tissue's liquid
+non-uniform deformation. The inertial behavior of the elastic object is well
+illustrated in environments with gravity and collisions with walls, ceiling,
+and floor. The collision detection is defined by elastic collision penalty
+method and the motion of the object is guided by the Ordinary Differential
+Equation computation. Users can interact with the modeled objects, deform them,
+and observe the response to their action in real-time and we provide an
+extensible framework and its implementation for comparative studies of
+different physical-based modeling and integration algorithm implementations.

@@ -1,0 +1,21 @@
+Collaborative Spectrum Sensing (CSS) between secondary users (SUs) in
+cognitive networks exhibits an inherent tradeoff between minimizing the
+probability of missing the detection of the primary user (PU) and maintaining a
+reasonable false alarm probability (e.g., for maintaining a good spectrum
+utilization). In this paper, we study the impact of this tradeoff on the
+network structure and the cooperative incentives of the SUs that seek to
+cooperate for improving their detection performance. We model the CSS problem
+as a non-transferable coalitional game, and we propose distributed algorithms
+for coalition formation. First, we construct a distributed coalition formation
+(CF) algorithm that allows the SUs to self-organize into disjoint coalitions
+while accounting for the CSS tradeoff. Then, the CF algorithm is complemented
+with a coalitional voting game for enabling distributed coalition formation
+with detection probability guarantees (CF-PD) when required by the PU. The
+CF-PD algorithm allows the SUs to form minimal winning coalitions (MWCs), i.e.,
+coalitions that achieve the target detection probability with minimal costs.
+For both algorithms, we study and prove various properties pertaining to
+network structure, adaptation to mobility and stability. Simulation results
+show that CF reduces the average probability of miss per SU up to 88.45%
+relative to the non-cooperative case, while maintaining a desired false alarm.
+For CF-PD, the results show that up to 87.25% of the SUs achieve the required
+detection probability through MWC

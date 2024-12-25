@@ -1,0 +1,20 @@
+The Ising model is famous model for magnetic substances in Statistical
+Physics, and has been greatly studied in many forms. It was solved in
+one-dimension by Ernst Ising in 1925 and in two-dimensions without an external
+magnetic field by Lars Onsager in 1944. In this thesis we look at the
+anisotropic Ising model on the Union Jack lattice. This lattice is one of the
+few exactly solvable models which exhibits a re-entrant phase transition and so
+is of great interest.
+  Initially we cover the history of the Ising model and some possible
+applications outside the traditional magnetic substances. Background theory
+will be presented before briefly discussing the calculations for the
+one-dimensional and two-dimensional models. After this we will focus on the
+Union Jack lattice and specifically the work of Wu and Lin in their 1987 paper
+"Ising model on the Union Jack lattice as a free fermion model." [WL87]. Next
+we will develop a mean field prediction for the Union Jack lattice after first
+discussing mean field theory for other lattices. Finally we will present the
+results of numerical simulations. These simulations will be performed using a
+Monte Carlo method, specifically the Metropolis-Hastings algorithm, to simulate
+a Markov chain. Initially we calibrate our simulation program using the
+triangular lattice, before going on to run simulations for Ferromagnetic,
+Antiferromagnetic and Metamagnetic systems on the Union Jack lattice

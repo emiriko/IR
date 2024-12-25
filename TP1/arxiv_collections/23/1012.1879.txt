@@ -1,0 +1,18 @@
+A Bayesian multiple change-point model is proposed to analyse violations of
+air quality standards by pollutants such as nitrogen oxides (NO2 and NO) and
+carbon monoxide (CO). The model is built on the assumption that the occurrence
+of threshold exceedances may be described by a non-homogeneous Poisson process
+with a step rate function. Unlike earlier approaches, our model is not
+restricted by a predetermined number of change-points, nor does it involve any
+covariates. Possible short-range correlations in the exceedance data (e.g., due
+to chemical and meteorological factors) are removed via declusterisation. The
+unknown rate function is estimated using a reversible jump MCMC sampling
+algorithm adapted from Green (1995), which allows for transitions between
+parameter subspaces of varying dimension. This technique is applied to the
+17-year (1993-2009) daily NO2, NO and CO concentration data in the City of
+Leeds, UK. The results are validated by running the MCMC estimator on simulated
+data replicated via a posterior estimate of the rate function. The findings are
+interpreted and discussed in relation to some known traffic control actions.
+The proposed methodology may be useful in the air quality management context by
+providing quantitative objective means to measure the efficacy of pollution
+control programmes.

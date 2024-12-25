@@ -1,0 +1,17 @@
+We introduce a new shrinkage variable selection operator for linear models
+which we term the \emph{adaptive ridge selector} (ARiS). This approach is
+inspired by the \emph{relevance vector machine} (RVM), which uses a Bayesian
+hierarchical linear setup to do variable selection and model estimation.
+Extending the RVM algorithm, we include a proper prior distribution for the
+precisions of the regression coefficients, $v_{j}^{-1} \sim
+f(v_{j}^{-1}|\eta)$, where $\eta$ is a scalar hyperparameter. A novel fitting
+approach which utilizes the full set of posterior conditional distributions is
+applied to maximize the joint posterior distribution
+$p(\boldsymbol\beta,\sigma^{2},\mathbf{v}^{-1}|\mathbf{y},\eta)$ given the
+value of the hyper-parameter $\eta$. An empirical Bayes method is proposed for
+choosing $\eta$. This approach is contrasted with other regularized least
+squares estimators including the lasso, its variants, nonnegative garrote and
+ordinary ridge regression. Performance differences are explored for various
+simulated data examples. Results indicate superior prediction and model
+selection accuracy under sparse setups and drastic improvement in accuracy of
+model choice with increasing sample size.

@@ -1,0 +1,15 @@
+When implementing a propagator for a constraint, one must decide about
+variants: When implementing min, should one also implement max? Should one
+implement linear equations both with and without coefficients? Constraint
+variants are ubiquitous: implementing them requires considerable (if not
+prohibitive) effort and decreases maintainability, but will deliver better
+performance.
+  This paper shows how to use variable views, previously introduced for an
+implementation architecture, to derive perfect propagator variants. A model for
+views and derived propagators is introduced. Derived propagators are proved to
+be indeed perfect in that they inherit essential properties such as correctness
+and domain and bounds consistency. Techniques for systematically deriving
+propagators such as transformation, generalization, specialization, and
+channeling are developed for several variable domains. We evaluate the massive
+impact of derived propagators. Without derived propagators, Gecode would
+require 140000 rather than 40000 lines of code for propagators.

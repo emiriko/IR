@@ -1,0 +1,19 @@
+Tracers provide users with useful information about program executions. In
+this article, we propose a ``tracer driver''. From a single tracer, it provides
+a powerful front-end enabling multiple dynamic analysis tools to be easily
+implemented, while limiting the overhead of the trace generation. The relevant
+execution events are specified by flexible event patterns and a large variety
+of trace data can be given either systematically or ``on demand''. The proposed
+tracer driver has been designed in the context of constraint logic programming;
+experiments have been made within GNU-Prolog. Execution views provided by
+existing tools have been easily emulated with a negligible overhead.
+Experimental measures show that the flexibility and power of the described
+architecture lead to good performance. The tracer driver overhead is inversely
+proportional to the average time between two traced events. Whereas the
+principles of the tracer driver are independent of the traced programming
+language, it is best suited for high-level languages, such as constraint logic
+programming, where each traced execution event encompasses numerous low-level
+execution steps. Furthermore, constraint logic programming is especially hard
+to debug. The current environments do not provide all the useful dynamic
+analysis tools. They can significantly benefit from our tracer driver which
+enables dynamic analyses to be integrated at a very low cost.

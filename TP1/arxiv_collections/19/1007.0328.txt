@@ -1,0 +1,24 @@
+This thesis investigates the application of autonomic management to a
+distributed storage system. Effects on performance and resource consumption
+were measured in experiments, which were carried out in a local area test-bed.
+The experiments were conducted with components of one specific distributed
+storage system, but seek to be applicable to a wide range of such systems, in
+particular those exposed to varying conditions. The perceived characteristics
+of distributed storage systems depend on their configuration parameters and on
+various dynamic conditions. For a given set of conditions, one specific
+configuration may be better than another with respect to measures such as
+resource consumption and performance. Here, configuration parameter values were
+set dynamically and the results compared with a static configuration. It was
+hypothesised that under non-changing conditions this would allow the system to
+converge on a configuration that was more suitable than any that could be set a
+priori. Furthermore, the system could react to a change in conditions by
+adopting a more appropriate configuration. Autonomic management was applied to
+the peer-to-peer (P2P) and data retrieval components of ASA, a distributed
+storage system. The effects were measured experimentally for various workload
+and churn patterns. The management policies and mechanisms were implemented
+using a generic autonomic management framework developed during this work. The
+experimental evaluations of autonomic management show promising results, and
+suggest several future research topics. The findings of this thesis could be
+exploited in building other distributed storage systems that focus on
+harnessing storage on user workstations, since these are particularly likely to
+be exposed to varying, unpredictable conditions.

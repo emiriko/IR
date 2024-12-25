@@ -1,0 +1,22 @@
+In this paper, two important factors which affect the pedestrian outflow at a
+bottleneck significantly are studied in detail to analyze the effect of an
+obstacle set up in front of an exit. One is a conflict at an exit when
+pedestrians evacuate from a room. We use floor field model for simulating such
+behavior, which is a well-studied pedestrian model using cellular automata. The
+conflicts have been taken into account by the friction parameter. However, the
+friction parameter so far is a constant and does not depend on the number of
+the pedestrians conflicting at the same time. Thus, we have improved the
+friction parameter by the frictional function, which is a function of the
+number of the pedestrians involved in the conflict. Second, we have newly
+introduced the cost of turning of pedestrians at the exit. Since pedestrians
+have inertia, their walking speeds decrease when they turn, and the pedestrian
+outflow decreases.
+  The validity of the extended model, which includes the frictional function
+and the turning function, is verified by both a mean field theory and
+experiments. In our experiments, the pedestrian flow increases when we put an
+obstacle in front of an exit. The analytical results clearly explains the
+mechanism of the effect of the obstacle, i.e., the obstacle blocks pedestrians
+moving to the exit and decreases the average number of pedestrians involved in
+the conflict. We have also found that an obstacle works more effectively when
+we shift it from the center since pedestrians go through the exit with less
+turning.

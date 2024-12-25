@@ -1,0 +1,21 @@
+We consider the noise complexity of differentially private mechanisms in the
+setting where the user asks $d$ linear queries $f\colon\Rn\to\Re$
+non-adaptively. Here, the database is represented by a vector in $\Rn$ and
+proximity between databases is measured in the $\ell_1$-metric.
+  We show that the noise complexity is determined by two geometric parameters
+associated with the set of queries.
+  We use this connection to give tight upper and lower bounds on the noise
+complexity for any $d \leq n$. We show that for $d$ random linear queries of
+sensitivity~1, it is necessary and sufficient to add $\ell_2$-error
+$\Theta(\min\{d\sqrt{d}/\epsilon,d\sqrt{\log (n/d)}/\epsilon\})$ to achieve
+$\epsilon$-differential privacy. Assuming the truth of a deep conjecture from
+convex geometry, known as the Hyperplane conjecture, we can extend our results
+to arbitrary linear queries giving nearly matching upper and lower bounds.
+  Our bound translates to error
+$O(\min\{d/\epsilon,\sqrt{d\log(n/d)}/\epsilon\})$ per answer. The best
+previous upper bound (Laplacian mechanism) gives a bound of
+$O(\min\{d/\eps,\sqrt{n}/\epsilon\})$ per answer, while the best known lower
+bound was $\Omega(\sqrt{d}/\epsilon)$. In contrast, our lower bound is strong
+enough to separate the concept of differential privacy from the notion of
+approximate differential privacy where an upper bound of $O(\sqrt{d}/\epsilon)$
+can be achieved.

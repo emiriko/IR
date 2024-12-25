@@ -1,0 +1,14 @@
+In this article, we propose several quantization-based stratified sampling
+methods to reduce the variance of a Monte Carlo simulation. Theoretical aspects
+of stratification lead to a strong link between optimal quadratic quantization
+and the variance reduction that can be achieved with stratified sampling. We
+first put the emphasis on the consistency of quantization for partitioning the
+state space in stratified sampling methods in both finite and infinite
+dimensional cases. We show that the proposed quantization-based strata design
+has uniform efficiency among the class of Lipschitz continuous functionals.
+Then a stratified sampling algorithm based on product functional quantization
+is proposed for path-dependent functionals of multi-factor diffusions. The
+method is also available for other Gaussian processes such as Brownian bridge
+or Ornstein-Uhlenbeck processes. We derive in detail the case of
+Ornstein-Uhlenbeck processes. We also study the balance between the algorithmic
+complexity of the simulation and the variance reduction factor

@@ -1,0 +1,15 @@
+An effective procedure to determine the optimal parameters appearing in
+artificial flockings is proposed in terms of optimization problems. We
+numerically examine genetic algorithms (GAs) to determine the optimal set of
+parameters such as the weights for three essential interactions in BOIDS by
+Reynolds (1987) under `zero-collision' and `no-breaking-up' constraints. As a
+fitness function (the energy function) to be maximized by the GA, we choose the
+so-called the $\gamma$-value of anisotropy which can be observed empirically in
+typical flocks of starling. We confirm that the GA successfully finds the
+solution having a large $\gamma$-value leading-up to a strong anisotropy. The
+numerical experience shows that the procedure might enable us to make more
+realistic and efficient artificial flocking of starling even in our personal
+computers. We also evaluate two distinct types of interactions in agents,
+namely, metric and topological definitions of interactions. We confirmed that
+the topological definition can explain the empirical evidence much better than
+the metric definition does.

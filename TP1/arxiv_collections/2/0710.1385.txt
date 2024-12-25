@@ -1,0 +1,19 @@
+This paper establishes the equivalence between cognitive medium access and
+the competitive multi-armed bandit problem. First, the scenario in which a
+single cognitive user wishes to opportunistically exploit the availability of
+empty frequency bands in the spectrum with multiple bands is considered. In
+this scenario, the availability probability of each channel is unknown to the
+cognitive user a priori. Hence efficient medium access strategies must strike a
+balance between exploring the availability of other free channels and
+exploiting the opportunities identified thus far. By adopting a Bayesian
+approach for this classical bandit problem, the optimal medium access strategy
+is derived and its underlying recursive structure is illustrated via examples.
+To avoid the prohibitive computational complexity of the optimal strategy, a
+low complexity asymptotically optimal strategy is developed. The proposed
+strategy does not require any prior statistical knowledge about the traffic
+pattern on the different channels. Next, the multi-cognitive user scenario is
+considered and low complexity medium access protocols, which strike the optimal
+balance between exploration and exploitation in such competitive environments,
+are developed. Finally, this formalism is extended to the case in which each
+cognitive user is capable of sensing and using multiple channels
+simultaneously.

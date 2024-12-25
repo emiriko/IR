@@ -1,0 +1,20 @@
+This paper considers a novel problem of how to choose an appropriate geometry
+for a group of agents with only shape constraints but with a flexible scale.
+Instead of assigning the formation system with a specific geometry, here the
+only requirement on the desired geometry is a shape without any location,
+rotation and, most importantly, scale constraints. Optimal rigid transformation
+between two different geometries is discussed with especial focus on the
+scaling operation, and the cooperative performance of the system is evaluated
+by what we call the geometries degrees of similarity (DOS) with respect to the
+desired shape during the entire convergence process. The design of the scale
+when measuring the DOS is discussed from constant value and time-varying
+function perspectives respectively. Fixed structured nonlinear control laws
+that are functions on the scale are developed to guarantee the exponential
+convergence of the system to the assigned shape. Our research is originated
+from a three-agent formation system and is further extended to multiple (n > 3)
+agents by defining a triangular complement graph. Simulations demonstrate that
+formation system with the time-varying scale function outperforms the one with
+an arbitrary constant scale, and the relationship between underlying topology
+and the system performance is further discussed based on the simulation
+observations. Moveover, the control scheme is applied to bearing-only
+sensor-target localization to show its application potentials.

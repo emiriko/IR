@@ -1,0 +1,11 @@
+The Pan-STARRS telescope consists of an array of smaller mirrors viewed by a
+Gigapixel arrays of CCDs. These focal planes employ Orthogonal Transfer CCDs
+(OTCCDs) to allow on-chip image stabilization. Each OTCCD has advanced logic
+features that are controlled externally. A CMOS Interface Device for High
+Voltage has been developed to provide the appropiate voltage signal levels from
+a readout and control system designated STARGRASP. OTCCD chip output levels
+range from -3.3V to 16.7V, with two different output drive strenghts required
+depending on load capacitance (50pF and 1000pF), with 24mA of drive and a rise
+time on the order of 100ns. Additional testing ADC structures have been
+included in this chip to evaluate future functional additions for a next
+version of the chip.

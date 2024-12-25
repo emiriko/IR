@@ -1,0 +1,11 @@
+In this paper, we develop a simulation-based framework for regularized
+logistic regression, exploiting two novel results for scale mixtures of
+normals. By carefully choosing a hierarchical model for the likelihood by one
+type of mixture, and implementing regularization with another, we obtain new
+MCMC schemes with varying efficiency depending on the data type (binary v.
+binomial, say) and the desired estimator (maximum likelihood, maximum a
+posteriori, posterior mean). Advantages of our omnibus approach include
+flexibility, computational efficiency, applicability in p >> n settings,
+uncertainty estimates, variable selection, and assessing the optimal degree of
+regularization. We compare our methodology to modern alternatives on both
+synthetic and real data. An R package called reglogit is available on CRAN.

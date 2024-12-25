@@ -1,0 +1,14 @@
+This paper presents a novel projection-based adaptive algorithm for sparse
+signal and system identification. The sequentially observed data are used to
+generate an equivalent sequence of closed convex sets, namely hyperslabs. Each
+hyperslab is the geometric equivalent of a cost criterion, that quantifies
+"data mismatch". Sparsity is imposed by the introduction of appropriately
+designed weighted $\ell_1$ balls. The algorithm develops around projections
+onto the sequence of the generated hyperslabs as well as the weighted $\ell_1$
+balls. The resulting scheme exhibits linear dependence, with respect to the
+unknown system's order, on the number of multiplications/additions and an
+$\mathcal{O}(L\log_2L)$ dependence on sorting operations, where $L$ is the
+length of the system/signal to be estimated. Numerical results are also given
+to validate the performance of the proposed method against the LASSO algorithm
+and two very recently developed adaptive sparse LMS and LS-type of adaptive
+algorithms, which are considered to belong to the same algorithmic family.

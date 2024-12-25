@@ -1,0 +1,16 @@
+This paper studies the statistical properties of the group Lasso estimator
+for high dimensional sparse quantile regression models where the number of
+explanatory variables (or the number of groups of explanatory variables) is
+possibly much larger than the sample size while the number of variables in
+"active" groups is sufficiently small. We establish a non-asymptotic bound on
+the $\ell_{2}$-estimation error of the estimator. This bound explains
+situations under which the group Lasso estimator is potentially
+superior/inferior to the $\ell_{1}$-penalized quantile regression estimator in
+terms of the estimation error. We also propose a data-dependent choice of the
+tuning parameter to make the method more practical, by extending the original
+proposal of Belloni and Chernozhukov (2011) for the $\ell_{1}$-penalized
+quantile regression estimator. As an application, we analyze high dimensional
+additive quantile regression models. We show that under a set of suitable
+regularity conditions, the group Lasso estimator can attain the convergence
+rate arbitrarily close to the oracle rate. Finally, we conduct simulations
+experiments to examine our theoretical results.

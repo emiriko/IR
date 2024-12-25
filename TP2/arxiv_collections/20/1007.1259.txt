@@ -1,0 +1,12 @@
+Suppose a client, Alice, has outsourced her data to an external storage
+provider, Bob, because he has capacity for her massive data set, of size n,
+whereas her private storage is much smaller--say, of size O(n^{1/r}), for some
+constant r > 1. Alice trusts Bob to maintain her data, but she would like to
+keep its contents private. She can encrypt her data, of course, but she also
+wishes to keep her access patterns hidden from Bob as well. We describe schemes
+for the oblivious RAM simulation problem with a small logarithmic or
+polylogarithmic amortized increase in access times, with a very high
+probability of success, while keeping the external storage to be of size O(n).
+To achieve this, our algorithmic contributions include a parallel MapReduce
+cuckoo-hashing algorithm and an external-memory dataoblivious sorting
+algorithm.

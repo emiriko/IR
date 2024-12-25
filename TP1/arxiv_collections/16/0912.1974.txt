@@ -1,0 +1,13 @@
+Direct coupling between a transport solver and local, nonlinear gyrokinetic
+calculations using the multiscale gyrokinetic code TRINITY [M. Barnes, Ph.D.
+thesis, arxiv:0901.2868] is described. The coupling of the microscopic and
+macroscopic physics is done within the framework of multiscale gyrokinetic
+theory, of which we present the assumptions and key results. An assumption of
+scale separation in space and time allows for the simulation of turbulence in
+small regions of the space-time grid, which are embedded in a coarse grid on
+which the transport equations are implicitly evolved. This leads to a reduction
+in computational expense of several orders of magnitude, making
+first-principles simulations of the full fusion device volume over the
+confinement time feasible on current computing resources. Numerical results
+from TRINITY simulations are presented and compared with experimental data from
+JET and ASDEX Upgrade plasmas.

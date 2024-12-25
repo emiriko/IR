@@ -1,0 +1,19 @@
+This paper presents three feedback controllers that achieve an asymptotically
+stable, periodic, and fast walking gait for a 3D (spatial) bipedal robot
+consisting of a torso, two legs, and passive (unactuated) point feet. The
+contact between the robot and the walking surface is assumed to inhibit yaw
+rotation. The studied robot has 8 DOF in the single support phase and 6
+actuators. The interest of studying robots with point feet is that the robot's
+natural dynamics must be explicitly taken into account to achieve balance while
+walking. We use an extension of the method of virtual constraints and hybrid
+zero dynamics, in order to simultaneously compute a periodic orbit and an
+autonomous feedback controller that realizes the orbit. This method allows the
+computations to be carried out on a 2-DOF subsystem of the 8-DOF robot model.
+The stability of the walking gait under closed-loop control is evaluated with
+the linearization of the restricted Poincar\'e map of the hybrid zero dynamics.
+Three strategies are explored. The first strategy consists of imposing a
+stability condition during the search of a periodic gait by optimization. The
+second strategy uses an event-based controller. In the third approach, the
+effect of output selection is discussed and a pertinent choice of outputs is
+proposed, leading to stabilization without the use of a supplemental
+event-based controller.

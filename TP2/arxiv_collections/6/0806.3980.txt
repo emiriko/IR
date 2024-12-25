@@ -1,0 +1,22 @@
+In advancing discrete-based computational cancer models towards clinical
+applications, one faces the dilemma of how to deal with an ever growing amount
+of biomedical data that ought to be incorporated eventually in one form or
+another. Model scalability becomes of paramount interest. In an effort to start
+addressing this critical issue, here, we present a novel multi-scale and
+multi-resolution agent-based in silico glioma model. While "multi-scale" refers
+to employing an epidermal growth factor receptor (EGFR)-driven molecular
+network to process cellular phenotypic decisions within the micro-macroscopic
+environment, "multi-resolution" is achieved through algorithms that classify
+cells to either active or inactive spatial clusters, which determine the
+resolution they are simulated at. The aim is to assign computational resources
+where and when they matter most for maintaining or improving the predictive
+power of the algorithm, onto specific tumor areas and at particular times.
+Using a previously described 2D brain tumor model, we have developed four
+different computational methods for achieving the multi-resolution scheme,
+three of which are designed to dynamically train on the high-resolution
+simulation that serves as control. To quantify the algorithms' performance, we
+rank them by weighing the distinct computational time savings of the simulation
+runs versus the methods' ability to accurately reproduce the high-resolution
+results of the control. Finally, to demonstrate the flexibility of the
+underlying concept, we show the added value of combining the two highest-ranked
+methods.

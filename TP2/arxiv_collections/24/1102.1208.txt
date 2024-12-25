@@ -1,0 +1,12 @@
+The synchronized bit communication model, defined recently by Impagliazzo and
+Williams in \emph{Communication complexity with synchronized clocks}, CCC '10,
+is a communication model which allows the participants to share a common clock.
+The main open problem posed in this paper was the following: does the
+synchronized bit model allow a logarithmic speed-up for all functions over the
+standard deterministic model of communication? We resolve this question in the
+negative by showing that the Median function, whose communication complexity is
+$O(\log n)$, does not admit polytime synchronized bit protocol with
+communication complexity $O\left(\log^{1-\epsilon} n\right)$ for any $\epsilon
+> 0$. Our results follow by a new round-communication trade-off for the Median
+function in the standard model, which easily translates to its hardness in the
+synchronized bit model.

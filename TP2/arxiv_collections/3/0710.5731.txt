@@ -1,0 +1,17 @@
+GLISSANDO is a Glauber Monte-Carlo generator for early-stages of relativistic
+heavy-ion collisions, written in c++ and interfaced to Root. Several models are
+implemented: the wounded-nucleon model, the binary collisions model, the mixed
+model, and the model with hot-spots. Subtleties of the distribution of nucleon
+in the nucleus are discussed. The original geometric distribution of sources in
+the transverse plane can be superimposed with a statistical distribution
+simulating the dispersion in the generated transverse energy in each individual
+collision. The program generates inter alia the fixed axes (standard) and
+variable-axes (participant) two-dimensional profiles of the density of sources
+in the transverse plane and their Fourier components. These profiles can be
+used in further analyses of physical phenomena, such as the the jet quenching,
+event-by-event hydrodynamics, or analysis of the elliptic flow and its
+fluctuations. Characteristics of the event (multiplicities, eccentricities,
+Fourier coefficients, etc.) are evaluated and stored in a file for further
+off-line studies. A number of scripts is provided for that purpose. Supplied
+variants of the code can also be used for the proton-nucleus and
+deuteron-nucleus collisions.

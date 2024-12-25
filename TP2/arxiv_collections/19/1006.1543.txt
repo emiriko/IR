@@ -1,0 +1,21 @@
+We address the problem of finding patterns from multi-neuronal spike trains
+that give us insights into the multi-neuronal codes used in the brain and help
+us design better brain computer interfaces. We focus on the synchronous firings
+of groups of neurons as these have been shown to play a major role in coding
+and communication. With large electrode arrays, it is now possible to
+simultaneously record the spiking activity of hundreds of neurons over large
+periods of time. Recently, techniques have been developed to efficiently count
+the frequency of synchronous firing patterns. However, when the number of
+neurons being observed grows they suffer from the combinatorial explosion in
+the number of possible patterns and do not scale well. In this paper, we
+present a temporal data mining scheme that overcomes many of these problems. It
+generates a set of candidate patterns from frequent patterns of smaller size;
+all possible patterns are not counted. Also we count only a certain well
+defined subset of occurrences and this makes the process more efficient. We
+highlight the computational advantage that this approach offers over the
+existing methods through simulations.
+  We also propose methods for assessing the statistical significance of the
+discovered patterns. We detect only those patterns that repeat often enough to
+be significant and thus be able to automatically fix the threshold for the
+data-mining application. Finally we discuss the usefulness of these methods for
+brain computer interfaces.

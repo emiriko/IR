@@ -1,0 +1,15 @@
+Many models have been proposed to generate Internet Autonomous System (AS)
+topologies, most of which make structural assumptions about the AS graph. In
+this paper we compare AS topology generation models with several observed AS
+topologies. In contrast to most previous works, we avoid making assumptions
+about which topological properties are important to characterize the AS
+topology. Our analysis shows that, although matching degree-based properties,
+the existing AS topology generation models fail to capture the complexity of
+the local interconnection structure between ASs. Furthermore, we use BGP data
+from multiple vantage points to show that additional measurement locations
+significantly affect local structure properties, such as clustering and node
+centrality. Degree-based properties, however, are not notably affected by
+additional measurements locations. These observations are particularly valid in
+the core. The shortcomings of AS topology generation models stems from an
+underestimation of the complexity of the connectivity in the core caused by
+inappropriate use of BGP data.

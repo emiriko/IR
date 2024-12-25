@@ -1,0 +1,21 @@
+Pure Lucid programs are concurrent with very fine granularity. Sequential
+Threads (STs) are functions introduced to enlarge the grain size; they are
+passed from server to workers by Communication Procedures (CPs) in the General
+Intensional Programming System (GIPSY). A JLucid program combines Java code for
+the STs with Lucid code for parallel control. Thus first, in this thesis, we
+describe the way in which the new JLucid compiler generates STs and CPs. JLucid
+also introduces array support.
+  Further exploration goes through the additional transformations that the
+Lucid family of languages has undergone to enable the use of Java objects and
+their members, in the Generic Intensional Programming Language (GIPL), and
+Indexical Lucid: first, in the form of JLucid allowing the use of
+pseudo-objects, and then through the specifically-designed the Objective Lucid
+language. The syntax and semantic definitions of Objective Lucid and the
+meaning of Java objects within an intensional program are provided with
+discussions and examples.
+  Finally, there are many useful scientific and utility routines written in
+many imperative programming languages other than Java, for example in C, C++,
+Fortran, Perl, etc. Therefore, it is wise to provide a framework to facilitate
+inclusion of these languages into the GIPSY and their use by Lucid programs. A
+General Imperative Compiler Framework and its concrete implementation is
+proposed to address this issue.

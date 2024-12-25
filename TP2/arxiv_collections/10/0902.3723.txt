@@ -1,0 +1,11 @@
+In this paper we construct a third order method for solving additively split
+autonomous stiff systems of ordinary differential equations. The constructed
+additive method is L-stable with respect to the implicit part and allows to use
+an arbitrary approximation of the Jacobian matrix. In opposite to our previous
+paper, the fourth stage is explicit. So, the constructed method also has a good
+stability properties because of L-stability of the intermediate numerical
+formulas in the fourth stage, but has a lower computational costs per step.
+Automatic stepsize selection based on local error and stability control are
+performed. The estimations for error and stability control have been obtained
+without significant additional computational costs. Numerical experiments show
+reliability and efficiency of the implemented integration algorithm.

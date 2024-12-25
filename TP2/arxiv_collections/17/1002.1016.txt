@@ -1,0 +1,20 @@
+We introduce a new approach to model and analyze \emph{Mobility}. It is fully
+based on discrete mathematics and yields a class of mobility models, called the
+\emph{Markov Trace} Model. This model can be seen as the discrete version of
+the \emph{Random Trip} Model including all variants of the \emph{Random
+Way-Point} Model \cite{L06}.
+  We derive fundamental properties and \emph{explicit} analytical formulas for
+the \emph{stationary distributions} yielded by the Markov Trace Model. Such
+results can be exploited to compute formulas and properties for concrete cases
+of the Markov Trace Model by just applying counting arguments.
+  We apply the above general results to the discrete version of the
+\emph{Manhattan Random Way-Point} over a square of bounded size.
+  We get formulas for the total stationary distribution and for two important
+\emph{conditional} ones: the agent spatial and destination distributions. Our
+method makes the analysis of complex mobile systems a feasible task.
+  As a further evidence of this important fact, we first model a complex
+vehicular-mobile system over a set of crossing streets. Several concrete issues
+are implemented such as parking zones, traffic lights, and variable vehicle
+speeds. By using a \emph{modular} version of the Markov Trace Model, we get
+explicit formulas for the stationary distributions yielded by this
+vehicular-mobile model as well.

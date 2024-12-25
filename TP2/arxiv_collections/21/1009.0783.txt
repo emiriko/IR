@@ -1,0 +1,10 @@
+We present techniques for maintaining subgraph frequencies in a dynamic
+graph, using data structures that are parameterized in terms of h, the h-index
+of the graph. Our methods extend previous results of Eppstein and Spiro for
+maintaining statistics for undirected subgraphs of size three to directed
+subgraphs and to subgraphs of size four. For the directed case, we provide a
+data structure to maintain counts for all 3-vertex induced subgraphs in O(h)
+amortized time per update. For the undirected case, we maintain the counts of
+size-four subgraphs in O(h^2) amortized time per update. These extensions
+enable a number of new applications in Bioinformatics and Social Networking
+research.

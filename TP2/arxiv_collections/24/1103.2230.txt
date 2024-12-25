@@ -1,0 +1,23 @@
+Electoral control models ways of changing the outcome of an election via such
+actions as adding/deleting/partitioning either candidates or voters. To protect
+elections from such control attempts, computational complexity has been
+investigated and the corresponding NP-hardness results are termed "resistance."
+It has been a long-running project of research in this area to classify the
+major voting systems in terms of their resistance properties. We show that
+fallback voting, an election system proposed by Brams and Sanver (2009) to
+combine Bucklin with approval voting, is resistant to each of the common types
+of control except to destructive control by either adding or deleting voters.
+Thus fallback voting displays the broadest control resistance currently known
+to hold among natural election systems with a polynomial-time winner problem.
+We also study the control complexity of Bucklin voting and show that it
+performs at least almost as well as fallback voting in terms of control
+resistance. As Bucklin voting is a special case of fallback voting, each
+resistance shown for Bucklin voting strengthens the corresponding resistance
+for fallback voting. Such worst-case complexity analysis is at best an
+indication of security against control attempts, rather than a proof. In
+practice, the difficulty of control will depend on the structure of typical
+instances. We investigate the parameterized control complexity of Bucklin and
+fallback voting, according to several parameters that are often likely to be
+small for typical instances. Our results, though still in the worst-case
+complexity model, can be interpreted as significant strengthenings of the
+resistance demonstrations based on NP-hardness.

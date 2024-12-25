@@ -1,0 +1,19 @@
+This paper focuses on a particular transmission scheme called local network
+coding, which has been reported to provide significant performance gains in
+practical wireless networks. The performance of this scheme strongly depends on
+the network topology and thus on the locations of the wireless nodes. Also, it
+has been shown previously that finding the encoding strategy, which achieves
+maximum performance, requires complex calculations to be undertaken by the
+wireless node in real-time.
+  Both deterministic and random point pattern are explored and using the
+Boolean connectivity model we provide upper bounds for the maximum coding
+number, i.e., the number of packets that can be combined such that the
+corresponding receivers are able to decode. For the models studied, this upper
+bound is of order of $\sqrt{N}$, where $N$ denotes the (mean) number of
+neighbors. Moreover, achievable coding numbers are provided for grid-like
+networks. We also calculate the multiplicative constants that determine the
+gain in case of a small network. Building on the above results, we provide an
+analytic expression for the upper bound of the efficiency of local network
+coding. The conveyed message is that it is favorable to reduce computational
+complexity by relying only on small encoding numbers since the resulting
+expected throughput loss is negligible.

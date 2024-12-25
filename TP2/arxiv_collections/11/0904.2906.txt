@@ -1,0 +1,16 @@
+Clustering is one of the most widely used procedures in the analysis of
+microarray data, for example with the goal of discovering cancer subtypes based
+on observed heterogeneity of genetic marks between different tissues. It is
+well-known that in such high-dimensional settings, the existence of many noise
+variables can overwhelm the few signals embedded in the high-dimensional space.
+We propose a novel Bayesian approach based on Dirichlet process with a sparsity
+prior that simultaneous performs variable selection and clustering, and also
+discover variables that only distinguish a subset of the cluster components.
+Unlike previous Bayesian formulations, we use Dirichlet process (DP) for both
+clustering of samples as well as for regularizing the high-dimensional
+mean/variance structure. To solve the computational challenge brought by this
+double usage of DP, we propose to make use of a sequential sampling scheme
+embedded within Markov chain Monte Carlo (MCMC) updates to improve the naive
+implementation of existing algorithms for DP mixture models. Our method is
+demonstrated on a simulation study and illustrated with the leukemia gene
+expression dataset.

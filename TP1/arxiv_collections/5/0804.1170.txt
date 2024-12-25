@@ -1,0 +1,13 @@
+We consider the problem of computing L1-distances between every pair
+ofcprobability densities from a given family. We point out that the technique
+of Cauchy random projections (Indyk'06) in this context turns into stochastic
+integrals with respect to Cauchy motion.
+  For piecewise-linear densities these integrals can be sampled from if one can
+sample from the stochastic integral of the function x->(1,x). We give an
+explicit density function for this stochastic integral and present an efficient
+sampling algorithm. As a consequence we obtain an efficient algorithm to
+approximate the L1-distances with a small relative error.
+  For piecewise-polynomial densities we show how to approximately sample from
+the distributions resulting from the stochastic integrals. This also results in
+an efficient algorithm to approximate the L1-distances, although our inability
+to get exact samples worsens the dependence on the parameters.

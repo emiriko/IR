@@ -1,0 +1,15 @@
+We consider a class of restless multi-armed bandit problems (RMBP) that
+arises in dynamic multichannel access, user/server scheduling, and optimal
+activation in multi-agent systems. For this class of RMBP, we establish the
+indexability and obtain Whittle's index in closed-form for both discounted and
+average reward criteria. These results lead to a direct implementation of
+Whittle's index policy with remarkably low complexity. When these Markov chains
+are stochastically identical, we show that Whittle's index policy is optimal
+under certain conditions. Furthermore, it has a semi-universal structure that
+obviates the need to know the Markov transition probabilities. The optimality
+and the semi-universal structure result from the equivalency between Whittle's
+index policy and the myopic policy established in this work. For non-identical
+channels, we develop efficient algorithms for computing a performance upper
+bound given by Lagrangian relaxation. The tightness of the upper bound and the
+near-optimal performance of Whittle's index policy are illustrated with
+simulation examples.

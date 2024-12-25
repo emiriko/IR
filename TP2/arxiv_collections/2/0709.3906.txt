@@ -1,0 +1,13 @@
+Existing computationally efficient methods for penalized likelihood GAM
+fitting employ iterative smoothness selection on working linear models (or
+working mixed models). Such schemes fail to converge for a non-negligible
+proportion of models, with failure being particularly frequent in the presence
+of concurvity. If smoothness selection is performed by optimizing `whole model'
+criteria these problems disappear, but until now attempts to do this have
+employed finite difference based optimization schemes which are computationally
+inefficient, and can suffer from false convergence. This paper develops the
+first computationally efficient method for direct GAM smoothness selection. It
+is highly stable, but by careful structuring achieves a computational
+efficiency that leads, in simulations, to lower mean computation times than the
+schemes based on working-model smoothness selection. The method also offers a
+reliable way of fitting generalized additive mixed models.

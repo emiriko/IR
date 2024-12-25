@@ -1,0 +1,22 @@
+The most straightforward way to improve performance of any system is to
+define the bottlenecks and think of ways to remove them. Web services are the
+inseparable part of any web application, as a result enhancing performance of
+web services will have a great effect on the overall performance of the system.
+The most widely used communication protocol in the web services model, SOAP, is
+a simple protocol for the exchange of messages. The serialization of large SOAP
+responses is a major performance bottleneck in a SOAP message exchange.
+Clearly, some web servers can expect to receive many similar messages for a
+particular web service as they share the same signature. The idea behind this
+paper is to avoid the redundant serialization stage of SOAP responses for
+request which have the same call parameters. The technique exploits the
+similarities between call parameters to improve web service Response Time by
+avoiding redundant serialization of the same response with the help of a
+middleware running on top of web server. The middleware will maintain a trie of
+incoming parameters for every set of current requests. This way request
+processing and serialization of the response of same requests will be done only
+once. In a nutshell, to serialize only the different responses is the simplest
+way to avoid extra work done by a serializer. It might worth noting that
+although our approach is to utilize the exact repeating portion parameters, the
+middleware can be configured to apply changes made to the result set of
+response to the serialized response being maintained in a trie to generate
+valid results.

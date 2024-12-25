@@ -1,0 +1,24 @@
+The results of Strassen and Raz show that good enough tensor rank lower
+bounds have implications for algebraic circuit/formula lower bounds.
+  We explore tensor rank lower and upper bounds, focusing on explicit tensors.
+For odd d, we construct field-independent explicit 0/1 tensors T:[n]^d->F with
+rank at least 2n^(floor(d/2))+n-Theta(d log n). This matches (over F_2) or
+improves (all other fields) known lower bounds for d=3 and improves (over any
+field) for odd d>3.
+  We also explore a generalization of permutation matrices, which we denote
+permutation tensors. We show, by counting, that there exists an order-3
+permutation tensor with super-linear rank. We also explore a natural class of
+permutation tensors, which we call group tensors. For any group G, we define
+the group tensor T_G^d:G^d->F, by T_G^d(g_1,...,g_d)=1 iff g_1 x ... x g_d=1_G.
+We give two upper bounds for the rank of these tensors. The first uses
+representation theory and works over large fields F, showing (among other
+things) that rank_F(T_G^d)<= |G|^(d/2). We also show that if this upper bound
+is tight, then super-linear tensor rank lower bounds would follow. The second
+upper bound uses interpolation and only works for abelian G, showing that over
+any field F that rank_F(T_G^d)<= O(|G|^(1+log d)log^(d-1)|G|). In either case,
+this shows that many permutation tensors have far from maximal rank, which is
+very different from the matrix case and thus eliminates many natural candidates
+for high tensor rank.
+  We also explore monotone tensor rank. We give explicit 0/1 tensors T:[n]^d->F
+that have tensor rank at most dn but have monotone tensor rank exactly n^(d-1).
+This is a nearly optimal separation.

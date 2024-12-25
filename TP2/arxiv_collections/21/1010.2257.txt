@@ -1,0 +1,21 @@
+We seek solutions $u\in\R^n$ to the semilinear elliptic partial difference
+equation $-Lu + f_s(u) = 0$, where $L$ is the matrix corresponding to the
+Laplacian operator on a graph $G$ and $f_s$ is a one-parameter family of
+nonlinear functions. This article combines the ideas introduced by the authors
+in two papers: a) {\it Nonlinear Elliptic Partial Difference Equations on
+Graphs} (J. Experimental Mathematics, 2006), which introduces analytical and
+numerical techniques for solving such equations, and b) {\it Symmetry and
+Automated Branch Following for a Semilinear Elliptic PDE on a Fractal Region}
+wherein we present some of our recent advances concerning symmetry,
+bifurcation, and automation fo
+  We apply the symmetry analysis found in the SIAM paper to arbitrary graphs in
+order to obtain better initial guesses for Newton's method, create informative
+graphics, and be in the underlying variational structure. We use two modified
+implementations of the gradient Newton-Galerkin algorithm (GNGA, Neuberger and
+Swift) to follow bifurcation branches in a robust way. By handling difficulties
+that arise when encountering accidental degeneracies and higher-dimension we
+can find many solutions of many symmetry types to the discrete nonlinear
+system. We present a selection of experimental results which demonstrate our
+algorithm's capability to automatically generate bifurcation diagrams and
+solution graphics starting with only an edgelis of a graph. We highlight
+interesting symmetry and variational phenomena.

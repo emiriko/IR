@@ -1,0 +1,10 @@
+Term rewriting has a significant presence in various areas, not least in
+automated theorem proving where it is used as a proof technique. Many theorem
+provers employ specialised proof tactics for rewriting. This results in an
+interleaving between deduction and computation (i.e., rewriting) steps. If the
+logic of reasoning supports partial functions, it is necessary that rewriting
+copes with potentially ill-defined terms. In this paper, we provide a basis for
+integrating rewriting with a deductive proof system that deals with
+well-definedness. The definitions and theorems presented in this paper are the
+theoretical foundations for an extensible rewriting-based prover that has been
+implemented for the set theoretical formalism Event-B.

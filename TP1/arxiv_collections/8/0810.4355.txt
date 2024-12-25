@@ -1,0 +1,20 @@
+Background: Alignment of biological sequences such as DNA, RNA or proteins is
+one of the most widely used tools in computational bioscience. All existing
+alignment algorithms rely on heuristic scoring schemes based on biological
+expertise. Therefore, these algorithms do not provide model independent and
+objective measures for how similar two (or more) sequences actually are.
+Although information theory provides such a similarity measure -- the mutual
+information (MI) -- previous attempts to connect sequence alignment and
+information theory have not produced realistic estimates for the MI from a
+given alignment.
+  Results: Here we describe a simple and flexible approach to get robust
+estimates of MI from {\it global} alignments. For mammalian mitochondrial DNA,
+our approach gives pairwise MI estimates for commonly used global alignment
+algorithms that are strikingly close to estimates obtained by an entirely
+unrelated approach -- concatenating and zipping the sequences.
+  Conclusions: This remarkable consistency may help establish MI as a reliable
+tool for evaluating the quality of global alignments, judging the relative
+merits of different alignment algorithms, and estimating the significance of
+specific alignments. We expect that our approach can be extended to establish
+further connections between information theory and sequence alignment,
+including applications to local and multiple alignment procedures.

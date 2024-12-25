@@ -1,0 +1,15 @@
+We construct a set of instances of 3SAT which are not solved efficiently
+using the simplest quantum adiabatic algorithm. These instances are obtained by
+picking random clauses all consistent with two disparate planted solutions and
+then penalizing one of them with a single additional clause. We argue that by
+randomly modifying the beginning Hamiltonian, one obtains (with substantial
+probability) an adiabatic path that removes this difficulty. This suggests that
+the quantum adiabatic algorithm should in general be run on each instance with
+many different random paths leading to the problem Hamiltonian. We do not know
+whether this trick will help for a random instance of 3SAT (as opposed to an
+instance from the particular set we consider), especially if the instance has
+an exponential number of disparate assignments that violate few clauses. We use
+a continuous imaginary time Quantum Monte Carlo algorithm in a novel way to
+numerically investigate the ground state as well as the first excited state of
+our system. Our arguments are supplemented by Quantum Monte Carlo data from
+simulations with up to 150 spins.

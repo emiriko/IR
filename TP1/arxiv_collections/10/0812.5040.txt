@@ -1,0 +1,20 @@
+Typical quantum communication schemes are such that to achieve perfect
+decoding the receiver must share a reference frame with the sender. Indeed, if
+the receiver only possesses a bounded-size quantum token of the sender's
+reference frame, then the decoding is imperfect, and we can describe this
+effect as a noisy quantum channel. We seek here to characterize the performance
+of such schemes, or equivalently, to determine the effective decoherence
+induced by having a bounded-size reference frame. We assume that the token is
+prepared in a special state that has particularly nice group-theoretic
+properties and that is near-optimal for transmitting information about the
+sender's frame. We present a decoding operation, which can be proven to be
+near-optimal in this case, and we demonstrate that there are two distinct ways
+of implementing it (corresponding to two distinct Kraus decompositions). In
+one, the receiver measures the orientation of the reference frame token and
+reorients the system appropriately. In the other, the receiver extracts the
+encoded information from the virtual subsystems that describe the relational
+degrees of freedom of the system and token. Finally, we provide explicit
+characterizations of these decoding schemes when the system is a single qubit
+and for three standard kinds of reference frame: a phase reference, a Cartesian
+frame (representing an orthogonal triad of spatial directions), and a reference
+direction (representing a single spatial direction).

@@ -1,0 +1,12 @@
+We analyze stability of consensus algorithms in networks of multi-agents with
+time-varying topologies and delays. The topology and delays are modeled as
+induced by an adapted process and are rather general, including i.i.d.\
+topology processes, asynchronous consensus algorithms, and Markovian jumping
+switching. In case the self-links are instantaneous, we prove that the network
+reaches consensus for all bounded delays if the graph corresponding to the
+conditional expectation of the coupling matrix sum across a finite time
+interval has a spanning tree almost surely. Moreover, when self-links are also
+delayed and when the delays satisfy certain integer patterns, we observe and
+prove that the algorithm may not reach consensus but instead synchronize at a
+periodic trajectory, whose period depends on the delay pattern. We also give a
+brief discussion on the dynamics in the absence of self-links.

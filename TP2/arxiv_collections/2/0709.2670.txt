@@ -1,0 +1,24 @@
+Among the models of quantum computation, the One-way Quantum Computer is one
+of the most promising proposals of physical realization, and opens new
+perspectives for parallelization by taking advantage of quantum entanglement.
+Since a one-way quantum computation is based on quantum measurement, which is a
+fundamentally nondeterministic evolution, a sufficient condition of global
+determinism has been introduced as the existence of a causal flow in a graph
+that underlies the computation. A O(n^3)-algorithm has been introduced for
+finding such a causal flow when the numbers of output and input vertices in the
+graph are equal, otherwise no polynomial time algorithm was known for deciding
+whether a graph has a causal flow or not. Our main contribution is to introduce
+a O(n^2)-algorithm for finding a causal flow, if any, whatever the numbers of
+input and output vertices are. This answers the open question stated by Danos
+and Kashefi and by de Beaudrap. Moreover, we prove that our algorithm produces
+an optimal flow (flow of minimal depth.)
+  Whereas the existence of a causal flow is a sufficient condition for
+determinism, it is not a necessary condition. A weaker version of the causal
+flow, called gflow (generalized flow) has been introduced and has been proved
+to be a necessary and sufficient condition for a family of deterministic
+computations. Moreover the depth of the quantum computation is upper bounded by
+the depth of the gflow. However, the existence of a polynomial time algorithm
+that finds a gflow has been stated as an open question. In this paper we answer
+this positively with a polynomial time algorithm that outputs an optimal gflow
+of a given graph and thus finds an optimal correction strategy to the
+nondeterministic evolution due to measurements.

@@ -1,0 +1,20 @@
+Dependently typed lambda calculi such as the Logical Framework (LF) are
+capable of representing relationships between terms through types. By
+exploiting the "formulas-as-types" notion, such calculi can also encode the
+correspondence between formulas and their proofs in typing judgments. As such,
+these calculi provide a natural yet powerful means for specifying varied formal
+systems. Such specifications can be transformed into a more direct form that
+uses predicate formulas over simply typed lambda-terms and that thereby
+provides the basis for their animation using conventional logic programming
+techniques. However, a naive use of this idea is fraught with inefficiencies
+arising from the fact that dependently typed expressions typically contain much
+redundant typing information. We investigate syntactic criteria for recognizing
+and, hence, eliminating such redundancies. In particular, we identify a
+property of bound variables in LF types called "rigidity" and formally show
+that checking that instantiations of such variables adhere to typing
+restrictions is unnecessary for the purpose of ensuring that the overall
+expression is well-formed. We show how to exploit this property in a
+translation based approach to executing specifications in the Twelf language.
+Recognizing redundancy is also relevant to devising compact representations of
+dependently typed expressions. We highlight this aspect of our work and discuss
+its connection with other approaches proposed in this context.

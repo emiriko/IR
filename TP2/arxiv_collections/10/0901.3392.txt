@@ -1,0 +1,23 @@
+The diffuse morphology and transient nature of coronal mass ejections (CMEs)
+make them difficult to identify and track using traditional image processing
+techniques. We apply multiscale methods to enhance the visibility of the faint
+CME front. This enables an ellipse characterisation to objectively study the
+changing morphology and kinematics of a sample of events imaged by the Large
+Angle Spectrometric Coronagraph (LASCO) onboard the Solar and Heliospheric
+Observatory (SOHO) and the Sun Earth Connection Coronal and Heliospheric
+Investigation (SECCHI) onboard the Solar Terrestrial Relations Observatory
+(STEREO). The accuracy of these methods allows us to test the CMEs for
+non-constant acceleration and expansion.
+  We exploit the multiscale nature of CMEs to extract structure with a
+multiscale decomposition, akin to a Canny edge detector. Spatio-temporal
+filtering highlights the CME front as it propagates in time. We apply an
+ellipse parameterisation of the front to extract the kinematics (height,
+velocity, acceleration) and changing morphology (width, orientation).
+  The kinematic evolution of the CMEs discussed in this paper have been shown
+to differ from existing catalogues. These catalogues are based upon
+running-difference techniques that can lead to over-estimating CME heights. Our
+resulting kinematic curves are not well-fitted with the constant acceleration
+model. It is shown that some events have high acceleration below $\sim$5
+R$_{\sun}$. Furthermore, we find that the CME angular widths measured by these
+catalogues are over-estimated, and indeed for some events our analysis shows
+non-constant CME expansion across the plane-of-sky.

@@ -1,0 +1,14 @@
+In a recent work [10], Poulin and one of us presented a quantum algorithm for
+preparing thermal Gibbs states of interacting quantum systems. This algorithm
+is based on Grovers's technique for quantum state engineering, and its running
+time is dominated by the factor D/Z(\beta), where D and Z(\beta) denote the
+dimension of the quantum system and its partition function at inverse
+temperature \beta, respectively.
+  We present here a modified algorithm and a more detailed analysis of the
+errors that arise due to imperfect simulation of Hamiltonian time evolutions
+and limited performance of phase estimation (finite accuracy and nonzero
+probability of failure). This modfication together with the tighter analysis
+allows us to prove a better running time by the effect of these sources of
+error on the overall complexity. We think that the ideas underlying of our new
+analysis could also be used to prove a better performance of quantum Metropolis
+sampling by Temme et al. [12].

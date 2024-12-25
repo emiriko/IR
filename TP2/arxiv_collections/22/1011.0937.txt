@@ -1,0 +1,16 @@
+For five years now, PHOTOS Monte Carlo for bremsstrahlung in the decay of
+particles and resonances has been available with an interface to the C++ HepMC
+event record. The main purpose of the present paper is to document the
+technical aspects of the PHOTOS Monte Carlo installation and present version
+use. A multitude of test results and examples are distributed together with the
+program code.
+  The PHOTOS C++ physics precision is better than its FORTRAN predecessor and
+more convenient steering options are also available. An algorithm for the event
+record interface necessary for process dependent photon emission kernel is
+implemented. It is used in Z and W decays for kernels of complete first order
+matrix elements of the decays. Additional emission of final state lepton pairs
+is also available.
+  Physics assumptions used in the program and properties of the solution are
+reviewed. In particular, it is explained how the second order matrix elements
+were used in design and validation of the program iteration procedure. Also, it
+is explained that the phase space parametrization used in the program is exact.

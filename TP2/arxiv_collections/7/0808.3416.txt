@@ -1,0 +1,14 @@
+This paper proposes a novel uncertainty quantification framework for
+computationally demanding systems characterized by a large vector of
+non-Gaussian uncertainties. It combines state-of-the-art techniques in advanced
+Monte Carlo sampling with Bayesian formulations. The key departure from
+existing works is the use of inexpensive, approximate computational models in a
+rigorous manner. Such models can readily be derived by coarsening the
+discretization size in the solution of the governing PDEs, increasing the time
+step when integration of ODEs is performed, using fewer iterations if a
+non-linear solver is employed or making use of lower order models. It is shown
+that even in cases where the inexact models provide very poor approximations of
+the exact response, statistics of the latter can be quantified accurately with
+significant reductions in the computational effort. Multiple approximate models
+can be used and rigorous confidence bounds of the estimates produced are
+provided at all stages.

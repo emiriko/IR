@@ -1,0 +1,17 @@
+The theory of holographic algorithms, which are polynomial time algorithms
+for certain combinatorial counting problems, yields insight into the hierarchy
+of complexity classes. In particular, the theory produces algebraic tests for a
+problem to be in the class P. In this article we streamline the implementation
+of holographic algorithms by eliminating one of the steps in the construction
+procedure, and generalize their applicability to new signatures. Instead of
+matchgates, which are weighted graph fragments that replace vertices of a
+natural bipartite graph G associated to a problem P, our approach uses only
+only a natural number-of-edges by number-of-edges matrix associated to G. An
+easy-to-compute multiple of its Pfaffian is the number of solutions to the
+counting problem. This simplification improves our understanding of the
+applicability of holographic algorithms, indicates a more geometric approach to
+complexity classes, and facilitates practical implementations. The generalized
+applicability arises because our approach allows for new algebraic tests that
+are different from the "Grassmann-Plucker identities" used up until now.
+Natural problems treatable by these new methods have been previously considered
+in a different context, and we present one such example.

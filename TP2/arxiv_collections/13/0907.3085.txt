@@ -1,0 +1,10 @@
+In Bounded Model Checking both the system model and the checked property are
+translated into a Boolean formula to be analyzed by a SAT-solver. We introduce
+a new encoding technique which is particularly optimized for managing
+quantitative future and past metric temporal operators, typically found in
+properties of hard real time systems. The encoding is simple and intuitive in
+principle, but it is made more complex by the presence, typical of the Bounded
+Model Checking technique, of backward and forward loops used to represent an
+ultimately periodic infinite domain by a finite structure. We report and
+comment on the new encoding technique and on an extensive set of experiments
+carried out to assess its feasibility and effectiveness.

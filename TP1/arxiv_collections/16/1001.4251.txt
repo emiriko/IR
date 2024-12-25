@@ -1,0 +1,18 @@
+Many problems can be specified by patterns of propositional formulae
+depending on a parameter, e.g. the specification of a circuit usually depends
+on the number of bits of its input. We define a logic whose formulae, called
+"iterated schemata", allow to express such patterns. Schemata extend
+propositional logic with indexed propositions, e.g. P_i, P_i+1, P_1, and with
+generalized connectives, e.g. /\i=1..n or i=1..n (called "iterations") where n
+is an (unbound) integer variable called a "parameter". The expressive power of
+iterated schemata is strictly greater than propositional logic: it is even out
+of the scope of first-order logic. We define a proof procedure, called DPLL*,
+that can prove that a schema is satisfiable for at least one value of its
+parameter, in the spirit of the DPLL procedure. However the converse problem,
+i.e. proving that a schema is unsatisfiable for every value of the parameter,
+is undecidable so DPLL* does not terminate in general. Still, we prove that it
+terminates for schemata of a syntactic subclass called "regularly nested". This
+is the first non trivial class for which DPLL* is proved to terminate.
+Furthermore the class of regularly nested schemata is the first decidable class
+to allow nesting of iterations, i.e. to allow schemata of the form /\i=1..n
+(/\j=1..n ...).

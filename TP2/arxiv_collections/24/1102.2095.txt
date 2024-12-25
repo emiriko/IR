@@ -1,0 +1,24 @@
+Resource-bounded measure is a generalization of classical Lebesgue measure
+that is useful in computational complexity. The central parameter of
+resource-bounded measure is the {\it resource bound} $\Delta$, which is a class
+of functions. When $\Delta$ is unrestricted, i.e., contains all functions with
+the specified domains and codomains, resource-bounded measure coincides with
+classical Lebesgue measure. On the other hand, when $\Delta$ contains functions
+satisfying some complexity constraint, resource-bounded measure imposes
+internal measure structure on a corresponding complexity class.
+  Most applications of resource-bounded measure use only the
+"measure-zero/measure-one fragment" of the theory. For this fragment, $\Delta$
+can be taken to be a class of type-one functions (e.g., from strings to
+rationals). However, in the full theory of resource-bounded measurability and
+measure, the resource bound $\Delta$ also contains type-two functionals. To
+date, both the full theory and its zero-one fragment have been developed in
+terms of a list of example resource bounds chosen for their apparent utility.
+  This paper replaces this list-of-examples approach with a careful
+investigation of the conditions that suffice for a class $\Delta$ to be a
+resource bound. Our main theorem says that every class $\Delta$ that has the
+closure properties of Mehlhorn's basic feasible functionals is a resource bound
+for measure.
+  We also prove that the type-2 versions of the time and space hierarchies that
+have been extensively used in resource-bounded measure have these closure
+properties. In the course of doing this, we prove theorems establishing that
+these time and space resource bounds are all robust.

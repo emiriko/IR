@@ -1,0 +1,12 @@
+A system for Operational Risk management based on the computational paradigm
+of Bayesian Networks is presented. The algorithm allows the construction of a
+Bayesian Network targeted for each bank using only internal loss data, and
+takes into account in a simple and realistic way the correlations among
+different processes of the bank. The internal losses are averaged over a
+variable time horizon, so that the correlations at different times are removed,
+while the correlations at the same time are kept: the averaged losses are thus
+suitable to perform the learning of the network topology and parameters. The
+algorithm has been validated on synthetic time series. It should be stressed
+that the practical implementation of the proposed algorithm has a small impact
+on the organizational structure of a bank and requires an investment in human
+resources limited to the computational area.

@@ -1,0 +1,17 @@
+This paper presents a hierarchical Bayesian model to reconstruct sparse
+images when the observations are obtained from linear transformations and
+corrupted by an additive white Gaussian noise. Our hierarchical Bayes model is
+well suited to such naturally sparse image applications as it seamlessly
+accounts for properties such as sparsity and positivity of the image via
+appropriate Bayes priors. We propose a prior that is based on a weighted
+mixture of a positive exponential distribution and a mass at zero. The prior
+has hyperparameters that are tuned automatically by marginalization over the
+hierarchical Bayesian model. To overcome the complexity of the posterior
+distribution, a Gibbs sampling strategy is proposed. The Gibbs samples can be
+used to estimate the image to be recovered, e.g. by maximizing the estimated
+posterior distribution. In our fully Bayesian approach the posteriors of all
+the parameters are available. Thus our algorithm provides more information than
+other previously proposed sparse reconstruction methods that only give a point
+estimate. The performance of our hierarchical Bayesian sparse reconstruction
+method is illustrated on synthetic and real data collected from a tobacco virus
+sample using a prototype MRFM instrument.

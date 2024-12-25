@@ -1,0 +1,14 @@
+Quantum algorithms require less operations than classical algorithms. The
+exact reason of this has not been pinpointed until now. Our explanation is that
+quantum algorithms know in advance 50% of the solution of the problem they will
+find in the future. In fact they can be represented as the sum of all the
+possible histories of a respective "advanced information classical algorithm".
+This algorithm, given the advanced information (50% of the bits encoding the
+problem solution), performs the operations (oracle's queries) still required to
+identify the solution. Each history corresponds to a possible way of getting
+the advanced information and a possible result of computing the missing
+information. This explanation of the quantum speed up has an immediate
+practical consequence: the speed up comes from comparing two classical
+algorithms, with and without advanced information, with no physics involved.
+This simplification could open the way to a systematic exploration of the
+possibilities of speed up.

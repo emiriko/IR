@@ -1,0 +1,17 @@
+Timed temporal logics exhibit a bewildering diversity of operators and the
+resulting decidability and expressiveness properties also vary considerably. We
+study the expressive power of timed logics TPTL[U,S] and MTL[U,S] as well as of
+their several fragments. Extending the LTL EF games of Etessami and Wilke, we
+define MTL Ehrenfeucht-Fraisse games on a pair of timed words. Using the
+associated EF theorem, we show that, expressively, the timed logics
+BoundedMTL[U,S], MTL[F,P] and MITL[U,S] (respectively incorporating the
+restrictions of boundedness, unary modalities and non-punctuality), are all
+pairwise incomparable. As our first main result, we show that MTL[U,S] is
+strictly contained within the freeze logic TPTL[U,S] for both weakly and
+strictly monotonic timed words, thereby extending the result of Bouyer et al
+and completing the proof of the original conjecture of Alur and Henziger from
+1990. We also relate the expressiveness of a recently proposed deterministic
+freeze logic TTL[X,Y] (with NP-complete satisfiability) to MTL. As our second
+main result, we show by an explicit reduction that TTL[X,Y] lies strictly
+within the unary, non-punctual logic MITL[F,P]. This shows that deterministic
+freezing with punctuality is expressible in the non-punctual MITL[F,P].

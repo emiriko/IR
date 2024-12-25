@@ -1,0 +1,20 @@
+A simple yet general method for constructing basis sets for molecular
+electronic structure calculations is presented. These basis sets consist of
+atomic natural orbitals from a multi-configurational self-consistent field
+calculation supplemented with primitive functions, chosen such that the
+asymptotics are appropriate for the potential of the system. Primitives are
+optimized for the homonuclear diatomic molecule to produce a balanced basis
+set. Two general features that facilitate this basis construction are
+demonstrated. First, weak coupling exists between the optimal exponents of
+primitives with different angular momenta. Second, the optimal primitive
+exponents for a chosen system depend weakly on the particular level of theory
+employed for optimization. The explicit case considered here is a basis set
+appropriate for the Burkatzki-Filippi-Dolg pseudopotentials. Since these
+pseudopotentials are finite at nuclei and have a Coulomb tail, the recently
+proposed Gauss-Slater functions are the appropriate primitives. Double- and
+triple-zeta bases are developed for elements hydrogen through argon. These new
+bases offer significant gains over the corresponding Burkatzki-Filippi-Dolg
+bases at various levels of theory. Using a Gaussian expansion of the basis
+functions, these bases can be employed in any electronic structure method.
+Quantum Monte Carlo provides an added benefit: expansions are unnecessary since
+the integrals are evaluated numerically.

@@ -1,0 +1,13 @@
+Boosting combines weak learners into a predictor with low empirical risk. Its
+dual constructs a high entropy distribution upon which weak learners and
+training labels are uncorrelated. This manuscript studies this primal-dual
+relationship under a broad family of losses, including the exponential loss of
+AdaBoost and the logistic loss, revealing:
+  - Weak learnability aids the whole loss family: for any {\epsilon}>0,
+O(ln(1/{\epsilon})) iterations suffice to produce a predictor with empirical
+risk {\epsilon}-close to the infimum;
+  - The circumstances granting the existence of an empirical risk minimizer may
+be characterized in terms of the primal and dual problems, yielding a new proof
+of the known rate O(ln(1/{\epsilon}));
+  - Arbitrary instances may be decomposed into the above two, granting rate
+O(1/{\epsilon}), with a matching lower bound provided for the logistic loss.

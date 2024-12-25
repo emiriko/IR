@@ -1,0 +1,22 @@
+... This paper is to describe exploratory research on the design of a modular
+autonomous mobile robot controller. The controller incorporates a fuzzy logic
+[8] [9] approach for steering and speed control [37], a FL approach for
+ultrasound sensing and an overall expert system for guidance. The advantages of
+a modular system are related to portability and transportability, i.e. any
+vehicle can become autonomous with minimal modifications. A mobile robot test
+bed has been constructed in university of Cincinnati using a golf cart base.
+This cart has full speed control with guidance provided by a vision system and
+obstacle avoidance using ultrasonic sensors. The speed and steering fuzzy logic
+controller is supervised through a multi-axis motion controller. The obstacle
+avoidance system is based on a microcontroller interfaced with ultrasonic
+transducers. This micro-controller independently handles all timing and
+distance calculations and sends distance information back to the fuzzy logic
+controller via the serial line. This design yields a portable independent
+system in which high speed computer communication is not necessary. Vision
+guidance has been accomplished with the use of CCD cameras judging the current
+position of the robot.[34] [35][36] It will be generating a good image for
+reducing an uncertain wrong command from ground coordinate to tackle the
+parameter uncertainties of the system, and to obtain good WMR dynamic
+response.[1] Here we Apply 3D line following mythology. It transforms from 3D
+to 2D and also maps the image coordinates and vice versa, leading to the
+improved accuracy of the WMR position. ...

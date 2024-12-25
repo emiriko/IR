@@ -1,0 +1,14 @@
+We propose and evaluate experimentally an approach to quantum process
+tomography that completely removes the scaling problem plaguing the standard
+approach. The key to this simplification is the incorporation of prior
+knowledge of the class of physical interactions involved in generating the
+dynamics, which reduces the problem to one of parameter estimation. This allows
+part of the problem to be tackled using efficient convex methods, which, when
+coupled with a constraint on some parameters allows globally optimal estimates
+for the Kraus operators to be determined from experimental data. Parameterising
+the maps provides further advantages: it allows the incorporation of mixed
+states of the environment as well as some initial correlation between the
+system and environment, both of which are common physical situations following
+excitation of the system away from thermal equilibrium. Although the approach
+is not universal, in cases where it is valid it returns a complete set of
+positive maps for the dynamical evolution of a quantum system at all times.

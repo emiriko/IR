@@ -1,0 +1,16 @@
+We obtain a lower bound of n^Omega(1) on the k-party randomized communication
+complexity of the Disjointness function in the `Number on the Forehead' model
+of multiparty communication when k is a constant. For k=o(loglog n), the bounds
+remain super-polylogarithmic i.e. (log n)^omega(1). The previous best lower
+bound for three players until recently was Omega(log n).
+  Our bound separates the communication complexity classes NP^{CC}_k and
+BPP^{CC}_k for k=o(loglog n). Furthermore, by the results of Beame, Pitassi and
+Segerlind \cite{BPS07}, our bound implies proof size lower bounds for
+tree-like, degree k-1 threshold systems and superpolynomial size lower bounds
+for Lovasz-Schrijver proofs.
+  Sherstov \cite{She07b} recently developed a novel technique to obtain lower
+bounds on two-party communication using the approximate polynomial degree of
+boolean functions. We obtain our results by extending his technique to the
+multi-party setting using ideas from Chattopadhyay \cite{Cha07}.
+  A similar bound for Disjointness has been recently and independently obtained
+by Lee and Shraibman.

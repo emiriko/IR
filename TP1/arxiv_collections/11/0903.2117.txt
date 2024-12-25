@@ -1,0 +1,18 @@
+Quantum key distribution (QKD) allows two spatially separated parties to
+securely generate a cryptographic key. The first QKD protocol, published by C.
+H. Bennett and G. Brassard in 1984 (BB84), describes how this is achieved by
+transmitting individual qubits and exchanging classical authenticated
+information. Any attempt to eavesdrop on the protocol introduces errors
+detectable by the legitimate parties.
+  This Licentiate Thesis studies the recently introduced EEQKD protocol which
+builds on BB84. In EEQKD, the qubits sent individually in BB84 are entangled
+and thus not directly available to an eavesdropper who is, in this protocol,
+provided only one-by-one access to the transmission. The maximal information an
+eavesdropper can gain using a straightforward intercept-resend (IR) attack, is
+obtained for a given error rate. The secure key generation rate of EEQKD is
+estimated in practical scenarios including qubit loss and quantum channel
+noise. In addition, an exquisite vulnerability is exposed: For a particular
+setting of qubit entanglement, paradoxically proving most useful in the face of
+an IR attack, EEQKD reduces to BB84.
+  Part of this research has been published in O. Ahonen et al., Physical Review
+A 78, 032314 (2008).

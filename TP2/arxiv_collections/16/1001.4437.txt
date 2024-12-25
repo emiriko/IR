@@ -1,0 +1,12 @@
+We propose a generalized version of context-sensitivity in term rewriting
+based on the notion of "forbidden patterns". The basic idea is that a rewrite
+step should be forbidden if the redex to be contracted has a certain shape and
+appears in a certain context. This shape and context is expressed through
+forbidden patterns. In particular we analyze the relationships among this novel
+approach and the commonly used notion of context-sensitivity in term rewriting,
+as well as the feasibility of rewriting with forbidden patterns from a
+computational point of view. The latter feasibility is characterized by
+demanding that restricting a rewrite relation yields an improved termination
+behaviour while still being powerful enough to compute meaningful results.
+Sufficient criteria for both kinds of properties in certain classes of rewrite
+systems with forbidden patterns are presented.

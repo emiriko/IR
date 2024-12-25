@@ -1,0 +1,17 @@
+We propose a routing protocol for wireless networks. Wireless routing
+protocols allow hosts within a network to have some knowledge of the topology
+in order to know when to forward a packet (via broadcast) and when to drop it.
+Since a routing protocol forms the backbone of a network, it is a lucrative
+target for many attacks, all of which attempt to disrupt network traffic by
+corrupting routing tables of neighboring routers using false updates. Secure
+routing protocols designed for wired networks (such as S-BGP) are not scalable
+in an ad-hoc wireless environment because of two main drawbacks: (1) the need
+to maintain knowledge about all immediate neighbors (which requires a discovery
+protocol), and (2) the need to transmit the same update several times, one for
+each neighbor. Although information about neighbors is readily available in a
+fairly static and wired network, such information is often not updated or
+available in an ad-hoc wireless network with mobile devices. Our protocol is a
+variant of S-BGP called SS-BGP and allows a single broadcast for routing
+updates without having the need to be aware of every neighboring router. The
+protocol is based on a novel authentication primitive called Enhanced Chain
+Signatures (ECS).

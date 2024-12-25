@@ -1,0 +1,10 @@
+In this paper we consider a synchronous message passing system in which in
+every round an external adversary is able to send each processor up to k
+messages with falsified sender identities and arbitrary content. It is formally
+shown that this impersonation model is slightly stronger than the asynchronous
+message passing model with crash failures. In particular, we prove that
+(k+1)-set agreement can be solved in this model, while k-set agreement is
+impossible, for any k>=1. The different strength of the asynchronous and
+impersonation models is exhibited by the order preserving renaming problem, for
+which an algorithm with n+k target namespace exists in the impersonation model,
+while an exponentially larger namespace is required in case of asynchrony.

@@ -1,0 +1,17 @@
+Bias due to imperfect shear calibration is the biggest obstacle when
+constraints on cosmological parameters are to be extracted from large area weak
+lensing surveys such as Pan-STARRS-3pi, DES or future satellite missions like
+Euclid. We demonstrate that bias present in existing shear measurement
+pipelines (e.g. KSB) can be almost entirely removed by means of neural
+networks. In this way, bias correction can depend on the properties of the
+individual galaxy instead on being a single global value. We present a
+procedure to train neural networks for shear estimation and apply this to
+subsets of simulated GREAT08 RealNoise data. We also show that circularization
+of the PSF before measuring the shear reduces the scatter related to the PSF
+anisotropy correction and thus leads to improved measurements, particularly on
+low and medium signal-to-noise data. Our results are competitive with the best
+performers in the GREAT08 competition, especially for the medium and higher
+signal-to-noise sets. Expressed in terms of the quality parameter defined by
+GREAT08 we achieve a Q = 40, 140 and 1300 without and 50, 200 and 1300 with
+circularization for low, medium and high signal-to-noise data sets,
+respectively.

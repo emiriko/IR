@@ -1,0 +1,20 @@
+Differential privacy is a promising approach to privacy preserving data
+analysis with a well-developed theory for functions. Despite recent work on
+implementing systems that aim to provide differential privacy, the problem of
+formally verifying that these systems have differential privacy has not been
+adequately addressed. This paper presents the first results towards automated
+verification of source code for differentially private interactive systems. We
+develop a formal probabilistic automaton model of differential privacy for
+systems by adapting prior work on differential privacy for functions. The main
+technical result of the paper is a sound proof technique based on a form of
+probabilistic bisimulation relation for proving that a system modeled as a
+probabilistic automaton satisfies differential privacy. The novelty lies in the
+way we track quantitative privacy leakage bounds using a relation family
+instead of a single relation. We illustrate the proof technique on a
+representative automaton motivated by PINQ, an implemented system that is
+intended to provide differential privacy. To make our proof technique easier to
+apply to realistic systems, we prove a form of refinement theorem and apply it
+to show that a refinement of the abstract PINQ automaton also satisfies our
+differential privacy definition. Finally, we begin the process of automating
+our proof technique by providing an algorithm for mechanically checking a
+restricted class of relations from the proof technique.

@@ -1,0 +1,12 @@
+We present algorithms for the type-IV discrete cosine transform (DCT-IV) and
+discrete sine transform (DST-IV), as well as for the modified discrete cosine
+transform (MDCT) and its inverse, that achieve a lower count of real
+multiplications and additions than previously published algorithms, without
+sacrificing numerical accuracy. Asymptotically, the operation count is reduced
+from ~2NlogN to ~(17/9)NlogN for a power-of-two transform size N, and the exact
+count is strictly lowered for all N > 4. These results are derived by
+considering the DCT to be a special case of a DFT of length 8N, with certain
+symmetries, and then pruning redundant operations from a recent improved fast
+Fourier transform algorithm (based on a recursive rescaling of the
+conjugate-pair split radix algorithm). The improved algorithms for DST-IV and
+MDCT follow immediately from the improved count for the DCT-IV.

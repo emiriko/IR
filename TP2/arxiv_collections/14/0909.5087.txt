@@ -1,0 +1,11 @@
+Free and Open Source Software (FOSS) distributions are complex software
+systems, made of thousands packages that evolve rapidly, independently, and
+without centralized coordination. During packages upgrades, corner case
+failures can be encountered and are hard to deal with, especially when they are
+due to misbehaving maintainer scripts: executable code snippets used to
+finalize package configuration. In this paper we report a software
+modernization experience, the process of representing existing legacy systems
+in terms of models, applied to FOSS distributions. We present a process to
+define meta-models that enable dealing with upgrade failures and help rolling
+back from them, taking into account maintainer scripts. The process has been
+applied to widely used FOSS distributions and we report about such experiences.

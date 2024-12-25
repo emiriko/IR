@@ -1,0 +1,18 @@
+Generalized quasi-cyclic (GQC) codes form a wide and useful class of linear
+codes that includes thoroughly quasi-cyclic codes, finite geometry (FG) low
+density parity check (LDPC) codes, and Hermitian codes. Although it is known
+that the systematic encoding of GQC codes is equivalent to the division
+algorithm in the theory of Grobner basis of modules, there has been no
+algorithm that computes Grobner basis for all types of GQC codes. In this
+paper, we propose two algorithms to compute Grobner basis for GQC codes from
+their parity check matrices: echelon canonical form algorithm and transpose
+algorithm. Both algorithms require sufficiently small number of finite-field
+operations with the order of the third power of code-length. Each algorithm has
+its own characteristic; the first algorithm is composed of elementary methods,
+and the second algorithm is based on a novel formula and is faster than the
+first one for high-rate codes. Moreover, we show that a serial-in serial-out
+encoder architecture for FG LDPC codes is composed of linear feedback shift
+registers with the size of the linear order of code-length; to encode a binary
+codeword of length n, it takes less than 2n adder and 2n memory elements.
+Keywords: automorphism group, Buchberger's algorithm, division algorithm,
+circulant matrix, finite geometry low density parity check (LDPC) codes.

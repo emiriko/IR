@@ -1,0 +1,25 @@
+We develop an efficient and reliable adaptive finite element method (AFEM)
+for the nonlinear Poisson-Boltzmann equation (PBE). We first examine the
+regularization technique of Chen, Holst, and Xu; this technique made possible
+the first a priori pointwise estimates and the first complete solution and
+approximation theory for the Poisson-Boltzmann equation. It also made possible
+the first provably convergent discretization of the PBE, and allowed for the
+development of a provably convergent AFEM for the PBE. However, in practice the
+regularization turns out to be numerically ill-conditioned. In this article, we
+examine a second regularization, and establish a number of basic results to
+ensure that the new approach produces the same mathematical advantages of the
+original regularization, without the ill-conditioning property. We then design
+an AFEM scheme based on the new regularized problem, and show that the
+resulting AFEM scheme is accurate and reliable, by proving a contraction result
+for the error. This result, which is one of the first results of this type for
+nonlinear elliptic problems, is based on using continuous and discrete a priori
+pointwise estimates to establish quasi-orthogonality. To provide a high-quality
+geometric model as input to the AFEM algorithm, we also describe a class of
+feature-preserving adaptive mesh generation algorithms designed specifically
+for constructing meshes of biomolecular structures, based on the intrinsic
+local structure tensor of the molecular surface. The stability advantages of
+the new regularization are demonstrated using an FETK-based implementation,
+through comparisons with the original regularization approach for a model
+problem. The convergence and accuracy of the overall AFEM algorithm is also
+illustrated by numerical approximation of electrostatic solvation energy for an
+insulin protein.

@@ -1,0 +1,19 @@
+The "Divide and Concur'' (DC) algorithm, recently introduced by Gravel and
+Elser, can be considered a competitor to the belief propagation (BP) algorithm,
+in that both algorithms can be applied to a wide variety of constraint
+satisfaction, optimization, and probabilistic inference problems. We show that
+DC can be interpreted as a message-passing algorithm on a constraint graph,
+which helps make the comparison with BP more clear. The "difference-map''
+dynamics of the DC algorithm enables it to avoid "traps'' which may be related
+to the "trapping sets'' or "pseudo-codewords'' that plague BP decoders of
+low-density parity check (LDPC) codes in the error-floor regime.
+  We investigate two decoders for low-density parity-check (LDPC) codes based
+on these ideas. The first decoder is based directly on DC, while the second
+decoder borrows the important "difference-map'' concept from the DC algorithm
+and translates it into a BP-like decoder. We show that this "difference-map
+belief propagation'' (DMBP) decoder has dramatically improved error-floor
+performance compared to standard BP decoders, while maintaining a similar
+computational complexity. We present simulation results for LDPC codes on the
+additive white Gaussian noise and binary symmetric channels, comparing DC and
+DMBP decoders with other decoders based on BP, linear programming, and
+mixed-integer linear programming.

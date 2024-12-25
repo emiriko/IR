@@ -1,0 +1,14 @@
+We have designed a new symbolic-numeric strategy to compute efficiently and
+accurately floating point Puiseux series defined by a bivariate polynomial over
+an algebraic number field. In essence, computations modulo a well chosen prime
+$p$ are used to obtain the exact information required to guide floating point
+computations. In this paper, we detail the symbolic part of our algorithm:
+First of all, we study modular reduction of Puiseux series and give a good
+reduction criterion to ensure that the information required by the numerical
+part is preserved. To establish our results, we introduce a simple modification
+of classical Newton polygons, that we call "generic Newton polygons", which
+happen to be very convenient. Then, we estimate the arithmetic complexity of
+computing Puiseux series over finite fields and improve known bounds. Finally,
+we give bit-complexity bounds for deterministic and randomized versions of the
+symbolic part. The details of the numerical part will be described in a
+forthcoming paper.

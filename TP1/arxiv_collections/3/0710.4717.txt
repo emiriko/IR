@@ -1,0 +1,15 @@
+This paper presents the novel idea of multi-placement structures, for a fast
+and optimized placement instantiation in analog circuit synthesis. These
+structures need to be generated only once for a specific circuit topology. When
+used in synthesis, these pre-generated structures instantiate various layout
+floorplans for various sizes and parameters of a circuit. Unlike procedural
+layout generators, they enable fast placement of circuits while keeping the
+quality of the placements at a high level during a synthesis process. The fast
+placement is a result of high speed instantiation resulting from the efficiency
+of the multi-placement structure. The good quality of placements derive from
+the extensive and intelligent search process that is used to build the
+multi-placement structure. The target benchmarks of these structures are analog
+circuits in the vicinity of 25 modules. An algorithm for the generation of such
+multi-placement structures is presented. Experimental results show placement
+execution times with an average of a few milliseconds making them usable during
+layout-aware synthesis for optimized placements.

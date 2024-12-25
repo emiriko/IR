@@ -1,0 +1,9 @@
+We establish rigorously convergence of a semi-discrete upwind scheme for the
+nonlinear variational wave equation $u_{tt} - c(u)(c(u) u_x)_x = 0$ with
+$u|_{t=0}=u_0$ and $u_t|_{t=0}=v_0$. Introducing Riemann invariants $R=u_t+c
+u_x$ and $S=u_t-c u_x$, the variational wave equation is equivalent to $R_t-c
+R_x=\tilde c (R^2-S^2)$ and $S_t+c S_x=-\tilde c (R^2-S^2)$ with $\tilde
+c=c'/(4c)$. An upwind scheme is defined for this system. We assume that the the
+speed $c$ is positive, increasing and both $c$ and its derivative are bounded
+away from zero and that $R|_{t=0}, S|_{t=0}\in L^1\cap L^3$ are nonpositive.
+The numerical scheme is illustrated on several examples.

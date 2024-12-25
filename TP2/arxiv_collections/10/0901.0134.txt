@@ -1,0 +1,23 @@
+Loosely coupled programming is a powerful paradigm for rapidly creating
+higher-level applications from scientific programs on petascale systems,
+typically using scripting languages. This paradigm is a form of many-task
+computing (MTC) which focuses on the passing of data between programs as
+ordinary files rather than messages. While it has the significant benefits of
+decoupling producer and consumer and allowing existing application programs to
+be executed in parallel with no recoding, its typical implementation using
+shared file systems places a high performance burden on the overall system and
+on the user who will analyze and consume the downstream data. Previous efforts
+have achieved great speedups with loosely coupled programs, but have done so
+with careful manual tuning of all shared file system access. In this work, we
+evaluate a prototype collective IO model for file-based MTC. The model enables
+efficient and easy distribution of input data files to computing nodes and
+gathering of output results from them. It eliminates the need for such manual
+tuning and makes the programming of large-scale clusters using a loosely
+coupled model easier. Our approach, inspired by in-memory approaches to
+collective operations for parallel programming, builds on fast local file
+systems to provide high-speed local file caches for parallel scripts, uses a
+broadcast approach to handle distribution of common input data, and uses
+efficient scatter/gather and caching techniques for input and output. We
+describe the design of the prototype model, its implementation on the Blue
+Gene/P supercomputer, and present preliminary measurements of its performance
+on synthetic benchmarks and on a large-scale molecular dynamics application.

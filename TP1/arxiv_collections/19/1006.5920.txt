@@ -1,0 +1,8 @@
+The paper presents a two stage classification approach for handwritten
+devanagari characters The first stage is using structural properties like
+shirorekha, spine in character and second stage exploits some intersection
+features of characters which are fed to a feedforward neural network. Simple
+histogram based method does not work for finding shirorekha, vertical bar
+(Spine) in handwritten devnagari characters. So we designed a differential
+distance based technique to find a near straight line for shirorekha and spine.
+This approach has been tested for 50000 samples and we got 89.12% success

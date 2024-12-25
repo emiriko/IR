@@ -1,0 +1,23 @@
+As more and more multi-tier services are developed from commercial
+off-the-shelf components or heterogeneous middleware without source code
+available, both developers and administrators need a request tracing tool to
+(1) exactly know how a user request of interest travels through services of
+black boxes; (2) obtain macro-level user request behavior information of
+services without the necessity of inundating within massive logs. Previous
+research efforts either accept imprecision of probabilistic correlation methods
+or present precise but unscalable tracing approaches that have to collect and
+analyze large amount of logs; Besides, previous precise request tracing
+approaches of black boxes fail to propose macro-level abstractions that enables
+debugging performance-in-the-large, and hence users have to manually interpret
+massive logs. This paper introduces a precise, scalable and online request
+tracing tool, named PreciseTracer, for multi-tier services of black boxes. Our
+contributions are four-fold: first, we propose a precise request tracing
+algorithm for multi-tier services of black boxes, which only uses
+application-independent knowledge; second, we respectively present micro-level
+and macro-level abstractions: component activity graphs and dominated causal
+path patterns to represent causal paths of each individual request and
+repeatedly executed causal paths that account for significant fractions; third,
+we present two mechanisms: tracing on demand and sampling to significantly
+increase system scalability; fourth, we design and implement an online request
+tracing tool. PreciseTracer's fast response, low overhead and scalability make
+it a promising tracing tool for large-scale production systems.

@@ -1,0 +1,11 @@
+The formula-evaluation problem is defined recursively. A formula's evaluation
+is the evaluation of a gate, the inputs of which are themselves independent
+formulas. Despite this pure recursive structure, the problem is combinatorially
+difficult for classical computers.
+  A quantum algorithm is given to evaluate formulas over any finite boolean
+gate set. Provided that the complexities of the input subformulas to any gate
+differ by at most a constant factor, the algorithm has optimal query
+complexity. After efficient preprocessing, it is nearly time optimal. The
+algorithm is derived using the span program framework. It corresponds to the
+composition of the individual span programs for each gate in the formula. Thus
+the algorithm's structure reflects the formula's recursive structure.

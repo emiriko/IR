@@ -1,0 +1,9 @@
+Yeh et al. recently have proposed a mutual authentication protocol based on
+EPC Class-1 Gen.-2 standard [1]. They have claimed that their protocol is
+secure against adversarial attacks and also provides forward secrecy. In this
+paper we will show that the proposed protocol does not have proper security
+features. A powerful and practical attack is presented on this protocol whereby
+the whole security of the protocol is broken. Furthermore, Yeh et al. protocol
+does not assure the untraceabilitiy and backward untraceabilitiy aspects.
+Namely, all past and next transactions of a compromised tag will be traceable
+by an adversary.

@@ -1,0 +1,24 @@
+We investigate characteristics of radio frequency interference (RFI) signals
+that can affect the excision potential of some interference mitigation
+algorithms. The techniques considered are those that modify signals from
+auxiliary reference antennas to model and cancel interference from an
+astronomical observation. These techniques can be applied in the time domain,
+where the RFI voltage is modeled and subtracted from the astronomy signal path
+(adaptive noise canceling), or they can be applied to the autocorrelated and
+cross-correlated voltage spectra in the frequency domain (postcorrelation
+canceling). For ideal receivers and a single, statistically stationary
+interfering signal, both precorrelation and postcorrelation filters can result
+in complete cancellation of the interference from the observation. The
+postcorrelation method has the advantage of being applied on tens or hundreds
+of millisecond timescales rather than tens or hundreds of nanosecond
+timescales. However, this can be a disadvantage if the RFI transmitter location
+is changing, since the cross-correlated power measurements which link the
+interference power in the astronomy and reference signal paths can decorrelate.
+If the decorrelation is not too severe, it can be allowed for, at the expense
+of a noise increase. The time domain adaptive cancelers are allowed to slightly
+vary their internal coefficients and adapt to changing phases during the
+integrations, which means that they avoid the decorrelation problem. However,
+the freedom to adapt also results in a noise increase. In this paper the
+ability of both types of cancelers to excise interference originating from a
+moving source is compared. The cancelers perform well on both observed and
+simulated data, giving complete cancellation.

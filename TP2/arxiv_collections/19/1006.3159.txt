@@ -1,0 +1,8 @@
+Static analysis by abstract interpretation aims at automatically proving
+properties of computer programs. To do this, an over-approximation of program
+semantics, defined as the least fixpoint of a system of semantic equations,
+must be computed. To enforce the convergence of this computation, widening
+operator is used but it may lead to coarse results. We propose a new method to
+accelerate the computation of this fixpoint by using standard techniques of
+numerical analysis. Our goal is to automatically and dynamically adapt the
+widening operator in order to maintain precision.

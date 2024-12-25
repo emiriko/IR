@@ -1,0 +1,19 @@
+We study the dissipation mechanism of a stochastic particle system for the
+Burgers equation. The velocity field of the viscous Burgers and Navier-Stokes
+equations can be expressed as an expected value of a stochastic process based
+on noisy particle trajectories [Constantin and Iyer Comm. Pure Appl. Math. 3
+(2008) 330-345]. In this paper we study a particle system for the viscous
+Burgers equations using a Monte-Carlo version of the above; we consider N
+copies of the above stochastic flow, each driven by independent Wiener
+processes, and replace the expected value with $\frac{1}{N}$ times the sum over
+these copies. A similar construction for the Navier-Stokes equations was
+studied by Mattingly and the first author of this paper [Iyer and Mattingly
+Nonlinearity 21 (2008) 2537-2553]. Surprisingly, for any finite N, the particle
+system for the Burgers equations shocks almost surely in finite time. In
+contrast to the full expected value, the empirical mean $\frac{1}{N}\sum_1^N$
+does not regularize the system enough to ensure a time global solution. To
+avoid these shocks, we consider a resetting procedure, which at first sight
+should have no regularizing effect at all. However, we prove that this
+procedure prevents the formation of shocks for any $N\geq2$, and consequently
+as $N\to\infty$ we get convergence to the solution of the viscous Burgers
+equation on long time intervals.

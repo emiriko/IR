@@ -1,0 +1,20 @@
+Who are the influential people in an online social network? The answer to
+this question depends not only on the structure of the network, but also on
+details of the dynamic processes occurring on it. We classify these processes
+as conservative and non-conservative. A random walk on a network is an example
+of a conservative dynamic process, while information spread is
+non-conservative. The influence models used to rank network nodes can be
+similarly classified, depending on the dynamic process they implicitly emulate.
+We claim that in order to correctly rank network nodes, the influence model has
+to match the details of the dynamic process. We study a real-world network on
+the social news aggregator Digg, which allows users to post and vote for news
+stories. We empirically define influence as the number of in-network votes a
+user's post generates. This influence measure, and the resulting ranking,
+arises entirely from the dynamics of voting on Digg, which represents
+non-conservative information flow.
+  We then compare predictions of different influence models with this empirical
+estimate of influence. The results show that non-conservative models are better
+able to predict influential users on Digg. We find that normalized
+alpha-centrality metric turns out to be one of the best predictors of
+influence. We also present a simple algorithm for computing this metric and the
+associated mathematical formulation and analytical proofs.

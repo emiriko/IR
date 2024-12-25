@@ -1,0 +1,21 @@
+Recent work has highlighted deep connections between sequence-length
+requirements for high-probability phylogeny reconstruction and the related
+problem of the estimation of ancestral sequences. In [Daskalakis et al.'09],
+building on the work of [Mossel'04], a tight sequence-length requirement was
+obtained for the CFN model. In particular the required sequence length for
+high-probability reconstruction was shown to undergo a sharp transition (from
+$O(\log n)$ to $\hbox{poly}(n)$, where $n$ is the number of leaves) at the
+"critical" branch length $\critmlq$ (if it exists) of the ancestral
+reconstruction problem.
+  Here we consider the GTR model. For this model, recent results of [Roch'09]
+show that the tree can be accurately reconstructed with sequences of length
+$O(\log(n))$ when the branch lengths are below $\critksq$, known as the
+Kesten-Stigum (KS) bound. Although for the CFN model $\critmlq = \critksq$, it
+is known that for the more general GTR models one has $\critmlq \geq \critksq$
+with a strict inequality in many cases. Here, we show that this phenomenon also
+holds for phylogenetic reconstruction by exhibiting a family of symmetric
+models $Q$ and a phylogenetic reconstruction algorithm which recovers the tree
+from $O(\log n)$-length sequences for some branch lengths in the range
+$(\critksq,\critmlq)$. Second we prove that phylogenetic reconstruction under
+GTR models requires a polynomial sequence-length for branch lengths above
+$\critmlq$.

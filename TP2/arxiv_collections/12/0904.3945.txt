@@ -1,0 +1,17 @@
+Coin flipping is a cryptographic primitive in which two spatially separated
+players, who in principle do not trust each other, wish to establish a common
+random bit. If we limit ourselves to classical communication, this task
+requires either assumptions on the computational power of the players or it
+requires them to send messages to each other with sufficient simultaneity to
+force their complete independence. Without such assumptions, all classical
+protocols are so that one dishonest player has complete control over the
+outcome. If we use quantum communication, on the other hand, protocols have
+been introduced that limit the maximal bias that dishonest players can produce.
+However, those protocols would be very difficult to implement in practice
+because they are susceptible to realistic losses on the quantum channel between
+the players or in their quantum memory and measurement apparatus. In this
+paper, we introduce a novel quantum protocol and we prove that it is completely
+impervious to loss. The protocol is fair in the sense that either player has
+the same probability of success in cheating attempts at biasing the outcome of
+the coin flip. We also give explicit and optimal cheating strategies for both
+players.

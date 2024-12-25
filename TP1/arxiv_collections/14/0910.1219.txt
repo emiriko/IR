@@ -1,0 +1,15 @@
+Delays in biological systems may be used to model events for which the
+underlying dynamics cannot be precisely observed. Mathematical modeling of
+biological systems with delays is usually based on Delay Differential Equations
+(DDEs), a kind of differential equations in which the derivative of the unknown
+function at a certain time is given in terms of the values of the function at
+previous times. In the literature, delay stochastic simulation algorithms have
+been proposed. These algorithms follow a "delay as duration" approach, namely
+they are based on an interpretation of a delay as the elapsing time between the
+start and the termination of a chemical reaction. This interpretation is not
+suitable for some classes of biological systems in which species involved in a
+delayed interaction can be involved at the same time in other interactions. We
+show on a DDE model of tumor growth that the delay as duration approach for
+stochastic simulation is not precise, and we propose a simulation algorithm
+based on a ``purely delayed'' interpretation of delays which provides better
+results on the considered model.

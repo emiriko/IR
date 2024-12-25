@@ -1,0 +1,20 @@
+We introduce an iterative importance truncation scheme which aims at reducing
+the dimension of the model space of configuration interaction approaches by an
+a priori selection of the physically most relevant basis states. Using an
+importance measure derived from multiconfigurational perturbation theory in
+combination with an importance threshold, we construct a model space optimized
+for the description of individual eigenstates of a given Hamiltonian. We
+discuss in detail various technical aspects and refinements of the importance
+truncation, such as perturbative corrections for excluded basis states,
+threshold extrapolation techniques, and different iterative model-space update
+schemes. We apply the idea of the importance truncation in the context of the
+no-core shell model (NCSM) for the ab initio description of nuclear ground
+states. In a series of benchmark calculations for closed- and open-shell nuclei
+up to O-16 we compare the ground-state energies obtained in the importance
+truncated NCSM to the full NCSM. All calculations show an excellent agreement
+of importance truncated and full NCSM for all cases where the latter is
+feasible. The results demonstrate that the importance truncated NCSM, while
+preserving most of the advantages of the full NCSM, gives access to much larger
+N_max*hbar*Omega spaces and heavier nuclei. In this way we are able to perform
+importance truncated NCSM calculations for nuclei like C-12 and O-16 up to
+N_max=22.

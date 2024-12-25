@@ -1,0 +1,10 @@
+A critical variable of a satisfiable CNF formula is a variable that has the
+same value in all satisfying assignments. Using a simple case distinction on
+the fraction of critical variables of a CNF formula, we improve the running
+time for 3-SAT from O(1.32216^n) by Rolf [2006] to O(1.32153^n). Using a
+different approach, Iwama et al. [2010] very recently achieved a running time
+of O(1.32113^n). Our method nicely combines with theirs, yielding the currently
+fastest known algorithm with running time O(1.32065^n). We also improve the
+bound for 4-SAT from O(1.47390^n) [Iwama, Tamaki 2004] to O(1.46928^n), where
+O(1.46981^n) can be obtained using the methods of [Iwama, Tamaki 2004] and
+[Rolf 2006].

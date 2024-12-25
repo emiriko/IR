@@ -1,0 +1,13 @@
+Proper privacy protection in RFID systems is important. However, many of the
+schemes known are impractical, either because they use hash functions instead
+of the more hardware efficient symmetric encryption schemes as a efficient
+cryptographic primitive, or because they incur a rather costly key search time
+penalty at the reader. Moreover, they do not allow for dynamic, fine-grained
+access control to the tag that cater for more complex usage scenarios.
+  In this paper we investigate such scenarios, and propose a model and
+corresponding privacy friendly protocols for efficient and fine-grained
+management of access permissions to tags. In particular we propose an efficient
+mutual authentication protocol between a tag and a reader that achieves a
+reasonable level of privacy, using only symmetric key cryptography on the tag,
+while not requiring a costly key-search algorithm at the reader side. Moreover,
+our protocol is able to recover from stolen readers.

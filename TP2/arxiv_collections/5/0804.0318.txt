@@ -1,0 +1,15 @@
+In any spatially discrete model of pedestrian motion which uses a regular
+lattice as basis, there is the question of how the symmetry between the
+different directions of motion can be restored as far as possible but with
+limited computational effort. This question is equivalent to the question ''How
+important is the orientation of the axis of discretization for the result of
+the simulation?'' An optimization in terms of symmetry can be combined with the
+implementation of higher and heterogeniously distributed walking speeds by
+representing different walking speeds via different amounts of cells an agent
+may move during one round. Therefore all different possible neighborhoods for
+speeds up to v = 10 (cells per round) will be examined for the amount of
+deviation from radial symmetry. Simple criteria will be stated which will allow
+find an optimal neighborhood for each speed. It will be shown that following
+these criteria even the best mixture of steps in Moore and von Neumann
+neighborhoods is unable to reproduce the optimal neighborhood for a speed as
+low as 4.

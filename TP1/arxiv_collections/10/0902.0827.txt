@@ -1,0 +1,11 @@
+The high arithmetic performance and intrinsic parallelism of recent graphical
+processing units (GPUs) can offer a technological edge for molecular dynamics
+simulations. ACEMD is a production-class bio-molecular dynamics (MD) simulation
+program designed specifically for GPUs which is able to achieve supercomputing
+scale performance of 40 nanoseconds/day for all-atom protein systems with over
+23,000 atoms. We illustrate the characteristics of the code, its validation and
+performance. We also run a microsecond-long trajectory for an all-atom
+molecular system in explicit TIP3P water on a single workstation computer
+equipped with just 3 GPUs. This performance on cost effective hardware allows
+ACEMD to reach microsecond timescales routinely with important implications in
+terms of scientific applications.

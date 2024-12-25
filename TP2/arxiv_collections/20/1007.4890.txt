@@ -1,0 +1,19 @@
+As energy proportional computing gradually extends the success of DVFS
+(Dynamic voltage and frequency scaling) to the entire system, DVFS control
+algorithms will play a key role in reducing server clusters' power consumption.
+The focus of this paper is to provide accurate cluster-level DVFS control for
+power saving in a server cluster. To achieve this goal, we propose a request
+tracing approach that online classifies the major causal path patterns of a
+multi-tier service and monitors their performance data as a guide for accurate
+DVFS control. The request tracing approach significantly decreases the time
+cost of performance profiling experiments that aim to establish the empirical
+performance model. Moreover, it decreases the controller complexity so that we
+can introduce a much simpler feedback controller, which only relies on the
+single-node DVFS modulation at a time as opposed to varying multiple CPU
+frequencies simultaneously. Based on the request tracing approach, we present a
+hybrid DVFS control system that combines an empirical performance model for
+fast modulation at different load levels and a simpler feedback controller for
+adaption. We implement a prototype of the proposed system, called PowerTracer,
+and conduct extensive experiments on a 3-tier platform. Our experimental
+results show that PowerTracer outperforms its peer in terms of power saving and
+system performance.

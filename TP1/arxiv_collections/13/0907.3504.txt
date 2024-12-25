@@ -1,0 +1,14 @@
+Signal-processing molecules inside cells are often present at low copy
+number, which necessitates probabilistic models to account for intrinsic noise.
+Probability distributions have traditionally been found using simulation-based
+approaches which then require estimating the distributions from many samples.
+Here we present in detail an alternative method for directly calculating a
+probability distribution by expanding in the natural eigenfunctions of the
+governing equation, which is linear. We apply the resulting spectral method to
+three general models of stochastic gene expression: a single gene with multiple
+expression states (often used as a model of bursting in the limit of two
+states), a gene regulatory cascade, and a combined model of bursting and
+regulation. In all cases we find either analytic results or numerical
+prescriptions that greatly outperform simulations in efficiency and accuracy.
+In the last case, we show that bimodal response in the limit of slow switching
+is not only possible but optimal in terms of information transmission.

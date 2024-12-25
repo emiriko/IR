@@ -1,0 +1,14 @@
+We consider a general multi-agent convex optimization problem where the
+agents are to collectively minimize a global objective function subject to a
+global inequality constraint, a global equality constraint, and a global
+constraint set. The objective function is defined by a sum of local objective
+functions, while the global constraint set is produced by the intersection of
+local constraint sets. In particular, we study two cases: one where the
+equality constraint is absent, and the other where the local constraint sets
+are identical. We devise two distributed primal-dual subgradient algorithms
+which are based on the characterization of the primal-dual optimal solutions as
+the saddle points of the Lagrangian and penalty functions. These algorithms can
+be implemented over networks with changing topologies but satisfying a standard
+connectivity property, and allow the agents to asymptotically agree on optimal
+solutions and optimal values of the optimization problem under the Slater's
+condition.

@@ -1,0 +1,14 @@
+We calculate the dynamic critical exponent for the Niedermayer algorithm
+applied to the two-dimensional Ising and XY models, for various values of the
+free parameter $E_0$. For $E_0=-1$ we regain the Metropolis algorithm and for
+$E_0=1$ we regain the Wolff algorithm. For $-1<E_0<1$, we show that the mean
+size of the clusters of (possibly) turned spins initially grows with the linear
+size of the lattice, $L$, but eventually saturates at a given lattice size
+$\widetilde{L}$, which depends on $E_0$. For $L>\widetilde{L}$, the Niedermayer
+algorithm is equivalent to the Metropolis one, i.e, they have the same dynamic
+exponent. For $E_0>1$, the autocorrelation time is always greater than for
+$E_0=1$ (Wolff) and, more important, it also grows faster than a power of $L$.
+Therefore, we show that the best choice of cluster algorithm is the Wolff one,
+when compared to the Nierdermayer generalization. We also obtain the dynamic
+behavior of the Wolff algorithm: although not conclusive, we propose a scaling
+law for the dependence of the autocorrelation time on $L$.

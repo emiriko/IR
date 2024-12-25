@@ -1,0 +1,15 @@
+This article presents a new mathematical framework to perform statistical
+analysis on time-indexed sequences of 2D or 3D shapes. At the core of this
+statistical analysis is the task of time interpolation of such data. Current
+models in use can be compared to linear interpolation for one dimensional data.
+We develop a spline interpolation method which is directly related to cubic
+splines on a Riemannian manifold. Our strategy consists of introducing a
+control variable on the Hamiltonian equations of the geodesics. Motivated by
+statistical modeling of spatiotemporal data, we also design a stochastic model
+to deal with random shape evolutions. This model is closely related to the
+spline model since the control variable previously introduced is set as a
+random force perturbing the evolution. Although we focus on the finite
+dimensional case of landmarks, our models can be extended to infinite
+dimensional shape spaces, and they provide a first step for a non parametric
+growth model for shapes taking advantage of the widely developed framework of
+large deformations by diffeomorphisms.

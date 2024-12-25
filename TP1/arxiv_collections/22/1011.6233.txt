@@ -1,0 +1,21 @@
+We present a novel Bayesian method for the joint reconstruction of
+cosmological matter density fields, peculiar velocities and power-spectra in
+the quasi-nonlinear regime. We study its applicability to the Ly-alpha forest
+based on multiple quasar absorption spectra. Our approach to this problem
+includes a multiscale, nonlinear, two-step scheme since the statistics
+describing the matter distribution depends on scale, being strongly
+non-Gaussian on small scales (< 0.1 h^{-1} Mpc) and closely lognormal on scales
+>~10 h^{-1} Mpc. The first step consists on performing 1D highly resolved
+matter density reconstructions along the line-of-sight towards z~2-3 quasars
+based on an arbitrary non-Gaussian univariate model for matter statistics. The
+second step consists on Gibbs-sampling based on conditional PDFs. The matter
+density field is sampled in real space with Hamiltonian-sampling using the
+Poisson/Gamma-lognormal model, while redshift distortions are corrected with
+linear Lagrangian perturbation theory. The power-spectrum of the lognormal
+transformed variable which is Gaussian distributed (and thus close to the
+linear regime) can consistently be sampled with the inverse Gamma distribution
+function. We test our method through numerical N-body simulations with a
+computational volume large enough (> 1 h^{-3} Gpc^3) to show that the linear
+power-spectra are nicely recovered over scales larger than >~20 h^{-1} Mpc,
+i.e. the relevant range where features imprinted by the baryon-acoustics
+oscillations (BAOs) appear.

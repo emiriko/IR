@@ -1,0 +1,14 @@
+We present a new approach for recognition of complex graphic symbols in
+technical documents. Graphic symbol recognition is a well known challenge in
+the field of document image analysis and is at heart of most graphic
+recognition systems. Our method uses structural approach for symbol
+representation and statistical classifier for symbol recognition. In our system
+we represent symbols by their graph based signatures: a graphic symbol is
+vectorized and is converted to an attributed relational graph, which is used
+for computing a feature vector for the symbol. This signature corresponds to
+geometry and topology of the symbol. We learn a Bayesian network to encode
+joint probability distribution of symbol signatures and use it in a supervised
+learning scenario for graphic symbol recognition. We have evaluated our method
+on synthetically deformed and degraded images of pre-segmented 2D architectural
+and electronic symbols from GREC databases and have obtained encouraging
+recognition rates.

@@ -1,0 +1,15 @@
+The elliptic Monge-Ampere equation is a fully nonlinear Partial Differential
+Equation which originated in geometric surface theory, and has been applied in
+dynamic meteorology, elasticity, geometric optics, image processing and image
+registration. Solutions can be singular, in which case standard numerical
+approaches fail. In this article we build a finite difference solver for the
+Monge-Ampere equation, which converges even for singular solutions. Regularity
+results are used to select a priori between a stable, provably convergent
+monotone discretization and an accurate finite difference discretization in
+different regions of the computational domain. This allows singular solutions
+to be computed using a stable method, and regular solutions to be computed more
+accurately. The resulting nonlinear equations are then solved by Newton's
+method. Computational results in two and three dimensions validate the claims
+of accuracy and solution speed. A computational example is presented which
+demonstrates the necessity of the use of the monotone scheme near
+singularities.

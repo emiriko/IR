@@ -1,0 +1,12 @@
+Haplotyping is the bioinformatics problem of predicting likely haplotypes
+based on given genotypes. It can be approached using Gusfield's perfect
+phylogeny haplotyping (PPH) method for which polynomial and linear time
+algorithms exist. These algorithm use sophisticated data structures or do a
+stepwise transformation of the genotype data into haplotype data and,
+therefore, need a linear amount of space. We are interested in the exact
+computational complexity of PPH and show that it can be solved
+space-efficiently by an algorithm that needs only a logarithmic amount of
+space. Together with the recently proved L-hardness of PPH, we establish
+L-completeness. Our algorithm relies on a new characterization for PPH in terms
+of bipartite graphs, which can be used both to decide and construct perfect
+phylogenies for genotypes efficiently.

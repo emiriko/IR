@@ -1,0 +1,14 @@
+One of the goals in the development of large scale electronic structure
+methods is to perform calculations explicitly for a localised region of a
+system, while still taking into account the rest of the system outside of this
+region. An example of this in surface physics would be to embed an adsorbate
+and a few surface atoms into an extended substrate, hence considerably reducing
+computational costs. Here we apply the constrained electron density method of
+embedding a Kohn-Sham system in a substrate system (first described by P.
+Cortona\cite{1} and T.A. Wesolowski\cite{2}), within a plane-wave basis and
+pseudopotential framework. This approach divides the charge density of the
+system into substrate and embedded charge densities, the sum of which is the
+charge density of the actual system of interest. Two test cases are considered.
+First we construct fcc bulk aluminium by embedding one cubic lattice of atoms
+within another. Second, we examine a model surface/adsorbate system of
+aluminium on aluminium and compare with full Kohn-Sham results.

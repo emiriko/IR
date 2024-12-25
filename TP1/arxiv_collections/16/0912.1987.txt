@@ -1,0 +1,13 @@
+We consider a MIMO fading broadcast channel where the fading channel
+coefficients are constant over time-frequency blocks that span a coherent time
+$\times$ a coherence bandwidth. In closed-loop systems, channel state
+information at transmitter (CSIT) is acquired by the downlink training sent by
+the base station and an explicit feedback from each user terminal. In open-loop
+systems, CSIT is obtained by exploiting uplink training and channel
+reciprocity. We use a tight closed-form lower bound on the ergodic achievable
+rate in the presence of CSIT errors in order to optimize the overall system
+throughput, by taking explicitly into account the overhead due to channel
+estimation and channel state feedback. Based on three time-frequency block
+models inspired by actual systems, we provide some useful guidelines for the
+overall system optimization. In particular, digital (quantized) feedback is
+found to offer a substantial advantage over analog (unquantized) feedback.

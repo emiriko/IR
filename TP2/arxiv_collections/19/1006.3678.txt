@@ -1,0 +1,14 @@
+In this paper we propose an extension of Answer Set Programming (ASP), and in
+particular, of its most general logical counterpart, Quantified Equilibrium
+Logic (QEL), to deal with partial functions. Although the treatment of equality
+in QEL can be established in different ways, we first analyse the choice of
+decidable equality with complete functions and Herbrand models, recently
+proposed in the literature. We argue that this choice yields some
+counterintuitive effects from a logic programming and knowledge representation
+point of view. We then propose a variant called QELF where the set of functions
+is partitioned into partial and Herbrand functions (we also call constructors).
+In the rest of the paper, we show a direct connection to Scott's Logic of
+Existence and present a practical application, proposing an extension of normal
+logic programs to deal with partial functions and equality, so that they can be
+translated into function-free normal programs, being possible in this way to
+compute their answer sets with any standard ASP solver.

@@ -1,0 +1,9 @@
+In the context of security protocol parallel composition, where messages
+belonging to different protocols can intersect each other, we introduce a new
+paradigm: term-based composition (i.e. the composition of message components
+also known as terms). First, we create a protocol specification model by
+extending the original strand spaces. Then, we provide a term composition
+algorithm based on which new terms can be constructed. To ensure that security
+properties are maintained, we introduce the concept of term connections to
+express the existing connections between terms and encryption contexts. We
+illustrate the proposed composition process by using two existing protocols.

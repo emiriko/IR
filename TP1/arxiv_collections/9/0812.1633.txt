@@ -1,0 +1,8 @@
+We discuss the possibility of implementing asynchronous replica-exchange (or
+parallel tempering) molecular dynamics. In our scheme, the exchange attempts
+are driven by asynchronous messages sent by one of the computing nodes, so that
+different replicas are allowed to perform a different number of time-steps
+between subsequent attempts. The implementation is simple and based on the
+message-passing interface (MPI). We illustrate the advantages of our scheme
+with respect to the standard synchronous algorithm and we benchmark it for a
+model Lennard-Jones liquid on an IBM-LS21 blade center cluster.

@@ -1,0 +1,9 @@
+An iterative decoding algorithm for convolutional codes is presented. It
+successively processes $N$ consecutive blocks of the received word in order to
+decode the first block. A bound is presented showing which error configurations
+can be corrected. The algorithm can be efficiently used on a particular class
+of convolutional codes, known as doubly cyclic convolutional codes. Due to
+their highly algebraic structure those codes are well suited for the algorithm
+and the main step of the procedure can be carried out using Reed-Solomon
+decoding. Examples illustrate the decoding and a comparison with existing
+algorithms is being made.

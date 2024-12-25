@@ -1,0 +1,6 @@
+The problem of space-optimal jump encoding in the x86 instruction set, also
+known as branch displacement optimization, is described, and a linear-time
+algorithm is given that uses no complicated data structures, no recursion, and
+no randomization. The only assumption is that there are no array declarations
+whose size depends on the negative of the size of a section of code (Hyde
+2006), which is reasonable for real code.

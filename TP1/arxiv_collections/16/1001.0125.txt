@@ -1,0 +1,14 @@
+We consider an undirected graph $G = (VG, EG)$ with a set $T \subseteq VG$ of
+terminals, and with nonnegative integer capacities $c(v)$ and costs $a(v)$ of
+nodes $v\in VG$. A path in $G$ is a \emph{$T$-path} if its ends are distinct
+terminals. By a \emph{multiflow} we mean a function $F$ assigning to each
+$T$-path $P$ a nonnegative rational \emph{weight} $F(P)$, and a multiflow is
+called \emph{feasible} if the sum of weights of $T$-paths through each node $v$
+does not exceed $c(v)$. The \emph{value} of $F$ is the sum of weights $F(P)$,
+and the \emph{cost} of $F$ is the sum of $F(P)$ times the cost of $P$ w.r.t.
+$a$, over all $T$-paths $P$.
+  Generalizing known results on edge-capacitated multiflows, we show that the
+problem of finding a minimum cost multiflow among the feasible multiflows of
+maximum possible value admits \emph{half-integer} optimal primal and dual
+solutions. Moreover, we devise a strongly polynomial algorithm for finding such
+optimal solutions.

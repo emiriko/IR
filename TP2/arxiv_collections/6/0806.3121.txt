@@ -1,0 +1,14 @@
+We present a new approach to fault tolerance for High Performance Computing
+system. Our approach is based on a careful adaptation of the Algorithmic Based
+Fault Tolerance technique (Huang and Abraham, 1984) to the need of parallel
+distributed computation. We obtain a strongly scalable mechanism for fault
+tolerance. We can also detect and correct errors (bit-flip) on the fly of a
+computation. To assess the viability of our approach, we have developed a fault
+tolerant matrix-matrix multiplication subroutine and we propose some models to
+predict its running time. Our parallel fault-tolerant matrix-matrix
+multiplication scores 1.4 TFLOPS on 484 processors (cluster jacquard.nersc.gov)
+and returns a correct result while one process failure has happened. This
+represents 65% of the machine peak efficiency and less than 12% overhead with
+respect to the fastest failure-free implementation. We predict (and have
+observed) that, as we increase the processor count, the overhead of the fault
+tolerance drops significantly.

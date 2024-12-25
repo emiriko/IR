@@ -1,0 +1,24 @@
+Purpose: Cone-beam CT (CBCT) plays an important role in image guided
+radiation therapy (IGRT). However, the large radiation dose from serial CBCT
+scans in most IGRT procedures raises a clinical concern, especially for
+pediatric patients who are essentially excluded from receiving IGRT for this
+reason. The goal of this work is to develop a fast GPU-based algorithm to
+reconstruct CBCT from undersampled and noisy projection data so as to lower the
+imaging dose. Methods: The CBCT is reconstructed by minimizing an energy
+functional consisting of a data fidelity term and a total variation
+regularization term. We developed a GPU-friendly version of the
+forward-backward splitting algorithm to solve this model. A multi-grid
+technique is also employed. Results: It is found that 20~40 x-ray projections
+are sufficient to reconstruct images with satisfactory quality for IGRT. The
+reconstruction time ranges from 77 to 130 sec on a NVIDIA Tesla C1060 GPU card,
+depending on the number of projections used, which is estimated about 100 times
+faster than similar iterative reconstruction approaches. Moreover, phantom
+studies indicate that our algorithm enables the CBCT to be reconstructed under
+a scanning protocol with as low as 0.1 mAs/projection. Comparing with currently
+widely used full-fan head and neck scanning protocol of ~360 projections with
+0.4 mAs/projection, it is estimated that an overall 36~72 times dose reduction
+has been achieved in our fast CBCT reconstruction algorithm. Conclusions: This
+work indicates that the developed GPU-based CBCT reconstruction algorithm is
+capable of lowering imaging dose considerably. The high computation efficiency
+in this algorithm makes the iterative CBCT reconstruction approach applicable
+in real clinical environments.

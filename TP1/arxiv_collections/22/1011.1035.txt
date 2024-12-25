@@ -1,0 +1,13 @@
+The problem of identifying the 3D pose of a known object from a given 2D
+image has important applications in Computer Vision ranging from robotic vision
+to image analysis. Our proposed method of registering a 3D model of a known
+object on a given 2D photo of the object has numerous advantages over existing
+methods: It does neither require prior training nor learning, nor knowledge of
+the camera parameters, nor explicit point correspondences or matching features
+between image and model. Unlike techniques that estimate a partial 3D pose (as
+in an overhead view of traffic or machine parts on a conveyor belt), our method
+estimates the complete 3D pose of the object, and works on a single static
+image from a given view, and under varying and unknown lighting conditions. For
+this purpose we derive a novel illumination-invariant distance measure between
+2D photo and projected 3D model, which is then minimised to find the best pose
+parameters. Results for vehicle pose detection are presented.

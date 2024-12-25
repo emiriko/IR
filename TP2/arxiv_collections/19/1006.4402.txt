@@ -1,0 +1,11 @@
+A quantum state is called concordant if it has zero quantum discord with
+respect to any part. By extension, a concordant computation is one such that
+the state of the computer, at each time step, is concordant. In this paper, I
+describe a classical algorithm that, given a product state as input, permits
+the efficient simulation of any concordant quantum computation having a
+conventional form and composed of gates acting on two or fewer qubits. This
+shows that such a quantum computation must generate quantum discord if it is to
+efficiently solve a problem that requires super-polynomial time classically.
+While I employ the restriction to two-qubit gates sparingly, a crucial
+component of the simulation algorithm appears not to be extensible to gates
+acting on higher-dimensional systems.

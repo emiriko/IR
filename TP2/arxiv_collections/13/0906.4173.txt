@@ -1,0 +1,11 @@
+We investigate the relationship between two independently developed
+termination techniques. On the one hand, sized-types based termination (SBT)
+uses types annotated with size expressions and Girard's reducibility
+candidates, and applies on systems using constructor matching only. On the
+other hand, semantic labelling transforms a rewrite system by annotating each
+function symbol with the semantics of its arguments, and applies to any rewrite
+system. First, we introduce a simplified version of SBT for the simply-typed
+lambda-calculus. Then, we give new proofs of the correctness of SBT using
+semantic labelling, both in the first and in the higher-order case. As a
+consequence, we show that SBT can be extended to systems using matching on
+defined symbols (e.g. associative functions).

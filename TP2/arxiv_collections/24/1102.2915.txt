@@ -1,0 +1,25 @@
+Inferring cluster structure in microarray datasets is a fundamental task for
+the -omic sciences. A fundamental question in Statistics, Data Analysis and
+Classification, is the prediction of the number of clusters in a dataset,
+usually established via internal validation measures. Despite the wealth of
+internal measures available in the literature, new ones have been recently
+proposed, some of them specifically for microarray data. In this dissertation,
+a study of internal validation measures is given, paying particular attention
+to the stability based ones. Indeed, this class of measures is particularly
+prominent and promising in order to have a reliable estimate the number of
+clusters in a dataset. For those measures, a new general algorithmic paradigm
+is proposed here that highlights the richness of measures in this class and
+accounts for the ones already available in the literature. Moreover, some of
+the most representative validation measures are also considered. Experiments on
+12 benchmark datasets are performed in order to assess both the intrinsic
+ability of a measure to predict the correct number of clusters in a dataset and
+its merit relative to the other measures. The main result is a hierarchy of
+internal validation measures in terms of precision and speed, highlighting some
+of their merits and limitations not reported before in the literature. This
+hierarchy shows that the faster the measure, the less accurate it is. In order
+to reduce the time performance gap between the fastest and the most precise
+measures, the technique of designing fast approximation algorithms is
+systematically applied. The end result is a speed-up of many of the measures
+studied here that brings the gap between the fastest and the most precise
+within one order of magnitude in time, with no degradation in their prediction
+power. Prior to this work, the time gap was at least two orders of magnitude.

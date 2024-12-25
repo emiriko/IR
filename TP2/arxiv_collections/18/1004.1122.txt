@@ -1,0 +1,9 @@
+In this short note, we present a new technique to accelerate the convergence
+of a FFT-based solver for numerical homogenization of complex periodic media
+proposed by Moulinec and Suquet in 1994. The approach proceeds from
+discretization of the governing integral equation by the trigonometric
+collocation method due to Vainikko (2000), to give a linear system which can be
+efficiently solved by conjugate gradient methods. Computational experiments
+confirm robustness of the algorithm with respect to its internal parameters and
+demonstrate significant increase of the convergence rate for problems with
+high-contrast coefficients at a low overhead per iteration.

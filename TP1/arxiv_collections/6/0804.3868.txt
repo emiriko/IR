@@ -1,0 +1,15 @@
+The distance from a given position toward one or more destinations, exits,
+and way points is a more or less important input variable in most models of
+pedestrian dynamics. Except for the special case when there are no obstacles in
+a concave scenario -- i.e. each position is visible from any other -- the
+calculation of these distances is a non-trivial task. This isn't that big a
+problem, as long as the model only demands the distances to be stored in a
+Static Floor Field also called Potential Field, which never changes throughout
+the whole simulation. In this case a pre-calculation once before the simulation
+starts is sufficient. But if one wants to allow changes of the geometry during
+a simulation run -- imagine doors or the blocking of a corridor due to some
+hazard -- in the Distance Potential Field, calculation time matters strongly.
+This contribution gives an overview over existing and new exact and approximate
+methods to calculate a potential field, analytical investigations for their
+exactness, and tests of their computation speed. The advantages and drawbacks
+of the methods are discussed.

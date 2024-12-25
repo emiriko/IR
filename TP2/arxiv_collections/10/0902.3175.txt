@@ -1,0 +1,14 @@
+This paper studies the one-way communication complexity of the subgroup
+membership problem, a classical problem closely related to basic questions in
+quantum computing. Here Alice receives, as input, a subgroup $H$ of a finite
+group $G$; Bob receives an element $x \in G$. Alice is permitted to send a
+single message to Bob, after which he must decide if his input $x$ is an
+element of $H$. We prove the following upper bounds on the classical
+communication complexity of this problem in the bounded-error setting: (1) The
+problem can be solved with $O(\log |G|)$ communication, provided the subgroup
+$H$ is normal; (2) The problem can be solved with $O(d_{\max} \cdot \log |G|)$
+communication, where $d_{\max}$ is the maximum of the dimensions of the
+irreducible complex representations of $G$; (3) For any prime $p$ not dividing
+$|G|$, the problem can be solved with $O(d_{\max} \cdot \log p)$ communication,
+where $d_{\max}$ is the maximum of the dimensions of the irreducible
+$\F_p$-representations of $G$.

@@ -1,0 +1,12 @@
+Recently developed adaptive Markov chain Monte Carlo (MCMC) methods have been
+applied successfully to many problems in Bayesian statistics. Grapham is a new
+open source implementation covering several such methods, with emphasis on
+graphical models for directed acyclic graphs. The implemented algorithms
+include the seminal Adaptive Metropolis algorithm adjusting the proposal
+covariance according to the history of the chain and a Metropolis algorithm
+adjusting the proposal scale based on the observed acceptance probability.
+Different variants of the algorithms allow one, for example, to use these two
+algorithms together, employ delayed rejection and adjust several parameters of
+the algorithms. The implemented Metropolis-within-Gibbs update allows arbitrary
+sampling blocks. The software is written in C and uses a simple extension
+language Lua in configuration.

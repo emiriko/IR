@@ -1,0 +1,19 @@
+Safety is a syntactic condition of higher-order grammars that constrains
+occurrences of variables in the production rules according to their
+type-theoretic order. In this paper, we introduce the safe lambda calculus,
+which is obtained by transposing (and generalizing) the safety condition to the
+setting of the simply-typed lambda calculus. In contrast to the original
+definition of safety, our calculus does not constrain types (to be
+homogeneous). We show that in the safe lambda calculus, there is no need to
+rename bound variables when performing substitution, as variable capture is
+guaranteed not to happen. We also propose an adequate notion of beta-reduction
+that preserves safety. In the same vein as Schwichtenberg's 1976
+characterization of the simply-typed lambda calculus, we show that the numeric
+functions representable in the safe lambda calculus are exactly the
+multivariate polynomials; thus conditional is not definable. We also give a
+characterization of representable word functions. We then study the complexity
+of deciding beta-eta equality of two safe simply-typed terms and show that this
+problem is PSPACE-hard. Finally we give a game-semantic analysis of safety: We
+show that safe terms are denoted by `P-incrementally justified strategies'.
+Consequently pointers in the game semantics of safe lambda-terms are only
+necessary from order 4 onwards.

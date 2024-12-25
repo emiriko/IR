@@ -1,0 +1,23 @@
+We report on the limitations of sky subtraction accuracy for long duration
+fibre-optic multi-object spectroscopy of faint astronomical sources during long
+duration exposures. We show that while standard sky subtraction techniques
+yield accuracies consistent with the Poisson noise limit for exposures of 1
+hour duration, there are large scale systematic defects that inhibit the
+sensitivity gains expected on the summation of longer duration exposures. For
+the AAOmega system at the Anglo-Australian Telescope we identify a limiting
+systematic sky subtraction accuracy which is reached after integration times of
+4-10 hours. We show that these systematic defects can be avoided through the
+use of the fibre nod-and-shuffle observing mode, but with potential cost in
+observing efficiency. Finally we demonstrate that these disadvantages can be
+overcome through the application of a Principle Components Analysis sky
+subtraction routine. Such an approach minimise systematic residuals across long
+duration exposures allowing deep integrations.
+  We apply the PCA approach to over 200 hours of on-sky observations and
+conclude that for the AAOmega system the residual error in long duration
+observations falls at a rate proportional to t^-0.32 in contrast to the t^-0.5
+rate expected from theoretical considerations. With this modest rate of
+decline, the PCA approach represents a more efficient mode of observation than
+the nod-and-shuffle technique for observations in the sky limited regime with
+durations of 10-100 hours (even before accounting for the additional
+signal-to-noise and targeting efficiency losses often associated with the N+S
+technique).[abridged]

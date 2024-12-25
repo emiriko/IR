@@ -1,0 +1,10 @@
+Although many authors have considered how many ternary comparisons it takes
+to sort a multiset $S$ of size $n$, the best known upper and lower bounds still
+differ by a term linear in $n$. In this paper we restrict our attention to
+online stable sorting and prove upper and lower bounds that are within (o (n))
+not only of each other but also of the best known upper bound for offline
+sorting. Specifically, we first prove that if the number of distinct elements
+(\sigma = o (n / \log n)), then ((H + 1) n + o (n)) comparisons are sufficient,
+where $H$ is the entropy of the distribution of the elements in $S$. We then
+give a simple proof that ((H + 1) n - o (n)) comparisons are necessary in the
+worst case.

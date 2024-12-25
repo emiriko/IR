@@ -1,0 +1,19 @@
+An efficient implementation of the nonequilibrium Green function (NEGF)
+method combined with the density functional theory (DFT) using localized
+pseudo-atomic orbitals (PAOs) is presented for electronic transport
+calculations of a system connected with two leads under a finite bias voltage.
+In the implementation, accurate and efficient methods are developed especially
+for evaluation of the density matrix and treatment of boundaries between the
+scattering region and the leads. Equilibrium and nonequilibrium contributions
+in the density matrix are evaluated with very high precision by a contour
+integration with a continued fraction representation of the Fermi-Dirac
+function and by a simple quadratureon the real axis with a small imaginary
+part, respectively. The Hartree potential is computed efficiently by a
+combination of the two dimensional fast Fourier transform (FFT) and a finite
+difference method, and the charge density near the boundaries is constructed
+with a careful treatment to avoid the spurious scattering at the boundaries.
+The efficiency of the implementation is demonstrated by rapid convergence
+properties of the density matrix. In addition, as an illustration, our method
+is applied for zigzag graphene nanoribbons, a Fe/MgO/Fe tunneling junction, and
+a LaMnO$_3/$SrMnO$_3$ superlattice, demonstrating its applicability to a wide
+variety of systems.

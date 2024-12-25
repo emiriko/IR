@@ -1,0 +1,16 @@
+Using a large deviations approach we calculate the probability distribution
+of the mutual information of MIMO channels in the limit of large antenna
+numbers. In contrast to previous methods that only focused at the distribution
+close to its mean (thus obtaining an asymptotically Gaussian distribution), we
+calculate the full distribution, including its tails which strongly deviate
+from the Gaussian behavior near the mean. The resulting distribution
+interpolates seamlessly between the Gaussian approximation for rates $R$ close
+to the ergodic value of the mutual information and the approach of Zheng and
+Tse for large signal to noise ratios $\rho$. This calculation provides us with
+a tool to obtain outage probabilities analytically at any point in the $(R,
+\rho, N)$ parameter space, as long as the number of antennas $N$ is not too
+small. In addition, this method also yields the probability distribution of
+eigenvalues constrained in the subspace where the mutual information per
+antenna is fixed to $R$ for a given $\rho$. Quite remarkably, this eigenvalue
+density is of the form of the Marcenko-Pastur distribution with square-root
+singularities, and it depends on the values of $R$ and $\rho$.

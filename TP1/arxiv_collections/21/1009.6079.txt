@@ -1,0 +1,18 @@
+Matrix pair beamformer (MPB) is a promising blind beamformer which exploits
+the temporal signature of the signal of interest (SOI) to acquire its spatial
+statistical information. It does not need any knowledge of directional
+information or training sequences. However, the major problem of the existing
+MPBs is that they have serious threshold effects and the thresholds will grow
+as the interference power increases or even approach infinity. In particular,
+this issue prevails in scenarios with structured interference, such as,
+periodically repeated white noise, tones, or MAIs in multipath channels. In
+this paper, we will first present the principles for designing the projection
+space of the MPB which are closely correlated with the ability of suppressing
+structured interference and system finite sample performance. Then a
+multiple-interference-channel based matrix pair beamformer (MIC-MPB) for CDMA
+systems is developed according to the principles. In order to adapt to dynamic
+channels, an adaptive algorithm for the beamformer is also proposed.
+Theoretical analysis and simulation results show that the proposed beamformer
+has a small and bounded threshold when the interference power increases.
+Performance comparisons of the MIC-MPB and the existing MPBs in various
+scenarios via a number of numerical examples are also presented.

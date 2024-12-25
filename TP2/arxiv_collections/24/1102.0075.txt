@@ -1,0 +1,14 @@
+We introduce {\em vector diffusion maps} (VDM), a new mathematical framework
+for organizing and analyzing massive high dimensional data sets, images and
+shapes. VDM is a mathematical and algorithmic generalization of diffusion maps
+and other non-linear dimensionality reduction methods, such as LLE, ISOMAP and
+Laplacian eigenmaps. While existing methods are either directly or indirectly
+related to the heat kernel for functions over the data, VDM is based on the
+heat kernel for vector fields. VDM provides tools for organizing complex data
+sets, embedding them in a low dimensional space, and interpolating and
+regressing vector fields over the data. In particular, it equips the data with
+a metric, which we refer to as the {\em vector diffusion distance}. In the
+manifold learning setup, where the data set is distributed on (or near) a low
+dimensional manifold $\MM^d$ embedded in $\RR^{p}$, we prove the relation
+between VDM and the connection-Laplacian operator for vector fields over the
+manifold.

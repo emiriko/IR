@@ -1,0 +1,19 @@
+We discuss two methods to encode one qubit into six physical qubits. Each of
+our two examples corrects an arbitrary single-qubit error. Our first example is
+a degenerate six-qubit quantum error-correcting code. We explicitly provide the
+stabilizer generators, encoding circuit, codewords, logical Pauli operators,
+and logical CNOT operator for this code. We also show how to convert this code
+into a non-trivial subsystem code that saturates the subsystem Singleton bound.
+We then prove that a six-qubit code without entanglement assistance cannot
+simultaneously possess a Calderbank-Shor-Steane (CSS) stabilizer and correct an
+arbitrary single-qubit error. A corollary of this result is that the Steane
+seven-qubit code is the smallest single-error correcting CSS code. Our second
+example is the construction of a non-degenerate six-qubit CSS
+entanglement-assisted code. This code uses one bit of entanglement (an ebit)
+shared between the sender and the receiver and corrects an arbitrary
+single-qubit error. The code we obtain is globally equivalent to the Steane
+seven-qubit code and thus corrects an arbitrary error on the receiver's half of
+the ebit as well. We prove that this code is the smallest code with a CSS
+structure that uses only one ebit and corrects an arbitrary single-qubit error
+on the sender's side. We discuss the advantages and disadvantages for each of
+the two codes.

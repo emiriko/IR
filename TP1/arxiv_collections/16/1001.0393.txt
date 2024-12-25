@@ -1,0 +1,13 @@
+Identical products being sold at different prices in different locations is a
+common phenomenon. Price differences might occur due to various reasons such as
+shipping costs, trade restrictions and price discrimination. To model such
+scenarios, we supplement the classical Fisher model of a market by introducing
+{\em transaction costs}. For every buyer $i$ and every good $j$, there is a
+transaction cost of $\cij$; if the price of good $j$ is $p_j$, then the cost to
+the buyer $i$ {\em per unit} of $j$ is $p_j + \cij$. This allows the same good
+to be sold at different (effective) prices to different buyers.
+  We provide a combinatorial algorithm that computes $\epsilon$-approximate
+equilibrium prices and allocations in
+$O\left(\frac{1}{\epsilon}(n+\log{m})mn\log(B/\epsilon)\right)$ operations -
+where $m$ is the number goods, $n$ is the number of buyers and $B$ is the sum
+of the budgets of all the buyers.

@@ -1,0 +1,19 @@
+For storing a word or the whole text segment, we need a huge storage space.
+Typically a character requires 1 Byte for storing it in memory. Compression of
+the memory is very important for data management. In case of memory requirement
+compression for text data, lossless memory compression is needed. We are
+suggesting a lossless memory requirement compression method for text data
+compression. The proposed compression method will compress the text segment or
+the text file based on two level approaches firstly reduction and secondly
+compression. Reduction will be done using a word lookup table not using
+traditional indexing system, then compression will be done using currently
+available compression methods. The word lookup table will be a part of the
+operating system and the reduction will be done by the operating system.
+According to this method each word will be replaced by an address value. This
+method can quite effectively reduce the size of persistent memory required for
+text data. At the end of the first level compression with the use of word
+lookup table, a binary file containing the addresses will be generated. Since
+the proposed method does not use any compression algorithm in the first level
+so this file can be compressed using the popular compression algorithms and
+finally will provide a great deal of data compression on purely English text
+data.

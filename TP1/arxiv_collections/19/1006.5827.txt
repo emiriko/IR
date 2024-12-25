@@ -1,0 +1,20 @@
+This work, inspired by the idea of "Computing with Words and Perceptions"
+proposed by Zadeh in 2001, focuses on how to transform measurements into
+perceptions for the problem of map building by Autonomous Mobile Robots. We
+propose to model the perceptions obtained from sonar-sensors as two grid maps:
+one for obstacles and another for empty spaces. The rules used to build and
+integrate these maps are expressed by linguistic descriptions and modeled by
+fuzzy rules. The main difference of this approach from other studies reported
+in the literature is that the method presented here is based on the hypothesis
+that the concepts "occupied" and "empty" are antonyms rather than complementary
+(as it happens in probabilistic approaches), or independent (as it happens in
+the previous fuzzy models).
+  Controlled experimentation with a real robot in three representative indoor
+environments has been performed and the results presented. We offer a
+qualitative and quantitative comparison of the estimated maps obtained by the
+probabilistic approach, the previous fuzzy method and the new antonyms-based
+fuzzy approach. It is shown that the maps obtained with the antonyms-based
+approach are better defined, capture better the shape of the walls and of the
+empty-spaces, and contain less errors due to rebounds and short-echoes.
+Furthermore, in spite of noise and low resolution inherent to the sonar-sensors
+used, the maps obtained are accurate and tolerant to imprecision.

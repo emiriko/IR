@@ -1,0 +1,22 @@
+Direct detection of exoplanets requires high dynamic range imaging.
+Coronagraphs could be the solution, but their performance in space is limited
+by wavefront errors (manufacturing errors on optics, temperature variations,
+etc.), which create quasi-static stellar speckles in the final image. Several
+solutions have been suggested for tackling this speckle noise. Differential
+imaging techniques substract a reference image to the coronagraphic residue in
+a post-processing imaging. Other techniques attempt to actively correct
+wavefront errors using a deformable mirror. In that case, wavefront aberrations
+have to be measured in the science image to extremely high accuracy. We propose
+the self-coherent camera sequentially used as a focal-plane wavefront sensor
+for active correction and differential imaging. For both uses, stellar speckles
+are spatially encoded in the science image so that differential aberrations are
+strongly minimized. The encoding is based on the principle of light incoherence
+between the hosting star and its environment. In this paper, we first discuss
+one intrinsic limitation of deformable mirrors. Then, several parameters of the
+self-coherent camera are studied in detail. We also propose an easy and robust
+design to associate the self-coherent camera with a coronagraph that uses a
+Lyot stop. Finally, we discuss the case of the association with a four-quadrant
+phase mask and numerically demonstrate that such a device enables the detection
+of Earth-like planets under realistic conditions. The parametric study of the
+technique lets us believe it can be implemented quite easily in future
+instruments dedicated to direct imaging of exoplanets.

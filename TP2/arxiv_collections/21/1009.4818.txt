@@ -1,0 +1,12 @@
+Cubature methods, a powerful alternative to Monte Carlo due to
+Kusuoka~[Adv.~Math.~Econ.~6, 69--83, 2004] and
+Lyons--Victoir~[Proc.~R.~Soc.\\Lond.~Ser.~A 460, 169--198, 2004], involve the
+solution to numerous auxiliary ordinary differential equations. With focus on
+the Ninomiya-Victoir algorithm~[Appl.~Math.~Fin.~15, 107--121, 2008], which
+corresponds to a concrete level $5$ cubature method, we study some parametric
+diffusion models motivated from financial applications, and exhibit structural
+conditions under which all involved ODEs can be solved explicitly and
+efficiently. We then enlarge the class of models for which this technique
+applies, by introducing a (model-dependent) variation of the Ninomiya-Victoir
+method. Our method remains easy to implement; numerical examples illustrate the
+savings in computation time.

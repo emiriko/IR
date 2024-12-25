@@ -1,0 +1,8 @@
+Midpoint subdivision generalizes the Lane-Riesenfeld algorithm for uniform
+tensor product splines and can also be applied to non regular meshes. For
+example, midpoint subdivision of degree 2 is a specific Doo-Sabin algorithm and
+midpoint subdivision of degree 3 is a specific Catmull-Clark algorithm. In
+2001, Zorin and Schroeder were able to prove C1-continuity for midpoint
+subdivision surfaces analytically up to degree 9. Here, we develop general
+analysis tools to show that the limiting surfaces under midpoint subdivision of
+any degree >= 2 are C1-continuous at their extraordinary points.

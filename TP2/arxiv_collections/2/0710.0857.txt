@@ -1,0 +1,14 @@
+A very simple example of an algorithmic problem solvable by dynamic
+programming is to maximize, over sets A in {1,2,...,n}, the objective function
+|A| - \sum_i \xi_i 1(i \in A,i+1 \in A) for given \xi_i > 0. This problem, with
+random (\xi_i), provides a test example for studying the relationship between
+optimal and near-optimal solutions of combinatorial optimization problems. We
+show that, amongst solutions differing from the optimal solution in a small
+proportion \delta of places, we can find near-optimal solutions whose objective
+function value differs from the optimum by a factor of order \delta^2 but not
+smaller order. We conjecture this relationship holds widely in the context of
+dynamic programming over random data, and Monte Carlo simulations for the
+Kauffman-Levin NK model are consistent with the conjecture. This work is a
+technical contribution to a broad program initiated in Aldous-Percus (2003) of
+relating such scaling exponents to the algorithmic difficulty of optimization
+problems.

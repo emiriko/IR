@@ -1,0 +1,9 @@
+Improving the structure and analysis in \cite{elm0}, we give a variation of
+the pairing heaps that has amortized zero cost per meld (compared to an $O(\log
+\log{n})$ in \cite{elm0}) and the same amortized bounds for all other
+operations. More precisely, the new pairing heap requires: no cost per meld,
+O(1) per find-min and insert, $O(\log{n})$ per delete-min, and $O(\log\log{n})$
+per decrease-key. These bounds are the best known for any self-adjusting heap,
+and match the lower bound proved by Fredman for a family of such heaps.
+Moreover, the changes we have done make our structure even simpler than that in
+\cite{elm0}.

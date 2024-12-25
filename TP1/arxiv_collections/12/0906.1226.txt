@@ -1,0 +1,13 @@
+This paper derives strong relations that boundary curves of a smooth complex
+of patches have to obey when the patches are computed by local averaging. These
+relations restrict the choice of reparameterizations for geometric continuity.
+In particular, when one bicubic tensor-product B-spline patch is associated
+with each facet of a quadrilateral mesh with n-valent vertices and we do not
+want segments of the boundary curves forced to be linear, then the relations
+dictate the minimal number and multiplicity of knots: For general data, the
+tensor-product spline patches must have at least two internal double knots per
+edge to be able to model a G^1-conneced complex of C^1 splines. This lower
+bound on the complexity of any construction is proven to be sharp by suitably
+interpreting an existing surface construction. That is, we have a tight bound
+on the complexity of smoothing quad meshes with bicubic tensor-product B-spline
+patches.

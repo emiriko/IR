@@ -1,0 +1,22 @@
+We consider the problem of rate and power allocation in a multiple-access
+channel. Our objective is to obtain rate and power allocation policies that
+maximize a general concave utility function of average transmission rates on
+the information theoretic capacity region of the multiple-access channel. Our
+policies does not require queue-length information. We consider several
+different scenarios. First, we address the utility maximization problem in a
+nonfading channel to obtain the optimal operating rates, and present an
+iterative gradient projection algorithm that uses approximate projection. By
+exploiting the polymatroid structure of the capacity region, we show that the
+approximate projection can be implemented in time polynomial in the number of
+users. Second, we consider resource allocation in a fading channel. Optimal
+rate and power allocation policies are presented for the case that power
+control is possible and channel statistics are available. For the case that
+transmission power is fixed and channel statistics are unknown, we propose a
+greedy rate allocation policy and provide bounds on the performance difference
+of this policy and the optimal policy in terms of channel variations and
+structure of the utility function. We present numerical results that
+demonstrate superior convergence rate performance for the greedy policy
+compared to queue-length based policies. In order to reduce the computational
+complexity of the greedy policy, we present approximate rate allocation
+policies which track the greedy policy within a certain neighborhood that is
+characterized in terms of the speed of fading.

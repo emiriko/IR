@@ -1,0 +1,17 @@
+We study synchronization in the context of network traffic on a $2-d$
+communication network with local clustering and geographic separations. The
+network consists of nodes and randomly distributed hubs where the top five hubs
+ranked according to their coefficient of betweenness centrality (CBC) are
+connected by random assortative and gradient mechanisms. For multiple message
+traffic, messages can trap at the high CBC hubs, and congestion can build up on
+the network with long queues at the congested hubs. The queue lengths are seen
+to synchronize in the congested phase. Both complete and phase synchronization
+is seen, between pairs of hubs. In the decongested phase, the pairs start
+clearing, and synchronization is lost. A cascading master-slave relation is
+seen between the hubs, with the slower hubs (which are slow to decongest)
+driving the faster ones. These are usually the hubs of high CBC. Similar
+results are seen for traffic of constant density. Total synchronization between
+the hubs of high CBC is also seen in the congested regime. Similar behavior is
+seen for traffic on a network constructed using the Waxman random topology
+generator. We also demonstrate the existence of phase synchronization in real
+Internet traffic data.

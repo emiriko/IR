@@ -1,0 +1,15 @@
+Barrett, Hardy, and Kent have shown in 2005 that protocols for quantum key
+agreement exist the security of which can be proven under the assumption that
+quantum or relativity theory is correct. More precisely, this is based on the
+non-local behavior of certain quantum systems, combined with the non-signaling
+postulate from relativity. An advantage is that the resulting security is
+independent of what (quantum) systems the legitimate parties' devices operate
+on: they do not have to be trusted. Unfortunately, the protocol proposed by
+Barrett et al. cannot tolerate any errors caused by noise in the quantum
+channel. Furthermore, even in the error-free case it is inefficient: its
+communication complexity is Theta(1/epsilon) when forcing the attacker's
+information below epsilon, even if only a single key bit is generated.
+Potentially, the problem can be solved by privacy amplification of relativistic
+- or non-signaling - secrecy. We show, however, that such privacy amplification
+is impossible with respect to the most important form of non-local behavior,
+and application of arbitrary hash functions.

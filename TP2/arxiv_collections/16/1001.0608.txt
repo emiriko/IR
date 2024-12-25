@@ -1,0 +1,14 @@
+In this paper we consider the problem of testing whether two finite groups
+are isomorphic. Whereas the case where both groups are abelian is well
+understood and can be solved efficiently, very little is known about the
+complexity of isomorphism testing for nonabelian groups. Le Gall has
+constructed an efficient classical algorithm for a class of groups
+corresponding to one of the most natural ways of constructing nonabelian groups
+from abelian groups: the groups that are extensions of an abelian group $A$ by
+a cyclic group $Z_m$ with the order of $A$ coprime with $m$. More precisely,
+the running time of that algorithm is almost linear in the order of the input
+groups. In this paper we present a quantum algorithm solving the same problem
+in time polynomial in the logarithm of the order of the input groups. This
+algorithm works in the black-box setting and is the first quantum algorithm
+solving instances of the nonabelian group isomorphism problem exponentially
+faster than the best known classical algorithms.

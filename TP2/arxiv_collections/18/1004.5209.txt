@@ -1,0 +1,12 @@
+A convex optimization based method is proposed for quantum process
+tomography, in the case of known channel model structure, but unknown channel
+parameters. The main idea is to select an affine parametrization of the Choi
+matrix as a set of optimization variables, and formulate a semidefinite
+programming problem with a least squares objective function. Possible convex
+relations between the optimization variables are also taken into account to
+improve the estimation. Simulation case studies show, that the proposed method
+can significantly increase the accuracy of the parameter estimation, if the
+channel model structure is known. Beside the convex part, the determination of
+the channel parameters from the optimization variables is a nonconvex step in
+general. In the case of Pauli channels however, the method reduces to a purely
+convex optimization problem, allowing to obtain a globally optimal solution.

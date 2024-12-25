@@ -1,0 +1,10 @@
+Kosaraju in ``Computation of squares in a string'' briefly described a
+linear-time algorithm for computing the minimal squares starting at each
+position in a word. Using the same construction of suffix trees, we generalize
+his result and describe in detail how to compute in O(k|w|)-time the minimal
+k-th power, with period of length larger than s, starting at each position in a
+word w for arbitrary exponent $k\geq2$ and integer $s\geq0$. We provide the
+complete proof of correctness of the algorithm, which is somehow not completely
+clear in Kosaraju's original paper. The algorithm can be used as a sub-routine
+to detect certain types of pseudo-patterns in words, which is our original
+intention to study the generalization.

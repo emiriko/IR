@@ -1,0 +1,10 @@
+We present a Monte Carlo method that allows efficient and unbiased sampling
+of Hamiltonian walks on a cubic lattice. Such walks are self-avoiding and visit
+each lattice site exactly once. They are often used as simple models of
+globular proteins, upon adding suitable local interactions. Our algorithm can
+easily be equipped with such interactions, but we study here mainly the
+flexible homopolymer case where each conformation is generated with uniform
+probability. We argue that the algorithm is ergodic and has dynamical exponent
+z=0. We then use it to study polymers of size up to 64^3 = 262144 monomers.
+Results are presented for the effective interaction between end points, and the
+interaction with the boundaries of the system.

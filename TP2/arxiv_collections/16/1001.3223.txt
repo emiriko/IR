@@ -1,0 +1,13 @@
+We present a multivariate stochastic volatility model with leverage, which is
+flexible enough to recapture the individual dynamics as well as the
+interdependencies between several assets while still being highly analytically
+tractable.
+  First we derive the characteristic function and give conditions that ensure
+its analyticity and absolute integrability in some open complex strip around
+zero. Therefore we can use Fourier methods to compute the prices of multi-asset
+options efficiently. To show the applicability of our results, we propose a
+concrete specification, the OU-Wishart model, where the dynamics of each
+individual asset coincide with the popular Gamma-OU BNS model. This model can
+be well calibrated to market prices, which we illustrate with an example using
+options on the exchange rates of some major currencies. Finally, we show that
+covariance swaps can also be priced in closed form.

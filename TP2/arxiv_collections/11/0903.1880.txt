@@ -1,0 +1,24 @@
+The general linear model (GLM) is a well established tool for analyzing
+functional magnetic resonance imaging (fMRI) data. Most fMRI analyses via GLM
+proceed in a massively univariate fashion where the same design matrix is used
+for analyzing data from each voxel. A major limitation of this approach is the
+locally varying nature of signals of interest as well as associated confounds.
+This local variability results in a potentially large bias and uncontrolled
+increase in variance for the contrast of interest. The main contributions of
+this paper are two fold (1) We develop a statistical framework called SMART
+that enables estimation of an optimal design matrix while explicitly
+controlling the bias variance decomposition over a set of potential design
+matrices and (2) We develop and validate a numerical algorithm for computing
+optimal design matrices for general fMRI data sets. The implications of this
+framework include the ability to match optimally the magnitude of underlying
+signals to their true magnitudes while also matching the "null" signals to zero
+size thereby optimizing both the sensitivity and specificity of signal
+detection. By enabling the capture of multiple profiles of interest using a
+single contrast (as opposed to an F-test) in a way that optimizes for both bias
+and variance enables the passing of first level parameter estimates and their
+variances to the higher level for group analysis which is not possible using
+F-tests. We demonstrate the application of this approach to in vivo
+pharmacological fMRI data capturing the acute response to a drug infusion, to
+task-evoked, block design fMRI and to the estimation of a haemodynamic response
+function (HRF) response in event-related fMRI. Our framework is quite general
+and has potentially wide applicability to a variety of disciplines.

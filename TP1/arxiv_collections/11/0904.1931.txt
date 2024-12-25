@@ -1,0 +1,17 @@
+Subspace clustering has gained increasing popularity in the analysis of gene
+expression data. Among subspace cluster models, the recently introduced
+order-preserving sub-matrix (OPSM) has demonstrated high promise. An OPSM,
+essentially a pattern-based subspace cluster, is a subset of rows and columns
+in a data matrix for which all the rows induce the same linear ordering of
+columns. Existing OPSM discovery methods do not scale well to increasingly
+large expression datasets. In particular, twig clusters having few genes and
+many experiments incur explosive computational costs and are completely pruned
+off by existing methods. However, it is of particular interest to determine
+small groups of genes that are tightly coregulated across many conditions. In
+this paper, we present KiWi, an OPSM subspace clustering algorithm that is
+scalable to massive datasets, capable of discovering twig clusters and
+identifying negative as well as positive correlations. We extensively validate
+KiWi using relevant biological datasets and show that KiWi correctly assigns
+redundant probes to the same cluster, groups experiments with common clinical
+annotations, differentiates real promoter sequences from negative control
+sequences, and shows good association with cis-regulatory motif predictions.

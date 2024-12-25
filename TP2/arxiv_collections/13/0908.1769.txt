@@ -1,0 +1,6 @@
+This work describes a method of approximating matrix permanents efficiently
+using belief propagation. We formulate a probability distribution whose
+partition function is exactly the permanent, then use Bethe free energy to
+approximate this partition function. After deriving some speedups to standard
+belief propagation, the resulting algorithm requires $(n^2)$ time per
+iteration. Finally, we demonstrate the advantages of using this approximation.

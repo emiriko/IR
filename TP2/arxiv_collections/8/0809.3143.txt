@@ -1,0 +1,22 @@
+Quantum impurity models describe interactions between some local degrees of
+freedom and a continuum of non-interacting fermionic or bosonic states. The
+investigation of quantum impurity models is a starting point towards the
+understanding of more complex strongly correlated systems, but quantum impurity
+models also provide the description of various correlated mesoscopic
+structures, biological and chemical processes, atomic physics and describe
+phenomena such as dissipation or dephasing. Prototypes of these models are the
+Anderson impurity model, or the single- and multi-channel Kondo models. The
+numerical renormalization group method (NRG) proposed by Wilson in mid 70's has
+been used in its original form for a longtime as one of the most accurate and
+powerful methods to deal with quatum impurity problems. Recently, a number of
+new developments took place: First, a spectral sum-conserving density matrix
+NRG approach (DM-NRG) has been developed, which has also been generalized for
+non-Abelian symmetries. In this manual we introduce some of the basic concepts
+of the NRG method and present recently developed Flexible DM-NRG code. This
+code uses user-defined non-Abelian symmetries dynamically, computes spectral
+functions, expectation values of local operators for user-defined impurity
+models. The code can also use a uniform density of states as well as a
+user-defined density of states. The current version of the code assumes
+fermionic bath's and it uses any number of U(1), SU(2) charge SU(2) or Z(2)
+symmetries. The Flexible DM-NRG code can be downloaded from
+http://www.phy.bme.hu/~dmnrg

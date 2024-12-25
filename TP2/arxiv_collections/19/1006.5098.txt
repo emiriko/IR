@@ -1,0 +1,9 @@
+We present a semantics based framework for analysing the quantitative
+behaviour of programs with regard to resource usage. We start from an
+operational semantics equipped with costs. The dioid structure of the set of
+costs allows for defining the quantitative semantics as a linear operator. We
+then present an abstraction technique inspired from abstract interpretation in
+order to effectively compute global cost information from the program.
+Abstraction has to take two distinct notions of order into account: the order
+on costs and the order on states. We show that our abstraction technique
+provides a correct approximation of the concrete cost computations.

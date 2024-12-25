@@ -1,0 +1,17 @@
+The intrinsic mode function (IMF) provides adaptive function bases for
+nonlinear and non-stationary time series data. A fast convergent iterative
+method is introduced in this paper to find the IMF components of the data, the
+method is faster and more predictable than the Empirical Mode Decomposition
+method devised by the author of Hilbert Huang Transform. The approach is to
+iteratively adjust the control points on the data function corresponding to the
+extrema of the refining IMF, the control points of the residue function are
+calculated as the median of the straight line segments passing through the data
+control points, the residue function is then constructed as the cubic spline
+function of the median points. The initial residue function is simply
+constructed as the straight line segments passing through the extrema of the
+first derivative of the data function. The refining IMF is the difference
+between the data function and the improved residue function. The IMF found
+reveals all the riding waves in the whole data set. A new data filtering method
+on frequency and amplitude of IMF is also presented with the similar approach
+of finding the residue on the part to be filtered out. The program to
+demonstrate the method is distributed under BSD open source license.

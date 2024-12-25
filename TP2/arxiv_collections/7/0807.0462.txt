@@ -1,0 +1,12 @@
+The sun is the graph obtained from a cycle of length even and at least six by
+adding edges to make the even-indexed vertices pairwise adjacent. Suns play an
+important role in the study of strongly chordal graphs. A graph is chordal if
+it does not contain an induced cycle of length at least four. A graph is
+strongly chordal if it is chordal and every even cycle has a chord joining
+vertices whose distance on the cycle is odd. Farber proved that a graph is
+strongly chordal if and only if it is chordal and contains no induced suns.
+There are well known polynomial-time algorithms for recognizing a sun in a
+chordal graph. Recently, polynomial-time algorithms for finding a sun for a
+larger class of graphs, the so-called HHD-free graphs, have been discovered. In
+this paper, we prove the problem of deciding whether an arbitrary graph
+contains a sun in NP-complete.

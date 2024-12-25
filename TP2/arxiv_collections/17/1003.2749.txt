@@ -1,0 +1,19 @@
+Recently there has been considerable interest in the design of efficient
+carrier sense multiple access(CSMA) protocol for wireless network. The basic
+assumption underlying recent results is availability of perfect carrier sense
+information. This allows for design of continuous time algorithm under which
+collisions are avoided. The primary purpose of this note is to show how these
+results can be extended in the case when carrier sense information may not be
+perfect, or equivalently delayed. Specifically, an adaptation of algorithm in
+Rajagopalan, Shah, Shin (2009) is presented here for time slotted setup with
+carrier sense information available only at the end of the time slot. To
+establish its throughput optimality, in additon to method developed in
+Rajagopalan, Shah, Shin (2009), understanding properties of stationary
+distribution of a certain non-reversible Markov chain as well as bound on its
+mixing time is essential. This note presents these key results. A longer
+version of this note will provide detailed account of how this gets
+incorporated with methods of Rajagopalan, Shah, Shin (2009) to provide the
+positive recurrence of underlying network Markov process. In addition, these
+results will help design optimal rate control in conjunction with CSMA in
+presence of collision building upon the method of Jiang, Shah, Shin, Walrand
+(2009).

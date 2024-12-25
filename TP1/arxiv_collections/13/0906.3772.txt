@@ -1,0 +1,17 @@
+Data integrity is the fundamental for data authentication. A major problem
+for XML data authentication is that signed XML data can be copied to another
+document but still keep signature valid. This is caused by XML data integrity
+protecting. Through investigation, the paper discovered that besides data
+content integrity, XML data integrity should also protect element location
+information, and context referential integrity under fine-grained security
+situation. The aim of this paper is to propose a model for XML data integrity
+considering XML data features. The paper presents an XML data integrity model
+named as CSR (content integrity, structure integrity, context referential
+integrity) based on a concatenated hash function. XML data content integrity is
+ensured using an iterative hash process, structure integrity is protected by
+hashing an absolute path string from root node, and context referential
+integrity is ensured by protecting context-related elements. Presented XML data
+integrity model can satisfy integrity requirements under situation of
+fine-grained security, and compatible with XML signature. Through evaluation,
+the integrity model presented has a higher efficiency on digest
+value-generation than the Merkle hash tree-based integrity model for XML data.

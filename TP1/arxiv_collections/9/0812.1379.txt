@@ -1,0 +1,23 @@
+The distributed (Delta + 1)-coloring problem is one of most fundamental and
+well-studied problems of Distributed Algorithms. Starting with the work of Cole
+and Vishkin in 86, there was a long line of gradually improving algorithms
+published. The current state-of-the-art running time is O(Delta log Delta +
+log^* n), due to Kuhn and Wattenhofer, PODC'06. Linial (FOCS'87) has proved a
+lower bound of 1/2 \log^* n for the problem, and Szegedy and Vishwanathan
+(STOC'93) provided a heuristic argument that shows that algorithms from a wide
+family of locally iterative algorithms are unlikely to achieve running time
+smaller than \Theta(Delta log Delta).
+  We present a deterministic (Delta + 1)-coloring distributed algorithm with
+running time O(Delta) + 1/2 log^* n. We also present a tradeoff between the
+running time and the number of colors, and devise an O(Delta * t)-coloring
+algorithm with running time O(Delta / t + \log^* n), for any parameter t, 1 < t
+< Delta^{1-epsilon}, for an arbitrarily small constant epsilon, 0 < epsilon <
+1.
+  On the way to this result we study a generalization of the notion of graph
+coloring, which is called defective coloring. In an m-defective p-coloring the
+vertices are colored with p colors so that each vertex has up to m neighbors
+with the same color. We show that an m-defective p-coloring with reasonably
+small m and p can be computed very efficiently. We also develop a technique to
+employ multiple defect colorings of various subgraphs of the original graph G
+for computing a (Delta+1)-coloring of G. We believe that these techniques are
+of independent interest.

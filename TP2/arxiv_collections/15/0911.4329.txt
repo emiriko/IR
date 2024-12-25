@@ -1,0 +1,11 @@
+XML keyword search is a user-friendly way to query XML data using only
+keywords. In XML keyword search, to achieve high precision without sacrificing
+recall, it is important to remove spurious results not intended by the user.
+Efforts to eliminate spurious results have enjoyed some success by using the
+concepts of LCA or its variants, SLCA and MLCA. However, existing methods still
+could find many spurious results. The fundamental cause for the occurrence of
+spurious results is that the existing methods try to eliminate spurious results
+locally without global examination of all the query results and, accordingly,
+some spurious results are not consistently eliminated. In this paper, we
+propose a novel keyword search method that removes spurious results
+consistently by exploiting the new concept of structural consistency.

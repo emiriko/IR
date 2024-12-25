@@ -1,0 +1,15 @@
+In this report we focus on some aspects related to modeling and formal
+verification of embedded systems. Many models have been proposed to represent
+embedded systems. These models encompass a broad range of styles,
+characteristics, and application domains and include the extensions of finite
+state machines, data flow graphs, communication processes and Petri nets. In
+this report, we have used a PRES+ model (Petri net based Representation for
+Embedded Systems) as an extension of classical Petri net model that captures
+concurrency, timing behaviour of embedded systems; it allows systems to be
+representative in different levels of abstraction and improves expressiveness
+by allowing the token to carry information. Modeling using PRES+, as discussed
+above, may be convenient for specifying the input behaviour because it supports
+concurrency. However, there is no equivalence checking method reported in the
+literature for PRES+ models to the best of our knowledge. In contrast,
+equivalence checking of FSMD models exist. As a first step, therefore, we seek
+to devise an algorithm to translate PRES+ models to FSMD models.

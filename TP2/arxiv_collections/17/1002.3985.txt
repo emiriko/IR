@@ -1,0 +1,14 @@
+In this paper, an algorithm is proposed for Image Restoration. Such algorithm
+is different from the traditional approaches in this area, by utilizing priors
+that are learned from similar images. Original images and their degraded
+versions by the known degradation operators are utilized for designing the
+Quantization. The code vectors are designed using the blurred images. For each
+such vector, the high frequency information obtained from the original images
+is also available. During restoration, the high frequency information of a
+given degraded image is estimated from its low frequency information based on
+the artificial noise. For the restoration problem, a number of techniques are
+designed corresponding to various versions of the blurring function. Given a
+noisy and blurred image, one of the techniques is chosen based on a similarity
+measure, therefore providing the identification of the blur. To make the
+restoration process computationally efficient, the Quantization Nearest
+Neighborhood approaches are utilized.

@@ -1,0 +1,21 @@
+For two or more classes (or types) of points, nearest neighbor contingency
+tables (NNCTs) are constructed using nearest neighbor (NN) frequencies and are
+used in testing spatial segregation of the classes. Pielou's test of
+independence, Dixon's cell-specific, class-specific, and overall tests are the
+tests based on NNCTs (i.e., they are NNCT-tests). These tests are designed and
+intended for use under the null pattern of random labeling (RL) of completely
+mapped data. However, it has been shown that Pielou's test is not appropriate
+for testing segregation against the RL pattern while Dixon's tests are. In this
+article, we compare Pielou's and Dixon's NNCT-tests; introduce the one-sided
+versions of Pielou's test; extend the use of NNCT-tests for testing complete
+spatial randomness (CSR) of points from two or more classes (which is called
+\emph{CSR independence}, henceforth). We assess the finite sample performance
+of the tests by an extensive Monte Carlo simulation study and demonstrate that
+Dixon's tests are also appropriate for testing CSR independence; but Pielou's
+test and the corresponding one-sided versions are liberal for testing CSR
+independence or RL. Furthermore, we show that Pielou's tests are only
+appropriate when the NNCT is based on a random sample of (base, NN) pairs. We
+also prove the consistency of the tests under their appropriate null
+hypotheses. Moreover, we investigate the edge (or boundary) effects on the
+NNCT-tests and compare the buffer zone and toroidal edge correction methods for
+these tests. We illustrate the tests on a real life and an artificial data set.

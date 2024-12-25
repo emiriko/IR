@@ -1,0 +1,15 @@
+For many expensive deterministic computer simulators, the outputs do not have
+replication error and the desired metamodel (or statistical emulator) is an
+interpolator of the observed data. Realizations of Gaussian spatial processes
+(GP) are commonly used to model such simulator outputs. Fitting a GP model to
+$n$ data points requires the computation of the inverse and determinant of $n
+\times n$ correlation matrices, $R$, that are sometimes computationally
+unstable due to near-singularity of $R$. This happens if any pair of design
+points are very close together in the input space. The popular approach to
+overcome near-singularity is to introduce a small nugget (or jitter) parameter
+in the model that is estimated along with other model parameters. The inclusion
+of a nugget in the model often causes unnecessary over-smoothing of the data.
+In this paper, we propose a lower bound on the nugget that minimizes the
+over-smoothing and an iterative regularization approach to construct a
+predictor that further improves the interpolation accuracy. We also show that
+the proposed predictor converges to the GP interpolator.

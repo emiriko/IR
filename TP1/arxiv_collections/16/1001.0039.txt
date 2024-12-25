@@ -1,0 +1,17 @@
+The recently released Chandra Transmission Grating Catalog and Archive,
+TGCat, presents a fully dynamic on-line catalog allowing users to browse and
+categorize Chandra gratings observations quickly and easily, generate custom
+plots of resulting response corrected spectra on-line without the need for
+special software and to download analysis ready products from multiple
+observations in one convenient operation. TGCat has been registered as a VO
+resource with the NVO providing direct access to the catalogs interface. The
+catalog is supported by a back-end designed to automatically fetch newly public
+data, process, archive and catalog them, At the same time utilizing an advanced
+queue system integrated into the archive's MySQL database allowing large
+processing projects to take advantage of an unlimited number of CPUs across a
+network for rapid completion. A unique feature of the catalog is that all of
+the high level functions used to retrieve inputs from the Chandra archive and
+to generate the final data products are available to the user in an ISIS
+written library with detailed documentation. Here we present a structural
+overview of the Systems, Design, and Accessibility features of the catalog and
+archive.

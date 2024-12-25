@@ -1,0 +1,17 @@
+We demonstrate the use of a multidimensional extension of the latent Markov
+model to analyse data from studies with correlated binary responses in
+developmental psychology. In particular, we consider an experiment based on a
+battery of tests which was administered to pre-school children, at three time
+periods, in order to measure their inhibitory control and attentional
+flexibility abilities. Our model represents these abilities by two latent
+traits which are associated to each state of a latent Markov chain. The
+conditional distribution of the tests outcomes given the latent process depends
+on these abilities through a multidimensional two-parameter logistic
+parameterisation. We outline an EM algorithm to conduct likelihood inference on
+the model parameters; we also focus on likelihood ratio testing of hypotheses
+on the dimensionality of the model and on the transition matrices of the latent
+process. Through the approach based on the proposed model, we find evidence
+that supports that inhibitory control and attentional flexibility can be
+conceptualised as distinct constructs. Furthermore, we outline developmental
+aspects of participants' performance on these abilities based on inspection of
+the estimated transition matrices.

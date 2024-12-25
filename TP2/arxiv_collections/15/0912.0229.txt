@@ -1,0 +1,16 @@
+An approximate sparse recovery system consists of parameters $k,N$, an
+$m$-by-$N$ measurement matrix, $\Phi$, and a decoding algorithm, $\mathcal{D}$.
+Given a vector, $x$, the system approximates $x$ by $\widehat x
+=\mathcal{D}(\Phi x)$, which must satisfy $\| \widehat x - x\|_2\le C \|x -
+x_k\|_2$, where $x_k$ denotes the optimal $k$-term approximation to $x$. For
+each vector $x$, the system must succeed with probability at least 3/4. Among
+the goals in designing such systems are minimizing the number $m$ of
+measurements and the runtime of the decoding algorithm, $\mathcal{D}$.
+  In this paper, we give a system with $m=O(k \log(N/k))$
+measurements--matching a lower bound, up to a constant factor--and decoding
+time $O(k\log^c N)$, matching a lower bound up to $\log(N)$ factors.
+  We also consider the encode time (i.e., the time to multiply $\Phi$ by $x$),
+the time to update measurements (i.e., the time to multiply $\Phi$ by a
+1-sparse $x$), and the robustness and stability of the algorithm (adding noise
+before and after the measurements). Our encode and update times are optimal up
+to $\log(N)$ factors.

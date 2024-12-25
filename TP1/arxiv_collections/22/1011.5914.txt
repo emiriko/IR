@@ -1,0 +1,20 @@
+In this paper we study the strengths and limitations of collaborative teams
+of simple agents. In particular, we discuss the efficient use of "ant robots"
+for covering a connected region on the Z^{2} grid, whose area is unknown in
+advance, and which expands at a given rate, where $n$ is the initial size of
+the connected region.
+  We show that regardless of the algorithm used, and the robots' hardware and
+software specifications, the minimal number of robots required in order for
+such coverage to be possible is \Omega({\sqrt{n}}).
+  In addition, we show that when the region expands at a sufficiently slow
+rate, a team of \Theta(\sqrt{n}) robots could cover it in at most O(n^{2} \ln
+n) time.
+  This completion time can even be achieved by myopic robots, with no ability
+to directly communicate with each other, and where each robot is equipped with
+a memory of size O(1) bits w.r.t the size of the region (therefore, the robots
+cannot maintain maps of the terrain, nor plan complete paths).
+  Regarding the coverage of non-expanding regions in the grid, we improve the
+current best known result of O(n^{2}) by demonstrating an algorithm that
+guarantees such a coverage with completion time of O(\frac{1}{k} n^{1.5} + n)
+in the worst case, and faster for shapes of perimeter length which is shorter
+than O(n).

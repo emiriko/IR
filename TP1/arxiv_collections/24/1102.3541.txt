@@ -1,0 +1,8 @@
+Weighted Monte Carlo prices exotic options calibrating the probabilities of
+previously generated paths by a regular Monte Carlo to fit a set of option
+premiums. When only vanilla call and put options and forward prices are
+considered, the Martingale condition might not be preserved. This paper shows
+that this is indeed the case and overcomes the problem by adding additional
+synthetic options. A robust, fast and easy-to-implement calibration algorithm
+is presented. The results are illustrated with a geometric cliquet option which
+shows how the price impact can be significant.

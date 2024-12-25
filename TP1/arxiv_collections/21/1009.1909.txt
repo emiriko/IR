@@ -1,0 +1,12 @@
+In this paper, we study optimal experimental design problems with a broad
+class of smooth convex optimality criteria, including the classical A-, D- and
+p th mean criterion. In particular, we propose an interior point (IP) method
+for them and establish its global convergence. Furthermore, by exploiting the
+structure of the Hessian matrix of the aforementioned optimality criteria, we
+derive an explicit formula for computing its rank. Using this result, we then
+show that the Newton direction arising in the IP method can be computed
+efficiently via Sherman-Morrison-Woodbury formula when the size of the moment
+matrix is small relative to the sample size. Finally, we compare our IP method
+with the widely used multiplicative algorithm introduced by Silvey et al. [29].
+The computational results show that the IP method generally outperforms the
+multiplicative algorithm both in speed and solution quality.

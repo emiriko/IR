@@ -1,0 +1,13 @@
+In this paper we propose a new design of LT codes, which decreases the amount
+of necessary overhead in comparison to existing designs. The design focuses on
+a parameter of the LT decoding process called the ripple size. This parameter
+was also a key element in the design proposed in the original work by Luby.
+Specifically, Luby argued that an LT code should provide a constant ripple size
+during decoding. In this work we show that the ripple size should decrease
+during decoding, in order to reduce the necessary overhead. Initially we
+motivate this claim by analytical results related to the redundancy within an
+LT code. We then propose a new design procedure, which can provide any desired
+achievable decreasing ripple size. The new design procedure is evaluated and
+compared to the current state of the art through simulations. This reveals a
+significant increase in performance with respect to both average overhead and
+error probability at any fixed overhead.

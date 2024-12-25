@@ -1,0 +1,23 @@
+Logic programming under the answer-set semantics nowadays deals with numerous
+different notions of program equivalence. This is due to the fact that
+equivalence for substitution (known as strong equivalence) and ordinary
+equivalence are different concepts. The former holds, given programs P and Q,
+iff P can be faithfully replaced by Q within any context R, while the latter
+holds iff P and Q provide the same output, that is, they have the same answer
+sets. Notions in between strong and ordinary equivalence have been introduced
+as theoretical tools to compare incomplete programs and are defined by either
+restricting the syntactic structure of the considered context programs R or by
+bounding the set A of atoms allowed to occur in R (relativized equivalence).For
+the latter approach, different A yield properly different equivalence notions,
+in general. For the former approach, however, it turned out that any
+``reasonable'' syntactic restriction to R coincides with either ordinary,
+strong, or uniform equivalence. In this paper, we propose a parameterization
+for equivalence notions which takes care of both such kinds of restrictions
+simultaneously by bounding, on the one hand, the atoms which are allowed to
+occur in the rule heads of the context and, on the other hand, the atoms which
+are allowed to occur in the rule bodies of the context. We introduce a general
+semantical characterization which includes known ones as SE-models (for strong
+equivalence) or UE-models (for uniform equivalence) as special cases.
+Moreover,we provide complexity bounds for the problem in question and sketch a
+possible implementation method.
+  To appear in Theory and Practice of Logic Programming (TPLP).

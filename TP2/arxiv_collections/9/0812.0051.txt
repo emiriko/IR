@@ -1,0 +1,15 @@
+A new method of bandwidth selection for kernel density estimators is
+proposed. The method, termed indirect cross-validation, or ICV, makes use of
+so-called selection kernels. Least squares cross-validation (LSCV) is used to
+select the bandwidth of a selection-kernel estimator, and this bandwidth is
+appropriately rescaled for use in a Gaussian kernel estimator. The proposed
+selection kernels are linear combinations of two Gaussian kernels, and need not
+be unimodal or positive. Theory is developed showing that the relative error of
+ICV bandwidths can converge to 0 at a rate of $n^{-1/4}$, which is
+substantially better than the $n^{-1/10}$ rate of LSCV. Interestingly, the
+selection kernels that are best for purposes of bandwidth selection are very
+poor if used to actually estimate the density function. This property appears
+to be part of the larger and well-documented paradox to the effect that "the
+harder the estimation problem, the better cross-validation performs." The ICV
+method uniformly outperforms LSCV in a simulation study, a real data example,
+and a simulated example in which bandwidths are chosen locally.

@@ -1,0 +1,10 @@
+Let $\{X_n\}_{n=0}^{\infty}$ be a stationary real-valued time series with
+unknown distribution. Our goal is to estimate the conditional expectation of
+$X_{n+1}$ based on the observations $X_i$, $0\le i\le n$ in a strongly
+consistent way. Bailey and Ryabko proved that this is not possible even for
+ergodic binary time series if one estimates at all values of $n$. We propose a
+very simple algorithm which will make prediction infinitely often at carefully
+selected stopping times chosen by our rule. We show that under certain
+conditions our procedure is strongly (pointwise) consistent, and $L_2$
+consistent without any condition. An upper bound on the growth of the stopping
+times is also presented in this paper.

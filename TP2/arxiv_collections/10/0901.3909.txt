@@ -1,0 +1,10 @@
+In the original BB84 protocol by Bennett and Brassard, an eavesdropper is
+detected because his attempts to intercept information result in a quantum bit
+error rate (QBER) of at least 25%. Here we design an alternative quantum key
+distribution protocol, where Alice and Bob use two mutually unbiased bases with
+one of them encoding a "0" and the other one encoding a "1." The security of
+the scheme is due to a minimum index transmission error rate (ITER) introduced
+by an eavesdropper which increases significantly for higher-dimensional photon
+states. This allows for more noise in the transmission line, thereby increasing
+the possible distance between Alice and Bob without the need for intermediate
+nodes.

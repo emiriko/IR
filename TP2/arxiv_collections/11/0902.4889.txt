@@ -1,0 +1,11 @@
+We exploit a recently constructed mapping between quantum circuits and graphs
+in order to prove that circuits corresponding to certain planar graphs can be
+efficiently simulated classically. The proof uses an expression for the Ising
+model partition function in terms of quadratically signed weight enumerators
+(QWGTs), which are polynomials that arise naturally in an expansion of quantum
+circuits in terms of rotations involving Pauli matrices. We combine this
+expression with a known efficient classical algorithm for the Ising partition
+function of any planar graph in the absence of an external magnetic field, and
+the Robertson-Seymour theorem from graph theory. We give as an example a set of
+quantum circuits with a small number of non-nearest neighbor gates which admit
+an efficient classical simulation.

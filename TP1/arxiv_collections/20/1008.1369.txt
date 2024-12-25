@@ -1,0 +1,9 @@
+In certain approaches to quantum computing the operations between qubits are
+non-deterministic and likely to fail. For example, a distributed quantum
+processor would achieve scalability by networking together many small
+components; operations between components should assumed to be failure prone.
+In the logical limit of this architecture each component contains only one
+qubit. Here we derive thresholds for fault tolerant quantum computation under
+such extreme paradigms. We find that computation is supported for remarkably
+high failure rates (exceeding 90%) providing that failures are heralded,
+meanwhile the rate of unknown errors should not exceed 2 in 10^4 operations.

@@ -1,0 +1,22 @@
+Hash tables are one of the most fundamental data structures in computer
+science, in both theory and practice. They are especially useful in external
+memory, where their query performance approaches the ideal cost of just one
+disk access. Knuth gave an elegant analysis showing that with some simple
+collision resolution strategies such as linear probing or chaining, the
+expected average number of disk I/Os of a lookup is merely $1+1/2^{\Omega(b)}$,
+where each I/O can read a disk block containing $b$ items. Inserting a new item
+into the hash table also costs $1+1/2^{\Omega(b)}$ I/Os, which is again almost
+the best one can do if the hash table is entirely stored on disk. However, this
+assumption is unrealistic since any algorithm operating on an external hash
+table must have some internal memory (at least $\Omega(1)$ blocks) to work
+with. The availability of a small internal memory buffer can dramatically
+reduce the amortized insertion cost to $o(1)$ I/Os for many external memory
+data structures. In this paper we study the inherent query-insertion tradeoff
+of external hash tables in the presence of a memory buffer. In particular, we
+show that for any constant $c>1$, if the query cost is targeted at
+$1+O(1/b^{c})$ I/Os, then it is not possible to support insertions in less than
+$1-O(1/b^{\frac{c-1}{4}})$ I/Os amortized, which means that the memory buffer
+is essentially useless. While if the query cost is relaxed to $1+O(1/b^{c})$
+I/Os for any constant $c<1$, there is a simple dynamic hash table with $o(1)$
+insertion cost. These results also answer the open question recently posed by
+Jensen and Pagh.

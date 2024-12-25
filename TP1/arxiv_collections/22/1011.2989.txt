@@ -1,0 +1,12 @@
+The aim of this paper is to propose an alternative method to solve a Fault
+Tolerant Control problem. The model is a linear system affected by a
+disturbance term: this represents a large class of technological faulty
+processes. The goal is to make the system able to tolerate the undesired
+perturbation, i.e., to remove or at least reduce its negative effects; such a
+task is performed in three steps: the detection of the fault, its
+identification and the consequent process recovery. When the disturbance
+function is known to be \emph{quantized} over a finite number of levels, the
+detection can be successfully executed by a recursive \emph{decoding}
+algorithm, arising from Information and Coding Theory and suitably adapted to
+the control framework. This technique is analyzed and tested in a flight
+control issue; both theoretical considerations and simulations are reported.

@@ -1,0 +1,12 @@
+Observing a stationary time series, we propose a two-step procedure for the
+prediction of the next value of the time series. The first step follows machine
+learning theory paradigm and consists in determining a set of possible
+predictors as randomized estimators in (possibly numerous) different predictive
+models. The second step follows the model selection paradigm and consists in
+choosing one predictor with good properties among all the predictors of the
+first steps. We study our procedure for two different types of bservations:
+causal Bernoulli shifts and bounded weakly dependent processes. In both cases,
+we give oracle inequalities: the risk of the chosen predictor is close to the
+best prediction risk in all predictive models that we consider. We apply our
+procedure for predictive models such as linear predictors, neural networks
+predictors and non-parametric autoregressive.

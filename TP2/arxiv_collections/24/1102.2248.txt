@@ -1,0 +1,22 @@
+Precise centroid estimation plays a critical role in accurate astrometry
+using telescope images. Conventional centroid estimation fits a template point
+spread function (PSF) to the image data. Because the PSF is typically not known
+to high accuracy due to wavefront aberrations and uncertainties in optical
+system, a simple Gaussian function is commonly used. PSF knowledge error leads
+to systematic errors in the conventional centroid estimation. In this paper, we
+present an accurate centroid estimation algorithm by reconstructing the PSF
+from well sampled (above Nyquist frequency) pixelated images. In the limit of
+an ideal focal plane array whose pixels have identical response function (no
+inter-pixel variation), this method can estimate centroid displacement between
+two 32$\times$32 images to sub-micropixel accuracy. Inter-pixel response
+variations exist in real detectors, {\it e.g.}~CCDs, which we can calibrate by
+measuring the pixel response of each pixel in Fourier space. The Fourier
+transforms of the inter-pixel variations of pixel response functions can be
+conveniently expressed in terms of powers of spatial wave numbers using their
+Taylor series expansions. Calibrating up to the third order terms in this
+expansion, we show that our centroid displacement estimation is accurate to a
+few micro-pixels using simulated data. This algorithm is applicable to the new
+proposed mission concept Nearest Earth Astrometry Telescope (NEAT) to achieve
+mirco-arcsecond accuracy in relative astrometry for detecting terrestrial
+exoplanets. This technology is also applicable to high precision photometry
+missions.

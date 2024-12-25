@@ -1,0 +1,12 @@
+Using a support vector machine requires to set two types of hyperparameters:
+the soft margin parameter C and the parameters of the kernel. To perform this
+model selection task, the method of choice is cross-validation. Its
+leave-one-out variant is known to produce an estimator of the generalization
+error which is almost unbiased. Its major drawback rests in its time
+requirement. To overcome this difficulty, several upper bounds on the
+leave-one-out error of the pattern recognition SVM have been derived. Among
+those bounds, the most popular one is probably the radius-margin bound. It
+applies to the hard margin pattern recognition SVM, and by extension to the
+2-norm SVM. In this report, we introduce a quadratic loss M-SVM, the M-SVM^2,
+as a direct extension of the 2-norm SVM to the multi-class case. For this
+machine, a generalized radius-margin bound is then established.

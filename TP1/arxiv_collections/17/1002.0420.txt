@@ -1,0 +1,11 @@
+We present a Hamiltonian quantum computation scheme universal for quantum
+computation (BQP). Our Hamiltonian is a sum of a polynomial number (in the
+number of gates L in the quantum circuit) of time-independent, constant-norm,
+2-local qubit-qubit interaction terms. Furthermore, each qubit in the system
+interacts only with a constant number of other qubits. The computer runs in
+three steps - starts in a simple initial product-state, evolves it for time of
+order L^2 (up to logarithmic factors) and wraps up with a two-qubit
+measurement. Our model differs from the previous universal 2-local Hamiltonian
+constructions in that it does not use perturbation gadgets, does not need large
+energy penalties in the Hamiltonian and does not need to run slowly to ensure
+adiabatic evolution.

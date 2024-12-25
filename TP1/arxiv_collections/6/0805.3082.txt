@@ -1,0 +1,14 @@
+The conditional distribution of the next outcome given the infinite past of a
+stationary process can be inferred from finite but growing segments of the
+past. Several schemes are known for constructing pointwise consistent
+estimates, but they all demand prohibitive amounts of input data. In this paper
+we consider real-valued time series and construct conditional distribution
+estimates that make much more efficient use of the input data. The estimates
+are consistent in a weak sense, and the question whether they are pointwise
+consistent is still open. For finite-alphabet processes one may rely on a
+universal data compression scheme like the Lempel-Ziv algorithm to construct
+conditional probability mass function estimates that are consistent in expected
+information divergence. Consistency in this strong sense cannot be attained in
+a universal sense for all stationary processes with values in an infinite
+alphabet, but weak consistency can. Some applications of the estimates to
+on-line forecasting, regression and classification are discussed.

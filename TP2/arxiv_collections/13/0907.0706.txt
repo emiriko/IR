@@ -1,0 +1,16 @@
+Asynchronous Variational Integrators (AVIs) have demonstrated long-time good
+energy behavior. It was previously conjectured that this remarkable property is
+due to their geometric nature: they preserve a discrete multisymplectic form.
+Previous proofs of AVIs' multisymplecticity assume that the potentials are of
+an elastic type, i.e., specified by volume integration over the material
+domain, an assumption violated by interaction-type potentials, such as penalty
+forces used to model mechanical contact. We extend the proof of AVI
+multisymplecticity, showing that AVIs remain multisymplectic under relaxed
+assumptions on the type of potential. The extended theory thus accommodates the
+simulation of mechanical contact in elastica (such as thin shells) and
+multibody systems (such as granular materials) with no drift of conserved
+quantities (energy, momentum) over long run times, using the algorithms in [3].
+We present data from a numerical experiment measuring the long time energy
+behavior of simulated contact, comparing the method built on multisymplectic
+integration of interaction potentials to recently proposed methods for thin
+shell contact.

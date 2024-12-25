@@ -1,0 +1,19 @@
+This report outlines the use of a relational representation in a Multi-Agent
+domain to model the behaviour of the whole system. A desired property in this
+systems is the ability of the team members to work together to achieve a common
+goal in a cooperative manner. The aim is to define a systematic method to
+verify the effective collaboration among the members of a team and comparing
+the different multi-agent behaviours. Using external observations of a
+Multi-Agent System to analyse, model, recognize agent behaviour could be very
+useful to direct team actions. In particular, this report focuses on the
+challenge of autonomous unsupervised sequential learning of the team's
+behaviour from observations. Our approach allows to learn a symbolic sequence
+(a relational representation) to translate raw multi-agent, multi-variate
+observations of a dynamic, complex environment, into a set of sequential
+behaviours that are characteristic of the team in question, represented by a
+set of sequences expressed in first-order logic atoms. We propose to use a
+relational learning algorithm to mine meaningful frequent patterns among the
+relational sequences to characterise team behaviours. We compared the
+performance of two teams in the RoboCup four-legged league environment, that
+have a very different approach to the game. One uses a Case Based Reasoning
+approach, the other uses a pure reactive behaviour.

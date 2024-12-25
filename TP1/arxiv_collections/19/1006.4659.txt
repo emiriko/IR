@@ -1,0 +1,11 @@
+We present a multiscale integrator for Hamiltonian systems with slowly
+varying quadratic stiff potentials that uses coarse timesteps (analogous to
+what the impulse method uses for constant quadratic stiff potentials). This
+method is based on the highly-non-trivial introduction of two efficient
+symplectic schemes for exponentiations of matrices that only require O(n)
+matrix multiplications operations at each coarse time step for a preset small
+number n. The proposed integrator is shown to be (i) uniformly convergent on
+positions; (ii) symplectic in both slow and fast variables; (iii) well adapted
+to high dimensional systems. Our framework also provides a general method for
+iteratively exponentiating a slowly varying sequence of (possibly high
+dimensional) matrices in an efficient way.

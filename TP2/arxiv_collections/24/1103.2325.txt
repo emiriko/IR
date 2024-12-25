@@ -1,0 +1,13 @@
+Dictionaries are inherently circular in nature. A given word is linked to a
+set of alternative words (the definition) which in turn point to further
+descendants. Iterating through definitions in this way, one typically finds
+that definitions loop back upon themselves. The graph formed by such
+definitional relations is our object of study. By eliminating those links which
+are not in loops, we arrive at a core subgraph of highly connected nodes.
+  We observe that definitional loops are conveniently classified by length,
+with longer loops usually emerging from semantic misinterpretation. By breaking
+the long loops in the graph of the dictionary, we arrive at a set of
+disconnected clusters. We find that the words in these clusters constitute
+semantic units, and moreover tend to have been introduced into the English
+language at similar times, suggesting a possible mechanism for language
+evolution.

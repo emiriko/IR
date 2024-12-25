@@ -1,0 +1,18 @@
+Milner's bigraphs are a general framework for reasoning about distributed and
+concurrent programming languages. Notably, it has been designed to encompass
+both the pi-calculus and the Ambient calculus. This paper is only concerned
+with bigraphical syntax: given what we here call a bigraphical signature K,
+Milner constructs a (pre-) category of bigraphs BBig(K), whose main features
+are (1) the presence of relative pushouts (RPOs), which makes them well-behaved
+w.r.t. bisimulations, and that (2) the so-called structural equations become
+equalities. Examples of the latter include, e.g., in pi and Ambient, renaming
+of bound variables, associativity and commutativity of parallel composition, or
+scope extrusion for restricted names. Also, bigraphs follow a scoping
+discipline ensuring that, roughly, bound variables never escape their scope.
+Here, we reconstruct bigraphs using a standard categorical tool: symmetric
+monoidal closed (SMC) theories. Our theory enforces the same scoping discipline
+as bigraphs, as a direct property of SMC structure. Furthermore, it elucidates
+the slightly mysterious status of so-called links in bigraphs. Finally, our
+category is also considerably larger than the category of bigraphs, notably
+encompassing in the same framework terms and a flexible form of higher-order
+contexts.

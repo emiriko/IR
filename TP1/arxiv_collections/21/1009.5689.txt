@@ -1,0 +1,14 @@
+We propose a pivotal method for estimating high-dimensional sparse linear
+regression models, where the overall number of regressors $p$ is large,
+possibly much larger than $n$, but only $s$ regressors are significant. The
+method is a modification of the lasso, called the square-root lasso. The method
+is pivotal in that it neither relies on the knowledge of the standard deviation
+$\sigma$ or nor does it need to pre-estimate $\sigma$. Moreover, the method
+does not rely on normality or sub-Gaussianity of noise. It achieves near-oracle
+performance, attaining the convergence rate $\sigma \{(s/n)\log p\}^{1/2}$ in
+the prediction norm, and thus matching the performance of the lasso with known
+$\sigma$. These performance results are valid for both Gaussian and
+non-Gaussian errors, under some mild moment restrictions. We formulate the
+square-root lasso as a solution to a convex conic programming problem, which
+allows us to implement the estimator using efficient algorithmic methods, such
+as interior-point and first-order methods.

@@ -1,0 +1,17 @@
+In this work, we discuss some points relevant for stochastic modelling of
+one- and two-phase turbulent flows. In the framework of stochastic modelling,
+also referred to PDF approach, we propose a new Langevin model including all
+viscosity effects and thus that is consistent with viscous Navier-Stokes
+equations. In the second part of the work, we show how to develop a
+second-order unconditionally stable numerical scheme for the stochastic
+equations proposed. Accuracy and consistency of the numerical scheme is
+demonstrated analytically. In the last part of the work, we study the fluid
+flow in a channel flow with the proposed viscous method. A peculiar approach is
+chosen: the flow is solved with a Eulerian method and after with the Lagrangian
+model proposed which uses some of the Eulerian quantities. In this way
+attention is devoted to the issue of consistency in hybrid Eulerian/Lagrangian
+methods. It is shown that the coupling is important indeed and that to couple
+the Lagrangian model to an Eulerian one which is not consistent with the same
+turbulence physics leads to large errors. This part of the work complements a
+recent article [Chibbaro and Minier International Journal of Multiphase flows
+submitted (arXiv:0912.2045)]

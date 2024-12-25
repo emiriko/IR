@@ -1,0 +1,14 @@
+In today's embedded applications a significant portion of energy is spent in
+the memory subsystem. Several approaches have been proposed to minimize this
+energy, including the use of scratch pad memories, with many based on static
+analysis of a program. However, often it is not possible to perform static
+analysis and optimization of a program's memory access behavior unless the
+program is specifically written for this purpose. In this paper we introduce
+the FORAY model of a program that permits aggressive analysis of the
+application's memory behavior that further enables such optimizations since it
+consists of 'for' loops and array accesses which are easily analyzable. We
+present FORAY-GEN: an automated profile-based approach for extraction of the
+FORAY model from the original program. We also demonstrate how FORAY-GEN
+enhances applicability of other memory subsystem optimization approaches,
+resulting in an average of two times increase in the number of memory
+references that can be analyzed by existing static approaches.

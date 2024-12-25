@@ -1,0 +1,16 @@
+A binary contingency table is an m x n array of binary entries with
+prescribed row sums r=(r_1,...,r_m) and column sums c=(c_1,...,c_n). The
+configuration model for uniformly sampling binary contingency tables proceeds
+as follows. First, label N=\sum_{i=1}^{m} r_i tokens of type 1, arrange them in
+m cells, and let the i-th cell contain r_i tokens. Next, label another set of
+tokens of type 2 containing N=\sum_{j=1}^{n}c_j elements arranged in n cells,
+and let the j-th cell contain c_j tokens. Finally, pair the type-1 tokens with
+the type-2 tokens by generating a random permutation until the total pairing
+corresponds to a binary contingency table. Generating one random permutation
+takes O(N) time, which is optimal up to constant factors. A fundamental
+question is whether a constant number of permutations is sufficient to obtain a
+binary contingency table. In the current paper, we solve this problem by
+showing a necessary and sufficient condition so that the probability that the
+configuration model outputs a binary contingency table remains bounded away
+from 0 as N goes to \infty. Our finding shows surprising differences from
+recent results for binary symmetric contingency tables.

@@ -1,0 +1,10 @@
+A deflated restarted Lanczos algorithm is given for both solving symmetric
+linear equations and computing eigenvalues and eigenvectors. The restarting
+limits the storage so that finding eigenvectors is practical. Meanwhile, the
+deflating from the presence of the eigenvectors allows the linear equations to
+generally have good convergence in spite of the restarting. Some
+reorthogonalization is necessary to control roundoff error, and several
+approaches are discussed. The eigenvectors generated while solving the linear
+equations can be used to help solve systems with multiple right-hand sides.
+Experiments are given with large matrices from quantum chromodynamics that have
+many right-hand sides.

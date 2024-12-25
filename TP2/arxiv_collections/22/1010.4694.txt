@@ -1,0 +1,21 @@
+Light-sensitive modification (ruthenium catalysed) of the
+Belousov-Zhabotinsky medium exhibits various regimes of excitability depending
+on the levels of illumination. For certain values of illumination the medium
+switches to a sub-excitable mode. An asymmetric perturbation of the medium
+leads to formation of a travelling localized excitation, a wave-fragment which
+moves along a predetermined trajectory, ideally preserving its shape and
+velocity. To implement collision-based computing with such wave-fragments we
+represent values of Boolean variables in presence/absence of a wave-fragment at
+specific sites of medium. When two wave-fragments collide they either
+annihilate, or form new wave-fragments. The trajectories of the wave-fragments
+after the collision represent a result of the computation, e.g. a simple
+logical gate. Wave-fragments in the sub-excitable medium are famously difficult
+to control. Therefore, we adopted a hybrid procedure in order to construct
+collision-based logical gates: we used channels, defined by lower levels
+illumination to subtly tune the shape of a propagating wave-fragment and allow
+the wave-fragments to collide at the junctions between channels. Using this
+methodology we were able to implement both in theoretical models (using the
+Oregonator) and in experiment two interaction-based logical gates and assemble
+the gates into a basic one-bit binary adder. We present the first ever
+experimental approach towards constructing arithmetical circuits in
+spatially-extended excitable chemical systems.

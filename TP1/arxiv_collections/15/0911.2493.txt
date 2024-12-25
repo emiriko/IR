@@ -1,0 +1,14 @@
+We describe an exact, flexible, and computationally efficient algorithm for a
+joint estimation of the large-scale structure and its power-spectrum, building
+on a Gibbs sampling framework and present its implementation ARES (Algorithm
+for REconstruction and Sampling). ARES is designed to reconstruct the 3D
+power-spectrum together with the underlying dark matter density field in a
+Bayesian framework, under the reasonable assumption that the long wavelength
+Fourier components are Gaussian distributed. As a result ARES does not only
+provide a single estimate but samples from the joint posterior of the
+power-spectrum and density field conditional on a set of observations. This
+enables us to calculate any desired statistical summary, in particular we are
+able to provide joint uncertainty estimates. We apply our method to mock
+catalogs, with highly structured observational masks and selection functions,
+in order to demonstrate its ability to reconstruct the power-spectrum from real
+data sets, while fully accounting for any mask induced mode coupling.

@@ -1,0 +1,10 @@
+Given a predictor of outcome derived from a high-dimensional dataset,
+pre-validation is a useful technique for comparing it to competing predictors
+on the same dataset. For microarray data, it allows one to compare a newly
+derived predictor for disease outcome to standard clinical predictors on the
+same dataset. We study pre-validation analytically to determine if the
+inferences drawn from it are valid. We show that while pre-validation generally
+works well, the straightforward "one degree of freedom" analytical test from
+pre-validation can be biased and we propose a permutation test to remedy this
+problem. In simulation studies, we show that the permutation test has the
+nominal level and achieves roughly the same power as the analytical test.

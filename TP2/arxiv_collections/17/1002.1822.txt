@@ -1,0 +1,24 @@
+We present a new spectral method for the Direct Numerical Simulation of
+Magnetohydrodynamic turbulence at low Magnetic Reynolds number. The originality
+of our approach is that instead of using traditional bases of functions, it
+relies on the basis of eigenmodes of the dissipation operator, which represents
+viscous and Joule dissipation. We apply this idea to the simple case of a
+periodic domain in the three directions of space, with an homogeneous magnetic
+field in the $\mathbf e_z$ direction. The basis is then still as subset of the
+Fourier space, but ordered by growing linear decay rate $|\lambda|$ (\emph{i.e}
+according to the \emph{least dissipative modes}). We show that because the
+lines of constant energy tend to follow those of constant $|\lambda|$ in the
+Fourier space, the scaling for the the smallest scales $|\lambda^{\rm max}|$ in
+a forced flow can be expressed using this single parameter, as a function of
+the Reynolds number as $\sqrt{|\lambda^{\rm max}|}/(2\pi k_f)\simeq
+0.5\Rey^{1/2}$, where $k_f$ is the forcing wavelength, or as a function of the
+Grashof number $\Gr_f$, which gives a non-dimensional measure of the forcing,
+as $|\lambda^{\rm max}|^{1/2}/(2\pi k_f)\simeq 0.47\Gr_f^{0.20}$. This scaling
+is also found consistent with heuristic scalings, and which we are able to
+numerically quantify as $k_\perp^{\rm max}/k_f\simeq 0.5 \Rey^{1/2}$ and
+$k_z^{\rm max}/k_f\simeq 0.8k_f \Rey/Ha$. Finally, we show that the set of
+least dissipative modes gives a relevant prediction for the scale of the first
+three-dimensional structure to appear in a forced, initially two-dimensional
+turbulent flow. This completes our numerical demonstration that the least
+dissipative modes can be used to simulate both two- and three-dimensional
+low-Rm MHD flows.

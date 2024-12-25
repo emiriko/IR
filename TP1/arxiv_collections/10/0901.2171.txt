@@ -1,0 +1,24 @@
+We develop a numerical solver for the integral-differential equations, which
+describes the radiative transfer of photon distribution in the frequency space
+with resonant scattering of Lyalpha photons by hydrogen gas in the early
+universe. The time-dependent solutions of this equation is crucial to the
+estimation of the effect of the Wouthuysen-Field (WF) coupling in relation to
+the 21 cm emission and absorption at the epoch of reionization. The resonant
+scattering leads to the photon distribution in the frequency space to be
+piecewise smooth containing sharp changes. The weighted essentially
+nonoscillatory (WENO) scheme is suitable to handle this problem, as this
+algorithm has been found to be highly stable and robust for solving Boltzmann
+equation. We test this numerical solver against analytic solutions of the
+evolution of the photon distribution in rest background, analytic solution in
+expanding background without resonant scattering and formation of local
+Boltzmann distribution around the resonant frequency with the temperature same
+as that of atom for recoil. We find that evolution of photon distribution
+undergoes three phases; profile is similar to the initial one, a flat plateau
+(without recoil) or local Boltzmann distribution (with recoil) forms around the
+resonant frequency, and finally the distribution around the resonant frequency
+is saturated when the photons from the source is balanced by the redshift of
+the expansion. This result indicates that the onset of the W-F coupling should
+not be determined by the third phase, but by the time scale of the second
+phase. We found that the time scale of the W-F coupling is equal to about a few
+hundreds of the mean free flight time of photons with resonant frequency, and
+is independent of the Sobolev parameter if this parameter is much less than 1.

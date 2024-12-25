@@ -1,0 +1,8 @@
+We use a graphics processing unit (GPU) for fast computations of Monte Carlo
+integrations. Two widely used Monte Carlo integration programs, VEGAS and
+BASES, are parallelized on GPU. By using $W^{+}$ plus multi-gluon production
+processes at LHC, we test integrated cross sections and execution time for
+programs in FORTRAN and C on CPU and those on GPU. Integrated results agree
+with each other within statistical errors. Execution time of programs on GPU
+run about 50 times faster than those in C, and more than 60 times faster than
+the original FORTRAN programs.

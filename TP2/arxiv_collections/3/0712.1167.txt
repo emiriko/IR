@@ -1,0 +1,17 @@
+The WaveScalar is the first DataFlow Architecture that can efficiently
+provide the sequential memory semantics required by imperative languages. This
+work presents an alternative memory ordering mechanism for this architecture,
+the Transaction WaveCache. Our mechanism maintains the execution order of
+memory operations within blocks of code, called Waves, but adds the ability to
+speculatively execute, out-of-order, operations from different waves. This
+ordering mechanism is inspired by progress in supporting Transactional
+Memories. Waves are considered as atomic regions and executed as nested
+transactions. If a wave has finished the execution of all its memory
+operations, as soon as the previous waves are committed, it can be committed.
+If a hazard is detected in a speculative Wave, all the following Waves
+(children) are aborted and re-executed. We evaluate the WaveCache on a set
+artificial benchmarks. If the benchmark does not access memory often, we could
+achieve speedups of around 90%. Speedups of 33.1% and 24% were observed on more
+memory intensive applications, and slowdowns up to 16% arise if memory
+bandwidth is a bottleneck. For an application full of WAW, WAR and RAW hazards,
+a speedup of 139.7% was verified.

@@ -1,0 +1,14 @@
+The focus of the tool FTOS is to alleviate designers' burden by offering code
+generation for non-functional aspects including fault-tolerance mechanisms. One
+crucial aspect in this context is to ensure that user-selected mechanisms for
+the system model are sufficient to resist faults as specified in the underlying
+fault hypothesis. In this paper, formal approaches in verification are proposed
+to assist the claim. We first raise the precision of FTOS into pure
+mathematical constructs, and formulate the deterministic assumption, which is
+necessary as an extension of Giotto-like systems (e.g., FTOS) to equip with
+fault-tolerance abilities. We show that local properties of a system with the
+deterministic assumption will be preserved in a modified synchronous system
+used as the verification model. This enables the use of techniques known from
+hardware verification. As for implementation, we develop a prototype tool
+called FTOS-Verify, deploy it as an Eclipse add-on for FTOS, and conduct
+several case studies.

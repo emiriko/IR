@@ -1,0 +1,18 @@
+A function on a discrete group is weakly combable if its discrete derivative
+with respect to a combing can be calculated by a finite state automaton. A
+weakly combable function is bicombable if it is Lipschitz in both the left and
+right invariant word metrics.
+  Examples of bicombable functions on word-hyperbolic groups include (i)
+homomorphisms to Z (ii) word length with respect to a finite generating set
+(iii) most known explicit constructions of quasimorphisms (e.g. the
+Epstein-Fujiwara counting quasimorphisms)
+  We show that bicombable functions on word-hyperbolic groups satisfy a central
+limit theorem: if \bar{\phi}_n is the value of \phi on a random element of word
+length n (in a certain sense), there are E and \sigma for which there is
+convergence in the sense of distribution n^{-1/2}(\bar{\phi}_n - nE) \to
+N(0,\sigma), where N(0,\sigma) denotes the normal distribution with standard
+deviation \sigma. As a corollary, we show that if S_1 and S_2 are any two
+finite generating sets for G, there is an algebraic number lambda_{1,2}
+depending on S_1 and S_2 such that almost every word of length n in the S_1
+metric has word length n\lambda_{1,2} in the S_2 metric, with error of size
+O(\sqrt{n}).

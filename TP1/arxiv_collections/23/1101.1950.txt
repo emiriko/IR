@@ -1,0 +1,15 @@
+I calculate the fidelity of a [7,1,3] CSS quantum error correction code
+logical zero state constructed in a non-equiprobable Pauli operator error
+environment for two methods of encoding. The first method is to apply fault
+tolerant error correction to an arbitrary state of 7 qubits utilizing Shor
+states for syndrome measurement. The Shor states are themselves constructed in
+the non-equiprobable Pauli operator error environment and their fidelity
+depends on the number of verifications done to ensure multiple errors will not
+propagate into the encoded quantum information. Surprisingly, performing these
+verifications may lower the fidelity of the constructed Shor states. The second
+encoding method is to simply implement the $[7,1,3]$ encoding gate sequence
+also in the non-equiprobable Pauli operator error environment. Perfect error
+correction is applied after both methods to determine the correctability of the
+implemented errors. I find that which method attains a higher fidelity depends
+on the which of Pauli operator errors is dominant. Nevertheless, perfect error
+correction supresses errors to at least first order for both methods.

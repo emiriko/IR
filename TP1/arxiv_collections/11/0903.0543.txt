@@ -1,0 +1,15 @@
+We address the problem of learning an unknown unitary transformation from a
+finite number of examples. The problem consists in finding the learning machine
+that optimally emulates the examples, thus reproducing the unknown unitary
+maximum fidelity. Learning a unitary is equivalent to storing it in the state
+of a quantum memory (the memory of the learning machine), and subsequently
+retrieving it. We prove that, whenever the unknown unitary is drawn from a
+group, the optimal strategy consists in a parallel call of the available uses
+followed by a "measure-and-rotate" retrieving. Differing from the case of
+quantum cloning, where the incoherent "measure-and-prepare" strategies are
+typically suboptimal, in the case of learning the "measure-and-rotate" strategy
+is optimal even when the learning machine is asked to reproduce a single copy
+of the unknown unitary. We finally address the problem of the optimal inversion
+of an unknown unitary evolution, showing also in this case the optimality of
+the "measure-and-rotate" strategies and applying our result to the optimal
+approximate realignment of reference frames for quantum communication.

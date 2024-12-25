@@ -1,0 +1,21 @@
+We resolve the question of optimality for a well-studied packetized
+implementation of random linear network coding, called PNC. In PNC, in contrast
+to the classical memoryless setting, nodes store received information in memory
+to later produce coded packets that reflect this information. PNC is known to
+achieve order optimal stopping times for the many-to-all multicast problem in
+many settings.
+  We give a reduction that captures exactly how PNC and other network coding
+protocols use the memory of the nodes. More precisely, we show that any such
+protocol implementation induces a transformation which maps an execution of the
+protocol to an instance of the classical memoryless setting. This allows us to
+prove that, for any (non-adaptive dynamic) network, PNC converges with high
+probability in optimal time. In other words, it stops at exactly the first time
+in which in hindsight it was possible to route information from the sources to
+each receiver individually.
+  Our technique also applies to variants of PNC, in which each node uses only a
+finite buffer. We show that, even in this setting, PNC stops exactly within the
+time in which in hindsight it was possible to route packets given the memory
+constraint, i.e., that the memory used at each node never exceeds its buffer
+size. This shows that PNC, even without any feedback or explicit memory
+management, allows to keep minimal buffer sizes while maintaining its capacity
+achieving performance.

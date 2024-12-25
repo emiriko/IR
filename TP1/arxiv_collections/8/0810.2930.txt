@@ -1,0 +1,12 @@
+We consider a process $(X_t)_{t\in[0,T)}$ given by the SDE $dX_t = \alpha
+b(t)X_t dt + \sigma(t) dB_t$, $t\in[0,T)$, with initial condition $X_0=0$,
+where $T\in(0,\infty]$, $\alpha\in R$, $(B_t)_{t\in[0,T)}$ is a standard Wiener
+process, $b:[0,T)\to R\setminus\{0\}$ and $\sigma:[0,T)\to(0,\infty)$ are
+continuously differentiable functions. Assuming that $b$ and $\sigma$ satisfy a
+certain differential equation we derive an explicit formula for the joint
+Laplace transform of $\int_0^t\frac{b(s)^2}{\sigma(s)^2}(X_s)^2 ds$ and
+$(X_t)^2$ for all $t\in[0,T)$. As an application, we study asymptotic behavior
+of the maximum likelihood estimator of $\alpha$ for $\sign(\alpha-K)=\sign(K)$,
+$K\ne0$, and for $\alpha=K$, $K\ne0$. As an example, we examine the so-called
+$\alpha$-Wiener bridges given by SDE $dX_t = -\frac{\alpha}{T-t}X_t dt + dB_t$,
+$t\in[0,T)$, with initial condition $X_0=0$.

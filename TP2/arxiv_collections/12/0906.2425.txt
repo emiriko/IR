@@ -1,0 +1,24 @@
+This paper describes the development and analysis of finite-volume methods
+for the Landau-Lifshitz Navier-Stokes (LLNS) equations and related stochastic
+partial differential equations in fluid dynamics. The LLNS equations
+incorporate thermal fluctuations into macroscopic hydrodynamics by the addition
+of white-noise fluxes whose magnitudes are set by a fluctuation-dissipation
+relation. Originally derived for equilibrium fluctuations, the LLNS equations
+have also been shown to be accurate for non-equilibrium systems. Previous
+studies of numerical methods for the LLNS equations focused primarily on
+measuring variances and correlations computed at equilibrium and for selected
+non-equilibrium flows. In this paper, we introduce a more systematic approach
+based on studying discrete equilibrium structure factors for a broad class of
+explicit linear finite-volume schemes. This new approach provides a better
+characterization of the accuracy of a spatio-temporal discretization as a
+function of wavenumber and frequency, allowing us to distinguish between
+behavior at long wavelengths, where accuracy is a prime concern, and short
+wavelengths, where stability concerns are of greater importance. We use this
+analysis to develop a specialized third-order Runge Kutta scheme that minimizes
+the temporal integration error in the discrete structure factor at long
+wavelengths for the one-dimensional linearized LLNS equations. Together with a
+novel method for discretizing the stochastic stress tensor in dimension larger
+than one, our improved temporal integrator yields a scheme for the
+three-dimensional equations that satisfies a discrete fluctuation-dissipation
+balance for small time steps and is also sufficiently accurate even for time
+steps close to the stability limit.

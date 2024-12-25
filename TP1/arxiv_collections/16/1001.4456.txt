@@ -1,0 +1,24 @@
+We implemented sink particles in the adaptive mesh refinement (AMR)
+hydrodynamics code FLASH. Sink particles are created in regions of local
+gravitational collapse, and their trajectories and accretion can be followed
+over many dynamical times. We perform a series of tests including the time
+integration of circular and elliptical orbits, the collapse of a Bonnor-Ebert
+sphere and a rotating, fragmenting cloud core. We compare the collapse of a
+highly unstable singular isothermal sphere to the theory by Shu (1977), and
+show that the sink particle accretion rate is in excellent agreement with the
+theoretical prediction.
+  To model eccentric orbits and close encounters of sink particles accurately,
+we show that a very small timestep is often required, for which we implemented
+subcycling of the N-body system. We emphasize that a sole density threshold for
+sink particle creation is insufficient in supersonic flows, if the density
+threshold is below the opacity limit. In that case, the density can exceed the
+threshold in strong shocks that do not necessarily lead to local collapse.
+Additional checks for bound state, gravitational potential minimum, Jeans
+instability and converging flows are absolutely necessary for a meaningful
+creation of sink particles.
+  We apply our new sink particle module for FLASH to the formation of a stellar
+cluster, and compare to a smoothed particle hydrodynamics (SPH) code with sink
+particles. Our comparison shows encouraging agreement of gas properties,
+indicated by column density distributions and radial profiles, and of sink
+particle formation times and positions. We find excellent agreement in the
+number of sink particles formed, and in their accretion and mass distributions.

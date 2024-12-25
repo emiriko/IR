@@ -1,0 +1,16 @@
+In this article we construct and analyze multigrid preconditioners for
+discretizations of operators of the form D+K* K, where D is the multiplication
+with a relatively smooth positive function and K is a compact linear operator.
+These systems arise when applying interior point methods to the minimization
+problem min_u (||K u-f||^2 +b||u||^2) with box-constraints on the controls u.
+The presented preconditioning technique is closely related to the one developed
+by Draganescu and Dupont in [11] for the associated unconstrained problem, and
+is intended for large-scale problems. As in [11], the quality of the resulting
+preconditioners is shown to increase with increasing resolution but decreases
+as the diagonal of D becomes less smooth. We test this algorithm first on a
+Tikhonov-regularized backward parabolic equation with box-constraints on the
+control, and then on a standard elliptic-constrained optimization problem. In
+both cases it is shown that the number of linear iterations per optimization
+step, as well as the total number of fine-scale matrix-vector multiplications
+is decreasing with increasing resolution, thus showing the method to be
+potentially very efficient for truly large-scale problems.

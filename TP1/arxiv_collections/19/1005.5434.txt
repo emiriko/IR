@@ -1,0 +1,12 @@
+There have been many recent studies on sequential pattern mining. The
+sequential pattern mining on progressive databases is relatively very new, in
+which we progressively discover the sequential patterns in period of interest.
+Period of interest is a sliding window continuously advancing as the time goes
+by. As the focus of sliding window changes, the new items are added to the
+dataset of interest and obsolete items are removed from it and become up to
+date. In general, the existing proposals do not fully explore the real world
+scenario, such as items associated with support in data stream applications
+such as market basket analysis. Thus mining important knowledge from supported
+frequent items becomes a non trivial research issue. Our proposed novel
+approach efficiently mines frequent sequential pattern coupled with support
+using progressive mining tree.

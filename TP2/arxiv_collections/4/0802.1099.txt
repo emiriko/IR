@@ -1,0 +1,14 @@
+Complex computer codes are often too time expensive to be directly used to
+perform uncertainty propagation studies, global sensitivity analysis or to
+solve optimization problems. A well known and widely used method to circumvent
+this inconvenience consists in replacing the complex computer code by a reduced
+model, called a metamodel, or a response surface that represents the computer
+code and requires acceptable calculation time. One particular class of
+metamodels is studied: the Gaussian process model that is characterized by its
+mean and covariance functions. A specific estimation procedure is developed to
+adjust a Gaussian process model in complex cases (non linear relations, highly
+dispersed or discontinuous output, high dimensional input, inadequate sampling
+designs, ...). The efficiency of this algorithm is compared to the efficiency
+of other existing algorithms on an analytical test case. The proposed
+methodology is also illustrated for the case of a complex hydrogeological
+computer code, simulating radionuclide transport in groundwater.

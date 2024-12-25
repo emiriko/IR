@@ -1,0 +1,20 @@
+We study the use of viral marketing strategies on social networks to maximize
+revenue from the sale of a single product. We propose a model in which the
+decision of a buyer to buy the product is influenced by friends that own the
+product and the price at which the product is offered. The influence model we
+analyze is quite general, naturally extending both the Linear Threshold model
+and the Independent Cascade model, while also incorporating price information.
+We consider sales proceeding in a cascading manner through the network, i.e. a
+buyer is offered the product via recommendations from its neighbors who own the
+product. In this setting, the seller influences events by offering a cashback
+to recommenders and by setting prices (via coupons or discounts) for each buyer
+in the social network.
+  Finding a seller strategy which maximizes the expected revenue in this
+setting turns out to be NP-hard. However, we propose a seller strategy that
+generates revenue guaranteed to be within a constant factor of the optimal
+strategy in a wide variety of models. The strategy is based on an
+influence-and-exploit idea, and it consists of finding the right trade-off at
+each time step between: generating revenue from the current user versus
+offering the product for free and using the influence generated from this sale
+later in the process. We also show how local search can be used to improve the
+performance of this technique in practice.

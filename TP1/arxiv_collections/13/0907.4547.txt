@@ -1,0 +1,15 @@
+The past research on the state complexity of operations on regular languages
+is examined, and a new approach based on an old method (derivatives of regular
+expressions) is presented. Since state complexity is a property of a language,
+it is appropriate to define it in formal-language terms as the number of
+distinct quotients of the language, and to call it "quotient complexity". The
+problem of finding the quotient complexity of a language f(K,L) is considered,
+where K and L are regular languages and f is a regular operation, for example,
+union or concatenation. Since quotients can be represented by derivatives, one
+can find a formula for the typical quotient of f(K,L) in terms of the quotients
+of K and L. To obtain an upper bound on the number of quotients of f(K,L) all
+one has to do is count how many such quotients are possible, and this makes
+automaton constructions unnecessary. The advantages of this point of view are
+illustrated by many examples. Moreover, new general observations are presented
+to help in the estimation of the upper bounds on quotient complexity of regular
+operations.

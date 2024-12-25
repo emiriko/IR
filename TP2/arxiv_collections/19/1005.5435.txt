@@ -1,0 +1,15 @@
+Managing the transactions in real time distributed computing system is not
+easy, as it has heterogeneously networked computers to solve a single problem.
+If a transaction runs across some different sites, it may commit at some sites
+and may failure at another site, leading to an inconsistent transaction. The
+complexity is increase in real time applications by placing deadlines on the
+response time of the database system and transactions processing. Such a system
+needs to process Transactions before these deadlines expired. A series of
+simulation study have been performed to analyze the performance under different
+transaction management under conditions such as different workloads,
+distribution methods, execution mode-distribution and parallel etc. The
+scheduling of data accesses are done in order to meet their deadlines and to
+minimize the number of transactions that missed deadlines. A new concept is
+introduced to manage the transactions in dynamic ways rather than setting
+computing parameters in static ways. With this approach, the system gives a
+significant improvement in performance.

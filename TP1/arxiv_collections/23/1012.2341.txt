@@ -1,0 +1,18 @@
+Let $\UT_n(q)$ denote the group of unipotent $n\times n$ upper triangular
+matrices over a field with $q$ elements. The degrees of the complex irreducible
+characters of $\UT_n(q)$ are precisely the integers $q^e$ with $0\leq e\leq
+\lfloor \frac{n}{2} \rfloor \lfloor \frac{n-1}{2} \rfloor$, and it has been
+conjectured that the number of irreducible characters of $\UT_n(q)$ with degree
+$q^e$ is a polynomial in $q-1$ with nonnegative integer coefficients (depending
+on $n$ and $e$). We confirm this conjecture when $e\leq 8$ and $n$ is arbitrary
+by a computer calculation. In particular, we describe an algorithm which allows
+us to derive explicit bivariate polynomials in $n$ and $q$ giving the number of
+irreducible characters of $\UT_n(q)$ with degree $q^e$ when $n>2e$ and $e\leq
+8$. When divided by $q^{n-e-2}$ and written in terms of the variables $n-2e-1$
+and $q-1$, these functions are actually bivariate polynomials with nonnegative
+integer coefficients, suggesting an even stronger conjecture concerning such
+character counts. As an application of these calculations, we are able to show
+that all irreducible characters of $\UT_n(q)$ with degree $\leq q^8$ are
+Kirillov functions. We also discuss some related results concerning the problem
+of counting the irreducible constituents of individual supercharacters of
+$\UT_n(q)$.

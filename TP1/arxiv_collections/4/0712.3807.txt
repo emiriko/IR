@@ -1,0 +1,12 @@
+In this paper, we propose a spreading activation approach for collaborative
+filtering (SA-CF). By using the opinion spreading process, the similarity
+between any users can be obtained. The algorithm has remarkably higher accuracy
+than the standard collaborative filtering (CF) using Pearson correlation.
+Furthermore, we introduce a free parameter $\beta$ to regulate the
+contributions of objects to user-user correlations. The numerical results
+indicate that decreasing the influence of popular objects can further improve
+the algorithmic accuracy and personality. We argue that a better algorithm
+should simultaneously require less computation and generate higher accuracy.
+Accordingly, we further propose an algorithm involving only the top-$N$ similar
+neighbors for each target user, which has both less computational complexity
+and higher algorithmic accuracy.

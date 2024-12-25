@@ -1,0 +1,24 @@
+We study bargaining games between suppliers and manufacturers in a network
+context. Agents wish to enter into contracts in order to generate surplus which
+then must be divided among the participants. Potential contracts and their
+surplus are represented by weighted edges in our bipartite network. Each agent
+in the market is additionally limited by a capacity representing the number of
+contracts which he or she may undertake. When all agents are limited to just
+one contract each, prior research applied natural generalizations of the Nash
+bargaining solution to the networked setting, defined the new solution concepts
+of stable and balanced, and characterized the resulting bargaining outcomes. We
+simplify and generalize these results to a setting in which participants in
+only one side of the market are limited to one contract each. The heart of our
+results uses a linear-programming formulation to establish a novel connection
+between well-studied cooperative game theory concepts (such as core and
+prekernel) and the solution concepts of stable and balanced defined for the
+bargaining games. This immediately implies one can take advantage of the
+results and algorithms in cooperative game theory to reproduce results such as
+those of Azar et al. [1] and Kleinberg and Tardos [29] and also generalize them
+to our setting. The cooperative-game-theoretic connection also inspires us to
+refine our solution space using standard solution concepts from that literature
+such as nucleolus and lexicographic kernel. The nucleolus is particularly
+attractive as it is unique, always exists, and is supported by experimental
+data in the network bargaining literature. Guided by algorithms from
+cooperative game theory, we show how to compute the nucleolus by pruning and
+iteratively solving a natural linear-programming formulation.

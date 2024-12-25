@@ -1,0 +1,13 @@
+The haplotype resolution from xor-genotype data has been recently formulated
+as a new model for genetic studies. The xor-genotype data is a cheaply
+obtainable type of data distinguishing heterozygous from homozygous sites
+without identifying the homozygous alleles. In this paper we propose a
+formulation based on a well-known model used in haplotype inference: pure
+parsimony. We exhibit exact solutions of the problem by providing polynomial
+time algorithms for some restricted cases and a fixed-parameter algorithm for
+the general case. These results are based on some interesting combinatorial
+properties of a graph representation of the solutions. Furthermore, we show
+that the problem has a polynomial time k-approximation, where k is the maximum
+number of xor-genotypes containing a given SNP. Finally, we propose a heuristic
+and produce an experimental analysis showing that it scales to real-world large
+instances taken from the HapMap project.

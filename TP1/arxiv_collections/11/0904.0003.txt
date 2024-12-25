@@ -1,0 +1,13 @@
+We describe a fault-tolerant memory for an error-corrected logical qubit
+based on silicon double quantum dot physical qubits. Our design accounts for
+constraints imposed by supporting classical electronics. A significant
+consequence of the constraints is to add error-prone idle steps for the
+physical qubits. Even using a schedule with provably minimum idle time, for our
+noise model and choice of error-correction code, we find that these additional
+idles negate any benefits of error correction. Using additional qubit
+operations, we can greatly suppress idle-induced errors, making error
+correction beneficial, provided the qubit operations achieve an error rate less
+than $2 \times 10^{-5}$. We discuss other consequences of these constraints
+such as error-correction code choice and physical qubit operation speed. While
+our analysis is specific to this memory architecture, the methods we develop
+are general enough to apply to other architectures as well.

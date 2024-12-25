@@ -1,0 +1,19 @@
+We explain the mechanism of the quantum speed-up - quantum algorithms
+requiring fewer computation steps than their classical equivalent - for a
+family of algorithms. Bob chooses a function and gives to Alice the black box
+that computes it. Alice, without knowing Bob's choice, should find a character
+of the function (e. g. its period) by computing its value for different
+arguments. There is naturally correlation between Bob's choice and the solution
+found by Alice. We show that, in quantum algorithms, this correlation becomes
+quantum. This highlights an overlooked measurement problem: sharing between two
+measurements the determination of correlated (thus redundant) measurement
+outcomes. Solving this problem explains the speed-up. All is like Alice, by
+reading the solution at the end of the algorithm, contributed to the initial
+choice of Bob, for half of it in quantum superposition for all the possible
+ways of taking this half. This contribution, back evolved to before running the
+algorithm, where Bob's choice is located, becomes Alice knowing in advance half
+of this choice. The quantum algorithm is the quantum superposition of all the
+possible ways of taking half of Bob's choice and, given the advanced knowledge
+of it, classically computing the missing half. This yields a speed-up with
+respect to the classical case where, initially, Bob's choice is completely
+unknown to Alice.

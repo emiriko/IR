@@ -1,0 +1,26 @@
+Empirical substitution matrices represent the average tendencies of
+substitutions over various protein families by sacrificing gene-level
+resolution. We develop a codon-based model, in which mutational tendencies of
+codon, a genetic code, and the strength of selective constraints against amino
+acid replacements can be tailored to a given gene. First, selective constraints
+averaged over proteins are estimated by maximizing the likelihood of each 1-PAM
+matrix of empirical amino acid (JTT, WAG, and LG) and codon (KHG) substitution
+matrices. Then, selective constraints specific to given proteins are
+approximated as a linear function of those estimated from the empirical
+substitution matrices.
+  Akaike information criterion (AIC) values indicate that a model allowing
+multiple nucleotide changes fits the empirical substitution matrices
+significantly better. Also, the ML estimates of transition-transversion bias
+obtained from these empirical matrices are not so large as previously
+estimated. The selective constraints are characteristic of proteins rather than
+species. However, their relative strengths among amino acid pairs can be
+approximated not to depend very much on protein families but amino acid pairs,
+because the present model, in which selective constraints are approximated to
+be a linear function of those estimated from the JTT/WAG/LG/KHG matrices, can
+provide a good fit to other empirical substitution matrices including cpREV for
+chloroplast proteins and mtREV for vertebrate mitochondrial proteins.
+  The present codon-based model with the ML estimates of selective constraints
+and with adjustable mutation rates of nucleotide would be useful as a simple
+substitution model in ML and Bayesian inferences of molecular phylogenetic
+trees, and enables us to obtain biologically meaningful information at both
+nucleotide and amino acid levels from codon and protein sequences.

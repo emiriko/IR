@@ -1,0 +1,25 @@
+We have analytically solved the LO pQCD singlet DGLAP equations using Laplace
+transform techniques. Newly-developed highly accurate numerical inverse Laplace
+transform algorithms allow us to write fully decoupled solutions for the
+singlet structure function F_s(x,Q^2)and G(x,Q^2) as F_s(x,Q^2)={\cal
+F}_s(F_{s0}(x), G_0(x)) and G(x,Q^2)={\cal G}(F_{s0}(x), G_0(x)). Here {\cal
+F}_s and \cal G are known functions of the initial boundary conditions
+F_{s0}(x) = F_s(x,Q_0^2) and G_{0}(x) = G(x,Q_0^2), i.e., the chosen starting
+functions at the virtuality Q_0^2. For both G and F_s, we are able to either
+devolve or evolve each separately and rapidly, with very high numerical
+accuracy, a computational fractional precision of O(10^{-9}). Armed with this
+powerful new tool in the pQCD arsenal, we compare our numerical results from
+the above equations with the published MSTW2008 and CTEQ6L LO gluon and singlet
+F_s distributions, starting from their initial values at Q_0^2=1 GeV^2 and 1.69
+GeV^2, respectively, using their choices of \alpha_s(Q^2). This allows an
+important independent check on the accuracies of their evolution codes and
+therefore the computational accuracies of their published parton distributions.
+Our method completely decouples the two LO distributions, at the same time
+guaranteeing that both G and F_s satisfy the singlet coupled DGLAP equations.
+It also allows one to easily obtain the effects of the starting functions on
+the evolved gluon and singlet structure functions, as functions of both Q^2 and
+Q_0^2, being equally accurate in devolution as in evolution. Further, it can
+also be used for non-singlet distributions, thus giving LO analytic solutions
+for individual quark and gluon distributions at a given x and Q^2, rather than
+the numerical solutions of the coupled integral-differential equations on a
+large, but fixed, two-dimensional grid that are currently available.

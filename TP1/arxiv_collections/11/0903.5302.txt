@@ -1,0 +1,21 @@
+We present Stellar Locus Regression (SLR), a method of directly adjusting the
+instrumental broadband optical colors of stars to bring them into accord with a
+universal stellar color-color locus, producing accurately calibrated colors for
+both stars and galaxies. This is achieved without first establishing individual
+zeropoints for each passband, and can be performed in real-time at the
+telescope. We demonstrate how SLR naturally makes one wholesale correction for
+differences in instrumental response, for atmospheric transparency, for
+atmospheric extinction, and for Galactic extinction. We perform an example SLR
+treatment of SDSS data over a wide range of Galactic dust values and
+independently recover the direction and magnitude of the canonical Galactic
+reddening vector with 14--18 mmag RMS uncertainties. We then isolate the effect
+of atmospheric extinction, showing that SLR accounts for this and returns
+precise colors over a wide of airmass, with 5--14 mmag RMS residuals. We
+demonstrate that SLR-corrected colors are sufficiently accurate to allow
+photometric redshift estimates for galaxy clusters (using red sequence
+galaxies) with an uncertainty sigma_z/(1+z) = 0.6% per cluster for redshifts
+0.09<z<0.25. Finally, we identify our objects in the 2MASS all-sky catalog, and
+produce i-band zeropoints typically accurate to 18 mmag using only SLR. We
+offer open-source access to our IDL routines, validated and verified for the
+implementation of this technique, at
+http://stellar-locus-regression.googlecode.com

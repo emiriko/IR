@@ -1,0 +1,21 @@
+The problem of communication among nodes in an \emph{extended network} is
+considered, where radio power decay and interference are limiting factors. It
+has been shown previously that, with simple multi-hopping, the achievable total
+communication rate in such a network is at most $\Theta(\sqrt{N})$. In this
+work, we study the benefit of node cooperation in conjunction with
+multi-hopping on the network capacity. We propose a multi-phase communication
+scheme, combining distributed MIMO transmission with multi-hop forwarding among
+clusters of nodes. We derive the network throughput of this communication
+scheme and determine the optimal cluster size. This provides a constructive
+lower bound on the network capacity. We first show that in \textit{regular
+networks} a rate of $\omega(N^{{2/3}})$ can be achieved with transmission power
+scaling of $\Theta(N^{\frac{\alpha}{6}-{1/3}})$, where $\alpha>2$ is the signal
+path-loss exponent. We further extend this result to \textit{random networks},
+where we show a rate of $\omega (N^{2/3}(\log{N})^{(2-\alpha)/6})$ can be
+achieved with transmission power scaling of
+$\Theta(N^{\alpha/6-1/3}(\log{N})^{-(\alpha-2)^2/6})$ in a random network with
+unit node density. In particular, as $\alpha$ approaches 2, only constant
+transmission power is required. Finally, we study a random network with density
+$\lambda=\Omega(\log{N})$ and show that a rate of $\omega((\lambda N)^{2/3})$
+is achieved and the required power scales as
+$\Theta(N^{\alpha/6-1/3}/\lambda^{\alpha/3-2/3})$.

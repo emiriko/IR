@@ -1,0 +1,12 @@
+We implemented sink particles in the Adaptive Mesh Refinement (AMR) code
+FLASH to model the gravitational collapse and accretion in turbulent molecular
+clouds and cores. Sink particles are frequently used to measure properties of
+star formation in numerical simulations, such as the star formation rate and
+efficiency, and the mass distribution of stars. We show that only using a
+density threshold for sink particle creation is insufficient in case of
+supersonic flows, because the density can exceed the threshold in strong shocks
+that do not necessarily lead to local collapse. Additional physical collapse
+indicators have to be considered. We apply our AMR sink particle module to the
+formation of a star cluster, and compare it to a Smoothed Particle
+Hydrodynamics (SPH) code with sink particles. Our comparison shows encouraging
+agreement of gas and sink particle properties between the AMR and SPH code.

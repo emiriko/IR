@@ -1,0 +1,20 @@
+Detecting misbehavior (such as transmissions of false information) in
+vehicular ad hoc networks (VANETs) is very important problem with wide range of
+implications including safety related and congestion avoidance applications. We
+discuss several limitations of existing misbehavior detection schemes (MDS)
+designed for VANETs. Most MDS are concerned with detection of malicious nodes.
+In most situations, vehicles would send wrong information because of selfish
+reasons of their owners, e.g. for gaining access to a particular lane. Because
+of this (\emph{rational behavior}), it is more important to detect false
+information than to identify misbehaving nodes. We introduce the concept of
+data-centric misbehavior detection and propose algorithms which detect false
+alert messages and misbehaving nodes by observing their actions after sending
+out the alert messages. With the data-centric MDS, each node can independently
+decide whether an information received is correct or false. The decision is
+based on the consistency of recent messages and new alert with reported and
+estimated vehicle positions. No voting or majority decisions is needed, making
+our MDS resilient to Sybil attacks. Instead of revoking all the secret
+credentials of misbehaving nodes, as done in most schemes, we impose fines on
+misbehaving nodes (administered by the certification authority), discouraging
+them to act selfishly. This reduces the computation and communication costs
+involved in revoking all the secret credentials of misbehaving nodes.

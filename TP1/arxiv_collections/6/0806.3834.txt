@@ -1,0 +1,10 @@
+In this paper, we introduce the notion of a normal form of one qubit quantum
+circuits over the basis $\{H, P, T\}$, where $H$, $P$ and $T$ denote the
+Hadamard, Phase and $\pi/8$ gates, respectively. This basis is known as the
+{\it standard set} and its universality has been shown by Boykin et al. [FOCS
+'99]. Our normal form has several nice properties: (i) Every circuit over this
+basis can easily be transformed into a normal form, and (ii) Every two normal
+form circuits compute same unitary matrix if and only if both circuits are
+identical. We also show that the number of unitary operations that can be
+represented by a circuit over this basis that contains at most $n$ $T$-gates is
+exactly $192 \cdot (3 \cdot 2^n - 2)$.

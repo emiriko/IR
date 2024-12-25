@@ -1,0 +1,18 @@
+Consider an asynchronous system with private channels and $n$ processes, up
+to $t$ of which may be faulty. We settle a longstanding open question by
+providing a Byzantine agreement protocol that simultaneously achieves three
+properties:
+  1. (optimal) resilience: it works as long as $n>3t$
+  2. (almost-sure) termination: with probability one, all nonfaulty processes
+terminate
+  3. (polynomial) efficiency: the expected computation time, memory
+consumption, message size, and number of messages sent are all polynomial in
+$n$.
+  Earlier protocols have achieved only two of these three properties. In
+particular, the protocol of Bracha is not polynomially efficient, the protocol
+of Feldman and Micali is not optimally resilient, and the protocol of Canetti
+and Rabin does not have almost-sure termination. Our protocol utilizes a new
+primitive called shunning (asynchronous) verifiable secret sharing (SVSS),
+which ensures, roughly speaking, that either a secret is successfully shared or
+a new faulty process is ignored from this point onwards by some nonfaulty
+process.

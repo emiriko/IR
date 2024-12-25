@@ -1,0 +1,20 @@
+Travelling-wave solutions of the inviscid Burgers equation having smooth
+initial wave profiles of suitable shapes are known to develop shocks (infinite
+gradients) in finite times. Such singular solutions are characterized by energy
+spectra that scale with the wave number $k$ as $k^{-2}$. ****
+  In this study, we carry out an analysis which verifies the dynamical features
+described above and derive upper bounds for $\epsilon$ and $N$. It is found
+that $\epsilon$ satisfies $\epsilon \le
+\nu^{2\alpha-1}\norm{u_*}_\infty^{2(1-\alpha)}
+\norm{(-\Delta)^{\alpha/2}u_*}^2$, where $\alpha<1$ and $u_*=u(x,t_*)$ is the
+velocity field at $t=t_*$. Given $\epsilon>0$ in the limit $\nu\to0$, this
+implies that the energy spectrum remains no steeper than $k^{-2}$ in that
+limit. For the critical $k^{-2}$ scaling, the bound for $\epsilon$ reduces to
+$\epsilon\le\sqrt{3}k_0\norm{u_0}_\infty\norm{u_0}^2$, where $k_0$ marks the
+lower end of the inertial range and $u_0=u(x,0)$. This implies
+$N\le\sqrt{3}L\norm{u_0}_\infty/\nu$, where $L$ is the domain size, which is
+shown to coincide with a rigorous estimate for the number of degrees of freedom
+defined in terms of local Lyapunov exponents. We demonstrate both analytically
+and numerically an instance where the $k^{-2}$ scaling is uniquely realizable.
+The numerics also return $\epsilon$ and $t_*$, consistent with analytic values
+derived from the corresponding limiting weak solution.

@@ -1,0 +1,11 @@
+Given a barrier $0 \leq b_0 \leq b_1 \leq ...$, let $f(n)$ be the number of
+nondecreasing integer sequences $0 \leq a_0 \leq a_1 \leq ... \leq a_n$ for
+which $a_j \leq b_j$ for all $0 \leq j \leq n$. Known formul\ae for $f(n)$
+include an $n \times n$ determinant whose entries are binomial coefficients
+(Kreweras, 1965) and, in the special case of $b_j = rj+s$, a short explicit
+formula (Proctor, 1988, p.320). A relatively easy bivariate recursion,
+decomposing all sequences according to $n$ and $a_n$, leads to a bivariate
+generating function, then a univariate generating function, then a linear
+recursion for $\{f(n) \}$. Moreover, the coefficients of the bivariate
+generating function have a probabilistic interpretation, leading to an analytic
+inequality which is an identity for certain values of its argument.

@@ -1,0 +1,15 @@
+Recently, many techniques have been introduced that allow the (automated)
+classification of the runtime complexity of term rewrite systems (TRSs for
+short). In earlier work, the authors have shown that for confluent TRSs,
+innermost polynomial runtime complexity induces polytime computability of the
+functions defined.
+  In this paper, we generalise the above result to full rewriting. Following
+our previous work, we exploit graph rewriting. We give a new proof of the
+adequacy of graph rewriting for full rewriting that allows for a precise
+control of the resources copied. In sum we completely describe an
+implementation of rewriting on a Turing machine (TM for short). We show that
+the runtime complexity of the TRS and the runtime complexity of the TM is
+polynomially related. Our result strengthens the evidence that the complexity
+of a rewrite system is truthfully represented through the length of
+derivations. Moreover our result allows the classification of non-deterministic
+polytime-computation based on runtime complexity analysis of rewrite systems.

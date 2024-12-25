@@ -1,0 +1,17 @@
+This paper deals with the trace regression model where $n$ entries or linear
+combinations of entries of an unknown $m_1\times m_2$ matrix $A_0$ corrupted by
+noise are observed. We propose a new nuclear norm penalized estimator of $A_0$
+and establish a general sharp oracle inequality for this estimator for
+arbitrary values of $n,m_1,m_2$ under the condition of isometry in expectation.
+Then this method is applied to the matrix completion problem. In this case, the
+estimator admits a simple explicit form and we prove that it satisfies oracle
+inequalities with faster rates of convergence than in the previous works. They
+are valid, in particular, in the high-dimensional setting $m_1m_2\gg n$. We
+show that the obtained rates are optimal up to logarithmic factors in a minimax
+sense and also derive, for any fixed matrix $A_0$, a non-minimax lower bound on
+the rate of convergence of our estimator, which coincides with the upper bound
+up to a constant factor. Finally, we show that our procedure provides an exact
+recovery of the rank of $A_0$ with probability close to 1. We also discuss the
+statistical learning setting where there is no underlying model determined by
+$A_0$ and the aim is to find the best trace regression model approximating the
+data.

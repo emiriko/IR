@@ -1,0 +1,14 @@
+The purpose of this paper is introducing rigorous methods and formulas for
+bilateral counterparty risk credit valuation adjustments (CVA's) on
+interest-rate portfolios. In doing so, we summarize the general arbitrage-free
+valuation framework for counterparty risk adjustments in presence of bilateral
+default risk, as developed more in detail in Brigo and Capponi (2008),
+including the default of the investor. We illustrate the symmetry in the
+valuation and show that the adjustment involves a long position in a put option
+plus a short position in a call option, both with zero strike and written on
+the residual net present value of the contract at the relevant default times.
+We allow for correlation between the default times of the investor and
+counterparty, and for correlation of each with the underlying risk factor,
+namely interest rates. We also analyze the often neglected impact of credit
+spread volatility. We include Netting in our examples, although other
+agreements such as Margining and Collateral are left for future work.

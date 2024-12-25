@@ -1,0 +1,15 @@
+Predicate abstraction is a key enabling technology for applying finite-state
+model checkers to programs written in mainstream languages. It has been used
+very successfully for debugging sequential system-level C code. Although model
+checking was originally designed for analyzing concurrent systems, there is
+little evidence of fruitful applications of predicate abstraction to
+shared-variable concurrent software. The goal of this paper is to close this
+gap. We have developed a symmetry-aware predicate abstraction strategy: it
+takes into account the replicated structure of C programs that consist of many
+threads executing the same procedure, and generates a Boolean program template
+whose multi-threaded execution soundly overapproximates the concurrent C
+program. State explosion during model checking parallel instantiations of this
+template can now be absorbed by exploiting symmetry. We have implemented our
+method in the SATABS predicate abstraction framework, and demonstrate its
+superior performance over alternative approaches on a large range of
+synchronization programs.

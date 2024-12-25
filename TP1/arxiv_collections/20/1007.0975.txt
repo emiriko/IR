@@ -1,0 +1,20 @@
+Recently observed oscillations in the solar atmosphere have been interpreted
+and modeled as magnetohydrodynamic wave modes. This has allowed the estimation
+of parameters that are otherwise hard to derive, such as the coronal
+magnetic-field strength. This work crucially relies on the initial detection of
+the oscillations, which is commonly done manually. The volume of Solar Dynamics
+Observatory (SDO) data will make manual detection inefficient for detecting all
+of the oscillating regions. An algorithm is presented which automates the
+detection of areas of the solar atmosphere that support spatially extended
+oscillations. The algorithm identifies areas in the solar atmosphere whose
+oscillation content is described by a single, dominant oscillation within a
+user-defined frequency range. The method is based on Bayesian spectral analysis
+of time-series and image filtering. A Bayesian approach sidesteps the need for
+an a-priori noise estimate to calculate rejection criteria for the observed
+signal, and it also provides estimates of oscillation frequency, amplitude and
+noise, and the error in all these quantities, in a self-consistent way. The
+algorithm also introduces the notion of quality measures to those regions for
+which a positive detection is claimed, allowing simple post-detection
+discrimination by the user. The algorithm is demonstrated on two Transition
+Region and Coronal Explorer (TRACE) datasets, and comments regarding its
+suitability for oscillation detection in SDO are made.

@@ -1,0 +1,16 @@
+MAx is a new tool to estimate parameters from stellar spectra. It is based on
+the maximum likelihood method, with the likelihood compressed in a way that the
+information stored in the spectral fluxes is conserved. The compressed data are
+given by the size of the number of parameters, rather than by the number of
+flux points. The optimum speed-up reached by the compression is the ratio of
+the data set to the number of parameters. The method has been tested on a
+sample of low-resolution spectra from the Sloan Extension for Galactic
+Understanding and Exploration (SEGUE) survey for the estimate of metallicity,
+effective temperature and surface gravity, with accuracies of 0.24 dex, 130K
+and 0.5 dex, respectively. Our stellar parameters and those recovered by the
+SEGUE Stellar Parameter Pipeline agree reasonably well. A small sample of
+high-resolution VLT-UVES spectra were also used to test the method and the
+results have been compared to a more classical approach. The speed and
+multi-resolution capability of MAx combined with its performance compared with
+other methods indicates that it will be a useful tool for the analysis of
+upcoming spectral surveys.

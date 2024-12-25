@@ -1,0 +1,9 @@
+In this paper, we present an explicit substitution calculus which
+distinguishes between ordinary bound variables and meta-variables. Its typing
+discipline is derived from contextual modal type theory. We first present a
+dependently typed lambda calculus with explicit substitutions for ordinary
+variables and explicit meta-substitutions for meta-variables. We then present a
+weak head normalization procedure which performs both substitutions lazily and
+in a single pass thereby combining substitution walks for the two different
+classes of variables. Finally, we describe a bidirectional type checking
+algorithm which uses weak head normalization and prove soundness.

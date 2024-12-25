@@ -1,0 +1,20 @@
+In the nano era in integrated circuit fabrication technologies, the
+performance variability due to statistical process and circuit parameter
+variations is becoming more and more significant. Considerable effort has been
+expended in the EDA community during the past several years in trying to cope
+with the so-called statistical timing problem. Most of this effort has been
+aimed at generalizing the static timing analyzers to the statistical case. In
+this paper, we take a pragmatic approach in pursuit of making the Monte Carlo
+method for timing yield estimation practically feasible. The Monte Carlo method
+is widely used as a golden reference in assessing the accuracy of other timing
+yield estimation techniques. However, it is generally believed that it can not
+be used in practice for estimating timing yield as it requires too many costly
+full circuit simulations for acceptable accuracy. In this paper, we present a
+novel approach to constructing an improvedMonte Carlo estimator for timing
+yield which provides the same accuracy as the standard Monte Carlo estimator,
+but at a cost of much fewer full circuit simulations. This improved estimator
+is based on a novel combination of a variance reduction technique, importance
+sampling, and a stochastic generalization of the logical effort formalism for
+cheap but approximate delay estimation. The results we present demonstrate that
+our improved yield estimator achieves the same accuracy as the standard Monte
+Carlo estimator at a cost reduction reaching several orders of magnitude.

@@ -1,0 +1,23 @@
+To faithfully simulate ITER and other modern fusion devices, one must resolve
+electron and ion fluctuation scales in a five-dimensional phase space and time.
+Simultaneously, one must account for the interaction of this turbulence with
+the slow evolution of the large-scale plasma profiles. Because of the enormous
+range of scales involved and the high dimensionality of the problem, resolved
+first-principles global simulations are very challenging using conventional
+(brute force) techniques. In this thesis, the problem of resolving turbulence
+is addressed by developing velocity space resolution diagnostics and an
+adaptive collisionality that allow for the confident simulation of velocity
+space dynamics using the approximate minimal necessary dissipation. With regard
+to the wide range of scales, a new approach has been developed in which
+turbulence calculations from multiple gyrokinetic flux tube simulations are
+coupled together using transport equations to obtain self-consistent,
+steady-state background profiles and corresponding turbulent fluxes and
+heating. This approach is embodied in a new code, Trinity, which is capable of
+evolving equilibrium profiles for multiple species, including electromagnetic
+effects and realistic magnetic geometry, at a fraction of the cost of
+conventional global simulations. Furthermore, an advanced model physical
+collision operator for gyrokinetics has been derived and implemented, allowing
+for the study of collisional turbulent heating, which has not been extensively
+studied. To demonstrate the utility of the coupled flux tube approach,
+preliminary results from Trinity simulations of the core of an ITER plasma are
+presented.

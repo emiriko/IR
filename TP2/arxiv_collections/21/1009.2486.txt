@@ -1,0 +1,9 @@
+The n-th Delannoy number and the n-th Schr\"oder number given by
+$D_n=\sum_{k=0}^n\binom{n}{k}\binom{n+k}{k}$ and
+$S_n=\sum_{k=0}^n\binom{n}{k}\binom{n+k}{k}/(k+1)$ respectively arise naturally
+from enumerative combinatorics. Let p be an odd prime. We mainly show that
+$$\sum_{k=1}^{p-1}D_k/k^2=2(-1/p)E_{p-3} (mod p)$$ and
+$$\sum_{k=1}^{p-1}S_k/m^k=(m^2-6m+1)/(2m)*(1-((m^2-6m+1)/p) (mod p),$$ where
+(-) is the Legendre symbol, E_0,E_1,E_2,... are Euler numbers and m is any
+integer not divisible by p. We also conjecture that
+$\sum_{k=1}^{p-1}D_k^2/k^2=-2q_p(2)^2 (mod p)$, where $q_p(2)=(2^{p-1}-1)/p$.

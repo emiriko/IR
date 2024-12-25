@@ -1,0 +1,8 @@
+Central cryptographic functionalities such as encryption, authentication, or
+secure two-party computation cannot be realized in an information-theoretically
+secure way from scratch. This serves as a motivation to study what (possibly
+weak) primitives they can be based on. We consider as such starting points
+general two-party input-output systems that do not allow for message
+transmission, and show that they can be used for realizing unconditionally
+secure bit commitment as soon as they are non-trivial, i.e., cannot be securely
+realized from distributed randomness only.

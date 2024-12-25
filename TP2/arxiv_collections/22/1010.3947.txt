@@ -1,0 +1,13 @@
+The majority of the approaches to the automatic recovery of a panoramic image
+from a set of partial views are suboptimal in the sense that the input images
+are aligned, or registered, pair by pair, e.g., consecutive frames of a video
+clip. These approaches lead to propagation errors that may be very severe,
+particularly when dealing with videos that show the same region at disjoint
+time intervals. Although some authors have proposed a post-processing step to
+reduce the registration errors in these situations, there have not been
+attempts to compute the optimal solution, i.e., the registrations leading to
+the panorama that best matches the entire set of partial views}. This is our
+goal. In this paper, we use a generative model for the partial views of the
+panorama and develop an algorithm to compute in an efficient way the Maximum
+Likelihood estimate of all the unknowns involved: the parameters describing the
+alignment of all the images and the panorama itself.

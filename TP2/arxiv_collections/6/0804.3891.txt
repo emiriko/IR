@@ -1,0 +1,19 @@
+This paper presents our experience in developing and implementing Internet
+telerobotics system. Internet telerobotics system refers to a robot system
+controlled and monitored remotely through the Internet. A robot manipulator
+with five degrees of freedom, called Mentor, is employed. Client-server
+architecture is chosen as a platform for our Internet telerobotics system.
+Three generations of telerobotics systems have evolved in this research. The
+first generation was based on CGI and two tiered architecture, where a client
+presents a Graphical User Interface to the user, and utilizes the user's data
+entry and actions to perform requests to robot server running on a different
+machine. The second generation was developed using Java. We also employ Java 3D
+for creating and manipulating 3D geometry of manipulator links and for
+constructing the structures used in rendering that geometry, resulting in 3D
+robot movement simulation presented to the users(clients) through their web
+browser. Recent development in our Internet telerobotics includes object
+recognition through image captured by a camera, which poses challenging
+problem, given the undeterministic latency of the Internet. The third
+generation is centered around the use of CORBA for development platform of
+distributed internet telerobotics system, aimed at distributing task of
+telerobotics system.

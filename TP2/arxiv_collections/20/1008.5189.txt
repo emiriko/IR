@@ -1,0 +1,17 @@
+Max Restricted Path Consistency (maxRPC) is a local consistency for binary
+constraints that can achieve considerably stronger pruning than arc
+consistency. However, existing maxRRC algorithms suffer from overheads and
+redundancies as they can repeatedly perform many constraint checks without
+triggering any value deletions. In this paper we propose techniques that can
+boost the performance of maxRPC algorithms. These include the combined use of
+two data structures to avoid many redundant constraint checks, and heuristics
+for the efficient ordering and execution of certain operations. Based on these,
+we propose two closely related algorithms. The first one which is a maxRPC
+algorithm with optimal O(end^3) time complexity, displays good performance when
+used stand-alone, but is expensive to apply during search. The second one
+approximates maxRPC and has O(en^2d^4) time complexity, but a restricted
+version with O(end^4) complexity can be very efficient when used during search.
+Both algorithms have O(ed) space complexity. Experimental results demonstrate
+that the resulting methods constantly outperform previous algorithms for
+maxRPC, often by large margins, and constitute a more than viable alternative
+to arc consistency on many problems.

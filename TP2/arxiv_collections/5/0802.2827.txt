@@ -1,0 +1,13 @@
+The measure and conquer approach has proven to be a powerful tool to analyse
+exact algorithms for combinatorial problems, like Dominating Set and
+Independent Set. In this paper, we propose to use measure and conquer also as a
+tool in the design of algorithms. In an iterative process, we can obtain a
+series of branch and reduce algorithms. A mathematical analysis of an algorithm
+in the series with measure and conquer results in a quasiconvex programming
+problem. The solution by computer to this problem not only gives a bound on the
+running time, but also can give a new reduction rule, thus giving a new,
+possibly faster algorithm. This makes design by measure and conquer a form of
+computer aided algorithm design. When we apply the methodology to a Set Cover
+modelling of the Dominating Set problem, we obtain the currently fastest known
+exact algorithms for Dominating Set: an algorithm that uses $O(1.5134^n)$ time
+and polynomial space, and an algorithm that uses $O(1.5063^n)$ time.

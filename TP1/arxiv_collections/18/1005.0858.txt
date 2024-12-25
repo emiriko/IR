@@ -1,0 +1,13 @@
+The hybrid linear modeling problem is to identify a set of d-dimensional
+affine sets in a D-dimensional Euclidean space. It arises, for example, in
+object tracking and structure from motion. The hybrid linear model can be
+considered as the second simplest (behind linear) manifold model of data. In
+this paper we will present a very simple geometric method for hybrid linear
+modeling based on selecting a set of local best fit flats that minimize a
+global l1 error measure. The size of the local neighborhoods is determined
+automatically by the Jones' l2 beta numbers; it is proven under certain
+geometric conditions that good local neighborhoods exist and are found by our
+method. We also demonstrate how to use this algorithm for fast determination of
+the number of affine subspaces. We give extensive experimental evidence
+demonstrating the state of the art accuracy and speed of the algorithm on
+synthetic and real hybrid linear data.

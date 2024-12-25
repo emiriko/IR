@@ -1,0 +1,12 @@
+For $t,g>0$, a vertex-weighted graph of total weight $W$ is $(t,g)$-trimmable
+if it contains a vertex-induced subgraph of total weight at least $(1-1/t)W$
+and with no simple path of more than $g$ edges. A family of graphs is trimmable
+if for each constant $t>0$, there is a constant $g=g(t)$ such that every
+vertex-weighted graph in the family is $(t,g)$-trimmable. We show that every
+family of graphs of bounded domino treewidth is trimmable. This implies that
+every family of graphs of bounded degree is trimmable if the graphs in the
+family have bounded treewidth or are planar. Based on this result, we derive a
+polynomial-time approximation scheme for the problem of labeling weighted
+points with nonoverlapping sliding labels of unit height and given lengths so
+as to maximize the total weight of the labeled points. This settles one of the
+last major open questions in the theory of map labeling.

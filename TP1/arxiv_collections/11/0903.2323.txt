@@ -1,0 +1,11 @@
+Let $K$ be an isotropic convex body in $\R^n$. Given $\eps>0$, how many
+independent points $X_i$ uniformly distributed on $K$ are needed for the
+empirical covariance matrix to approximate the identity up to $\eps$ with
+overwhelming probability? Our paper answers this question posed by Kannan,
+Lovasz and Simonovits. More precisely, let $X\in\R^n$ be a centered random
+vector with a log-concave distribution and with the identity as covariance
+matrix. An example of such a vector $X$ is a random point in an isotropic
+convex body. We show that for any $\eps>0$, there exists $C(\eps)>0$, such that
+if $N\sim C(\eps) n$ and $(X_i)_{i\le N}$ are i.i.d. copies of $X$, then $
+\Big\|\frac{1}{N}\sum_{i=1}^N X_i\otimes X_i - \Id\Big\| \le \epsilon, $ with
+probability larger than $1-\exp(-c\sqrt n)$.

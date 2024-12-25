@@ -1,0 +1,7 @@
+The best known algorithm to compute the Jacobi symbol of two n-bit integers
+runs in time O(M(n) log n), using Sch\"onhage's fast continued fraction
+algorithm combined with an identity due to Gauss. We give a different O(M(n)
+log n) algorithm based on the binary recursive gcd algorithm of Stehl\'e and
+Zimmermann. Our implementation - which to our knowledge is the first to run in
+time O(M(n) log n) - is faster than GMP's quadratic implementation for inputs
+larger than about 10000 decimal digits.

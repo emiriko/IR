@@ -1,0 +1,15 @@
+There is presently considerable interest in accurately simulating the
+evolution of open systems for which Markovian master equations fail. Examples
+are systems that are time-dependent and/or strongly damped. A number of elegant
+methods have now been devised to do this, but all use a bath consisting of a
+continuum of harmonic oscillators. While this bath is clearly appropriate for,
+e.g., systems coupled to the EM field, it is not so clear that it is a good
+model for generic many-body systems. Here we explore a different approach to
+exactly simulating open-systems: using a finite bath chosen to have certain key
+properties of thermalizing many-body systems. To explore the numerical
+resources required by this method to approximate an open system coupled to an
+infinite bath, we simulate a weakly damped system and compare to the evolution
+given by the relevant Markovian master equation. We obtain the Markovian
+evolution with reasonable accuracy by using an additional averaging procedure,
+and elucidate how the typicality of the bath generates the correct thermal
+steady-state via the process of "eigenstate thermalization".

@@ -1,0 +1,18 @@
+Microarrays have been developed that tile the entire nonrepetitive genomes of
+many different organisms, allowing for the unbiased mapping of active
+transcription regions or protein binding sites across the entire genome. These
+tiling array experiments produce massive correlated data sets that have many
+experimental artifacts, presenting many challenges to researchers that require
+innovative analysis methods and efficient computational algorithms. This paper
+presents a doubly stochastic latent variable analysis method for transcript
+discovery and protein binding region localization using tiling array data. This
+model is unique in that it considers actual genomic distance between probes.
+Additionally, the model is designed to be robust to cross-hybridized and
+nonresponsive probes, which can often lead to false-positive results in
+microarray experiments. We apply our model to a transcript finding data set to
+illustrate the consistency of our method. Additionally, we apply our method to
+a spike-in experiment that can be used as a benchmark data set for researchers
+interested in developing and comparing future tiling array methods. The results
+indicate that our method is very powerful, accurate and can be used on a single
+sample and without control experiments, thus defraying some of the overhead
+cost of conducting experiments on tiling arrays.

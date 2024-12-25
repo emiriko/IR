@@ -1,0 +1,20 @@
+We describe collective-move Monte Carlo algorithms designed to approximate
+the overdamped dynamics of self-assembling nanoscale components equipped with
+strong, short-ranged and anisotropic interactions. Conventional Monte Carlo
+simulations comprise sequential moves of single particles, proposed and
+accepted so as to satisfy detailed balance. Under certain circumstances such
+simulations provide an approximation of overdamped dynamics, but the accuracy
+of this approximation can be poor if e.g. particle-particle interactions vary
+strongly with distance or angle. The twin requirements of simulation efficiency
+(trial moves of appreciable scale are needed to ensure reasonable sampling) and
+dynamical fidelity (true in the limit of vanishingly small trial moves) then
+become irreconcilable. As a result, single-particle moves can underrepresent
+important collective modes of relaxation, such as self-diffusion of particle
+clusters. However, one way of using Monte Carlo simulation to mimic real
+collective modes of motion, retaining the ability to make trial moves of
+reasonable scale, is to make explicit moves of collections of particles. We
+will outline ways of doing so by iteratively linking particles to their
+environment. Linking criteria can be static, conditioned upon properties of the
+current state of a system, or dynamic, conditioned upon energy changes
+resulting from trial virtual moves of particles. We argue that the latter
+protocol is better-suited to approximating real dynamics.

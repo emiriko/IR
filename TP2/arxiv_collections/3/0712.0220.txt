@@ -1,0 +1,9 @@
+We show a Birthday Paradox for self-intersections of Markov chains with
+uniform stationary distribution. As an application, we analyze Pollard's Rho
+algorithm for finding the discrete logarithm in a cyclic group $G$ and find
+that if the partition in the algorithm is given by a random oracle, then with
+high probability a collision occurs in $\Theta(\sqrt{|G|})$ steps. Moreover,
+for the parallelized distinguished points algorithm on $J$ processors we find
+that $\Theta(\sqrt{|G|}/J)$ steps suffices. These are the first proofs of the
+correct order bounds which do not assume that every step of the algorithm
+produces an i.i.d. sample from $G$.

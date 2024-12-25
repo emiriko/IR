@@ -1,0 +1,20 @@
+Software products evolve over time. Sometimes they evolve by adding new
+features, and sometimes by either fixing bugs or replacing outdated
+implementations with new ones. When software engineers fail to anticipate such
+evolution during development, they will eventually be forced to re-architect or
+re-build from scratch. Therefore, it has been common practice to prepare for
+changes so that software products are extensible over their lifetimes. However,
+making software extensible is challenging because it is difficult to anticipate
+successive changes and to provide adequate abstraction mechanisms over
+potential changes. Such extensibility mechanisms, furthermore, should not
+compromise any existing functionality during extension. Software engineers
+would benefit from a tool that provides a way to add extensions in a reliable
+way. It is natural to expect programming languages to serve this role.
+Extensible programming is one effort to address these issues.
+  In this thesis, we present type safe extensible programming using the MLPolyR
+language. MLPolyR is an ML-like functional language whose type system provides
+type-safe extensibility mechanisms at several levels. After presenting the
+language, we will show how these extensibility mechanisms can be put to good
+use in the context of product line engineering. Product line engineering is an
+emerging software engineering paradigm that aims to manage variations, which
+originate from successive changes in software.

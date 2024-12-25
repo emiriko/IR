@@ -1,0 +1,18 @@
+We present the design and development of a data stream system that captures
+data uncertainty from data collection to query processing to final result
+generation. Our system focuses on data that is naturally modeled as continuous
+random variables. For such data, our system employs an approach grounded in
+probability and statistical theory to capture data uncertainty and integrates
+this approach into high-volume stream processing. The first component of our
+system captures uncertainty of raw data streams from sensing devices. Since
+such raw streams can be highly noisy and may not carry sufficient information
+for query processing, our system employs probabilistic models of the data
+generation process and stream-speed inference to transform raw data into a
+desired format with an uncertainty metric. The second component captures
+uncertainty as data propagates through query operators. To efficiently quantify
+result uncertainty of a query operator, we explore a variety of techniques
+based on probability and statistical theory to compute the result distribution
+at stream speed. We are currently working with a group of scientists to
+evaluate our system using traces collected from the domains of (and eventually
+in the real systems for) hazardous weather monitoring and object tracking and
+monitoring.

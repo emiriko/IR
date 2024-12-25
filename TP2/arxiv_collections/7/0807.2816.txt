@@ -1,0 +1,12 @@
+A systematic comparison of three approximate self-interaction corrections
+(SICs), Perdew-Zunger SIC, Lundin-Eriksson SIC and extended Fermi-Amaldi SIC,
+is performed for a model Hamiltonian whose exact many-body solution and exact
+local-density approximation (LDA) are known. For each of the three proposals we
+compare its implementation only for the potential, only for the energy, i.e., a
+post-LDA evaluation of the SIC energy), to none of them, i.e., a standard LDA
+calculation) and to both. Each of the resulting 10 permutations of
+methodologies is applied to 420 Hubbard chains differing in size, particle
+number and interaction strength. A statistical analysis of the resulting data
+set reveals trends and permits to assess the performance of each methodology.
+Overall, but not in each individual case, a post-LDA application of
+Perdew-Zunger SIC emerges as the recommended methodology.

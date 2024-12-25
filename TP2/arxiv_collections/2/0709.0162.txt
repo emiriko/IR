@@ -1,0 +1,11 @@
+This paper focuses on the temporal discretization of the Langevin dynamics,
+and on different resulting numerical integration schemes. Using a method based
+on the exponentiation of time dependent operators, we carefully derive a
+numerical scheme for the Langevin dynamics, that we found equivalent to the
+proposal of Ermak, and not simply to the stochastic version of the
+velocity-Verlet algorithm. However, we checked on numerical simulations that
+both algorithms give similar results, and share the same ``weak order two''
+accuracy. We then apply the same strategy to derive and test two numerical
+schemes for the dissipative particle dynamics (DPD). The first one of them was
+found to compare well, in terms of speed and accuracy, with the best currently
+available algorithms.

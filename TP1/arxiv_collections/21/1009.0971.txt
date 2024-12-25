@@ -1,0 +1,13 @@
+A Transaction database contains a set of transactions along with items and
+their associated timestamps. Transitional patterns are the patterns which
+specify the dynamic behavior of frequent patterns in a transaction database. To
+discover transitional patterns and their significant milestones, first we have
+to extract all frequent patterns and their supports using any frequent pattern
+generation algorithm. These frequent patterns are used in the generation of
+transitional patterns. The existing algorithm (TP-Mine) generates frequent
+patterns, some of which cannot be used in generation of transitional patterns.
+In this paper, we propose a modification to the existing algorithm, which
+prunes the candidate items to be used in the generation of frequent patterns.
+This method drastically reduces the number of frequent patterns which are used
+in discovering transitional patterns. Extensive simulation test is done to
+evaluate the proposed method.

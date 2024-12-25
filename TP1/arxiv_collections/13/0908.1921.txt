@@ -1,0 +1,13 @@
+It is known that quantum computers, if available, would allow an exponential
+decrease in the computational cost of quantum simulations. We extend this
+result to show that the computation of molecular properties (energy
+derivatives) could also be sped up using quantum computers. We provide a
+quantum algorithm for the numerical evaluation of molecular properties, whose
+time cost is a constant multiple of the time needed to compute the molecular
+energy, regardless of the size of the system. Molecular properties computed
+with the proposed approach could also be used for the optimization of molecular
+geometries or other properties. For that purpose, we discuss the benefits of
+quantum techniques for Newton's method and Householder methods. Finally, global
+minima for the proposed optimizations can be found using the quantum basin
+hopper algorithm, which offers an additional quadratic reduction in cost over
+classical multi-start techniques.

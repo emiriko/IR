@@ -1,0 +1,9 @@
+We present a randomized algorithm that on input a finite field $K$ with $q$
+elements and a positive integer $d$ outputs a degree $d$ irreducible polynomial
+in $K[x]$. The running time is $d^{1+\epsilon(d)} \times (\log
+q)^{5+\epsilon(q)}$ elementary operations. The function $\epsilon$ in this
+expression is a real positive function belonging to the class $o(1)$,
+especially, the complexity is quasi-linear in the degree $d$.
+  Once given such an irreducible polynomial of degree $d$, we can compute
+random irreducible polynomials of degree $d$ at the expense of
+$d^{1+\epsilon(d)} \times (\log q)^{1+\epsilon(q)}$ elementary operations only.

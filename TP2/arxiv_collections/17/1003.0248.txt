@@ -1,0 +1,21 @@
+Outage probabilities in wireless networks depend on various factors: the node
+distribution, the MAC scheme, and the models for path loss, fading and
+transmission success. In prior work on outage characterization for networks
+with randomly placed nodes, most of the emphasis was put on networks whose
+nodes are Poisson distributed and where ALOHA is used as the MAC protocol. In
+this paper we provide a general framework for the analysis of outage
+probabilities in the high-reliability regime. The outage probability
+characterization is based on two parameters: the intrinsic spatial contention
+$\gamma$ of the network, introduced in [1], and the coordination level achieved
+by the MAC as measured by the interference scaling exponent $\kappa$ introduced
+in this paper. We study outage probabilities under the signal-to-interference
+ratio (SIR) model, Rayleigh fading, and power-law path loss, and explain how
+the two parameters depend on the network model. The main result is that the
+outage probability approaches $\gamma\eta^{\kappa}$ as the density of
+interferers $\eta$ goes to zero, and that $\kappa$ assumes values in the range
+$1\leq \kappa\leq \alpha/2$ for all practical MAC protocols, where $\alpha$ is
+the path loss exponent. This asymptotic expression is valid for all
+motion-invariant point processes. We suggest a novel and complete taxonomy of
+MAC protocols based mainly on the value of $\kappa$. Finally, our findings
+suggest a conjecture that tightly bounds the outage probability for all
+interferer densities.

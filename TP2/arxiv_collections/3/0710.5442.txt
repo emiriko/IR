@@ -1,0 +1,14 @@
+Hypoelliptic diffusion processes can be used to model a variety of phenomena
+in applications ranging from molecular dynamics to audio signal analysis. We
+study parameter estimation for such processes in situations where we observe
+some components of the solution at discrete times. Since exact likelihoods for
+the transition densities are typically not known, approximations are used that
+are expected to work well in the limit of small inter-sample times $\Delta t$
+and large total observation times $N\Delta t$. Hypoellipticity together with
+partial observation leads to ill-conditioning requiring a judicious combination
+of approximate likelihoods for the various parameters to be estimated. We
+combine these in a deterministic scan Gibbs sampler alternating between missing
+data in the unobserved solution components, and parameters. Numerical
+experiments illustrate asymptotic consistency of the method when applied to
+simulated data. The paper concludes with application of the Gibbs sampler to
+molecular dynamics data.

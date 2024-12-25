@@ -1,0 +1,13 @@
+We present a novel algorithm for segmentation of natural images that
+harnesses the principle of minimum description length (MDL). Our method is
+based on observations that a homogeneously textured region of a natural image
+can be well modeled by a Gaussian distribution and the region boundary can be
+effectively coded by an adaptive chain code. The optimal segmentation of an
+image is the one that gives the shortest coding length for encoding all
+textures and boundaries in the image, and is obtained via an agglomerative
+clustering process applied to a hierarchy of decreasing window sizes as
+multi-scale texture features. The optimal segmentation also provides an
+accurate estimate of the overall coding length and hence the true entropy of
+the image. We test our algorithm on the publicly available Berkeley
+Segmentation Dataset. It achieves state-of-the-art segmentation results
+compared to other existing methods.

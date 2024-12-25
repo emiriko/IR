@@ -1,0 +1,8 @@
+Line map, an invertible, two-dimensional chaotic encryption algorithm was
+introduced recently. In this paper, we propose several weaknesses of the method
+based on standard cryptanalytic attacks. We perform a side-channel attack by
+observing the execution time of the encryption algorithm and successfully
+reduce the key space by a factor of 10^4 for a key length of 16 digits. We find
+the existence of equivalent keys which reduce the key space by a significant
+margin, even in the absence of any attack. Also, we find that the ciphertext is
+not sensitive to small changes in the plaintext due to poor diffusion.

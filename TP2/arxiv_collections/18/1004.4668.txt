@@ -1,0 +1,12 @@
+Biological data objects often have both of the following features: (i) they
+are functions rather than single numbers or vectors, and (ii) they are
+correlated due to phylogenetic relationships. In this paper we give a flexible
+statistical model for such data, by combining assumptions from phylogenetics
+with Gaussian processes. We describe its use as a nonparametric Bayesian prior
+distribution, both for prediction (placing posterior distributions on ancestral
+functions) and model selection (comparing rates of evolution across a
+phylogeny, or identifying the most likely phylogenies consistent with the
+observed data). Our work is integrative, extending the popular phylogenetic
+Brownian Motion and Ornstein-Uhlenbeck models to functional data and Bayesian
+inference, and extending Gaussian Process regression to phylogenies. We provide
+a brief illustration of the application of our method.

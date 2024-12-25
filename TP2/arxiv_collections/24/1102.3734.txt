@@ -1,0 +1,8 @@
+This work gives some insights and results on standardisation for call-by-name
+pattern calculi. More precisely, we define standard reductions for a pattern
+calculus with constructor-based data terms and patterns. This notion is based
+on reduction steps that are needed to match an argument with respect to a given
+pattern. We prove the Standardisation Theorem by using the technique developed
+by Takahashi and Crary for lambda-calculus. The proof is based on the fact that
+any development can be specified as a sequence of head steps followed by
+internal reductions, i.e. reductions in which no head steps are involved.

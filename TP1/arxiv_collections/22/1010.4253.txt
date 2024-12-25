@@ -1,0 +1,15 @@
+This paper considers the clustering problem for large data sets. We propose
+an approach based on distributed optimization. The clustering problem is
+formulated as an optimization problem of maximizing the classification gain. We
+show that the optimization problem can be reformulated and decomposed into
+small-scale sub optimization problems by using the Dantzig-Wolfe decomposition
+method. Generally speaking, the Dantzig-Wolfe method can only be used for
+convex optimization problems, where the duality gaps are zero. Even though, the
+considered optimization problem in this paper is non-convex, we prove that the
+duality gap goes to zero, as the problem size goes to infinity. Therefore, the
+Dantzig-Wolfe method can be applied here. In the proposed approach, the
+clustering problem is iteratively solved by a group of computers coordinated by
+one center processor, where each computer solves one independent small-scale
+sub optimization problem during each iteration, and only a small amount of data
+communication is needed between the computers and center processor. Numerical
+results show that the proposed approach is effective and efficient.

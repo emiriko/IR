@@ -1,0 +1,11 @@
+The linked cell list algorithm is an essential part of molecular simulation
+software, both molecular dynamics and Monte Carlo. Though it scales linearly
+with the number of particles, there has been a constant interest in increasing
+its efficiency, because a large part of CPU time is spent to identify the
+interacting particles. Several recent publications proposed improvements to the
+algorithm and investigated their efficiency by applying them to particular
+setups. In this publication we develop a general method to evaluate the
+efficiency of these algorithms, which is mostly independent of the parameters
+of the simulation, and test it for a number of linked cell list algorithms. We
+also propose a combination of linked cell reordering and interaction sorting
+that shows a good efficiency for a broad range of simulation setups.

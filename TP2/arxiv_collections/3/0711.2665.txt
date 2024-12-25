@@ -1,0 +1,14 @@
+We employ a multiscale approach to model the translocation of biopolymers
+through nanometer size pores. Our computational scheme combines microscopic
+Molecular Dynamics (MD) with a mesoscopic Lattice Boltzmann (LB) method for the
+solvent dynamics, explicitly taking into account the interactions of the
+molecule with the surrounding fluid. We describe an efficient parallel
+implementation of the method which exhibits excellent scalability on the Blue
+Gene platform. We investigate both dynamical and statistical aspects of the
+translocation process by simulating polymers of various initial configurations
+and lengths. For a representative molecule size, we explore the effects of
+important parameters that enter in the simulation, paying particular attention
+to the strength of the molecule-solvent coupling and of the external electric
+field which drives the translocation process. Finally, we explore the
+connection between the generic polymers modeled in the simulation and DNA, for
+which interesting recent experimental results are available.

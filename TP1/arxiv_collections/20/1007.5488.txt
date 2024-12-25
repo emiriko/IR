@@ -1,0 +1,17 @@
+We consider CSP from the point of view of the algebraic theory of effects,
+which classifies operations as effect constructors or effect deconstructors; it
+also provides a link with functional programming, being a refinement of Moggi's
+seminal monadic point of view. There is a natural algebraic theory of the
+constructors whose free algebra functor is Moggi's monad; we illustrate this by
+characterising free and initial algebras in terms of two versions of the stable
+failures model of CSP, one more general than the other. Deconstructors are
+dealt with as homomorphisms to (possibly non-free) algebras.
+  One can view CSP's action and choice operators as constructors and the rest,
+such as concealment and concurrency, as deconstructors. Carrying this programme
+out results in taking deterministic external choice as constructor rather than
+general external choice. However, binary deconstructors, such as the CSP
+concurrency operator, provide unresolved difficulties. We conclude by
+presenting a combination of CSP with Moggi's computational {\lambda}-calculus,
+in which the operators, including concurrency, are polymorphic. While the paper
+mainly concerns CSP, it ought to be possible to carry over similar ideas to
+other process calculi.

@@ -1,0 +1,21 @@
+Sequential propositional logic deviates from ordinary propositional logic by
+taking into account that during the sequential evaluation of a propositional
+statement,atomic propositions may yield different Boolean values at repeated
+occurrences. We introduce `free valuations' to capture this dynamics of a
+propositional statement's environment. The resulting logic is phrased as an
+equationally specified algebra rather than in the form of proof rules, and is
+named `proposition algebra'. It is strictly more general than Boolean algebra
+to the extent that the classical connectives fail to be expressively complete
+in the sequential case. The four axioms for free valuation congruence are then
+combined with other axioms in order define a few more valuation congruences
+that gradually identify more propositional statements, up to static valuation
+congruence (which is the setting of conventional propositional logic).
+  Proposition algebra is developed in a fashion similar to the process algebra
+ACP and the program algebra PGA, via an algebraic specification which has a
+meaningful initial algebra for which a range of coarser congruences are
+considered important as well. In addition infinite objects (that is
+propositional statements, processes and programs respectively) are dealt with
+by means of an inverse limit construction which allows the transfer of
+knowledge concerning finite objects to facts about infinite ones while reducing
+all facts about infinite objects to an infinity of facts about finite ones in
+return.

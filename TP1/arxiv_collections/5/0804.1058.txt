@@ -1,0 +1,16 @@
+A practical electronic structure method in which a two-body functional is the
+fundamental variable is constructed. The basic formalism of our method is
+equivalent to Hartree-Fock density matrix functional theory [M. Levy in {\it
+Density Matrices and Density Functionals}, Ed. R. Erdahl and V. H. Smith Jr.,
+D. Reidel, (1987)]. The implementation of the method consists of solving
+Hartree-Fock equations and using the resulting orbitals to calculate two-body
+corrections to account for correlation. The correction terms are constructed so
+that the energy of the system in the absence of external potentials can be made
+to correspond to approximate expressions for the energy of the homogeneous
+electron gas. In this work the approximate expressions we use are based on the
+high-density limit of the homogeneous electron gas. Self-interaction is
+excluded from the two-body functional itself. It is shown that our pair density
+based functional does not suffer from the divergence present in many density
+functionals when homogeneous scaling is applied. Calculations based on our pair
+density functional lead to quantitative results for the correlation energies of
+atomic test cases.

@@ -1,0 +1,14 @@
+Semiconductor devices are scaled down to the level which constituent
+materials are no longer considered continuous. To account for atomistic
+randomness, surface effects and quantum mechanical effects, an atomistic
+modeling approach needs to be pursued. The Nanoelectronic Modeling Tool (NEMO
+3-D) has satisfied the requirement by including emprical $sp^{3}s^{*}$ and
+$sp^{3}d^{5}s^{*}$ tight binding models and considering strain to successfully
+simulate various semiconductor material systems. Computationally, however, NEMO
+3-D needs significant improvements to utilize increasing supply of processors.
+This paper introduces the new modeling tool, OMEN 3-D, and discusses the major
+computational improvements, the 3-D domain decomposition and the multi-level
+parallelism. As a featured application, a full 3-D parallelized
+Schr\"odinger-Poisson solver and its application to calculate the bandstructure
+of $\delta$ doped phosphorus(P) layer in silicon is demonstrated. Impurity
+bands due to the donor ion potentials are computed.

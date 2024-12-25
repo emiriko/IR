@@ -1,0 +1,15 @@
+An efficient low-order scaling method is presented for large-scale electronic
+structure calculations based on the density functional theory using localized
+basis functions, which directly computes selected elements of the density
+matrix by a contour integration of the Green function evaluated with a nested
+dissection approach for resultant sparse matrices. The computational effort of
+the method scales as O($N(\log_2N)^2$), O($N^{2}$), and O($N^{7/3}$) for one,
+two, and three dimensional systems, respectively, where $N$ is the number of
+basis functions. Unlike O($N$) methods developed so far the approach is a
+numerically exact alternative to conventional O($N^{3}$) diagonalization
+schemes in spite of the low-order scaling, and can be applicable to not only
+insulating but also metallic systems in a single framework. It is also
+demonstrated that the nested algorithm and the well separated data structure
+are suitable for the massively parallel computation, which enables us to extend
+the applicability of density functional calculations for large-scale systems
+together with the low-order scaling.

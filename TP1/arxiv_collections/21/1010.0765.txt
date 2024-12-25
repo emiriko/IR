@@ -1,0 +1,7 @@
+We propose a modification of a key component in the Doomsday Algorithm for
+calculating the day of the week of any calendar date. In particular, we propose
+to replace the calculation of the required term: \lfloor \frac{x}{12} \rfloor +
+x \bmod 12 + \lfloor \frac{x \bmod 12}{4} \rfloor with -[ \frac{x+11(x \bmod
+2)}{2} + 11 (\frac{x+11(x \bmod 2)}{2}\bmod 2)] \bmod 7 for a 2-digit input
+year x; Although our expression looks daunting and complicated, we will explain
+why it is actually easy to calculate mentally.

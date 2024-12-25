@@ -1,0 +1,10 @@
+We describe an alternative method (to compression) that combines several
+theoretical and experimental results to numerically approximate the algorithmic
+(Kolmogorov-Chaitin) complexity of all $\sum_{n=1}^82^n$ bit strings up to 8
+bits long, and for some between 9 and 16 bits long. This is done by an
+exhaustive execution of all deterministic 2-symbol Turing machines with up to 4
+states for which the halting times are known thanks to the Busy Beaver problem,
+that is 11019960576 machines. An output frequency distribution is then
+computed, from which the algorithmic probability is calculated and the
+algorithmic complexity evaluated by way of the (Levin-Zvonkin-Chaitin) coding
+theorem.

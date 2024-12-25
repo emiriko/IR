@@ -1,0 +1,19 @@
+Traditional communication theory focuses on minimizing transmit power.
+However, communication links are increasingly operating at shorter ranges where
+transmit power can be significantly smaller than the power consumed in
+decoding. This paper models the required decoding power and investigates the
+minimization of total system power from two complementary perspectives.
+  First, an isolated point-to-point link is considered. Using new lower bounds
+on the complexity of message-passing decoding, lower bounds are derived on
+decoding power. These bounds show that 1) there is a fundamental tradeoff
+between transmit and decoding power; 2) unlike the implications of the
+traditional "waterfall" curve which focuses on transmit power, the total power
+must diverge to infinity as error probability goes to zero; 3) Regular LDPCs,
+and not their known capacity-achieving irregular counterparts, can be shown to
+be power order optimal in some cases; and 4) the optimizing transmit power is
+bounded away from the Shannon limit.
+  Second, we consider a collection of links. When systems both generate and
+face interference, coding allows a system to support a higher density of
+transmitter-receiver pairs (assuming interference is treated as noise).
+However, at low densities, uncoded transmission may be more power-efficient in
+some cases.

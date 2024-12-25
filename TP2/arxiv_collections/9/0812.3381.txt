@@ -1,0 +1,15 @@
+Value-at-Risk (VaR) and Conditional Value-at-Risk (CVaR) are two risk
+measures which are widely used in the practice of risk management. This paper
+deals with the problem of computing both VaR and CVaR using stochastic
+approximation (with decreasing steps): we propose a first Robbins-Monro
+procedure based on Rockaffelar-Uryasev's identity for the CVaR. The convergence
+rate of this algorithm to its target satisfies a Gaussian Central Limit
+Theorem. As a second step, in order to speed up the initial procedure, we
+propose a recursive importance sampling (I.S.) procedure which induces a
+significant variance reduction of both VaR and CVaR procedures. This idea,
+which goes back to the seminal paper of B. Arouna, follows a new approach
+introduced by V. Lemaire and G. Pag\`es. Finally, we consider a deterministic
+moving risk level to speed up the initialization phase of the algorithm. We
+prove that the convergence rate of the resulting procedure is ruled by a
+Central Limit Theorem with minimal variance and its efficiency is illustrated
+by considering several typical energy portfolios.

@@ -1,0 +1,17 @@
+We consider optimizing average queueing delay and average power consumption
+in a nonpreemptive multi-class M/G/1 queue with dynamic power control that
+affects instantaneous service rates. Four problems are studied: (1) satisfying
+per-class average delay constraints; (2) minimizing a separable convex function
+of average delays subject to per-class delay constraints; (3) minimizing
+average power consumption subject to per-class delay constraints; (4)
+minimizing a separable convex function of average delays subject to an average
+power constraint. Combining an achievable region approach in queueing systems
+and the Lyapunov optimization theory suitable for optimizing dynamic systems
+with time average constraints, we propose a unified framework to solve the
+above problems. The solutions are variants of dynamic $c\mu$ rules, and
+implement weighted priority policies in every busy period, where weights are
+determined by past queueing delays in all job classes. Our solutions require
+limited statistical knowledge of arrivals and service times, and no statistical
+knowledge is needed in the first problem. Overall, we provide a new set of
+tools for stochastic optimization and control over multi-class queueing systems
+with time average constraints.

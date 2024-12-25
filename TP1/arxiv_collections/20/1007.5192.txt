@@ -1,0 +1,8 @@
+Exponential random graph models are extremely difficult models to handle from
+a statistical viewpoint, since their normalising constant, which depends on
+model parameters, is available only in very trivial cases. We show how
+inference can be carried out in a Bayesian framework using a MCMC algorithm,
+which circumvents the need to calculate the normalising constants. We use a
+population MCMC approach which accelerates convergence and improves mixing of
+the Markov chain. This approach improves performance with respect to the Monte
+Carlo maximum likelihood method of Geyer and Thompson (1992).

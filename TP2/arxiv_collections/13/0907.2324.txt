@@ -1,0 +1,20 @@
+In the theory of algorithmic randomness, several notions of random sequence
+are defined via a game-theoretic approach, and the notions that received most
+attention are perhaps Martin-Loef randomness and computable randomness. The
+latter notion was introduced by Schnorr and is rather natural: an infinite
+binary sequence is computably random if no total computable strategy succeeds
+on it by betting on bits in order. However, computably random sequences can
+have properties that one may consider to be incompatible with being random, in
+particular, there are computably random sequences that are highly compressible.
+The concept of Martin-Loef randomness is much better behaved in this and other
+respects, on the other hand its definition in terms of martingales is
+considerably less natural. Muchnik, elaborating on ideas of Kolmogorov and
+Loveland, refined Schnorr's model by also allowing non-monotonic strategies,
+i.e. strategies that do not bet on bits in order. The subsequent
+``non-monotonic'' notion of randomness, now called Kolmogorov-Loveland
+randomness, has been shown to be quite close to Martin-Loef randomness, but
+whether these two classes coincide remains a fundamental open question. As
+suggested by Miller and Nies, we study in this paper weak versions of
+Kolmogorov-Loveland randomness, where the betting strategies are non-adaptive
+(i.e., the positions of the bits to bet on should be decided before the game).
+We obtain a full classification of the different notions we consider.

@@ -1,0 +1,22 @@
+We present a new randomized algorithm for computing the diameter of a
+weighted directed graph. The algorithm runs in
+$\Ot(M^{\w/(\w+1)}n^{(\w^2+3)/(\w+1)})$ time, where $\w < 2.376$ is the
+exponent of fast matrix multiplication, $n$ is the number of vertices of the
+graph, and the edge weights are integers in $\{-M,...,0,...,M\}$. For bounded
+integer weights the running time is $O(n^{2.561})$ and if $\w=2+o(1)$ it is
+$\Ot(n^{7/3})$. This is the first algorithm that computes the diameter of an
+integer weighted directed graph polynomially faster than any known All-Pairs
+Shortest Paths (APSP) algorithm. For bounded integer weights, the fastest
+algorithm for APSP runs in $O(n^{2.575})$ time for the present value of $\w$
+and runs in $\Ot(n^{2.5})$ time if $\w=2+o(1)$.
+  For directed graphs with {\em positive} integer weights in $\{1,...,M\}$ we
+obtain a deterministic algorithm that computes the diameter in $\Ot(Mn^\w)$
+time. This extends a simple $\Ot(n^\w)$ algorithm for computing the diameter of
+an {\em unweighted} directed graph to the positive integer weighted setting and
+is the first algorithm in this setting whose time complexity matches that of
+the fastest known Diameter algorithm for {\em undirected} graphs.
+  The diameter algorithms are consequences of a more general result. We
+construct algorithms that for any given integer $d$, report all ordered pairs
+of vertices having distance {\em at most} $d$. The diameter can therefore be
+computed using binary search for the smallest $d$ for which all pairs are
+reported.

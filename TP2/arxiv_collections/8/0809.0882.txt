@@ -1,0 +1,19 @@
+This report details an approach to improve the accuracy and precision of free
+energy difference estimates using thermodynamic integration data (slope of the
+free energy with respect to the switching variable lambda) and its application
+to calculating solvation free energy. The central idea is to utilize polynomial
+fitting schemes to approximate the thermodynamic integration data to improve
+the accuracy and precision of the free energy difference estimates. In this
+report we introduce polynomial and spline interpolation techniques. Two systems
+with analytically solvable relative free energies are used to test the accuracy
+and precision of the interpolation approach (Shyu and Ytreberg, J Comput Chem
+30: 2297-2304, 2009). We also use both interpolation and extrapolation methods
+to determine a small molecule salvation free energy. Our simulations show that,
+using such polynomial techniques and non-equidistant lambda values, the
+solvation free energy can be estimated with high accuracy without using
+soft-core scaling and separate simulations for Lennard-Jones and partial
+charges. The results from our study suggest these polynomial techniques,
+especially with use of non-equidistant lambda values, improve the accuracy and
+precision for dF estimates without demanding additional simulations. To allow
+researchers to immediately utilize these methods, free software and
+documentation is provided via http://www.phys.uidaho.edu/ytreberg/software

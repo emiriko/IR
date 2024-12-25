@@ -1,0 +1,8 @@
+This paper presents the architecture and characteristics of a memory database
+intended to be used as a cache engine for web applications. Primary goals of
+this database are speed and efficiency while running on SMP systems with
+several CPU cores (four and more). A secondary goal is the support for simple
+metadata structures associated with cached data that can aid in efficient use
+of the cache. Due to these goals, some data structures and algorithms normally
+associated with this field of computing needed to be adapted to the new
+environment.

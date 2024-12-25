@@ -1,0 +1,12 @@
+As XML becomes ubiquitous and XML storage and processing becomes more
+efficient, the range of use cases for these technologies widens daily. One
+promising area is the integration of XML and data warehouses, where an
+XML-native database stores multidimensional data and processes OLAP queries
+written in the XQuery interrogation language. This paper explores issues
+arising in the implementation of such a data warehouse. We first compare
+approaches for multidimensional data modelling in XML, then describe how
+typical OLAP queries on these models can be expressed in XQuery. We then show
+how, regardless of the model, the grouping features of XQuery 1.1 improve
+performance and readability of these queries. Finally, we evaluate the
+performance of query evaluation in each modelling choice using the eXist
+database, which we extended with a grouping clause implementation.

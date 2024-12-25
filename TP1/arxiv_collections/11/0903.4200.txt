@@ -1,0 +1,22 @@
+Limiters are nonlinear hybridization techniques that are used to preserve
+positivity and monotonicity when numerically solving hyperbolic conservation
+laws. Unfortunately, the original methods suffer from the truncation-error
+being first-order accurate at all extrema despite the accuracy of the
+higher-order method. To remedy this problem, higher-order extensions were
+proposed that relied on elaborate analytic and geometric constructions. Since
+extremum-preserving limiters are applied only at extrema, additional
+computational cost is negligible. Therefore, extremum-preserving limiters
+ensure higher-order spatial accuracy while maintaining simplicity. This report
+presents higher-order limiting for (i) computing van Leer slopes and (ii)
+adjusting parabolic profiles. This limiting preserves monotonicity and accuracy
+at smooth extrema, maintains stability in the presence of discontinuities and
+under-resolved gradients, and is based on constraining the interpolated values
+at extrema (and only at extrema) by using nonlinear combinations of second
+derivatives. The van Leer limiting can be done separately and implemented in
+MUSCL (Monotone Upstream-centered Schemes for Conservation Laws) or done in
+concert with the parabolic profile limiting and implemented in PPM (Piecewise
+Parabolic Method). The extremum-preserving limiters elegantly fit into any
+algorithm which uses conventional limiting techniques. Limiters are outlined
+for scalar advection and nonlinear systems of conservation laws. This report
+also discusses the fourth-order correction to the point-valued, cell-centered
+initial conditions that is necessary for implementing higher-order limiting.

@@ -1,0 +1,17 @@
+We present Hindley-Milner-Cousots (HMC), an algorithm that allows any
+interprocedural analysis for first-order imperative programs to be used to
+verify safety properties of typed higher-order functional programs. HMC works
+as follows. First, it uses the type structure of the functional program to
+generate a set of logical refinement constraints whose satisfaction implies the
+safety of the source program. Next, it transforms the logical refinement
+constraints into a simple first-order imperative program that is safe iff the
+constraints are satisfiable. Thus, in one swoop, HMC makes tools for invariant
+generation, e.g., based on abstract domains, predicate abstraction,
+counterexample-guided refinement, and Craig interpolation be directly
+applicable to verify safety properties of modern functional languages in a
+fully automatic manner. We have implemented HMC and describe preliminary
+experimental results using two imperative checkers -- ARMC and InterProc -- to
+verify OCaml programs. Thus, by composing type-based reasoning grounded in
+program syntax and state-based reasoning grounded in abstract interpretation,
+HMC opens the door to automatic verification of programs written in modern
+programming languages.

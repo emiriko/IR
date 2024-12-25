@@ -1,0 +1,13 @@
+Kripke Structures and Labelled Transition Systems are the two most prominent
+semantic models used in concurrency theory. Both models are commonly believed
+to be equi-expressive. One can find many ad-hoc embeddings of one of these
+models into the other. We build upon the seminal work of De Nicola and
+Vaandrager that firmly established the correspondence between stuttering
+equivalence in Kripke Structures and divergence-sensitive branching
+bisimulation in Labelled Transition Systems. We show that their embeddings can
+also be used for a range of other equivalences of interest, such as strong
+bisimilarity, simulation equivalence, and trace equivalence. Furthermore, we
+extend the results by De Nicola and Vaandrager by showing that there are
+additional translations that allow one to use minimisation techniques in one
+semantic domain to obtain minimal representatives in the other semantic domain
+for these equivalences.

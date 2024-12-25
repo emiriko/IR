@@ -1,0 +1,16 @@
+The Full Multiple Spawning (FMS) method is designed to simulate quantum
+dynamics in the multi-state electronic problem. The FMS nuclear wavefunction is
+represented in a basis of coupled, frozen Gaussians, and the spawning procedure
+prescribes a means of adaptively increasing the size of the basis in order to
+capture population transfer between electronic states. Parent trajectories
+create children when passing through regions of significant nonadiabatic
+coupling. In order to converge branching ratios without allowing the basis to
+reach an impractical size, population transfer at individual spawning events
+should be made as effective as possible. Herein we detail a new algorithm for
+specifying the initial conditions of freshly spawned basis functions, one that
+minimizes the number of spawns needed for convergence by maximizing the
+efficiency of individual spawning events. Optimization is achieved by
+maximizing the coupling between parent and child trajectories, as a function of
+child position and momentum, at the point of spawning. The method is tested
+with a two-state, one-mode avoided crossing model and a two-state, two-mode
+conical intersection model.

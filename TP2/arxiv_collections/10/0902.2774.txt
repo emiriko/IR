@@ -1,0 +1,21 @@
+Pseudorandomness has played a central role in modern cryptography, finding
+theoretical and practical applications to various fields of computer science. A
+function that generates pseudorandom strings from shorter but truly random
+seeds is known as a pseudorandom generator. Our generators are designed to fool
+languages (or equivalently, Boolean-valued functions). In particular, our
+generator fools advised context-free languages, namely, context-free languages
+assisted by external information known as advice, and moreover our generator is
+made almost one-to-one, stretching $n$-bit seeds to $n+1$ bits. We explicitly
+construct such a pseudorandom generator, which is computed by a deterministic
+Turing machine using logarithmic space and also belongs to CFLMV(2)/n---a
+functional extension of the 2-conjunctive closure of CFL with the help of
+appropriate deterministic advice. In contrast, we show that there is no almost
+one-to-one pseudorandom generator against context-free languages if we demand
+that it should be computed by a nondeterministic pushdown automaton equipped
+with a write-only output tape. Our generator naturally extends known
+pseudorandom generators against advised regular languages. Our proof of the
+CFL/n-pseudorandomness of the generator is quite elementary, and in particular,
+one part of the proof utilizes a special feature of the behaviors of
+nondeterministic pushdown automata, called a swapping property, which is
+interesting in its own right, generalizing the swapping lemma for context-free
+languages.

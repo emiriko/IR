@@ -1,0 +1,13 @@
+When deploying wireless sensor networks (WSNs) in public environments it may
+become necessary to secure their data storage and transmission against possible
+attacks such as node-compromise and eavesdropping. The nodes feature only small
+computational and energy resources, thus requiring efficient algorithms. As a
+solution for this problem the TinyPEDS approach was proposed in [7], which
+utilizes the Elliptic Curve ElGamal (EC-ElGamal) cryptosystem for additive
+homomorphic encryption allowing concealed data aggregation. This work presents
+an optimized implementation of EC-ElGamal on a MicaZ mote, which is a typical
+sensor node platform with 8-bit processor for WSNs. Compared to the best
+previous result, our implementation is at least 44% faster for fixed-point
+multiplication. Because most parts of the algorithm are similar to standard
+Elliptic Curve algorithms, the results may be reused in other realizations on
+constrained devices as well.

@@ -1,0 +1,13 @@
+Consider an ideal $I \subset R = \bC[x_1,...,x_n]$ defining a complex affine
+variety $X \subset \bC^n$. We describe the components associated to $I$ by
+means of {\em numerical primary decomposition} (NPD).
+  The method is based on the construction of {\em deflation ideal} $I^{(d)}$
+that defines the {\em deflated variety} $\dXd$ in a complex space of higher
+dimension. For every embedded component there exists $d$ and an isolated
+component $\dYd$ of $\dId$ projecting onto $Y$. In turn, $\dYd$ can be
+discovered by existing methods for prime decomposition, in particular, the {\em
+numerical irreducible decomposition}, applied to $\dXd$.
+  The concept of NPD gives a full description of the scheme $\Spec(R/I)$ by
+representing each component with a {\em witness set}. We propose an algorithm
+to produce a collection of witness sets that contains a NPD and that can be
+used to solve the {\em ideal membership problem} for $I$.

@@ -1,0 +1,14 @@
+We introduce optimal algorithms for the problems of data placement (DP) and
+page placement (PP) in networks with a constant number of clients each of which
+has limited storage availability and issues requests for data objects. The
+objective for both problems is to efficiently utilize each client's storage
+(deciding where to place replicas of objects) so that the total incurred access
+and installation cost over all clients is minimized. In the PP problem an extra
+constraint on the maximum number of clients served by a single client must be
+satisfied. Our algorithms solve both problems optimally when all objects have
+uniform lengths. When objects lengths are non-uniform we also find the optimal
+solution, albeit a small, asymptotically tight violation of each client's
+storage size by $\epsilon$lmax where lmax is the maximum length of the objects
+and $\epsilon$ some arbitrarily small positive constant. We make no assumption
+on the underlying topology of the network (metric, ultrametric etc.), thus
+obtaining the first non-trivial results for non-metric data placement problems.

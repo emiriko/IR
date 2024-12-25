@@ -1,0 +1,20 @@
+Recently, several new pari-mutuel mechanisms have been introduced to organize
+markets for contingent claims. Hanson introduced a market maker derived from
+the logarithmic scoring rule, and later Chen and Pennock developed a cost
+function formulation for the market maker. On the other hand, the SCPM model of
+Peters et al. is based on ideas from a call auction setting using a convex
+optimization model. In this work, we develop a unified framework that bridges
+these seemingly unrelated models for centrally organizing contingent claim
+markets. The framework, developed as a generalization of the SCPM, will support
+many desirable properties such as proper scoring, truthful bidding (in a myopic
+sense), efficient computation, and guarantees on worst case loss. In fact, our
+unified framework will allow us to express various proper scoring rules,
+existing or new, from classical utility functions in a convex optimization
+problem representing the market organizer. Additionally, we utilize concepts
+from duality to show that the market model is equivalent to a risk minimization
+problem where a convex risk measure is employed. This will allow us to more
+clearly understand the differences in the risk attitudes adopted by various
+mechanisms, and particularly deepen our intuition about popular mechanisms like
+Hanson's market-maker. In aggregate, we believe this work advances our
+understanding of the objectives that the market organizer is optimizing in
+popular pari-mutuel mechanisms by recasting them into one unified framework.

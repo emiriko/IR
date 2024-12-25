@@ -1,0 +1,9 @@
+We present the design of a quantum carry-lookahead adder using
+measurement-based quantum computation. QCLA utilizes MBQC`s ability to transfer
+quantum states in unit time to accelerate addition. The quantum carry-lookahead
+adder (QCLA) is faster than a quantum ripple-carry adder; QCLA has logarithmic
+depth while ripple adders have linear depth. QCLA is an order of magnitude
+faster than a ripple-carry adder when adding registers longer than 100 qubits
+but requires a cluster state that is an order of magnitude larger. Hand
+optimization results in a $\approx$ 26% reduction in spatial resources for the
+circuit.

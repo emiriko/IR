@@ -1,0 +1,10 @@
+This paper considers the problem of cardinality estimation in data stream
+applications. We present a statistical analysis of probabilistic counting
+algorithms, focusing on two techniques that use pseudo-random variates to form
+low-dimensional data sketches. We apply conventional statistical methods to
+compare probabilistic algorithms based on storing either selected order
+statistics, or random projections. We derive estimators of the cardinality in
+both cases, and show that the maximal-term estimator is recursively computable
+and has exponentially decreasing error bounds. Furthermore, we show that the
+estimators have comparable asymptotic efficiency, and explain this result by
+demonstrating an unexpected connection between the two approaches.

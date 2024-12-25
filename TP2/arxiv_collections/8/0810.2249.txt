@@ -1,0 +1,21 @@
+Dyson-Schwinger equations are integral equations in quantum field theory that
+describe the Green functions of a theory and mirror the recursive decomposition
+of Feynman diagrams into subdiagrams. Taken as recursive equations, the
+Dyson-Schwinger equations describe perturbative quantum field theory. However,
+they also contain non-perturbative information.
+  Using the Hopf algebra of Feynman graphs we will follow a sequence of
+reductions to convert the Dyson-Schwinger equations to the following system of
+differential equations,
+  \[
+  \gamma_1^r(x) = P_r(x) - \sgn(s_r)\gamma_1^r(x)^2 + (\sum_{j \in
+\mathcal{R}}|s_j|\gamma_1^j(x)) x \partial_x \gamma_1^r(x) \] where $r \in
+\mathcal{R}$, $\mathcal{R}$ is the set of amplitudes of the theory which need
+renormalization, $\gamma_1^r$ is the anomalous dimension associated to $r$,
+$P_r(x)$ is a modified version of the function for the primitive skeletons
+contributing to $r$, and $x$ is the coupling constant. Next, we approach the
+new system of differential equations as a system of recursive equations by
+expanding $\gamma_1^r(x) = \sum_{n \geq 1}\gamma^r_{1,n} x^n$. We obtain the
+radius of convergence of $\sum \gamma^r_{1,n}x^n/n!$ in terms of that of $\sum
+P_r(n)x^n/n!$. In particular we show that a Lipatov bound for the growth of the
+primitives leads to a Lipatov bound for the whole theory. Finally, we make a
+few observations on the new system considered as differential equations.

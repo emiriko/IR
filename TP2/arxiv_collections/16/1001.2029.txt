@@ -1,0 +1,9 @@
+This paper proposes and analyzes a new method for quantum state estimation,
+called hedged maximum likelihood (HMLE). HMLE is a quantum version of
+Lidstone's Law, also known as the "add beta" rule. A straightforward
+modification of maximum likelihood estimation (MLE), it can be used as a plugin
+replacement for MLE. The HMLE estimate is a strictly positive density matrix,
+slightly less likely than the ML estimate, but with much better behavior for
+predictive tasks. Single-qubit numerics indicate that HMLE beats MLE, according
+to several metrics, for nearly all "true" states. For nearly-pure states, MLE
+does slightly better, but neither method is optimal.

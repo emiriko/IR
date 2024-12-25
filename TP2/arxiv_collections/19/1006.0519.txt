@@ -1,0 +1,12 @@
+I describe an analytical approximation for calculating the short-term
+probability of loss of a chromosome under the neutral Wright-Fisher model with
+recombination. I also present an upper and lower bound for this probability.
+Exact analytical calculation of this quantity is difficult and computationally
+expensive because the number of different ways in which a chromosome can be
+lost, grows very large in the presence of recombination. Simulations indicate
+that the probabilities obtained using my approximate formula are always
+comparable to the true expectations provided that the number of generations
+remains small. These results are useful in the context of an algorithm that we
+recently developed for simulating Wright-Fisher populations forward in time.
+C++ programs that can efficiently calculate these formulas are available on
+request.

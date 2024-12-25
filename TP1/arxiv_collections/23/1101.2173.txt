@@ -1,0 +1,13 @@
+Circulant matrices play a central role in a recently proposed formulation of
+three-way data computations. In this setting, a three-way table corresponds to
+a matrix where each "scalar" is a vector of parameters defining a circulant.
+This interpretation provides many generalizations of results from matrix or
+vector-space algebra. We derive the power and Arnoldi methods in this algebra.
+In the course of our derivation, we define inner products, norms, and other
+notions. These extensions are straightforward in an algebraic sense, but the
+implications are dramatically different from the standard matrix case. For
+example, a matrix of circulants has a polynomial number of eigenvalues in its
+dimension; although, these can all be represented by a carefully chosen
+canonical set of eigenvalues and vectors. These results and algorithms are
+closely related to standard decoupling techniques on block-circulant matrices
+using the fast Fourier transform.

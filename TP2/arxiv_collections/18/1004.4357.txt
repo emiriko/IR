@@ -1,0 +1,10 @@
+Current best practices heavily control user permissions on network systems.
+This effectively mitigates many insider threats regarding the collection and
+exfiltration of data. Many methods of covert communication involve crafting
+custom packets, typically requiring both the necessary software and elevated
+privileges on the system. By exploiting the functionality of a browser, covert
+channels for data exfiltration may be created without additional software or
+user privileges. This paper explores novel methods of using a browser's
+JavaScript engine to exfiltrate documents over the Domain Name System (DNS)
+protocol without sending less covert Hypertext Transfer Protocol (HTTP)
+requests.

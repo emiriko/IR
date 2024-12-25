@@ -1,0 +1,19 @@
+Reversible logic has promising applications in emerging nanotechnologies,
+such as quantum computing, quantum dot cellular automata and optical computing,
+etc. Faults in reversible logic circuits that result in multi-bit error at the
+outputs are very tough to detect, and thus in literature, researchers have only
+addressed the problem of online testing of faults that result single-bit error
+at the outputs based on parity preserving logic. In this work, we propose a
+methodology for the concurrent error detection in reversible logic circuits to
+detect faults that can result in multi-bit error at the outputs. The
+methodology is based on the inverse property of reversible logic and is termed
+as 'inverse and compare' method. By using the inverse property of reversible
+logic, all the inputs can be regenerated at the outputs. Thus, by comparing the
+original inputs with the regenerated inputs, the faults in reversible circuits
+can be detected. Minimizing the garbage outputs is one of the main goals in
+reversible logic design and synthesis. We show that the proposed methodology
+results in 'garbageless' reversible circuits. A design of reversible full adder
+that can be concurrently tested for multi-bit error at the outputs is
+illustrated as the application of the proposed scheme. Finally, we showed the
+application of the proposed scheme of concurrent error detection towards fault
+detection in quantum dot cellular automata (QCA) emerging nanotechnology.

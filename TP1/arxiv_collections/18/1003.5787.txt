@@ -1,0 +1,19 @@
+Cryptographic hash functions for calculating the message digest of a message
+has been in practical use as an effective measure to maintain message integrity
+since a few decades. This message digest is unique, irreversible and avoids all
+types of collisions for any given input string. The message digest calculated
+from this algorithm is propagated in the communication medium along with the
+original message from the sender side and on the receiver side integrity of the
+message can be verified by recalculating the message digest of the received
+message and comparing the two digest values. In this paper we have designed and
+developed a new algorithm for calculating the message digest of any message and
+implemented t using a high level programming language. An experimental analysis
+and comparison with the existing MD5 hashing algorithm, which is predominantly
+being used as a cryptographic hashing tool, shows this algorithm to provide
+more randomness and greater strength from intrusion attacks. In this algorithm
+the plaintext message string is converted into binary string and fragmented
+into blocks of 128 bits after being padded with user defined padding bits. Then
+using a pseudo random number generator a key is generated for each block and
+operated with the respective block by a bitwise operator. This process is
+terated for the whole message and finally a fixed length message digest is
+obtained.

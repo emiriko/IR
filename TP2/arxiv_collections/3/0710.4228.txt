@@ -1,0 +1,16 @@
+Inference for Dirichlet process hierarchical models is typically performed
+using Markov chain Monte Carlo methods, which can be roughly categorised into
+marginal and conditional methods. The former integrate out analytically the
+infinite-dimensional component of the hierarchical model and sample from the
+marginal distribution of the remaining variables using the Gibbs sampler.
+Conditional methods impute the Dirichlet process and update it as a component
+of the Gibbs sampler. Since this requires imputation of an infinite-dimensional
+process, implementation of the conditional method has relied on finite
+approximations. In this paper we show how to avoid such approximations by
+designing two novel Markov chain Monte Carlo algorithms which sample from the
+exact posterior distribution of quantities of interest. The approximations are
+avoided by the new technique of retrospective sampling. We also show how the
+algorithms can obtain samples from functionals of the Dirichlet process. The
+marginal and the conditional methods are compared and a careful simulation
+study is included, which involves a non-conjugate model, different datasets and
+prior specifications.

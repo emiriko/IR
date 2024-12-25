@@ -1,0 +1,9 @@
+Regular expressions (res), because of their succinctness and clear syntax,
+are the common choice to represent regular languages. However, efficient
+pattern matching or word recognition depend on the size of the equivalent
+nondeterministic finite automata (NFA). We present the implementation of
+several algorithms for constructing small epsilon-free NFAss from res within
+the FAdo system, and a comparison of regular expression measures and NFA sizes
+based on experimental results obtained from uniform random generated res. For
+this analysis, nonredundant res and reduced res in star normal form were
+considered.

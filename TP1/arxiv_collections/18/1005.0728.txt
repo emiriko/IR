@@ -1,0 +1,15 @@
+The CEV model is given by the stochastic differential equation
+$X_t=X_0+\int_0^t\mu X_sds+\int_0^t\sigma (X^+_s)^pdW_s$, $\frac{1}{2}\le p<1$.
+It features a non-Lipschitz diffusion coefficient and gets absorbed at zero
+with a positive probability. We show the weak convergence of Euler-Maruyama
+approximations $X_t^n$ to the process $X_t$, $0\le t\le T$, in the Skorokhod
+metric. We give a new approximation by continuous processes which allows to
+relax some technical conditions in the proof of weak convergence in \cite{HZa}
+done in terms of discrete time martingale problem. We calculate ruin
+probabilities as an example of such approximation. We establish that the ruin
+probability evaluated by simulations is not guaranteed to converge to the
+theoretical one, because the point zero is a discontinuity point of the
+limiting distribution. To establish such convergence we use the Levy metric,
+and also confirm the convergence numerically. Although the result is given for
+the specific model, our method works in a more general case of non-Lipschitz
+diffusion with absorbtion.

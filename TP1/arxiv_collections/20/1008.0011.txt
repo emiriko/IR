@@ -1,0 +1,11 @@
+This paper considers parallel Gr\"obner bases algorithms on distributed
+memory parallel computers with multi-core compute nodes. We summarize three
+different Gr\"obner bases implementations: shared memory parallel, pure
+distributed memory parallel and distributed memory combined with shared memory
+parallelism. The last algorithm, called distributed hybrid, uses only one
+control communication channel between the master node and the worker nodes and
+keeps polynomials in shared memory on a node. The polynomials are transported
+asynchronous to the control-flow of the algorithm in a separate distributed
+data structure. The implementation is generic and works for all implemented
+(exact) fields. We present new performance measurements and discuss the
+performance of the algorithms.

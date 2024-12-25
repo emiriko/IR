@@ -1,0 +1,9 @@
+Kalman Filtering problems often have inherent and known constraints in the
+physical dynamics that are not exploited despite potentially significant gains
+(e.g., fixed speed of a motor). In this paper, we review existing methods and
+propose some new ideas for filtering in the presence of equality constraints.
+We then show that three methods for incorporating state space equality
+constraints are mathematically equivalent to the more general "Projection"
+method, which allows different weighting matrices when projecting the estimate.
+Still, the different approaches have advantages in implementations that may
+make one better suited than another for a given application.

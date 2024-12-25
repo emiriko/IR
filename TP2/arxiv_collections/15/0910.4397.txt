@@ -1,0 +1,14 @@
+This paper investigates the problem of determining a binary-valued function
+through a sequence of strategically selected queries. The focus is an algorithm
+called Generalized Binary Search (GBS). GBS is a well-known greedy algorithm
+for determining a binary-valued function through a sequence of strategically
+selected queries. At each step, a query is selected that most evenly splits the
+hypotheses under consideration into two disjoint subsets, a natural
+generalization of the idea underlying classic binary search. This paper
+develops novel incoherence and geometric conditions under which GBS achieves
+the information-theoretically optimal query complexity; i.e., given a
+collection of N hypotheses, GBS terminates with the correct function after no
+more than a constant times log N queries. Furthermore, a noise-tolerant version
+of GBS is developed that also achieves the optimal query complexity. These
+results are applied to learning halfspaces, a problem arising routinely in
+image processing and machine learning.

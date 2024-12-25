@@ -1,0 +1,22 @@
+Beam orientation optimization (BOO) is a key component in the process of IMRT
+treatment planning. It determines to what degree one can achieve a good
+treatment plan quality in the subsequent plan optimization process. In this
+paper, we have developed a BOO algorithm via adaptive l_1 minimization.
+Specifically, we introduce a sparsity energy function term into our model which
+contains weighting factors for each beam angle adaptively adjusted during the
+optimization process. Such an energy term favors small number of beam angles.
+By optimizing a total energy function containing a dosimetric term and the
+sparsity term, we are able to identify the unimportant beam angles and
+gradually remove them without largely sacrificing the dosimetric objective. In
+one typical prostate case, the convergence property of our algorithm, as well
+as the how the beam angles are selected during the optimization process, is
+demonstrated. Fluence map optimization (FMO) is then performed based on the
+optimized beam angles. The resulted plan quality is presented and found to be
+better than that obtained from unoptimized (equiangular) beam orientations. We
+have further systematically validated our algorithm in the contexts of 5-9
+coplanar beams for 5 prostate cases and 1 head and neck case. For each case,
+the final FMO objective function value is used to compare the optimized beam
+orientations and the equiangular ones. It is found that, our BOO algorithm can
+lead to beam configurations which attain lower FMO objective function values
+than corresponding equiangular cases, indicating the effectiveness of our BOO
+algorithm.

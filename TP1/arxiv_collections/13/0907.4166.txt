@@ -1,0 +1,16 @@
+In this paper, we present the first approximation algorithms for the problem
+of designing revenue optimal Bayesian incentive compatible auctions when there
+are multiple (heterogeneous) items and when bidders can have arbitrary demand
+and budget constraints. Our mechanisms are surprisingly simple: We show that a
+sequential all-pay mechanism is a 4 approximation to the revenue of the optimal
+ex-interim truthful mechanism with discrete correlated type space for each
+bidder. We also show that a sequential posted price mechanism is a O(1)
+approximation to the revenue of the optimal ex-post truthful mechanism when the
+type space of each bidder is a product distribution that satisfies the standard
+hazard rate condition. We further show a logarithmic approximation when the
+hazard rate condition is removed, and complete the picture by showing that
+achieving a sub-logarithmic approximation, even for regular distributions and
+one bidder, requires pricing bundles of items. Our results are based on
+formulating novel LP relaxations for these problems, and developing generic
+rounding schemes from first principles. We believe this approach will be useful
+in other Bayesian mechanism design contexts.

@@ -1,0 +1,20 @@
+A non-isothermal phase field model that captures both displacive and
+diffusive phase transformations in a unified framework is presented. The model
+is developed in a formal thermodynamic setting, which provides guidance on
+admissible constitutive relationships and on the coupling of the numerous
+physical processes that are active. Phase changes are driven by
+temperature-dependent free-energy functions that become non-convex below a
+transition temperature. Higher-order spatial gradients are present in the model
+to account for phase boundary energy, and these terms necessitate the
+introduction of non-standard terms in the energy balance equation in order to
+satisfy the classical entropy inequality point-wise. To solve the resulting
+balance equations, a Galerkin finite element scheme is elaborated. To deal
+rigorously with the presence of high-order spatial derivatives associated with
+surface energies at phase boundaries in both the momentum and mass balance
+equations, some novel numerical approaches are used. Numerical examples are
+presented that consider boundary cooling of a domain at different rates, and
+these results demonstrate that the model can qualitatively reproduce the
+evolution of microstructural features that are observed in some alloys,
+especially steels. The proposed model opens a number of interesting
+possibilities for simulating and controlling microstructure pattern development
+under combinations of thermal and mechanical loading.

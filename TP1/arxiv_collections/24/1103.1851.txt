@@ -1,0 +1,21 @@
+We describe the new version (v2.49t) of the code HFODD which solves the
+nuclear Skyrme Hartree-Fock (HF) or Skyrme Hartree-Fock-Bogolyubov (HFB)
+problem by using the Cartesian deformed harmonic-oscillator basis. In the new
+version, we have implemented the following physics features: (i) the isospin
+mixing and projection, (ii) the finite temperature formalism for the HFB and
+HF+BCS methods, (iii) the Lipkin translational energy correction method, (iv)
+the calculation of the shell correction. A number of specific numerical methods
+have also been implemented in order to deal with large-scale multi-constraint
+calculations and hardware limitations: (i) the two-basis method for the HFB
+method, (ii) the Augmented Lagrangian Method (ALM) for multi-constraint
+calculations, (iii) the linear constraint method based on the approximation of
+the RPA matrix for multi-constraint calculations, (iv) an interface with the
+axial and parity-conserving Skyrme-HFB code HFBTHO, (v) the mixing of the HF or
+HFB matrix elements instead of the HF fields. Special care has been paid to
+using the code on massively parallel leadership class computers. For this
+purpose, the following features are now available with this version: (i) the
+Message Passing Interface (MPI) framework, (ii) scalable input data routines,
+(iii) multi-threading via OpenMP pragmas, (iv) parallel diagonalization of the
+HFB matrix in the simplex breaking case using the ScaLAPACK library. Finally,
+several little significant errors of the previous published version were
+corrected.

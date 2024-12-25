@@ -1,0 +1,16 @@
+In many engineering and scientific applications, prediction variables are
+grouped, for example, in biological applications where assayed genes or
+proteins can be grouped by biological roles or biological pathways. Common
+statistical analysis methods such as ANOVA, factor analysis, and functional
+modeling with basis sets also exhibit natural variable groupings. Existing
+successful group variable selection methods such as Antoniadis and Fan (2001),
+Yuan and Lin (2006) and Zhao, Rocha and Yu (2009) have the limitation of
+selecting variables in an "all-in-all-out" fashion, i.e., when one variable in
+a group is selected, all other variables in the same group are also selected.
+In many real problems, however, we may want to keep the flexibility of
+selecting variables within a group, such as in gene-set selection. In this
+paper, we develop a new group variable selection method that not only removes
+unimportant groups effectively, but also keeps the flexibility of selecting
+variables within a group. We also show that the new method offers the potential
+for achieving the theoretical "oracle" property as in Fan and Li (2001) and Fan
+and Peng (2004).

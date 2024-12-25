@@ -1,0 +1,10 @@
+Multi-dimensional arrays are among the most fundamental and most useful data
+structures of all. In C++, excellent template libraries exist for arrays whose
+dimension is fixed at runtime. Arrays whose dimension can change at runtime
+have been implemented in C. However, a generic object-oriented C++
+implementation of runtime-flexible arrays has so far been missing. In this
+article, we discuss our new implementation called Marray, a package of class
+templates that fills this gap. Marray is based on views as an underlying
+concept. This concept brings some of the flexibility known from script
+languages such as R and MATLAB to C++. Marray is free both for commercial and
+non-commercial use and is publicly available from www.andres.sc/marray

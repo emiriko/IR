@@ -1,0 +1,13 @@
+Suppose we are given black-box access to a finite ring R, and a list of
+generators for an ideal I in R. We show how to find an additive basis
+representation for I in poly(log |R|) time. This generalizes a recent quantum
+algorithm of Arvind et al. which finds a basis representation for R itself. We
+then show that our algorithm is a useful primitive allowing quantum computers
+to rapidly solve a wide variety of problems regarding finite rings. In
+particular we show how to test whether two ideals are identical, find their
+intersection, find their quotient, prove whether a given ring element belongs
+to a given ideal, prove whether a given element is a unit, and if so find its
+inverse, find the additive and multiplicative identities, compute the order of
+an ideal, solve linear equations over rings, decide whether an ideal is
+maximal, find annihilators, and test the injectivity and surjectivity of ring
+homomorphisms. These problems appear to be hard classically.

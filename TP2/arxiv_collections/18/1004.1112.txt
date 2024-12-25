@@ -1,0 +1,18 @@
+Many modern statistical applications involve inference for complex stochastic
+models, where it is easy to simulate from the models, but impossible to
+calculate likelihoods. Approximate Bayesian computation (ABC) is a method of
+inference for such models. It replaces calculation of the likelihood by a step
+which involves simulating artificial data for different parameter values, and
+comparing summary statistics of the simulated data to summary statistics of the
+observed data. Here we show how to construct appropriate summary statistics for
+ABC in a semi-automatic manner. We aim for summary statistics which will enable
+inference about certain parameters of interest to be as accurate as possible.
+Theoretical results show that optimal summary statistics are the posterior
+means of the parameters. While these cannot be calculated analytically, we use
+an extra stage of simulation to estimate how the posterior means vary as a
+function of the data; and then use these estimates of our summary statistics
+within ABC. Empirical results show that our approach is a robust method for
+choosing summary statistics, that can result in substantially more accurate ABC
+analyses than the ad-hoc choices of summary statistics proposed in the
+literature. We also demonstrate advantages over two alternative methods of
+simulation-based inference.

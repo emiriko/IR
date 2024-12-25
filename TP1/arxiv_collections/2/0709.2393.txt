@@ -1,0 +1,18 @@
+We consider the $d$-dimensional nonlinear Schr\"odinger equation under
+periodic boundary conditions: $-i\dot u=-\Delta u+V(x)*u+\ep \frac{\p F}{\p
+\bar u}(x,u,\bar u), \quad u=u(t,x), x\in\T^d $ where $V(x)=\sum \hat
+V(a)e^{i\sc{a,x}}$ is an analytic function with $\hat V$ real, and $F$ is a
+real analytic function in $\Re u$, $\Im u$ and $x$. (This equation is a popular
+model for the `real' NLS equation, where instead of the convolution term $V*u$
+we have the potential term $Vu$.) For $\ep=0$ the equation is linear and has
+time--quasi-periodic solutions $u$, $$ u(t,x)=\sum_{a\in \AA}\hat
+u(a)e^{i(|a|^2+\hat V(a))t}e^{i\sc{a,x}} \quad (|\hat u(a)|>0), $$ where $\AA$
+is any finite subset of $\Z^d$. We shall treat $\omega_a=|a|^2+\hat V(a)$,
+$a\in\AA$, as free parameters in some domain $U\subset\R^{\AA}$. This is a
+Hamiltonian system in infinite degrees of freedom, degenerate but with external
+parameters, and we shall describe a KAM-theory which, under general conditions,
+will have the following consequence:
+  If $|\ep|$ is sufficiently small, then there is a large subset $U'$ of $U$
+such that for all $\omega\in U'$ the solution $u$ persists as a
+time--quasi-periodic solution which has all Lyapounov exponents equal to zero
+and whose linearized equation is reducible to constant coefficients.

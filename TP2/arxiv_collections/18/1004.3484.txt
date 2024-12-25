@@ -1,0 +1,11 @@
+Given a probability distribution in R^n with general (non-white) covariance,
+a classical estimator of the covariance matrix is the sample covariance matrix
+obtained from a sample of N independent points. What is the optimal sample size
+N = N(n) that guarantees estimation with a fixed accuracy in the operator norm?
+Suppose the distribution is supported in a centered Euclidean ball of radius
+\sqrt{n}. We conjecture that the optimal sample size is N = O(n) for all
+distributions with finite fourth moment, and we prove this up to an iterated
+logarithmic factor. This problem is motivated by the optimal theorem of
+Rudelson which states that N = O(n \log n) for distributions with finite second
+moment, and a recent result of Adamczak, Litvak, Pajor and Tomczak-Jaegermann
+which guarantees that N = O(n) for sub-exponential distributions.

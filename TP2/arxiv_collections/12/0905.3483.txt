@@ -1,0 +1,18 @@
+Polars (or AM Her systems) are cataclysmic variables without a disc due to
+the strong magnetic field of the white dwarf. Most of their emission comes from
+the region where the accretion column impacts the white dwarf and cools through
+cyclotron and bremsstrahlung processes. We present a new code, CYCLOPS, to
+model the optical emission from these systems including the four Stokes
+parameters. It considers a three-dimensional region with the electronic density
+and temperature varying following a \textit{shock-like} profile and a dipolar
+magnetic field. The radiative transfer is solved in steps considering the
+solution with non-null input radiation. The footprint of the column in the
+white-dwarf surface is determined by the threading region in the equatorial
+plane, i.e., the region from where the flow follows the magnetic lines. The
+extinction caused by Thomson scattering above the emitting region is optionally
+included. The fittings of observational data are done using a hybrid approach:
+a genetic algorithm is used to seek for the regions having the best models and
+then an amoeba code refines the search. An example of application to
+multi-wavelength data of V834 Cen is presented. The fit found is consistent
+with previous parameters estimates and is able to reproduce the features of
+V834 data in three wavebands.

@@ -1,0 +1,22 @@
+Visibly pushdown automata are input-driven pushdown automata that recognize
+some non-regular context-free languages while preserving the nice closure and
+decidability properties of finite automata. Visibly pushdown automata with
+multiple stacks have been considered recently by La Torre, Madhusudan, and
+Parlato, who exploit the concept of visibility further to obtain a rich
+automata class that can even express properties beyond the class of
+context-free languages. At the same time, their automata are closed under
+boolean operations, have a decidable emptiness and inclusion problem, and enjoy
+a logical characterization in terms of a monadic second-order logic over words
+with an additional nesting structure. These results require a restricted
+version of visibly pushdown automata with multiple stacks whose behavior can be
+split up into a fixed number of phases. In this paper, we consider 2-stack
+visibly pushdown automata (i.e., visibly pushdown automata with two stacks) in
+their unrestricted form. We show that they are expressively equivalent to the
+existential fragment of monadic second-order logic. Furthermore, it turns out
+that monadic second-order quantifier alternation forms an infinite hierarchy
+wrt words with multiple nestings. Combining these results, we conclude that
+2-stack visibly pushdown automata are not closed under complementation.
+Finally, we discuss the expressive power of B\"{u}chi 2-stack visibly pushdown
+automata running on infinite (nested) words. Extending the logic by an infinity
+quantifier, we can likewise establish equivalence to existential monadic
+second-order logic.

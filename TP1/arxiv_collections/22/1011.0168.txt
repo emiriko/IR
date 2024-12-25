@@ -1,0 +1,12 @@
+We deterministically crack the secure, statistical key exchange protocol
+based on feedback proposed by Pao-Lo Liu [ J. Lightwave Techology 27 (2009) pp.
+5230-34]. The crack is ultimate and absolute because it works under idealized
+conditions, and produces much higher data visibility for the eavesdropper than
+the protocol provides for Alice and Bob. Even with the most idealistic driving
+noise spectrum stated by Liu, during the most secure phase of the protocol, far
+away from the transients, where the system is already in its most secure
+steady-state, the eavesdropper has 100% success rate in identifying the key
+bits, at the same time when Alice and Bob have less than 100% success rate
+while using the Liu protocol. No statistics is needed, Eve can extract the
+secure bit from two samples of the signal in the two direction. Thus the
+Liu-protocol offers no security against the attack described in this paper.

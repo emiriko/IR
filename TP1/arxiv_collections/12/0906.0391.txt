@@ -1,0 +1,15 @@
+We offer a theoretical validation of the curse of dimensionality in the
+pivot-based indexing of datasets for similarity search, by proving, in the
+framework of statistical learning, that in high dimensions no pivot-based
+indexing scheme can essentially outperform the linear scan.
+  A study of the asymptotic performance of pivot-based indexing schemes is
+performed on a sequence of datasets modeled as samples $X_d$ picked in i.i.d.
+fashion from metric spaces $\Omega_d$. We allow the size of the dataset $n=n_d$
+to be such that $d$, the ``dimension'', is superlogarithmic but subpolynomial
+in $n$. The number of pivots is allowed to grow as $o(n/d)$. We pick the least
+restrictive cost model of similarity search where we count each distance
+calculation as a single computation and disregard the rest.
+  We demonstrate that if the intrinsic dimension of the spaces $\Omega_d$ in
+the sense of concentration of measure phenomenon is $O(d)$, then the
+performance of similarity search pivot-based indexes is asymptotically linear
+in $n$.

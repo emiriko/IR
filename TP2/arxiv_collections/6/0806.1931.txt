@@ -1,0 +1,18 @@
+We present three voting protocols with unconditional privacy and
+information-theoretic correctness, without assuming any bound on the number of
+corrupt voters or voting authorities. All protocols have polynomial complexity
+and require private channels and a simultaneous broadcast channel. Our first
+protocol is a basic voting scheme which allows voters to interact in order to
+compute the tally. Privacy of the ballot is unconditional, but any voter can
+cause the protocol to fail, in which case information about the tally may
+nevertheless transpire. Our second protocol introduces voting authorities which
+allow the implementation of the first protocol, while reducing the interaction
+and limiting it to be only between voters and authorities and among the
+authorities themselves. The simultaneous broadcast is also limited to the
+authorities. As long as a single authority is honest, the privacy is
+unconditional, however, a single corrupt authority or a single corrupt voter
+can cause the protocol to fail. Our final protocol provides a safeguard against
+corrupt voters by enabling a verification technique to allow the authorities to
+revoke incorrect votes. We also discuss the implementation of a simultaneous
+broadcast channel with the use of temporary computational assumptions, yielding
+versions of our protocols achieving everlasting security.

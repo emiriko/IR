@@ -1,0 +1,8 @@
+We introduce the wire calculus. Its dynamic features are inspired by Milner's
+CCS: a unary prefix operation, binary choice and a standard recursion
+construct. Instead of an interleaving parallel composition operator there are
+operators for synchronisation along a common boundary and non-communicating
+parallel composition. The (operational) semantics is a labelled transition
+system obtained with SOS rules. Bisimilarity is a congruence with respect to
+the operators of the language. Quotienting terms by bisimilarity results in a
+compact closed category.

@@ -1,0 +1,14 @@
+Several analog-to-digital conversion methods for bandlimited signals used in
+applications, such as Sigma Delta quantization schemes, employ coarse
+quantization coupled with oversampling. The standard mathematical model for the
+error accrued from such methods measures the performance of a given scheme by
+the rate at which the associated reconstruction error decays as a function of
+the oversampling ratio L > 1. It was recently shown that exponential accuracy
+of the form O(2(-r L)) can be achieved by appropriate one-bit Sigma Delta
+modulation schemes. However, the best known achievable rate constants r in this
+setting differ significantly from the general information theoretic lower
+bound. In this paper, we provide the first lower bound specific to coarse
+quantization, thus narrowing the gap between existing upper and lower bounds.
+In particular, our results imply a quantitative correspondence between the
+maximal signal amplitude and the best possible error decay rate. Our method
+draws from the theory of large deviations.

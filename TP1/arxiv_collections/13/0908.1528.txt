@@ -1,0 +1,10 @@
+We successfully contract timetable networks with realistic transfer times.
+Contraction gradually removes nodes from the graph and adds shortcuts to
+preserve shortest paths. This reduces query times to 1 ms with preprocessing
+times around 6 minutes on all tested instances. We achieve this by an improved
+contraction algorithm and by using a station graph model. Every node in our
+graph has a one-to-one correspondence to a station and every edge has an
+assigned collection of connections. Our graph model does not need parallel
+edges. The query algorithm does not compute a single earliest arrival time at a
+station but a set of arriving connections that allow best transfer
+opportunities.

@@ -1,0 +1,14 @@
+Electrostatic transducers for vibration energy scavenging have been an object
+to numerous studies, but are still facing major issues relating to their
+conditioning circuit. One of the most popular ones uses a charge pump and a
+flyback circuit based on a Buck DC-DC converter (Fig. 1). A commutation between
+the energy accumulation in the charge pump and the recharge of the buffer
+capacitor Cres is assured by a switch which is the major bottleneck in the
+energy harvester circuit. The commutation timing of the switch determines the
+efficiency of the energy harvesting. In previous papers [1] the switch
+commutates periodically with some fixed duty ratio. However, this solution is
+not appropriate when the environment parameters, e.g. the vibration frequency,
+change. We found that the switching should be ordered by the internal state of
+the circuit, an not by some fixed timing scenario. We presents how to find the
+optimal operation mode of the harvester. To validate the study, the system was
+modeled using a mixed VHDL-AMS - ELDO model.

@@ -1,0 +1,25 @@
+Natural language user interfaces to database systems have been studied for
+several decades now. They have mainly focused on parsing and interpreting
+natural language queries to generate them in a formal database language. We
+envision the reverse functionality, where the system would be able to take the
+internal result of that translation, say in SQL form, translate it back into
+natural language, and show it to the initiator of the query for verification.
+Likewise, information extraction has received considerable attention in the
+past ten years or so, identifying structured information in free text so that
+it may then be stored appropriately and queried. Validation of the records
+stored with a backward translation into text would again be very powerful.
+Verification and validation of query and data input of a database system
+correspond to just one example of the many important applications that would
+benefit greatly from having mature techniques for translating such database
+constructs into free-flowing text. The problem appears to be deceivingly
+simple, as there are no ambiguities or other complications in interpreting
+internal database elements, so initially a straightforward translation appears
+adequate. Reality teaches us quite the opposite, however, as the resulting text
+should be expressive, i.e., accurate in capturing the underlying queries or
+data, and effective, i.e., allowing fast and unique interpretation of them.
+Achieving both of these qualities is very difficult and raises several
+technical challenges that need to be addressed. In this paper, we first expose
+the reader to several situations and applications that need translation into
+natural language, thereby, motivating the problem. We then outline, by example,
+the research problems that need to be solved, separately for data translations
+and query translations.

@@ -1,0 +1,18 @@
+Randomized search heuristics such as evolutionary algorithms, simulated
+annealing, and ant colony optimization are a broadly used class of
+general-purpose algorithms. Analyzing them via classical methods of theoretical
+computer science is a growing field. While several strong runtime analysis
+results have appeared in the last 20 years, a powerful complexity theory for
+such algorithms is yet to be developed. We enrich the existing notions of
+black-box complexity by the additional restriction that not the actual
+objective values, but only the relative quality of the previously evaluated
+solutions may be taken into account by the black-box algorithm. Many randomized
+search heuristics belong to this class of algorithms.
+  We show that the new ranking-based model gives more realistic complexity
+estimates for some problems. For example, the class of all binary-value
+functions has a black-box complexity of $O(\log n)$ in the previous black-box
+models, but has a ranking-based complexity of $\Theta(n)$.
+  For the class of all OneMax functions, we present a ranking-based black-box
+algorithm that has a runtime of $\Theta(n / \log n)$, which shows that the
+OneMax problem does not become harder with the additional ranking-basedness
+restriction.

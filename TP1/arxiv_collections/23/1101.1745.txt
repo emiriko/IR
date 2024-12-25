@@ -1,0 +1,26 @@
+The formulation of the radio interferometer measurement equation (RIME) by
+Hamaker et al. has provided us with an elegant mathematical apparatus for
+better understanding, simulation and calibration of existing and future
+instruments. The calibration of the new radio telescopes (LOFAR, SKA) would be
+unthinkable without the RIME formalism, and new software to exploit it.
+MeqTrees is designed to implement numerical models such as the RIME, and to
+solve for arbitrary subsets of their parameters. The technical goal of MeqTrees
+is to provide a tool for rapid implementation of such models, while offering
+performance comparable to hand-written code. We are also pursuing the wider
+goal of increasing the rate of evolution of radio astronomical software, by
+offering a tool for rapid experimentation and exchange of ideas.
+  MeqTrees is implemented as a Python-based front-end called the meqbrowser,
+and an efficient (C++-based) computational back-end called the meqserver.
+Numerical models are defined on the front-end via a Python-based Tree
+Definition Language (TDL), then rapidly executed on the back-end. The use of
+TDL facilitates an extremely short turn-around time for experimentation with
+new ideas. This is also helped by unprecedented visualization capabilities for
+all final and intermediate results. A flexible data model and a number of
+important optimizations in the back-end ensures that the numerical performance
+is comparable to that of hand-written code.
+  MeqTrees is already widely used as the simulation tool for new instruments
+(LOFAR, SKA) and technologies (focal plane arrays). It has demonstrated that it
+can achieve a noise-limited dynamic range in excess of a million, on WSRT data.
+It is the only package that is specifically designed to handle what we propose
+to call third-generation calibration (3GC), which is needed for the new
+generation of giant radio telescopes.

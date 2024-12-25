@@ -1,0 +1,24 @@
+In order to generate credible 0.1-2 {\mu}m SEDs, the GAMA project requires
+many Gigabytes of imaging data from a number of instruments to be re-processed
+into a standard format. In this paper we discuss the software infrastructure we
+use, and create self-consistent ugrizYJHK photometry for all sources within the
+GAMA sample. Using UKIDSS and SDSS archive data, we outline the pre-processing
+necessary to standardise all images to a common zeropoint, the steps taken to
+correct for seeing bias across the dataset, and the creation of Gigapixel-scale
+mosaics of the three 4x12 deg GAMA regions in each filter. From these mosaics,
+we extract source catalogues for the GAMA regions using elliptical Kron and
+Petrosian matched apertures. We also calculate S\'ersic magnitudes for all
+galaxies within the GAMA sample using SIGMA, a galaxy component modelling
+wrapper for GALFIT 3. We compare the resultant photometry directly, and also
+calculate the r band galaxy LF for all photometric datasets to highlight the
+uncertainty introduced by the photometric method. We find that (1) Changing the
+object detection threshold has a minor effect on the best-fitting Schechter
+parameters of the overall population (M* +/- 0.055mag, {\alpha} +/- 0.014,
+{\Phi}* +/- 0.0005 h^3 Mpc^{-3}). (2) An offset between datasets that use Kron
+or Petrosian photometry regardless of the filter. (3) The decision to use
+circular or elliptical apertures causes an offset in M* of 0.20mag. (4) The
+best-fitting Schechter parameters from total-magnitude photometric systems
+(such as SDSS modelmag or S\'ersic magnitudes) have a steeper faint-end slope
+than photometry dependent on Kron or Petrosian magnitudes. (5) Our Universe's
+total luminosity density, when calculated using Kron or Petrosian r-band
+photometry, is underestimated by at least 15%.

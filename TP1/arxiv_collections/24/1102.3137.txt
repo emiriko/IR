@@ -1,0 +1,16 @@
+Inhomogeneous dynamical mean-field theory has been employed to solve many
+interesting strongly interacting problems from transport in multilayered
+devices to the properties of ultracold atoms in a trap. The main computational
+step, especially for large systems, is the problem of calculating the inverse
+of a large sparse matrix to solve Dyson's equation and determine the local
+Green's function at each lattice site from the corresponding local self-energy.
+We present a new efficient algorithm, the Lanczos-based low-rank algorithm, for
+the calculation of the inverse of a large sparse matrix which yields this local
+(imaginary time) Green's function. The Lanczos-based low-rank algorithm is
+based on a domain decomposition viewpoint, but avoids explicit calculation of
+Schur complements and relies instead on low-rank matrix approximations derived
+from the Lanczos algorithm, for solving the Dyson equation. We report at least
+a 25-fold improvement of performance compared to explicit decomposition (such
+as sparse LU) of the matrix inverse. We also report that scaling relative to
+matrix sizes, of the low-rank correction method on the one hand and domain
+decomposition methods on the other, are comparable.

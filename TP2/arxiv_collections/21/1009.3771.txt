@@ -1,0 +1,16 @@
+This paper presents a generic web-based database interface implemented in
+Prolog. We discuss the advantages of the implementation platform and
+demonstrate the system's applicability in providing access to integrated
+biochemical data. Our system exploits two libraries of SWI-Prolog to create a
+schema-transparent interface within a relational setting. As is expected in
+declarative programming, the interface was written with minimal programming
+effort due to the high level of the language and its suitability to the task.
+We highlight two of Prolog's features that are well suited to the task at hand:
+term representation of structured documents and relational nature of Prolog
+which facilitates transparent integration of relational databases. Although we
+developed the system for accessing in-house biochemical and genomic data the
+interface is generic and provides a number of extensible features. We describe
+some of these features with references to our research databases. Finally we
+outline an in-house library that facilitates interaction between Prolog and the
+R statistical package. We describe how it has been employed in the present
+context to store output from statistical analysis on to the database.

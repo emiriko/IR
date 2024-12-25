@@ -1,0 +1,15 @@
+Considerable research has taken place in recent times in the area of
+parameterization of software defined radio (SDR) architecture. Parameterization
+decreases the size of the software to be downloaded and also limits the
+hardware reconfiguration time. The present paper is based on the design and
+development of a programmable baseband modulator that perform the QPSK
+modulation schemes and as well as its other three commonly used variants to
+satisfy the requirement of several established 2G and 3G wireless communication
+standards. The proposed design has been shown to be capable of operating at a
+maximum data rate of 77 Mbps on Xilinx Virtex 2-Pro University field
+programmable gate array (FPGA) board. The pulse shaping root raised cosine
+(RRC) filter has been implemented using distributed arithmetic (DA) technique
+in the present work in order to reduce the computational complexity, and to
+achieve appropriate power reduction and enhanced throughput. The designed
+multiplier-less programmable 32-tap FIR-based RRC filter has been found to
+withstand a peak inter-symbol interference (ISI) distortion of -41 dBs

@@ -1,0 +1,15 @@
+The term "false-alarm probability" denotes the probability that at least one
+out of M independent power values in a prescribed search band of a power
+spectrum computed from a white-noise time series is expected to be as large as
+or larger than a given value. The usual formula is based on the assumption that
+powers are distributed exponentially, as one expects for power measurements of
+normally distributed random noise. However, in practice one typically examines
+peaks in an over-sampled power spectrum. It is therefore more appropriate to
+compare the strength of a particular peak with the distribution of peaks in
+over-sampled power spectra derived from normally distributed random noise. We
+show that this leads to a formula for the false-alarm probability that is more
+conservative than the familiar formula. We also show how to combine these
+results with a Bayesian method for estimating the probability of the null
+hypothesis (that there is no oscillation in the time series), and we discuss as
+an example the application of these procedures to Super-Kamiokande solar
+neutrino data.

@@ -1,0 +1,21 @@
+We investigate potential biases in the measurements of exoplanet orbital
+parameters obtained from radial velocity observations for single-planet
+systems. We create a mock catalog of radial velocity data, choosing input
+planet masses, periods, and observing patterns from actual radial velocity
+surveys and varying input eccentricities. We apply Markov Chain Monte Carlo
+(MCMC) simulations and compare the resulting orbital parameters to the input
+values. We find that a combination of the effective signal-to-noise ratio of
+the data, the maximal gap in phase coverage, and the total number of periods
+covered by observations is a good predictor of the quality of derived orbit
+parameters. As eccentricity is positive definite, we find that eccentricities
+of planets on nearly circular orbits are preferentially overestimated, with
+typical bias of 1-2 times the median eccentricity uncertainty in a survey
+(e.g., 0.04 in the Butler et al. 2006 catalog). When performing population
+analysis, we recommend using the mode of the marginalized posterior
+eccentricity distribution to minimize potential biases. While the Butler et al.
+(2006) catalog reports eccentricities below 0.05 for just 17% of single-planet
+systems, we estimate that the true fraction of e < 0.05 orbits is about
+f(0.05)=38\pm 9%. For planets with P > 10 days, we find f(0.05)=28\pm 8% versus
+10% from Butler et al. (2006). These planets either never acquired a large
+eccentricity or were circularized following any significant eccentricity
+excitation.

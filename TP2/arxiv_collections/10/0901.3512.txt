@@ -1,0 +1,7 @@
+We consider three improvements to seed methods for Hermitian linear systems
+with multiple right-hand sides: only the Krylov subspace for the first system
+is used for seeding subsequent right-hand sides, the first right-hand side is
+solved past convergence, and periodic re-orthogonalization is used in order to
+control roundoff errors associated with the Conjugate Gradient algorithm. The
+method is tested for the case of Wilson fermions near kappa critical and a
+considerable speed up in the convergence is observed.

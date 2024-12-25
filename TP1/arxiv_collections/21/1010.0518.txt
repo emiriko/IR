@@ -1,0 +1,20 @@
+The composition of the space radiation environment inside spacecrafts is
+modified by the interaction with shielding material, with equipment and even
+with the astronauts' bodies. Accurate quantitative estimates of the effects of
+nuclear reactions are necessary, for example, for dose estimation and
+prediction of single-event-upset rates. To this end, it is necessary to
+construct predictive models for nuclear reactions, which usually consist of an
+intranuclear-cascade or quantum-molecular-dynamics stage, followed by a
+nuclear-de-excitation stage.
+  While it is generally acknowledged that it is necessary to accurately
+simulate the first reaction stage, transport-code users often neglect or
+underestimate the importance of the choice of the de-excitation code. The
+purpose of this work is to prove that the de-excitation model is in fact a
+non-negligible source of uncertainty for the prediction of several observables
+of crucial importance for space applications. For some particular observables,
+the systematic uncertainty due to the de-excitation model actually dominates
+the total uncertainty. Our point will be illustrated by making use of
+nucleon-nucleus calculations performed with several
+intranuclear-cascade/de-excitation models, such as the Li\`{e}ge Intranuclear
+Cascade model (INCL) and Isabel (for the cascade part) and ABLA07, Dresner,
+GEM, GEMINI++ and SMM (on the de-excitation side).

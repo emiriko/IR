@@ -1,0 +1,18 @@
+The problem of estimating the probability p=P(g(X<0) is considered when X
+represents a multivariate stochastic input of a monotone function g. First, a
+heuristic method to bound p is formally described, involving a specialized
+design of numerical experiments. Then a statistical estimation of p is
+considered based on a sequential stochastic exploration of the input space. A
+maximum likelihood estimator of p based on successive dependent Bernoulli data
+is defined and its theoretical convergence properties are studied. Under
+intuitive or mild conditions, the estimation is faster and more robust than the
+traditional Monte Carlo approach, therefore adapted to time-consuming computer
+codes g. The main result of the paper is related to the variance of the
+estimator. It appears as a new baseline measure of efficiency under monotone
+constraints, which could play a similar role to the usual Monte Carlo estimator
+variance in unconstrained frameworks. Furthermore the bias of the estimator is
+shown to be corrigible via bootstrap heuristics. The behavior of the method is
+illustrated by numerical tests led on a class of toy examples and a more
+realistic hydraulic case-study.
+  Keywords : monotone function, deterministic computer codes, Monte Carlo
+acceleration, failure probability

@@ -1,0 +1,19 @@
+Peer-to-peer (P2P) locality has recently raised a lot of interest in the
+community. Indeed, whereas P2P content distribution enables financial savings
+for the content providers, it dramatically increases the traffic on inter-ISP
+links. To solve this issue, the idea to keep a fraction of the P2P traffic
+local to each ISP was introduced a few years ago. Since then, P2P solutions
+exploiting locality have been introduced. However, several fundamental issues
+on locality still need to be explored. In particular, how far can we push
+locality, and what is, at the scale of the Internet, the reduction of traffic
+that can be achieved with locality? In this paper, we perform extensive
+experiments on a controlled environment with up to 10 000 BitTorrent clients to
+evaluate the impact of high locality on inter-ISP links traffic and peers
+download completion time. We introduce two simple mechanisms that make high
+locality possible in challenging scenarios and we show that we save up to
+several orders of magnitude inter-ISP traffic compared to traditional locality
+without adversely impacting peers download completion time. In addition, we
+crawled 214 443 torrents representing 6 113 224 unique peers spread among 9 605
+ASes. We show that whereas the torrents we crawled generated 11.6 petabytes of
+inter-ISP traffic, our locality policy implemented for all torrents would have
+reduced the global inter-ISP traffic by 40%.

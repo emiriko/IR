@@ -1,0 +1,11 @@
+We propose a variant of the CCS process algebra with new features aiming at
+allowing multiscale modelling of biological systems. In the usual semantics of
+process algebras for modelling biological systems actions are instantaneous.
+When different scale levels of biological systems are considered in a single
+model, one should take into account that actions at a level may take much more
+time than actions at a lower level. Moreover, it might happen that while a
+component is involved in one long lasting high level action, it is involved
+also in several faster lower level actions. Hence, we propose a process algebra
+with operations and with a semantics aimed at dealing with these aspects of
+multiscale modelling. We study behavioural equivalences for such an algebra and
+give some examples.

@@ -1,0 +1,10 @@
+In this paper, we describe the implementation and performance of GreeM, a
+massively parallel TreePM code for large-scale cosmological N-body simulations.
+GreeM uses a recursive multi-section algorithm for domain decomposition. The
+size of the domains are adjusted so that the total calculation time of the
+force becomes the same for all processes. The loss of performance due to
+non-optimal load balancing is around 4%, even for more than 10^3 CPU cores.
+GreeM runs efficiently on PC clusters and massively-parallel computers such as
+a Cray XT4. The measured calculation speed on Cray XT4 is 5 \times 10^4
+particles per second per CPU core, for the case of an opening angle of
+\theta=0.5, if the number of particles per CPU core is larger than 10^6.

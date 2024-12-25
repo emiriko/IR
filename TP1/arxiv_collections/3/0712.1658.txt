@@ -1,0 +1,9 @@
+We study sequential programs that are instruction sequences with jump-shift
+instructions in the setting of PGA (ProGram Algebra). Jump-shift instructions
+preceding a jump instruction increase the position to jump to. The jump-shift
+instruction is not found in programming practice. Its merit is that the
+expressive power of PGA extended with the jump-shift instruction, is not
+reduced if the reach of jump instructions is bounded. This is used to show that
+there exists a finite-state execution mechanism that by making use of a counter
+can produce each finite-state thread from some program that is a finite or
+periodic infinite sequence of instructions from a finite set.

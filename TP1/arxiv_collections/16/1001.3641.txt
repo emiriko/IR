@@ -1,0 +1,24 @@
+We investigate how extreme loss of data affects the scaling behavior of
+long-range power-law correlated and anti-correlated signals applying the DFA
+method. We introduce a segmentation approach to generate surrogate signals by
+randomly removing data segments from stationary signals with different types of
+correlations. These surrogate signals are characterized by: (i) the DFA scaling
+exponent $\alpha$ of the original correlated signal, (ii) the percentage $p$ of
+the data removed, (iii) the average length $\mu$ of the removed (or remaining)
+data segments, and (iv) the functional form of the distribution of the length
+of the removed (or remaining) data segments. We find that the {\it global}
+scaling exponent of positively correlated signals remains practically unchanged
+even for extreme data loss of up to 90%. In contrast, the global scaling of
+anti-correlated signals changes to uncorrelated behavior even when a very small
+fraction of the data is lost. These observations are confirmed on the examples
+of human gait and commodity price fluctuations. We systematically study the
+{\it local} scaling behavior of signals with missing data to reveal deviations
+across scales. We find that for anti-correlated signals even 10% of data loss
+leads to deviations in the local scaling at large scales from the original
+anti-correlated towards uncorrelated behavior. In contrast, positively
+correlated signals show no observable changes in the local scaling for up to
+65% of data loss, while for larger percentage, the local scaling shows
+overestimated regions (with higher local exponent) at small scales, followed by
+underestimated regions (with lower local exponent) at large scales. Finally, we
+investigate how the scaling is affected by the statistics of the remaining data
+segments in comparison to the removed segments.

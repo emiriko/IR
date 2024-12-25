@@ -1,0 +1,15 @@
+Aspect-orientation is a relatively new paradigm that introduces abstractions
+to modularize the implementation of system-wide policies. It is based on a
+composition operation, called aspect weaving, that implicitly modifies a base
+system by performing related changes within the system modules. Aspect-oriented
+graph grammars (AOGG) extend the classic graph grammar formalism by defining
+aspects as sets of rule-based modifications over a base graph grammar. Despite
+the advantages of aspect-oriented concepts regarding modularity, the implicit
+nature of the aspect weaving operation may also introduce issues when reasoning
+about the system behavior. Since in AOGGs aspect weaving is characterized by
+means of rule-based rewriting, we can overcome these problems by using known
+analysis techniques from the graph transformation literature to study aspect
+composition. In this paper, we present a case study of a distributed
+client-server system with global policies, modeled as an aspect-oriented graph
+grammar, and discuss how to use the AGG tool to identify potential conflicts in
+aspect weaving.

@@ -1,0 +1,16 @@
+We provide a comprehensive theoretical framework and a quantitative test of
+the method we recently proposed for processing data from a spherical detector
+with five or six transducers. Our algorithm is a trigger event generator
+performing a coherent analysis of the sphere channels. In order to test our
+pipeline we first built a detailed numerical model of the detector, including
+deviations from the ideal case such as quadrupole modes splitting, and
+non-identical transducer readout chains. This model, coupled with a Gaussian
+noise generator, has then been used to produce six time series, corresponding
+to the outputs of the six transducers attached to the sphere. We finally
+injected gravitational wave burst signals into the data stream, as well as
+bursts of non-gravitational origin in order to mimic the presence of
+non-Gaussian noise, and then processed the mock data. We report quantitative
+results for the detection efficiency versus false alarm rate and for the
+affordability of the reconstruction of the direction of arrival. In particular,
+the combination of the two direction reconstruction methods can reduce by a
+factor of 10 the number false alarms due to the non-Gaussian noise.

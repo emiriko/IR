@@ -1,0 +1,18 @@
+This paper proposes a generic approach for providing enhanced security to
+communication systems which encode their data for reliability before encrypting
+it through a stream cipher for security. We call this counter-intuitive
+technique the {\em encoding-encryption} paradigm, and use as motivating example
+the standard for mobile telephony GSM. The enhanced security is based on a
+dedicated homophonic or wire-tap channel coding that introduces pure
+randomness, combined with the randomness of the noise occurring over the
+communication channel. Security evaluation regarding recovery of the secret key
+employed in the keystream generator is done through an information theoretical
+approach. We show that with the aid of a dedicated wire-tap encoder, the amount
+of uncertainty that the adversary must face about the secret key given all the
+information he could gather during different passive or active attacks he can
+mount, is a decreasing function of the sample available for cryptanalysis. This
+means that the wire-tap encoder can indeed provide an information theoretical
+security level over a period of time, but after a large enough sample is
+collected the function tends to zero, entering a regime in which a
+computational security analysis is needed for estimation of the resistance
+against the secret key recovery.

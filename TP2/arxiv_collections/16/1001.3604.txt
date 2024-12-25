@@ -1,0 +1,18 @@
+A feature-oriented product line is a family of programs that share a common
+set of features. A feature implements a stakeholder's requirement, represents a
+design decision and configuration option and, when added to a program, involves
+the introduction of new structures, such as classes and methods, and the
+refinement of existing ones, such as extending methods. With feature-oriented
+decomposition, programs can be generated, solely on the basis of a user's
+selection of features, by the composition of the corresponding feature code. A
+key challenge of feature-oriented product line engineering is how to guarantee
+the correctness of an entire feature-oriented product line, i.e., of all of the
+member programs generated from different combinations of features. As the
+number of valid feature combinations grows progressively with the number of
+features, it is not feasible to check all individual programs. The only
+feasible approach is to have a type system check the entire code base of the
+feature-oriented product line. We have developed such a type system on the
+basis of a formal model of a feature-oriented Java-like language. We
+demonstrate that the type system ensures that every valid program of a
+feature-oriented product line is well-typed and that the type system is
+complete.

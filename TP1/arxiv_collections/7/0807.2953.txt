@@ -1,0 +1,18 @@
+Let $\Cant_n$ be the $n$-th generation in the construction of the middle-half
+Cantor set. The Cartesian square $\K_n = \Cant_n \times \Cant_n$ consists of
+$4^n$ squares of side-length $4^{-n}$. The chance that a long needle thrown at
+random in the unit square will meet $\K_n$ is essentially the average length of
+the projections of $\K_n$, also known as the Favard length of $\K_n$. A
+classical theorem of Besicovitch implies that the Favard length of $\K_n$ tends
+to zero. It is still an open problem to determine its exact rate of decay.
+Until recently, the only explicit upper bound was $\exp(- c\log_* n)$, due to
+Peres and Solomyak. ($\log_* n$ is the number of times one needs to take log to
+obtain a number less than 1 starting from $n$). In Nazarov-Peres-Volberg paper
+(arxiv:math 0801.2942) the power estimate from above was obtained. The exponent
+in this paper was less than 1/6 but could have been slightly improved. On the
+other hand, a simple estimate shows that from below we have the estimate
+$\frac{c}{n}$. Here we apply the idea from papers of Nets Katz (MRL (1996),
+527-536) and Bateman-Katz (arxiv:math/0609187v1 2006) to show that the estimate
+from below can be in fact improved to $c \frac{\log n}{n}$. This is in drastic
+difference from the case of {\em random} Cantor sets studied by Peres and
+Solomyak in Pacific J. Math. 204 (2002), 473-496.

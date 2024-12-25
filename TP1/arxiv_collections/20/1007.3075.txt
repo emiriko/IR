@@ -1,0 +1,17 @@
+The discrepancy between the upper bound on throughput in wireless networks
+and the throughput scaling in random networks which is also known as the
+connectivity-throughput trade-off is analyzed. In a random network with
+$\lambda$ nodes per unit area, throughput is found to scale by a factor of
+$\sqrt{\log{\lambda}}$ worse compared to the upper bound which is due to the
+uncertainty in the nodes' location. In the present model, nodes are assumed to
+know their geographical location and to employ power control, which we
+understand as an additional degree of freedom to improve network performance.
+The expected throughput-progress and the expected packet delay normalized to
+the one-hop progress are chosen as performance metrics. These metrics are
+investigated for a nearest neighbor forwarding strategy, which benefits from
+power control by reducing transmission power and, hence spatial contention. It
+is shown that the connectivity-throughput trade-off can be resolved if nodes
+employ a nearest neighbor forwarding strategy, achieving the upper bound on
+throughput on average also in a random network while ensuring asymptotic
+connectivity. In this case, the optimal throughput-delay scaling trade-off is
+also achieved.

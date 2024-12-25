@@ -1,0 +1,10 @@
+Since the topic emerged several years ago, work on regular model checking has
+mostly been devoted to the verification of state reachability and safety
+properties. Though it was known that linear temporal properties could also be
+checked within this framework, little has been done about working out the
+corresponding details. This paper addresses this issue in the context of
+regular model checking based on the encoding of states by finite or infinite
+words. It works out the exact constructions to be used in both cases, and
+proposes a partial solution to the problem resulting from the fact that
+infinite computations of unbounded configurations might never contain the same
+configuration twice, thus making cycle detection problematic.

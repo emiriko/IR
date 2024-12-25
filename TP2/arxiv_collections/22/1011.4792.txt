@@ -1,0 +1,18 @@
+Pair-wise Markov random fields (MRF) are considered for application to the
+development of low complexity, iterative MIMO detection. Specifically, we
+consider two types of MRF, namely, the fully-connected and ring-type. For the
+edge potentials, we use the bivariate Gaussian function obtained by
+marginalizing the posterior joint probability density under the Gaussian
+assumption. Since the corresponding factor graphs are sparse, in the sense that
+the number of edges connected to a factor node (edge degree) is only 2, the
+computations are much easier than that of ML, which is similar to the belief
+propagation (BP), or sum-product, algorithm that is run over the fully
+connected factor graph. The BER performances for non-Gaussian input are
+evaluated via simulation, and the results show the validity of the proposed
+algorithms. We also customize the algorithm for Gaussian input to obtain the
+Gaussian BP that is run over the two MRF and proves its convergence in mean to
+the linear MMSE estimates. The result lies on the same line of those in [16]
+and [24], but with differences in its graphical model and the message passing
+rule. Since the MAP estimator for the Gaussian input is equivalent to the
+linear MMSE estimator, it shows the optimality, in mean, of the scheme for
+Gaussian input.

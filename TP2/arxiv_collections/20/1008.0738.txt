@@ -1,0 +1,16 @@
+Astronomical instruments make intensity measurements; any precise
+astronomical experiment ought to involve modeling those measurements. People
+make catalogues, but because a catalogue requires hard decisions about
+calibration and detection, no catalogue can contain all of the information in
+the raw pixels relevant to most scientific investigations. Here we advocate
+making catalogue-like data outputs that permit investigators to test hypotheses
+with almost the power of the original image pixels. The key is to provide users
+with approximations to likelihood tests against the raw image pixels. We
+advocate three options, in order of increasing difficulty: The first is to
+define catalogue entries and associated uncertainties such that the catalogue
+contains the parameters of an approximate description of the image-level
+likelihood function. The second is to produce a K-catalogue sampling in
+"catalogue space" that samples a posterior probability distribution of
+catalogues given the data. The third is to expose a web service or equivalent
+that can re-compute on demand the full image-level likelihood for any
+user-supplied catalogue.

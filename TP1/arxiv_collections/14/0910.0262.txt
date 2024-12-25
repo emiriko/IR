@@ -1,0 +1,17 @@
+We present results of the implementation of one MILC lattice QCD
+application-simulation with dynamical clover fermions using the
+hybrid-molecular dynamics R algorithm-on the Cell Broadband Engine processor.
+Fifty-four individual computational kernels responsible for 98.8% of the
+overall execution time were ported to the Cell's Synergistic Processing
+Elements (SPEs). The remaining application framework, including MPI-based
+distributed code execution, was left to the Cell's PowerPC processor. We
+observe that we only infrequently achieve more than 10 GFLOPS with any of the
+kernels, which is just over 4% of the Cell's peak performance. At the same
+time, many of the kernels are sustaining a bandwidth close to 20 GB/s, which is
+78% of the Cell's peak. This indicates that the application performance is
+limited by the bandwidth between the main memory and the SPEs. In spite of this
+limitation, speedups of 8.7x (for 8x8x16x16 lattice) and 9.6x (for 16x16x16x16
+lattice) were achieved when comparing a 3.2 GHz Cell processor to a single core
+of a 2.33 GHz Intel Xeon processor. When comparing the code scaled up to
+execute on a dual-Cell blade and a quad-core dual-chip Intel Xeon blade, the
+speedups are 1.5x (8x8x16x16 lattice) and 4.1x (16x16x16x16 lattice).

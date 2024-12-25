@@ -1,0 +1,15 @@
+The JMMC Calibrator Workgroup has long developed methods to ascertain the
+angular diameter of stars, and provides this expertise in the SearchCal
+software. SearchCal dynamically finds calibrators near science objects by
+querying CDS hosted catalogs according to observational parameters. Initially
+limited to bright objects (K magnitude </- 5.5), it has been upgraded with a
+new method providing calibrators without any magnitude limit but those of
+queried catalogs. We introduce here a new static catalog of stellar diameters,
+containing more than 38000 entries, obtained from SearchCal results aggregation
+on the whole celestial sphere, complete for all stars with HIPPARCOS
+parallaxes. We detail the methods and tools used to produce and study this
+catalog, and compare the static catalog approach with the dynamical querying
+provided by SearchCal engine. We also introduce a new Virtual Observatory
+service, enabling the reporting of, and querying about, stars flagged as "bad
+calibrators" by astronomers, adding this ever-growing database to our SearchCal
+service.

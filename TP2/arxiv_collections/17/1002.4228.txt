@@ -1,0 +1,11 @@
+An isogeny between elliptic curves is an algebraic morphism which is a group
+homomorphism. Many applications in cryptography require evaluating large degree
+isogenies between elliptic curves efficiently. For ordinary curves of the same
+endomorphism ring, the previous best known algorithm has a worst case running
+time which is exponential in the length of the input. In this paper we show
+this problem can be solved in subexponential time under reasonable heuristics.
+Our approach is based on factoring the ideal corresponding to the kernel of the
+isogeny, modulo principal ideals, into a product of smaller prime ideals for
+which the isogenies can be computed directly. Combined with previous work of
+Bostan et al., our algorithm yields equations for large degree isogenies in
+quasi-optimal time given only the starting curve and the kernel.

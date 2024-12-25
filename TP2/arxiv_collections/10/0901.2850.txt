@@ -1,0 +1,15 @@
+Disjunctive finitary programs are a class of logic programs admitting
+function symbols and hence infinite domains. They have very good computational
+properties, for example ground queries are decidable while in the general case
+the stable model semantics is highly undecidable. In this paper we prove that a
+larger class of programs, called finitely recursive programs, preserves most of
+the good properties of finitary programs under the stable model semantics,
+namely: (i) finitely recursive programs enjoy a compactness property; (ii)
+inconsistency checking and skeptical reasoning are semidecidable; (iii)
+skeptical resolution is complete for normal finitely recursive programs.
+Moreover, we show how to check inconsistency and answer skeptical queries using
+finite subsets of the ground program instantiation. We achieve this by
+extending the splitting sequence theorem by Lifschitz and Turner: We prove that
+if the input program P is finitely recursive, then the partial stable models
+determined by any smooth splitting omega-sequence converge to a stable model of
+P.

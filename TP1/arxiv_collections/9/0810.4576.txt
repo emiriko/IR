@@ -1,0 +1,23 @@
+A $(k,\delta,\epsilon)$-locally decodable code $C: F_{q}^{n} \to F_{q}^{N}$
+is an error-correcting code that encodes each message
+$\vec{x}=(x_{1},x_{2},...,x_{n}) \in F_{q}^{n}$ to $C(\vec{x}) \in F_{q}^{N}$
+and has the following property: For any $\vec{y} \in {\bf F}_{q}^{N}$ such that
+$d(\vec{y},C(\vec{x})) \leq \delta N$ and each $1 \leq i \leq n$, the symbol
+$x_{i}$ of $\vec{x}$ can be recovered with probability at least $1-\epsilon$ by
+a randomized decoding algorithm looking only at $k$ coordinates of $\vec{y}$.
+The efficiency of a $(k,\delta,\epsilon)$-locally decodable code $C: F_{q}^{n}
+\to F_{q}^{N}$ is measured by the code length $N$ and the number $k$ of
+queries. For any $k$-query locally decodable code $C: F_{q}^{n} \to F_{q}^{N}$,
+the code length $N$ is conjectured to be exponential of $n$, however, this was
+disproved. Yekhanin [In Proc. of STOC, 2007] showed that there exists a 3-query
+locally decodable code $C: F_{2}^{n} \to F_{2}^{N}$ such that
+$N=\exp(n^{(1/\log \log n)})$ assuming that the number of Mersenne primes is
+infinite. For a 3-query locally decodable code $C: F_{q}^{n} \to F_{q}^{N}$,
+Efremenko [ECCC Report No.69, 2008] reduced the code length further to
+$N=\exp(n^{O((\log \log n/ \log n)^{1/2})})$, and also showed that for any
+integer $r>1$, there exists a $k$-query locally decodable code $C: F_{q}^{n}
+\to F_{q}^{N}$ such that $k \leq 2^{r}$ and $N=\exp(n^{O((\log \log n/ \log
+n)^{1-1/r})})$. In this paper, we present a query-efficient locally decodable
+code and show that for any integer $r>1$, there exists a $k$-query locally
+decodable code $C: F_{q}^{n} \to F_{q}^{N}$ such that $k \leq 3 \cdot 2^{r-2}$
+and $N=\exp(n^{O((\log \log n/ \log n)^{1-1/r})})$.

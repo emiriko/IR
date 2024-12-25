@@ -1,0 +1,12 @@
+In this work we study the problem of misbehavior detection in wireless
+networks. A commonly adopted approach is to utilize the broadcasting nature of
+the wireless medium and have nodes monitor their neighborhood. We call such
+nodes the Watchdogs. In this paper, we first show that even if a watchdog can
+overhear all packet transmissions of a flow, any linear operation of the
+overheard packets can not eliminate miss-detection and is inefficient in terms
+of bandwidth. We propose a light-weigh misbehavior detection scheme which
+integrates the idea of watchdogs and error detection coding. We show that even
+if the watchdog can only observe a fraction of packets, by choosing the encoder
+properly, an attacker will be detected with high probability while achieving
+throughput arbitrarily close to optimal. Such properties reduce the incentive
+for the attacker to attack.

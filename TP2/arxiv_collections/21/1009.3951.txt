@@ -1,0 +1,10 @@
+Information flow analysis is a powerful technique for reasoning about the
+sensitive information exposed by a program during its execution. While past
+work has proposed information theoretic metrics (e.g., Shannon entropy,
+min-entropy, guessing entropy, etc.) to quantify such information leakage, we
+argue that some of these measures not only result in counter-intuitive measures
+of leakage, but also are inherently prone to conflicts when comparing two
+programs P1 and P2 -- say Shannon entropy predicts higher leakage for program
+P1, while guessing entropy predicts higher leakage for program P2. This paper
+presents the first attempt towards addressing such conflicts and derives
+solutions for conflict-free comparison of finite order deterministic programs.

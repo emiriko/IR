@@ -1,0 +1,13 @@
+Maintaining the main aspects of the algebraic specification language ASF as
+presented in [Bergstra&al.89] we have extend ASF with the following concepts:
+While once exported names in ASF must stay visible up to the top the module
+hierarchy, ASF+ permits a more sophisticated hiding of signature names. The
+erroneous merging of distinct structures that occurs when importing different
+actualizations of the same parameterized module in ASF is avoided in ASF+ by a
+more adequate form of parameter binding. The new ``Namensraum''-concept of ASF+
+permits the specifier on the one hand directly to identify the origin of hidden
+names and on the other to decide whether an imported module is only to be
+accessed or whether an important property of it is to be modified. In the first
+case he can access one single globally provided version; in the second he has
+to import a copy of the module. Finally ASF+ permits semantic conditions on
+parameters and the specification of tasks for a theorem prover.

@@ -1,0 +1,11 @@
+Quantum expanders are a quantum analogue of expanders, and k-tensor product
+expanders are a generalisation to graphs that randomise k correlated walkers.
+Here we give an efficient construction of constant-degree, constant-gap quantum
+k-tensor product expanders. The key ingredients are an efficient classical
+tensor product expander and the quantum Fourier transform. Our construction
+works whenever k=O(n/log n), where n is the number of qubits. An immediate
+corollary of this result is an efficient construction of an approximate unitary
+k-design, which is a quantum analogue of an approximate k-wise independent
+function, on n qubits for any k=O(n/log n). Previously, no efficient
+constructions were known for k>2, while state designs, of which unitary designs
+are a generalisation, were constructed efficiently in [Ambainis, Emerson 2007].

@@ -1,0 +1,20 @@
+The property that every control system should posses is stability, which
+translates into safety in real-life applications. A central tool in systems
+theory for synthesizing control laws that achieve stability are control
+Lyapunov functions (CLFs). Classically, a CLF enforces that the resulting
+closed-loop state trajectory is contained within a cone with a fixed,
+predefined shape, and which is centered at and converges to a desired
+converging point. However, such a requirement often proves to be
+overconservative, which is why most of the real-time controllers do not have a
+stability guarantee. Recently, a novel idea that improves the design of CLFs in
+terms of flexibility was proposed. The focus of this new approach is on the
+design of optimization problems that allow certain parameters that define a
+cone associated with a standard CLF to be decision variables. In this way
+non-monotonicity of the CLF is explicitly linked with a decision variable that
+can be optimized on-line. Conservativeness is significantly reduced compared to
+classical CLFs, which makes \emph{flexible CLFs} more suitable for
+stabilization of constrained discrete-time nonlinear systems and real-time
+control. The purpose of this overview is to highlight the potential of flexible
+CLFs for real-time control of fast mechatronic systems, with sampling periods
+below one millisecond, which are widely employed in aerospace and automotive
+applications.

@@ -1,0 +1,32 @@
+The physical interpretation of spectro-interferometric data is strongly
+model-dependent. On one hand, models involving elaborate radiative transfer
+solvers are too time consuming in general to perform an automatic fitting
+procedure and derive astrophysical quantities and their related errors. On the
+other hand, using simple geometrical models does not give sufficient insights
+into the physics of the object. We propose to stand in between these two
+extreme approaches by using a physical but still simple parameterised model for
+the object under consideration. Based on this philosophy, we developed a
+numerical tool optimised for mid-infrared (mid-IR) interferometry, the fast
+ray-tracing algorithm for circumstellar structures (FRACS) which can be used as
+a stand-alone model, or as an aid for a more advanced physical description or
+even for elaborating observation strategies. FRACS is based on the ray-tracing
+technique without scattering, but supplemented with the use of quadtree meshes
+and the full symmetries of the axisymmetrical problem to significantly decrease
+the necessary computing time to obtain e.g. monochromatic images and
+visibilities. We applied FRACS in a theoretical study of the dusty
+circumstellar environments (CSEs) of B[e] supergiants (sgB[e]) in order to
+determine which information (physical parameters) can be retrieved from present
+mid-IR interferometry (flux and visibility). From a set of selected dusty CSE
+models typical of sgB[e] stars we show that together with the geometrical
+parameters (position angle, inclination, inner radius), the temperature
+structure (inner dust temperature and gradient) can be well constrained by the
+mid-IR data alone. Our results also indicate that the determination of the
+parameters characterising the CSE density structure is more challenging but, in
+some cases, upper limits as well as correlations on the parameters
+characterising the mass loss can be obtained. Good constraints for the sgB[e]
+central continuum emission (central star and inner gas emissions) can be
+obtained whenever its contribution to the total mid-IR flux is only as high as
+a few percents. Ray-tracing parameterised models such as FRACS are thus well
+adapted to prepare and/or interpret long wavelengths (from mid-IR to radio)
+observations at present (e.g. VLTI/MIDI) and near-future (e.g. VLTI/MATISSE,
+ALMA) interferometers.

@@ -1,0 +1,9 @@
+On modern architectures, the performance of 32-bit operations is often at
+least twice as fast as the performance of 64-bit operations. By using a
+combination of 32-bit and 64-bit floating point arithmetic, the performance of
+many dense and sparse linear algebra algorithms can be significantly enhanced
+while maintaining the 64-bit accuracy of the resulting solution. The approach
+presented here can apply not only to conventional processors but also to other
+technologies such as Field Programmable Gate Arrays (FPGA), Graphical
+Processing Units (GPU), and the STI Cell BE processor. Results on modern
+processor architectures and the STI Cell BE are presented.

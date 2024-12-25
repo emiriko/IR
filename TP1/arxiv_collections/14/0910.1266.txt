@@ -1,0 +1,7 @@
+We explore the idea of using finite automata to implement new constraints for
+local search (this is already a successful technique in constraint-based global
+search). We show how it is possible to maintain incrementally the violations of
+a constraint and its decision variables from an automaton that describes a
+ground checker for that constraint. We establish the practicality of our
+approach idea on real-life personnel rostering problems, and show that it is
+competitive with the approach of [Pralong, 2007].

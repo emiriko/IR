@@ -1,0 +1,8 @@
+Transactional events (TE) are an extension of Concurrent ML (CML), a
+programming model for synchronous message-passing. Prior work has focused on
+TE's formal semantics and its implementation. This paper considers programming
+idioms, particularly those that vary unexpectedly from the corresponding CML
+idioms. First, we solve a subtle problem with client-server protocols in TE.
+Second, we argue that CML's wrap and guard primitives do not translate well to
+TE, and we suggest useful workarounds. Finally, we discuss how to rewrite CML
+protocols that use abort actions.

@@ -1,0 +1,16 @@
+This paper introduces the notion of a secure data capsule, which refers to an
+encapsulation of sensitive user information (such as a credit card number)
+along with code that implements an interface suitable for the use of such
+information (such as charging for purchases) by a service (such as an online
+merchant). In our capsule framework, users provide their data in the form of
+such capsules to web services rather than raw data. Capsules can be deployed in
+a variety of ways, either on a trusted third party or the user's own computer
+or at the service itself, through the use of a variety of hardware or software
+modules, such as a virtual machine monitor or trusted platform module: the only
+requirement is that the deployment mechanism must ensure that the user's data
+is only accessed via the interface sanctioned by the user. The framework
+further allows an user to specify policies regarding which services or machines
+may host her capsule, what parties are allowed to access the interface, and
+with what parameters. The combination of interface restrictions and policy
+control lets us bound the impact of an attacker who compromises the service to
+gain access to the user's capsule or a malicious insider at the service itself.

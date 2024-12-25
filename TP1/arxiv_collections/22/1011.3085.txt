@@ -1,0 +1,15 @@
+Deriving the time evolution of a distribution of probability (or a
+probability density matrix) is a problem encountered frequently in a variety of
+situations: for physical time, it could be a kinetic reaction study, while
+identifying time with the number of computational steps gives a typical picture
+of algorithms routinely used in quantum impurity solvers, density functional
+theory, etc. Using a truncation scheme for the expansion of the exact quantity
+is necessary due to constraints of the numerical implementation. However, this
+leads in turn to serious complications such as the Fermion Sign Problem
+(essentially, density or weights will become negative). By integrating angular
+degrees of freedom and reducing the dynamics to the radial component, the time
+evolution is reformulated as a nonlinear integral transform of the distribution
+function. A canonical decomposition into orthogonal polynomials leads back to
+the original sign problem, but using a characteristic-function representation
+allows to extract the asymptotic behavior, and gives an exact large-time limit,
+for many initial conditions, with guaranteed positivity.

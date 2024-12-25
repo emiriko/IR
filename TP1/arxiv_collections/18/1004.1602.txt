@@ -1,0 +1,25 @@
+The maximal (or Hilbertian) correlation coefficient between two random
+variables X and Y, denoted by \{X:Y\}, is the supremum of the |Corr(f(X),g(Y))|
+for real measurable functions f, g, where "Corr" denotes Pearson's correlation
+coefficient. It is a classical result that for independent pairs of variables
+(X_i,Y_i)_{i\in I}, \{\vec{X}_I:\vec{Y}_I\} is the supremum of the \{X_i:Y_i\}.
+The main goal of this monograph is to prove similar tensorization results when
+one only has partial independence between the (X_i,Y_i); more generally, for
+random variables (X_i)_{i\in I}, (Y_j)_{j\in J}, we will look for bounds on
+\{\vec{X}_I:\vec{Y}_J\} from bounds on the \{X_i:Y_j\}, i\in I, j\in J.
+  My tensorization theorems will imply new decorrelation results for models of
+statistical physics exhibiting asymptotic independence, like the subcritical
+Ising model. I shall prove that for such models, two distant bunches of spins
+are decorrelated (in the Hilbertian sense) uniformly in their sizes and shapes:
+if I and J are two sets of spins such that dist(i,j)\geq d for all i\in I, j\in
+J, then one gets a nontrivial bound for \{\vec{X}_I:\vec{Y}_J\} only depending
+on d.
+  Still for models like the subcritical Ising one, I shall also prove how
+Hilbertian decorrelations may be used to get the spatial CLT or the (strict)
+positiveness of the spectral gap for the Glauber dynamics, via tensorization
+techniques again.
+  Besides all that, I shall finally prove a new criterion to bound the maximal
+correlation \{F:G\} between two \sigma-algebras F and G form a uniform bound on
+the |P[A\cap B]-P[A]P[B]|/\sqrt{P[A]P[B]} for all A\in F, B\in G. Such criteria
+were already known, but mine strictly improves those and can moreover be proved
+to be optimal.

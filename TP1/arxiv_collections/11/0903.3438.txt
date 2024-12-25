@@ -1,0 +1,18 @@
+Mixed level orthogonal arrays are basic structures in experimental design. We
+develop three algorithms that compute Rao and Gilbert-Varshamov type bounds for
+mixed level orthogonal arrays. The computational complexity of the terms
+involved in these bounds can grow fast as the parameters of the arrays increase
+and this justifies the construction of these algorithms. The first is a
+recursive algorithm that computes the bounds exactly, the second is based on an
+asymptotic analysis and the third is a simulation algorithm. They are all based
+on the representation of the combinatorial expressions that appear in the
+bounds as expectations involving a symmetric random walk. The Markov property
+of the underlying random walk gives the recursive formula to compute the
+expectations. A large deviation (LD) analysis of the expectations provide the
+asymptotic algorithm. The asymptotically optimal importance sampling (IS) of
+the same expectation provides the simulation algorithm. Both the LD analysis
+and the construction of the IS algorithm uses a representation of these
+problems as a sequence of stochastic optimal control problems converging to a
+limit calculus of variations problem. The construction of the IS algorithm uses
+a recently discovered method of using subsolutions to the Hamilton Jacobi
+Bellman equation associated with the limit problem.

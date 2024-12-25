@@ -1,0 +1,9 @@
+This paper presents a new approach for code similarity on High Level
+programs. Our technique is based on Fast Dynamic Time Warping, that builds a
+warp path or points relation with local restrictions. The source code is
+represented into Time Series using the operators inside programming languages
+that makes possible the comparison. This makes possible subsequence detection
+that represent similar code instructions. In contrast with other code
+similarity algorithms, we do not make features extraction. The experiments show
+that two source codes are similar when their respective Time Series are
+similar.

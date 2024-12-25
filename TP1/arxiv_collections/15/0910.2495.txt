@@ -1,0 +1,15 @@
+We adapted existing polymer growth strategies for equilibrium sampling of
+peptides described by modern atomistic forcefields with implicit solvent. The
+main novel feature of our approach is the use of pre-calculated statistical
+libraries of molecular fragments. A molecule is sampled by combining fragment
+configurations -- of single residues in this study -- which are stored in the
+libraries. Ensembles generated from the independent libraries are reweighted to
+conform with the Boltzmann factor distribution of the forcefield describing the
+full molecule. In this way, high-quality equilibrium sampling of small peptides
+(4-8 residues) typically requires less than one hour of single-processor
+wallclock time and can be significantly faster than Langevin simulations.
+Furthermore, approximate but clash-free ensembles can be generated for larger
+peptides (e.g., 16 residues) in less than a minute of single-processor
+computing. We also describe an application to free energy calculation, a
+"multi-resolution" implementation of the growth procedure and application to
+fragment assembly protein-structure prediction protocols.

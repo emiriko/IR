@@ -1,0 +1,17 @@
+We provide deterministic, polynomial-time computable voting rules that
+approximate Dodgson's and (the ``minimization version'' of) Young's scoring
+rules to within a logarithmic factor. Our approximation of Dodgson's rule is
+tight up to a constant factor, as Dodgson's rule is $\NP$-hard to approximate
+to within some logarithmic factor. The ``maximization version'' of Young's rule
+is known to be $\NP$-hard to approximate by any constant factor. Both
+approximations are simple, and natural as rules in their own right: Given a
+candidate we wish to score, we can regard either its Dodgson or Young score as
+the edit distance between a given set of voter preferences and one in which the
+candidate to be scored is the Condorcet winner. (The difference between the two
+scoring rules is the type of edits allowed.) We regard the marginal cost of a
+sequence of edits to be the number of edits divided by the number of reductions
+(in the candidate's deficit against any of its opponents in the pairwise race
+against that opponent) that the edits yield. Over a series of rounds, our
+scoring rules greedily choose a sequence of edits that modify exactly one
+voter's preferences and whose marginal cost is no greater than any other such
+single-vote-modifying sequence.

@@ -1,0 +1,21 @@
+The natural trajectory tracking problem is studied for generic quantum states
+represented by density operators. A control design based on the Hilbert-Schmidt
+distance as a Lyapunov function is considered. The control dynamics is
+redefined on an extended space where the LaSalle invariance principle can be
+correctly applied even for non-stationary target states. LaSalle's invariance
+principle is used to derive a general characterization of the invariant set,
+which is shown to always contain the critical points of the Lyapunov function.
+Critical point analysis of the latter is used to show that, for generic states,
+it is a Morse function with $n!$ isolated critical points, including one global
+minimum, one global maximum and $n!-2$ saddles. It is also shown, however, that
+the actual dynamics of the system is not a gradient flow, and therefore a full
+eigenvalue analysis of the linearized dynamics about the critical points of the
+dynamical system is necessary to ascertain stability of the critical points.
+This analysis shows that a generic target state is locally asymptotically
+stable if the linearized system is controllable and the invariant set is
+regular, and in fact convergence to the target state (trajectory) in this case
+is almost global in that the stable manifolds of all other critical points form
+a subset of measure zero of the state space. On the other hand, if either of
+these sufficient conditions is not satisfied, the target state ceases to be
+asymptotically stable, a center manifold emerges around the target state, and
+the control design ceases to be effective.

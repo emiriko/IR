@@ -1,0 +1,8 @@
+Two methods of prediction of the Pole coordinates and TAI-UTC were tested --
+extrapolation of the deterministic components and ARIMA. It was found that each
+of these methods is most effective for certain length of prognosis. For
+short-time prediction ARIMA algorithm yields more accurate prognosis, and for
+long-time one extrapolation is preferable. So, the combined algorithm is being
+used in practice of IAA EOP Service. The accuracy of prognosis is close to
+accuracy of IERS algorithms. For prediction of nutation the program KSV-1996-1
+by T. Herring is being used.

@@ -1,0 +1,15 @@
+We discuss a generic model of Bayesian inference with binary variables
+defined on edges of a planar graph. The Loop Calculus approach of [1, 2] is
+used to evaluate the resulting series expansion for the partition function. We
+show that, for planar graphs, truncating the series at single-connected loops
+reduces, via a map reminiscent of the Fisher transformation [3], to evaluating
+the partition function of the dimer matching model on an auxiliary planar
+graph. Thus, the truncated series can be easily re-summed, using the Pfaffian
+formula of Kasteleyn [4]. This allows to identify a big class of
+computationally tractable planar models reducible to a dimer model via the
+Belief Propagation (gauge) transformation. The Pfaffian representation can also
+be extended to the full Loop Series, in which case the expansion becomes a sum
+of Pfaffian contributions, each associated with dimer matchings on an extension
+to a subgraph of the original graph. Algorithmic consequences of the Pfaffian
+representation, as well as relations to quantum and non-planar models, are
+discussed.

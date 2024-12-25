@@ -1,0 +1,12 @@
+Sequential Monte Carlo (SMC) methods are not only a popular tool in the
+analysis of state space models, but offer an alternative to MCMC in situations
+where Bayesian inference must proceed via simulation. This paper introduces a
+new SMC method that uses adaptive MCMC kernels for particle dynamics. The
+proposed algorithm features an online stochastic optimization procedure to
+select the best MCMC kernel and simultaneously learn optimal tuning parameters.
+Theoretical results are presented that justify the approach and give guidance
+on how it should be implemented. Empirical results, based on analysing data
+from mixture models, show that the new adaptive SMC algorithm (ASMC) can both
+choose the best MCMC kernel, and learn an appropriate scaling for it. ASMC with
+a choice between kernels outperformed the adaptive MCMC algorithm of Haario et
+al. (1998) in 5 out of the 6 cases considered.

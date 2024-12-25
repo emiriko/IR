@@ -1,0 +1,10 @@
+Let $s_q(n)$ denote the sum of the digits in the $q$-ary expansion of an
+integer $n$. In 1978, Stolarsky showed that $$ \liminf_{n\to\infty}
+\frac{s_2(n^2)}{s_2(n)} = 0. $$ He conjectured that, as for $n^2$, this limit
+infimum should be 0 for higher powers of $n$. We prove and generalize this
+conjecture showing that for any polynomial $p(x)=a_h x^h+a_{h-1} x^{h-1} + ...
++ a_0 \in \Z[x]$ with $h\geq 2$ and $a_h>0$ and any base $q$, \[
+\liminf_{n\to\infty} \frac{s_q(p(n))}{s_q(n)}=0.\] For any $\epsilon > 0$ we
+give a bound on the minimal $n$ such that the ratio $s_q(p(n))/s_q(n) <
+\epsilon$. Further, we give lower bounds for the number of $n < N$ such that
+$s_q(p(n))/s_q(n) < \epsilon$.

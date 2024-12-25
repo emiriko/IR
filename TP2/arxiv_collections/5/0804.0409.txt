@@ -1,0 +1,19 @@
+We cryptanalyse here two variants of the McEliece cryptosystem based on
+quasi-cyclic codes. Both aim at reducing the key size by restricting the public
+and secret generator matrices to be in quasi-cyclic form. The first variant
+considers subcodes of a primitive BCH code. We prove that this variant is not
+secure by finding and solving a linear system satisfied by the entries of the
+secret permutation matrix.
+  The other variant uses quasi-cyclic low density parity-check codes. This
+scheme was devised to be immune against general attacks working for McEliece
+type cryptosystems based on low density parity-check codes by choosing in the
+McEliece scheme more general one-to-one mappings than permutation matrices. We
+suggest here a structural attack exploiting the quasi-cyclic structure of the
+code and a certain weakness in the choice of the linear transformations that
+hide the generator matrix of the code. Our analysis shows that with high
+probability a parity-check matrix of a punctured version of the secret code can
+be recovered in cubic time complexity in its length. The complete
+reconstruction of the secret parity-check matrix of the quasi-cyclic low
+density parity-check codes requires the search of codewords of low weight which
+can be done with about $2^{37}$ operations for the specific parameters
+proposed.

@@ -1,0 +1,17 @@
+In WiFi networks, mobile nodes compete for accessing a shared channel by
+means of a random access protocol called Distributed Coordination Function
+(DCF). Although this protocol is in principle fair, since all the stations have
+the same probability to transmit on the channel, it has been shown that unfair
+behaviors may emerge in actual networking scenarios because of non-standard
+configurations of the nodes. Due to the proliferation of open source drivers
+and programmable cards, enabling an easy customization of the channel access
+policies, we propose a game-theoretic analysis of random access schemes.
+Assuming that each node is rational and implements a best response strategy, we
+show that efficient equilibria conditions can be reached when stations are
+interested in both uploading and downloading traffic. More interesting, these
+equilibria are reached when all the stations play the same strategy, thus
+guaranteeing a fair resource sharing. When stations are interested in upload
+traffic only, we also propose a mechanism design, based on an artificial
+dropping of layer-2 acknowledgments, to force desired equilibria. Finally, we
+propose and evaluate some simple DCF extensions for practically implementing
+our theoretical findings.

@@ -1,0 +1,15 @@
+Applications in machine learning and data mining require computing pairwise
+Lp distances in a data matrix A. For massive high-dimensional data, computing
+all pairwise distances of A can be infeasible. In fact, even storing A or all
+pairwise distances of A in the memory may be also infeasible. This paper
+proposes a simple method for p = 2, 4, 6, ... We first decompose the l_p (where
+p is even) distances into a sum of 2 marginal norms and p-1 ``inner products''
+at different orders. Then we apply normal or sub-Gaussian random projections to
+approximate the resultant ``inner products,'' assuming that the marginal norms
+can be computed exactly by a linear scan. We propose two strategies for
+applying random projections. The basic projection strategy requires only one
+projection matrix but it is more difficult to analyze, while the alternative
+projection strategy requires p-1 projection matrices but its theoretical
+analysis is much easier. In terms of the accuracy, at least for p=4, the basic
+strategy is always more accurate than the alternative strategy if the data are
+non-negative, which is common in reality.

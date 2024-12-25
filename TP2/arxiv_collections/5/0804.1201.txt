@@ -1,0 +1,11 @@
+In Proteomics, only the de novo peptide sequencing approach allows a partial
+amino acid sequence of a peptide to be found from a MS/MS spectrum. In this
+article a preliminary work is presented to discover a complete protein sequence
+from spectral data (MS and MS/MS spectra). For the moment, our approach only
+uses MS spectra. A Genetic Algorithm (GA) has been designed with a new
+evaluation function which works directly with a complete MS spectrum as input
+and not with a mass list like the other methods using this kind of data. Thus
+the mono isotopic peak extraction step which needs a human intervention is
+deleted. The goal of this approach is to discover the sequence of unknown
+proteins and to allow a better understanding of the differences between
+experimental proteins and proteins from databases.

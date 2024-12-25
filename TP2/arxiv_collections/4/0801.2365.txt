@@ -1,0 +1,23 @@
+The problem of an accurate Eulerian-Lagrangian modeling of inertial particle
+dispersion in Large Eddy Simulation (LES) of turbulent wall-bounded flows is
+addressed. We run Direct Numerical Simulation (DNS) for turbulent channel flow
+at shear Reynolds numbers equal to 150 and 300 and corresponding a-priori and
+a-posteriori LES on differently coarse grids. We then tracked swarms of
+different inertia particles and we examined the influence of filtering and of
+Sub-Grid Scale (SGS) modeling for the fluid phase on particle velocity and
+concentration statistics. We also focused on how particle preferential
+segregation is predicted by LES. Results show that even ``well-resolved'' LES
+is unable to reproduce the physics as demonstrated by DNS, both for particle
+accumulation at the wall and for particle preferential segregation. Inaccurate
+prediction is observed for the entire range of particles considered in this
+study, even when the particle response time is much larger than the flow
+timescales not resolved in LES. Both a-priori and a-posteriori tests indicate
+that recovering the level of fluid and particle velocity fluctuations is not
+enough to have accurate prediction of near-wall accumulation and local
+segregation. This may suggest that reintroducing the correct amount of
+higher-order moments of the velocity fluctuations is also a key point for SGS
+closure models for the particle equation. Another important issue is the
+presence of possible flow Reynolds number effects on particle dispersion. Our
+results show that, in small Reynolds number turbulence and in the case of heavy
+particles, the shear fluid velocity is a suitable scaling parameter to quantify
+these effects.

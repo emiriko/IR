@@ -1,0 +1,14 @@
+The future of high-performance computing is aligning itself towards the
+efficient use of highly parallel computing environments. One application where
+the use of massive parallelism comes instinctively is Monte Carlo simulations,
+where a large number of independent events have to be simulated. At the core of
+the Monte Carlo simulation lies the Random Number Generator (RNG). In this
+paper, the massively parallel implementation of a collection of pseudo-random
+number generators on a graphics processing unit (GPU) is presented. The results
+of the GPU implementation, in terms of samples/s, effective bandwidth and
+operations per second, are presented. A comparison with other implementations
+on different hardware platforms, in terms of samples/s, power efficiency and
+cost-benefit, is also presented. Random numbers generation throughput of up to
+~18MSamples/s have been achieved on the graphics hardware used. Efficient
+hardware utilization, in terms of operations per second, has reached ~98% of
+the possible integer operation throughput.

@@ -1,0 +1,22 @@
+In this paper, we propose a bid optimizer for sponsored keyword search
+auctions which leads to better retention of advertisers by yielding attractive
+utilities to the advertisers without decreasing the revenue to the search
+engine. The bid optimizer is positioned as a key value added tool the search
+engine provides to the advertisers. The proposed bid optimizer algorithm
+transforms the reported values of the advertisers for a keyword into a
+correlated bid profile using many ideas from cooperative game theory. The
+algorithm is based on a characteristic form game involving the search engine
+and the advertisers. Ideas from Nash bargaining theory are used in formulating
+the characteristic form game to provide for a fair share of surplus among the
+players involved. The algorithm then computes the nucleolus of the
+characteristic form game since we find that the nucleolus is an apt way of
+allocating the gains of cooperation among the search engine and the
+advertisers. The algorithm next transforms the nucleolus into a correlated bid
+profile using a linear programming formulation. This bid profile is input to a
+standard generalized second price mechanism (GSP) for determining the
+allocation of sponsored slots and the prices to be be paid by the winners. The
+correlated bid profile that we determine is a locally envy-free equilibrium and
+also a correlated equilibrium of the underlying game. Through detailed
+simulation experiments, we show that the proposed bid optimizer retains more
+customers than a plain GSP mechanism and also yields better long-run utilities
+to the search engine and the advertisers.

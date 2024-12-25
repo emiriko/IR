@@ -1,0 +1,16 @@
+We investigate the stability of incompressible, exact, non-ideal
+magnetorotational (MRI) modes against parasitic instabilities. Both
+Kelvin-Helmholtz and tearing-mode parasitic instabilities may occur in the
+dissipative regimes accessible to current numerical simulations. We suppose
+that a primary MRI mode saturates at an amplitude such that its fastest
+parasite has a growth rate comparable to its own. The predicted alpha parameter
+then depends critically on whether the fastest primary and parasitic modes fit
+within the computational domain and whether non-axisymmetric parasitic modes
+are allowed. Hence even simulations that resolve viscous and resistive scales
+may not saturate properly unless the numerical domain is large enough to allow
+the free evolution of both MRI and parasitic modes. To minimally satisfy these
+requirements in simulations with vertical background fields, the vertical
+extent of the domain should accommodate the fastest growing MRI mode while the
+radial and azimuthal extents must be twice as large. The fastest parasites have
+horizontal wavelengths roughly twice as long as the vertical wavelength of the
+primary.

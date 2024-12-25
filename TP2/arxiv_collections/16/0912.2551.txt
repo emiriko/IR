@@ -1,0 +1,19 @@
+We consider the problem of verifying stochastic models of biochemical
+networks against behavioral properties expressed in temporal logic terms. Exact
+probabilistic verification approaches such as, for example, CSL/PCTL model
+checking, are undermined by a huge computational demand which rule them out for
+most real case studies. Less demanding approaches, such as statistical model
+checking, estimate the likelihood that a property is satisfied by sampling
+executions out of the stochastic model. We propose a methodology for
+efficiently estimating the likelihood that a LTL property P holds of a
+stochastic model of a biochemical network. As with other statistical
+verification techniques, the methodology we propose uses a stochastic
+simulation algorithm for generating execution samples, however there are three
+key aspects that improve the efficiency: first, the sample generation is driven
+by on-the-fly verification of P which results in optimal overall simulation
+time. Second, the confidence interval estimation for the probability of P to
+hold is based on an efficient variant of the Wilson method which ensures a
+faster convergence. Third, the whole methodology is designed according to a
+parallel fashion and a prototype software tool has been implemented that
+performs the sampling/verification process in parallel over an HPC
+architecture.

@@ -1,0 +1,18 @@
+Temporal Logic Model Checking is a verification method in which we describe a
+system, the model, and then we verify whether some properties, expressed in a
+temporal logic formula, hold in the system. It has many industrial
+applications. In order to improve performance, some tools allow preprocessing
+of the model, verifying on-line a set of properties reusing the same compiled
+model; we prove that the complexity of the Model Checking problem, without any
+preprocessing or preprocessing the model or the formula in a polynomial data
+structure, is the same. As a result preprocessing does not always exponentially
+improve performance.
+  Symbolic Model Checking algorithms work by manipulating sets of states, and
+these sets are often represented by BDDs. It has been observed that the size of
+BDDs may grow exponentially as the model and formula increase in size. As a
+side result, we formally prove that a superpolynomial increase of the size of
+these BDDs is unavoidable in the worst case. While this exponential growth has
+been empirically observed, to the best of our knowledge it has never been
+proved so far in general terms. This result not only holds for all types of
+BDDs regardless of the variable ordering, but also for more powerful data
+structures, such as BEDs, RBCs, MTBDDs, and ADDs.

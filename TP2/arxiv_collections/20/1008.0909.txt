@@ -1,0 +1,8 @@
+Page switching is a technique that increases the memory in microcontrollers
+without extending the address buses. This technique is widely used in the
+design of 8-bit MCUs. In this paper, we present an algorithm to reduce the
+overhead of page switching. To pursue small code size, we place the emphasis on
+the allocation of functions into suitable pages with a heuristic algorithm,
+thereby the cost-effective placement of page selection instructions. Our
+experimental results showed the optimization achieved a reduction in code size
+of 13.2 percent.

@@ -1,0 +1,22 @@
+In this articlewestudy themulticast routing problem in all-opticalWDMnetworks
+under the spare light splitting constraint. To implement a multicast session,
+several light-trees may have to be used due to the limited fanouts of network
+nodes. Although many multicast routing algorithms have been proposed in order
+to reduce the total number of wavelength channels used (total cost) for a
+multicast session, the maximum number of wavelengths required in one fiber link
+(link stress) and the end-to-end delay are two parameters which are not always
+taken into consideration. It is known that the shortest path tree (SPT) results
+in the optimal end-to-end delay, but it can not be employed directly for
+multicast routing in sparse light splitting WDM networks. Hence, we propose a
+novel wavelength routing algorithm which tries to avoid the multicast incapable
+branching nodes (MIBs, branching nodes without splitting capability) in the
+shortest-path-based multicast tree to diminish the link stress. Good parts of
+the shortest-path-tree are retained by the algorithm to reduce the end-to-end
+delay. The algorithm consists of tree steps: (1) aDijkstraPro algorithmwith
+priority assignment and node adoption is introduced to produce a SPT with up to
+38% fewer MIB nodes in the NSF topology and 46% fewerMIB nodes in the USA
+Longhaul topology, (2) critical articulation and deepest branch heuristics are
+used to process the MIB nodes, (3) a distance-based light-tree reconnection
+algorithm is proposed to create the multicast light-trees. Extensive
+simulations demonstrate the algorithm's efficiency in terms of link stress and
+end-to-end delay.

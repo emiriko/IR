@@ -1,0 +1,16 @@
+We apply algorithms based on Lieb-Robinson bounds to simulate time-dependent
+and thermal quantities in quantum systems. For time-dependent systems, we
+modify a previous mapping to quantum circuits to significantly reduce the
+computer resources required. This modification is based on a principle of
+"observing" the system outside the light-cone. We apply this method to study
+spin relaxation in systems started out of equilibrium with initial conditions
+that give rise to very rapid entanglement growth. We also show that it is
+possible to approximate time evolution under a local Hamiltonian by a quantum
+circuit whose light-cone naturally matches the Lieb-Robinson velocity.
+Asymptotically, these modified methods allow a doubling of the system size that
+one can obtain compared to direct simulation. We then consider a different
+problem of thermal properties of disordered spin chains and use quantum belief
+propagation to average over different configurations. We test this algorithm on
+one dimensional systems with mixed ferromagnetic and anti-ferromagnetic bonds,
+where we can compare to quantum Monte Carlo, and then we apply it to the study
+of disordered, frustrated spin systems.

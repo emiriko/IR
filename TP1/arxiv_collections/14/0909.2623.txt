@@ -1,0 +1,13 @@
+A major problem of unstructured P2P systems is their heavy network traffic.
+This is caused mainly by high numbers of query answers, many of which are
+irrelevant for users. One solution to this problem is to use Top-k queries
+whereby the user can specify a limited number (k) of the most relevant answers.
+In this paper, we present FD, a (Fully Distributed) framework for executing
+Top-k queries in unstructured P2P systems, with the objective of reducing
+network traffic. FD consists of a family of algorithms that are simple but
+effec-tive. FD is completely distributed, does not depend on the existence of
+certain peers, and addresses the volatility of peers during query execution. We
+vali-dated FD through implementation over a 64-node cluster and simulation
+using the BRITE topology generator and SimJava. Our performance evaluation
+shows that FD can achieve major performance gains in terms of communication and
+response time.

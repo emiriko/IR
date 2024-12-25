@@ -1,0 +1,20 @@
+Let $(X_{n,i})_{1\le i\le n,n\in\mathbb{N}}$ be a triangular array of
+row-wise stationary $\mathbb{R}^d$-valued random variables. We use a "blocks
+method" to define clusters of extreme values: the rows of $(X_{n,i})$ are
+divided into $m_n$ blocks $(Y_{n,j})$, and if a block contains at least one
+extreme value, the block is considered to contain a cluster. The cluster starts
+at the first extreme value in the block and ends at the last one. The main
+results are uniform central limit theorems for empirical processes
+$Z_n(f):=\frac{1}{\sqrt {nv_n}}\sum_{j=1}^{m_n}(f(Y_{n,j})-Ef(Y_{n,j})),$ for
+$v_n=P\{X_{n,i}\neq0\}$ and $f$ belonging to classes of cluster functionals,
+that is, functions of the blocks $Y_{n,j}$ which only depend on the cluster
+values and which are equal to 0 if $Y_{n,j}$ does not contain a cluster.
+Conditions for finite-dimensional convergence include $\beta$-mixing, suitable
+Lindeberg conditions and convergence of covariances. To obtain full uniform
+convergence, we use either "bracketing entropy" or bounds on covering numbers
+with respect to a random semi-metric. The latter makes it possible to bring the
+powerful Vapnik--\v{C}ervonenkis theory to bear. Applications include
+multivariate tail empirical processes and empirical processes of cluster values
+and of order statistics in clusters. Although our main field of applications is
+the analysis of extreme values, the theory can be applied more generally to
+rare events occurring, for example, in nonparametric curve estimation.

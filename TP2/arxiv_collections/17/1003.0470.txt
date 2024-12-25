@@ -1,0 +1,9 @@
+Many popular linear classifiers, such as logistic regression, boosting, or
+SVM, are trained by optimizing a margin-based risk function. Traditionally,
+these risk functions are computed based on a labeled dataset. We develop a
+novel technique for estimating such risks using only unlabeled data and the
+marginal label distribution. We prove that the proposed risk estimator is
+consistent on high-dimensional datasets and demonstrate it on synthetic and
+real-world data. In particular, we show how the estimate is used for evaluating
+classifiers in transfer learning, and for training classifiers with no labeled
+data whatsoever.

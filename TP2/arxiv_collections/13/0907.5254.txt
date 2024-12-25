@@ -1,0 +1,15 @@
+We introduce a new method to propagate uncertainties in the beam shapes used
+to measure the cosmic microwave background to cosmological parameters
+determined from those measurements. The method, which we call Markov Chain Beam
+Randomization, MCBR, randomly samples from a set of templates or functions that
+describe the beam uncertainties. The method is much faster than direct
+numerical integration over systematic `nuisance' parameters, and is not
+restricted to simple, idealized cases as is analytic marginalization. It does
+not assume the data are normally distributed, and does not require Gaussian
+priors on the specific systematic uncertainties. We show that MCBR properly
+accounts for and provides the marginalized errors of the parameters. The method
+can be generalized and used to propagate any systematic uncertainties for which
+a set of templates is available. We apply the method to the Planck satellite,
+and consider future experiments. Beam measurement errors should have a small
+effect on cosmological parameters as long as the beam fitting is performed
+after removal of 1/f noise.

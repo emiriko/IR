@@ -1,0 +1,26 @@
+We consider a random system of equations $x_i+x_j=b_{(i,j)} (\text{mod }2)$,
+$(x_u\in \{0,1\},\, b_{(u,v)}=b_{(v,u)}\in\{0,1\})$, with the pairs $(i,j)$
+from $E$, a symmetric subset of $[n]\times [n]$. $E$ is chosen uniformly at
+random among all such subsets of a given cardinality $m$; alternatively
+$(i,j)\in E$ with a given probability $p$, independently of all other pairs.
+Also, given $E$, $\pr\{b_{e}=0\}=\pr\{b_e=1\}$ for each $e\in E$, independently
+of all other $b_{e^\prime}$. It is well known that, as $m$ passes through $n/2$
+($p$ passes through $1/n$, resp.), the underlying random graph
+$G(n,\#\text{edges}=m)$, ($G(n,\pr(\text{edge})=p)$, resp.) undergoes a rapid
+transition, from essentially a forest of many small trees to a graph with one
+large, multicyclic, component in a sea of small tree components. We should
+expect then that the solvability probability decreases precipitously in the
+vicinity of $m\sim n/2$ ($p\sim 1/n$), and indeed this probability is of order
+$(1-2m/n)^{1/4}$, for $m<n/2$ ($(1-pn)^{1/4}$, for $p<1/n$, resp.). We show
+that in a near-critical phase $m=(n/2)(1+\la n^{-1/3})$ ($p=(1+\la
+n^{-1/3})/n$, resp.), $\la=o(n^{1/12})$, the system is solvable with
+probability asymptotic to $c(\la)n^{-1/12}$, for some explicit function
+$c(\la)>0$. Mike Molloy noticed that the Boolean system with $b_e\equiv 1$ is
+solvable iff the underlying graph is $2$-colorable, and asked whether this
+connection might be used to determine an order of probability of
+$2$-colorability in the near-critical case. We answer Mike's question
+affirmatively and show that probability of $2$-colorability is $\lesssim
+2^{-1/4}e^{1/8}c(\lambda)n^{-1/12}$, and asymptotic to
+$2^{-1/4}e^{1/8}c(\la)n^{-1/12}$ at a critical phase $\la=O(1)$, and for
+$\la\to -\infty$. (Submitted to Electronic Journal of Combinatorics on
+September 7, 2009.)

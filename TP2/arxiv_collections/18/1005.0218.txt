@@ -1,0 +1,12 @@
+This paper defines a constraint-based model dedicated to multidimensional
+databases. The model we define represents data through a constellation of facts
+(subjects of analyse) associated to dimensions (axis of analyse), which are
+possibly shared. Each dimension is organised according to several hierarchies
+(views of analyse) integrating several levels of data granularity. In order to
+insure data consistency, we introduce 5 semantic constraints (exclusion,
+inclusion, partition, simultaneity, totality) which can be intra-dimension or
+inter-dimensions; the intra-dimension constraints allow the expression of
+constraints between hierarchies within a same dimension whereas the
+inter-dimensions constraints focus on hierarchies of distinct dimensions. We
+also study repercussions of these constraints on multidimensional manipulations
+and we provide extensions of the multidimensional operators.

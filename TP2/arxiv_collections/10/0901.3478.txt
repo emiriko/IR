@@ -1,0 +1,21 @@
+Gridded estimated rainfall intensity values at very high spatial and temporal
+resolution levels are needed as main inputs for weather prediction models to
+obtain accurate precipitation forecasts, and to verify the performance of
+precipitation forecast models. These gridded rainfall fields are also the main
+driver for hydrological models that forecast flash floods, and they are
+essential for disaster prediction associated with heavy rain. Rainfall
+information can be obtained from rain gages that provide relatively accurate
+estimates of the actual rainfall values at point-referenced locations, but they
+do not characterize well enough the spatial and temporal structure of the
+rainfall fields. Doppler radar data offer better spatial and temporal coverage,
+but Doppler radar measures effective radar reflectivity ($Ze$) rather than
+rainfall rate ($R$). Thus, rainfall estimates from radar data suffer from
+various uncertainties due to their measuring principle and the conversion from
+$Ze$ to $R$. We introduce a framework to combine radar reflectivity and gage
+data, by writing the different sources of rainfall information in terms of an
+underlying unobservable spatial temporal process with the true rainfall values.
+We use spatial logistic regression to model the probability of rain for both
+sources of data in terms of the latent true rainfall process. We characterize
+the different sources of bias and error in the gage and radar data and we
+estimate the true rainfall intensity with its posterior predictive
+distribution, conditioning on the observed data.

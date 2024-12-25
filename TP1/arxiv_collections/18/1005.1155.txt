@@ -1,0 +1,19 @@
+Optimal and suboptimal decentralized estimators in wireless sensor networks
+(WSNs) over orthogonal multiple-access fading channels are studied in this
+paper. Considering multiple-bit quantization before digital transmission, we
+develop maximum likelihood estimators (MLEs) with both known and unknown
+channel state information (CSI). When training symbols are available, we derive
+a MLE that is a special case of the MLE with unknown CSI. It implicitly uses
+the training symbols to estimate the channel coefficients and exploits the
+estimated CSI in an optimal way. To reduce the computational complexity, we
+propose suboptimal estimators. These estimators exploit both signal and data
+level redundant information to improve the estimation performance. The proposed
+MLEs reduce to traditional fusion based or diversity based estimators when
+communications or observations are perfect. By introducing a general message
+function, the proposed estimators can be applied when various analog or digital
+transmission schemes are used. The simulations show that the estimators using
+digital communications with multiple-bit quantization outperform the estimator
+using analog-and-forwarding transmission in fading channels. When considering
+the total bandwidth and energy constraints, the MLE using multiple-bit
+quantization is superior to that using binary quantization at medium and high
+observation signal-to-noise ratio levels.

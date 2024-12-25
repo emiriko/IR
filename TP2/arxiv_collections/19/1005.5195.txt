@@ -1,0 +1,13 @@
+We present a matrix product state (MPS) algorithm to approximate ground
+states of translationally invariant systems with periodic boundary conditions.
+For a fixed value of the bond dimension D of the MPS, we discuss how to
+minimize the computational cost to obtain a seemingly optimal MPS approximation
+to the ground state. In a chain of N sites and correlation length \xi, the
+computational cost formally scales as g(D,\xi /N)D^3, where g(D,\xi /N) is a
+nontrivial function. For \xi << N, this scaling reduces to D^3, independent of
+the system size N, making our algorithm N times faster than previous proposals.
+We apply the method to obtain MPS approximations for the ground states of the
+critical quantum Ising and Heisenberg spin-1/2 models as well as for the
+noncritical Heisenberg spin-1 model. In the critical case, for any chain length
+N, we find a model-dependent bond dimension D(N) above which the polynomial
+decay of correlations is faithfully reproduced throughout the entire system.

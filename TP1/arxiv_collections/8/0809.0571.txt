@@ -1,0 +1,8 @@
+We introduce a new update scheme to systematically improve the efficiency of
+parallel tempering simulations. We show that by adapting the number of sweeps
+between replica exchanges to the canonical autocorrelation time, the average
+round-trip time of a replica in temperature space can be significantly
+decreased. The temperatures are not dynamically adjusted as in previous
+attempts but chosen to yield a 50% exchange rate of adjacent replicas. We
+illustrate the new algorithm with results for the Ising model in two and the
+Edwards-Anderson Ising spin glass in three dimensions

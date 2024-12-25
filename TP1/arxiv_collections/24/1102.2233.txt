@@ -1,0 +1,13 @@
+A constrained L1 minimization method is proposed for estimating a sparse
+inverse covariance matrix based on a sample of $n$ iid $p$-variate random
+variables. The resulting estimator is shown to enjoy a number of desirable
+properties. In particular, it is shown that the rate of convergence between the
+estimator and the true $s$-sparse precision matrix under the spectral norm is
+$s\sqrt{\log p/n}$ when the population distribution has either exponential-type
+tails or polynomial-type tails. Convergence rates under the elementwise
+$L_{\infty}$ norm and Frobenius norm are also presented. In addition, graphical
+model selection is considered. The procedure is easily implementable by linear
+programming. Numerical performance of the estimator is investigated using both
+simulated and real data. In particular, the procedure is applied to analyze a
+breast cancer dataset. The procedure performs favorably in comparison to
+existing methods.

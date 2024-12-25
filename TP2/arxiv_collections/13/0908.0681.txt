@@ -1,0 +1,10 @@
+We present an implementation of the hybridization expansion impurity solver
+which employs sparse matrix exact-diagonalization techniques to compute the
+time evolution of the local Hamiltonian. This method avoids computationally
+expensive matrix-matrix multiplications and becomes advantageous over the
+conventional implementation for models with 5 or more orbitals. In particular,
+this method will allow the systematic investigation of 7-orbital systems
+(lanthanide and actinide compounds) within single-site dynamical mean field
+theory. We illustrate the power and usefulness of our approach with dynamical
+mean field results for a 5-orbital model which captures some aspects of the
+physics of the iron based superconductors.

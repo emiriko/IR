@@ -1,0 +1,8 @@
+The truncated Fourier transform (TFT) was introduced by van der Hoeven in
+2004 as a means of smoothing the "jumps" in running time of the ordinary FFT
+algorithm that occur at power-of-two input sizes. However, the TFT still
+introduces these jumps in memory usage. We describe in-place variants of the
+forward and inverse TFT algorithms, achieving time complexity O(n log n) with
+only O(1) auxiliary space. As an application, we extend the second author's
+results on space-restricted FFT-based polynomial multiplication to polynomials
+of arbitrary degree.

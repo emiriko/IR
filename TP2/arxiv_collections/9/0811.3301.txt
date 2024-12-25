@@ -1,0 +1,7 @@
+The Dynamic Time Warping (DTW) is a popular similarity measure between time
+series. The DTW fails to satisfy the triangle inequality and its computation
+requires quadratic time. Hence, to find closest neighbors quickly, we use
+bounding techniques. We can avoid most DTW computations with an inexpensive
+lower bound (LB Keogh). We compare LB Keogh with a tighter lower bound (LB
+Improved). We find that LB Improved-based search is faster. As an example, our
+approach is 2-3 times faster over random-walk and shape time series.

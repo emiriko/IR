@@ -1,0 +1,18 @@
+Several self-stabilizing time division multiple access (TDMA) algorithms are
+proposed for sensor networks. In addition to providing a collision-free
+communication service, such algorithms enable the transformation of programs
+written in abstract models considered in distributed computing literature into
+a model consistent with sensor networks, i.e., write all with collision (WAC)
+model. Existing TDMA slot assignment algorithms have one or more of the
+following properties: (i) compute slots using a randomized algorithm, (ii)
+assume that the topology is known upfront, and/or (iii) assign slots
+sequentially. If these algorithms are used to transform abstract programs into
+programs in WAC model then the transformed programs are probabilistically
+correct, do not allow the addition of new nodes, and/or converge in a
+sequential fashion. In this paper, we propose a self-stabilizing deterministic
+TDMA algorithm where a sensor is aware of only its neighbors. We show that the
+slots are assigned to the sensors in a concurrent fashion and starting from
+arbitrary initial states, the algorithm converges to states where
+collision-free communication among the sensors is restored. Moreover, this
+algorithm facilitates the transformation of abstract programs into programs in
+WAC model that are deterministically correct.

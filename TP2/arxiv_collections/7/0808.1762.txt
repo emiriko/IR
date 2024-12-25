@@ -1,0 +1,10 @@
+We call $F:\{0, 1\}^n\times \{0, 1\}^n\to\{0, 1\}$ a symmetric XOR function
+if for a function $S:\{0, 1, ..., n\}\to\{0, 1\}$, $F(x, y)=S(|x\oplus y|)$,
+for any $x, y\in\{0, 1\}^n$, where $|x\oplus y|$ is the Hamming weight of the
+bit-wise XOR of $x$ and $y$.
+  We show that for any such function, (a) the deterministic communication
+complexity is always $\Theta(n)$ except for four simple functions that have a
+constant complexity, and (b) up to a polylog factor, the error-bounded
+randomized and quantum communication complexities are $\Theta(r_0+r_1)$, where
+$r_0$ and $r_1$ are the minimum integers such that $r_0, r_1\leq n/2$ and
+$S(k)=S(k+2)$ for all $k\in[r_0, n-r_1)$.

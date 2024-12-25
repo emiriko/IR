@@ -1,0 +1,17 @@
+The Particle Flow Analysis (PFA) is currently under intense studies as the
+most promising way to achieve precision jet energy measurements required at the
+future linear $e^+e^-$ collider. In order to optimize detector configurations
+and to tune up the PFA it is crucial to identify factors that limit the PFA
+performance and clarify the fundamental limits on the jet energy resolution
+that remain even with the perfect PFA and an infinitely granular calorimeter.
+This necessitates a tool to connect each calorimeter hit in particle showers to
+its parent charged track, if any, and eventually all the way back to its
+corresponding primary particle, while identifying possible interactions and
+decays along the way. In order to realize this with a realistic memory space,
+we have developed a set of C++ classes that facilitates history keeping of
+particle tracks within the framework of Geant4. This software tool, hereafter
+called J4HistoryKeeper, comes in handy in particular when one needs to stop
+this history keeping for memory space economy at multiple geometrical
+boundaries beyond which a particle shower is expected to start. In this paper
+this software tool is described and applied to a generic detector model to
+demonstrate its functionality.

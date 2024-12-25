@@ -1,0 +1,9 @@
+We describe a structured system for distributed mechanism design. It consists
+of a sequence of layers. The lower layers deal with the operations relevant for
+distributed computing only, while the upper layers are concerned only with
+communication among players, including broadcasting and multicasting, and
+distributed decision making. This yields a highly flexible distributed system
+whose specific applications are realized as instances of its top layer.
+  This design supports fault-tolerance, prevents manipulations and makes it
+possible to implement distributed policing. The system is implemented in Java.
+We illustrate it by discussing a number of implemented examples.

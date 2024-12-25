@@ -1,0 +1,13 @@
+An implementation of the fast multiple method (FMM) is performed for magnetic
+systems with long-ranged dipolar interactions. Expansion in spherical harmonics
+of the original FMM is replaced by expansion of polynomials in Cartesian
+coordinates, which is considerably simpler. Under open boundary conditions, an
+expression for multipole moments of point dipoles in a cell is derived. These
+make the program appropriate for nanomagnetic simulations, including magnetic
+nanoparticles and ferrofluids. The performance is optimized in terms of cell
+size and parameter set (expansion order and opening angle) and the trade off
+between computing time and accuracy is quantitatively studied. A rule of thumb
+is proposed to decide the appropriate average number of dipoles in the smallest
+cells, and an optimal choice of parameter set is suggested. Finally, the
+superiority of Cartesian coordinate FMM is demonstrated by comparison to
+spherical harmonics FMM and FFT.

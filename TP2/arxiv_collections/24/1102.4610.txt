@@ -1,0 +1,20 @@
+While considerable advance has been made to account for statistical
+uncertainties in astronomical analyses, systematic instrumental uncertainties
+have been generally ignored. This can be crucial to a proper interpretation of
+analysis results because instrumental calibration uncertainty is a form of
+systematic uncertainty. Ignoring it can underestimate error bars and introduce
+bias into the fitted values of model parameters. Accounting for such
+uncertainties currently requires extensive case-specific simulations if using
+existing analysis packages. Here we present general statistical methods that
+incorporate calibration uncertainties into spectral analysis of high-energy
+data. We first present a method based on multiple imputation that can be
+applied with any fitting method, but is necessarily approximate. We then
+describe a more exact Bayesian approach that works in conjunction with a Markov
+chain Monte Carlo based fitting. We explore methods for improving computational
+efficiency, and in particular detail a method of summarizing calibration
+uncertainties with a principal component analysis of samples of plausible
+calibration files. This method is implemented using recently codified Chandra
+effective area uncertainties for low-resolution spectral analysis and is
+verified using both simulated and actual Chandra data. Our procedure for
+incorporating effective area uncertainty is easily generalized to other types
+of calibration uncertainties.

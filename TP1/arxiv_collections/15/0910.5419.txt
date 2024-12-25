@@ -1,0 +1,10 @@
+This paper describes a hybrid system for WSD, presented to the English
+all-words and lexical-sample tasks, that relies on two different unsupervised
+approaches. The first one selects the senses according to mutual information
+proximity between a context word a variant of the sense. The second heuristic
+analyzes the examples of use in the glosses of the senses so that simple
+syntactic patterns are inferred. This patterns are matched against the
+disambiguation contexts. We show that the first heuristic obtains a precision
+and recall of .58 and .35 respectively in the all words task while the second
+obtains .80 and .25. The high precision obtained recommends deeper research of
+the techniques. Results for the lexical sample task are also provided.

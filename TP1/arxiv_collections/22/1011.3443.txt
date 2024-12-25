@@ -1,0 +1,14 @@
+We introduce and analyze a spectral vanishing viscosity approximation of
+periodic fractional conservation laws. The fractional part of these equations
+can be a fractional Laplacian or other non-local operators that are generators
+of pure jump L\'{e}vy processes. To accommodate for shock solutions, we first
+extend to the periodic setting the Kru\v{z}kov-Alibaud entropy formulation and
+prove well-posedness. Then we introduce the numerical method, which is a
+non-linear Fourier Galerkin method with an additional spectral viscosity term.
+This type of approximation was first introduced by Tadmor for pure conservation
+laws. We prove that this {\em non-monotone} method converges to the entropy
+solution of the problem, that it retains the spectral accuracy of the Fourier
+method, and that it diagonalizes the fractional term reducing dramatically the
+computational cost induced by this term. We also derive a robust $L^1$-error
+estimate, and provide numerical experiments for the fractional Burgers'
+equation.

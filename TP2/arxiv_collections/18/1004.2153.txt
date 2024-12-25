@@ -1,0 +1,21 @@
+In many applications expectation values are calculated by partitioning a
+single experimental time series into an ensemble of data segments of equal
+length. Such single trajectory ensemble (STE) is a counterpart to a multiple
+trajectory ensemble (MTE) used whenever independent measurements or
+realizations of a stochastic process are available. The equivalence of STE and
+MTE for stationary systems was postulated by Wang and Uhlenbeck in their
+classic paper on Brownian motion (Rev. Mod. Phys. 17, 323 (1945)) but
+surprisingly has not yet been proved. Using the stationary and ergodic paradigm
+of statistical physics -- the Ornstein-Uhlenbeck (OU) Langevin equation, we
+revisit Wang and Uhlenbeck's postulate. In particular, we find that the
+variance of the solution of this equation is different for these two ensembles.
+While the variance calculated using the MTE quantifies the spreading of
+independent trajectories originating from the same initial point, the variance
+for STE measures the spreading of two correlated random walkers. Thus, STE and
+MTE refer to two completely different dynamical processes. Guided by this
+interpretation, we introduce a novel algorithm of partitioning a single
+trajectory into a phenomenological ensemble, which we name a threshold
+trajectory ensemble (TTE), that for an ergodic system is equivalent to MTE. We
+find that in the cohort of healthy volunteers, the ratio of STE and TTE
+asymptotic variances of stage 4 sleep electroencephalogram is equal to 1.96 \pm
+0.04 which is in agreement with the theoretically predicted value of 2.

@@ -1,0 +1,16 @@
+Video fusion is a process that combines visual data from different sensors to
+obtain a single composite video preserving the information of the sources. The
+availability of a system, enhancing human ability to perceive the observed
+scenario, is crucial to improve the performance of a surveillance system. The
+infrared (IR) camera captures thermal image of object in night-time
+environment, when only limited visual information can be captured by RGB
+camera. The fusion of data recorded by an IR sensor and a visible RGB camera
+can produce information otherwise not obtainable by viewing the sensor outputs
+separately. In this paper we consider the problem of fusing two video streams
+acquired by an RGB camera and an IR sensor. The pedestrians, distinctly
+captured by IR video, are separated and fused with the RGB video. The
+algorithms implemented involve estimation of the background, followed by
+detection of object from the IR Video, after necessary denoising. Finally a
+suitable fusion algorithm is employed to combine the extracted pedestrians with
+the visual output. The obtained results clearly demonstrate the effectiveness
+of the proposed video fusion scheme, for night vision.

@@ -1,0 +1,17 @@
+In this article, we propose an automatic process to build multi-lingual
+lexico-semantic resources. The goal of these resources is to browse
+semantically textual information contained in texts of different languages.
+This method uses a mathematical model called Atlas s\'emantiques in order to
+represent the different senses of each word. It uses the linguistic relations
+between words to create graphs that are projected into a semantic space. These
+projections constitute semantic maps that denote the sense trends of each given
+word. This model is fed with syntactic relations between words extracted from a
+corpus. Therefore, the lexico-semantic resource produced describes all the
+words and all their meanings observed in the corpus. The sense trends are
+expressed by syntactic contexts, typical for a given meaning. The link between
+each sense trend and the utterances used to build the sense trend are also
+stored in an index. Thus all the instances of a word in a particular sense are
+linked and can be browsed easily. And by using several corpora of different
+languages, several resources are built that correspond with each other through
+languages. It makes it possible to browse information through languages thanks
+to syntactic contexts translations (even if some of them are partial).

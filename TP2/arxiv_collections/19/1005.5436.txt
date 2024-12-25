@@ -1,0 +1,12 @@
+In this paper, we propose an efficient client-to-client streaming approach to
+cooperatively stream the video using chaining technique with unicast
+communication among the clients. This approach considers two major issues of
+VoD 1) Prefix caching scheme to accommodate more number of videos closer to
+client, so that the request-service delay for the user can be minimized. 2)
+Cooperative proxy and client chaining scheme for streaming the videos using
+unicasting. This approach minimizes the client rejection rate and bandwidth
+requirement on server to proxy and proxy to client path. Our simulation results
+show that the proposed approach achieves reduced client waiting time and
+optimal prefix caching of videos minimizing server to proxy path bandwidth
+usage by utilizing the client to client bandwidth, which is occasionally used
+when compared to busy server to proxy path bandwidth.

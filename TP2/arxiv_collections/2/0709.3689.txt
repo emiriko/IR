@@ -1,0 +1,14 @@
+It is very common to use dynamic methods to detect deadlocks in MPI programs
+for the reason that static methods have some restrictions. To guarantee high
+reliability of some important MPI-based application software, a model of MPI
+synchronization communication is abstracted and a type of static method is
+devised to examine deadlocks in such modes. The model has three forms with
+different complexity: sequential model, single-loop model and nested-loop
+model. Sequential model is a base for all models. Single-loop model must be
+treated with a special type of equation group and nested-loop model extends the
+methods for the other two models. A standard Java-based software framework
+originated from these methods is constructed for determining whether MPI
+programs are free from synchronization communication deadlocks. Our practice
+shows the software framework is better than those tools using dynamic methods
+because it can dig out all synchronization communication deadlocks before an
+MPI-based program goes into running.

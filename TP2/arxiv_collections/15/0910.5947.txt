@@ -1,0 +1,14 @@
+Topological methods, including persistent homology, are powerful tools for
+analysis of high-dimensional data sets but these methods rely almost
+exclusively on thresholding techniques. In noisy data sets, thresholding does
+not always allow for the recovery of topological information. We present an
+easy to implement, computationally efficient pre-processing algorithm to
+prepare noisy point cloud data sets for topological data analysis. The
+topological de-noising algorithm allows for the recovery of topological
+information that is inaccessible by thresholding methods. We apply the
+algorithm to synthetically-generated noisy data sets and show the recovery of
+topological information which is impossible to obtain by thresholding. We also
+apply the algorithm to natural image data in R^8 and show a very clean recovery
+of topological information previously only available with large amounts of
+thresholding. Finally, we discuss future directions for improving this
+algorithm using zig-zag persistence methods.

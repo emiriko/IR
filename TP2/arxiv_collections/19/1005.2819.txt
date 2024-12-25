@@ -1,0 +1,13 @@
+The importance of stochasticity within biological systems has been shown
+repeatedly during the last years and has raised the need for efficient
+stochastic tools. We present SABRE, a tool for stochastic analysis of
+biochemical reaction networks. SABRE implements fast adaptive uniformization
+(FAU), a direct numerical approximation algorithm for computing transient
+solutions of biochemical reaction networks. Biochemical reactions networks
+represent biological systems studied at a molecular level and these reactions
+can be modeled as transitions of a Markov chain. SABRE accepts as input the
+formalism of guarded commands, which it interprets either as continuous-time or
+as discrete-time Markov chains. Besides operating in a stochastic mode, SABRE
+may also perform a deterministic analysis by directly computing a mean-field
+approximation of the system under study. We illustrate the different
+functionalities of SABRE by means of biological case studies.

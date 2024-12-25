@@ -1,0 +1,16 @@
+We present dichotomy theorems regarding the computational complexity of
+counting fixed points in boolean (discrete) dynamical systems, i.e., finite
+discrete dynamical systems over the domain {0,1}. For a class F of boolean
+functions and a class G of graphs, an (F,G)-system is a boolean dynamical
+system with local transitions functions lying in F and graphs in G. We show
+that, if local transition functions are given by lookup tables, then the
+following complexity classification holds: Let F be a class of boolean
+functions closed under superposition and let G be a graph class closed under
+taking minors. If F contains all min-functions, all max-functions, or all
+self-dual and monotone functions, and G contains all planar graphs, then it is
+#P-complete to compute the number of fixed points in an (F,G)-system; otherwise
+it is computable in polynomial time. We also prove a dichotomy theorem for the
+case that local transition functions are given by formulas (over logical
+bases). This theorem has a significantly more complicated structure than the
+theorem for lookup tables. A corresponding theorem for boolean circuits
+coincides with the theorem for formulas.

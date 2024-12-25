@@ -1,0 +1,24 @@
+Both cellular automata (CA) and lattice-gas automata (LG) provide finite
+algorithmic presentations for certain classes of infinite dynamical systems
+studied by symbolic dynamics; it is customary to use the term `cellular
+automaton' or `lattice gas' for the dynamic system itself as well as for its
+presentation. The two kinds of presentation share many traits but also display
+profound differences on issues ranging from decidability to modeling
+convenience and physical implementability.
+  Following a conjecture by Toffoli and Margolus, it had been proved by Kari
+(and by Durand--Lose for more than two dimensions) that any invertible CA can
+be rewritten as an LG (with a possibly much more complex ``unit cell''). But
+until now it was not known whether this is possible in general for
+noninvertible CA--which comprise ``almost all'' CA and represent the bulk of
+examples in theory and applications. Even circumstantial evidence--whether in
+favor or against--was lacking.
+  Here, for noninvertible CA, (a) we prove that an LG presentation is out of
+the question for the vanishingly small class of surjective ones. We then turn
+our attention to all the rest--noninvertible and nonsurjective--which comprise
+all the typical ones, including Conway's `Game of Life'. For these (b) we prove
+by explicit construction that all the one-dimensional ones are representable as
+LG, and (c) we present and motivate the conjecture that this result extends to
+any number of dimensions.
+  The tradeoff between dissipation rate and structural complexity implied by
+the above results have compelling implications for the thermodynamics of
+computation at a microscopic scale.

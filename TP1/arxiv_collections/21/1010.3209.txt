@@ -1,0 +1,9 @@
+The Durham adaptive optics real-time controller was initially a proof of
+concept design for a generic adaptive optics control system. It has since been
+developed into a modern and powerful CPU based real-time control system,
+capable of using hardware acceleration (including FPGAs and GPUs), based
+primarily around commercial off the shelf hardware. It is powerful enough to be
+used as the real-time controller for all currently planned 8~m class telescope
+adaptive optics systems. Here we give details of this controller and the
+concepts behind it, and report on performance including latency and jitter,
+which is less than 10~$\mu$s for small adaptive optics systems.

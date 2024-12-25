@@ -1,0 +1,22 @@
+As a generic model system of an asymmetric binary fluid mixture, hexadecane
+dissolved in carbon dioxide is considered, using a coarse-grained bead-spring
+model for the short polymer, and a simple spherical particle with Lennard-Jones
+interactions for the carbon dioxide molecules. In previous work, it has been
+shown that this model reproduces the real phase diagram reasonable well, and
+also the initial stages of spinodal decomposition in the bulk following a
+sudden expansion of the system could be studied. Using the parallelized
+simulation package ESPResSo on a multiprocessor supercomputer, phase separation
+of thin fluid films confined between parallel walls that are repulsive for both
+types of molecules are simulated in a rather large system (1356 x 1356 x 67.8
+A^3, corresponding to about 3.2 million atoms). Following the sudden system
+expansion, a complicated interplay between phase separation in the directions
+perpendicular and parallel to the walls is found: in the early stages the
+hexadecane molecules accumulate mostly in the center of the slit pore, but as
+the coarsening of the structure in the parallel direction proceeds, the
+inhomogeneity in the perpendicular direction gets much reduced. Studying then
+the structure factors and correlation functions at fixed distances from the
+wall, the densities are essentially not conserved at these distances, and hence
+the behavior differs strongly from spinodal decomposition in the bulk. Some of
+the characteristic lengths show a nonmonotonic variation with time, and simple
+coarsening described by power-law growth is only observed if the domain sizes
+are much larger than the film thickness.

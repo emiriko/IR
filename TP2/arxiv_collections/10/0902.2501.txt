@@ -1,0 +1,16 @@
+We consider the problem of self-healing in peer-to-peer networks that are
+under repeated attack by an omniscient adversary. We assume that, over a
+sequence of rounds, an adversary either inserts a node with arbitrary
+connections or deletes an arbitrary node from the network. The network responds
+to each such change by quick "repairs," which consist of adding or deleting a
+small number of edges.
+  These repairs essentially preserve closeness of nodes after adversarial
+deletions, without increasing node degrees by too much, in the following sense.
+At any point in the algorithm, nodes $v$ and $w$ whose distance would have been
+$\ell$ in the graph formed by considering only the adversarial insertions (not
+the adversarial deletions), will be at distance at most $\ell \log n$ in the
+actual graph, where $n$ is the total number of vertices seen so far. Similarly,
+at any point, a node $v$ whose degree would have been $d$ in the graph with
+adversarial insertions only, will have degree at most 3d in the actual graph.
+Our algorithm is completely distributed and has low latency and bandwidth
+requirements.

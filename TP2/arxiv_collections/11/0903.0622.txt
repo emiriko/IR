@@ -1,0 +1,24 @@
+Our aim is to present a fast and general Bayesian inference framework based
+on the synergy between machine learning techniques and standard sampling
+methods and apply it to infer the physical properties of clumpy dusty torus
+using infrared photometric high spatial resolution observations of active
+galactic nuclei. We make use of the Metropolis-Hastings Markov Chain Monte
+Carlo algorithm for sampling the posterior distribution function. Such
+distribution results from combining all a-priori knowledge about the parameters
+of the model and the information introduced by the observations. The main
+difficulty resides in the fact that the model used to explain the observations
+is computationally demanding and the sampling is very time consuming. For this
+reason, we apply a set of artificial neural networks that are used to
+approximate and interpolate a database of models. As a consequence, models not
+present in the original database can be computed ensuring continuity. We focus
+on the application of this solution scheme to the recently developed public
+database of clumpy dusty torus models. The machine learning scheme used in this
+paper allows us to generate any model from the database using only a factor
+10^-4 of the original size of the database and a factor 10^-3 in computing
+time. The posterior distribution obtained for each model parameter allows us to
+investigate how the observations constrain the parameters and which ones remain
+partially or completely undetermined, providing statistically relevant
+confidence intervals. As an example, the application to the nuclear region of
+Centaurus A shows that the optical depth of the clouds, the total number of
+clouds and the radial extent of the cloud distribution zone are well
+constrained using only 6 filters.

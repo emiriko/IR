@@ -1,0 +1,21 @@
+We study distributed optimization in networked systems, where nodes cooperate
+to find the optimal quantity of common interest, x=x^\star. The objective
+function of the corresponding optimization problem is the sum of private (known
+only by a node,) convex, nodes' objectives and each node imposes a private
+convex constraint on the allowed values of x. We solve this problem for generic
+connected network topologies with asymmetric random link failures with a novel
+distributed, decentralized algorithm. We refer to this algorithm as AL-G
+(augmented Lagrangian gossiping,) and to its variants as AL-MG (augmented
+Lagrangian multi neighbor gossiping) and AL-BG (augmented Lagrangian broadcast
+gossiping.) The AL-G algorithm is based on the augmented Lagrangian dual
+function. Dual variables are updated by the standard method of multipliers, at
+a slow time scale. To update the primal variables, we propose a novel,
+Gauss-Seidel type, randomized algorithm, at a fast time scale. AL-G uses
+unidirectional gossip communication, only between immediate neighbors in the
+network and is resilient to random link failures. For networks with reliable
+communication (i.e., no failures,) the simplified, AL-BG (augmented Lagrangian
+broadcast gossiping) algorithm reduces communication, computation and data
+storage cost. We prove convergence for all proposed algorithms and demonstrate
+by simulations the effectiveness on two applications: l_1-regularized logistic
+regression for classification and cooperative spectrum sensing for cognitive
+radio networks.

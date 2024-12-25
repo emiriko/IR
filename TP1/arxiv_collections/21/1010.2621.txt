@@ -1,0 +1,13 @@
+Tardos codes are currently the state-of-the-art in the design of practical
+collusion-resistant fingerprinting codes. Tardos codes rely on a secret vector
+drawn from a publicly known probability distribution in order to generate each
+Buyer's fingerprint. For security purposes, this secret vector must not be
+revealed to the Buyers. To prevent an untrustworthy Provider forging a copy of
+a Work with an innocent Buyer's fingerprint, previous asymmetric fingerprinting
+algorithms enforce the idea of the Buyers generating their own fingerprint.
+Applying this concept to Tardos codes is challenging since the fingerprint must
+be based on this vector secret.
+  This paper provides the first solution for an asymmetric fingerprinting
+protocol dedicated to Tardos codes. The motivations come from a new attack, in
+which an untrustworthy Provider by modifying his secret vector frames an
+innocent Buyer.

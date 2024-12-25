@@ -1,0 +1,9 @@
+We consider five different peer-to-peer file sharing systems with two chunks,
+with the aim of finding chunk selection algorithms that have provably stable
+performance with any input rate and assuming non-altruistic peers who leave the
+system immediately after downloading the second chunk. We show that many
+algorithms that first looked promising lead to unstable or oscillating
+behavior. However, we end up with a system with desirable properties. Most of
+our rigorous results concern the corresponding deterministic large system
+limits, but in two simplest cases we provide proofs for the stochastic systems
+also.

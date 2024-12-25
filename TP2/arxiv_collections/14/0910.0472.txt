@@ -1,0 +1,19 @@
+We consider a problem in random matrix theory that is inspired by quantum
+information theory: determining the largest eigenvalue of a sum of p random
+product states in (C^d)^{otimes k}, where k and p/d^k are fixed while d grows.
+When k=1, the Marcenko-Pastur law determines (up to small corrections) not only
+the largest eigenvalue ((1+sqrt{p/d^k})^2) but the smallest eigenvalue
+(min(0,1-sqrt{p/d^k})^2) and the spectral density in between. We use the method
+of moments to show that for k>1 the largest eigenvalue is still approximately
+(1+sqrt{p/d^k})^2 and the spectral density approaches that of the
+Marcenko-Pastur law, generalizing the random matrix theory result to the random
+tensor case. Our bound on the largest eigenvalue has implications both for
+sampling from a particular heavy-tailed distribution and for a recently
+proposed quantum data-hiding and correlation-locking scheme due to Leung and
+Winter. Since the matrices we consider have neither independent entries nor
+unitary invariance, we need to develop new techniques for their analysis. The
+main contribution of this paper is to give three different methods for
+analyzing mixtures of random product states: a diagrammatic approach based on
+Gaussian integrals, a combinatorial method that looks at the cycle
+decompositions of permutations and a recursive method that uses a variant of
+the Schwinger-Dyson equations.

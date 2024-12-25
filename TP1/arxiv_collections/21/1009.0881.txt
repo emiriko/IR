@@ -1,0 +1,12 @@
+Nonnegative Matrix Factorization (NMF) is the problem of approximating a
+nonnegative matrix with the product of two low-rank nonnegative matrices and
+has been shown to be particularly useful in many applications, e.g., in text
+mining, image processing, computational biology, etc. In this paper, we explain
+how algorithms for NMF can be embedded into the framework of multilevel methods
+in order to accelerate their convergence. This technique can be applied in
+situations where data admit a good approximate representation in a lower
+dimensional space through linear transformations preserving nonnegativity. A
+simple multilevel strategy is described and is experimentally shown to speed up
+significantly three popular NMF algorithms (alternating nonnegative least
+squares, multiplicative updates and hierarchical alternating least squares) on
+several standard image datasets.

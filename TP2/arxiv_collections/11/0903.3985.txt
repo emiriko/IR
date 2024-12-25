@@ -1,0 +1,10 @@
+We present MonteCUBES ("Monte Carlo Utility Based Experiment Simulator"), a
+software package designed to sample the neutrino oscillation parameter space
+through Markov Chain Monte Carlo algorithms. MonteCUBES makes use of the GLoBES
+software so that the existing experiment definitions for GLoBES, describing
+long baseline and reactor experiments, can be used with MonteCUBES. MonteCUBES
+consists of two main parts: The first is a C library, written as a plug-in for
+GLoBES, implementing the Markov Chain Monte Carlo algorithm to sample the
+parameter space. The second part is a user-friendly graphical Matlab interface
+to easily read, analyze, plot and export the results of the parameter space
+sampling.

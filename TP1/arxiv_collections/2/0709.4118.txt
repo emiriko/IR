@@ -1,0 +1,19 @@
+A number of algorithms for computing the simulation preorder are available.
+Let Sigma denote the state space, -> the transition relation and Psim the
+partition of Sigma induced by simulation equivalence. The algorithms by
+Henzinger, Henzinger, Kopke and by Bloom and Paige run in O(|Sigma||->|)-time
+and, as far as time-complexity is concerned, they are the best available
+algorithms. However, these algorithms have the drawback of a space complexity
+that is more than quadratic in the size of the state space. The algorithm by
+Gentilini, Piazza, Policriti--subsequently corrected by van Glabbeek and
+Ploeger--appears to provide the best compromise between time and space
+complexity. Gentilini et al.'s algorithm runs in O(|Psim|^2|->|)-time while the
+space complexity is in O(|Psim|^2 + |Sigma|log|Psim|). We present here a new
+efficient simulation algorithm that is obtained as a modification of Henzinger
+et al.'s algorithm and whose correctness is based on some techniques used in
+applications of abstract interpretation to model checking. Our algorithm runs
+in O(|Psim||->|)-time and O(|Psim||Sigma|log|Sigma|)-space. Thus, this
+algorithm improves the best known time bound while retaining an acceptable
+space complexity that is in general less than quadratic in the size of the
+state space. An experimental evaluation showed good comparative results with
+respect to Henzinger, Henzinger and Kopke's algorithm.

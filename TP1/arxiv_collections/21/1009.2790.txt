@@ -1,0 +1,10 @@
+A provably correct bijection between higher-order abstract syntax (HOAS) and
+the natural numbers enables one to define a "not equals" relationship between
+terms and also to have an adequate encoding of sets of terms, and maps from one
+term family to another. Sets and maps are useful in many situations and are
+preferably provided in a library of some sort. I have released a map and set
+library for use with Twelf which can be used with any type for which a
+bijection to the natural numbers exists.
+  Since creating such bijections is tedious and error-prone, I have created a
+"bijection generator" that generates such bijections automatically together
+with proofs of correctness, all in the context of Twelf.

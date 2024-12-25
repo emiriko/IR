@@ -1,0 +1,17 @@
+One of the strongest techniques available for showing lower bounds on quantum
+communication complexity is the logarithm of the approximation rank of the
+communication matrix--the minimum rank of a matrix which is entrywise close to
+the communication matrix. This technique has two main drawbacks: it is
+difficult to compute, and it is not known to lower bound quantum communication
+complexity with entanglement.
+  Linial and Shraibman recently introduced a norm, called gamma_2^{alpha}, to
+quantum communication complexity, showing that it can be used to lower bound
+communication with entanglement. Here the parameter alpha is a measure of
+approximation which is related to the allowable error probability of the
+protocol. This bound can be written as a semidefinite program and gives bounds
+at least as large as many techniques in the literature, although it is smaller
+than the corresponding alpha-approximation rank, rk_alpha. We show that in fact
+log gamma_2^{alpha}(A)$ and log rk_{alpha}(A)$ agree up to small factors. As
+corollaries we obtain a constant factor polynomial time approximation algorithm
+to the logarithm of approximate rank, and that the logarithm of approximation
+rank is a lower bound for quantum communication complexity with entanglement.

@@ -1,0 +1,13 @@
+Linear exact modeling is a problem coming from system identification: Given a
+set of observed trajectories, the goal is find a model (usually, a system of
+partial differential and/or difference equations) that explains the data as
+precisely as possible. The case of operators with constant coefficients is well
+studied and known in the systems theoretic literature, whereas the operators
+with varying coefficients were addressed only recently. This question can be
+tackled either using Gr\"obner bases for modules over Ore algebras or by
+following the ideas from differential algebra and computing in commutative
+rings. In this paper, we present algorithmic methods to compute "most powerful
+unfalsified models" (MPUM) and their counterparts with variable coefficients
+(VMPUM) for polynomial and polynomial-exponential signals. We also study the
+structural properties of the resulting models, discuss computer algebraic
+techniques behind algorithms and provide several examples.

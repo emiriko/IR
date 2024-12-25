@@ -1,0 +1,15 @@
+In this paper, we propose an approach to controller synthesis for a class of
+constrained nonlinear systems. It is based on the use of a hybridization, that
+is a hybrid abstraction of the nonlinear dynamics. This abstraction is defined
+on a triangulation of the state-space where on each simplex of the
+triangulation, the nonlinear dynamics is conservatively approximated by an
+affine system subject to disturbances. Except for the disturbances, this
+hybridization can be seen as a piecewise affine hybrid system on simplices for
+which appealing control synthesis techniques have been developed in the past
+decade. We extend these techniques to handle systems subject to disturbances by
+synthesizing and coordinating local robust affine controllers defined on the
+simplices of the triangulation. We show that the resulting hybrid controller
+can be used to control successfully the original constrained nonlinear system.
+Our approach, though conservative, can be fully automated and is
+computationally tractable. To show its effectiveness in practical applications,
+we apply our method to control a pendulum mounted on a cart.

@@ -1,0 +1,17 @@
+Simple finite differencing of the anisotropic diffusion equation, where
+diffusion is only along a given direction, does not ensure that the numerically
+calculated heat fluxes are in the correct direction. This can lead to negative
+temperatures for the anisotropic thermal diffusion equation. In a previous
+paper we proposed a monotonicity-preserving explicit method which uses limiters
+(analogous to those used in the solution of hyperbolic equations) to
+interpolate the temperature gradients at cell faces. However, being explicit,
+this method was limited by a restrictive Courant-Friedrichs-Lewy (CFL)
+stability timestep. Here we propose a fast, conservative, directionally-split,
+semi-implicit method which is second order accurate in space, is stable for
+large timesteps, and is easy to implement in parallel. Although not strictly
+monotonicity-preserving, our method gives only small amplitude temperature
+oscillations at large temperature gradients, and the oscillations are damped in
+time. With numerical experiments we show that our semi-implicit method can
+achieve large speed-ups compared to the explicit method, without seriously
+violating the monotonicity constraint. This method can also be applied to
+isotropic diffusion, both on regular and distorted meshes.

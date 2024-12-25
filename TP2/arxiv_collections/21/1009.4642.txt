@@ -1,0 +1,17 @@
+While sharing resources the efficiency is substantially degraded as a result
+of the scarceness of availability of the requested resources in a multiclient
+support manner. These resources are often aggravated by many factors like the
+temporal constraints for availability or node flooding by the requested
+replicated file chunks. Thus replicated file chunks should be efficiently
+disseminated in order to enable resource availability on-demand by the mobile
+users. This work considers a cross layered middleware support system for
+efficient delay-sensitive streaming by using each device's connectivity and
+social interactions in a cross layered manner. The collaborative streaming is
+achieved through the epidemically replicated file chunk policy which uses a
+transition-based approach of a chained model of an infectious disease with
+susceptible, infected, recovered and death states. The Gossip-based stateful
+model enforces the mobile nodes whether to host a file chunk or not or, when no
+longer a chunk is needed, to purge it. The proposed model is thoroughly
+evaluated through experimental simulation taking measures for the effective
+throughput Eff as a function of the packet loss parameter in contrast with the
+effectiveness of the replication Gossip-based policy.

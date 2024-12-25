@@ -1,0 +1,18 @@
+Bargaining networks model the behavior of a set of players that need to reach
+pairwise agreements for making profits. Nash bargaining solutions are special
+outcomes of such games that are both stable and balanced. Kleinberg and Tardos
+proved a sharp algorithmic characterization of such outcomes, but left open the
+problem of how the actual bargaining process converges to them. A partial
+answer was provided by Azar et al. who proposed a distributed algorithm for
+constructing Nash bargaining solutions, but without polynomial bounds on its
+convergence rate. In this paper, we introduce a simple and natural model for
+this process, and study its convergence rate to Nash bargaining solutions. At
+each time step, each player proposes a deal to each of her neighbors. The
+proposal consists of a share of the potential profit in case of agreement. The
+share is chosen to be balanced in Nash's sense as far as this is feasible (with
+respect to the current best alternatives for both players). We prove that,
+whenever the Nash bargaining solution is unique (and satisfies a positive gap
+condition) this dynamics converges to it in polynomial time. Our analysis is
+based on an approximate decoupling phenomenon between the dynamics on different
+substructures of the network. This approach may be of general interest for the
+analysis of local algorithms on networks.

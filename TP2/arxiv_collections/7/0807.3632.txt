@@ -1,0 +1,19 @@
+Random walk based distributed algorithms make use of a token that circulates
+in the system according to a random walk scheme to achieve their goal. To study
+their efficiency and compare it to one of the deterministic solutions, one is
+led to compute certain quantities, namely the hitting times and the cover time.
+Until now, only bounds on these quantities were defined. First, this paper
+presents two generalizations of the notions of hitting and cover times to
+weighted graphs. Indeed, the properties of random walks on symmetrically
+weighted graphs provide interesting results on random walk based distributed
+algorithms, such as local load balancing. Both of these generalization are
+proposed to precisely represent the behaviour of these algorithms, and to take
+into account what the weights represent. Then, we propose an algorithm to
+compute the n^2 hitting times on a weighted graph of n vertices, which we
+improve to obtain a O(n^3) complexity. This complexity is the lowest up to now.
+This algorithm computes both of the generalizations that we propose for the
+hitting times on a weighted graph. Finally, we provide the first algorithm to
+compute the cover time (in both senses) of a graph. We improve it to achieve a
+complexity of O(n^3 2^n). The algorithms that we present are all robust to a
+topological change in a limited number of edges. This property allows us to use
+them on dynamic graphs.

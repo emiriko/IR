@@ -1,0 +1,18 @@
+We consider a communication method, where the sender encodes n classical bits
+into 1 qubit and sends it to the receiver who performs a certain measurement
+depending on which of the initial bits must be recovered. This procedure is
+called (n,1,p) quantum random access code (QRAC) where p > 1/2 is its success
+probability. It is known that (2,1,0.85) and (3,1,0.79) QRACs (with no
+classical counterparts) exist and that (4,1,p) QRAC with p > 1/2 is not
+possible.
+  We extend this model with shared randomness (SR) that is accessible to both
+parties. Then (n,1,p) QRAC with SR and p > 1/2 exists for any n > 0. We give an
+upper bound on its success probability (the known (2,1,0.85) and (3,1,0.79)
+QRACs match this upper bound). We discuss some particular constructions for
+several small values of n.
+  We also study the classical counterpart of this model where n bits are
+encoded into 1 bit instead of 1 qubit and SR is used. We give an optimal
+construction for such codes and find their success probability exactly--it is
+less than in the quantum case.
+  Interactive 3D quantum random access codes are available on-line at
+http://home.lanet.lv/~sd20008/racs .

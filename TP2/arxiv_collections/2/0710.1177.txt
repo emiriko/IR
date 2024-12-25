@@ -1,0 +1,10 @@
+A new Monte-Carlo method for long-range interacting systems is presented.
+This method consists of eliminating interactions stochastically with the
+detailed balance condition satisfied. When a pairwise interaction $V_{ij}$ of a
+$N$-particle system decreases with the distance as $r_{ij}^{-\alpha}$,
+computational time per one Monte Carlo step is ${\cal O}(N)$ for $\alpha \ge d$
+and ${\cal O}(N^{2-\alpha/d})$ for $\alpha < d$, where $d$ is the spatial
+dimension. We apply the method to a two-dimensional magnetic dipolar system.
+The method enables us to treat a huge system of $256^2$ spins with reasonable
+computational time, and reproduces a circular order originated from long-range
+dipolar interactions.

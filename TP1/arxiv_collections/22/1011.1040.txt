@@ -1,0 +1,13 @@
+In this paper we present a minimal list decoding algorithm for Reed-Solomon
+(RS) codes. Minimal list decoding for a code $C$ refers to list decoding with
+radius $L$, where $L$ is the minimum of the distances between the received word
+$\mathbf{r}$ and any codeword in $C$. We consider the problem of determining
+the value of $L$ as well as determining all the codewords at distance $L$. Our
+approach involves a parametrization of interpolating polynomials of a minimal
+Gr\"obner basis $G$. We present two efficient ways to compute $G$. We also show
+that so-called re-encoding can be used to further reduce the complexity. We
+then demonstrate how our parametric approach can be solved by a computationally
+feasible rational curve fitting solution from a recent paper by Wu. Besides, we
+present an algorithm to compute the minimum multiplicity as well as the optimal
+values of the parameters associated with this multiplicity which results in
+overall savings in both memory and computation.

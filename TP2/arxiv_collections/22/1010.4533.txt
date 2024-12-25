@@ -1,0 +1,24 @@
+Carrying Code (ACC) has recently been proposed as a framework for mobile code
+safety in which the code supplier provides a program together with an
+abstraction (or abstract model of the program) whose validity entails
+compliance with a predefined safety policy. The advantage of providing a
+(fixpoint) abstraction to the code consumer is that its validity is checked in
+a single pass (i.e., one iteration) of an abstract interpretation-based
+checker. A main challenge to make ACC useful in practice is to reduce the size
+of certificates as much as possible while at the same time not increasing
+checking time. The intuitive idea is to only include in the certificate
+information that the checker is unable to reproduce without iterating. We
+introduce the notion of reduced certificate which characterizes the subset of
+the abstraction which a checker needs in order to validate (and re-construct)
+the full certificate in a single pass. Based on this notion, we instrument a
+generic analysis algorithm with the necessary extensions in order to identify
+the information relevant to the checker. Interestingly, the fact that the
+reduced certificate omits (parts of) the abstraction has implications in the
+design of the checker. We provide the sufficient conditions which allow us to
+ensure that 1) if the checker succeeds in validating the certificate, then the
+certificate is valid for the program (correctness) and 2) the checker will
+succeed for any reduced certificate which is valid (completeness). Our approach
+has been implemented and benchmarked within the ciaopp system. The experimental
+results show that our proposal is able to greatly reduce the size of
+certificates in practice.To appear in Theory and Practice of Logic Programming
+(TPLP).

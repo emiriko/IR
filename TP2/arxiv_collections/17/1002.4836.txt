@@ -1,0 +1,17 @@
+Security issues are playing dominant role in today's high speed communication
+systems. A fast and compact FPGA based implementation of the Data Encryption
+Standard (DES) and Triple DES algorithm is presented in this paper that is
+widely used in cryptography for securing the Internet traffic in modern day
+communication systems. The design of the digital cryptographic circuit was
+implemented in a Vertex 5 series (XCVLX5110T) target device with the use of
+VHDL as the hardware description language. In order to confirm the expected
+behavior of these algorithms, the proposed design was extensively simulated,
+synthesized for different FPGA devices both in Spartan and Virtex series from
+Xilinx viz. Spartan 3, Spartan 3AN, Virtex 5, Virtex E device families. The
+novelty and contribution of this work is in three folds: (i) Extensive
+simulation and synthesis of the proposed design targeted for various FPGA
+devices, (ii) Complete hardware implementation of encryption and decryption
+algorithms onto Virtex 5 series device (XCVLX5110T) based FPGA boards and,
+(iii) Generation of ICON and VIO core for the design and on chip verification
+and analyzing using Chipscope Pro. The experimental as well as implementation
+results compared to the implementations reported so far are quite encouraging.

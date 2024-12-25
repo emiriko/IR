@@ -1,0 +1,24 @@
+Sequences set is a mathematical model used in many applications. As the
+number of the sequences becomes larger, single sequence set model is not
+appropriate for the rapidly increasing problem sizes. For example, more and
+more text processing applications separate a single big text file into multiple
+files before processing. For these applications, the underline mathematical
+model is multiple sequences sets (MSS). Though there is increasing use of MSS,
+there is little research on how to process MSS efficiently. To process multiple
+sequences sets, sequences are first distributed to different sets, and then
+sequences for each set are processed. Deriving effective algorithm for MSS
+processing is both interesting and challenging. In this paper, we have defined
+the cost functions and performance ratio for analysis of the quality of
+synthesis sequences. Based on these, the problem of Process of Multiple
+Sequences Sets (PMSS) is formulated. We have first proposed two greedy
+algorithms for the PMSS problem, which are based on generalization of
+algorithms for single sequences set. Then based on the analysis of the
+characteristics of multiple sequences sets, we have proposed the Distribution
+and Deposition (DDA) algorithm and DDA* algorithm for PMSS problem. In DDA
+algorithm, the sequences are first distributed to multiple sets according to
+their alphabet contents; then sequences in each set are deposited by the
+deposition algorithm. The DDA* algorithm differs from the DDA algorithm in that
+the DDA* algorithm distributes sequences by clustering based on sequence
+profiles. Experiments show that DDA and DDA* always output results with smaller
+costs than other algorithms, and DDA* outperforms DDA in most instances. The
+DDA and DDA* algorithms are also efficient both in time and space.

@@ -1,0 +1,14 @@
+In this paper, a wavelet-based iterative learning control (WILC) scheme with
+Fuzzy PD feedback is presented for a pneumatic control system with nonsmooth
+nonlinearities and uncertain parameters. The wavelet transform is employed to
+extract the learnable dynamics from measured output signal before it can be
+used to update the control profile. The wavelet transform is adopted to
+decompose the original signal into many low-resolution signals that contain the
+learnable and unlearnable parts. The desired control profile is then compared
+with the learnable part of the transformed signal. Thus, the effects from
+unlearnable dynamics on the controlled system can be attenuated by a Fuzzy PD
+feedback controller. As for the rules of Fuzzy PD controller in the feedback
+loop, a genetic algorithm (GA) is employed to search for the inference rules of
+optimization. A proportional-valve controlled pneumatic cylinder actuator
+system is used as the control target for simulation. Simulation results have
+shown a much-improved positiontracking performance.

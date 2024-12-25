@@ -1,0 +1,11 @@
+Current algorithms for bounded model checking use SAT methods for checking
+satisfiability of Boolean formulae. These methods suffer from the potential
+memory explosion problem. Methods based on the validity of Quantified Boolean
+Formulae (QBF) allow an exponentially more succinct representation of formulae
+to be checked, because no "unrolling" of the transition relation is required.
+These methods have not been widely used, because of the lack of an efficient
+decision procedure for QBF. We evaluate the usage of QBF in bounded model
+checking (BMC), using general-purpose SAT and QBF solvers. We develop a
+special-purpose decision procedure for QBF used in BMC, and compare our
+technique with the methods using general-purpose SAT and QBF solvers on
+real-life industrial benchmarks.

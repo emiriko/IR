@@ -1,0 +1,15 @@
+IThe botnet is considered as a critical issue of the Internet due to its fast
+growing mechanism and affect. Recently, Botnets have utilized the DNS and query
+DNS server just like any legitimate hosts. In this case, it is difficult to
+distinguish between the legitimate DNS traffic and illegitimate DNS traffic. It
+is important to build a suitable solution for botnet detection in the DNS
+traffic and consequently protect the network from the malicious Botnets
+activities. In this paper, a simple mechanism is proposed to monitors the DNS
+traffic and detects the abnormal DNS traffic issued by the botnet based on the
+fact that botnets appear as a group of hosts periodically. The proposed
+mechanism is also able to classify the DNS traffic requested by group of hosts
+(group behavior) and single hosts (individual behavior), consequently detect
+the abnormal domain name issued by the malicious Botnets. Finally, the
+experimental results proved that the proposed mechanism is robust and able to
+classify DNS traffic, and efficiently detects the botnet activity with average
+detection rate of 89 percent.

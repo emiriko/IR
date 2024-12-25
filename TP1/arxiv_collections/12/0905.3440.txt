@@ -1,0 +1,12 @@
+We simulate loop-erased random walks on simple (hyper-)cubic lattices of
+dimensions 2,3, and 4. These simulations were mainly motivated to test recent
+two loop renormalization group predictions for logarithmic corrections in
+$d=4$, simulations in lower dimensions were done for completeness and in order
+to test the algorithm. In $d=2$, we verify with high precision the prediction
+$D=5/4$, where the number of steps $n$ after erasure scales with the number $N$
+of steps before erasure as $n\sim N^{D/2}$. In $d=3$ we again find a power law,
+but with an exponent different from the one found in the most precise previous
+simulations: $D = 1.6236\pm 0.0004$. Finally, we see clear deviations from the
+naive scaling $n\sim N$ in $d=4$. While they agree only qualitatively with the
+leading logarithmic corrections predicted by several authors, their agreement
+with the two-loop prediction is nearly perfect.

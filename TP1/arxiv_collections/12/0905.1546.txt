@@ -1,0 +1,23 @@
+Motivated by the philosophy and phenomenal success of compressed sensing, the
+problem of reconstructing a matrix from a sampling of its entries has attracted
+much attention recently. Such a problem can be viewed as an
+information-theoretic variant of the well-studied matrix completion problem,
+and the main objective is to design an efficient algorithm that can reconstruct
+a matrix by inspecting only a small number of its entries. Although this is an
+impossible task in general, Cand\`es and co-authors have recently shown that
+under a so-called incoherence assumption, a rank $r$ $n\times n$ matrix can be
+reconstructed using semidefinite programming (SDP) after one inspects
+$O(nr\log^6n)$ of its entries. In this paper we propose an alternative approach
+that is much more efficient and can reconstruct a larger class of matrices by
+inspecting a significantly smaller number of the entries. Specifically, we
+first introduce a class of so-called stable matrices and show that it includes
+all those that satisfy the incoherence assumption. Then, we propose a
+randomized basis pursuit (RBP) algorithm and show that it can reconstruct a
+stable rank $r$ $n\times n$ matrix after inspecting $O(nr\log n)$ of its
+entries. Our sampling bound is only a logarithmic factor away from the
+information-theoretic limit and is essentially optimal. Moreover, the runtime
+of the RBP algorithm is bounded by $O(nr^2\log n+n^2r)$, which compares very
+favorably with the $\Omega(n^4r^2\log^{12}n)$ runtime of the SDP-based
+algorithm. Perhaps more importantly, our algorithm will provide an exact
+reconstruction of the input matrix in polynomial time. By contrast, the
+SDP-based algorithm can only provide an approximate one in polynomial time.

@@ -1,0 +1,21 @@
+We consider models for which it is important, early in processing, to
+estimate some variables with high precision, but perhaps at relatively low
+rates of recall. If some variables can be identified with near certainty, then
+they can be conditioned upon, allowing further inference to be done
+efficiently. Specifically, we consider optical character recognition (OCR)
+systems that can be bootstrapped by identifying a subset of correctly
+translated document words with very high precision. This "clean set" is
+subsequently used as document-specific training data. While many current OCR
+systems produce measures of confidence for the identity of each letter or word,
+thresholding these confidence values, even at very high values, still produces
+some errors.
+  We introduce a novel technique for identifying a set of correct words with
+very high precision. Rather than estimating posterior probabilities, we bound
+the probability that any given word is incorrect under very general
+assumptions, using an approximate worst case analysis. As a result, the
+parameters of the model are nearly irrelevant, and we are able to identify a
+subset of words, even in noisy documents, of which we are highly confident. On
+our set of 10 documents, we are able to identify about 6% of the words on
+average without making a single error. This ability to produce word lists with
+very high precision allows us to use a family of models which depends upon such
+clean word lists.

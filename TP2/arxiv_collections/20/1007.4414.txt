@@ -1,0 +1,14 @@
+As a variant of the HB authentication protocol for RFID systems, which relies
+on the complexity of decoding linear codes against passive attacks, Madhavan et
+al. presented Non-Linear HB(NLHB) protocol. In contrast to HB, NLHB relies on
+the complexity of decoding a class of non-linear codes to render the passive
+attacks proposed against HB ineffective. In this paper, we show that passive
+attacks against HB protocol can still be applicable to NLHB and this protocol
+does not provide the desired security margin. In our attack, we first linearize
+the non-linear part of NLHB to obtain a HB equivalent for NLHB, and then
+exploit the passive attack techniques proposed for the HB to evaluate the
+security margin of NLHB. The results show that although NLHB's security margin
+is relatively higher than HB against similar passive attack techniques, it has
+been overestimated and, in contrary to what is claimed, NLHB is vulnerable to
+passive attacks against HB, especially when the noise vector in the protocol
+has a low weight.

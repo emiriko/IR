@@ -1,0 +1,13 @@
+We propose a mid-level image segmentation framework that combines multiple
+figure-ground hypothesis (FG) constrained at different locations and scales,
+into interpretations that tile the entire image. The problem is cast as
+optimization over sets of maximal cliques sampled from the graph connecting
+non-overlapping, putative figure-ground segment hypotheses. Potential functions
+over cliques combine unary Gestalt-based figure quality scores and pairwise
+compatibilities among spatially neighboring segments, constrained by
+T-junctions and the boundary interface statistics resulting from projections of
+real 3d scenes. Learning the model parameters is formulated as rank
+optimization, alternating between sampling image tilings and optimizing their
+potential function parameters. State of the art results are reported on both
+the Berkeley and the VOC2009 segmentation dataset, where a 28% improvement was
+achieved.

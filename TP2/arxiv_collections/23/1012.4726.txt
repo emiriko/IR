@@ -1,0 +1,25 @@
+Genome-wide association studies have become increasingly common due to
+advances in technology and have permitted the identification of differences in
+single nucleotide polymorphism (SNP) alleles that are associated with diseases.
+However, while typical GWAS analysis techniques treat markers individually,
+complex diseases are unlikely to have a single causative gene. There is thus a
+pressing need for multi-SNP analysis methods that can reveal system-level
+differences in cases and controls. Here, we present a novel multi-SNP GWAS
+analysis method called Pathways of Distinction Analysis (PoDA). The method uses
+GWAS data and known pathway-gene and gene-SNP associations to identify pathways
+that permit, ideally, the distinction of cases from controls. The technique is
+based upon the hypothesis that if a pathway is related to disease risk, cases
+will appear more similar to other cases than to controls for the SNPs
+associated with that pathway. By systematically applying the method to all
+pathways of potential interest, we can identify those for which the hypothesis
+holds true, i.e., pathways containing SNPs for which the samples exhibit
+greater within-class similarity than across classes. Importantly, PoDA improves
+on existing single-SNP and SNP-set enrichment analyses in that it does not
+require the SNPs in a pathway to exhibit independent main effects. This permits
+PoDA to reveal pathways in which epistatic interactions drives risk. In this
+paper, we detail the PoDA method and apply it to two GWA studies: one of breast
+cancer, and the other of liver cancer. The results obtained strongly suggest
+that there exist pathway-wide genomic differences that contribute to disease
+susceptibility. PoDA thus provides an analytical tool that is complementary to
+existing techniques and has the power to enrich our understanding of disease
+genomics at the systems-level.

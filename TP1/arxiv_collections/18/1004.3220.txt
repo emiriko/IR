@@ -1,0 +1,19 @@
+An unlabeled poset is said to be (2+2)-free if it does not contain an induced
+subposet that is isomorphic to 2+2, the union of two disjoint 2-element chains.
+Let $p_n$ denote the number of (2+2)-free posets of size $n$. In a recent
+paper, Bousquet-M\'elou et al.\cite{BCDK} found, using so called ascent
+sequences, the generating function for the number of (2+2)-free posets of size
+$n$: $P(t)=\sum_{n \geq 0} p_n t^n = \sum_{n\geq 0} \prod_{i=1}^{n}
+(1-(1-t)^i)$. We extend this result in two ways. First, we find the generating
+function for (2+2)-free posets when four statistics are taken into account, one
+of which is the number of minimal elements in a poset. Second, we show that if
+$p_{n,k}$ equals the number of (2+2)-free posets of size $n$ with $k$ minimal
+elements, then $P(t,z)=\sum_{n,k \geq 0} p_{n,k} t^n z^k = 1+ \sum_{n \geq 0}
+\frac{zt}{(1-zt)^{n+1}} \prod_{i=1}^n (1-(1-t)^i)$. The second result cannot be
+derived from the first one by a substitution. On the other hand, $P(t)$ can
+easily be obtained from $P(t,z)$ thus providing an alternative proof for the
+enumeration result in \cite{BCDK}. Moreover, we conjecture a simpler form of
+writing $P(t,z)$. Our enumeration results are extended to certain restricted
+permutations and to regular linearized chord diagrams through bijections in
+\cite{BCDK,cdk}. Finally, we define a subset of ascent sequences counted by the
+Catalan numbers and we discuss its relations with (2+2)- and (3+1)-free posets.

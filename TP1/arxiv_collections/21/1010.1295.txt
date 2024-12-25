@@ -1,0 +1,14 @@
+We consider the optimal packet scheduling problem in a single-user energy
+harvesting wireless communication system. In this system, both the data packets
+and the harvested energy are modeled to arrive at the source node randomly. Our
+goal is to adaptively change the transmission rate according to the traffic
+load and available energy, such that the time by which all packets are
+delivered is minimized. Under a deterministic system setting, we assume that
+the energy harvesting times and harvested energy amounts are known before the
+transmission starts. For the data traffic arrivals, we consider two different
+scenarios. In the first scenario, we assume that all bits have arrived and are
+ready at the transmitter before the transmission starts. In the second
+scenario, we consider the case where packets arrive during the transmissions,
+with known arrival times and sizes. We develop optimal off-line scheduling
+policies which minimize the time by which all packets are delivered to the
+destination, under causality constraints on both data and energy arrivals.

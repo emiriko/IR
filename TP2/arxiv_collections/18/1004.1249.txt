@@ -1,0 +1,11 @@
+To obtain good system performance, a DBA must choose a set of indices that is
+appropriate for the workload. The system can aid in this challenging task by
+providing recommendations for the index configuration. We propose a new index
+recommendation technique, termed semi-automatic tuning, that keeps the DBA "in
+the loop" by generating recommendations that use feedback about the DBA's
+preferences. The technique also works online, which avoids the limitations of
+commercial tools that require the workload to be known in advance. The
+foundation of our approach is the Work Function Algorithm, which can solve a
+wide variety of online optimization problems with strong competitive
+guarantees. We present an experimental analysis that validates the benefits of
+semi-automatic tuning in a wide variety of conditions.

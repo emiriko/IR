@@ -1,0 +1,14 @@
+In this paper we present an improved lattice Boltzmann model for compressible
+Navier-Stokes system with high Mach number. The model is composed of three
+components: (i) the discrete-velocity-model by Watari and Tsutahara [Phys Rev E
+\textbf{67},036306(2003)], (ii) a modified Lax-Wendroff finite difference
+scheme where reasonable dissipation and dispersion are naturally included,
+(iii) artificial viscosity. The improved model is convenient to compromise the
+high accuracy and stability. The included dispersion term can effectively
+reduce the numerical oscillation at discontinuity. The added artificial
+viscosity helps the scheme to satisfy the von Neumann stability condition.
+Shock tubes and shock reflections are used to validate the new scheme. In our
+numerical tests the Mach numbers are successfully increased up to 20 or higher.
+The flexibility of the new model makes it suitable for tracking shock waves
+with high accuracy and for investigating nonlinear nonequilibrium complex
+systems.

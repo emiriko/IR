@@ -1,0 +1,19 @@
+Let x be a random vector coming from any k-wise independent distribution over
+{-1,1}^n. For an n-variate degree-2 polynomial p, we prove that E[sgn(p(x))] is
+determined up to an additive epsilon for k = poly(1/epsilon). This answers an
+open question of Diakonikolas et al. (FOCS 2009). Using standard constructions
+of k-wise independent distributions, we obtain a broad class of explicit
+generators that epsilon-fool the class of degree-2 threshold functions with
+seed length log(n)*poly(1/epsilon).
+  Our approach is quite robust: it easily extends to yield that the
+intersection of any constant number of degree-2 threshold functions is
+epsilon-fooled by poly(1/epsilon)-wise independence. Our results also hold if
+the entries of x are k-wise independent standard normals, implying for example
+that bounded independence derandomizes the Goemans-Williamson hyperplane
+rounding scheme.
+  To achieve our results, we introduce a technique we dub multivariate
+FT-mollification, a generalization of the univariate form introduced by Kane et
+al. (SODA 2010) in the context of streaming algorithms. Along the way we prove
+a generalized hypercontractive inequality for quadratic forms which takes the
+operator norm of the associated matrix into account. These techniques may be of
+independent interest.

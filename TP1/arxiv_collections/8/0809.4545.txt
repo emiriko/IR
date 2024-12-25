@@ -1,0 +1,21 @@
+With reference to a search in a database of size N, Grover states: "What is
+the reason that one would expect that a quantum mechanical scheme could
+accomplish the search in O(square root of N) steps? It would be insightful to
+have a simple two line argument for this without having to describe the details
+of the search algorithm". The answer provided in this work is: "because any
+quantum algorithm takes the time taken by a classical algorithm that knows in
+advance 50% of the information that specifies the solution of the problem".
+This empirical fact, unnoticed so far, holds for both quadratic and exponential
+speed ups and is theoretically justified in three steps: (i) once the physical
+representation is extended to the production of the problem on the part of the
+oracle and to the final measurement of the computer register, quantum
+computation is reduction on the solution of the problem under a relation
+representing problem-solution interdependence, (ii) the speed up is explained
+by a simple consideration of time symmetry, it is the gain of information about
+the solution due to backdating, to before running the algorithm, a
+time-symmetric part of the reduction on the solution; this advanced knowledge
+of the solution reduces the size of the solution space to be explored by the
+algorithm, (iii) if I is the information acquired by measuring the content of
+the computer register at the end of the algorithm, the quantum algorithm takes
+the time taken by a classical algorithm that knows in advance 50% of I, which
+brings us to the initial statement.

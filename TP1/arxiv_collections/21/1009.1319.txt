@@ -1,0 +1,13 @@
+Though the theory of quantum error correction is intimately related to the
+classical coding theory, in particular, one can construct quantum error
+correction codes (QECCs) from classical codes with the dual containing
+property, this does not necessarily imply that the computational complexity of
+decoding QECCs is the same as their classical counterparts. Instead, decoding
+QECCs can be very much different from decoding classical codes due to the
+degeneracy property. Intuitively, one expect degeneracy would simplify the
+decoding since two different errors might not and need not be distinguished in
+order to correct them. However, we show that general quantum decoding problem
+is NP-hard regardless of the quantum codes being degenerate or non-degenerate.
+This finding implies that no considerably fast decoding algorithm exists for
+the general quantum decoding problems, and suggests the existence of a quantum
+cryptosystem based on the hardness of decoding QECCs.

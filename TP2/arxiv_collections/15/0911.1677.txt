@@ -1,0 +1,15 @@
+For formulas F of propositional calculus I introduce a "metavariable" MF and
+show how it can be used to define an algorithm for testing satisfiability. MF
+is a formula which is true/false under all possible truth assignments iff F is
+satisfiable/unsatisfiable. In this sense MF is a metavariable with the
+"meaning" 'F is SAT'. For constructing MF a group of transformations of the
+basic variables ai is used which corresponds to 'flipping" literals to their
+negation. The whole procedure corresponds to branching algorithms where a
+formula is split with respect to the truth values of its variables, one by one.
+Each branching step corresponds to an approximation to the metatheorem which
+doubles the chance to find a satisfying truth assignment but also doubles the
+length of the formulas to be tested, in principle. Simplifications arise by
+additional length reductions. I also discuss the notion of "logical primes" and
+show that each formula can be written as a uniquely defined product of such
+prime factors. Satisfying truth assignments can be found by determining the
+"missing" primes in the factorization of a formula.

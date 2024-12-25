@@ -1,0 +1,11 @@
+Human interaction introduces two main constraints: Safety and Comfort.
+Therefore service robot manipulator can't be controlled like industrial robotic
+manipulator where personnel is isolated from the robot's work envelope. In this
+paper, we present a soft motion trajectory planner to try to ensure that these
+constraints are satisfied. This planner can be used on-line to establish visual
+and force control loop suitable in presence of human. The cubic trajectories
+build by this planner are good candidates as output of a manipulation task
+planner. The obtained system is then homogeneous from task planning to robot
+control. The soft motion trajectory planner limits jerk, acceleration and
+velocity in cartesian space using quaternion. Experimental results carried out
+on a Mitsubishi PA10-6CE arm are presented.

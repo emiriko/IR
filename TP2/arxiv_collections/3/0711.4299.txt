@@ -1,0 +1,13 @@
+The search problem is to find a state satisfying certain properties out of a
+given set. Grover's algorithm drives a quantum computer from a prepared initial
+state to the target state and solves the problem quadratically faster than a
+classical computer. The algorithm uses selective transformations to distinguish
+the initial state and target state from other states. It does not succeed
+unless the selective transformations are very close to phase-inversions. Here
+we show a way to go beyond this limitation. An important application lies in
+quantum error-correction, where the errors can cause the selective
+transformations to deviate from phase-inversions. The algorithms presented here
+are robust to errors as long as the errors are reproducible and reversible.
+This particular class of systematic errors arise often from imperfections in
+apparatus setup. Hence our algorithms offer a significant flexibility in the
+physical implementation of quantum search.

@@ -1,0 +1,24 @@
+We propose behavior-oriented services as a new paradigm of communication in
+mobile human networks. Our study is motivated by the tight user-network
+coupling in future mobile societies. In such a paradigm, messages are sent to
+inferred behavioral profiles, instead of explicit IDs. Our paper provides a
+systematic framework in providing such services. First, user behavioral
+profiles are constructed based on traces collected from two large wireless
+networks, and their spatio-temporal stability is analyzed. The implicit
+relationship discovered between mobile users could be utilized to provide a
+service for message delivery and discovery in various network environments. As
+an example application, we provide a detailed design of such a service in
+challenged opportunistic network architecture, named CSI. We provide a fully
+distributed solution using behavioral profile space gradients and small world
+structures.
+  Our analysis shows that user behavioral profiles are surprisingly stable,
+i.e., the similarity of the behavioral profile of a user to its future
+behavioral profile is above 0.8 for two days and 0.75 for one week, and remains
+above 0.6 for five weeks. The correlation coefficient of the similarity metrics
+between a user pair at different time instants is above 0.7 for four days, 0.62
+for a week, and remains above 0.5 for two weeks. Leveraging such a stability in
+user behaviors, the CSI service achieves delivery rate very close to the
+delay-optimal strategy (above 94%), with minimal overhead (less than 84% of the
+optimal). We believe that this new paradigm will act as an enabler of multiple
+new services in mobile societies, and is potentially applicable in
+server-based, heterogeneous or infrastructure-less wireless environments.

@@ -1,0 +1,24 @@
+This thesis is divided in two parts. The first presents an overview of known
+results in statistical mechanics of disordered systems and its approach to
+random combinatorial optimization problems. The second part is a discussion of
+two original results.
+  The first result concerns DPLL heuristics for random k-XORSAT, which is
+equivalent to the diluted Ising p-spin model. It is well known that DPLL is
+unable to find the ground states in the clustered phase of the problem, i.e.
+that it leads to contradictions with probability 1. However, no solid argument
+supports this is general. A class of heuristics, which includes the well known
+UC and GUC, is introduced and studied. It is shown that any heuristic in this
+class must fail if the clause to variable ratio is larger than some constant,
+which depends on the heuristic but is always smaller than the clustering
+threshold.
+  The second result concerns the properties of random k-SAT at large clause to
+variable ratios. In this regime, it is well known that the uniform distribution
+of random instances is dominated by unsatisfiable instances. A general
+technique (based on the Replica method) to restrict the distribution to
+satisfiable instances with uniform weight is introduced, and is used to
+characterize their solutions. It is found that in the limit of large clause to
+variable ratios, the uniform distribution of satisfiable random k-SAT formulas
+is asymptotically equal to the much studied Planted distribution.
+  Both results are already published and available as arXiv:0709.0367 and
+arXiv:cs/0609101 . A more detailed and self-contained derivation is presented
+here.

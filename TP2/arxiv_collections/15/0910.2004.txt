@@ -1,0 +1,10 @@
+We describe an approach to parallel graph partitioning that scales to
+hundreds of processors and produces a high solution quality. For example, for
+many instances from Walshaw's benchmark collection we improve the best known
+partitioning. We use the well known framework of multi-level graph
+partitioning. All components are implemented by scalable parallel algorithms.
+Quality improvements compared to previous systems are due to better
+prioritization of edges to be contracted, better approximation algorithms for
+identifying matchings, better local search heuristics, and perhaps most
+notably, a parallelization of the FM local search algorithm that works more
+locally than previous approaches.

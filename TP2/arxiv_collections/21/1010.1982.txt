@@ -1,0 +1,12 @@
+An algorithm which either finds an nonzero integer vector ${\mathbf m}$ for
+given $t$ real $n$-dimensional vectors ${\mathbf x}_1,...,{\mathbf x}_t$ such
+that ${\mathbf x}_i^T{\mathbf m}=0$ or proves that no such integer vector with
+norm less than a given bound exists is presented in this paper. The cost of the
+algorithm is at most ${\mathcal O}(n^4 + n^3 \log \lambda(X))$ exact arithmetic
+operations in dimension $n$ and the least Euclidean norm $\lambda(X)$ of such
+integer vectors. It matches the best complexity upper bound known for this
+problem. Experimental data show that the algorithm is better than an already
+existing algorithm in the literature. In application, the algorithm is used to
+get a complete method for finding the minimal polynomial of an unknown complex
+algebraic number from its approximation, which runs even faster than the
+corresponding \emph{Maple} built-in function.

@@ -1,0 +1,15 @@
+Ontologies such as taxonomies, product catalogs or web directories are
+heavily used and hence evolve frequently to meet new requirements or to better
+reflect the current instance data of a domain. To effectively manage the
+evolution of ontologies it is essential to identify the difference (Diff)
+between two ontology versions. We propose a novel approach to determine an
+expressive and invertible diff evolution mapping between given versions of an
+ontology. Our approach utilizes the result of a match operation to determine an
+evolution mapping consisting of a set of basic change operations
+(insert/update/delete). To semantically enrich the evolution mapping we adopt a
+rule-based approach to transform the basic change operations into a smaller set
+of more complex change operations, such as merge, split, or changes of entire
+subgraphs. The proposed algorithm is customizable in different ways to meet the
+requirements of diverse ontologies and application scenarios. We evaluate the
+proposed approach by determining and analyzing evolution mappings for
+real-world life science ontologies and web directories.

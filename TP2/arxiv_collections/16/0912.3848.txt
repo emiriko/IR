@@ -1,0 +1,14 @@
+We propose a novel method for constructing wavelet transforms of functions
+defined on the vertices of an arbitrary finite weighted graph. Our approach is
+based on defining scaling using the the graph analogue of the Fourier domain,
+namely the spectral decomposition of the discrete graph Laplacian $\L$. Given a
+wavelet generating kernel $g$ and a scale parameter $t$, we define the scaled
+wavelet operator $T_g^t = g(t\L)$. The spectral graph wavelets are then formed
+by localizing this operator by applying it to an indicator function. Subject to
+an admissibility condition on $g$, this procedure defines an invertible
+transform. We explore the localization properties of the wavelets in the limit
+of fine scales. Additionally, we present a fast Chebyshev polynomial
+approximation algorithm for computing the transform that avoids the need for
+diagonalizing $\L$. We highlight potential applications of the transform
+through examples of wavelets on graphs corresponding to a variety of different
+problem domains.

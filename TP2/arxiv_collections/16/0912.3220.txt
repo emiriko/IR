@@ -1,0 +1,23 @@
+We aim to examine the detailed disc structure that arises in a misaligned
+binary system as a function of the disc aspect ratio h, viscosity parameter
+alpha, disc outer radius R, and binary inclination angle gamma_F. We also aim
+to examine the conditions that lead to an inclined disc being disrupted by
+strong differential precession. We use a grid-based hydrodynamic code to
+perform 3D simulations. This code has a relatively low numerical viscosity
+compared with the SPH schemes that have been used previously to study inclined
+discs. This allows the influence of viscosity on the disc evolution to be
+tightly controlled. We find that for thick discs (h=0.05) with low alpha,
+efficient warp communication in the discs allows them to precess as rigid
+bodies with very little warping or twisting. Such discs are observed to align
+with the binary orbit plane on the viscous evolution time. Thinner discs with
+higher viscosity, in which warp communication is less efficient, develop
+significant twists before achieving a state of rigid-body precession. Under the
+most extreme conditions we consider (h=0.01, alpha=0.005 and alpha=0.1), we
+find that discs can become broken or disrupted by strong differential
+precession. Discs that become highly twisted are observed to align with the
+binary orbit plane on timescales much shorter than the viscous timescale,
+possibly on the precession time. We find agreement with previous studies that
+show that thick discs with low viscosity experience mild warping and precess
+rigidly. We also find that as h is decreased substantially, discs may be
+disrupted by strong differential precession, but for disc thicknesses that are
+significantly less (h=0.01) than those found in previous studies (h=0.03).

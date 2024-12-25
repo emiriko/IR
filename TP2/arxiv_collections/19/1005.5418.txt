@@ -1,0 +1,18 @@
+We address the experimentally relevant problem of robust mitigation of
+dephasing noise acting on a qubit. We first present an extension of a method
+for representing $1/\omega^{\alpha}$ noise developed by Kuopanportti et al. to
+the efficient representation of arbitrary Markovian noise. We then add qubit
+control pulses to enable the design of numerically optimized, two-dimensional
+control functions with bounded amplitude, that are capable of decoupling the
+qubit from the dephasing effects of a broad variety of Markovian noise spectral
+densities during arbitrary one qubit quantum operations. We illustrate the
+method with development of numerically optimized control pulse sequences that
+minimize decoherence due to a combination of $1/\omega$ and constant offset
+noise sources. Comparison with the performance of standard dynamical decoupling
+protocols shows that the numerically optimized pulse sequences are considerably
+more robust with respect to the noise offset, rendering them attractive for
+application to situations where homogeneous dephasing noise sources are
+accompanied by some extent of heterogeneous dephasing. Application to the
+mitigation of dephasing noise on spin qubits in silicon indicates that high
+fidelity single qubit gates are possible with current pulse generation
+technology.

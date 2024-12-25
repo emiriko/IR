@@ -1,0 +1,14 @@
+We provide a smoothed analysis of Hoare's find algorithm and we revisit the
+smoothed analysis of quicksort.
+  Hoare's find algorithm - often called quickselect - is an easy-to-implement
+algorithm for finding the k-th smallest element of a sequence. While the
+worst-case number of comparisons that Hoare's find needs is quadratic, the
+average-case number is linear. We analyze what happens between these two
+extremes by providing a smoothed analysis of the algorithm in terms of two
+different perturbation models: additive noise and partial permutations.
+  Moreover, we provide lower bounds for the smoothed number of comparisons of
+quicksort and Hoare's find for the median-of-three pivot rule, which usually
+yields faster algorithms than always selecting the first element: The pivot is
+the median of the first, middle, and last element of the sequence. We show that
+median-of-three does not yield a significant improvement over the classic rule:
+the lower bounds for the classic rule carry over to median-of-three.

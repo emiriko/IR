@@ -1,0 +1,11 @@
+We present an open-source Mathematica importer for CERN ROOT files. Taking
+advantage of Mathematica's import/export plug-in mechanism, the importer offers
+a simple, unified interface that cleanly wraps around its MathLink-based core
+that links the ROOT libraries with Mathematica. Among other tests for accuracy
+and efficiency, the importer has also been tested on a large (~5 Gbyte) file
+structure, D3PD, used by the ATLAS experiment for offline analysis without
+problems. In addition to describing the installation and usage of the importer,
+we discuss how the importer may be further improved and customized. A link to
+the package can be found at:
+http://library.wolfram.com/infocenter/Articles/7793/ and a related presentation
+is at: http://cd-docdb.fnal.gov/cgi-bin/DisplayMeeting?conferenceid=522

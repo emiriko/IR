@@ -1,0 +1,10 @@
+We describe a novel integrated algorithm for real-time enhancement of video
+acquired under challenging lighting conditions. Such conditions include low
+lighting, haze, and high dynamic range situations. The algorithm automatically
+detects the dominate source of impairment, then depending on whether it is low
+lighting, haze or others, a corresponding pre-processing is applied to the
+input video, followed by the core enhancement algorithm. Temporal and spatial
+redundancies in the video input are utilized to facilitate real-time processing
+and to improve temporal and spatial consistency of the output. The proposed
+algorithm can be used as an independent module, or be integrated in either a
+video encoder or a video decoder for further optimizations.

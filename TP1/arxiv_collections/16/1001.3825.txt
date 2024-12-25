@@ -1,0 +1,13 @@
+In this article we give the details of an effective point counting algorithm
+for genus two curves over finite fields of characteristic three. The algorithm
+has an application in the context of curve based cryptography. One
+distinguished property of the algorithm is that its complexity depends
+quasi-quadratically on the degree of the finite base field. Our algorithm is a
+modified version of an earlier method that was developed in joint work with
+Lubicz. We explain how one can alter the original algorithm, on the basis of
+new theory, such that it can be used to efficiently count points on genus two
+curves over large finite fields. Examples of cryptographic size have been
+computed using an experimental Magma implementation of the algorithm which has
+been programmed by the author. Our computational results show that the
+quasi-quadratic algorithm of Lubicz and the author, with some improvements, is
+practical and relevant for cryptography.

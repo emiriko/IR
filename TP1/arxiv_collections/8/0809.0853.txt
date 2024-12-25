@@ -1,0 +1,11 @@
+We develop and analyze $M$-estimation methods for divergence functionals and
+the likelihood ratios of two probability distributions. Our method is based on
+a non-asymptotic variational characterization of $f$-divergences, which allows
+the problem of estimating divergences to be tackled via convex empirical risk
+optimization. The resulting estimators are simple to implement, requiring only
+the solution of standard convex programs. We present an analysis of consistency
+and convergence for these estimators. Given conditions only on the ratios of
+densities, we show that our estimators can achieve optimal minimax rates for
+the likelihood ratio and the divergence functionals in certain regimes. We
+derive an efficient optimization algorithm for computing our estimates, and
+illustrate their convergence behavior and practical viability by simulations.

@@ -1,0 +1,16 @@
+We study a classical fully-frustrated honeycomb lattice Ising model using
+Markov chain Monte Carlo methods and exact calculations . The Hamiltonian
+realizes a degenerate ground state manifold of equal-energy states, where each
+hexagonal plaquette of the lattice has one and only one frustrated bond, with
+an extensive residual entropy that grows as the number of spins N. Traditional
+single-spin flip Monte Carlo methods fail to sample all possible spin
+configurations in this ground state efficiently, due to their separation by
+large energy barriers. We develop a non-local "chain-flip" algorithm that
+solves this problem, and demonstrate its effectiveness on the Ising Hamiltonian
+with and without perturbative interactions. The two perturbations considered
+are a slightly weakened bond, and an external magnetic field h. For some cases,
+the chain-flip move is necessary for the simulation to find an ordered ground
+state. In the case of the magnetic field, two magnetized ground states with
+non-extensive entropy are found, and two special values of h exist where the
+residual entropy again becomes extensive, scaling proportional to N ln phi,
+where phi is the golden ratio.

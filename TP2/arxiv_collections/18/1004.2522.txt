@@ -1,0 +1,12 @@
+Type-flaw attacks and multi-protocol attacks on security protocols have been
+frequently reported in the literature. Heather et al. and Guttman et al. have
+proven that these could be prevented by tagging encrypted components with
+distinct constants in a standard protocol model with free message algebra and
+perfect encryption. However, most "real-world" protocols such as SSL 3.0 are
+designed with the Exclusive-OR (XOR) operator that possesses algebraic
+properties, breaking the free algebra assumption. These algebraic properties
+induce equational theories that need to be considered when analyzing protocols
+that use the operator. This is the problem we consider in this paper: We prove
+that, under certain assumptions, tagging encrypted components still prevents
+type-flaw and multi-protocol attacks even in the presence of the XOR operator
+and its algebraic properties.

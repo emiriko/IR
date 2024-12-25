@@ -1,0 +1,18 @@
+Fast, efficient and reliable algorithms for pairwise alignment of protein
+structures are in ever increasing demand for analyzing the rapidly growing data
+of protein structures. CLePAPS is a tool developed for this purpose. It
+distinguishes itself from other existing algorithms by the use of
+conformational letters, which are discretized states of 3D segmental structural
+states. A letter corresponds to a cluster of combinations of the three angles
+formed by C_alpha pseudobonds of four contiguous residues. A substitution
+matrix called CLESUM is available to measure similarity between any two such
+letters. CLePAPS regards an aligned fragment pair (AFP) as an ungapped string
+pair with a high sum of pairwise CLESUM scores. Using CLESUM scores as the
+similarity measure, CLePAPS searches for AFPs by simple string comparison. The
+transformation which best superimposes a highly similar AFP can be used to
+superimpose the structure pairs under comparison. A highly scored AFP which is
+consistent with several other AFPs determines an initial alignment. CLePAPS
+then joins consistent AFPs guided by their similarity scores to extend the
+alignment by several `zoom-in' iteration steps. A follow-up refinement produces
+the final alignment. CLePAPS does not implement dynamic programming. The
+utility of CLePAPS is tested on various protein structure pairs.

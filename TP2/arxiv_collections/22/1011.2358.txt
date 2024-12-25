@@ -1,0 +1,14 @@
+Two important enhanced sampling algorithms, simulated (ST) and parallel (PT)
+tempering, are commonly used when ergodic simulations may be hard to achieve,
+e.g, due to a phase space separated by large free-energy barriers. This is so
+for systems around first-order phase transitions, a case still not fully
+explored with such approaches in the literature. In this contribution we make a
+comparative study between the PT and ST for the Ising (a lattice-gas in the
+fluid language) and the BEG (a lattice-gas with vacancies) models at phase
+transition regimes. We show that although the two methods are equivalent in the
+limit of sufficiently long simulations, the PT is more advantageous than the ST
+with respect to all the analysis performed: convergence towards the
+stationarity; frequency of tunneling between phases at the coexistence; and
+decay of time-displaced correlation functions of thermodynamic quantities.
+Qualitative arguments for why one may expect better results from the PT than
+the ST near phase transitions conditions are also presented.

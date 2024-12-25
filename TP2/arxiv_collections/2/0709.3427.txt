@@ -1,0 +1,13 @@
+Data from spectrophotometers form vectors of a large number of exploitable
+variables. Building quantitative models using these variables most often
+requires using a smaller set of variables than the initial one. Indeed, a too
+large number of input variables to a model results in a too large number of
+parameters, leading to overfitting and poor generalization abilities. In this
+paper, we suggest the use of the mutual information measure to select variables
+from the initial set. The mutual information measures the information content
+in input variables with respect to the model output, without making any
+assumption on the model that will be used; it is thus suitable for nonlinear
+modelling. In addition, it leads to the selection of variables among the
+initial set, and not to linear or nonlinear combinations of them. Without
+decreasing the model performances compared to other variable projection
+methods, it allows therefore a greater interpretability of the results.

@@ -1,0 +1,23 @@
+We present two exact implementations of efficient output-sensitive algorithms
+that compute Minkowski sums of two convex polyhedra in 3D. We do not assume
+general position. Namely, we handle degenerate input, and produce exact
+results. We provide a tight bound on the exact maximum complexity of Minkowski
+sums of polytopes in 3D in terms of the number of facets of the summand
+polytopes. The algorithms employ variants of a data structure that represents
+arrangements embedded on two-dimensional parametric surfaces in 3D, and they
+make use of many operations applied to arrangements in these representations.
+We have developed software components that support the arrangement
+data-structure variants and the operations applied to them. These software
+components are generic, as they can be instantiated with any number type.
+However, our algorithms require only (exact) rational arithmetic. These
+software components together with exact rational-arithmetic enable a robust,
+efficient, and elegant implementation of the Minkowski-sum constructions and
+the related applications. These software components are provided through a
+package of the Computational Geometry Algorithm Library (CGAL) called
+Arrangement_on_surface_2. We also present exact implementations of other
+applications that exploit arrangements of arcs of great circles embedded on the
+sphere. We use them as basic blocks in an exact implementation of an efficient
+algorithm that partitions an assembly of polyhedra in 3D with two hands using
+infinite translations. This application distinctly shows the importance of
+exact computation, as imprecise computation might result with dismissal of
+valid partitioning-motions.

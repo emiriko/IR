@@ -1,0 +1,9 @@
+We address the non-redundant random generation of k words of length n from a
+context-free language. Additionally, we want to avoid a predefined set of
+words. We study the limits of a rejection-based approach, whose time complexity
+is shown to grow exponentially in k in some cases. We propose an alternative
+recursive algorithm, whose careful implementation allows for a non-redundant
+generation of k words of size n in O(kn log n) arithmetic operations after the
+precomputation of O(n) numbers. The overall complexity is therefore dominated
+by the generation of k words, and the non-redundancy comes at a negligible
+cost.

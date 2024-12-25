@@ -1,0 +1,14 @@
+Mass spectrometry (MS) is an important technique for chemical profiling which
+calculates for a sample a high dimensional histogram-like spectrum. A crucial
+step of MS data processing is the peak picking which selects peaks containing
+information about molecules with high concentrations which are of interest in
+an MS investigation. We present a new procedure of the peak picking based on a
+sparse coding algorithm. Given a set of spectra of different classes, i.e. with
+different positions and heights of the peaks, this procedure can extract peaks
+by means of unsupervised learning. Instead of an $l_1$-regularization penalty
+term used in the original sparse coding algorithm we propose using an
+elastic-net penalty term for better regularization. The evaluation is done by
+means of simulation. We show that for a large region of parameters the proposed
+peak picking method based on the sparse coding features outperforms a mean
+spectrum-based method. Moreover, we demonstrate the procedure applying it to
+two real-life datasets.

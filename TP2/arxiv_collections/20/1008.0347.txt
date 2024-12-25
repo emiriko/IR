@@ -1,0 +1,26 @@
+Various theoretical methods address transport effects in quantum dots beyond
+single-electron tunneling while accounting for the strong interactions in such
+systems. In this paper we report a detailed comparison between three prominent
+approaches to quantum transport: the fourth-order Bloch-Redfield quantum master
+equation (BR), the real-time diagrammatic technique (RT), and the scattering
+rate approach based on the T-matrix (TM). Central to the BR and RT is the
+generalized master equation for the reduced density matrix. We demonstrate the
+exact equivalence of these two techniques. By accounting for coherences
+(nondiagonal elements of the density matrix) between nonsecular states, we show
+how contributions to the transport kernels can be grouped in a physically
+meaningful way. This not only significantly reduces the numerical cost of
+evaluating the kernels but also yields expressions similar to those obtained in
+the TM approach, allowing for a detailed comparison. However, in the TM
+approach an ad hoc regularization procedure is required to cure spurious
+divergences in the expressions for the transition rates in the stationary
+(zero-frequency) limit. We show that these problems derive from incomplete
+cancellation of reducible contributions and do not occur in the BR and RT
+techniques, resulting in well-behaved expressions in the latter two cases.
+Additionally, we show that a standard regularization procedure of the TM rates
+employed in the literature does not correctly reproduce the BR and RT
+expressions. All the results apply to general quantum dot models and we present
+explicit rules for the simplified calculation of the zero-frequency kernels.
+Although we focus on fourth-order perturbation theory only, the results and
+implications generalize to higher orders. We illustrate our findings for the
+single impurity Anderson model with finite Coulomb interaction in a magnetic
+field.

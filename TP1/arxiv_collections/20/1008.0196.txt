@@ -1,0 +1,10 @@
+We build Gaussian wave packets for the linear Schr\"odinger equation and its
+finite difference space semi-discretization and illustrate the lack of uniform
+dispersive properties of the numerical solutions as established in Ignat,
+Zuazua, Numerical dispersive schemes for the nonlinear Schr\"odinger equation,
+SIAM. J. Numer. Anal., 47(2) (2009), 1366-1390. It is by now well known that
+bigrid algorithms provide filtering mechanisms allowing to recover the
+uniformity of the dispersive properties as the mesh size goes to zero. We
+analyze and illustrate numerically how these high frequency wave packets split
+and propagate under these bigrid filtering mechanisms, depending on how the
+fine grid/coarse grid filtering is implemented.

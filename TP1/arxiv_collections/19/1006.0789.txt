@@ -1,0 +1,12 @@
+Let $K\in L^1(\mathbb R)$ and let $f\in L^\infty(\mathbb R)$ be two functions
+on $\mathbb R$. The convolution $$(K\ast f)(x)=\int_{\mathbb R}K(x-y)f(y)dy$$
+can be considered as an average of $f$ with weight defined by $K$. Wiener's
+Tauberian theorem says that under suitable conditions, if $$\lim_{x\to
+\infty}(K\ast f)(x)=\lim_{x\to \infty} (K\ast A)(x)$$ for some constant $A$,
+then $$\lim_{x\to \infty}f(x)=A.$$ We prove the following $\ell$-adic analogue
+of this theorem: Suppose $K,F, G$ are perverse $\ell$-adic sheaves on the
+affine line $\mathbb A$ over an algebraically closed field of characteristic
+$p$ ($p\not=\ell$). Under suitable conditions, if $$(K\ast
+F)|_{\eta_\infty}\cong (K\ast G)|_{\eta_\infty},$$ then $$F|_{\eta_\infty}\cong
+G|_{\eta_\infty},$$ where $\eta_\infty$ is the spectrum of the local field of
+$\mathbb A$ at $\infty$.

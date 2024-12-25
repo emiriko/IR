@@ -1,0 +1,18 @@
+This paper describes an efficient reduction of the learning problem of
+ranking to binary classification. The reduction guarantees an average pairwise
+misranking regret of at most that of the binary classifier regret, improving a
+recent result of Balcan et al which only guarantees a factor of 2. Moreover,
+our reduction applies to a broader class of ranking loss functions, admits a
+simpler proof, and the expected running time complexity of our algorithm in
+terms of number of calls to a classifier or preference function is improved
+from $\Omega(n^2)$ to $O(n \log n)$. In addition, when the top $k$ ranked
+elements only are required ($k \ll n$), as in many applications in information
+extraction or search engines, the time complexity of our algorithm can be
+further reduced to $O(k \log k + n)$. Our reduction and algorithm are thus
+practical for realistic applications where the number of points to rank exceeds
+several thousands. Much of our results also extend beyond the bipartite case
+previously studied.
+  Our rediction is a randomized one. To complement our result, we also derive
+lower bounds on any deterministic reduction from binary (preference)
+classification to ranking, implying that our use of a randomized reduction is
+essentially necessary for the guarantees we provide.

@@ -1,0 +1,13 @@
+We develop an approach to incorporate additional knowledge, in the form of
+general purpose integrity constraints (ICs), to reduce uncertainty in
+probabilistic databases. While incorporating ICs improves data quality (and
+hence quality of answers to a query), it significantly complicates query
+processing. To overcome the additional complexity, we develop an approach to
+map an uncertain relation U with ICs to another uncertain relation U', that
+approximates the set of consistent worlds represented by U. Queries over U can
+instead be evaluated over U' achieving higher quality (due to reduced
+uncertainty in U') without additional complexity in query processing due to
+ICs. We demonstrate the effectiveness and scalability of our approach to large
+data-sets with complex constraints. We also present experimental results
+demonstrating the utility of incorporating integrity constraints in uncertain
+relations, in the context of an information extraction application.

@@ -1,0 +1,24 @@
+Astrometric surveys provide the opportunity to measure the absolute
+magnitudes of large numbers of stars, but only if the individual line-of-sight
+extinctions are known. Unfortunately, extinction is highly degenerate with
+stellar effective temperature when estimated from broad band optical/infrared
+photometry. To address this problem, I introduce a Bayesian method for
+estimating the intrinsic parameters of a star and its line-of-sight extinction.
+It uses both photometry and parallaxes in a self-consistent manner in order to
+provide a non-parametric posterior probability distribution over the
+parameters. The method makes explicit use of domain knowledge by employing the
+Hertzsprung--Russell Diagram (HRD) to constrain solutions and to ensure that
+they respect stellar physics. I first demonstrate this method by using it to
+estimate effective temperature and extinction from BVJHK data for a set of
+artificially reddened Hipparcos stars, for which accurate effective
+temperatures have been estimated from high resolution spectroscopy. Using just
+the four colours, we see the expected strong degeneracy (positive correlation)
+between the temperature and extinction. Introducing the parallax, apparent
+magnitude and the HRD reduces this degeneracy and improves both the precision
+(reduces the error bars) and the accuracy of the parameter estimates, the
+latter by about 35%. The resulting accuracy is about 200K in temperature and
+0.2mag in extinction. I then apply the method to estimate these parameters and
+absolute magnitudes for some 47000 F,G,K Hipparcos stars which have been
+cross-matched with 2MASS. The method can easily be extended to incorporate the
+estimation of other parameters, in particular metallicity and surface gravity,
+making it particularly suitable for the analysis of the 10^9 stars from Gaia.

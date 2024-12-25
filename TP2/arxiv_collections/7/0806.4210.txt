@@ -1,0 +1,8 @@
+We prove that the class of functions g:{-1,+1}^n -> {-1,+1} that only depend
+on an unknown subset of k<<n variables (so-called k-juntas) is agnostically
+learnable from a random walk in time polynomial in n, 2^{k^2}, epsilon^{-k},
+and log(1/delta). In other words, there is an algorithm with the claimed
+running time that, given epsilon, delta > 0 and access to a random walk on
+{-1,+1}^n labeled by an arbitrary function f:{-1,+1}^n -> {-1,+1}, finds with
+probability at least 1-delta a k-junta that is (opt(f)+epsilon)-close to f,
+where opt(f) denotes the distance of a closest k-junta to f.

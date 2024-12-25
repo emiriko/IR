@@ -1,0 +1,22 @@
+This report describes a cantilever controller for magnetic resonance force
+microscopy (MRFM) based on a field programmable gate array (FPGA), along with
+the hardware and software used to integrate the controller into an experiment.
+The controller is assembled from a low-cost commercially available software
+defined radio (SDR) device and libraries of open-source software. The
+controller includes a digital filter comprising two cascaded second-order
+sections ("biquads"), which together can implement transfer functions for
+optimal cantilever controllers. An appendix in this report shows how to
+calculate filter coefficients for an optimal controller from measured
+cantilever characteristics. The controller also includes an input multiplexer
+and adder used in calibration protocols. Filter coefficients and multiplexer
+settings can be set and adjusted by control software while an experiment is
+running. The input is sampled at 64 MHz; the sampling frequency in the filters
+can be divided down under software control to achieve a good match with filter
+characterisics. Data reported here were sampled at 500 kHz, chosen for acoustic
+cantilevers with resonant frequencies near 8 kHz. Inputs are digitized with 12
+bits resolution, outputs with 14 bits. The experiment software is organized as
+a client and server to make it easy to adapt the controller to different
+experiments. The server encapusulates the details of controller hardware
+organization, connection technology, filter architecture, and number
+representation. The same server could be used in any experiment, while a
+different client encodes the particulars of each experiment.

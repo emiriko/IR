@@ -1,0 +1,15 @@
+A model-theoretic approach can establish security theorems for cryptographic
+protocols. Formulas expressing authentication and non-disclosure properties of
+protocols have a special form. They are quantified implications for all xs .
+(phi implies for some ys . psi). Models (interpretations) for these formulas
+are *skeletons*, partially ordered structures consisting of a number of local
+protocol behaviors. Realized skeletons contain enough local sessions to explain
+all the behavior, when combined with some possible adversary behaviors. We show
+two results. (1) If phi is the antecedent of a security goal, then there is a
+skeleton A_phi such that, for every skeleton B, phi is satisfied in B iff there
+is a homomorphism from A_phi to B. (2) A protocol enforces for all xs . (phi
+implies for some ys . psi) iff every realized homomorphic image of A_phi
+satisfies psi. Hence, to verify a security goal, one can use the Cryptographic
+Protocol Shapes Analyzer CPSA (TACAS, 2007) to identify minimal realized
+skeletons, or "shapes," that are homomorphic images of A_phi. If psi holds in
+each of these shapes, then the goal holds.

@@ -1,0 +1,12 @@
+We propose the following model of a random graph on n vertices. Let F be a
+distribution in R_+^{n(n-1)/2} with a coordinate for every pair i$ with 1 \le
+i,j \le n. Then G_{F,p} is the distribution on graphs with n vertices obtained
+by picking a random point X from F and defining a graph on n vertices whose
+edges are pairs ij for which X_{ij} \le p. The standard Erd\H{o}s-R\'{e}nyi
+model is the special case when F is uniform on the 0-1 unit cube. We examine
+basic properties such as the connectivity threshold for quite general
+distributions. We also consider cases where the X_{ij} are the edge weights in
+some random instance of a combinatorial optimization problem. By choosing
+suitable distributions, we can capture random graphs with interesting
+properties such as triangle-free random graphs and weighted random graphs with
+bounded total weight.

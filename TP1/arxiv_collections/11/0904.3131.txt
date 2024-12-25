@@ -1,0 +1,19 @@
+We develop simple numerical algorithms for both stationary and non-stationary
+solutions of the time-dependent Gross-Pitaevskii (GP) equation describing the
+properties of Bose-Einstein condensates at ultra low temperatures. In
+particular, we consider algorithms involving real and imaginary-time
+propagation based on a split-step Crank-Nicolson method. In a
+one-space-variable form of the GP equation we consider the one-dimensional
+linear, two-dimensional circularly symmetric, and the three-dimensional
+spherically-symmetric traps. In the two-space-variable form we consider the GP
+equation in two-dimensional anisotropic and three-dimensional axially-symmetric
+traps. The fully-anisotropic three-dimensional GP equation is also considered.
+Numerical results for the chemical potential and root-mean-square size of
+stationary states are reported using imaginary-time propagation programs for
+all the cases and compared with previously obtained results. Also presented are
+numerical results of non-stationary oscillation for different trap symmetries
+using real-time propagation programs. A set of convenient working codes
+developed in Fortran 77 are also provided for all these cases (twelve programs
+in all). In the case of two or three space variables, {Fortran 90/95 versions
+provide some simplification over the Fortran 77 programs}, and these programs
+are also included (six programs in all).

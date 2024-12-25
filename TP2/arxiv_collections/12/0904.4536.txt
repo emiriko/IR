@@ -1,0 +1,20 @@
+In the recent years we have performed various experiments on the collision
+dynamics of highly porous dust aggregates and although we now have a
+comprehensive picture of the micromechanics of those aggregates, the
+macroscopic understanding is still lacking. We are therefore developing a
+mechanical model to describe dust aggregate collisions with macroscopic
+parameters like tensile strength, compressive strength and shear strength. For
+one well defined dust sample material, the tensile and compressive strength
+were measured in a static experiment and implemented in a Smoothed Particle
+Hydrodynamics (SPH) code. A laboratory experiment was designed to compare the
+laboratory results with the results of the SPH simulation. In this experiment,
+a mm-sized glass bead is dropped into a cm-sized dust aggregate with the
+previously measured strength parameters. We determine the deceleration of the
+glass bead by high-speed imaging and the compression of the dust aggregate by
+x-ray micro-tomography. The measured penetration depth, stopping time and
+compaction under the glass bead are utilized to calibrate and test the SPH
+code. We find that the statically measured compressive strength curve is only
+applicable if we adjust it to the dynamic situation with a 'softness'
+parameter. After determining this parameter, the SPH code is capable of
+reproducing experimental results, which have not been used for the calibration
+before.

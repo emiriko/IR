@@ -1,0 +1,18 @@
+This paper considers N mobile nodes that move together in the vicinity of
+each other, whose initial poses as well as subsequent movements must be
+accurately tracked in real time with the assist of M(>=3) reference nodes. By
+engaging the neighboring mobile nodes in a simple but effective cooperation,
+and by exploiting both the time-of-arrival (TOA) information (between mobile
+nodes and reference nodes) and the received-signal-strength (RSS) information
+(between mobile nodes), an effective new localization strategy, termed
+cooperative TOA and RSS (COTAR), is developed. An optimal maximum likelihood
+detector is first formulated, followed by the derivation of a low-complexity
+iterative approach that can practically achieve the Cramer-Rao lower bound.
+Instead of using simplified channel models as in many previous studies, a
+sophisticated and realistic channel model is used, which can effectively
+account for the critical fact that the direct path is not necessarily the
+strongest path. Extensive simulations are conducted in static and mobile
+settings, and various practical issues and system parameters are evaluated. It
+is shown that COTAR significantly outperforms the existing strategies,
+achieving a localization accuracy of only a few tenths of a meter in clear
+environments and a couple of meters in heavily obstructed environments.

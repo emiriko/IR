@@ -1,0 +1,14 @@
+We consider theoretical limits of partial secrecy in a setting where an
+eavesdropper attempts to causally reconstruct an information sequence with low
+distortion based on an intercepted transmission and the past of the sequence.
+The transmitter and receiver have limited secret key at their disposal but not
+enough to establish perfect secrecy with a one-time pad. From another
+viewpoint, the eavesdropper is acting as an adversary, competing in a zero-sum
+repeated game against the sender and receiver of the secrecy system. In this
+case, the information sequence represents a sequence of actions, and the
+distortion function captures the payoff of the game.
+  We give an information theoretic region expressing the tradeoff between
+secret key rate and max-min distortion for the eavesdropper. We also simplify
+this characterization to a linear program. As an example, we discuss how to
+optimally use secret key to hide Bernoulli-p bits from an eavesdropper so that
+they incur maximal Hamming distortion.

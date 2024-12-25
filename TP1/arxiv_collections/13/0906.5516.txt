@@ -1,0 +1,13 @@
+We employ the PLUTO code for computational astrophysics to assess and compare
+the validity of different numerical algorithms on simulations of the
+magneto-rotational instability in 3D accretion disks. In particular we stress
+on the importance of using a consistent upwind reconstruction of the
+electro-motive force (EMF) when using the constrained transport (CT) method to
+avoid the onset of numerical instabilities. We show that the electro-motive
+force (EMF) reconstruction in the classical constrained transport (CT) method
+for Godunov schemes drives a numerical instability. The well-studied linear
+growth of magneto-rotational instability (MRI) is used as a benchmark for an
+inter-code comparison of PLUTO and ZeusMP. We reproduce the analytical results
+for linear MRI growth in 3D global MHD simulations and present a robust and
+accurate Godunov code which can be used for 3D accretion disk simulations in
+curvilinear coordinate systems.

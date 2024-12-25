@@ -1,0 +1,13 @@
+We present a description of the design and usage of a new synoptic pipeline
+and database model for time series photometry in the VISTA Data Flow System
+(VDFS). All UKIRT-WFCAM data and most of the VISTA main survey data will be
+processed and archived by the VDFS. Much of these data are multi-epoch, useful
+for finding moving and variable objects. Our new database design allows the
+users to easily find rare objects of these types amongst the huge volume of
+data being produced by modern survey telescopes. Its effectiveness is
+demonstrated through examples using Data Release 5 of the UKIDSS Deep
+Extragalactic Survey (DXS) and the WFCAM standard star data. The synoptic
+pipeline provides additional quality control and calibration to these data in
+the process of generating accurate light-curves. We find that 0.6+-0.1% of
+stars and 2.3+-0.6% of galaxies in the UKIDSS-DXS with K<15 mag are variable
+with amplitudes \Delta K>0.015 mag

@@ -1,0 +1,10 @@
+Sequential techniques can enhance the efficiency of the approximate Bayesian
+computation algorithm, as in Sisson et al.'s (2007) partial rejection control
+version. While this method is based upon the theoretical works of Del Moral et
+al. (2006), the application to approximate Bayesian computation results in a
+bias in the approximation to the posterior. An alternative version based on
+genuine importance sampling arguments bypasses this difficulty, in connection
+with the population Monte Carlo method of Cappe et al. (2004), and it includes
+an automatic scaling of the forward kernel. When applied to a population
+genetics example, it compares favourably with two other versions of the
+approximate algorithm.

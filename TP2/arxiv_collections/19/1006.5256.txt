@@ -1,0 +1,23 @@
+We present the hardware and software systems implementing autonomous
+operation, distributed real-time monitoring, and control for the EBEX
+instrument. EBEX is a NASA-funded balloon-borne microwave polarimeter designed
+for a 14 day Antarctic flight that circumnavigates the pole. To meet its
+science goals the EBEX instrument autonomously executes several tasks in
+parallel: it collects attitude data and maintains pointing control in order to
+adhere to an observing schedule; tunes and operates up to 1920 TES bolometers
+and 120 SQUID amplifiers controlled by as many as 30 embedded computers;
+coordinates and dispatches jobs across an onboard computer network to manage
+this detector readout system; logs over 3~GiB/hour of science and housekeeping
+data to an onboard disk storage array; responds to a variety of commands and
+exogenous events; and downlinks multiple heterogeneous data streams
+representing a selected subset of the total logged data. Most of the systems
+implementing these functions have been tested during a recent engineering
+flight of the payload, and have proven to meet the target requirements. The
+EBEX ground segment couples uplink and downlink hardware to a client-server
+software stack, enabling real-time monitoring and command responsibility to be
+distributed across the public internet or other standard computer networks.
+Using the emerging dirfile standard as a uniform intermediate data format, a
+variety of front end programs provide access to different components and views
+of the downlinked data products. This distributed architecture was demonstrated
+operating across multiple widely dispersed sites prior to and during the EBEX
+engineering flight.

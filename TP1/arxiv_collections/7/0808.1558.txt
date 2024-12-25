@@ -1,0 +1,16 @@
+We present a dynamic learning paradigm for "programming" a general quantum
+computer. A learning algorithm is used to find the control parameters for a
+coupled qubit system, such that the system at an initial time evolves to a
+state in which a given measurement corresponds to the desired operation. This
+can be thought of as a quantum neural network. We first apply the method to a
+system of two coupled superconducting quantum interference devices (SQUIDs),
+and demonstrate learning of both the classical gates XOR and XNOR. Training of
+the phase produces a gate congruent to the CNOT modulo a phase shift. Striking
+out for somewhat more interesting territory, we attempt learning of an
+entanglement witness for a two qubit system. Simulation shows a reasonably
+successful mapping of the entanglement at the initial time onto the correlation
+function at the final time for both pure and mixed states. For pure states this
+mapping requires knowledge of the phase relation between the two parts;
+however, given that knowledge, this method can be used to measure the
+entanglement of an otherwise unknown state. The method is easily extended to
+multiple qubits or to quNits.

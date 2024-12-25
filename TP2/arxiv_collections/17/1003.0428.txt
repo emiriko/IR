@@ -1,0 +1,23 @@
+Because of their multimodality, mixture posterior distributions are difficult
+to sample with standard Markov chain Monte Carlo (MCMC) methods. We propose a
+strategy to enhance the sampling of MCMC in this context, using a biasing
+procedure which originates from computational Statistical Physics. The
+principle is first to choose a "reaction coordinate", that is, a "direction" in
+which the target distribution is multimodal. In a second step, the marginal
+log-density of the reaction coordinate with respect to the posterior
+distribution is estimated; minus this quantity is called "free energy" in the
+computational Statistical Physics literature. To this end, we use adaptive
+biasing Markov chain algorithms which adapt their targeted invariant
+distribution on the fly, in order to overcome sampling barriers along the
+chosen reaction coordinate. Finally, we perform an importance sampling step in
+order to remove the bias and recover the true posterior. The efficiency factor
+of the importance sampling step can easily be estimated \emph{a priori} once
+the bias is known, and appears to be rather large for the test cases we
+considered. A crucial point is the choice of the reaction coordinate. One
+standard choice (used for example in the classical Wang-Landau algorithm) is
+minus the log-posterior density. We discuss other choices. We show in
+particular that the hyper-parameter that determines the order of magnitude of
+the variance of each component is both a convenient and an efficient reaction
+coordinate. We also show how to adapt the method to compute the evidence
+(marginal likelihood) of a mixture model. We illustrate our approach by
+analyzing two real data sets.

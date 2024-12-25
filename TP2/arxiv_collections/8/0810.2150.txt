@@ -1,0 +1,15 @@
+A common paradigm for scientific computing is distributed message-passing
+systems, and a common approach to these systems is to implement them across
+clusters of high-performance workstations. As multi-core architectures become
+increasingly mainstream, these clusters are very likely to include multi-core
+machines. However, the theoretical models which are currently used to develop
+communication algorithms across these systems do not take into account the
+unique properties of processes running on shared-memory architectures,
+including shared external network connections and communication via shared
+memory locations. Because of this, existing algorithms are far from optimal for
+modern clusters. Additionally, recent attempts to adapt these algorithms to
+multicore systems have proceeded without the introduction of a more accurate
+formal model and have generally neglected to capitalize on the full power these
+systems offer. We propose a new model which simply and effectively captures the
+strengths of multi-core machines in collective communications patterns and
+suggest how it could be used to properly optimize these patterns.

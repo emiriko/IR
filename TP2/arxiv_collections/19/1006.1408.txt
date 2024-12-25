@@ -1,0 +1,16 @@
+The classic approaches to synthesize a reactive system from a linear temporal
+logic (LTL) specification first translate the given LTL formula to an
+equivalent omega-automaton and then compute a winning strategy for the
+corresponding omega-regular game. To this end, the obtained omega-automata have
+to be (pseudo)-determinized where typically a variant of Safra's
+determinization procedure is used. In this paper, we show that this
+determinization step can be significantly improved for tool implementations by
+replacing Safra's determinization by simpler determinization procedures. In
+particular, we exploit (1) the temporal logic hierarchy that corresponds to the
+well-known automata hierarchy consisting of safety, liveness, Buechi, and
+co-Buechi automata as well as their boolean closures, (2) the non-confluence
+property of omega-automata that result from certain translations of LTL
+formulas, and (3) symbolic implementations of determinization procedures for
+the Rabin-Scott and the Miyano-Hayashi breakpoint construction. In particular,
+we present convincing experimental results that demonstrate the practical
+applicability of our new synthesis procedure.

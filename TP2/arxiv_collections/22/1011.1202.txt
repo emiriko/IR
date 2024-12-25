@@ -1,0 +1,20 @@
+We study a combinatorial problem arising from microarrays synthesis. The
+synthesis is done by a light-directed chemical process. The objective is to
+minimize unintended illumination that may contaminate the quality of
+experiments. Unintended illumination is measured by a notion called border
+length and the problem is called Border Minimization Problem (BMP). The
+objective of the BMP is to place a set of probe sequences in the array and find
+an embedding (deposition of nucleotides/residues to the array cells) such that
+the sum of border length is minimized. A variant of the problem, called P-BMP,
+is that the placement is given and the concern is simply to find the embedding.
+Approximation algorithms have been previously proposed for the problem but it
+is unknown whether the problem is NP-hard or not. In this paper, we give a
+thorough study of different variations of BMP by giving NP-hardness proofs and
+improved approximation algorithms. We show that P-BMP, 1D-BMP, and BMP are all
+NP-hard. Contrast with the previous result that 1D-P-BMP is polynomial time
+solvable, the interesting implications include (i) the array dimension (1D or
+2D) differentiates the complexity of P-BMP; (ii) for 1D array, whether
+placement is given differentiates the complexity of BMP; (iii) BMP is NP-hard
+regardless of the dimension of the array. Another contribution of the paper is
+improving the approximation for BMP from $O(n^{1/2} \log^2 n)$ to $O(n^{1/4}
+\log^2 n)$, where $n$ is the total number of sequences.

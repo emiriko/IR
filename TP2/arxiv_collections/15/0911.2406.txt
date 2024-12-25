@@ -1,0 +1,22 @@
+A continuous time model for multiagent systems governed by reinforcement
+learning with scale-free memory is developed. The agents are assumed to act
+independently of one another in optimizing their choice of possible actions via
+trial-and-error search. To gain awareness about the action value the agents
+accumulate in their memory the rewards obtained from taking a specific action
+at each moment of time. The contribution of the rewards in the past to the
+agent current perception of action value is described by an integral operator
+with a power-law kernel. Finally a fractional differential equation governing
+the system dynamics is obtained. The agents are considered to interact with one
+another implicitly via the reward of one agent depending on the choice of the
+other agents. The pairwise interaction model is adopted to describe this
+effect. As a specific example of systems with non-transitive interactions, a
+two agent and three agent systems of the rock-paper-scissors type are analyzed
+in detail, including the stability analysis and numerical simulation.
+Scale-free memory is demonstrated to cause complex dynamics of the systems at
+hand. In particular, it is shown that there can be simultaneously two modes of
+the system instability undergoing subcritical and supercritical bifurcation,
+with the latter one exhibiting anomalous oscillations with the amplitude and
+period growing with time. Besides, the instability onset via this supercritical
+mode may be regarded as "altruism self-organization". For the three agent
+system the instability dynamics is found to be rather irregular and can be
+composed of alternate fragments of oscillations different in their properties.

@@ -1,0 +1,15 @@
+Modeling and understanding BitTorrent (BT) dynamics is a recurrent research
+topic mainly due to its high complexity and tremendous practical efficiency.
+Over the years, different models have uncovered various phenomena exhibited by
+the system, many of which have direct impact on its performance. In this paper
+we identify and characterize a phenomenon that has not been previously
+observed: homogeneous peers (with respect to their upload capacities)
+experience heterogeneous download rates. The consequences of this phenomenon
+have direct impact on peer and system performance, such as high variability of
+download times, unfairness with respect to peer arrival order, bursty
+departures and content synchronization. Detailed packet-level simulations and
+prototype-based experiments on the Internet were performed to characterize this
+phenomenon. We also develop a mathematical model that accurately predicts the
+heterogeneous download rates of the homogeneous peers as a function of their
+content. Although this phenomenon is more prevalent in unpopular swarms (very
+few peers), these by far represent the most common type of swarm in BT.

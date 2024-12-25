@@ -1,0 +1,15 @@
+Modern graphics processing units (GPUs) provide impressive computing
+resources, which can be accessed conveniently through the CUDA programming
+interface. We describe how GPUs can be used to considerably speed up molecular
+dynamics (MD) simulations for system sizes ranging up to about 1 million
+particles. Particular emphasis is put on the numerical long-time stability in
+terms of energy and momentum conservation, and caveats on limited
+floating-point precision are issued. Strict energy conservation over 10^8 MD
+steps is obtained by double-single emulation of the floating-point arithmetic
+in accuracy-critical parts of the algorithm. For the slow dynamics of a
+supercooled binary Lennard-Jones mixture, we demonstrate that the use of
+single-floating point precision may result in quantitatively and even
+physically wrong results. For simulations of a Lennard-Jones fluid, the
+described implementation shows speedup factors of up to 80 compared to a serial
+implementation for the CPU, and a single GPU was found to compare with a
+parallelised MD simulation using 64 distributed cores.

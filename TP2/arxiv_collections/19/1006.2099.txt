@@ -1,0 +1,8 @@
+The symbolic manipulation program FORM is specialized to handle very large
+algebraic expressions. Some specific features of its internal structure make
+FORM very well suited for parallelization.
+  We have now two parallel versions of FORM, one is based on POSIX threads and
+is optimal for modern multicore computers while another one uses MPI and can be
+used to parallelize FORM on clusters and Massive Parallel Processing systems.
+Most existing FORM programs will be able to take advantage of the parallel
+execution without the need for modifications.

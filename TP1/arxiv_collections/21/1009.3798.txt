@@ -1,0 +1,10 @@
+Inference in probabilistic logic languages such as ProbLog, an extension of
+Prolog with probabilistic facts, is often based on a reduction to a
+propositional formula in DNF. Calculating the probability of such a formula
+involves the disjoint-sum-problem, which is computationally hard. In this work
+we introduce a new approximation method for ProbLog inference which exploits
+the DNF to focus sampling. While this DNF sampling technique has been applied
+to a variety of tasks before, to the best of our knowledge it has not been used
+for inference in probabilistic logic systems. The paper also presents an
+experimental comparison with another sampling based inference method previously
+introduced for ProbLog.

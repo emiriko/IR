@@ -1,0 +1,22 @@
+Spectral moment sum rules are presented for the inhomogeneous many-body
+problem described by the fermionic Falicov-Kimball or Hubbard models. These
+local sum rules allow for arbitrary hoppings, site energies, and interactions.
+They can be employed to quantify the accuracy of numerical solutions to the
+inhomogeneous many-body problem like strongly correlated multilayered devices,
+ultracold atoms in an optical lattice with a trap potential, strongly
+correlated systems that are disordered, or systems with nontrivial spatial
+ordering like a charge density wave or a spin density wave. We also show how
+the spectral moment sum rules determine the asymptotic behavior of the Green
+function, self-energy, and dynamical mean field, when applied to the dynamical
+mean-field theory solution of the many body problem. In particular, we
+illustrate in detail how one can dramatically reduce the number of Matsubara
+frequencies needed to solve the Falicov-Kimball model, while still retaining
+high precision, and we sketch how one can incorporate these results into
+Hirsch-Fye quantum Monte Carlo solvers for the Hubbard (or more complicated)
+models. Since the solution of inhomogeneous problems is significantly more time
+consuming than periodic systems, efficient use of these sum rules can provide a
+dramatic speed up in the computational time required to solve the many-body
+problem. We also discuss how these sum rules behave in nonequilibrium
+situations as well, where the Hamiltonian has explicit time dependence due to a
+driving field or due to the time-dependent change of a parameter like the
+interaction strength or the origin of the trap potential.

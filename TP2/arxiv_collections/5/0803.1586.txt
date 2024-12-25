@@ -1,0 +1,10 @@
+We present the SAMMI lightweight object detection method which has a high
+level of accuracy and robustness, and which is able to operate in an
+environment with a large number of cameras. Background modeling is based on DCT
+coefficients provided by cameras. Foreground detection uses similarity in
+temporal characteristics of adjacent blocks of pixels, which is a
+computationally inexpensive way to make use of object coherence. Scene model
+updating uses the approximated median method for improved performance.
+Evaluation at pixel level and application level shows that SAMMI object
+detection performs better and faster than the conventional Mixture of Gaussians
+method.

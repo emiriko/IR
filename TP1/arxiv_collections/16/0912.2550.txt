@@ -1,0 +1,13 @@
+We present a new distributed algorithm for state space minimization modulo
+branching bisimulation. Like its predecessor it uses signatures for refinement,
+but the refinement process and the signatures have been optimized to exploit
+the fact that the input graph contains no tau-loops.
+  The optimization in the refinement process is meant to reduce both the number
+of iterations needed and the memory requirements. In the former case we cannot
+prove that there is an improvement, but our experiments show that in many cases
+the number of iterations is smaller. In the latter case, we can prove that the
+worst case memory use of the new algorithm is linear in the size of the state
+space, whereas the old algorithm has a quadratic upper bound.
+  The paper includes a proof of correctness of the new algorithm and the
+results of a number of experiments that compare the performance of the old and
+the new algorithms.

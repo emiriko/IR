@@ -1,0 +1,19 @@
+In many experiments, the aim is to deduce an underlying multi-substate on-off
+kinetic scheme (KS) from the statistical properties of a two-state trajectory.
+However, the mapping of a KS into a two-state trajectory leads to the loss of
+information about the KS, and so, in many cases, more than one KS can be
+associated with the data. We recently showed that the optimal way to solve this
+problem is to use canonical forms of reduced dimensions (RD). RD forms are
+on-off networks with connections only between substates of different states,
+where the connections can have non-exponential waiting time probability density
+functions (WT-PDFs). In theory, only a single RD form can be associated with
+the data. To utilize RD forms in the analysis of the data, a RD form should be
+associated with the data. Here, we give a toolbox for building a RD form from a
+finite two-state trajectory. The methods in the toolbox are based on known
+statistical methods in data analysis, combined with statistical methods and
+numerical algorithms designed specifically for the current problem. Our toolbox
+is self-contained - it builds a mechanism based only on the information it
+extracts from the data, and its implementation on the data is fast (analyzing a
+10^6 cycle trajectory from a thirty-parameter mechanism takes a couple of hours
+on a PC with a 2.66 GHz processor). The toolbox is automated and is freely
+available for academic research upon electronic request.

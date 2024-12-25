@@ -1,0 +1,15 @@
+In the past, we have observed several large blackouts, i.e. loss of power to
+large areas. It has been noted by several researchers that these large
+blackouts are a result of a cascade of failures of various components. As a
+power grid is made up of several thousands or even millions of components
+(relays, breakers, transformers, etc.), it is quite plausible that a few of
+these components do not perform their function as desired. Their
+failure/misbehavior puts additional burden on the working components causing
+them to misbehave, and thus leading to a cascade of failures.
+  The complexity of the entire power grid makes it difficult to model each and
+every individual component and study the stability of the entire system. For
+this reason, it is often the case that abstract models of the working of the
+power grid are constructed and then analyzed. These models need to be
+computationally tractable while serving as a reasonable model for the entire
+system. In this work, we construct one such model for the power grid, and
+analyze it.

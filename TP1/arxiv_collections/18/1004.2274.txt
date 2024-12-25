@@ -1,0 +1,19 @@
+The Aviles Giga functional is a well known second order functional that forms
+a model for blistering and in a certain regime liquid crystals, a related
+functional models thin magnetized films. Given Lipschitz domain $\Omega\subset
+R^2$ the functional is $I_{\epsilon}(u)=1/2\int_{\Omega}
+\epsilon^{-1}|1-|Du|^2|^2+\epsilon|D^2 u|^2$ where $u$ belongs to the subset of
+functions in $W^{2,2}_{0}(\Omega)$ whose gradient (in the sense of trace)
+satisfies $Du(x)\cdot \eta_x=1$ where $\eta_x$ is the inward pointing unit
+normal to $\partial \Omega$ at $x$. In Jabin, Otto, Perthame characterized a
+class of functions which includes all limits of sequences $u_n\in
+W^{2,2}_0(\Omega)$ with $I_{\epsilon_n}(u_n)\to 0$ as $\epsilon_n\to 0$. A
+corollary to their work is that if there exists such a sequence $(u_n)$ for a
+bounded domain $\Omega$, then $\Omega$ must be a ball and (up to change of
+sign) $u:=\lim_{n\to \infty} u_n =\mathrm{dist}(\cdot,\partial\Omega)$.
+Recently we provided a quantitative generalization of this corollary over the
+space of convex domains using `compensated compactness' inspired calculations
+originating from the proof of coercivity of $I_{\epsilon}$ by DeSimone, Muller,
+Kohn, Otto. In this note we use methods of regularity theory and ODE to provide
+a sharper estimate and a much simpler proof for the case where $\Omega=B_1(0)$
+without the requiring the trace condition on $Du$.

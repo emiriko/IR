@@ -1,0 +1,13 @@
+Let $s$ be a finite sequence over a field of length $n$. It is well-known
+that if $s$ satisfies a linear recurrence of order $d$ with non-zero constant
+term, then the reverse of $s$ also satisfies a recurrence of order $d$ (with
+coefficients in reverse order). A recent article of A. Salagean proposed an
+algorithm to find such a shortest 'two-way' recurrence -- which may be longer
+than a linear recurrence for $s$ of shortest length $\LC_n$.
+  We give a new and simpler algorithm to compute a shortest two-way linear
+recurrence. First we show that the pairs of polynomials we use to construct a
+minimal polynomial iteratively are always relatively prime; we also give the
+extended multipliers. Then we combine degree lower bounds with a
+straightforward rewrite of a published algorithm due to the author to obtain
+our simpler algorithm. The increase in shortest length is
+$\max\{n+1-2\LC_n,0\}$.

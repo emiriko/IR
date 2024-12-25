@@ -1,0 +1,9 @@
+We describe the physical model, numerical algorithms, and software structure
+of WRF-Fire. WRF-Fire consists of a fire-spread model, implemented by the
+level-set method, coupled with the Weather Research and Forecasting model. In
+every time step, the fire model inputs the surface wind, which drives the fire,
+and outputs the heat flux from the fire into the atmosphere, which in turn
+influences the atmosphere. The level-set method allows submesh representation
+of the burning region and flexible implementation of various ignition modes.
+WRF-Fire is distributed as a part of WRF and it uses the WRF parallel
+infrastructure for parallel computing.

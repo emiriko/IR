@@ -1,0 +1,15 @@
+It is not so well-known that measurement-free quantum error correction
+protocols can be designed to achieve fault-tolerant quantum computing. Despite
+the potential advantages of using such protocols in terms of the relaxation of
+accuracy, speed and addressing requirements on the measurement process, they
+have usually been overlooked because they are expected to yield a very bad
+threshold as compared to error correction protocols which use measurements.
+Here we show that this is not the case. We design fault-tolerant circuits for
+the 9 qubit Bacon-Shor code and find a threshold for gates and preparation of
+$p_{(p,g) thresh}=3.76 \times 10^{-5}$ (30% of the best known result for the
+same code using measurement based error correction) while admitting up to 1/3
+error rates for measurements and allocating no constraints on measurement
+speed. We further show that demanding gate error rates sufficiently below the
+threshold one can improve the preparation threshold to $p_{(p)thresh} = 1/3$.
+We also show how these techniques can be adapted to other
+Calderbank-Shor-Steane codes.

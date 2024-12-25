@@ -1,0 +1,16 @@
+A deflated and restarted Lanczos algorithm to solve hermitian linear systems,
+and at the same time compute eigenvalues and eigenvectors for application to
+multiple right-hand sides, is described. For the first right-hand side,
+eigenvectors with small eigenvalues are computed while simultaneously solving
+the linear system. Two versions of this algorithm are given. The first is
+called Lan-DR and is based on conjugate gradient (CG) implementation of the
+Lanczos algorithm. This version will be optimal for the hermitian positive
+definite case. The second version is called MinRes-DR and is based on the
+minimum residual (MinRes) implementation of Lanczos algorithm. This version is
+optimal for indefinite hermitian systems where the CG algorithm is subject to
+instabilities. For additional right-hand sides, we project over the calculated
+eigenvectors to speed up convergence. The algorithms used for subsequent
+right-hand sides are called D-CG and D-MinRes respectively. After some
+introductory examples are given, we show tests for the case of Wilson fermions
+at kappa critical. A considerable speed up in the convergence is observed
+compared to unmodified CG and MinRes.

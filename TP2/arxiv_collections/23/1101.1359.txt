@@ -1,0 +1,14 @@
+Exponential-family random graph models (ERGMs) provide a principled and
+flexible way to model and simulate features common in social networks, such as
+propensities for homophily, mutuality, and friend-of-a-friend triad closure,
+through choice of model terms (sufficient statistics). However, those ERGMs
+modeling the more complex features have, to date, been limited to binary data:
+presence or absence of ties. Thus, analysis of valued networks, such as those
+where counts, measurements, or ranks are observed, has necessitated
+dichotomizing them, losing information and introducing biases.
+  In this work, we generalize ERGMs to valued networks. Focusing on modeling
+counts, we formulate an ERGM for networks whose ties are counts and discuss
+issues that arise when moving beyond the binary case. We introduce model terms
+that generalize and model common social network features for such data and
+apply these methods to a network dataset whose values are counts of
+interactions.

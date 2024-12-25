@@ -1,0 +1,12 @@
+The Algebraic lambda-calculus and the Linear-Algebraic lambda-calculus extend
+the lambda-calculus with the possibility of making arbitrary linear
+combinations of terms. In this paper we provide a fine-grained, System F-like
+type system for the linear-algebraic lambda-calculus. We show that this
+"scalar" type system enjoys both the subject-reduction property and the
+strong-normalisation property, our main technical results. The latter yields a
+significant simplification of the linear-algebraic lambda-calculus itself, by
+removing the need for some restrictions in its reduction rules. But the more
+important, original feature of this scalar type system is that it keeps track
+of 'the amount of a type' that is present in each term. As an example of its
+use, we shown that it can serve as a guarantee that the normal form of a term
+is barycentric, i.e that its scalars are summing to one.

@@ -1,0 +1,12 @@
+In the context of proving lower bounds on proof space in k-DNF resolution,
+[Ben-Sasson and Nordstrom 2009] introduced the concept of minimally
+unsatisfiable sets of k-DNF formulas and proved that a minimally unsatisfiable
+k-DNF set with m formulas can have at most O((mk)^(k+1)) variables. They also
+gave an example of such sets with Omega(mk^2) variables.
+  In this paper we significantly improve the lower bound to Omega(m)^k, which
+almost matches the upper bound above. Furthermore, we show that this implies
+that the analysis of their technique for proving time-space separations and
+trade-offs for k-DNF resolution is almost tight. This means that although it is
+possible, or even plausible, that stronger results than in [Ben-Sasson and
+Nordstrom 2009] should hold, a fundamentally different approach would be needed
+to obtain such results.

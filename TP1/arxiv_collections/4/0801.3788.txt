@@ -1,0 +1,11 @@
+Systems of polynomial equations over an algebraically-closed field K can be
+used to concisely model many combinatorial problems. In this way, a
+combinatorial problem is feasible (e.g., a graph is 3-colorable, hamiltonian,
+etc.) if and only if a related system of polynomial equations has a solution
+over K. In this paper, we investigate an algorithm aimed at proving
+combinatorial infeasibility based on the observed low degree of Hilbert's
+Nullstellensatz certificates for polynomial systems arising in combinatorics
+and on large-scale linear-algebra computations over K. We report on experiments
+based on the problem of proving the non-3-colorability of graphs. We
+successfully solved graph problem instances having thousands of nodes and tens
+of thousands of edges.

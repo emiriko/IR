@@ -1,0 +1,11 @@
+Every graph has a canonical finite abelian group attached to it. This group
+has appeared in the literature under a variety of names including the sandpile
+group, critical group, Jacobian group, and Picard group. The construction of
+this group closely mirrors the construction of the Jacobian variety of an
+algebraic curve. Motivated by this analogy, it was recently suggested by Norman
+Biggs that the critical group of a finite graph is a good candidate for doing
+discrete logarithm based cryptography. In this paper, we study a bilinear
+pairing on this group and show how to compute it. Then we use this pairing to
+find the discrete logarithm efficiently, thus showing that the associated
+cryptographic schemes are not secure. Our approach resembles the MOV attack on
+elliptic curves.

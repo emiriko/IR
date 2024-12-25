@@ -1,0 +1,24 @@
+Quantum optimal control experiments and simulations have successfully
+manipulated the dynamics of systems ranging from atoms to biomolecules.
+Surprisingly, these collective works indicate that the effort (i.e., the number
+of algorithmic iterations) required to find an optimal control field appears to
+be essentially invariant to the complexity of the system. The present work
+explores this matter in a series of systematic optimizations of the
+state-to-state transition probability on model quantum systems with the number
+of states $N$ ranging from 5 through 100. The optimizations occur over a
+landscape defined by the transition probability as a function of the control
+field. Previous theoretical studies on the topology of quantum control
+landscapes established that they should be free of sub-optimal traps under
+reasonable physical conditions. The simulations in this work include nearly
+5000 individual optimization test cases, all of which confirm this prediction
+by fully achieving optimal population transfer of at least 99.9% upon careful
+attention to numerical procedures to ensure that the controls are free of
+constraints. Collectively, the simulation results additionally show invariance
+of required search effort to system dimension $N$. This behavior is
+rationalized in terms of the structural features of the underlying control
+landscape. The very attractive observed scaling with system complexity may be
+understood by considering the distance traveled on the control landscape during
+a search and the magnitude of the control landscape slope. Exceptions to this
+favorable scaling behavior can arise when the initial control field fluence is
+too large or when the target final state recedes from the initial state as $N$
+increases.

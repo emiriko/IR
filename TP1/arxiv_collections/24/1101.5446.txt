@@ -1,0 +1,12 @@
+Goedel's functional "Dialectica" interpretation can be used to extract
+functional programs from non-constructive proofs in arithmetic by employing two
+sorts of higher-order witnessing terms: positive realisers and negative
+counterexamples. In the original interpretation decidability of atoms is
+required to compute the correct counterexample from a set of candidates. When
+combined with recursion, this choice needs to be made for every step in the
+extracted program, however, in some special cases the decision on negative
+witnesses can be calculated only once. We present a variant of the
+interpretation in which the time complexity of extracted programs can be
+improved by marking the chosen witness and thus avoiding recomputation. The
+achieved effect is similar to using an abortive control operator to interpret
+computational content of non-constructive principles.

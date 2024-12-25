@@ -1,0 +1,15 @@
+Many image watermarking schemes have been proposed in recent years, but they
+usually involve embedding a watermark to the entire image without considering
+only a particular object in the image, which the image owner may be interested
+in. This paper proposes a watermarking scheme that can embed a watermark to an
+arbitrarily shaped object in an image. Before embedding, the image owner
+specifies an object of arbitrary shape that is of a concern to him. Then the
+object is transformed into the wavelet domain using in place lifting shape
+adaptive DWT(SADWT) and a watermark is embedded by modifying the wavelet
+coefficients. In order to make the watermark robust and transparent, the
+watermark is embedded in the average of wavelet blocks using the visual model
+based on the human visual system. Wavelet coefficients n least significant bits
+(LSBs) are adjusted in concert with the average. Simulation results shows that
+the proposed watermarking scheme is perceptually invisible and robust against
+many attacks such as lossy compression (e.g.JPEG, JPEG2000), scaling, adding
+noise, filtering, etc.

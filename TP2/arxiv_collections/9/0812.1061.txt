@@ -1,0 +1,22 @@
+Multi-letter {\it quantum finite automata} (QFAs) were a quantum variant of
+classical {\it one-way multi-head finite automata} (J. Hromkovi\v{c}, Acta
+Informatica 19 (1983) 377-384), and it has been shown that this new one-way
+QFAs (multi-letter QFAs) can accept with no error some regular languages
+$(a+b)^{*}b$ that are unacceptable by the previous one-way QFAs. In this paper,
+we study the decidability of the equivalence of multi-letter QFAs, and the main
+technical contributions are as follows: (1) We show that any two automata, a
+$k_{1}$-letter QFA ${\cal A}_1$ and a $k_{2}$-letter QFA ${\cal A}_2$, over the
+same input alphabet $\Sigma$ are equivalent if and only if they are
+$(n^2m^{k-1}-m^{k-1}+k)$-equivalent, where $m=|\Sigma|$ is the cardinality of
+$\Sigma$, $k=\max(k_{1},k_{2})$, and $n=n_{1}+n_{2}$, with $n_{1}$ and $n_{2}$
+being the numbers of states of ${\cal A}_{1}$ and ${\cal A}_{2}$, respectively.
+When $k=1$, we obtain the decidability of equivalence of measure-once QFAs in
+the literature. It is worth mentioning that our technical method is essentially
+different from that for the decidability of the case of single input alphabet
+(i.e., $m=1$). (2) However, if we determine the equivalence of multi-letter
+QFAs by checking all strings of length not more than $ n^2m^{k-1}-m^{k-1}+k$,
+then the worst time complexity is exponential, i.e.,
+$O(n^6m^{n^2m^{k-1}-m^{k-1}+2k-1})$. Therefore, we design a polynomial-time
+$O(m^{2k-1}n^{8}+km^kn^{6})$ algorithm for determining the equivalence of any
+two multi-letter QFAs. Here, the time complexity is concerning the number of
+states in the multi-letter QFAs, and $k$ is thought of as a constant.

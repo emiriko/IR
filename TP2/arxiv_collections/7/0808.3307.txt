@@ -1,0 +1,13 @@
+Tse and Zdancewic have formalized the notion of noninterference for Abadi et
+al.'s DCC in terms of logical relations and given a proof of noninterference by
+reduction to parametricity of System F. Unfortunately, their proof contains
+errors in a key lemma that their translation from DCC to System F preserves the
+logical relations defined for both calculi. In fact, we have found a
+counterexample for it. In this article, instead of DCC, we prove
+noninterference for sealing calculus, a new variant of DCC, by reduction to the
+basic lemma of a logical relation for the simply typed lambda-calculus, using a
+fully complete translation to the simply typed lambda-calculus. Full
+completeness plays an important role in showing preservation of the two logical
+relations through the translation. Also, we investigate relationship among
+sealing calculus, DCC, and an extension of DCC by Tse and Zdancewic and show
+that the first and the last of the three are equivalent.

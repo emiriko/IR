@@ -1,0 +1,10 @@
+We propose an approach to optimally synthesize quantum circuits from
+non-permutative quantum gates such as Controlled-Square-Root-of-Not (i.e.
+Controlled-V). Our approach reduces the synthesis problem to multiple-valued
+optimization and uses group theory. We devise a novel technique that transforms
+the quantum logic synthesis problem from a multi-valued constrained
+optimization problem to a group permutation problem. The transformation enables
+us to utilize group theory to exploit the properties of the synthesis problem.
+Assuming a cost of one for each two-qubit gate, we found all reversible
+circuits with quantum costs of 4, 5, 6, etc, and give another algorithm to
+realize these reversible circuits with quantum gates.

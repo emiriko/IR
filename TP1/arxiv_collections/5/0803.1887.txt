@@ -1,0 +1,17 @@
+We introduce an approximate phase-space technique to simulate the quantum
+dynamics of interacting bosons. With the future goal of treating Bose-Einstein
+condensate systems, the method is designed for systems with a natural
+separation into highly occupied (condensed) modes and lightly occupied modes.
+The method self-consistently uses the Wigner representation to treat highly
+occupied modes and the positive-P representation for lightly occupied modes. In
+this method, truncation of higher-derivative terms from the Fokker-Planck
+equation is usually necessary. However, at least in the cases investigated
+here, the resulting systematic error, over a finite time, vanishes in the limit
+of large Wigner occupation numbers. We tested the method on a system of two
+interacting anharmonic oscillators, with high and low occupations,
+respectively. The Hybrid method successfully predicted atomic quadratures to a
+useful simulation time 60 times longer than that of the positive-P method. The
+truncated Wigner method also performed well in this test. For the prediction of
+the correlation in a quantum nondemolition measurement scheme, for this same
+system, the Hybrid method gave excellent agreement with the exact result, while
+the truncated Wigner method showed a large systematic error.

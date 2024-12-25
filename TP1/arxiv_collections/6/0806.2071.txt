@@ -1,0 +1,21 @@
+We consider the discretization
+  q(t+\epsilon)+q(t-\epsilon)-2q(t)=\epsilon^{2}\sin\big(q(t)\big),
+  $\epsilon>0$ a small parameter, of the pendulum equation $ q '' = \sin (q) $;
+in system form, we have the discretization
+  q(t+\epsilon)-q(t)=\epsilon p(t+\epsilon),
+p(t+\epsilon)-p(t)=\epsilon\sin\big(q(t)\big).
+  of the system
+  q'=p, p'=\sin(q).
+  The latter system of ordinary differential equations has two saddle points at
+$A=(0,0)$, $B=(2\pi, 0)$ and near both, there exist stable and unstable
+manifolds. It also admits a heteroclinic orbit connecting the stationary points
+$B$ and $A$ parametrised by $q_0(t)=4\arctan\big(e^{-t}\big)$ and which
+contains the stable manifold of this system at $A$ as well as its unstable
+manifold at $B$. We prove that the stable manifold of the point $A$ and the
+unstable manifold of the point $B$ do not coincide for the discretization. More
+precisely, we show that the vertical distance between these two manifolds is
+exponentially small but not zero and in particular we give an asymptotic
+estimate of this distance. For this purpose we use a method adapted from the
+article of Sch\"afke-Volkmer \cite{SV} using formal series and accurate
+estimates of the coefficients. Our result is similar to that of Lazutkin et.
+al. \cite{LS}; our method of proof, however, is quite different.

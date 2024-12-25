@@ -1,0 +1,16 @@
+Monitoring the performance of large shared computing systems such as the
+cloud computing infrastructure raises many challenging algorithmic problems.
+One common problem is to track users with the largest deviation from the norm
+(outliers), for some measure of performance. Taking a stream-computing
+perspective, we can think of each user's performance profile as a stream of
+numbers (such as response times), and the aggregate performance profile of the
+shared infrastructure as a "braid" of these intermixed streams. The monitoring
+system's goal then is to untangle this braid sufficiently to track the top k
+outliers. This paper investigates the space complexity of one-pass algorithms
+for approximating outliers of this kind, proves lower bounds using multi-party
+communication complexity, and proposes small-memory heuristic algorithms. On
+one hand, stream outliers are easily tracked for simple measures, such as max
+or min, but our theoretical results rule out even good approximations for most
+of the natural measures such as average, median, or the quantiles. On the other
+hand, we show through simulation that our proposed heuristics perform quite
+well for a variety of synthetic data.

@@ -1,0 +1,17 @@
+We propose a light-weight approach for certification of monitor inlining for
+sequential Java bytecode using proof-carrying code. The goal is to enable the
+use of monitoring for quality assurance at development time, while minimizing
+the need for post-shipping code rewrites as well as changes to the end-host
+TCB. Standard automaton-based security policies express constraints on allowed
+API call/return sequences. Proofs are represented as JML-style program
+annotations. This is adequate in our case as all proofs generated in our
+framework are recognized in time polynomial in the size of the program. Policy
+adherence is proved by comparing the transitions of an inlined monitor with
+those of a trusted "ghost" monitor represented using JML-style annotations. At
+time of receiving a program with proof annotations, it is sufficient for the
+receiver to plug in its own trusted ghost monitor and check the resulting
+verification conditions, to verify that inlining has been performed correctly,
+of the correct policy. We have proved correctness of the approach at the Java
+bytecode level and formalized the proof of soundness in Coq. An implementation,
+including an application loader running on a mobile device, is available, and
+we conclude by giving benchmarks for two sample applications.

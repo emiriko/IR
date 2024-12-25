@@ -1,0 +1,12 @@
+Discrete mixture models provide a well-known basis for effective clustering
+algorithms, although technical challenges have limited their scope. In the
+context of gene-expression data analysis, a model is presented that mixes over
+a finite catalog of structures, each one representing equality and inequality
+constraints among latent expected values. Computations depend on the
+probability that independent gamma-distributed variables attain each of their
+possible orderings. Each ordering event is equivalent to an event in
+independent negative-binomial random variables, and this finding guides a
+dynamic-programming calculation. The structuring of mixture-model components
+according to constraints among latent means leads to strict concavity of the
+mixture log likelihood. In addition to its beneficial numerical properties, the
+clustering method shows promising results in an empirical study.

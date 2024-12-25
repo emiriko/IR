@@ -1,0 +1,12 @@
+We study differential-difference equation of the form $$
+\frac{d}{dx}t(n+1,x)=f(t(n,x),t(n+1,x),\frac{d}{dx}t(n,x)) $$ with unknown
+$t(n,x)$ depending on continuous and discrete variables $x$ and $n$. Equation
+of such kind is called Darboux integrable, if there exist two functions $F$ and
+$I$ of a finite number of arguments $x$, $\{t(n\pm k,x)\}_{k=-\infty}^\infty$,
+${\frac{d^k}{dx^k}t(n,x)}_{k=1}^\infty$, such that $D_xF=0$ and $DI=I$, where
+$D_x$ is the operator of total differentiation with respect to $x$, and $D$ is
+the shift operator: $Dp(n)=p(n+1)$. Reformulation of Darboux integrability in
+terms of finiteness of two characteristic Lie algebras gives an effective tool
+for classification of integrable equations. The complete list of Darboux
+integrable equations is given in the case when the function $f$ is of the
+special form $f(u,v,w)=w+g(u,v)$.

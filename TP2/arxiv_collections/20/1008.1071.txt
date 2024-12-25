@@ -1,0 +1,20 @@
+We present an extension of TRAPHIC, the method for radiative transfer of
+ionising radiation in smoothed particle hydrodynamics simulations that we
+introduced in Pawlik & Schaye (2008). The new version keeps all advantages of
+the original implementation: photons are transported at the speed of light, in
+a photon-conserving manner, directly on the spatially adaptive, unstructured
+grid traced out by the particles, in a computation time that is independent of
+the number of radiation sources, and in parallel on distributed memory
+machines. We extend the method to include multiple frequencies, both hydrogen
+and helium, and to model the coupled evolution of the temperature and
+ionisation balance. We test our methods by performing a set of simulations of
+increasing complexity and including a small cosmological reionisation run. The
+results are in excellent agreement with exact solutions, where available, and
+also with results obtained with other codes if we make similar assumptions and
+account for differences in the atomic rates used. We use the new implementation
+to illustrate the differences between simulations that compute photoheating in
+the grey approximation and those that use multiple frequency bins. We show that
+close to ionising sources the grey approximation asymptotes to the
+multi-frequency result if photoheating rates are computed in the optically thin
+limit, but that the grey approximation breaks down everywhere if, as is often
+done, the optically thick limit is assumed.

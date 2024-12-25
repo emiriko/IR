@@ -1,0 +1,19 @@
+It was shown recently that parallel manipulators with several inverse
+kinematic solutions have the ability to avoid parallel singularities [Chablat
+1998a] and self-collisions [Chablat 1998b] by choosing appropriate joint
+configurations for the legs. In effect, depending on the joint configurations
+of the legs, a given configuration of the end-effector may or may not be free
+of singularity and collision. Characterization of the
+collision/singularity-free workspace is useful but may be insufficient since
+two configurations can be accessible without collisions nor singularities but
+it may not exist a feasible trajectory between them. The goal of this paper is
+to define the maximal regions of the workspace where it is possible to execute
+trajectories. Twodifferent families of regions are defined : 1. those regions
+where the end-effector can move between any set of points, and 2. the regions
+where any continuous path can be tracked. These regions are characterized from
+the notion of aspects and free-aspects recently defined for parallel
+manipulators [Chablat 1998b]. The construction of these regions is achieved by
+enrichment techniques and using an extension of the octree structures to spaces
+of dimension greater than three. Illustrative examples show the interest of
+this study to the optimization of trajectories and the design of parallel
+manipulators.

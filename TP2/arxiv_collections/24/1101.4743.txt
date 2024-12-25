@@ -1,0 +1,17 @@
+The Equi-Energy Sampler (EES) introduced by Kou et al [2006] is based on a
+population of chains which are updated by local moves and global moves, also
+called equi-energy jumps. The state space is partitioned into energy rings, and
+the current state of a chain can jump to a past state of an adjacent chain that
+has energy level close to its level. This algorithm has been developed to
+facilitate global moves between different chains, resulting in a good
+exploration of the state space by the target chain. This method seems to be
+more efficient than the classical Parallel Tempering (PT) algorithm. However it
+is difficult to use in combination with a Gibbs sampler and it necessitates
+increased storage. In this paper we propose an adaptation of this EES that
+combines PT with the principle of swapping between chains with same levels of
+energy. This adaptation, that we shall call Parallel Tempering with Equi-Energy
+Moves (PTEEM), keeps the original idea of the EES method while ensuring good
+theoretical properties, and practical implementation even if combined with a
+Gibbs sampler. Performances of the PTEEM algorithm are compared with those of
+the EES and of the standard PT algorithms in the context of mixture models, and
+in a problem of identification of gene regulatory binding motifs.

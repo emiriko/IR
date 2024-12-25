@@ -1,0 +1,16 @@
+Assume that we observe a large number of curves, all of them with identical,
+although unknown, shape, but with a different random shift. The objective is to
+estimate the individual time shifts and their distribution. Such an objective
+appears in several biological applications like neuroscience or ECG signal
+processing, in which the estimation of the distribution of the elapsed time
+between repetitive pulses with a possibly low signal-noise ratio, and without a
+knowledge of the pulse shape is of interest. We suggest an M-estimator leading
+to a three-stage algorithm: we split our data set in blocks, on which the
+estimation of the shifts is done by minimizing a cost criterion based on a
+functional of the periodogram; the estimated shifts are then plugged into a
+standard density estimator. We show that under mild regularity assumptions the
+density estimate converges weakly to the true shift distribution. The theory is
+applied both to simulations and to alignment of real ECG signals. The estimator
+of the shift distribution performs well, even in the case of low
+signal-to-noise ratio, and is shown to outperform the standard methods for
+curve alignment.

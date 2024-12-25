@@ -1,0 +1,14 @@
+We consider the problem of computing an approximation to the integral
+$I=\int_{[0,1]^d}f(x) dx$. Monte Carlo (MC) sampling typically attains a root
+mean squared error (RMSE) of $O(n^{-1/2})$ from $n$ independent random function
+evaluations. By contrast, quasi-Monte Carlo (QMC) sampling using carefully
+equispaced evaluation points can attain the rate $O(n^{-1+\varepsilon})$ for
+any $\varepsilon>0$ and randomized QMC (RQMC) can attain the RMSE
+$O(n^{-3/2+\varepsilon})$, both under mild conditions on $f$. Classical
+variance reduction methods for MC can be adapted to QMC. Published results
+combining QMC with importance sampling and with control variates have found
+worthwhile improvements, but no change in the error rate. This paper extends
+the classical variance reduction method of antithetic sampling and combines it
+with RQMC. One such method is shown to bring a modest improvement in the RMSE
+rate, attaining $O(n^{-3/2-1/d+\varepsilon})$ for any $\varepsilon>0$, for
+smooth enough $f$.

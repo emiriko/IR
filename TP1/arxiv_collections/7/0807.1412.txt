@@ -1,0 +1,13 @@
+Motivated by the quantum algorithm in \cite{MN05} for testing commutativity
+of black-box groups, we study the following problem: Given a black-box finite
+ring $R=\angle{r_1,...,r_k}$ where $\{r_1,r_2,...,r_k\}$ is an additive
+generating set for $R$ and a multilinear polynomial $f(x_1,...,x_m)$ over $R$
+also accessed as a black-box function $f:R^m\to R$ (where we allow the
+indeterminates $x_1,...,x_m$ to be commuting or noncommuting), we study the
+problem of testing if $f$ is an \emph{identity} for the ring $R$. More
+precisely, the problem is to test if $f(a_1,a_2,...,a_m)=0$ for all $a_i\in R$.
+  We give a quantum algorithm with query complexity $O(m(1+\alpha)^{m/2}
+k^{\frac{m}{m+1}})$ assuming $k\geq (1+1/\alpha)^{m+1}$. Towards a lower bound,
+we also discuss a reduction from a version of $m$-collision to this problem.
+  We also observe a randomized test with query complexity $4^mmk$ and constant
+success probability and a deterministic test with $k^m$ query complexity.

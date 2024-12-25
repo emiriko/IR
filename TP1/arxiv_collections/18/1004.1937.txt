@@ -1,0 +1,25 @@
+Recently [EPL, 86, (2009) 17001], we had simulated the classical Langevin
+dynamics of a charged particle on the surface of a sphere in the presence of an
+externally applied magnetic field, and found a finite value for the orbital
+diamagnetic moment in the long-time limit. This result is surprising in that it
+seems to violate the classic Bohr-van Leeuwen Theorem on the absence of
+classical diamagnetism. It was indeed questioned by some workers [EPL, 89,
+(2010) 37001] who verified that the Fokker-Planck (FP) equation derived from
+our Langevin equation, was satisfied by the classical canonical density in the
+steady state, obtained by setting d/dt=0 in the FP equation. Inasmuch as the
+canonical density does not contain the magnetic field, they concluded that the
+diamagnetic moment must be zero. The purpose of this note is to show that this
+argument and the conclusion are invalid -- instead of setting d/dt=0 one must
+first obtain the fundamental time-dependent solution for the FP equation, and
+then calculate the expectation value of the diamagnetic moment, and finally
+consider its long-time limit (i.e., $t \to \infty$). This would indeed
+correspond to our numerical simulation of the dynamics. That this is indeed so
+is shown by considering the simpler analytically solvable problem, namely that
+for an unbounded plane for which the above procedure can be carried out
+exactly. We then find that the limiting value for the expectation of the
+diamagnetic moment is indeed non-zero, and yet the steady-state FP equation
+obtained by setting d/dt=0 is satisfied by the canonical density. Admittedly,
+the exact analytical solution for the sphere is not available. But, the exact
+solution obtained for the case of the unbounded 2D-plane illustrates our point
+all right. We also present some further new results for other finite but
+unbounded surfaces such the ellipsoids of revolution.

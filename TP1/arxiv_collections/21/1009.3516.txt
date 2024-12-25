@@ -1,0 +1,15 @@
+Traditional analyses of capture-recapture data are based on likelihood
+functions that explicitly integrate out all missing data. We use a complete
+data likelihood (CDL) to show how a wide range of capture-recapture models can
+be easily fitted using readily available software JAGS/BUGS even when there are
+individual-specific time-varying covariates. The models we describe extend
+those that condition on first capture to include abundance parameters, or
+parameters related to abundance, such as population size, birth rates or
+lifetime. The use of a CDL means that any missing data, including uncertain
+individual covariates, can be included in models without the need for
+customized likelihood functions. This approach also facilitates modeling
+processes of demographic interest rather than the complexities caused by
+non-ignorable missing data. We illustrate using two examples, (i) open
+population modeling in the presence of a censored time-varying individual
+covariate in a full robust-design, and (ii) full open population multi-state
+modeling in the presence of a partially observed categorical variable.

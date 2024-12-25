@@ -1,0 +1,18 @@
+We propose a new method for the problems of computing free energy and surface
+pressure for various statistical mechanics models on a lattice $\Z^d$. Our
+method is based on representing the free energy and surface pressure in terms
+of certain marginal probabilities in a suitably modified sublattice of $\Z^d$.
+Then recent deterministic algorithms for computing marginal probabilities are
+used to obtain numerical estimates of the quantities of interest. The method
+works under the assumption of Strong Spatial Mixing (SSP), which is a form of a
+correlation decay.
+  We illustrate our method for the hard-core and monomer-dimer models, and
+improve several earlier estimates. For example we show that the exponent of the
+monomer-dimer coverings of $\Z^3$ belongs to the interval $[0.78595,0.78599]$,
+improving best previously known estimate of (approximately) $[0.7850,0.7862]$
+obtained in \cite{FriedlandPeled},\cite{FriedlandKropLundowMarkstrom}.
+Moreover, we show that given a target additive error $\epsilon>0$, the
+computational effort of our method for these two models is
+$(1/\epsilon)^{O(1)}$ \emph{both} for free energy and surface pressure. In
+contrast, prior methods, such as transfer matrix method, require
+$\exp\big((1/\epsilon)^{O(1)}\big)$ computation effort.

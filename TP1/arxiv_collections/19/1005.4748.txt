@@ -1,0 +1,12 @@
+KMOS is a multi-object near-infrared integral field spectrometer with 24
+deployable pick-off arms. Data processing is inevitably complex. We discuss
+specific issues and requirements that must be addressed in the data reduction
+pipeline, the calibration, the raw and processed data formats, and the
+simulated data. We discuss the pipeline architecture. We focus on its modular
+style and show how these modules can be used to build a classical pipeline, as
+well as a more advanced pipeline that can account for both spectral and spatial
+flexure as well as variations in the OH background. A novel aspect of the
+pipeline is that the raw data can be reconstructed into a cube in a single
+step. We discuss the advantages of this and outline the way in which we have
+implemented it. We finish by describing how the QFitsView tool can now be used
+to visualise KMOS data.

@@ -1,0 +1,13 @@
+Compressed sensing is a novel technique where one can recover sparse signals
+from the undersampled measurements. In this paper, a $K \times N$ measurement
+matrix for compressed sensing is deterministically constructed via
+multiplicative character sequences. Precisely, a constant multiple of a cyclic
+shift of an $M$-ary power residue or Sidelnikov sequence is arranged as a
+column vector of the matrix, through modulating a primitive $M$-th root of
+unity. The Weil bound is then used to show that the matrix has asymptotically
+optimal coherence for large $K$ and $M$, and to present a sufficient condition
+on the sparsity level for unique sparse solution. Also, the restricted isometry
+property (RIP) is statistically studied for the deterministic matrix. Numerical
+results show that the deterministic compressed sensing matrix guarantees
+reliable matching pursuit recovery performance for both noiseless and noisy
+measurements.

@@ -1,0 +1,17 @@
+We study the problem of \emph{local search} on a graph. Given a real-valued
+black-box function f on the graph's vertices, this is the problem of
+determining a local minimum of f--a vertex v for which f(v) is no more than f
+evaluated at any of v's neighbors. In 1983, Aldous gave the first strong lower
+bounds for the problem, showing that any randomized algorithm requires
+$\Omega(2^{n/2 - o(1)})$ queries to determine a local minima on the
+n-dimensional hypercube. The next major step forward was not until 2004 when
+Aaronson, introducing a new method for query complexity bounds, both
+strengthened this lower bound to $\Omega(2^{n/2}/n^2)$ and gave an analogous
+lower bound on the quantum query complexity. While these bounds are very
+strong, they are known only for narrow families of graphs (hypercubes and
+grids). We show how to generalize Aaronson's techniques in order to give
+randomized (and quantum) lower bounds on the query complexity of local search
+for the family of vertex-transitive graphs. In particular, we show that for any
+vertex-transitive graph G of N vertices and diameter d, the randomized and
+quantum query complexities for local search on G are $\Omega(N^{1/2}/d\log N)$
+and $\Omega(N^{1/4}/\sqrt{d\log N})$, respectively.

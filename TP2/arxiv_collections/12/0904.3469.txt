@@ -1,0 +1,20 @@
+Computability logic (CL) (see http://www.cis.upenn.edu/~giorgi/cl.html ) is a
+research program for redeveloping logic as a formal theory of computability, as
+opposed to the formal theory of truth which it has more traditionally been.
+Formulas in CL stand for interactive computational problems, seen as games
+between a machine and its environment; logical operators represent operations
+on such entities; and "truth" is understood as existence of an effective
+solution. The formalism of CL is open-ended, and may undergo series of
+extensions as the studies of the subject advance. So far three -- parallel,
+sequential and choice -- sorts of conjunction and disjunction have been
+studied. The present paper adds one more natural kind to this collection,
+termed toggling. The toggling operations can be characterized as lenient
+versions of choice operations where choices are retractable, being allowed to
+be reconsidered any finite number of times. This way, they model
+trial-and-error style decision steps in interactive computation. The main
+technical result of this paper is constructing a sound and complete
+axiomatization for the propositional fragment of computability logic whose
+vocabulary, together with negation, includes all four -- parallel, toggling,
+sequential and choice -- kinds of conjunction and disjunction. Along with
+toggling conjunction and disjunction, the paper also introduces the toggling
+versions of quantifiers and recurrence operations.

@@ -1,0 +1,18 @@
+In a sampling problem, we are given an input x, and asked to sample
+approximately from a probability distribution D_x. In a search problem, we are
+given an input x, and asked to find a member of a nonempty set A_x with high
+probability. (An example is finding a Nash equilibrium.) In this paper, we use
+tools from Kolmogorov complexity and algorithmic information theory to show
+that sampling and search problems are essentially equivalent. More precisely,
+for any sampling problem S, there exists a search problem R_S such that, if C
+is any "reasonable" complexity class, then R_S is in the search version of C if
+and only if S is in the sampling version. As one application, we show that
+SampP=SampBQP if and only if FBPP=FBQP: in other words, classical computers can
+efficiently sample the output distribution of every quantum circuit, if and
+only if they can efficiently solve every search problem that quantum computers
+can solve. A second application is that, assuming a plausible conjecture, there
+exists a search problem R that can be solved using a simple linear-optics
+experiment, but that cannot be solved efficiently by a classical computer
+unless the polynomial hierarchy collapses. That application will be described
+in a forthcoming paper with Alex Arkhipov on the computational complexity of
+linear optics.

@@ -1,0 +1,25 @@
+In this thesis we study the evolution of systems of concentric shells
+interacting gravitationally and in the process (1) propose and implement a
+nearly energy-conserving numerical integration scheme for evolving the
+concentric spherical shells systems with 1024 particles or less; (2) look at
+the possibility of chaos in few shell systems; and (3) study the evolution of
+many shell systems in the Vlasov limit.
+  The proposed numerical integration scheme is a nearly energy conserving
+hybrid of the Verlet and modified Euler-Cromer integration schemes.
+  The rotational 2-shell spherical system is investigated in detail using the
+hybrid numerical integration scheme. Plots of time-series, phase space
+projections, Poincare sections, power spectra, and Lyapunov exponents are
+obtained for the system. These diagnostic tools, taken together, clearly show
+the chaotic nature of the rotational 2-shell system. Three types of periodic
+orbits are observed: collapsed, one-point, and three-point periodic orbits. We
+believe that the three-point periodic orbits result from a rotation-induced
+bifurcation. Four types of quasiperiodic orbits are also observed. Three of
+these are a result of slight changes in the initial conditions corresponding to
+the three types of periodic orbits. The fourth type of quasiperiodic orbit
+separates the chaotic region from the non-chaotic regions in phase space.
+  The short-time evolution of collisionless spherical shells system is studied
+using both numerical and analytical methods. Approximate expressions for the
+short-time evolution of the collisionless rotational shells system are obtained
+using Vlasov-Poisson perturbation theory in the high-virial limit. The
+agreement between the analytical results and numerical results for finite
+shells systems improves as the number of shells in the system increases.

@@ -1,0 +1,17 @@
+The computational cost of exact methods for quantum simulation using
+classical computers grows exponentially with system size. As a consequence,
+these techniques can only be applied to small systems. By contrast, we
+demonstrate that quantum computers could exactly simulate chemical reactions in
+polynomial time. Our algorithm uses the split-operator approach and explicitly
+simulates all electron-nuclear and inter-electronic interactions in quadratic
+time. Surprisingly, this treatment is not only more accurate than the
+Born-Oppenheimer approximation, but faster and more efficient as well, for all
+reactions with more than about four atoms. This is the case even though the
+entire electronic wavefunction is propagated on a grid with appropriately short
+timesteps. Although the preparation and measurement of arbitrary states on a
+quantum computer is inefficient, here we demonstrate how to prepare states of
+chemical interest efficiently. We also show how to efficiently obtain
+chemically relevant observables, such as state-to-state transition
+probabilities and thermal reaction rates. Quantum computers using these
+techniques could outperform current classical computers with one hundred
+qubits.

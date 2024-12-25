@@ -1,0 +1,21 @@
+Spam mitigation can be broadly classified into two main approaches: a)
+centralized security infrastructures that rely on a limited number of trusted
+monitors to detect and report malicious traffic; and b) highly distributed
+systems that leverage the experiences of multiple nodes within distinct trust
+domains. The first approach offers limited threat coverage and slow response
+times, and it is often proprietary. The second approach is not widely adopted,
+partly due to the lack of guarantees regarding the trustworthiness of nodes
+that comprise the system.
+  Our proposal, SocialFilter, aims to achieve the trustworthiness of
+centralized security services and the wide coverage, responsiveness and
+inexpensiveness of large-scale collaborative spam mitigation. We propose a
+large-scale distributed system that enables clients with no email
+classification functionality to query the network on the behavior of a host. A
+SocialFilter node builds trust for its peers by auditing their behavioral
+reports and by leveraging the social network of SocialFilter administrators.
+The node combines the confidence its peers have in their own reports and the
+trust it places on its peers to derive the likelihood that a host is spamming.
+  The simulation-based evaluation of our approach indicates its potential under
+a real-world deployment: during a simulated spam campaign, SocialFilternodes
+characterized 92% of spam bot connections with confidence greater than 50%,
+while yielding no false positives

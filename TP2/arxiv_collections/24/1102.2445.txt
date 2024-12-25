@@ -1,0 +1,19 @@
+Smartphone apps often run with full privileges to access the network and
+sensitive local resources, making it difficult for remote systems to have any
+trust in the provenance of network connections they receive. Even within the
+phone, different apps with different privileges can communicate with one
+another, allowing one app to trick another into improperly exercising its
+privileges (a Confused Deputy attack). In Quire, we engineered two new security
+mechanisms into Android to address these issues. First, we track the call chain
+of IPCs, allowing an app the choice of operating with the diminished privileges
+of its callers or to act explicitly on its own behalf. Second, a lightweight
+signature scheme allows any app to create a signed statement that can be
+verified anywhere inside the phone. Both of these mechanisms are reflected in
+network RPCs, allowing remote systems visibility into the state of the phone
+when an RPC is made. We demonstrate the usefulness of Quire with two example
+applications. We built an advertising service, running distinctly from the app
+which wants to display ads, which can validate clicks passed to it from its
+host. We also built a payment service, allowing an app to issue a request which
+the payment service validates with the user. An app cannot not forge a payment
+request by directly connecting to the remote server, nor can the local payment
+service tamper with the request.

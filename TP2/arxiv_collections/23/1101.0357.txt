@@ -1,0 +1,13 @@
+We show that distributed Infrastructure-as-a-Service (IaaS) compute clouds
+can be effectively used for the analysis of high energy physics data. We have
+designed a distributed cloud system that works with any application using large
+input data sets requiring a high throughput computing environment. The system
+uses IaaS-enabled science and commercial clusters in Canada and the United
+States. We describe the process in which a user prepares an analysis virtual
+machine (VM) and submits batch jobs to a central scheduler. The system boots
+the user-specific VM on one of the IaaS clouds, runs the jobs and returns the
+output to the user. The user application accesses a central database for
+calibration data during the execution of the application. Similarly, the data
+is located in a central location and streamed by the running application. The
+system can easily run one hundred simultaneous jobs in an efficient manner and
+should scale to many hundreds and possibly thousands of user jobs.

@@ -1,0 +1,24 @@
+This paper describes a new method, HGV2C, for pattern analysis. The HGV2C
+method involves the construction of a computer ego (CE) based on an individual
+object that can be either a part of the system under analysis or a newly
+created object based on a certain hypothesis. The CE provides a capability to
+analyze data from a specific standpoint, e.g. from a viewpoint of a certain
+object. The CE is constructed from two identical copies of a query object, and
+its functioning mechanism involves: a hypothesis-parameter (HP) and
+infothyristor (IT). HP is a parameter that is introduced into an existing set
+of parameters. The HP value for one of the clones of a query object is set to
+equal 1, whereas for another clone it is greater than 1. The IT is based on the
+previously described algorithm of iterative averaging and performs three
+functions: 1) computation of a similarity matrix for the group of three objects
+including two clones of a query object and a target object; 2) division of the
+group into two alternative subgroups; and 3) a successive increase of the HP
+weight in the totality of all the parameters. Initially, both clones of the
+query object appear together in one of the subgroups as all of their parameter
+values, except the HP, are identical. At a certain point of the HP
+multiplication, one of the clones moves to the group of the target object. A
+respective number of the HP multiplications represents the dissimilarity (D)
+between the query and target objects. The product of D multiplied by the
+difference in HP values of the clones is strictly constant and linearly
+increases as the difference in HP values of the clones decreases. This new
+approach to knowledge representation is demonstrated on the example of
+population pyramids of 220 countries.

@@ -1,0 +1,21 @@
+X-ray imaging dose from serial cone-beam CT (CBCT) scans raises a clinical
+concern in most image guided radiation therapy procedures. It is the goal of
+this paper to develop a fast GPU-based algorithm to reconstruct high quality
+CBCT images from undersampled and noisy projection data so as to lower the
+imaging dose. For this purpose, we have developed an iterative tight frame (TF)
+based CBCT reconstruction algorithm. A condition that a real CBCT image has a
+sparse representation under a TF basis is imposed in the iteration process as
+regularization to the solution. To speed up the computation, a multi-grid
+method is employed. Our GPU implementation has achieved high computational
+efficiency and a CBCT image of resolution 512\times512\times70 can be
+reconstructed in ~5 min. We have tested our algorithm on a digital NCAT phantom
+and a physical Catphan phantom. It is found that our TF-based algorithm is able
+to reconstrct CBCT in the context of undersampling and low mAs levels. We have
+also quantitatively analyzed the reconstructed CBCT image quality in terms of
+modulation-transfer-function and contrast-to-noise ratio under various scanning
+conditions. The results confirm the high CBCT image quality obtained from our
+TF algorithm. Moreover, our algorithm has also been validated in a real
+clinical context using a head-and-neck patient case. Comparisons of the
+developed TF algorithm and the current state-of-the-art TV algorithm have also
+been made in various cases studied in terms of reconstructed image quality and
+computation efficiency.

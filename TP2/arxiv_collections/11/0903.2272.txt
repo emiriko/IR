@@ -1,0 +1,17 @@
+We propose a new approach for image compression in digital cameras, where the
+goal is to achieve better quality at a given rate by using the characteristics
+of a Bayer color filter array. Most digital cameras produce color images by
+using a single CCD plate, so that each pixel in an image has only one color
+component and therefore an interpolation method is needed to produce a full
+color image. After the image processing stage, in order to reduce the memory
+requirements of the camera, a lossless or lossy compression stage often
+follows. But in this scheme, before decreasing redundancy through compression,
+redundancy is increased in an interpolation stage. In order to avoid increasing
+the redundancy before compression, we propose algorithms for image compression
+in which the order of the compression and interpolation stages is reversed. We
+introduce image transform algorithms, since non interpolated images cannot be
+directly compressed with general image coders. The simulation results show that
+our algorithm outperforms conventional methods with various color interpolation
+methods in a wide range of compression ratios. Our proposed algorithm provides
+not only better quality but also lower encoding complexity because the amount
+of luminance data used is only half of that in conventional methods.

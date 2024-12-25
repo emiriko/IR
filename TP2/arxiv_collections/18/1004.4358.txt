@@ -1,0 +1,12 @@
+High-bandwidth covert channels pose significant risks to sensitive and
+proprietary information inside company networks. Domain Name System (DNS)
+tunnels provide a means to covertly infiltrate and exfiltrate large amounts of
+information passed network boundaries. This paper explores the possibility of
+detecting DNS tunnels by analyzing the unigram, bigram, and trigram character
+frequencies of domains in DNS queries and responses. It is empirically shown
+how domains follow Zipf's law in a similar pattern to natural languages,
+whereas tunneled traffic has more evenly distributed character frequencies.
+This approach allows tunnels to be detected across multiple domains, whereas
+previous methods typically concentrate on monitoring point to point systems.
+Anomalies are quickly discovered when tunneled traffic is compared to the
+character frequency fingerprint of legitimate domain traffic.

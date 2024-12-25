@@ -1,0 +1,15 @@
+Many logic programming languages have delay primitives which allow
+coroutining. This introduces a class of bug symptoms -- computations can
+flounder when they are intended to succeed or finitely fail. For concurrent
+logic programs this is normally called deadlock. Similarly, constraint logic
+programs can fail to invoke certain constraint solvers because variables are
+insufficiently instantiated or constrained. Diagnosing such faults has received
+relatively little attention to date. Since delay primitives affect the
+procedural but not the declarative view of programs, it may be expected that
+debugging would have to consider the often complex details of interleaved
+execution. However, recent work on semantics has suggested an alternative
+approach. In this paper we show how the declarative debugging paradigm can be
+used to diagnose unexpected floundering, insulating the user from the
+complexities of the execution.
+  Keywords: logic programming, coroutining, delay, debugging, floundering,
+deadlock, constraints

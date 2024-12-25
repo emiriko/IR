@@ -1,0 +1,12 @@
+To quantify the progress in development of algorithms and forcefields used in
+molecular simulations, a method for the assessment of the sampling quality is
+needed. We propose a general method to assess the sampling quality through the
+estimation of the number of independent samples obtained from molecular
+simulations. This method is applicable to both dynamic and nondynamic methods
+and utilizes the variance in the populations of physical states to determine
+the ESS. We test the correctness and robustness of our procedure in a variety
+of systems--two-state toy model, all-atom butane, coarse-grained calmodulin,
+all-atom dileucine and Met-enkaphalin.
+  We also introduce an automated procedure to obtain approximate physical
+states from dynamic trajectories: this procedure allows for sample--size
+estimation for systems for which physical states are not known in advance.

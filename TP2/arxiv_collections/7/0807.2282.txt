@@ -1,0 +1,15 @@
+The practical applications based on recurrent spiking neurons are limited due
+to their non-trivial learning algorithms. The temporal nature of spiking
+neurons is more favorable for hardware implementation where signals can be
+represented in binary form and communication can be done through the use of
+spikes. This work investigates the potential of recurrent spiking neurons
+implementations on reconfigurable platforms and their applicability in temporal
+based applications. A theoretical framework of reservoir computing is
+investigated for hardware/software implementation. In this framework, only
+readout neurons are trained which overcomes the burden of training at the
+network level. These recurrent neural networks are termed as microcircuits
+which are viewed as basic computational units in cortical computation. This
+paper investigates the potential of recurrent neural reservoirs and presents a
+novel hardware/software strategy for their implementation on FPGAs. The design
+is implemented and the functionality is tested in the context of speech
+recognition application.

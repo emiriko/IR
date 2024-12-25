@@ -1,0 +1,11 @@
+Consider the following unequal error protection scenario. One special
+message, dubbed the "red alert" message, is required to have an extremely small
+probability of missed detection. The remainder of the messages must keep their
+average probability of error and probability of false alarm below a certain
+threshold. The goal then is to design a codebook that maximizes the error
+exponent of the red alert message while ensuring that the average probability
+of error and probability of false alarm go to zero as the blocklength goes to
+infinity. This red alert exponent has previously been characterized for
+discrete memoryless channels. This paper completely characterizes the optimal
+red alert exponent for additive white Gaussian noise channels with block power
+constraints.

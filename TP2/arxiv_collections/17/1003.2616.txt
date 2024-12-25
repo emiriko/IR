@@ -1,0 +1,12 @@
+The traditional web caching is currently limited to static documents only. A
+page generated on the fly from a server side script may have different contents
+on different accesses and hence cannot be cached. A number of proposals for
+attacking the problem have emerged based on the observation that different
+instances of a dynamic document are usually quite similar in most cases, i.e.
+they have a lot of common HTML code. In this paper, we first review these
+related techniques and show their inadequacy for practical use. We then present
+a general and fully automatic technique called Vcache based on the
+decomposition of dynamic documents into a hierarchy of templates and bindings.
+The technique is designed keeping in mind languages like Perl and C etc that
+generate the documents using low-level print like statements. These languages
+together, account for the largest number of dynamic documents on the web.

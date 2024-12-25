@@ -1,0 +1,17 @@
+Computational Science on large high performance computing resources is
+hampered by the complexity of these systems. Much of this complexity is due to
+low-level details on these resources that are exposed to the application and
+the end user. This includes (but is not limited to) mechanisms for remote
+access, configuring and building applications from source code, and managing
+simulations and their output files via batch queue systems. These challenges
+multiply in a modern research environment, where a research collaboration spans
+multiple groups, often in loosely defined international collaborations, where
+there is a constant influx of new students into multi-year projects, and where
+simulations are performed on several different resources. The Simulation
+Factory addresses these challenges by significantly simplifying remote access,
+building executables, and managing simulations. By abstracting out the
+low-level differences between different resources, it offers a uniform
+interface to these resources. At the same time, it can enforce certain
+standards for performing simulations that encapsulate best practices from
+experienced users. Furthermore, SimFactory's automation avoids many possible
+user errors that can in the worst case render month-long simulations worthless.

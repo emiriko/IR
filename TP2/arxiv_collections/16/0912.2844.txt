@@ -1,0 +1,16 @@
+It is a big challenge in the analysis of experimental data to disentangle the
+unavoidable measurement noise from the intrinsic dynamical noise. Here we
+present a general operational method to extract measurement noise from
+stochastic time series, even in the case when the amplitudes of measurement
+noise and uncontaminated signal are of the same order of magnitude. Our
+approach is based on a recently developed method for a nonparametric
+reconstruction of Langevin processes. Minimizing a proper non-negative function
+the procedure is able to correctly extract strong measurement noise and to
+estimate drift and diffusion coefficients in the Langevin equation describing
+the evolution of the original uncorrupted signal. As input, the algorithm uses
+only the two first conditional moments extracted directly from the stochastic
+series and is therefore suitable for a broad panoply of different signals. To
+demonstrate the power of the method we apply the algorithm to synthetic as well
+as climatological measurement data, namely the daily North Atlantic Oscillation
+index, shedding new light on the discussion of the nature of its underlying
+physical processes.

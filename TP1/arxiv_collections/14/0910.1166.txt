@@ -1,0 +1,14 @@
+Evolutions of the trading landscape lead to the capability to exchange the
+same financial instrument on different venues. Because of liquidity issues, the
+trading firms split large orders across several trading destinations to
+optimize their execution. To solve this problem we devised two stochastic
+recursive learning procedures which adjust the proportions of the order to be
+sent to the different venues, one based on an optimization principle, the other
+on some reinforcement ideas. Both procedures are investigated from a
+theoretical point of view: we prove a.s. convergence of the optimization
+algorithm under some light ergodic (or "averaging") assumption on the input
+data process. No Markov property is needed. When the inputs are i.i.d. we show
+that the convergence rate is ruled by a Central Limit Theorem. Finally, the
+mutual performances of both algorithms are compared on simulated and real data
+with respect to an "oracle" strategy devised by an "insider" who knows a priori
+the executed quantities by every venues.

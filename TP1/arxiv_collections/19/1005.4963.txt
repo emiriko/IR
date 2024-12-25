@@ -1,0 +1,17 @@
+Structured and semi-structured data describing entities, taxonomies and
+ontologies appears in many domains. There is a huge interest in integrating
+structured information from multiple sources; however integrating structured
+data to infer complex common structures is a difficult task because the
+integration must aggregate similar structures while avoiding structural
+inconsistencies that may appear when the data is combined. In this work, we
+study the integration of structured social metadata: shallow personal
+hierarchies specified by many individual users on the SocialWeb, and focus on
+inferring a collection of integrated, consistent taxonomies. We frame this task
+as an optimization problem with structural constraints. We propose a new
+inference algorithm, which we refer to as Relational Affinity Propagation (RAP)
+that extends affinity propagation (Frey and Dueck 2007) by introducing
+structural constraints. We validate the approach on a real-world social media
+dataset, collected from the photosharing website Flickr. Our empirical results
+show that our proposed approach is able to construct deeper and denser
+structures compared to an approach using only the standard affinity propagation
+algorithm.

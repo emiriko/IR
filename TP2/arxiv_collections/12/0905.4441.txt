@@ -1,0 +1,6 @@
+Reverse nearest neighbor queries are defined as follows: Given an input
+point-set P, and a query point q, find all the points p in P whose nearest
+point in P U {q} \ {p} is q. We give a data structure to answer reverse nearest
+neighbor queries in fixed-dimensional Euclidean space. Our data structure uses
+O(n) space, its preprocessing time is O(n log n), and its query time is O(log
+n).

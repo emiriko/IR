@@ -1,0 +1,20 @@
+A public database system archiving a direct numerical simulation (DNS) data
+set of isotropic, forced turbulence is described in this paper. The data set
+consists of the DNS output on $1024^3$ spatial points and 1024 time-samples
+spanning about one large-scale turn-over timescale. This complete $1024^4$
+space-time history of turbulence is accessible to users remotely through an
+interface that is based on the Web-services model. Users may write and execute
+analysis programs on their host computers, while the programs make
+subroutine-like calls that request desired parts of the data over the network.
+The users are thus able to perform numerical experiments by accessing the 27
+Terabytes of DNS data using regular platforms such as laptops. The architecture
+of the database is explained, as are some of the locally defined functions,
+such as differentiation and interpolation. Test calculations are performed to
+illustrate the usage of the system and to verify the accuracy of the methods.
+The database is then used to analyze a dynamical model for small-scale
+intermittency in turbulence. Specifically, the dynamical effects of pressure
+and viscous terms on the Lagrangian evolution of velocity increments are
+evaluated using conditional averages calculated from the DNS data in the
+database. It is shown that these effects differ considerably among themselves
+and thus require different modeling strategies in Lagrangian models of velocity
+increments and intermittency.

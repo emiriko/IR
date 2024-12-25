@@ -1,0 +1,9 @@
+Smale's alpha-theory uses estimates related to the convergence of Newton's
+method to give criteria implying that Newton iterations will converge
+quadratically to solutions to a square polynomial system. The program
+alphaCertified implements algorithms based on alpha-theory to certify solutions
+to polynomial systems using both exact rational arithmetic and arbitrary
+precision floating point arithmetic. It also implements an algorithm to certify
+whether a given point corresponds to a real solution to a real polynomial
+system, as well as algorithms to heuristically validate solutions to
+overdetermined systems. Examples are presented to demonstrate the algorithms.

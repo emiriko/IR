@@ -1,0 +1,18 @@
+Let $\mathbf{s}_k=\frac{1}{\sqrt{N}}(v_{1k},...,v_{Nk})^T,$ with
+$\{v_{ik},i,k=1,...\}$ independent and identically distributed complex random
+variables. Write $\mathbf{S}_k=(\mathbf{s}_1,...,\mathbf
+{s}_{k-1},\mathbf{s}_{k+1},... ,\mathbf{s}_K),$ $\mathbf{P}_k=\operatorname
+{diag}(p_1,...,p_{k-1},p_{k+1},...,p_K)$,
+$\mathbf{R}_k=(\mathbf{S}_k\mathbf{P}_k\mathbf{S}_k^*+\sigma ^2\mathbf{I})$ and
+$\mathbf{A}_{km}=[\mathbf{s}_k,\mathbf{R}_k\mathbf{s}_k,...
+,\mathbf{R}_k^{m-1}\mathbf{s}_k]$. Define
+$\beta_{km}=p_k\mathbf{s}_k^*\mathbf{A}_{km}(\mathbf {A}_{km}^*\times\
+mathbf{R}_k\mathbf{A}_{km})^{-1}\mathbf{A}_{km}^*\mathbf{s}_k$, referred to as
+the signal-to-interference ratio (SIR) of user $k$ under the multistage Wiener
+(MSW) receiver in a wireless communication system. It is proved that the output
+SIR under the MSW and the mutual information statistic under the matched filter
+(MF) are both asymptotic Gaussian when $N/K\to c>0$. Moreover, we provide a
+central limit theorem for linear spectral statistics of eigenvalues and
+eigenvectors of sample covariance matrices, which is a supplement of Theorem 2
+in Bai, Miao and Pan [Ann. Probab. 35 (2007) 1532--1572]. And we also improve
+Theorem 1.1 in Bai and Silverstein [Ann. Probab. 32 (2004) 553--605].

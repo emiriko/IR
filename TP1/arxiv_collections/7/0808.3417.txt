@@ -1,0 +1,22 @@
+We develop a formalism and present an algorithm for optimization of the trial
+wave-function used in fixed-node diffusion quantum Monte Carlo (DMC) methods.
+We take advantage of a basic property of the walker configuration distribution
+generated in a DMC calculation, to (i) project-out a multi-determinant
+expansion of the fixed-node ground-state wave function and (ii) to define a
+cost function that relates the fixed-node ground-state and the non-interacting
+trial wave functions. We show that (a) locally smoothing out the kink of the
+fixed-node ground-state wave function at the node generates a new trial
+wave-function with better nodal structure and (b) we argue that the noise in
+the fixed-node wave-function resulting from finite sampling plays a beneficial
+role, allowing the nodes to adjust towards the ones of the exact many-body
+ground state in a simulated annealing-like process. We propose a method to
+improve both single determinant and multi-determinant expansions of the trial
+wave-function. We test the method in a model system where benchmark
+configuration interaction calculations can be performed. Comparing the DMC
+calculations with the exact solutions, we find that the trial wave-function is
+systematically improved. The overlap of the optimized trial wave function and
+the exact ground state converges to 100% even starting from wave-functions
+orthogonal to the exact ground state. In the optimization process we find an
+optimal non-interacting nodal potential of density-functional-like form whose
+existence was predicted earlier[Phys.Rev. B {\bf 77}, 245110 (2008)]. We obtain
+the exact Kohn-Sham effective potential from the DMC data.

@@ -1,0 +1,16 @@
+The C Object System (Cos) is a small C library which implements high-level
+concepts available in Clos, Objc and other object-oriented programming
+languages: uniform object model (class, meta-class and property-metaclass),
+generic functions, multi-methods, delegation, properties, exceptions, contracts
+and closures. Cos relies on the programmable capabilities of the C programming
+language to extend its syntax and to implement the aforementioned concepts as
+first-class objects. Cos aims at satisfying several general principles like
+simplicity, extensibility, reusability, efficiency and portability which are
+rarely met in a single programming language. Its design is tuned to provide
+efficient and portable implementation of message multi-dispatch and message
+multi-forwarding which are the heart of code extensibility and reusability.
+With COS features in hand, software should become as flexible and extensible as
+with scripting languages and as efficient and portable as expected with C
+programming. Likewise, Cos concepts should significantly simplify adaptive and
+aspect-oriented programming as well as distributed and service-oriented
+computing

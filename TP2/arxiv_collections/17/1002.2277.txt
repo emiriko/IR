@@ -1,0 +1,21 @@
+The density of orbital space debris constitutes an increasing environmental
+challenge. There are three ways to alleviate the problem: debris mitigation,
+debris removal and collision avoidance. This paper addresses collision
+avoidance, by describing a method that contributes to achieving a requisite
+increase in orbit prediction accuracy. Batch least-squares differential
+correction is applied to the publicly available two-line element (TLE) catalog
+of space objects. Using a high-precision numerical propagator, we fit an orbit
+to state vectors derived from successive TLEs. We then propagate the fitted
+orbit further forward in time. These predictions are compared to precision
+ephemeris data derived from the International Laser Ranging Service (ILRS) for
+several satellites, including objects in the congested sun-synchronous orbital
+region. The method leads to a predicted range error that increases at a typical
+rate of 100 meters per day, approximately a 10-fold improvement over TLE's
+propagated with their associated analytic propagator (SGP4). Corresponding
+improvements for debris trajectories could potentially provide initial
+conjunction analysis sufficiently accurate for an operationally viable
+collision avoidance system.
+  We discuss additional optimization and the computational requirements for
+applying all-on-all conjunction analysis to the whole TLE catalog, present and
+near future. Finally, we outline a scheme for debris-debris collision avoidance
+that may become practicable given these developments.

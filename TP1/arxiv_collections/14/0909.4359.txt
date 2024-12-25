@@ -1,0 +1,21 @@
+We present a novel sparse signal reconstruction method "ISD", aiming to
+achieve fast reconstruction and a reduced requirement on the number of
+measurements compared to the classical l_1 minimization approach. ISD addresses
+failed reconstructions of l_1 minimization due to insufficient measurements. It
+estimates a support set I from a current reconstruction and obtains a new
+reconstruction by solving the minimization problem \min{\sum_{i\not\in
+I}|x_i|:Ax=b}, and it iterates these two steps for a small number of times. ISD
+differs from the orthogonal matching pursuit (OMP) method, as well as its
+variants, because (i) the index set I in ISD is not necessarily nested or
+increasing and (ii) the minimization problem above updates all the components
+of x at the same time. We generalize the Null Space Property to Truncated Null
+Space Property and present our analysis of ISD based on the latter.
+  We introduce an efficient implementation of ISD, called threshold--ISD, for
+recovering signals with fast decaying distributions of nonzeros from
+compressive sensing measurements. Numerical experiments show that
+threshold--ISD has significant advantages over the classical l_1 minimization
+approach, as well as two state--of--the--art algorithms: the iterative
+reweighted l_1 minimization algorithm (IRL1) and the iterative reweighted
+least--squares algorithm (IRLS).
+  MATLAB code is available for download from
+http://www.caam.rice.edu/~optimization/L1/ISD/.

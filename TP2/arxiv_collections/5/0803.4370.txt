@@ -1,0 +1,8 @@
+An architecture to enable some blocks consisting of several nodes in a public
+cluster connected to different grid collaborations is introduced. It is
+realized by inserting a web-service in addition to the standard Globus Toolkit.
+The new web-service performs two main tasks : authenticate the digital
+certificate contained in an incoming requests and forward it to the designated
+block. The appropriate block is mapped with the username of the block's owner
+contained in the digital certificate. It is argued that this algorithm opens an
+opportunity for any blocks in a public cluster to join various global grids.

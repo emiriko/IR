@@ -1,0 +1,27 @@
+Science and engineering problems frequently require solving a sequence of
+dual linear systems. Besides having to store only few Lanczos vectors, using
+the BiConjugate Gradient method (BiCG) to solve dual linear systems has
+advantages for specific applications. For example, using BiCG to solve the dual
+linear systems arising in interpolatory model reduction provides a backward
+error formulation in the model reduction framework. Using BiCG to evaluate
+bilinear forms -- for example, in quantum Monte Carlo (QMC) methods for
+electronic structure calculations -- leads to a quadratic error bound. Since
+our focus is on sequences of dual linear systems, we introduce recycling BiCG,
+a BiCG method that recycles two Krylov subspaces from one pair of dual linear
+systems to the next pair. The derivation of recycling BiCG also builds the
+foundation for developing recycling variants of other bi-Lanczos based methods,
+such as CGS, BiCGSTAB, QMR, and TFQMR.
+  We develop an augmented bi-Lanczos algorithm and a modified two-term
+recurrence to include recycling in the iteration. The recycle spaces are
+approximate left and right invariant subspaces corresponding to the eigenvalues
+closest to the origin. These recycle spaces are found by solving a small
+generalized eigenvalue problem alongside the dual linear systems being solved
+in the sequence.
+  We test our algorithm in two application areas. First, we solve a discretized
+partial differential equation (PDE) of convection-diffusion type. Such a
+problem provides well-known test cases that are easy to test and analyze
+further. Second, we use recycling BiCG in the Iterative Rational Krylov
+Algorithm (IRKA) for interpolatory model reduction. IRKA requires solving
+sequences of slowly changing dual linear systems. We show up to 70% savings in
+iterations, and also demonstrate that for a model reduction problem BiCG takes
+(about) 50% more time than recycling BiCG.

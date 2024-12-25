@@ -1,0 +1,22 @@
+For spiking neural networks we consider the stability problem of global
+synchrony, arguably the simplest non-trivial collective dynamics in such
+networks. We find that even this simplest dynamical problem -- local stability
+of synchrony -- is non-trivial to solve and requires novel methods for its
+solution. The dynamics in the vicinity of the synchronous state is determined
+by a multitude of linear operators, in contrast to a single stability matrix in
+conventional linear stability theory. This unusual property qualitatively
+depends on network topology and may be neglected for globally coupled
+homogeneous networks. For generic networks, however, the number of operators
+increases exponentially with the size of the network. We present methods to
+treat this multi-operator problem exactly. First, based on the Gershgorin and
+Perron-Frobenius theorems, we derive bounds on the eigenvalues that provide
+important information about the synchronization process but are not sufficient
+to establish the asymptotic stability or instability of the synchronous state.
+We then present a complete analysis of asymptotic stability for topologically
+strongly connected networks using simple graph-theoretical considerations. For
+inhibitory interactions between dissipative (leaky) oscillatory neurons the
+synchronous state is stable, independent of the parameters and the network
+connectivity. These results indicate that pulse-like interactions play a
+profound role in network dynamical systems, and in particular in the dynamics
+of biological synchronization, unless the coupling is homogeneous and
+all-to-all.

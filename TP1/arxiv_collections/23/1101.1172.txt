@@ -1,0 +1,13 @@
+Let $n$ and $k$ be positive integers, and let $F$ be an alphabet of size $n$.
+A sequence over $F$ of length $m$ is a \emph{$k$-radius sequence} if any two
+distinct elements of $F$ occur within distance $k$ of each other somewhere in
+the sequence. These sequences were introduced by Jaromczyk and Lonc in 2004, in
+order to produce an efficient caching strategy when computing certain functions
+on large data sets such as medical images.
+  Let $f_k(n)$ be the length of the shortest $n$-ary $k$-radius sequence. The
+paper shows, using a probabilistic argument, that whenever $k$ is fixed and
+$n\rightarrow\infty$ \[ f_k(n)\sim \frac{1}{k}\binom{n}{2}. \]
+  The paper observes that the same argument generalises to the situation when
+we require the following stronger property for some integer $t$ such that
+$2\leq t\leq k+1$: any $t$ distinct elements of $F$ must simultaneously occur
+within a distance $k$ of each other somewhere in the sequence.

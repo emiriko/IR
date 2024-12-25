@@ -1,0 +1,25 @@
+It is a longstanding open problem to devise an oracle relative to which BQP
+does not lie in the Polynomial-Time Hierarchy (PH). We advance a natural
+conjecture about the capacity of the Nisan-Wigderson pseudorandom generator
+[NW94] to fool AC_0, with MAJORITY as its hard function. Our conjecture is
+essentially that the loss due to the hybrid argument (which is a component of
+the standard proof from [NW94]) can be avoided in this setting. This is a
+question that has been asked previously in the pseudorandomness literature
+[BSW03]. We then make three main contributions: (1) We show that our conjecture
+implies the existence of an oracle relative to which BQP is not in the PH. This
+entails giving an explicit construction of unitary matrices, realizable by
+small quantum circuits, whose row-supports are "nearly-disjoint." (2) We give a
+simple framework (generalizing the setting of Aaronson [A10]) in which any
+efficiently quantumly computable unitary gives rise to a distribution that can
+be distinguished from the uniform distribution by an efficient quantum
+algorithm. When applied to the unitaries we construct, this framework yields a
+problem that can be solved quantumly, and which forms the basis for the desired
+oracle. (3) We prove that Aaronson's "GLN conjecture" [A10] implies our
+conjecture; our conjecture is thus formally easier to prove. The GLN conjecture
+was recently proved false for depth greater than 2 [A10a], but it remains open
+for depth 2. If true, the depth-2 version of either conjecture would imply an
+oracle relative to which BQP is not in AM, which is itself an outstanding open
+problem. Taken together, our results have the following interesting
+interpretation: they give an instantiation of the Nisan-Wigderson generator
+that can be broken by quantum computers, but not by the relevant modes of
+classical computation, if our conjecture is true.

@@ -1,0 +1,19 @@
+Valiant-Vazirani showed in 1985 [VV85] that solving NP with the promise that
+"yes" instances have only one witness is powerful enough to solve the entire NP
+class (under randomized reductions).
+  We are interested in extending this result to the quantum setting. We prove
+extensions to the classes Merlin-Arthur MA and Quantum-Classical-Merlin-Arthur
+QCMA. Our results have implications for the complexity of approximating the
+ground state energy of a quantum local Hamiltonian with a unique ground state
+and an inverse polynomial spectral gap. We show that the estimation (to within
+polynomial accuracy) of the ground state energy of poly-gapped 1-D local
+Hamiltonians is QCMA-hard [AN02], under randomized reductions. This is in stark
+contrast to the case of constant gapped 1-D Hamiltonians, which is in NP
+[Has07]. Moreover, it shows that unless QCMA can be reduced to NP by randomized
+reductions, there is no classical description of the ground state of every
+poly-gapped local Hamiltonian that allows efficient calculation of expectation
+values.
+  Finally, we discuss a few of the obstacles to the establishment of an
+analogous result to the class Quantum-Merlin-Arthur (QMA). In particular, we
+show that random projections fail to provide a polynomial gap between two
+witnesses.

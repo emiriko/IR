@@ -1,0 +1,21 @@
+The notions of hypertree width and generalized hypertree width were
+introduced by Gottlob, Leone, and Scarcello in order to extend the concept of
+hypergraph acyclicity. These notions were further generalized by Grohe and
+Marx, who introduced the fractional hypertree width of a hypergraph. All these
+width parameters on hypergraphs are useful for extending tractability of many
+problems in database theory and artificial intelligence. In this paper, we
+study the approximability of (generalized, fractional) hyper treewidth of
+sparse hypergraphs where the criterion of sparsity reflects the sparsity of
+their incidence graphs. Our first step is to prove that the (generalized,
+fractional) hypertree width of a hypergraph H is constant-factor sandwiched by
+the treewidth of its incidence graph, when the incidence graph belongs to some
+apex-minor-free graph class. This determines the combinatorial borderline above
+which the notion of (generalized, fractional) hypertree width becomes
+essentially more general than treewidth, justifying that way its functionality
+as a hypergraph acyclicity measure. While for more general sparse families of
+hypergraphs treewidth of incidence graphs and all hypertree width parameters
+may differ arbitrarily, there are sparse families where a constant factor
+approximation algorithm is possible. In particular, we give a constant factor
+approximation polynomial time algorithm for (generalized, fractional) hypertree
+width on hypergraphs whose incidence graphs belong to some H-minor-free graph
+class.

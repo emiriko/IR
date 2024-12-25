@@ -1,0 +1,16 @@
+Our goal is to infer the topology of a network when (i) we can send probes
+between sources and receivers at the edge of the network and (ii) intermediate
+nodes can perform simple network coding operations, i.e., additions. Our key
+intuition is that network coding introduces topology-dependent correlation in
+the observations at the receivers, which can be exploited to infer the
+topology. For undirected tree topologies, we design hierarchical clustering
+algorithms, building on our prior work. For directed acyclic graphs (DAGs),
+first we decompose the topology into a number of two-source, two-receiver
+(2-by-2) subnetwork components and then we merge these components to
+reconstruct the topology. Our approach for DAGs builds on prior work on
+tomography, and improves upon it by employing network coding to accurately
+distinguish among all different 2-by-2 components. We evaluate our algorithms
+through simulation of a number of realistic topologies and compare them to
+active tomographic techniques without network coding. We also make connections
+between our approach and alternatives, including passive inference, traceroute,
+and packet marking.

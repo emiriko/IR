@@ -1,0 +1,13 @@
+The periodogram is a popular tool that tests whether a signal consists only
+of noise or if it also includes other components. The main issue of this method
+is to define a critical detection threshold that allows identification of a
+component other than noise, when a peak in the periodogram exceeds it. In the
+case of signals sampled on a regular time grid, determination of such a
+threshold is relatively simple. When the sampling is uneven, however, things
+are more complicated. The most popular solution in this case is to use the
+"Lomb-Scargle" periodogram, but this method can be used only when the noise is
+the realization of a zero-mean, white (i.e. flat-spectrum) random process. In
+this paper, we present a general formalism based on matrix algebra, which
+permits analysis of the statistical properties of a periodogram independently
+of the characteristics of noise (e.g. colored and/or non-stationary), as well
+as the characteristics of sampling.

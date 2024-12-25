@@ -1,0 +1,12 @@
+This paper presents a technique for eliminating redundant cache-tag and
+cache-way accesses to reduce power consumption. The basic idea is to keep a
+small number of Most Recently Used (MRU) addresses in a Memory Address Buffer
+(MAB) and to omit redundant tag and way accesses when there is a MAB-hit. Since
+the approach keeps only tag and set-index values in the MAB, the energy and
+area overheads are relatively small even for a MAB with a large number of
+entries. Furthermore, the approach does not sacrifice the performance. In other
+words, neither the cycle time nor the number of executed cycles increases. The
+proposed technique has been applied to Fujitsu VLIW processor (FR-V) and its
+power saving has been estimated using NanoSim. Experiments for 32kB 2-way set
+associative caches show the power consumption of I-cache and D-cache can be
+reduced by 40% and 50%, respectively.

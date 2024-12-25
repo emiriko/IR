@@ -1,0 +1,23 @@
+Due to the limited cell resolution in the representation of flow variables, a
+piecewise continuous initial reconstruction with discontinuous jump at a cell
+interface is usually used in modern computational fluid dynamics methods.
+Starting from the discontinuity, a Riemann problem in the Godunov method is
+solved for the flux evaluation across the cell interface in a finite volume
+scheme. With the increasing of Mach number in the CFD simulations, the
+adaptation of the Riemann solver seems introduce intrinsically a mechanism to
+develop instabilities in strong shock regions. Theoretically, the Riemann
+solution of the Euler equations are based on the equilibrium assumption, which
+may not be valid in the non-equilibrium shock layer. In order to clarify the
+flow physics from a discontinuity, the unsteady flow behavior of
+one-dimensional contact and shock wave is studied on a time scale of (0~10000)
+times of the particle collision time. In the study of the non-equilibrium flow
+behavior from a discontinuity, the collision-less Boltzmann equation is first
+used for the time scale within one particle collision time, then the direct
+simulation Monte Carlo (DSMC) method will be adapted to get the further
+evolution solution. The transition from the free particle transport to the
+dissipative Navier-Stokes (NS) solutions are obtained as an increasing of time.
+The exact Riemann solution becomes a limiting solution with infinite number of
+particle collisions. For the high Mach number flow simulations, the points in
+the shock transition region, even though the region is enlarged numerically to
+the mesh size, should be considered as the points inside a highly
+non-equilibrium shock layer.

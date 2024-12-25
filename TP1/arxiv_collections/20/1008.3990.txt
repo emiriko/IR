@@ -1,0 +1,6 @@
+Models for pedestrian dynamics are often based on microscopic approaches
+allowing for individual agent navigation. To reach a given destination, the
+agent has to consider environmental obstacles. We propose a direction field
+calculated on a regular grid with a Moore neighborhood, where obstacles are
+represented by occupied cells. Our developed algorithm exactly reproduces the
+shortest path with regard to the Euclidean metric.

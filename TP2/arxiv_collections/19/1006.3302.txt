@@ -1,0 +1,14 @@
+We propose a simple distributed algorithm for balancing indivisible tokens on
+graphs. The algorithm is completely deterministic, though it tries to imitate
+(and enhance) a random algorithm by keeping the accumulated rounding errors as
+small as possible.
+  Our new algorithm surprisingly closely approximates the idealized process
+(where the tokens are divisible) on important network topologies. On
+d-dimensional torus graphs with n nodes it deviates from the idealized process
+only by an additive constant. In contrast to that, the randomized rounding
+approach of Friedrich and Sauerwald (2009) can deviate up to Omega(polylog(n))
+and the deterministic algorithm of Rabani, Sinclair and Wanka (1998) has a
+deviation of Omega(n^{1/d}). This makes our quasirandom algorithm the first
+known algorithm for this setting which is optimal both in time and achieved
+smoothness. We further show that also on the hypercube our algorithm has a
+smaller deviation from the idealized process than the previous algorithms.

@@ -1,0 +1,10 @@
+This paper demonstrates that a set of behaviours evolved in simulation on a
+miniature robot (epuck) can be transferred to a much larger scale platform (a
+virtual Pioneer P3-DX) that also differs in shape, sensor type, sensor
+configuration and programming interface. The chosen architecture uses a
+reinforcement learning-assisted genetic algorithm to evolve the epuck
+behaviours, which are encoded as a genetic sequence. This sequence is then used
+by the Pioneers as part of an adaptive, idiotypic artificial immune system
+(AIS) control architecture. Testing in three different simulated worlds shows
+that the Pioneer can use these behaviours to navigate and solve object-tracking
+tasks successfully, as long as its adaptive AIS mechanism is in place.

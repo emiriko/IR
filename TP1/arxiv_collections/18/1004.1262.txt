@@ -1,0 +1,14 @@
+In a model-based testing approach as well as for the verification of
+properties, B models provide an interesting solution. However, for industrial
+applications, the size of their state space often makes them hard to handle. To
+reduce the amount of states, an abstraction function can be used, often
+combining state variable elimination and domain abstractions of the remaining
+variables. This paper complements previous results, based on domain abstraction
+for test generation, by adding a preliminary syntactic abstraction phase, based
+on variable elimination. We define a syntactic transformation that suppresses
+some variables from a B event model, in addition to a method that chooses
+relevant variables according to a test purpose. We propose two methods to
+compute an abstraction A of an initial model M. The first one computes A as a
+simulation of M, and the second one computes A as a bisimulation of M. The
+abstraction process produces a finite state system. We apply this abstraction
+computation to a Model Based Testing process.

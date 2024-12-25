@@ -1,0 +1,24 @@
+We study competition between wireless devices with incomplete information
+about their opponents. We model such interactions as Bayesian interference
+games. Each wireless device selects a power profile over the entire available
+bandwidth to maximize its data rate. Such competitive models represent
+situations in which several wireless devices share spectrum without any central
+authority or coordinated protocol.
+  In contrast to games where devices have complete information about their
+opponents, we consider scenarios where the devices are unaware of the
+interference they cause to other devices. Such games, which are modeled as
+Bayesian games, can exhibit significantly different equilibria. We first
+consider a simple scenario of simultaneous move games, where we show that the
+unique Bayes-Nash equilibrium is where both devices spread their power equally
+across the entire bandwidth. We then extend this model to a two-tiered spectrum
+sharing case where users act sequentially. Here one of the devices, called the
+primary user, is the owner of the spectrum and it selects its power profile
+first. The second device (called the secondary user) then responds by choosing
+a power profile to maximize its Shannon capacity. In such sequential move
+games, we show that there exist equilibria in which the primary user obtains a
+higher data rate by using only a part of the bandwidth.
+  In a repeated Bayesian interference game, we show the existence of reputation
+effects: an informed primary user can bluff to prevent spectrum usage by a
+secondary user who suffers from lack of information about the channel gains.
+The resulting equilibrium can be highly inefficient, suggesting that
+competitive spectrum sharing is highly suboptimal.

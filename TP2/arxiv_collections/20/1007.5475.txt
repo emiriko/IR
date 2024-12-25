@@ -1,0 +1,15 @@
+For every list of integers x_1, ..., x_m there is some j such that x_1 + ...
++ x_j - x_{j+1} - ... - x_m \approx 0. So the list can be nearly balanced and
+for this we only need one alternation between addition and subtraction. But
+what if the x_i are k-dimensional integer vectors? Using results from
+topological degree theory we show that balancing is still possible, now with k
+alternations.
+  This result is useful in multi-objective optimization, as it allows a
+polynomial-time computable balance of two alternatives with conflicting costs.
+The application to two multi-objective optimization problems yields the
+following results:
+  - A randomized 1/2-approximation for multi-objective maximum asymmetric
+traveling salesman, which improves and simplifies the best known approximation
+for this problem.
+  - A deterministic 1/2-approximation for multi-objective maximum weighted
+satisfiability.

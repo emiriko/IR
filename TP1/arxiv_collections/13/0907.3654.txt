@@ -1,0 +1,13 @@
+An important issue with oversampled FIR analysis filter banks (FBs) is to
+determine inverse synthesis FBs, when they exist. Given any complex oversampled
+FIR analysis FB, we first provide an algorithm to determine whether there
+exists an inverse FIR synthesis system. We also provide a method to ensure the
+Hermitian symmetry property on the synthesis side, which is serviceable to
+processing real-valued signals. As an invertible analysis scheme corresponds to
+a redundant decomposition, there is no unique inverse FB. Given a particular
+solution, we parameterize the whole family of inverses through a null space
+projection. The resulting reduced parameter set simplifies design procedures,
+since the perfect reconstruction constrained optimization problem is recast as
+an unconstrained optimization problem. The design of optimized synthesis FBs
+based on time or frequency localization criteria is then investigated, using a
+simple yet efficient gradient algorithm.

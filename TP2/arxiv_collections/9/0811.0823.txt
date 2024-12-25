@@ -1,0 +1,19 @@
+Recent work has shown how information theory extends conventional
+full-rationality game theory to allow bounded rational agents. The associated
+mathematical framework can be used to solve constrained optimization problems.
+This is done by translating the problem into an iterated game, where each agent
+controls a different variable of the problem, so that the joint probability
+distribution across the agents' moves gives an expected value of the objective
+function. The dynamics of the agents is designed to minimize a Lagrangian
+function of that joint distribution. Here we illustrate how the updating of the
+Lagrange parameters in the Lagrangian is a form of automated annealing, which
+focuses the joint distribution more and more tightly about the joint moves that
+optimize the objective function. We then investigate the use of
+``semicoordinate'' variable transformations. These separate the joint state of
+the agents from the variables of the optimization problem, with the two
+connected by an onto mapping. We present experiments illustrating the ability
+of such transformations to facilitate optimization. We focus on the special
+kind of transformation in which the statistically independent states of the
+agents induces a mixture distribution over the optimization variables. Computer
+experiment illustrate this for $k$-sat constraint satisfaction problems and for
+unconstrained minimization of $NK$ functions.

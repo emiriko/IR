@@ -1,0 +1,18 @@
+We study the problem of sparse reconstruction from noisy undersampled
+measurements when the following two things are available. (1) We are given
+partial, and partly erroneous, knowledge of the signal's support, denoted by
+$T$. (2) We are also given an erroneous estimate of the signal values on $T$,
+denoted by $(\hat{\mu})_T$. In practice, both these may be available from
+available prior knowledge. Alternatively, in recursive reconstruction
+applications, like real-time dynamic MRI, one can use the support estimate and
+the signal value estimate from the previous time instant as $T$ and
+$(\hat{\mu})_T$. In this work, we introduce regularized modified-BPDN
+(reg-mod-BPDN) and obtain computable bounds on its reconstruction error.
+Reg-mod-BPDN tries to find the signal that is sparsest outside the set $T$,
+while being "close enough" to $(\hat{\mu})_T$ on $T$ and while satisfying the
+data constraint. Corresponding results for modified-BPDN and BPDN follow as
+direct corollaries. A second key contribution is an approach to obtain
+computable error bounds that hold without any sufficient conditions. This makes
+it easy to compare the bounds for the various approaches. Empirical
+reconstruction error comparisons with many existing approaches are also
+provided.

@@ -1,0 +1,15 @@
+The problem of k-minimisation for a DFA M is the computation of a smallest
+DFA N (where the size |M| of a DFA M is the size of the domain of the
+transition function) such that their recognized languages differ only on words
+of length less than k. The previously best algorithm, which runs in time O(|M|
+log^2 n) where n is the number of states, is extended to DFAs with partial
+transition functions. Moreover, a faster O(|M| log n) algorithm for DFAs that
+recognise finite languages is presented. In comparison to the previous
+algorithm for total DFAs, the new algorithm is much simpler and allows the
+calculation of a k-minimal DFA for each k in parallel. Secondly, it is
+demonstrated that calculating the least number of introduced errors is hard:
+Given a DFA M and numbers k and m, it is NP-hard to decide whether there exists
+a k-minimal DFA N differing from DFA M on at most m words. A similar result
+holds for hyper-minimisation of DFAs in general: Given a DFA M and numbers s
+and m, it is NP-hard to decide whether there exists a DFA N with at most s
+states such that DFA M and N differ on at msot m words.

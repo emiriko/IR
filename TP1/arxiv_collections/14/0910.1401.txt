@@ -1,0 +1,13 @@
+In this paper we develop a stochastic boundary conditions (SBC) for
+event-driven molecular dynamics simulations of a finite volume embedded within
+an infinite environment. In this method, we first collect the statistics of
+injection/ejection events in periodic boundary conditions (PBC). Once
+sufficient statistics are collected, we remove the PBC and turn on the SBC. In
+the SBC simulations, we allow particles leaving the system to be truly ejected
+from the simulation, and randomly inject particles at the boundaries by
+resampling from the injection/ejection statistics collected from the current or
+previous simulations. With the SBC, we can measure thermodynamic quantities
+within the grand canonical ensemble, based on the particle number and energy
+fluctuations. To demonstrate how useful the SBC algorithm is, we simulated a
+hard disk gas and measured the pair distribution function, the compressibility
+and the specific heat, comparing them against literature values.

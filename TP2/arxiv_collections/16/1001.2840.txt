@@ -1,0 +1,9 @@
+An "exact" method for scalar one-dimensional hyperbolic conservation laws is
+presented. The approach is based on the evolution of shock particles, separated
+by local similarity solutions. The numerical solution is defined everywhere,
+and is as accurate as the applied ODE solver. Furthermore, the method is
+extended to stiff balance laws. A special correction approach yields a method
+that evolves detonation waves at correct velocities, without resolving their
+internal dynamics. The particle approach is compared to a classical finite
+volume method in terms of numerical accuracy, both for conservation laws and
+for an application in reaction kinetics.

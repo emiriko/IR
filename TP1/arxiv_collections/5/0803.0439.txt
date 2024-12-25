@@ -1,0 +1,15 @@
+The floating-point implementation of a function on an interval often reduces
+to polynomial approximation, the polynomial being typically provided by Remez
+algorithm. However, the floating-point evaluation of a Remez polynomial
+sometimes leads to catastrophic cancellations. This happens when some of the
+polynomial coefficients are very small in magnitude with respects to others. In
+this case, it is better to force these coefficients to zero, which also reduces
+the operation count. This technique, classically used for odd or even
+functions, may be generalized to a much larger class of functions. An algorithm
+is presented that forces to zero the smaller coefficients of the initial
+polynomial thanks to a modified Remez algorithm targeting an incomplete
+monomial basis. One advantage of this technique is that it is purely numerical,
+the function being used as a numerical black box. This algorithm is implemented
+within a larger polynomial implementation tool that is demonstrated on a range
+of examples, resulting in polynomials with less coefficients than those
+obtained the usual way.

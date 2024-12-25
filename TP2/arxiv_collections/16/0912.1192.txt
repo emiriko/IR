@@ -1,0 +1,22 @@
+The numerical simulation of strongly first-order phase transitions has
+remained a notoriously difficult problem even for classical systems due to the
+exponentially suppressed (thermal) equilibration in the vicinity of such a
+transition. In the absence of efficient update techniques, a common approach to
+improve equilibration in Monte Carlo simulations is to broaden the sampled
+statistical ensemble beyond the bimodal distribution of the canonical ensemble.
+Here we show how a recently developed feedback algorithm can systematically
+optimize such broad-histogram ensembles and significantly speed up
+equilibration in comparison with other extended ensemble techniques such as
+flat-histogram, multicanonical or Wang-Landau sampling. As a prototypical
+example of a strong first-order transition we simulate the two-dimensional
+Potts model with up to Q=250 different states on large systems. The optimized
+histogram develops a distinct multipeak structure, thereby resolving entropic
+barriers and their associated phase transitions in the phase coexistence region
+such as droplet nucleation and annihilation or droplet-strip transitions for
+systems with periodic boundary conditions. We characterize the efficiency of
+the optimized histogram sampling by measuring round-trip times tau(N,Q) across
+the phase transition for samples of size N spins. While we find power-law
+scaling of tau vs. N for small Q \lesssim 50 and N \lesssim 40^2, we observe a
+crossover to exponential scaling for larger Q. These results demonstrate that
+despite the ensemble optimization broad-histogram simulations cannot fully
+eliminate the supercritical slowing down at strongly first-order transitions.

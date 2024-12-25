@@ -1,0 +1,17 @@
+The k-pair problem in network coding theory asks to send k messages
+simultaneously between k source-target pairs over a directed acyclic graph. In
+a previous paper [ICALP 2009, Part I, pages 622--633] the present authors
+showed that if a classical k-pair problem is solvable by means of a linear
+coding scheme, then the quantum k-pair problem over the same graph is also
+solvable, provided that classical communication can be sent for free between
+any pair of nodes of the graph. Here we address the main case that remained
+open in our previous work, namely whether nonlinear classical network coding
+schemes can also give rise to quantum network coding schemes. This question is
+motivated by the fact that there are networks for which there are no linear
+solutions to the k-pair problem, whereas nonlinear solutions exist. In the
+present paper we overcome the limitation to linear protocols and describe a new
+communication protocol for perfect quantum network coding that improves over
+the previous one as follows: (i) the new protocol does not put any condition on
+the underlying classical coding scheme, that is, it can simulate nonlinear
+communication protocols as well, and (ii) the amount of classical communication
+sent in the protocol is significantly reduced.

@@ -1,0 +1,15 @@
+We present an IDL graphical user interface-driven software package designed
+for the analysis of extrasolar planet transit light curves. The Transit
+Analysis Package (TAP) software uses Markov Chain Monte Carlo (MCMC) techniques
+to fit light curves using the analytic model of Mandel and Agol (2002). The
+package incorporates a wavelet based likelihood function developed by Carter
+and Winn (2009) which allows the MCMC to assess parameter uncertainties more
+robustly than classic chi-squared methods by parameterizing uncorrelated
+"white" and correlated "red" noise. The software is able to simultaneously
+analyze multiple transits observed in different conditions (instrument, filter,
+weather, etc). The graphical interface allows for the simple execution and
+interpretation of Bayesian MCMC analysis tailored to a user's specific data set
+and has been thoroughly tested on ground-based and Kepler photometry. AutoKep
+provides a similar GUI for the preparation of Kepler MAST archive data for
+analysis by TAP or any other analysis software. This paper describes the
+software release and provides instructions for its use.

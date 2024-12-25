@@ -1,0 +1,17 @@
+A sequence $\{x_{n}\}_1^\infty$ in $[0,1)$ is called Borel-Cantelli (BC) if
+for all non-increasing sequences of positive real numbers $\{a_n\}$ with
+$\underset{i=1}{\overset{\infty}{\sum}}a_i=\infty$ the set
+\[\underset{k=1}{\overset{\infty}{\cap}} \underset{n=k}{\overset{\infty}{\cup}}
+B(x_n, a_n))=\{x\in[0,1)\mid |x_n-x|<a_n \text{for} \infty
+\text{many}n\geq1\}\] has full Lebesgue measure. (To put it informally, BC
+sequences are sequences for which a natural converse to the Borel-Cantelli
+Theorem holds).
+  The notion of BC sequences is motivated by the Monotone Shrinking Target
+Property for dynamical systems, but our approach is from a geometric rather
+than dynamical perspective. A sufficient condition, a necessary condition and a
+necessary and sufficient condition for a sequence to be BC are established. A
+number of examples of BC and not BC sequences are presented.
+  The property of a sequence to be BC is a delicate diophantine property. For
+example, the orbits of a pseudo-Anosoff IET (interval exchange transformation)
+are BC while the orbits of a "generic" IET are not.
+  The notion of BC sequences is extended to more general spaces.

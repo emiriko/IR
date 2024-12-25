@@ -1,0 +1,11 @@
+Side-channel attacks are efficient attacks against cryptographic devices.
+They use only quantities observable from outside, such as the duration and the
+power consumption. Attacks against synchronous devices using electric
+observations are facilitated by the fact that all transitions occur
+simultaneously with some global clock signal. Asynchronous control remove this
+synchronization and therefore makes it more difficult for the attacker to
+insulate \emph{interesting intervals}. In addition the coding of data in an
+asynchronous circuit is inherently more difficult to attack. This article
+describes the Programmable Logic Block of an asynchronous FPGA resistant
+against \emph{side-channel attacks}. Additionally it can implement different
+styles of asynchronous control and of data representation.

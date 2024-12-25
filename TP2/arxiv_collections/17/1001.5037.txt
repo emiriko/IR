@@ -1,0 +1,24 @@
+Cosmological simulations of galaxy formation often rely on prescriptions for
+star formation and feedback that depend on halo properties such as halo mass,
+central over-density, and virial temperature. In this paper we address the
+convergence of individual halo properties, based on their number of particles
+N, focusing in particular on the mass of halos near the resolution limit of a
+simulation. While it has been established that the halo mass function is
+sampled on average down to N~30 particles, we show that individual halo
+properties exhibit significant scatter, and some systematic biases, as one
+approaches the resolution limit. We carry out a series of cosmological
+simulations using the Gadget2 and Enzo codes with N_p=64^3 to N_p=1024^3 total
+particles, keeping the same large-scale structure in the simulation box. We
+consider boxes from l_{box} = 8 Mpc/h to l_{box} = 512 Mpc/h to probe different
+halo masses and formation redshifts. We cross-identify dark matter halos in
+boxes at different resolutions and measure the scatter in their properties. The
+uncertainty in the mass of single halos depends on the number of particles
+(scaling approximately as N^{-1/3}), but the rarer the density peak, the more
+robust its identification. The virial radius of halos is very stable and can be
+measured without bias for halos with N>30. In contrast, the average density
+within a sphere containing 25% of the total halo mass is severely
+underestimated (by more than a factor 2) and the halo spin is moderately
+overestimated for N<100. If sub-grid physics is implemented upon a cosmological
+simulation, we recommend that rare halos (~3sigma peaks) be resolved with N>100
+particles and common halos (~1sigma peaks) with N>400 particles to avoid
+excessive numerical noise and possible systematic biases in the results.

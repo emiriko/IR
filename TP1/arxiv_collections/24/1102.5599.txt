@@ -1,0 +1,18 @@
+This paper concerns the consensus of discrete-time multi-agent systems with
+linear or linearized dynamics. An observer-type protocol based on the relative
+outputs of neighboring agents is proposed. The consensus of such a multi-agent
+system with a directed communication topology can be cast into the stability of
+a set of matrices with the same low dimension as that of a single agent. The
+notion of discrete-time consensus region is then introduced and analyzed. For
+neurally stable agents, it is shown that there exists an observer-type protocol
+having a bounded consensus region in the form of an open unit disk, provided
+that each agent is stabilizable and detectable. An algorithm is further
+presented to construct a protocol to achieve consensus with respect to all the
+communication topologies containing a spanning tree. Moreover, for the case
+where the agents have no poles outside the unit circle,an algorithm is proposed
+to construct a protocol having an origin-centered disk of radius $\delta$
+($0<\delta<1$) as its consensus region, where $\delta$ has to further satisfy a
+constraint related to the unstable eigenvalues of a single agent for the case
+where each agent has a least one eigenvalue outside the unit circle. Finally,
+the consensus algorithms are applied to solve formation control problems of
+multi-agent systems.

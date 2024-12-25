@@ -1,0 +1,17 @@
+In this work we study safety areas in epidemic spred. The aim of this work
+is, given the evolution of epidemic at time $t$, find a safety set at time
+$t+h$. This is, a random set $K_{t+h}$ such that the probability that infection
+reaches $K_{t+h}$ at time $t+h$ is small.
+  More precisely, inspired on the study of epidemic spread, we consider a model
+in which the measure $\mu_n(A)$ is the incidence -density of infectives
+individuals- in the set $A$, at time $n$ and
+$$\mu_{n+1}(A)(\omega)=\int_S{\pi_{n+1}(A;s)(\omega)\mu_n(ds)(\omega)}, {for
+any Borel set} A, $$ with random transition kernels of the form
+$$\pi_n(.;.)(\omega)=\Pi(.;.)(\xi_n(\omega),Y_n(\omega)),$$ where $\xi$, $Y$
+satisfy some ergodic conditions. The support of $\mu_n$ is called $S_n$. We
+also assume that $S_0$ is compact with regular border and that for any $x,y$
+the kernel $\Pi(.;.)(x,y)$ has compact support. A random set $K_{n+1}$ is a
+safety area of level $\alpha$ if: [{$i$)}] $K_{n+1}$ {\rm is a function of}
+$S_0, S_1, ...,S_n.$
+  [{$ii$)}] $P(K_{n+1} \cap S_{n+1} \neq \emptyset)\leq \alpha.$ We present a
+method to find these safety areas and some related results.

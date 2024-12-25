@@ -1,0 +1,16 @@
+Given a positive integer n and a positive semidefinite matrix A = (A_{ij}) of
+size m x m, the positive semidefinite Grothendieck problem with
+rank-n-constraint (SDP_n) is
+  maximize \sum_{i=1}^m \sum_{j=1}^m A_{ij} x_i \cdot x_j, where x_1, ..., x_m
+\in S^{n-1}.
+  In this paper we design a polynomial time approximation algorithm for SDP_n
+achieving an approximation ratio of
+  \gamma(n) = \frac{2}{n}(\frac{\Gamma((n+1)/2)}{\Gamma(n/2)})^2 = 1 -
+\Theta(1/n).
+  We show that under the assumption of the unique games conjecture the achieved
+approximation ratio is optimal: There is no polynomial time algorithm which
+approximates SDP_n with a ratio greater than \gamma(n). We improve the
+approximation ratio of the best known polynomial time algorithm for SDP_1 from
+2/\pi to 2/(\pi\gamma(m)) = 2/\pi + \Theta(1/m), and we show a tighter
+approximation ratio for SDP_n when A is the Laplacian matrix of a graph with
+nonnegative edge weights.

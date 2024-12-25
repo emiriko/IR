@@ -1,0 +1,22 @@
+N-body simulations are widely used to simulate the dynamical evolution of a
+variety of systems, among them star clusters. Much of our understanding of
+their evolution rests on the results of such direct N-body simulations. They
+provide insight in the structural evolution of star clusters, as well as into
+the occurrence of stellar exotica. Although the major pure N-body codes
+STARLAB/KIRA and NBODY4 are widely used for a range of applications, there is
+no thorough comparison study yet. Here we thoroughly compare basic quantities
+as derived from simulations performed either with STARLAB/KIRA or NBODY4.
+  We construct a large number of star cluster models for various stellar mass
+function settings (but without stellar/binary evolution, primordial binaries,
+external tidal fields etc), evolve them in parallel with STARLAB/KIRA and
+NBODY4, analyse them in a consistent way and compare the averaged results
+quantitatively. For this quantitative comparison we develop a bootstrap
+algorithm for functional dependencies.
+  We find an overall excellent agreement between the codes, both for the
+clusters' structural and energy parameters as well as for the properties of the
+dynamically created binaries. However, we identify small differences, like in
+the energy conservation before core collapse and the energies of escaping
+stars, which deserve further studies. Our results reassure the comparability
+and the possibility to combine results from these two major N-body codes, at
+least for the purely dynamical models (i.e. without stellar/binary evolution)
+we performed. (abridged)

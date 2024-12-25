@@ -1,0 +1,14 @@
+This paper discusses highly general mechanisms for specifying the refinement
+of a real-time system as a collection of lower level parallel components that
+preserve the timing and functional requirements of the upper level
+specification. These mechanisms are discussed in the context of ASTRAL, which
+is a formal specification language for real-time systems. Refinement is
+accomplished by mapping all of the elements of an upper level specification
+into lower level elements that may be split among several parallel components.
+In addition, actions that can occur in the upper level are mapped to actions of
+components operating at the lower level. This allows several types of
+implementation strategies to be specified in a natural way, while the price for
+generality (in terms of complexity) is paid only when necessary. The refinement
+mechanisms are first illustrated using a simple digital circuit; then, through
+a highly complex phone system; finally, design guidelines gleaned from these
+specifications are presented.

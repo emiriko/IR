@@ -1,0 +1,12 @@
+In this paper we discussed the application and the implementation of
+multipath routing and multiple description coding (MDC) extension of OLSR,
+called MP-OLSR. It is based on the link state algorithm and employs periodic
+exchange of messages to maintain topology information of the networks. In the
+mean time, it updates the routing table in an on-demand scheme and forwards the
+packets in multiple paths which have been determined at the source. If a link
+failure is detected, the algorithm recovers the route automatically. Concerning
+the instability of the wireless networks, the multiple description coding is
+used to improve reliability of the network transmission, and several methods
+are proposed to allocate the redundancy in different paths. The simulation in
+NS2 shows that the new protocol can effectively improve the performance of the
+networks. The implementation of MP-OLSR is also proposed in the end.

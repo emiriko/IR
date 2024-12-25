@@ -1,0 +1,9 @@
+Basic uniform pseudo-random number generators are implemented on ATI Graphics
+Processing Units (GPU). The performance results of the realized generators
+(multiplicative linear congruential (GGL), XOR-shift (XOR128), RANECU, RANMAR,
+RANLUX and Mersenne Twister (MT19937)) on CPU and GPU are discussed. The
+obtained speed-up factor is hundreds of times in comparison with CPU. RANLUX
+generator is found to be the most appropriate for using on GPU in Monte Carlo
+simulations. The brief review of the pseudo-random number generators used in
+modern software packages for Monte Carlo simulations in high-energy physics is
+present.

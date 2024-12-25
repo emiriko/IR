@@ -1,0 +1,13 @@
+We define the ``Pulse Synchronization'' problem that requires nodes to
+achieve tight synchronization of regular pulse events, in the settings of
+distributed computing systems. Pulse-coupled synchronization is a phenomenon
+displayed by a large variety of biological systems, typically overcoming a high
+level of noise. Inspired by such biological models, a robust and
+self-stabilizing Byzantine pulse synchronization algorithm for distributed
+computer systems is presented. The algorithm attains near optimal
+synchronization tightness while tolerating up to a third of the nodes
+exhibiting Byzantine behavior concurrently. Pulse synchronization has been
+previously shown to be a powerful building block for designing algorithms in
+this severe fault model. We have previously shown how to stabilize general
+Byzantine algorithms, using pulse synchronization. To the best of our knowledge
+there is no other scheme to do this without the use of synchronized pulses.

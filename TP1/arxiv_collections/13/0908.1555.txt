@@ -1,0 +1,23 @@
+We build a simple model of leveraged asset purchases with margin calls.
+Investment funds use what is perhaps the most basic financial strategy, called
+"value investing", i.e. systematically attempting to buy underpriced assets.
+When funds do not borrow, the price fluctuations of the asset are normally
+distributed and uncorrelated across time. All this changes when the funds are
+allowed to leverage, i.e. borrow from a bank, to purchase more assets than
+their wealth would otherwise permit. During good times competition drives
+investors to funds that use more leverage, because they have higher profits. As
+leverage increases price fluctuations become heavy tailed and display clustered
+volatility, similar to what is observed in real markets. Previous explanations
+of fat tails and clustered volatility depended on "irrational behavior", such
+as trend following. Here instead this comes from the fact that leverage limits
+cause funds to sell into a falling market: A prudent bank makes itself locally
+safer by putting a limit to leverage, so when a fund exceeds its leverage
+limit, it must partially repay its loan by selling the asset. Unfortunately
+this sometimes happens to all the funds simultaneously when the price is
+already falling. The resulting nonlinear feedback amplifies large downward
+price movements. At the extreme this causes crashes, but the effect is seen at
+every time scale, producing a power law of price disturbances. A standard
+(supposedly more sophisticated) risk control policy in which individual banks
+base leverage limits on volatility causes leverage to rise during periods of
+low volatility, and to contract more quickly when volatility gets high, making
+these extreme fluctuations even worse.

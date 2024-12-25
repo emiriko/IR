@@ -1,0 +1,14 @@
+In high-dimensional model selection problems, penalized simple least-square
+approaches have been extensively used. This paper addresses the question of
+both robustness and efficiency of penalized model selection methods, and
+proposes a data-driven weighted linear combination of convex loss functions,
+together with weighted $L_1$-penalty. It is completely data-adaptive and does
+not require prior knowledge of the error distribution. The weighted
+$L_1$-penalty is used both to ensure the convexity of the penalty term and to
+ameliorate the bias caused by the $L_1$-penalty. In the setting with
+dimensionality much larger than the sample size, we establish a strong oracle
+property of the proposed method that possesses both the model selection
+consistency and estimation efficiency for the true non-zero coefficients. As
+specific examples, we introduce a robust method of composite L1-L2, and optimal
+composite quantile method and evaluate their performance in both simulated and
+real data examples.

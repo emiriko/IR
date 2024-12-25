@@ -1,0 +1,13 @@
+Among the various procedures used to detect potential changes in a stochastic
+process the moving sum algorithms are very popular due to their intuitive
+appeal and good statistical performance. One of the important design parameters
+of a change detection algorithm is the expected interval between false
+positives, also known as the average run length (ARL). Computation of the ARL
+usually involves numerical procedures but in some cases it can be approximated
+using a series involving multivariate probabilities. In this paper, we present
+an analysis of this series approach by providing sufficient conditions for
+convergence and derive an error bound. Using simulation studies, we show that
+the series approach is applicable to moving average and filtered derivative
+algorithms. For moving average algorithms, we compare our results with
+previously known bounds. We use two special cases to illustrate our
+observations.

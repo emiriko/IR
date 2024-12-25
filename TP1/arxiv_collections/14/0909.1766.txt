@@ -1,0 +1,15 @@
+R is a numerical computing environment that is widely popular for statistical
+data analysis. Like many such environments, R performs poorly for large
+datasets whose sizes exceed that of physical memory. We present our vision of
+RIOT (R with I/O Transparency), a system that makes R programs I/O-efficient in
+a way transparent to the users. We describe our experience with RIOT-DB, an
+initial prototype that uses a relational database system as a backend. Despite
+the overhead and inadequacy of generic database systems in handling array data
+and numerical computation, RIOT-DB significantly outperforms R in many
+large-data scenarios, thanks to a suite of high-level, inter-operation
+optimizations that integrate seamlessly into R. While many techniques in RIOT
+are inspired by databases (and, for RIOT-DB, realized by a database system),
+RIOT users are insulated from anything database related. Compared with previous
+approaches that require users to learn new languages and rewrite their programs
+to interface with a database, RIOT will, we believe, be easier to adopt by the
+majority of the R users.

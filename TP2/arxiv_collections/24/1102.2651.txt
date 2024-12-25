@@ -1,0 +1,14 @@
+The relationship between Term Graph Rewriting and Term Rewriting is well
+understood: a single term graph reduction may correspond to several term
+reductions, due to sharing. It is also known that if term graphs are allowed to
+contain cycles, then one term graph reduction may correspond to infinitely many
+term reductions. We stress that this fact can be interpreted in two ways.
+According to the "sequential interpretation", a term graph reduction
+corresponds to an infinite sequence of term reductions, as formalized by
+Kennaway et.al. using strongly converging derivations over the complete metric
+space of infinite terms. Instead according to the "parallel interpretation" a
+term graph reduction corresponds to the parallel reduction of an infinite set
+of redexes in a rational term. We formalize the latter notion by exploiting the
+complete partial order of infinite and possibly partial terms, and we stress
+that this interpretation allows to explain the result of reducing circular
+redexes in several approaches to term graph rewriting.

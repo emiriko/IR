@@ -1,0 +1,20 @@
+Given a set of images, whose pixel values can be considered as the components
+of a vector, it is interesting to estimate the modulus of such a vector in some
+localised areas corresponding to a compact signal. For instance, the
+detection/estimation of a polarized signal in compact sources immersed in a
+background is relevant in some fields like astrophysics. We develop two
+different techniques, one based on the Neyman-Pearson lemma, the Neyman-Pearson
+filter (NPF), and another based on prefiltering-before-fusion, the filtered
+fusion (FF), to deal with the problem of detection of the source and estimation
+of the polarization given two or three images corresponding to the different
+components of polarization (two for linear polarization, three including
+circular polarization). For the case of linear polarization, we have performed
+numerical simulations on two-dimensional patches to test these filters
+following two different approaches (a blind and a non-blind detection),
+considering extragalactic point sources immersed in cosmic microwave background
+(CMB) and non-stationary noise with the conditions of the 70 GHz \emph{Planck}
+channel. The FF outperforms the NPF, especially for low fluxes. We can detect
+with the FF extragalactic sources in a high noise zone with fluxes >=
+(0.42,0.36) Jy for (blind/non-blind) detection and in a low noise zone with
+fluxes >= (0.22,0.18) Jy for (blind/non-blind) detection with low errors in the
+estimated flux and position.

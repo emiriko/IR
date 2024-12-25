@@ -1,0 +1,26 @@
+We propose a symmetrized form of the softened gravitational potential which
+is a natural extension of the Plummer potential. The gravitational potential at
+the position of particle i (x_i,y_i,z_i), induced by particle j at
+(x_j,y_j,z_j), is given by: phi_ij = -G m_j/|r_ij^2+e_i^2+e_j^2|^1/2, where G
+is the gravitational constant, m_j is the mass of particle j, r_ij =
+|(x_i-x_j)^2+(y_i-y_j)^2+(z_i-z_j)^2|^1/2 and e_i and e_j are the gravitational
+softening lengths of particles i and j, respectively. This form is formally an
+extension of the Newtonian potential to five dimensions. The derivative of this
+equation in the x,y, and z directions correspond to the gravitational
+accelerations in these directions and these are always symmetric between two
+particles.
+  When one applies this potential to a group of particles with different
+softening lengths, as is the case with a tree code, an averaged gravitational
+softening length for the group can be used. We find that the most suitable
+averaged softening length for a group of particles is <e_j^2> = sum_j^N m_j
+e_j^2 / M, where M = sum_j^N m_j and N are the mass and number of all particles
+in the group, respectively. The leading error related to the softening length
+is O(sum_j r_j d(e_j^2)/r_ij^3), where r_j is the distance between particle j
+and the center of mass of the group and d(e_j^2) = e_j^2 - <e_j^2>. Using this
+averaged gravitational softening length with the tree method, one can use a
+single tree to evaluate the gravitational forces for a system of particles with
+a wide variety of gravitational softening lengths. Consequently, this will
+reduce the calculation cost of the gravitational force for such a system with
+different softenings without the need for complicated forms of softening. We
+present the result of simple numerical tests. We found that our modification of
+the Plummer potential works well.

@@ -1,0 +1,12 @@
+Recovering sparse vectors and low-rank matrices from noisy linear
+measurements has been the focus of much recent research. Various reconstruction
+algorithms have been studied, including $\ell_1$ and nuclear norm minimization
+as well as $\ell_p$ minimization with $p<1$. These algorithms are known to
+succeed if certain conditions on the measurement map are satisfied. Proofs of
+robust recovery for matrices have so far been much more involved than in the
+vector case.
+  In this paper, we show how several robust classes of recovery conditions can
+be extended from vectors to matrices in a simple and transparent way, leading
+to the best known restricted isometry and nullspace conditions for matrix
+recovery. Our results rely on the ability to "vectorize" matrices through the
+use of a key singular value inequality.

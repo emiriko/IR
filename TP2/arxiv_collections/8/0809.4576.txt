@@ -1,0 +1,20 @@
+This paper proposes a new reliability algorithm specifically useful when
+retransmission is either problematic or not possible. In case of multimedia or
+multicast communications and in the context of the Delay Tolerant Networking
+(DTN), the classical retransmission schemes can be counterproductive in terms
+of data transfer performance or not possible when the acknowledgment path is
+not always available. Indeed, over long delay links, packets retransmission has
+a meaning of cost and must be minimized.In this paper, we detail a novel
+reliability mechanism with an implicit acknowledgment strategy that could be
+used either within these new DTN proposals, for multimedia traffic or in the
+context of multicast transport protocols. This proposal is based on a new
+on-the-fly erasure coding concept specifically designed to operate efficient
+reliable transfer over bi-directional links. This proposal, named Tetrys,
+allows to unify a full reliability with an error correction scheme. In this
+paper, we model the performance of this proposal and demonstrate with a
+prototype, that we can achieve a full reliability without acknowledgment path
+confirmation. Indeed, the main findings are that Tetrys is not sensitive to the
+loss of acknowledgments while ensuring a faster data availability to the
+application compared to other traditional acknowledgment schemes. Finally, we
+pave the first step of the integration of such algorithm inside a congestion
+controlled protocol.

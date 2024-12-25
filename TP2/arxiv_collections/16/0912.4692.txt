@@ -1,0 +1,21 @@
+We obtain renormalized sets of right and left eigenvectors of the flux vector
+Jacobians of the relativistic MHD equations, which are regular and span a
+complete basis in any physical state including degenerate ones. The
+renormalization procedure relies on the characterization of the degeneracy
+types in terms of the normal and tangential components of the magnetic field to
+the wavefront in the fluid rest frame. Proper expressions of the renormalized
+eigenvectors in conserved variables are obtained through the corresponding
+matrix transformations. Our work completes previous analysis that present
+different sets of right eigenvectors for non-degenerate and degenerate states,
+and can be seen as a relativistic generalization of earlier work performed in
+classical MHD. Based on the full wave decomposition (FWD) provided by the the
+renormalized set of eigenvectors in conserved variables, we have also developed
+a linearized (Roe-type) Riemann solver. Extensive testing against one- and
+two-dimensional standard numerical problems allows us to conclude that our
+solver is very robust. When compared with a family of simpler solvers that
+avoid the knowledge of the full characteristic structure of the equations in
+the computation of the numerical fluxes, our solver turns out to be less
+diffusive than HLL and HLLC, and comparable in accuracy to the HLLD solver. The
+amount of operations needed by the FWD solver makes it less efficient
+computationally than those of the HLL family in one-dimensional problems.
+However its relative efficiency increases in multidimensional simulations.

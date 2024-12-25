@@ -1,0 +1,21 @@
+Since J. Mitola's work in 1992, Software Defined Radios (SDRs) have been
+quite a hot topic in wireless systems research. Though many notable
+achievements were reported in the field, the scarcity of computational power on
+general purpose CPUs has always constrained their wide adoption in production
+environments. If conveniently applied within an SDR context, classical concepts
+known in computer science as space/time tradeoffs can be extremely helpful when
+trying to mitigate this problem. Inspired by and building on those concepts,
+this paper presents a novel SDR implementation technique which we call Memory
+Acceleration (MA) that makes extensive use of the memory resources available on
+a general purpose computing system, in order to accelerate signal computation.
+MA can provide substantial acceleration factors when applied to conventional
+SDRs without reducing their peculiar flexibility. As a practical proof of this,
+an example of MA applied in the real world to the ETSI DVB-T Viterbi decoder is
+provided. Actually MA is shown able to provide, when applied to such Viterbi
+decoder, an acceleration factor of 10.4x, with no impact on error correction
+performances of the decoder and by making no use of any other typical
+performance enhancement techniques such as low level (Assembler) programming or
+parallel computation, which though remain compatible with MA. Opportunity for
+extending the MA approach to the entire radio system, thus implementing what we
+call a Memory-Based Software Defined Radio (MB-SDR) is finally considered and
+discussed.

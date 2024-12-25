@@ -1,0 +1,14 @@
+In this paper, we extend to generalized linear models (including logistic and
+other binary regression models, Poisson regression and gamma regression models)
+the robust model selection methodology developed by Mueller and Welsh (2005;
+JASA) for linear regression models. As in Mueller and Welsh (2005), we combine
+a robust penalized measure of fit to the sample with a robust measure of out of
+sample predictive ability which is estimated using a post-stratified m-out-of-n
+bootstrap. A key idea is that the method can be used to compare different
+estimators (robust and nonrobust) as well as different models. Even when
+specialized back to linear regression models, the methodology presented in this
+paper improves on that of Mueller and Welsh (2005). In particular, we use a new
+bias-adjusted bootstrap estimator which avoids the need to centre the
+explanatory variables and to include an intercept in every model. We also use
+more sophisticated arguments than Mueller and Welsh (2005) to establish an
+essential monotonicity condition.

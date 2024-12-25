@@ -1,0 +1,15 @@
+While Quantum phase estimation (QPE) is at the core of many quantum
+algorithms known to date, its physical implementation (algorithms based on
+quantum Fourier transform (QFT)) is highly constrained by the requirement of
+high-precision controlled phase shift operators, which remain difficult to
+realize. In this paper, we introduce an alternative approach to approximately
+implement QPE with arbitrary constant-precision controlled phase shift
+operators.
+  The new quantum algorithm bridges the gap between QPE algorithms based on QFT
+and Kitaev's original approach. For approximating the eigenphase precise to the
+nth bit, Kitaev's original approach does not require any controlled phase shift
+operator. In contrast, QPE algorithms based on QFT or approximate QFT require
+controlled phase shift operators with precision of at least Pi/2n. The new
+approach fills the gap and requires only arbitrary constant-precision
+controlled phase shift operators. From a physical implementation viewpoint, the
+new algorithm outperforms Kitaev's approach.

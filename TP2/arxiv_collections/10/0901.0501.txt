@@ -1,0 +1,10 @@
+We study generalized fixed-point equations over idempotent semirings and
+provide an efficient algorithm for the detection whether a sequence of Kleene's
+iterations stabilizes after a finite number of steps. Previously known
+approaches considered only bounded semirings where there are no infinite
+descending chains. The main novelty of our work is that we deal with semirings
+without the boundedness restriction. Our study is motivated by several
+applications from interprocedural dataflow analysis. We demonstrate how the
+reachability problem for weighted pushdown automata can be reduced to solving
+equations in the framework mentioned above and we describe a few applications
+to demonstrate its usability.

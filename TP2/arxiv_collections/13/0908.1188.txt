@@ -1,0 +1,12 @@
+Spreadsheet programmers often implement contingent logic using a nested-IF
+formula even though this technique is difficult to test and audit and is
+believed to be risky. We interpret the programming of contingent logic in
+spreadsheets in the context of traditional computer programming. We investigate
+the "lookup technique" as an alternative to nested-IF formulas, describe its
+benefits for testing and auditing, and define its limitations. The lookup
+technique employs four distinct principles: 1) make logical tests visible; 2)
+make outcomes visible; 3) make logical structure visible; and 4) replace a
+multi-function nested-IF formula with a single-function lookup formula. It can
+be used only for certain simple contingent logic. We describe how the
+principles can be applied in more complex situations, and suggest avenues for
+further research.

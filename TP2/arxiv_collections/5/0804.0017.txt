@@ -1,0 +1,13 @@
+We propose a new computational framework that combines the recently developed
+time-parallel (TP) and the compound wavelet matrix (CWM) methods. The
+framework, termed tpCWM, offers significant computational acceleration by
+making multiscale/multiphysics simulations computationally scalable in time and
+space domains. We demonstrate the accuracy and the scalability of the method on
+a prototype problem with oscillatory trajectory. The method corrects the coarse
+solution by iterative use of the CWM, which compounds the fine and the coarse
+solutions for the processes. Computational savings, over the fine solution as
+well as the TP method, in terms of the real time required to perform the
+simulations, can reach several orders of magnitude. We believe that this method
+is general enough to be applicable to a wide-class of computational physics
+problems. Tendency towards large number of cores and processors in parallel
+computers is compatible with the computational scalability of the algorithm.

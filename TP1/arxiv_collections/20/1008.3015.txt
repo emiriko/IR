@@ -1,0 +1,17 @@
+We prove that every partial function with finite domain and range can be
+effectively simulated through sequential colorings of graphs. Namely, we show
+that given a finite set $S=\{0,1,\ldots,m-1\}$ and a number $n \geq
+\max\{m,3\}$, any partial function $\varphi:S^{^p} \to S^{^q}$ (i.e. it may not
+be defined on some elements of its domain $S^{^p}$) can be effectively (i.e. in
+polynomial time) transformed to a simple graph $\matr{G}_{_{\varphi,n}}$ along
+with three sets of specified vertices $$X =
+\{x_{_{0}},x_{_{1}},\ldots,x_{_{p-1}}\}, \ \ Y =
+\{y_{_{0}},y_{_{1}},\ldots,y_{_{q-1}}\}, \ \ R =
+\{\Kv{0},\Kv{1},\ldots,\Kv{n-1}\},$$ such that any assignment $\sigma_{_{0}}: X
+\cup R \to \{0,1,\ldots,n-1\} $ with $\sigma_{_{0}}(\Kv{i})=i$ for all $0 \leq
+i < n$, is {\it uniquely} and {\it effectively} extendable to a proper
+$n$-coloring $\sigma$ of $\matr{G}_{_{\varphi,n}}$ for which we have
+$$\varphi(\sigma(x_{_{0}}),\sigma(x_{_{1}}),\ldots,\sigma(x_{_{p-1}}))=(\sigma(y_{_{0}}),\sigma(y_{_{1}}),\ldots,\sigma(y_{_{q-1}})),$$
+unless $(\sigma(x_{_{0}}),\sigma(x_{_{1}}),\ldots,\sigma(x_{_{p-1}}))$ is not
+in the domain of $\varphi$ (in which case $\sigma_{_{0}}$ has no extension to a
+proper $n$-coloring of $\matr{G}_{_{\varphi,n}}$).

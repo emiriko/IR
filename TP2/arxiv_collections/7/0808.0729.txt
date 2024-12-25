@@ -1,0 +1,16 @@
+The local-density approximation (LDA), together with the half-occupation
+(transition state) is notoriously successful in the calculation of atomic
+ionization potentials. When it comes to extended systems, such as a
+semiconductor infinite system, it has been very difficult to find a way to
+half-ionize because the hole tends to be infinitely extended (a Bloch wave).
+The answer to this problem lies in the LDA formalism itself. One proves that
+the half-occupation is equivalent to introducing the hole self-energy
+(electrostatic and exchange-correlation) into the Schroedinger equation. The
+argument then becomes simple: the eigenvalue minus the self-energy has to be
+minimized because the atom has a minimal energy. Then one simply proves that
+the hole is localized, not infinitely extended, because it must have maximal
+self-energy. Then one also arrives at an equation similar to the SIC equation,
+but corrected for the removal of just 1/2 electron. Applied to the calculation
+of band gaps and effective masses, we use the self-energy calculated in atoms
+and attain a precision similar to that of GW, but with the great advantage that
+it requires no more computational effort than standard LDA.

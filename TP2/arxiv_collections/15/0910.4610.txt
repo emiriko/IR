@@ -1,0 +1,8 @@
+In this paper, an outlier elimination algorithm for ellipse/ellipsoid fitting
+is proposed. This two-stage algorithm employs a proximity-based outlier
+detection algorithm (using the graph Laplacian), followed by a model-based
+outlier detection algorithm similar to random sample consensus (RANSAC). These
+two stages compensate for each other so that outliers of various types can be
+eliminated with reasonable computation. The outlier elimination algorithm
+considerably improves the robustness of ellipse/ellipsoid fitting as
+demonstrated by simulations.

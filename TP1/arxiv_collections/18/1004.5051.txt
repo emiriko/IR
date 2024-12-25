@@ -1,0 +1,16 @@
+The radiofrequency (RF) transmit field is severely inhomogeneous at ultrahigh
+field due to both RF penetration and RF coil design issues. This particularly
+impairs image quality for sequences that use inversion pulses such as
+magnetization prepared rapid acquisition gradient echo and limits the use of
+quantitative arterial spin labeling sequences such as flow-attenuated inversion
+recovery. Here we have used a search algorithm to produce inversion pulses
+tailored to take into account the heterogeneity of the RF transmit field at 7
+T. This created a slice selective inversion pulse that worked well (good slice
+profile and uniform inversion) over the range of RF amplitudes typically
+obtained in the head at 7 T while still maintaining an experimentally
+achievable pulse length and pulse amplitude in the brain at 7 T. The pulses
+used were based on the frequency offset correction inversion technique, as well
+as time dilation of functions, but the RF amplitude, frequency sweep, and
+gradient functions were all generated using a genetic algorithm with an
+evaluation function that took into account both the desired inversion profile
+and the transmit field inhomogeneity.

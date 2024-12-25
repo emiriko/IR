@@ -1,0 +1,13 @@
+This article presents a new search algorithm for the NP-hard problem of
+optimizing functions of binary variables that decompose according to a
+graphical model. It can be applied to models of any order and structure. The
+main novelty is a technique to constrain the search space based on the topology
+of the model. When pursued to the full search depth, the algorithm is
+guaranteed to converge to a global optimum, passing through a series of
+monotonously improving local optima that are guaranteed to be optimal within a
+given and increasing Hamming distance. For a search depth of 1, it specializes
+to Iterated Conditional Modes. Between these extremes, a useful tradeoff
+between approximation quality and runtime is established. Experiments on models
+derived from both illustrative and real problems show that approximations found
+with limited search depth match or improve those obtained by state-of-the-art
+methods based on message passing and linear programming.

@@ -1,0 +1,9 @@
+A solution to the benchmark ATT48 Traveling Salesman Problem (from the
+TSPLIB95 library) results from isolating the set of vertices into ten
+open-ended zones with nine lengthwise boundaries. In each zone, a
+minimum-length Hamiltonian Path (HP) is found for each combination of boundary
+vertices, leading to an approximation for the minimum-length Hamiltonian Cycle
+(HC). Determination of the optimal HPs for subsequent zones has the effect of
+automatically filtering out non-optimal HPs from earlier zones. Although the
+optimal HC for ATT48 involves only two crossing edges between all zones (with
+one exception), adding inter-zone edges can accommodate more complex problems.

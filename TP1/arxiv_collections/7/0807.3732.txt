@@ -1,0 +1,14 @@
+Particle Image Velocimetry (PIV) is a method of im-aging and analysing fields
+of flows. The PIV tech-niques compute and display all the motion vectors of the
+field in a resulting image. Speeds more than thou-sand vectors per second can
+be required, each speed being environment-dependent. Essence of this work is to
+propose an adaptive FPGA-based system for real-time PIV algorithms. The
+proposed structure is ge-neric so that this unique structure can be re-used for
+any PIV applications that uses the cross-correlation technique. The major
+structure remains unchanged, adaptations only concern the number of processing
+operations. The required speed (corresponding to the number of vector per
+second) is obtained thanks to a parallel processing strategy. The image
+processing designer duplicates the processing modules to distrib-ute the
+operations. The result is a FPGA-based archi-tecture, which is easily adapted
+to algorithm specifica-tions without any hardware requirement. The design flow
+is fast and reliable.

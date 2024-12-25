@@ -1,0 +1,16 @@
+The application of genetic algorithms (GAs) to many optimization problems in
+organizations often results in good performance and high quality solutions. For
+successful and efficient use of GAs, it is not enough to simply apply simple
+GAs (SGAs). In addition, it is necessary to find a proper representation for
+the problem and to develop appropriate search operators that fit well to the
+properties of the genotype encoding. The representation must at least be able
+to encode all possible solutions of an optimization problem, and genetic
+operators such as crossover and mutation should be applicable to it. In this
+paper, serial alternation strategies between two codings are formulated in the
+framework of dynamic change of genotype encoding in GAs for function
+optimization. Likewise, a new variant of GAs for difficult optimization
+problems denoted {\it Split-and-Merge} GA (SM-GA) is developed using a parallel
+implementation of an SGA and evolving a dynamic exchange of individual
+representation in the context of Dual Coding concept. Numerical experiments
+show that the evolved SM-GA significantly outperforms an SGA with static single
+coding.

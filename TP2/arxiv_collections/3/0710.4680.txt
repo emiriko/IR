@@ -1,0 +1,13 @@
+The problem of determining lower bounds for the energy cost of a given
+nanoscale design is addressed via a complexity theory-based approach. This
+paper provides a theoretical framework that is able to assess the trade-offs
+existing in nanoscale designs between the amount of redundancy needed for a
+given level of resilience to errors and the associated energy cost. Circuit
+size, logic depth and error resilience are analyzed and brought together in a
+theoretical framework that can be seamlessly integrated with automated
+synthesis tools and can guide the design process of nanoscale systems comprised
+of failure prone devices. The impact of redundancy addition on the switching
+energy and its relationship with leakage energy is modeled in detail. Results
+show that 99% error resilience is possible for fault-tolerant designs, but at
+the expense of at least 40% more energy if individual gates fail independently
+with probability of 1%.

@@ -1,0 +1,13 @@
+We propose two nonlinear Kalman smoothers that rely on Student's t
+distributions. The T-Robust smoother finds the maximum a posteriori likelihood
+(MAP) solution for Gaussian process noise and Student's t observation noise,
+and is extremely robust against outliers, outperforming the recently proposed
+l1-Laplace smoother in extreme situations (e.g. 50% or more outliers). The
+second estimator, which we call the T-Trend smoother, is able to follow sudden
+changes in the process model, and is derived as a MAP solver for a model with
+Student's t-process noise and Gaussian observation noise. We design specialized
+methods to solve both problems which exploit the special structure of the
+Student's t-distribution, and provide a convergence theory. Both smoothers can
+be implemented with only minor modifications to an existing L2 smoother
+implementation. Numerical results for linear and nonlinear models illustrating
+both robust and fast tracking applications are presented.

@@ -1,0 +1,11 @@
+Sampled semantics of timed automata is a finite approximation of their dense
+time behavior. While the former is closer to the actual software or hardware
+systems with a fixed granularity of time, the abstract character of the latter
+makes it appealing for system modeling and verification. We study one aspect of
+the relation between these two semantics, namely checking whether the system
+exhibits some qualitative (untimed) behaviors in the dense time which cannot be
+reproduced by any implementation with a fixed sampling rate. More formally, the
+\emph{sampling problem} is to decide whether there is a sampling rate such that
+all qualitative behaviors (the untimed language) accepted by a given timed
+automaton in dense time semantics can be also accepted in sampled semantics. We
+show that this problem is decidable.

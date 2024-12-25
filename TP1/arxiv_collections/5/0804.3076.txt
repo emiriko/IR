@@ -1,0 +1,16 @@
+Shor's algorithm (SA) is a quantum algorithm for factoring integers. Since SA
+has polynomial complexity while the best classical factoring algorithms are
+sub-exponential, SA is cited as evidence that quantum computers are more
+powerful than classical computers. SA is critically dependent on the Quantum
+Fourier Transform (QFT) and it is known that the QFT is sensitive to errors in
+the quantum state input to it. In this paper, we show that the polynomial
+scaling of SA is destroyed by input errors to the QFT part of the algorithm. We
+also show that Quantum Error Correcting Codes (QECC) are not capable of
+suppressing errors due to operator imprecision and that propagation of operator
+precision errors is sufficient to severely degrade the effectiveness of SA.
+Additionally we show that operator imprecision in the error correction circuit
+for the Calderbank-Shor-Steane QECC is mathematically equivalent to decoherence
+on every physical qubit in a register. We conclude that, because of the effect
+of operator precision errors, it is likely that physically realizable quantum
+computers will be capable of factoring integers no more efficiently than
+classical computers.

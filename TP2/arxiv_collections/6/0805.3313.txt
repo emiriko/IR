@@ -1,0 +1,17 @@
+A non-linear conjugate gradient optimization scheme is used to obtain
+excitation energies within the Random Phase Approximation (RPA). The solutions
+to the RPA eigenvalue equation are located through a variational
+characterization using a modified Thouless functional, which is based upon an
+asymmetric Rayleigh quotient, in an orthogonalized atomic orbital
+representation. In this way, the computational bottleneck of calculating
+molecular orbitals is avoided. The variational space is reduced to the
+physically-relevant transitions by projections. The feasibility of an RPA
+implementation scaling linearly with system size, N, is investigated by
+monitoring convergence behavior with respect to the quality of initial guess
+and sensitivity to noise under thresholding, both for well- and ill-conditioned
+problems. The molecular- orbital-free algorithm is found to be robust and
+computationally efficient providing a first step toward a large-scale, reduced
+complexity calculation of time-dependent optical properties and linear
+response. The algorithm is extensible to other forms of time-dependent
+perturbation theory including, but not limited to, time-dependent Density
+Functional theory.

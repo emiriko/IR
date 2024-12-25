@@ -1,0 +1,9 @@
+Fingerprinting is a well known technique, which is often used in designing
+Monte Carlo algorithms for verifying identities involving ma- trices, integers
+and polynomials. The book by Motwani and Raghavan [1] shows how this technique
+can be applied to check the correctness of matrix multiplication -- check if AB
+= C where A, B and C are three nxn matrices. The result is a Monte Carlo
+algorithm running in time $Theta(n^2)$ with an exponentially decreasing error
+probability after each indepen- dent iteration. In this paper we give a simple
+alternate proof addressing the same problem. We also give further
+generalizations and relax various assumptions made in the proof.

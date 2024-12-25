@@ -1,0 +1,18 @@
+We develop a behavioral model for liquidity and volatility based on empirical
+regularities in trading order flow in the London Stock Exchange. This can be
+viewed as a very simple agent based model in which all components of the model
+are validated against real data. Our empirical studies of order flow uncover
+several interesting regularities in the way trading orders are placed and
+cancelled. The resulting simple model of order flow is used to simulate price
+formation under a continuous double auction, and the statistical properties of
+the resulting simulated sequence of prices are compared to those of real data.
+The model is constructed using one stock (AZN) and tested on 24 other stocks.
+For low volatility, small tick size stocks (called Group I) the predictions are
+very good, but for stocks outside Group I they are not good. For Group I, the
+model predicts the correct magnitude and functional form of the distribution of
+the volatility and the bid-ask spread, without adjusting any parameters based
+on prices. This suggests that at least for Group I stocks, the volatility and
+heavy tails of prices are related to market microstructure effects, and
+supports the hypothesis that, at least on short time scales, the large
+fluctuations of absolute returns are well described by a power law with an
+exponent that varies from stock to stock.

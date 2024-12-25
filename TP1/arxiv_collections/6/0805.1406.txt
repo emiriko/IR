@@ -1,0 +1,21 @@
+Let $p_n(y)=\sum_k\hat{\alpha}_k\phi(y-k)+\sum_{l=0}^{j_n-1}\sum_k\hat
+{\beta}_{lk}2^{l/2}\psi(2^ly-k)$ be the linear wavelet density estimator, where
+$\phi$, $\psi$ are a father and a mother wavelet (with compact support),
+$\hat{\alpha}_k$, $\hat{\beta}_{lk}$ are the empirical wavelet coefficients
+based on an i.i.d. sample of random variables distributed according to a
+density $p_0$ on $\mathbb{R}$, and $j_n\in\mathbb{Z}$, $j_n\nearrow\infty$.
+Several uniform limit theorems are proved: First, the almost sure rate of
+convergence of $\sup_{y\in\mathbb{R}}|p_n(y)-Ep_n(y)|$ is obtained, and a law
+of the logarithm for a suitably scaled version of this quantity is established.
+This implies that $\sup_{y\in\mathbb{R}}|p_n(y)-p_0(y)|$ attains the optimal
+almost sure rate of convergence for estimating $p_0$, if $j_n$ is suitably
+chosen. Second, a uniform central limit theorem as well as strong invariance
+principles for the distribution function of $p_n$, that is, for the stochastic
+processes $\sqrt{n}(F_n
+^W(s)-F(s))=\sqrt{n}\int_{-\infty}^s(p_n-p_0),s\in\mathbb{R}$, are proved; and
+more generally, uniform central limit theorems for the processes
+$\sqrt{n}\int(p_n-p_0)f$, $f\in\mathcal{F}$, for other Donsker classes
+$\mathcal{F}$ of interest are considered. As a statistical application, it is
+shown that essentially the same limit theorems can be obtained for the hard
+thresholding wavelet estimator introduced by Donoho et al. [Ann. Statist. 24
+(1996) 508--539].

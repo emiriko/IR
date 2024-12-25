@@ -1,0 +1,10 @@
+In a convex n-gon, let d[1] > d[2] > ... denote the set of all distances
+between pairs of vertices, and let m[i] be the number of pairs of vertices at
+distance d[i] from one another. Erdos, Lovasz, and Vesztergombi conjectured
+that m[1] + ... + m[k] <= k*n. Using a new computational approach, we prove
+their conjecture when k <= 4 and n is large; we also make some progress for
+arbitrary k by proving that m[1] + ... + m[k] <= (2k-1)n. Our main approach
+revolves around a few known facts about distances, together with a computer
+program that searches all distance configurations of two disjoint convex hull
+intervals up to some finite size. We thereby obtain other new bounds such as
+m[3] <= 3n/2 for large n.

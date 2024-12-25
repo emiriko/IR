@@ -1,0 +1,8 @@
+We give the first example of faster transport with a quantum walk on an
+inherently directed graph, on the directed line with a variable number of
+self-loops at each vertex. These self-loops can be thought of as adding a
+number of small dimensions. This is a discrete time quantum walk using the
+Fourier transform coin, where the walk proceeds a distance $\Theta(1)$ in
+constant time compared to $\Theta(1/n)$ classically, independent of the number
+of these small dimensions. The analysis proceeds by reducing this walk to a
+walk with a two dimensional coin.

@@ -1,0 +1,19 @@
+Radiative transfer has a strong impact on the collapse and the fragmentation
+of prestellar dense cores. We present the radiation-hydrodynamics solver we
+designed for the RAMSES code. The method is designed for astrophysical
+purposes, and in particular for protostellar collapse. We present the solver,
+using the co-moving frame to evaluate the radiative quantities. We use the
+popular flux limited diffusion approximation, under the grey approximation (one
+group of photon). The solver is based on the second-order Godunov scheme of
+RAMSES for its hyperbolic part, and on an implicit scheme for the radiation
+diffusion and the coupling between radiation and matter. We report in details
+our methodology to integrate the RHD solver into RAMSES. We test successfully
+the method against several conventional tests. For validation in 3D, we perform
+calculations of the collapse of an isolated 1 M_sun prestellar dense core,
+without rotation. We compare successfully the results with previous studies
+using different models for radiation and hydrodynamics. We have developed a
+full radiation hydrodynamics solver in the RAMSES code, that handles adaptive
+mesh refinement grids. The method is a combination of an explicit scheme and an
+implicit scheme, accurate to the second-order in space. Our method is well
+suited for star formation purposes. Results of multidimensional dense core
+collapse calculations with rotation are presented in a companion paper.

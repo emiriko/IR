@@ -1,0 +1,18 @@
+In the paper a new approach to data representation and manipulation is
+described, which is called the concept-oriented data model (CODM). It is
+supposed that items represent data units, which are stored in concepts. A
+concept is a combination of superconcepts, which determine the concept's
+dimensionality or properties. An item is a combination of superitems taken by
+one from all the superconcepts. An item stores a combination of references to
+its superitems. The references implement inclusion relation or attribute-value
+relation among items. A concept-oriented database is defined by its concept
+structure called syntax or schema and its item structure called semantics. The
+model defines formal transformations of syntax and semantics including the
+canonical semantics where all concepts are merged and the data semantics is
+represented by one set of items. The concept-oriented data model treats
+relations as subconcepts where items are instances of the relations.
+Multi-valued attributes are defined via subconcepts as a view on the database
+semantics rather than as a built-in mechanism. The model includes
+concept-oriented query language, which is based on collection manipulations. It
+also has such mechanisms as aggregation and inference based on semantics
+propagation through the database schema.

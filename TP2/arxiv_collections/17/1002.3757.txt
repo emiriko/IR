@@ -1,0 +1,17 @@
+We consider a Mobile Ad-hoc NETwork (MANET) formed by n agents that move at
+speed V according to the Manhattan Random-Way Point model over a square region
+of side length L. The resulting stationary (agent) spatial probability
+distribution is far to be uniform: the average density over the "central zone"
+is asymptotically higher than that over the "suburb". Agents exchange data iff
+they are at distance at most R within each other.
+  We study the flooding time of this MANET: the number of time steps required
+to broadcast a message from one source agent to all agents of the network in
+the stationary phase. We prove the first asymptotical upper bound on the
+flooding time. This bound holds with high probability, it is a decreasing
+function of R and V, and it is tight for a wide and relevant range of the
+network parameters (i.e. L, R and V).
+  A consequence of our result is that flooding over the sparse and
+highly-disconnected suburb can be as fast as flooding over the dense and
+connected central zone. Rather surprisingly, this property holds even when R is
+exponentially below the connectivity threshold of the MANET and the speed V is
+very low.

@@ -1,0 +1,21 @@
+We address optimization of nonlinear functions of the form $f(Wx)$, where
+$f:\R^d\to \R$ is a nonlinear function, $W$ is a $d\times n$ matrix, and
+feasible $x$ are in some large finite set $F$ of integer points in $\R^n$. One
+motivation is multi-objective discrete optimization, where $f$ trades off the
+linear functions given by the rows of $W$. Another motivation is to extend
+known results about polynomial-time linear optimization over discrete
+structures to nonlinear optimization. We assume that the convex hull of $F$ is
+well-described by linear inequalities. For example, the set of characteristic
+vectors of common bases of a pair of matroids on a common ground set. When $F$
+is well described, $f$ is convex (or even quasiconvex), and $W$ has a fixed
+number of rows and is unary encoded or with entries in a fixed set, we give an
+efficient deterministic algorithm for maximization. When $F$ is well described,
+$f$ is a norm, and binary-encoded $W$ is nonnegative, we give an efficient
+deterministic constant-approximation algorithm for maximization. When $F$ is
+well described, $f$ is ``ray concave'' and non-decreasing, and $W$ has a fixed
+number of rows and is unary encoded or with entries in a fixed set, we give an
+efficient deterministic constant-approximation algorithm for minimization. When
+$F$ is the set of characteristic vectors of common bases of a pair of vectorial
+matroids on a common ground set, $f$ is arbitrary, and $W$ has a fixed number
+of rows and is unary encoded, we give an efficient randomized algorithm for
+optimization.

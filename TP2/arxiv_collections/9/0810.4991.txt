@@ -1,0 +1,22 @@
+A branching process in random environment $(Z_n, n \in \N)$ is a
+generalization of Galton Watson processes where at each generation the
+reproduction law is picked randomly. In this paper we give several results
+which belong to the class of {\it large deviations}. By contrast to the
+Galton-Watson case, here random environments and the branching process can
+conspire to achieve atypical events such as $Z_n \le e^{cn}$ when $c$ is
+smaller than the typical geometric growth rate $\bar L$ and $ Z_n \ge e^{cn}$
+when $c > \bar L$. One way to obtain such an atypical rate of growth is to have
+a typical realization of the branching process in an atypical sequence of
+environments. This gives us a general lower bound for the rate of decrease of
+their probability. When each individual leaves at least one offspring in the
+next generation almost surely, we compute the exact rate function of these
+events and we show that conditionally on the large deviation event, the
+trajectory $t \mapsto \frac1n \log Z_{[nt]}, t\in [0,1]$ converges to a
+deterministic function $f_c :[0,1] \mapsto \R_+$ in probability in the sense of
+the uniform norm. The most interesting case is when $c < \bar L$ and we
+authorize individuals to have only one offspring in the next generation. In
+this situation, conditionally on $Z_n \le e^{cn}$, the population size stays
+fixed at 1 until a time $ \sim n t_c$. After time $n t_c$ an atypical sequence
+of environments let $Z_n$ grow with the appropriate rate ($\neq \bar L$) to
+reach $c.$ The corresponding map $f_c(t)$ is piecewise linear and is 0 on
+$[0,t_c]$ and $f_c(t) = c(t-t_c)/(1-t_c)$ on $[t_c,1].$

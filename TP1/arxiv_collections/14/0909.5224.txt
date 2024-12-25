@@ -1,0 +1,18 @@
+In this paper we propose a deterministic algorithm for approximately counting
+the $k$-colourings of sparse random graphs $G(n,d/n)$. In particular, our
+algorithm computes in polynomial time a $(1\pm n^{-\Omega(1)})$approximation of
+the logarithm of the number of $k$-colourings of $G(n,d/n)$ for $k\geq
+(2+\epsilon) d$ with high probability over the graph instances.
+  Our algorithm is related to the algorithms of A. Bandyopadhyay et al. in SODA
+'06, and A. Montanari et al. in SODA '06, i.e. it uses {\em spatial correlation
+decay} to compute {\em deterministically} marginals of {\em Gibbs
+distribution}. We develop a scheme whose accuracy depends on {\em
+non-reconstruction} of the colourings of $G(n,d/n)$, rather than {\em
+uniqueness} that are required in previous works. This leaves open the
+possibility for our schema to be sufficiently accurate even for $k<d$.
+  The set up for establishing correlation decay is as follows: Given
+$G(n,d/n)$, we alter the graph structure in some specific region $\Lambda$ of
+the graph by deleting edges between vertices of $\Lambda$. Then we show that
+the effect of this change on the marginals of Gibbs distribution, diminishes as
+we move away from $\Lambda$. Our approach is novel and suggests a new context
+for the study of deterministic counting algorithms.

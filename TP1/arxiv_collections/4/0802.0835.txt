@@ -1,0 +1,18 @@
+One of the most famous and investigated lossless data-compression scheme is
+the one introduced by Lempel and Ziv about 40 years ago. This compression
+scheme is known as "dictionary-based compression" and consists of squeezing an
+input string by replacing some of its substrings with (shorter) codewords which
+are actually pointers to a dictionary of phrases built as the string is
+processed. Surprisingly enough, although many fundamental results are nowadays
+known about upper bounds on the speed and effectiveness of this compression
+process and references therein), ``we are not aware of any parsing scheme that
+achieves optimality when the LZ77-dictionary is in use under any constraint on
+the codewords other than being of equal length'' [N. Rajpoot and C. Sahinalp.
+Handbook of Lossless Data Compression, chapter Dictionary-based data
+compression. Academic Press, 2002. pag. 159]. Here optimality means to achieve
+the minimum number of bits in compressing each individual input string, without
+any assumption on its generating source. In this paper we provide the first
+LZ-based compressor which computes the bit-optimal parsing of any input string
+in efficient time and optimal space, for a general class of variable-length
+codeword encodings which encompasses most of the ones typically used in data
+compression and in the design of search engines and compressed indexes.

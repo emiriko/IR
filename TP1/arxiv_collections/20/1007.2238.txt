@@ -1,0 +1,13 @@
+We consider the classical multi-armed bandit problem with Markovian rewards.
+When played an arm changes its state in a Markovian fashion while it remains
+frozen when not played. The player receives a state-dependent reward each time
+it plays an arm. The number of states and the state transition probabilities of
+an arm are unknown to the player. The player's objective is to maximize its
+long-term total reward by learning the best arm over time. We show that under
+certain conditions on the state transition probabilities of the arms, a sample
+mean based index policy achieves logarithmic regret uniformly over the total
+number of trials. The result shows that sample mean based index policies can be
+applied to learning problems under the rested Markovian bandit model without
+loss of optimality in the order. Moreover, comparision between Anantharam's
+index policy and UCB shows that by choosing a small exploration parameter UCB
+can have a smaller regret than Anantharam's index policy.

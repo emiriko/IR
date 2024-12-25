@@ -1,0 +1,20 @@
+We study the relationship between obfuscation and white-box cryptography. We
+capture the requirements of any white-box primitive using a \emph{White-Box
+Property (WBP)} and give some negative/positive results. Loosely speaking, the
+WBP is defined for some scheme and a security notion (we call the pair a
+\emph{specification}), and implies that w.r.t. the specification, an
+obfuscation does not leak any ``useful'' information, even though it may leak
+some ``useless'' non-black-box information.
+  Our main result is a negative one - for most interesting programs, an
+obfuscation (under \emph{any} definition) cannot satisfy the WBP for every
+specification in which the program may be present. To do this, we define a
+\emph{Universal White-Box Property (UWBP)}, which if satisfied, would imply
+that under \emph{whatever} specification we conceive, the WBP is satisfied. We
+then show that for every non-approximately-learnable family, there exist
+(contrived) specifications for which the WBP (and thus, the UWBP) fails.
+  On the positive side, we show that there exists an obfuscator for a
+non-approximately-learnable family that achieves the WBP for a certain
+specification. Furthermore, there exists an obfuscator for a non-learnable (but
+approximately-learnable) family that achieves the UWBP.
+  Our results can also be viewed as formalizing the distinction between
+``useful'' and ``useless'' non-black-box information.

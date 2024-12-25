@@ -1,0 +1,14 @@
+It is well documented that a model for the underlying asset price process
+that seeks to capture the behaviour of the market prices of vanilla options
+needs to exhibit both diffusion and jump features. In this paper we assume that
+the asset price process $S$ is Markov with cadlag paths and propose a scheme
+for computing the law of the realized variance of the log returns accrued while
+the asset was trading in a prespecified corridor. We thus obtain an algorithm
+for pricing and hedging volatility derivatives and derivatives on the
+corridor-realized variance in such a market. The class of models under
+consideration is large, as it encompasses jump-diffusion and Levy processes. We
+prove the weak convergence of the scheme and describe in detail the
+implementation of the algorithm in the characteristic cases where $S$ is a CEV
+process (continuous trajectories), a variance gamma process (jumps with
+independent increments) or an infinite activity jump-diffusion (discontinuous
+trajectories with dependent increments).

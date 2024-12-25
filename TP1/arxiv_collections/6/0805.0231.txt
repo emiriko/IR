@@ -1,0 +1,9 @@
+We combine a refined version of two-point step-size adaptation with the
+covariance matrix adaptation evolution strategy (CMA-ES). Additionally, we
+suggest polished formulae for the learning rate of the covariance matrix and
+the recombination weights. In contrast to cumulative step-size adaptation or to
+the 1/5-th success rule, the refined two-point adaptation (TPA) does not rely
+on any internal model of optimality. In contrast to conventional
+self-adaptation, the TPA will achieve a better target step-size in particular
+with large populations. The disadvantage of TPA is that it relies on two
+additional objective function

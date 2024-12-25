@@ -1,0 +1,10 @@
+The distribution of a time integral of geometric Brownian motion is not well
+understood. To price an Asian option and to obtain measures of its dependence
+on the parameters of time, strike price, and underlying market price, it is
+essential to have the distribution of time integral of geometric Brownian
+motion and it is also required to have a way to manipulate its distribution. We
+present integral forms for key quantities in the price of Asian option and its
+derivatives ({\it{delta, gamma,theta, and vega}}). For example for any $a>0$
+$\mathbb{E} [ (A_t -a)^+] = t -a + a^{2} \mathbb{E} [ (a+A_t)^{-1} \exp
+(\frac{2M_t}{a+ A_t} - \frac{2}{a}) ]$, where $A_t = \int^t_0 \exp (B_s -s/2)
+ds$ and $M_t =\exp (B_t -t/2).$

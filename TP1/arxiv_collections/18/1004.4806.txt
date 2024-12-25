@@ -1,0 +1,19 @@
+Linear Finite State Machines (LFSMs) are particular primitives widely used in
+information theory, coding theory and cryptography. Among those linear
+automata, a particular case of study is Linear Feedback Shift Registers (LFSRs)
+used in many cryptographic applications such as design of stream ciphers or
+pseudo-random generation. LFSRs could be seen as particular LFSMs without
+inputs.
+  In this paper, we first recall the description of LFSMs using traditional
+matrices representation. Then, we introduce a new matrices representation with
+polynomial fractional coefficients. This new representation leads to sparse
+representations and implementations. As direct applications, we focus our work
+on the Windmill LFSRs case, used for example in the E0 stream cipher and on
+other general applications that use this new representation.
+  In a second part, a new design criterion called diffusion delay for LFSRs is
+introduced and well compared with existing related notions. This criterion
+represents the diffusion capacity of an LFSR. Thus, using the matrices
+representation, we present a new algorithm to randomly pick LFSRs with good
+properties (including the new one) and sparse descriptions dedicated to
+hardware and software designs. We present some examples of LFSRs generated
+using our algorithm to show the relevance of our approach.

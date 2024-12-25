@@ -1,0 +1,13 @@
+Differential evolution (DE) is a population based evolutionary algorithm
+widely used for solving multidimensional global optimization problems over
+continuous spaces. However, the design of its operators makes it unsuitable for
+many real-life constrained combinatorial optimization problems which operate on
+binary space. On the other hand, the quantum inspired evolutionary algorithm
+(QEA) is very well suitable for handling such problems by applying several
+quantum computing techniques such as Q-bit representation and rotation gate
+operator, etc. This paper extends the concept of differential operators with
+adaptive parameter control to the quantum paradigm and proposes the adaptive
+quantum-inspired differential evolution algorithm (AQDE). The performance of
+AQDE is found to be significantly superior as compared to QEA and a discrete
+version of DE on the standard 0-1 knapsack problem for all the considered test
+cases.

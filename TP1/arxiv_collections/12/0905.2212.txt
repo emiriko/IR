@@ -1,0 +1,13 @@
+We describe a parallel polynomial time algorithm for computing the
+topological Betti numbers of a smooth complex projective variety $X$. It is the
+first single exponential time algorithm for computing the Betti numbers of a
+significant class of complex varieties of arbitrary dimension. Our main
+theoretical result is that the Castelnuovo-Mumford regularity of the sheaf of
+differential $p$-forms on $X$ is bounded by $p(em+1)D$, where $e$, $m$, and $D$
+are the maximal codimension, dimension, and degree, respectively, of all
+irreducible components of $X$. It follows that, for a union $V$ of generic
+hyperplane sections in $X$, the algebraic de Rham cohomology of $X\setminus V$
+is described by differential forms with poles along $V$ of single exponential
+order. This yields a similar description of the de Rham cohomology of $X$,
+which allows its efficient computation. Furthermore, we give a parallel
+polynomial time algorithm for testing whether a projective variety is smooth.

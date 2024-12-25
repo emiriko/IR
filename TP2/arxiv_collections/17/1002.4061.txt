@@ -1,0 +1,12 @@
+We present an approach for flux analysis in process algebra models of
+biological systems. We perceive flux as the flow of resources in stochastic
+simulations. We resort to an established correspondence between event
+structures, a broadly recognised model of concurrency, and state transitions of
+process models, seen as Petri nets. We show that we can this way extract the
+causal resource dependencies in simulations between individual state
+transitions as partial orders of events. We propose transformations on the
+partial orders that provide means for further analysis, and introduce a
+software tool, which implements these ideas. By means of an example of a
+published model of the Rho GTP-binding proteins, we argue that this approach
+can provide the substitute for flux analysis techniques on ordinary
+differential equation models within the stochastic setting of process algebras.

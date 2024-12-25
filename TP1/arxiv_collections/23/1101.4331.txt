@@ -1,0 +1,23 @@
+Accurately assessing a patient's risk of a given event is essential in making
+informed treatment decisions. One approach is to stratify patients into two or
+more distinct risk groups with respect to a specific outcome using both
+clinical and demographic variables. Outcomes may be categorical or continuous
+in nature; important examples in cancer studies might include level of toxicity
+or time to recurrence. Recursive partitioning methods are ideal for building
+such risk groups. Two such methods are Classification and Regression Trees
+(CART) and a more recent competitor known as the partitioning
+Deletion/Substitution/Addition (partDSA) algorithm, both which also utilize
+loss functions (e.g. squared error for a continuous outcome) as the basis for
+building, selecting and assessing predictors but differ in the manner by which
+regression trees are constructed.
+  Recently, we have shown that partDSA often outperforms CART in so-called
+"full data" (e.g., uncensored) settings. However, when confronted with censored
+outcome data, the loss functions used by both procedures must be modified.
+There have been several attempts to adapt CART for right-censored data. This
+article describes two such extensions for \emph{partDSA} that make use of
+observed data (i.e. possibly censored) loss functions. These observed data loss
+functions, constructed using inverse probability of censoring weights, are
+consistent estimates of their uncensored counterparts provided that the
+corresponding censoring model is correctly specified. The relative performance
+of these new methods is evaluated via simulation studies and illustrated
+through an analysis of clinical trial data on brain cancer patients.

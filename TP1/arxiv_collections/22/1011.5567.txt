@@ -1,0 +1,23 @@
+A protocol for computing a functionality is secure if an adversary in this
+protocol cannot cause more harm than in an ideal computation where parties give
+their inputs to a trusted party which returns the output of the functionality
+to all parties. In particular, in the ideal model such computation is fair --
+all parties get the output. Cleve (STOC 1986) proved that, in general, fairness
+is not possible without an honest majority. To overcome this impossibility,
+Gordon and Katz (Eurocrypt 2010) suggested a relaxed definition -- 1/p-secure
+computation -- which guarantees partial fairness. For two parties, they
+construct 1/p-secure protocols for functionalities for which the size of either
+their domain or their range is polynomial (in the security parameter). Gordon
+and Katz ask whether their results can be extended to multiparty protocols.
+  We study 1/p-secure protocols in the multiparty setting for general
+functionalities. Our main result is constructions of 1/p-secure protocols when
+the number of parties is constant provided that less than 2/3 of the parties
+are corrupt. Our protocols require that either (1) the functionality is
+deterministic and the size of the domain is polynomial (in the security
+parameter), or (2) the functionality can be randomized and the size of the
+range is polynomial. If the size of the domain is constant and the
+functionality is deterministic, then our protocol is efficient even when the
+number of parties is O(log log n) (where n is the security parameter). On the
+negative side, we show that when the number of parties is super-constant,
+1/p-secure protocols are not possible when the size of the domain is
+polynomial.

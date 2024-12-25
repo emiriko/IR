@@ -1,0 +1,16 @@
+The most interesting step of condensation is the cluster formation up to the
+critical size. In a closed system, this is an instationary process, as the
+vapour is depleted by the emerging liquid phase. This imposes a limitation on
+direct molecular dynamics (MD) simulation of nucleation by affecting the
+properties of the vapour to a significant extent so that the nucleation rate
+varies over simulation time. Grand canonical MD with McDonald's daemon is
+discussed in the present contribution and applied for sampling both nucleation
+kinetics and steady-state properties of a supersaturated vapour.
+  The idea behind that approach is to simulate the production of clusters up to
+a given size for a specified supersaturation. In that way, nucleation is
+studied by a steady-state simulation. A series of simulations is conducted for
+the truncated and shifted Lennard-Jones fluid which accurately describes the
+fluid phase coexistence of noble gases and methane. The classical nucleation
+theory is found to overestimate the free energy of cluster formation and to
+deviate by two orders of magnitude from the nucleation rate below the triple
+point at high supersaturations.

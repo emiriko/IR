@@ -1,0 +1,9 @@
+We present an aid for importance sampling in Monte Carlo integration, which
+is of the general-purpose type in the sense that it in principle deals with any
+quadratically integrable integrand on a unit hyper-cube of arbitrary dimension.
+In contrast to most existing systems of this type, it does not ask for the
+integrand as an input variable, but provides a number of routines which can be
+plugged into a given Monte Carlo program in order to improve its efficiency "on
+the fly" while running. Due to the nature of its design, it can also be used
+for density estimation, i.e., for the analysis of data points coming from an
+external source.

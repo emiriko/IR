@@ -1,0 +1,18 @@
+We consider the restless multi-armed bandit (RMAB) problem with unknown
+dynamics in which a player chooses M out of N arms to play at each time. The
+reward state of each arm transits according to an unknown Markovian rule when
+it is played and evolves according to an arbitrary unknown random process when
+it is passive. The performance of an arm selection policy is measured by
+regret, defined as the reward loss with respect to the case where the player
+knows which M arms are the most rewarding and always plays the M best arms. We
+construct a policy with an interleaving exploration and exploitation epoch
+structure that achieves a regret with logarithmic order when arbitrary (but
+nontrivial) bounds on certain system parameters are known. When no knowledge
+about the system is available, we show that the proposed policy achieves a
+regret arbitrarily close to the logarithmic order. We further extend the
+problem to a decentralized setting where multiple distributed players share the
+arms without information exchange. Under both an exogenous restless model and
+an endogenous restless model, we show that a decentralized extension of the
+proposed policy preserves the logarithmic regret order as in the centralized
+setting. The results apply to adaptive learning in various dynamic systems and
+communication networks, as well as financial investment.

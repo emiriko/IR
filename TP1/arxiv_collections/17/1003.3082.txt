@@ -1,0 +1,21 @@
+This paper is concern about developing a semantic agreement maintenance
+method based on semantic distance by calculating the change of local schema or
+ontology. This approach is important in dynamic and autonomous environment, in
+which the current approach assumed that agreement or mapping in static
+environment. The contribution of this research is to develop a framework based
+on semantic agreement maintenance approach for P2P environment. This framework
+based on two level hybrid P2P model architecture, which consist of two peer
+type: (1) super peer that use to register and manage the other peers, and (2)
+simple peer, as a simple peer, it exports and shares its contents with others.
+This research develop a model to maintain the semantic agreement in P2P
+environment, so the current approach which does not have the mechanism to know
+the change, since it assumed that ontology and local schema are in the static
+condition, and it is different in dynamic condition. The main issues are how to
+calculate the change of local schema or common ontology and the calculation
+result is used to determine which algorithm in maintaining the agreement. The
+experiment on the job matching domain in Indonesia have been done to show how
+far the performance of the approach. From the experiment, the main result are
+(i) the more change so the F-measure value tend to be decreased, (ii) there is
+no significant different in F-measure value for various modification type (add,
+delete, rename), and (iii) the correct choice of algorithm would improve the
+F-measure value.

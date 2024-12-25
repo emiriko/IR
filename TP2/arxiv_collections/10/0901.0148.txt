@@ -1,0 +1,23 @@
+In order to achieve both fast and coordinated data transfer to collaborative
+sites as well as to create a distribution of data over multiple sites,
+efficient data movement is one of the most essential aspects in distributed
+environment. With such capabilities at hand, truly distributed task scheduling
+with minimal latencies would be reachable by internationally distributed
+collaborations (such as ones in HENP) seeking for scavenging or maximizing on
+geographically spread computational resources. But it is often not all clear
+(a) how to move data when available from multiple sources or (b) how to move
+data to multiple compute resources to achieve an optimal usage of available
+resources. We present a method of creating a Constraint Programming (CP) model
+consisting of sites, links and their attributes such as bandwidth for grid
+network data transfer also considering user tasks as part of the objective
+function for an optimal solution. We will explore and explain trade-off between
+schedule generation time and divergence from the optimal solution and show how
+to improve and render viable the solution's finding time by using search tree
+time limit, approximations, restrictions such as symmetry breaking or grouping
+similar tasks together, or generating sequence of optimal schedules by
+splitting the input problem. Results of data transfer simulation for each case
+will also include a well known Peer-2-Peer model, and time taken to generate a
+schedule as well as time needed for a schedule execution will be compared to a
+CP optimal solution. We will additionally present a possible implementation
+aimed to bring a distributed datasets (multiple sources) to a given site in a
+minimal time.

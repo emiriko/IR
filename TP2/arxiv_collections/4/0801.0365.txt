@@ -1,0 +1,25 @@
+The total conformational energy is assumed to consist of pairwise interaction
+energies between atoms or residues, each of which is expressed as a product of
+a conformation-dependent function (an element of a contact matrix, C-matrix)
+and a sequence-dependent energy parameter (an element of a contact energy
+matrix, E-matrix). Such pairwise interactions in proteins force native
+C-matrices to be in a relationship as if the interactions are a Go-like
+potential [N. Go, Annu. Rev. Biophys. Bioeng. 12. 183 (1983)] for the native
+C-matrix, because the lowest bound of the total energy function is equal to the
+total energy of the native conformation interacting in a Go-like pairwise
+potential. This relationship between C- and E-matrices corresponds to (a) a
+parallel relationship between the eigenvectors of the C- and E-matrices and a
+linear relationship between their eigenvalues, and (b) a parallel relationship
+between a contact number vector and the principal eigenvectors of the C- and
+E-matrices; the E-matrix is expanded in a series of eigenspaces with an
+additional constant term, which corresponds to a threshold of contact energy
+that approximately separates native contacts from non-native ones. These
+relationships are confirmed in 182 representatives from each family of the SCOP
+database by examining inner products between the principal eigenvector of the
+C-matrix, that of the E-matrix evaluated with a statistical contact potential,
+and a contact number vector. In addition, the spectral representation of C- and
+E-matrices reveals that pairwise residue-residue interactions, which depends
+only on the types of interacting amino acids but not on other residues in a
+protein, are insufficient and other interactions including residue
+connectivities and steric hindrance are needed to make native structures the
+unique lowest energy conformations.

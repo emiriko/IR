@@ -1,0 +1,21 @@
+In this paper, we introduce an approach to the protein folding problem from
+the point of view of statistical physics. Protein folding is a stochastic
+process by which a polypeptide folds into its characteristic and functional 3D
+structure from random coil. The process involves an intricate interplay between
+global geometry and local structure, and each protein seems to present special
+problems. We introduce CSAW (conditioned self-avoiding walk), a model of
+protein folding that combines the features of self-avoiding walk (SAW) and the
+Monte Carlo method. In this model, the unfolded protein chain is treated as a
+random coil described by SAW. Folding is induced by hydrophobic forces and
+other interactions, such as hydrogen bonding, which can be taken into account
+by imposing conditions on SAW. Conceptually, the mathematical basis is a
+generalized Langevin equation. To illustrate the flexibility and capabilities
+of the model, we consider several examples, including helix formation, elastic
+properties, and the transition in the folding of myoglobin. From the CSAW
+simulation and physical arguments, we find a universal elastic energy for
+proteins, which depends only on the radius of gyration $R_{g}$ and the residue
+number $N$. The elastic energy gives rise to scaling laws $R_{g}\sim N^{\nu}$
+in different regions with exponents $\nu =3/5,3/7,2/5$, consistent with the
+observed unfolded stage, pre-globule, and molten globule, respectively. These
+results indicate that CSAW can serve as a theoretical laboratory to study
+universal principles in protein folding.

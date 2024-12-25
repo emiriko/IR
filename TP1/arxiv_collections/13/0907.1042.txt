@@ -1,0 +1,20 @@
+In this work we present a model of an air transportation traffic system from
+the complex network modelling viewpoint. In the network, every node corresponds
+to a given airport, and two nodes are connected by means of flight routes. Each
+node is weighted according to its load capacity, and links are weighted
+according to the Euclidean distance that separates each pair of nodes. Local
+rules describing the behavior of individual nodes in terms of the surrounding
+flow have been also modelled, and a random network topology has been chosen in
+a baseline approach. Numerical simulations describing the diffusion of a given
+number of agents (aircraft) in this network show the onset of a jamming
+transition that distinguishes an efficient regime with null amount of airport
+queues and high diffusivity (free phase) and a regime where bottlenecks
+suddenly take place, leading to a poor aircraft diffusion (congested phase).
+Fluctuations are maximal around the congestion threshold, suggesting that the
+transition is critical. We then proceed by exploring the robustness of our
+results in neutral random topologies by embedding the model in heterogeneous
+networks. Specifically, we make use of the European air transportation network
+formed by 858 airports and 11170 flight routes connecting them, which we show
+to be scale-free. The jamming transition is also observed in this case. These
+results and methodologies may introduce relevant decision making procedures in
+order to optimize the air transportation traffic.

@@ -1,0 +1,20 @@
+The (asymptotic) complexity of matrix multiplication (over the complex field)
+is measured by a real parameter w > 0, called the exponent of matrix
+multiplication (over the complex field), which is defined to be the smallest
+real number w > 0 such that for an arbitrary degree of precision > 0, two n by
+n complex matrices can be multiplied using an algorithm using O(n^(w+\epsilon))
+number of non-division arithmetical operations. By the standard algorithm for
+multiplying two matrices, the trivial lower and upper bounds for the exponent w
+are 2 and 3 respectively.
+  W. Strassen in 1969 obtained the first important result that w < 2.81 using
+his result that 2 by 2 matrix multiplication could be performed using 7
+multiplications, not 8, as in the standard algorithm. In 1984, V. Pan improved
+this to 2.67, using a variant of Strassen's approach. It has been conjectured
+that w = 2, but the best known result is that w < 2.38, due to D. Coppersmith
+and S. Winograd. In all these approaches, estimates for w depend on the number
+of main running steps in their algorithms.
+  In a recent series of papers in 2003 and 2005, H. Cohn and C. Umans put
+forward an entirely different approach using fairly elementary methods
+involving finite groups, group algebras and their representations. The author
+describes and proves their main results, and suggests possible ways of getting
+improved estimates for the exponent using their methods.

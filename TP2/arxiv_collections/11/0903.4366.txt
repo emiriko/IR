@@ -1,0 +1,17 @@
+In functional programming languages the use of infinite structures is common
+practice. For total correctness of programs dealing with infinite structures
+one must guarantee that every finite part of the result can be evaluated in
+finitely many steps. This is known as productivity. For programming with
+infinite structures, productivity is what termination in well-defined results
+is for programming with finite structures.
+  Fractran is a simple Turing-complete programming language invented by Conway.
+We prove that the question whether a Fractran program halts on all positive
+integers is Pi^0_2-complete. In functional programming, productivity typically
+is a property of individual terms with respect to the inbuilt evaluation
+strategy. By encoding Fractran programs as specifications of infinite lists, we
+establish that this notion of productivity is Pi^0_2-complete even for the most
+simple specifications. Therefore it is harder than termination of individual
+terms. In addition, we explore possible generalisations of the notion of
+productivity in the framework of term rewriting, and prove that their
+computational complexity is Pi^1_1-complete, thus exceeding the expressive
+power of first-order logic.

@@ -1,0 +1,24 @@
+Collective graphical models exploit inter-instance associative dependence to
+output more accurate labelings. However existing models support very limited
+kind of associativity which restricts accuracy gains. This paper makes two
+major contributions. First, we propose a general collective inference framework
+that biases data instances to agree on a set of {\em properties} of their
+labelings. Agreement is encouraged through symmetric clique potentials. We show
+that rich properties leads to bigger gains, and present a systematic inference
+procedure for a large class of such properties. The procedure performs message
+passing on the cluster graph, where property-aware messages are computed with
+cluster specific algorithms. This provides an inference-only solution for
+domain adaptation. Our experiments on bibliographic information extraction
+illustrate significant test error reduction over unseen domains. Our second
+major contribution consists of algorithms for computing outgoing messages from
+clique clusters with symmetric clique potentials. Our algorithms are exact for
+arbitrary symmetric potentials on binary labels and for max-like and
+majority-like potentials on multiple labels. For majority potentials, we also
+provide an efficient Lagrangian Relaxation based algorithm that compares
+favorably with the exact algorithm. We present a 13/15-approximation algorithm
+for the NP-hard Potts potential, with runtime sub-quadratic in the clique size.
+In contrast, the best known previous guarantee for graphs with Potts potentials
+is only 1/2. We empirically show that our method for Potts potentials is an
+order of magnitude faster than the best alternatives, and our Lagrangian
+Relaxation based algorithm for majority potentials beats the best applicable
+heuristic -- ICM.

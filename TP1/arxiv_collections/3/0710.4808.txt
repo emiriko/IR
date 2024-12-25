@@ -1,0 +1,7 @@
+Transaction Level Modeling (TLM) approach is used to meet the simulation
+speed as well as cycle accuracy for large scale SoC performance analysis. We
+implemented a transaction-level model of a proprietary bus called AHB+ which
+supports an extended AMBA2.0 protocol. The AHB+ transaction-level model shows
+353 times faster than pin-accurate RTL model while maintaining 97% of accuracy
+on average. We also present the development procedure of TLM of a bus
+architecture.

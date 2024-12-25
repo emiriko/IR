@@ -1,0 +1,12 @@
+Almost all existing RFID authentication schemes (tag/reader) are vulnerable
+to relay attacks, because of their inability to estimate the distance to the
+tag. These attacks are very serious since it can be mounted without the notice
+of neither the reader nor the tag and cannot be prevented by cryptographic
+protocols that operate at the application layer. Distance bounding protocols
+represent a promising way to thwart relay attacks, by measuring the round trip
+time of short authenticated messages. All the existing distance bounding
+protocols use random number generator and hash functions at the tag side which
+make them inapplicable at low cost RFID tags. This paper proposes a lightweight
+distance bound protocol for low cost RFID tags. The proposed protocol based on
+modified version of Gossamer mutual authentication protocol. The implementation
+of the proposed protocol meets the limited abilities of low-cost RFID tags.

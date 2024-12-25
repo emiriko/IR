@@ -1,0 +1,18 @@
+The convergence to the self-consistency in the dynamical-mean-field-theory
+(DMFT) calculations for models of correlated electron systems can be
+significantly accelerated by using an appropriate mixing of hybridization
+functions which are used as the input to the impurity solver. It is shown that
+the techniques and the past experience with the mixing of input charge
+densities in the density-functional-theory (DFT) calculations are also
+effective in DMFT. As an example, the increase of the computational
+requirements near the Mott metal-insulator transition in the Hubbard model due
+to critical slowing down can be strongly reduced by using the modified
+Broyden's method to numerically solve the non-linear self-consistency equation.
+Speed-up factors as high as 3 were observed in practical calculations even for
+this relatively well behaved problem. Furthermore, the convergence can be
+achieved in difficult cases where simple linear mixing is either not effective
+or even leads to divergence. Unstable and metastable solutions can also be
+obtained. We also determine the linear response of the system with respect to
+the variations of the hybridization function, which is related to the
+propagation of the information between the different energy scales during the
+iteration.

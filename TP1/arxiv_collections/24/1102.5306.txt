@@ -1,0 +1,18 @@
+It is widely believed that certain simple modifications of the random graph
+process lead to discontinuous phase transitions. In particular, starting with
+the empty graph on $n$ vertices, suppose that at each step two pairs of
+vertices are chosen uniformly at random, but only one pair is joined, namely,
+one minimizing the product of the sizes of the components to be joined. Making
+explicit an earlier belief of Achlioptas and others, in 2009, Achlioptas,
+D'Souza and Spencer [Science 323 (2009) 1453-1455] conjectured that there
+exists a $\delta>0$ (in fact, $\delta\ge1/2$) such that with high probability
+the order of the largest component "jumps" from $o(n)$ to at least $\delta n$
+in $o(n)$ steps of the process, a phenomenon known as "explosive percolation."
+We give a simple proof that this is not the case. Our result applies to all
+"Achlioptas processes," and more generally to any process where a fixed number
+of independent random vertices are chosen at each step, and (at least) one edge
+between these vertices is added to the current graph, according to any (online)
+rule. We also prove the existence and continuity of the limit of the rescaled
+size of the giant component in a class of such processes, settling a number of
+conjectures. Intriguing questions remain, however, especially for the product
+rule described above.

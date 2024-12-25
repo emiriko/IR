@@ -1,0 +1,18 @@
+In this paper, we propose the MIML (Multi-Instance Multi-Label learning)
+framework where an example is described by multiple instances and associated
+with multiple class labels. Compared to traditional learning frameworks, the
+MIML framework is more convenient and natural for representing complicated
+objects which have multiple semantic meanings. To learn from MIML examples, we
+propose the MimlBoost and MimlSvm algorithms based on a simple degeneration
+strategy, and experiments show that solving problems involving complicated
+objects with multiple semantic meanings in the MIML framework can lead to good
+performance. Considering that the degeneration process may lose information, we
+propose the D-MimlSvm algorithm which tackles MIML problems directly in a
+regularization framework. Moreover, we show that even when we do not have
+access to the real objects and thus cannot capture more information from real
+objects by using the MIML representation, MIML is still useful. We propose the
+InsDif and SubCod algorithms. InsDif works by transforming single-instances
+into the MIML representation for learning, while SubCod works by transforming
+single-label examples into the MIML representation for learning. Experiments
+show that in some tasks they are able to achieve better performance than
+learning the single-instances or single-label examples directly.

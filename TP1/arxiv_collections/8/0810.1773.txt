@@ -1,0 +1,16 @@
+Crosstalk interference is the limiting factor in transmission over copper
+lines. Crosstalk cancelation techniques show great potential for enabling the
+next leap in DSL transmission rates. An important issue when implementing
+crosstalk cancelation techniques in hardware is the effect of finite world
+length on performance. In this paper we provide an analysis of the performance
+of linear zero-forcing precoders, used for crosstalk compensation, in the
+presence of finite word length errors. We quantify analytically the trade off
+between precoder word length and transmission rate degradation. More
+specifically, we prove a simple formula for the transmission rate loss as a
+function of the number of bits used for precoding, the signal to noise ratio,
+and the standard line parameters. We demonstrate, through simulations on real
+lines, the accuracy of our estimates. Moreover, our results are stable in the
+presence of channel estimation errors. Finally, we show how to use these
+estimates as a design tool for DSL linear crosstalk precoders. For example, we
+show that for standard VDSL2 precoded systems, 14 bits representation of the
+precoder entries results in capacity loss below 1% for lines over 300m.

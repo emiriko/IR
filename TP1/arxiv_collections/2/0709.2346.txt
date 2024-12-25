@@ -1,0 +1,15 @@
+The pressing need for eficient compression schemes for XML documents has
+recently been focused on stack computation [6, 9], and in particular calls for
+a formulation of information-lossless stack or pushdown compressors that allows
+a formal analysis of their performance and a more ambitious use of the stack in
+XML compression, where so far it is mainly connected to parsing mechanisms. In
+this paper we introduce the model of pushdown compressor, based on pushdown
+transducers that compute a single injective function while keeping the widest
+generality regarding stack computation. The celebrated Lempel-Ziv algorithm
+LZ78 [10] was introduced as a general purpose compression algorithm that
+outperforms finite-state compressors on all sequences. We compare the
+performance of the Lempel-Ziv algorithm with that of the pushdown compressors,
+or compression algorithms that can be implemented with a pushdown transducer.
+This comparison is made without any a priori assumption on the data's source
+and considering the asymptotic compression ratio for infinite sequences. We
+prove that Lempel-Ziv is incomparable with pushdown compressors.

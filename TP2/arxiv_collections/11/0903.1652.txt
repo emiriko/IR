@@ -1,0 +1,20 @@
+A computation in adiabatic quantum computing is implemented by traversing a
+path of nondegenerate eigenstates of a continuous family of Hamiltonians. We
+introduce a method that traverses a discretized form of the path: At each step
+we apply the instantaneous Hamiltonian for a random time. The resulting
+decoherence approximates a projective measurement onto the desired eigenstate,
+achieving a version of the quantum Zeno effect. If negative evolution times can
+be implemented with constant overhead, then the average absolute evolution time
+required by our method is O(L^2/Delta) for constant error probability, where L
+is the length of the path of eigenstates and Delta is the minimum spectral gap
+of the Hamiltonian. Making explicit the dependence on the path length is useful
+for cases where L does not depend on Delta. The complexity of our method has a
+logarithmic improvement over previous algorithms of this type. The same cost
+applies to the discrete-time case, where a family of unitary operators is given
+and each unitary and its inverse can be used. Restriction to positive evolution
+times incurs an error that decreases exponentially with the cost. Applications
+of this method to unstructured search and quantum sampling are considered. In
+particular, we discuss the quantum simulated annealing algorithm for solving
+combinatorial optimization problems. This algorithm provides a quadratic
+speed-up in the gap of the stochastic matrix over its classical counterpart
+implemented via Markov chain Monte Carlo.

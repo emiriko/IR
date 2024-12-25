@@ -1,0 +1,14 @@
+We consider the problem of positioning a cloud of points in the Euclidean
+space $\mathbb{R}^d$, using noisy measurements of a subset of pairwise
+distances. This task has applications in various areas, such as sensor network
+localization and reconstruction of protein conformations from NMR measurements.
+Also, it is closely related to dimensionality reduction problems and manifold
+learning, where the goal is to learn the underlying global geometry of a data
+set using local (or partial) metric information. Here we propose a
+reconstruction algorithm based on semidefinite programming. For a random
+geometric graph model and uniformly bounded noise, we provide a precise
+characterization of the algorithm's performance: In the noiseless case, we find
+a radius $r_0$ beyond which the algorithm reconstructs the exact positions (up
+to rigid transformations). In the presence of noise, we obtain upper and lower
+bounds on the reconstruction error that match up to a factor that depends only
+on the dimension $d$, and the average degree of the nodes in the graph.

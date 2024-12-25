@@ -1,0 +1,16 @@
+This paper presents the delay analysis for buffered Aloha networks with
+K-Exponential Backoff. Mean access delay and mean queueing delay are derived
+and demonstrated via the examples of Geometric Retransmission (K=1) and
+Exponential Backoff (K=infinity). The comparison shows that higher delay is
+incurred with Geometric Retransmission when the aggregate input rate is small,
+and the delay gap is enlarged as the number of nodes n increases. With a high
+traffic input rate, however, the delay performance with Exponential Backoff
+severely deteriorates. The mean queueing delay will be unbounded if the
+aggregate input rate exceeds 0.3.
+  We also extend the analysis to the contention-window-based backoff model
+which is widely adopted in practical MAC protocols. It will be revealed that
+both the retransmission-probability-based and the contention-window-based
+models exhibit the same stable region and achieve similar queueing performance
+in most cases, which justifies the intuition that was taken but remained
+unverified in previous studies: the retransmission-probability-based backoff
+model can serve as a good approximation of the contention-window-based one.

@@ -1,0 +1,10 @@
+We present a parallel algorithm for solving backward stochastic differential
+equations (BSDEs in short) which are very useful theoretic tools to deal with
+many financial problems ranging from option pricing option to risk management.
+Our algorithm based on Gobet and Labart (2010) exploits the link between BSDEs
+and non linear partial differential equations (PDEs in short) and hence enables
+to solve high dimensional non linear PDEs. In this work, we apply it to the
+pricing and hedging of American options in high dimensional local volatility
+models, which remains very computationally demanding. We have tested our
+algorithm up to dimension 10 on a cluster of 512 CPUs and we obtained linear
+speedups which proves the scalability of our implementation

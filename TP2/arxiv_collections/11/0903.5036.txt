@@ -1,0 +1,16 @@
+Simulations of biophysical systems inevitably include steps that correspond
+to time integrations of ordinary differential equations. These equations are
+often related to enzyme action in the synthesis and destruction of molecular
+species, and in the regulation of transport of molecules into and out of the
+cell or cellular compartments. Enzyme action is almost invariably modeled with
+the quasi-steady-state Michaelis-Menten formula or its close relative, the Hill
+formula: this description leads to systems of equations that may be stiff and
+hard to integrate, and poses unusual computational challenges in simulations
+where a smooth evolution is interrupted by the discrete events that mark the
+cells' lives. This is the case of a numerical model (Virtual Biophysics Lab -
+VBL) that we are developing to simulate the growth of three-dimensional tumor
+cell aggregates (spheroids). The program must be robust and stable, and must be
+able to accept frequent changes in the underlying theoretical model: here we
+study the applicability of known integration methods to this unusual context
+and we describe the results of numerical tests in situations similar to those
+found in actual simulations.

@@ -1,0 +1,19 @@
+Stein's unbiased risk estimate (SURE) was proposed by Stein for the
+independent, identically distributed (iid) Gaussian model in order to derive
+estimates that dominate least-squares (LS). In recent years, the SURE criterion
+has been employed in a variety of denoising problems for choosing
+regularization parameters that minimize an estimate of the mean-squared error
+(MSE). However, its use has been limited to the iid case which precludes many
+important applications. In this paper we begin by deriving a SURE counterpart
+for general, not necessarily iid distributions from the exponential family.
+This enables extending the SURE design technique to a much broader class of
+problems. Based on this generalization we suggest a new method for choosing
+regularization parameters in penalized LS estimators. We then demonstrate its
+superior performance over the conventional generalized cross validation
+approach and the discrepancy method in the context of image deblurring and
+deconvolution. The SURE technique can also be used to design estimates without
+predefining their structure. However, allowing for too many free parameters
+impairs the performance of the resulting estimates. To address this inherent
+tradeoff we propose a regularized SURE objective. Based on this design
+criterion, we derive a wavelet denoising strategy that is similar in sprit to
+the standard soft-threshold approach but can lead to improved MSE performance.

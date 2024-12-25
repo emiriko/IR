@@ -1,0 +1,16 @@
+Aims: Caustic-crossing binary-lens microlensing events are important
+anomalous events because they are capable of detecting an extrasolar planet
+companion orbiting the lens star. Fast and robust modelling methods are thus of
+prime interest in helping to decide whether a planet is detected by an event.
+Cassan (2008) introduced a new set of parameters to model binary-lens events,
+which are closely related to properties of the light curve. In this work, we
+explain how Bayesian priors can be added to this framework, and investigate on
+interesting options. Methods: We develop a mathematical formulation that allows
+us to compute analytically the priors on the new parameters, given some
+previous knowledge about other physical quantities. We explicitly compute the
+priors for a number of interesting cases, and show how this can be implemented
+in a fully Bayesian, Markov chain Monte Carlo algorithm. Results: Using
+Bayesian priors can accelerate microlens fitting codes by reducing the time
+spent considering physically implausible models, and helps us to discriminate
+between alternative models based on the physical plausibility of their
+parameters.

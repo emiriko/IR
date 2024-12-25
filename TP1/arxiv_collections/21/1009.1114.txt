@@ -1,0 +1,19 @@
+We investigate the performance of a variant of Axelrod's model for
+dissemination of culture - the Adaptive Culture Heuristic (ACH) - on solving an
+NP-Complete optimization problem, namely, the classification of binary input
+patterns of size $F$ by a Boolean Binary Perceptron. In this heuristic, $N$
+agents, characterized by binary strings of length $F$ which represent possible
+solutions to the optimization problem, are fixed at the sites of a square
+lattice and interact with their nearest neighbors only. The interactions are
+such that the agents' strings (or cultures) become more similar to the low-cost
+strings of their neighbors resulting in the dissemination of these strings
+across the lattice. Eventually the dynamics freezes into a homogeneous
+absorbing configuration in which all agents exhibit identical solutions to the
+optimization problem. We find through extensive simulations that the
+probability of finding the optimal solution is a function of the reduced
+variable $F/N^{1/4}$ so that the number of agents must increase with the fourth
+power of the problem size, $N \propto F^ 4$, to guarantee a fixed probability
+of success. In this case, we find that the relaxation time to reach an
+absorbing configuration scales with $F^ 6$ which can be interpreted as the
+overall computational cost of the ACH to find an optimal set of weights for a
+Boolean Binary Perceptron, given a fixed probability of success.

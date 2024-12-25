@@ -1,0 +1,12 @@
+In signal integrity analysis, the joint effect of propagated noise through
+library cells, and of the noise injected on a quiet net by neighboring
+switching nets through coupling capacitances, must be considered in order to
+accurately estimate the overall noise impact on design functionality and
+performances. In this work the impact of the cell non-linearity on the noise
+glitch waveform is analyzed in detail, and a new macromodel that allows to
+accurately and efficiently modeling the non-linear effects of the victim driver
+in noise analysis is presented. Experimental results demonstrate the
+effectiveness of our method, and confirm that existing noise analysis
+approaches based on linear superposition of the propagated and
+crosstalk-injected noise can be highly inaccurate, thus impairing the sign-off
+functional verification phase.

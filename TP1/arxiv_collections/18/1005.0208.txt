@@ -1,0 +1,10 @@
+Random forests are a scheme proposed by Leo Breiman in the 2000's for
+building a predictor ensemble with a set of decision trees that grow in
+randomly selected subspaces of data. Despite growing interest and practical
+use, there has been little exploration of the statistical properties of random
+forests, and little is known about the mathematical forces driving the
+algorithm. In this paper, we offer an in-depth analysis of a random forests
+model suggested by Breiman in \cite{Bre04}, which is very close to the original
+algorithm. We show in particular that the procedure is consistent and adapts to
+sparsity, in the sense that its rate of convergence depends only on the number
+of strong features and not on how many noise variables are present.

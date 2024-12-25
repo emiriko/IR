@@ -1,0 +1,25 @@
+Asynchronous programming is a ubiquitous systems programming idiom to manage
+concurrent interactions with the environment. In this style, instead of waiting
+for time-consuming operations to complete, the programmer makes a non-blocking
+call to the operation and posts a callback task to a task buffer that is
+executed later when the time-consuming operation completes. A co-operative
+scheduler mediates the interaction by picking and executing callback tasks from
+the task buffer to completion (and these callbacks can post further callbacks
+to be executed later). Writing correct asynchronous programs is hard because
+the use of callbacks, while efficient, obscures program control flow.
+  We provide a formal model underlying asynchronous programs and study
+verification problems for this model. We show that the safety verification
+problem for finite-data asynchronous programs is expspace-complete. We show
+that liveness verification for finite-data asynchronous programs is decidable
+and polynomial-time equivalent to Petri Net reachability. Decidability is not
+obvious, since even if the data is finite-state, asynchronous programs
+constitute infinite-state transition systems: both the program stack and the
+task buffer of pending asynchronous calls can be potentially unbounded.
+  Our main technical construction is a polynomial-time semantics-preserving
+reduction from asynchronous programs to Petri Nets and conversely. The
+reduction allows the use of algorithmic techniques on Petri Nets to the
+verification of asynchronous programs.
+  We also study several extensions to the basic models of asynchronous programs
+that are inspired by additional capabilities provided by implementations of
+asynchronous libraries, and classify the decidability and undecidability of
+verification questions on these extensions.

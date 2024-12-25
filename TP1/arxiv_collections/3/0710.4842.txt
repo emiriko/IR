@@ -1,0 +1,12 @@
+At 130 nm and 90 nm, power consumption (both dynamic and static) has become a
+barrier in the roadmap for SoC designs targeting battery powered, mobile
+applications. This paper presents the results of dynamic and static power
+reduction achieved implementing Tensilica's 32-bit Xtensa microprocessor core,
+using Virtual Silicon's Power Management IP. Independent voltage islands are
+created using Virtual Silicon's VIP PowerSaver standard cells by using voltage
+level shifting cells and voltage isolation cells to implement power islands.
+The VIP PowerSaver standard cells are characterized at 1.2V, 1.0V and 0.8V, to
+accommodate voltage scaling. Power islands can also be turned off completely.
+Designers can significantly lower both the dynamic power and the quiescent or
+leakage power of their SoC designs, with very little impact on speed or area
+using Virtual Silicon's VIP Gate Bias standard cells.

@@ -1,0 +1,12 @@
+The paper proposes a new covariance estimator for large covariance matrices
+when the variables have a natural ordering. Using the Cholesky decomposition of
+the inverse, we impose a banded structure on the Cholesky factor, and select
+the bandwidth adaptively for each row of the Cholesky factor, using a novel
+penalty we call nested Lasso. This structure has more flexibility than regular
+banding, but, unlike regular Lasso applied to the entries of the Cholesky
+factor, results in a sparse estimator for the inverse of the covariance matrix.
+An iterative algorithm for solving the optimization problem is developed. The
+estimator is compared to a number of other covariance estimators and is shown
+to do best, both in simulations and on a real data example. Simulations show
+that the margin by which the estimator outperforms its competitors tends to
+increase with dimension.

@@ -1,0 +1,10 @@
+A fully adaptive finite volume multiresolution scheme for one-dimensional
+strongly degenerate parabolic equations with discontinuous flux is presented.
+The numerical scheme is based on a finite volume discretization using the
+Engquist--Osher approximation for the flux and explicit time--stepping. An
+adaptivemultiresolution scheme with cell averages is then used to speed up CPU
+time and meet memory requirements. A particular feature of our scheme is the
+storage of the multiresolution representation of the solution in a dynamic
+graded tree, for the sake of data compression and to facilitate navigation.
+Applications to traffic flow with driver reaction and a clarifier--thickener
+model illustrate the efficiency of this method.

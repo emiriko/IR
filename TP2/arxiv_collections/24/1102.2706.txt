@@ -1,0 +1,17 @@
+This paper addresses the problem of blind separation of convolutive mixtures
+of BPSK and circular linearly modulated signals with unknown (and possibly
+different) baud rates and carrier frequencies. In previous works, we
+established that the Constant Modulus Algorithm (CMA) is able to extract a
+source from a convolutive mixture of circular linearly modulated signals. We
+extend the analysis of the extraction capabilities of the CMA when the mixing
+also contains BPSK signals. We prove that if the various source signals do not
+share any non zero cyclic frequency nor any non conjugate cyclic frequencies,
+the local minima of the constant modulus cost function are separating filters.
+Unfortunately, the minimization of the Godard cost function generally fails
+when considering BPSK signals that have the same rates and the same carrier
+frequencies. This failure is due to the existence of non-separating local
+minima of the Godard cost function. In order to achieve the separation, we
+propose a simple modification of the Godard cost function which only requires
+knowledge of the BPSK sources frequency offsets at the receiver side. We
+provide various simulations of realistic digital communications scenarios that
+support our theoretical statements.

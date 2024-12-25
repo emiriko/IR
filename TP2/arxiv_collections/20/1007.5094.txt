@@ -1,0 +1,11 @@
+In this paper we present a compositional semantics for the channel-based
+coordination language Reo which enables the analysis of quality of service
+(QoS) properties of service compositions. For this purpose, we annotate Reo
+channels with stochastic delay rates and explicitly model data-arrival rates at
+the boundary of a connector, to capture its interaction with the services that
+comprise its environment. We propose Stochastic Reo automata as an extension of
+Reo automata, in order to compositionally derive a QoS-aware semantics for Reo.
+We further present a translation of Stochastic Reo automata to Continuous-Time
+Markov Chains (CTMCs). This translation enables us to use third-party CTMC
+verification tools to do an end-to-end performance analysis of service
+compositions.

@@ -1,0 +1,15 @@
+In Helio- and asteroseismology, it is important to have continuous,
+uninterrupted, data sets. However, seismic observations usually contain gaps
+and we need to take them into account. In particular, if the gaps are not
+randomly distributed, they will produce a peak and a series of harmonics in the
+periodogram that will destroy the stellar information. An interpolation of the
+data can be good solution for this problem. In this paper we have studied an
+interpolation method based on the so-called 'inpainting' algorithms. To check
+the algorithm, we used both VIRGO and CoRoT satellite data to which we applied
+a realistic artificial window of a real CoRoT observing run to introduce gaps.
+Next we compared the results with the original, non-windowed data. Therefore,
+we were able to optimize the algorithm by minimizing the difference between the
+power spectrum density of the data with gaps and the complete time series. In
+general, we find that the power spectrum of the inpainted time series is very
+similar to the original, unperturbed one. Seismic inferences obtained after
+interpolating the data are the same as in the original case.

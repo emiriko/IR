@@ -1,0 +1,19 @@
+Sigma-Delta modulation is a popular method for analog-to-digital conversion
+of bandlimited signals that employs coarse quantization coupled with
+oversampling. The standard mathematical model for the error analysis of the
+method measures the performance of a given scheme by the rate at which the
+associated reconstruction error decays as a function of the oversampling ratio
+$\lambda$. It was recently shown that exponential accuracy of the form
+$O(2^{-r\lambda})$ can be achieved by appropriate one-bit Sigma-Delta
+modulation schemes. By general information-entropy arguments $r$ must be less
+than 1. The current best known value for $r$ is approximately 0.088. The
+schemes that were designed to achieve this accuracy employ the "greedy"
+quantization rule coupled with feedback filters that fall into a class we call
+"minimally supported". In this paper, we study the minimization problem that
+corresponds to optimizing the error decay rate for this class of feedback
+filters. We solve a relaxed version of this problem exactly and provide
+explicit asymptotics of the solutions. From these relaxed solutions, we find
+asymptotically optimal solutions of the original problem, which improve the
+best known exponential error decay rate to $r \approx 0.102$. Our method draws
+from the theory of orthogonal polynomials; in particular, it relates the
+optimal filters to the zero sets of Chebyshev polynomials of the second kind.

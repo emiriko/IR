@@ -1,0 +1,13 @@
+Numerical optimization is used to design linear-optical devices that
+implement a desired quantum gate with perfect fidelity, while maximizing the
+success rate. For the 2-qubit CS (or CNOT) gate, we provide numerical evidence
+that the maximum success rate is $S=2/27$ using two unentangled ancilla
+resources; interestingly, additional ancilla resources do not increase the
+success rate. For the 3-qubit Toffoli gate, we show that perfect fidelity is
+obtained with only three unentangled ancilla photons -- less than in any
+existing scheme -- with a maximum $S=0.00340$. This compares well with
+$S=(2/27)^2/2 \approx 0.00274$, obtainable by combining two CNOT gates and a
+passive quantum filter [PRA 68, 064303 (2003)]. The general optimization
+approach can easily be applied to other areas of interest, such as quantum
+error correction, cryptography, and metrology [arXiv:0807.4906, PRL 99 070801
+(2007)].

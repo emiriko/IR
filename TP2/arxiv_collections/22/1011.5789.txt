@@ -1,0 +1,10 @@
+In \cite{NRxx}, we proposed a numerical regularized moment method of
+arbitrary order (abbreviated as NRxx method) for Boltzmann-BGK equation, which
+makes numerical simulation using very large number of moments possible. In this
+paper, we are further exploring the efficiency of NRxx method with techniques
+including the 2nd order HLL flux with linear reconstruction to improve spatial
+accuracy, the RKC schemes to relieve the time step length constraint by the
+regularization terms, and the revised Strang splitting to calculate convective
+and diffusive terms only once without loss of accuracy. It is validated by the
+numerical results that the overall efficiency is significantly improved and the
+convergence order is kept well.

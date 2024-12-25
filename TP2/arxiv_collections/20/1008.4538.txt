@@ -1,0 +1,19 @@
+We study the performance of two different electrode models in quantum
+transport calculations based on density functional theory: Parametrized Bethe
+lattices and quasi-one dimensional wires or nanowires. A detailed account of
+implementation details in both cases is given. From the systematic study of
+nanocontacts made of representative metallic elements, we can conclude that
+parametrized electrode models represent an excellent compromise between
+computational cost and electronic structure definition as long as the aim is to
+compare with experiments where the precise atomic structure of the electrodes
+is not relevant or defined with precision. The results obtained using
+parametrized Bethe lattices are essentially similar to the ones obtained with
+quasi one dimensional electrodes for large enough sections of these, adding a
+natural smearing to the transmission curves that mimics the true nature of
+polycrystalline electrodes. The latter are more demanding from the
+computational point of view, but present the advantage of expanding the range
+of applicability of transport calculations to situations where the electrodes
+have a well-defined atomic structure, as is case for carbon nanotubes, graphene
+nanoribbons or semiconducting nanowires. All the analysis is done with the help
+of codes developed by the authors which can be found in the quantum transport
+toolbox Alacant and are publicly available.

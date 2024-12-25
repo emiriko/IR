@@ -1,0 +1,19 @@
+Thermal X-ray spectra of clusters of galaxies and other sources are commonly
+calculated assuming Maxwellian electron distributions. There are situations
+where this approximation is not valid, for instance near interfaces of hot and
+cold gas and near shocks. The presence of non-thermal electrons affects the
+X-ray spectrum. To study the role of these electrons in clusters and other
+environments, an efficient algorithm to calculate the X-ray spectra is needed.
+We approximate an arbitrary electron distribution by the sum of Maxwellian
+components. The decomposition is done using either a genetic algorithm or an
+analytical approximation. The X-ray spectrum is then evaluated using a linear
+combination of those Maxwellian components. Our method is fast and leads to an
+accurate evaluation of the spectrum. The use of Maxwellian components allows to
+use the standard collisional rates that are available in plasma codes such as
+SPEX. We give an example of a spectrum for the supra-thermal electron
+distribution behind a shock in a cluster of galaxies. The relative intensities
+of the satellite lines in such a spectrum are sensitive to the presence of the
+supra-thermal electrons. These lines can only be investigated with high
+spectral resolution. We show that the instruments on future missions like
+Astro-H and IXO will be able to demonstrate the presence or absence of these
+supra-thermal electrons.

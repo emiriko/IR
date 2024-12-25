@@ -1,0 +1,9 @@
+We generalize the popular ensemble Kalman filter to an ensemble transform
+filter where the prior distribution can take the form of a Gaussian mixture or
+a Gaussian kernel density estimator. The design of the filter is based on a
+continuous formulation of the Bayesian filter analysis step. We call the new
+filter algorithm the ensemble Gaussian mixture filter (EGMF). The EGMF is
+implemented for three simple test problems (Brownian dynamics in one dimension,
+Langevin dynamics in two dimensions, and the three dimensional Lorenz-63
+model). It is demonstrated that the EGMF is capable to track systems with
+non-Gaussian uni- and multimodal ensemble distributions.

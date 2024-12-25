@@ -1,0 +1,16 @@
+Event-triggered control and self-triggered control have been recently
+proposed as new implementation paradigms that reduce resource usage for control
+systems. In self-triggered control, the controller is augmented with the
+computation of the next time instant at which the feedback control law is to be
+recomputed. Since these execution instants are obtained as a function of the
+plant state, we effectively close the loop only when it is required to maintain
+the desired performance, thereby greatly reducing the resources required for
+control. In this paper we present a new technique for the computation of the
+execution instants by exploiting the concept of isochronous manifolds, also
+introduced in this paper. While our previous results showed how homogeneity can
+be used to compute the execution instants along some directions in the state
+space, the concept of isochrony allows us to compute the executions instants
+along every direction in the state space. Moreover, we also show in this paper
+how to homogenize smooth control systems thus making our results applicable to
+any smooth control system. The benefits of the proposed approach with respect
+to existing techniques are analyzed in two examples.

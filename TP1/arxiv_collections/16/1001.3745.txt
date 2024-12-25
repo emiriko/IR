@@ -1,0 +1,14 @@
+When users rate objects, a sophisticated algorithm that takes into account
+ability or reputation may produce a fairer or more accurate aggregation of
+ratings than the straightforward arithmetic average. Recently a number of
+authors have proposed different co-determination algorithms where estimates of
+user and object reputation are refined iteratively together, permitting
+accurate measures of both to be derived directly from the rating data. However,
+simulations demonstrating these methods' efficacy assumed a continuum of rating
+values, consistent with typical physical modelling practice, whereas in most
+actual rating systems only a limited range of discrete values (such as a 5-star
+system) is employed. We perform a comparative test of several co-determination
+algorithms with different scales of discrete ratings and show that this
+seemingly minor modification in fact has a significant impact on algorithms'
+performance. Paradoxically, where rating resolution is low, increased noise in
+users' ratings may even improve the overall performance of the system.

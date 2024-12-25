@@ -1,0 +1,18 @@
+In basic computational physics classes, students often raise the question of
+how to compute a number that exceeds the numerical limit of the machine. While
+technique of avoiding overflow/underflow has practical application in the
+electrical and electronics engineering industries, it is not commonly utilized
+in scientific computing, because scientific notation is adequate in most cases.
+We present an undergraduate project that deals with such calculations beyond a
+machine's numerical limit, known as arbitrary precision arithmetic. The
+assignment asks students to investigate the approach of calculating the exact
+value of a large number beyond the floating point number precision, using the
+basic scientific programming language Fortran. The basic concept is to utilize
+arrays to decompose the number and allocate finite memory. Examples of the
+successive multiplication of even number and the multiplication and division of
+two overflowing floats are presented. The multiple precision scheme has been
+applied to hardware and firmware design for digital signal processing (DSP)
+systems, and is gaining importance to scientific computing. Such basic
+arithmetic operations can be integrated to solve advanced mathematical problems
+to almost arbitrarily-high precision that is limited by the memory of the host
+machine.

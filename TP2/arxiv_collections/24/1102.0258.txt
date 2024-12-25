@@ -1,0 +1,18 @@
+In principle, we should not need the time-dependent extension of
+density-functional theory (TDDFT) for excitations, and in particular not for
+Molecular Dynamics (MD) studies: the theorem by Hohenberg and Kohn teaches us
+that for any observable that we wish to look at (including dynamical properties
+or observables dependent on excited states) there is a corresponding functional
+of the ground-state density. Yet the unavailability of such magic functionals
+in many cases (the theorem is a non-constructive existence result) demands the
+development and use of the alternative exact reformulation of quantum mechanics
+provided by TDDFT. This theory defines a convenient route to electronic
+excitations and to the dynamics of a many-electron system subject to an
+arbitrary time-dependent perturbation. This is, in fact, the main purpose of
+inscribing TDDFT in a MD framework -the inclusion of the effect of electronic
+excited states in the dynamics. However, as we will show in this review, it may
+not be the only use of TDDFT in this context. In this manuscript, we review two
+recent proposals: In Section 1.2, we show how TDDFT can be used to design
+efficient gsBOMD algorithms -even if the electronic excited states are in this
+case not relevant. The work described in Section 1.3 addresses the problem of
+mixed quantum-classical systems at thermal equilibrium.

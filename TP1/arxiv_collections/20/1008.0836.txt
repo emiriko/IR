@@ -1,0 +1,17 @@
+This article combines various methods of analysis to draw a comprehensive
+picture of penalty approximations to the value, hedge ratio, and optimal
+exercise strategy of American options. While convergence of the penalised
+solution for sufficiently smooth obstacles is well established in the
+literature, sharp rates of convergence and particularly the effect of gradient
+discontinuities (i.e., the omni-present `kinks' in option payoffs) on this rate
+have not been fully analysed so far. This effect becomes important not least
+when using penalisation as a numerical technique. We use matched asymptotic
+expansions to characterise the boundary layers between exercise and hold
+regions, and to compute first order corrections for representative payoffs on a
+single asset following a diffusion or jump-diffusion model. Furthermore, we
+demonstrate how the viscosity theory framework in [Jakobsen, 2006] can be
+applied to this setting to derive upper and lower bounds on the value. In a
+small extension to [Bensoussan & Lions, 1982], we derive weak convergence rates
+also for option sensitivities for convex payoffs under jump-diffusion models.
+Finally, we outline applications of the results, including accuracy
+improvements by extrapolation.

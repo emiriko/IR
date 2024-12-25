@@ -1,0 +1,20 @@
+Imaging in clinical oncology trials provides a wealth of information that
+contributes to the drug development process, especially in early phase studies.
+This paper focuses on kinetic modeling in DCE-MRI, inspired by mixed-effects
+models that are frequently used in the analysis of clinical trials. Instead of
+summarizing each scanning session as a single kinetic parameter -- such as
+median $\ktrans$ across all voxels in the tumor ROI -- we propose to analyze
+all voxel time courses from all scans and across all subjects simultaneously in
+a single model. The kinetic parameters from the usual non-linear regression
+model are decomposed into unique components associated with factors from the
+longitudinal study; e.g., treatment, patient and voxel effects. A Bayesian
+hierarchical model provides the framework in order to construct a data model, a
+parameter model, as well as prior distributions. The posterior distribution of
+the kinetic parameters is estimated using Markov chain Monte Carlo (MCMC)
+methods. Hypothesis testing at the study level for an overall treatment effect
+is straightforward and the patient- and voxel-level parameters capture random
+effects that provide additional information at various levels of resolution to
+allow a thorough evaluation of the clinical trial. The proposed method is
+validated with a breast cancer study, where the subjects were imaged before and
+after two cycles of chemotherapy, demonstrating the clinical potential of this
+method to longitudinal oncology studies.

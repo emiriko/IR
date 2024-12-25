@@ -1,0 +1,13 @@
+ATL is a temporal logic geared towards the specification and verification of
+properties in multi-agents systems. It allows to reason on the existence of
+strategies for coalitions of agents in order to enforce a given property. In
+this paper, we first precisely characterize the complexity of ATL
+model-checking over Alternating Transition Systems and Concurrent Game
+Structures when the number of agents is not fixed. We prove that it is
+\Delta^P_2 - and \Delta^P_?_3-complete, depending on the underlying multi-agent
+model (ATS and CGS resp.). We also consider the same problems for some
+extensions of ATL. We then consider expressiveness issues. We show how ATS and
+CGS are related and provide translations between these models w.r.t.
+alternating bisimulation. We also prove that the standard definition of ATL
+(built on modalities "Next", "Always" and "Until") cannot express the duals of
+its modalities: it is necessary to explicitely add the modality "Release".

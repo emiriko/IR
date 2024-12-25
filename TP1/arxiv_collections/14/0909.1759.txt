@@ -1,0 +1,19 @@
+In recent years, there has been a proliferation of declarative logic-based
+trust management languages and systems proposed to ease the description,
+configuration, and enforcement of security policies. These systems have
+different tradeoffs in expressiveness and complexity, depending on the security
+constructs (e.g. authentication, delegation, secrecy, etc.) that are supported,
+and the assumed trust level and scale of the execution environment. In this
+paper, we present LBTrust, a unified declarative system for reconfigurable
+trust management, where various security constructs can be customized and
+composed in a declarative fashion. We present an initial proof-of-concept
+implementation of LBTrust using LogicBlox, an emerging commercial Datalog-based
+platform for enterprise software systems. The LogicBlox language enhances
+Datalog in a variety of ways, including constraints and meta-programming, as
+well as support for programmer defined constraints which on the meta-model
+itself ? meta-constraints ? which act to restrict the set of allowable
+programs. LBTrust utilizes LogicBlox?s meta-programming and meta-constraints to
+enable customizable cryptographic, partitioning and distribution strategies
+based on the execution environment. We present uses cases of LBTrust based on
+three trust management systems (Binder, D1LP, and Secure Network Datalog), and
+provide a preliminary evaluation of a Binder-based trust management system.

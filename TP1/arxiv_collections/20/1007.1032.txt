@@ -1,0 +1,10 @@
+Very large datasets are often encountered in climatology, either from a
+multiplicity of observations over time and space or outputs from deterministic
+models (sometimes in petabytes= 1 million gigabytes). Loading a large data
+vector and sorting it, is impossible sometimes due to memory limitations or
+computing power. We show that a proposed algorithm to approximating the median,
+"the median of the median" performs poorly. Instead we develop an algorithm to
+approximate quantiles of very large datasets which works by partitioning the
+data or use existing partitions (possibly of non-equal size). We show the
+deterministic precision of this algorithm and how it can be adjusted to get
+customized precisions.

@@ -1,0 +1,24 @@
+Principal component analysis (PCA) is a widely used technique for data
+analysis and dimension reduction with numerous applications in science and
+engineering. However, the standard PCA suffers from the fact that the principal
+components (PCs) are usually linear combinations of all the original variables,
+and it is thus often difficult to interpret the PCs. To alleviate this
+drawback, various sparse PCA approaches were proposed in literature [15, 6, 17,
+28, 8, 25, 18, 7, 16]. Despite success in achieving sparsity, some important
+properties enjoyed by the standard PCA are lost in these methods such as
+uncorrelation of PCs and orthogonality of loading vectors. Also, the total
+explained variance that they attempt to maximize can be too optimistic. In this
+paper we propose a new formulation for sparse PCA, aiming at finding sparse and
+nearly uncorrelated PCs with orthogonal loading vectors while explaining as
+much of the total variance as possible. We also develop a novel augmented
+Lagrangian method for solving a class of nonsmooth constrained optimization
+problems, which is well suited for our formulation of sparse PCA. We show that
+it converges to a feasible point, and moreover under some regularity
+assumptions, it converges to a stationary point. Additionally, we propose two
+nonmonotone gradient methods for solving the augmented Lagrangian subproblems,
+and establish their global and local convergence. Finally, we compare our
+sparse PCA approach with several existing methods on synthetic, random, and
+real data, respectively. The computational results demonstrate that the sparse
+PCs produced by our approach substantially outperform those by other methods in
+terms of total explained variance, correlation of PCs, and orthogonality of
+loading vectors.

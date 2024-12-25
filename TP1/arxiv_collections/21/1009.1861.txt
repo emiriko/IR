@@ -1,0 +1,17 @@
+Refinement types sharpen systems of simple and dependent types by offering
+expressive means to more precisely classify well-typed terms. We present a
+system of refinement types for LF in the style of recent formulations where
+only canonical forms are well-typed. Both the usual LF rules and the rules for
+type refinements are bidirectional, leading to a straightforward proof of
+decidability of typechecking even in the presence of intersection types.
+Because we insist on canonical forms, structural rules for subtyping can now be
+derived rather than being assumed as primitive. We illustrate the expressive
+power of our system with examples and validate its design by demonstrating a
+precise correspondence with traditional presentations of subtyping. Proof
+irrelevance provides a mechanism for selectively hiding the identities of terms
+in type theories. We show that LF refinement types can be interpreted as
+predicates using proof irrelevance, establishing a uniform relationship between
+two previously studied concepts in type theory. The interpretation and its
+correctness proof are surprisingly complex, lending support to the claim that
+refinement types are a fundamental construct rather than just a convenient
+surface syntax for certain uses of proof irrelevance.

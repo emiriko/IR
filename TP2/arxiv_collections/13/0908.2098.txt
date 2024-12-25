@@ -1,0 +1,15 @@
+We assume a drift condition towards a small set and bound the mean square
+error of estimators obtained by taking averages along a single trajectory of a
+Markov chain Monte Carlo algorithm. We use these bounds to construct
+fixed-width nonasymptotic confidence intervals. For a possibly unbounded
+function $f:\stany \to R,$ let $I=\int_{\stany} f(x) \pi(x) dx$ be the value of
+interest and $\hat{I}_{t,n}=(1/n)\sum_{i=t}^{t+n-1}f(X_i)$ its MCMC estimate.
+Precisely, we derive lower bounds for the length of the trajectory $n$ and
+burn-in time $t$ which ensure that $$P(|\hat{I}_{t,n}-I|\leq \varepsilon)\geq
+1-\alpha.$$ The bounds depend only and explicitly on drift parameters, on the
+$V-$norm of $f,$ where $V$ is the drift function and on precision and
+confidence parameters $\varepsilon, \alpha.$ Next we analyse an MCMC estimator
+based on the median of multiple shorter runs that allows for sharper bounds for
+the required total simulation cost. In particular the methodology can be
+applied for computing Bayesian estimators in practically relevant models. We
+illustrate our bounds numerically in a simple example.

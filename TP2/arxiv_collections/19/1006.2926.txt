@@ -1,0 +1,25 @@
+In FOCS 2002, Even et al. showed that any set of $n$ discs in the plane can
+be Conflict-Free colored with a total of at most $O(\log n)$ colors. That is,
+it can be colored with $O(\log n)$ colors such that for any (covered) point $p$
+there is some disc whose color is distinct from all other colors of discs
+containing $p$. They also showed that this bound is asymptotically tight. In
+this paper we prove the following stronger results:
+  \begin{enumerate} \item [(i)] Any set of $n$ discs in the plane can be
+colored with a total of at most $O(k \log n)$ colors such that (a) for any
+point $p$ that is covered by at least $k$ discs, there are at least $k$
+distinct discs each of which is colored by a color distinct from all other
+discs containing $p$ and (b) for any point $p$ covered by at most $k$ discs,
+all discs covering $p$ are colored distinctively. We call such a coloring a
+{\em $k$-Strong Conflict-Free} coloring. We extend this result to pseudo-discs
+and arbitrary regions with linear union-complexity.
+  \item [(ii)] More generally, for families of $n$ simple closed Jordan regions
+with union-complexity bounded by $O(n^{1+\alpha})$, we prove that there exists
+a $k$-Strong Conflict-Free coloring with at most $O(k n^\alpha)$ colors.
+  \item [(iii)] We prove that any set of $n$ axis-parallel rectangles can be
+$k$-Strong Conflict-Free colored with at most $O(k \log^2 n)$ colors.
+  \item [(iv)] We provide a general framework for $k$-Strong Conflict-Free
+coloring arbitrary hypergraphs. This framework relates the notion of $k$-Strong
+Conflict-Free coloring and the recently studied notion of $k$-colorful
+coloring. \end{enumerate}
+  All of our proofs are constructive. That is, there exist polynomial time
+algorithms for computing such colorings.

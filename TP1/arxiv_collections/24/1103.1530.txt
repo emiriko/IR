@@ -1,0 +1,19 @@
+The Elo system for rating chess players, also used in other games and sports,
+was adopted by the World Chess Federation over four decades ago. Although not
+without controversy, it is accepted as generally reliable and provides a method
+for assessing players' strengths and ranking them in official tournaments.
+  It is generally accepted that the distribution of players' rating data is
+approximately normal but, to date, no stochastic model of how the distribution
+might have arisen has been proposed. We propose such an evolutionary stochastic
+model, which models the arrival of players into the rating pool, the games they
+play against each other, and how the results of these games affect their
+ratings. Using a continuous approximation to the discrete model, we derive the
+distribution for players' ratings at time $t$ as a normal distribution, where
+the variance increases in time as a logarithmic function of $t$. We validate
+the model using published rating data from 2007 to 2010, showing that the
+parameters obtained from the data can be recovered through simulations of the
+stochastic model.
+  The distribution of players' ratings is only approximately normal and has
+been shown to have a small negative skew. We show how to modify our
+evolutionary stochastic model to take this skewness into account, and we
+validate the modified model using the published official rating data.

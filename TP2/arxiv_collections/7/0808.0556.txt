@@ -1,0 +1,15 @@
+We introduce a new programming language construct, Interactors, supporting
+the agent-oriented view that programming is a dialog between simple,
+self-contained, autonomous building blocks.
+  We define Interactors as an abstraction of answer generation and refinement
+in Logic Engines resulting in expressive language extension and metaprogramming
+patterns, including emulation of Prolog's dynamic database.
+  A mapping between backtracking based answer generation in the callee and
+"forward" recursion in the caller enables interaction between different
+branches of the callee's search process and provides simplified design patterns
+for algorithms involving combinatorial generation and infinite answer streams.
+  Interactors extend language constructs like Ruby, Python and C#'s multiple
+coroutining block returns through yield statements and they can emulate the
+action of monadic constructs and catamorphisms in functional languages.
+  Keywords: generalized iterators, logic engines, agent oriented programming
+language constructs, interoperation with stateful objects, metaprogramming

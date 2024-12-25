@@ -1,0 +1,19 @@
+Background: We study the statistical properties of fragment coverage in
+genome sequencing experiments. In an extension of the classic Lander-Waterman
+model, we consider the effect of the length distribution of fragments. We also
+introduce the notion of the shape of a coverage function, which can be used to
+detect abberations in coverage. The probability theory underlying these
+problems is essential for constructing models of current high-throughput
+sequencing experiments, where both sample preparation protocols and sequencing
+technology particulars can affect fragment length distributions.
+  Results: We show that regardless of fragment length distribution and under
+the mild assumption that fragment start sites are Poisson distributed, the
+fragments produced in a sequencing experiment can be viewed as resulting from a
+two-dimensional spatial Poisson process. We then study the jump skeleton of the
+the coverage function, and show that the induced trees are Galton-Watson trees
+whose parameters can be computed.
+  Conclusions: Our results extend standard analyses of shotgun sequencing that
+focus on coverage statistics at individual sites, and provide a null model for
+detecting deviations from random coverage in high-throughput sequence census
+based experiments. By focusing on fragments, we are also led to a new approach
+for visualizing sequencing data that should be of independent interest.

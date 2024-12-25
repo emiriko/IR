@@ -1,0 +1,12 @@
+We test a Markov chain approximation to the segment description (Li, 2007) of
+chaos (and turbulence) on a tent map, the Minea system, the H\'enon map, and
+the Lorenz system. For the tent map, we compute the probability transition
+matrix of the Markov chain on the segments for segment time length (iterations)
+$T = 1, 2, 3, 100$. The matrix has $1, 2, 4$ tents corresponding to $T = 1, 2,
+3$; and is almost uniform for $T = 100$. As $T \ra +\infty$, our conjecture is
+that the matrix will approach a uniform matrix (i.e. every entry is the same).
+For the simple fixed point attractor in the Minea system, the Reynolds average
+performs excellently and better than the maximal probability Markov chain and
+segment linking. But for the strange attractors in the H\'enon map, and the
+Lorenz system, the Reynolds average performs very poorly and worse than the
+maximal probability Markov chain and segment linking.

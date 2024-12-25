@@ -1,0 +1,11 @@
+Many problems give rise to polynomial systems. These systems often have
+several parameters and we are interested to study how the solutions vary when
+we change the values for the parameters. Using predictor-corrector methods we
+track the solution paths. A point along a solution path is critical when the
+Jacobian matrix is rank deficient. The simplest case of quadratic turning
+points is well understood, but these methods no longer work for general types
+of singularities. In order not to miss any singular solutions along a path we
+propose to monitor the determinant of the Jacobian matrix. We examine the
+operation range of deflation and relate the effectiveness of deflation to the
+winding number. Computational experiments on systems coming from different
+application fields are presented.

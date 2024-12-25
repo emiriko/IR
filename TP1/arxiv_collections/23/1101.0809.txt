@@ -1,0 +1,9 @@
+We discuss the interpolation of the electric and magnetic fields within a
+charge-conserving Particle-In-Cell scheme. The choice of the interpolation
+procedure for the fields acting on a particle can be constrained by analyzing
+conservation of the energy and the particle generalized momentum. The better
+conservative properties are achieved, if the alternating-order form-factor is
+used for interpolation, which combines the lower-order and higher-order
+interpolation from integer and semi-integer points of a staggered grid. This
+approach allows us to significantly reduce noise in the charge conserving
+scheme and improves both the results quality and the computational efficiency.

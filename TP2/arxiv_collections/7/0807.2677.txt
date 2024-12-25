@@ -1,0 +1,19 @@
+We study the problem of dynamic spectrum sensing and access in cognitive
+radio systems as a partially observed Markov decision process (POMDP). A group
+of cognitive users cooperatively tries to exploit vacancies in primary
+(licensed) channels whose occupancies follow a Markovian evolution. We first
+consider the scenario where the cognitive users have perfect knowledge of the
+distribution of the signals they receive from the primary users. For this
+problem, we obtain a greedy channel selection and access policy that maximizes
+the instantaneous reward, while satisfying a constraint on the probability of
+interfering with licensed transmissions. We also derive an analytical universal
+upper bound on the performance of the optimal policy. Through simulation, we
+show that our scheme achieves good performance relative to the upper bound and
+improved performance relative to an existing scheme.
+  We then consider the more practical scenario where the exact distribution of
+the signal from the primary is unknown. We assume a parametric model for the
+distribution and develop an algorithm that can learn the true distribution,
+still guaranteeing the constraint on the interference probability. We show that
+this algorithm outperforms the naive design that assumes a worst case value for
+the parameter. We also provide a proof for the convergence of the learning
+algorithm.

@@ -1,0 +1,16 @@
+We present a new, high-level approach for the specification of model-to-model
+transformations based on declarative patterns. These are (atomic or composite)
+constraints on triple graphs declaring the allowed or forbidden relationships
+between source and target models. In this way, a transformation is defined by
+specifying a set of triple graph constraints that should be satisfied by the
+result of the transformation.
+  The description of the transformation is then compiled into lower-level
+operational mechanisms to perform forward or backward transformations, as well
+as to establish mappings between two existent models. In this paper we study
+one of such mechanisms based on the generation of operational triple graph
+grammar rules. Moreover, we exploit deduction techniques at the specification
+level to generate more specialized constraints (preserving the specification
+semantics) reflecting pattern dependencies, from which additional rules can be
+derived.
+  This is an extended version of the paper submitted to ICGT'08, with
+additional definitions and proofs.

@@ -1,0 +1,9 @@
+A new "on the fly" method to perform Born-Oppenheimer ab initio molecular
+dynamics (AIMD) is presented. Inspired by Ehrenfest dynamics in time-dependent
+density functional theory, the electronic orbitals are evolved by a
+Schroedinger-like equation, where the orbital time derivative is multiplied by
+a parameter. This parameter controls the time scale of the fictitious
+electronic motion and speeds up the calculations with respect to standard
+Ehrenfest dynamics. In contrast to other methods, wave function orthogonality
+needs not be imposed as it is automatically preserved, which is of paramount
+relevance for large scale AIMD simulations.

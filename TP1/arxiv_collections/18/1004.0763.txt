@@ -1,0 +1,21 @@
+There is an increasing demand for controller design techniques capable of
+addressing the complex requirements of todays embedded applications. This
+demand has sparked the interest in symbolic control where lower complexity
+models of control systems are used to cater for complex specifications given by
+temporal logics, regular languages, or automata. These specification mechanisms
+can be regarded as qualitative since they divide the trajectories of the plant
+into bad trajectories (those that need to be avoided) and good trajectories.
+However, many applications require also the optimization of quantitative
+measures of the trajectories retained by the controller, as specified by a cost
+or utility function. As a first step towards the synthesis of controllers
+reconciling both qualitative and quantitative specifications, we investigate in
+this paper the use of symbolic models for time-optimal controller synthesis. We
+consider systems related by approximate (alternating) simulation relations and
+show how such relations enable the transfer of time-optimality information
+between the systems. We then use this insight to synthesize approximately
+time-optimal controllers for a control system by working with a lower
+complexity symbolic model. The resulting approximately time-optimal controllers
+are equipped with upper and lower bounds for the time to reach a target,
+describing the quality of the controller. The results described in this paper
+were implemented in the Matlab Toolbox Pessoa which we used to workout several
+illustrative examples reported in this paper.

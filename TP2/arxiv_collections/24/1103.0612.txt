@@ -1,0 +1,10 @@
+For a given statistical model, it often happens that it is necessary to
+intervene the model to reduce the variances of the output variables. In
+structural equation models, this can be done by changing the values of the path
+coefficients by intervention. First, we explain that the expectations and
+variance matrix can be decomposed into several parts in terms of the total
+effects. Then, we show that an algorithm to obtain intervention method which
+minimizes the weighted sum of the variances can be formulated as a convex
+quadratic programming. This formulation allows us to impose boundary conditions
+for the intervention, so that we can find the practical solutions. We also
+treat a problem to adjust the expectations on targets.

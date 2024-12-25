@@ -1,0 +1,19 @@
+Many state-of-the art visualization techniques must be tailored to the
+specific type of dataset, its modality (CT, MRI, etc.), the recorded object or
+anatomical region (head, spine, abdomen, etc.) and other parameters related to
+the data acquisition process. While parts of the information (imaging modality
+and acquisition sequence) may be obtained from the meta-data stored with the
+volume scan, there is important information which is not stored explicitly
+(anatomical region, tracing compound). Also, meta-data might be incomplete,
+inappropriate or simply missing.
+  This paper presents a novel and simple method of determining the type of
+dataset from previously defined categories. 2D histograms based on intensity
+and gradient magnitude of datasets are used as input to a neural network, which
+classifies it into one of several categories it was trained with. The proposed
+method is an important building block for visualization systems to be used
+autonomously by non-experts. The method has been tested on 80 datasets, divided
+into 3 classes and a "rest" class.
+  A significant result is the ability of the system to classify datasets into a
+specific class after being trained with only one dataset of that class. Other
+advantages of the method are its easy implementation and its high computational
+performance.

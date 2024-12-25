@@ -1,0 +1,21 @@
+For the majority of the applications of Reed-Solomon (RS) codes, hard
+decision decoding is based on syndromes. Recently, there has been renewed
+interest in decoding RS codes without using syndromes. In this paper, we
+investigate the complexity of syndromeless decoding for RS codes, and compare
+it to that of syndrome-based decoding. Aiming to provide guidelines to
+practical applications, our complexity analysis differs in several aspects from
+existing asymptotic complexity analysis, which is typically based on
+multiplicative fast Fourier transform (FFT) techniques and is usually in big O
+notation. First, we focus on RS codes over characteristic-2 fields, over which
+some multiplicative FFT techniques are not applicable. Secondly, due to
+moderate block lengths of RS codes in practice, our analysis is complete since
+all terms in the complexities are accounted for. Finally, in addition to fast
+implementation using additive FFT techniques, we also consider direct
+implementation, which is still relevant for RS codes with moderate lengths.
+Comparing the complexities of both syndromeless and syndrome-based decoding
+algorithms based on direct and fast implementations, we show that syndromeless
+decoding algorithms have higher complexities than syndrome-based ones for high
+rate RS codes regardless of the implementation. Both errors-only and
+errors-and-erasures decoding are considered in this paper. We also derive
+tighter bounds on the complexities of fast polynomial multiplications based on
+Cantor's approach and the fast extended Euclidean algorithm.

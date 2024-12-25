@@ -1,0 +1,20 @@
+In this paper we develop algorithms for approximating matrix multiplication
+with respect to the spectral norm. Let A\in{\RR^{n\times m}} and B\in\RR^{n
+\times p} be two matrices and \eps>0. We approximate the product A^\top B using
+two down-sampled sketches, \tilde{A}\in\RR^{t\times m} and
+\tilde{B}\in\RR^{t\times p}, where t\ll n such that \norm{\tilde{A}^\top
+\tilde{B} - A^\top B} \leq \eps \norm{A}\norm{B} with high probability. We use
+two different sampling procedures for constructing \tilde{A} and \tilde{B}; one
+of them is done by i.i.d. non-uniform sampling rows from A and B and the other
+is done by taking random linear combinations of their rows. We prove bounds
+that depend only on the intrinsic dimensionality of A and B, that is their rank
+and their stable rank; namely the squared ratio between their Frobenius and
+operator norm. For achieving bounds that depend on rank we employ standard
+tools from high-dimensional geometry such as concentration of measure arguments
+combined with elaborate \eps-net constructions. For bounds that depend on the
+smaller parameter of stable rank this technology itself seems weak. However, we
+show that in combination with a simple truncation argument is amenable to
+provide such bounds. To handle similar bounds for row sampling, we develop a
+novel matrix-valued Chernoff bound inequality which we call low rank
+matrix-valued Chernoff bound. Thanks to this inequality, we are able to give
+bounds that depend only on the stable rank of the input matrices...

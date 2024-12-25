@@ -1,0 +1,10 @@
+The Intel Core i7 processor code named Nehalem provides a feature named Turbo
+Boost which opportunistically varies the frequencies of the processor's cores.
+The frequency of a core is determined by core temperature, the number of active
+cores, the estimated power consumption, the estimated current consumption, and
+operating system frequency scaling requests. For a chip multi-processor(CMP)
+that has a small number of physical cores and a small set of performance
+states, deciding the Turbo Boost frequency to use on a given core might not be
+difficult. However, we do not know the complexity of this decision making
+process in the context of a large number of cores, scaling to the 100s, as
+predicted by researchers in the field.

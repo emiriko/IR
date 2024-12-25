@@ -1,0 +1,9 @@
+Numerical methods based on interval arithmetic are efficient means to
+reliably solve nonlinear systems of equations. Algorithm bc3revise is an
+interval method that tightens variables' domains by enforcing a property called
+box consistency. It has been successfully used on difficult problems whose
+solving eluded traditional numerical methods. We present a new algorithm to
+enforce box consistency that is simpler than bc3revise, faster, and easily data
+parallelizable. A parallel implementation with Intel SSE2 SIMD instructions
+shows that an increase in performance of up to an order of magnitude and more
+is achievable.

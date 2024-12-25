@@ -1,0 +1,20 @@
+Algorithmic entropy can be seen as a special case of entropy as studied in
+statistical mechanics. This viewpoint allows us to apply many techniques
+developed for use in thermodynamics to the subject of algorithmic information
+theory. In particular, suppose we fix a universal prefix-free Turing machine
+and let X be the set of programs that halt for this machine. Then we can regard
+X as a set of 'microstates', and treat any function on X as an 'observable'.
+For any collection of observables, we can study the Gibbs ensemble that
+maximizes entropy subject to constraints on expected values of these
+observables. We illustrate this by taking the log runtime, length, and output
+of a program as observables analogous to the energy E, volume V and number of
+molecules N in a container of gas. The conjugate variables of these observables
+allow us to define quantities which we call the 'algorithmic temperature' T,
+'algorithmic pressure' P and algorithmic potential' mu, since they are
+analogous to the temperature, pressure and chemical potential. We derive an
+analogue of the fundamental thermodynamic relation dE = T dS - P d V + mu dN,
+and use it to study thermodynamic cycles analogous to those for heat engines.
+We also investigate the values of T, P and mu for which the partition function
+converges. At some points on the boundary of this domain of convergence, the
+partition function becomes uncomputable. Indeed, at these points the partition
+function itself has nontrivial algorithmic entropy.

@@ -1,0 +1,9 @@
+This paper extends k-means algorithms from the Euclidean domain to the domain
+of graphs. To recompute the centroids, we apply subgradient methods for solving
+the optimization-based formulation of the sample mean of graphs. To accelerate
+the k-means algorithm for graphs without trading computational time against
+solution quality, we avoid unnecessary graph distance calculations by
+exploiting the triangle inequality of the underlying distance metric following
+Elkan's k-means algorithm proposed in \cite{Elkan03}. In experiments we show
+that the accelerated k-means algorithm are faster than the standard k-means
+algorithm for graphs provided there is a cluster structure in the data.

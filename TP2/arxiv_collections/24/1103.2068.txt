@@ -1,0 +1,11 @@
+COMET is a single-pass MapReduce algorithm for learning on large-scale data.
+It builds multiple random forest ensembles on distributed blocks of data and
+merges them into a mega-ensemble. This approach is appropriate when learning
+from massive-scale data that is too large to fit on a single machine. To get
+the best accuracy, IVoting should be used instead of bagging to generate the
+training subset for each decision tree in the random forest. Experiments with
+two large datasets (5GB and 50GB compressed) show that COMET compares favorably
+(in both accuracy and training time) to learning on a subsample of data using a
+serial algorithm. Finally, we propose a new Gaussian approach for lazy ensemble
+evaluation which dynamically decides how many ensemble members to evaluate per
+data point; this can reduce evaluation cost by 100X or more.

@@ -1,0 +1,13 @@
+Several stochastic simulation algorithms (SSAs) have been recently proposed
+for modelling reaction-diffusion processes in cellular and molecular biology.
+In this paper, two commonly used SSAs are studied. The first SSA is an
+on-lattice model described by the reaction-diffusion master equation. The
+second SSA is an off-lattice model based on the simulation of Brownian motion
+of individual molecules and their reactive collisions. In both cases, it is
+shown that the commonly used implementation of bimolecular reactions (i.e. the
+reactions of the form A + B -> C, or A + A -> C) might lead to incorrect
+results. Improvements of both SSAs are suggested which overcome the
+difficulties highlighted. In particular, a formula is presented for the
+smallest possible compartment size (lattice spacing) which can be correctly
+implemented in the first model. This implementation uses a new formula for the
+rate of bimolecular reactions per compartment (lattice site).

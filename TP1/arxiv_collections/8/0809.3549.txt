@@ -1,0 +1,9 @@
+Given integers $k\geq1$ and $n\geq0$, there is a unique way of writing $n$ as
+$n=\binom{n_{k}}{k}+\binom{n_{k-1}}{k-1}+...+\binom{n_{1}}{1}$ so that $0\leq
+n_{1}<...<n_{k-1}<n_{k}$. Using this representation, the \emph{Kruskal-Macaulay
+function of}$n$ is defined as $\partial^{k}(n)
+=\binom{n_{k}-1}{k-1}+\binom{n_{k-1}-1}{k-2}+...+\binom{n_{1}-1}% {0}.$ We show
+that if $a\geq0$ and $a<\partial^{k+1}(n) $, then $\partial^{k}(a)
++\partial^{k+1}(n-a) \geq \partial^{k+1}(n) .$ As a corollary, we obtain a
+short proof of Macaulay's Theorem. Other previously known results are obtained
+as direct consequences.

@@ -1,0 +1,10 @@
+We present an extension of System F with call-by-name exceptions. The type
+system is enriched with two syntactic constructs: a union type for programs
+whose execution may raise an exception at top level, and a corruption type for
+programs that may raise an exception in any evaluation context (not necessarily
+at top level). We present the syntax and reduction rules of the system, as well
+as its typing and subtyping rules. We then study its properties, such as
+confluence. Finally, we construct a realizability model using orthogonality
+techniques, from which we deduce that well-typed programs are weakly
+normalizing and that the ones who have the type of natural numbers really
+compute a natural number, without raising exceptions.

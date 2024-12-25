@@ -1,0 +1,17 @@
+For a classification problem described by the joint density $P(\omega,x)$,
+models of $P(\omega\eq\omega'|x,x')$ (the ``Bayesian similarity measure'') have
+been shown to be an optimal similarity measure for nearest neighbor
+classification. This paper analyzes demonstrates several additional properties
+of that conditional distribution. The paper first shows that we can
+reconstruct, up to class labels, the class posterior distribution $P(\omega|x)$
+given $P(\omega\eq\omega'|x,x')$, gives a procedure for recovering the class
+labels, and gives an asymptotically Bayes-optimal classification procedure. It
+also shows, given such an optimal similarity measure, how to construct a
+classifier that outperforms the nearest neighbor classifier and achieves
+Bayes-optimal classification rates. The paper then analyzes Bayesian similarity
+in a framework where a classifier faces a number of related classification
+tasks (multitask learning) and illustrates that reconstruction of the class
+posterior distribution is not possible in general. Finally, the paper
+identifies a distinct class of classification problems using
+$P(\omega\eq\omega'|x,x')$ and shows that using $P(\omega\eq\omega'|x,x')$ to
+solve those problems is the Bayes optimal solution.

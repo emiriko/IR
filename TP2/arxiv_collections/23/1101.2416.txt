@@ -1,0 +1,24 @@
+In this paper, we develop new methods for the analysis of decentralized
+control systems and we apply them to formation control problems. The basic
+set-up consists of a system with multiple agents corresponding to the nodes of
+a graph whose edges encode the information that is available to the agents. We
+address the question of whether the information flow defined by the graph is
+sufficient for the agents to accomplish a given task. Formation control is
+concerned with problems in which agents are required to stabilize at a given
+distance from other agents. In this context, the graph of a formation encodes
+both the information flow and the distance constraints, by fixing the lengths
+of the edges. A formation is said to be rigid if it cannot be continuously
+deformed with the distance constraints satisfied; a formation is minimally
+rigid if no distance constraint can be omitted without the formation losing its
+rigidity. Hence, the graph underlying minimally rigid formation provides just
+enough constraints to yield a rigid formation. An open question we will settle
+is whether the information flow afforded by a minimally rigid graph is
+sufficient to insure global stability. We show that the answer is negative in
+the case of directed information flow. In this first part, we establish basic
+properties of formation control in the plane. Formations and the associated
+control problems are defined modulo rigid transformations. This fact has strong
+implications on the geometry of the space of formations and on the feedback
+laws, since they need to respect this invariance. We study both aspects here.
+We show that the space of frameworks of n agents is CP(n-2) x (0,\infty). We
+then illustrate how the non-trivial topology of this space relates to the
+parametrization of the formation by inter-agent distances.

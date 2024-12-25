@@ -1,0 +1,17 @@
+We make progress towards a 3D finite-element model for the magnetization of a
+high temperature superconductor (HTS): We suggest a method that takes into
+account demagnetisation effects and flux creep, while it neglects the effects
+associated with currents that are not perpendicular to the local magnetic
+induction. We consider samples that are subjected to a uniform magnetic field
+varying linearly with time. Their magnetization is calculated by means of a
+weak formulation in the magnetostatic approximation of the Maxwell equations
+(A-phi formulation). An implicit method is used for the temporal resolution
+(Backward Euler scheme) and is solved in the open source solver GetDP. Picard
+iterations are used to deal with the power law conductivity of HTS. The finite
+element formulation is validated for an HTS tube with large pinning strength
+through the comparison with results obtained with other well-established
+methods. We show that carrying the calculations with a single time-step (as
+opposed to many small time-steps) produce results with excellent accuracy in a
+drastically reduced simulation time. The numerical method is extended to the
+study of the trapped magnetization of cylinders that are drilled with different
+arrays of columnar holes arranged parallel to the cylinder axis.

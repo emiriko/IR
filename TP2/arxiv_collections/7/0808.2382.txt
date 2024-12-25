@@ -1,0 +1,17 @@
+We study continuous-time quantum walks on graphs which generalize the
+hypercube. The only known family of graphs whose quantum walk instantaneously
+mixes to uniform is the Hamming graphs with small arities. We show that quantum
+uniform mixing on the hypercube is robust under the addition of perfect
+matchings but not much else. Our specific results include:
+  (1) The graph obtained by augmenting the hypercube with an additive matching
+is instantaneous uniform mixing whenever the parity of the matching is even,
+but with a slower mixing time. This strictly includes Moore-Russell's result on
+the hypercube.
+  (2) The class of Hamming graphs is not uniform mixing if and only if its
+arity is greater than 5. This is a tight characterization of quantum uniform
+mixing on Hamming graphs; previously, only the status of arity less than 5 was
+known.
+  (3) The bunkbed graph B(A[f]), defined by a hypercube-circulant matrix A and
+a Boolean function f, is not uniform mixing if the Fourier transform of f has
+small support. This explains why the hypercube is uniform mixing and why the
+join of two hypercubes is not.

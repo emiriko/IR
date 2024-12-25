@@ -1,0 +1,12 @@
+Minimizing waiting time for tasks waiting in the queue for execution is one
+of the important scheduling cri-teria which took a wide area in scheduling
+preemptive tasks. In this paper we present Changeable Time Quan-tum (CTQ)
+approach combined with the round-robin algorithm, we try to adjust the time
+quantum according to the burst times of the tasks in the ready queue. There are
+two important benefits of using (CTQ) approach: minimizing the average waiting
+time of the tasks, consequently minimizing the average turnaround time, and
+keeping the number of context switches as low as possible, consequently
+minimizing the scheduling overhead. In this paper, we consider the scheduling
+problem for preemptive tasks, where the time costs of these tasks are known a
+priori. Our experimental results demonstrate that CTQ can provide much lower
+scheduling overhead and better scheduling criteria.

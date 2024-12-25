@@ -1,0 +1,12 @@
+Using a call-by-value functional language as an example, this article
+illustrates the use of coinductive definitions and proofs in big-step
+operational semantics, enabling it to describe diverging evaluations in
+addition to terminating evaluations. We formalize the connections between the
+coinductive big-step semantics and the standard small-step semantics, proving
+that both semantics are equivalent. We then study the use of coinductive
+big-step semantics in proofs of type soundness and proofs of semantic
+preservation for compilers. A methodological originality of this paper is that
+all results have been proved using the Coq proof assistant. We explain the
+proof-theoretic presentation of coinductive definitions and proofs offered by
+Coq, and show that it facilitates the discovery and the presentation of the
+results.

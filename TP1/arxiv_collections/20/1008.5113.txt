@@ -1,0 +1,23 @@
+Quantum Monte Carlo (QMC) methods are often used to calculate properties of
+many body quantum systems. The main cost of many QMC methods, for example the
+variational Monte Carlo (VMC) method, is in constructing a sequence of Slater
+matrices and computing the ratios of determinants for successive Slater
+matrices. Recent work has improved the scaling of constructing Slater matrices
+for insulators so that the cost of constructing Slater matrices in these
+systems is now linear in the number of particles, whereas computing determinant
+ratios remains cubic in the number of particles. With the long term aim of
+simulating much larger systems, we improve the scaling of computing the
+determinant ratios in the VMC method for simulating insulators by using
+preconditioned iterative solvers.
+  The main contribution of this paper is the development of a method to
+efficiently compute for the Slater matrices a sequence of preconditioners that
+make the iterative solver converge rapidly. This involves cheap preconditioner
+updates, an effective reordering strategy, and a cheap method to monitor
+instability of ILUTP preconditioners. Using the resulting preconditioned
+iterative solvers to compute determinant ratios of consecutive Slater matrices
+reduces the scaling of QMC algorithms from O(n^3) per sweep to roughly O(n^2),
+where n is the number of particles, and a sweep is a sequence of n steps, each
+attempting to move a distinct particle. We demonstrate experimentally that we
+can achieve the improved scaling without increasing statistical errors. Our
+results show that preconditioned iterative solvers can dramatically reduce the
+cost of VMC for large(r) systems.

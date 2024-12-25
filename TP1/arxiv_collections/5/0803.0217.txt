@@ -1,0 +1,16 @@
+This discussion serves as an introduction to the use of Monte Carlo
+simulations as a useful way to evaluate the observables of a ferromagnet. Key
+background is given about the relevance and effectiveness of this stochastic
+approach and in particular the applicability of the Metropolis-Hastings
+algorithm. Importantly the potentially devastating effects of spontaneous
+magnetization are highlighted and a means to avert this is examined.
+  An Ising model is introduced and used to investigate the properties of a two
+dimensional ferromagnet with respect to its magnetization and energy at varying
+temperatures. The observables are calculated and a phase transition at a
+critical temperature is also illustrated and evaluated. Lastly a finite size
+scaling analysis is undertaken to determine the critical exponents and the
+Curie temperature is calculated using a ratio of cumulants with differing
+lattice sizes. The results obtained from the simulation are compared to exact
+calculations to endorse the validity of this numerical process. A copy of the
+code used, written in C++, is enclosed and is freely available for use and
+modification under the General Public License.

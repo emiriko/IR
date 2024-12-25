@@ -1,0 +1,18 @@
+Delays in biological systems may be used to model events for which the
+underlying dynamics cannot be precisely observed, or to provide abstraction of
+some behavior of the system resulting more compact models. In this paper we
+enrich the stochastic process algebra Bio-PEPA, with the possibility of
+assigning delays to actions, yielding a new non-Markovian process algebra:
+Bio-PEPAd. This is a conservative extension meaning that the original syntax of
+Bio-PEPA is retained and the delay specification which can now be associated
+with actions may be added to existing Bio-PEPA models. The semantics of the
+firing of the actions with delays is the delay-as-duration approach, earlier
+presented in papers on the stochastic simulation of biological systems with
+delays. These semantics of the algebra are given in the Starting-Terminating
+style, meaning that the state and the completion of an action are observed as
+two separate events, as required by delays. Furthermore we outline how to
+perform stochastic simulation of Bio-PEPAd systems and how to automatically
+translate a Bio-PEPAd system into a set of Delay Differential Equations, the
+deterministic framework for modeling of biological systems with delays. We end
+the paper with two example models of biological systems with delays to
+illustrate the approach.

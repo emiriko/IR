@@ -1,0 +1,7 @@
+This paper presents an efficient method for implementing the Gaussian
+elimination technique for an nxm (m>=n) matrix, using a 2D SIMD array of nxm
+processors. The described algorithm consists of 2xn-1=O(n) iterations, which
+provides an optimal speed-up over the serial version. A particularity of the
+algorithm is that it only requires broadcasts on the rows of the processor
+matrix and not on its columns. The paper also presents several extensions and
+applications of the Gaussian elimination algorithm.

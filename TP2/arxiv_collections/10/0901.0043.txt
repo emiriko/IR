@@ -1,0 +1,24 @@
+We investigate classes of systems based on different interaction patterns
+with the aim of achieving distributability. As our system model we use Petri
+nets. In Petri nets, an inherent concept of simultaneity is built in, since
+when a transition has more than one preplace, it can be crucial that tokens are
+removed instantaneously. When modelling a system which is intended to be
+implemented in a distributed way by a Petri net, this built-in concept of
+synchronous interaction may be problematic. To investigate this we consider
+asynchronous implementations of nets, in which removing tokens from places can
+no longer be considered as instantaneous. We model this by inserting silent
+(unobservable) transitions between transitions and some of their preplaces. We
+investigate three such implementations, differing in the selection of preplaces
+of a transition from which the removal of a token is considered time consuming,
+and the possibility of collecting the tokens in a given order.
+  We investigate the effect of these different transformations of instantaneous
+interaction into asynchronous interaction patterns by comparing the behaviours
+of nets before and after insertion of the silent transitions. We exhibit for
+which classes of Petri nets we obtain equivalent behaviour with respect to
+failures equivalence.
+  It turns out that the resulting hierarchy of Petri net classes can be
+described by semi-structural properties. For two of the classes we obtain
+precise characterisations; for the remaining class we obtain lower and upper
+bounds.
+  We briefly comment on possible applications of our results to Message
+Sequence Charts.

@@ -1,0 +1,15 @@
+We analyze cellular dynamical mean-field theory (CDMFT) and the dynamical
+cluster approximation (DCA). We derive exact sum-rules for the hybridization
+functions and give examples for DMFT, CDMFT, and DCA. For impurity solvers
+based on a Hamiltonian, these sum-rules can be used to monitor convergence of
+the bath-parametrization. We further discuss how the symmetry of the cluster
+naturally leads to a decomposition of the bath Green matrix into irreducible
+components, which can be parametrized independently, and give an explicit
+recipe for finding the optimal bath-parametrization. As a benchmark we revisit
+the one-dimensional Hubbard model. We carefully analyze the evolution of the
+density as a function of chemical potential and find that, close to the Mott
+transition, convergence with cluster size is unexpectedly slow. In two
+dimensions we find, that we need so many bath-sites to obtain a reliable
+parametrization that Lanczos calculations are hardly feasible with current
+computers. For such large baths our symmetry-adapted approach should prove
+crucial for finding a reliable bath-parametrization.

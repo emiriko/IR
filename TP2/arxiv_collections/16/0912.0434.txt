@@ -1,0 +1,11 @@
+A contour integral method recently proposed by Weideman [IMA J. Numer. Anal.,
+to appear] for integrating semi-discrete advection-diffusion PDEs, is extended
+for application to some of the important equations of mathematical finance.
+Using estimates for the numerical range of the spatial operator, optimal
+contour parameters are derived theoretically and tested numerically. Test
+examples presented are the Black-Scholes PDE in one space dimension and the
+Heston PDE in two dimensions. In the latter case efficiency is compared to ADI
+splitting schemes for solving this problem. In the examples it is found that
+the contour integral method is superior for the range of medium to high
+accuracy requirements. Further improvements to the current implementation of
+the contour integral method are suggested.

@@ -1,0 +1,12 @@
+We consider a model recently proposed by Chatterjee and Durrett [CD2011] as
+an "annealed approximation" of boolean networks, which are a class of cellular
+automata on a random graph, as defined by S. Kauffman [K69]. The starting point
+is a random directed graph on $n$ vertices; each vertex has $r$ input vertices
+pointing to it. For the model of [CD2011], a discrete time threshold contact
+process is then considered on this graph: at each instant, each vertex has
+probability $q$ of choosing to receive input; if it does, and if at least one
+of its input vertices were in state 1 at the previous instant, then it is
+labelled with a 1; in all other cases, it is labelled with a 0. $r$ and $q$ are
+kept fixed and $n$ is taken to infinity. Improving a result of [CD2011], we
+show that if $qr > 1$, then the time of persistence of activity of the dynamics
+is exponential in $n$.

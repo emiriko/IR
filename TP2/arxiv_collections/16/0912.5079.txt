@@ -1,0 +1,7 @@
+Suppose that, for any (k \geq 1), (\epsilon > 0) and sufficiently large
+$\sigma$, we are given a black box that allows us to sample characters from a
+$k$th-order Markov source over the alphabet (\{0, ..., \sigma - 1\}). Even if
+we know the source has entropy either 0 or at least (\log (\sigma - k)), there
+is still no algorithm that, with probability bounded away from (1 / 2), guesses
+the entropy correctly after sampling at most ((\sigma - k)^{k / 2 - \epsilon})
+characters.

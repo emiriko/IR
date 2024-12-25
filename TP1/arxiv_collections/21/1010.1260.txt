@@ -1,0 +1,17 @@
+We describe an algorithm for computing an inverse spherical harmonic
+transform suitable for graphic processing units (GPU). We use CUDA and base our
+implementation on a Fortran90 routine included in a publicly available parallel
+package, S2HAT. We focus our attention on the two major sequential steps
+involved in the transforms computation, retaining the efficient parallel
+framework of the original code. We detail optimization techniques used to
+enhance the performance of the CUDA-based code and contrast them with those
+implemented in the Fortran90 version. We also present performance comparisons
+of a single CPU plus GPU unit with the S2HAT code running on either a single or
+4 processors. In particular we find that use of the latest generation of GPUs,
+such as NVIDIA GF100 (Fermi), can accelerate the spherical harmonic transforms
+by as much as 18 times with respect to S2HAT executed on one core, and by as
+much as 5.5 with respect to S2HAT on 4 cores, with the overall performance
+being limited by the Fast Fourier transforms. The work presented here has been
+performed in the context of the Cosmic Microwave Background simulations and
+analysis. However, we expect that the developed software will be of more
+general interest and applicability.

@@ -1,0 +1,17 @@
+The emergence of low-cost sensor architectures for diverse modalities has
+made it possible to deploy sensor arrays that capture a single event from a
+large number of vantage points and using multiple modalities. In many
+scenarios, these sensors acquire very high-dimensional data such as audio
+signals, images, and video. To cope with such high-dimensional data, we
+typically rely on low-dimensional models. Manifold models provide a
+particularly powerful model that captures the structure of high-dimensional
+data when it is governed by a low-dimensional set of parameters. However, these
+models do not typically take into account dependencies among multiple sensors.
+We thus propose a new joint manifold framework for data ensembles that exploits
+such dependencies. We show that simple algorithms can exploit the joint
+manifold structure to improve their performance on standard signal processing
+applications. Additionally, recent results concerning dimensionality reduction
+for manifolds enable us to formulate a network-scalable data compression scheme
+that uses random projections of the sensed data. This scheme efficiently fuses
+the data from all sensors through the addition of such projections, regardless
+of the data modalities and dimensions.

@@ -1,0 +1,25 @@
+Given a graph $G$, the longest path problem asks to compute a simple path of
+$G$ with the largest number of vertices. This problem is the most natural
+optimization version of the well known and well studied Hamiltonian path
+problem, and thus it is NP-hard on general graphs. However, in contrast to the
+Hamiltonian path problem, there are only few restricted graph families such as
+trees and some small graph classes where polynomial algorithms for the longest
+path problem have been found. Recently it has been shown that this problem can
+be solved in polynomial time on interval graphs by applying dynamic programming
+to a characterizing ordering of the vertices of the given graph
+\cite{longest-int-algo}, thus answering an open question. In the present paper,
+we provide the first polynomial algorithm for the longest path problem on a
+much greater class, namely on cocomparability graphs. Our algorithm uses a
+similar - but essentially simpler - dynamic programming approach, which is
+applied to a Lexicographic Depth First Search (LDFS) characterizing ordering of
+the vertices of a cocomparability graph. Therefore, our results provide
+evidence that this general dynamic programming approach can be used in a more
+general setting, leading to efficient algorithms for the longest path problem
+on greater classes of graphs. LDFS has recently been introduced in
+\cite{Corneil-LDFS08}. Since then, a similar phenomenon of extending an
+existing interval graph algorithm to cocomparability graphs by using an LDFS
+preprocessing step has also been observed for the minimum path cover problem
+\cite{Corneil-MPC}. Therefore, more interestingly, our results also provide
+evidence that cocomparability graphs present an interval graph structure when
+they are considered using an LDFS ordering of their vertices, which may lead to
+other new and more efficient combinatorial algorithms.

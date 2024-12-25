@@ -1,0 +1,12 @@
+Classical regression analysis relates the expectation of a response variable
+to a linear combination of explanatory variables. In this article, we propose a
+covariance regression model that parameterizes the covariance matrix of a
+multivariate response vector as a parsimonious quadratic function of
+explanatory variables. The approach is analogous to the mean regression model,
+and is similar to a factor analysis model in which the factor loadings depend
+on the explanatory variables. Using a random-effects representation, parameter
+estimation for the model is straightforward using either an EM-algorithm or an
+MCMC approximation via Gibbs sampling. The proposed methodology provides a
+simple but flexible representation of heteroscedasticity across the levels of
+an explanatory variable, improves estimation of the mean function and gives
+better calibrated prediction regions when compared to a homoscedastic model.

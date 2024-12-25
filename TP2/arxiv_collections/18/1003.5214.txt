@@ -1,0 +1,24 @@
+Stellar population models of absorption line indices are an important tool
+for the analysis of stellar population spectra. They are most accurately
+modelled through empirical calibrations of absorption line indices with the
+stellar parameters effective temperature, metallicity, and surface gravity, the
+so-called fitting functions. Here we present new empirical fitting functions
+for the 25 optical Lick absorption line indices based on the new stellar
+library MILES. The major improvements with respect to the Lick/IDS library are
+the better sampling of stellar parameter space, a generally higher signal-
+to-noise, and a careful flux calibration. In fact we find that errors on
+individual index measurements in MILES are considerably smaller than in
+Lick/IDS. Instead we find the rms of the residuals between the final fitting
+functions and the data to be dominated by errors in the stellar parameters. We
+provide fitting functions for both Lick/IDS and MILES spectral resolutions, and
+compare our results with other fitting functions in the literature. A Fortran
+90 code is available online in order to simplify the implementation in stellar
+population models. We further calculate the offsets in index measurements
+between the Lick/IDS system to a flux calibrated system. For this purpose we
+use the three libraries MILES, ELODIE, and STELIB. We find that offsets are
+negligible in some cases, most notably for the widely used indices Hbeta, Mgb,
+Fe5270, and Fe5335. In a number of cases, however, the difference between flux
+calibrated library and Lick/IDS is significant with the offsets depending on
+index strengths. Interestingly, there is no general agreement between the three
+libraries for a large number of indices, which hampers the derivation of a
+universal offset between the Lick/IDS and flux calibrated systems.

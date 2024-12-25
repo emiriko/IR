@@ -1,0 +1,13 @@
+We present in this paper first-order alternating linearization algorithms
+based on an alternating direction augmented Lagrangian approach for minimizing
+the sum of two convex functions. Our basic methods require at most
+$O(1/\epsilon)$ iterations to obtain an $\epsilon$-optimal solution, while our
+accelerated (i.e., fast) versions of them require at most
+$O(1/\sqrt{\epsilon})$ iterations, with little change in the computational
+effort required at each iteration. For both types of methods, we present one
+algorithm that requires both functions to be smooth with Lipschitz continuous
+gradients and one algorithm that needs only one of the functions to be so.
+Algorithms in this paper are Gauss-Seidel type methods, in contrast to the ones
+proposed by Goldfarb and Ma in [21] where the algorithms are Jacobi type
+methods. Numerical results are reported to support our theoretical conclusions
+and demonstrate the practical potential of our algorithms.

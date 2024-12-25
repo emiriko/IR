@@ -1,0 +1,14 @@
+We investigate a projective integration scheme for a kinetic equation in the
+limit of vanishing mean free path, in which the kinetic description approaches
+a diffusion phenomenon. The scheme first takes a few small steps with a simple,
+explicit method, such as a spatial centered flux/forward Euler time
+integration, and subsequently projects the results forward in time over a large
+time step on the diffusion time scale. We show that, with an appropriate choice
+of the inner step size, the time-step restriction on the outer time step is
+similar to the stability condition for the diffusion equation, whereas the
+required number of inner steps does not depend on the mean free path. We also
+provide a consistency result. The presented method is asymptotic-preserving, in
+the sense that the method converges to a standard finite volume scheme for the
+diffusion equation in the limit of vanishing mean free path. The analysis is
+illustrated with numerical results, and we present an application to the
+Su-Olson test.

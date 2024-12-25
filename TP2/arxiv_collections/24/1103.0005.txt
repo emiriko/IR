@@ -1,0 +1,25 @@
+The friends-of-friends algorithm (hereafter, FOF) is a percolation algorithm
+which is routinely used to identify dark matter halos from N-body simulations.
+We use results from percolation theory to show that the boundary of FOF halos
+does not correspond to a single density threshold but to a range of densities
+close to a critical value that depends upon the linking length parameter, b. We
+show that for the commonly used choice of b = 0.2, this critical density is
+equal to 81.62 times the mean matter density. Consequently, halos identified by
+the FOF algorithm enclose an average overdensity which depends on their density
+profile (concentration) and therefore changes with halo mass contrary to the
+popular belief that the average overdensity is ~180. We derive an analytical
+expression for the overdensity as a function of the linking length parameter b
+and the concentration of the halo. Results of tests carried out using simulated
+and actual FOF halos identified in cosmological simulations show excellent
+agreement with our analytical prediction. We also find that the mass of the
+halo that the FOF algorithm selects crucially depends upon mass resolution. We
+find a percolation theory motivated formula that is able to accurately correct
+for the dependence on number of particles for the mock realizations of
+spherical and triaxial Navarro-Frenk-White halos. However, we show that this
+correction breaks down when applied to the real cosmological FOF halos due to
+presence of substructures. Given that abundance of substructure depends on
+redshift and cosmology, we expect that the resolution effects due to
+substructure on the FOF mass and halo mass function will also depend on
+redshift and cosmology and will be difficult to correct for in general.
+Finally, we discuss the implications of our results for the universality of the
+mass function.

@@ -1,0 +1,22 @@
+The auction theory literature has so far focused mostly on the design of
+mechanisms that takes the revenue or the efficiency as a yardstick. However,
+scenarios where the {\it capacity}, which we define as \textit{``the number of
+bidders the auctioneer wants to have a positive probability of getting the
+item''}, is a fundamental concern are ubiquitous in the information economy.
+For instance, in sponsored search auctions (SSA's) or in online ad-exchanges,
+the true value of an ad-slot for an advertiser is inherently derived from the
+conversion-rate, which in turn depends on whether the advertiser actually
+obtained the ad-slot or not; thus, unless the capacity of the underlying
+auction is large, key parameters, such as true valuations and
+advertiser-specific conversion rates, will remain unknown or uncertain leading
+to inherent inefficiencies in the system. In general, the same holds true for
+all information goods/digital goods. We initiate a study of mechanisms, which
+take capacity as a yardstick, in addition to revenue/efficiency. We show that
+in the case of a single indivisible item one simple way to incorporate capacity
+constraints is via designing mechanisms to sell probability distributions, and
+that under certain conditions, such optimal probability distributions could be
+identified using a Linear programming approach. We define a quantity called
+{\it price of capacity} to capture the tradeoff between capacity and
+revenue/efficiency. We also study the case of sponsored search auctions.
+Finally, we discuss how general such an approach via probability spikes can be
+made, and potential directions for future investigations.

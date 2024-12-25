@@ -1,0 +1,6 @@
+The SSIM-optimized exact global histogram specification (EGHS) is shown to
+converge in the sense that the first order approximation of the result's
+quality (i.e., its structural similarity with input) does not decrease in an
+iteration, when the step size is small. Each iteration is composed of SSIM
+gradient ascent and basic EGHS with the specified target histogram. Selection
+of step size and other parameters is also discussed.

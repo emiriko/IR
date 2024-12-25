@@ -1,0 +1,19 @@
+Most existing work on adaptive allocation of subcarriers and power in
+multiuser orthogonal frequency division multiplexing (OFDM) systems has focused
+on homogeneous traffic consisting solely of either delay-constrained data
+(guaranteed service) or non-delay-constrained data (best-effort service). In
+this paper, we investigate the resource allocation problem in a heterogeneous
+multiuser OFDM system with both delay-constrained (DC) and
+non-delay-constrained (NDC) traffic. The objective is to maximize the sum-rate
+of all the users with NDC traffic while maintaining guaranteed rates for the
+users with DC traffic under a total transmit power constraint. Through our
+analysis we show that the optimal power allocation over subcarriers follows a
+multi-level water-filling principle; moreover, the valid candidates competing
+for each subcarrier include only one NDC user but all DC users. By converting
+this combinatorial problem with exponential complexity into a convex problem or
+showing that it can be solved in the dual domain, efficient iterative
+algorithms are proposed to find the optimal solutions. To further reduce the
+computational cost, a low-complexity suboptimal algorithm is also developed.
+Numerical studies are conducted to evaluate the performance the proposed
+algorithms in terms of service outage probability, achievable transmission rate
+pairs for DC and NDC traffic, and multiuser diversity.

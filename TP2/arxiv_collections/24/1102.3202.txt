@@ -1,0 +1,23 @@
+Suppose we are given a time series or a signal $x(t)$ for $0\leq t\leq T$. We
+consider the problem of predicting the signal in the interval $T<t\leq T+t_{f}$
+from a knowledge of its history and nothing more. We ask the following
+question: what is the largest value of $t_{f}$ for which a prediction can be
+made? We show that the answer to this question is contained in a fundamental
+result of information theory due to Wyner, Ziv, Ornstein, and Weiss. In
+particular, for the class of chaotic signals, the upper bound is
+$t_{f}\leq\log_{2}T/H$ in the limit $T\rightarrow\infty$, with $H$ being
+entropy in a sense that is explained in the text.
+  If $\bigl|x(T-s)-x(t^{\ast}-s)\bigr|$ is small for $0\leq s\leq\tau$, where
+$\tau$ is of the order of a characteristic time scale, the pattern of events
+leading up to $t=T$ is similar to the pattern of events leading up to
+$t=t^{\ast}$. It is reasonable to expect $x(t^{\ast}+t_{f})$ to be a good
+predictor of $x(T+t_{f}).$ All existing methods for prediction use this idea in
+some way or the other. Unfortunately, this intuitively reasonable idea is
+fundamentally deficient and all existing methods fall well short of the
+Wyner-Ziv entropy bound on $t_{f}$. An optimal predictor should decompose the
+distance between the pattern of events leading up to $t=T$ and the pattern
+leading up to $t=t^{\ast}$ into stable and unstable components. A good match
+should have suitably small unstable components but will in general allow stable
+components which are as large as the tolerance for correct prediction. For the
+special case of hyperbolic toral automorphisms, we derive an optimal predictor
+using Pade approximation.

@@ -1,0 +1,21 @@
+Streamers are the first stage of sparks and lightning; they grow due to a
+strongly enhanced electric field at their tips; this field is created by a thin
+curved space charge layer. These multiple scales are already challenging when
+the electrons are approximated by densities. However, electron density
+fluctuations in the leading edge of the front and non-thermal stretched tails
+of the electron energy distribution (as a cause of X-ray emissions) require a
+particle model to follow the electron motion. As super-particle methods create
+wrong statistics and numerical artifacts, modeling the individual electron
+dynamics in streamers is limited to early stages where the total electron
+number still is limited.
+  The method of choice is a hybrid computation in space where individual
+electrons are followed in the region of high electric field and low density
+while the bulk of the electrons is approximated by densities (or fluids). We
+here develop the hybrid coupling for planar fronts. First, to obtain a
+consistent flux at the interface between particle and fluid model in the hybrid
+computation, the widely used classical fluid model is replaced by an extended
+fluid model. Then the coupling algorithm and the numerical implementation of
+the spatially hybrid model are presented in detail, in particular, the position
+of the model interface and the construction of the buffer region. The method
+carries generic features of pulled fronts that can be applied to similar
+problems like large deviations in the leading edge of population fronts etc.

@@ -1,0 +1,23 @@
+A Hilbert space embedding for probability measures has recently been
+proposed, with applications including dimensionality reduction, homogeneity
+testing, and independence testing. This embedding represents any probability
+measure as a mean element in a reproducing kernel Hilbert space (RKHS). A
+pseudometric on the space of probability measures can be defined as the
+distance between distribution embeddings: we denote this as $\gamma_k$, indexed
+by the kernel function $k$ that defines the inner product in the RKHS.
+  We present three theoretical properties of $\gamma_k$. First, we consider the
+question of determining the conditions on the kernel $k$ for which $\gamma_k$
+is a metric: such $k$ are denoted {\em characteristic kernels}. Unlike
+pseudometrics, a metric is zero only when two distributions coincide, thus
+ensuring the RKHS embedding maps all distributions uniquely (i.e., the
+embedding is injective). While previously published conditions may apply only
+in restricted circumstances (e.g. on compact domains), and are difficult to
+check, our conditions are straightforward and intuitive: bounded continuous
+strictly positive definite kernels are characteristic. Alternatively, if a
+bounded continuous kernel is translation-invariant on $\bb{R}^d$, then it is
+characteristic if and only if the support of its Fourier transform is the
+entire $\bb{R}^d$. Second, we show that there exist distinct distributions that
+are arbitrarily close in $\gamma_k$. Third, to understand the nature of the
+topology induced by $\gamma_k$, we relate $\gamma_k$ to other popular metrics
+on probability measures, and present conditions on the kernel $k$ under which
+$\gamma_k$ metrizes the weak topology.

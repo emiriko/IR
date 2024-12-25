@@ -1,0 +1,13 @@
+We consider the problem of reconstructing time sequences of spatially sparse
+signals (with unknown and time-varying sparsity patterns) from a limited number
+of linear "incoherent" measurements, in real-time. The signals are sparse in
+some transform domain referred to as the sparsity basis. For a single spatial
+signal, the solution is provided by Compressed Sensing (CS). The question that
+we address is, for a sequence of sparse signals, can we do better than CS, if
+(a) the sparsity pattern of the signal's transform coefficients' vector changes
+slowly over time, and (b) a simple prior model on the temporal dynamics of its
+current non-zero elements is available. The overall idea of our solution is to
+use CS to estimate the support set of the initial signal's transform vector. At
+future times, run a reduced order Kalman filter with the currently estimated
+support and estimate new additions to the support set by applying CS to the
+Kalman innovations or filtering error (whenever it is "large").

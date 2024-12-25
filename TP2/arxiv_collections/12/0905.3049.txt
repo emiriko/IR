@@ -1,0 +1,18 @@
+Swarming peer-to-peer systems play an increasingly instrumental role in
+Internet content distribution. It is therefore important to better understand
+how these systems behave in practice. Recent research efforts have looked at
+various protocol parameters and have measured how they affect system
+performance and robustness. However, the importance of the strategy based on
+which peers establish connections has been largely overlooked. This work
+utilizes extensive simulations to examine the default overlay construction
+strategy in BitTorrent systems. Based on the results, we identify a critical
+parameter, the maximum allowable number of outgoing connections at each peer,
+and evaluate its impact on the robustness of the generated overlay. We find
+that there is no single optimal value for this parameter using the default
+strategy. We then propose an alternative strategy that allows certain new peer
+connection requests to replace existing connections. Further experiments with
+the new strategy demonstrate that it outperforms the default one for all
+considered metrics by creating an overlay more robust to churn. Additionally,
+our proposed strategy exhibits optimal behavior for a well-defined value of the
+maximum number of outgoing connections, thereby removing the need to set this
+parameter in an ad-hoc manner.

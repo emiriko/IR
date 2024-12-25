@@ -1,0 +1,19 @@
+This paper proposes a cross-layer based cognitive radio multichannel medium
+access control (MAC) protocol with TDMA, which integrate the spectrum sensing
+at physical (PHY) layer and the packet scheduling at MAC layer, for the ad hoc
+wireless networks. The IEEE 802.11 standard allows for the use of multiple
+channels available at the PHY layer, but its MAC protocol is designed only for
+a single channel. A single channel MAC protocol does not work well in a
+multichannel environment, because of the multichannel hidden terminal problem.
+Our proposed protocol enables secondary users (SUs) to utilize multiple
+channels by switching channels dynamically, thus increasing network throughput.
+In our proposed protocol, each SU is equipped with only one spectrum agile
+transceiver, but solves the multichannel hidden terminal problem using temporal
+synchronization. The proposed cognitive radio MAC (CR-MAC) protocol allows SUs
+to identify and use the unused frequency spectrum in a way that constrains the
+level of interference to the primary users (PUs). Our scheme improves network
+throughput significantly, especially when the network is highly congested. The
+simulation results show that our proposed CR-MAC protocol successfully exploits
+multiple channels and significantly improves network performance by using the
+licensed spectrum band opportunistically and protects PUs from interference,
+even in hidden terminal situations.

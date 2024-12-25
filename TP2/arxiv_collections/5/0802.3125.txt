@@ -1,0 +1,20 @@
+Clustering analysis is one of the most widely used statistical tools in many
+emerging areas such as microarray data analysis. For microarray and other
+high-dimensional data, the presence of many noise variables may mask underlying
+clustering structures. Hence removing noise variables via variable selection is
+necessary. For simultaneous variable selection and parameter estimation,
+existing penalized likelihood approaches in model-based clustering analysis all
+assume a common diagonal covariance matrix across clusters, which however may
+not hold in practice. To analyze high-dimensional data, particularly those with
+relatively low sample sizes, this article introduces a novel approach that
+shrinks the variances together with means, in a more general situation with
+cluster-specific (diagonal) covariance matrices. Furthermore, selection of
+grouped variables via inclusion or exclusion of a group of variables altogether
+is permitted by a specific form of penalty, which facilitates incorporating
+subject-matter knowledge, such as gene functions in clustering microarray
+samples for disease subtype discovery. For implementation, EM algorithms are
+derived for parameter estimation, in which the M-steps clearly demonstrate the
+effects of shrinkage and thresholding. Numerical examples, including an
+application to acute leukemia subtype discovery with microarray gene expression
+data, are provided to demonstrate the utility and advantage of the proposed
+method.

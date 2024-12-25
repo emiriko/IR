@@ -1,0 +1,21 @@
+As members of the instrument team for the Advanced CCD Imaging Spectrometer
+(ACIS) on NASA's Chandra X-ray Observatory and as Chandra General Observers, we
+have developed a wide variety of data analysis methods that we believe are
+useful to the Chandra community, and have constructed a significant body of
+publicly-available software (the ACIS Extract package) addressing important
+ACIS data and science analysis tasks. This paper seeks to describe these data
+analysis methods for two purposes: to document the data analysis work performed
+in our own science projects, and to help other ACIS observers judge whether
+these methods may be useful in their own projects (regardless of what tools and
+procedures they choose to implement those methods).
+  The ACIS data analysis recommendations we offer here address much of the
+workflow in a typical ACIS project, including data preparation, point source
+detection via both wavelet decomposition and image reconstruction, masking
+point sources, identification of diffuse structures, event extraction for both
+point and diffuse sources, merging extractions from multiple observations,
+nonparametric broad-band photometry, analysis of low-count spectra, and
+automation of these tasks. Many of the innovations presented here arise from
+several, often interwoven, complications that are found in many Chandra
+projects: large numbers of point sources (hundreds to several thousand), faint
+point sources, misaligned multiple observations of an astronomical field, point
+source crowding, and scientifically relevant diffuse emission.

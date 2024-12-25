@@ -1,0 +1,12 @@
+Recent work for single-relay channels shows that quantize-forward (QF) with
+long-message encoding achieves the same reliable rates as compress-forward (CF)
+with short-message encoding. It is shown that short-message QF with backward or
+pipelined (sliding-window) decoding also achieves the same rates. Similarly,
+for many relays and sources, short-message QF with backward decoding achieves
+the same rates as long-message QF. Several practical advantages of
+short-message encoding are pointed out, e.g., reduced delay and simpler
+modulation. Furthermore, short-message encoding lets relays use decode-forward
+(DF) if their channel quality is good, thereby enabling multiinput,
+multi-output (MIMO) gains that are not possible with long-message encoding.
+Finally, one may combine the advantages of long- and short-message encoding by
+hashing a long message to short messages.

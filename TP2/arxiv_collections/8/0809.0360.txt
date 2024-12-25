@@ -1,0 +1,17 @@
+The fully enriched &mu;-calculus is the extension of the propositional
+&mu;-calculus with inverse programs, graded modalities, and nominals. While
+satisfiability in several expressive fragments of the fully enriched
+&mu;-calculus is known to be decidable and ExpTime-complete, it has recently
+been proved that the full calculus is undecidable. In this paper, we study the
+fragments of the fully enriched &mu;-calculus that are obtained by dropping at
+least one of the additional constructs. We show that, in all fragments obtained
+in this way, satisfiability is decidable and ExpTime-complete. Thus, we
+identify a family of decidable logics that are maximal (and incomparable) in
+expressive power. Our results are obtained by introducing two new automata
+models, showing that their emptiness problems are ExpTime-complete, and then
+reducing satisfiability in the relevant logics to these problems. The automata
+models we introduce are two-way graded alternating parity automata over
+infinite trees (2GAPTs) and fully enriched automata (FEAs) over infinite
+forests. The former are a common generalization of two incomparable automata
+models from the literature. The latter extend alternating automata in a similar
+way as the fully enriched &mu;-calculus extends the standard &mu;-calculus.

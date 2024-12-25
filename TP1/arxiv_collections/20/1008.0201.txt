@@ -1,0 +1,13 @@
+We describe two main classes of one-sided trigonometric and hyperbolic
+Jacobi-type algorithms for computing eigenvalues and eigenvectors of Hermitian
+matrices. These types of algorithms exhibit significant advantages over many
+other eigenvalue algorithms. If the matrices permit, both types of algorithms
+compute the eigenvalues and eigenvectors with high relative accuracy.
+  We present novel parallelization techniques for both trigonometric and
+hyperbolic classes of algorithms, as well as some new ideas on how pivoting in
+each cycle of the algorithm can improve the speed of the parallel one-sided
+algorithms. These parallelization approaches are applicable to both
+distributed-memory and shared-memory machines.
+  The numerical testing performed indicates that the hyperbolic algorithms may
+be superior to the trigonometric ones, although, in theory, the latter seem
+more natural.

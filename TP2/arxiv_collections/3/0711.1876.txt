@@ -1,0 +1,11 @@
+The quasicontinuum approximation is a method to reduce the atomistic degrees
+of freedom of a crystalline solid by piecewise linear interpolation from
+representative atoms that are nodes for a finite element triangulation. In
+regions of the crystal with a highly nonuniform deformation such as around
+defects, every atom must be a representative atom to obtain sufficient
+accuracy, but the mesh can be coarsened away from such regions to remove
+atomistic degrees of freedom while retaining sufficient accuracy. We present an
+error estimator and a related adaptive mesh refinement algorithm for the
+quasicontinuum approximation of a generalized Frenkel-Kontorova model that
+enables a quantity of interest to be efficiently computed to a predetermined
+accuracy.

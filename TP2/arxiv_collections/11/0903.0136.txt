@@ -1,0 +1,13 @@
+We present in this short note a polynomial graph extension procedure that can
+be used to improve any graph isomorphism algorithm. This construction
+propagates new constraints from the isomorphism constraints of the input graphs
+(denoted by $G(V,E)$ and $G'(V',E')$). Thus, information from the edge
+structures of $G$ and $G'$ is "hashed" into the weighted edges of the extended
+graphs. A bijective mapping is an isomorphism of the initial graphs if and only
+if it is an isomorphism of the extended graphs. As such, the construction
+enables the identification of pair of vertices $i\in V$ and $i'\in V'$ that can
+not be mapped by any isomorphism $h^*:V \to V'$ (e.g. if the extended edges of
+$i$ and $i'$ are different). A forbidding matrix $F$, that encodes all pairs of
+incompatible mappings $(i,i')$, is constructed in order to be used by a
+different algorithm. Moreover, tests on numerous graph classes show that the
+matrix $F$ might leave only one compatible element for each $i \in V$.

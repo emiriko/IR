@@ -1,0 +1,11 @@
+XML has emerged as the standard for representing and exchanging data on the
+World Wide Web. It is critical to have efficient mechanisms to store and query
+XML data to exploit the full power of this new technology. Several researchers
+have proposed to use relational databases to store and query XML data. While
+several algorithms of schema mapping and query mapping have been proposed, the
+problem of mapping XML data to relational data, i.e., mapping an XML INSERT
+statement to a sequence of SQL INSERT statements, has not been addressed
+thoroughly in the literature. In this paper, we propose an efficient linear
+algorithm for mapping XML data to relational data. This algorithm is based on
+our previous proposed inlining algorithm for mapping DTDs to relational schemas
+and can be easily adapted to other inlining algorithms.

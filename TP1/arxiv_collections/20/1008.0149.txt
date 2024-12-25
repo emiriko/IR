@@ -1,0 +1,26 @@
+We consider a statistical model for pairs of traded assets, based on a
+Cointegrated Vector Auto Regression (CVAR) Model. We extend standard CVAR
+models to incorporate estimation of model parameters in the presence of price
+series level shifts which are not accurately modeled in the standard Gaussian
+error correction model (ECM) framework. This involves developing a novel matrix
+variate Bayesian CVAR mixture model comprised of Gaussian errors intra-day and
+Alpha-stable errors inter-day in the ECM framework. To achieve this we derive a
+novel conjugate posterior model for the Scaled Mixtures of Normals (SMiN CVAR)
+representation of Alpha-stable inter-day innovations. These results are
+generalized to asymmetric models for the innovation noise at inter-day
+boundaries allowing for skewed Alpha-stable models.
+  Our proposed model and sampling methodology is general, incorporating the
+current literature on Gaussian models as a special subclass and also allowing
+for price series level shifts either at random estimated time points or known a
+priori time points. We focus analysis on regularly observed non-Gaussian level
+shifts that can have significant effect on estimation performance in
+statistical models failing to account for such level shifts, such as at the
+close and open of markets. We compare the estimation accuracy of our model and
+estimation approach to standard frequentist and Bayesian procedures for CVAR
+models when non-Gaussian price series level shifts are present in the
+individual series, such as inter-day boundaries. We fit a bi-variate
+Alpha-stable model to the inter-day jumps and model the effect of such jumps on
+estimation of matrix-variate CVAR model parameters using the likelihood based
+Johansen procedure and a Bayesian estimation. We illustrate our model and the
+corresponding estimation procedures we develop on both synthetic and actual
+data.

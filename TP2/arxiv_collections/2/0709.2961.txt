@@ -1,0 +1,8 @@
+Unit two-variable-per-inequality (UTVPI) constraints form one of the largest
+class of integer constraints which are polynomial time solvable (unless P=NP).
+There is considerable interest in their use for constraint solving, abstract
+interpretation, spatial databases, and theorem proving. In this paper we
+develop a new incremental algorithm for UTVPI constraint satisfaction and
+implication checking that requires O(m + n log n + p) time and O(n+m+p) space
+to incrementally check satisfiability of m UTVPI constraints on n variables and
+check implication of p UTVPI constraints.

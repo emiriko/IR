@@ -1,0 +1,10 @@
+ENUM is a DNS-based protocol standard for mapping E.164 telephone numbers to
+Internet Uniform Resource Identifiers (URIs). It places unique requirements on
+the existing DNS infrastructure, such as data scalability, query throughput,
+response time, and database update rates. This paper measures and evaluates the
+performance of existing name server implementation as ENUM servers. We compared
+PowerDNS (PDNS), BIND and Navitas. Results show that BIND is not suitable for
+ENUM due to its poor scaling property. Both PDNS and Navitas can serve ENUM.
+However, Navitas turns out to be highly optimized and clearly outperforms PDNS
+in all aspects we have tested. We also instrumented the PDNS server to identify
+its performance bottleneck and investigated ways to improve it.

@@ -1,0 +1,26 @@
+SOFIA presents a number of interesting challenges for the development of a
+data reduction environment which, at its initial phase, will have to
+incorporate pipelines from seven different instruments. Therefore, the SOFIA
+data reduction software must run code which has been developed in a variety of
+dissimilar environments which will only increase in future generations of
+instrumentation. We investigated three distinctly different situations for
+performing pipelined data reduction in SOFIA: automated data reduction after
+data archival at the end of a mission, re-pipelining of science data with
+updated calibrations or optimum parameters, and the interactive user-driven
+local execution and analysis of data reduction by an investigator. These
+different modes would traditionally result in very different software
+implementations of algorithms used by each instrument team, in effect tripling
+the amount of data reduction software that would need to be maintained by
+SOFIA. We present here a unique approach for enfolding all the
+instrument-specific data reduction software in the observatory framework and
+verifies the needs for all three reduction scenarios as well as the standard
+visualization tools. The SOFIA data reduction structure would host the
+different algorithms and techniques that the instrument teams develop in their
+own environment. Ideally, duplication of software is minimized across the
+system because instrument teams can draw on software solutions and techniques
+previously delivered to SOFIA by other instruments. With this approach, we
+minimize the effort for analyzing and developing new software reduction
+pipelines for future generation instruments. We also explore the potential
+benefits of this approach in the portability of the software to an
+ever-broadening science audience, as well as its ability to ease the use of
+distributed processing for data reduction pipelines.

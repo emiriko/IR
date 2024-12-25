@@ -1,0 +1,20 @@
+We propose a unified framework for deriving and studying soft-in-soft-out
+(SISO) detection in interference channels using the concept of variational
+inference. The proposed framework may be used in multiple-access interference
+(MAI), inter-symbol interference (ISI), and multiple-input multiple-outpu
+(MIMO) channels. Without loss of generality, we will focus our attention on
+turbo multiuser detection, to facilitate a more concrete discussion. It is
+shown that, with some loss of optimality, variational inference avoids the
+exponential complexity of a posteriori probability (APP) detection by
+optimizing a closely-related, but much more manageable, objective function
+called variational free energy. In addition to its systematic appeal, there are
+several other advantages to this viewpoint. First of all, it provides unified
+and rigorous justifications for numerous detectors that were proposed on
+radically different grounds, and facilitates convenient joint detection and
+decoding (utilizing the turbo principle) when error-control codes are
+incorporated. Secondly, efficient joint parameter estimation and data detection
+is possible via the variational expectation maximization (EM) algorithm, such
+that the detrimental effect of inaccurate channel knowledge at the receiver may
+be dealt with systematically. We are also able to extend BPSK-based SISO
+detection schemes to arbitrary square QAM constellations in a rigorous manner
+using a variational argument.

@@ -1,0 +1,15 @@
+Creol is an object-oriented modeling language in which inherently concurrent
+objects exchange asynchronous method calls. The operational semantics of Creol
+is written in an actor-based style, formulated in rewriting logic. The
+operational semantics yields a language interpreter in the Maude system, which
+can be used to analyze models. Recently, Creol has been applied to the modeling
+of systems with radio communication, such as sensor systems. With radio
+communication, messages expire and, if sent simultaneously, they may collide in
+the air. In order to capture these and other properties of distributed systems,
+we extended Creol's operational semantics with a notion of time. We exploit the
+framework of a language interpreter to use a lightweight notion of time, in
+contrast to that needed for a general purpose specification language. This
+paper presents a timed extension of Creol, including the semantics and the
+implementation strategy, and discusses its properties using an extended
+example. The approach can be generalized to other concurrent object or
+actor-based systems.

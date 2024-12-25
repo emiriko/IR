@@ -1,0 +1,22 @@
+Magnetohydrodynamic (MHD) simulations based on the ideal MHD equations have
+become a powerful tool for modeling phenomena in a wide range of applications
+including laboratory, astrophysical, and space plasmas. In general,
+high-resolution methods for solving the ideal MHD equations are computationally
+expensive and Beowulf clusters or even supercomputers are often used to run the
+codes that implemented these methods. With the advent of the Compute Unified
+Device Architecture (CUDA), modern graphics processing units (GPUs) provide an
+alternative approach to parallel computing for scientific simulations. In this
+paper we present, to the author's knowledge, the first implementation of MHD
+simulations entirely on GPUs with CUDA, named GPU-MHD, to accelerate the
+simulation process. GPU-MHD supports both single and double precision
+computation. A series of numerical tests have been performed to validate the
+correctness of our code. Accuracy evaluation by comparing single and double
+precision computation results is also given. Performance measurements of both
+single and double precision are conducted on both the NVIDIA GeForce GTX 295
+(GT200 architecture) and GTX 480 (Fermi architecture) graphics cards. These
+measurements show that our GPU-based implementation achieves between one and
+two orders of magnitude depending on the used graphics card, problem size, and
+precision when comparing to the original serial CPU MHD implementation. In
+addition, we extend GPU-MHD to support the visualization of the simulation
+results and thus the whole MHD simulation and visualization process can be
+performed entirely on GPUs.

@@ -1,0 +1,11 @@
+De novo discovery of over-represented DNA motifs is one of the major
+challenges in computational biology. Although numerous tools have been
+available for de novo motif discovery, many of these tools are subject to local
+optima phenomena, which may hinder detection of multiple distinct motifs. A
+greedy algorithm based tool named dMotifGreedy was developed. dMotifGreedy
+begins by searching for candidate motifs from pair-wise local alignments of
+input sequences and then computes an optimal global solution for each candidate
+motif through a greedy algorithm. dMotifGreedy has competitive performance in
+detecting a true motif and greatly enhanced performance in detecting multiple
+distinct true motifs. dMotifGreedy is freely available via a stand-alone
+program at http://lambchop.ads.uga.edu/dmotifgreedy/download.php.

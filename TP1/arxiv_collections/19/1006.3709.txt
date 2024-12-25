@@ -1,0 +1,13 @@
+We introduce a generic extension of the popular branching-time logic CTL
+which refines the temporal until and release operators with formal languages.
+For instance, a language may determine the moments along a path that an until
+property may be fulfilled. We consider several classes of languages leading to
+logics with different expressive power and complexity, whose importance is
+motivated by their use in model checking, synthesis, abstract interpretation,
+etc.
+  We show that even with context-free languages on the until operator the logic
+still allows for polynomial time model-checking despite the significant
+increase in expressive power. This makes the logic a promising candidate for
+applications in verification.
+  In addition, we analyse the complexity of satisfiability and compare the
+expressive power of these logics to CTL* and extensions of PDL.

@@ -1,0 +1,18 @@
+In order to realize quantum logical operations, Quantum Computation (QC)
+requires that its basic tools and concepts obey the laws of physics. One of the
+fundamental concepts in QC is the conditional quantum dynamics \cite{barenco},
+some times called controlled-unitary operation \cite{kumar}, which is
+established by the conditional "If-Then" sentence. The best know example is the
+c-not gate, which operates on the computational basis as follows: \textit{If
+the control qubit is set to $% |1>$, then apply the single qubit quantum NOT
+gate on the target. Otherwise, if the control qubit is set to $|0>$, then the
+target qubit is unchanged}. This gate represents the paradigm for the
+conditional quantum dynamics, where the flipping of the target qubit is
+conditioned to the state of the control qubit. Other gates have been defined in
+a similar way of conditional evolution; for instance, the control phase gates
+\cite{paulo1}. However, to the best of our knowledge, such conditional quantum
+dynamics has not been yet used to define the SWAP gate. Here we propose a
+possible conditional definition, in the form of If-Then sentence, to construct
+a SWAP gate in the case of two qubits. This definition suggests a
+classification in two classes, which depends upon the number of qubits that
+have to undergo a conditional quantum dynamics.

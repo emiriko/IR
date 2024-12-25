@@ -1,0 +1,17 @@
+The super-parametric density estimators and its related algorism were
+suggested by Y. -S. Tsai et al [7]. The number of parameters is unlimited in
+the super- parametric estimators and it is a general theory in sense of
+unifying or connecting nonparametric and parametric estimators. Before applying
+to numerical examples, we can not give any comment of the estimators. In this
+paper, we will focus on the implementation, the computer programming, of the
+algorism and strategies of choosing window functions. B-splines, Bezier splines
+and covering windows are studied as well. According to the criterion of the
+convergence conditions for Parzen window, the number of the window functions
+shall be, roughly, proportional to the number of samples and so is the number
+of the variables. Since the algorism is designed for solving the optimization
+of likelihood function, there will be a set of nonlinear equations with a large
+number of variables. The results show that algorism suggested by Y. -S. Tsai is
+very powerful and effective in the sense of mathematics, that is, the iteration
+procedures converge and the rates of convergence are very fast. Also, the
+numerical results of different window functions show that the approach of
+super-parametric density estimators has ushered a new era of statistics.

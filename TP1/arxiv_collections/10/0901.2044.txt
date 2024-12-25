@@ -1,0 +1,13 @@
+This paper studies sparse density estimation via $\ell_1$ penalization
+(SPADES). We focus on estimation in high-dimensional mixture models and
+nonparametric adaptive density estimation. We show, respectively, that SPADES
+can recover, with high probability, the unknown components of a mixture of
+probability densities and that it yields minimax adaptive density estimates.
+These results are based on a general sparsity oracle inequality that the SPADES
+estimates satisfy. We offer a data driven method for the choice of the tuning
+parameter used in the construction of SPADES. The method uses the generalized
+bisection method first introduced in \citebb09. The suggested procedure
+bypasses the need for a grid search and offers substantial computational
+savings. We complement our theoretical results with a simulation study that
+employs this method for approximations of one and two-dimensional densities
+with mixtures. The numerical results strongly support our theoretical findings.

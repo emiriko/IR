@@ -1,0 +1,23 @@
+In this paper, we consider the problem of designing incentive compatible
+auctions for multiple (homogeneous) units of a good, when bidders have private
+valuations and private budget constraints. When only the valuations are private
+and the budgets are public, Dobzinski {\em et al} show that the {\em adaptive
+clinching} auction is the unique incentive-compatible auction achieving
+Pareto-optimality. They further show thatthere is no deterministic
+Pareto-optimal auction with private budgets. Our main contribution is to show
+the following Budget Monotonicity property of this auction: When there is only
+one infinitely divisible good, a bidder cannot improve her utility by reporting
+a budget smaller than the truth. This implies that a randomized modification to
+the adaptive clinching auction is incentive compatible and Pareto-optimal with
+private budgets.
+  The Budget Monotonicity property also implies other improved results in this
+context. For revenue maximization, the same auction improves the best-known
+competitive ratio due to Abrams by a factor of 4, and asymptotically approaches
+the performance of the optimal single-price auction.
+  Finally, we consider the problem of revenue maximization (or social welfare)
+in a Bayesian setting. We allow the bidders have public size constraints (on
+the amount of good they are willing to buy) in addition to private budget
+constraints. We show a simple poly-time computable 5.83-approximation to the
+optimal Bayesian incentive compatible mechanism, that is implementable in
+dominant strategies. Our technique again crucially needs the ability to prevent
+bidders from over-reporting budgets via randomization.

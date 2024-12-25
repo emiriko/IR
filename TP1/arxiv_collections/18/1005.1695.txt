@@ -1,0 +1,11 @@
+General-purpose computing on graphics processing units (GPGPU) has recently
+gained considerable attention in various domains such as bioinformatics,
+databases and distributed computing. GPGPU is based on using the GPU as a
+co-processor accelerator to offload computationally-intensive tasks from the
+CPU. This study starts from the observation that a number of GPU features (such
+as overlapping communication and computation, short lived buffer reuse, and
+harnessing multi-GPU systems) can be abstracted and reused across different
+GPGPU applications. This paper describes CrystalGPU, a modular framework that
+transparently enables applications to exploit a number of GPU optimizations.
+Our evaluation shows that CrystalGPU enables up to 16x speedup gains on
+synthetic benchmarks, while introducing negligible latency overhead.

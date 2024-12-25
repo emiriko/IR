@@ -1,0 +1,20 @@
+In this paper we propose a quantum random number generator (QRNG) which
+utilizes an entangled photon pair in a Bell singlet state, and is certified
+explicitly by value indefiniteness. While "true randomness" is a mathematical
+impossibility, the certification by value indefiniteness ensures the quantum
+random bits are incomputable in the strongest sense. This is the first QRNG
+setup in which a physical principle (Kochen-Specker value indefiniteness)
+guarantees that no single quantum bit produced can be classically computed
+(reproduced and validated), the mathematical form of bitwise physical
+unpredictability. The effects of various experimental imperfections are
+discussed in detail, particularly those related to detector efficiencies,
+context alignment and temporal correlations between bits. The analysis is to a
+large extent relevant for the construction of any QRNG based on beam-splitters.
+By measuring the two entangled photons in maximally misaligned contexts and
+utilizing the fact that two rather than one bitstring are obtained, more
+efficient and robust unbiasing techniques can be applied. A robust and
+efficient procedure based on XORing the bitstrings together---essentially using
+one as a one-time-pad for the other---is proposed to extract random bits in the
+presence of experimental imperfections, as well as a more efficient
+modification of the von Neumann procedure for the same task. Some open problems
+are also discussed.

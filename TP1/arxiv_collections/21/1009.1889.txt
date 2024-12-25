@@ -1,0 +1,18 @@
+The present paper introduces a method for substantial reduction of the number
+of diffusion encoding gradients required for reliable reconstruction of HARDI
+signals. The method exploits the theory of compressed sensing (CS), which
+establishes conditions on which a signal of interest can be recovered from its
+under-sampled measurements, provided that the signal admits a sparse
+representation in the domain of a linear transform. In the case at hand, the
+latter is defined to be spherical ridgelet transformation, which excels in
+sparsifying HARDI signals. What makes the resulting reconstruction procedure
+even more accurate is a combination of the sparsity constraints in the
+diffusion domain with additional constraints imposed on the estimated diffusion
+field in the spatial domain. Accordingly, the present paper describes a novel
+way to combine the diffusion- and spatial-domain constraints to achieve a
+maximal reduction in the number of diffusion measurements, while sacrificing
+little in terms of reconstruction accuracy. Finally, details are provided on a
+particularly efficient numerical scheme which can be used to solve the
+aforementioned reconstruction problem by means of standard and readily
+available estimation tools. The paper is concluded with experimental results
+which support the practical value of the proposed reconstruction methodology.

@@ -1,0 +1,19 @@
+We consider the problem of self-healing in peer-to-peer networks that are
+under repeated attack by an omniscient adversary. We assume that the following
+process continues for up to n rounds where n is the total number of nodes
+initially in the network: the adversary deletes an arbitrary node from the
+network, then the network responds by quickly adding a small number of new
+edges.
+  We present a distributed data structure that ensures two key properties.
+First, the diameter of the network is never more than $O(\log \Delta)$ times
+its original diameter, where $\Delta$ is the maximum degree of the network
+initially. We note that for many peer-to-peer systems, $\Delta$ is
+polylogarithmic, so the diameter increase would be a O(log log n)
+multiplicative factor. Second, the degree of any node never increases by more
+than 3 over its original degree. Our data structure is fully distributed, has
+O(1) latency per round and requires each node to send and receive O(1) messages
+per round. The data structure requires an initial setup phase that has latency
+equal to the diameter of the original network, and requires, with high
+probability, each node v to send O(log n) messages along every edge incident to
+v. Our approach is orthogonal and complementary to traditional topology-based
+approaches to defending against attack.

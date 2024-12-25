@@ -1,0 +1,9 @@
+We present an algorithm to automatically derive Feynman rules for lattice
+perturbation theory in background field gauge. Vertices with an arbitrary
+number of both background and quantum legs can be derived automatically from
+both gluonic and fermionic actions. The algorithm is a generalisation of our
+earlier algorithm based on prior work by L\"uscher and Weisz. We also present
+techniques allowing for the parallelisation of the evaluation of the often
+rather complex lattice Feynman rules that should allow for efficient
+implementation on GPUs, but also give a significant speed-up when calculating
+the derivatives of Feynman diagrams with respect to external momenta.

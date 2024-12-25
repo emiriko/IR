@@ -1,0 +1,14 @@
+Our goal is to study the feasibility of porting termination analysis
+techniques developed for one programming paradigm to another paradigm. In this
+paper, we show how to adapt termination analysis techniques based on polynomial
+interpretations - very well known in the context of term rewrite systems (TRSs)
+- to obtain new (non-transformational) ter- mination analysis techniques for
+definite logic programs (LPs). This leads to an approach that can be seen as a
+direct generalization of the traditional techniques in termination analysis of
+LPs, where linear norms and level mappings are used. Our extension general-
+izes these to arbitrary polynomials. We extend a number of standard concepts
+and results on termination analysis to the context of polynomial
+interpretations. We also propose a constraint-based approach for automatically
+generating polynomial interpretations that satisfy the termination conditions.
+Based on this approach, we implemented a new tool, called Polytool, for
+automatic termination analysis of LPs.

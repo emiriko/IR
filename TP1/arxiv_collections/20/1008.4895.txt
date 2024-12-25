@@ -1,0 +1,14 @@
+There has been considerable recent work developing a new stochastic network
+utility maximization framework using Backpressure algorithms, also known as
+MaxWeight. A key open problem has been the development of utility-optimal
+algorithms that are also delay efficient. In this paper, we show that the
+Backpressure algorithm, when combined with the LIFO queueing discipline (called
+LIFO-Backpressure), is able to achieve a utility that is within $O(1/V)$ of the
+optimal value, while maintaining an average delay of $O([\log(V)]^2)$ for all
+but a tiny fraction of the network traffic. This result holds for general
+stochastic network optimization problems and general Markovian dynamics.
+Remarkably, the performance of LIFO-Backpressure can be achieved by simply
+changing the queueing discipline; it requires no other modifications of the
+original Backpressure algorithm. We validate the results through empirical
+measurements from a sensor network testbed, which show good match between
+theory and practice.

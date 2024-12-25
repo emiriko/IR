@@ -1,0 +1,13 @@
+We present a symbolic transition system and bisimulation equivalence for
+psi-calculi, and show that it is fully abstract with respect to bisimulation
+congruence in the non-symbolic semantics.
+  A psi-calculus is an extension of the pi-calculus with nominal data types for
+data structures and for logical assertions representing facts about data. These
+can be transmitted between processes and their names can be statically scoped
+using the standard pi-calculus mechanism to allow for scope migrations.
+Psi-calculi can be more general than other proposed extensions of the
+pi-calculus such as the applied pi-calculus, the spi-calculus, the fusion
+calculus, or the concurrent constraint pi-calculus.
+  Symbolic semantics are necessary for an efficient implementation of the
+calculus in automated tools exploring state spaces, and the full abstraction
+property means the semantics of a process does not change from the original.

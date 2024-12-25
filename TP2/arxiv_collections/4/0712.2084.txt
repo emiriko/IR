@@ -1,0 +1,22 @@
+Teleportation is a crucial element in fault-tolerant quantum computation and
+a complete understanding of its capacity is very important for the practical
+implementation of optimal fault-tolerant architectures. It is known that
+stabilizer codes support a natural set of gates that can be more easily
+implemented by teleportation than any other gates. These gates belong to the so
+called $\mathcal{C}_k$ hierarchy introduced by Gottesman and Chuang (Nature
+\textbf{402}, 390). Moreover, a subset of $\mathcal{C}_k$ gates, called
+semi-Clifford operations, can be implemented by an even simpler architecture
+than the traditional teleportation setup (Phys. Rev. \textbf{A62}, 052316).
+However, the precise set of gates in $\mathcal{C}_k$ remains unknown, even for
+a fixed number of qubits $n$, which prevents us from knowing exactly what
+teleportation is capable of. In this paper we study the structure of
+$\mathcal{C}_k$ in terms of semi-Clifford operations, which send by conjugation
+at least one maximal abelian subgroup of the $n$-qubit Pauli group into another
+one. We show that for $n=1,2$, all the $\mathcal{C}_k$ gates are semi-Clifford,
+which is also true for $\{n=3,k=3\}$. However, this is no longer true for
+$\{n>2,k>3\}$. To measure the capability of this teleportation primitive, we
+introduce a quantity called `teleportation depth', which characterizes how many
+teleportation steps are necessary, on average, to implement a given gate. We
+calculate upper bounds for teleportation depth by decomposing gates into both
+semi-Clifford $\mathcal{C}_k$ gates and those $\mathcal{C}_k$ gates beyond
+semi-Clifford operations, and compare their efficiency.

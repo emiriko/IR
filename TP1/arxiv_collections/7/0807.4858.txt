@@ -1,0 +1,11 @@
+In Markov chain Monte Carlo (MCMC) sampling considerable thought goes into
+constructing random transitions. But those transitions are almost always driven
+by a simulated IID sequence. Recently it has been shown that replacing an IID
+sequence by a weakly completely uniformly distributed (WCUD) sequence leads to
+consistent estimation in finite state spaces. Unfortunately, few WCUD sequences
+are known. This paper gives general methods for proving that a sequence is
+WCUD, shows that some specific sequences are WCUD, and shows that certain
+operations on WCUD sequences yield new WCUD sequences. A numerical example on a
+42 dimensional continuous Gibbs sampler found that some WCUD inputs sequences
+produced variance reductions ranging from tens to hundreds for posterior means
+of the parameters, compared to IID inputs.

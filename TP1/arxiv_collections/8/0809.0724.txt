@@ -1,0 +1,13 @@
+Robertson and Seymour proved that every graph with sufficiently large
+treewidth contains a large grid minor. However, the best known bound on the
+treewidth that forces an $\ell\times\ell$ grid minor is exponential in $\ell$.
+It is unknown whether polynomial treewidth suffices. We prove a result in this
+direction. A \emph{grid-like-minor of order} $\ell$ in a graph $G$ is a set of
+paths in $G$ whose intersection graph is bipartite and contains a
+$K_{\ell}$-minor. For example, the rows and columns of the $\ell\times\ell$
+grid are a grid-like-minor of order $\ell+1$. We prove that polynomial
+treewidth forces a large grid-like-minor. In particular, every graph with
+treewidth at least $c\ell^4\sqrt{\log\ell}$ has a grid-like-minor of order
+$\ell$. As an application of this result, we prove that the cartesian product
+$G\square K_2$ contains a $K_{\ell}$-minor whenever $G$ has treewidth at least
+$c\ell^4\sqrt{\log\ell}$.

@@ -1,0 +1,14 @@
+In Scott (2002) and Congdon (2006), a new method is advanced to compute
+posterior probabilities of models under consideration. It is based solely on
+MCMC outputs restricted to single models, i.e., it is bypassing reversible jump
+and other model exploration techniques. While it is indeed possible to
+approximate posterior probabilities based solely on MCMC outputs from single
+models, as demonstrated by Gelfand and Dey (1994) and Bartolucci et al. (2006),
+we show that the proposals of Scott (2002) and Congdon (2006) are biased and
+advance several arguments towards this thesis, the primary one being the
+confusion between model-based posteriors and joint pseudo-posteriors. From a
+practical point of view, the bias in Scott's (2002) approximation appears to be
+much more severe than the one in Congdon's (2006), the later being often of the
+same magnitude as the posterior probability it approximates, although we also
+exhibit an example where the divergence from the true posterior probability is
+extreme.

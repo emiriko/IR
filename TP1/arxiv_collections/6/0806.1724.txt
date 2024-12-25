@@ -1,0 +1,18 @@
+A surface embedded in space, in such a way that each point has a neighborhood
+within which the surface is a terrain, projects to an immersed surface in the
+plane, the boundary of which is a self-intersecting curve. Under what
+circumstances can we reverse these mappings algorithmically? Shor and van Wyk
+considered one such problem, determining whether a curve is the boundary of an
+immersed disk; they showed that the self-overlapping curves defined in this way
+can be recognized in polynomial time. We show that several related problems are
+more difficult: it is NP-complete to determine whether an immersed disk is the
+projection of a surface embedded in space, or whether a curve is the boundary
+of an immersed surface in the plane that is not constrained to be a disk.
+However, when a casing is supplied with a self-intersecting curve, describing
+which component of the curve lies above and which below at each crossing, we
+may determine in time linear in the number of crossings whether the cased curve
+forms the projected boundary of a surface in space. As a related result, we
+show that an immersed surface with a single boundary curve that crosses itself
+n times has at most 2^{n/2} combinatorially distinct spatial embeddings, and we
+discuss the existence of fixed-parameter tractable algorithms for related
+problems.

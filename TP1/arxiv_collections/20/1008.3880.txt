@@ -1,0 +1,13 @@
+The incorporation of a dividend yield in the classical option pricing model
+of Black- Scholes results in a minor modification of the Black-Scholes formula,
+since the lognormal dynamic of the underlying asset is preserved. However,
+market makers prefer to work with cash dividends with fixed value instead of a
+dividend yield. Since there is no closed-form solution for the price of a
+European Call in this case, many methods have been proposed in the literature
+to approximate it. Here, we present a new approach. We derive an exact analytic
+formula for the sensitivity to dividends of an European option. We use this
+result to elaborate a proxy which possesses the same Taylor expansion around 0
+with respect to the dividends as the exact price. The obtained approximation is
+very fast to compute (the same complexity than the usual Black-Scholes formula)
+and numerical tests show the extreme accuracy of the method for all practical
+cases.

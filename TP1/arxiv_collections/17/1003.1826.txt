@@ -1,0 +1,19 @@
+Image denoising is getting more significance, especially in Computed
+Tomography (CT), which is an important and most common modality in medical
+imaging. This is mainly due to that the effectiveness of clinical diagnosis
+using CT image lies on the image quality. The denoising technique for CT images
+using window-based Multi-wavelet transformation and thresholding shows the
+effectiveness in denoising, however, a drawback exists in selecting the closer
+windows in the process of window-based multi-wavelet transformation and
+thresholding. Generally, the windows of the duplicate noisy image that are
+closer to each window of original noisy image are obtained by the checking them
+sequentially. This leads to the possibility of missing out very closer windows
+and so enhancement is required in the aforesaid process of the denoising
+technique. In this paper, we propose a GA-based window selection methodology to
+include the denoising technique. With the aid of the GA-based window selection
+methodology, the windows of the duplicate noisy image that are very closer to
+every window of the original noisy image are extracted in an effective manner.
+By incorporating the proposed GA-based window selection methodology, the
+denoising the CT image is performed effectively. Eventually, a comparison is
+made between the denoising technique with and without the proposed GA-based
+window selection methodology.

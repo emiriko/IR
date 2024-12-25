@@ -1,0 +1,22 @@
+The demand for Internet services that require frequent updates through small
+messages, such as microblogging, has tremendously grown in the past few years.
+Although the use of such applications by domestic users is usually free, their
+access from mobile devices is subject to fees and consumes energy from limited
+batteries. If a user activates his mobile device and is in range of a service
+provider, a content update is received at the expense of monetary and energy
+costs. Thus, users face a tradeoff between such costs and their messages aging.
+The goal of this paper is to show how to cope with such a tradeoff, by devising
+\emph{aging control policies}. An aging control policy consists of deciding,
+based on the current utility of the last message received, whether to activate
+the mobile device, and if so, which technology to use (WiFi or 3G). We present
+a model that yields the optimal aging control policy. Our model is based on a
+Markov Decision Process in which states correspond to message ages. Using our
+model, we show the existence of an optimal strategy in the class of threshold
+strategies, wherein users activate their mobile devices if the age of their
+messages surpasses a given threshold and remain inactive otherwise. We then
+consider strategic content providers (publishers) that offer \emph{bonus
+packages} to users, so as to incent them to download updates of advertisement
+campaigns. We provide simple algorithms for publishers to determine optimal
+bonus levels, leveraging the fact that users adopt their optimal aging control
+strategies. The accuracy of our model is validated against traces from the
+UMass DieselNet bus network.

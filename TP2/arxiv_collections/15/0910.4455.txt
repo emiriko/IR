@@ -1,0 +1,13 @@
+This article introduces a simple and effective methodology to determine the
+level of congestion in a network with an ECN-like marking scheme. The purpose
+of the ECN bit is to notify TCP sources of an imminent congestion in order to
+react before losses occur. However, ECN is a binary indicator which does not
+reflect the congestion level (i.e. the percentage of queued packets) of the
+bottleneck, thus preventing any adapted reaction. In this study, we use a
+counter in place of the traditional ECN marking scheme to assess the number of
+times a packet has crossed a congested router. Thanks to this simple counter,
+we drive a statistical analysis to accurately estimate the congestion level of
+each router on a network path. We detail in this paper an analytical method
+validated by some preliminary simulations which demonstrate the feasibility and
+the accuracy of the concept proposed. We conclude this paper with possible
+applications and expected future work.

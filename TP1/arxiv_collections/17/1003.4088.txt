@@ -1,0 +1,20 @@
+Memory hierarchy is used to compete the processors speed. Cache memory is the
+fast memory which is used to conduit the speed difference of memory and
+processor. The access patterns of Level 1 cache (L1) and Level 2 cache (L2) are
+different, when CPU not gets the desired data in L1 then it accesses L2. Thus
+the replacement algorithm which works efficiently on L1 may not be as efficient
+on L2. Similarly various applications such as Matrix Multiplication, Web, Fast
+Fourier Transform (FFT) etc will have varying access pattern. Thus same
+replacement algorithm for all types of application may not be efficient. This
+paper works for getting an efficient pair of replacement algorithm on L1 and L2
+for the algorithm Merge Sort. With the memory reference string of Merge Sort,
+we have analyzed the behavior of various existing replacement algorithms on L1.
+The existing replacement algorithms which are taken into consideration are:
+Least Recently Used (LRU), Least Frequently Used (LFU) and First In First Out
+(FIFO). After Analyzing the memory reference pattern of Merge Sort, we have
+proposed a Partition Based Replacement algorithm (PBR_L1)) on L1 Cache.
+Furthermore we have analyzed various pairs of algorithms on L1 and L2
+respectively, resulting in finding a suitable pair of replacement algorithms.
+Simulation on L1 shows, among the considered existing replacement algorithms
+FIFO is performing better than others. While the proposed replacement algorithm
+PBR_L1 is working about 1.7% to 44 % better than FIFO for various cache sizes.

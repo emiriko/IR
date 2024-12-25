@@ -1,0 +1,25 @@
+The characterisation of termination using well-founded monotone algebras has
+been a milestone on the way to automated termination techniques, of which we
+have seen an extensive development over the past years. Both the semantic
+characterisation and most known termination methods are concerned with global
+termination, uniformly of all the terms of a term rewriting system (TRS). In
+this paper we consider local termination, of specific sets of terms within a
+given TRS. The principal goal of this paper is generalising the semantic
+characterisation of global termination to local termination. This is made
+possible by admitting the well-founded monotone algebras to be partial. We also
+extend our approach to local relative termination. The interest in local
+termination naturally arises in program verification, where one is probably
+interested only in sensible inputs, or just wants to characterise the set of
+inputs for which a program terminates. Local termination will be also be of
+interest when dealing with a specific class of terms within a TRS that is known
+to be non-terminating, such as combinatory logic (CL) or a TRS encoding
+recursive program schemes or Turing machines. We show how some of the
+well-known techniques for proving global termination, such as stepwise removal
+of rewrite rules and semantic labelling, can be adapted to the local case. We
+also describe transformations reducing local to global termination problems.
+The resulting techniques for proving local termination have in some cases
+already been automated. One of our applications concerns the characterisation
+of the terminating S-terms in CL as regular language. Previously this language
+had already been found via a tedious analysis of the reduction behaviour of
+S-terms. These findings have now been vindicated by a fully automated and
+verified proof.

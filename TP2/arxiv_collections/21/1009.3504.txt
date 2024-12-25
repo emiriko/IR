@@ -1,0 +1,23 @@
+We use the deepest and the most comprehensive photometric data currently
+available for GOODS-South galaxies to measure their photometric redshifts. The
+photometry includes VLT/VIMOS (U-band), HST/ACS (F435W, F606W, F775W, and
+F850LP bands), VLT/ISAAC (J-, H-, and Ks-bands), and four Spitzer/IRAC channels
+(3.6, 4.5, 5.8, and 8.0 micron). The catalog is selected in the z-band (F850LP)
+and photometry in each band is carried out using the recently completed TFIT
+algorithm, which performs PSF matched photometry uniformly across different
+instruments and filters, despite large variations in PSFs and pixel scales.
+Photometric redshifts are derived using the GOODZ code, which is based on the
+template fitting method using priors. The code also implements "training" of
+the template SED set, using available spectroscopic redshifts in order to
+minimize systematic differences between the templates and the SEDs of the
+observed galaxies. Our final catalog covers an area of 153 sq. arcmin and
+includes photometric redshifts for a total of 32,505 objects. The scatter
+between our estimated photometric and spectroscopic redshifts is sigma=0.040
+with 3.7% outliers to the full z-band depth of our catalog, decreasing to
+sigma=0.039 and 2.1% outliers at a magnitude limit m(z)<24.5. This is
+consistent with the best results previously published for GOODS-S galaxies,
+however, the present catalog is the deepest yet available and provides
+photometric redshifts for significantly more objects to deeper flux limits and
+higher redshifts than earlier works. Furthermore, we show that the photometric
+redshifts estimated here for galaxies selected as dropouts are consistent with
+those expected based on the Lyman break technique.

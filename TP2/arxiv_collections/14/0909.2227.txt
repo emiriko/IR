@@ -1,0 +1,18 @@
+We present a new "collisional grooming" algorithm that enables us to model
+images of debris disks where the collision time is less than the Poynting
+Robertson time for the dominant grain size. Our algorithm uses the output of a
+collisionless disk simulation to iteratively solve the mass flux equation for
+the density distribution of a collisional disk containing planets in 3
+dimensions. The algorithm can be run on a single processor in ~1 hour. Our
+preliminary models of disks with resonant ring structures caused by terrestrial
+mass planets show that the collision rate for background particles in a ring
+structure is enhanced by a factor of a few compared to the rest of the disk,
+and that dust grains in or near resonance have even higher collision rates. We
+show how collisions can alter the morphology of a resonant ring structure by
+reducing the sharpness of a resonant ring's inner edge and by smearing out
+azimuthal structure. We implement a simple prescription for particle
+fragmentation and show how Poynting-Robertson drag and fragmentation sort
+particles by size, producing smaller dust grains at smaller circumstellar
+distances. This mechanism could cause a disk to look different at different
+wavelengths, and may explain the warm component of dust interior to Fomalhaut's
+outer dust ring seen in the resolved 24 micron Spitzer image of this system.

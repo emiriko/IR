@@ -1,0 +1,8 @@
+We present a non-null annotations inferencer for the Java bytecode language.
+We previously proposed an analysis to infer non-null annotations and proved it
+soundness and completeness with respect to a state of the art type system. This
+paper proposes extensions to our former analysis in order to deal with the Java
+bytecode language. We have implemented both analyses and compared their
+behaviour on several benchmarks. The results show a substantial improvement in
+the precision and, despite being a whole-program analysis, production
+applications can be analyzed within minutes.

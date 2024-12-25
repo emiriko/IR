@@ -1,0 +1,21 @@
+Selection methods that require only a single-switch input, such as a button
+click or blink, are potentially useful for individuals with motor impairments,
+mobile technology users, and individuals wishing to transmit information
+securely. We present a single-switch selection method, "Nomon," that is general
+and efficient. Existing single-switch selection methods require selectable
+options to be arranged in ways that limit potential applications. By contrast,
+traditional operating systems, web browsers, and free-form applications (such
+as drawing) place options at arbitrary points on the screen. Nomon, however,
+has the flexibility to select any point on a screen. Nomon adapts automatically
+to an individual's clicking ability; it allows a person who clicks precisely to
+make a selection quickly and allows a person who clicks imprecisely more time
+to make a selection without error. Nomon reaps gains in information rate by
+allowing the specification of beliefs (priors) about option selection
+probabilities and by avoiding tree-based selection schemes in favor of direct
+(posterior) inference. We have developed both a Nomon-based writing application
+and a drawing application. To evaluate Nomon's performance, we compared the
+writing application with a popular existing method for single-switch writing
+(row-column scanning). Novice users wrote 35% faster with the Nomon interface
+than with the scanning interface. An experienced user (author TB, with > 10
+hours practice) wrote at speeds of 9.3 words per minute with Nomon, using 1.2
+clicks per character and making no errors in the final text.

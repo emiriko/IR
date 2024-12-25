@@ -1,0 +1,18 @@
+Strategy changes are an essential part of evolutionary games. Here we
+introduce a simple rule that, depending on the value of a single parameter $w$,
+influences the selection of players that are considered as potential sources of
+the new strategy. For positive $w$ players with high payoffs will be considered
+more likely, while for negative $w$ the opposite holds. Setting $w$ equal to
+zero returns the frequently adopted random selection of the opponent. We find
+that increasing the probability of adopting the strategy from the fittest
+player within reach, i.e. setting $w$ positive, promotes the evolution of
+cooperation. The robustness of this observation is tested against different
+levels of uncertainty in the strategy adoption process and for different
+interaction network. Since the evolution to widespread defection is tightly
+associated with cooperators having a lower fitness than defectors, the fact
+that positive values of $w$ facilitate cooperation is quite surprising. We show
+that the results can be explained by means of a negative feedback effect that
+increases the vulnerability of defectors although initially increasing their
+survivability. Moreover, we demonstrate that the introduction of $w$
+effectively alters the interaction network and thus also the impact of
+uncertainty by strategy adoptions on the evolution of cooperation.

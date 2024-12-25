@@ -1,0 +1,13 @@
+We consider the problem of exploring an anonymous unoriented ring of size $n$
+by $k$ identical, oblivious, asynchronous mobile robots, that are unable to
+communicate, yet have the ability to sense their environment and take decisions
+based on their local view. Previous works in this weak scenario prove that $k$
+must not divide $n$ for a deterministic solution to exist. Also, it is known
+that the minimum number of robots (either deterministic or probabilistic) to
+explore a ring of size $n$ is 4. An upper bound of 17 robots holds in the
+deterministic case while 4 probabilistic robots are sufficient. In this paper,
+we close the complexity gap in the deterministic setting, by proving that no
+deterministic exploration is feasible with less than five robots whenever the
+size of the ring is even, and that five robots are sufficient for any $n$ that
+is coprime with five. Our protocol completes exploration in O(n) robot moves,
+which is also optimal.

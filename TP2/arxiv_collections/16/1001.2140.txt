@@ -1,0 +1,16 @@
+In this paper, we propose a light-weight provably-secure authentication
+protocol called the NLHB protocol, which is a variant of the HB protocol. The
+HB protocol uses the complexity of decoding linear codes for security against
+passive attacks. In contrast, security for the NLHB protocol is proved by
+reducing passive attacks to the problem of decoding a class of non-linear codes
+that are provably hard. We demonstrate that the existing passive attacks on the
+HB protocol family, which have contributed to considerable reduction in its
+effective key-size, are ineffective against the NLHB protocol.
+  From the evidence, we conclude that smaller-key sizes are sufficient for the
+NLHB protocol to achieve the same level of passive attack security as the HB
+Protocol. Further, for this choice of parameters, we provide an implementation
+instance for the NLHB protocol for which the Prover/Verifier complexity is
+lower than the HB protocol, enabling authentication on very low-cost devices
+like RFID tags. Finally, in the spirit of the HB$^{+}$ protocol, we extend the
+NLHB protocol to the NLHB$^{+}$ protocol and prove security against the class
+of active attacks defined in the DET Model.

@@ -1,0 +1,11 @@
+Distributed embedded systems (DESs) are no longer the exception; they are the
+rule in many application areas such as avionics, the automotive industry,
+traffic systems, sensor networks, and medical devices. Formal DES specification
+and verification is challenging due to state space explosion and the need to
+support real-time features. This paper reports on an extensive industry-based
+case study involving a DES product family for a pedestrian and car 4-way
+traffic intersection in which autonomous devices communicate by asynchronous
+message passing without a centralized controller. All the safety requirements
+and a liveness requirement informally specified in the requirements document
+have been formally verified using Real-Time Maude and its model checking
+features.

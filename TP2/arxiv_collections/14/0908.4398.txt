@@ -1,0 +1,13 @@
+The problem of simulating sparse Hamiltonians on quantum computers is well
+studied. The evolution of a sparse N x N Hamiltonian H for time t can be
+simulated using O(||Ht||poly(log N)) operations, which is essentially optimal
+due to a no--fast-forwarding theorem. Here, we consider non-sparse Hamiltonians
+and show significant limitations on their simulation. We generalize the
+no--fast-forwarding theorem to dense Hamiltonians, ruling out generic
+simulations taking time o(||Ht||), even though ||H|| is not a unique measure of
+the size of a dense Hamiltonian $H$. We also present a stronger limitation
+ruling out the possibility of generic simulations taking time poly(||Ht||,log
+N), showing that known simulations based on discrete-time quantum walk cannot
+be dramatically improved in general. On the positive side, we show that some
+non-sparse Hamiltonians can be simulated efficiently, such as those with graphs
+of small arboricity.

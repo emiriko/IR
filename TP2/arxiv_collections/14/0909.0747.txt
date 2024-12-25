@@ -1,0 +1,12 @@
+We consider the problem of fitting a parametric model to time-series data
+that are afflicted by correlated noise. The noise is represented by a sum of
+two stationary Gaussian processes: one that is uncorrelated in time, and
+another that has a power spectral density varying as $1/f^\gamma$. We present
+an accurate and fast [O(N)] algorithm for parameter estimation based on
+computing the likelihood in a wavelet basis. The method is illustrated and
+tested using simulated time-series photometry of exoplanetary transits, with
+particular attention to estimating the midtransit time. We compare our method
+to two other methods that have been used in the literature, the time-averaging
+method and the residual-permutation method. For noise processes that obey our
+assumptions, the algorithm presented here gives more accurate results for
+midtransit times and truer estimates of their uncertainties.

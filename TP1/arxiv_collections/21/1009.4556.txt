@@ -1,0 +1,20 @@
+Off-line robot dynamic identification methods are mostly based on the use of
+the inverse dynamic model, which is linear with respect to the dynamic
+parameters. This model is sampled while the robot is tracking reference
+trajectories that excite the system dynamics. This allows using linear
+least-squares techniques to estimate the parameters. The efficiency of this
+method has been proved through the experimental identification of many
+prototypes and industrial robots. However, this method requires the joint
+force/torque and position measurements and the estimate of the joint velocity
+and acceleration, through the bandpass filtering of the joint position at high
+sampling rates. The proposed new method requires only the joint force/torque
+measurement. It is a closed-loop output error method where the usual joint
+position output is replaced by the joint force/torque. It is based on a
+closed-loop simulation of the robot using the direct dynamic model, the same
+structure of the control law, and the same reference trajectory for both the
+actual and the simulated robot. The optimal parameters minimize the 2-norm of
+the error between the actual force/torque and the simulated force/torque. This
+is a non-linear least-squares problem which is dramatically simplified using
+the inverse dynamic model to obtain an analytical expression of the simulated
+force/torque, linear in the parameters. A validation experiment on a 2
+degree-of-freedom direct drive robot shows that the new method is efficient.

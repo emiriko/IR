@@ -1,0 +1,11 @@
+In this paper we show how to extend the known algorithm of nodal analysis in
+such a way that, in the case of circuits without nullors and controlled sources
+(but allowing for both, independent current and voltage sources), the system of
+nodal equations describing the circuit is partitioned into one part, where the
+nodal variables are explicitly given as linear combinations of the voltage
+sources and the voltages of certain reference nodes, and another, which
+contains the node variables of these reference nodes only and which moreover
+can be read off directly from the given circuit. Neither do we need
+preparational graph transformations, nor do we need to introduce additional
+current variables (as in MNA). Thus this algorithm is more accessible to
+students, and consequently more suitable for classroom presentations.

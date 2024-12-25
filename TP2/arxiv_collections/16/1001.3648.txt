@@ -1,0 +1,16 @@
+In the presence of a chemical potential, the physics of level crossings leads
+to singularities at zero temperature, even when the spatial volume is finite.
+These singularities are smoothed out at a finite temperature but leave behind
+non-trivial finite size effects which must be understood in order to extract
+thermodynamic quantities using Monte Carlo methods, particularly close to
+critical points. We illustrate some of these issues using the classical
+non-linear O(2) sigma model with a coupling $\beta$ and chemical potential
+$\mu$ on a 2+1 dimensional Euclidean lattice. In the conventional formulation
+this model suffers from a sign problem at non-zero chemical potential and hence
+cannot be studied with the Wolff cluster algorithm. However, when formulated in
+terms of world-line of particles, the sign problem is absent and the model can
+be studied efficiently with the "worm algorithm". Using this method we study
+the finite size effects that arise due to the chemical potential and develop an
+effective quantum mechanical approach to capture the effects. As a side result
+we obtain energy levels of up to four particles as a function of the box size
+and uncover a part of the phase diagram in the $(\beta,\mu)$ plane.

@@ -1,0 +1,9 @@
+We introduce a Bayesian extension of the latent block model for model-based
+block clustering of data matrices. Our approach considers a block model where
+block parameters may be integrated out. The result is a posterior defined over
+the number of clusters in rows and columns and cluster memberships. The number
+of row and column clusters need not be known in advance as these are sampled
+along with cluster memberhips using Markov chain Monte Carlo. This differs from
+existing work on latent block models, where the number of clusters is assumed
+known or is chosen using some information criteria. We analyze both simulated
+and real data to validate the technique.

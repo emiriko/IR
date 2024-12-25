@@ -1,0 +1,25 @@
+Let $\ket{\0}$ and $\ket{\1}$ be two states that are promised to come from
+known subsets of orthogonal subspaces, but are otherwise unknown. Our paper
+probes the question of what can be achieved with respect to the basis
+$\{\ket{\0},\ket{\1}}^{\otimes n}$ of $n$ logical qubits, given only a few
+copies of the unknown states $\ket{\0}$ and $\ket{\1}$. A phase-invariant
+operator is one that is unchanged under the relative phase-shift $\ket{\1}
+\mapsto e^{i \theta}\ket{\1}$, for any $\theta$, of all of the $n$ qubits. We
+show that phase-invariant unitary operators can be implemented exactly with no
+copies and that phase-invariant states can be prepared exactly with at most $n$
+copies each of $\ket{\0}$ and $\ket{\1}$; we give an explicit algorithm for
+state preparation that is efficient for some classes of states (e.g. symmetric
+states). We conjecture that certain non-phase-invariant operations are
+impossible to perform accurately without many copies. Motivated by optical
+implementations of quantum computers, we define ``quantum computation in a
+hidden basis'' to mean executing a quantum algorithm with respect to the
+phase-shifted hidden basis $\{\ket{\0}, e^{i\theta}\ket{\1}\}$, for some
+potentially unknown $\theta$; we give an efficient approximation algorithm for
+this task, for which we introduce an analogue of a coherent state of light,
+which serves as a bounded quantum phase reference frame encoding $\theta$. Our
+motivation was quantum-public-key cryptography, however the techniques are
+general. We apply our results to quantum-public-key authentication protocols,
+by showing that a natural class of digital signature schemes for classical
+messages is insecure. We also give a protocol for identification that uses many
+of the ideas discussed and whose security relates to our conjecture (but we do
+not know if it is secure).

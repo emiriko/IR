@@ -1,0 +1,21 @@
+A way to optimize performance of relational row store databases is to reduce
+the row widths by vertically partitioning tables into table fractions in order
+to minimize the number of irrelevant columns/attributes read by each
+transaction. This paper considers vertical partitioning algorithms for
+relational row-store OLTP databases with an H-store-like architecture, meaning
+that we would like to maximize the number of single-sited transactions. We
+present a model for the vertical partitioning problem that, given a schema
+together with a vertical partitioning and a workload, estimates the costs
+(bytes read/written by storage layer access methods and bytes transferred
+between sites) of evaluating the workload on the given partitioning. The cost
+model allows for arbitrarily prioritizing load balancing of sites vs. total
+cost minimization. We show that finding a minimum-cost vertical partitioning in
+this model is NP-hard and present two algorithms returning solutions in which
+single-sitedness of read queries is preserved while allowing column replication
+(which may allow a drastically reduced cost compared to disjoint partitioning).
+The first algorithm is a quadratic integer program that finds optimal
+minimum-cost solutions with respect to the model, and the second algorithm is a
+more scalable heuristic based on simulated annealing. Experiments show that the
+algorithms can reduce the cost of the model objective by 37% when applied to
+the TPC-C benchmark and the heuristic is shown to obtain solutions with cost
+close to the ones found using the quadratic program.

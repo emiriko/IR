@@ -1,0 +1,13 @@
+Correlator product states (CPS) are a class of tensor network wavefunctions
+applicable to strongly correlated problems in arbitrary dimensions. Here, we
+present a method for optimizing and evaluating the energy of the CPS
+wavefunction that is non-variational but entirely deterministic. The
+fundamental assumption underlying our technique is that the CPS wavefunction is
+an exact eigenstate of the Hamiltonian, allowing the energy to be obtained
+approximately through a projection of the Schr\"odinger equation. The validity
+of this approximation is tested on two dimensional lattices for the spin-1/2
+antiferromagnetic Heisenberg model, the spinless Hubbard model, and the full
+Hubbard model. In each of these models, the projected method reproduces the
+variational CPS energy to within 1%. For fermionic systems, we also demonstrate
+the incorporation of a Slater determinant reference into the ansatz, which
+allows CPS to act as a generalization of the Jastrow-Slater wavefunction.

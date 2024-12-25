@@ -1,0 +1,16 @@
+We propose automatically learning probabilistic Hierarchical Task Networks
+(pHTNs) in order to capture a user's preferences on plans, by observing only
+the user's behavior. HTNs are a common choice of representation for a variety
+of purposes in planning, including work on learning in planning. Our
+contributions are (a) learning structure and (b) representing preferences. In
+contrast, prior work employing HTNs considers learning method preconditions
+(instead of structure) and representing domain physics or search control
+knowledge (rather than preferences). Initially we will assume that the observed
+distribution of plans is an accurate representation of user preference, and
+then generalize to the situation where feasibility constraints frequently
+prevent the execution of preferred plans. In order to learn a distribution on
+plans we adapt an Expectation-Maximization (EM) technique from the discipline
+of (probabilistic) grammar induction, taking the perspective of task reductions
+as productions in a context-free grammar over primitive actions. To account for
+the difference between the distributions of possible and preferred plans we
+subsequently modify this core EM technique, in short, by rescaling its input.

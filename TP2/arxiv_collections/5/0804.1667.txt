@@ -1,0 +1,13 @@
+LF is a dependent type theory in which many other formal systems can be
+conveniently embedded. However, correct use of LF relies on nontrivial
+metatheoretic developments such as proofs of correctness of decision procedures
+for LF's judgments. Although detailed informal proofs of these properties have
+been published, they have not been formally verified in a theorem prover. We
+have formalized these properties within Isabelle/HOL using the Nominal Datatype
+Package, closely following a recent article by Harper and Pfenning. In the
+process, we identified and resolved a gap in one of the proofs and a small
+number of minor lacunae in others. We also formally derive a version of the
+type checking algorithm from which Isabelle/HOL can generate executable code.
+Besides its intrinsic interest, our formalization provides a foundation for
+studying the adequacy of LF encodings, the correctness of Twelf-style
+metatheoretic reasoning, and the metatheory of extensions to LF.

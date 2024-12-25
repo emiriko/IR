@@ -1,0 +1,24 @@
+This paper studies networks where all nodes are distributed on a unit square
+$A\triangleq[(-1/2,1/2)^{2}$ following a Poisson distribution with known
+density $\rho$ and a pair of nodes separated by an Euclidean distance $x$ are
+directly connected with probability $g(\frac{x}{r_{\rho}})$, independent of the
+event that any other pair of nodes are directly connected. Here
+$g:[0,\infty)\rightarrow[0,1]$ satisfies the conditions of rotational
+invariance, non-increasing monotonicity, integral boundedness and
+$g(x)=o(\frac{1}{x^{2}\log^{2}x})$; further,
+$r_{\rho}=\sqrt{\frac{\log\rho+b}{C\rho}}$ where $C=\int_{\Re^{2}}g(\Vert
+\boldsymbol{x}\Vert)d\boldsymbol{x}$ and $b$ is a constant. Denote the above
+network by\textmd{}$\mathcal{G}(\mathcal{X}_{\rho},g_{r_{\rho}},A)$. We show
+that as $\rho\rightarrow\infty$, asymptotically almost surely a) there is no
+component in $\mathcal{G}(\mathcal{X}_{\rho},g_{r_{\rho}},A)$ of fixed and
+finite order $k>1$; b) the number of components with an unbounded order is one.
+Therefore as $\rho\rightarrow\infty$, the network asymptotically almost surely
+contains a unique unbounded component and isolated nodes only; a sufficient
+condition for $\mathcal{G}(\mathcal{X}_{\rho},g_{r_{\rho}},A)$ to be
+asymptotically almost surely connected is that there is no isolated node in the
+network.{\normalsize{}}The contribution of these results, together with results
+in a companion paper on the asymptotic distribution of isolated nodes in
+\textmd{\normalsize $\mathcal{G}(\mathcal{X}_{\rho},g_{r_{\rho}},A)$}, is to
+expand recent results obtained for connectivity of random geometric graphs from
+the unit disk model to the more generic and more practical random connection
+model.

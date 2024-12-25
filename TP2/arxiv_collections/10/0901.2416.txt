@@ -1,0 +1,10 @@
+An effective way to increase the noise robustness of automatic speech
+recognition is to label noisy speech features as either reliable or unreliable
+(missing) prior to decoding, and to replace the missing ones by clean speech
+estimates. We present a novel method to obtain such clean speech estimates.
+Unlike previous imputation frameworks which work on a frame-by-frame basis, our
+method focuses on exploiting information from a large time-context. Using a
+sliding window approach, denoised speech representations are constructed using
+a sparse representation of the reliable features in an overcomplete basis of
+fixed-length exemplar fragments. We demonstrate the potential of our approach
+with experiments on the AURORA-2 connected digit database.

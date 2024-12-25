@@ -1,0 +1,20 @@
+The direct product problem is a fundamental question in complexity theory
+which seeks to understand how the difficulty of computing a function on each of
+k independent inputs scales with k. We prove the following direct product
+theorem (DPT) for query complexity: if every T-query algorithm has success
+probability at most 1 - eps in computing the Boolean function f on input
+distribution Mu, then for alpha <= 1, every (alpha eps Tk)-query algorithm has
+success probability at most (2^{alpha eps}(1 - eps))^k in computing the k-fold
+direct product f^k correctly on k independent inputs from Mu. In light of
+examples due to Shaltiel, this statement gives an essentially optimal tradeoff
+between the query bound and the error probability. As a corollary, we show that
+for an absolute constant alpha > 0, the worst-case success probability of any
+(alpha R_2(f)k)-query randomized algorithm for f^k falls exponentially with k.
+The best previous statement of this type, due to Klauck, Spalek, and de Wolf,
+required a query bound of O(bs(f)k). The proof involves defining and analyzing
+a collection of martingales associated with an algorithm attempting to solve
+f^k. Our method is quite general and yields a new XOR lemma and threshold DPT
+for the query model, as well as DPTs for the query complexity of learning
+tasks, search problems, and tasks involving interaction with dyamic entities.
+We also give a version of our DPT in which decision tree size is the resource
+of interest.

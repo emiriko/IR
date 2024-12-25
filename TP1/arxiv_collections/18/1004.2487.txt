@@ -1,0 +1,16 @@
+A method for implementing cylindrical coordinates in the Athena
+magnetohydrodynamics (MHD) code is described. The extension follows the
+approach of Athena's original developers and has been designed to alter the
+existing Cartesian-coordinates code as minimally and transparently as possible.
+The numerical equations in cylindrical coordinates are formulated to maintain
+consistency with constrained transport, a central feature of the Athena
+algorithm, while making use of previously implemented code modules such as the
+Riemann solvers. Angular-momentum transport, which is critical in astrophysical
+disk systems dominated by rotation, is treated carefully. We describe
+modifications for cylindrical coordinates of the higher-order spatial
+reconstruction and characteristic evolution steps as well as the finite-volume
+and constrained transport updates. Finally, we present a test suite of standard
+and novel problems in one-, two-, and three-dimensions designed to validate our
+algorithms and implementation and to be of use to other code developers. The
+code is suitable for use in a wide variety of astrophysical applications and is
+freely available for download on the web.

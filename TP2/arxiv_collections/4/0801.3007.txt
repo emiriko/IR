@@ -1,0 +1,24 @@
+Motivation: Array-based comparative genomic hybridization (arrayCGH) has
+recently become a popular tool to identify DNA copy number variations along the
+genome. These profiles are starting to be used as markers to improve prognosis
+or diagnosis of cancer, which implies that methods for automated supervised
+classification of arrayCGH data are needed. Like gene expression profiles,
+arrayCGH profiles are characterized by a large number of variables usually
+measured on a limited number of samples. However, arrayCGH profiles have a
+particular structure of correlations between variables, due to the spatial
+organization of BACs along the genome. This suggests that classical
+classification methods, often based on the selection of a small number of
+discriminative features, may not be the most accurate methods and may not
+produce easily interpretable prediction rules.
+  Results: We propose a new method for supervised classification of arrayCGH
+data. The method is a variant of support vector machine (SVM) that incorporates
+the biological specificities of DNA copy number variations along the genome as
+prior knowledge. The resulting classifier is a sparse linear classifier based
+on a limited number of regions automatically selected on the chromosomes,
+leading to easy interpretation and identification of discriminative regions of
+the genome. We test this method on three classification problems for bladder
+and uveal cancer, involving both diagnosis and prognosis. We demonstrate that
+the introduction of the new prior on the classifier leads not only to more
+accurate predictions, but also to the identification of known and new regions
+of interest in the genome.
+  Availability: All data and algorithms are publicly available.

@@ -1,0 +1,21 @@
+We present results and conjectures on the van der Waerden numbers w(2;3,t)
+and on the new palindromic van der Waerden numbers pdw(2;3,t). We have computed
+the new number w(2;3,19) = 349, and we provide lower bounds for 20 <= t <= 39,
+where for t <= 30 we conjecture these lower bounds to be exact. The lower
+bounds for 24 <= t <= 30 refute the conjecture that w(2;3,t) <= t^2, and we
+present an improved conjecture. We also investigate regularities in the good
+partitions (certificates) to better understand the lower bounds.
+  Motivated by such reglarities, we introduce *palindromic van der Waerden
+numbers* pdw(k; t_0,...,t_{k-1}), defined as ordinary van der Waerden numbers
+w(k; t_0,...,t_{k-1}), however only allowing palindromic solutions (good
+partitions), defined as reading the same from both ends. Different from the
+situation for ordinary van der Waerden numbers, these "numbers" need actually
+to be pairs of numbers. We compute pdw(2;3,t) for 3 <= t <= 27, and we provide
+lower bounds, which we conjecture to be exact, for t <= 35.
+  All computations are based on SAT solving, and we discuss the various
+relations between SAT solving and Ramsey theory. Especially we introduce a
+novel (open-source) SAT solver, the tawSolver, which performs best on the SAT
+instances studied here, and which is actually the original DLL-solver, but with
+an efficient implementation and a modern heuristic typical for look-ahead
+solvers (applying the theory developed in the SAT handbook article of the
+second author).

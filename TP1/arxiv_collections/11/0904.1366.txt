@@ -1,0 +1,19 @@
+The dramatic growth in the number of application domains that naturally
+generate probabilistic, uncertain data has resulted in a need for efficiently
+supporting complex querying and decision-making over such data. In this paper,
+we present a unified approach to ranking and top-k query processing in
+probabilistic databases by viewing it as a multi-criteria optimization problem,
+and by deriving a set of features that capture the key properties of a
+probabilistic dataset that dictate the ranked result. We contend that a single,
+specific ranking function may not suffice for probabilistic databases, and we
+instead propose two parameterized ranking functions, called PRF-w and PRF-e,
+that generalize or can approximate many of the previously proposed ranking
+functions. We present novel generating functions-based algorithms for
+efficiently ranking large datasets according to these ranking functions, even
+if the datasets exhibit complex correlations modeled using probabilistic
+and/xor trees or Markov networks. We further propose that the parameters of the
+ranking function be learned from user preferences, and we develop an approach
+to learn those parameters. Finally, we present a comprehensive experimental
+study that illustrates the effectiveness of our parameterized ranking
+functions, especially PRF-e, at approximating other ranking functions and the
+scalability of our proposed algorithms for exact or approximate ranking.

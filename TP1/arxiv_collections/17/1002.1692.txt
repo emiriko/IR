@@ -1,0 +1,16 @@
+UCMs (Use Case Maps) model describes functional requirements and high-level
+designs with causal paths superimposed on a structure of components. It could
+provide useful resources for software acceptance testing. However until now
+statistical testing technologies for large scale software is not considered yet
+in UCMs model. Thus if one applies UCMs model to a large scale software using
+traditional coverage based exhaustive tasting, then it requires too much costs
+for the quality assurance. Therefore this paper proposes an importance analysis
+of UCMs model with Markov chains. With this approach not only highly frequently
+used usage scenarios but also important objects such as components,
+responsibilities, stubs and plugins can also be identified from UCMs
+specifications. Therefore careful analysis, design, implementation and
+efficient testing could be possible with the importance of scenarios and
+objects during the full software life cycle. Consequently product reliability
+can be obtained with low costs. This paper includes an importance analysis
+method that identifies important scenarios and objects and a case study to
+illustrate the applicability of the proposed approach.

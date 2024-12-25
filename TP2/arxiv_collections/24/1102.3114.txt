@@ -1,0 +1,12 @@
+Solid State Disk technologies are increasingly replacing high-speed hard
+disks as the storage technology in high-random-I/O environments. There are
+several potentially I/O bound services within the typical LHC Tier-2 - in the
+back-end, with the trend towards many-core architectures continuing, worker
+nodes running many single-threaded jobs and storage nodes delivering many
+simultaneous files can both exhibit I/O limited efficiency. We estimate the
+effectiveness of affordable SSDs in the context of worker nodes, on a large
+Tier-2 production setup using both low level tools and real LHC I/O intensive
+data analysis jobs comparing and contrasting with high performance spinning
+disk based solutions. We consider the applicability of each solution in the
+context of its price/performance metrics, with an eye on the pragmatic issues
+facing Tier-2 provision and upgrades

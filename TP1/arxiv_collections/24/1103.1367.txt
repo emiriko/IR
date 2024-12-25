@@ -1,0 +1,11 @@
+Differential privacy is a rigorous privacy condition achieved by randomizing
+query answers. This paper develops efficient algorithms for answering multiple
+queries under differential privacy with low error. We pursue this goal by
+advancing a recent approach called the matrix mechanism, which generalizes
+standard differentially private mechanisms. This new mechanism works by first
+answering a different set of queries (a strategy) and then inferring the
+answers to the desired workload of queries. Although a few strategies are known
+to work well on specific workloads, finding the strategy which minimizes error
+on an arbitrary workload is intractable. We prove a new lower bound on the
+optimal error of this mechanism, and we propose an efficient algorithm that
+approaches this bound for a wide range of workloads.

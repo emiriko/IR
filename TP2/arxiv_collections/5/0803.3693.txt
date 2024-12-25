@@ -1,0 +1,24 @@
+The retrieval problem is the problem of associating data with keys in a set.
+Formally, the data structure must store a function f: U ->{0,1}^r that has
+specified values on the elements of a given set S, a subset of U, |S|=n, but
+may have any value on elements outside S. Minimal perfect hashing makes it
+possible to avoid storing the set S, but this induces a space overhead of
+Theta(n) bits in addition to the nr bits needed for function values. In this
+paper we show how to eliminate this overhead. Moreover, we show that for any k
+query time O(k) can be achieved using space that is within a factor 1+e^{-k} of
+optimal, asymptotically for large n. If we allow logarithmic evaluation time,
+the additive overhead can be reduced to O(log log n) bits whp. The time to
+construct the data structure is O(n), expected. A main technical ingredient is
+to utilize existing tight bounds on the probability of almost square random
+matrices with rows of low weight to have full row rank. In addition to direct
+constructions, we point out a close connection between retrieval structures and
+hash tables where keys are stored in an array and some kind of probing scheme
+is used. Further, we propose a general reduction that transfers the results on
+retrieval into analogous results on approximate membership, a problem
+traditionally addressed using Bloom filters. Again, we show how to eliminate
+the space overhead present in previously known methods, and get arbitrarily
+close to the lower bound. The evaluation procedures of our data structures are
+extremely simple (similar to a Bloom filter). For the results stated above we
+assume free access to fully random hash functions. However, we show how to
+justify this assumption using extra space o(n) to simulate full randomness on a
+RAM.

@@ -1,0 +1,11 @@
+TLAPS, the TLA+ proof system, is a platform for the development and
+mechanical verification of TLA+ proofs written in a declarative style requiring
+little background beyond elementary mathematics. The language supports
+hierarchical and non-linear proof construction and verification, and it is
+independent of any verification tool or strategy. A Proof Manager uses backend
+verifiers such as theorem provers, proof assistants, SMT solvers, and decision
+procedures to check TLA+ proofs. This paper documents the first public release
+of TLAPS, distributed with a BSD-like license. It handles almost all the
+non-temporal part of TLA+ as well as the temporal reasoning needed to prove
+standard safety properties, in particular invariance and step simulation, but
+not liveness properties.

@@ -1,0 +1,17 @@
+A novel channel coding scheme for progressive transmission of large images is
+proposed. The transmission time, low distortion reconstructed image and low
+complexity are most concerned in this paper. In the case of medical data
+transmission, it is vital to keep the distortion level under control as in most
+of the cases certain clinically important regions have to be transmitted
+without any visible error. The proposed system significantly reduces the
+transmission time and error. The progressive transmission is based on the
+process that the input image is decomposed into many subblocks each to be
+coded, compressed, and transmitted individually. Therefore, firstly the image
+is segmented into a number of subblocks and then the discrete wavelet transform
+decomposes each subblock into different time-frequency components. Finally the
+components are coded for error control and transmitted. The complete system is
+coded in VHDL. In the proposed system, we choose a 3-level Haar wavelet
+transform to perform the wavelet transform for each subblock. It is simple,
+faster and easier to implement when compared with other transform method. The
+channel coding used here is Hamming code which is a simpler and efficient
+forward error control code.

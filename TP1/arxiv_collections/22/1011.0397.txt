@@ -1,0 +1,14 @@
+We study the time-bounded reachability problem for continuous-time Markov
+decision processes (CTMDPs) and games (CTMGs). Existing techniques for this
+problem use discretisation techniques to break time into discrete intervals,
+and optimal control is approximated for each interval separately. Current
+techniques provide an accuracy of O(\epsilon^2) on each interval, which leads
+to an infeasibly large number of intervals. We propose a sequence of
+approximations that achieve accuracies of O(\epsilon^3), O(\epsilon^4), and
+O(\epsilon^5), that allow us to drastically reduce the number of intervals that
+are considered. For CTMDPs, the performance of the resulting algorithms is
+comparable to the heuristic approach given by Buckholz and Schulz, while also
+being theoretically justified. All of our results generalise to CTMGs, where
+our results yield the first practically implementable algorithms for this
+problem. We also provide positional strategies for both players that achieve
+similar error bounds.

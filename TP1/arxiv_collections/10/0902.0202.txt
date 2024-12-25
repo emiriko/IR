@@ -1,0 +1,12 @@
+We present two quite different algorithms to compute the number of elements
+in the sphere of radius $n$ of Thompson's group $F$ with standard generating
+set. The first of these requires exponential time and polynomial space, but
+additionally computes the number of geodesics and is generalisable to many
+other groups.
+  The second algorithm requires polynomial time and space and allows us to
+compute the size of the spheres of radius $n$ with $n \leq 1500$. Using the
+resulting series data we find that the growth rate of the group is bounded
+above by $2.62167...$. This is very close to Guba's lower bound of
+$\tfrac{3+\sqrt{5}}{2}$ \cite{Guba2004}. Indeed, numerical analysis of the
+series data strongly suggests that the growth rate of the group is exactly
+$\tfrac{3+\sqrt{5}}{2}$.

@@ -1,0 +1,15 @@
+Uncertainty in Logic Programming has been investigated during the last
+decades, dealing with various extensions of the classical LP paradigm and
+different applications. Existing proposals rely on different approaches, such
+as clause annotations based on uncertain truth values, qualification values as
+a generalization of uncertain truth values, and unification based on proximity
+relations. On the other hand, the CLP scheme has established itself as a
+powerful extension of LP that supports efficient computation over specialized
+domains while keeping a clean declarative semantics. In this report we propose
+a new scheme SQCLP designed as an extension of CLP that supports qualification
+values and proximity relations. We show that several previous proposals can be
+viewed as particular cases of the new scheme, obtained by partial
+instantiation. We present a declarative semantics for SQCLP that is based on
+observables, providing fixpoint and proof-theoretical characterizations of
+least program models as well as an implementation-independent notion of goal
+solutions.

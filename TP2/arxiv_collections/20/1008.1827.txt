@@ -1,0 +1,22 @@
+Motivated by the fact that in many game-theoretic settings, the game analyzed
+is only an approximation to the game being played, in this work we analyze
+equilibrium computation for the broad and natural class of bimatrix games that
+are stable to perturbations. We specifically focus on games with the property
+that small changes in the payoff matrices do not cause the Nash equilibria of
+the game to fluctuate wildly. For such games we show how one can compute
+approximate Nash equilibria more efficiently than the general result of Lipton
+et al. \cite{LMM03}, by an amount that depends on the degree of stability of
+the game and that reduces to their bound in the worst case. Furthermore, we
+show that for stable games the approximate equilibria found will be close in
+variation distance to true equilibria, and moreover this holds even if we are
+given as input only a perturbation of the actual underlying stable game.
+  For uniformly-stable games, where the equilibria fluctuate at most
+quasi-linearly in the extent of the perturbation, we get a particularly
+dramatic improvement. Here, we achieve a fully quasi-polynomial-time
+approximation scheme: that is, we can find $1/\poly(n)$-approximate equilibria
+in quasi-polynomial time. This is in marked contrast to the general class of
+bimatrix games for which finding such approximate equilibria is PPAD-hard. In
+particular, under the (widely believed) assumption that PPAD is not contained
+in quasi-polynomial time, our results imply that such uniformly stable games
+are inherently easier for computation of approximate equilibria than general
+bimatrix games.

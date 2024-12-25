@@ -1,0 +1,12 @@
+We present a new class of exponential integrators for ordinary differential
+equations. They are locally exact, i.e., they preserve the linearization of the
+original system at every point. Their construction consists in modifying
+existing numerical schemes in order to make them locally exact. The resulting
+schemes preserve all fixed points and are A-stable. The most promising results
+concern the discrete gradient method (modified implicit midpoint rule) where we
+succeeded to preserve essential geometric properties and the final results have
+a relatively simple form. In the case of one-dimensional Hamiltonian systems
+numerical experiments show that our modifications can increase the accuracy by
+several orders of magnitude. The main result of this paper is the construction
+of energy-preserving locally exact discrete gradient schemes for arbitrary
+multidimensional Hamiltonian systems in canonical coordinates.

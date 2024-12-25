@@ -1,0 +1,19 @@
+Let $K$ denote a field and let $V$ denote a vector space over $K$ with finite
+positive dimension. We consider a pair of $K$-linear transformations $A:V \to
+V$ and $A^*:V \to V$ that satisfies the following conditions:
+  (i) each of $A,A^*$ is diagonalizable;
+  (ii) there exists an ordering ${V_i}_{i=0}^d$ of the eigenspaces of $A$ such
+that $A^* V_i \subseteq V_{i-1} + V_{i} + V_{i+1}$ for $0 \leq i \leq d$, where
+$V_{-1}=0$ and $V_{d+1}=0$;
+  (iii) there exists an ordering ${V^*_i}_{i=0}^\delta$ of the eigenspaces of
+$A^*$ such that $A V^*_i \subseteq V^*_{i-1} + V^*_{i} + V^*_{i+1}$ for $0 \leq
+i \leq \delta$, where $V^*_{-1}=0$ and $V^*_{\delta+1}=0$;
+  (iv) there is no subspace $W$ of $V$ such that $AW \subseteq W$, $A^* W
+\subseteq W$, $W \neq 0$, $W \neq V$.
+  We call such a pair a {\em tridiagonal pair} on $V$. It is known that
+$d=\delta$ and for $0 \leq i \leq d$ the dimensions of $V_i$, $V_{d-i}$,
+$V^*_i$, $V^*_{d-i}$ coincide. We say the pair $A,A^*$ is {\em sharp} whenever
+$\dim V_0=1$. A conjecture of Tatsuro Ito and the second author states that if
+$K$ is algebraically closed then $A,A^*$ is sharp. In order to better
+understand and eventually prove the conjecture, in this paper we begin a
+systematic study of the sharp tridiagonal pairs.

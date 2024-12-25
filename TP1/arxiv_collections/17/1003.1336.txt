@@ -1,0 +1,7 @@
+Virtual memory of computers is usually implemented by demand paging. For some
+page replacement algorithms the number of page faults may increase as the
+number of page frames increases. Belady, Nelson and Shedler constructed
+reference strings for which page replacement algorithm FIFO produces near twice
+more page faults in a larger memory than in a smaller one. They formulated the
+conjecture that 2 is a general bound. We prove that this ratio can be
+arbitrarily large.

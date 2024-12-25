@@ -1,0 +1,11 @@
+In this paper we propose a new practical P2P system based on a full
+transposition network topology named TRANS-Net. Full transposition networks
+achieve higher fault-tolerance and lower congestion among the class of
+transposition networks. TRANS-Net provides an efficient lookup service i.e. k
+hops with high probability, where k satisfies Theta(log_n m) less than k less
+than Theta(log_2 m), where m denotes the number of system nodes and n is a
+system parameter related to the maximum number that m can take (up to n!).
+Experiments show that the look-up performance achieves the lower limit of the
+complexity relation. TRANS-Net also preserves data locality and provides
+efficient look-up performance for complex queries such as multi-dimensional
+queries.

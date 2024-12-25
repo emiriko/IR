@@ -1,0 +1,19 @@
+In this paper, we consider the following type of non-local
+  (pseudo-differential) operators $\LL $ on $\R^d$:
+  $$
+  \LL u(x) =\frac12 \sum_{i, j=1}^d \frac{\partial}{\partial x_i} (a_{ij}(x)
+\frac{\partial}{\partial x_j}) +
+  \lim_{\eps \downarrow 0} \int_{\{y\in \R^d: |y-x|>\eps\}}
+  (u(y)-u(x)) J(x, y) dy,
+  $$ where $A(x)=(a_{ij}(x))_{1\leq i, j\leq d}$ is a measurable $d\times d$
+matrix-valued function on $\R^d$ that is uniform elliptic and bounded and $J$
+is a symmetric measurable non-trivial non-negative kernel on $\R^d\times \R^d$
+satisfying certain conditions. Corresponding to $\LL$ is a symmetric strong
+Markov process $X$ on $\R^d$ that has both the diffusion component and pure
+jump component. We establish a priori H\"older estimate for bounded parabolic
+functions of $\LL$ and parabolic Harnack principle for positive parabolic
+functions of $\LL$. Moreover, two-sided sharp heat kernel estimates are derived
+for such operator $\LL$ and jump-diffusion $X$. In particular, our results
+apply to the mixture of symmetric diffusion of uniformly elliptic divergence
+form operator and mixed stable-like processes on $\R^d$. To establish these
+results, we employ methods from both probability theory and analysis.

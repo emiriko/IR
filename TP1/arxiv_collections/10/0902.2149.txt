@@ -1,0 +1,19 @@
+The Nemhauser-Trotter local optimization theorem applies to the NP-hard
+Vertex Cover problem and has applications in approximation as well as
+parameterized algorithmics. We present a framework that generalizes Nemhauser
+and Trotter's result to vertex deletion and graph packing problems, introducing
+novel algorithmic strategies based on purely combinatorial arguments (not
+referring to linear programming as the Nemhauser-Trotter result originally
+did). We exhibit our framework using a generalization of Vertex Cover, called
+Bounded- Degree Deletion, that has promise to become an important tool in the
+analysis of gene and other biological networks. For some fixed d \geq 0,
+Bounded-Degree Deletion asks to delete as few vertices as possible from a graph
+in order to transform it into a graph with maximum vertex degree at most d.
+Vertex Cover is the special case of d = 0. Our generalization of the
+Nemhauser-Trotter theorem implies that Bounded-Degree Deletion has a problem
+kernel with a linear number of vertices for every constant d. We also outline
+an application of our extremal combinatorial approach to the problem of packing
+stars with a bounded number of leaves. Finally, charting the border between
+(parameterized) tractability and intractability for Bounded-Degree Deletion, we
+provide a W[2]-hardness result for Bounded-Degree Deletion in case of unbounded
+d-values.

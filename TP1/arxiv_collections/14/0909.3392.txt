@@ -1,0 +1,13 @@
+An XOR function is a function of the form g(x,y) = f(x + y), for some boolean
+function f on n bits. We study the quantum and classical communication
+complexity of XOR functions. In the case of exact protocols, we completely
+characterise one-way communication complexity for all f. We also show that,
+when f is monotone, g's quantum and classical complexities are quadratically
+related, and that when f is a linear threshold function, g's quantum complexity
+is Theta(n). More generally, we make a structural conjecture about the Fourier
+spectra of boolean functions which, if true, would imply that the quantum and
+classical exact communication complexities of all XOR functions are
+asymptotically equivalent. We give two randomised classical protocols for
+general XOR functions which are efficient for certain functions, and a third
+protocol for linear threshold functions with high margin. These protocols
+operate in the symmetric message passing model with shared randomness.

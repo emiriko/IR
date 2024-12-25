@@ -1,0 +1,16 @@
+This paper investigates the limit behavior of Markov Decision Processes
+(MDPs) made of independent particles evolving in a common environment, when the
+number of particles goes to infinity. In the finite horizon case or with a
+discounted cost and an infinite horizon, we show that when the number of
+particles becomes large, the optimal cost of the system converges almost surely
+to the optimal cost of a discrete deterministic system (the ``optimal mean
+field''). Convergence also holds for optimal policies. We further provide
+insights on the speed of convergence by proving several central limits theorems
+for the cost and the state of the Markov decision process with explicit
+formulas for the variance of the limit Gaussian laws. Then, our framework is
+applied to a brokering problem in grid computing. The optimal policy for the
+limit deterministic system is computed explicitly. Several simulations with
+growing numbers of processors are reported. They compare the performance of the
+optimal policy of the limit system used in the finite case with classical
+policies (such as Join the Shortest Queue) by measuring its asymptotic gain as
+well as the threshold above which it starts outperforming classical policies.

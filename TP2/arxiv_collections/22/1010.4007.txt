@@ -1,0 +1,21 @@
+Information security has become a cause of concern because of the electronic
+eavesdropping. Capacity, robustness and invisibility are important parameters
+in information hiding and are quite difficult to achieve in a single algorithm.
+This paper proposes a novel steganography technique for digital color image
+which achieves the purported targets. The professed methodology employs a
+complete random scheme for pixel selection and embedding of data. Of the three
+colour channels (Red, Green, Blue) in a given colour image, the least two
+significant bits of any one of the channels of the color image is used to
+channelize the embedding capacity of the remaining two channels. We have
+devised three approaches to achieve various levels of our desired targets. In
+the first approach, Red is the default guide but it results in localization of
+MSE in the remaining two channels, which makes it slightly vulnerable. In the
+second approach, user gets the liberty to select the guiding channel (Red,
+Green or Blue) to guide the remaining two channels. It will increase the
+robustness and imperceptibility of the embedded image however the MSE factor
+will still remain as a drawback. The third approach improves the performance
+factor as a cyclic methodology is employed and the guiding channel is selected
+in a cyclic fashion. This ensures the uniform distribution of MSE, which gives
+better robustness and imperceptibility along with enhanced embedding capacity.
+The imperceptibility has been enhanced by suitably adapting optimal pixel
+adjustment process (OPAP) on the stego covers.

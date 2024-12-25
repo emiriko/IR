@@ -1,0 +1,19 @@
+Graphics processing units (GPUs) are gaining widespread use in computational
+chemistry and other scientific simulation contexts because of their huge
+performance advantages relative to conventional CPUs. However, the reliability
+of GPUs in error-intolerant applications is largely unproven. In particular, a
+lack of error checking and correcting (ECC) capability in the memory subsystems
+of graphics cards has been cited as a hindrance to the acceptance of GPUs as
+high-performance coprocessors, but the impact of this design has not been
+previously quantified.
+  In this article we present MemtestG80, our software for assessing memory
+error rates on NVIDIA G80 and GT200-architecture-based graphics cards.
+Furthermore, we present the results of a large-scale assessment of GPU error
+rate, conducted by running MemtestG80 on over 20,000 hosts on the Folding@home
+distributed computing network. Our control experiments on consumer-grade and
+dedicated-GPGPU hardware in a controlled environment found no errors. However,
+our survey over cards on Folding@home finds that, in their installed
+environments, two-thirds of tested GPUs exhibit a detectable, pattern-sensitive
+rate of memory soft errors. We demonstrate that these errors persist after
+controlling for overclocking and environmental proxies for temperature, but
+depend strongly on board architecture.

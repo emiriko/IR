@@ -1,0 +1,22 @@
+The entangled graph states have emerged as an elegant and powerful quantum
+resource, indeed almost all multiparty protocols can be written in terms of
+graph states including measurement based quantum computation (MBQC), error
+correction and secret sharing amongst others. In addition they are at the
+forefront in terms of implementations. As such they represent an excellent
+opportunity to move towards integrated protocols involving many of these
+elements. In this paper we look at expressing and extending graph state secret
+sharing and MBQC in a common framework and graphical language related to flow.
+We do so with two main contributions.
+  First we express in entirely graphical terms which set of players can access
+which information in graph state secret sharing protocols. These succinct
+graphical descriptions of access allow us to take known results from graph
+theory to make statements on the generalisation of the previous schemes to
+present new secret sharing protocols.
+  Second, we give a set of necessary conditions as to when a graph with flow,
+i.e. capable of performing a class of unitary operations, can be extended to
+include vertices which can be ignored, pointless measurements, and hence
+considered as unauthorised players in terms of secret sharing, or error qubits
+in terms of fault tolerance. This offers a way to extend existing MBQC patterns
+to secret sharing protocols. Our characterisation of pointless measurements is
+believed also to be a useful tool for further integrated measurement based
+schemes, for example in constructing fault tolerant MBQC schemes.

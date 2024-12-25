@@ -1,0 +1,14 @@
+A linear extension of a poset $P$ is a permutation of the elements of the set
+that respects the partial order. Let $L(P)$ denote the number of linear
+extensions. It is a #P complete problem to determine $L(P)$ exactly for an
+arbitrary poset, and so randomized approximation algorithms that draw randomly
+from the set of linear extensions are used. In this work, the set of linear
+extensions is embedded in a larger state space with a continuous parameter ?.
+The introduction of a continuous parameter allows for the use of a more
+efficient method for approximating $L(P)$ called TPA. Our primary result is
+that it is possible to sample from this continuous embedding in time that as
+fast or faster than the best known methods for sampling uniformly from linear
+extensions. For a poset containing $n$ elements, this means we can approximate
+$L(P)$ to within a factor of $1 + \epsilon$ with probability at least $1 -
+\delta$ using an expected number of random bits and comparisons in the poset
+which is at most $O(n^3(ln n)(ln L(P))\epsilon^{-2}\ln \delta^{-1}).$

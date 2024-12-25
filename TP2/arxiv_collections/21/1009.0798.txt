@@ -1,0 +1,11 @@
+An implicit method for the ohmic dissipation is proposed. The proposed method
+is based on the Crank-Nicolson method and exhibits second-order accuracy in
+time and space. The proposed method has been implemented in the SFUMATO
+adaptive mesh refinement (AMR) code. The multigrid method on the grids of the
+AMR hierarchy converges the solution. The convergence is fast but depends on
+the time step, resolution, and resistivity. Test problems demonstrated that
+decent solutions are obtained even at the interface between fine and coarse
+grids. Moreover, the solution obtained by the proposed method shows good
+agreement with that obtained by the explicit method, which required many time
+steps. The present method reduces the number of time steps, and hence the
+computational costs, as compared with the explicit method.

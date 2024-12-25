@@ -1,0 +1,13 @@
+The surface code is a powerful quantum error correcting code that can be
+defined on a 2-D square lattice of qubits with only nearest neighbor
+interactions. Syndrome and data qubits form a checkerboard pattern. Information
+about errors is obtained by repeatedly measuring each syndrome qubit after
+appropriate interaction with its four nearest neighbor data qubits. Changes in
+the measurement value indicate the presence of chains of errors in space and
+time. The standard method of determining operations likely to return the code
+to its error-free state is to use the minimum weight matching algorithm to
+connect pairs of measurement changes with chains of corrections such that the
+minimum total number of corrections is used. Prior work has not taken into
+account the propagation of errors in space and time by the two-qubit
+interactions. We show that taking this into account leads to a quadratic
+improvement of the logical error rate.

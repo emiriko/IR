@@ -1,0 +1,9 @@
+Commutative Replicated Data-Type (CRDT) is a new class of algorithms that
+ensures scalable consistency of replicated data. It has been successfully
+applied to collaborative editing of texts without complex concurrency control.
+In this paper, we present a CRDT to edit XML data. Compared to existing
+approaches for XML collaborative editing, our approach is more scalable and
+handles all the XML editing aspects : elements, contents, attributes and undo.
+Indeed, undo is recognized as an important feature for collaborative editing
+that allows to overcome system complexity through error recovery or
+collaborative conflict resolution.

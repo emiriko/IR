@@ -1,0 +1,8 @@
+We propose a novel error concealment algorithm to be used at the receiver
+side of a lossy image transmission system. Our algorithm involves hiding the
+edge map of the original image at the transmitter within itself using a robust
+watermarking scheme. At the receiver, wherever a lost block is detected, the
+extracted edge information is used as border constraint for the spatial
+smoothing employing the intact neighboring blocks in order to conceal errors.
+Simulation results show the superiority of our technique over existing methods
+even in case of high packet loss ratios in the communication network.

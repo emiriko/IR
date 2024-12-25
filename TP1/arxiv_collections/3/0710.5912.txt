@@ -1,0 +1,14 @@
+We study numerically phase separation in a binary fluid subject to an applied
+shear flow in two dimensions, with full hydrodynamics. To do so, we introduce a
+mixed finite-differencing/spectral simulation technique, with a transformation
+to render trivial the implementation of Lees-Edwards sheared periodic boundary
+conditions. For systems with inertia, we reproduce the nonequilibrium steady
+states reported in a recent lattice Boltzmann study. The domain coarsening that
+would occur in zero shear is arrested by the applied shear flow, which restores
+a finite domain size set by the inverse shear rate. For inertialess systems, in
+contrast, we find no evidence of nonequilibrium steady states free of finite
+size effects: coarsening persists indefinitely until the typical domain size
+attains the system size, as in zero shear. We present an analytical argument
+that supports this observation, and that furthermore provides a possible
+explanation for a hitherto puzzling property of the nonequilibrium steady
+states with inertia.

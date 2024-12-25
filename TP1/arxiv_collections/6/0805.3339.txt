@@ -1,0 +1,15 @@
+Bitmap indexes are frequently used to index multidimensional data. They rely
+mostly on sequential input/output. Bitmaps can be compressed to reduce
+input/output costs and minimize CPU usage. The most efficient compression
+techniques are based on run-length encoding (RLE), such as Word-Aligned Hybrid
+(WAH) compression. This type of compression accelerates logical operations
+(AND, OR) over the bitmaps. However, run-length encoding is sensitive to the
+order of the facts. Thus, we propose to sort the fact tables. We review
+lexicographic, Gray-code, and block-wise sorting. We found that a lexicographic
+sort improves compression--sometimes generating indexes twice as small--and
+make indexes several times faster. While sorting takes time, this is partially
+offset by the fact that it is faster to index a sorted table. Column order is
+significant: it is generally preferable to put the columns having more distinct
+values at the beginning. A block-wise sort is much less efficient than a full
+sort. Moreover, we found that Gray-code sorting is not better than
+lexicographic sorting when using word-aligned compression.

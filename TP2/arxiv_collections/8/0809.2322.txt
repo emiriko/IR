@@ -1,0 +1,22 @@
+An ad-hoc wireless network is a collection of nodes that come together to
+dynamically create a network, with no fixed infrastructure or centralized
+administration. An ad-hoc network is characterized by energy constrained nodes,
+bandwidth constrained links and dynamic topology. With the growing use of
+wireless networks (including ad-hoc networks) for real-time applications, such
+as voice, video, and real-time data, the need for Quality of Service (QoS)
+guarantees in terms of delay, bandwidth, and packet loss is becoming
+increasingly important. Providing QoS in ad-hoc networks is a challenging task
+because of dynamic nature of network topology and imprecise state information.
+Hence, it is important to have a dynamic routing protocol with fast re-routing
+capability, which also provides stable route during the life-time of the flows.
+  In this thesis, we have proposed a novel, energy aware, stable routing
+protocol named, Stability-based QoS-capable Ad-hoc On-demand Distance Vector
+(SQ-AODV), which is an enhancement of the well-known Ad-hoc On-demand Distance
+Vector (AODV) routing protocol for ad-hoc wireless networks. SQ-AODV utilizes a
+cross-layer design approach in which information about the residual energy of a
+node is used for route selection and maintenance. An important feature of
+SQ-AODV protocol is that it uses only local information and requires no
+additional communication or co-operation between the network nodes. SQ-AODV
+possesses a make-before-break re-routing capability that enables near-zero
+packet drops and is compatible with the basic AODV data formats and operation,
+making it easy to adopt in ad-hoc networks.

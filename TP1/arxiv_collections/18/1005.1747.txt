@@ -1,0 +1,12 @@
+In mobile database environments, multiple users may access similar data items
+irrespective of their physical location leading to concurrent access anomalies.
+As disconnections and mobility are the common characteristics in mobile
+environment, performing concurrent access to a particular data item leads to
+inconsistency. Most of the approaches use locking mechanisms to achieve
+concurrency control. However this leads to increase in blocking and abort rate.
+In this paper an optimistic concurrency control strategy using on-demand
+multicasting is proposed for mobile database environments which guarantees
+consistency and introduces application-specific conflict detection and
+resolution strategies. The simulation results specify increase in system
+throughput by reducing the transaction abort rates as compared to the other
+optimistic strategies proposed in literature.

@@ -1,0 +1,16 @@
+A new modular code called BOUT++ is presented, which simulates 3D fluid
+equations in curvilinear coordinates. Although aimed at simulating Edge
+Localised Modes (ELMs) in tokamak X-point geometry, the code is able to
+simulate a wide range of fluid models (magnetised and unmagnetised) involving
+an arbitrary number of scalar and vector fields, in a wide range of geometries.
+Time evolution is fully implicit, and 3rd-order WENO schemes are implemented.
+Benchmarks are presented for linear and non-linear problems (the Orszag-Tang
+vortex) showing good agreement. Performance of the code is tested by scaling
+with problem size and processor number, showing efficient scaling to thousands
+of processors.
+  Linear initial-value simulations of ELMs using reduced ideal MHD are
+presented, and the results compared to the ELITE linear MHD eigenvalue code.
+The resulting mode-structures and growth-rate are found to be in good agreement
+(BOUT++ = 0.245, ELITE = 0.239). To our knowledge, this is the first time
+dissipationless, initial-value simulations of ELMs have been successfully
+demonstrated.

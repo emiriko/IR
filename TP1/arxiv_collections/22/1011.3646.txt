@@ -1,0 +1,21 @@
+We generalize the binary quantum counting algorithm of Lesovik, Suslov, and
+Blatter [Phys. Rev. A 82, 012316 (2010)] to higher counting bases. The
+algorithm makes use of qubits, qutrits, and qudits to count numbers in a base
+2, base 3, or base d representation. In operating the algorithm, the number n <
+N = d^K is read into a K-qudit register through its interaction with a stream
+of n particles passing in a nearby wire; this step corresponds to a quantum
+Fourier transformation from the Hilbert space of particles to the Hilbert space
+of qudit states. An inverse quantum Fourier transformation provides the number
+n in the base d representation; the inverse transformation is fully quantum at
+the level of individual qudits, while a simpler semi-classical version can be
+used on the level of qudit registers. Combining registers of qubits, qutrits,
+and qudits, where d is a prime number, with a simpler single-shot measurement
+allows to find the powers of 2, 3, and other primes d in the number n. We show,
+that the counting task naturally leads to the shift operation and an algorithm
+based on the quantum Fourier transformation. We discuss possible
+implementations of the algorithm using quantum spin-d systems, d-well systems,
+and their emulation with spin-1/2 or double-well systems. We establish the
+analogy between our counting algorithm and the phase estimation algorithm and
+make use of the latter's performance analysis in stabilizing our scheme.
+Applications embrace a quantum metrological scheme to measure a voltage (analog
+to digital converter) and a simple procedure to entangle multi-particle states.

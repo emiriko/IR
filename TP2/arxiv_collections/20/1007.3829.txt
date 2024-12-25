@@ -1,0 +1,9 @@
+We observe that the various formulations of the operational semantics of
+Constraint Handling Rules proposed over the years fall into a spectrum ranging
+from the analytical to the pragmatic. While existing analytical formulations
+facilitate program analysis and formal proofs of program properties, they
+cannot be implemented as is. We propose a novel operational semantics, which
+has a strong analytical foundation, while featuring a terminating execution
+model. We prove its soundness and completeness with respect to existing
+analytical formulations and we provide an implementation in the form of a
+source-to-source transformation to CHR with rule priorities.

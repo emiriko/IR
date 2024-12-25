@@ -1,0 +1,17 @@
+Formal verification techniques have been playing an important role in
+pre-silicon validation processes. One of the most important points considered
+in performing formal verification is to define good verification scopes; we
+should define clearly what to be verified formally upon designs under tests. We
+considered the following three practical requirements when we defined the scope
+of formal verification. They are (a) hard to verify (b) small to handle, and
+(c) easy to understand. Our novel approach is to break down generic properties
+for system into stereotype properties in block level and to define requirements
+for Verifiable RTL. Consequently, each designer instead of verification experts
+can describe properties of the design easily, and formal model checking can be
+applied systematically and thoroughly to all the leaf modules. During the
+development of a component chip for server platforms, we focused on RAS
+(Reliability, Availability, and Serviceability) features and described more
+than 2000 properties in PSL. As a result of the formal verification, we found
+several critical logic bugs in a short time with limited resources, and
+successfully verified all of them. This paper presents a study of the
+functional verification methodology.

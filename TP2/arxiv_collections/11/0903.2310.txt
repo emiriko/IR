@@ -1,0 +1,15 @@
+For a set of mulitple sequences, their patterns,Longest Common Subsequences
+(LCS) and Shortest Common Supersequences (SCS) represent different aspects of
+these sequences profile, and they can all be used for biological sequence
+comparisons and analysis. Revealing the relationship between the patterns and
+LCS,SCS might provide us with a deeper view of the patterns of biological
+sequences, in turn leading to better understanding of them. However, There is
+no careful examinaton about the relationship between patterns, LCS and SCS. In
+this paper, we have analyzed their relation, and given some lemmas. Based on
+their relations, a set of algorithms called the PALS (PAtterns by Lcs and Scs)
+algorithms are propsoed to discover patterns in a set of biological sequences.
+These algorithms first generate the results for LCS and SCS of sequences by
+heuristic, and consequently derive patterns from these results. Experiments
+show that the PALS algorithms perform well (both in efficiency and in accuracy)
+on a variety of sequences. The PALS approach also provides us with a solution
+for transforming between the heuristic results of SCS and LCS.

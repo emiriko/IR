@@ -1,0 +1,19 @@
+A central model in theoretical ecology considers the competition of a range
+of species for a broad spectrum of resources. Recent studies have shown that
+essentially two different outcomes are possible. Either the species surviving
+competition are more or less uniformly distributed over the resource spectrum,
+or their distribution is 'lumped' (or 'clumped'), consisting of clusters of
+species with similar resource use that are separated by gaps in resource space.
+Which of these outcomes will occur crucially depends on the competition kernel,
+which reflects the shape of the resource utilization pattern of the competing
+species. Most models considered in the literature assume a Gaussian competition
+kernel. This is unfortunate, since predictions based on such a Gaussian
+assumption are not robust. In fact, Gaussian kernels are a border case
+scenario, and slight deviations from this function can lead to either uniform
+or lumped species distributions. Here we illustrate the non-robustness of the
+Gaussian assumption by simulating different implementations of the standard
+competition model with constant carrying capacity. In this scenario, lumped
+species distributions can come about by secondary ecological or evolutionary
+mechanisms or by details of the numerical implementation of the model. We
+analyze the origin of this sensitivity and discuss it in the context of recent
+applications of the model.

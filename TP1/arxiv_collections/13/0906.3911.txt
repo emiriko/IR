@@ -1,0 +1,19 @@
+The General Intensional Programming System (GIPSY) has been built around the
+Lucid family of intensional programming languages that rely on the higher-order
+intensional logic (HOIL) to provide context-oriented multidimensional reasoning
+of intensional expressions. HOIL combines functional programming with various
+intensional logics to allow explicit context expressions to be evaluated as
+first-class values that can be passed as parameters to functions and return as
+results with an appropriate set of operators defined on contexts. GIPSY's
+frameworks are implemented in Java as a collection of replaceable components
+for the compilers of various Lucid dialects and the demand-driven eductive
+evaluation engine that can run distributively. GIPSY provides support for
+hybrid programming models that couple intensional and imperative languages for
+a variety of needs. Explicit context expressions limit the scope of evaluation
+of math expressions (effectively a Lucid program is a mathematics or physics
+expression constrained by the context) in tensor physics, regular math in
+multiple dimensions, etc., and for cyberforensic reasoning as one of the
+use-cases of interest. Thus, GIPSY is a support testbed for HOIL-based
+languages some of which enable such reasoning, as in formal cyberforensic case
+analysis with event reconstruction. In this paper we discuss the GIPSY
+architecture, its evaluation engine and example use-cases.

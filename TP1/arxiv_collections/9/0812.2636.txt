@@ -1,0 +1,19 @@
+The hypervolume indicator is an increasingly popular set measure to compare
+the quality of two Pareto sets. The basic ingredient of most hypervolume
+indicator based optimization algorithms is the calculation of the hypervolume
+contribution of single solutions regarding a Pareto set. We show that exact
+calculation of the hypervolume contribution is #P-hard while its approximation
+is NP-hard. The same holds for the calculation of the minimal contribution. We
+also prove that it is NP-hard to decide whether a solution has the least
+hypervolume contribution. Even deciding whether the contribution of a solution
+is at most $(1+\eps)$ times the minimal contribution is NP-hard. This implies
+that it is neither possible to efficiently find the least contributing solution
+(unless $P = NP$) nor to approximate it (unless $NP = BPP$).
+  Nevertheless, in the second part of the paper we present a fast approximation
+algorithm for this problem. We prove that for arbitrarily given $\eps,\delta>0$
+it calculates a solution with contribution at most $(1+\eps)$ times the minimal
+contribution with probability at least $(1-\delta)$. Though it cannot run in
+polynomial time for all instances, it performs extremely fast on various
+benchmark datasets. The algorithm solves very large problem instances which are
+intractable for exact algorithms (e.g., 10000 solutions in 100 dimensions)
+within a few seconds.

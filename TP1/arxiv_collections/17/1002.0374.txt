@@ -1,0 +1,17 @@
+For any $n \geq 0$ and $k \geq 1$, the \emph{density Hales-Jewett number}
+$c_{n,k}$ is defined as the size of the largest subset of the cube $[k]^n$ :=
+$\{1,...,k\}^n$ which contains no combinatorial line; similarly, the Moser
+number $c'_{n,k}$ is the largest subset of the cube $[k]^n$ which contains no
+geometric line. A deep theorem of Furstenberg and Katznelson shows that
+$c_{n,k}$ = $o(k^n)$ as $n \to \infty$ (which implies a similar claim for
+$c'_{n,k}$); this is already non-trivial for $k = 3$. Several new proofs of
+this result have also been recently established.
+  Using both human and computer-assisted arguments, we compute several values
+of $c_{n,k}$ and $c'_{n,k}$ for small $n,k$. For instance the sequence
+$c_{n,3}$ for $n=0,...,6$ is $1,2,6,18,52,150,450$, while the sequence
+$c'_{n,3}$ for $n=0,...,6$ is $1,2,6,16,43,124,353$. We also prove some results
+for higher $k$, showing for instance that an analogue of the LYM inequality
+(which relates to the $k = 2$ case) does not hold for higher $k$, and also
+establishing the asymptotic lower bound $c_{n,k} \geq k^n \exp(-
+O(\sqrt[\ell]{\log n}))$ where $\ell$ is the largest integer such that $2k >
+2^\ell$.

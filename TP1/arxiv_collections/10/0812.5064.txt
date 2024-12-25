@@ -1,0 +1,15 @@
+This paper introduces a model based upon games on an evolving network, and
+develops three clustering algorithms according to it. In the clustering
+algorithms, data points for clustering are regarded as players who can make
+decisions in games. On the network describing relationships among data points,
+an edge-removing-and-rewiring (ERR) function is employed to explore in a
+neighborhood of a data point, which removes edges connecting to neighbors with
+small payoffs, and creates new edges to neighbors with larger payoffs. As such,
+the connections among data points vary over time. During the evolution of
+network, some strategies are spread in the network. As a consequence, clusters
+are formed automatically, in which data points with the same evolutionarily
+stable strategy are collected as a cluster, so the number of evolutionarily
+stable strategies indicates the number of clusters. Moreover, the experimental
+results have demonstrated that data points in datasets are clustered reasonably
+and efficiently, and the comparison with other algorithms also provides an
+indication of the effectiveness of the proposed algorithms.

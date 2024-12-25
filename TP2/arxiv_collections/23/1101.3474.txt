@@ -1,0 +1,23 @@
+Gene Set Enrichment Analysis (GSEA) and its variations aim to discover
+collections of genes that show moderate but coordinated differences in
+expression. However, such techniques may be ineffective if many individual
+genes in a phenotype-related gene set have weak discriminative power. A
+potential solution is to search for combinations of genes that are highly
+differentiating even when individual genes are not. Although such techniques
+have been developed, these approaches have not been used with GSEA to any
+significant degree because of the large number of potential gene combinations
+and the heterogeneity of measures that assess the differentiation provided by
+gene groups of different sizes.
+  To integrate the search for differentiating gene combinations and GSEA, we
+propose a general framework with two key components: (A) a procedure that
+reduces the number of scores to be handled by GSEA to the number of genes by
+summarizing the scores of the gene combinations involving a particular gene in
+a single score, and (B) a procedure to integrate the heterogeneous scores from
+combinations of different sizes and from different gene combination measures by
+mapping the scores to p-values. Experiments on four gene expression data sets
+demonstrate that the integration of GSEA and gene combination search can
+enhance the power of traditional GSEA by discovering gene sets that include
+genes with weak individual differentiation but strong joint discriminative
+power. Also, gene sets discovered by the integrative framework share several
+common biological processes and improve the consistency of the results among
+three lung cancer data sets.

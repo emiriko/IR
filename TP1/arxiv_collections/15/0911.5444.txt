@@ -1,0 +1,20 @@
+We equip choreography-level session descriptions with a simple abstraction of
+a security infrastructure. Message components may be enclosed within (possibly
+nested) "boxes" annotated with the intended source and destination of those
+components. The boxes are to be implemented with cryptography. Strand spaces
+provide a semantics for these choreographies, in which some roles may be played
+by compromised principals. A skeleton is a partially ordered structure
+containing local behaviors (strands) executed by regular (non-compromised)
+principals. A skeleton is realized if it contains enough regular strands so
+that it could actually occur, in combination with any possible activity of
+compromised principals. It is delivery guaranteed (DG) realized if, in
+addition, every message transmitted to a regular participant is also delivered.
+We define a novel transition system on skeletons, in which the steps add
+regular strands. These steps solve tests, i.e. parts of the skeleton that could
+not occur without additional regular behavior. We prove three main results
+about the transition system. First, each minimal DG realized skeleton is
+reachable, using the transition system, from any skeleton it embeds. Second, if
+no step is possible from a skeleton A, then A is DG realized. Finally, if a DG
+realized B is accessible from A, then B is minimal. Thus, the transition system
+provides a systematic way to construct the possible behaviors of the
+choreography, in the presence of compromised principals.

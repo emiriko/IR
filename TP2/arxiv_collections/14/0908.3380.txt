@@ -1,0 +1,22 @@
+We propose a novel method for constructing Hilbert transform (HT) pairs of
+wavelet bases based on a fundamental approximation-theoretic characterization
+of scaling functions--the B-spline factorization theorem. In particular,
+starting from well-localized scaling functions, we construct HT pairs of
+biorthogonal wavelet bases of L^2(R) by relating the corresponding wavelet
+filters via a discrete form of the continuous HT filter. As a concrete
+application of this methodology, we identify HT pairs of spline wavelets of a
+specific flavor, which are then combined to realize a family of complex
+wavelets that resemble the optimally-localized Gabor function for sufficiently
+large orders.
+  Analytic wavelets, derived from the complexification of HT wavelet pairs,
+exhibit a one-sided spectrum. Based on the tensor-product of such analytic
+wavelets, and, in effect, by appropriately combining four separable
+biorthogonal wavelet bases of L^2(R^2), we then discuss a methodology for
+constructing 2D directional-selective complex wavelets. In particular,
+analogous to the HT correspondence between the components of the 1D
+counterpart, we relate the real and imaginary components of these complex
+wavelets using a multi-dimensional extension of the HT--the directional HT.
+Next, we construct a family of complex spline wavelets that resemble the
+directional Gabor functions proposed by Daugman. Finally, we present an
+efficient FFT-based filterbank algorithm for implementing the associated
+complex wavelet transform.

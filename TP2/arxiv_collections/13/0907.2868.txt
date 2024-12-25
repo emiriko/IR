@@ -1,0 +1,17 @@
+This paper introduces a scalable approach for probabilistic top-k similarity
+ranking on uncertain vector data. Each uncertain object is represented by a set
+of vector instances that are assumed to be mutually-exclusive. The objective is
+to rank the uncertain data according to their distance to a reference object.
+We propose a framework that incrementally computes for each object instance and
+ranking position, the probability of the object falling at that ranking
+position. The resulting rank probability distribution can serve as input for
+several state-of-the-art probabilistic ranking models. Existing approaches
+compute this probability distribution by applying a dynamic programming
+approach of quadratic complexity. In this paper we theoretically as well as
+experimentally show that our framework reduces this to a linear-time complexity
+while having the same memory requirements, facilitated by incremental accessing
+of the uncertain vector instances in increasing order of their distance to the
+reference object. Furthermore, we show how the output of our method can be used
+to apply probabilistic top-k ranking for the objects, according to different
+state-of-the-art definitions. We conduct an experimental evaluation on
+synthetic and real data, which demonstrates the efficiency of our approach.

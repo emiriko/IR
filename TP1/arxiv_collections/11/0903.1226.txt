@@ -1,0 +1,15 @@
+Force-free magnetic fields are important in many astrophysical settings.
+Determining the properties of such force-free fields -- especially smoothness
+and stability properties -- is crucial to understanding many key phenomena in
+astrophysical plasmas, for example energy release processes that heat the
+plasma and lead to dynamic or explosive events. Here we report on a serious
+limitation on the computation of force-free fields that has the potential to
+invalidate the results produced by numerical force-free field solvers even for
+cases in which they appear to converge (at fixed grid resolution) to an
+equilibrium magnetic field. In the present work we discuss this problem within
+the context of a Lagrangian relaxation scheme that conserves magnetic flux and
+div(B) identically. Error estimates are introduced to assess the quality of the
+calculated equilibrium. We go on to present an algorithm, based on re-writing
+the curl operation via Stokes' theorem, for calculating the current which holds
+great promise for improving dramatically the accuracy of the Lagrangian
+relaxation procedure.

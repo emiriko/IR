@@ -1,0 +1,8 @@
+A solution of the radiative-transfer problem in 3D with arbitrary velocity
+fields in the Eulerian frame is presented. The method is implemented in our 3D
+radiative transfer framework and used in the PHOENIX/3D code. It is tested by
+comparison to our well- tested 1D co-moving frame radiative transfer code,
+where the treatment of a monotonic velocity field is implemented in the
+Lagrangian frame. The Eulerian formulation does not need much additional memory
+and is useable on state-of-the-art computers, even large-scale applications
+with 1000's of wavelength points are feasible.

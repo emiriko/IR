@@ -1,0 +1,20 @@
+The aim of this paper is to demonstrate the feasibility of authenticated
+throughput-efficient routing in an unreliable and dynamically changing
+synchronous network in which the majority of malicious insiders try to destroy
+and alter messages or disrupt communication in any way. More specifically, in
+this paper we seek to answer the following question: Given a network in which
+the majority of nodes are controlled by a malicious adversary and whose
+topology is changing every round, is it possible to develop a protocol with
+polynomially-bounded memory per processor that guarantees throughput-efficient
+and correct end-to-end communication? We answer the question affirmatively for
+extremely general corruption patterns: we only request that the topology of the
+network and the corruption pattern of the adversary leaves at least one path
+each round connecting the sender and receiver through honest nodes (though this
+path may change at every round). Out construction works in the public-key
+setting and enjoys bounded memory per processor (that does not depend on the
+amount of traffic and is polynomial in the network size.) Our protocol achieves
+optimal transfer rate with negligible decoding error. We stress that our
+protocol assumes no knowledge of which nodes are corrupted nor which path is
+reliable at any round, and is also fully distributed with nodes making
+decisions locally, so that they need not know the topology of the network at
+any time.

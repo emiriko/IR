@@ -1,0 +1,9 @@
+Efficient computation of the Tate pairing is an important part of
+pairing-based cryptography. Recently with the introduction of the Duursma-Lee
+method special attention has been given to the fields of characteristic 3.
+Especially multiplication in F_{3^{6m}}, where m is prime, is an important
+operation in the above method. In this paper we propose a new method to reduce
+the number of F_{3^m} multiplications for multiplication in F_{3^{6m}} from 18
+in recent implementations to 15. The method is based on the fast Fourier
+tranmsform and explicit formulas are given. The execution times of our software
+implementations for F_{3^{6m}} show the efficiency of our results.

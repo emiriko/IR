@@ -1,0 +1,22 @@
+The Herschel Common Science System (HCSS) (Ott et al. 2006) (Ott & Science
+Ground Segment Consortium 2010) is a substantial Java software package,
+accompanying the development of the Herschel Mission (Pilbratt et al. 2010),
+supporting all of its phases. In particular the reduction of data from the
+scientific instruments for instrument checkout, calibration, and astronomical
+analysis is one of its major applications. The data reduction software is split
+up in modules, called "tasks". Agreed-upon sequences of tasks form pipelines
+that deliver well defined standard products for storage in a web-accessible
+Herschel Science Archive (HSA) (Leon et al. 2009). However, as astronomers and
+instrument scientists continue to characterize instrumental effects,
+astronomers already need to publish scientific results and may not have the
+time to acquire a sufficiently deep understanding of the system to apply
+necessary fixes. There is a need for intermediate level analysis tools that
+offer more flexibility than rigid pipelines. The task framework within the HCSS
+and the highly versatile Herschel Interactive Processing Environment (HIPE),
+together with the rich set of libraries provide the necessary tools to develop
+GUI-based interactive analysis packages for the Herschel instruments. The SPIRE
+Photometer Interactive Analysis (SPIA) package, that was demonstrated in this
+session, proves the validity of the concept for the SPIRE instrument (Griffin
+et al. 2010), breaking up the pipeline reduction into logical components,
+making all relevant processing parameters available in GUIs, and providing a
+more controlled and user-friendly access to the complexities of the system.

@@ -1,0 +1,10 @@
+We discuss a method of finding skyline or non-dominated sites in a set $P$ of
+$n$ point sites with respect to a set $S$ of $m$ points. A site $p \in P$ is
+non-dominated if and only if for each $q \in P \setminus \{p\}$, there exists
+at least one point $s \in S$ that is closer to $p$ than to $q$. We reduce this
+problem of determining non-dominated sites to the problem of finding sites that
+have non-empty cells in an additively weighted Voronoi diagram under a convex
+distance function. The weights of said Voronoi diagram are derived from the
+coordinates of the sites of $P$, while the convex distance function is derived
+from $S$. In the two-dimensional plane, this reduction gives an $O((n + m) \log
+(n + m))$-time algorithm to find the non-dominated points.

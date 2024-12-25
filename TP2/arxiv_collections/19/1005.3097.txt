@@ -1,0 +1,17 @@
+Recent work in theoretical computer science and scientific computing has
+focused on nearly-linear-time algorithms for solving systems of linear
+equations. While introducing several novel theoretical perspectives, this work
+has yet to lead to practical algorithms. In an effort to bridge this gap, we
+describe in this paper two related results. Our first and main result is a
+simple algorithm to approximate the solution to a set of linear equations
+defined by a Laplacian (for a graph $G$ with $n$ nodes and $m \le n^2$ edges)
+constraint matrix. The algorithm is a non-recursive algorithm; even though it
+runs in $O(n^2 \cdot \polylog(n))$ time rather than $O(m \cdot polylog(n))$
+time (given an oracle for the so-called statistical leverage scores), it is
+extremely simple; and it can be used to compute an approximate solution with a
+direct solver. In light of this result, our second result is a straightforward
+connection between the concept of graph resistance (which has proven useful in
+recent algorithms for linear equation solvers) and the concept of statistical
+leverage (which has proven useful in numerically-implementable randomized
+algorithms for large matrix problems and which has a natural data-analytic
+interpretation).

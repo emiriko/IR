@@ -1,0 +1,11 @@
+We evaluate optimized parallel sparse matrix-vector operations for two
+representative application areas on widespread multicore-based cluster
+configurations. First the single-socket baseline performance is analyzed and
+modeled with respect to basic architectural properties of standard multicore
+chips. Going beyond the single node, parallel sparse matrix-vector operations
+often suffer from an unfavorable communication to computation ratio. Starting
+from the observation that nonblocking MPI is not able to hide communication
+cost using standard MPI implementations, we demonstrate that explicit overlap
+of communication and computation can be achieved by using a dedicated
+communication thread, which may run on a virtual core. We compare our approach
+to pure MPI and the widely used "vector-like" hybrid programming strategy.

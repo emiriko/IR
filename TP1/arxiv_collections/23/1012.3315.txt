@@ -1,0 +1,14 @@
+This paper deals with the numerical modeling of wave propagation in porous
+media described by Biot's theory. The viscous efforts between the fluid and the
+elastic skeleton are assumed to be a linear function of the relative velocity,
+which is valid in the low-frequency range. The coexistence of propagating fast
+compressional wave and shear wave, and of a diffusive slow compressional wave,
+makes numerical modeling tricky. To avoid restrictions on the time step, the
+Biot's system is splitted into two parts: the propagative part is discretized
+by a fourth-order ADER scheme, while the diffusive part is solved analytically.
+Near the material interfaces, a space-time mesh refinement is implemented to
+capture the small spatial scales related to the slow compressional wave. The
+jump conditions along the interfaces are discretized by an immersed interface
+method. Numerical experiments and comparisons with exact solutions confirm the
+accuracy of the numerical modeling. The efficiency of the approach is
+illustrated by simulations of multiple scattering.

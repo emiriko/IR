@@ -1,0 +1,17 @@
+We present novel techniques for analyzing the problem of low-rank matrix
+recovery. The methods are both considerably simpler and more general than
+previous approaches. It is shown that an unknown (n x n) matrix of rank r can
+be efficiently reconstructed from only O(n r nu log^2 n) randomly sampled
+expansion coefficients with respect to any given matrix basis. The number nu
+quantifies the "degree of incoherence" between the unknown matrix and the
+basis. Existing work concentrated mostly on the problem of "matrix completion"
+where one aims to recover a low-rank matrix from randomly selected matrix
+elements. Our result covers this situation as a special case. The proof
+consists of a series of relatively elementary steps, which stands in contrast
+to the highly involved methods previously employed to obtain comparable
+results. In cases where bounds had been known before, our estimates are
+slightly tighter. We discuss operator bases which are incoherent to all
+low-rank matrices simultaneously. For these bases, we show that O(n r nu log n)
+randomly sampled expansion coefficients suffice to recover any low-rank matrix
+with high probability. The latter bound is tight up to multiplicative
+constants.

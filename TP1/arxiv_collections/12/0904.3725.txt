@@ -1,0 +1,12 @@
+We describe a technique for solving for the orbital elements of multiple
+planets from radial velocity (RV) and/or astrometric data taken with 1 m/s and
+microarcsecond precision, appropriate for efforts to detect Earth-massed
+planets in their stars' habitable zones, such as NASA's proposed Space
+Interferometry Mission. We include details of calculating analytic derivatives
+for use in the Levenberg-Marquardt (LM) algorithm for the problems of fitting
+RV and astrometric data separately and jointly. We also explicate the general
+method of separating the linear and nonlinear components of a model fit in the
+context of an LM fit, show how explicit derivatives can be calculated in such a
+model, and demonstrate the speed up and convergence improvements of such a
+scheme in the case of a five-planet fit to published radial velocity data for
+55 Cnc.

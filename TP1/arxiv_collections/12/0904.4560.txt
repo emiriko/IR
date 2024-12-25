@@ -1,0 +1,17 @@
+We present a plane-wave basis set implementation of charge constrained
+density functional molecular dynamics (CDFT-MD) for simulation of electron
+transfer reactions in condensed phase systems. Following earlier work of Wu et
+al. Phys. Rev. A 72, 024502 (2005), the density functional is minimized under
+the constraint that the charge difference between donor and acceptor is equal
+to a given value. The classical ion dynamics is propagated on the
+Born-Oppenheimer surface of the charge constrained state. We investigate the
+dependence of the constrained energy and of the energy gap on the definition of
+the charge, and present expressions for the constraint forces. The method is
+applied to the Ru2+-Ru3+ electron self-exchange reaction in aqueous solution.
+Sampling the vertical energy gap along CDFT-MD trajectories, and correcting for
+finite size effects, a reorganization free energy of 1.6 eV is obtained. This
+is 0.1-0.2 eV lower than a previous estimate based on a continuum model for
+solvation. smaller value for reorganization free energy can be explained by
+fact that the Ru-O distances of the divalent and trivalent Ru-hexahydrates are
+predicted to be more similar in the electron transfer complex than for the
+separated aqua-ions.

@@ -1,0 +1,16 @@
+One of the most important questions in studying quantum computation is:
+whether a quantum computer can solve NP-complete problems more efficiently than
+a classical computer? In 2000, Farhi, et al. (Science, 292(5516):472--476,
+2001) proposed the adiabatic quantum optimization (AQO), a paradigm that
+directly attacks NP-hard optimization problems. How powerful is AQO? Early on,
+van Dam and Vazirani claimed that AQO failed (i.e. would take exponential time)
+for a family of 3SAT instances they constructed. More recently, Altshuler, et
+al. (Proc Natl Acad Sci USA, 107(28): 12446--12450, 2010) claimed that AQO
+failed also for random instances of the NP-complete Exact Cover problem. In
+this paper, we make clear that all these negative results are only for a
+specific AQO algorithm. We do so by demonstrating different AQO algorithms for
+the same problem for which their arguments no longer hold. Whether AQO fails or
+succeeds for solving the NP-complete problems (either the worst case or the
+average case) requires further investigation. Our AQO algorithms for Exact
+Cover and 3SAT are based on the polynomial reductions to the NP-complete
+Maximum-weight Independent Set (MIS) problem.

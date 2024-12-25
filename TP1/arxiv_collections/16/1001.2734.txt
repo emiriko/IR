@@ -1,0 +1,16 @@
+In this paper we consider query versions of visibility testing and visibility
+counting. Let $S$ be a set of $n$ disjoint line segments in $\R^2$ and let $s$
+be an element of $S$. Visibility testing is to preprocess $S$ so that we can
+quickly determine if $s$ is visible from a query point $q$. Visibility counting
+involves preprocessing $S$ so that one can quickly estimate the number of
+segments in $S$ visible from a query point $q$.
+  We present several data structures for the two query problems. The structures
+build upon a result by O'Rourke and Suri (1984) who showed that the subset,
+$V_S(s)$, of $\R^2$ that is weakly visible from a segment $s$ can be
+represented as the union of a set, $C_S(s)$, of $O(n^2)$ triangles, even though
+the complexity of $V_S(s)$ can be $\Omega(n^4)$. We define a variant of their
+covering, give efficient output-sensitive algorithms for computing it, and
+prove additional properties needed to obtain approximation bounds. Some of our
+bounds rely on a new combinatorial result that relates the number of segments
+of $S$ visible from a point $p$ to the number of triangles in $\bigcup_{s\in S}
+C_S(s)$ that contain $p$.

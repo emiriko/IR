@@ -1,0 +1,24 @@
+We study Glauber dynamics for the Ising model on the complete graph on $n$
+vertices, known as the Curie-Weiss Model. It is well known that at high
+temperature ($\beta < 1$) the mixing time is $\Theta(n\log n)$, whereas at low
+temperature ($\beta > 1$) it is $\exp(\Theta(n))$. Recently, Levin, Luczak and
+Peres considered a censored version of this dynamics, which is restricted to
+non-negative magnetization. They proved that for fixed $\beta > 1$, the
+mixing-time of this model is $\Theta(n\log n)$, analogous to the
+high-temperature regime of the original dynamics. Furthermore, they showed
+\emph{cutoff} for the original dynamics for fixed $\beta<1$. The question
+whether the censored dynamics also exhibits cutoff remained unsettled.
+  In a companion paper, we extended the results of Levin et al. into a complete
+characterization of the mixing-time for the Currie-Weiss model. Namely, we
+found a scaling window of order $1/\sqrt{n}$ around the critical temperature
+$\beta_c=1$, beyond which there is cutoff at high temperature. However,
+determining the behavior of the censored dynamics outside this critical window
+seemed significantly more challenging.
+  In this work we answer the above question in the affirmative, and establish
+the cutoff point and its window for the censored dynamics beyond the critical
+window, thus completing its analogy to the original dynamics at high
+temperature. Namely, if $\beta = 1 + \delta$ for some $\delta > 0$ with
+$\delta^2 n \to \infty$, then the mixing-time has order $(n /
+\delta)\log(\delta^2 n)$. The cutoff constant is $(1/2+[2(\zeta^2 \beta /
+\delta - 1)]^{-1})$, where $\zeta$ is the unique positive root of
+$g(x)=\tanh(\beta x)-x$, and the cutoff window has order $n / \delta$.

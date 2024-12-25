@@ -1,0 +1,9 @@
+In the classical setting, public-key encryption requires randomness in order
+to be secure against a forward search attack, whereby an adversary compares the
+encryption of a guess of the secret message with that of the actual secret
+message. We show that this is also true in the information-theoretic setting --
+where the public keys are quantum systems -- by defining and giving an example
+of a forward search attack for any deterministic quantum-public-key
+bit-encryption scheme. However, unlike in the classical setting, we show that
+any such deterministic scheme can be used as a black box to build a randomized
+bit-encryption scheme that is no longer susceptible to this attack.

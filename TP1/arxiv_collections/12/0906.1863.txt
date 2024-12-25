@@ -1,0 +1,12 @@
+Molecular simulations of many particles which move rather according to a
+brownian than a newtonian type of dynamics, nevertheless, can be performed by
+means of a "velocity-Verlet-like" algorithm. The derivation of this algorithm
+requires the "Ito formula" of stochastic calculus which usually is not part of
+a scientist's education. Therefore, it is going to be shown, how this formula
+can be motivated and applied in order to find that algorithm. Furthermore, it
+is demonstrated, why it is sufficient to use uniformly distributed random
+numbers within that algorithm, thus avoiding gaussian distributed ones,
+although gaussian distributed white noise forces are assumed to model the
+brownian-like motion of the particles. Finally, a solution to the problem is
+presented that the linear total momentum is not conserved due to the presence
+of stochastic forces in the equations of motion of the particles.

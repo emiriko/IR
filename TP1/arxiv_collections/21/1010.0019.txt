@@ -1,0 +1,12 @@
+We present Mantis, a new framework that automatically predicts program
+performance with high accuracy. Mantis integrates techniques from programming
+language and machine learning for performance modeling, and is a radical
+departure from traditional approaches. Mantis extracts program features, which
+are information about program execution runs, through program instrumentation.
+It uses machine learning techniques to select features relevant to performance
+and creates prediction models as a function of the selected features. Through
+program analysis, it then generates compact code slices that compute these
+feature values for prediction. Our evaluation shows that Mantis can achieve
+more than 93% accuracy with less than 10% training data set, which is a
+significant improvement over models that are oblivious to program features. The
+system generates code slices that are cheap to compute feature values.

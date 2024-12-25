@@ -1,0 +1,14 @@
+The Deustch-Jozsa problem is one of the most basic ways to demonstrate the
+power of quantum computation. Consider a Boolean function f : {0,1}^n to {0,1}
+and suppose we have a black-box to compute f. The Deutsch-Jozsa problem is to
+determine if f is constant (i.e. f(x) = const forall x in {0,1}^n) or if f is
+balanced (i.e. f(x) = 0 for exactly half the possible input strings x in
+{0,1}^n) using as few calls to the black-box computing f as is possible,
+assuming f is guaranteed to be constant or balanced. Classically it appears
+that this requires at least 2^{n-1}+1 black-box calls in the worst case, but
+the well known quantum solution solves the problem with probability one in
+exactly one black-box call. It has been found that in some cases the algorithm
+can be de-quantised into an equivalent classical, deterministic solution. We
+explore the ability to extend this de-quantisation to further cases, and
+examine with more detail when de-quantisation is possible, both with respect to
+the Deutsch-Jozsa problem, as well as in more general cases.

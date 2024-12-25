@@ -1,0 +1,9 @@
+We report on the implementation of an interface between the SANC generator
+framework for Drell-Yan hard processes, which includes next-to-leading order
+electroweak (NLO EW) corrections, and the Herwig++ and Pythia8 QCD parton
+shower Monte Carlos. A special aspect of this implementation is that the
+initial-state shower evolution in both shower generators has been augmented to
+handle the case of an incoming photon-in-a-proton, diagrams for which appear at
+the NLO EW level. The difference between shower algorithms leads to residual
+differences in the relative corrections of 2-3% in the p_T(mu) distributions at
+p_T(mu)>~50 GeV (where the NLO EW correction itself is of order 10%).

@@ -1,0 +1,13 @@
+In multivariate time series, the estimation of the covariance matrix of the
+observation innovations plays an important role in forecasting as it enables
+the computation of the standardized forecast error vectors as well as it
+enables the computation of confidence bounds of the forecasts. We develop an
+on-line, non-iterative Bayesian algorithm for estimation and forecasting. It is
+empirically found that, for a range of simulated time series, the proposed
+covariance estimator has good performance converging to the true values of the
+unknown observation covariance matrix. Over a simulated time series, the new
+method approximates the correct estimates, produced by a non-sequential Monte
+Carlo simulation procedure, which is used here as the gold standard. The
+special, but important, vector autoregressive (VAR) and time-varying VAR models
+are illustrated by considering London metal exchange data consisting of spot
+prices of aluminium, copper, lead and zinc.

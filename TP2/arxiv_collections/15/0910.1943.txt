@@ -1,0 +1,21 @@
+Compressed Sensing aims to capture attributes of $k$-sparse signals using
+very few measurements. In the standard Compressed Sensing paradigm, the
+$\m\times \n$ measurement matrix $\A$ is required to act as a near isometry on
+the set of all $k$-sparse signals (Restricted Isometry Property or RIP).
+Although it is known that certain probabilistic processes generate $\m \times
+\n$ matrices that satisfy RIP with high probability, there is no practical
+algorithm for verifying whether a given sensing matrix $\A$ has this property,
+crucial for the feasibility of the standard recovery algorithms. In contrast
+this paper provides simple criteria that guarantee that a deterministic sensing
+matrix satisfying these criteria acts as a near isometry on an overwhelming
+majority of $k$-sparse signals; in particular, most such signals have a unique
+representation in the measurement domain. Probability still plays a critical
+role, but it enters the signal model rather than the construction of the
+sensing matrix. We require the columns of the sensing matrix to form a group
+under pointwise multiplication. The construction allows recovery methods for
+which the expected performance is sub-linear in $\n$, and only quadratic in
+$\m$; the focus on expected performance is more typical of mainstream signal
+processing than the worst-case analysis that prevails in standard Compressed
+Sensing. Our framework encompasses many families of deterministic sensing
+matrices, including those formed from discrete chirps, Delsarte-Goethals codes,
+and extended BCH codes.

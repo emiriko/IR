@@ -1,0 +1,12 @@
+Collaborative edition is achieved by distinct sites that work independently
+on (a copy of) a shared document. Conflicts may arise during this process and
+must be solved by the collaborative editor. In pure Peer to Peer collaborative
+editing, no centralization nor locks nor time-stamps are used which make
+conflict resolution difficult. We propose an algorithm which relies on the
+notion or semantics dependence and avoids the need of any integration
+transformation to solve conflicts. Furthermore, it doesn't use any history file
+recording operations performed since starting the edition process. We show how
+to define editing operations for semi-structured documents i.e. XML-like trees,
+that are enriched with informations derived for free from the editing process.
+Then we define the semantics dependence relation required by the algorithm and
+we present preliminary results obtained by a prototype implementation.

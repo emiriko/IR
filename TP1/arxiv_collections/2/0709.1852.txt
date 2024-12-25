@@ -1,0 +1,11 @@
+This paper presents a very straightforward method to compute the transient
+thermal response to arbitrary power dissipation profiles in electronic devices
+with multiple heat sources. Using cubic spline interpolation of simulated or
+measured unit power step response curves (Zth-functions), additional errors due
+to model reduction can be avoided. No effort has to be spent on the generation
+of compact models. The simple analytic form of the interpolating splines can be
+exploited to evaluate the convolution integral of the Zth-functions with
+arbitrary power profiles at low computational costs. An implementation of the
+algorithm in a spreadsheet program (EXCEL) is demonstrated. The results are in
+very good agreement with temperature profiles computed by transient Finite
+Element simulation but can be obtained in a fraction of the time.

@@ -1,0 +1,21 @@
+Nowadays, mobile users wish to use their multi-interface mobile devices to
+access the Internet through network points of attachment (PoA) based on
+heterogeneous wireless technologies. They also wish to seamlessly change the
+PoAs during their ongoing sessions to improve service quality and/or reduce
+monetary cost. If appropriately handled, multihomed mobile nodes offer a
+potential solution to this issue. In this sense, the management of multihomed
+mobile nodes in heterogeneous environment is a key research topic. In this
+paper, we present an improvement of SIP mobility (pre-call plus mid-call
+mobility) to support seamless mobility of multihomed mobile nodes in
+heterogeneous wireless networks. Pre-call mobility is extended to associate
+user identifier (i.e. SIP URI) and interface identifiers (i.e. IP addresses).
+The multiple addresses of a mobile device are weighted by the user to create a
+priority list in the SIP server so as to guarantee resilient reachability of
+mobile nodes and to avoid unnecessary signaling through wireless links, thus
+saving radio resources. Then, three variations of mid-call mobility, called
+hard, hybrid and soft procedures, are also proposed. Their main aim is to
+minimize, or even avoid, packet losses during interface switching at the mobile
+node. The proposed solutions have been implemented in a wireless heterogeneous
+testbed composed of 802.11 WLAN plus 3.5 cellular network, which are fully
+controlled and configurable. The testbed has been used to study the performance
+and the robustness of the three proposed mid-call mobility procedures.

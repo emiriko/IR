@@ -1,0 +1,11 @@
+We propose a deconvolution algorithm for images blurred and degraded by a
+Poisson noise. The algorithm uses a fast proximal backward-forward splitting
+iteration. This iteration minimizes an energy which combines a
+\textit{non-linear} data fidelity term, adapted to Poisson noise, and a
+non-smooth sparsity-promoting regularization (e.g $\ell_1$-norm) over the image
+representation coefficients in some dictionary of transforms (e.g. wavelets,
+curvelets). Our results on simulated microscopy images of neurons and cells are
+confronted to some state-of-the-art algorithms. They show that our approach is
+very competitive, and as expected, the importance of the non-linearity due to
+Poisson noise is more salient at low and medium intensities. Finally an
+experiment on real fluorescent confocal microscopy data is reported.

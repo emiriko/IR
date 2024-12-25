@@ -1,0 +1,7 @@
+The Radiotherapy treatment planning optimization process based on a
+quasi-Newton algorithm with an object function containing dose-volume
+constraints is not guaranteed to converge when the dose value in the
+dose-volume constraint is a critical value of the dose distribution. This is
+caused by finite differentiability of the dose-volume histogram at such values.
+A closer look near such values reveals that convergence is most likely not at
+stake, but it might be slowed down.

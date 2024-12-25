@@ -1,0 +1,9 @@
+We study mechanisms that permit program components to express role
+constraints on clients, focusing on programmatic security mechanisms, which
+permit access controls to be expressed, in situ, as part of the code realizing
+basic functionality. In this setting, two questions immediately arise: (1) The
+user of a component faces the issue of safety: is a particular role sufficient
+to use the component? (2) The component designer faces the dual issue of
+protection: is a particular role demanded in all execution paths of the
+component? We provide a formal calculus and static analysis to answer both
+questions.

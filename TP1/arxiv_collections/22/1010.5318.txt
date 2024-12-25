@@ -1,0 +1,19 @@
+This chapter is concerned with the design and analysis of algorithms for
+minimizing finite automata. Getting a minimal automaton is a fundamental issue
+in the use and implementation of finite automata tools in frameworks like text
+processing, image analysis, linguistic computer science, and many other
+applications. There are two main families of minimization algorithms. The first
+by a sequence of refinements of a partition of the set of states, the second by
+a sequence of fusions or merges of states. Hopcroft's and Moore's algorithms
+belong to the first family, the linear-time minimization of acyclic automata of
+Revuz belongs to the second family.
+  One of our studies is upon the comparison of the nature of Moore's and
+Hopcroft's algorithms. This gives some new insight in both algorithms. As we
+shall see, these algorithms are quite different both in behavior and in
+complexity. In particular, we show that it is not possible to simulate the
+computations of one of the algorithm by the other. We describe the minimization
+algorithm by fusion for so-called local automata. A special case of
+minimization is the construction o minimal automata for finite sets. We
+consider briefly this case, and in particular describe incremental algorithms.
+Finally, we consider the case of updating a minimal automaton when a word is
+added or removed from the set it recognizes.

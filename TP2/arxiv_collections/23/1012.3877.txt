@@ -1,0 +1,24 @@
+In this paper, we propose a two-timescale delay-optimal dynamic clustering
+and power allocation design for downlink network MIMO systems. The dynamic
+clustering control is adaptive to the global queue state information (GQSI)
+only and computed at the base station controller (BSC) over a longer time
+scale. On the other hand, the power allocations of all the BSs in one cluster
+are adaptive to both intra-cluster channel state information (CCSI) and
+intra-cluster queue state information (CQSI), and computed at the cluster
+manager (CM) over a shorter time scale. We show that the two-timescale
+delay-optimal control can be formulated as an infinite-horizon average cost
+Constrained Partially Observed Markov Decision Process (CPOMDP). By exploiting
+the special problem structure, we shall derive an equivalent Bellman equation
+in terms of Pattern Selection Q-factor to solve the CPOMDP. To address the
+distributive requirement and the issue of exponential memory requirement and
+computational complexity, we approximate the Pattern Selection Q-factor by the
+sum of Per-cluster Potential functions and propose a novel distributive online
+learning algorithm to estimate the Per-cluster Potential functions (at each CM)
+as well as the Lagrange multipliers (LM) (at each BS). We show that the
+proposed distributive online learning algorithm converges almost surely (with
+probability 1). By exploiting the birth-death structure of the queue dynamics,
+we further decompose the Per-cluster Potential function into sum of Per-cluster
+Per-user Potential functions and formulate the instantaneous power allocation
+as a Per-stage QSI-aware Interference Game played among all the CMs. We also
+propose a QSI-aware Simultaneous Iterative Water-filling Algorithm (QSIWFA) and
+show that it can achieve the Nash Equilibrium (NE).

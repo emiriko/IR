@@ -1,0 +1,10 @@
+We consider the K_4-free process. In this process, the edges of the complete
+n-vertex graph are traversed in a uniformly random order, and each traversed
+edge is added to an initially empty evolving graph, unless the addition of the
+edge creates a copy of K_4. Let M(n) denote the graph that is produced by that
+process. We prove that a.a.s., the number of edges in M(n) is O( n^{8/5} (\ln
+n)^{1/5} ). This matches, up to a constant factor, a lower bound of Bohman. As
+a by-product, we prove the following Ramsey-type result: for every n there
+exists a K_4-free n-vertex graph, in which the largest set of vertices that
+doesn't span a triangle has size O( n^{3/5} (\ln n)^{1/5} ). This improves, by
+a factor of (\ln n)^{3/10}, an upper bound of Krivelevich.

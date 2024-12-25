@@ -1,0 +1,12 @@
+Under Windows operating system, existing I/O benchmarking tools does not
+allow a developer to efficiently define a file access strategy according to the
+applications' constraints. This is essentially due to the fact that the
+existing tools do allow only a restricted set of I/O workloads that does not
+generally correspond to the target applications. To cope with this problem, we
+designed and implemented a precise I/O simulator allowing to simulate whatever
+real I/O trace on a given defined architecture, and in which most of file and
+disk cache strategies, their interactions and the detailed storage system
+architecture are implemented. Simulation results on different workloads and
+architectures show a very high degree of precision. In fact, the mean error
+rate as compared to real measures is of about 6% with a maximum of 10% on
+global throughput.

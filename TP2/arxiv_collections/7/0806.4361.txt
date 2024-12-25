@@ -1,0 +1,14 @@
+We present a data structure that supports three-dimensional range reporting
+queries in $O(\log \log U + (\log \log n)^3+k)$ time and uses $O(n\log^{1+\eps}
+n)$ space, where $U$ is the size of the universe, $k$ is the number of points
+in the answer,and $\eps$ is an arbitrary constant. This result improves over
+the data structure of Alstrup, Brodal, and Rauhe (FOCS 2000) that uses
+$O(n\log^{1+\eps} n)$ space and supports queries in $O(\log n+k)$ time,the data
+structure of Nekrich (SoCG'07) that uses $O(n\log^{3} n)$ space and supports
+queries in $O(\log \log U + (\log \log n)^2 + k)$ time, and the data structure
+of Afshani (ESA'08) that uses $O(n\log^{3} n)$ space and also supports queries
+in $O(\log \log U + (\log \log n)^2 + k)$ time but relies on randomization
+during the preprocessing stage. Our result allows us to significantly reduce
+the space usage of the fastest previously known static and incremental
+$d$-dimensional data structures, $d\geq 3$, at a cost of increasing the query
+time by a negligible $O(\log \log n)$ factor.

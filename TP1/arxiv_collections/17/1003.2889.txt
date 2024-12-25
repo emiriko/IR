@@ -1,0 +1,12 @@
+Mixed integer predictive control deals with optimizing integer and real
+control variables over a receding horizon. The mixed integer nature of controls
+might be a cause of intractability for instances of larger dimensions. To
+tackle this little issue, we propose a decomposition method which turns the
+original $n$-dimensional problem into $n$ indipendent scalar problems of lot
+sizing form. Each scalar problem is then reformulated as a shortest path one
+and solved through linear programming over a receding horizon. This last
+reformulation step mirrors a standard procedure in mixed integer programming.
+The approximation introduced by the decomposition can be lowered if we operate
+in accordance with the predictive control technique: i) optimize controls over
+the horizon ii) apply the first control iii) provide measurement updates of
+other states and repeat the procedure.

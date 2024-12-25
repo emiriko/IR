@@ -1,0 +1,22 @@
+In the introductory paper, [Physics Letters A 373 (2009) 911-918],
+arXiv:0808.3162, about noise-based logic, we showed how simple superpositions
+of single logic basis vectors can be achieved in a single wire. The
+superposition components were the N orthogonal logic basis vectors. Supposing
+that the different logic values have "on/off" states only, the resultant
+discrete superposition state represents a single number with N bit accuracy in
+a single wire, where N is the number of orthogonal logic vectors in the base.
+In the present paper, we show that the logic hyperspace (product) vectors
+defined in the introductory paper can be generalized to provide the discrete
+superposition of 2^N orthogonal system states. This is equivalent to a
+multi-valued logic system with 2^(2^N) logic values per wire. This is a similar
+situation to quantum informatics with N qubits, and hence we introduce the
+notion of noise-bit. This system has major differences compared to quantum
+informatics. The noise-based logic system is deterministic and each
+superposition element is instantly accessible with the high digital accuracy,
+via a real hardware parallelism, without decoherence and error correction, and
+without the requirement of repeating the logic operation many times to extract
+the probabilistic information. Moreover, the states in noise-based logic do not
+have to be normalized, and non-unitary operations can also be used. As an
+example, we introduce a string search algorithm which is O(M^0.5) times faster
+than Grover's quantum algorithm (where M is the number of string entries),
+while it has the same hardware complexity class as the quantum algorithm.

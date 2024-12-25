@@ -1,0 +1,16 @@
+We investigate the complexity of short symbolic sequences of chaotic
+dynamical systems by using lossless compression algorithms. In particular, we
+study Non-Sequential Recursive Pair Substitution (NSRPS), a lossless
+compression algorithm first proposed by W. Ebeling et al. [Math. Biosc. 52,
+1980] and Jim\'{e}nez-Monta\~{n}o et al. [arXiv:cond-mat/0204134, 2002]) which
+was subsequently shown to be optimal. NSPRS has also been used to estimate
+Entropy of written English (P. Grassberger [arXiv:physics/0207023, 2002]). We
+propose a new measure of complexity - defined as the number of iterations of
+NSRPS required to transform the input sequence into a constant sequence. We
+test this measure on symbolic sequences of the Logistic map for various values
+of the bifurcation parameter. The proposed measure of complexity is easy to
+compute and is observed to be highly correlated with the Lyapunov exponent of
+the original non-linear time series, even for very short symbolic sequences (as
+short as 50 samples). Finally, we construct symbolic sequences from the
+Skew-Tent map which are incompressible by popular compression algorithms like
+WinZip, WinRAR and 7-Zip, but compressible by NSRPS.

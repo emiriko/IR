@@ -1,0 +1,13 @@
+A protocol named Threshold Bipolar (TB) is proposed as a fetching strategy at
+the startup stage of p2p live streaming systems. In this protocol, chunks are
+fetched consecutively from buffer head at the beginning. After the buffer is
+filled into a threshold, chunks at the buffer tail will be fetched first while
+keeping the contiguously filled part in the buffer above the threshold even
+when the buffer is drained at a playback rate. High download rate, small
+startup latency and natural strategy handover can be reached at the same time
+by this protocol. Important parameters in this protocol are identified. The
+buffer progress under this protocol is then expressed as piecewise lines
+specified by those parameters. Startup traces of peers measured from PPLive are
+studied to show the real performance of TB protocol in a real system. A simple
+design model of TB protocol is proposed to reveal important considerations in a
+practical design.

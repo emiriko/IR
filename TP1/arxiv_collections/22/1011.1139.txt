@@ -1,0 +1,18 @@
+Residuals in regression models are often spatially correlated. Prominent
+examples include studies in environmental epidemiology to understand the
+chronic health effects of pollutants. I consider the effects of residual
+spatial structure on the bias and precision of regression coefficients,
+developing a simple framework in which to understand the key issues and derive
+informative analytic results. When unmeasured confounding introduces spatial
+structure into the residuals, regression models with spatial random effects and
+closely-related models such as kriging and penalized splines are biased, even
+when the residual variance components are known. Analytic and simulation
+results show how the bias depends on the spatial scales of the covariate and
+the residual: one can reduce bias by fitting a spatial model only when there is
+variation in the covariate at a scale smaller than the scale of the unmeasured
+confounding. I also discuss how the scales of the residual and the covariate
+affect efficiency and uncertainty estimation when the residuals are independent
+of the covariate. In an application on the association between black carbon
+particulate matter air pollution and birth weight, controlling for large-scale
+spatial variation appears to reduce bias from unmeasured confounders, while
+increasing uncertainty in the estimated pollution effect.

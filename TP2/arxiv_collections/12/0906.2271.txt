@@ -1,0 +1,11 @@
+It is widely recognized that when classical optimal strategies are applied
+with parameters estimated from data, the resulting portfolio weights are
+remarkably volatile and unstable over time. The predominant explanation for
+this is the difficulty of estimating expected returns accurately. In this
+paper, we modify the $n$ stock Black--Scholes model by introducing a new
+parametrization of the drift rates. We solve Markowitz' continuous time
+portfolio problem in this framework. The optimal portfolio weights correspond
+to keeping $1/n$ of the wealth invested in stocks in each of the $n$ Brownian
+motions. The strategy is applied out-of-sample to a large data set. The
+portfolio weights are stable over time and obtain a significantly higher Sharpe
+ratio than the classical $1/n$ strategy.

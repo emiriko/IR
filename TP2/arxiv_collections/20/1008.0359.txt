@@ -1,0 +1,24 @@
+The self-healing diffusion Monte Carlo algorithm (SHDMC) [Reboredo, Hood and
+Kent, Phys. Rev. B {\bf 79}, 195117 (2009); Reboredo, {\it ibid.} {\bf 80},
+125110 (2009)] is extended to study the ground and excited states of magnetic
+and periodic systems. The method converges to exact eigenstates as the
+statistical data collected increases if the wave function is sufficiently
+flexible. It is shown that the wave functions of complex anti-symmetric
+eigen-states can be written as the product of an anti-symmetric real factor and
+a symmetric phase factor. The dimensionality of the nodal surface is dependent
+on whether phase is a scalar function or not. A recursive optimization
+algorithm is derived from the time evolution of the mixed probability density,
+which is given by an ensemble of electronic configurations (walkers) with
+complex weight. This complex weight allows the amplitude of the fixed-node wave
+function to move away from the trial wave function phase. This novel approach
+is both a generalization of SHDMC and the fixed-phase approximation [Ortiz,
+Ceperley and Martin, Phys Rev. Lett. {\bf 71}, 2777 (1993)]. When used
+recursively it simultaneously improves the node and the phase. The algorithm is
+demonstrated to converge to nearly exact solutions of model systems with
+periodic boundary conditions or applied magnetic fields. The computational cost
+is proportional to the number of independent degrees of freedom of the phase.
+The method is applied to obtain low-energy excitations of Hamiltonians with
+magnetic field or periodic boundary conditions. The method is used to optimize
+wave functions with twisted boundary conditions, which are included in a
+many-body Bloch phase. The potential applications of this new method to study
+periodic, magnetic, and complex Hamiltonians are discussed.

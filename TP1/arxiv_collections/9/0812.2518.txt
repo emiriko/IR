@@ -1,0 +1,17 @@
+Strongly multiplicative linear secret sharing schemes (LSSS) have been a
+powerful tool for constructing secure multiparty computation protocols.
+However, it remains open whether or not there exist efficient constructions of
+strongly multiplicative LSSS from general LSSS. In this paper, we propose the
+new concept of a 3-multiplicative LSSS, and establish its relationship with
+strongly multiplicative LSSS. More precisely, we show that any 3-multiplicative
+LSSS is a strongly multiplicative LSSS, but the converse is not true; and that
+any strongly multiplicative LSSS can be efficiently converted into a
+3-multiplicative LSSS. Furthermore, we apply 3-multiplicative LSSS to the
+computation of unbounded fan-in multiplication, which reduces its round
+complexity to four (from five of the previous protocol based on strongly
+multiplicative LSSS). We also give two constructions of 3-multiplicative LSSS
+from Reed-Muller codes and algebraic geometric codes. We believe that the
+construction and verification of 3-multiplicative LSSS are easier than those of
+strongly multiplicative LSSS. This presents a step forward in settling the open
+problem of efficient constructions of strongly multiplicative LSSS from general
+LSSS.

@@ -1,0 +1,12 @@
+Several studies have considered control theory tools for traffic control in
+communication networks, as for example the congestion control issue in IP
+(Internet Protocol) routers. In this paper, we propose to design a linear
+observer for time-delay systems to address the traffic monitoring issue in
+TCP/AQM (Transmission Control Protocol/Active Queue Management) networks. Due
+to several propagation delays and the queueing delay, the set TCP/AQM is
+modeled as a multiple delayed system of a particular form. Hence, appropriate
+robust control tools as quadratic separation are adopted to construct a delay
+dependent observer for TCP flows estimation. Note that, the developed mechanism
+enables also the anomaly detection issue for a class of DoS (Denial of Service)
+attacks. At last, simulations via the network simulator NS-2 and an emulation
+experiment validate the proposed methodology.

@@ -1,0 +1,18 @@
+In this paper, we target the practical implementation issues of quantum
+multicast networks. First, we design a recursive lossless compression that
+allows us to control the trade-off between the circuit complexity and the
+dimension of the compressed quantum state. We give a formula that describes the
+trade-off, and further analyze how the formula is affected by the controlling
+parameter of the recursive procedure. Our recursive lossless compression can be
+applied in a quantum multicast network where the source outputs homogeneous
+quantum states (many copies of a quantum state) to a set of destinations
+through a bottleneck. Such a recursive lossless compression is extremely useful
+in the current situation where the technology of producing large-scale quantum
+circuits is limited. Second, we develop two lossless compression schemes that
+work for heterogeneous quantum states (many copies of a set of quantum states)
+when the set of quantum states satisfies a certain structure. The heterogeneous
+compression schemes provide extra compressing power over the homogeneous
+compression scheme. Finally, we realize our heterogeneous compression schemes
+in several quantum multicast networks, including the single-source
+multi-terminal model, the multi-source multi-terminal model, and the ring
+networks. We then analyze the bandwidth requirements for these network models.

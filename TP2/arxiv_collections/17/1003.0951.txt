@@ -1,0 +1,17 @@
+This paper presents a methodology and a system, named LogMaster, for mining
+correlations of events that have multiple attributions, i.e., node ID,
+application ID, event type, and event severity, in logs of large-scale cluster
+systems. Different from traditional transactional data, e.g., supermarket
+purchases, system logs have their unique characteristic, and hence we propose
+several innovative approaches to mine their correlations. We present a simple
+metrics to measure correlations of events that may happen interleavedly. On the
+basis of the measurement of correlations, we propose two approaches to mine
+event correlations; meanwhile, we propose an innovative abstraction: event
+correlation graphs (ECGs) to represent event correlations, and present an ECGs
+based algorithm for predicting events. For two system logs of a production
+Hadoop-based cloud computing system at Research Institution of China Mobile and
+a production HPC cluster system at Los Alamos National Lab (LANL), we evaluate
+our approaches in three scenarios: (a) predicting all events on the basis of
+both failure and non-failure events; (b) predicting only failure events on the
+basis of both failure and non-failure events; (c) predicting failure events
+after removing non-failure events.

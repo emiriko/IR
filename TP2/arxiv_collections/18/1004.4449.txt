@@ -1,0 +1,16 @@
+Plagiarism of material from the Internet is a widespread and growing problem.
+Several methods used to detect the plagiarism and similarity between the source
+document and suspected documents such as fingerprint based on character or
+n-gram. In this paper, we discussed a new method to detect the plagiarism based
+on graph representation; however, Preprocessing for each document is required
+such as breaking down the document into its constituent sentences. Segmentation
+of each sentence into separated terms and stop word removal. We build the graph
+by grouping each sentence terms in one node, the resulted nodes are connected
+to each other based on order of sentence within the document, all nodes in
+graph are also connected to top level node "Topic Signature". Topic signature
+node is formed by extracting the concepts of each sentence terms and grouping
+them in such node. The main advantage of the proposed method is the topic
+signature which is main entry for the graph is used as quick guide to the
+relevant nodes. which should be considered for the comparison between source
+documents and suspected one. We believe the proposed method can achieve a good
+performance in terms of effectiveness and efficiency.

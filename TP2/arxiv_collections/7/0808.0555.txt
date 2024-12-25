@@ -1,0 +1,13 @@
+A "pairing function" J associates a unique natural number z to any two
+natural numbers x,y such that for two "unpairing functions" K and L, the
+equalities K(J(x,y))=x, L(J(x,y))=y and J(K(z),L(z))=z hold. Using pairing
+functions on natural number representations of truth tables, we derive an
+encoding for Binary Decision Diagrams with the unique property that its boolean
+evaluation faithfully mimics its structural conversion to a a natural number
+through recursive application of a matching pairing function. We then use this
+result to derive {\em ranking} and {\em unranking} functions for BDDs and
+reduced BDDs. The paper is organized as a self-contained literate Prolog
+program, available at http://logic.csci.unt.edu/tarau/research/2008/pBDD.zip
+  Keywords: logic programming and computational mathematics, pairing/unpairing
+functions, encodings of boolean functions, binary decision diagrams, natural
+number representations of truth tables

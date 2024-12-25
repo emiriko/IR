@@ -1,0 +1,14 @@
+We propose a new local, deterministic and parameter-free algorithm that
+detects fuzzy and crisp overlapping communities in a weighted network and
+simultaneously reveals their hierarchy. Using a local fitness function, the
+algorithm greedily expands natural communities of seeds until the whole graph
+is covered. The hierarchy of communities is obtained analytically by
+calculating resolution levels at which communities grow rather than numerically
+by testing different resolution levels. This analytic procedure is not only
+more exact than its numerical alternatives such as LFM and GCE but also much
+faster. Critical resolution levels can be identified by searching for intervals
+in which large changes of the resolution do not lead to growth of communities.
+We tested our algorithm on benchmark graphs and on a network of 492 papers in
+information science. Combined with a specific post-processing, the algorithm
+gives much more precise results on LFR benchmarks with high overlap compared to
+other algorithms and performs very similar to GCE.

@@ -1,0 +1,17 @@
+In the context of metric perturbation theory for non-spinning black holes,
+extreme mass ratio binary (EMRB) systems are described by distributionally
+forced master wave equations. Numerical solution of a master wave equation as
+an initial boundary value problem requires initial data. However, because the
+correct initial data for generic-orbit systems is unknown, specification of
+trivial initial data is a common choice, despite being inconsistent and
+resulting in a solution which is initially discontinuous in time. As is well
+known, this choice leads to a "burst" of junk radiation which eventually
+propagates off the computational domain. We observe another unintended
+consequence of trivial initial data: development of a persistent spurious
+solution, here referred to as the Jost junk solution, which contaminates the
+physical solution for long times. This work studies the influence of both types
+of junk on metric perturbations, waveforms, and self-force measurements, and it
+demonstrates that smooth modified source terms mollify the Jost solution and
+reduce junk radiation. Our concluding section discusses the applicability of
+these observations to other numerical schemes and techniques used to solve
+distributionally forced master wave equations.

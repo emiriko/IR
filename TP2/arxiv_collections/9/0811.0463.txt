@@ -1,0 +1,14 @@
+Heisenberg's uncertainty principle states that it is not possible to compute
+both the position and momentum of an electron with absolute certainty. However,
+this computational limitation, which is central to quantum mechanics, has no
+counterpart in theoretical computer science. Here, I will show that we can
+distinguish between the complexity classes P and NP when we consider intrinsic
+uncertainty in our computations, and take uncertainty about whether a bit
+belongs to the program code or machine input into account. Given intrinsic
+uncertainty, every output is uncertain, and computations become meaningful only
+in combination with a confidence level. In particular, it is impossible to
+compute solutions with absolute certainty as this requires infinite run-time.
+Considering intrinsic uncertainty, I will present a function that is in NP but
+not in P, and thus prove that P is a proper subset of NP. I will also show that
+all traditional hard decision problems have polynomial-time algorithms that
+provide solutions with confidence under uncertainty.

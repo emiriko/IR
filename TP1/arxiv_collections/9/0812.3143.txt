@@ -1,0 +1,14 @@
+An algorithm for simulation of quantum many-body dynamics having su(2)
+spectrum-generating algebra is developed. The algorithm is based on the idea of
+dynamical coarse-graining. The original unitary dynamics of the target
+observables, the elements of the spectrum-generating algebra, is simulated by a
+surrogate open-system dynamics, which can be interpreted as weak measurement of
+the target observables, performed on the evolving system. The open-system state
+can be represented by a mixture of pure states, localized in the phase-space.
+The localization reduces the scaling of the computational resources with the
+Hilbert space dimension n by factor n^{3/2}/ln n compared to conventional
+sparse-matrix methods. The guidelines for the choice of parameters for the
+simulation are presented and the scaling of the computational resources with
+the Hilbert space dimension of the system is estimated. The algorithm is
+applied to the simulation of the dynamics of systems of 2*10^4 and 2*10^6 cold
+atoms in the double-well trap, described by the two-sites Bose-Hubbard model.

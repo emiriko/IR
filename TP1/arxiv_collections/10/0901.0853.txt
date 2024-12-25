@@ -1,0 +1,8 @@
+We conduct an investigation into the dispersive post-shock oscillations in
+the entropic lattice-Boltzmann method (ELBM). To this end we use a root finding
+algorithm to implement the ELBM which displays fast cubic convergence and
+guaranties the proper sign of dissipation. The resulting simulation on the
+one-dimensional shock tube shows no benefit in terms of regularization from
+using the ELBM over the standard LBGK method. We also conduct an experiment
+investigating of the LBGK method using median filtering at a single point per
+time step. Here we observe that significant regularization can be achieved.

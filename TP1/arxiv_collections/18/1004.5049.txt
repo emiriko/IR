@@ -1,0 +1,23 @@
+We study the centroid with respect to the class of information-theoretic
+Burbea-Rao divergences that generalize the celebrated Jensen-Shannon divergence
+by measuring the non-negative Jensen difference induced by a strictly convex
+and differentiable function. Although those Burbea-Rao divergences are
+symmetric by construction, they are not metric since they fail to satisfy the
+triangle inequality. We first explain how a particular symmetrization of
+Bregman divergences called Jensen-Bregman distances yields exactly those
+Burbea-Rao divergences. We then proceed by defining skew Burbea-Rao
+divergences, and show that skew Burbea-Rao divergences amount in limit cases to
+compute Bregman divergences. We then prove that Burbea-Rao centroids are
+unique, and can be arbitrarily finely approximated by a generic iterative
+concave-convex optimization algorithm with guaranteed convergence property. In
+the second part of the paper, we consider the Bhattacharyya distance that is
+commonly used to measure overlapping degree of probability distributions. We
+show that Bhattacharyya distances on members of the same statistical
+exponential family amount to calculate a Burbea-Rao divergence in disguise.
+Thus we get an efficient algorithm for computing the Bhattacharyya centroid of
+a set of parametric distributions belonging to the same exponential families,
+improving over former specialized methods found in the literature that were
+limited to univariate or "diagonal" multivariate Gaussians. To illustrate the
+performance of our Bhattacharyya/Burbea-Rao centroid algorithm, we present
+experimental performance results for $k$-means and hierarchical clustering
+methods of Gaussian mixture models.

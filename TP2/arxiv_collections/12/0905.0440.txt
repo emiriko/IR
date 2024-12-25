@@ -1,0 +1,17 @@
+Traditional cryptography assumes an eavesdropper receives an error-free copy
+of the transmitted ciphertext. Wyner's wiretap channel model recognizes that at
+the physical layer both the intended receiver and the passive eavesdropper
+inevitably receive an error-prone version of the transmitted message which must
+be corrected prior to decryption. This paper considers the implications of
+using both channel and cryptographic codes under the wiretap channel model in a
+way that enhances the \emph{information-theoretic} security for the friendly
+parties by keeping the information transfer to the eavesdropper small. We
+consider a secret-key cryptographic system with a linear feedback shift
+register (LFSR)-based keystream generator and observe the mutual information
+between an LFSR-generated sequence and the received noise-corrupted ciphertext
+sequence under a known-plaintext scenario. The effectiveness of a noniterative
+fast correlation attack, which reduces the search time in a brute-force attack,
+is shown to be correlated with this mutual information. For an iterative fast
+correlation attack on this cryptographic system, it is shown that an EXIT chart
+and mutual information are very good predictors of decoding success and failure
+by a passive eavesdropper.

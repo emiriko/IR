@@ -1,0 +1,17 @@
+Observations where additive noise is present can for many models be grouped
+into a compound observation matrix, adhering to the same type of model. There
+are many ways the observations can be stacked, for instance vertically,
+horizontally, or quadratically. An estimator for the spectrum of the underlying
+model can be formulated for each stacking scenario in the case of Gaussian
+noise. We compare these spectrum estimators for the different stacking
+scenarios, and show that all kinds of stacking actually decreases the variance
+when compared to just taking an average of the observations. We show that,
+regardless of the number of observations, the variance of the estimator is
+smallest when the compound observation matrix is made as square as possible.
+When the number of observations grow, however, it is shown that the difference
+between the estimators is marginal: Two stacking scenarios where the number of
+columns and rows grow to infinity are shown to have the same variance
+asymptotically, even if the asymptotic matrix aspect ratios differ. Only the
+cases of vertical and horizontal stackings display different behaviour, giving
+a higher variance asymptotically. Models where not all kinds of stackings are
+possible are also discussed.

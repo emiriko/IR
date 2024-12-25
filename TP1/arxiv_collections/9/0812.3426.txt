@@ -1,0 +1,24 @@
+Characterization of transient intermediate or transition states is crucial
+for the description of biomolecular folding pathways, which is however
+difficult in both experiments and computer simulations. Such transient states
+are typically of low population in simulation samples. Even for simple systems
+such as RNA hairpins, recently there are mounting debates over the existence of
+multiple intermediate states. In this paper, we develop a computational
+approach to explore the relatively low populated transition or intermediate
+states in biomolecular folding pathways, based on a topological data analysis
+tool, Mapper, with simulation data from large-scale distributed computing. The
+method is inspired by the classical Morse theory in mathematics which
+characterizes the topology of high dimensional shapes via some functional level
+sets. In this paper we exploit a conditional density filter which enables us to
+focus on the structures on pathways, followed by clustering analysis on its
+level sets, which helps separate low populated intermediates from high
+populated uninteresting structures. A successful application of this method is
+given on a motivating example, a RNA hairpin with GCAA tetraloop, where we are
+able to provide structural evidence from computer simulations on the multiple
+intermediate states and exhibit different pictures about unfolding and
+refolding pathways. The method is effective in dealing with high degree of
+heterogeneity in distribution, capturing structural features in multiple
+pathways, and being less sensitive to the distance metric than nonlinear
+dimensionality reduction or geometric embedding methods. It provides us a
+systematic tool to explore the low density intermediate states in complex
+biomolecular folding systems.

@@ -1,0 +1,16 @@
+In-correlator techniques offer the possibility of identifying and/or excising
+radio frequency interference (RFI) from interferometric observations at much
+higher time and/or frequency resolution than is generally possible with the
+final visibility dataset. Due to the considerable computational requirements of
+the correlation procedure, cross-correlators have most commonly been
+implemented using high-speed digital signal processing boards, which typically
+require long development times and are difficult to alter once complete.
+"Software" correlators, on the other hand, make use of commodity server
+machines and a correlation algorithm coded in a high-level language. They are
+inherently much more flexible and can be developed - and modified - much more
+rapidly than purpose-built "hardware" correlators. Software correlators are
+thus a natural choice for testing new RFI detection and mitigation techniques
+for interferometers. The ease with which software correlators can be adapted to
+test RFI detection algorithms is demonstrated by the addition of kurtosis
+detection and plotting to the widely used DiFX software correlator, which
+highlights previously unknown short -duration RFI at the Hancock VLBA station.

@@ -1,0 +1,11 @@
+The concept of negative probabilities can be used to decompose the
+interaction of two qubits mediated by a quantum controlled-NOT into three
+operations that require only classical interactions (that is, local operations
+and classical communication) between the qubits. For a single gate, the
+probabilities of the three operations are 1, 1, and -1. This decomposition can
+be applied in a probabilistic simulation of quantum computation by randomly
+choosing one of the three operations for each gate and assigning a negative
+statistical weight to the outcomes of sequences with an odd number of negative
+probability operations. The exponential speed-up of a quantum computer can then
+be evaluated in terms of the increase in the number of sequences needed to
+simulate a single operation of the quantum circuit.

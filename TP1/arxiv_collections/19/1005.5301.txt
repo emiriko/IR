@@ -1,0 +1,10 @@
+A high-order scheme for direct numerical simulations of turbulent combustion
+is discussed. Its implementation in the massively parallel and publicly
+available Pencil Code is validated with the focus on hydrogen combustion.
+Ignition delay times (0D) and laminar flame velocities (1D) are calculated and
+compared with results from the commercially available Chemkin code. The scheme
+is verified to be fifth order in space. Upon doubling the resolution, a 32-fold
+increase in the accuracy of the flame front is demonstrated. Finally, also
+turbulent and spherical flame front velocities are calculated and the
+implementation of the non-reflecting so-called Navier-Stokes Characteristic
+Boundary Condition is validated in all three directions.

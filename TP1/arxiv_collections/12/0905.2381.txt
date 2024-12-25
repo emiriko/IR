@@ -1,0 +1,11 @@
+The r-parity tensor of a graph is a generalization of the adjacency matrix,
+where the tensor's entries denote the parity of the number of edges in
+subgraphs induced by r distinct vertices. For r=2, it is the adjacency matrix
+with 1's for edges and -1's for nonedges. It is well-known that the 2-norm of
+the adjacency matrix of a random graph is O(\sqrt{n}). Here we show that the
+2-norm of the r-parity tensor is at most f(r)\sqrt{n}\log^{O(r)}n, answering a
+question of Frieze and Kannan who proved this for r=3. As a consequence, we get
+a tight connection between the planted clique problem and the problem of
+finding a vector that approximates the 2-norm of the r-parity tensor of a
+random graph. Our proof method is based on an inductive application of
+concentration of measure.

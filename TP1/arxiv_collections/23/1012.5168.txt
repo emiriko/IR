@@ -1,0 +1,14 @@
+We present an implementation of the disconnected diagram contributions to
+quantities such as the flavor-singlet pseudoscalar meson mass which are
+accelerated by GPGPU technology utilizing the NVIDIA CUDA platform. To enable
+the exact evaluation of the disconnected loops we use a $16^3 \times 32$
+lattice and $N_f=2$ Wilson fermions simulated by the SESAM Collaboration. The
+disconnected loops are also computed using stochastic methods with several
+noise reduction techniques.
+  In particular, we analyze various dilution schemes as well as the recently
+proposed truncated s olver method. We find consistency among the different
+methods used for the determination of the $\eta^\prime$ mass, albeit that the
+gauge noise for the ensemble studied is large. We also find that the effect of
+'dilution' d oes not go beyond that of optimal statistical noise in many cases.
+It has been observed, however, that spin dilution does have a significant
+effect for some quantities studied.

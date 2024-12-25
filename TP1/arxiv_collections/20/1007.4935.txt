@@ -1,0 +1,9 @@
+This paper formalizes the optimal base problem, presents an algorithm to
+solve it, and describes its application to the encoding of Pseudo-Boolean
+constraints to SAT. We demonstrate the impact of integrating our algorithm
+within the Pseudo-Boolean constraint solver MINISAT+. Experimentation indicates
+that our algorithm scales to bases involving numbers up to 1,000,000, improving
+on the restriction in MINISAT+ to prime numbers up to 17. We show that, while
+for many examples primes up to 17 do suffice, encoding with respect to optimal
+bases reduces the CNF sizes and improves the subsequent SAT solving time for
+many examples.

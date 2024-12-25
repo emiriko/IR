@@ -1,0 +1,15 @@
+Burst contention is a well-known challenging problem in Optical Burst
+Switching (OBS) networks. Contention resolution approaches are always reactive
+and attempt to minimize the BLR based on local information available at the
+core node. On the other hand, a proactive approach that avoids burst losses
+before they occur is desirable. To reduce the probability of burst contention,
+a more robust routing algorithm than the shortest path is needed. This paper
+proposes a new routing mechanism for JET-based OBS networks, called Graphical
+Probabilistic Routing Model (GPRM) that selects less utilized links, on a
+hop-by-hop basis by using a bayesian network. We assume no wavelength
+conversion and no buffering to be available at the core nodes of the OBS
+network. We simulate the proposed approach under dynamic load to demonstrate
+that it reduces the Burst Loss Ratio (BLR) compared to static approaches by
+using Network Simulator 2 (ns-2) on NSFnet network topology and with realistic
+traffic matrix. Simulation results clearly show that the proposed approach
+outperforms static approaches in terms of BLR.

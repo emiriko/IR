@@ -1,0 +1,10 @@
+The computational cost of a Monte Carlo algorithm can only be meaningfully
+discussed when taking into account the magnitude of the resulting statistical
+error. Aiming for a fixed error per particle, we study the scaling behavior of
+the diffusion Monte Carlo method for large quantum systems. We identify the
+correlation within the population of walkers as the dominant scaling factor for
+large systems. While this factor is negligible for small and medium sized
+systems that are typically studied, it ultimately shows exponential scaling.
+The scaling factor can be estimated straightforwardly for each specific system
+and we find that is typically only becomes relevant for systems containing more
+than several hundred atoms.

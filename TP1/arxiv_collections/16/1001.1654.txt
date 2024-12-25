@@ -1,0 +1,12 @@
+We derive algorithms for higher order derivative computation of the
+rectangular $QR$ and eigenvalue decomposition of symmetric matrices with
+distinct eigenvalues in the forward and reverse mode of algorithmic
+differentiation (AD) using univariate Taylor propagation of matrices (UTPM).
+Linear algebra functions are regarded as elementary functions and not as
+algorithms. The presented algorithms are implemented in the BSD licensed AD
+tool \texttt{ALGOPY}. Numerical tests show that the UTPM algorithms derived in
+this paper produce results close to machine precision accuracy. The theory
+developed in this paper is applied to compute the gradient of an objective
+function motivated from optimum experimental design: $\nabla_x
+\Phi(C(J(F(x,y))))$, where $\Phi = \{\lambda_1 : \lambda_1 C\}$, $C = (J^T
+J)^{-1}$, $J = \frac{\dd F}{\dd y}$ and $F = F(x,y)$.

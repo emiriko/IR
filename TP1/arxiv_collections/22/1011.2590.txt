@@ -1,0 +1,22 @@
+The celebrated dimension reduction lemma of Johnson and Lindenstrauss has
+numerous computational and other applications. Due to its application in
+practice, speeding up the computation of a Johnson-Lindenstrauss style
+dimension reduction is an important question. Recently, Dasgupta, Kumar, and
+Sarlos (STOC 2010) constructed such a transform that uses a sparse matrix. This
+is motivated by the desire to speed up the computation when applied to sparse
+input vectors, a scenario that comes up in applications. The sparsity of their
+construction was further improved by Kane and Nelson (ArXiv 2010).
+  We improve the previous bound on the number of non-zero entries per column of
+Kane and Nelson from $O(1/\epsilon \log(1/\delta)\log(k/\delta))$ (where the
+target dimension is $k$, the distortion is $1\pm \epsilon$, and the failure
+probability is $\delta$) to $$ O\left({1\over\epsilon}
+\left({\log(1/\delta)\log\log\log(1/\delta) \over
+\log\log(1/\delta)}\right)^2\right). $$
+  We also improve the amount of randomness needed to generate the matrix. Our
+results are obtained by connecting the moments of an order 2 Rademacher chaos
+to the combinatorial properties of random Eulerian multigraphs. Estimating the
+chance that a random multigraph is composed of a given number of node-disjoint
+Eulerian components leads to a new tail bound on the chaos. Our estimates may
+be of independent interest, and as this part of the argument is decoupled from
+the analysis of the coefficients of the chaos, we believe that our methods can
+be useful in the analysis of other chaoses.

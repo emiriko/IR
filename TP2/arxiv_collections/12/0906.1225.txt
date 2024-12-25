@@ -1,0 +1,16 @@
+This paper studies pipelined algorithms for protecting distributed grid
+computations from cheating participants, who wish to be rewarded for tasks they
+receive but don't perform. We present improved cheater detection algorithms
+that utilize natural delays that exist in long-term grid computations. In
+particular, we partition the sequence of grid tasks into two interleaved
+sequences of task rounds, and we show how to use those rounds to devise the
+first general-purpose scheme that can catch all cheaters, even when cheaters
+collude. The main idea of this algorithm might at first seem
+counter-intuitive--we have the participants check each other's work. A naive
+implementation of this approach would, of course, be susceptible to collusion
+attacks, but we show that by, adapting efficient solutions to the parallel
+processor diagnosis problem, we can tolerate collusions of lazy cheaters, even
+if the number of such cheaters is a fraction of the total number of
+participants. We also include a simple economic analysis of cheaters in grid
+computations and a parameterization of the main deterrent that can be used
+against them--the probability of being caught.

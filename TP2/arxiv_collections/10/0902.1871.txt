@@ -1,0 +1,14 @@
+interpretation is a general methodology for building static analyses of
+programs. It was introduced by P. and R. Cousot in \cite{cc}. We present, in
+this paper, an application of a generic abstract interpretation to domain of
+model-checking. Dynamic checking are usually easier to use, because the concept
+are establishe d and wide well know. But they are usually limited to systems
+whose states space is finite. In an other part, certain faults cannot be
+detected dynamically, even by keeping track of the history of the states
+space.Indeed, the classical problem of finding the right test cases is far from
+trivial and limit the abilities of dynamic checkers further. Static checking
+have the advantage that they work on a more abstract level than dynamic checker
+and can verify system properties for all inputs. Problem, it is hard to
+guarantee that a violation of a modeled property corresponds to a fault in the
+concrete system. We propose an approach, in which we generate counter-examples
+dynamically using the abstract interpretation techniques.

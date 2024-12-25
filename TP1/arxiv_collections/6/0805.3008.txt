@@ -1,0 +1,27 @@
+We propose a general and formal statistical framework for multiple tests of
+association between known fixed features of a genome and unknown parameters of
+the distribution of variable features of this genome in a population of
+interest. The known gene-annotation profiles, corresponding to the fixed
+features of the genome, may concern Gene Ontology (GO) annotation, pathway
+membership, regulation by particular transcription factors, nucleotide
+sequences, or protein sequences. The unknown gene-parameter profiles,
+corresponding to the variable features of the genome, may be, for example,
+regression coefficients relating possibly censored biological and clinical
+outcomes to genome-wide transcript levels, DNA copy numbers, and other
+covariates. A generic question of great interest in current genomic research
+regards the detection of associations between biological annotation metadata
+and genome-wide expression measures. This biological question may be translated
+as the test of multiple hypotheses concerning association measures between
+gene-annotation profiles and gene-parameter profiles. A general and rigorous
+formulation of the statistical inference question allows us to apply the
+multiple hypothesis testing methodology developed in [Multiple Testing
+Procedures with Applications to Genomics (2008) Springer, New York] and related
+articles, to control a broad class of Type I error rates, defined as
+generalized tail probabilities and expected values for arbitrary functions of
+the numbers of Type I errors and rejected hypotheses. The resampling-based
+single-step and stepwise multiple testing procedures of [Multiple Testing
+Procedures with Applications to Genomics (2008) Springer, New York] take into
+account the joint distribution of the test statistics and provide Type I error
+control in testing problems involving general data generating distributions
+(with arbitrary dependence structures among variables), null hypotheses, and
+test statistics.

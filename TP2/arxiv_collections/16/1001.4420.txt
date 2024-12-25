@@ -1,0 +1,22 @@
+We study the complexity of the popular one player combinatorial game known as
+Flood-It. In this game the player is given an n by n board of tiles where each
+tile is allocated one of c colours. The goal is to make the colours of all
+tiles equal via the shortest possible sequence of flooding operations. In the
+standard version, a flooding operation consists of the player choosing a colour
+k, which then changes the colour of all the tiles in the monochromatic region
+connected to the top left tile to k. After this operation has been performed,
+neighbouring regions which are already of the chosen colour k will then also
+become connected, thereby extending the monochromatic region of the board. We
+show that finding the minimum number of flooding operations is NP-hard for c>=3
+and that this even holds when the player can perform flooding operations from
+any position on the board. However, we show that this "free" variant is in P
+for c=2. We also prove that for an unbounded number of colours, Flood-It
+remains NP-hard for boards of height at least 3, but is in P for boards of
+height 2. Next we show how a c-1 approximation and a randomised 2c/3
+approximation algorithm can be derived, and that no polynomial time constant
+factor, independent of c, approximation algorithm exists unless P=NP. We then
+investigate how many moves are required for the "most demanding" n by n boards
+(those requiring the most moves) and show that the number grows as fast as
+Theta(n*c^0.5). Finally, we consider boards where the colours of the tiles are
+chosen at random and show that for c>=2, the number of moves required to flood
+the whole board is Omega(n) with high probability.

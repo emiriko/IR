@@ -1,0 +1,9 @@
+A discontinuous Galerkin method for the ideal 5 moment two-fluid plasma
+system is presented. The method uses a second or third order discontinuous
+Galerkin spatial discretization and a third order TVD Runge-Kutta time stepping
+scheme. The method is benchmarked against an analytic solution of a dispersive
+electron acoustic square pulse as well as the two-fluid electromagnetic shock
+and existing numerical solutions to the GEM challenge magnetic reconnection
+problem. The algorithm can be generalized to arbitrary geometries and three
+dimensions. An approach to maintaining small gauge errors based on error
+propagation is suggested.

@@ -1,0 +1,18 @@
+This paper is concerned with the efficient evaluation of higher-order
+derivatives of functions $f$ that are composed of matrix operations. I.e., we
+want to compute the $D$-th derivative tensor $\nabla^D f(X) \in \mathbb
+R^{N^D}$, where $f:\mathbb R^{N} \to \mathbb R$ is given as an algorithm that
+consists of many matrix operations. We propose a method that is a combination
+of two well-known techniques from Algorithmic Differentiation (AD): univariate
+Taylor propagation on scalars (UTPS) and first-order forward and reverse on
+matrices. The combination leads to a technique that we would like to call
+univariate Taylor propagation on matrices (UTPM). The method inherits many
+desirable properties: It is easy to implement, it is very efficient and it
+returns not only $\nabla^D f$ but yields in the process also the derivatives
+$\nabla^d f$ for $d \leq D$. As performance test we compute the gradient
+$\nabla f(X)$ % and the Hessian $\nabla_A^2 f(A)$ by a combination of forward
+and reverse mode of $f(X) = \trace (X^{-1})$ in the reverse mode of AD for $X
+\in \mathbb R^{n \times n}$. We observe a speedup of about 100 compared to
+UTPS. Due to the nature of the method, the memory footprint is also small and
+therefore can be used to differentiate functions that are not accessible by
+standard methods due to limited physical memory.

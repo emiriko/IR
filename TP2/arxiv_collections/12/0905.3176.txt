@@ -1,0 +1,17 @@
+Cosmic shear measurements rely on our ability to measure and correct the
+Point Spread Function (PSF) of the observations. This PSF is measured using
+stars in the field, which give a noisy measure at random points in the field.
+Using Wiener filtering, we show how errors in this PSF correction process
+propagate into shear power spectrum errors. This allows us to test future
+space-based missions, such as Euclid or JDEM, thereby allowing us to set clear
+engineering specifications on PSF variability. For ground-based surveys, where
+the variability of the PSF is dominated by the environment, we briefly discuss
+how our approach can also be used to study the potential of mitigation
+techniques such as correlating galaxy shapes in different exposures. To
+illustrate our approach we show that for a Euclid-like survey to be statistics
+limited, an initial pre-correction PSF ellipticity power spectrum, with a
+power-law slope of -3 must have an amplitude at l =1000 of less than 2 x
+10^{-13}. This is 1500 times smaller than the typical lensing signal at this
+scale. We also find that the power spectrum of PSF size \dR^2) at this scale
+must be below 2 x 10^{-12}. Public code available as part of iCosmo at
+http://www.icosmo.org

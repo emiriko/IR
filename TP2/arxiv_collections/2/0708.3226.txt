@@ -1,0 +1,15 @@
+In the constraint satisfaction problem ($CSP$), the aim is to find an
+assignment of values to a set of variables subject to specified constraints. In
+the minimum cost homomorphism problem ($MinHom$), one is additionally given
+weights $c_{va}$ for every variable $v$ and value $a$, and the aim is to find
+an assignment $f$ to the variables that minimizes $\sum_{v} c_{vf(v)}$. Let
+$MinHom(\Gamma)$ denote the $MinHom$ problem parameterized by the set of
+predicates allowed for constraints. $MinHom(\Gamma)$ is related to many
+well-studied combinatorial optimization problems, and concrete applications can
+be found in, for instance, defence logistics and machine learning. We show that
+$MinHom(\Gamma)$ can be studied by using algebraic methods similar to those
+used for CSPs. With the aid of algebraic techniques, we classify the
+computational complexity of $MinHom(\Gamma)$ for all choices of $\Gamma$. Our
+result settles a general dichotomy conjecture previously resolved only for
+certain classes of directed graphs, [Gutin, Hell, Rafiey, Yeo, European J. of
+Combinatorics, 2008].

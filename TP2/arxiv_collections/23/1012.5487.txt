@@ -1,0 +1,17 @@
+Most classification methods provide either a prediction of class membership
+or an assessment of class membership probability. In the case of two-group
+classification the predicted probability can be described as "risk" of
+belonging to a "special" class . When the required output is a set of
+ordinal-risk groups, a discretization of the continuous risk prediction is
+achieved by two common methods: by constructing a set of models that describe
+the conditional risk function at specific points (quantile regression) or by
+dividing the output of an "optimal" classification model into adjacent
+intervals that correspond to the desired risk groups. By defining a new error
+measure for the distribution of risk onto intervals we are able to identify
+lower bounds on the accuracy of these methods, showing sub-optimality both in
+their distribution of risk and in the efficiency of their resulting partition
+into intervals. By adding a new form of constraint to the existing maximum
+likelihood optimization framework and by introducing a penalty function to
+avoid degenerate solutions, we show how existing methods can be augmented to
+solve the ordinal risk-group classification problem. We implement our method
+for logistic regression (LR) and show a numeric example.

@@ -1,0 +1,14 @@
+The use of an approximate reference state wave function |Phi_r> in electronic
+many-body methods can break the spin symmetry of Born-Oppenheimer
+spin-independent Hamiltonians. This can result in significant errors,
+especially when bonds are stretched or broken. A simple spin-projection method
+is introduced for auxiliary-field quantum Monte Carlo (AFQMC) calculations,
+which yields spin-contamination-free results, even with a spin-contaminated
+|Phi_r>. The method is applied to the difficult F2 molecule, which is unbound
+within unrestricted Hartree-Fock (UHF). With a UHF |Phi_r>, spin contamination
+causes large systematic errors and long equilibration times in AFQMC in the
+intermediate, bond-breaking region. The spin-projection method eliminates these
+problems, and delivers an accurate potential energy curve from equilibrium to
+the dissociation limit using the UHF |Phi_r>. Realistic potential energy curves
+are obtained with a cc-pVQZ basis. The calculated spectroscopic constants are
+in excellent agreement with experiment.

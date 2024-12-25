@@ -1,0 +1,11 @@
+We apply Monte Carlo simulations to count the numbers of solutions of two
+well-known combinatorial problems: the N-queens problem and Latin square
+problem. The original system is first converted to a general thermodynamic
+system, from which the number of solutions of the original system is obtained
+by using the method of computing the partition function. Collective moves are
+used to further accelerate sampling: swap moves are used in the N-queens
+problem and a cluster algorithm is developed for the Latin squares. The method
+can handle systems of $10^4$ degrees of freedom with more than $10^10000$
+solutions. We also observe a distinct finite size effect of the Latin square
+system: its heat capacity gradually develops a second maximum as the size
+increases.

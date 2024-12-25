@@ -1,0 +1,15 @@
+The stability of sparse signal reconstruction is investigated in this paper.
+We design efficient algorithms to verify the sufficient condition for unique
+$\ell_1$ sparse recovery. One of our algorithm produces comparable results with
+the state-of-the-art technique and performs orders of magnitude faster. We show
+that the $\ell_1$-constrained minimal singular value ($\ell_1$-CMSV) of the
+measurement matrix determines, in a very concise manner, the recovery
+performance of $\ell_1$-based algorithms such as the Basis Pursuit, the Dantzig
+selector, and the LASSO estimator. Compared with performance analysis involving
+the Restricted Isometry Constant, the arguments in this paper are much less
+complicated and provide more intuition on the stability of sparse signal
+recovery. We show also that, with high probability, the subgaussian ensemble
+generates measurement matrices with $\ell_1$-CMSVs bounded away from zero, as
+long as the number of measurements is relatively large. To compute the
+$\ell_1$-CMSV and its lower bound, we design two algorithms based on the
+interior point algorithm and the semi-definite relaxation.

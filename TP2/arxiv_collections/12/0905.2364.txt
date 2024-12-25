@@ -1,0 +1,16 @@
+Safety is an important element of dependability. It is defined as the absence
+of accidents. Most accidents involving software-intensive systems have been
+system accidents, which are caused by unsafe inter-system or inter-component
+interactions. To validate the absence of system hazards concerning
+dysfunctional interactions, industrials call for approaches of modeling system
+safety requirements and interaction constraints among components. This paper
+proposes such a formalism, namely interface control systems (or shortly
+C-Systems). An interface C-System is composed of an interface automaton and a
+controlling automaton, which formalizes safe interactions and restricts system
+behavior at the meta level. This framework differs from the framework of
+traditional model checking. It explicitly separates the tasks of product
+engineers and safety engineers, and provides a top-down technique for modeling
+a system with safety constraints, and for automatically composing a safe system
+that conforms to safety requirements. The contributions of this work include
+formalizing safety requirements and a way of automatically ensuring system
+safety.

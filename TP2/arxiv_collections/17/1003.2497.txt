@@ -1,0 +1,10 @@
+The radio astronomy community is currently building a number of phased array
+telescopes. The calibration of these telescopes is hampered by the fact that
+covariances of signals from closely spaced antennas are sensitive to noise
+coupling and to variations in sky brightness on large spatial scales. These
+effects are difficult and computationally expensive to model. We propose to
+model them phenomenologically using a non-diagonal noise covariance matrix. The
+parameters can be estimated using a weighted alternating least squares (WALS)
+algorithm iterating between the calibration parameters and the additive
+nuisance parameters. We demonstrate the effectiveness of our method using data
+from the low frequency array (LOFAR) prototype station.

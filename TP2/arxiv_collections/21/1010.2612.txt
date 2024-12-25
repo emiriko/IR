@@ -1,0 +1,25 @@
+The divergence theorem of Gauss plays a central role in the derivation of the
+governing differential equations in fluid dynamics, electrodynamics,
+gravitational fields, and optics. One is often interested in an evolution
+equation for the large scale quantities without resolving the details of the
+small scales. As a result, there has been a significant effort in developing
+time-averaged and spatially-filtered equations for large scale dynamics from
+the fully resolved governing differential equations. One should realize that by
+starting from these fully-resolved equations (e.g. the Euler or Navier-Stokes
+equations) to derive an averaged evolution equation one has already taken the
+limit of the wave-numbers approaching infinity with no regards to our
+observational abilities at such a limit. As a result, obtaining the evolution
+equations for large scale quantities (low wave-numbers) by an averaging or
+filtering process is done after the fact. This could explain many of the
+theoretical and computational difficulties with the Euler or Navier-Stokes
+equations. Here, a rather different approach is proposed. The averaging process
+in implemented before the derivation of the differential form of the transport
+equations. A new observable divergence concept is defined based on fluxes
+calculated from observable quantities at a desired averaging scale, $\alpha$.
+An observable divergence theorem is then proved and applied in the derivation
+of the observable and regularized transport equations. We further show that the
+application of the observable divergence theorem to incompressible flows
+results in a formal derivation of the inviscid Leray turbulence model first
+proposed in 1934. It is argued that such a methodology in deriving fluid
+evolution equations removes many of the theoretical and computational
+difficulties in multi-scale problems such as turbulence and shocks.

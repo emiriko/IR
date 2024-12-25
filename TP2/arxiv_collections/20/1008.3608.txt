@@ -1,0 +1,21 @@
+Treating the interference as noise in the n-user interference channel, the
+paper describes a novel approach to the rates region, composed by the
+time-sharing convex hull of 2^n-1 corner points achieved through On/Off binary
+power control. The resulting rates region is denoted crystallized rates region.
+By treating the interference as noise, the n-user rates region frontiers has
+been found in the literature to be the convex hull of n hyper-surfaces. The
+rates region bounded by these hyper-surfaces is not necessarily convex, and
+thereby a convex hull operation is imposed through the strategy of
+time-sharing. This paper simplifies this rates region in the n-dimensional
+space by having only an On/Off binary power control. This consequently leads to
+2^n-1 corner points situated within the rates region. A time-sharing convex
+hull is imposed onto those corner points, forming the crystallized rates
+region. The paper focuses on game theoretic concepts to achieve that
+crystallized convex hull via correlated equilibrium. In game theory, the
+correlated equilibrium set is convex, and it consists of the time-sharing mixed
+strategies of the Nash equilibriums. In addition, the paper considers a
+mechanism design approach to carefully design a utility function, particularly
+the Vickrey-Clarke-Groves auction utility, where the solution point is situated
+on the correlated equilibrium set. Finally, the paper proposes a self learning
+algorithm, namely the regret-matching algorithm, that converges to the solution
+point on the correlated equilibrium set in a distributed fashion.

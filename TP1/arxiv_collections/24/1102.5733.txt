@@ -1,0 +1,8 @@
+This is an exposition of the theorem from the title, which says that the
+number of self-avoiding walks with n steps in the hexagonal lattice has
+asymptotics (2cos(pi/8))^{n+o(n)}. We lift the key identity to formal level and
+simplify the part of the proof bounding the growth constant from below. In our
+calculation the lower bound comes from an identity asserting that a linear
+combination of 288 generating functions counting self-avoiding walks in a
+certain domain by length, final edge direction and winding number modulo 48
+equals the geometric series 2cos(pi/8)x + (2cos(pi/8))^2x^2 + ... .

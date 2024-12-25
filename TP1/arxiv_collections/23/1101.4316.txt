@@ -1,0 +1,21 @@
+With the progress of measurement apparatus and the development of automatic
+sensors it is not unusual anymore to get thousands of samples of observations
+taking values in high dimension spaces such as functional spaces. In such large
+samples of high dimensional data, outlying curves may not be uncommon and even
+a few individuals may corrupt simple statistical indicators such as the mean
+trajectory. We focus here on the estimation of the geometric median which is a
+direct generalization of the real median and has nice robustness properties.
+The geometric median being defined as the minimizer of a simple convex
+functional that is differentiable everywhere when the distribution has no
+atoms, it is possible to estimate it with online gradient algorithms. Such
+algorithms are very fast and can deal with large samples. Furthermore they also
+can be simply updated when the data arrive sequentially. We state the almost
+sure consistency and the L2 rates of convergence of the stochastic gradient
+estimator as well as the asymptotic normality of its averaged version. We get
+that the asymptotic distribution of the averaged version of the algorithm is
+the same as the classic estimators which are based on the minimization of the
+empirical loss function. The performances of our averaged sequential estimator,
+both in terms of computation speed and accuracy of the estimations, are
+evaluated with a small simulation study. Our approach is also illustrated on a
+sample of more 5000 individual television audiences measured every second over
+a period of 24 hours.

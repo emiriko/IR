@@ -1,0 +1,11 @@
+We study sorting algorithms based on randomized round-robin comparisons.
+Specifically, we study Spin-the-bottle sort, where comparisons are
+unrestricted, and Annealing sort, where comparisons are restricted to a
+distance bounded by a \emph{temperature} parameter. Both algorithms are simple,
+randomized, data-oblivious sorting algorithms, which are useful in
+privacy-preserving computations, but, as we show, Annealing sort is much more
+efficient. We show that there is an input permutation that causes
+Spin-the-bottle sort to require $\Omega(n^2\log n)$ expected time in order to
+succeed, and that in $O(n^2\log n)$ time this algorithm succeeds with high
+probability for any input. We also show there is an implementation of Annealing
+sort that runs in $O(n\log n)$ time and succeeds with very high probability.

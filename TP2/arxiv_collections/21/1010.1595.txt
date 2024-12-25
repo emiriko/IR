@@ -1,0 +1,13 @@
+In this paper, we consider the implications of the fact that parallel
+raw-power can be exploited by a generic Metropolis--Hastings algorithm if the
+proposed values are independent. In particular, we present improvements to the
+independent Metropolis--Hastings algorithm that significantly decrease the
+variance of any estimator derived from the MCMC output, for a null computing
+cost since those improvements are based on a fixed number of target density
+evaluations. Furthermore, the techniques developed in this paper do not
+jeopardize the Markovian convergence properties of the algorithm, since they
+are based on the Rao--Blackwell principles of Gelfand and Smith (1990), already
+exploited in Casella and Robert (1996), Atchade and Perron (2005) and Douc and
+Robert (2010). We illustrate those improvements both on a toy normal example
+and on a classical probit regression model, but stress the fact that they are
+applicable in any case where the independent Metropolis-Hastings is applicable.

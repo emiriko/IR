@@ -1,0 +1,11 @@
+The goal of this paper is to estimate directly the rotation and translation
+between two stereoscopic images with the help of five homologous points. The
+methodology presented does not mix the rotation and translation parameters,
+which is comparably an important advantage over the methods using the
+well-known essential matrix. This results in correct behavior and accuracy for
+situations otherwise known as quite unfavorable, such as planar scenes, or
+panoramic sets of images (with a null base length), while providing quite
+comparable results for more "standard" cases. The resolution of the algebraic
+polynomials resulting from the modeling of the coplanarity constraint is made
+with the help of powerful algebraic solver tools (the Groebner bases and the
+Rational Univariate Representation).

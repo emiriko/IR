@@ -1,0 +1,9 @@
+We present an improved geometric-distortion solution for the Hubble Space
+Telescope UVIS channel of Wide Field Camera 3 for ten broad-band filters. The
+solution is made up of three parts: (1) a 3rd-order polynomial to deal with the
+general optical distortion, (2) a table of residuals that accounts for both
+chip-related anomalies and fine-structure introduced by the filter, and (3) a
+linear transformation to put the two chips into a convenient master frame. The
+final correction is better than 0.008 pixel (~0.3 mas) in each coordinate. We
+provide the solution in two different forms: a FORTRAN subroutine and a set of
+fits files, one for each filter/chip/coordinate.

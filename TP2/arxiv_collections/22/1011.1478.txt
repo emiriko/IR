@@ -1,0 +1,8 @@
+The paper proposes a numerically stable recursive algorithm for the exact
+computation of the linear-chain conditional random field gradient. It operates
+as a forward algorithm over the log-domain expectation semiring and has the
+purpose of enhancing memory efficiency when applied to long observation
+sequences. Unlike the traditional algorithm based on the forward-backward
+recursions, the memory complexity of our algorithm does not depend on the
+sequence length. The experiments on real data show that it can be useful for
+the problems which deal with long sequences.

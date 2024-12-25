@@ -1,0 +1,19 @@
+This paper proposes and analyzes a distributed MAC protocol that achieves
+zero collision with no control message exchange nor synchronization. ZC
+(ZeroCollision) is neither reservation-based nor dynamic TDMA; the protocol
+supports variable-length packets and does not lose efficiency when some of the
+stations do not transmit. At the same time, ZC is not a CSMA; in its steady
+state, it is completely collision-free. The stations transmit repeatedly in a
+round-robin order once the convergence state is reached. If some stations skip
+their turn, their transmissions are replaced by idle $20 \mu$-second mini-slots
+that enable the other stations to keep track of their order. Because of its
+short medium access delay and its efficiency, the protocol supports both
+real-time and elastic applications. The protocol allows for nodes leaving and
+joining the network; it can allocate more throughput to specific nodes (such as
+an access point). The protocol is robust against carrier sensing errors or
+clock drift. While collision avoidance is guaranteed in a single collision
+domain, it is not the case in a multiple collision one. However, experiments
+show ZC supports a comparable amount of goodput to CSMA in a multiple collision
+domain environment. The paper presents an analysis and extensive simulations of
+the protocol, confirming that ZC outperforms both CSMA and TDMA at high and low
+load.

@@ -1,0 +1,22 @@
+The car-following behavior of individual drivers in real city traffic is
+studied on the basis of (publicly available) trajectory datasets recorded by a
+vehicle equipped with an radar sensor. By means of a nonlinear optimization
+procedure based on a genetic algorithm, we calibrate the Intelligent Driver
+Model and the Velocity Difference Model by minimizing the deviations between
+the observed driving dynamics and the simulated trajectory when following the
+same leading vehicle. The reliability and robustness of the nonlinear fits are
+assessed by applying different optimization criteria, i.e., different measures
+for the deviations between two trajectories. The obtained errors are in the
+range between~11% and~29% which is consistent with typical error ranges
+obtained in previous studies. In addition, we found that the calibrated
+parameter values of the Velocity Difference Model strongly depend on the
+optimization criterion, while the Intelligent Driver Model is more robust in
+this respect. By applying an explicit delay to the model input, we investigated
+the influence of a reaction time. Remarkably, we found a negligible influence
+of the reaction time indicating that drivers compensate for their reaction time
+by anticipation. Furthermore, the parameter sets calibrated to a certain
+trajectory are applied to the other trajectories allowing for model validation.
+The results indicate that ``intra-driver variability'' rather than
+``inter-driver variability'' accounts for a large part of the calibration
+errors. The results are used to suggest some criteria towards a benchmarking of
+car-following models.

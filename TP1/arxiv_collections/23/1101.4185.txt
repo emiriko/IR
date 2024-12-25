@@ -1,0 +1,20 @@
+A change point problem occurs in many statistical applications. If there
+exist change points in a model, it is harmful to make a statistical analysis
+without any consideration of the existence of the change points and the results
+derived from such an analysis may be misleading. There are rich literatures on
+change point detection. Although many methods have been proposed for detecting
+multiple change points, using these methods to find multiple change points in a
+large sample seems not feasible. In this article, a connection between multiple
+change point detection and variable selection through a proper segmentation of
+data sequence is established, and a novel approach is proposed to tackle
+multiple change point detection problem via the following two key steps: (1)
+apply the recent advances in consistent variable selection methods such as
+SCAD, adaptive LASSO and MCP to detect change points; (2) employ a refine
+procedure to improve the accuracy of change point estimation. Five algorithms
+are hence proposed, which can detect change points with much less time and more
+accuracy compared to those in literature. In addition, an optimal segmentation
+algorithm based on residual sum of squares is given. Our simulation study shows
+that the proposed algorithms are computationally efficient with improved change
+point estimation accuracy. The new approach is readily generalized to detect
+multiple change points in other models such as generalized linear models and
+nonparametric models.

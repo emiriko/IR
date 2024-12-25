@@ -1,0 +1,11 @@
+Molecular dynamics (MD) simulation with modified Brenner's reactive empirical
+bond order (REBO) potential is a powerful tool to investigate plasma wall
+interaction on divertor plates in a nuclear fusion device. However, MD
+simulation box's size is less than several nm for the performance of a
+computer. To extend the size of the MD simulation, we develop a hybrid
+simulation code between MD code using REBO potential and binary collision
+approximation (BCA) code. Using the BCA code instead of computing all particles
+with a high kinetic energy for every step in the MD simulation, considerable
+computation time is saved. By demonstrating a hydrogen atom injection on a
+graphite by the hybrid simulation code, it is found that the hybrid simulation
+code works efficiently in a large simulation box.

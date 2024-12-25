@@ -1,0 +1,17 @@
+We introduce the concept of concatenated tensor networks to efficiently
+describe quantum states. We show that the corresponding concatenated tensor
+network states can efficiently describe time evolution and possess arbitrary
+block-wise entanglement and long-ranged correlations. We illustrate the
+approach for the enhancement of matrix product states, i.e. 1D tensor networks,
+where we replace each of the matrices of the original matrix product state with
+another 1D tensor network. This procedure yields a 2D tensor network, which
+includes -- already for tensor dimension two -- all states that can be prepared
+by circuits of polynomially many (possibly non-unitary) two-qubit quantum
+operations, as well as states resulting from time evolution with respect to
+Hamiltonians with short-ranged interactions. We investigate the possibility to
+efficiently extract information from these states, which serves as the basic
+step in a variational optimization procedure. To this aim we utilize known
+exact and approximate methods for 2D tensor networks and demonstrate some
+improvements thereof, which are also applicable e.g. in the context of 2D
+projected entangled pair states. We generalize the approach to higher
+dimensional- and tree tensor networks.

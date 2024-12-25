@@ -1,0 +1,19 @@
+The HL7 standard is widely used to exchange medical information
+electronically. As a part of the standard, HL7 defines scalar communication
+data types like physical quantity, point in time and concept descriptor but
+also complex types such as interval types, collection types and probabilistic
+types. Typical HL7 applications will store their communications in a database,
+resulting in a translation from HL7 concepts and types into database types.
+Since the data types were not designed to be implemented in a relational
+database server, this transition is cumbersome and fraught with programmer
+error. The purpose of this paper is two fold. First we analyze the HL7 version
+3 data type definitions and define a number of conditions that must be met, for
+the data type to be suitable for implementation in a relational database. As a
+result of this analysis we describe a number of possible improvements in the
+HL7 specification. Second we describe an implementation in the PostgreSQL
+database server and show that the database server can effectively execute
+scientific calculations with units of measure, supports a large number of
+operations on time points and intervals, and can perform operations that are
+akin to a medical terminology server. Experiments on synthetic data show that
+the user defined types perform better than an implementation that uses only
+standard data types from the database server.

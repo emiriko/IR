@@ -1,0 +1,17 @@
+We give the first L_1-sketching algorithm for integer vectors which produces
+nearly optimal sized sketches in nearly linear time. This answers the first
+open problem in the list of open problems from the 2006 IITK Workshop on
+Algorithms for Data Streams. Specifically, suppose Alice receives a vector x in
+{-M,...,M}^n and Bob receives y in {-M,...,M}^n, and the two parties share
+randomness. Each party must output a short sketch of their vector such that a
+third party can later quickly recover a (1 +/- eps)-approximation to ||x-y||_1
+with 2/3 probability given only the sketches. We give a sketching algorithm
+which produces O(eps^{-2}log(1/eps)log(nM))-bit sketches in O(n*log^2(nM))
+time, independent of eps. The previous best known sketching algorithm for L_1
+is due to [Feigenbaum et al., SICOMP 2002], which achieved the optimal sketch
+length of O(eps^{-2}log(nM)) bits but had a running time of O(n*log(nM)/eps^2).
+Notice that our running time is near-linear for every eps, whereas for
+sufficiently small values of eps, the running time of the previous algorithm
+can be as large as quadratic. Like their algorithm, our sketching procedure
+also yields a small-space, one-pass streaming algorithm which works even if the
+entries of x,y are given in arbitrary order.

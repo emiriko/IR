@@ -1,0 +1,10 @@
+We propose a randomized algorithm for training Support vector machines(SVMs)
+on large datasets. By using ideas from Random projections we show that the
+combinatorial dimension of SVMs is $O({log} n)$ with high probability. This
+estimate of combinatorial dimension is used to derive an iterative algorithm,
+called RandSVM, which at each step calls an existing solver to train SVMs on a
+randomly chosen subset of size $O({log} n)$. The algorithm has probabilistic
+guarantees and is capable of training SVMs with Kernels for both classification
+and regression problems. Experiments done on synthetic and real life data sets
+demonstrate that the algorithm scales up existing SVM learners, without loss of
+accuracy.

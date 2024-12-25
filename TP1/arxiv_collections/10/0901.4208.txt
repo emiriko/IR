@@ -1,0 +1,16 @@
+Consider a multinomial regression model where the response, which indicates a
+unit's membership in one of several possible unordered classes, is associated
+with a set of predictor variables. Such models typically involve a matrix of
+regression coefficients, with the $(j,k)$ element of this matrix modulating the
+effect of the $k$th predictor on the propensity of the unit to belong to the
+$j$th class. Thus, a supposition that only a subset of the available predictors
+are associated with the response corresponds to some of the columns of the
+coefficient matrix being zero. Under the Bayesian paradigm, the subset of
+predictors which are associated with the response can be treated as an unknown
+parameter, leading to typical Bayesian model selection and model averaging
+procedures. As an alternative, we investigate model selection and averaging,
+whereby a subset of individual elements of the coefficient matrix are zero.
+That is, the subset of predictors associated with the propensity to belong to a
+class varies with the class. We refer to this as class-specific predictor
+selection. We argue that such a scheme can be attractive on both conceptual and
+computational grounds.

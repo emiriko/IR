@@ -1,0 +1,21 @@
+Due to the very long timescales involved (us-s), theoretical modeling of
+fundamental biological processes including folding, misfolding, and mechanical
+unraveling of biomolecules, under physiologically relevant conditions, is
+challenging even for distributed computing systems. Graphics Processing Units
+(GPUs) are emerging as an alternative programming platform to the more
+traditional CPUs as they provide high raw computational power that can be
+utilized in a wide range of scientific applications. Using a coarse-grained
+Self Organized Polymer (SOP) model, we have developed and tested the GPU-based
+implementation of Langevin simulations for proteins (SOP-GPU program).
+Simultaneous calculation of forces for all particles is implemented using
+either the particle based or the interacting pair based parallelization, which
+leads to a ~30-fold acceleration compared to an optimized CPU version of the
+program. We assess the computational performance of an end-to-end application
+of the SOP-GPU program, where all steps of the algorithm are running on the
+GPU, by profiling the associated simulation time and memory usage for a number
+of small proteins, long protein fibers, and large-size protein assemblies. The
+SOP-GPU package can now be used in the theoretical exploration of the
+mechanical properties of large-size protein systems to generate the
+force-extension and force-indentation profiles under the experimental
+conditions of force application, and to relate the results of single-molecule
+experiments in vitro and in silico.

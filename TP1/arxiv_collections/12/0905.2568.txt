@@ -1,0 +1,10 @@
+We present the design of the simulation package Pluto, aimed at the study of
+hadronic interactions at SIS and FAIR energies. Its main mission is to offer a
+modular framework with an object-oriented structure, thereby making additions
+such as new particles, decays of resonances, new models up to modules for
+entire changes easily applicable. Overall consistency is ensured by a plugin-
+and distribution manager. Particular features are the support of a modular
+structure for physics process descriptions, and the possibility to access the
+particle stream for on-line modifications. Additional configuration and
+self-made classes can be attached by the user without re-compiling the package,
+which makes Pluto extremely configurable.

@@ -1,0 +1,21 @@
+A random $n$-lift of a base graph $G$ is its cover graph $H$ on the vertices
+$[n]\times V(G)$, where for each edge $u v$ in $G$ there is an independent
+uniform bijection $\pi$, and $H$ has all edges of the form $(i,u),(\pi(i),v)$.
+A main motivation for studying lifts is understanding Ramanujan graphs, and
+namely whether typical covers of such a graph are also Ramanujan.
+  Let $G$ be a graph with largest eigenvalue $\lambda_1$ and let $\rho$ be the
+spectral radius of its universal cover. Friedman (2003) proved that every "new"
+eigenvalue of a random lift of $G$ is $O(\rho^{1/2}\lambda_1^{1/2})$ with high
+probability, and conjectured a bound of $\rho+o(1)$, which would be tight by
+results of Lubotzky and Greenberg (1995). Linial and Puder (2008) improved
+Friedman's bound to $O(\rho^{2/3}\lambda_1^{1/3})$. For $d$-regular graphs,
+where $\lambda_1=d$ and $\rho=2\sqrt{d-1}$, this translates to a bound of
+$O(d^{2/3})$, compared to the conjectured $2\sqrt{d-1}$.
+  Here we analyze the spectrum of a random $n$-lift of a $d$-regular graph
+whose nontrivial eigenvalues are all at most $\lambda$ in absolute value. We
+show that with high probability the absolute value of every nontrivial
+eigenvalue of the lift is $O((\lambda \vee \rho) \log \rho)$. This result is
+tight up to a logarithmic factor, and for $\lambda \leq d^{2/3-\epsilon}$ it
+substantially improves the above upper bounds of Friedman and of Linial and
+Puder. In particular, it implies that a typical $n$-lift of a Ramanujan graph
+is nearly Ramanujan.

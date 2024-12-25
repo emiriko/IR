@@ -1,0 +1,11 @@
+Typical constraints on embedded systems include code size limits, upper
+bounds on energy consumption and hard or soft deadlines. To meet these
+requirements, it may be necessary to improve the software by applying various
+kinds of transformations like compiler optimizations, specific mapping of code
+and data in the available memories, code compression, etc. However, a
+transformation that aims at improving the software with respect to a given
+criterion might engender side effects on other criteria and these effects must
+be carefully analyzed. For this purpose, we have developed a common framework
+that makes it possible to experiment various code transfor-mations and to
+evaluate their impact of various criteria. This work has been carried out
+within the French ANR MORE project.

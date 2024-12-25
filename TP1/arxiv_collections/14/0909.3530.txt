@@ -1,0 +1,9 @@
+Remote Procedure Calls (RPC) are widely used over the Internet as they
+provide a simple and elegant way of interaction between the client and the
+server. This paper proposes a solution for securing the remote procedure calls
+(RPC) by tunneling it through HTTPS (Hypertext Transfer Protocol over Secure
+Socket Layer). RPC over HTTP actually uses the Secure Socket Layer (SSL)
+protocol as a transport for the traffic. SSL mandates that the server
+authenticates itself to the client using a digital certificate (and associated
+private key). SSL is normally configured to encrypt traffic before transmitting
+it between the server and client and vice versa.

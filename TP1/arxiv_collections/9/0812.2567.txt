@@ -1,0 +1,8 @@
+In this paper, we consider the Shapley network design game on undirected
+networks. In this game, we have an edge weighted undirected network $G(V,E)$
+and $n$ selfish players where player $i$ wants to choose a path from source
+vertex $s_i$ to destination vertex $t_i$. The cost of each edge is equally
+split among players who pass it. The price of stability is defined as the ratio
+of the cost of the best Nash equilibrium to that of the optimal solution. We
+present an $O(\log n/\log\log n)$ upper bound on price of stability for the
+single sink case, i.e, $t_i=t$ for all $i$.

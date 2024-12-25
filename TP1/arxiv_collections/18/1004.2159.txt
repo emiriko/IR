@@ -1,0 +1,19 @@
+We study possible formulations of algebraic propositional proof systems
+operating with noncommutative formulas. We observe that a simple formulation
+gives rise to systems at least as strong as Frege---yielding a semantic way to
+define a Cook-Reckhow (i.e., polynomially verifiable) algebraic analog of Frege
+proofs, different from that given in [BIKPRS96,GH03]. We then turn to an
+apparently weaker system, namely, polynomial calculus (PC) where polynomials
+are written as ordered formulas (PC over ordered formulas, for short): an
+ordered polynomial is a noncommutative polynomial in which the order of
+products in every monomial respects a fixed linear order on variables; an
+algebraic formula is ordered if the polynomial computed by each of its
+subformulas is ordered. We show that PC over ordered formulas is strictly
+stronger than resolution, polynomial calculus and polynomial calculus with
+resolution (PCR) and admits polynomial-size refutations for the pigeonhole
+principle and the Tseitin's formulas. We conclude by proposing an approach for
+establishing lower bounds on PC over ordered formulas proofs, and related
+systems, based on properties of lower bounds on noncommutative formulas.
+  The motivation behind this work is developing techniques incorporating rank
+arguments (similar to those used in algebraic circuit complexity) for
+establishing lower bounds on propositional proofs.

@@ -1,0 +1,10 @@
+We study the communication complexity of symmetric XOR functions, namely
+functions $f: \{0,1\}^n \times \{0,1\}^n \rightarrow \{0,1\}$ that can be
+formulated as $f(x,y)=D(|x\oplus y|)$ for some predicate $D: \{0,1,...,n\}
+\rightarrow \{0,1\}$, where $|x\oplus y|$ is the Hamming weight of the bitwise
+XOR of $x$ and $y$. We give a public-coin randomized protocol in the
+Simultaneous Message Passing (SMP) model, with the communication cost matching
+the known lower bound for the \emph{quantum} and \emph{two-way} model up to a
+logarithm factor. As a corollary, this closes a quadratic gap between quantum
+lower bound and randomized upper bound for the one-way model, answering an open
+question raised in Shi and Zhang \cite{SZ09}.

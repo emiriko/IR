@@ -1,0 +1,20 @@
+This paper presents a TDMA based energy efficient cognitive radio
+multichannel medium access control (MAC) protocol called ECR-MAC for wireless
+Ad Hoc Networks. ECR-MAC requires only a single half-duplex radio transceiver
+on each node that integrates the spectrum sensing at physical (PHY) layer and
+the packet scheduling at MAC layer. In addition to explicit frequency
+negotiation which is adopted by conventional multichannel MAC protocols,
+ECR-MAC introduces lightweight explicit time negotiation. This two-dimensional
+negotiation enables ECR-MAC to exploit the advantage of both multiple channels
+and TDMA, and achieve aggressive power savings by allowing nodes that are not
+involved in communication to go into doze mode. The IEEE 802.11 standard allows
+for the use of multiple channels available at the PHY layer, but its MAC
+protocol is designed only for a single channel. A single channel MAC protocol
+does not work well in a multichannel environment, because of the multichannel
+hidden terminal problem. The proposed energy efficient ECR-MAC protocol allows
+SUs to identify and use the unused frequency spectrum in a way that constrains
+the level of interference to the primary users (PUs). Extensive simulation
+results show that our proposed ECR-MAC protocol successfully exploits multiple
+channels and significantly improves network performance by using the licensed
+spectrum band opportunistically and protects QoS provisioning over cognitive
+radio ad hoc networks.

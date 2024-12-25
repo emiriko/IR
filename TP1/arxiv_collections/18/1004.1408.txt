@@ -1,0 +1,12 @@
+We present MUSIC, an implementation of the Kurganov-Tadmor algorithm for
+relativistic 3+1 dimensional fluid dynamics in heavy-ion collision scenarios.
+This Riemann-solver-free, second-order, high-resolution scheme is characterized
+by a very small numerical viscosity and its ability to treat shocks and
+discontinuities very well. We also incorporate a sophisticated algorithm for
+the determination of the freeze-out surface using a three dimensional
+triangulation of the hyper-surface. Implementing a recent lattice based
+equation of state, we compute p_T-spectra and pseudorapidity distributions for
+Au+Au collisions at root s = 200 GeV and present results for the anisotropic
+flow coefficients v_2 and v_4 as a function of both p_T and pseudorapidity. We
+were able to determine v_4 with high numerical precision, finding that it does
+not strongly depend on the choice of initial condition or equation of state.

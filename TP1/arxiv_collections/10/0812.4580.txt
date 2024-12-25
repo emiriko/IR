@@ -1,0 +1,10 @@
+General purpose intelligent learning agents cycle through (complex,non-MDP)
+sequences of observations, actions, and rewards. On the other hand,
+reinforcement learning is well-developed for small finite state Markov Decision
+Processes (MDPs). So far it is an art performed by human designers to extract
+the right state representation out of the bare observations, i.e. to reduce the
+agent setup to the MDP framework. Before we can think of mechanizing this
+search for suitable MDPs, we need a formal objective criterion. The main
+contribution of this article is to develop such a criterion. I also integrate
+the various parts into one learning algorithm. Extensions to more realistic
+dynamic Bayesian networks are developed in a companion article.

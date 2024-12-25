@@ -1,0 +1,7 @@
+This paper describes a method for estimating the marginal likelihood or Bayes
+factors of Bayesian models using non-parametric importance sampling ("arrogance
+sampling"). This method can also be used to compute the normalizing constant of
+probability distributions. Because the required inputs are samples from the
+distribution to be normalized and the scaled density at those samples, this
+method may be a convenient replacement for the harmonic mean estimator. The
+method has been implemented in the open source R package margLikArrogance.

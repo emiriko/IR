@@ -1,0 +1,10 @@
+A hybrid lattice Boltzmann method (LBM) for binary mixtures based on the
+free-energy approach is proposed. Non-ideal terms of the pressure tensor are
+included as a body force in the LBM kinetic equations, used to simulate the
+continuity and Navier-Stokes equations. The convection-diffusion equation is
+studied by finite difference methods. Differential operators are discretized in
+order to reduce the magnitude of spurious velocities. The algorithm has been
+shown to be stable and reproducing the correct equilibrium behavior in simple
+test configurations and to be Galilean invariant. Spurious velocities can be
+reduced of about an order of magnitude with respect to standard discretization
+procedure.

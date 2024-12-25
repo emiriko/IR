@@ -1,0 +1,18 @@
+The processing, computation and memory requirements posed by emerging mobile
+broadband services require adaptive memory management and prefetching
+techniques at the mobile terminals for satisfactory application performance and
+sustained device battery lifetime. In this work we investigate a scenario where
+tasks with varied computational requirements are fetched by a mobile device
+from a central server over an error prone wireless link. We examine the buffer
+dynamics at the mobile terminal and the central server under varying wireless
+channel connectivity and device memory congestion states as variable sizes
+tasks are executed on the terminal. Our goal is to minimize the latency
+experienced by these tasks while judiciously utilizing the device buffering
+capability. We use a dynamic programming framework to model the optimal
+prefetching policy. We further propose a) a prefetching algorithm Fetch-or- Not
+(FON), which uses quasi-static assumption on system state to make prefetching
+decisions, and b) a prefetching policy RFON, which uses randomized
+approximation to the optimal solution thus obviating the need for dynamic
+online optimization and substantially reducing the computational complexity.
+Through performance evaluation under slow and fast fading scenarios we show
+that proposed algorithms come close to performance of the optimal scheme.

@@ -1,0 +1,13 @@
+We present a new numerical method for the generation of binary neutron star
+initial data using a method along the lines of the the Wilson-Mathews or the
+closely related conformal thin sandwich approach. Our method uses six different
+computational domains, which include spatial infinity. Each domain has its own
+coordinates which are chosen such that the star surfaces always coincide with
+domain boundaries. These properties facilitate the imposition of boundary
+conditions. Since all our fields are smooth inside each domain, we are able to
+use an efficient pseudospectral method to solve the elliptic equations
+associated with the conformal thin sandwich approach. Currently we have
+implemented corotating configurations with arbitrary mass ratios, but an
+extension to arbitrary spins is possible. The main purpose of this paper is to
+introduce our new method and to test our code for several different
+configurations.

@@ -1,0 +1,12 @@
+This paper presents an optimization technique for the multi-pass face milling
+process. Genetic algorithm (GA) is used to obtain the optimum cutting
+parameters by minimizing the unit production cost for a given amount of
+material removal. Cutting speed, feed and depth of cut for the finish and rough
+passes are the cutting parameters. An equal depth of cut for roughing passes
+has been considered. A lookup table containing the feasible combinations of
+depth of cut in finish and rough passes is generated so as to reduce the number
+of variables by one. The resulting mixed integer nonlinear optimization problem
+is solved in a single step using GA. The entire technique is demonstrated in a
+case study. Post optimality analysis of the example problem is done to develop
+a strategy for optimizing without running GA again for different values of
+total depth of cut.

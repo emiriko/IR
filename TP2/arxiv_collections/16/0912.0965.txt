@@ -1,0 +1,19 @@
+For every p in (0,1/2), we give an explicit construction of binary codes of
+rate approaching "capacity" 1-H(p) that enable reliable communication in the
+presence of worst-case additive errors}, caused by a channel oblivious to the
+codeword (but not necessarily the message). Formally, we give an efficient
+"stochastic" encoding E(\cdot,\cdot) of messages combined with a small number
+of auxiliary random bits, such that for every message m and every error vector
+e (that could depend on m) that contains at most a fraction p of ones, w.h.p
+over the random bits r chosen by the encoder, m can be efficiently recovered
+from the corrupted codeword E(m,r) + e by a decoder without knowledge of the
+encoder's randomness r.
+  Our construction for additive errors also yields explicit deterministic codes
+of rate approaching 1-H(p) for the "average error" criterion: for every error
+vector e of at most p fraction 1's, most messages m can be efficiently
+(uniquely) decoded from the corrupted codeword C(m)+e. Note that such codes
+cannot be linear, as the bad error patterns for all messages are the same in a
+linear code. We also give a new proof of the existence of such codes based on
+list decoding and certain algebraic manipulation detection codes. Our proof is
+simpler than the previous proofs from the literature on arbitrarily varying
+channels.

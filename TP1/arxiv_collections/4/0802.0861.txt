@@ -1,0 +1,11 @@
+Self organizing maps (SOMs) are widely-used for unsupervised classification.
+For this application, they must be combined with some partitioning scheme that
+can identify boundaries between distinct regions in the maps they produce. We
+discuss a novel partitioning scheme for SOMs based on the Bayesian Blocks
+segmentation algorithm of Scargle [1998]. This algorithm minimizes a cost
+function to identify contiguous regions over which the values of the attributes
+can be represented as approximately constant. Because this cost function is
+well-defined and largely independent of assumptions regarding the number and
+structure of clusters in the original sample space, this partitioning scheme
+offers significant advantages over many conventional methods. Sample code is
+available.

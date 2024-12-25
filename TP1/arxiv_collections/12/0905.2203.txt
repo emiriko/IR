@@ -1,0 +1,17 @@
+Temporal data mining algorithms are becoming increasingly important in many
+application domains including computational neuroscience, especially the
+analysis of spike train data. While application scientists have been able to
+readily gather multi-neuronal datasets, analysis capabilities have lagged
+behind, due to both lack of powerful algorithms and inaccessibility to powerful
+hardware platforms. The advent of GPU architectures such as Nvidia's GTX 280
+offers a cost-effective option to bring these capabilities to the
+neuroscientist's desktop. Rather than port existing algorithms onto this
+architecture, we advocate the need for algorithm transformation, i.e.,
+rethinking the design of the algorithm in a way that need not necessarily
+mirror its serial implementation strictly. We present a novel implementation of
+a frequent episode discovery algorithm by revisiting "in-the-large" issues such
+as problem decomposition as well as "in-the-small" issues such as data layouts
+and memory access patterns. This is non-trivial because frequent episode
+discovery does not lend itself to GPU-friendly data-parallel mapping
+strategies. Applications to many datasets and comparisons to CPU as well as
+prior GPU implementations showcase the advantages of our approach.

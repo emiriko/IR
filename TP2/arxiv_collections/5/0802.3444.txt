@@ -1,0 +1,13 @@
+We present a new technique for verifying correspondences in security
+protocols. In particular, correspondences can be used to formalize
+authentication. Our technique is fully automatic, it can handle an unbounded
+number of sessions of the protocol, and it is efficient in practice. It
+significantly extends a previous technique for the verification of secrecy. The
+protocol is represented in an extension of the pi calculus with fairly
+arbitrary cryptographic primitives. This protocol representation includes the
+specification of the correspondence to be verified, but no other annotation.
+This representation is then translated into an abstract representation by Horn
+clauses, which is used to prove the desired correspondence. Our technique has
+been proved correct and implemented. We have tested it on various protocols
+from the literature. The experimental results show that these protocols can be
+verified by our technique in less than 1 s.

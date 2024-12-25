@@ -1,0 +1,19 @@
+Database management systems (DBMSs) have largely ignored the task of managing
+the energy consumed during query processing. Both economical and environmental
+factors now require that DBMSs pay close attention to energy consumption. In
+this paper we approach this issue by considering energy consumption as a
+first-class performance goal for query processing in a DBMS. We present two
+concrete techniques that can be used by a DBMS to directly manage the energy
+consumption. Both techniques trade energy consumption for performance. The
+first technique, called PVC, leverages the ability of modern processors to
+execute at lower processor voltage and frequency. The second technique, called
+QED, uses query aggregation to leverage common components of queries in a
+workload. Using experiments run on a commercial DBMS and MySQL, we show that
+PVC can reduce the processor energy consumption by 49% of the original
+consumption while increasing the response time by only 3%. On MySQL, PVC can
+reduce energy consumption by 20% with a response time penalty of only 6%. For
+simple selection queries with no predicate overlap, we show that QED can be
+used to gracefully trade response time for energy, reducing energy consumption
+by 54% for a 43% increase in average response time. In this paper we also
+highlight some research issues in the emerging area of energy-efficient data
+processing.

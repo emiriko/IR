@@ -1,0 +1,20 @@
+The isolation lemma of Mulmuley et al \cite{MVV87} is an important tool in
+the design of randomized algorithms and has played an important role in several
+nontrivial complexity upper bounds. On the other hand, polynomial identity
+testing is a well-studied algorithmic problem with efficient randomized
+algorithms and the problem of obtaining efficient \emph{deterministic} identity
+tests has received a lot of attention recently. The goal of this note is to
+compare the isolation lemma with polynomial identity testing: 1. We show that
+derandomizing reasonably restricted versions of the isolation lemma implies
+circuit size lower bounds. We derive the circuit lower bounds by examining the
+connection between the isolation lemma and polynomial identity testing. We give
+a randomized polynomial-time identity test for noncommutative circuits of
+polynomial degree based on the isolation lemma. Using this result, we show that
+derandomizing the isolation lemma implies noncommutative circuit size lower
+bounds. The restricted versions of the isolation lemma we consider are natural
+and would suffice for the standard applications of the isolation lemma. 2. From
+the result of Klivans-Spielman \cite{KS01} we observe that there is a
+randomized polynomial-time identity test for commutative circuits of polynomial
+degree, also based on a more general isolation lemma for linear forms.
+Consequently, derandomization of (a suitable version of) this isolation lemma
+also implies circuit size lower bounds in the commutative setting.

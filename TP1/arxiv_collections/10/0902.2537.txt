@@ -1,0 +1,17 @@
+Numerical algorithms have two kinds of costs: arithmetic and communication,
+by which we mean either moving data between levels of a memory hierarchy (in
+the sequential case) or over a network connecting processors (in the parallel
+case). Communication costs often dominate arithmetic costs, so it is of
+interest to design algorithms minimizing communication. In this paper we first
+extend known lower bounds on the communication cost (both for bandwidth and for
+latency) of conventional (O(n^3)) matrix multiplication to Cholesky
+factorization, which is used for solving dense symmetric positive definite
+linear systems. Second, we compare the costs of various Cholesky decomposition
+implementations to these lower bounds and identify the algorithms and data
+structures that attain them. In the sequential case, we consider both the
+two-level and hierarchical memory models. Combined with prior results in [13,
+14, 15], this gives a set of communication-optimal algorithms for O(n^3)
+implementations of the three basic factorizations of dense linear algebra: LU
+with pivoting, QR and Cholesky. But it goes beyond this prior work on
+sequential LU by optimizing communication for any number of levels of memory
+hierarchy.

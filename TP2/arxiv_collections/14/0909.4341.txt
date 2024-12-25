@@ -1,0 +1,15 @@
+In this paper we describe algorithms for computing the BWT and for building
+(compressed) indexes in external memory. The innovative feature of our
+algorithms is that they are lightweight in the sense that, for an input of size
+$n$, they use only ${n}$ bits of disk working space while all previous
+approaches use $\Th{n \log n}$ bits of disk working space. Moreover, our
+algorithms access disk data only via sequential scans, thus they take full
+advantage of modern disk features that make sequential disk accesses much
+faster than random accesses.
+  We also present a scan-based algorithm for inverting the BWT that uses
+$\Th{n}$ bits of working space, and a lightweight {\em internal-memory}
+algorithm for computing the BWT which is the fastest in the literature when the
+available working space is $\os{n}$ bits.
+  Finally, we prove {\em lower} bounds on the complexity of computing and
+inverting the BWT via sequential scans in terms of the classic product:
+internal-memory space $\times$ number of passes over the disk data.

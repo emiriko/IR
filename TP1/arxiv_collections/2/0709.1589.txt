@@ -1,0 +1,16 @@
+American options are studied in a general discrete market in the presence of
+proportional transaction costs, modelled as bid-ask spreads. Pricing algorithms
+and constructions of hedging strategies, stopping times and martingale
+representations are presented for short (seller's) and long (buyer's) positions
+in an American option with an arbitrary payoff. This general approach extends
+the special cases considered in the literature concerned primarily with
+computing the prices of American puts under transaction costs by relaxing any
+restrictions on the form of the payoff, the magnitude of the transaction costs
+or the discrete market model itself. The largely unexplored case of pricing,
+hedging and stopping for the American option buyer under transaction costs is
+also covered. The pricing algorithms are computationally efficient, growing
+only polynomially with the number of time steps in a recombinant tree model.
+The stopping times realising the ask (seller's) and bid (buyer's) option prices
+can differ from one another. The former is generally a so-called mixed
+(randomised) stopping time, whereas the latter is always a pure (ordinary)
+stopping time.

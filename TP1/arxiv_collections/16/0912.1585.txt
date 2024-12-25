@@ -1,0 +1,8 @@
+We introduce a new deterministic factoring algorithm, which could be
+described in the cryptographically fashionable term of "factoring with hints":
+we show that, given the knowledge of the factorisations of
+$O(N^{1/3+\epsilon})$ terms surrounding $N=pq$ product of two large primes, we
+can recover deterministically $p$ and $q$ in $O(N^{1/3+\epsilon})$ bit
+operations. Although this is slower than the current best factoring algorithms,
+this method shows that the factorisations of close integers are related and
+that consequently one can expect more results along this line of thought.

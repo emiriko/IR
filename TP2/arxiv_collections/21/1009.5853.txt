@@ -1,0 +1,13 @@
+We present a synchronization algorithm to let nodes in a sensor network
+simultaneously execute a task at a given point in time. In contrast to other
+time synchronization algorithms we do not provide a global time basis that is
+shared on all nodes. Instead, any node in the network can spontaneously
+initiate a process that allows the simultaneous execution of arbitrary tasks.
+We show that our approach is beneficial in scenarios where a global time is not
+needed, as it requires little communication compared with other time
+synchronization algorithms. We also show that our algorithm works in
+heterogeneous systems where the hardware provides highly varying clock
+accuracy. Moreover, heterogeneity does not only affect the hardware, but also
+the communication channels. We deal with different connection types---from
+highly unreliable and fluctuating wireless channels to reliable and fast wired
+connections.

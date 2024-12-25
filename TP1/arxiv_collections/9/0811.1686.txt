@@ -1,0 +1,18 @@
+Large contingency tables arise in many contexts but especially in the
+collection of survey and census data by government statistical agencies.
+Because the vast majority of the variables in this context have a large number
+of categories, agencies and users need a systematic way of constructing tables
+which are summaries of such contingency tables. We propose such an approach in
+this paper by finding members of a class of restricted log-linear models which
+maximize the likelihood of the data and use this to find a parsimonious means
+of representing the table. In contrast with more standard approaches for model
+search in hierarchical log-linear models (HLLM), our procedure systematically
+reduces the number of categories of the variables. Through a series of
+examples, we illustrate the extent to which it can preserve the interaction
+structure found with HLLMs and be used as a data simplification procedure prior
+to HLL modeling. A feature of the procedure is that it can easily be applied to
+many tables with millions of cells, providing a new way of summarizing large
+data sets in many disciplines. The focus is on information and description
+rather than statistical testing. The procedure may treat each variable in the
+table in different ways, preserving full detail, treating it as fully nominal,
+or preserving ordinality.

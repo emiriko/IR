@@ -1,0 +1,16 @@
+Cryptographic check values (digital signatures, MACs and H-MACs) are useful
+only if they are free of errors. For that reason all of errors in cryptographic
+check values should be corrected after the transmission over a noisy channel
+before their verification is performed. Soft Input Decryption is a method of
+combining SISO convolutional decoding and decrypting of cryptographic check
+values to improve the correction of errors in themselves. If Soft Input
+Decryption is successful, i.e. all wrong bit of a cryptographic check value are
+corrected, these bit are sent as feedback information to the channel decoder
+for a next iteration. The bit of the next iteration are corrected by channel
+decoding followed by another Soft Input Decryption. Iterative Soft Input
+Decryption uses interleaved blocks. If one block can be corrected by Soft Input
+Decryption, the decoding of the interleaved block is improved (serial scheme).
+If Soft Input Decryption is applied on both blocks and one of the blocks can be
+corrected, the corrected block is used for an improved decoding of the other
+block (parallel scheme). Both schemes show significant coding gains compared to
+convolutional decoding without iterative Soft Input Decryption.

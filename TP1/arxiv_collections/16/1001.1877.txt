@@ -1,0 +1,9 @@
+This note analyses one of the existing space efficient secret sharing schemes
+and suggests vulnerabilities in its design. We observe that the said algorithm
+fails for certain choices of the set of secrets and there is no reason for
+preferring this particular scheme over alternative schemes. The paper also
+elaborates the adoption of a scheme proposed by Hugo Krawczyk as an extension
+of Shamir's scheme, for a set of secrets. Such an implementation is space
+optimal and works for all choices of secrets. We also propose two new methods
+of attack which are valid under certain assumptions and observe that it is the
+elimination of random values that facilitates these kinds of attacks.

@@ -1,0 +1,21 @@
+The vertices of a finite state system are usually a subset of the natural
+numbers. Most algorithms relative to these systems only use this fact to select
+vertices.
+  For infinite state systems, however, the situation is different: in
+particular, for such systems having a finite description, each state of the
+system is a configuration of some machine. Then most algorithmic approaches
+rely on the structure of these configurations. Such characterisations are said
+internal. In order to apply algorithms detecting a structural property (like
+identifying connected components) one may have first to transform the system in
+order to fit the description needed for the algorithm. The problem of internal
+characterisation is that it hides structural properties, and each solution
+becomes ad hoc relatively to the form of the configurations.
+  On the contrary, external characterisations avoid explicit naming of the
+vertices. Such characterisation are mostly defined via graph transformations.
+  In this paper we present two kind of external characterisations:
+deterministic graph rewriting, which in turn characterise regular graphs,
+deterministic context-free languages, and rational graphs. Inverse substitution
+from a generator (like the complete binary tree) provides characterisation for
+prefix-recognizable graphs, the Caucal Hierarchy and rational graphs. We
+illustrate how these characterisation provide an efficient tool for the
+representation of infinite state systems.

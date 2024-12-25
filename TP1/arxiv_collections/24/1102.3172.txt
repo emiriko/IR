@@ -1,0 +1,12 @@
+Let $R$ be a continuous-time Markov process on the time interval $[0,1]$ with
+values in some state space $X$. We transform this reference process $R$ into
+$P:=f(X_0)\exp (-\int_0^1 V_t(X_t) dt) g(X_1)\,R$ where $f,g$ are nonnegative
+measurable functions on X and V is some measurable function on $[0,1]\times X$.
+It is easily seen that $P$ is also Markov. The aim of this paper is to identify
+the Markov generator of $P$ in terms of the Markov generator of $R$ and of the
+additional ingredients: $f,g$ and $V$ in absence of regularity assumptions on
+$f,g$ and $V.$ As a first step, we show that the extended generator of a Markov
+process is essentially its stochastic derivative. Then, we compute the
+stochastic derivative of $P$ to identify its generator, under a finite entropy
+condition. The abstract results are illustrated with continuous diffusion
+processes on $\mathbb{R}^d$ and Metropolis algorithms on a discrete space.

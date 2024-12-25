@@ -1,0 +1,18 @@
+Monte Carlo (MC) methods provide the most accurate to-date dose calculations
+in heterogeneous media and complex geometries, and this spawns increasing
+interest in incorporating MC calculations into treatment planning quality
+assurance process. This involves MC dose calculations for clinically produced
+treatment plans. To perform these calculations, a number of treatment plan
+parameters specifying radiation beam and patient geometries need to be
+transferred to MC codes, such as BEAMnrc and DOSXYZnrc. Extracting these
+parameters from DICOM files is not a trivial task, one that has previously been
+performed mostly using Matlab-based software. This paper describes the DICOM
+tags that contain information required for MC modeling of conformal and IMRT
+plans, and reports the development of an in-house DICOM interface, through a
+library (named Vega) of platform-independent, object-oriented C++ codes. The
+Vega library is small and succinct, offering just the fundamental functions for
+reading/modifying/writing DICOM files in a C++ program. The library, however,
+is flexible enough to extract all MC required data from DICOM files, and write
+MC produced dose distributions into DICOM files that can then be processed in a
+treatment planning system environment. The library can be made available upon
+request to the authors.

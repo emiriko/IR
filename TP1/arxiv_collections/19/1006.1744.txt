@@ -1,0 +1,11 @@
+In this work we describe an efficient implementation of a hierarchy of
+algorithms for the decomposition of dense matrices over the field with two
+elements (GF(2)). Matrix decomposition is an essential building block for
+solving dense systems of linear and non-linear equations and thus much research
+has been devoted to improve the asymptotic complexity of such algorithms. In
+this work we discuss an implementation of both well-known and improved
+algorithms in the M4RI library. The focus of our discussion is on a new variant
+of the M4RI algorithm - denoted MMPF in this work -- which allows for
+considerable performance gains in practice when compared to the previously
+fastest implementation. We provide performance figures on x86_64 CPUs to
+demonstrate the viability of our approach.

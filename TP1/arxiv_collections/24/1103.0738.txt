@@ -1,0 +1,12 @@
+Thinning of character images is a big challenge. Removal of strokes or
+deformities in thinning is a difficult problem. In this paper, we have proposed
+a medial axis based thinning strategy used for performing skeletonization of
+printed and handwritten character images. In this method, we have used shape
+characteristics of text to get skeleton of nearly same as the true character
+shape. This approach helps to preserve the local features and true shape of the
+character images. The proposed algorithm produces one pixel width thin
+skeleton. As a by-product of our thinning approach, the skeleton also gets
+segmented into strokes in vector form. Hence further stroke segmentation is not
+required. Experiment is done on printed English and Bengali characters and we
+obtain less spurious branches comparing with other thinning methods without any
+post processing.

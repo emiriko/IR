@@ -1,0 +1,21 @@
+Inverse scattering methods capable of compressive imaging are proposed and
+analyzed. The methods employ randomly and repeatedly (multiple-shot) the
+single-input-single-output (SISO) measurements in which the probe frequencies,
+the incident and the sampling directions are related in a precise way and are
+capable of recovering exactly scatterers of sufficiently low sparsity.
+  For point targets, various sampling techniques are proposed to transform the
+scattering matrix into the random Fourier matrix. The results for point targets
+are then extended to the case of localized extended targets by interpolating
+from grid points. In particular, an explicit error bound is derived for the
+piece-wise constant interpolation which is shown to be a practical way of
+discretizing localized extended targets and enabling the compressed sensing
+techniques.
+  For distributed extended targets, the Littlewood-Paley basis is used in
+analysis. A specially designed sampling scheme then transforms the scattering
+matrix into a block-diagonal matrix with each block being the random Fourier
+matrix corresponding to one of the multiple dyadic scales of the extended
+target. In other words by the Littlewood-Paley basis and the proposed sampling
+scheme the different dyadic scales of the target are decoupled and therefore
+can be reconstructed scale-by-scale by the proposed method. Moreover, with
+probes of any single frequency $\om$ the coefficients in the Littlewood-Paley
+expansion for scales up to $\om/(2\pi)$ can be exactly recovered.

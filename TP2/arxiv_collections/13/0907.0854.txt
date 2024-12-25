@@ -1,0 +1,16 @@
+Simulating a quantum system is more efficient on a quantum computer than on a
+classical computer. The time required for solving the Schr\"odinger equation to
+obtain molecular energies has been demonstrated to scale polynomially with
+system size on a quantum computer, in contrast to the well-known result of
+exponential scaling on a classical computer. In this paper, we present a
+quantum algorithm to obtain the energy spectrum of molecular systems based on
+the multi-configurational self-consistent field (MCSCF) wave function. By using
+a MCSCF wave function as the initial guess, the excited states are accessible;
+Entire potential energy surfaces of molecules can be studied more efficiently
+than if the simpler Hartree-Fock guess was employed. We show that a small
+increase of the MCSCF space can dramatically increase the success probability
+of the quantum algorithm, even in regions of the potential energy surface that
+are far from the equilibrium geometry. For the treatment of larger systems, a
+multi-reference configuration interaction approach is suggested. We demonstrate
+that such an algorithm can be used to obtain the energy spectrum of the water
+molecule.

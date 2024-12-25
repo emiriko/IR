@@ -1,0 +1,18 @@
+The original motivation to build a quantum computer came from Feynman who
+envisaged a machine capable of simulating generic quantum mechanical systems, a
+task that is believed to be intractable for classical computers. Such a machine
+would have a wide range of applications in the simulation of many-body quantum
+physics, including condensed matter physics, chemistry, and high energy
+physics. Part of Feynman's challenge was met by Lloyd who showed how to
+approximately decompose the time-evolution operator of interacting quantum
+particles into a short sequence of elementary gates, suitable for operation on
+a quantum computer. However, this left open the problem of how to simulate the
+equilibrium and static properties of quantum systems. This requires the
+preparation of ground and Gibbs states on a quantum computer. For classical
+systems, this problem is solved by the ubiquitous Metropolis algorithm, a
+method that basically acquired a monopoly for the simulation of interacting
+particles. Here, we demonstrate how to implement a quantum version of the
+Metropolis algorithm on a quantum computer. This algorithm permits to sample
+directly from the eigenstates of the Hamiltonian and thus evades the sign
+problem present in classical simulations. A small scale implementation of this
+algorithm can already be achieved with today's technology

@@ -1,0 +1,18 @@
+The coordinate space formulation of the Hartree-Fock-Bogoliubov (HFB) method
+enables self-consistent treatment of mean-field and pairing in weakly bound
+systems whose properties are affected by the particle continuum space. Of
+particular interest are neutron-rich, deformed drip-line nuclei which can
+exhibit novel properties associated with neutron skin. To describe such systems
+theoretically, we developed an accurate 2D lattice Skyrme-HFB solver {\hfbax}
+based on B-splines. Compared to previous implementations, we made a number of
+improvements aimed at boosting the solver's performance. These include:
+explicit imposition of axiality and space inversion, use of the modified
+Broyden's method to solve self-consistent equations, and a partial
+parallelization of the code. {\hfbax} has been benchmarked against other HFB
+solvers, both spherical and deformed, and the accuracy of the B-spline
+expansion was tested by employing the multiresolution wavelet method.
+Illustrative calculations are carried out for stable and weakly bound nuclei at
+spherical and very deformed shapes, including constrained fission pathways. In
+addition to providing new physics insights, {\hfbax} can serve as a useful tool
+to assess the reliability and applicability of coordinate-space and
+configuration-space HFB solvers, both existing and in development.

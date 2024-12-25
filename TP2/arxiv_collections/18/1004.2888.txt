@@ -1,0 +1,15 @@
+In this paper we study the implementation challenge in an abstract
+interdependent values model and an arbitrary objective function. We design a
+mechanism that allows for approximate optimal implementation of insensitive
+objective functions in ex-post Nash equilibrium. If, furthermore, values are
+private then the same mechanism is strategy proof. We cast our results onto two
+specific models: pricing and facility location. The mechanism we design is
+optimal up to an additive factor of the order of magnitude of one over the
+square root of the number of agents and involves no utility transfers.
+  Underlying our mechanism is a lottery between two auxiliary mechanisms: with
+high probability we actuate a mechanism that reduces players' influence on the
+choice of the social alternative, while choosing the optimal outcome with high
+probability. This is where the recent notion of differential privacy is
+employed. With the complementary probability we actuate a mechanism that is
+typically far from optimal but is incentive compatible. The joint mechanism
+inherits the desired properties from both.

@@ -1,0 +1,23 @@
+The whitespace-discovery problem describes two parties, Alice and Bob, trying
+to establish a communication channel over one of a given large segment of
+whitespace channels. Subsets of the channels are occupied in each of the local
+environments surrounding Alice and Bob, as well as in the global environment
+between them (Eve). In the absence of a common clock for the two parties, the
+goal is to devise time-invariant (stationary) strategies minimizing the
+synchronization time. This emerged from recent applications in discovery of
+wireless devices.
+  We model the problem as follows. There are $N$ channels, each of which is
+open (unoccupied) with probability $p_1,p_2,q$ independently for Alice, Bob and
+Eve respectively. Further assume that $N \gg 1/(p_1 p_2 q)$ to allow for
+sufficiently many open channels. Both Alice and Bob can detect which channels
+are locally open and every time-slot each of them chooses one such channel for
+an attempted sync. One aims for strategies that, with high probability over the
+environments, guarantee a shortest possible expected sync time depending only
+on the $p_i$'s and $q$.
+  Here we provide a stationary strategy for Alice and Bob with a guaranteed
+expected sync time of $O(1 / (p_1 p_2 q^2))$ given that each party also has
+knowledge of $p_1,p_2,q$. When the parties are oblivious of these
+probabilities, analogous strategies incur a cost of a poly-log factor, i.e.\
+$\tilde{O}(1 / (p_1 p_2 q^2))$. Furthermore, this performance guarantee is
+essentially optimal as we show that any stationary strategies of Alice and Bob
+have an expected sync time of at least $\Omega(1/(p_1 p_2 q^2))$.

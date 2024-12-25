@@ -1,0 +1,14 @@
+We consider a general class of regularization methods which learn a vector of
+parameters on the basis of linear measurements. It is well known that if the
+regularizer is a nondecreasing function of the inner product then the learned
+vector is a linear combination of the input data. This result, known as the
+{\em representer theorem}, is at the basis of kernel-based methods in machine
+learning. In this paper, we prove the necessity of the above condition, thereby
+completing the characterization of kernel methods based on regularization. We
+further extend our analysis to regularization methods which learn a matrix, a
+problem which is motivated by the application to multi-task learning. In this
+context, we study a more general representer theorem, which holds for a larger
+class of regularizers. We provide a necessary and sufficient condition for
+these class of matrix regularizers and highlight them with some concrete
+examples of practical importance. Our analysis uses basic principles from
+matrix theory, especially the useful notion of matrix nondecreasing function.

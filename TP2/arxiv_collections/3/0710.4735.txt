@@ -1,0 +1,9 @@
+Test sets that detect each target fault n times (n-detection test sets) are
+typically generated for restricted values of n due to the increase in test set
+size with n. We perform both a worst-case analysis and an average-case analysis
+to check the effect of restricting n on the unmodeled fault coverage of an
+(arbitrary) n-detection test set. Our analysis is independent of any particular
+test set or test generation approach. It is based on a specific set of target
+faults and a specific set of untargeted faults. It shows that, depending on the
+circuit, very large values of n may be needed to guarantee the detection of all
+the untargeted faults. We discuss the implications of these results.

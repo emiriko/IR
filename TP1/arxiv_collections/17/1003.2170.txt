@@ -1,0 +1,14 @@
+Among the several proofs known for $\sum_{n=1}^\infty{1/n^2} = {\pi^2/6}$,
+the one by Beukers, Calabi, and Kolk involves the evaluation of $\,\int_0^1
+{\int_0^1{1/(1-x^2 y^2) \, dx} \, dy}$. It starts by showing that this double
+integral is equivalent to $\frac34 \sum_{n=1}^\infty{1/n^2}$, and then a
+non-trivial \emph{trigonometric} change of variables is applied which
+transforms that integral into $\,{\int \int}_T \: 1 \; du \, dv$, where $T$ is
+a triangular domain whose area is simply ${\pi^2/8}$. Here in this note, I
+introduce a hyperbolic version of this change of variables and, by applying it
+to the above integral, I find exact closed-form expressions for
+$\int_0^\infty{[\sinh^{-1}{(\cosh{u})}-u] d u}$,
+$\,\int_{\alpha}^\infty{[u-\cosh^{-1}{(\sinh{u})}] d u}$, and
+$\,\int_{\,\alpha/2}^\infty{\ln{(\tanh{u})} \: d u}$, where $\alpha =
+\sinh^{-1}(1)$. From the latter integral, I also derive a two-term dilogarithm
+identity.

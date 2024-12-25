@@ -1,0 +1,12 @@
+ADAPT is a tool that aims at easing the task of evaluating dependability
+measures in the context of modern model driven engineering processes based on
+AADL (Architecture Analysis and Design Language). Hence, its input is an AADL
+architectural model annotated with dependability-related information. Its
+output is a dependability evaluation model in the form of a Generalized
+Stochastic Petri Net (GSPN). The latter can be processed by existing
+dependability evaluation tools, to compute quantitative measures such as
+reliability, availability, etc.. ADAPT interfaces OSATE (the Open Source AADL
+Tool Environment) on the AADL side and SURF-2, on the dependability evaluation
+side. In addition, ADAPT provides the GSPN in XML/XMI format, which represents
+a gateway to other dependability evaluation tools, as the processing techniques
+for XML files allow it to be easily converted to a tool-specific GSPN.

@@ -1,0 +1,11 @@
+Fountain codes are rateless erasure-correcting codes, i.e., an essentially
+infinite stream of encoded packets can be generated from a finite set of data
+packets. Several fountain codes have been proposed recently to minimize
+overhead, many of which involve modifications of the Luby transform (LT) code.
+These fountain codes, like the LT code, have the implicit assumption that the
+probability distribution is fixed throughout the encoding process. In this
+paper, we will use the theory of posets to show that this assumption is
+unnecessary, and by dropping it, we can achieve overhead reduction by as much
+as 64% lower than LT codes. We also present the fundamental theory of
+probability distribution designs for fountain codes with non-constant
+probability distributions that minimize overhead.

@@ -1,0 +1,16 @@
+Consider an optimization problem with $n$ binary variables and $d+1$ linear
+objective functions. Each valid solution $x \in \{0,1\}^n$ gives rise to an
+objective vector in $\R^{d+1}$, and one often wants to enumerate the Pareto
+optima among them. In the worst case there may be exponentially many Pareto
+optima; however, it was recently shown that in (a generalization of) the
+smoothed analysis framework, the expected number is polynomial in $n$.
+Unfortunately, the bound obtained had a rather bad dependence on $d$; roughly
+$n^{d^d}$. In this paper we show a significantly improved bound of $n^{2d}$.
+  Our proof is based on analyzing two algorithms. The first algorithm, on input
+a Pareto optimal $x$, outputs a "testimony" containing clues about $x$'s
+objective vector, $x$'s coordinates, and the region of space $B$ in which $x$'s
+objective vector lies. The second algorithm can be regarded as a {\em
+speculative} execution of the first -- it can uniquely reconstruct $x$ from the
+testimony's clues and just \emph{some} of the probability space's outcomes. The
+remainder of the probability space's outcomes are just enough to bound the
+probability that $x$'s objective vector falls into the region $B$.

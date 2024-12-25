@@ -1,0 +1,7 @@
+In this paper, we build an interpreter by reusing host language functions
+instead of recoding mechanisms of function application that are already
+available in the host language (the language which is used to build the
+interpreter). In order to transform user-defined functions into host language
+functions we use combinatory logic : lambda-abstractions are transformed into a
+composition of combinators. We provide a mechanically checked proof that this
+step is correct for the call-by-value strategy with imperative features.

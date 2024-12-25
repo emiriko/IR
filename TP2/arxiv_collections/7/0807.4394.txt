@@ -1,0 +1,8 @@
+We apply the hybrid Monte Carlo (HMC) algorithm to the financial time sires
+analysis of the stochastic volatility (SV) model for the first time. The HMC
+algorithm is used for the Markov chain Monte Carlo (MCMC) update of volatility
+variables of the SV model in the Bayesian inference. We compute parameters of
+the SV model from the artificial financial data and compare the results from
+the HMC algorithm with those from the Metropolis algorithm. We find that the
+HMC decorrelates the volatility variables faster than the Metropolis algorithm.
+We also make an empirical analysis based on the Yen/Dollar exchange rates.

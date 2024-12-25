@@ -1,0 +1,17 @@
+We investigate an optimal scheduling problem in a discrete-time system of L
+parallel queues that are served by K identical, randomly connected servers.
+Each queue may be connected to a subset of the K servers during any given time
+slot. This model has been widely used in studies of emerging 3G/4G wireless
+systems. We introduce the class of Most Balancing (MB) policies and provide
+their mathematical characterization. We prove that MB policies are optimal; we
+define optimality as minimization, in stochastic ordering sense, of a range of
+cost functions of the queue lengths, including the process of total number of
+packets in the system. We use stochastic coupling arguments for our proof. We
+introduce the Least Connected Server First/Longest Connected Queue (LCSF/LCQ)
+policy as an easy-to-implement approximation of MB policies. We conduct a
+simulation study to compare the performance of several policies. The simulation
+results show that: (a) in all cases, LCSF/LCQ approximations to the MB policies
+outperform the other policies, (b) randomized policies perform fairly close to
+the optimal one, and, (c) the performance advantage of the optimal policy over
+the other simulated policies increases as the channel connectivity probability
+decreases and as the number of servers in the system increases.

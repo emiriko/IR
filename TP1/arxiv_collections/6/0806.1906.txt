@@ -1,0 +1,21 @@
+We consider Glauber dynamics for the Ising model on the complete graph on $n$
+vertices, known as the Curie-Weiss model. It is well-known that the mixing-time
+in the high temperature regime ($\beta < 1$) has order $n\log n$, whereas the
+mixing-time in the case $\beta > 1$ is exponential in $n$. Recently, Levin,
+Luczak and Peres proved that for any fixed $\beta < 1$ there is cutoff at time
+$[2(1-\beta)]^{-1} n\log n$ with a window of order $n$, whereas the mixing-time
+at the critical temperature $\beta=1$ is $\Theta(n^{3/2})$. It is natural to
+ask how the mixing-time transitions from $\Theta(n\log n)$ to $\Theta(n^{3/2})$
+and finally to $\exp(\Theta(n))$. That is, how does the mixing-time behave when
+$\beta=\beta(n)$ is allowed to tend to 1 as $n\to\infty$.
+  In this work, we obtain a complete characterization of the mixing-time of the
+dynamics as a function of the temperature, as it approaches its critical point
+$\beta_c=1$. In particular, we find a scaling window of order $1/\sqrt{n}$
+around the critical temperature. In the high temperature regime, $\beta = 1 -
+\delta$ for some $0 < \delta < 1$ so that $\delta^2 n \to\infty$ with $n$, the
+mixing-time has order $(n/\delta)\log(\delta^2 n)$, and exhibits cutoff with
+constant 1/2 and window size $n/\delta$. In the critical window, $\beta = 1\pm
+\delta$ where $\delta^2 n$ is O(1), there is no cutoff, and the mixing-time has
+order $n^{3/2}$. At low temperature, $\beta = 1 + \delta$ for $\delta > 0$ with
+$\delta^2 n \to\infty$ and $\delta=o(1)$, there is no cutoff, and the mixing
+time has order $(n/\delta)\exp(({3/4}+o(1))\delta^2 n)$.

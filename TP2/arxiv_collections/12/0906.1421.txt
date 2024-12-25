@@ -1,0 +1,18 @@
+This paper deals with phase II, univariate, statistical process control when
+a set of in-control data is available, and when both the in-control and
+out-of-control distributions of the process are unknown. Existing process
+control techniques typically require substantial knowledge about the in-control
+and out-of-control distributions of the process, which is often difficult to
+obtain in practice. We propose (a) using a sequence of control limits for the
+cumulative sum (CUSUM) control charts, where the control limits are determined
+by the conditional distribution of the CUSUM statistic given the last time it
+was zero, and (b) estimating the control limits by bootstrap. Traditionally,
+the CUSUM control chart uses a single control limit, which is obtained under
+the assumption that the in-control and out-of-control distributions of the
+process are Normal. When the normality assumption is not valid, which is often
+true in applications, the actual in-control average run length, defined to be
+the expected time duration before the control chart signals a process change,
+is quite different from the nominal in-control average run length. This
+limitation is mostly eliminated in the proposed procedure, which is
+distribution-free and robust against different choices of the in-control and
+out-of-control distributions.

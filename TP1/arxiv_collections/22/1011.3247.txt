@@ -1,0 +1,9 @@
+A discretization scheme for nonnegative diffusion processes is proposed and
+the convergence of the corresponding sequence of approximate processes is
+proved using the martingale problem framework. Motivations for this scheme come
+typically from finance, especially for path-dependent option pricing. The
+scheme is simple: one only needs to find a nonnegative distribution whose mean
+and variance satisfy a simple condition to apply it. Then, for virtually any
+(path-dependent) payoff, Monte Carlo option prices obtained from this scheme
+will converge to the theoretical price. Examples of models and diffusion
+processes for which the scheme applies are provided.

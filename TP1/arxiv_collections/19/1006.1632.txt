@@ -1,0 +1,15 @@
+A primary goal of numerical relativity is to provide estimates of the wave
+strain, $h$, from strong gravitational wave sources, to be used in detector
+templates. The simulations, however, typically measure waves in terms of the
+Weyl curvature component, $\psi_4$. Assuming Bondi gauge, transforming to the
+strain $h$ reduces to integration of $\psi_4$ twice in time. Integrations
+performed in either the time or frequency domain, however, lead to secular
+non-linear drifts in the resulting strain $h$. These non-linear drifts are not
+explained by the two unknown integration constants which can at most result in
+linear drifts. We identify a number of fundamental difficulties which can arise
+from integrating finite length, discretely sampled and noisy data streams.
+These issues are an artifact of post-processing data. They are independent of
+the characteristics of the original simulation, such as gauge or numerical
+method used. We suggest, however, a simple procedure for integrating numerical
+waveforms in the frequency domain, which is effective at strongly reducing
+spurious secular non-linear drifts in the resulting strain.

@@ -1,0 +1,16 @@
+We show that the optimal decision policy for several types of Bayesian
+sequential detection problems has a threshold switching curve structure on the
+space of posterior distributions. This is established by using lattice
+programming and stochastic orders in a partially observed Markov decision
+process (POMDP) framework. A stochastic gradient algorithm is presented to
+estimate the optimal linear approximation to this threshold curve. We
+illustrate these results by first considering quickest time detection with
+phase-type distributed change time and a variance stopping penalty. Then it is
+proved that the threshold switching curve also arises in several other Bayesian
+decision problems such as quickest transient detection, exponential delay
+(risk-sensitive) penalties, stopping time problems in social learning, and
+multi-agent scheduling in a changing world. Using Blackwell dominance, it is
+shown that for dynamic decision making problems, the optimal decision policy is
+lower bounded by a myopic policy. Finally, it is shown how the achievable cost
+of the optimal decision policy varies with change time distribution by imposing
+a partial order on transition matrices.

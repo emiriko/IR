@@ -1,0 +1,23 @@
+When a large group of pedestrians moves around a corner, most pedestrians do
+not follow the shortest path, which is to stay as close as possible to the
+inner wall, but try to minimize the travel time. For this they accept to move
+on a longer path with some distance to the corner, to avoid large densities and
+by this succeed in maintaining a comparatively high speed. In many models of
+pedestrian dynamics the basic rule of motion is often either "move as far as
+possible toward the destination" or - reformulated - "of all coordinates
+accessible in this time step move to the one with the smallest distance to the
+destination". Atop of this rule modifications are placed to make the motion
+more realistic. These modifications usually focus on local behavior and neglect
+long-ranged effects. Compared to real pedestrians this leads to agents in a
+simulation valuing the shortest path a lot better than the quickest. So, in a
+situation as the movement of a large crowd around a corner, one needs an
+additional element in a model of pedestrian dynamics that makes the agents
+deviate from the rule of the shortest path. In this work it is shown, how this
+can be achieved by using a flood fill dynamic potential field method, where
+during the filling process the value of a field cell is not increased by 1, but
+by a larger value, if it is occupied by an agent. This idea may be an obvious
+one, however, the tricky part - and therefore in a strict sense the
+contribution of this work - is a) to minimize unrealistic artifacts, as naive
+flood fill metrics deviate considerably from the Euclidean metric and in this
+respect yield large errors, b) do this with limited computational effort, and
+c) keep agents' movement at very low densities unaltered.

@@ -1,0 +1,17 @@
+I describe an approach to fitting and comparison of radio spectra based on
+Bayesian analysis and realised using a new implementation of the nested
+sampling algorithm. Such an approach improves on the commonly used
+maximum-likelihood fitting of radio spectra by allowing objective model
+selection, calculation of the full probability distributions of the model
+parameters and provides a natural mechanism for including information other
+than the measured spectra through priors. In this paper I cover the theoretical
+background, the algorithms used and the implementation details of the computer
+code. I also briefly illustrate the method with some previously published data
+for three near-by galaxies. In forthcoming papers we will present the results
+of applying this analysis larger data sets, including some new observations,
+and the physical conclusions that can be made. The computer code as well as the
+overall approach described here may also be useful for analysis of other
+multi-chromatic broad-band observations and possibly also photometric redshift
+estimation. All of the code is publicly available, licensed under the GNU
+General Public License, at
+http://www.mrao.cam.ac.uk/~bn204/galevol/speca/index.html

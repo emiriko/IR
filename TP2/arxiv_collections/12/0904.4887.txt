@@ -1,0 +1,22 @@
+Continuum solvent models have become a standard technique in the context of
+electronic structure calculations, yet, no implementations have been reported
+capable to perform molecular dynamics at solid-liquid interfaces. We propose
+here such a continuum approach in a DFT framework, using plane-waves basis sets
+and periodic boundary conditions. Our work stems from a recent model designed
+for Car-Parrinello simulations of quantum solutes in a dielectric medium [J.
+Chem. Phys. 124, 74103 (2006)], for which the permittivity of the solvent is
+defined as a function of the electronic density of the solute. This strategy
+turns out to be inadequate for systems extended in two dimensions, by
+introducing new term in the Kohn-Sham potential which becomes unphysically
+large at the interfacial region, seriously affecting the convergence. If the
+dielectric medium is properly redefined as a function of the atomic
+coordinates, a good convergence is obtained and the constant of motion is
+conserved during the molecular dynamics simulations. Moreover, a significant
+gain in efficiency can be achieved if the simulation box is partitioned in two,
+solving the Poisson problem separately for the "dry" region using fast Fourier
+transforms, and for the solvated or "wet" region using a multigrid method.
+Eventually both solutions are combined in a self-consistent procedure, and in
+this way Car-Parrinello molecular dynamics simulations of solid-liquid
+interfaces can be performed at a very moderate computational cost. This scheme
+is employed to investigate the acid-base equilibrium at the TiO2-water
+interface.

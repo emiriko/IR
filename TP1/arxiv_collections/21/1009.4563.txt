@@ -1,0 +1,24 @@
+In P2P systems, large volumes of data are declustered naturally across a
+large number of peers. But it is very difficult to control the initial data
+distribution because every user has the freedom to share any data with other
+users. The system scalability can be improved by distributing the load across
+multiple servers which is proposed by replication. The large scale content
+distribution systems were improved broadly using the replication techniques.
+The demanded contents can be brought closer to the clients by multiplying the
+source of information geographically, which in turn reduce both the access
+latency and the network traffic. In addition to this, due to the intrinsic
+dynamism of the P2P environment, static data distribution cannot be expected to
+guarantee good load balancing. If the hot peers become bottleneck, it leads to
+increased user response time and significant performance degradation of the
+system. Hence an effective load balancing mechanism is necessary in such cases
+and it can be attained efficiently by intelligent data replication. In this
+paper, we propose a cluster based replication architecture for load-balancing
+in peer-to-peer content distribution systems. In addition to an intelligent
+replica placement technique, it also consists of an effective load balancing
+technique. In the intelligent replica placement technique, peers are grouped
+into strong and weak clusters based on their weight vector which comprises
+available capacity, CPU speed, access latency and memory size. In order to
+achieve complete load balancing across the system, an intracluster and
+inter-cluster load balancing algorithms are proposed. We are able to show that
+our proposed architecture attains less latency and better throughput with
+reduced bandwidth usage, through the simulation results.

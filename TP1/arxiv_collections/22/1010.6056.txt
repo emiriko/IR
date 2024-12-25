@@ -1,0 +1,17 @@
+Multiple hypothesis testing is a fundamental problem in high dimensional
+inference, with wide applications in many scientific fields. In genome-wide
+association studies, tens of thousands of tests are performed simultaneously to
+find if any SNPs are associated with some traits and those tests are
+correlated. When test statistics are correlated, false discovery control
+becomes very challenging under arbitrary dependence. In the current paper, we
+propose a novel method based on principal factor approximation, which
+successfully subtracts the common dependence and weakens significantly the
+correlation structure, to deal with an arbitrary dependence structure. We
+derive an approximate expression for false discovery proportion (FDP) in large
+scale multiple testing when a common threshold is used and provide a consistent
+estimate of realized FDP. This result has important applications in controlling
+FDR and FDP. Our estimate of realized FDP compares favorably with Efron
+(2007)'s approach, as demonstrated in the simulated examples. Our approach is
+further illustrated by some real data applications. We also propose a
+dependence-adjusted procedure, which is more powerful than the fixed threshold
+procedure.

@@ -1,0 +1,15 @@
+In a celebrated paper, Valiant and Vazirani raised the question of whether
+the difficulty of NP-complete problems was due to the wide variation of the
+number of witnesses of their instances. They gave a strong negative answer by
+showing that distinguishing between instances having zero or one witnesses is
+as hard as recognizing NP, under randomized reductions. We consider the same
+question in the quantum setting and investigate the possibility of reducing
+quantum witnesses in the context of the complexity class QMA, the quantum
+analogue of NP. The natural way to quantify the number of quantum witnesses is
+the dimension of the witness subspace W in some appropriate Hilbert space H. We
+present an efficient deterministic procedure that reduces any problem where the
+dimension d of W is bounded by a polynomial to a problem with a unique quantum
+witness. The main idea of our reduction is to consider the Alternating subspace
+of the d-th tensor power of H. Indeed, the intersection of this subspace with
+the d-th tensor power of W is one-dimensional, and therefore can play the role
+of the unique quantum witness.

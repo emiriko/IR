@@ -1,0 +1,16 @@
+This paper describes an efficient algorithm REx for generating symbolic rules
+from artificial neural network (ANN). Classification rules are sought in many
+areas from automatic knowledge acquisition to data mining and ANN rule
+extraction. This is because classification rules possess some attractive
+features. They are explicit, understandable and verifiable by domain experts,
+and can be modified, extended and passed on as modular knowledge. REx exploits
+the first order information in the data and finds shortest sufficient
+conditions for a rule of a class that can differentiate it from patterns of
+other classes. It can generate concise and perfect rules in the sense that the
+error rate of the rules is not worse than the inconsistency rate found in the
+original data. An important feature of rule extraction algorithm, REx, is its
+recursive nature. They are concise, comprehensible, order insensitive and do
+not involve any weight values. Extensive experimental studies on several
+benchmark classification problems, such as breast cancer, iris, season, and
+golf-playing, demonstrate the effectiveness of the proposed approach with good
+generalization ability.

@@ -1,0 +1,17 @@
+The Brunn-Minkowski Theorem asserts that $\mu_d(A+B)^{1/d}\geq
+\mu_d(A)^{1/d}+\mu_d(B)^{1/d}$ for convex bodies $A,\,B\subseteq \R^d$, where
+$\mu_d$ denotes the $d$-dimensional Lebesgue measure. It is well-known that
+equality holds if and only if $A$ and $B$ are homothetic, but few
+characterizations of equality in other related bounds are known. Let $H$ be a
+hyperplane. Bonnesen later strengthened this bound by showing $$\mu_d(A+B)\geq
+(M^{1/(d-1)}+N^{1/(d-1)})^{d-1}(\frac{\mu_d(A)}{M}+\frac{\mu_d(B)}{N}),$$ where
+$M=\sup\{\mu_{d-1}((\mathbf x+H)\cap A)\mid \mathbf x\in \R^d\}$ and
+$N=\sup\{\mu_{d-1}((\mathbf y+H)\cap B)\mid \mathbf y\in \R^d\}$. Standard
+compression arguments show that the above bound also holds when
+$M=\mu_{d-1}(\pi(A))$ and $N=\mu_{d-1}(\pi(B))$, where $\pi$ denotes a
+projection of $\mathbb R^d$ onto $H$, which gives an alternative generalization
+of the Brunn-Minkowski bound. In this paper, we characterize the cases of
+equality in this later bound, showing that equality holds if and only if $A$
+and $B$ are obtained from a pair of homothetic convex bodies by `stretching'
+along the direction of the projection, which is made formal in the paper. When
+$d=2$, we characterize the case of equality in the former bound as well.

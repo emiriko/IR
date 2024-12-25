@@ -1,0 +1,9 @@
+Suppose the vertices of a graph $G$ were labeled arbitrarily by positive
+integers, and let $Sum(v)$ denote the sum of labels over all neighbors of
+vertex $v$. A labeling is lucky if the function $Sum$ is a proper coloring of
+$G$, that is, if we have $Sum(u) \neq Sum(v)$ whenever $u$ and $v$ are
+adjacent. The least integer $k$ for which a graph $G$ has a lucky labeling from
+the set $\lbrace 1, 2, ...,k\rbrace$ is the lucky number of $G$, denoted by
+$\eta(G)$. We will prove, for every graph $G$ other than $ K_{2} $,
+$\frac{w}{n-w+1}\leq\eta (G) \leq \Delta^{2} $ and we present an algorithm for
+lucky labeling of $ G $.

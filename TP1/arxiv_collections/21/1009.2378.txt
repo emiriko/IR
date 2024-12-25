@@ -1,0 +1,14 @@
+One of the big challenges in ad hoc network design is packet routing. Studies
+have shown that on-demand routing protocols perform better than table-driven
+routing protocols. In order to avoid route discovery for each packet, on-demand
+routing protocols cache routes previously learnt. A node in ad hoc network
+learns routing information by overhearing or forwarding packets to other nodes
+and keep learned routes in its route cache. However, node movement results
+broken links and therefore increases risk of cache pollution. Ensuring cache
+freshness in on-demand routing protocols, therefore, presents a serious
+challenge. A lot of research has been done in route cache organization,
+however, little effort has been done for route cache timeout policy to prevent
+stale routes from being used. In this paper we propose a new cross-layer
+framework to improve route cache performance in on-demand routing protocols.
+The proposed framework presents novel use of Received Signal Strength Indicator
+(RSSI) information to choose cache timeout of individual links in route cache.

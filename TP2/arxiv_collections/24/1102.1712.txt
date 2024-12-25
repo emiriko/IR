@@ -1,0 +1,21 @@
+Recently we have developed an algorithm for reconstructing volumetric images
+and extracting 3D tumor motion information from a single x-ray projection. We
+have demonstrated its feasibility using a digital respiratory phantom with
+regular breathing patterns. In this work, we present a detailed description and
+a comprehensive evaluation of the improved algorithm. The algorithm was
+improved by incorporating respiratory motion prediction. The accuracy and
+efficiency were then evaluated on 1) a digital respiratory phantom, 2) a
+physical respiratory phantom, and 3) five lung cancer patients. These
+evaluation cases include both regular and irregular breathing patterns that are
+different from the training dataset. For the digital respiratory phantom with
+regular and irregular breathing, the average 3D tumor localization error is
+less than 1 mm. On an NVIDIA Tesla C1060 GPU card, the average computation time
+for 3D tumor localization from each projection ranges between 0.19 and 0.26
+seconds, for both regular and irregular breathing, which is about a 10%
+improvement over previously reported results. For the physical respiratory
+phantom, an average tumor localization error below 1 mm was achieved with an
+average computation time of 0.13 and 0.16 seconds on the same GPU card, for
+regular and irregular breathing, respectively. For the five lung cancer
+patients, the average tumor localization error is below 2 mm in both the axial
+and tangential directions. The average computation time on the same GPU card
+ranges between 0.26 and 0.34 seconds.

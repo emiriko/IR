@@ -1,0 +1,12 @@
+In this survey, we describe two recent developments in quantum algorithms.
+  The first new development is a quantum algorithm for evaluating a Boolean
+formula consisting of AND and OR gates of size N in time O(\sqrt{N}). This
+provides quantum speedups for any problem that can be expressed via Boolean
+formulas. This result can be also extended to span problems, a generalization
+of Boolean formulas. This provides an optimal quantum algorithm for any Boolean
+function in the black-box query model.
+  The second new development is a quantum algorithm for solving systems of
+linear equations. In contrast with traditional algorithms that run in time
+O(N^{2.37...}) where N is the size of the system, the quantum algorithm runs in
+time O(\log^c N). It outputs a quantum state describing the solution of the
+system.

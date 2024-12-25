@@ -1,0 +1,16 @@
+We establish a bound of $O(n^2k^{1+\eps})$, for any $\eps>0$, on the
+combinatorial complexity of the set $\T$ of line transversals of a collection
+$\P$ of $k$ convex polyhedra in $\reals^3$ with a total of $n$ facets, and
+present a randomized algorithm which computes the boundary of $\T$ in
+comparable expected time. Thus, when $k\ll n$, the new bounds on the complexity
+(and construction cost) of $\T$ improve upon the previously best known bounds,
+which are nearly cubic in $n$.
+  To obtain the above result, we study the set $\TL$ of line transversals which
+emanate from a fixed line $\ell_0$, establish an almost tight bound of
+$O(nk^{1+\eps})$ on the complexity of $\TL$, and provide a randomized algorithm
+which computes $\TL$ in comparable expected time. Slightly improved
+combinatorial bounds for the complexity of $\TL$, and comparable improvements
+in the cost of constructing this set, are established for two special cases,
+both assuming that the polyhedra of $\P$ are pairwise disjoint: the case where
+$\ell_0$ is disjoint from the polyhedra of $\P$, and the case where the
+polyhedra of $\P$ are unbounded in a direction parallel to $\ell_0$.

@@ -1,0 +1,14 @@
+A polynomial transform is the multiplication of an input vector $x\in\C^n$ by
+a matrix $\PT_{b,\alpha}\in\C^{n\times n},$ whose $(k,\ell)$-th element is
+defined as $p_\ell(\alpha_k)$ for polynomials $p_\ell(x)\in\C[x]$ from a list
+$b=\{p_0(x),\dots,p_{n-1}(x)\}$ and sample points $\alpha_k\in\C$ from a list
+$\alpha=\{\alpha_0,\dots,\alpha_{n-1}\}$. Such transforms find applications in
+the areas of signal processing, data compression, and function interpolation.
+Important examples include the discrete Fourier and cosine transforms. In this
+paper we introduce a novel technique to derive fast algorithms for polynomial
+transforms. The technique uses the relationship between polynomial transforms
+and the representation theory of polynomial algebras. Specifically, we derive
+algorithms by decomposing the regular modules of these algebras as a stepwise
+induction. As an application, we derive novel $O(n\log{n})$ general-radix
+algorithms for the discrete Fourier transform and the discrete cosine transform
+of type 4.

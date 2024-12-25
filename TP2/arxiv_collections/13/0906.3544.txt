@@ -1,0 +1,19 @@
+We describe a method to explore the configurational phase space of chemical
+systems. It is based on the nested sampling algorithm recently proposed by
+Skilling [Skilling J. (2004) In AIP Conference Proceedings, vol. 735, p. 395.;
+Skilling J. (2006) J of Bayesian Analysis 1:833-860.] and allows us to explore
+the entire potential energy surface (PES) efficiently in an unbiased way. The
+algorithm has two parameters which directly control the trade-off between the
+resolution with which the space is explored and the computational cost. We
+demonstrate the use of nested sampling on Lennard-Jones (LJ) clusters. Nested
+sampling provides a straightforward approximation for the partition function,
+thus evaluating expectation values of arbitrary smooth operators at arbitrary
+temperatures becomes a simple post-processing step. Access to absolute free
+energies allows us to determine the temperature-density phase diagram for LJ
+cluster stability. Even for relatively small clusters, the efficiency gain over
+parallel tempering in calculating the heat capacity is more than an order of
+magnitude. Furthermore, by analysing the topology of the resulting samples we
+are able to visualise the PES in a new and illuminating way. We identify a
+discretely valued order parameter with basins and supra-basins of the PES
+allowing a straightforward and unambiguous definition of macroscopic states of
+an atomistic system and the evaluation of the associated free energies.

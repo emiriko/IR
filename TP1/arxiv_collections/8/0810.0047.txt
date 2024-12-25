@@ -1,0 +1,17 @@
+This report presents the application of polynomial regression for estimating
+free energy differences using thermodynamic integration. We employ linear
+regression to construct a polynomial that optimally fits the thermodynamic
+integration data, and thus reduces the bias and uncertainty of the resulting
+free energy estimate. Two test systems with analytical solutions were used to
+verify the accuracy and precision of the approach. Our results suggest that
+regression with a high degree of polynomials give the most accurate free energy
+difference estimates, but often with a slightly larger variance, compared to
+commonly used quadrature techniques. High degrees of polynomials possess the
+flexibility to closely fit the thermodynamic integration data but are often
+sensitive to small changes in data points. To further improve overall accuracy
+and reduce uncertainty, we also examine the use of Chebyshev nodes to guide the
+selection of non-equidistant lambda values for the thermodynamic integration
+scheme. We conclude that polynomial regression with non-equidistant lambda
+values delivers the most accurate and precise free energy estimates for
+thermodynamic integration data. Software and documentation is available at
+http://www.phys.uidaho.edu/ytreberg/software

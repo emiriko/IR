@@ -1,0 +1,13 @@
+The problem Hamiltonian of the adiabatic quantum algorithm for the
+maximum-weight independent set problem (MIS) that is based on the reduction to
+the Ising problem (as described in [Choi08]) has flexible parameters. We show
+that by choosing the parameters appropriately in the problem Hamiltonian
+(without changing the problem to be solved) for MIS on CK graphs, we can
+prevent the first order quantum phase transition and significantly change the
+minimum spectral gap. We raise the basic question about what the appropriate
+formulation of adiabatic running time should be. We also describe adiabatic
+quantum algorithms for Exact Cover and 3SAT in which the problem Hamiltonians
+are based on the reduction to MIS. We point out that the argument in Altshuler
+et al.(arXiv:0908.2782 [quant-ph]) that their adiabatic quantum algorithm
+failed with high probability for randomly generated instances of Exact Cover
+does not carry over to this new algorithm.

@@ -1,0 +1,17 @@
+We introduce a new criterion, replacement freeness, to discern the relative
+expressiveness of process calculi. Intuitively, a calculus is strongly
+replacement free if replacing, within an enclosing context, a process that
+cannot perform any visible action by an arbitrary process never inhibits the
+capability of the resulting process to perform a visible action. We prove that
+there exists no compositional and interaction sensitive encoding of a not
+strongly replacement free calculus into any strongly replacement free one. We
+then define a weaker version of replacement freeness, by only considering
+replacement of closed processes, and prove that, if we additionally require the
+encoding to preserve name independence, it is not even possible to encode a non
+replacement free calculus into a weakly replacement free one. As a consequence
+of our encodability results, we get that many calculi equipped with priority
+are not replacement free and hence are not encodable into mainstream calculi
+like CCS and pi-calculus, that instead are strongly replacement free. We also
+prove that variants of pi-calculus with match among names, pattern matching or
+polyadic synchronization are only weakly replacement free, hence they are
+separated both from process calculi with priority and from mainstream calculi.

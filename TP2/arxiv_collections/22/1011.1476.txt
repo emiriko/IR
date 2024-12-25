@@ -1,0 +1,22 @@
+A new cosmic shear analysis pipeline SUNGLASS (Simulated UNiverses for
+Gravitational Lensing Analysis and Shear Surveys) is introduced. SUNGLASS is a
+pipeline that rapidly generates simulated universes for weak lensing and cosmic
+shear analysis. The pipeline forms suites of cosmological N-body simulations
+and performs tomographic cosmic shear analysis using line-of-sight integration
+through these simulations while saving the particle lightcone information.
+Galaxy shear and convergence catalogues with realistic 3D galaxy redshift
+distributions are produced for the purposes of testing weak lensing analysis
+techniques and generating covariance matrices for data analysis and
+cosmological parameter estimation. We present a suite of fast medium resolution
+simulations with shear and convergence maps for a generic 100 square degree
+survey out to a redshift of z = 1.5, with angular power spectra agreeing with
+the theory to better than a few percent accuracy up to l = 10^3 for all source
+redshifts up to z = 1.5 and wavenumbers up to l = 2000 for the source redshifts
+z > 1.1. At higher wavenumbers, there is a failure of the theoretical lensing
+power spectrum reflecting the known discrepancy of the Smith et al. (2003)
+fitting formula at high physical wavenumbers. A two-parameter Gaussian
+likelihood analysis of sigma_8 and Omega_m is also performed on the suite of
+simulations, demonstrating that the cosmological parameters are recovered from
+the simulations and the covariance matrices are stable for data analysis. We
+find no significant bias in the parameter estimation at the level of ~ 0.02.
+The SUNGLASS pipeline should be an invaluable tool in weak lensing analysis.

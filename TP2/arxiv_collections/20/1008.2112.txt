@@ -1,0 +1,16 @@
+We look at the operational semantics of languages with interactive I/O
+through the glasses of constructive type theory. Following on from our earlier
+work on coinductive trace-based semantics for While, we define several big-step
+semantics for While with interactive I/O, based on resumptions and
+termination-sensitive weak bisimilarity. These require nesting inductive
+definitions in coinductive definitions, which is interesting both
+mathematically and from the point-of-view of implementation in a proof
+assistant.
+  After first defining a basic semantics of statements in terms of resumptions
+with explicit internal actions (delays), we introduce a semantics in terms of
+delay-free resumptions that essentially removes finite sequences of delays on
+the fly from those resumptions that are responsive. Finally, we also look at a
+semantics in terms of delay-free resumptions supplemented with a silent
+divergence option. This semantics hinges on decisions between convergence and
+divergence and is only equivalent to the basic one classically.
+  We have fully formalized our development in Coq.

@@ -1,0 +1,11 @@
+One technique to reduce the state-space explosion problem in temporal logic
+model checking is symmetry reduction. The combination of symmetry reduction and
+symbolic model checking by using BDDs suffered a long time from the
+prohibitively large BDD for the orbit relation. Dynamic symmetry reduction
+calculates representatives of equivalence classes of states dynamically and
+thus avoids the construction of the orbit relation. In this paper, we present a
+new efficient model checking algorithm based on dynamic symmetry reduction. Our
+experiments show that the algorithm is very fast and allows the verification of
+larger systems. We additionally implemented the use of state symmetries for
+symbolic symmetry reduction. To our knowledge we are the first who investigated
+state symmetries in combination with BDD based symbolic model checking.

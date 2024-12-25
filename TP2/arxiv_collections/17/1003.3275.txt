@@ -1,0 +1,33 @@
+We propose a novel theoretical biomolecular design to implement any Boolean
+circuit using the mechanism of DNA strand displacement. The design is scalable:
+all species of DNA strands can in principle be mixed and prepared in a single
+test tube, rather than requiring separate purification of each species, which
+is a barrier to large-scale synthesis. The design is time-responsive: the
+concentration of output species changes in response to the concentration of
+input species, so that time-varying inputs may be continuously processed. The
+design is digital: Boolean values of wires in the circuit are represented as
+high or low concentrations of certain species, and we show how to construct a
+single-input, single-output signal restoration gate that amplifies the
+difference between high and low, which can be distributed to each wire in the
+circuit to overcome signal degradation. This means we can achieve a digital
+abstraction of the analog values of concentrations. Finally, the design is
+energy-efficient: if input species are specified ideally (meaning absolutely 0
+concentration of unwanted species), then output species converge to their ideal
+concentrations at steady-state, and the system at steady-state is in (dynamic)
+equilibrium, meaning that no energy is consumed by irreversible reactions until
+the input again changes.
+  Drawbacks of our design include the following. If input is provided
+non-ideally (small positive concentration of unwanted species), then energy
+must be continually expended to maintain correct output concentrations even at
+steady-state. In addition, our fuel species - those species that are
+permanently consumed in irreversible reactions - are not "generic"; each gate
+in the circuit is powered by its own specific type of fuel species. Hence
+different circuits must be powered by different types of fuel. Finally, we
+require input to be given according to the dual-rail convention, so that an
+input of 0 is specified not only by the absence of a certain species, but by
+the presence of another. That is, we do not construct a "true NOT gate" that
+sets its output to high concentration if and only if its input's concentration
+is low. It remains an open problem to design scalable, time-responsive,
+digital, energy-efficient molecular circuits that additionally solve one of
+these problems, or to prove that some subset of their resolutions are mutually
+incompatible.

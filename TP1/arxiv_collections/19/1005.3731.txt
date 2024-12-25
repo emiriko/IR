@@ -1,0 +1,12 @@
+Nominal Logic is a version of first-order logic with equality, name-binding,
+renaming via name-swapping and freshness of names. Contrarily to higher-order
+logic, bindable names, called atoms, and instantiable variables are considered
+as distinct entities. Moreover, atoms are capturable by instantiations,
+breaking a fundamental principle of lambda-calculus. Despite these differences,
+nominal unification can be seen from a higher-order perspective. From this
+view, we show that nominal unification can be reduced to a particular fragment
+of higher-order unification problems: Higher-Order Pattern Unification. This
+reduction proves that nominal unification can be decided in quadratic
+deterministic time, using the linear algorithm for Higher-Order Pattern
+Unification. We also prove that the translation preserves most generality of
+unifiers.

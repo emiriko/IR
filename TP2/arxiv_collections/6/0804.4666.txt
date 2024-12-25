@@ -1,0 +1,16 @@
+There are two main algorithmic approaches to sparse signal recovery:
+geometric and combinatorial. The geometric approach starts with a geometric
+constraint on the measurement matrix and then uses linear programming to decode
+information about the signal from its measurements. The combinatorial approach
+constructs the measurement matrix and a combinatorial decoding algorithm to
+match. We present a unified approach to these two classes of sparse signal
+recovery algorithms.
+  The unifying elements are the adjacency matrices of high-quality unbalanced
+expanders. We generalize the notion of Restricted Isometry Property (RIP),
+crucial to compressed sensing results for signal recovery, from the Euclidean
+norm to the l_p norm for p about 1, and then show that unbalanced expanders are
+essentially equivalent to RIP-p matrices.
+  From known deterministic constructions for such matrices, we obtain new
+deterministic measurement matrix constructions and algorithms for signal
+recovery which, compared to previous deterministic algorithms, are superior in
+either the number of measurements or in noise tolerance.

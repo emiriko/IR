@@ -1,0 +1,15 @@
+In a recent paper Lima, Panario and Wang have provided a new method to
+multiply polynomials in Chebyshev basis which aims at reducing the total number
+of multiplication when polynomials have small degree. Their idea is to use
+Karatsuba's multiplication scheme to improve upon the naive method but without
+being able to get rid of its quadratic complexity. In this paper, we extend
+their result by providing a reduction scheme which allows to multiply
+polynomial in Chebyshev basis by using algorithms from the monomial basis case
+and therefore get the same asymptotic complexity estimate. Our reduction allows
+to use any of these algorithms without converting polynomials input to monomial
+basis which therefore provide a more direct reduction scheme then the one using
+conversions. We also demonstrate that our reduction is efficient in practice,
+and even outperform the performance of the best known algorithm for Chebyshev
+basis when polynomials have large degree. Finally, we demonstrate a linear time
+equivalence between the polynomial multiplication problem under monomial basis
+and under Chebyshev basis.

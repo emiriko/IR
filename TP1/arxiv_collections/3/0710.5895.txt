@@ -1,0 +1,14 @@
+Making a Prolog program more efficient by transforming its source code,
+without changing its operational semantics, is not an obvious task. It requires
+the user to have a clear understanding of how the Prolog compiler works, and in
+particular, of the effects of impure features like the cut. The way a Prolog
+code is written - e.g., the order of clauses, the order of literals in a
+clause, the use of cuts or negations - influences its efficiency. Furthermore,
+different optimization techniques may be redundant or conflicting when they are
+applied together, depending on the way a procedure is called - e.g., inserting
+cuts and enabling indexing. We present an optimiser, based on abstract
+interpretation, that automatically performs safe code transformations of Prolog
+procedures in the context of some class of input calls. The method is more
+effective if procedures are annotated with additional information about modes,
+types, sharing, number of solutions and the like. Thus the approach is similar
+to Mercury. It applies to any Prolog program, however.

@@ -1,0 +1,11 @@
+Let $p_n$ be the $n$-th orthonormal polynomial on the real line, whose zeros
+are $\lambda_j^{(n)}$, $j=1, ..., n$. Then for each $j=1, ..., n$, $$ \vec
+\Psi_j^2 = (\Psi_{1j}^2, ..., \Psi_{nj}^2) $$ with $$ \Psi_{ij}^2= p_{i-1}^2
+(\lambda_j^{(n)}) (\sum_{k=0}^{n-1} p_k^2(\lambda_j^{(n)}))^{-1}, \quad i=1,
+>..., n, $$ defines a discrete probability distribution. The Shannon entropy of
+the sequence $\{p_n\}$ is consequently defined as $$ \mathcal S_{n,j} =
+-\sum_{i=1}^n \Psi_{ij}^{2} \log (\Psi_{ij}^{2}) . $$ In the case of Chebyshev
+polynomials of the first and second kinds an explicit and closed formula for
+$\mathcal S_{n,j}$ is obtained, revealing interesting connections with the
+number theory. Besides, several results of numerical computations exemplifying
+the behavior of $\mathcal S_{n,j}$ for other families are also presented.

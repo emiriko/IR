@@ -1,0 +1,21 @@
+SARAH is a Mathematica package for building and analyzing supersymmetric
+models. SARAH just needs the gauge structure, particle content and
+superpotential to produce all information about the gauge eigenstates of a
+model. Breaking of gauge symmetries and mixings of particles can easily be in a
+second step and entire Lagrangian is derived automatically. Also the gauge
+fixing terms are derived by SARAH in R_Xi gauge, and the corresponding ghost
+interactions are calculated. Using this information, SARAH can calculate the
+all mass matrices, tadpole equations and vertices at tree-level for the given
+model. In addition, the expressions for the 1- and 2-loop renormalization group
+equations of all parameters can be calculated and an automatic calculation for
+the 1-loop corrections to self energies and the tadpoles are possible.
+  SARAH can write all information about the model to LaTeX files, or create a
+model files for FeynArts/FormCalc, WHIZARD/OMEGA and CalcHep/CompHep, which can
+also be used for dark matter studies using MicrOmegas, and in the UFO format
+which is supported by MadGraph 5. Beginning with version 3, SARAH is also the
+first available spectrum-generator-generator: based on the derived, analytical
+expression it creates source code for SPheno to calculate the mass spectrum as
+well the SUSY decays with high precision. In that way, it is possible to
+implement new models in SPheno without the need to write any Fortran code by
+hand. Already many models beyond the MSSM are included in the public version of
+SARAH and the implementation of new models is easy and straightforward.

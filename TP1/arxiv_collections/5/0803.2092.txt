@@ -1,0 +1,10 @@
+Multiple sequence alignment is a key process in today's biology, and finding
+a relevant alignment of several sequences is much more challenging than just
+optimizing some improbable evaluation functions. Our approach for addressing
+multiple sequence alignment focuses on the building of structures in a new
+graph model: the factor graph model. This model relies on block-based
+formulation of the original problem, formulation that seems to be one of the
+most suitable ways for capturing evolutionary aspects of alignment. The
+structures are implicitly built by a colony of ants laying down pheromones in
+the factor graphs, according to relations between blocks belonging to the
+different sequences.

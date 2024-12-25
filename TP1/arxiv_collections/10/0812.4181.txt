@@ -1,0 +1,13 @@
+Web Services are web-based applications made available for web users or
+remote Web-based programs. In order to promote interoperability, they publish
+their interfaces in the so-called WSDL file and allow remote call over the
+network. Although Web Services can be used in different ways, the industry
+standard is the Service Oriented Architecture Web Services that doesn't rely on
+the implementation details. In this architecture, communication is performed
+through XML-based messages called SOAP messages. However, those messages are
+prone to attacks that can lead to code injection, unauthorized accesses,
+identity theft, etc. This type of attacks, called XML Rewriting Attacks, are
+all based on unauthorized, yet possible, modifications of SOAP messages. We
+present in this paper an explanation of this kind of attack, review the
+existing solutions, and show their limitations. We also propose some ideas to
+secure SOAP messages, as well as implementation ideas.

@@ -1,0 +1,19 @@
+Monotone systems of polynomial equations (MSPEs) are systems of fixed-point
+equations $X_1 = f_1(X_1, ..., X_n),$ $..., X_n = f_n(X_1, ..., X_n)$ where
+each $f_i$ is a polynomial with positive real coefficients. The question of
+computing the least non-negative solution of a given MSPE $\vec X = \vec f(\vec
+X)$ arises naturally in the analysis of stochastic models such as stochastic
+context-free grammars, probabilistic pushdown automata, and back-button
+processes. Etessami and Yannakakis have recently adapted Newton's iterative
+method to MSPEs. In a previous paper we have proved the existence of a
+threshold $k_{\vec f}$ for strongly connected MSPEs, such that after $k_{\vec
+f}$ iterations of Newton's method each new iteration computes at least 1 new
+bit of the solution. However, the proof was purely existential. In this paper
+we give an upper bound for $k_{\vec f}$ as a function of the minimal component
+of the least fixed-point $\mu\vec f$ of $\vec f(\vec X)$. Using this result we
+show that $k_{\vec f}$ is at most single exponential resp. linear for strongly
+connected MSPEs derived from probabilistic pushdown automata resp. from
+back-button processes. Further, we prove the existence of a threshold for
+arbitrary MSPEs after which each new iteration computes at least $1/w2^h$ new
+bits of the solution, where $w$ and $h$ are the width and height of the DAG of
+strongly connected components.

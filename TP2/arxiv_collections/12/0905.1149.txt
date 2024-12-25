@@ -1,0 +1,21 @@
+A quantum control landscape is defined as the expectation value of a target
+observable $\Theta$ as a function of the control variables. In this work
+control landscapes for open quantum systems governed by Kraus map evolution are
+analyzed. Kraus maps are used as the controls transforming an initial density
+matrix $\rho_{\rm i}$ into a final density matrix to maximize the expectation
+value of the observable $\Theta$. The absence of suboptimal local maxima for
+the relevant control landscapes is numerically illustrated. The dependence of
+the optimization search effort is analyzed in terms of the dimension of the
+system $N$, the initial state $\rho_{\rm i}$, and the target observable
+$\Theta$. It is found that if the number of nonzero eigenvalues in $\rho_{\rm
+i}$ remains constant, the search effort does not exhibit any significant
+dependence on $N$. If $\rho_{\rm i}$ has no zero eigenvalues, then the
+computational complexity and the required search effort rise with $N$. The
+dimension of the top manifold (i.e., the set of Kraus operators that maximizes
+the objective) is found to positively correlate with the optimization search
+efficiency. Under the assumption of full controllability, incoherent control
+modelled by Kraus maps is found to be more efficient in reaching the same value
+of the objective than coherent control modelled by unitary maps. Numerical
+simulations are also performed for control landscapes with linear constraints
+on the available Kraus maps, and suboptimal maxima are not revealed for these
+landscapes.

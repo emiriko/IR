@@ -1,0 +1,19 @@
+As the communication requirements of current and future Multiprocessor
+Systems on Chips (MPSoCs) continue to increase, scalable communication
+architectures are needed to support the heavy communication demands of the
+system. This is reflected in the recent trend that many of the standard bus
+products such as STbus, have now introduced the capability of designing a
+crossbar with multiple buses operating in parallel. The crossbar configuration
+should be designed to closely match the application traffic characteristics and
+performance requirements. In this work we address this issue of
+application-specific design of optimal crossbar (using STbus crossbar
+architecture), satisfying the performance requirements of the application and
+optimal binding of cores onto the crossbar resources. We present a simulation
+based design approach that is based on analysis of actual traffic trace of the
+application, considering local variations in traffic rates, temporal overlap
+among traffic streams and criticality of traffic streams. Our methodology is
+applied to several MPSoC designs and the resulting crossbar platforms are
+validated for performance by cycle-accurate SystemC simulation of the designs.
+The experimental case studies show large reduction in packet latencies (up to
+7x) and large crossbar component savings (up to 3.5x) compared to traditional
+design approaches.

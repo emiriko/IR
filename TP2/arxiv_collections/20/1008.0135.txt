@@ -1,0 +1,15 @@
+3D visualization is an important data analysis and knowledge discovery tool,
+however, interactive visualization of large 3D astronomical datasets poses a
+challenge for many existing data visualization packages. We present a solution
+to interactively visualize larger-than-memory 3D astronomical data cubes by
+utilizing a heterogeneous cluster of CPUs and GPUs. The system partitions the
+data volume into smaller sub-volumes that are distributed over the rendering
+workstations. A GPU-based ray casting volume rendering is performed to generate
+images for each sub-volume, which are composited to generate the whole volume
+output, and returned to the user. Datasets including the HI Parkes All Sky
+Survey (HIPASS - 12 GB) southern sky and the Galactic All Sky Survey (GASS - 26
+GB) data cubes were used to demonstrate our framework's performance. The
+framework can render the GASS data cube with a maximum render time < 0.3 second
+with 1024 x 1024 pixels output resolution using 3 rendering workstations and 8
+GPUs. Our framework will scale to visualize larger datasets, even of Terabyte
+order, if proper hardware infrastructure is available.

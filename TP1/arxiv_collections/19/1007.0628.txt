@@ -1,0 +1,16 @@
+In this paper we present a technique for fusion of optical and thermal face
+images based on image pixel fusion approach. Out of several factors, which
+affect face recognition performance in case of visual images, illumination
+changes are a significant factor that needs to be addressed. Thermal images are
+better in handling illumination conditions but not very consistent in capturing
+texture details of the faces. Other factors like sunglasses, beard, moustache
+etc also play active role in adding complicacies to the recognition process.
+Fusion of thermal and visual images is a solution to overcome the drawbacks
+present in the individual thermal and visual face images. Here fused images are
+projected into an eigenspace and the projected images are classified using a
+radial basis function (RBF) neural network and also by a multi-layer perceptron
+(MLP). In the experiments Object Tracking and Classification Beyond Visible
+Spectrum (OTCBVS) database benchmark for thermal and visual face images have
+been used. Comparison of experimental results show that the proposed approach
+performs significantly well in recognizing face images with a success rate of
+96% and 95.07% for RBF Neural Network and MLP respectively.

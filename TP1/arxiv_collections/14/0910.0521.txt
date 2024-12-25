@@ -1,0 +1,10 @@
+The aim of this paper is to investigate from the numerical point of view the
+possibility of coupling the Hamilton-Jacobi-Bellman (HJB) equation and
+Pontryagin's Minimum Principle (PMP) to solve some control problems. A rough
+approximation of the value function computed by the HJB method is used to
+obtain an initial guess for the PMP method. The advantage of our approach over
+other initialization techniques (such as continuation or direct methods) is to
+provide an initial guess close to the global minimum. Numerical tests involving
+multiple minima, discontinuous control, singular arcs and state constraints are
+considered. The CPU time for the proposed method is less than four minutes up
+to dimension four, without code parallelization.

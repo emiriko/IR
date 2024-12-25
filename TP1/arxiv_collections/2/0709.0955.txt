@@ -1,0 +1,12 @@
+We show how to exploit symmetries of a graph to efficiently compute the
+fastest mixing Markov chain on the graph (i.e., find the transition
+probabilities on the edges to minimize the second-largest eigenvalue modulus of
+the transition probability matrix). Exploiting symmetry can lead to significant
+reduction in both the number of variables and the size of matrices in the
+corresponding semidefinite program, thus enable numerical solution of
+large-scale instances that are otherwise computationally infeasible. We obtain
+analytic or semi-analytic results for particular classes of graphs, such as
+edge-transitive and distance-transitive graphs. We describe two general
+approaches for symmetry exploitation, based on orbit theory and
+block-diagonalization, respectively. We also establish the connection between
+these two approaches.

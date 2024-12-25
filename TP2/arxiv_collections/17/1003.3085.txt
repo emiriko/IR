@@ -1,0 +1,16 @@
+Consider an undirected graph $G = (VG, EG)$ and a set of six \emph{terminals}
+$T = \set{s_1, s_2, s_3, t_1, t_2, t_3} \subseteq VG$. The goal is to find a
+collection $\calP$ of three edge-disjoint paths $P_1$, $P_2$, and $P_3$, where
+$P_i$ connects nodes $s_i$ and $t_i$ ($i = 1, 2, 3$). Results obtained by
+Robertson and Seymour by graph minor techniques imply a polynomial time
+solvability of this problem. The time bound of their algorithm is $O(m^3)$
+(hereinafter we assume $n := \abs{VG}$, $m := \abs{EG}$, $n = O(m)$). In this
+paper we consider a special, \emph{Eulerian} case of $G$ and $T$. Namely,
+construct the \emph{demand graph} $H = (VG, \set{s_1t_1, s_2t_2, s_3t_3})$. The
+edges of $H$ correspond to the desired paths in $\calP$. In the Eulerian case
+the degrees of all nodes in the (multi-) graph $G + H$ ($ = (VG, EG \cup EH)$)
+are even. Schrijver showed that, under the assumption of Eulerianess, cut
+conditions provide a criterion for the existence of $\calP$. This, in
+particular, implies that checking for existence of $\calP$ can be done in
+$O(m)$ time. Our result is a combinatorial $O(m)$-time algorithm that
+constructs $\calP$ (if the latter exists).

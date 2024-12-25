@@ -1,0 +1,11 @@
+This paper proposes a type-and-effect system called Teqt, which distinguishes
+terminating terms and total functions from possibly diverging terms and partial
+functions, for a lambda calculus with general recursion and equality types. The
+central idea is to include a primitive type-form "Terminates t", expressing
+that term t is terminating; and then allow terms t to be coerced from possibly
+diverging to total, using a proof of Terminates t. We call such coercions
+termination casts, and show how to implement terminating recursion using them.
+For the meta-theory of the system, we describe a translation from Teqt to a
+logical theory of termination for general recursive, simply typed functions.
+Every typing judgment of Teqt is translated to a theorem expressing the
+appropriate termination property of the computational part of the Teqt term.

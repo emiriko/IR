@@ -1,0 +1,24 @@
+While it seems possible that quantum computers may allow for algorithms
+offering a computational speed-up over classical algorithms for some problems,
+the issue is poorly understood. We explore this computational speed-up by
+investigating the ability to de-quantise quantum algorithms into classical
+simulations of the algorithms which are as efficient in both time and space as
+the original quantum algorithms.
+  The process of de-quantisation helps formulate conditions to determine if a
+quantum algorithm provides a real speed-up over classical algorithms. These
+conditions can be used to develop new quantum algorithms more effectively (by
+avoiding features that could allow the algorithm to be efficiently classically
+simulated), as well as providing the potential to create new classical
+algorithms (by using features which have proved valuable for quantum
+algorithms).
+  Results on many different methods of de-quantisations are presented, as well
+as a general formal definition of de-quantisation. De-quantisations employing
+higher-dimensional classical bits, as well as those using matrix-simulations,
+put emphasis on entanglement in quantum algorithms; a key result is that any
+algorithm in which the entanglement is bounded is de-quantisable. These methods
+are contrasted with the stabiliser formalism de-quantisations due to the
+Gottesman-Knill Theorem, as well as those which take advantage of the topology
+of the circuit for a quantum algorithm.
+  The benefits of the different methods are contrasted, and the importance of a
+range of techniques is emphasised. We further discuss some features of quantum
+algorithms which current de-quantisation methods do not cover.

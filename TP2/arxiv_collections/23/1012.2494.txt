@@ -1,0 +1,25 @@
+The Vlasov-Poisson equations describe the evolution of a collisionless
+plasma, represented through a probability density function (PDF) that
+self-interacts via an electrostatic force. One of the main difficulties in
+numerically solving this system is the severe time-step restriction that arises
+from parts of the PDF associated with moderate-to-large velocities. The
+dominant approach in the plasma physics community for removing these time-step
+restrictions is the so-called particle-in-cell (PIC) method, which discretizes
+the distribution function into a set of macro-particles, while the electric
+field is represented on a mesh. Several alternatives to this approach exist,
+including fully Lagrangian, fully Eulerian, and so-called semi-Lagrangian
+methods. The focus of this work is the semi-Lagrangian approach, which begins
+with a grid-based Eulerian representation of both the PDF and the electric
+field, then evolves the PDF via Lagrangian dynamics, and finally projects this
+evolved field back onto the original Eulerian mesh. In particular, we develop
+in this work a method that discretizes the 1+1 Vlasov-Poisson system via a
+high-order discontinuous Galerkin (DG) method in phase space, and an operator
+split, semi-Lagrangian method in time. Second-order accuracy in time is
+relatively easy to achieve via Strang operator splitting. With additional work,
+using higher-order splitting and a higher-order method of characteristics, we
+also demonstrate how to push this scheme to fourth-order accuracy in time. We
+show how to resolve all of the Lagrangian dynamics in such a way that mass is
+exactly conserved, positivity is maintained, and high-order accuracy is
+achieved. The Poisson equation is solved to high-order via the smallest stencil
+local discontinuous Galerkin (LDG) approach. We test the proposed scheme on
+several standard test cases.

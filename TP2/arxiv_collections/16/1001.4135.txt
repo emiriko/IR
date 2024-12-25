@@ -1,0 +1,13 @@
+In this paper we have proposed an adaptive dynamic cache replacement
+algorithm for a multimedia servers cache system. The goal is to achieve an
+effective utilization of the cache memory which stores the prefix of popular
+videos. A replacement policy is usually evaluated using hit ratio, the
+frequency with which any video is requested. Usually discarding the least
+recently used page is the policy of choice in cache management. The adaptive
+dynamic replacement approach for prefix cache is a self tuning, low overhead
+algorithm that responds online to changing access patterns. It constantly
+balances between lru and lfu to improve combined result. It automatically
+adapts to evolving workloads. Since in our algorithm we have considered a
+prefix caching with multicast transmission of popular objects it utilizes the
+hard disk and network bandwidth efficiently and increases the number of
+requests being served.

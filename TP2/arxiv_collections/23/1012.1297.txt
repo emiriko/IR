@@ -1,0 +1,11 @@
+In this note, we propose to use sparse methods (e.g. LASSO, Post-LASSO,
+sqrt-LASSO, and Post-sqrt-LASSO) to form first-stage predictions and estimate
+optimal instruments in linear instrumental variables (IV) models with many
+instruments in the canonical Gaussian case. The methods apply even when the
+number of instruments is much larger than the sample size. We derive asymptotic
+distributions for the resulting IV estimators and provide conditions under
+which these sparsity-based IV estimators are asymptotically oracle-efficient.
+In simulation experiments, a sparsity-based IV estimator with a data-driven
+penalty performs well compared to recently advocated many-instrument-robust
+procedures. We illustrate the procedure in an empirical example using the
+Angrist and Krueger (1991) schooling data.

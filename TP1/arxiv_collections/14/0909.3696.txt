@@ -1,0 +1,14 @@
+We construct efficient data structures that are resilient against a constant
+fraction of adversarial noise. Our model requires that the decoder answers most
+queries correctly with high probability and for the remaining queries, the
+decoder with high probability either answers correctly or declares "don't
+know." Furthermore, if there is no noise on the data structure, it answers all
+queries correctly with high probability. Our model is the common generalization
+of a model proposed recently by de Wolf and the notion of "relaxed locally
+decodable codes" developed in the PCP literature.
+  We measure the efficiency of a data structure in terms of its length,
+measured by the number of bits in its representation, and query-answering time,
+measured by the number of bit-probes to the (possibly corrupted)
+representation. In this work, we study two data structure problems: membership
+and polynomial evaluation. We show that these two problems have constructions
+that are simultaneously efficient and error-correcting.

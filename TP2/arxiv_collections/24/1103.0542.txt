@@ -1,0 +1,14 @@
+The Metropolis-adjusted Langevin (MALA) algorithm is a sampling algorithm
+which makes local moves by incorporating information about the gradient of the
+logarithm of the target density. In this paper we study the efficiency of MALA
+on a natural class of target measures supported on an infinite dimensional
+Hilbert space. These natural measures have density with respect to a Gaussian
+random field measure and arise in many applications such as Bayesian
+nonparametric statistics and the theory of conditioned diffusions. We prove
+that, started in stationarity, a suitably interpolated and scaled version of
+the Markov chain corresponding to MALA converges to an infinite dimensional
+diffusion process. Our results imply that, in stationarity, the MALA algorithm
+applied to an N-dimensional approximation of the target will take
+$\mathcal{O}(N^{1/3})$ steps to explore the invariant measure, comparing
+favorably with the Random Walk Metropolis which was recently shown to require
+$\mathcal{O}(N)$ steps when applied to the same class of problems.

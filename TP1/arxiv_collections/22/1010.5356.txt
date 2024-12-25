@@ -1,0 +1,20 @@
+In particle therapy, knowledge of the stopping-power ratios (STPRs) of the
+ion beam for air and water is necessary for accurate ionization chamber
+dosimetry. Earlier work has investigated the STPRs for pristine carbon ion
+beams, but here we expand the calculations to a range of ions (1 <= z <= 18) as
+well as spread out Bragg peaks (SOBPs) and provide a theoretical in-depth study
+with a special focus on the parameter regime relevant for particle therapy. The
+Monte Carlo transport code SHIELD-HIT is used to calculate complete
+particle-fluence spectra which are required for determining STPRs according to
+the recommendations of the International Atomic Energy Agency (IAEA).
+  We confirm that the STPR depends primarily on the current energy of the ions
+rather than on their charge z or absolute position in the medium. However,
+STPRs for different sets of stopping-power data for water and air recommended
+by the International Commission on Radiation Units & Measurements (ICRU) are
+compared, including also the recently revised data for water, yielding
+deviations up to 2% in the plateau region. In comparison, the influence of the
+secondary particle spectra on the STPR is about two orders of magnitude smaller
+in the whole region up till the practical range. The gained insights enable us
+to propose an analytic approximation for the STPR for both pristine and SOBPs
+as a function of penetration depth, which parametrically depend only on the
+initial energy and the residual range of the ion, respectively.

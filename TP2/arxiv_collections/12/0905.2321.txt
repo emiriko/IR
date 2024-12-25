@@ -1,0 +1,13 @@
+This paper constructs perfectly matched layers (PML) for a system of 2D
+Coupled Nonlinear Schr\"odinger equations with mixed derivatives which arises
+in the modeling of gap solitons in nonlinear periodic structures with a
+non-separable linear part. The PML construction is performed in Laplace Fourier
+space via a modal analysis and can be viewed as a complex change of variables.
+The mixed derivatives cause the presence of waves with opposite phase and group
+velocities, which has previously been shown to cause instability of layer
+equations in certain types of hyperbolic problems. Nevertheless, here the PML
+is stable if the absorption function $\sigma$ lies below a specified threshold.
+The PML construction and analysis are carried out for the linear part of the
+system. Numerical tests are then performed in both the linear and nonlinear
+regimes checking convergence of the error with respect to the layer width and
+showing that the PML performs well even in many nonlinear simulations.

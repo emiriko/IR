@@ -1,0 +1,18 @@
+A level-set method is developed for numerically capturing the equilibrium
+solute-solvent interface that is defined by the recently proposed variational
+implicit solvent model (Dzubiella, Swanson, and McCammon, Phys. Rev. Lett. {\bf
+104}, 527 (2006) and J. Chem.\Phys. {\bf 124}, 084905 (2006)). In the level-set
+method, a possible solute-solvent interface is represented by the zero
+level-set (i.e., the zero level surface) of a level-set function and is
+eventually evolved into the equilibrium solute-solvent interface. The evolution
+law is determined by minimization of a solvation free energy {\it functional}
+that couples both the interfacial energy and the van der Waals type
+solute-solvent interaction energy. The surface evolution is thus an energy
+minimizing process, and the equilibrium solute-solvent interface is an output
+of this process. The method is implemented and applied to the solvation of
+nonpolar molecules such as two xenon atoms, two parallel paraffin plates,
+helical alkane chains, and a single fullerene $C_{60}$. The level-set solutions
+show good agreement for the solvation energies when compared to available
+molecular dynamics simulations. In particular, the method captures solvent
+dewetting (nanobubble formation) and quantitatively describes the interaction
+in the strongly hydrophobic plate system.

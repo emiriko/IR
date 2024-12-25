@@ -1,0 +1,15 @@
+Shack Hartmann wavefront sensor is a two dimensional array of lenslets which
+is used to detect the incoming phase distorted wavefront through local tilt
+measurements made by recording the spot pattern near the focal plane. Wavefront
+reconstruction is performed in two stages - (a) image centroiding to calculate
+local slopes, (b) formation of the wavefront shape from local slope
+measurement. Centroiding accuracy contributes to most of the wavefront
+reconstruction error in Shack Hartmann sensor based adaptive optics system with
+readout and background noise. It becomes even more difficult in atmospheric
+adaptive optics case, where scintillation effects may also occur. In this paper
+we used a denoising technique based on thresholded Zernike reconstructor to
+minimize the effects due to readout and background noise. At low signal to
+noise ratio, this denoising technique can be improved further by taking the
+advantage of the shape of the spot. Assuming a Gaussian pattern for individual
+spots, it is shown that the centroiding accuracy can be improved in the
+presence of strong scintillations and background.

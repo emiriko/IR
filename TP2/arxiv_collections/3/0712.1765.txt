@@ -1,0 +1,15 @@
+Simple stochastic games are two-player zero-sum stochastic games with
+turn-based moves, perfect information, and reachability winning conditions. We
+present two new algorithms computing the values of simple stochastic games.
+Both of them rely on the existence of optimal permutation strategies, a class
+of positional strategies derived from permutations of the random vertices. The
+"permutation-enumeration" algorithm performs an exhaustive search among these
+strategies, while the "permutation-improvement" algorithm is based on
+successive improvements, \`a la Hoffman-Karp. Our algorithms improve previously
+known algorithms in several aspects. First they run in polynomial time when the
+number of random vertices is fixed, so the problem of solving simple stochastic
+games is fixed-parameter tractable when the parameter is the number of random
+vertices. Furthermore, our algorithms do not require the input game to be
+transformed into a stopping game. Finally, the permutation-enumeration
+algorithm does not use linear programming, while the permutation-improvement
+algorithm may run in polynomial time.

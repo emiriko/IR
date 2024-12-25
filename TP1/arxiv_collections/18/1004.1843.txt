@@ -1,0 +1,22 @@
+A successful state transfer (or teleportation) experiment must perform better
+than the benchmark set by the `best' measure and prepare procedure. We consider
+the benchmark problem for the following families of states: (i) displaced
+thermal equilibrium states of given temperature; (ii) independent identically
+prepared qubits with completely unknown state. For the first family we show
+that the optimal procedure is heterodyne measurement followed by the
+preparation of a coherent state. This procedure was known to be optimal for
+coherent states and for squeezed states with the `overlap fidelity' as figure
+of merit. Here we prove its optimality with respect to the trace norm distance
+and supremum risk. For the second problem we consider n i.i.d. spin-1/2 systems
+in an arbitrary unknown state $\rho$ and look for the measurement-preparation
+pair $(M_{n},P_{n})$ for which the reconstructed state $\omega_{n}:=P_{n}\circ
+M_{n} (\rho^{\otimes n})$ is as close as possible to the input state, i.e.
+$\|\omega_{n}- \rho^{\otimes n}\|_{1}$ is small. The figure of merit is based
+on the trace norm distance between input and output states. We show that
+asymptotically with $n$ the this problem is equivalent to the first one. The
+proof and construction of $(M_{n},P_{n})$ uses the theory of local asymptotic
+normality developed for state estimation which shows that i.i.d. quantum models
+can be approximated in a strong sense by quantum Gaussian models. The
+measurement part is identical with `optimal estimation', showing that
+`benchmarking' and estimation are closely related problems in the asymptotic
+set-up.

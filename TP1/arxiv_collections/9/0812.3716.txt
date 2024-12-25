@@ -1,0 +1,16 @@
+In this paper, we propose a refinement-based adaptation approach for the
+architecture of distributed group communication support applications. Unlike
+most of previous works, our approach reaches implementable, context-aware and
+dynamically adaptable architectures. To model the context, we manage
+simultaneously four parameters that influence Qos provided by the application.
+These parameters are: the available bandwidth, the exchanged data communication
+priority, the energy level and the available memory for processing. These
+parameters make it possible to refine the choice between the various
+architectural configurations when passing from a given abstraction level to the
+lower level which implements it. Our approach allows the importance degree
+associated with each parameter to be adapted dynamically. To implement
+adaptation, we switch between the various configurations of the same level, and
+we modify the state of the entities of a given configuration when necessary. We
+adopt the direct and mediated Producer- Consumer architectural styles and
+graphs for architecture modelling. In order to validate our approach we
+elaborate a simulation model.

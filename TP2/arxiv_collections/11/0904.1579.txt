@@ -1,0 +1,14 @@
+In this paper we apply computer learning methods to diagnosing ovarian cancer
+using the level of the standard biomarker CA125 in conjunction with information
+provided by mass-spectrometry. We are working with a new data set collected
+over a period of 7 years. Using the level of CA125 and mass-spectrometry peaks,
+our algorithm gives probability predictions for the disease. To estimate
+classification accuracy we convert probability predictions into strict
+predictions. Our algorithm makes fewer errors than almost any linear
+combination of the CA125 level and one peak's intensity (taken on the log
+scale). To check the power of our algorithm we use it to test the hypothesis
+that CA125 and the peaks do not contain useful information for the prediction
+of the disease at a particular time before the diagnosis. Our algorithm
+produces $p$-values that are better than those produced by the algorithm that
+has been previously applied to this data set. Our conclusion is that the
+proposed algorithm is more reliable for prediction on new data.

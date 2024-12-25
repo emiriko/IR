@@ -1,0 +1,8 @@
+We show that any quantum algorithm deciding whether an input function $f$
+from $[n]$ to $[n]$ is 2-to-1 or almost 2-to-1 requires $\Theta(n)$ queries to
+$f$. The same lower bound holds for determining whether or not a function $f$
+from $[2n-2]$ to $[n]$ is surjective. These results yield a nearly linear
+$\Omega(n/\log n)$ lower bound on the quantum query complexity of $\cl{AC}^0$.
+The best previous lower bound known for any $\cl{AC^0}$ function was the
+$\Omega ((n/\log n)^{2/3})$ bound given by Aaronson and Shi's $\Omega(n^{2/3})$
+lower bound for the element distinctness problem.

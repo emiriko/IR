@@ -1,0 +1,12 @@
+Estimating probabilistic deformable template models is a new approach in the
+fields of computer vision and probabilistic atlases in computational anatomy. A
+first coherent statistical framework modelling the variability as a hidden
+random variable has been given by Allassonni\`ere, Amit and Trouv\'e in [1] in
+simple and mixture of deformable template models. A consistent stochastic
+algorithm has been introduced in [2] to face the problem encountered in [1] for
+the convergence of the estimation algorithm for the one component model in the
+presence of noise. We propose here to go on in this direction of using some
+"SAEM-like" algorithm to approximate the MAP estimator in the general Bayesian
+setting of mixture of deformable template model. We also prove the convergence
+of this algorithm toward a critical point of the penalised likelihood of the
+observations and illustrate this with handwritten digit images.

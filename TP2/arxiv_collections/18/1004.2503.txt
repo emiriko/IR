@@ -1,0 +1,26 @@
+We present a set of cosmological simulations with radiative transfer in order
+to model the reionization history of the Universe. Galaxy formation and the
+associated star formation are followed self-consistently with gas and dark
+matter dynamics using the RAMSES code, while radiative transfer is performed as
+a post-processing step using a moment-based method with M1 closure relation in
+the ATON code. The latter has been ported to a multiple Graphics Processing
+Units (GPU) architecture using CUDA + MPI, resulting in an overall acceleration
+(x80) that allows us to tackle radiative transfer problems at resolution of
+1024^3 + 2 levels of refinement for the hydro adaptive grid and 1024^3 for the
+RT cartesian grid. We observe a good convergence between our different
+resolution runs as long as the effects of finite resolution on the star
+formation history are properly taken into account. We also show that the
+neutral fraction depends on the total mass density, in a way close to the
+predictions of photoionization equilibrium, as long as the effect of
+self-shielding is included in the background radiation model. However we still
+fail at reproducing the z=6 constraints on the H neutral fraction and the
+intensity of the UV background. In order to account for unresolved density
+fluctuations, we added a simple clumping factor model. Using our most spatially
+resolved simulation (12.5 Mpc/h-1024^3) to calibrate our subgrid model, we have
+resimulated our largest box (100 Mpc/h 1024^3), successfully reproducing the
+observed level of H neutral fraction at z=6. We don't reproduce the
+photoionization rate inferred from the same observations. We argue that this
+discrepancy could be explained by the fact that the average radiation intensity
+and the average neutral fraction depends on different regions of the gas
+density distribution, so that one quantity cannot be simply deduced from the
+other.

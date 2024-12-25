@@ -1,0 +1,18 @@
+I consider techniques for Berger-Oliger adaptive mesh refinement (AMR) when
+numerically solving partial differential equations with wave-like solutions,
+using characteristic (double-null) grids. Such AMR algorithms are naturally
+recursive, and the best-known past Berger-Oliger characteristic AMR algorithm,
+that of Pretorius & Lehner (J. Comp. Phys. 198 (2004), 10), recurses on
+individual "diamond" characteristic grid cells. This leads to the use of
+fine-grained memory management, with individual grid cells kept in
+2-dimensional linked lists at each refinement level. This complicates the
+implementation and adds overhead in both space and time.
+  Here I describe a Berger-Oliger characteristic AMR algorithm which instead
+recurses on null \emph{slices}. This algorithm is very similar to the usual
+Cauchy Berger-Oliger algorithm, and uses relatively coarse-grained memory
+management, allowing entire null slices to be stored in contiguous arrays in
+memory. The algorithm is very efficient in both space and time.
+  I describe discretizations yielding both 2nd and 4th order global accuracy.
+My code implementing the algorithm described here is included in the electronic
+supplementary materials accompanying this paper, and is freely available to
+other researchers under the terms of the GNU general public license.

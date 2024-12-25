@@ -1,0 +1,19 @@
+To solve the many-boson Schr\"odinger equation we utilize the
+Multiconfigurational time-dependent Hartree method for bosons (MCTDHB). To be
+able to attack larger systems and/or to propagate the solution for longer
+times, we implement a parallel version of the MCTDHB method thereby realizing
+the recently proposed [Streltsov {\it et al.} arXiv:0910.2577v1] novel idea how
+to construct efficiently the result of the action of the Hamiltonian on a
+bosonic state vector. We study the real-space dynamics of repulsive bosonic
+systems made of N=12, 51 and 3003 bosons in triple-well periodic potentials.
+The ground state of this system is three-fold fragmented. By suddenly strongly
+distorting the trap potential, the system performs complex many-body quantum
+dynamics. At long times it reveals a tendency to an oscillatory behavior around
+a threefold fragmented state. These oscillations are strongly suppressed and
+damped by quantum depletions. In spite of the richness of the observed
+dynamics, the three time-adaptive orbitals of MCTDHB(M=3) are capable to
+describe the many-boson quantum dynamics of the system for short and
+intermediate times. For longer times, however, more self-consistent
+time-adaptive orbitals are needed to correctly describe the non-equilibrium
+many-body physics. The convergence of the MCTDHB($M$) method with the number
+$M$ of self-consistent time-dependent orbitals used is demonstrated.

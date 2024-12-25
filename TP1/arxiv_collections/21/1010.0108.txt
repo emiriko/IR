@@ -1,0 +1,14 @@
+We consider the development of Monte Carlo schemes for molecules with Coulomb
+interactions. We generalize the classic algorithms of Bird and Nanbu-Babovsky
+for rarefied gas dynamics to the Coulomb case thanks to the approximation
+introduced by Bobylev and Nanbu (Theory of collision algorithms for gases and
+plasmas based on the Boltzmann equation and the Landau-Fokker-Planck equation,
+Physical Review E, Vol. 61, 2000). Thus, instead of considering the original
+Boltzmann collision operator, the schemes are constructed through the use of an
+approximated Boltzmann operator. With the above choice larger time steps are
+possible in simulations; moreover the expensive acceptance-rejection procedure
+for collisions is avoided and every particle collides. Error analysis and
+comparisons with the original Bobylev-Nanbu (BN) scheme are performed. The
+numerical results show agreement with the theoretical convergence rate of the
+approximated Boltzmann operator and the better performance of Bird-type schemes
+with respect to the original scheme.

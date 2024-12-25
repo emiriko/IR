@@ -1,0 +1,18 @@
+The multilayer multiconfiguration time-dependent Hartree (ML-MCTDH) method is
+discussed and a fully general implementation for any number of layers based on
+the recursive ML-MCTDH algorithm given by Manthe [J. Chem. Phys. {\bf 128},
+164116 (2008)] is presented. The method is applied first to a generalized
+Henon-Heiles (HH) Hamiltonian. For 6D HH the overhead of ML-MCTDH makes the
+method slower than MCTDH, but for 18D HH ML-MCTDH starts to be competitive. We
+report as well 1458D simulations of the HH Hamiltonian using a seven layer
+scheme. The photoabsorption spectrum of pyrazine computed with the 24D
+Hamiltonian of Raab {\em et. al.} [J. Chem. Phys. {\bf 110}, 936 (1999)]
+provides a realistic molecular test case for the method. Quick and small
+ML-MCTDH calculations needing a fraction of the time and resources of reference
+MCTDH calculations provide already spectra with all the correct features.
+Accepting slightly larger deviations, the calculation can be accelerated to
+take only 7 minutes. When pushing the method towards convergence, results of
+similar quality than the best available MCTDH benchmark, which is based on a
+wavepacket with $4.6\times 10^7$ time-dependent coefficients, are obtained with
+a much more compact wavefunction consisting of only $4.5\times 10^5$
+coefficients and requiring a shorter computation time.

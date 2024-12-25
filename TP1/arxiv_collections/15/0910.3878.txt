@@ -1,0 +1,9 @@
+I describe a method that places the fermion fields and the gauge fields on
+different lattice spacings during the Hybrid Monte Carlo generation of
+Ginsparg-Wilson dynamical ensembles. The idea is motivated by Wilson's
+formulation of the renormalisation group. After outlining the underlying
+theory, I describe a method to perform most of the work of the HMC on a coarse
+lattice, only requiring to convert to and from the fine lattice once for each
+independent configuration. Because the bulk of the work takes place on the
+coarse lattice, including the calculation of most observables, this method
+saves over an order of magnitude in computer time over previous methods.

@@ -1,0 +1,23 @@
+We present an efficient implementation of the PBE0 hybrid functional within
+the full-potential linearized augmented-plane-wave (FLAPW) method. The
+Hartree-Fock exchange term, which is a central ingredient of hybrid
+functionals, gives rise to a computationally expensive nonlocal potential in
+the one-particle Schroedinger equation. The matrix elements of this exchange
+potential are calculated with the help of an auxiliary basis that is
+constructed from products of FLAPW basis functions. By representing the Coulomb
+interaction in this basis the nonlocal exchange term becomes a Brillouin-zone
+(BZ) sum over vector-matrix-vector products. We show that the Coulomb matrix
+can be made sparse by a suitable unitary transformation of the auxiliary basis,
+which accelerates the computation of the vector-matrix-vector products
+considerably. Additionally, we exploit spatial and time-reversal symmetry to
+identify the nonvanishing exchange matrix elements in advance and to restrict
+the k summations for the nonlocal potential to an irreducible set of k points.
+Favorable convergence of the self-consistent-field cycle is achieved by a
+nested density-only and density-matrix iteration scheme. We discuss the
+convergence with respect to the parameters of our numerical scheme and show
+results for a variety of semiconductors and insulators, including oxide
+materials, where the PBE0 hybrid functional improves the band gaps and the
+description of localized states in comparison with the PBE functional.
+Furthermore, we find that in contrast to conventional local
+exchange-correlation functionals ferromagnetic EuO is correctly predicted to be
+a semiconductor.

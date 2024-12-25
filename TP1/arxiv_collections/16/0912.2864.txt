@@ -1,0 +1,14 @@
+Let $(X_i)$ be a stationary and ergodic Markov chain with kernel $Q$, $f$ an
+$L^2$ function on its state space. If $Q$ is a normal operator and $f =
+(I-Q)^{1/2}g$ (which is equivalent to the convergence of $\sum_{n=1}^\infty
+\frac{\sum_{k=0}^{n-1}Q^kf}{n^{3/2}}$ in $L^2$), we have the central limit
+theorem (cf\. \cite{D-L 1}, \cite{G-L 2}). Without assuming normality of $Q$,
+the CLT is implied by the convergence of $\sum_{n=1}^\infty
+\frac{\|\sum_{k=0}^{n-1}Q^kf\|_2}{n^{3/2}}$, in particular by
+$\|\sum_{k=0}^{n-1}Q^kf\|_2 = o(\sqrt n/\log^q n)$, $q>1$ by \cite{M-Wu} and
+\cite{Wu-Wo} respectively. We shall show that if $Q$ is not normal and $f\in
+(I-Q)^{1/2} L^2$, or if the conditions of Maxwell and Woodroofe or of Wu and
+Woodroofe are weakened to $\sum_{n=1}^\infty
+c_n\frac{\|\sum_{k=0}^{n-1}Q^kf\|_2}{n^{3/2}}<\infty$ for some sequence
+$c_n\searrow 0$, or by $\|\sum_{k=0}^{n-1}Q^kf\|_2 = O(\sqrt n/\log n)$, the
+CLT need not hold.

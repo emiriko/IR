@@ -1,0 +1,17 @@
+We study the spread of influence in a social network based on the Linear
+Threshold model. We derive an analytical expression for evaluating the expected
+size of the eventual influenced set for a given initial set, using the
+probability of activation for each node in the social network. We then provide
+an equivalent interpretation for the influence spread, in terms of acyclic path
+probabilities in the Markov chain obtained by reversing the edges in the social
+network influence graph. We use some properties of such acyclic path
+probabilities to provide an alternate proof for the submodularity of the
+influence function. We illustrate the usefulness of the analytical expression
+in estimating the most influential set, in special cases such as the
+UILT(Uniform Influence Linear Threshold), USLT(Uniform Susceptance Linear
+Threshold) and node-degree based influence models. We show that the PageRank
+heuristic is either provably optimal or performs very well in the above models,
+and explore its limitations in more general cases. Finally, based on the
+insights obtained from the analytical expressions, we provide an efficient
+algorithm which approximates the greedy algorithm for the influence
+maximization problem.

@@ -1,0 +1,14 @@
+In this paper, we consider the problem of finding the Least Squares
+estimators of two isotonic regression curves $g^\circ_1$ and $g^\circ_2$ under
+the additional constraint that they are ordered; e.g., $g^\circ_1 \le
+g^\circ_2$. Given two sets of $n$ data points $y_1, ..., y_n$ and $z_1,
+>...,z_n$ observed at (the same) design points, the estimates of the true
+curves are obtained by minimizing the weighted Least Squares criterion $L_2(a,
+b) = \sum_{j=1}^n (y_j - a_j)^2 w_{1,j}+ \sum_{j=1}^n (z_j - b_j)^2 w_{2,j}$
+over the class of pairs of vectors $(a, b) \in \mathbb{R}^n \times \mathbb{R}^n
+$ such that $a_1 \le a_2 \le ...\le a_n $, $b_1 \le b_2 \le ...\le b_n $, and
+$a_i \le b_i, i=1, ...,n$. The characterization of the estimators is
+established. To compute these estimators, we use an iterative projected
+subgradient algorithm, where the projection is performed with a "generalized"
+pool-adjacent-violaters algorithm (PAVA), a byproduct of this work. Then, we
+apply the estimation method to real data from mechanical engineering.

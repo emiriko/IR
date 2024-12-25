@@ -1,0 +1,8 @@
+This paper uses Support Vector Machines (SVM) to fuse multiple classifiers
+for an offline signature system. From the signature images, global and local
+features are extracted and the signatures are verified with the help of
+Gaussian empirical rule, Euclidean and Mahalanobis distance based classifiers.
+SVM is used to fuse matching scores of these matchers. Finally, recognition of
+query signatures is done by comparing it with all signatures of the database.
+The proposed system is tested on a signature database contains 5400 offline
+signatures of 600 individuals and the results are found to be promising.

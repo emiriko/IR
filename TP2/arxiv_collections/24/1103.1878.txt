@@ -1,0 +1,20 @@
+We present the implementation of a three-dimensional, second order accurate
+Godunov-type algorithm for magneto-hydrodynamic (MHD), in the
+adaptive-mesh-refinement (AMR) cosmological code {\tt CHARM}. The algorithm is
+based on the full 12-solve spatially unsplit Corner-Transport-Upwind (CTU)
+scheme. The fluid quantities are cell-centered and are updated using the
+Piecewise-Parabolic-Method (PPM), while the magnetic field variables are
+face-centered and are evolved through application of the Stokes theorem on cell
+edges via a Constrained-Transport (CT) method. The multidimensional MHD source
+terms required in the predictor step for high-order accuracy are applied in a
+simplified form which reduces their complexity in three dimensions without loss
+of accuracy or robustness. The algorithm is implemented on an AMR framework
+which requires specific synchronization steps across refinement levels. These
+include face-centered restriction and prolongation operations and a {\it
+reflux-curl} operation, which maintains a solenoidal magnetic field across
+refinement boundaries. The code is tested against a large suite of test
+problems, including convergence tests in smooth flows, shock-tube tests,
+classical two- and three-dimensional MHD tests, a three-dimensional shock-cloud
+interaction problem and the formation of a cluster of galaxies in a fully
+cosmological context. The magnetic field divergence is shown to remain
+negligible throughout.

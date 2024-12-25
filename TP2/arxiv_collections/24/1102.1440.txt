@@ -1,0 +1,15 @@
+We study a dynamical system motivated by our earlier work on the statistical
+physics of social balance on graphs that can be viewed as a generalization of
+annihilating walks along two directions: first, the interaction topology is a
+hypergraph; second, the ``number of particles`` at a vertex of the hypergraph
+is an element of a finite field ${\bf Z}_{p}$ of integers modulo $p$, $p\geq
+3$. Equivalently, particles move on a hypergraph, with a moving particle at a
+vertex being replaced by one indistinguishable copy at each neighbor in a given
+hyperedge; particles at a vertex collectively annihilate when their number
+reaches $p$. The system we study can also be regarded as a natural
+generalization of certain lights-out games to finite fields and hypergraph
+topologies. Our result shows that under a liberal sufficient condition on the
+nature of the interaction hypergraph there exists a polynomial time algorithm
+(based on linear algebra over ${\bf Z}_{p}$) for deciding reachability and
+recurrence of this dynamical system. Interestingly, we provide a counterexample
+that shows that this connection does not extend to all graphs.

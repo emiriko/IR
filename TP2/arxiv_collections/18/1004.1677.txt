@@ -1,0 +1,14 @@
+Association rule mining is an active data mining research area and most ARM
+algorithms cater to a centralized environment. Centralized data mining to
+discover useful patterns in distributed databases isn't always feasible because
+merging data sets from different sites incurs huge network communication costs.
+In this paper, an Improved algorithm based on good performance level for data
+mining is being proposed. In local sites, it runs the application based on the
+improved LMatrix algorithm, which is used to calculate local support counts.
+Local Site also finds a centre site to manage every message exchanged to obtain
+all globally frequent item sets. It also reduces the time of scan of partition
+database by using LMatrix which increases the performance of the algorithm.
+Therefore, the research is to develop a distributed algorithm for
+geographically distributed data sets that reduces communication costs, superior
+running efficiency, and stronger scalability than direct application of a
+sequential algorithm in distributed databases.

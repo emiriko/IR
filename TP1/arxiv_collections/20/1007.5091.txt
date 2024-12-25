@@ -1,0 +1,15 @@
+Wireless sensor-actor networks are a recent development of wireless networks
+where both ordinary sensor nodes and more sophisticated and powerful nodes,
+called actors, are present. In this paper we formalize a recently introduced
+algorithm that recovers failed actor communication links via the existing
+sensor infrastructure. We prove via refinement that the recovery is terminating
+in a finite number of steps and is distributed, thus self-performed by the
+actors. Most importantly, we prove that the recovery can be done at different
+levels, via different types of links, such as direct actor links or indirect
+links between the actors, in the latter case reusing the wireless
+infrastructure of sensors. This leads to identifying coordination classes,
+e.g., for delegating the most security sensitive coordination to the direct
+actor-actor coordination links, the least real-time constrained coordination to
+indirect links, and the safety critical coordination to both direct actor links
+and indirect sensor paths between actors. Our formalization is done using the
+theorem prover in the RODIN platform.

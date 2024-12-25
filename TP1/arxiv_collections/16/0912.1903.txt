@@ -1,0 +1,14 @@
+Timed model checking has been extensively researched in recent years. Many
+new formalisms with time extensions and tools based on them have been
+presented. On the other hand, Explicit-Time Description Methods aim to verify
+real-time systems with general untimed model checkers. Lamport presented an
+explicit-time description method using a clock-ticking process (Tick) to
+simulate the passage of time together with a group of global variables for time
+requirements. This paper proposes a new explicit-time description method with
+no reliance on global variables. Instead, it uses rendezvous synchronization
+steps between the Tick process and each system process to simulate time. This
+new method achieves better modularity and facilitates usage of more complex
+timing constraints. The two explicit-time description methods are implemented
+in DIVINE, a well-known distributed-memory model checker. Preliminary
+experiment results show that our new method, with better modularity, is
+comparable to Lamport's method with respect to time and memory efficiency.

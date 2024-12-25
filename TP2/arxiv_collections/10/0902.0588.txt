@@ -1,0 +1,13 @@
+MUSE, a 2nd generation VLT instrument, will become the world's largest
+integral field spectrograph. It will be an AO assisted instrument which, in a
+single exposure, covers the wavelength range from 465 to 930 nm with an average
+resolution of 3000 over a field of view of 1'x1' with 0.2'' spatial sampling.
+Both the complexity and the rate of the data are a challenge for the data
+processing of this instrument.
+  We will give an overview of the data processing scheme that has been designed
+for MUSE. Specifically, we will use only a single resampling step from the raw
+data to the reduced data product. This allows us to improve data quality,
+accurately propagate variance, and minimize spreading of artifacts and
+correlated noise. This approach necessitates changes to the standard way in
+which reduction steps like wavelength calibration and sky subtraction are
+carried out, but can be expanded to include combination of multiple exposures.

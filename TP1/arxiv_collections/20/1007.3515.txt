@@ -1,0 +1,25 @@
+Hybrid MKNF knowledge bases are one of the most prominent tightly integrated
+combinations of open-world ontology languages with closed-world (non-monotonic)
+rule paradigms. The definition of Hybrid MKNF is parametric on the description
+logic (DL) underlying the ontology language, in the sense that non-monotonic
+rules can extend any decidable DL language. Two related semantics have been
+defined for Hybrid MKNF: one that is based on the Stable Model Semantics for
+logic programs and one on the Well-Founded Semantics (WFS). Under WFS, the
+definition of Hybrid MKNF relies on a bottom-up computation that has polynomial
+data complexity whenever the DL language is tractable. Here we define a general
+query-driven procedure for Hybrid MKNF that is sound with respect to the stable
+model-based semantics, and sound and complete with respect to its WFS variant.
+This procedure is able to answer a slightly restricted form of conjunctive
+queries, and is based on tabled rule evaluation extended with an external
+oracle that captures reasoning within the ontology. Such an (abstract) oracle
+receives as input a query along with knowledge already derived, and replies
+with a (possibly empty) set of atoms, defined in the rules, whose truth would
+suffice to prove the initial query. With appropriate assumptions on the
+complexity of the abstract oracle, the general procedure maintains the data
+complexity of the WFS for Hybrid MKNF knowledge bases.
+  To illustrate this approach, we provide a concrete oracle for EL+, a fragment
+of the light-weight DL EL++. Such an oracle has practical use, as EL++ is the
+language underlying OWL 2 EL, which is part of the W3C recommendations for the
+Semantic Web, and is tractable for reasoning tasks such as subsumption. We show
+that query-driven Hybrid MKNF preserves polynomial data complexity when using
+the EL+ oracle and WFS.

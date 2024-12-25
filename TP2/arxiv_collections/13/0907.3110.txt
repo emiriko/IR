@@ -1,0 +1,22 @@
+Conformational energies of n-butane, n-pentane, and n-hexane have been
+calculated at the CCSD(T) level and at or near the basis set limit.
+Post-CCSD(T) contribution were considered and found to be unimportant. The data
+thus obtained were used to assess the performance of a variety of density
+functional methods. Double-hybrid functionals like B2GP-PLYP and B2K-PLYP,
+especially with a small Grimme-type empirical dispersion correction, are
+capable of rendering conformational energies of CCSD(T) quality. These were
+then used as a `secondary standard' for a larger sample of alkanes, including
+isopentane and the branched hexanes as well as key isomers of heptane and
+octane. Popular DFT functionals like B3LYP, B3PW91, BLYP, PBE, and PBE0 tend to
+overestimate conformer energies without dispersion correction, while the M06
+family severely underestimates GG interaction energies. Grimme-type dispersion
+corrections for these overcorrect and lead to qualitatively wrong conformer
+orderings. All of these functionals also exhibit deficiencies in the conformer
+geometries, particularly the backbone torsion angles. The PW6B95 and, to a
+lesser extent, BMK functionals are relatively free of these deficiencies.
+  Performance of these methods is further investigated to derive conformer
+ensemble corrections to the enthalpy function, $H_{298}-H_0$, and the Gibbs
+energy function, ${\rm gef}(T)\equiv - [G(T)-H_0]/T$, of these alkanes. While
+$H_{298}-H_0$ is only moderately sensitive to the level of theory, ${\rm
+gef}(T)$ exhibits more pronounced sensitivity. Once again, double hybrids
+acquit themselves very well.

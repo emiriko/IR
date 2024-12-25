@@ -1,0 +1,13 @@
+There is a growing interest in the literature for adaptive Markov chain Monte
+Carlo methods based on sequences of random transition kernels $\{P_n\}$ where
+the kernel $P_n$ is allowed to have an invariant distribution $\pi_n$ not
+necessarily equal to the distribution of interest $\pi$ (target distribution).
+These algorithms are designed such that as $n\to\infty$, $P_n$ converges to
+$P$, a kernel that has the correct invariant distribution $\pi$. Typically, $P$
+is a kernel with good convergence properties, but one that cannot be directly
+implemented. It is then expected that the algorithm will inherit the good
+convergence properties of $P$. The equi-energy sampler of [Ann. Statist. 34
+(2006) 1581--1619] is an example of this type of adaptive MCMC. We show in this
+paper that the asymptotic variance of this type of adaptive MCMC is always at
+least as large as the asymptotic variance of the Markov chain with transition
+kernel $P$. We also show by simulation that the difference can be substantial.

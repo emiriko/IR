@@ -1,0 +1,8 @@
+A pair of clauses in a CNF formula constitutes a conflict if there is a
+variable that occurs positively in one clause and negatively in the other. A
+CNF formula without any conflicts is satisfiable. The Lovasz Local Lemma
+implies that a k-CNF formula is satisfiable if each clause conflicts with at
+most 2^k/e-1 clauses. It does not, however, give any good bound on how many
+conflicts an unsatisfiable formula has globally. We show here that every
+unsatisfiable k-CNF formula requires 2.69^k conflicts and there exist
+unsatisfiable k-CNF formulas with 3.51^k conflicts.

@@ -1,0 +1,20 @@
+Statistical distance measures have found wide applicability in information
+retrieval tasks that typically involve high dimensional datasets. In order to
+reduce the storage space and ensure efficient performance of queries,
+dimensionality reduction while preserving the inter-point similarity is highly
+desirable. In this paper, we investigate various statistical distance measures
+from the point of view of discovering low distortion embeddings into
+low-dimensional spaces. More specifically, we consider the Mahalanobis distance
+measure, the Bhattacharyya class of divergences and the Kullback-Leibler
+divergence. We present a dimensionality reduction method based on the
+Johnson-Lindenstrauss Lemma for the Mahalanobis measure that achieves
+arbitrarily low distortion. By using the Johnson-Lindenstrauss Lemma again, we
+further demonstrate that the Bhattacharyya distance admits dimensionality
+reduction with arbitrarily low additive error. We also examine the question of
+embeddability into metric spaces for these distance measures due to the
+availability of efficient indexing schemes on metric spaces. We provide
+explicit constructions of point sets under the Bhattacharyya and the
+Kullback-Leibler divergences whose embeddings into any metric space incur
+arbitrarily large distortions. We show that the lower bound presented for
+Bhattacharyya distance is nearly tight by providing an embedding that
+approaches the lower bound for relatively small dimensional datasets.

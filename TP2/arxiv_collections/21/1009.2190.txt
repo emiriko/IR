@@ -1,0 +1,7 @@
+A great deal of inference in statistics is based on making the approximation
+that a statistic is normally distributed. The error in doing so is generally
+$O(n^{-1/2})$ and can be very considerable when the distribution is heavily
+biased or skew. This note shows how one may reduce this error to
+$O(n^{-(j+1)/2})$, where $j$ is a given integer. The case considered is when
+the statistic is the mean of the sample values from a continuous one-parameter
+distribution, after the sample has undergone an initial transformation.

@@ -1,0 +1,23 @@
+Strong gravitational lensing of an extended object is described by a mapping
+from source to image coordinates that is nonlinear and cannot generally be
+inverted analytically. Determining the structure of the source intensity
+distribution also requires a description of the blurring effect due to a point
+spread function. This initial study uses an iterative gravitational lens
+modeling scheme based on the semilinear method to determine the linear
+parameters (source intensity profile) of a strongly lensed system. Our
+'matrix-free' approach avoids construction of the lens and blurring operators
+while retaining the least squares formulation of the problem. The parameters of
+an analytical lens model are found through nonlinear optimization by an
+advanced genetic algorithm (GA) and particle swarm optimizer (PSO). These
+global optimization routines are designed to explore the parameter space
+thoroughly, mapping model degeneracies in detail. We develop a novel method
+that determines the L-curve for each solution automatically, which represents
+the trade-off between the image chi-square and regularization effects, and
+allows an estimate of the optimally regularized solution for each lens
+parameter set. In the final step of the optimization procedure, the lens model
+with the lowest chi-square is used while the global optimizer solves for the
+source intensity distribution directly. This allows us to accurately determine
+the number of degrees of freedom in the problem to facilitate comparison
+between lens models and enforce positivity on the source profile. In practice
+we find that the GA conducts a more thorough search of the parameter space than
+the PSO.

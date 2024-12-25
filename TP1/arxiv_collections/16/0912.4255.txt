@@ -1,0 +1,10 @@
+We describe an efficient implementation of a coherent statistic for
+continuous gravitational wave searches from neutron stars. The algorithm works
+by transforming the data taken by a gravitational wave detector from a moving
+Earth bound frame to one that sits at the Solar System barycenter. Many
+practical difficulties arise in the implementation of this algorithm, some of
+which have not been discussed previously. These difficulties include
+constraints of small computer memory, discreteness of the data, losses due to
+interpolation and gaps in real data. This implementation is considerably more
+efficient than previous implementations of these kinds of searches on Laser
+Interferometer Gravitational Wave (LIGO) detector data.

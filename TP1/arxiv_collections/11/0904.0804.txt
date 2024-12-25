@@ -1,0 +1,17 @@
+We simulate directed site percolation on two lattices with 4 spatial and 1
+time-like dimensions (simple and body-centered hypercubic in space) with the
+standard single cluster spreading scheme. For efficiency, the code uses the
+same ingredients (hashing, histogram re-weighing, and improved estimators) as
+described in Phys. Rev. {\bf E 67}, 036101 (2003). Apart from providing the
+most precise estimates for $p_c$ on these lattices, we provide a detailed
+comparison with the logarithmic corrections calculated by Janssen and Stenull
+[Phys. Rev. {\bf E 69}, 016125 (2004)]. Fits with the leading logarithmic terms
+alone would give estimates of the powers of these logarithms which are too big
+by typically 50%. When the next-to-leading terms are included, each of the
+measured quantities (the average number of sites wetted at time $t$, their
+average distance from the seed, and the probability of cluster survival) can be
+fitted nearly perfectly. But these fits would not be mutually consistent. With
+a consistent set of fit parameters, one obtains still much improvement over the
+leading log - approximation. In particular we show that there is one
+combination of these three observables which seems completely free of
+logarithmic terms.

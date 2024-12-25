@@ -1,0 +1,24 @@
+This paper is an exploration in a functional programming framework of {\em
+isomorphisms} between elementary data types (natural numbers, sets, multisets,
+finite functions, permutations binary decision diagrams, graphs, hypergraphs,
+parenthesis languages, dyadic rationals, primes, DNA sequences etc.) and their
+extension to hereditarily finite universes through {\em hylomorphisms} derived
+from {\em ranking/unranking} and {\em pairing/unpairing} operations.
+  An embedded higher order {\em combinator language} provides any-to-any
+encodings automatically.
+  Besides applications to experimental mathematics, a few examples of ``free
+algorithms'' obtained by transferring operations between data types are shown.
+Other applications range from stream iterators on combinatorial objects to
+self-delimiting codes, succinct data representations and generation of random
+instances.
+  The paper covers 59 data types and, through the use of the embedded
+combinator language, provides 3540 distinct bijective transformations between
+them.
+  The self-contained source code of the paper, as generated from a literate
+Haskell program, is available at
+\url{http://logic.csci.unt.edu/tarau/research/2008/fISO.zip}.
+  {\bf Keywords}: Haskell data representations, data type isomorphisms,
+declarative combinatorics, computational mathematics, Ackermann encoding,
+G\"{o}del numberings, arithmetization, ranking/unranking, hereditarily finite
+sets, functions and permutations, encodings of binary decision diagrams, dyadic
+rationals, DNA encodings

@@ -1,0 +1,12 @@
+In this contribution, we propose a generic online (also sometimes called
+adaptive or recursive) version of the Expectation-Maximisation (EM) algorithm
+applicable to latent variable models of independent observations. Compared to
+the algorithm of Titterington (1984), this approach is more directly connected
+to the usual EM algorithm and does not rely on integration with respect to the
+complete data distribution. The resulting algorithm is usually simpler and is
+shown to achieve convergence to the stationary points of the Kullback-Leibler
+divergence between the marginal distribution of the observation and the model
+distribution at the optimal rate, i.e., that of the maximum likelihood
+estimator. In addition, the proposed approach is also suitable for conditional
+(or regression) models, as illustrated in the case of the mixture of linear
+regressions model.

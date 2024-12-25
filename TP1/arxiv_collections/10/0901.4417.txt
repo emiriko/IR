@@ -1,0 +1,6 @@
+An odd cycle cover is a vertex set whose removal makes a graph bipartite. We
+show that if a $k$-element odd cycle cover of a graph with w vertices is known
+then all $N$ maximum anticliques (= independent sets) can be generated in time
+$O(2^k w^3 + N w^2))$. Generating ${\it all}\ N'$ anticliques (maximum or not)
+is easier and works for arbitrary graphs in time $O(N'w^2)$. In fact the use of
+wildcards allows to compactly generate the anticliques in clusters.

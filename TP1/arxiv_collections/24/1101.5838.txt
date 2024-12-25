@@ -1,0 +1,7 @@
+We consider various versions of adaptive Gibbs and Metropolis-within-Gibbs
+samplers, which update their selection probabilities (and perhaps also their
+proposal distributions) on the fly during a run by learning as they go in an
+attempt to optimize the algorithm. We present a cautionary example of how even
+a simple-seeming adaptive Gibbs sampler may fail to converge. We then present
+various positive results guaranteeing convergence of adaptive Gibbs samplers
+under certain conditions.

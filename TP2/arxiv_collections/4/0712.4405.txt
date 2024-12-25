@@ -1,0 +1,16 @@
+We propose an approach for the calculation of self-forces, energy fluxes and
+waveforms arising from moving point charges in curved spacetimes. As opposed to
+mode-sum schemes that regularize the self-force derived from the singular
+retarded field, this approach regularizes the retarded field itself. The
+singular part of the retarded field is first analytically identified and
+removed, yielding a finite, differentiable remainder from which the self-force
+is easily calculated. This regular remainder solves a wave equation which
+enjoys the benefit of having a non-singular source. Solving this wave equation
+for the remainder completely avoids the calculation of the singular retarded
+field along with the attendant difficulties associated with numerically
+modeling a delta function source. From this differentiable remainder one may
+compute the self-force, the energy flux, and also a waveform which reflects the
+effects of the self-force. As a test of principle, we implement this method
+using a 4th-order (1+1) code, and calculate the self-force for the simple case
+of a scalar charge moving in a circular orbit around a Schwarzschild black
+hole. We achieve agreement with frequency-domain results to ~ 0.1% or better.

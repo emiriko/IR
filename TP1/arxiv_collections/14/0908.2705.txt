@@ -1,0 +1,21 @@
+Compton scattering is involved in many astrophysical situations. It is well
+known and has been studied in detail for the past fifty years. Exact formulae
+for the different cross sections are often complex, and essentially asymptotic
+expressions have been used in the past. Numerical capabilities have now
+developed to a point where they enable the direct use of exact formulae in
+sophisticated codes that deal with all kinds of interactions in plasmas.
+Although the numerical computation of the Compton cross section is simple in
+principle, its practical evaluation is often prone to accuracy issues. These
+can be severe in some astrophysical situations but are often not addressed
+properly. In this paper we investigate numerical issues related to the
+computation of the Compton scattering contribution to the time evolution of
+interacting photon and particle populations. An exact form of the isotropic
+Compton cross section free of numerical cancellations is derived. Its accuracy
+is investigated and compared to other formulae. Then, several methods to solve
+the kinetic equations using this cross section are studied. The regimes where
+existing cross sections can be evaluated numerically are given. We find that
+the cross section derived here allows for accurate and fast numerical
+evaluation for any photon and electron energy. The most efficient way to solve
+the kinetic equations is a method combining a direct integration of the cross
+section over the photon and particle distributions and a Fokker-Planck
+approximation. Expressions describing this combination are given.

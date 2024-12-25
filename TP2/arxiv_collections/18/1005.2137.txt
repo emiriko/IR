@@ -1,0 +1,14 @@
+We propose a new method to construct confidence intervals for quantities that
+are associated with a stationary time series, which avoids direct estimation of
+the asymptotic variances. Unlike the existing tuning-parameter-dependent
+approaches, our method has the attractive convenience of being free of choosing
+any user-chosen number or smoothing parameter. The interval is constructed on
+the basis of an asymptotically distribution-free self-normalized statistic, in
+which the normalizing matrix is computed using recursive estimates. Under mild
+conditions, we establish the theoretical validity of our method for a broad
+class of statistics that are functionals of the empirical distribution of fixed
+or growing dimension. From a practical point of view, our method is
+conceptually simple, easy to implement and can be readily used by the
+practitioner. Monte-Carlo simulations are conducted to compare the finite
+sample performance of the new method with those delivered by the normal
+approximation and the block bootstrap approach.

@@ -1,0 +1,19 @@
+Online social networking has quickly become one of the most common activities
+of Internet users. As social networks evolve, they encourage users to share
+more information, requiring the users, in turn, to place more trust into social
+networks. Peer-to-peer (P2P) overlays provide an environment that can return
+ownership of information, trust, and control to the users, away from
+centralized third-party social networks.
+  In this paper, we present a novel concept, social profile overlays, which
+enable users to share their profile only with trusted peers in a scalable,
+reliable, and private manner. Each user's profile consists of a unique private,
+secure overlay, where members of that overlay have a friendship with the
+overlay owner. Profile data is made available without regard to the online
+state of the profile owner through the use of the profile overlay's distributed
+data store. Privacy and security are enforced through the use of a public key
+infrastructure (PKI), where the role of certificate authority (CA) is handled
+by the overlay owner and each member of the overlay has a CA-signed
+certificate. All members of the social network join a common public or
+directory overlay facilitating friend discovery and bootstrap connections into
+profile overlays. We define interfaces and present tools that can be used to
+implement this system, as well as explore some of the challenges related to it.

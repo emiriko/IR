@@ -1,0 +1,15 @@
+This paper creates and analyses a new quantum algorithm called the Amplified
+Quantum Fourier Transform (Amplified-QFT) for solving the following problem:
+The Local Period Problem: Let L = {0,1...N-1} be a set of N labels and let A be
+a subset of M labels of period P, i.e. a subset of the form A = {j : j = s +
+rP; r = 0,1...M-1} where P < sqrt(N) and M << N, and where M is assumed known.
+Given an oracle f : L->{0,1} which is 1 on A and 0 elsewhere, find the local
+period P. A separate algorithm finds the offset s. The first part of the paper
+defines the Amplified-QFT algorithm. The second part of the paper summarizes
+the main results and compares the Amplified-QFT algorithm against the Quantum
+Fourier Transform (QFT) and Quantum Hidden Subgroup (QHS) algorithms when
+solving the local period problem. It is shown that the Amplified-QFT is, on
+average, quadratically faster than both the QFT and QHS algorithms. The third
+part of the paper provides the detailed proofs of the main results, describes
+the method of recovering P from an observation y and describes the method for
+recovering the offset s.

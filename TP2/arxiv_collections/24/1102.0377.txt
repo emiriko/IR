@@ -1,0 +1,13 @@
+Power-spectrum analysis is an important tool providing critical information
+about a signal. The range of applications includes communication-systems to
+DNA-sequencing. If there is interference present on a transmitted signal, it
+could be due to a natural cause or superimposed forcefully. In the latter case,
+its early detection and analysis becomes important. In such situations having a
+small observation window, a quick look at power-spectrum can reveal a great
+deal of information, including frequency and source of interference. In this
+paper, we present our design of a FPGA based reconfigurable platform for high
+performance power-spectrum analysis. This allows for the real-time
+data-acquisition and processing of samples of the incoming signal in a small
+time frame. The processing consists of computation of power, its average and
+peak, over a set of input values. This platform sustains simultaneous data
+streams on each of the four input channels.

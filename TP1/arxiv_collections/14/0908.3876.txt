@@ -1,0 +1,19 @@
+We present a new implementation of the k-space interpolation scheme for
+electronic structure presented by E. L. Shirley, Phys. Rev. B 54, 16464 (1996).
+The method permits the construction of a compact k-dependent Hamiltonian using
+a numerically optimal basis derived from a coarse-grained set of effective
+single-particle electronic structure calculations (based on density functional
+theory in this work). We provide some generalizations of the initial approach
+which reduce the number of required initial electronic structure calculations,
+enabling accurate interpolation over the entire Brillouin zone based on
+calculations at the zone-center only for large systems. We also generalize the
+representation of non-local Hamiltonians, leading to a more efficient
+implementation which permits the use of both norm-conserving and ultrasoft
+pseudopotentials in the input calculations. Numerically interpolated electronic
+eigenvalues with accuracy that is within 0.01 eV can be produced at very little
+computational cost. Furthermore, accurate eigenfunctions - expressed in the
+optimal basis - provide easy access to useful matrix elements for simulating
+spectroscopy and we provide details for computing optical transition
+amplitudes. The approach is also applicable to other theoretical frameworks
+such as the Dyson equation for quasiparticle excitations or the Bethe-Salpeter
+equation for optical responses.

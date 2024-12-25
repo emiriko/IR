@@ -1,0 +1,12 @@
+We estimate the resource requirements, the total number of physical qubits
+and computational time, required to compute the ground state energy of a 1-D
+quantum Transverse Ising Model (TIM) of N spin-1/2 particles, as a function of
+the system size and the numerical precision. This estimate is based on
+analyzing the impact of fault-tolerant quantum error correction in the context
+of the Quantum Logic Array (QLA) architecture. Our results show that due to the
+exponential scaling of the computational time with the desired precision of the
+energy, significant amount of error correciton is required to implement the TIM
+problem. Comparison of our results to the resource requirements for a
+fault-tolerant implementation of Shor's quantum factoring algorithm reveals
+that the required logical qubit reliability is similar for both the TIM problem
+and the factoring problem.

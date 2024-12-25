@@ -1,0 +1,16 @@
+QCMPI is a quantum computer (QC) simulation package written in Fortran 90
+with parallel processing capabilities. It is an accessible research tool that
+permits rapid evaluation of quantum algorithms for a large number of qubits and
+for various "noise" scenarios. The prime motivation for developing QCMPI is to
+facilitate numerical examination of not only how QC algorithms work, but also
+to include noise, decoherence, and attenuation effects and to evaluate the
+efficacy of error correction schemes. The present work builds on an earlier
+Mathematica code QDENSITY, which is mainly a pedagogic tool. In QCMPI, the
+stress is on state vectors, in order to employ a large number of qubits. The
+parallel processing feature is implemented by using the Message-Passing
+Interface (MPI) protocol.
+  Codes for Grover's search and Shor's factoring algorithms are provided as
+examples. A major feature of this work is that concurrent versions of the
+algorithms can be evaluated with each version subject to alternate noise
+effects, which corresponds to the idea of solving a stochastic Schr\"{o}dinger
+equation.

@@ -1,0 +1,24 @@
+We propose a rigorous framework for Uncertainty Quantification (UQ) in which
+the UQ objectives and the assumptions/information set are brought to the
+forefront. This framework, which we call \emph{Optimal Uncertainty
+Quantification} (OUQ), is based on the observation that, given a set of
+assumptions and information about the problem, there exist optimal bounds on
+uncertainties: these are obtained as values of well-defined optimization
+problems corresponding to extremizing probabilities of failure, or of
+deviations, subject to the constraints imposed by the scenarios compatible with
+the assumptions and information. In particular, this framework does not
+implicitly impose inappropriate assumptions, nor does it repudiate relevant
+information. Although OUQ optimization problems are extremely large, we show
+that under general conditions they have finite-dimensional reductions. As an
+application, we develop \emph{Optimal Concentration Inequalities} (OCI) of
+Hoeffding and McDiarmid type. Surprisingly, these results show that
+uncertainties in input parameters, which propagate to output uncertainties in
+the classical sensitivity analysis paradigm, may fail to do so if the transfer
+functions (or probability distributions) are imperfectly known. We show how,
+for hierarchical structures, this phenomenon may lead to the non-propagation of
+uncertainties or information across scales. In addition, a general algorithmic
+framework is developed for OUQ and is tested on the Caltech surrogate model for
+hypervelocity impact and on the seismic safety assessment of truss structures,
+suggesting the feasibility of the framework for important complex systems. The
+introduction of this paper provides both an overview of the paper and a
+self-contained mini-tutorial about basic concepts and issues of UQ.

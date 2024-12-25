@@ -1,0 +1,10 @@
+An exact, one-to-one transform is presented that not only allows digital
+circular convolutions, but is free from multiplications and quantisation errors
+for transform lengths of arbitrary powers of two. The transform is analogous to
+the Discrete Fourier Transform, with the canonical harmonics replaced by a set
+of cyclic integers computed using only bit-shifts and additions modulo a prime
+number. The prime number may be selected to occupy contemporary word sizes or
+to be very large for cryptographic or data hiding applications. The transform
+is an extension of the Rader Transforms via Carmichael's Theorem. These
+properties allow for exact convolutions that are impervious to numerical
+overflow and to utilise Fast Fourier Transform algorithms.

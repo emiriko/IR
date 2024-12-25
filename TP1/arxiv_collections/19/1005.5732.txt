@@ -1,0 +1,10 @@
+Different types of data skew can result in load imbalance in the context of
+parallel joins under the shared nothing architecture. We study one important
+type of skew, join product skew (JPS). A static approach based on frequency
+classes is proposed which takes for granted the data distribution of join
+attribute values. It comes from the observation that the join selectivity can
+be expressed as a sum of products of frequencies of the join attribute values.
+As a consequence, an appropriate assignment of join sub-tasks, that takes into
+consideration the magnitude of the frequency products can alleviate the join
+product skew. Motivated by the aforementioned remark, we propose an algorithm,
+called Handling Join Product Skew (HJPS), to handle join product skew.

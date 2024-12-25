@@ -1,0 +1,10 @@
+Stencil computations consume a major part of runtime in many scientific
+simulation codes. As prototypes for this class of algorithms we consider the
+iterative Jacobi and Gauss-Seidel smoothers and aim at highly efficient
+parallel implementations for cache-based multicore architectures. Temporal
+cache blocking is a known advanced optimization technique, which can reduce the
+pressure on the memory bus significantly. We apply and refine this optimization
+for a recently presented temporal blocking strategy designed to explicitly
+utilize multicore characteristics. Especially for the case of Gauss-Seidel
+smoothers we show that simultaneous multi-threading (SMT) can yield substantial
+performance improvements for our optimized algorithm.

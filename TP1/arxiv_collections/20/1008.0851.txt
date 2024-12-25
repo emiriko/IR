@@ -1,0 +1,20 @@
+Identification of time-varying linear systems, which introduce both
+time-shifts (delays) and frequency-shifts (Doppler-shifts), is a central task
+in many engineering applications. This paper studies the problem of
+identification of underspread linear systems (ULSs), whose responses lie within
+a unit-area region in the delay Doppler space, by probing them with a known
+input signal. It is shown that sufficiently-underspread parametric linear
+systems, described by a finite set of delays and Doppler-shifts, are
+identifiable from a single observation as long as the time bandwidth product of
+the input signal is proportional to the square of the total number of delay
+Doppler pairs in the system. In addition, an algorithm is developed that
+enables identification of parametric ULSs from an input train of pulses in
+polynomial time by exploiting recent results on sub-Nyquist sampling for time
+delay estimation and classical results on recovery of frequencies from a sum of
+complex exponentials. Finally, application of these results to super-resolution
+target detection using radar is discussed. Specifically, it is shown that the
+proposed procedure allows to distinguish between multiple targets with very
+close proximity in the delay Doppler space, resulting in a resolution that
+substantially exceeds that of standard matched-filtering based techniques
+without introducing leakage effects inherent in recently proposed compressed
+sensing-based radar methods.

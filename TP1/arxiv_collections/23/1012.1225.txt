@@ -1,0 +1,25 @@
+context: The combination of image restoration and a Fabry-P\'{e}rot
+interferometer (FPI) based instrument in solar observations results in specific
+calibration issues. FPIs generally show variations over the field-of-view,
+while in the image restoration process, the 1-to-1 relation between pixel space
+and image space is lost, thus complicating any correcting for such variations.
+aims: We develop a data reduction method that takes these issues into account
+and minimizes the resulting errors. methods: By accounting for the time
+variations in the telescope's Mueller matrix and using separate calibration
+data optimized for the wavefront sensing in the MOMFBD image restoration
+process and for the final deconvolution of the data, we have removed most of
+the calibration artifacts from the resulting data. results: Using this method
+to reduce full Stokes data from CRISP at the SST, we find that it drastically
+reduces the instrumental and image restoration artifacts resulting from cavity
+errors, reflectivity variations, and the polarization dependence of flatfields.
+The results allow for useful scientific interpretation. Inversions of restored
+data from the $\delta$ sunspot AR11029 using the Nicole inversion code, reveal
+strong (~10 km/s) downflows near the disk center side of the umbra.
+conclusions: The use of image restoration in combination with an FPI-based
+instrument leads to complications in the calibrations and intrinsic limitations
+to the accuracy that can be achieved. We find that for CRISP, the resulting
+errors can be kept mostly below the polarimetric accuracy of ~10^-3. Similar
+instruments aiming for higher polarimetric and high spectroscopic accuracy,
+will, however, need to take these problems into account. keywords: Techniques:
+image processing, polarimetric, imaging spectroscopy, Sun: surface magnetism,
+sunspots, activity

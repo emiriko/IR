@@ -1,0 +1,10 @@
+When x-rays penetrate soft matter, their phase changes more rapidly than
+their amplitude. In- terference effects visible with high brightness sources
+creates higher contrast, edge enhanced images. When the object is piecewise
+smooth (made of big blocks of a few components), such higher con- trast
+datasets have a sparse solution. We apply basis pursuit solvers to improve SNR,
+remove ring artifacts, reduce the number of views and radiation dose from phase
+contrast datasets collected at the Hard X-Ray Micro Tomography Beamline at the
+Advanced Light Source. We report a GPU code for the most computationally
+intensive task, the gridding and inverse gridding algorithm (non uniform
+sampled Fourier transform).

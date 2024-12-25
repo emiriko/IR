@@ -1,0 +1,20 @@
+The efficiency and the performance of anagement systems is becoming a hot
+research topic within the networks and services management community. This
+concern is due to the new challenges of large scale managed systems, where the
+management plane is integrated within the functional plane and where management
+activities have to carry accurate and up-to-date information. We defined a set
+of primary and secondary metrics to measure the performance of a management
+approach. Secondary metrics are derived from the primary ones and quantifies
+mainly the efficiency, the scalability and the impact of management activities.
+To validate our proposals, we have designed and developed a benchmarking
+platform dedicated to the measurement of the performance of a JMX manager-agent
+based management system. The second part of our work deals with the collection
+of measurement data sets from our JMX benchmarking platform. We mainly studied
+the effect of both load and the number of agents on the scalability, the impact
+of management activities on the user perceived performance of a managed server
+and the delays of JMX operations when carrying variables values. Our findings
+show that most of these delays follow a Weibull statistical distribution. We
+used this statistical model to study the behavior of a monitoring algorithm
+proposed in the literature, under heavy tail delays distribution. In this case,
+the view of the managed system on the manager side becomes noisy and out of
+date.

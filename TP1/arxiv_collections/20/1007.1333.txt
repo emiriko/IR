@@ -1,0 +1,22 @@
+In this report we study the problem of minimising deterministic automata over
+finite and infinite words. Deterministic finite automata are the simplest
+devices to recognise regular languages, and deterministic Buchi, Co-Buchi, and
+parity automata play a similar role in the recognition of \omega-regular
+languages. While it is well known that the minimisation of deterministic finite
+and weak automata is cheap, the complexity of minimising deterministic Buchi
+and parity automata has remained an open challenge. We establish the
+NP-completeness of these problems. A second contribution of this report is the
+introduction of relaxed minimisation of deterministic finite automata. Like
+hyper-minimisation, relaxed minimisation allows for some changes in the
+language of the automaton: We seek a smallest automaton that, when used as a
+monitor, provides a wrong answer only a bounded number of times in any run of a
+system. We argue that minimisation of finite automata, hyper-minimisation,
+relaxed minimisation, and the minimisation of deterministic Buchi (or Co-Buchi)
+automata are operations of increasing reduction power, as the respective
+equivalence relations on automata become coarser from left to right. When we
+allow for minor changes in the language, relaxed minimisation can therefore be
+considered as a more powerful minimisation technique than hyper-minimisation
+from the perspective of finite automata. From the perspective of Buchi and
+Co-Buchi automata, we gain a cheap algorithm for state-space reduction that
+also turns out to be beneficial for further heuristic or exhaustive state-space
+reductions put on top of it.

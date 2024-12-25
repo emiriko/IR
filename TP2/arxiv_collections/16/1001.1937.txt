@@ -1,0 +1,12 @@
+We take an analytical approach to study Quality of user Experience (QoE) for
+video streaming applications. First, we show that random linear network coding
+applied to blocks of video frames can significantly simplify the packet
+requests at the network layer and save resources by avoiding duplicate packet
+reception. Network coding allows us to model the receiver's buffer as a queue
+with Poisson arrivals and deterministic departures. We consider the probability
+of interruption in video playback as well as the number of initially buffered
+packets (initial waiting time) as the QoE metrics. We characterize the optimal
+trade-off between these metrics by providing upper and lower bounds on the
+minimum initial buffer size, required to achieve certain level of interruption
+probability for different regimes of the system parameters. Our bounds are
+asymptotically tight as the file size goes to infinity.

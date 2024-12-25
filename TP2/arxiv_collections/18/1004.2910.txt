@@ -1,0 +1,14 @@
+Importance sampling is a common technique for Monte Carlo approximation,
+including Monte Carlo approximation of p-values. Here it is shown that a simple
+correction of the usual importance sampling p-values creates valid p-values,
+meaning that a hypothesis test created by rejecting the null when the p-value
+is <= alpha will also have a type I error rate <= alpha. This correction uses
+the importance weight of the original observation, which gives valuable
+diagnostic information under the null hypothesis. Using the corrected p-values
+can be crucial for multiple testing and also in problems where evaluating the
+accuracy of importance sampling approximations is difficult. Inverting the
+corrected p-values provides a useful way to create Monte Carlo confidence
+intervals that maintain the nominal significance level and use only a single
+Monte Carlo sample. Several applications are described, including accelerated
+multiple testing for a large neurophysiological dataset and exact conditional
+inference for a logistic regression model with nuisance parameters.

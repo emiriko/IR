@@ -1,0 +1,15 @@
+We present here a first prototype of a "Speed Limit Support" Advance Driving
+Assistance System (ADAS) producing permanent reliable information on the
+current speed limit applicable to the vehicle. Such a module can be used either
+for information of the driver, or could even serve for automatic setting of the
+maximum speed of a smart Adaptive Cruise Control (ACC). Our system is based on
+a joint interpretation of cartographic information (for static reference
+information) with on-board vision, used for traffic sign detection and
+recognition (including supplementary sub-signs) and visual road lines
+localization (for detection of lane changes). The visual traffic sign detection
+part is quite robust (90% global correct detection and recognition for main
+speed signs, and 80% for exit-lane sub-signs detection). Our approach for joint
+interpretation with cartography is original, and logic-based rather than
+probability-based, which allows correct behaviour even in cases, which do
+happen, when both vision and cartography may provide the same erroneous
+information.

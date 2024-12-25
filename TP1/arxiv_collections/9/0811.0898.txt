@@ -1,0 +1,14 @@
+We study classical simulation of quantum computation, taking the
+Gottesman-Knill theorem as a starting point. We show how each Clifford circuit
+can be reduced to an equivalent, manifestly simulatable circuit (normal form).
+This provides a simple proof of the Gottesman-Knill theorem without resorting
+to stabilizer techniques. The normal form highlights why Clifford circuits have
+such limited computational power in spite of their high entangling power. At
+the same time, the normal form shows how the classical simulation of Clifford
+circuits fits into the standard way of embedding classical computation into the
+quantum circuit model. This leads to simple extensions of Clifford circuits
+which are classically simulatable. These circuits can be efficiently simulated
+by classical sampling ('weak simulation') even though the problem of exactly
+computing the outcomes of measurements for these circuits ('strong simulation')
+is proved to be #P-complete--thus showing that there is a separation between
+weak and strong classical simulation of quantum computation.

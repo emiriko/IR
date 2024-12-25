@@ -1,0 +1,19 @@
+Power integrity is becoming increasingly relevant due to increases in device
+functionality and switching speeds along with reduced operating voltage. Large
+current spikes at the device terminals result in electromagnetic disturbances
+which can establish resonant patterns affecting the operation of the whole
+system. These effects have been examined using a finite difference time domain
+approach to solve Maxwell's equations for the PCB power and ground plane
+configuration. The simulation domain is terminated with a uniaxial perfectly
+matched layer to prevent unwanted reflections. This approach calculates the
+field values as a function of position and time and allows the evolution of the
+field to be visualized. The propagation of a pulse over the ground plane was
+observed demonstrating the establishment of a complex interference pattern
+between source and reflected wave fronts and then between multiply reflected
+wave fronts. This interference which affects the whole ground plane area could
+adversely affect the operation of any device on the board. These resonant waves
+persist for a significant time after the initial pulse. Examining the FFT of
+the ground plane electric field response showed numerous resonant peaks at
+frequencies consistent with the expected values assuming the PCB can be
+modelled as a resonant cavity with two electric and four magnetic field
+boundaries.

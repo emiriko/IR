@@ -1,0 +1,18 @@
+We consider a multi-channel opportunistic communication system where the
+states of these channels evolve as independent and statistically identical
+Markov chains (the Gilbert-Elliot channel model). A user chooses one channel to
+sense and access in each slot and collects a reward determined by the state of
+the chosen channel. The problem is to design a sensing policy for channel
+selection to maximize the average reward, which can be formulated as a
+multi-arm restless bandit process. In this paper, we study the structure,
+optimality, and performance of the myopic sensing policy. We show that the
+myopic sensing policy has a simple robust structure that reduces channel
+selection to a round-robin procedure and obviates the need for knowing the
+channel transition probabilities. The optimality of this simple policy is
+established for the two-channel case and conjectured for the general case based
+on numerical results. The performance of the myopic sensing policy is analyzed,
+which, based on the optimality of myopic sensing, characterizes the maximum
+throughput of a multi-channel opportunistic communication system and its
+scaling behavior with respect to the number of channels. These results apply to
+cognitive radio networks, opportunistic transmission in fading environments,
+and resource-constrained jamming and anti-jamming.

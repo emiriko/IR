@@ -1,0 +1,19 @@
+We develop a new Bayesian method for estimating white noise levels in CMB sky
+maps, and apply this algorithm to the 5-year WMAP data. We assume that the
+amplitude of the noise RMS is scaled by a constant value, alpha, relative to a
+pre-specified noise level. We then derive the corresponding conditional
+density, P(alpha | s, Cl, d), which is subsequently integrated into a general
+CMB Gibbs sampler. We first verify our code by analyzing simulated data sets,
+and then apply the framework to the WMAP data. For the foreground-reduced
+5-year WMAP sky maps and the nominal noise levels initially provided in the
+5-year data release, we find that the posterior means typically range between
+alpha=1.005 +- 0.001 and alpha=1.010 +- 0.001 depending on differencing
+assembly, indicating that the noise level of these maps are biased low by
+0.5-1.0%. The same problem is not observed for the uncorrected WMAP sky maps.
+After the preprint version of this letter appeared on astro-ph., the WMAP team
+has corrected the values presented on their web page, noting that the initially
+provided values were in fact estimates from the 3-year data release, not from
+the 5-year estimates. However, internally in their 5-year analysis the correct
+noise values were used, and no cosmological results are therefore compromised
+by this error. Thus, our method has already been demonstrated in practice to be
+both useful and accurate.

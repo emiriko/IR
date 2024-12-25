@@ -1,0 +1,12 @@
+Many synthesis approaches for reversible and quantum logic have been proposed
+so far. However, most of them generate circuits with respect to simple metrics,
+i.e. gate count or quantum cost. On the other hand, to physically realize
+reversible and quantum hardware, additional constraints exist. In this paper,
+we describe cost metrics beyond gate count and quantum cost that should be
+considered while synthesizing reversible and quantum logic for the respective
+target technologies. We show that the evaluation of a synthesis approach may
+differ if additional costs are applied. In addition, a new cost metric, namely
+Nearest Neighbor Cost (NNC) which is imposed by realistic physical quantum
+architectures, is considered in detail. We discuss how existing synthesis flows
+can be extended to generate optimal circuits with respect to NNC while still
+keeping the quantum cost small.

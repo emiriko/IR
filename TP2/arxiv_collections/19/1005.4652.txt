@@ -1,0 +1,13 @@
+The rank and select operations over a string of length n from an alphabet of
+size $\sigma$ have been used widely in the design of succinct data structures.
+In many applications, the string itself need be maintained dynamically,
+allowing characters of the string to be inserted and deleted. Under the word
+RAM model with word size $w=\Omega(\lg n)$, we design a succinct representation
+of dynamic strings using $nH_0 + o(n)\lg\sigma + O(w)$ bits to support rank,
+select, insert and delete in $O(\frac{\lg n}{\lg\lg n}(\frac{\lg \sigma}{\lg\lg
+n}+1))$ time. When the alphabet size is small, i.e. when $\sigma = O(\polylog
+(n))$, including the case in which the string is a bit vector, these operations
+are supported in $O(\frac{\lg n}{\lg\lg n})$ time. Our data structures are more
+efficient than previous results on the same problem, and we have applied them
+to improve results on the design and construction of space-efficient text
+indexes.

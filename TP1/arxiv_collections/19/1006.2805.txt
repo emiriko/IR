@@ -1,0 +1,18 @@
+This paper presents a set of robust PI tuning formulae for a first order plus
+dead time process using particle swarm optimization. Also, tuning formulae for
+an integrating process with dead time, which is a special case of a first order
+plus dead time process, is given. The design problem considers three essential
+requirements of control problems, namely load disturbance rejection, setpoint
+regulation and robustness of closed-loop system against model uncertainties.
+The primary design goal is to optimize load disturbance rejection. Robustness
+is guaranteed by requiring that the maximum sensitivity is less than or equal
+to a specified value. In the first step, PI controller parameters are
+determined such that the IAE criterion to a load disturbance step is minimized
+and the robustness constraint on maximum sensitivity is satisfied. Using a
+structure with two degrees of freedom which introduces an extra parameter, the
+setpoint weight, good setpoint regulation is achieved in the second step. The
+main advantage of the proposed method is its simplicity. Once the equivalent
+first order plus dead time model is determined, the PI parameters are
+explicitly given by a set of tuning formulae. In order to show the performance
+and effectiveness of the proposed tuning formulae, they are applied to three
+simulation examples.

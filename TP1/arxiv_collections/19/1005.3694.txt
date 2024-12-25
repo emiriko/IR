@@ -1,0 +1,15 @@
+We study the performance and convergence properties of the Susceptibility
+Propagation (SusP) algorithm for solving the Inverse Ising problem. We first
+study how the temperature parameter (T) in a Sherrington-Kirkpatrick model
+generating the data influences the performance and convergence of the
+algorithm. We find that at the high temperature regime (T>4), the algorithm
+performs well and its quality is only limited by the quality of the supplied
+data. In the low temperature regime (T<4), we find that the algorithm typically
+does not converge, yielding diverging values for the couplings. However, we
+show that by stopping the algorithm at the right time before divergence becomes
+serious, good reconstruction can be achieved down to T~2. We then show that
+dense connectivity, loopiness of the connectivity, and high absolute
+magnetization all have deteriorating effects on the performance of the
+algorithm. When absolute magnetization is high, we show that other methods can
+be work better than SusP. Finally, we show that for neural data with high
+absolute magnetization, SusP performs less well than TAP inversion.

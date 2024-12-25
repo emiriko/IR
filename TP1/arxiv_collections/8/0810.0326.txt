@@ -1,0 +1,13 @@
+This paper presents CRESM, a novel collision resolution method for decoding
+collided packets in random-access wireless networks. In a collision,
+overlapping signals from several sources are received simultaneously at a
+receiver. CRESM exploits symbol misalignment among the overlapping signals to
+recover the individual packets. CRESM can be adopted in 802.11 networks without
+modification of the transmitter design; only a simple DSP technique is needed
+at the receiver to decode the overlapping signals. Our simulations indicate
+that CRESM has better BER performance than the simplistic Successive
+Interference Cancellation (SIC) technique that treats interference as noise,
+for almost all SNR regimes. The implication of CRESM for random-access
+networking is significant: in general, using CRESM to resolve collisions of up
+to n packets, network throughput can be boosted by more than n times if the
+transmitters are allowed to transmit more aggressively in the MAC protocol.

@@ -1,0 +1,16 @@
+We deal with the problem of designing one-sided error property testers for
+cycle-freeness in bounded degree graphs. Such a property tester always accepts
+forests. Furthermore, when it rejects an input, it provides a short cycle as a
+certificate. The problem of testing cycle-freeness in this model was first
+considered by Goldreich and Ron \cite{GR97}. They give a constant time tester
+with two-sided error (it does not provide certificates for rejection) and prove
+a $\Omega(\sqrt{n})$ lower bound for testers with one-sided error. We design a
+property tester with one-sided error whose running time matches this lower
+bound (upto polylogarithmic factors). Interestingly, this has connections to a
+recent conjecture of Benjamini, Schramm, and Shapira \cite{BSS08}. The property
+of cycle-freeness is closed under the operation of taking minors. This is the
+first example of such a property that has an almost optimal
+$\otilde(\sqrt{n})$-time one-sided error tester, but has a constant time
+two-sided error tester. It was conjectured in \cite{BSS08} that this happens
+for a vast class of minor-closed properties, and this result can seen as the
+first indication towards that.

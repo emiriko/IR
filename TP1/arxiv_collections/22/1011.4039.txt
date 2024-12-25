@@ -1,0 +1,11 @@
+We propose a finite volume method on general meshes for the discretization of
+a degenerate parabolic convection-reaction-diffusion equation. Equations of
+this type arise in many contexts, such as the modeling of contaminant transport
+in porous media. We discretize the diffusion term, which can be anisotropic and
+heterogeneous, via a hybrid finite volume scheme. We construct a partially
+upwind scheme for the convection term. We consider a wide range of unstructured
+possibly non-matching polygonal meshes in arbitrary space dimension. The only
+assumption on the mesh is that the volume elements must be star-shaped. The
+scheme is fully implicit in time, it is locally conservative and robust with
+respect to the P\'eclet number. We obtain a convergence result based upon a
+priori estimates and the Fr\'echet--Kolmogorov compactness theorem.

@@ -1,0 +1,16 @@
+In this paper we suggest a method by which reference broadcast
+synchronization (RBS), and other methods of estimating clock values, can be
+incorporated in standard clock synchronization algorithms to improve
+synchronization quality. We advocate a logical separation of the task of
+estimating the clock values of other nodes in the network from the task of
+using these estimates to output a logical clock value.
+  The separation is achieved by means of a virtual estimate graph, overlaid on
+top of the real network graph, which represents the information various nodes
+can obtain about each other. RBS estimates are represented in the estimate
+graph as edges between nodes at distance 2 from each other in the original
+network graph. A clock synchronization algorithm then operates on the estimate
+graph as though it were the original network.
+  To illustrate the merits of this approach, we modify a recent optimal
+gradient clock synchronization algorithm to work in this setting. The modified
+algorithm transparently takes advantage of RBS estimates and any other means by
+which nodes can estimate each others' clock values.

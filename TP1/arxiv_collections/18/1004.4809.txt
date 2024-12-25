@@ -1,0 +1,13 @@
+The most efficient receiver-driven multicast congestion control protocols use
+dynamic channels. This means that each group has a cyclic rate variation with a
+continuously decreasing phase. Despite promising results in terms of fairness,
+using efficiently these dynamic groups could be a challenging task for
+application programmers. This paper presents a sequencer which maps out
+application data to dynamic groups in an optimal way. Multiple applications
+such as file transfer or video streaming, can use this sequencer, thanks to a
+simple API usable with any buffer containing the most important data first. To
+evaluate this solution, we designed a file transfer software using a FEC
+encoding. Results show the sequencer optimal behavior and the file transfer
+efficiency, as a single download generates only little more overhead than TCP .
+Moreover, download time is almost independent of the number of receivers, and
+is already faster than TCP with 2 competing downloads.

@@ -1,0 +1,9 @@
+Consider an n qubit computational basis state corresponding to a bit string
+x, which has had an unknown local unitary applied to each qubit, and whose
+qubits have been reordered by an unknown permutation. We show that, given such
+a state with Hamming weight |x| at most n/2, it is possible to reconstruct |x|
+with success probability 1 - |x|/(n-|x|+1), and thus to compute any symmetric
+function of x. We give explicit algorithms for computing whether or not |x| is
+at least t for some t, and for computing the parity of x, and show that these
+are essentially optimal. These results can be seen as generalisations of the
+swap test for comparing quantum states.

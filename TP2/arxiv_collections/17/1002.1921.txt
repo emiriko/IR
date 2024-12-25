@@ -1,0 +1,17 @@
+The stabilization algorithm of Weisfeiler and Leman has as an input any
+square matrix A of order n and returns the minimal cellular (coherent) algebra
+W(A) which includes A.
+  In case when A=A(G) is the adjacency matrix of a graph G the algorithm
+examines all configurations in G having three vertices and, according to this
+information, partitions vertices and ordered pairs of vertices into equivalence
+classes. The resulting construction allows to associate to each graph G a
+matrix algebra W(G):= W(A(G))$ which is an invariant of the graph G. For many
+classes of graphs, in particular for most of the molecular graphs, the algebra
+W(G) coincides with the centralizer algebra of the automorphism group aut(G).
+In such a case the partition returned by the stabilization algorithm is equal
+to the partition into orbits of aut(G).
+  We give algebraic and combinatorial descriptions of the Weisfeiler--Leman
+algorithm and present an efficient computer implementation of the algorithm
+written in C. The results obtained by testing the program on a considerable
+number of examples of graphs, in particular on some chemical molecular graphs,
+are also included.

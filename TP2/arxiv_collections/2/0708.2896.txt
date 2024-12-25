@@ -1,0 +1,13 @@
+The wavefunction for the multiparticle Schr\"odinger equation is a function
+of many variables and satisfies an antisymmetry condition, so it is natural to
+approximate it as a sum of Slater determinants. Many current methods do so, but
+they impose additional structural constraints on the determinants, such as
+orthogonality between orbitals or an excitation pattern. We present a method
+without any such constraints, by which we hope to obtain much more efficient
+expansions, and insight into the inherent structure of the wavefunction. We use
+an integral formulation of the problem, a Green's function iteration, and a
+fitting procedure based on the computational paradigm of separated
+representations. The core procedure is the construction and solution of a
+matrix-integral system derived from antisymmetric inner products involving the
+potential operators. We show how to construct and solve this system with
+computational complexity competitive with current methods.

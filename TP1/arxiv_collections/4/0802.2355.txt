@@ -1,0 +1,22 @@
+Consensus methods provide a useful strategy for combining information from a
+collection of gene trees. An important application of consensus methods is to
+combine gene trees to estimate a species tree. To investigate the theoretical
+properties of consensus trees that would be obtained from large numbers of loci
+evolving according to a basic evolutionary model, we construct consensus trees
+from independent gene trees that occur in proportion to gene tree probabilities
+derived from coalescent theory. We consider majority-rule, rooted triple (R*),
+and greedy consensus trees constructed from known gene trees, both in the
+asymptotic case as numbers of gene trees approach infinity and for finite
+numbers of genes. Our results show that for some combinations of species tree
+branch lengths, increasing the number of independent loci can make the
+majority-rule consensus tree more likely to be at least partially unresolved
+and the greedy consensus tree less likely to match the species tree. However,
+the probability that the R* consensus tree has the species tree topology
+approaches 1 as the number of gene trees approaches infinity. Although the
+greedy consensus algorithm can be the quickest to converge on the correct
+species tree when increasing the number of gene trees, it can also be
+positively misleading. The majority-rule consensus tree is not a misleading
+estimator of the species tree topology, and the R* consensus tree is a
+statistically consistent estimator of the species tree topology. Our results
+therefore suggest a method for using multiple loci to infer the species tree
+topology, even when it is discordant with the most likely gene tree.

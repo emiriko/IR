@@ -1,0 +1,24 @@
+We introduce a new tool - AESOPUS: Accurate Equation of State and OPacity
+Utility Software - for computing the equation of state and the Rosseland mean
+(RM) opacities of matter in the ideal gas phase. Results are given as a
+function of one pair of state variables, (i.e. temperature T in the range 3.2
+<= log(T) <= 4.5, and parameter R= rho/(T/10^6 K)^3 in the range -8 <= log(R)
+<= 1), and arbitrary chemical mixture. The chemistry is presently solved for
+about 800 species, consisting of almost 300 atomic and 500 molecular species.
+The gas opacities account for many continuum and discrete sources, including
+atomic opacities, molecular absorption bands, and collision-induced absorption.
+Several tests made on AESOPUS have proved that the new opacity tool is accurate
+in the results,flexible in the management of the input prescriptions, and agile
+in terms of computational time requirement. We set up a web-interface
+(http://stev.oapd.inaf.it/aesopus) which enables the user to compute and
+shortly retrieve RM opacity tables according to his/her specific needs,
+allowing a full degree of freedom in specifying the chemical composition of the
+gas. Useful applications may regard RM opacities of gas mixtures with i)
+scaled-solar abundances of metals, choosing among various solar mixture
+compilations available in the literature; ii) varying CNO abundances, suitable
+for evolutionary models of red and asymptotic giant branch stars and massive
+stars in the Wolf-Rayet stages; iii) various degrees of enhancement in
+alpha-elements, and C-N, Na-O and Mg-Al abundance anti-correlations, necessary
+to properly describe the properties of stars in early-type galaxies and
+Galactic globular clusters; iv) zero-metal abundances appropriate for studies
+of gas opacity in primordial conditions.

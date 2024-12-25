@@ -1,0 +1,13 @@
+The Reversible Jump algorithm is one of the most widely used Markov chain
+Monte Carlo algorithms for Bayesian estimation and model selection. A
+generalized multiple-try version of this algorithm is proposed. The algorithm
+is based on drawing several proposals at each step and randomly choosing one of
+them on the basis of weights (selection probabilities) that may be arbitrary
+chosen. Among the possible choices, a method is employed which is based on
+selection probabilities depending on a quadratic approximation of the posterior
+distribution. Moreover, the implementation of the proposed algorithm for
+challenging model selection problems, in which the quadratic approximation is
+not feasible, is considered. The resulting algorithm leads to a gain in
+efficiency with respect to the Reversible Jump algorithm, and also in terms of
+computational effort. The performance of this approach is illustrated for real
+examples involving a logistic regression model and a latent class model.

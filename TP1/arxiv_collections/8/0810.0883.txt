@@ -1,0 +1,24 @@
+Linear receivers are an attractive low-complexity alternative to optimal
+processing for multi-antenna MIMO communications. In this paper we characterize
+the information-theoretic performance of MIMO linear receivers in two different
+asymptotic regimes. For fixed number of antennas, we investigate the limit of
+error probability in the high-SNR regime in terms of the Diversity-Multiplexing
+Tradeoff (DMT). Following this, we characterize the error probability for fixed
+SNR in the regime of large (but finite) number of antennas.
+  As far as the DMT is concerned, we report a negative result: we show that
+both linear Zero-Forcing (ZF) and linear Minimum Mean-Square Error (MMSE)
+receivers achieve the same DMT, which is largely suboptimal even in the case
+where outer coding and decoding is performed across the antennas. We also
+provide an approximate quantitative analysis of the markedly different behavior
+of the MMSE and ZF receivers at finite rate and non-asymptotic SNR, and show
+that while the ZF receiver achieves poor diversity at any finite rate, the MMSE
+receiver error curve slope flattens out progressively, as the coding rate
+increases.
+  When SNR is fixed and the number of antennas becomes large, we show that the
+mutual information at the output of a MMSE or ZF linear receiver has
+fluctuations that converge in distribution to a Gaussian random variable, whose
+mean and variance can be characterized in closed form. This analysis extends to
+the linear receiver case a well-known result previously obtained for the
+optimal receiver. Simulations reveal that the asymptotic analysis captures
+accurately the outage behavior of systems even with a moderate number of
+antennas.

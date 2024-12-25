@@ -1,0 +1,17 @@
+We study the dynamics of information (or virus) dissemination by $m$ mobile
+agents performing independent random walks on an $n$-node grid. We formulate
+our results in terms of two scenarios: broadcasting and gossiping. In the
+broadcasting scenario, the mobile agents are initially placed uniformly at
+random among the grid nodes. At time 0, one agent is informed of a rumor and
+starts a random walk. When an informed agent meets an uninformed agent, the
+latter becomes informed and starts a new random walk. We study the broadcasting
+time of the system, that is, the time it takes for all agents to know the
+rumor. In the gossiping scenario, each agent is given a distinct rumor at time
+0 and all agents start random walks. When two agents meet, they share all
+rumors they are aware of. We study the gossiping time of the system, that is,
+the time it takes for all agents to know all rumors. We prove that both the
+broadcasting and the gossiping times are $\tilde\Theta(n/\sqrt{m})$ w.h.p.,
+thus achieving a tight characterization up to logarithmic factors. Previous
+results for the grid provided bounds which were weaker and only concerned
+average times. In the context of virus infection, a corollary of our results is
+that static and dynamically moving agents are infected at about the same speed.

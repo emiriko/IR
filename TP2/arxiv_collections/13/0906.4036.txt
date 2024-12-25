@@ -1,0 +1,23 @@
+Physical modeling method, represented by simulation and visualization of the
+principles in physics, is introduced in the shape extraction of the active
+contours. The objectives of adopting this concept are to address the several
+major difficulties in the application of Active Contours. Primarily, a
+technique is developed to realize the topological changes of Parametric Active
+Contours (Snakes). The key strategy is to imitate the process of a balloon
+expanding and filling in a closed space with several objects. After removing
+the touched balloon surfaces, the objects can be identified by surrounded
+remaining balloon surfaces. A burned region swept by Snakes is utilized to
+trace the contour and to give a criterion for stopping the movement of Snake
+curve. When the Snakes terminates evolution totally, through ignoring this
+criterion, it can form a connected area by evolving the Snakes again and
+continuing the region burning. The contours extracted from the boundaries of
+the burned area can represent the child snake of each object respectively.
+Secondly, a novel scheme is designed to solve the problems of leakage of the
+contour from the large gaps, and the segmentation error in Geometric Active
+Contours (GAC). It divides the segmentation procedure into two processing
+stages. By simulating the wave propagating in the isotropic substance at the
+final stage, it can significantly enhance the effect of image force in GAC
+based on Level Set and give the satisfied solutions to the two problems.
+Thirdly, to support the physical models for active contours above, we introduce
+a general image force field created on a template plane over the image plane.
+This force is more adaptable to noisy images with complicated geometric shapes.

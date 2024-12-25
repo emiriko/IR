@@ -1,0 +1,20 @@
+Precise measurement of the angular power spectrum of the Cosmic Microwave
+Background (CMB) temperature and polarization anisotropy can tightly constrain
+many cosmological models and parameters. However, accurate measurements can
+only be realized in practice provided all major systematic effects have been
+taken into account. Beam asymmetry, coupled with the scan strategy, is a major
+source of systematic error in scanning CMB experiments such as Planck, the
+focus of our current interest. We envision Monte Carlo methods to rigorously
+study and account for the systematic effect of beams in CMB analysis. Toward
+that goal, we have developed a fast pixel space convolution method that can
+simulate sky maps observed by a scanning instrument, taking into account real
+beam shapes and scan strategy. The essence is to pre-compute the "effective
+beams" using a computer code, "Fast Effective Beam Convolution in Pixel space"
+(FEBeCoP), that we have developed for the Planck mission. The code computes
+effective beams given the focal plane beam characteristics of the Planck
+instrument and the full history of actual satellite pointing, and performs very
+fast convolution of sky signals using the effective beams. In this paper, we
+describe the algorithm and the computational scheme that has been implemented.
+We also outline a few applications of the effective beams in the precision
+analysis of Planck data, for characterizing the CMB anisotropy and for
+detecting and measuring properties of point sources.

@@ -1,0 +1,19 @@
+We present here the systematic development of quantitative lattice
+simulations of dense polymers through a novel computational technique that
+allows for an efficient accounting of the chain conformations. Our approach is
+based on the decomposition of the original lattice into sublattices of optimal
+size. We develop and validate the method here for 2-D lattices using
+sublattices of 4x4 nodes. For each possible connectivity, i.e. arrangement of
+bonds connecting the 4x4 nodes of a sublattice with the rest of the nodes of
+the lattice, all possible sublattice microstates (submicrostates) are
+evaluated. We apply this technique to study the interlamellar amorphous phase
+in dense semicrystalline polymers where in polymer chains conform to a 2-D
+square lattice. For lattices of moderate size (up to 8x8 nodes), exact results
+can be obtained from an exhaustive enumeration of all the microstates
+corresponding to the fully dense (i.e. with no free chain ends) interlamellar
+amorphous phase of a semicrystalline system. For larger lattices, a stochastic
+enumeration technique (purely entropic) and an efficient Metropolis Monte Carlo
+scheme were developed. A large selection of Monte Carlo moves makes the
+correlation between the Monte Carlo moves especially short. Thus, statistical
+quantities of interest can be obtained with tight error bars (calculated
+concurrently with the averages) using small number of steps.

@@ -1,0 +1,16 @@
+We study clustering algorithms based on neighborhood graphs on a random
+sample of data points. The question we ask is how such a graph should be
+constructed in order to obtain optimal clustering results. Which type of
+neighborhood graph should one choose, mutual k-nearest neighbor or symmetric
+k-nearest neighbor? What is the optimal parameter k? In our setting, clusters
+are defined as connected components of the t-level set of the underlying
+probability distribution. Clusters are said to be identified in the
+neighborhood graph if connected components in the graph correspond to the true
+underlying clusters. Using techniques from random geometric graph theory, we
+prove bounds on the probability that clusters are identified successfully, both
+in a noise-free and in a noisy setting. Those bounds lead to several
+conclusions. First, k has to be chosen surprisingly high (rather of the order n
+than of the order log n) to maximize the probability of cluster identification.
+Secondly, the major difference between the mutual and the symmetric k-nearest
+neighbor graph occurs when one attempts to detect the most significant cluster
+only.

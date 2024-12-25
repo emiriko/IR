@@ -1,0 +1,12 @@
+We introduce a new compile-time notion of type subsumption based on type
+simulation. We show how to apply this static subsumption relation to support a
+more intuitive, object oriented approach to generic programming of reusable,
+high performance container types. As a first step towards an efficient
+implementation of the resulting type system in a compiler we present a novel
+algorithm for bidirectional type inference over arbitrary syntax graphs. The
+algorithm uses the new static type subsumption relation to compress the data
+that has to be stored for each node in the typeflow graph. During typeflow
+analysis this means that the set of types for a given node can be symbolically
+represented using antichains instead of using bitvectors or some other explicit
+set representation. This results in a typing algorithm that is both flexible
+and precise and shows good performance on representative instances.

@@ -1,0 +1,16 @@
+A new method for calculation of band structure has been proposed based on the
+Green's function theory and local sampling. Potential energy in the Hamiltonian
+of Schrodinger's equation is approximated with a series of sampled Dirac delta
+functions weighted by appropriate factors. These factors are found from
+multipole expansion of atomic potentials in the crystal lattice, with
+considering effects such as screening. Fourier transform was then applied to
+describe the wave function in reciprocal space. Sampling can be uniform or
+non-uniform throughout space; however rate and interval optimization is
+essential. Theory was implemented for Silicon, Germanium and Graphene sheet
+individually, while results were compared with the ab-initio non-local
+pseudopotential (AINLPS) method. Also for Silicon, the pseudopotential used in
+orbital-free density functional theory (OF-DFT) was employed as a suitable
+sampling source. Phase variations of the dispersion formula are analyzed,
+introducing adapting parameters to improve compatibility with ab-initio
+results. Local analysis with low order truncation in real space, reduces
+implementation time while giving acceptable results.

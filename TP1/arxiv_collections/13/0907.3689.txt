@@ -1,0 +1,16 @@
+A fermionic operator circuit is a product of fermionic operators of usually
+different and partially overlapping support. Further elements of fermionic
+operator circuits (FOCs) are partial traces and partial projections. The
+presented framework allows for the introduction of fermionic versions of known
+qudit operator circuits (QUOC), important for the simulation of strongly
+correlated d-dimensional systems: The multiscale entanglement renormalization
+ansatz (MERA), tree tensor networks (TTN), projected entangled pair states
+(PEPS), or their infinite-size versions (iPEPS etc.). After the definition of a
+FOC, we present a method to contract it with the same computation and memory
+requirements as a corresponding QUOC, for which all fermionic operators are
+replaced by qudit operators of identical dimension. A given scheme for
+contracting the QUOC relates to an analogous scheme for the corresponding
+fermionic circuit, where additional marginal computational costs arise only
+from reordering of modes for operators occurring in intermediate stages of the
+contraction. Our result hence generalizes efficient schemes for the simulation
+of d-dimensional spin systems, as MERA, TTN, or PEPS to the fermionic case.

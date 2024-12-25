@@ -1,0 +1,20 @@
+Volterra and polynomial regression models play a major role in nonlinear
+system identification and inference tasks. Exciting applications ranging from
+neuroscience to genome-wide association analysis build on these models with the
+additional requirement of parsimony. This requirement has high interpretative
+value, but unfortunately cannot be met by least-squares based or kernel
+regression methods. To this end, compressed sampling (CS) approaches, already
+successful in linear regression settings, can offer a viable alternative. The
+viability of CS for sparse Volterra and polynomial models is the core theme of
+this work. A common sparse regression task is initially posed for the two
+models. Building on (weighted) Lasso-based schemes, an adaptive RLS-type
+algorithm is developed for sparse polynomial regressions. The identifiability
+of polynomial models is critically challenged by dimensionality. However,
+following the CS principle, when these models are sparse, they could be
+recovered by far fewer measurements. To quantify the sufficient number of
+measurements for a given level of sparsity, restricted isometry properties
+(RIP) are investigated in commonly met polynomial regression settings,
+generalizing known results for their linear counterparts. The merits of the
+novel (weighted) adaptive CS algorithms to sparse polynomial modeling are
+verified through synthetic as well as real data tests for genotype-phenotype
+analysis.

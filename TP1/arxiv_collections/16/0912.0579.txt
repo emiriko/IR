@@ -1,0 +1,16 @@
+In this paper, we describe a multidatabase system as 4tiered Client-Server
+DBMS architectures. We discuss their functional components and provide an
+overview of their performance characteristics. The first component of this
+proposed system is a web based interface or Graphical User Interface, which
+resides on top of the Client Application Program, the second component of the
+system is a client Application program running in an application server, which
+resides on top of the Global Database Management System, the third component of
+the system is a Global Database Management System and global schema of the
+multidatabase system server, which resides on top of the distributed
+heterogeneous local component database system servers, and the fourth component
+is remote heterogeneous local component database system servers. Transaction
+submitted from client interface to a multidatabase system server through an
+application server will be decomposed into a set of sub queries and will be
+executed at various remote heterogeneous local component database servers and
+also in case of information retrieval all sub queries will be composed and will
+get back results to the end users.

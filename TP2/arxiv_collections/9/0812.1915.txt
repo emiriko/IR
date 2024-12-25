@@ -1,0 +1,14 @@
+The paper investigates the power of the dynamic complexity classes DynFO,
+DynQF and DynPROP over string languages. The latter two classes contain
+problems that can be maintained using quantifier-free first-order updates, with
+and without auxiliary functions, respectively. It is shown that the languages
+maintainable in DynPROP exactly are the regular languages, even when allowing
+arbitrary precomputation. This enables lower bounds for DynPROP and separates
+DynPROP from DynQF and DynFO. Further, it is shown that any context-free
+language can be maintained in DynFO and a number of specific context-free
+languages, for example all Dyck-languages, are maintainable in DynQF.
+Furthermore, the dynamic complexity of regular tree languages is investigated
+and some results concerning arbitrary structures are obtained: there exist
+first-order definable properties which are not maintainable in DynPROP. On the
+other hand any existential first-order property can be maintained in DynQF when
+allowing precomputation.

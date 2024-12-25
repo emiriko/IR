@@ -1,0 +1,11 @@
+We present formalized proofs verifying that the first-order unification
+algorithm defined over lists of satisfiable constraints generates a most
+general unifier (MGU), which also happens to be idempotent. All of our proofs
+have been formalized in the Coq theorem prover. Our proofs show that finite
+maps produced by the unification algorithm provide a model of the axioms
+characterizing idempotent MGUs of lists of constraints. The axioms that serve
+as the basis for our verification are derived from a standard set by extending
+them to lists of constraints. For us, constraints are equalities between terms
+in the language of simple types. Substitutions are formally modeled as finite
+maps using the Coq library Coq.FSets.FMapInterface. Coq's method of functional
+induction is the main proof technique used in proving many of the axioms.

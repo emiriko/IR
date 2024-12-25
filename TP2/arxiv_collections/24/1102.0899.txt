@@ -1,0 +1,24 @@
+The ability to predict the intentions of people based solely on their visual
+actions is a skill only performed by humans and animals. The intelligence of
+current computer algorithms has not reached this level of complexity, but there
+are several research efforts that are working towards it. With the number of
+classification algorithms available, it is hard to determine which algorithm
+works best for a particular situation. In classification of visual human intent
+data, Hidden Markov Models (HMM), and their variants, are leading candidates.
+  The inability of HMMs to provide a probability in the observation to
+observation linkages is a big downfall in this classification technique. If a
+person is visually identifying an action of another person, they monitor
+patterns in the observations. By estimating the next observation, people have
+the ability to summarize the actions, and thus determine, with pretty good
+accuracy, the intention of the person performing the action. These visual cues
+and linkages are important in creating intelligent algorithms for determining
+human actions based on visual observations.
+  The Evidence Feed Forward Hidden Markov Model is a newly developed algorithm
+which provides observation to observation linkages. The following research
+addresses the theory behind Evidence Feed Forward HMMs, provides mathematical
+proofs of their learning of these parameters to optimize the likelihood of
+observations with a Evidence Feed Forwards HMM, which is important in all
+computational intelligence algorithm, and gives comparative examples with
+standard HMMs in classification of both visual action data and measurement
+data; thus providing a strong base for Evidence Feed Forward HMMs in
+classification of many types of problems.

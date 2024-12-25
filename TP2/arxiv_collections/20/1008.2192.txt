@@ -1,0 +1,25 @@
+The development of parallel-processing image-analysis codes is generally a
+challenging task that requires complicated choreography of interprocessor
+communications. If, however, the image-analysis algorithm is embarrassingly
+parallel, then the development of a parallel-processing implementation of that
+algorithm can be a much easier task to accomplish because, by definition, there
+is little need for communication between the compute processes. I describe the
+design, implementation, and performance of a parallel-processing image-analysis
+application, called CRBLASTER, which does cosmic-ray rejection of CCD
+(charge-coupled device) images using the embarrassingly-parallel L.A.COSMIC
+algorithm. CRBLASTER is written in C using the high-performance computing
+industry standard Message Passing Interface (MPI) library. The code has been
+designed to be used by research scientists who are familiar with C as a
+parallel-processing computational framework that enables the easy development
+of parallel-processing image-analysis programs based on embarrassingly-parallel
+algorithms. The CRBLASTER source code is freely available at the official
+application website at the National Optical Astronomy Observatory. Removing
+cosmic rays from a single 800x800 pixel Hubble Space Telescope WFPC2 image
+takes 44 seconds with the IRAF script lacos_im.cl running on a single core of
+an Apple Mac Pro computer with two 2.8-GHz quad-core Intel Xeon processors.
+CRBLASTER is 7.4 times faster processing the same image on a single core on the
+same machine. Processing the same image with CRBLASTER simultaneously on all 8
+cores of the same machine takes 0.875 seconds -- which is a speedup factor of
+50.3 times faster than the IRAF script. A detailed analysis is presented of the
+performance of CRBLASTER using between 1 and 57 processors on a low-power
+Tilera 700-MHz 64-core TILE64 processor.

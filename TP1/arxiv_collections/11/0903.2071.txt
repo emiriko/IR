@@ -1,0 +1,22 @@
+We critically analyze the results and claims in [Physics Letters A 373 (2009)
+901-904].
+  We show that the strong security leak appeared in the simulations is only an
+artifact and not caused by "multiple reflections". Since no wave modes exist at
+cable length of 5% of the shortest wavelength of the signal, no wave is present
+to reflect it.
+  In the high wave impedance limit, the conditions used in the simulations are
+heavily unphysical (requiring cable diameters up to 28000 times greater than
+the measured size of the known universe) and the results are modeling artifacts
+due to the unphysical values.
+  At the low cable impedance limit, the observed artifacts are due to violating
+the recommended (and tested) conditions by neglecting the cable capacitance
+restrictions and using about 100 times longer cable than recommended without
+cable capacitance compensation arrangement.
+  We implement and analyze the general circuitry of Liu's circulator and
+confirm that they are conceptually secure against passive attacks. We introduce
+an asymmetric, more robust version without feedback loop. Then we crack all
+these systems by an active attack: a circulator-based man-in-the middle attack.
+  Finally, we analyze the proposed method to increase security by dropping only
+high-risk bits. We point out the differences between different types of
+high-risk bits and show the shortage of this strategy for some simple key
+exchange protocols.

@@ -1,0 +1,23 @@
+Computation of the marginal likelihood from a simulated posterior
+distribution is central to Bayesian model selection but is computationally
+difficult. I argue that the marginal likelihood can be reliably computed from a
+posterior sample by careful attention to the numerics of the probability
+integral. Posing the expression for the marginal likelihood as a Lebesgue
+integral, we may convert the harmonic mean approximation from a sample
+statistic to a quadrature rule. As a quadrature, the harmonic mean
+approximation suffers from enormous truncation error as consequence . In
+addition, I demonstrate that the integral expression for the harmonic-mean
+approximation converges slowly at best for high-dimensional problems with
+uninformative prior distributions. These observations lead to two
+computationally-modest families of quadrature algorithms that use the full
+generality sample posterior but without the instability. The first algorithm
+automatically eliminates the part of the sample that contributes large
+truncation error. The second algorithm uses the posterior sample to assign
+probability to a partition of the sample space and performs the marginal
+likelihood integral directly. This eliminates convergence issues. The first
+algorithm is analogous to standard quadrature but can only be applied for
+convergent problems. The second is a hybrid of cubature: it uses the posterior
+to discover and tessellate the subset of that sample space was explored and
+uses quantiles to compute a representive field value. Neither algorithm makes
+strong assumptions about the shape of the posterior distribution and neither is
+sensitive outliers. [abridged]

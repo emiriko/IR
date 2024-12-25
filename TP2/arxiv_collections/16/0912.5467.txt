@@ -1,0 +1,23 @@
+Elfving's Theorem is a major result in the theory of optimal experimental
+design, which gives a geometrical characterization of $c-$optimality. In this
+paper, we extend this theorem to the case of multiresponse experiments, and we
+show that when the number of experiments is finite, $c-,A-,T-$ and $D-$optimal
+design of multiresponse experiments can be computed by Second-Order Cone
+Programming (SOCP). Moreover, our SOCP approach can deal with design problems
+in which the variable is subject to several linear constraints.
+  We give two proofs of this generalization of Elfving's theorem. One is based
+on Lagrangian dualization techniques and relies on the fact that the
+semidefinite programming (SDP) formulation of the multiresponse $c-$optimal
+design always has a solution which is a matrix of rank $1$. Therefore, the
+complexity of this problem fades.
+  We also investigate a \emph{model robust} generalization of $c-$optimality,
+for which an Elfving-type theorem was established by Dette (1993). We show with
+the same Lagrangian approach that these model robust designs can be computed
+efficiently by minimizing a geometric mean under some norm constraints.
+Moreover, we show that the optimality conditions of this geometric programming
+problem yield an extension of Dette's theorem to the case of multiresponse
+experiments.
+  When the number of unknown parameters is small, or when the number of linear
+functions of the parameters to be estimated is small, we show by numerical
+examples that our approach can be between 10 and 1000 times faster than the
+classic, state-of-the-art algorithms.

@@ -1,0 +1,18 @@
+In this paper we explore the structure and applicability of the Distributed
+Measurement Calculus (DMC), an assembly language for distributed
+measurement-based quantum computations. We describe the formal language's
+syntax and semantics, both operational and denotational, and state several
+properties that are crucial to the practical usability of our language, such as
+equivalence of our semantics, as well as compositionality and context-freeness
+of DMC programs. We show how to put these properties to use by constructing a
+composite program that implements distributed controlled operations, in the
+knowledge that the semantics of this program does not change under the various
+composition operations. Our formal model is the basis of a quantum virtual
+machine construction for distributed quantum computations, which we elaborate
+upon in the latter part of this work. This virtual machine embodies the formal
+semantics of DMC such that programming execution no longer needs to be analysed
+by hand. Far from a literal translation, it requires a substantial
+concretisation of the formal model at the level of data structures, naming
+conventions and abstraction mechanisms. At the same time we provide
+automatisation techniques for program specification where possible to obtain an
+expressive and user-friendly programming environment.

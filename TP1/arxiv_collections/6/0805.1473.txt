@@ -1,0 +1,6 @@
+We introduce a new tractable temporal constraint language, which strictly
+contains the Ord-Horn language of Buerkert and Nebel and the class of AND/OR
+precedence constraints. The algorithm we present for this language decides
+whether a given set of constraints is consistent in time that is quadratic in
+the input size. We also prove that (unlike Ord-Horn) this language cannot be
+solved by Datalog or by establishing local consistency.

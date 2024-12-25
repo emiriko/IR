@@ -1,0 +1,14 @@
+Recently, there has been a lot of interest in the integration of Description
+Logics and rules on the Semantic Web.We define guarded hybrid knowledge bases
+(or g-hybrid knowledge bases) as knowledge bases that consist of a Description
+Logic knowledge base and a guarded logic program, similar to the DL+log
+knowledge bases from (Rosati 2006). G-hybrid knowledge bases enable an
+integration of Description Logics and Logic Programming where, unlike in other
+approaches, variables in the rules of a guarded program do not need to appear
+in positive non-DL atoms of the body, i.e. DL atoms can act as guards as well.
+Decidability of satisfiability checking of g-hybrid knowledge bases is shown
+for the particular DL DLRO, which is close to OWL DL, by a reduction to guarded
+programs under the open answer set semantics. Moreover, we show
+2-EXPTIME-completeness for satisfiability checking of such g-hybrid knowledge
+bases. Finally, we discuss advantages and disadvantages of our approach
+compared with DL+log knowledge bases.

@@ -1,0 +1,12 @@
+The solution of large sparse linear systems is often the most time-consuming
+part of many science and engineering applications. Computational fluid
+dynamics, circuit simulation, power network analysis, and material science are
+just a few examples of the application areas in which large sparse linear
+systems need to be solved effectively. In this paper we introduce a new
+parallel hybrid sparse linear system solver for distributed memory
+architectures that contains both direct and iterative components. We show that
+by using our solver one can alleviate the drawbacks of direct and iterative
+solvers, achieving better scalability than with direct solvers and more
+robustness than with classical preconditioned iterative solvers. Comparisons to
+well-known direct and iterative solvers on a parallel architecture are
+provided.

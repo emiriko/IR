@@ -1,0 +1,11 @@
+We introduce a new methodology for a fast and reliable discrimination between
+ordered and chaotic orbits in multidimensional Hamiltonian systems which we
+call the Linear Dependence Index (LDI). The new method is based on the recently
+introduced theory of the Generalized Alignment Indices (GALI). LDI takes
+advantage of the linear dependence (or independence) of deviation vectors of a
+given orbit, using the method of Singular Value Decomposition at every time
+step of the integration. We show that the LDI produces estimates which
+numerically coincide with those of the GALI method for the same number of $m$
+deviation vectors, while its main advantage is that it requires considerable
+less CPU time than GALI especially in Hamiltonian systems of many degrees of
+freedom

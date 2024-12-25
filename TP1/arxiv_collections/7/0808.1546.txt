@@ -1,0 +1,24 @@
+This thesis explores the use of entangled states in quantum computation and
+quantum information science. Entanglement, a quantum phenomenon with no
+classical counterpart, has been identified as an important and quantifiable
+resource in many areas of theoretical quantum information science, including
+quantum error correction, quantum cryptography, and quantum algorithms. We
+first investigate the equivalence classes of a particular class of entangled
+states (known as graph states due to their association with mathematical
+graphs) under local operations. We prove that for graph states corresponding to
+graphs with neither cycles of length 3 nor 4, the equivalence classes can be
+characterized in a very simple way. We also present software for analyzing and
+manipulating graph states. We then study quantum error-correcting codes whose
+codewords are highly entangled states. An important area of investigation
+concerning QECCs is to determine which resources are necessary in order to
+carry out any computation on the code to an arbitrary degree of accuracy, while
+simultaneously maintaining a high degree of resistance to noise. We prove that
+transversal gates, which are designed to prevent the propagation of errors
+through a system, are insufficient to achieve universal computation on almost
+all QECCs. Finally, we study the problem of creating efficient quantum circuits
+for creating entangling measurements. Entangling measurements can be used to
+harness the apparent extra computing power of quantum systems by allowing us to
+extract information about the global, collective properties of a quantum state
+using local measurements. We construct explicit quantum circuits that create
+entangling measurements, and show that these circuits scale polynomially in the
+input parameters.

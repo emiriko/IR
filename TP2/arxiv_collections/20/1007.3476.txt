@@ -1,0 +1,12 @@
+New techniques in cross-layer wireless networks are building demand for
+ubiquitous channel sounding, that is, the capability to measure channel impulse
+response (CIR) with any standard wireless network and node. Towards that goal,
+we present a software-defined IEEE 802.11b receiver and CIR estimation system
+with little additional computational complexity compared to 802.11b reception
+alone. The system implementation, using the universal software radio peripheral
+(USRP) and GNU Radio, is described and compared to previous work. By overcoming
+computational limitations and performing direct-sequence spread-spectrum
+(DS-SS) matched filtering on the USRP, we enable high-quality yet inexpensive
+CIR estimation. We validate the channel sounder and present a drive test
+campaign which measures hundreds of channels between WiFi access points and an
+in-vehicle receiver in urban and suburban areas.

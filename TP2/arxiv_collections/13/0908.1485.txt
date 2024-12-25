@@ -1,0 +1,18 @@
+This paper considers a class of deploy and search strategies for multi-robot
+systems and evaluates their performance. The application framework used is a
+system of autonomous mobile robots equipped with required sensors and
+communication equipment deployed in a search space to gather information. The
+lack of information about the search space is modeled as an uncertainty density
+distribution over the search space. A {\em combined deploy and search} (CDS)
+strategy has been formulated as a modification to {\em sequential deploy and
+search} (SDS) strategy presented in our previous work. The optimal deployment
+strategy using Voronoi partition forms the basis for these two search
+strategies. The strategies are analyzed in presence of constraints on robot
+speed and limit on sensor range for convergence of trajectories with
+corresponding control laws responsible for the motion of robots. SDS and CDS
+strategies are compared with standard greedy and random search strategies on
+the basis of time taken to achieve reduction in the uncertainty density below a
+desired level. The simulation experiments reveal several important issues
+related to the dependence of the relative performances of the strategies on
+parameters such as number of robots, speed of robots, and their sensor range
+limits.

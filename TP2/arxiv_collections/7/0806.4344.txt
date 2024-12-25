@@ -1,0 +1,15 @@
+We consider approximating the minmax value of a multi-player game in
+strategic form. Tightening recent bounds by Borgs et al., we observe that
+approximating the value with a precision of epsilon log n digits (for any
+constant epsilon>0 is NP-hard, where n is the size of the game. On the other
+hand, approximating the value with a precision of c log log n digits (for any
+constant c >= 1) can be done in quasi-polynomial time. We consider the
+parameterized complexity of the problem, with the parameter being the number of
+pure strategies k of the player for which the minmax value is computed. We show
+that if there are three players, k=2 and there are only two possible rational
+payoffs, the minmax value is a rational number and can be computed exactly in
+linear time. In the general case, we show that the value can be approximated
+with any polynomial number of digits of accuracy in time n^(O(k)). On the other
+hand, we show that minmax value approximation is W[1]-hard and hence not likely
+to be fixed parameter tractable. Concretely, we show that if k-CLIQUE requires
+time n^(Omega(k)) then so does minmax value computation.

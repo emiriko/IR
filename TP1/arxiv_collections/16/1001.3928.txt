@@ -1,0 +1,9 @@
+Digital watermarking consists on inserting a mark into an image to protect it
+against copies. The heaviness of the extraction procedure with the old methods
+urged us to look for a new algorithm in the singular values domain which would
+be blind : it does not require the original image to extract the mark. We
+propose a new robust method which consists on inserting the bits of the mark
+into the singular values matrix. Contrary to most of the watermarking
+algorithms, it is blind and the results show that our method is robust against
+the JPEG compression, the reduction of colors (GIF) and the histogram
+spreading. So, we were able to obtain PSNR = 49,63 dB.

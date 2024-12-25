@@ -1,0 +1,13 @@
+The pair approximation is a simple, low-order method to incorporate effects
+of local spatial structure in epidemiological models. However, since for K
+state variables in a model there are K(K+1)/2 equations in the pair
+approximation, generating these equations, although straightforward, can become
+tedious. In this paper we describe two programs written in Perl to simplify
+this process - one to construct the equations, and the other to generate
+Matlab/Octave functions to numerically integrate the equations using a
+positivity-preserving method. A third utility program is also included which
+generates a Maple file that can be used within the Maple symbolic manipulation
+program to simplify algebraically some of the terms in the generated file
+describing the equations, as well as to check that the usual combination of
+equations sum up to zero, which is expected in cases where the total population
+sizes are conserved.

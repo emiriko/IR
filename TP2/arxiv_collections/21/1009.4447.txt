@@ -1,0 +1,15 @@
+In this paper we ask which properties of a distributed network can be
+computed from a little amount of local information provided by its nodes. The
+distributed model we consider is a restriction of the classical CONGEST
+(distributed) model and it is close to the simultaneous messages (communication
+complexity) model defined by Babai, Kimmel and Lokam. More precisely, each of
+these n nodes -which only knows its own ID and the IDs of its neighbors- is
+allowed to send a message of O(log n) bits to some central entity, called the
+referee. Is it possible for the referee to decide some basic structural
+properties of the network topology G? We show that simple questions like, "does
+G contain a square?", "does G contain a triangle?" or "Is the diameter of G at
+most 3? cannot be solved in general. On the other hand, the referee can decode
+the messages in order to have full knowledge of G when G belongs to many graph
+classes such as planar graphs, bounded treewidth graphs and, more generally,
+bounded degeneracy graphs. We leave open questions related to the connectivity
+of arbitrary graphs.

@@ -1,0 +1,9 @@
+A Bloom filter is a space efficient structure for storing static sets, where
+the space efficiency is gained at the expense of a small probability of
+false-positives. A Bloomier filter generalizes a Bloom filter to compactly
+store a function with a static support. In this article we give a simple
+construction of a Bloomier filter. The construction is linear in space and
+requires constant time to evaluate. The creation of our Bloomier filter takes
+linear time which is faster than the existing construction. We show how one can
+improve the space utilization further at the cost of increasing the time for
+creating the data structure.

@@ -1,0 +1,22 @@
+The application that motivates this paper is molecular imaging at the atomic
+level. When discretized at sub-atomic distances, the volume is inherently
+sparse. Noiseless measurements from an imaging technology can be modeled by
+convolution of the image with the system point spread function (psf). Such is
+the case with magnetic resonance force microscopy (MRFM), an emerging
+technology where imaging of an individual tobacco mosaic virus was recently
+demonstrated with nanometer resolution. We also consider additive white
+Gaussian noise (AWGN) in the measurements. Many prior works of sparse
+estimators have focused on the case when H has low coherence; however, the
+system matrix H in our application is the convolution matrix for the system
+psf. A typical convolution matrix has high coherence. The paper therefore does
+not assume a low coherence H. A discrete-continuous form of the Laplacian and
+atom at zero (LAZE) p.d.f. used by Johnstone and Silverman is formulated, and
+two sparse estimators derived by maximizing the joint p.d.f. of the observation
+and image conditioned on the hyperparameters. A thresholding rule that
+generalizes the hard and soft thresholding rule appears in the course of the
+derivation. This so-called hybrid thresholding rule, when used in the iterative
+thresholding framework, gives rise to the hybrid estimator, a generalization of
+the lasso. Unbiased estimates of the hyperparameters for the lasso and hybrid
+estimator are obtained via Stein's unbiased risk estimate (SURE). A numerical
+study with a Gaussian psf and two sparse images shows that the hybrid estimator
+outperforms the lasso.

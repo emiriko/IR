@@ -1,0 +1,15 @@
+The problem of motif detection can be formulated as the construction of a
+discriminant function to separate sequences of a specific pattern from
+background. In computational biology, motif detection is used to predict DNA
+binding sites of a transcription factor (TF), mostly based on the weight matrix
+(WM) model or the Gibbs free energy (FE) model. However, despite the wide
+applications, theoretical analysis of these two models and their predictions is
+still lacking. We derive asymptotic error rates of prediction procedures based
+on these models under different data generation assumptions. This allows a
+theoretical comparison between the WM-based and the FE-based predictions in
+terms of asymptotic efficiency. Applications of the theoretical results are
+demonstrated with empirical studies on ChIP-seq data and protein binding
+microarray data. We find that, irrespective of underlying data generation
+mechanisms, the FE approach shows higher or comparable predictive power
+relative to the WM approach when the number of observed binding sites used for
+constructing a discriminant decision is not too small.

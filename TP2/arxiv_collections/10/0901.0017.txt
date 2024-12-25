@@ -1,0 +1,12 @@
+The EM algorithm is a widely used methodology for penalized likelihood
+estimation. Provable monotonicity and convergence are the hallmarks of the EM
+algorithm and these properties are well established for smooth likelihood and
+smooth penalty functions. However, many relaxed versions of variable selection
+penalties are not smooth. The goal of this paper is to introduce a new class of
+Space Alternating Penalized Kullback Proximal extensions of the EM algorithm
+for nonsmooth likelihood inference. We show that the cluster points of the new
+method are stationary points even when on the boundary of the parameter set.
+Special attention has been paid to the construction of component-wise version
+of the method in order to ease the implementation for complicated models.
+Illustration for the problems of model selection for finite mixtures of
+regression and to sparse image reconstruction is presented.

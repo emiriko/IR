@@ -1,0 +1,19 @@
+Community structure is one of the main structural features of networks,
+revealing both their internal organization and the similarity of their
+elementary units. Despite the large variety of methods proposed to detect
+communities in graphs, there is a big need for multi-purpose techniques, able
+to handle different types of datasets and the subtleties of community
+structure. In this paper we present OSLOM (Order Statistics Local Optimization
+Method), the first method capable to detect clusters in networks accounting for
+edge directions, edge weights, overlapping communities, hierarchies and
+community dynamics. It is based on the local optimization of a fitness function
+expressing the statistical significance of clusters with respect to random
+fluctuations, which is estimated with tools of Extreme and Order Statistics.
+OSLOM can be used alone or as a refinement procedure of partitions/covers
+delivered by other techniques. We have also implemented sequential algorithms
+combining OSLOM with other fast techniques, so that the community structure of
+very large networks can be uncovered. Our method has a comparable performance
+as the best existing algorithms on artificial benchmark graphs. Several
+applications on real networks are shown as well. OSLOM is implemented in a
+freely available software (http://www.oslom.org), and we believe it will be a
+valuable tool in the analysis of networks.

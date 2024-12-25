@@ -1,0 +1,14 @@
+A general lattice Boltzmann (LB) model is proposed for solving nonlinear
+partial differential equations with the form $\partial_t \phi+\sum_{k=1}^{m}
+\alpha_k \partial_x^k \Pi_k (\phi)=0$, where $\alpha_k$ are constant
+coefficients, and $\Pi_k (\phi)$ are the known differential functions of
+$\phi$, $1\leq k\leq m \leq 6$. The model can be applied to the common
+nonlinear evolutionary equations, such as (m)KdV equation, KdV-Burgers
+equation, K($m,n$) equation, Kuramoto-Sivashinsky equation, and Kawahara
+equation, etc. Unlike the existing LB models, the correct constraints on
+moments of equilibrium distribution function in the proposed model are given by
+choosing suitable \emph{auxiliary-moments}, and how to exactly recover the
+macroscopic equations through Chapman-Enskog expansion is discussed in this
+paper. Detailed simulations of these equations are performed, and it is found
+that the numerical results agree well with the analytical solutions and the
+numerical solutions reported in previous studies.

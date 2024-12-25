@@ -1,0 +1,18 @@
+Online adaptive radiation therapy (ART) is an attractive concept that
+promises the ability to deliver an optimal treatment in response to the
+inter-fraction variability in patient anatomy. However, it has yet to be
+realized due to technical limitations. Fast dose deposit coefficient
+calculation is a critical component of the online planning process that is
+required for plan optimization of intensity modulated radiation therapy (IMRT).
+Computer graphics processing units (GPUs) are well-suited to provide the
+requisite fast performance for the data-parallel nature of dose calculation. In
+this work, we develop a dose calculation engine based on a finite-size pencil
+beam (FSPB) algorithm and a GPU parallel computing framework. The developed
+framework can accommodate any FSPB model. We test our implementation on a case
+of a water phantom and a case of a prostate cancer patient with varying beamlet
+and voxel sizes. All testing scenarios achieved speedup ranging from 200~400
+times when using a NVIDIA Tesla C1060 card in comparison with a 2.27GHz Intel
+Xeon CPU. The computational time for calculating dose deposition coefficients
+for a 9-field prostate IMRT plan with this new framework is less than 1 second.
+This indicates that the GPU-based FSPB algorithm is well-suited for online
+re-planning for adaptive radiotherapy.

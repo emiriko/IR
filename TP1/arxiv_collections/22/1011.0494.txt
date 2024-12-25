@@ -1,0 +1,20 @@
+The modelling and analysis of biological systems has deep roots in
+Mathematics, specifically in the field of ordinary differential equations
+(ODEs). Alternative approaches based on formal calculi, often derived from
+process algebras or term rewriting systems, provide a quite complementary way
+to analyze the behaviour of biological systems. These calculi allow to cope in
+a natural way with notions like compartments and membranes, which are not easy
+(sometimes impossible) to handle with purely numerical approaches, and are
+often based on stochastic simulation methods. Recently, it has also become
+evident that stochastic effects in regulatory networks play a crucial role in
+the analysis of such systems. Actually, in many situations it is necessary to
+use stochastic models. For example when the system to be described is based on
+the interaction of few molecules, when we are at the presence of a chemical
+instability, or when we want to simulate the functioning of a pool of entities
+whose compartmentalised structure evolves dynamically. In contrast, stable
+metabolic networks, involving a large number of reagents, for which the
+computational cost of a stochastic simulation becomes an insurmountable
+obstacle, are efficiently modelled with ODEs. In this paper we define a hybrid
+simulation method, combining the stochastic approach with ODEs, for systems
+described in CWC, a calculus on which we can express the compartmentalisation
+of a biological system whose evolution is defined by a set of rewrite rules.

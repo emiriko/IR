@@ -1,0 +1,21 @@
+The gamma-index dose comparison tool has been widely used to compare dose
+distributions in cancer radiotherapy. The accurate calculation of gamma-index
+requires an exhaustive search of the closest Euclidean distance in the
+high-resolution dose-distance space. This is a computational intensive task
+when dealing with 3D dose distributions. In this work, we combine a geometric
+method with a radial pre-sorting technique , and implement them on computer
+graphics processing units (GPUs). The developed GPU-based gamma-index
+computational tool is evaluated on eight pairs of IMRT dose distributions. The
+GPU implementation achieved 20x~30x speedup factor compared to CPU
+implementation and gamma-index calculations can be finished within a few
+seconds for all 3D testing cases. We further investigated the effect of various
+factors on both CPU and GPU computation time. The strategy of pre-sorting
+voxels based on their dose difference values speed up the GPU calculation by
+about 2-4 times. For n-dimensional dose distributions, gamma-index calculation
+time on CPU is proportional to the summation of gamma^n over all voxels, while
+that on GPU is effected by gamma^n distributions and is approximately
+proportional to the gamma^n summation over all voxels. We found increasing dose
+distributions resolution leads to quadratic increase of computation time on
+CPU, while less-than-quadratic increase on GPU. The values of dose difference
+(DD) and distance-to-agreement (DTA) criteria also have their impact on
+gamma-index calculation time.

@@ -1,0 +1,19 @@
+The efficient placement of signal templates in source-parameter space is a
+crucial requisite for exhaustive matched-filtering searches of modeled
+gravitational-wave sources. Unfortunately, the current placement algorithms
+based on regular parameter-space meshes are difficult to generalize beyond
+simple signal models with few parameters. Various authors have suggested that a
+general, flexible, yet efficient alternative can be found in randomized
+placement strategies such as random placement and stochastic placement, which
+enhances random placement by selectively rejecting templates that are too close
+to others. In this article we explore several theoretical and practical issues
+in randomized placement: the size and performance of the resulting template
+banks; the effects of parameter-space boundaries; the use of quasi-random (self
+avoiding) number sequences; most important, the implementation of these
+algorithms in curved signal manifolds with and without the use of a Riemannian
+signal metric, which may be difficult to obtain. Specifically, we show how the
+metric can be replaced with a discrete triangulation-based representation of
+local geometry. We argue that the broad class of randomized placement
+algorithms offers a promising answer to many search problems, but that the
+specific choice of a scheme and its implementation details will still need to
+be fine-tuned separately for each problem.

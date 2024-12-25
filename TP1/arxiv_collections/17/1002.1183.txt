@@ -1,0 +1,8 @@
+We discuss a Monte Carlo Markov Chain (MCMC) procedure for the random
+sampling of some one-dimensional lattice paths with constraints, for various
+constraints. We show that an approach inspired by optimal transport allows us
+to bound efficiently the mixing time of the associated Markov chain. The
+algorithm is robust and easy to implement, and samples an "almost" uniform path
+of length $n$ in $n^{3+\eps}$ steps. This bound makes use of a certain
+contraction property of the Markov chain, and is also used to derive a bound
+for the running time of Propp-Wilson's CFTP algorithm.

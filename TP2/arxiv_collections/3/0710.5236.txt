@@ -1,0 +1,20 @@
+In this paper, we provide a saturation throughput analysis of the IEEE 802.11
+protocol at the data link layer by including the impact of both transmission
+channel and capture effects in Rayleigh fading environment. Impacts of both
+non-ideal channel and capture effects, specially in an environment of high
+interference, become important in terms of the actual observed throughput. As
+far as the 4-way handshaking mechanism is concerned, we extend the
+multi-dimensional Markovian state transition model characterizing the behavior
+at the MAC layer by including transmission states that account for packet
+transmission failures due to errors caused by propagation through the channel.
+This way, any channel model characterizing the physical transmission medium can
+be accommodated, including AWGN and fading channels. We also extend the Markov
+model in order to consider the behavior of the contention window when employing
+the basic 2-way handshaking mechanism.
+  Under the usual assumptions regarding the traffic generated per node and
+independence of packet collisions, we solve for the stationary probabilities of
+the Markov chain and develop expressions for the saturation throughput as a
+function of the number of terminals, packet sizes, raw channel error rates,
+capture probability, and other key system parameters. The theoretical
+derivations are then compared to simulation results confirming the
+effectiveness of the proposed models.

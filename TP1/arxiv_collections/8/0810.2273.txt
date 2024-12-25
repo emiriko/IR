@@ -1,0 +1,10 @@
+Nowadays the state of the art Density Functional Theory (DFT) codes are based
+on local (LDA) or semilocal (GGA) energy functionals. Recently the theory of a
+truly nonlocal energy functional has been developed. It has been used mostly as
+a post DFT calculation approach, i.e. by applying the functional on the charge
+density calculated using any standard DFT code, thus obtaining a new improved
+value for the total energy of the system. Nonlocal calculation is
+computationally quite expensive and scales as N^2 where N is the number of
+points in which charge density is defined, and a massively parallel calculation
+is essential for a wider applicability of the new approach. In this article we
+present a code which acomplishes this goal.

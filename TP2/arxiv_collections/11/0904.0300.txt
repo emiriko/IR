@@ -1,0 +1,21 @@
+Semantic web services (SWS) are self-contained, self-describing, semantically
+marked-up software resources that can be published, discovered, composed and
+executed across the Web in a semi-automatic way. They are a key component of
+the future Semantic Web, in which networked computer programs become providers
+and users of information at the same time. This work focuses on developing a
+full-life-cycle software toolset for creating and maintaining Semantic Web
+Services (SWSs) based on the Web Service Modelling Ontology (WSMO) framework. A
+main part of WSMO-based SWS is service capability - a declarative description
+of Web service functionality. A formal syntax and semantics for such a
+description is provided by Web Service Modeling Language (WSML), which is based
+on different logical formalisms, namely, Description Logics, First-Order Logic
+and Logic Programming. A WSML description of a Web service capability is
+represented as a set of complex logical expressions (axioms). We develop a
+specialized user-friendly tool for constructing and editing WSMO-based SWS
+capabilities. Since the users of this tool are not specialists in first-order
+logic, a graphical way for constricting and editing axioms is proposed. The
+designed process for constructing logical expressions is ontology-driven, which
+abstracts away as much as possible from any concrete syntax of logical
+language. We propose several mechanisms to guarantees the semantic consistency
+of the produced logical expressions. The tool is implemented in Java using
+Eclipse for IDE and GEF (Graphical Editing Framework) for visualization.

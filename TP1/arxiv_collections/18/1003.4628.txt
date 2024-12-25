@@ -1,0 +1,10 @@
+In this paper, we consider methods to compute the coefficients of
+interpolants relative to a basis of polynomials satisfying a three-term
+recurrence relation. Two new algorithms are presented: the first constructs the
+coefficients of the interpolation incrementally and can be used to update the
+coefficients whenever a nodes is added to or removed from the interpolation.
+The second algorithm, which constructs the interpolation coefficients by
+decomposing the Vandermonde-like matrix iteratively, can not be used to update
+or downdate an interpolation, yet is more numerically stable than the first
+algorithm and is more efficient when the coefficients of multiple
+interpolations are to be computed over the same set of nodes.

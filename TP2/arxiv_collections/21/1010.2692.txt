@@ -1,0 +1,19 @@
+In this paper, we consider maximizing the sum-rate in the uplink of a
+multi-cell OFDMA network. The problem has a non-convex combinatorial structure
+and is known to be NP hard. Due to the inherent complexity of implementing the
+optimal solution, firstly, we derive an upper and lower bound to the optimal
+average network throughput. Moreover, we investigate the performance of a near
+optimal single cell resource allocation scheme in the presence of ICI which
+leads to another easily computable lower bound. We then develop a centralized
+sub-optimal scheme that is composed of a geometric programming based power
+control phase in conjunction with an iterative subcarrier allocation phase.
+Although, the scheme is computationally complex, it provides an effective
+benchmark for low complexity schemes even without the power control phase.
+Finally, we propose less complex centralized and distributed schemes that are
+well-suited for practical scenarios. The computational complexity of all
+schemes is analyzed and performance is compared through simulations. Simulation
+results demonstrate that the proposed low complexity schemes can achieve
+comparable performance to the centralized sub-optimal scheme in various
+scenarios. Moreover, comparisons with the upper and lower bounds provide
+insight on the performance gap between the proposed schemes and the optimal
+solution.

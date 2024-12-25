@@ -1,0 +1,9 @@
+We develop a parallel algorithm that calculates the exact partition function
+of a lattice polymer, by enumerating the number of conformations for each
+energy level. An efficient parallelization of the calculation is achieved by
+classifying the conformations according to the shape of the box spanned by a
+conformation, and enumerating only those in a given box at a time. The
+calculation time for each box is reduced by preventing the conformations
+related by symmetries from being generated more than once. The algorithm is
+applied to study the collapse transition of a lattice homopolymer on a square
+lattice, by calculating the specific heat for chain lengths up to 36.

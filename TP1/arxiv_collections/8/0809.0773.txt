@@ -1,0 +1,19 @@
+While ordinary differential equations (ODEs) form the conceptual framework
+for modelling many cellular processes, specific situations demand stochastic
+models to capture the influence of noise. The most common formulation of
+stochastic models for biochemical networks is the chemical master equation
+(CME). While stochastic simulations are a practical way to realise the CME,
+analytical approximations offer more insight into the influence of noise.
+Towards that end, the two-moment approximation (2MA) is a promising addition to
+the established analytical approaches including the chemical Langevin equation
+(CLE) and the related linear noise approximation (LNA). The 2MA approach
+directly tracks the mean and (co)variance which are coupled in general. This
+coupling is not obvious in CME and CLE and ignored by LNA and conventional ODE
+models. We extend previous derivations of 2MA by allowing a) non-elementary
+reactions and b) relative concentrations. Often, several elementary reactions
+are approximated by a single step. Furthermore, practical situations often
+require the use relative concentrations. We investigate the applicability of
+the 2MA approach to the well established fission yeast cell cycle model. Our
+analytical model reproduces the clustering of cycle times observed in
+experiments. This is explained through multiple resettings of MPF, caused by
+the coupling between mean and (co)variance, near the G2/M transition.

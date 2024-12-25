@@ -1,0 +1,13 @@
+Graphs with high symmetry or regularity are the main source for
+experimentally hard instances of the notoriously difficult graph isomorphism
+problem. In this paper, we study the computational complexity of isomorphism
+testing for line graphs of $t$-$(v,k,\lambda)$ designs. For this class of
+highly regular graphs, we obtain a worst-case running time of $O(v^{\log v +
+O(1)})$ for bounded parameters $t,k,\lambda$. In a first step, our approach
+makes use of the Babai--Luks algorithm to compute canonical forms of
+$t$-designs. In a second step, we show that $t$-designs can be reconstructed
+from their line graphs in polynomial-time. The first is algebraic in nature,
+the second purely combinatorial. For both, profound structural knowledge in
+design theory is required. Our results extend earlier complexity results about
+isomorphism testing of graphs generated from Steiner triple systems and block
+designs.

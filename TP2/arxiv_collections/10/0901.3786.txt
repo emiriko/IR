@@ -1,0 +1,14 @@
+To prove that a polynomial is nonnegative on R^n one can try to show that it
+is a sum of squares of polynomials (SOS). The latter problem is now known to be
+reducible to a semidefinite programming (SDP) computation much faster than
+classical algebraic methods, thus enabling new speed-ups in algebraic
+optimization. However, exactly how often nonnegative polynomials are in fact
+sums of squares of polynomials remains an open problem. Blekherman was recently
+able to show that for degree k polynomials in n variables -- with k>=4 fixed --
+those that are SOS occupy a vanishingly small fraction of those that are
+nonnegative on R^n, as n tends to infinity.
+  With an eye toward the case of small n, we refine Blekherman's bounds by
+incorporating the underlying Newton polytope, simultaneously sharpening some of
+his older bounds along the way. Our refined asymptotics show that certain
+Newton polytopes may lead to families of polynomials where efficient SDP can
+still be used for most inputs.

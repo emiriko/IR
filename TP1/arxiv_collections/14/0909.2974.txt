@@ -1,0 +1,20 @@
+We establish large deviation formulas for linear statistics on the $N$
+transmission eigenvalues $\{T_i\}$ of a chaotic cavity, in the framework of
+Random Matrix Theory. Given any linear statistics of interest $A=\sum_{i=1}^N
+a(T_i)$, the probability distribution $\mathcal{P}_A(A,N)$ of $A$ generically
+satisfies the large deviation formula
+$\lim_{N\to\infty}[-2\log\mathcal{P}_A(Nx,N)/\beta N^2]=\Psi_A(x)$, where
+$\Psi_A(x)$ is a rate function that we compute explicitly in many cases
+(conductance, shot noise, moments) and $\beta$ corresponds to different
+symmetry classes. Using these large deviation expressions, it is possible to
+recover easily known results and to produce new formulas, such as a closed form
+expression for $v(n)=\lim_{N\to\infty}\mathrm{var}(\mathcal{T}_n)$ (where
+$\mathcal{T}_n=\sum_{i}T_i^n$) for arbitrary integer $n$. The universal limit
+$v^\star=\lim_{n\to\infty} v(n)=1/2\pi\beta$ is also computed exactly. The
+distributions display a central Gaussian region flanked on both sides by
+non-Gaussian tails. At the junction of the two regimes, weakly non-analytical
+points appear, a direct consequence of phase transitions in an associated
+Coulomb gas problem. Numerical checks are also provided, which are in full
+agreement with our asymptotic results in both real and Laplace space even for
+moderately small $N$. Part of the results have been announced in [P. Vivo, S.N.
+Majumdar and O. Bohigas, {\it Phys. Rev. Lett.} {\bf 101}, 216809 (2008)].

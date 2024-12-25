@@ -1,0 +1,16 @@
+Let $K$ denote a field and let $V$ denote a vector space over $K$ with finite
+positive dimension. We consider a pair of linear transformations $A:V \to V$
+and $A^*:V \to V$ that satisfy the following conditions: (i) each of $A,A^*$ is
+diagonalizable; (ii) there exists an ordering $\lbrace V_i\rbrace_{i=0}^d$ of
+the eigenspaces of $A$ such that $A^* V_i \subseteq V_{i-1} + V_{i} + V_{i+1}$
+for $0 \leq i \leq d$, where $V_{-1}=0$ and $V_{d+1}=0$; (iii) there exists an
+ordering $\lbrace V^*_i\rbrace_{i=0}^\delta$ of the eigenspaces of $A^*$ such
+that $A V^*_i \subseteq V^*_{i-1} + V^*_{i} + V^*_{i+1}$ for
+  $0 \leq i \leq \delta$, where $V^*_{-1}=0$ and $V^*_{\delta+1}=0$; (iv) there
+is no subspace $W$ of $V$ such that $AW \subseteq W$, $A^* W \subseteq W$, $W
+\neq 0$, $W \neq V$. We call such a pair a {\it tridiagonal pair} on $V$. It is
+known that $d=\delta$ and for $0 \leq i \leq d$ the dimensions of $V_i$,
+$V^*_i$, $V_{d-i}$, $V^*_{d-i}$ coincide; we denote this common dimension by
+$\rho_i$. In this paper we prove that $\rho_i \leq \rho_0 \binom{d}{i}$ for $0
+\leq i \leq d$. It is already known that $\rho_0=1$ if $\K$ is algebraically
+closed.

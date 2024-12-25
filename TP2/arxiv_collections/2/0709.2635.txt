@@ -1,0 +1,9 @@
+Data transfer and staging services are common components in Grid-based, or
+more generally, in service-oriented applications. Security mechanisms play a
+central role in such services, especially when they are deployed in sensitive
+application fields like e-health. The adoption of WS-Security and related
+standards to SOAP-based transfer services is, however, problematic as a
+straightforward adoption of SOAP with MTOM introduces considerable
+inefficiencies in the signature generation process when large data sets are
+involved. This paper proposes a non-blocking, signature generation approach
+enabling a stream-like processing with considerable performance enhancements.

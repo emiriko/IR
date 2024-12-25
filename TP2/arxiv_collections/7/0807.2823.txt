@@ -1,0 +1,12 @@
+In the note we consider an iterative generalisation of the rejection sampling
+method. In high energy physics, this sampling is frequently used for event
+generation, i.e. preparation of phase space points distributed according to a
+matrix element squared $|M|^2$ for a scattering process. In many realistic
+cases $|M|^2$ is a complicated multi-dimensional function, so, the standard von
+Neumann procedure has quite low efficiency, even if an error reducing
+technique, like VEGAS, is applied. As a result of that, many of the $|M|^2$
+calculations go to ``waste''. The considered iterative modification of the
+procedure can extract more ``unweighted'' events, i.e. distributed according to
+$|M|^2$. In several simple examples we show practical benefits of the technique
+and obtain more events than the standard von Neumann method, without any extra
+calculations of $|M|^2$.

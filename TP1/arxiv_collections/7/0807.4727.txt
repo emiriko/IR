@@ -1,0 +1,9 @@
+Let r_j(\pi,s) denote the number of cells, colored j, in the s-residue
+diagram of partition \pi. The GBG-rank of \pi mod s is defined as
+r_0+r_1*w_s+r_2*w_s^2+...+r_(s-1)*w_s^(s-1), where w_s=exp(2*\Pi*I/s). We will
+prove that for (s,t)=1, v(s,t) <= binomial(s+t,s)/(s+t), where v(s,t) denotes a
+number of distinct values that GBG-rank mod s of t-core may assume. The above
+inequality becomes an equality when s is prime or when s is composite and
+t<=2p_s, where p_s is a smallest prime divisor of s. We will show that the
+generating functions for 4-cores with the prescribed values of GBG-rank mod 3
+are all eta-products.

@@ -1,0 +1,25 @@
+Stellar radial velocity (RV) measurements have proven to be a very successful
+method for detecting extrasolar planets. Analysing RV data to determine the
+parameters of the extrasolar planets is a significant statistical challenge
+owing to the presence of multiple planets and various degeneracies between
+orbital parameters. Determining the number of planets favoured by the observed
+data is an even more difficult task. Bayesian model selection provides a
+mathematically rigorous solution to this problem by calculating marginal
+posterior probabilities of models with different number of planets, but the use
+of this method in extrasolar planetary searches has been hampered by the
+computational cost of the evaluating Bayesian evidence. Nonetheless, Bayesian
+model selection has the potential to improve the interpretation of existing
+observational data and possibly detect yet undiscovered planets. We present a
+new and efficient Bayesian method for determining the number of extrasolar
+planets, as well as for inferring their orbital parameters, without having to
+calculate directly the Bayesian evidence for models containing a large number
+of planets. Instead, we work iteratively and at each iteration obtain a
+conservative lower limit on the odds ratio for the inclusion of an additional
+planet into the model. We apply this method to simulated data-sets containing
+one and two planets and successfully recover the correct number of planets and
+reliable constraints on the orbital parameters. We also apply our method to RV
+measurements of HD 37124, 47 Ursae Majoris and HD 10180. For HD 37124, we
+confirm that the current data strongly favour a three-planet system. We find
+strong evidence for the presence of a fourth planet in 47 Ursae Majoris, but
+its orbital period is suspiciously close to one year, casting doubt on its
+validity. For HD 10180 we find strong evidence for a six-planet system.

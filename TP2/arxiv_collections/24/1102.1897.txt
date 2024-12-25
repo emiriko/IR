@@ -1,0 +1,14 @@
+We present a comprehensive new framework for handling biologically accurate
+models of molecular evolution. This model provides a systematic framework for
+studying models of molecular evolution that implement heterogeneous rates,
+conservation of reading frame, differing rates of insertion and deletion,
+customizable parametrization of the probabilities and types of substitutions,
+insertions, and deletions, as well as neighboring dependencies. We have stated
+the model in terms of an infinite state Markov chain in order to maximize the
+number of applicable theorems useful in the analysis of the model. We use such
+theorems to develop an alignment-free parameter estimation technique. This
+alignment-free technique circumvents many of the nuanced issues related to
+alignment-dependent estimation. We then apply an implementation of our model to
+reproduce (in a completely alignment-free fashion) some observed results of
+Zhang and Gerstein (2003) regarding indel length distribution in human
+ribosomal protein pseudogenes.

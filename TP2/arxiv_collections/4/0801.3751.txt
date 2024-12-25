@@ -1,0 +1,30 @@
+Recent likelihood theory produces $p$-values that have remarkable accuracy
+and wide applicability. The calculations use familiar tools such as maximum
+likelihood values (MLEs), observed information and parameter rescaling. The
+usual evaluation of such $p$-values is by simulations, and such simulations do
+verify that the global distribution of the $p$-values is uniform(0, 1), to high
+accuracy in repeated sampling. The derivation of the $p$-values, however,
+asserts a stronger statement, that they have a uniform(0, 1) distribution
+conditionally, given identified precision information provided by the data. We
+take a simple regression example that involves exact precision information and
+use large sample techniques to extract highly accurate information as to the
+statistical position of the data point with respect to the parameter:
+specifically, we examine various $p$-values and Bayesian posterior survivor
+$s$-values for validity. With observed data we numerically evaluate the various
+$p$-values and $s$-values, and we also record the related general formulas. We
+then assess the numerical values for accuracy using Markov chain Monte Carlo
+(McMC) methods. We also propose some third-order likelihood-based procedures
+for obtaining means and variances of Bayesian posterior distributions, again
+followed by McMC assessment. Finally we propose some adaptive McMC methods to
+improve the simulation acceptance rates. All these methods are based on
+asymptotic analysis that derives from the effect of additional data. And the
+methods use simple calculations based on familiar maximizing values and related
+informations. The example illustrates the general formulas and the ease of
+calculations, while the McMC assessments demonstrate the numerical validity of
+the $p$-values as percentage position of a data point. The example, however, is
+very simple and transparent, and thus gives little indication that in a wide
+generality of models the formulas do accurately separate information for almost
+any parameter of interest, and then do give accurate $p$-value determinations
+from that information. As illustration an enigmatic problem in the literature
+is discussed and simulations are recorded; various examples in the literature
+are cited.

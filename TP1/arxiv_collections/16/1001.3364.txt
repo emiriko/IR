@@ -1,0 +1,19 @@
+This thesis introduces PEMS2, an improvement to PEMS (Parallel External
+Memory System). PEMS executes Bulk-Synchronous Parallel (BSP) algorithms in an
+External Memory (EM) context, enabling computation with very large data sets
+which exceed the size of main memory. Many parallel algorithms have been
+designed and implemented for Bulk-Synchronous Parallel models of computation.
+Such algorithms generally assume that the entire data set is stored in main
+memory at once. PEMS overcomes this limitation without requiring any
+modification to the algorithm by using disk space as memory for additional
+"virtual processors". Previous work has shown this to be a promising approach
+which scales well as computational resources (i.e. processors and disks) are
+added. However, the technique incurs significant overhead when compared with
+purpose-built EM algorithms. PEMS2 introduces refinements to the simulation
+process intended to reduce this overhead as well as the amount of disk space
+required to run the simulation. New functionality is also introduced, including
+asynchronous I/O and support for multi-core processors. Experimental results
+show that these changes significantly improve the runtime of the simulation.
+PEMS2 narrows the performance gap between simulated BSP algorithms and their
+hand-crafted EM counterparts, providing a practical system for using BSP
+algorithms with data sets which exceed the size of RAM.

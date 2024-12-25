@@ -1,0 +1,11 @@
+New algorithms are proposed for the Tucker approximation of a 3-tensor, that
+access it using only the tensor-by-vector-by-vector multiplication subroutine.
+In the matrix case, Krylov methods are methods of choice to approximate the
+dominant column and row subspaces of a sparse or structured matrix given
+through the matrix-by-vector multiplication subroutine. Using the Wedderburn
+rank reduction formula, we propose an algorithm of matrix approximation that
+computes Krylov subspaces and allows generalization to the tensor case. Several
+variants of proposed tensor algorithms differ by pivoting strategies, overall
+cost and quality of approximation. By convincing numerical experiments we show
+that the proposed methods are faster and more accurate than the minimal Krylov
+recursion, proposed recently by Elden and Savas.

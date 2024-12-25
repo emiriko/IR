@@ -1,0 +1,14 @@
+At Crypto'07, Goyal introduced the concept of Accountable Authority
+Identity-Based Encryption as a convenient tool to reduce the amount of trust in
+authorities in Identity-Based Encryption. In this model, if the Private Key
+Generator (PKG) maliciously re-distributes users' decryption keys, it runs the
+risk of being caught and prosecuted. Goyal proposed two constructions: the
+first one is efficient but can only trace well-formed decryption keys to their
+source; the second one allows tracing obfuscated decryption boxes in a model
+(called weak black-box model) where cheating authorities have no decryption
+oracle. The latter scheme is unfortunately far less efficient in terms of
+decryption cost and ciphertext size. In this work, we propose a new
+construction that combines the efficiency of Goyal's first proposal with a very
+simple weak black-box tracing mechanism. Our scheme is described in the
+selective-ID model but readily extends to meet all security properties in the
+adaptive-ID sense, which is not known to be true for prior black-box schemes.

@@ -1,0 +1,10 @@
+We present the first GPU-based conjugate gradient (CG) solver for lattice QCD
+with domain-wall fermions (DWF). It is well-known that CG is the most
+time-consuming part in the Hybrid Monte Carlo simulation of unquenched lattice
+QCD, which becomes even more computational demanding for lattice QCD with exact
+chiral symmetry. We have designed a CG solver for the general 5-dimensional DWF
+operator on NVIDIA CUDA architecture with mixed-precision, using the defect
+correction as well as the reliable updates algorithms. We optimize our
+computation by even-odd preconditioning in the 4D space-time lattice, plus
+several innovative techniques for CUDA kernels. For NVIDIA GeForce GTX 285/480,
+our CG solver attains 180/233 Gflops (sustained).

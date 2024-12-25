@@ -1,0 +1,22 @@
+Gene trees are evolutionary trees representing the ancestry of genes sampled
+from multiple populations. Species trees represent populations of individuals
+-- each with many genes -- splitting into new populations or species. The
+coalescent process, which models ancestry of gene copies within populations, is
+often used to model the probability distribution of gene trees given a fixed
+species tree. This multispecies coalescent model provides a framework for
+phylogeneticists to infer species trees from gene trees using maximum
+likelihood or Bayesian approaches. Because the coalescent models a branching
+process over time, all trees are typically assumed to be rooted in this
+setting. Often, however, gene trees inferred by traditional phylogenetic
+methods are unrooted.
+  We investigate probabilities of unrooted gene trees under the multispecies
+coalescent model. We show that when there are 4 species with one gene sampled
+per species, the distribution of unrooted gene tree topologies identifies the
+unrooted species tree topology and some, but not all, information in the
+species tree edges (branch lengths). The location of the root on the species
+tree is not identifiable in this situation. However, for 5 or more species with
+one gene sampled per species, we show that the distribution of unrooted gene
+tree topologies identifies the rooted species tree topology and all its
+internal branch lengths. The length of any pendent branch leading to a leaf of
+the species tree is also identifiable for any species from which more than one
+gene is sampled.

@@ -1,0 +1,11 @@
+The operations of data set, such as intersection, union and complement, are
+the fundamental calculation in mathematics. It's very significant that
+designing fast algorithm for set operation. In this paper, the quantum
+algorithm for intersection is presented. And its running time is
+sqrt(|A|*|B|*|C|) for set operation C = A intersection B, while classical
+computation needs O (|A| *|B|) steps of computation in general, where |.|
+denotes the size of set. The presented algorithm is the combination of Grover's
+algorithm, classical memory and classical iterative computation, and the
+combination method decrease the complexity of designing quantum algorithm.The
+method can be used to design other set operations also. Keywords: Set
+operation, General Grover iteration, Grover's algorithm

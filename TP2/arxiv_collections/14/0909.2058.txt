@@ -1,0 +1,22 @@
+Recently, many content sites have started encouraging their users to engage
+in social activities such as adding buddies on Yahoo! Travel and sharing
+articles with their friends on New York Times. This has led to the emergence of
+{\em social content sites}, which is being facilitated by initiatives like
+OpenID (http://www.openid.net/) and OpenSocial (http://www.opensocial.org/).
+These community standards enable the open access to users' social profiles and
+connections by individual content sites and are bringing content-oriented sites
+and social networking sites ever closer. The integration of content and social
+information raises new challenges for {\em information management and
+discovery} over such sites. We propose a logical architecture, named
+\kw{SocialScope}, consisting of three layers, for tackling the challenges. The
+{\em content management} layer is responsible for integrating, maintaining and
+physically accessing the content and social data. The {\em information
+discovery} layer takes care of analyzing content to derive interesting new
+information, and interpreting and processing the user's information need to
+identify relevant information. Finally, the {\em information presentation}
+layer explores the discovered information and helps users better understand it
+in a principled way. We describe the challenges in each layer and propose
+solutions for some of those challenges. In particular, we propose a uniform
+algebraic framework, which can be leveraged to uniformly and flexibly specify
+many of the information discovery and analysis tasks and provide the foundation
+for the optimization of those tasks.

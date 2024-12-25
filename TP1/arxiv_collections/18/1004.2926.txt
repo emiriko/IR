@@ -1,0 +1,13 @@
+This paper introduces the Reed Muller Sieve, a deterministic measurement
+matrix for compressed sensing. The columns of this matrix are obtained by
+exponentiating codewords in the quaternary second order Reed Muller code of
+length $N$. For $k=O(N)$, the Reed Muller Sieve improves upon prior methods for
+identifying the support of a $k$-sparse vector by removing the requirement that
+the signal entries be independent. The Sieve also enables local detection; an
+algorithm is presented with complexity $N^2 \log N$ that detects the presence
+or absence of a signal at any given position in the data domain without
+explicitly reconstructing the entire signal. Reconstruction is shown to be
+resilient to noise in both the measurement and data domains; the $\ell_2 /
+\ell_2$ error bounds derived in this paper are tighter than the $\ell_2 /
+\ell_1$ bounds arising from random ensembles and the $\ell_1 /\ell_1$ bounds
+arising from expander-based ensembles.

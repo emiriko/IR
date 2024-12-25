@@ -1,0 +1,9 @@
+This paper deals with the design of MEMS using piezoresistivity as
+transduction principle. It is demonstrated that when the sensor topology
+doesn't allow a perfect matching of strain gauges, the resolution is limited by
+the ability of the conditioning circuit (typically a Wheatstone bridge) to
+reject power supply noise. As this ability is strongly reduced when an offset
+voltage is present at the output of the bridge, the proposed architecture
+implements a feedback loop to control MOS transistors inserted in the
+Wheatstone bridge to compensate resistor mismatches. This feedback exhibits a
+very good offset cancellation and therefore a better resolution is achieved.

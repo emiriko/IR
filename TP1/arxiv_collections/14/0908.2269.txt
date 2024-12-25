@@ -1,0 +1,8 @@
+Hill's equations are an approximation that is useful in a number of areas of
+astrophysics including planetary rings and planetesimal disks. We derive a
+symplectic method for integrating Hill's equations based on a generalized
+leapfrog. This method is implemented in the parallel N-body code, PKDGRAV and
+tested on some simple orbits. The method demonstrates a lack of secular changes
+in orbital elements, making it a very useful technique for integrating Hill's
+equations over many dynamical times. Furthermore, the method allows for
+efficient collision searching using linear extrapolation of particle positions.

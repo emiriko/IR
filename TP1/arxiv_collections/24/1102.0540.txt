@@ -1,0 +1,18 @@
+Motivated by the concept of probe storage, we study the problem of
+information retrieval using a large array of N nano-mechanical probes, N ~
+4000. At the nanometer scale it is impossible to avoid errors in the
+positioning of the array, thus all signals retrieved by the probes of the array
+at a given sampling moment are affected by the same amount of random position
+jitter. Therefore a massively parallel probe storage device is an example of a
+noisy communication channel with long range correlations between channel
+outputs due to the global positioning errors. We find that these correlations
+have a profound effect on the channel's properties. For example, it turns out
+that the channel's information capacity does approach 1 bit per probe in the
+limit of high signal-to-noise ratio, but the rate of the approach is only
+polynomial in the channel noise strength. Moreover, any error correction code
+with block size N >> 1 such that codewords correspond to the instantaneous
+outputs of the all probes in the array exhibits an error floor independently of
+the code rate. We illustrate this phenomenon explicitly using Reed-Solomon
+codes the performance of which is easy to simulate numerically. We also discuss
+capacity-achieving error correction codes for the global jitter channel and
+their complexity.

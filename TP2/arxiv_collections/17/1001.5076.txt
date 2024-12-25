@@ -1,0 +1,16 @@
+Inspired by online ad allocation, we study online stochastic packing linear
+programs from theoretical and practical standpoints. We first present a
+near-optimal online algorithm for a general class of packing linear programs
+which model various online resource allocation problems including online
+variants of routing, ad allocations, generalized assignment, and combinatorial
+auctions. As our main theoretical result, we prove that a simple primal-dual
+training-based algorithm achieves a (1 - o(1))-approximation guarantee in the
+random order stochastic model. This is a significant improvement over
+logarithmic or constant-factor approximations for the adversarial variants of
+the same problems (e.g. factor 1 - 1/e for online ad allocation, and \log m for
+online routing). We then focus on the online display ad allocation problem and
+study the efficiency and fairness of various training-based and online
+allocation algorithms on data sets collected from real-life display ad
+allocation system. Our experimental evaluation confirms the effectiveness of
+training-based primal-dual algorithms on real data sets, and also indicate an
+intrinsic trade-off between fairness and efficiency.

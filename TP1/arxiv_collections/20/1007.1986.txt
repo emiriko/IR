@@ -1,0 +1,17 @@
+We investigate the achievable error probability in communication over an AWGN
+discrete time memoryless channel with noiseless delay-less rate-limited
+feedback. For the case where the feedback rate R_FB is lower than the data rate
+R transmitted over the forward channel, we show that the decay of the
+probability of error is at most exponential in blocklength, and obtain an upper
+bound for increase in the error exponent due to feedback. Furthermore, we show
+that the use of feedback in this case results in an error exponent that is at
+least RF B higher than the error exponent in the absence of feedback. For the
+case where the feedback rate exceeds the forward rate (R_FB \geq R), we propose
+a simple iterative scheme that achieves a probability of error that decays
+doubly exponentially with the codeword blocklength n. More generally, for some
+positive integer L, we show that a L-th order exponential error decay is
+achievable if R_FB \geq (L-1)R. We prove that the above results hold whether
+the feedback constraint is expressed in terms of the average feedback rate or
+per channel use feedback rate. Our results show that the error exponent as a
+function of R_FB has a strong discontinuity at R, where it jumps from a finite
+value to infinity.

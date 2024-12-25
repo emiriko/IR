@@ -1,0 +1,9 @@
+We describe a new, convenient, recursive tensor integral reduction scheme for
+one-loop $n$-point Feynman integrals. The reduction is based on the algebraic
+Davydychev-Tarasov formalism where the tensors are represented by scalars with
+shifted dimensions and indices, and then expressed by conventional scalars with
+generalized recurrence relations. The scheme is worked out explicitly for up to
+$n=6$ external legs and for tensor ranks $R\leq n$. The tensors are represented
+by scalar one- to four-point functions in $d$ dimensions. For the evaluation of
+them, the Fortran code for the tensor reductions has to be linked with a
+package like QCDloop or LoopTools/FF. Typical numerical results are presented.

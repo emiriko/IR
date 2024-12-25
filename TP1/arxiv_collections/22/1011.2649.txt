@@ -1,0 +1,14 @@
+We propose and illustrate a hierarchical Bayesian approach for matching
+statistical records observed on different occasions. We show how this model can
+be profitably adopted both in record linkage problems and in capture--recapture
+setups, where the size of a finite population is the real object of interest.
+There are at least two important differences between the proposed model-based
+approach and the current practice in record linkage. First, the statistical
+model is built up on the actually observed categorical variables and no
+reduction (to 0--1 comparisons) of the available information takes place.
+Second, the hierarchical structure of the model allows a two-way propagation of
+the uncertainty between the parameter estimation step and the matching
+procedure so that no plug-in estimates are used and the correct uncertainty is
+accounted for both in estimating the population size and in performing the
+record linkage. We illustrate and motivate our proposal through a real data
+example and simulations.

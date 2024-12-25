@@ -1,0 +1,15 @@
+Suppose that at any stage of a statistical experiment a control variable $X$
+that affects the distribution of the observed data $Y$ at this stage can be
+used. The distribution of $Y$ depends on some unknown parameter $\theta$, and
+we consider the problem of testing multiple hypotheses $H_1: \theta=\theta_1$,
+$H_2: \theta=\theta_2, ...$, $H_k: \theta=\theta_k$ allowing the data to be
+controlled by $X$, in the following sequential context.
+  The experiment starts with assigning a value $X_1$ to the control variable
+and observing $Y_1$ as a response. After some analysis, another value $X_2$ for
+the control variable is chosen, and $Y_2$ as a response is observed, etc. It is
+supposed that the experiment eventually stops, and at that moment a final
+decision in favor of one of the hypotheses $H_1,...$, $H_k$ is to be taken. In
+this article, our aim is to characterize the structure of optimal sequential
+testing procedures based on data obtained from an experiment of this type in
+the case when the observations $Y_1, Y_2,..., Y_n$ are independent, given
+controls $X_1,X_2,..., X_n$, $n=1,2,...$.

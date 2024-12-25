@@ -1,0 +1,15 @@
+We consider some discrete and continuous dynamics in a Banach space involving
+a non expansive operator $J$ and a corresponding family of strictly contracting
+operators $\Phi(\lambda,x):=\lambda J(\frac{1-\lambda}{\lambda}x)$ for
+$\lambda\in]0,1]$. Our motivation comes from the study of two-player zero-sum
+repeated games, where the value of the $n$-stage game (resp. the value of the
+$\lambda$-discounted game) satisfies the relation
+$v_n=\Phi(\frac{1}{n},v_{n-1})$ (resp. $v_\lambda=\Phi(\lambda,v_\lambda)$)
+where $J$ is the Shapley operator of the game. We study the evolution equation
+$u'(t)=J(u(t))-u(t)$ as well as associated Eulerian schemes, establishing a new
+exponential formula and a Kobayashi-like inequality for such trajectories. We
+prove that the solution of the non-autonomous evolution equation
+$u'(t)=\Phi(\bm{\lambda}(t),u(t))-u(t)$ has the same asymptotic behavior (even
+when it diverges) as the sequence $v_n$ (resp. as the family $v_\lambda$) when
+$\bm{\lambda}(t)=1/t$ (resp. when $\bm{\lambda}(t)$ converges slowly enough to
+0).

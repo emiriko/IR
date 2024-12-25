@@ -1,0 +1,14 @@
+The search for "a quantum needle in a quantum haystack" is a metaphor for the
+problem of finding out which one of a permissible set of unitary mappings---the
+oracles---is implemented by a given black box. Grover's algorithm solves this
+problem with quadratic speed-up as compared with the analogous search for "a
+classical needle in a classical haystack." Since the outcome of Grover's
+algorithm is probabilistic---it gives the correct answer with high probability,
+not with certainty---the answer requires verification. For this purpose we
+introduce specific test states, one for each oracle. These test states can also
+be used to realize "a classical search for the quantum needle" which is
+deterministic---it always gives a definite answer after a finite number of
+steps---and faster by a factor of 3.41 than the purely classical search. Since
+the test-state search and Grover's algorithm look for the same quantum needle,
+the average number of oracle queries of the test-state search is the classical
+benchmark for Grover's algorithm.

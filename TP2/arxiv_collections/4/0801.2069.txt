@@ -1,0 +1,13 @@
+In this paper we propose a novel algorithm, factored value iteration (FVI),
+for the approximate solution of factored Markov decision processes (fMDPs). The
+traditional approximate value iteration algorithm is modified in two ways. For
+one, the least-squares projection operator is modified so that it does not
+increase max-norm, and thus preserves convergence. The other modification is
+that we uniformly sample polynomially many samples from the (exponentially
+large) state space. This way, the complexity of our algorithm becomes
+polynomial in the size of the fMDP description length. We prove that the
+algorithm is convergent. We also derive an upper bound on the difference
+between our approximate solution and the optimal one, and also on the error
+introduced by sampling. We analyze various projection operators with respect to
+their computation complexity and their convergence when combined with
+approximate value iteration.

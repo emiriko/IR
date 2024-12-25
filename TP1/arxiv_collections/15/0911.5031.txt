@@ -1,0 +1,11 @@
+The {\em longest common subsequence (LCS)} problem is a classic and
+well-studied problem in computer science. LCS is a central problem in
+stringology and finds broad applications in text compression, error-detecting
+codes and biological sequence comparison. However, in numerous contexts, words
+represent cyclic sequences of symbols and LCS must be generalized to consider
+all circular shifts of the strings. This occurs especially in computational
+biology when genetic material is sequenced form circular DNA or RNA molecules.
+This initiates the problem of {\em longest common cyclic subsequence (LCCS)}
+which finds the longest subsequence between all circular shifts of two strings.
+In this paper, we give an $O(n^2)$ algorithm for solving LCCS problem where $n$
+is the number of symbols in the strings.

@@ -1,0 +1,18 @@
+Actor-Critic based approaches were among the first to address reinforcement
+learning in a general setting. Recently, these algorithms have gained renewed
+interest due to their generality, good convergence properties, and possible
+biological relevance. In this paper, we introduce an online temporal difference
+based actor-critic algorithm which is proved to converge to a neighborhood of a
+local maximum of the average reward. Linear function approximation is used by
+the critic in order estimate the value function, and the temporal difference
+signal, which is passed from the critic to the actor. The main distinguishing
+feature of the present convergence proof is that both the actor and the critic
+operate on a similar time scale, while in most current convergence proofs they
+are required to have very different time scales in order to converge. Moreover,
+the same temporal difference signal is used to update the parameters of both
+the actor and the critic. A limitation of the proposed approach, compared to
+results available for two time scale convergence, is that convergence is
+guaranteed only to a neighborhood of an optimal value, rather to an optimal
+value itself. The single time scale and identical temporal difference signal
+used by the actor and the critic, may provide a step towards constructing more
+biologically realistic models of reinforcement learning in the brain.

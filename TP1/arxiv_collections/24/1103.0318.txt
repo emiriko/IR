@@ -1,0 +1,10 @@
+We implement a new algorithm for listing all maximal cliques in sparse graphs
+due to Eppstein, L\"offler, and Strash (ISAAC 2010) and analyze its performance
+on a large corpus of real-world graphs. Our analysis shows that this algorithm
+is the first to offer a practical solution to listing all maximal cliques in
+large sparse graphs. All other theoretically-fast algorithms for sparse graphs
+have been shown to be significantly slower than the algorithm of Tomita et al.
+(Theoretical Computer Science, 2006) in practice. However, the algorithm of
+Tomita et al. uses an adjacency matrix, which requires too much space for large
+sparse graphs. Our new algorithm opens the door for fast analysis of large
+sparse graphs whose adjacency matrix will not fit into working memory.

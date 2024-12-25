@@ -1,0 +1,11 @@
+The decomposition of the Laughlin wave function in the Slater orthogonal
+basis appears in the discussion on the second-quantized form of the Laughlin
+states and is straightforwardly equivalent to the decomposition of the even
+powers of the Vandermonde determinants in the Schur basis. Such a computation
+is notoriously difficult and the coefficients of the expansion have not yet
+been interpreted. In our paper, we give an expression of these coefficients in
+terms of hyperdeterminants of sparse tensors. We use this result to construct
+an algorithm allowing to compute one coefficient of the development without
+computing the others. Thanks to a program in {\tt C}, we performed the
+calculation for the square of the Vandermonde up to an alphabet of eleven
+lettres.

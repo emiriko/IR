@@ -1,0 +1,18 @@
+This paper develops and analyzes finite element Galerkin and spectral
+Galerkin methods for approximating viscosity solutions of the fully nonlinear
+Monge-Amp\`ere equation $\det(D^2u^0)=f$ based on the vanishing moment method
+which was developed by the authors in \cite{Feng2,Feng1}. In this approach, the
+Monge-Amp\`ere equation is approximated by the fourth order quasilinear
+equation $-\epsilon\Delta^2 u^\epsilon + \det{D^2u^\epsilon} =f$ accompanied by
+appropriate boundary conditions. This new approach allows one to construct
+convergent Galerkin numerical methods for the fully nonlinear Monge-Amp\`ere
+equation, a task which has been impracticable before. In this paper, we first
+develop some finite element and spectral Galerkin methods for approximating the
+solution $u^\epsilon$ of the regularized fourth order problem. We then derive
+optimal order error estimates for the proposed numerical methods. In
+particular, we track explicitly the dependence of the error bounds on the
+parameter $\vepsi$, for the error $u^\epsilon-u^\epsilon_h$. Finally, using the
+Aygris finite element method as an example, we present a detailed numerical
+study of the rates of convergence in terms of powers of $\vepsi$ for the error
+$u^0-u_h^\vepsi$, and numerically examine what is the "best" mesh size $h$ in
+relation to $\vepsi$ in order to achieve these rates.

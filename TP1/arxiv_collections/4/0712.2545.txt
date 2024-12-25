@@ -1,0 +1,15 @@
+We obtain the first nontrivial time-space lower bound for quantum algorithms
+solving problems related to satisfiability. Our bound applies to MajSAT and
+MajMajSAT, which are complete problems for the first and second levels of the
+counting hierarchy, respectively. We prove that for every real d and every
+positive real epsilon there exists a real c>1 such that either: MajMajSAT does
+not have a quantum algorithm with bounded two-sided error that runs in time
+n^c, or MajSAT does not have a quantum algorithm with bounded two-sided error
+that runs in time n^d and space n^{1-\epsilon}. In particular, MajMajSAT cannot
+be solved by a quantum algorithm with bounded two-sided error running in time
+n^{1+o(1)} and space n^{1-\epsilon} for any epsilon>0. The key technical
+novelty is a time- and space-efficient simulation of quantum computations with
+intermediate measurements by probabilistic machines with unbounded error. We
+also develop a model that is particularly suitable for the study of general
+quantum computations with simultaneous time and space bounds. However, our
+arguments hold for any reasonable uniform model of quantum computation.

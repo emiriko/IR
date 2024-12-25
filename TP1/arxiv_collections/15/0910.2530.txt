@@ -1,0 +1,13 @@
+We first show how to construct an O(n)-depth O(n)-size quantum circuit for
+addition of two n-bit binary numbers with no ancillary qubits. The exact size
+is 7n-6, which is smaller than that of any other quantum circuit ever
+constructed for addition with no ancillary qubits. Using the circuit, we then
+propose a method for constructing an O(d(n))-depth O(n)-size quantum circuit
+for addition with O(n/d(n)) ancillary qubits for any d(n)=\Omega(log n). If we
+are allowed to use unbounded fan-out gates with length O(n^c) for an arbitrary
+small positive constant c, we can modify the method and construct an
+O(e(n))-depth O(n)-size circuit with o(n) ancillary qubits for any
+e(n)=\Omega(log* n). In particular, these methods yield efficient circuits with
+depth O(log n) and with depth O(log* n), respectively. We apply our circuits to
+constructing efficient quantum circuits for Shor's discrete logarithm
+algorithm.

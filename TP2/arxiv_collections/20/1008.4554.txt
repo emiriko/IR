@@ -1,0 +1,12 @@
+The BOUT++ code is used to simulate ELMs in a shifted circle equilibrium.
+Reduced ideal MHD simulations are first benchmarked against the linear ideal
+MHD code ELITE, showing good agreement. Diamagnetic drift effects are included
+finding the expected suppression of high toroidal mode number modes. Nonlinear
+simulations are performed, making the assumption that the anomalous kinematic
+electron viscosity is comparable to the anomalous electron thermal diffusivity.
+This allows simulations with realistically high Lundquist numbers S = 1e8,
+finding ELM sizes of 5-10% of the pedestal stored thermal energy. Scans show a
+strong dependence of the ELM size resistivity at low Lundquist numbers, with
+higher resistivity leading to more violent eruptions. At high Lundquist numbers
+relevant to high-performance discharges, ELM size is independent of resistivity
+as hyper-resistivity becomes the dominant dissipative effect.

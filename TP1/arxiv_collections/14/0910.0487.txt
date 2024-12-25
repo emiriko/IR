@@ -1,0 +1,16 @@
+We study the high-contrast biharmonic plate equation with HCT and Morley
+discretizations. We construct a preconditioner that is robust with respect to
+contrast size and mesh size simultaneously based on the preconditioner proposed
+by Aksoylu et al. (2008, Comput. Vis. Sci. 11, pp. 319--331). By extending the
+devised singular perturbation analysis from linear finite element
+discretization to the above discretizations, we prove and numerically
+demonstrate the robustness of the preconditioner. Therefore, we accomplish a
+desirable preconditioning design goal by using the same family of
+preconditioners to solve elliptic family of PDEs with varying discretizations.
+We also present a strategy on how to generalize the proposed preconditioner to
+cover high-contrast elliptic PDEs of order $2k, k>2$. Moreover, we prove a
+fundamental qualitative property of solution of the high-contrast biharmonic
+plate equation. Namely, the solution over the highly-bending island becomes a
+linear polynomial asymptotically. The effectiveness of our preconditioner is
+largely due to the integration of this qualitative understanding of the
+underlying PDE into its construction.

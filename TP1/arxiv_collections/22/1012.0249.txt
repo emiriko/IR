@@ -1,0 +1,17 @@
+According to the Loss Distribution Approach, the operational risk of a bank
+is determined as 99.9% quantile of the respective loss distribution, covering
+unexpected severe events. The 99.9% quantile can be considered a tail event. As
+supported by the Pickands-Balkema-de Haan Theorem, tail events exceeding some
+high threshold are usually modeled by a Generalized Pareto Distribution (GPD).
+Estimation of GPD tail quantiles is not a trivial task, in particular if one
+takes into account the heavy tails of this distribution, the possibility of
+singular outliers, and, moreover, the fact that data is usually pooled among
+several sources. Moreover, if, as is frequently the case, operational losses
+are pooled anonymously, relevance of the fitting data for the respective bank
+is not self-evident. In such situations, robust methods may provide stable
+estimates when classical methods already fail. In this paper, optimally-robust
+procedures MBRE, OMSE, RMXE are introduced to the application domain of
+operational risk. We apply these procedures to parameter estimation of a GPD at
+data from Algorithmics Inc. To better understand these results, we provide
+supportive diagnostic plots adjusted for this context: influence plots,
+outlyingness plots, and QQ plots with robust confidence bands.

@@ -1,0 +1,21 @@
+Much effort is spent everyday by programmers in trying to reduce long,
+failing execution traces to the cause of the error. We present a new algorithm
+for error cause localization based on a reduction to the maximal satisfiability
+problem (MAX-SAT), which asks what is the maximum number of clauses of a
+Boolean formula that can be simultaneously satisfied by an assignment. At an
+intuitive level, our algorithm takes as input a program and a failing test, and
+comprises the following three steps. First, using symbolic execution, we encode
+a trace of a program as a Boolean trace formula which is satisfiable iff the
+trace is feasible. Second, for a failing program execution (e.g., one that
+violates an assertion or a post-condition), we construct an unsatisfiable
+formula by taking the trace formula and additionally asserting that the input
+is the failing test and that the assertion condition does hold at the end.
+Third, using MAX-SAT, we find a maximal set of clauses in this formula that can
+be satisfied together, and output the complement set as a potential cause of
+the error. We have implemented our algorithm in a tool called bug-assist for C
+programs. We demonstrate the surprising effectiveness of the tool on a set of
+benchmark examples with injected faults, and show that in most cases,
+bug-assist can quickly and precisely isolate the exact few lines of code whose
+change eliminates the error. We also demonstrate how our algorithm can be
+modified to automatically suggest fixes for common classes of errors such as
+off-by-one.

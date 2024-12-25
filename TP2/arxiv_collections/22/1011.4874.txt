@@ -1,0 +1,17 @@
+For paving the way to novel applications in quantum simulation, computation,
+and technology, increasingly large quantum systems have to be steered with high
+precision. It is a typical task amenable to numerical optimal control to turn
+the time course of pulses, i.e. piecewise constant control amplitudes,
+iteratively into an optimised shape. Here, we present the first comparative
+study of optimal control algorithms for a wide range of finite-dimensional
+applications. We focus on the most commonly used algorithms: GRAPE methods
+which update all controls concurrently, and KROTOV-type methods which do so
+sequentially. Guidelines for their use are given and open research questions
+are pointed out. --- Moreover we introduce a novel unifying algorithmic
+framework, DYNAMO (dynamic optimisation platform) designed to provide the
+quantum-technology community with a convenient MATLAB-based toolset for optimal
+control. In addition, it gives researchers in optimal-control techniques a
+framework for benchmarking and comparing new proposed algorithms to the
+state-of-the-art. It allows for a mix-and-match approach with various types of
+gradients, update and step-size methods as well as subspace choices.
+Open-source code including examples is made available at http://qlib.info.

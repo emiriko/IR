@@ -1,0 +1,10 @@
+On the one hand, termination analysis of logic programs is now a fairly
+established research topic within the logic programming community. On the other
+hand, non-termination analysis seems to remain a much less attractive subject.
+If we divide this line of research into two kinds of approaches: dynamic versus
+static analysis, this paper belongs to the latter. It proposes a criterion for
+detecting non-terminating atomic queries with respect to binary CLP rules,
+which strictly generalizes our previous works on this subject. We give a
+generic operational definition and an implemented logical form of this
+criterion. Then we show that the logical form is correct and complete with
+respect to the operational definition.

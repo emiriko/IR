@@ -1,0 +1,11 @@
+Support Vector Machines (SVMs) are popular tools for data mining tasks such
+as classification, regression, and density estimation. However, original SVM
+(C-SVM) only considers local information of data points on or over the margin.
+Therefore, C-SVM loses robustness. To solve this problem, one approach is to
+translate (i.e., to move without rotation or change of shape) the hyperplane
+according to the distribution of the entire data. But existing work can only be
+applied for 1-D case. In this paper, we propose a simple and efficient method
+called General Scaled SVM (GS-SVM) to extend the existing approach to
+multi-dimensional case. Our method translates the hyperplane according to the
+distribution of data projected on the normal vector of the hyperplane. Compared
+with C-SVM, GS-SVM has better performance on several data sets.

@@ -1,0 +1,19 @@
+The energy estimation procedures employed by different groups, for
+determining the energy of the primary $\gamma$-ray using a single atmospheric
+Cherenkov imaging telescope, include methods like polynomial fitting in SIZE
+and DISTANCE, general least square fitting and look-up table based
+interpolation. A novel energy reconstruction procedure, based on the
+utilization of Artificial Neural Network (ANN), has been developed for the
+TACTIC atmospheric Cherenkov imaging telescope. The procedure uses a 3:30:1 ANN
+configuration with resilient backpropagation algorithm to estimate the energy
+of a $\gamma$-ray like event on the basis of its image SIZE, DISTANCE and
+zenith angle. The new ANN-based energy reconstruction method, apart from
+yielding an energy resolution of $\sim$ 26%, which is comparable to that of
+other single imaging telescopes, has the added advantage that it considers
+zenith angle dependence as well. Details of the ANN-based energy estimation
+procedure along with its comparative performance with other conventional energy
+reconstruction methods are presented in the paper and the results indicate that
+amongst all the methods considered in this work, ANN method yields the best
+results. The performance of the ANN-based energy reconstruction has also been
+validated by determining the energy spectrum of the Crab Nebula in the energy
+range 1-16 TeV, as measured by the TACTIC telescope.

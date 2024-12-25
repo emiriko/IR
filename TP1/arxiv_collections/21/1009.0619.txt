@@ -1,0 +1,18 @@
+Environmental monitoring is often performed through a wireless sensor
+network, whose nodes are randomly deployed over the geographical region of
+interest. Sensors sample a physical phenomenon (the so-called field) and send
+their measurements to a {\em sink} node, which is in charge of reconstructing
+the field from such irregular samples. In this work, we focus on scenarios of
+practical interest where the sensor deployment is unfeasible in certain areas
+of the geographical region, e.g., due to terrain asperities, and the delivery
+of sensor measurements to the sink may fail due to fading or to transmission
+collisions among sensors simultaneously accessing the wireless medium. Under
+these conditions, we carry out an asymptotic analysis and evaluate the quality
+of the estimation of a d-dimensional field when the sink uses linear filtering
+as a reconstruction technique. Specifically, given the matrix representing the
+sampling system, V, we derive both the moments and an expression of the
+limiting spectral distribution of VV*, as the size of V goes to infinity and
+its aspect ratio has a finite limit bounded away from zero. By using such
+asymptotic results, we approximate the mean square error on the estimated field
+through the eta-transform of VV*, and derive the sensor network performance
+under the conditions described above.

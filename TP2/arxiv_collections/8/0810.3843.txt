@@ -1,0 +1,11 @@
+An algorithm is presented for approximating arbitrary powers of a black box
+unitary operation, $\mathcal{U}^t$, where $t$ is a real number, and
+$\mathcal{U}$ is a black box implementing an unknown unitary. The complexity of
+this algorithm is calculated in terms of the number of calls to the black box,
+the errors in the approximation, and a certain `gap' parameter. For general
+$\mathcal{U}$ and large $t$, one should apply $\mathcal{U}$ a total of $\lfloor
+t \rfloor$ times followed by our procedure for approximating the fractional
+power $\mathcal{U}^{t-\lfloor t \rfloor}$. An example is also given where for
+large integers $t$ this method is more efficient than direct application of $t$
+copies of $\mathcal{U}$. Further applications and related algorithms are also
+discussed.

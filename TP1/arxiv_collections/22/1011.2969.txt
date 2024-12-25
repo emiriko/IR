@@ -1,0 +1,16 @@
+We present a new method for inferring hidden Markov models from noisy time
+sequences without the necessity of assuming a model architecture, thus allowing
+for the detection of degenerate states. This is based on the statistical
+prediction techniques developed by Crutchfield et al., and generates so called
+causal state models, equivalent to hidden Markov models. This method is
+applicable to any continuous data which clusters around discrete values and
+exhibits multiple transitions between these values such as tethered particle
+motion data or Fluorescence Resonance Energy Transfer (FRET) spectra. The
+algorithms developed have been shown to perform well on simulated data,
+demonstrating the ability to recover the model used to generate the data under
+high noise, sparse data conditions and the ability to infer the existence of
+degenerate states. They have also been applied to new experimental FRET data of
+Holliday Junction dynamics, extracting the expected two state model and
+providing values for the transition rates in good agreement with previous
+results and with results obtained using existing maximum likelihood based
+methods.

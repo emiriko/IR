@@ -1,0 +1,15 @@
+A new segmented compressed sampling method for analog-to-information
+conversion (AIC) is proposed. An analog signal measured by a number of parallel
+branches of mixers and integrators (BMIs), each characterized by a specific
+random sampling waveform, is first segmented in time into $M$ segments. Then
+the sub-samples collected on different segments and different BMIs are reused
+so that a larger number of samples than the number of BMIs is collected. This
+technique is shown to be equivalent to extending the measurement matrix, which
+consists of the BMI sampling waveforms, by adding new rows without actually
+increasing the number of BMIs. We prove that the extended measurement matrix
+satisfies the restricted isometry property with overwhelming probability if the
+original measurement matrix of BMI sampling waveforms satisfies it. We also
+show that the signal recovery performance can be improved significantly if our
+segmented AIC is used for sampling instead of the conventional AIC. Simulation
+results verify the effectiveness of the proposed segmented compressed sampling
+method and the validity of our theoretical studies.

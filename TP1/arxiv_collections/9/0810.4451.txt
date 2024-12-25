@@ -1,0 +1,16 @@
+Most current mobile agent systems are based on programming languages whose
+semantics are difficult to prove correct as they lack an adequate underlying
+formal theory. In recent years, the development of the theory of concurrent
+systems, namely of process calculi, has allowed for the first time the modeling
+of mobile agent systems.Languages directly based on process calculi are,
+however, very low-level and it is desirable to provide the programmer with
+higher level abstractions, while keeping the semantics of the base calculus.
+  In this technical report we present the syntax and the semantics of a
+scripting language for programming mobile agents called Mob. We describe the
+language's syntax and semantics. Mob is service-oriented, meaning that agents
+act both as servers and as clients of services and that this coupling is done
+dynamically at run-time. The language is implemented on top of a process
+calculus which allows us to prove that the framework is sound by encoding its
+semantics into the underlying calculus. This provides a form of language
+security not available to other mobile agent languages developed using a more
+ah-doc approach.

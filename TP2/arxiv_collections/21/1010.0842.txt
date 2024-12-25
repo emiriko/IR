@@ -1,0 +1,12 @@
+The method of tempered transitions was proposed by Neal (1996) for tackling
+the difficulties arising when using Markov chain Monte Carlo to sample from
+multimodal distributions. In common with methods such as simulated tempering
+and Metropolis-coupled MCMC, the key idea is to utilise a series of
+successively easier to sample distributions to improve movement around the
+state space. Tempered transitions does this by incorporating moves through
+these less modal distributions into the MCMC proposals. Unfortunately the
+improved movement between modes comes at a high computational cost with a low
+acceptance rate of expensive proposals. We consider how the algorithm may be
+tuned to increase the acceptance rates for a given number of temperatures. We
+find that the commonly assumed geometric spacing of temperatures is reasonable
+in many but not all applications.

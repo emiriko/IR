@@ -1,0 +1,14 @@
+This article presents an asynchronous FPGA architecture for implementing
+cryptographic algorithms secured against physical cryptanalysis. We discuss the
+suitability of asynchronous reconfigurable architectures for such applications
+before proceeding to model the side channel and defining our objectives. The
+logic block architecture is presented in detail. We discuss several solutions
+for the interconnect architecture, and how these solutions can be ported to
+other flavours of interconnect (i.e. single driver). Next We discuss in detail
+a high speed asynchronous configuration chain architecture used to configure
+our asynchronous FPGA with simulation results, and we present a 3 X 3 prototype
+FPGA fabricated in 65 nm CMOS. Lastly we present experiments to test the high
+speed asynchronous configuration chain and evaluate how far our objectives have
+been achieved with proposed solutions, and we conclude with emphasis on
+complementary FPGA CAD algorithms, and the effect of CMOS variation on
+Side-Channel Vulnerability.

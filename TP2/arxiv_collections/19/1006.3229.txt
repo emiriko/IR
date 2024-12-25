@@ -1,0 +1,12 @@
+Recently, we have discovered an error in our Monte-Carlo spectral fitting
+routine, more specifically where the errors on the fluxes were rescaled to get
+a reduced chi2 of 1. The rescaled errors were too big, resulting in too wide a
+range of good fits in our 100 step Monte-Carlo routine. This problem affects
+Figs. 7-9 and Tables A.1, A.2 in Gielen et al. (2008), Table 3 in Gielen et al.
+(2009a), and Table 4 in Gielen et al. (2009b). We corrected for this error and
+present the new values and errors in the tables below. The new values and
+errors nearly all fall within the old error range. Our best chi2 values and
+overall former scientific results are not affected. With these new errors some
+possible new trends in the dust parameters might be observed. These will be
+discussed in an upcoming paper where we extend the sample presented in Gielen
+et al. (2008) with newly obtained SPITZER-IRS data.

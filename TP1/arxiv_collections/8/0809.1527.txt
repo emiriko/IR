@@ -1,0 +1,14 @@
+This paper is concerned with the numerical approximation of the isothermal
+Euler equations for charged particles subject to the Lorentz force. When the
+magnetic field is large, the so-called drift-fluid approximation is obtained.
+In this limit, the parallel motion relative to the magnetic field direction
+splits from perpendicular motion and is given implicitly by the constraint of
+zero total force along the magnetic field lines. In this paper, we provide a
+well-posed elliptic equation for the parallel velocity which in turn allows us
+to construct an Asymptotic-Preserving (AP) scheme for the Euler-Lorentz system.
+This scheme gives rise to both a consistent approximation of the Euler-Lorentz
+model when epsilon is finite and a consistent approximation of the drift limit
+when epsilon tends to 0. Above all, it does not require any constraint on the
+space and time steps related to the small value of epsilon. Numerical results
+are presented, which confirm the AP character of the scheme and its Asymptotic
+Stability.

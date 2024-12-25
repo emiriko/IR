@@ -1,0 +1,11 @@
+We introduce a Generalized Loop Move (GLM) update for Monte Carlo simulations
+of frustrated Ising models on two-dimensional lattices with bond-sharing
+plaquettes. The GLM updates are designed to enhance Monte Carlo sampling
+efficiency when the system's low-energy states consist of an extensive number
+of degenerate or near-degenerate spin configurations, separated by large energy
+barriers to single spin flips. Through implementation on several frustrated
+Ising models, we demonstrate the effectiveness of the GLM updates in cases
+where both degenerate and near-degenerate sets of configurations are favored at
+low temperatures. The GLM update's potential to be straightforwardly extended
+to different lattices and spin interactions allow it to be readily adopted on
+many other frustrated Ising models of physical relevance.

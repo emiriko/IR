@@ -1,0 +1,21 @@
+This paper considers social learning amongst rational agents (for example,
+sensors in a network). We consider three models of social learning in
+increasing order of sophistication. In the first model, based on its private
+observation of a noisy underlying state process, each agent selfishly optimizes
+its local utility and broadcasts its action. This protocol leads to a herding
+behavior where the agents eventually choose the same action irrespective of
+their observations. We then formulate a second more general model where each
+agent is benevolent and chooses its sensor-mode to optimize a social welfare
+function to facilitate social learning. Using lattice programming and
+stochastic orders, it is shown that the optimal decision each agent makes is
+characterized by a switching curve on the space of Bayesian distributions. We
+then present a third more general model where social learning takes place to
+achieve quickest time change detection. Both geometric and phase-type change
+time distributions are considered. It is proved that the optimal decision is
+again characterized by a switching curve We present a stochastic approximation
+(adaptive filtering) algorithms to estimate this switching curve. Finally, we
+present extensions of the social learning model in a changing world (Markovian
+target) where agents learn in multiple iterations. By using Blackwell
+stochastic dominance, we give conditions under which myopic decisions are
+optimal. We also analyze the effect of target dynamics on the social welfare
+cost.

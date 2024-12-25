@@ -1,0 +1,24 @@
+Celebrated work of Jerrum, Sinclair, and Vigoda has established that the
+permanent of a {0,1} matrix can be approximated in randomized polynomial time
+by using a rapidly mixing Markov chain. A separate strand of the literature has
+pursued the possibility of an alternate, purely algebraic, polynomial-time
+approximation scheme. These schemes work by replacing each 1 with a random
+element of an algebra A, and considering the determinant of the resulting
+matrix. When A is noncommutative, this determinant can be defined in several
+ways. We show that for estimators based on the conventional determinant, the
+critical ratio of the second moment to the square of the first--and therefore
+the number of trials we need to obtain a good estimate of the permanent--is (1
++ O(1/d))^n when A is the algebra of d by d matrices. These results can be
+extended to group algebras, and semi-simple algebras in general. We also study
+the symmetrized determinant of Barvinok, showing that the resulting estimator
+has small variance when d is large enough. However, for constant d--the only
+case in which an efficient algorithm is known--we show that the critical ratio
+exceeds 2^{n} / n^{O(d)}. Thus our results do not provide a new polynomial-time
+approximation scheme for the permanent. Indeed, they suggest that the algebraic
+approach to approximating the permanent faces significant obstacles.
+  We obtain these results using diagrammatic techniques in which we express
+matrix products as contractions of tensor products. When these matrices are
+random, in either the Haar measure or the Gaussian measure, we can evaluate the
+trace of these products in terms of the cycle structure of a suitably random
+permutation. In the symmetrized case, our estimates are then derived by a
+connection with the character theory of the symmetric group.

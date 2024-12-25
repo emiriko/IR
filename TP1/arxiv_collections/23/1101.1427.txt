@@ -1,0 +1,14 @@
+Graphics processing units (GPUs) are recently being used to an increasing
+degree for general computational purposes. This development is motivated by
+their theoretical peak performance, which significantly exceeds that of broadly
+available CPUs. For practical purposes, however, it is far from clear how much
+of this theoretical performance can be realized in actual scientific
+applications. As is discussed here for the case of studying classical spin
+models of statistical mechanics by Monte Carlo simulations, only an explicit
+tailoring of the involved algorithms to the specific architecture under
+consideration allows to harvest the computational power of GPU systems. A
+number of examples, ranging from Metropolis simulations of ferromagnetic Ising
+models, over continuous Heisenberg and disordered spin-glass systems to
+parallel-tempering simulations are discussed. Significant speed-ups by factors
+of up to 1000 compared to serial CPU code as well as previous GPU
+implementations are observed.

@@ -1,0 +1,16 @@
+A fully implicit finite difference scheme has been developed to solve the
+hydrodynamic equations coupled with radiation transport. Solution of the time
+dependent radiation transport equation is obtained using the discrete ordinates
+method and the energy flow into the Lagrangian meshes as a result of radiation
+interaction is fully accounted for. A tridiagonal matrix system is solved at
+each time step to determine the hydrodynamic variables implicitly. The results
+obtained from this fully implicit radiation hydrodynamics code in the planar
+geometry agrees well with the scaling law for radiation driven strong shock
+propagation in aluminium. For the point explosion problem the self similar
+solutions are compared with results for pure hydrodynamic case in spherical
+geometry and the effect of radiation energy transfer is determined. Having,
+thus, benchmarked the code, convergence of the method w.r.t. time step is
+studied in detail and compared with the results of commonly used semi-implicit
+method. It is shown that significant error reduction is feasible in the
+implicit method in comparison to the semi-implicit method, though at the cost
+of slightly more CPU time.

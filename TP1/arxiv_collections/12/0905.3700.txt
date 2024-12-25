@@ -1,0 +1,13 @@
+We consider the processor sharing $M/M/1$-PS queue which also models balking.
+A customer that arrives and sees $n$ others in the system "balks" (i.e.,
+decides not to enter) with probability $1-b_n$. If $b_n$ is inversely
+proportional to $n+1$, we obtain explicit expressions for a tagged customer's
+sojourn time distribution. We consider both the conditional distribution,
+conditioned on the number of other customers present when the tagged customer
+arrives, as well as the unconditional distribution. We then evaluate the
+results in various asymptotic limits. These include large time (tail behavior)
+and/or large $n$, lightly loaded systems where the arrival rate $\lambda\to 0$,
+and heavily loaded systems where $\lambda\to\infty$. We find that the
+asymptotic structure for the problem with balking is much different from the
+standard $M/M/1$-PS queue. We also discuss a perturbation method for deriving
+the asymptotics, which should apply to more general balking functions.

@@ -1,0 +1,16 @@
+The famous Lovasz Local Lemma [EL75] is a powerful tool to non-constructively
+prove the existence of combinatorial objects meeting a prescribed collection of
+criteria. Kratochvil et al. applied this technique to prove that a k-CNF in
+which each variable appears at most 2^k/(ek) times is always satisfiable
+[KST93]. In a breakthrough paper, Beck found that if we lower the occurrences
+to O(2^(k/48)/k), then a deterministic polynomial-time algorithm can find a
+satisfying assignment to such an instance [Bec91]. Alon randomized the
+algorithm and required O(2^(k/8)/k) occurrences [Alo91]. In [Mos06], we
+exhibited a refinement of his method which copes with O(2^(k/6)/k) of them. The
+hitherto best known randomized algorithm is due to Srinivasan and is capable of
+solving O(2^(k/4)/k) occurrence instances [Sri08]. Answering two questions
+asked by Srinivasan, we shall now present an approach that tolerates
+O(2^(k/2)/k) occurrences per variable and which can most easily be
+derandomized. The new algorithm bases on an alternative type of witness tree
+structure and drops a number of limiting aspects common to all previous
+methods.

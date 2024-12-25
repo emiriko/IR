@@ -1,0 +1,15 @@
+One learned from Gottesman-Knill theorem that the Clifford model of quantum
+computing \cite{Clark07} may be generated from a few quantum gates, the
+Hadamard, Phase and Controlled-Z gates, and efficiently simulated on a
+classical computer. We employ the group theoretical package GAP\cite{GAP} for
+simulating the two qubit Clifford group $\mathcal{C}_2$. We already found that
+the symmetric group S(6), aka the automorphism group of the generalized
+quadrangle W(2), controls the geometry of the two-qubit Pauli graph
+\cite{Pauligraphs}. Now we find that the {\it inner} group
+${Inn}(\mathcal{C}_2)=\mathcal{C}_2/{Center}(\mathcal{C}_2)$ exactly contains
+two normal subgroups, one isomorphic to $\mathcal{Z}_2^{\times 4}$ (of order
+16), and the second isomorphic to the parent $A'(6)$ (of order 5760) of the
+alternating group A(6). The group $A'(6)$ stabilizes an {\it hexad} in the
+Steiner system $S(3,6,22)$ attached to the Mathieu group M(22). Both groups
+A(6) and $A'(6)$ have an {\it outer} automorphism group $\mathcal{Z}_2\times
+\mathcal{Z}_2$, a feature we associate to two-qubit quantum entanglement.

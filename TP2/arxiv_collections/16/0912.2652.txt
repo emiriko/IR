@@ -1,0 +1,23 @@
+Toda \cite{Toda} proved in 1989 that the (discrete) polynomial time
+hierarchy, $\mathbf{PH}$, is contained in the class $\mathbf{P}^{#\mathbf{P}}$,
+namely the class of languages that can be decided by a Turing machine in
+polynomial time given access to an oracle with the power to compute a function
+in the counting complexity class $#\mathbf{P}$. This result, which illustrates
+the power of counting is considered to be a seminal result in computational
+complexity theory. An analogous result (with a compactness hypothesis) in the
+complexity theory over the reals (in the sense of Blum-Shub-Smale real machines
+\cite{BSS89}) was proved in \cite{BZ09}. Unlike Toda's proof in the discrete
+case, which relied on sophisticated combinatorial arguments, the proof in
+\cite{BZ09} is topological in nature in which the properties of the topological
+join is used in a fundamental way. However, the constructions used in
+\cite{BZ09} were semi-algebraic -- they used real inequalities in an essential
+way and as such do not extend to the complex case. In this paper, we extend the
+techniques developed in \cite{BZ09} to the complex projective case. A key role
+is played by the complex join of quasi-projective complex varieties. As a
+consequence we obtain a complex analogue of Toda's theorem. The results
+contained in this paper, taken together with those contained in \cite{BZ09},
+illustrate the central role of the Poincar\'e polynomial in algorithmic
+algebraic geometry, as well as, in computational complexity theory over the
+complex and real numbers -- namely, the ability to compute it efficiently
+enables one to decide in polynomial time all languages in the (compact)
+polynomial hierarchy over the appropriate field.

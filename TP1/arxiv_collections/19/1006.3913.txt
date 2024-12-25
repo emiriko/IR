@@ -1,0 +1,8 @@
+We propose a modification of a key component in the Doomsday Algorithm for
+calculating the day of the week of any calendar date. In particular, we propose
+to replace the calculation of the required term: \lfloor \frac{x}{12} \rfloor +
+x \bmod 12 + \lfloor \frac{x \bmod 12}{4} \rfloor with the term 2y + 10 \, (y
+\bmod 2) + z + \lfloor \frac{2 \, (y \bmod 2) + z}{4} \rfloor where x is an
+input 2-digit year; y is the tens digit of x; z is the ones digit of x; We
+argue the fact that our modification operates on individual base-10 digits
+makes the algorithm easier to calculate mentally.

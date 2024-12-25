@@ -1,0 +1,12 @@
+The paper concerns available steganographic techniques that can be used for
+creating covert channels for VoIP (Voice over Internet Protocol) streams. Apart
+from characterizing existing steganographic methods we provide new insights by
+presenting two new techniques. The first one is network steganography solution
+which exploits free/unused protocols' fields and is known for IP, UDP or TCP
+protocols but has never been applied to RTP (Real-Time Transport Protocol) and
+RTCP (Real-Time Control Protocol) which are characteristic for VoIP. The second
+method, called LACK (Lost Audio Packets Steganography), provides hybrid
+storage-timing covert channel by utilizing delayed audio packets. The results
+of the experiment, that was performed to estimate a total amount of data that
+can be covertly transferred during typical VoIP conversation phase, regardless
+of steganalysis, are also included in this paper.

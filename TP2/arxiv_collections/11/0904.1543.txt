@@ -1,0 +1,11 @@
+The implementation of a full electronic structure calculation code on a
+hybrid parallel architecture with Graphic Processing Units (GPU) is presented.
+The code which is on the basis of our implementation is a GNU-GPL code based on
+Daubechies wavelets. It shows very good performances, systematic convergence
+properties and an excellent efficiency on parallel computers. Our GPU-based
+acceleration fully preserves all these properties. In particular, the code is
+able to run on many cores which may or may not have a GPU associated. It is
+thus able to run on parallel and massive parallel hybrid environment, also with
+a non-homogeneous ratio CPU/GPU. With double precision calculations, we may
+achieve considerable speedup, between a factor of 20 for some operations and a
+factor of 6 for the whole DFT code.

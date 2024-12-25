@@ -1,0 +1,13 @@
+We present a numerical method for the approximation of solutions for the
+class of stochastic differential equations driven by Brownian motions which
+induce stochastic variation in fixed directions. This class of equations arises
+naturally in the study of population processes and chemical reaction kinetics.
+We show that the method constructs paths that are second order accurate in the
+weak sense. The method is simpler than many second order methods in that it
+neither requires the construction of iterated Ito integrals nor the evaluation
+of any derivatives. The method consists of two steps. In the first an explicit
+Euler step is used to take a fractional step. This fractional point is then
+combined with the initial point to obtain a higher order, trapezoidal like,
+approximation. The higher order of accuracy stems from the fact that both the
+drift and the quadratic variation of the underlying SDE are approximated to
+second order.

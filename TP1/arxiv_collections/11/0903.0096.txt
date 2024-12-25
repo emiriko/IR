@@ -1,0 +1,18 @@
+We provide a simple and accurate analytical model for multi-cell
+infrastructure IEEE 802.11 WLANs. Our model applies if the cell radius, $R$, is
+much smaller than the carrier sensing range, $R_{cs}$. We argue that, the
+condition $R_{cs} >> R$ is likely to hold in a dense deployment of Access
+Points (APs) where, for every client or station (STA), there is an AP very
+close to the STA such that the STA can associate with the AP at a high physical
+rate. We develop a scalable cell level model for such WLANs with saturated AP
+and STA queues as well as for TCP-controlled long file downloads. The accuracy
+of our model is demonstrated by comparison with ns-2 simulations. We also
+demonstrate how our analytical model could be applied in conjunction with a
+Learning Automata (LA) algorithm for optimal channel assignment. Based on the
+insights provided by our analytical model, we propose a simple decentralized
+algorithm which provides static channel assignments that are Nash equilibria in
+pure strategies for the objective of maximizing normalized network throughput.
+Our channel assignment algorithm requires neither any explicit knowledge of the
+topology nor any message passing, and provides assignments in only as many
+steps as there are channels. In contrast to prior work, our approach to channel
+assignment is based on the throughput metric.

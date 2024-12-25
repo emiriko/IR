@@ -1,0 +1,15 @@
+The main challenge in using abstractions effectively, is to construct a
+suitable abstraction for the system being verified. One approach that tries to
+address this problem is that of {\it counterexample guided
+abstraction-refinement (CEGAR)}, wherein one starts with a coarse abstraction
+of the system, and progressively refines it, based on invalid counterexamples
+seen in prior model checking runs, until either an abstraction proves the
+correctness of the system or a valid counterexample is generated. While CEGAR
+has been successfully used in verifying non-probabilistic systems
+automatically, CEGAR has not been applied in the context of probabilistic
+systems. The main issues that need to be tackled in order to extend the
+approach to probabilistic systems is a suitable notion of ``counterexample'',
+algorithms to generate counterexamples, check their validity, and then
+automatically refine an abstraction based on an invalid counterexample. In this
+paper, we address these issues, and present a CEGAR framework for Markov
+Decision Processes.

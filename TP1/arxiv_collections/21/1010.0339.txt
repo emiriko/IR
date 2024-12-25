@@ -1,0 +1,13 @@
+We present an efficient and exact Monte Carlo algorithm to simulate
+reversible aggregation of particles with dedicated binding sites. This method
+introduces a novel data structure of dynamic bond tree to record clusters and
+sequences of bond formations. The algorithm achieves a constant time cost for
+processing cluster association and a cost between $\mathcal{O}(\log M)$ and
+$\mathcal{O}(M)$ for processing bond dissociation in clusters with $M$ bonds.
+The algorithm is statistically exact and can reproduce results obtained by the
+standard method. We applied the method to simulate a trivalent ligand and a
+bivalent receptor clustering system and obtained an average scaling of
+$\mathcal{O}(M^{0.45})$ for processing bond dissociation in acyclic
+aggregation, compared to a linear scaling with the cluster size in standard
+methods. The algorithm also demands substantially less memory than the
+conventional method.

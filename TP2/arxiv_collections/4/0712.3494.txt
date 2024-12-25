@@ -1,0 +1,20 @@
+DNA microarrays are devices that are able, in principle, to detect and
+quantify the presence of specific nucleic acid sequences in complex biological
+mixtures. The measurement consists in detecting fluorescence signals from
+several spots on the microarray surface onto which different probe sequences
+are grafted. One of the problems of the data analysis is that the signal
+contains a noisy background component due to non-specific binding. This paper
+presents a physical model for background estimation in Affymetrix Genechips. It
+combines two different approaches. The first is based on the sequence
+composition, specifically its sequence dependent hybridization affinity. The
+second is based on the strong correlation of intensities from locations which
+are the physical neighbors of a specific spot on the chip. Both effects are
+incorporated in a background functional which contains 24 free parameters,
+fixed by minimization on a training data set. In all data analyzed the sequence
+specific parameters, obtained by minimization, are found to strongly correlate
+with empirically determined stacking free energies for RNA/DNA hybridization in
+solution. Moreover, there is an overall agreement with experimental background
+data and we show that the physics-based model proposed in this paper performs
+on average better than purely statistical approaches for background
+calculations. The model thus provides an interesting alternative method for
+background subtraction schemes in Affymetrix Genechips.

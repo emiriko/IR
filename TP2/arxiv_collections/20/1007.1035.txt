@@ -1,0 +1,12 @@
+We consider variations of the Rudin-Osher-Fatemi functional which are
+particularly well-suited to denoising and deblurring of 2D bar codes. These
+functionals consist of an anisotropic total variation favoring rectangles and a
+fidelity term which measure the L^1 distance to the signal, both with and
+without the presence of a deconvolution operator. Based upon the existence of a
+certain associated vector field, we find necessary and sufficient conditions
+for a function to be a minimizer. We apply these results to 2D bar codes to
+find explicit regimes ---in terms of the fidelity parameter and smallest length
+scale of the bar codes--- for which a perfect bar code is recoverable via
+minimization of the functionals. Via a discretization reformulated as a linear
+program, we perform numerical experiments for all functionals demonstrating
+their denoising and deblurring capabilities.

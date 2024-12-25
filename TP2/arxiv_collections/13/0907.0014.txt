@@ -1,0 +1,23 @@
+We present the theory of how to achieve phase measurements with the minimum
+possible variance in ways that are readily implementable with current
+experimental techniques. Measurements whose statistics have high-frequency
+fringes, such as those obtained from NOON states, have commensurately high
+information yield. However this information is also highly ambiguous because it
+does not distinguish between phases at the same point on different fringes. We
+provide schemes to eliminate this phase ambiguity in a highly efficient way,
+providing phase estimates with uncertainty that is within a small constant
+factor of the Heisenberg limit, the minimum allowed by the laws of quantum
+mechanics. These techniques apply to NOON state and multi-pass interferometry,
+as well as phase measurements in quantum computing. We have reported the
+experimental implementation of some of these schemes with multi-pass
+interferometry elsewhere. Here we present the theoretical foundation, and also
+present some new experimental results. There are three key innovations to the
+theory in this paper. First, we examine the intrinsic phase properties of the
+sequence of states (in multiple time modes) via the equivalent two-mode state.
+Second, we identify the key feature of the equivalent state that enables the
+optimal scaling of the intrinsic phase uncertainty to be obtained. This enables
+us to identify appropriate combinations of states to use. The remaining
+difficulty is that the ideal phase measurements to achieve this intrinic phase
+uncertainty are often not physically realizable. The third innovation is to
+solve this problem by using realizable measurements that closely approximate
+the optimal measurements, enabling the optimal scaling to be preserved.

@@ -1,0 +1,15 @@
+This paper presents hedging strategies for European and exotic options in a
+Levy market. By applying Taylor's Theorem, dynamic hedging portfolios are con-
+structed under different market assumptions, such as the existence of power
+jump assets or moment swaps. In the case of European options or baskets of
+European options, static hedging is implemented. It is shown that perfect
+hedging can be achieved. Delta and gamma hedging strategies are extended to
+higher moment hedging by investing in other traded derivatives depending on the
+same underlying asset. This development is of practical importance as such
+other derivatives might be readily available. Moment swaps or power jump assets
+are not typically liquidly traded. It is shown how minimal variance portfolios
+can be used to hedge the higher order terms in a Taylor expansion of the
+pricing function, investing only in a risk-free bank account, the underlying
+asset and potentially variance swaps. The numerical algorithms and performance
+of the hedging strategies are presented, showing the practical utility of the
+derived results.

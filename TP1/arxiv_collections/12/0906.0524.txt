@@ -1,0 +1,11 @@
+An (n,m,p) Random Access Code (RAC) allows to encode n bits in an m bit
+message, in such a way that a receiver of the message can guess any of the
+original $n$ bits with probability p, greater than 1/2. In Quantum RAC's
+(QRACs) one transmits n qubits. The full set of primitive Entanglement Assisted
+Random Access Codes (EARACs) is introduced, in which parties are allowed to
+share a two-qubit singlet. It is shown that via a concatenation of these, one
+can build for any n an (n,1,p) EARAC. QRAC's for n>3 exist only if parties
+additionally share classical randomness (SR). We show that EARACs outperform
+the best of known QRACs not only in the success probabilities but also in the
+amount of communication needed in the preparatory stage of the protocol. Upper
+bounds on the performance of EARACs are given, and shown to limit also QRACs.

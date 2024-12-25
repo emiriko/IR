@@ -1,0 +1,10 @@
+Topological quantum error-correcting codes are defined by geometrically local
+checks on a two-dimensional lattice of quantum bits (qubits), making them
+particularly well suited for fault-tolerant quantum information processing.
+Here, we present a decoding algorithm for topological codes that is faster than
+previously known algorithms and applies to a wider class of topological codes.
+Our algorithm makes use of two methods inspired from statistical physics:
+renormalization groups and mean-field approximations. First, the topological
+code is approximated by a concatenated block code that can be efficiently
+decoded. To improve this approximation, additional consistency conditions are
+imposed between the blocks, and are solved by a belief propagation algorithm.

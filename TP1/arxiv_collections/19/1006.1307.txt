@@ -1,0 +1,19 @@
+We analyse some QR decomposition algorithms, and show that the I/O complexity
+of the tile based algorithm is asymptotically the same as that of matrix
+multiplication. This algorithm, we show, performs the best when the tile size
+is chosen so that exactly one tile fits in the main memory. We propose a
+constant factor improvement, as well as a new recursive cache oblivious
+algorithm with the same asymptotic I/O complexity. We design Hessenberg,
+tridiagonal, and bidiagonal reductions that use banded intermediate forms, and
+perform only asymptotically optimal numbers of I/Os; these are the first I/O
+optimal algorithms for these problems. In particular, we show that known slab
+based algorithms for two sided reductions all have suboptimal asymptotic I/O
+performances, even though they have been reported to do better than the
+traditional algorithms on the basis of empirical evidence.
+  We propose new tile based variants of multishift QR and QZ algorithms that
+under certain conditions on the number of shifts, have better seek and I/O
+complexities than all known variants.
+  We show that techniques like rescheduling of computational steps, appropriate
+choosing of the blocking parameters and incorporating of more matrix-matrix
+operations, can be used to improve the I/O and seek complexities of matrix
+computations.

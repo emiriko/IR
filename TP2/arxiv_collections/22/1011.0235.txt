@@ -1,0 +1,10 @@
+Histograms are widely used in medical imaging, network intrusion detection,
+packet analysis and other stream-based high throughput applications. However,
+while porting such software stacks to the GPU, the computation of the histogram
+is a typical bottleneck primarily due to the large impact on kernel speed by
+atomic operations. In this work, we propose a stream-based model implemented in
+CUDA, using a new adaptive kernel that can be optimized based on latency hidden
+CPU compute. We also explore the tradeoffs of using the new kernel vis-\`a-vis
+the stock NVIDIA SDK kernel, and discuss an intelligent kernel switching method
+for the stream based on a degeneracy criterion that is adaptively computed from
+the input stream.

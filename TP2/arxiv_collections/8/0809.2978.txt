@@ -1,0 +1,7 @@
+We present an algorithm for computing a Smith form with multipliers of a
+regular matrix polynomial over a field. This algorithm differs from previous
+ones in that it computes a local Smith form for each irreducible factor in the
+determinant separately and then combines them into a global Smith form, whereas
+other algorithms apply a sequence of unimodular row and column operations to
+the original matrix. The performance of the algorithm in exact arithmetic is
+reported for several test cases.

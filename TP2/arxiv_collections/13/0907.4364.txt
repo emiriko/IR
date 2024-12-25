@@ -1,0 +1,20 @@
+This thesis presents a two-layer uniform facet elastic object for real-time
+simulation based on physics modeling method. It describes the elastic object
+procedural modeling algorithm with particle system from the simplest
+one-dimensional object, to more complex two-dimensional and three-dimensional
+objects.
+  The double-layered elastic object consists of inner and outer elastic mass
+spring surfaces and compressible internal pressure. The density of the inner
+layer can be set different from the density of the outer layer; the motion of
+the inner layer can be opposite to the motion of the outer layer. These special
+features, which cannot be achieved by a single layered object, result in
+improved imitation of a soft body, such as tissue's liquidity non-uniform
+deformation. The construction of the double-layered elastic object is closer to
+the real tissue's physical structure.
+  The inertial behavior of the elastic object is well illustrated in
+environments with gravity and collisions with walls, ceiling, and floor. The
+collision detection is defined by elastic collision penalty method and the
+motion of the object is guided by the Ordinary Differential Equation
+computation.
+  Users can interact with the modeled objects, deform them, and observe the
+response to their action in real time.

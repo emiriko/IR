@@ -1,0 +1,24 @@
+This paper describes the first steps of development of a new multidimensional
+time implicit code devoted to the study of hydrodynamical processes in stellar
+interiors. The code solves the hydrodynamical equations in spherical geometry
+and is based on the finite volume method. Radiation transport is taken into
+account within the diffusion approximation. Realistic equation of state and
+opacities are implemented, allowing the study of a wide range of problems
+characteristic of stellar interiors. We describe in details the numerical
+method and various standard tests performed to validate the method. We present
+preliminary results devoted to the description of stellar convection. We first
+perform a local simulation of convection in the surface layers of a A-type star
+model. This simulation is used to test the ability of the code to address
+stellar conditions and to validate our results, since they can be compared to
+similar previous simulations based on explicit codes. We then present a global
+simulation of turbulent convective motions in a cold giant envelope, covering
+80% in radius of the stellar structure. Although our implicit scheme is
+unconditionally stable, we show that in practice there is a limitation on the
+time step which prevent the flow to move over several cells during a time step.
+Nevertheless, in the cold giant model we reach a hydro CFL number of 100. We
+also show that we are able to address flows with a wide range of Mach numbers
+(10^-3 < Ms< 0.5), which is impossible with an anelastic approach. Our first
+developments are meant to demonstrate that the use of an implicit scheme
+applied to a stellar evolution context is perfectly thinkable and to provide
+useful guidelines to optimise the development of an implicit multi-D
+hydrodynamical code.

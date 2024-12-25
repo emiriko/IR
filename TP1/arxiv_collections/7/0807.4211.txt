@@ -1,0 +1,11 @@
+The "standard" Brownian motion master equation, used to describe thermal
+damping, is not completely positive, and does not admit a Monte Carlo method,
+important in numerical simulations. To eliminate both these problems one must
+add a term that generates additional position diffusion. He we show that one
+can obtain a completely positive simple quantum Brownian motion, efficiently
+solvable, without any extra diffusion. This is achieved by using a stochastic
+Schroedinger equation (SSE), closely analogous to Langevin's equation, that has
+no equivalent Markovian master equation. Considering a specific example, we
+show that this SSE is sensitive to nonlinearities in situations in which the
+master equation is not, and may therefore be a better model of damping for
+nonlinear systems.

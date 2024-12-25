@@ -1,0 +1,17 @@
+We present a new class of tensor network states that are specifically
+designed to capture the electron correlation of a molecule of arbitrary
+structure. In this ansatz, the electronic wave function is represented by a
+Complete-Graph Tensor Network (CGTN) ansatz which implements an efficient
+reduction of the number of variational parameters by breaking down the
+complexity of the high-dimensional coefficient tensor of a
+full-configuration-interaction (FCI) wave function. We demonstrate that CGTN
+states approximate ground states of molecules accurately by comparison of the
+CGTN and FCI expansion coefficients. The CGTN parametrization is not biased
+towards any reference configuration in contrast to many standard quantum
+chemical methods. This feature allows one to obtain accurate relative energies
+between CGTN states which is central to molecular physics and chemistry. We
+discuss the implications for quantum chemistry and focus on the spin-state
+problem. Our CGTN approach is applied to the energy splitting of states of
+different spin for methylene and the strongly correlated ozone molecule at a
+transition state structure. The parameters of the tensor network ansatz are
+variationally optimized by means of a parallel-tempering Monte Carlo algorithm.

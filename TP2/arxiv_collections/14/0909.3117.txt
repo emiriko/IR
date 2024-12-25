@@ -1,0 +1,12 @@
+A one way partial quantum bit commitment protocol is developed, using states
+with built-in classical correlation, completely independent of entanglement. It
+involves concealing information in a set of mutually non-orthogonal states and
+revealing it through measurements on a set of product states that are mutually
+orthogonal. Given $2^N$ choices to commit from, the protocol encodes each
+choice in a $N+1$ qubit state, from $2^N$ non-orthogonal states. A previously
+agreed upon $N$ qubit state corresponding to each choice, when coupled with the
+$N+1$ qubit state, yields an element belonging to a set of orthogonal product
+states, which can be deterministically distinguished. The protocol is
+demonstrated by implementing it for a `coin-toss' game. A procedure to enhance
+security of the protocol is explicated, increasing the number of qubits
+required. Thus a modification is suggested to reduce this required number.

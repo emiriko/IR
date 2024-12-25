@@ -1,0 +1,16 @@
+In the geometric data model for spatio-temporal data, introduced by Chomicki
+and Revesz, spatio-temporal data are modelled as a finite collection of
+triangles that are transformed by time-dependent affinities of the plane. To
+facilitate querying and animation of spatio-temporal data, we present a normal
+form for data in the geometric data model. We propose an algorithm for
+constructing this normal form via a spatio-temporal triangulation of geometric
+data objects. This triangulation algorithm generates new geometric data objects
+that partition the given objects both in space and in time. A particular
+property of the proposed partition is that it is invariant under time-dependent
+affine transformations, and hence independent of the particular choice of
+coordinate system used to describe he spatio-temporal data in. We can show that
+our algorithm works correctly and has a polynomial time complexity (of
+reasonably low degree in the number of input triangles and the maximal degree
+of the polynomial functions that describe the transformation functions). We
+also discuss several possible applications of this spatio-temporal
+triangulation.

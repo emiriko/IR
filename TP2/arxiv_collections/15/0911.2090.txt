@@ -1,0 +1,23 @@
+We develop an efficient sampling and free energy calculation technique within
+the adaptive biasing potential (ABP) framework. By mollifying the density of
+states we obtain an approximate free energy and an adaptive bias potential that
+is computed directly from the population along the coordinates of the free
+energy. Because of the mollifier, the bias potential is "nonlocal" and its
+gradient admits a simple analytic expression. A single observation of the
+reaction coordinate can thus be used to update the approximate free energy at
+every point within a neighborhood of the observation. This greatly reduces the
+equilibration time of the adaptive bias potential. This approximation
+introduces two parameters: strength of mollification and the zero of energy of
+the bias potential. While we observe that the approximate free energy is a very
+good estimate of the actual free energy for a large range of mollification
+strength, we demonstrate that the errors associated with the mollification may
+be removed via deconvolution. The zero of energy of the bias potential, which
+is easy to choose, influences the speed of convergence but not the limiting
+accuracy. This method is simple to apply to free energy or mean force
+computation in multiple dimensions and does not involve second derivatives of
+the reaction coordinates, matrix manipulations nor on-the-fly adaptation of
+parameters. For the alanine dipeptide test case, the new method is found to
+gain as much as a factor of ten in efficiency as compared to two common
+adaptive biasing force formulations and it is shown to be as efficient as
+well-tempered metadynamics with the post-process deconvolution giving a clear
+advantage to the mollified density of states method.

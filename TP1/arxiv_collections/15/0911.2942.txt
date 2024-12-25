@@ -1,0 +1,16 @@
+We examine Euclidean distance-preserving data perturbation as a tool for
+privacy-preserving data mining. Such perturbations allow many important data
+mining algorithms e.g. hierarchical and k-means clustering), with only minor
+modification, to be applied to the perturbed data and produce exactly the same
+results as if applied to the original data. However, the issue of how well the
+privacy of the original data is preserved needs careful study. We engage in
+this study by assuming the role of an attacker armed with a small set of known
+original data tuples (inputs). Little work has been done examining this kind of
+attack when the number of known original tuples is less than the number of data
+dimensions. We focus on this important case, develop and rigorously analyze an
+attack that utilizes any number of known original tuples. The approach allows
+the attacker to estimate the original data tuple associated with each perturbed
+tuple and calculate the probability that the estimation results in a privacy
+breach. On a real 16-dimensional dataset, we show that the attacker, with 4
+known original tuples, can estimate an original unknown tuple with less than 7%
+error with probability exceeding 0.8.

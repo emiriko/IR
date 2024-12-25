@@ -1,0 +1,14 @@
+Importance of addressing soft errors in both safety critical applications and
+commercial consumer products is increasing, mainly due to ever shrinking
+geometries, higher-density circuits, and employment of power-saving techniques
+such as voltage scaling and component shut-down. As a result, it is becoming
+necessary to treat reliability as a first-class citizen in system design. In
+particular, reliability decisions taken early in system design can have
+significant benefits in terms of design quality. Motivated by this observation,
+this paper presents a reliability-centric high-level synthesis approach that
+addresses the soft error problem. The proposed approach tries to maximize
+reliability of the design while observing the bounds on area and performance,
+and makes use of our reliability characterization of hardware components such
+as adders and multipliers. We implemented the proposed approach, performed
+experiments with several designs, and compared the results with those obtained
+by a prior proposal.

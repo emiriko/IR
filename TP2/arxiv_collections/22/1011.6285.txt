@@ -1,0 +1,26 @@
+Routine measurements of the solar magnetic field are mainly carried out in
+the photosphere. Therefore, one has to infer the field strength in the higher
+layers of the solar atmosphere from the measured photospheric field based on
+the assumption that the corona is force-free. Meanwhile, those measured data
+are inconsistent with the above force-free assumption. Therefore, one has to
+apply some transformations to these data before nonlinear force-free
+extrapolation codes can be applied. Extrapolation codes in cartesian geometry
+for modelling the magnetic field in the corona do not take the curvature of the
+Sun's surface into account and can only be applied to relatively small areas,
+e.g., a single active region. Here we apply a method for nonlinear force-free
+coronal magnetic field modelling and preprocessing of photospheric vector
+magnetograms in spherical geometry using the optimization procedure.We solve
+the nonlinear force-free field equations by minimizing a functional in
+spherical coordinates over a restricted area of the Sun. We extend the
+functional by an additional term, which allows to incorporate measurement error
+and treat regions with lacking observational data. We use vector magnetograph
+data from the Synoptic Optical Long-term Investigations of the Sun survey
+(SOLIS) to model the coronal magnetic field. We study two neighbouring
+magnetically connected active regions observed on May 15 2009. For vector
+magnetograms with variable measurement precision and randomly scattered data
+gaps (e.g., SOLIS/VSM) the new code yields field models which satisfy the
+solenoidal and force-free condition significantly better as it allows
+deviations between the extrapolated boundary field and observed boundary data
+within measurement errors. Data gaps are assigned to an infinite error. We
+extend this new scheme to spherical geometry and apply it for the first time to
+real data.

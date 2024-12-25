@@ -1,0 +1,20 @@
+We study the simultaneous message passing (SMP) model of communication
+complexity, for the case where one party is quantum and the other is classical.
+We show that in an SMP protocol that computes some function with the first
+party sending q qubits and the second sending c classical bits, the quantum
+message can be replaced by a randomized message of O(qc) classical bits, as
+well as by a deterministic message of O(q c log q) classical bits. Our proofs
+rely heavily on earlier results due to Scott Aaronson.
+  In particular, our results imply that quantum-classical protocols need to
+send Omega(sqrt{n/log n}) bits/qubits to compute Equality on n-bit strings, and
+hence are not significantly better than classical-classical protocols (and are
+much worse than quantum-quantum protocols such as quantum fingerprinting). This
+essentially answers a recent question of Wim van Dam. Our results also imply,
+more generally, that there are no superpolynomial separations between
+quantum-classical and classical-classical SMP protocols for functional
+problems. This contrasts with the situation for relational problems, where
+exponential gaps between quantum-classical and classical-classical SMP
+protocols are known. We show that this surprising situation cannot arise in
+purely classical models: there, an exponential separation for a relational
+problem can be converted into an exponential separation for a functional
+problem.

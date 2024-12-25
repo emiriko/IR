@@ -1,0 +1,15 @@
+In order to investigate distributed quantum computation under restricted
+network resources, we introduce a quantum computation task over the butterfly
+network where both quantum and classical communications are limited. We
+consider deterministically performing a two-qubit global unitary operation on
+two unknown inputs given at different nodes, with outputs at two distinct
+nodes. By using a particular resource setting introduced by M. Hayashi [Phys.
+Rev. A \textbf{76}, 040301(R) (2007)], which is capable of performing a swap
+operation by adding two maximally entangled qubits (ebits) between the two
+input nodes, we show that unitary operations can be performed without adding
+any entanglement resource, if and only if the unitary operations are locally
+unitary equivalent to controlled unitary operations. Our protocol is optimal in
+the sense that the unitary operations cannot be implemented if we relax the
+specifications of any of the channels. We also construct protocols for
+performing controlled traceless unitary operations with a 1-ebit resource and
+for performing global Clifford operations with a 2-ebit resource.

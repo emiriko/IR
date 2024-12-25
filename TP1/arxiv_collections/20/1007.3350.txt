@@ -1,0 +1,10 @@
+This article presents the formal proof of correctness for a plane Delaunay
+triangulation algorithm. It consists in repeating a sequence of edge flippings
+from an initial triangulation until the Delaunay property is achieved. To
+describe triangulations, we rely on a combinatorial hypermap specification
+framework we have been developing for years. We embed hypermaps in the plane by
+attaching coordinates to elements in a consistent way. We then describe what
+are legal and illegal Delaunay edges and a flipping operation which we show
+preserves hypermap, triangulation, and embedding invariants. To prove the
+termination of the algorithm, we use a generic approach expressing that any
+non-cyclic relation is well-founded when working on a finite set.

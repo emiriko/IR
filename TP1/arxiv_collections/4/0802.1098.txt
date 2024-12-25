@@ -1,0 +1,10 @@
+Most methods for modelling dynamics posit just two time scales: a fast and a
+slow scale. But many applications, including many in continuum mechanics,
+possess a wide variety of space-time scales; often they possess a continuum of
+space-time scales. I discuss an approach to modelling the discretised dynamics
+of advection and diffusion with rigorous support for changing the resolved
+spatial grid scale by just a factor of two. The mapping of dynamics from a
+finer grid to a coarser grid is then iterated to generate a hierarchy of models
+across a wide range of space-time scales, all with rigorous support across the
+whole hierarchy. This approach empowers us with great flexibility in modelling
+complex dynamics over multiple scales.

@@ -1,0 +1,24 @@
+Batting average is one of the principle performance measures for an
+individual baseball player. It is natural to statistically model this as a
+binomial-variable proportion, with a given (observed) number of qualifying
+attempts (called ``at-bats''), an observed number of successes (``hits'')
+distributed according to the binomial distribution, and with a true (but
+unknown) value of $p_i$ that represents the player's latent ability. This is a
+common data structure in many statistical applications; and so the
+methodological study here has implications for such a range of applications. We
+look at batting records for each Major League player over the course of a
+single season (2005). The primary focus is on using only the batting records
+from an earlier part of the season (e.g., the first 3 months) in order to
+estimate the batter's latent ability, $p_i$, and consequently, also to predict
+their batting-average performance for the remainder of the season. Since we are
+using a season that has already concluded, we can then validate our estimation
+performance by comparing the estimated values to the actual values for the
+remainder of the season. The prediction methods to be investigated are
+motivated from empirical Bayes and hierarchical Bayes interpretations. A newly
+proposed nonparametric empirical Bayes procedure performs particularly well in
+the basic analysis of the full data set, though less well with analyses
+involving more homogeneous subsets of the data. In those more homogeneous
+situations better performance is obtained from appropriate versions of more
+familiar methods. In all situations the poorest performing choice is the
+na\"{{\i}}ve predictor which directly uses the current average to predict the
+future average.

@@ -1,0 +1,11 @@
+We present a mathematica package that performs the symbolic calculation of
+integrals of the form \int^{\infty}_0 e^{-x/u} x^n j_{\nu} (x) j_{\mu} (x) dx
+where $j_{\nu} (x)$ and $j_{\mu} (x)$ denote spherical Bessel functions of
+integer orders, with $\nu \ge 0$ and $\mu \ge 0$. With the real parameter $u>0$
+and the integer $n$, convergence of the integral requires that $n+\nu +\mu \ge
+0$. The package provides analytical result for the integral in its most
+simplified form. The novel symbolic method employed enables the calculation of
+a large number of integrals of the above form in a fraction of the time
+required for conventional numerical and Mathematica based brute-force methods.
+We test the accuracy of such analytical expressions by comparing the results
+with their numerical counterparts.

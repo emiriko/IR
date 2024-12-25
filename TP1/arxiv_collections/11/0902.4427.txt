@@ -1,0 +1,24 @@
+Mode fitting or "peak-bagging" is an important procedure in helioseismology
+allowing one to determine the various mode parameters of solar oscillations.
+Here we describe a way of reducing the systematic bias in the fits of certain
+mode parameters that are seen when using "local" fitting techniques to analyse
+the sun-as-a-star p-mode power spectrum. To do this we have developed a new
+"pseudo-global" fitting algorithm designed to gain the advantages of fitting
+the entire power spectrum, but without the problems involved in fitting a model
+incorporating many hundreds of parameters.
+  We have performed a comparative analysis between the local and pseudo-global
+peak-bagging techniques by fitting the "limit" profiles of simulated
+helioseismic data. Results show that for asymmetric modes the traditional
+fitting technique returns systematically biased estimates of the central
+frequency parameter. This bias is significantly reduced when employing the
+pseudo-global routine. Similarly, we show that estimates of the background
+returned from the pseudo-global routine match the input values much more
+closely than the estimates from the local fitting method.
+  We have also used the two fitting techniques to analyse a set of real solar
+data collected by the Global Oscillations at Low Frequencies (GOLF) instrument
+on board the ESA/NASA Solar and Heliospheric Observatory (SOHO) spacecraft.
+Similar differences between the estimated frequencies returned by the two
+techniques are seen when fitting both the real and simulated data. We show that
+the background fits returned by the pseudo-global routine more closely match
+the estimate of the background one can infer from interpolating between fits to
+the high and low frequency ends of the p-mode power spectrum.

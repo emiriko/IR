@@ -1,0 +1,24 @@
+In our previous work, we proposed a systematic cross-layer framework for
+dynamic multimedia systems, which allows each layer to make autonomous and
+foresighted decisions that maximize the system's long-term performance, while
+meeting the application's real-time delay constraints. The proposed solution
+solved the cross-layer optimization offline, under the assumption that the
+multimedia system's probabilistic dynamics were known a priori. In practice,
+however, these dynamics are unknown a priori and therefore must be learned
+online. In this paper, we address this problem by allowing the multimedia
+system layers to learn, through repeated interactions with each other, to
+autonomously optimize the system's long-term performance at run-time. We
+propose two reinforcement learning algorithms for optimizing the system under
+different design constraints: the first algorithm solves the cross-layer
+optimization in a centralized manner, and the second solves it in a
+decentralized manner. We analyze both algorithms in terms of their required
+computation, memory, and inter-layer communication overheads. After noting that
+the proposed reinforcement learning algorithms learn too slowly, we introduce a
+complementary accelerated learning algorithm that exploits partial knowledge
+about the system's dynamics in order to dramatically improve the system's
+performance. In our experiments, we demonstrate that decentralized learning can
+perform as well as centralized learning, while enabling the layers to act
+autonomously. Additionally, we show that existing application-independent
+reinforcement learning algorithms, and existing myopic learning algorithms
+deployed in multimedia systems, perform significantly worse than our proposed
+application-aware and foresighted learning methods.

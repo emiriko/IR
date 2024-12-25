@@ -1,0 +1,14 @@
+The numerical simulation of quantum many-body dynamics is typically limited
+by the linear growth of entanglement with time. Recently numerical studies have
+shown, however, that for 1D Bethe-integrable models the simulation of local
+operators in the Heisenberg picture can be efficient as the corresponding
+operator-space entanglement grows only logarithmically. Using the spin-1/2 XX
+chain as generic example of an integrabel model that can be mapped to free
+particles, we here provide a simple explanation for this. We show furthermore
+that the same reduction of complexity applies to operators that have a
+high-temperature auto correlation function which decays slower than
+exponential, i.e., with a power law. This is amongst others the case for models
+where the Blombergen-De Gennes conjecture of high-temperature diffusive
+dynamics holds. Thus efficient simulability may already be implied by a single
+conservation law (like that of total magnetization), as we will illustrate
+numerically for the spin-1 XXZ model.

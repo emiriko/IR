@@ -1,0 +1,12 @@
+In this paper, we propose a general class of algorithms for optimizing an
+extensive variety of nonsmoothly penalized objective functions that satisfy
+certain regularity conditions. The proposed framework utilizes the
+majorization-minimization (MM) algorithm as its core optimization engine. The
+resulting algorithms rely on iterated soft-thresholding, implemented
+componentwise, allowing for fast, stable updating that avoids the need for any
+high-dimensional matrix inversion. We establish a local convergence theory for
+this class of algorithms under weaker assumptions than previously considered in
+the statistical literature. We also demonstrate the exceptional effectiveness
+of new acceleration methods, originally proposed for the EM algorithm, in this
+class of problems. Simulation results and a microarray data example are
+provided to demonstrate the algorithm's capabilities and versatility.

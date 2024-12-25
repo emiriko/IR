@@ -1,0 +1,13 @@
+We address the problem of cyclic termgraph rewriting. We propose a new
+framework where rewrite rules are tuples of the form $(L,R,\tau,\sigma)$ such
+that $L$ and $R$ are termgraphs representing the left-hand and the right-hand
+sides of the rule, $\tau$ is a mapping from the nodes of $L$ to those of $R$
+and $\sigma$ is a partial function from nodes of $R$ to nodes of $L$. $\tau$
+describes how incident edges of the nodes in $L$ are connected in $R$. $\tau$
+is not required to be a graph morphism as in classical algebraic approaches of
+graph transformation. The role of $\sigma$ is to indicate the parts of $L$ to
+be cloned (copied). Furthermore, we introduce a new notion of \emph{cloning
+pushout} and define rewrite steps as cloning pushouts in a given category.
+Among the features of the proposed rewrite systems, we quote the ability to
+perform local and global redirection of pointers, addition and deletion of
+nodes as well as cloning and collapsing substructures.

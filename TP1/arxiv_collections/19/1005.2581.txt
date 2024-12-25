@@ -1,0 +1,12 @@
+CUDA and OpenCL are two different frameworks for GPU programming. OpenCL is
+an open standard that can be used to program CPUs, GPUs, and other devices from
+different vendors, while CUDA is specific to NVIDIA GPUs. Although OpenCL
+promises a portable language for GPU programming, its generality may entail a
+performance penalty. In this paper, we use complex, near-identical kernels from
+a Quantum Monte Carlo application to compare the performance of CUDA and
+OpenCL. We show that when using NVIDIA compiler tools, converting a CUDA kernel
+to an OpenCL kernel involves minimal modifications. Making such a kernel
+compile with ATI's build tools involves more modifications. Our performance
+tests measure and compare data transfer times to and from the GPU, kernel
+execution times, and end-to-end application execution times for both CUDA and
+OpenCL.

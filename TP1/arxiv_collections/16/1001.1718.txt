@@ -1,0 +1,16 @@
+The strategy of using CUDA-compatible GPUs as a parallel computation solution
+to improve the performance of programs has been more and more widely approved
+during the last two years since the CUDA platform was released. Its benefit
+extends from the graphic domain to many other computationally intensive
+domains. Tiling, as the most general and important technique, is widely used
+for optimization in CUDA programs. New models of GPUs with better compute
+capabilities have, however, been released, new versions of CUDA SDKs were also
+released. These updated compute capabilities must to be considered when
+optimizing using the tiling technique. In this paper, we implement image
+interpolation algorithms as a test case to discuss how different tiling
+strategies affect the program's performance. We especially focus on how the
+different models of GPUs affect the tiling's effectiveness by executing the
+same program on two different models of GPUs equipped testing platforms. The
+results demonstrate that an optimized tiling strategy on one GPU model is not
+always a good solution when execute on other GPU models, especially when some
+external conditions were changed.

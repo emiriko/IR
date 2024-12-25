@@ -1,0 +1,13 @@
+The Bloom filter (BF) is a well-known space-efficient data structure that
+answers set membership queries with some probability of false positives. In an
+attempt to solve many of the limitations of current inter-networking
+architectures, some recent proposals rely on including small BFs in packet
+headers for routing, security, accountability or other purposes that move
+application states into the packets themselves. In this paper, we consider the
+design of such in-packet Bloom filters (iBF). Our main contributions are
+exploring the design space and the evaluation of a series of extensions (1) to
+increase the practicality and performance of iBFs, (2) to enable
+false-negative-free element deletion, and (3) to provide security enhancements.
+In addition to the theoretical estimates, extensive simulations of the multiple
+design parameters and implementation alternatives validate the usefulness of
+the extensions, providing for enhanced and novel iBF networking applications.

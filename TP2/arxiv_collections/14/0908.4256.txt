@@ -1,0 +1,9 @@
+In IEEE 802.11, load balancing algorithms (LBA) consider only the associated
+stations to balance the load of the available access points (APs). However,
+although the APs are balanced, it causes a bad situation if the AP has a lower
+signal length (SNR) less than the neighbor APs. So, balance the load and
+associate one mobile station to an access point without care about the signal
+to noise ratio (SNR) of the AP cause possibly an unforeseen QoS, such as the
+bit rate, the end to end delay, the packet loss. In this way, we study an
+improvement load balancing algorithm with SNR integration at the selection
+policy.

@@ -1,0 +1,15 @@
+We present decidability results for termination of classes of term rewriting
+systems modulo permutative theories. Termination and innermost termination
+modulo permutative theories are shown to be decidable for term rewrite systems
+(TRS) whose right-hand side terms are restricted to be shallow (variables occur
+at depth at most one) and linear (each variable occurs at most once). Innermost
+termination modulo permutative theories is also shown to be decidable for
+shallow TRS. We first show that a shallow TRS can be transformed into a flat
+(only variables and constants occur at depth one) TRS while preserving
+termination and innermost termination. The decidability results are then proved
+by showing that (a) for right-flat right-linear (flat) TRS, non-termination
+(respectively, innermost non-termination) implies non-termination starting from
+flat terms, and (b) for right-flat TRS, the existence of non-terminating
+derivations starting from a given term is decidable. On the negative side, we
+show PSPACE-hardness of termination and innermost termination for shallow
+right-linear TRS, and undecidability of termination for flat TRS.

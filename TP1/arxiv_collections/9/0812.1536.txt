@@ -1,0 +1,10 @@
+We extend the active walker model to address the formation of paths on
+gradients, which have been observed to have a zigzag form. Our extension
+includes a new rule which prohibits direct descent or ascent on steep inclines,
+simulating aversion to falling. Further augmentation of the model stops walkers
+from changing direction very rapidly as that would likely lead to a fall. The
+extended model predicts paths with qualitatively similar forms to the observed
+trails, but only if the terms suppressing sudden direction changes are
+included. The need to include terms into the model that stop rapid direction
+change when simulating mountain trails indicates that a similar rule should
+also be included in the standard active walker model.

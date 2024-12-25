@@ -1,0 +1,17 @@
+Several scenarios have been proposed in which the orbits of binary black
+holes enter the band of a gravitational wave detector with significant
+eccentricity. To avoid missing these signals or biasing parameter estimation it
+is important that we consider waveform models that account for eccentricity.
+The ingredients needed to compute post-Newtonian (PN) waveforms produced by
+spinning black holes inspiralling on quasi-eccentric orbits have been available
+for almost two decades at 2 PN order, and this work has recently been extended
+to 2.5 PN order. However, the computational cost of directly implementing these
+waveforms is high, requiring many steps per orbit to evolve the system of
+coupled differential equations. Here we employ the standard techniques of a
+separation of timescales and a generalized Keplerian parameterization of the
+orbits to produce efficient waveforms describing spinning black hole binaries
+with arbitrary masses and spins on quasi-eccentric orbits to 1.5 PN order. We
+separate the fast orbital timescale from the slow spin-orbit precession
+timescale by solving for the orbital motion in a non-interial frame of
+reference that follows the orbital precession. We outline a scheme for
+extending our approach to higher post-Newtonian order.

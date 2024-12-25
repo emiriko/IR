@@ -1,0 +1,16 @@
+The objective of the paper is to recognize handwritten samples of basic
+Bangla characters using Tesseract open source Optical Character Recognition
+(OCR) engine under Apache License 2.0. Handwritten data samples containing
+isolated Bangla basic characters and digits were collected from different
+users. Tesseract is trained with user-specific data samples of document pages
+to generate separate user-models representing a unique language-set. Each such
+language-set recognizes isolated basic Bangla handwritten test samples
+collected from the designated users. On a three user model, the system is
+trained with 919, 928 and 648 isolated handwritten character and digit samples
+and the performance is tested on 1527, 14116 and 1279 character and digit
+samples, collected form the test datasets of the three users respectively. The
+user specific character/digit recognition accuracies were obtained as 90.66%,
+91.66% and 96.87% respectively. The overall basic character-level and digit
+level accuracy of the system is observed as 92.15% and 97.37%. The system fails
+to segment 12.33% characters and 15.96% digits and also erroneously classifies
+7.85% characters and 2.63% on the overall dataset.

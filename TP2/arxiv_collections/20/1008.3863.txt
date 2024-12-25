@@ -1,0 +1,17 @@
+Uncertainty in Logic Programming has been investigated since about 25 years,
+publishing papers dealing with various approaches to semantics and different
+applications. This report is intended as a first step towards the investigation
+of qualified computations in Constraint Functional Logic Programming, including
+uncertain computations as a particular case. We revise an early proposal,
+namely van Emden's Quantitative Logic Programming, and we improve it in two
+ways. Firstly, we generalize van Emden's QLP to a generic scheme QLP(D)
+parameterized by any given Qualification Domain D, which must be a lattice
+satisfying certain natural axioms. We present several interesting instances for
+D, one of which corresponds to van Emden's QLP. Secondly, we generalize van
+Emden's results by providing stronger ones, concerning both semantics and goal
+solving. We present Qualified SLD Resolution over D, a sound and strongly
+complete goal solving procedure for QLP(D), which is applicable to open goals
+and can be efficiently implemented using CLP technology over any constraint
+domain CD able to deal with qualification constraints over D. We have developed
+a prototype implementation of some instances of the QLP(D) scheme (including
+van Emden's QLP) on top of the CFLP system TOY.

@@ -1,0 +1,16 @@
+The max-log-map (MLM) receiver is an approximated version of the well-known,
+Bahl-Cocke-Jelinek-Raviv (BCJR) algorithm. The MLM algorithm is attractive due
+to its implementation simplicity. In practice, sliding-window implementations
+are preferred; these practical implementations consider truncated signaling
+neighborhoods around each transmission time instant. In this paper, we consider
+sliding-window MLM receivers, where for any integer m, the MLM detector is
+truncated to a length- m signaling neighborhood. For any number n of chosen
+times instants, we derive exact expressions for both i) the joint distribution
+of the MLM symbol reliabilities, and ii) the joint probability of the erroneous
+MLM symbol detections. We show that the obtained expressions can be efficiently
+evaluated using Monte-Carlo techniques. Our proposed method is efficient; the
+most computationally expensive operation (in each Monte-Carlo trial) is an
+eigenvalue decomposition of a size 2mn by 2mn matrix. Practical truncation
+lengths can be easily handled. Finally, our proposed method is extremely
+general, and various scenarios such as correlated noise distributions,
+modulation coding, etc. may be easily accommodated.

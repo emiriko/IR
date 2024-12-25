@@ -1,0 +1,14 @@
+Voting is a simple mechanism to combine together the preferences of multiple
+agents. Agents may try to manipulate the result of voting by mis-reporting
+their preferences. One barrier that might exist to such manipulation is
+computational complexity. In particular, it has been shown that it is NP-hard
+to compute how to manipulate a number of different voting rules. However,
+NP-hardness only bounds the worst-case complexity. Recent theoretical results
+suggest that manipulation may often be easy in practice. In this paper, we
+study empirically the manipulability of single transferable voting (STV) to
+determine if computational complexity is really a barrier to manipulation. STV
+was one of the first voting rules shown to be NP-hard. It also appears one of
+the harder voting rules to manipulate. We sample a number of distributions of
+votes including uniform and real world elections. In almost every election in
+our experiments, it was easy to compute how a single agent could manipulate the
+election or to prove that manipulation by a single agent was impossible.

@@ -1,0 +1,18 @@
+This paper extends Edgeworth-Cornish-Fisher expansions for the distribution
+and quantiles of nonparametric estimates in two ways. Firstly it allows
+observations to have different distributions. Secondly it allows the
+observations to be weighted in a predetermined way. The use of weighted
+estimates has a long history including applications to regression, rank
+statistics and Bayes theory. However, asymptotic results have generally been
+only first order (the CLT and weak convergence). We give third order
+asymptotics for the distribution and percentiles of any smooth functional of a
+weighted empirical distribution, thus allowing a considerable increase in
+accuracy over earlier CLT results.
+  Consider independent non-identically distributed ({\it non-iid}) observations
+$X_{1n}, ..., X_{nn}$ in $R^s$. Let $\hat{F}(x)$ be their {\it weighted
+empirical distribution} with weights $w_{1n}, ..., w_{nn}$. We obtain cumulant
+expansions and hence Edgeworth-Cornish-Fisher expansions for $T(\hat{F})$ for
+any smooth functional $T(\cdot)$ by extending the concepts of von Mises
+derivatives to signed measures of total measure 1. As an example we give the
+cumulant coefficients needed for Edgeworth-Cornish-Fisher expansions to
+$O(n^{-3/2})$ for the sample variance when observations are non-iid.

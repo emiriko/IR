@@ -1,0 +1,15 @@
+Caching is an effective mechanism for reducing bandwidth usage and
+alleviating server load. However, the use of caching entails a compromise
+between content freshness and refresh cost. An excessive refresh allows a high
+degree of content freshness at a greater cost of system resource. Conversely, a
+deficient refresh inhibits content freshness but saves the cost of resource
+usages. To address the freshness-cost problem, we formulate the refresh
+scheduling problem with a generic cost model and use this cost model to
+determine an optimal refresh frequency that gives the best tradeoff between
+refresh cost and content freshness. We prove the existence and uniqueness of an
+optimal refresh frequency under the assumptions that the arrival of content
+update is Poisson and the age-related cost monotonically increases with
+decreasing freshness. In addition, we provide an analytic comparison of system
+performance under fixed refresh scheduling and random refresh scheduling,
+showing that with the same average refresh frequency two refresh schedulings
+are mathematically equivalent in terms of the long-run average cost.

@@ -1,0 +1,11 @@
+We present the results of the first photonic implementation of a new method
+for quantum process tomography. The method (originally presented by A.
+Bendersky et al, Phys. Rev. Lett 100, 190403 (2008)) enables the estimation of
+any element of the chi-matrix that characterizes a quantum process using
+resources that scale polynomially with the number of qubits. It is based on the
+idea of mapping the estimation of any chi-matrix element onto the average
+fidelity of a quantum channel and estimating the latter by sampling randomly
+over a special set of states called a 2-design. With a heralded single photon
+source we fully implement such algorithm and perform process tomography on a
+number of channels affecting the polarization qubit. The method is compared
+with other existing ones and its advantages are discussed.

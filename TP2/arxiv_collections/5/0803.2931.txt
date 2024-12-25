@@ -1,0 +1,17 @@
+Suppose that we observe independent random pairs $(X_1,Y_1)$, $(X_2,Y_2)$,
+>..., $(X_n,Y_n)$. Our goal is to estimate regression functions such as the
+conditional mean or $\beta$--quantile of $Y$ given $X$, where $0<\beta <1$. In
+order to achieve this we minimize criteria such as, for instance, $$
+\sum_{i=1}^n \rho(f(X_i) - Y_i) + \lambda \cdot \mathop TV\nolimits (f) $$
+among all candidate functions $f$. Here $\rho$ is some convex function
+depending on the particular regression function we have in mind, $\mathop {\rm
+TV}\nolimits (f)$ stands for the total variation of $f$, and $\lambda >0$ is
+some tuning parameter. This framework is extended further to include binary or
+Poisson regression, and to include localized total variation penalties. The
+latter are needed to construct estimators adapting to inhomogeneous smoothness
+of $f$. For the general framework we develop noniterative algorithms for the
+solution of the minimization problems which are closely related to the taut
+string algorithm (cf. Davies and Kovac, 2001). Further we establish a
+connection between the present setting and monotone regression, extending
+previous work by Mammen and van de Geer (1997). The algorithmic considerations
+and numerical examples are complemented by two consistency results.

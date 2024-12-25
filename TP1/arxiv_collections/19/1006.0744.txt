@@ -1,0 +1,26 @@
+The Local Lemma is a fundamental tool of probabilistic combinatorics and
+theoretical computer science, yet there are hardly any natural problems known
+where it provides an asymptotically tight answer. The main theme of our paper
+is to identify several of these problems, among them a couple of widely studied
+extremal functions related to certain restricted versions of the k-SAT problem,
+where the Local Lemma does give essentially optimal answers.
+  As our main contribution, we construct unsatisfiable k-CNF formulas where
+every clause has k distinct literals and every variable appears in at most (2/e
++ o(1))*2^k/k clauses. The Lopsided Local Lemma shows that this is
+asymptotically best possible. The determination of this extremal function is
+particularly important as it represents the value where the corresponding k-SAT
+problem exhibits a complexity hardness jump: from having every instance being a
+YES-instance it becomes NP-hard just by allowing each variable to occur in one
+more clause.
+  The construction of our unsatisfiable CNF-formulas is based on the binary
+tree approach of [16] and thus the constructed formulas are in the class MU(1)
+of minimal unsatisfiable formulas having one more clauses than variables. The
+main novelty of our approach here comes in setting up an appropriate continuous
+approximation of the problem. This leads us to a differential equation, the
+solution of which we are able to estimate. The asymptotically optimal binary
+trees are then obtained through a discretization of this solution.
+  The importance of the binary trees constructed is also underlined by their
+appearance in many other scenarios. In particular, they give asymptotically
+precise answers for seemingly unrelated problems like the European Tenure Game
+introduced by Doerr [9] and a search problem allowing a limited number of
+consecutive lies.

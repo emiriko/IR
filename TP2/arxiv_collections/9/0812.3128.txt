@@ -1,0 +1,14 @@
+In this paper we propose a transform method to compute the prices and greeks
+of barrier options driven by a class of Levy processes. We derive analytical
+expressions for the Laplace transforms in time of the prices and sensitivities
+of single barrier options in an exponential Levy model with hyper-exponential
+jumps. Inversion of these single Laplace transform yields rapid, accurate
+results. These results are employed to construct an approximation of the prices
+and sensitivities of barrier options in exponential generalised
+hyper-exponential (GHE) Levy models. The latter class includes many of the Levy
+models employed in quantitative finance such as the variance gamma (VG), KoBoL,
+generalised hyperbolic, and the normal inverse Gaussian (NIG) models.
+Convergence of the approximating prices and sensitivities is proved. To provide
+a numerical illustration, this transform approach is compared with Monte Carlo
+simulation in the cases that the driving process is a VG and a NIG Levy
+process. Parameters are calibrated to Stoxx50E call options.

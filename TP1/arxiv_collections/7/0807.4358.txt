@@ -1,0 +1,21 @@
+Often gaining insight into the functioning of biomolecular systems requires
+to follow their dynamics along a microscopic reaction coordinate (RC) on a
+macroscopic time scale, which is beyond the reach of current all atom molecular
+dynamics (MD) simulations. A practical approach to this inherently multiscale
+problem is to model the system as a fictitious overdamped Brownian particle
+that diffuses along the RC in the presence of an effective potential of mean
+force (PMF) due to the rest of the system. By employing the recently proposed
+FR method [I. Kosztin et al., J. of Chem. Phys. 124, 064106 (2006)], which
+requires only a small number of fast nonequilibrium MD simulations of the
+system in both forward and time reversed directions along the RC, we
+reconstruct the PMF: (1) of deca-alanine as a function of its end-to-end
+distance, and (2) that guides the motion of potassium ions through the
+gramicidin A channel. In both cases the computed PMFs are found to be in good
+agreement with previous results obtained by different methods. Our approach
+appears to be about one order of magnitude faster than the other PMF
+calculation methods and, in addition, it also provides the position dependent
+diffusion coefficient along the RC. Thus, the obtained PMF and diffusion
+coefficient can be used in a suitable stochastic model to estimate important
+characteristics of the studied systems, e.g., the mean folding time of the
+stretched deca-alanine and the mean diffusion time of the potassium ion through
+gramicidin A.

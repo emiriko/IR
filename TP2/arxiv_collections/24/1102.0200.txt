@@ -1,0 +1,24 @@
+In computer graphics, smooth data reconstruction on 2D or 3D manifolds
+usually refers to subdivision problems. Such a method is only valid based on
+dense sample points. The manifold usually needs to be triangulated into meshes
+(or patches) and each node on the mesh will have an initial value. While the
+mesh is refined the algorithm will provide a smooth function on the redefined
+manifolds. However, when data points are not dense and the original mesh is not
+allowed to be changed, how is the "continuous and/or smooth" reconstruction
+possible? This paper will present a new method using harmonic functions to
+solve the problem. Our method contains the following steps: (1) Partition the
+boundary surfaces of the 3D manifold based on sample points so that each sample
+point is on the edge of the partition. (2) Use gradually varied interpolation
+on the edges so that each point on edge will be assigned a value. In addition,
+all values on the edge are gradually varied. (3) Use discrete harmonic function
+to fit the unknown points, i.e. the points inside each partition patch.
+  The fitted function will be a harmonic or a local harmonic function in each
+partitioned area. The function on edge will be "near" continuous (or "near"
+gradually varied). If we need a smoothed surface on the manifold, we can apply
+subdivision algorithms. This paper has also a philosophical advantage over
+triangulation meshes. People usually use triangulation for data reconstruction.
+This paper employs harmonic functions, a generalization of triangulation
+because linearity is a form of harmonic. Therefore, local harmonic
+initialization is more sophisticated then triangulation. This paper is a
+conceptual and methodological paper. This paper does not focus on detailed
+mathematical analysis nor fine algorithm design.

@@ -1,0 +1,26 @@
+We compare the statistics of driven, supersonic turbulence at high Mach
+number using FLASH a widely used Eulerian grid-based code and PHANTOM, a
+Lagrangian SPH code at resolutions of up to 512^3 in both grid cells and SPH
+particles. We find excellent agreement between codes on the basic statistical
+properties: a slope of k^-1.95 in the velocity power spectrum for hydrodynamic,
+Mach 10 turbulence, evidence in both codes for a Kolmogorov-like slope of
+k^-5/3 in the variable rho^1/3 v as suggested by Kritsuk et al. and a
+log-normal PDF with a width that scales with Mach number and proportionality
+constant b=0.33-0.5 in the density variance-Mach number relation. The measured
+structure function slopes are not converged in either code at 512^3 elements.
+We find that, for measuring volumetric statistics such as the power spectrum
+slope and structure function scaling, SPH and grid codes give roughly
+comparable results when the number of SPH particles is approximately equal to
+the number of grid cells. In particular, to accurately measure the power
+spectrum slope in the inertial range, in the absence of subgrid models,
+requires at least 512^3 computational elements in either code. On the other
+hand the SPH code was found to be better at resolving dense structures, giving
+max. densities at a resolution of 128^3 particles that were similar those
+resolved in the grid code at 512^3 cells, reflected also in the high density
+tail of the PDF. We find SPH to be more dissipative at comparable numbers of
+computational elements in statistics of the velocity field, but correspondingly
+less dissipative than the grid code in the statistics of density weighted
+quantities such as rho^1/3 v. For SPH simulations of high Mach number
+turbulence we find it important to use sufficient non-linear beta-viscosity to
+prevent particle interpenetration in shocks (we require beta=4 instead of the
+default beta=2).

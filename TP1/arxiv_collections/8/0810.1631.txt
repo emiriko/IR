@@ -1,0 +1,14 @@
+Interior-point methods are state-of-the-art algorithms for solving linear
+programming (LP) problems with polynomial complexity. Specifically, the
+Karmarkar algorithm typically solves LP problems in time O(n^{3.5}), where $n$
+is the number of unknown variables. Karmarkar's celebrated algorithm is known
+to be an instance of the log-barrier method using the Newton iteration. The
+main computational overhead of this method is in inverting the Hessian matrix
+of the Newton iteration. In this contribution, we propose the application of
+the Gaussian belief propagation (GaBP) algorithm as part of an efficient and
+distributed LP solver that exploits the sparse and symmetric structure of the
+Hessian matrix and avoids the need for direct matrix inversion. This approach
+shifts the computation from realm of linear algebra to that of probabilistic
+inference on graphical models, thus applying GaBP as an efficient inference
+engine. Our construction is general and can be used for any interior-point
+algorithm which uses the Newton method, including non-linear program solvers.

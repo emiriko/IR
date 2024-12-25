@@ -1,0 +1,21 @@
+A quantum ensemble $\{(p_x, \rho_x)\}$ is a set of quantum states each
+occurring randomly with a given probability. Quantum ensembles are necessary to
+describe situations with incomplete a priori information, such as the output of
+a stochastic quantum channel (generalized measurement), and play a central role
+in quantum communication. In this paper, we propose measures of distance and
+fidelity between two quantum ensembles. We consider two approaches: the first
+one is based on the ability to mimic one ensemble given the other one as a
+resource and is closely related to the Monge-Kantorovich optimal transportation
+problem, while the second one uses the idea of extended-Hilbert-space (EHS)
+representations which introduce auxiliary pointer (or flag) states. Both types
+of measures enjoy a number of desirable properties. The Kantorovich measures,
+albeit monotonic under deterministic quantum operations, are not monotonic
+under generalized measurements. In contrast, the EHS measures are. We present
+operational interpretations for both types of measures. We also show that the
+EHS fidelity between ensembles provides a novel interpretation of the fidelity
+between mixed states--the latter is equal to the maximum of the fidelity
+between all pure-state ensembles whose averages are equal to the mixed states
+being compared. We finally use the new measures to define distance and fidelity
+for stochastic quantum channels and positive operator-valued measures (POVMs).
+These quantities may be useful in the context of tomography of stochastic
+quantum channels and quantum detectors.

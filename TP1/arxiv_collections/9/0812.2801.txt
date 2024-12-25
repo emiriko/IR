@@ -1,0 +1,20 @@
+We present in detail the recently derived ab-initio molecular dynamics (AIMD)
+formalism [Phys. Rev. Lett. 101 096403 (2008)], which due to its numerical
+properties, is ideal for simulating the dynamics of systems containing
+thousands of atoms. A major drawback of traditional AIMD methods is the
+necessity to enforce the orthogonalization of the wave-functions, which can
+become the bottleneck for very large systems. Alternatively, one can handle the
+electron-ion dynamics within the Ehrenfest scheme where no explicit
+orthogonalization is necessary, however the time step is too small for
+practical applications. Here we preserve the desirable properties of Ehrenfest
+in a new scheme that allows for a considerable increase of the time step while
+keeping the system close to the Born-Oppenheimer surface. We show that the
+automatically enforced orthogonalization is of fundamental importance for large
+systems because not only it improves the scaling of the approach with the
+system size but it also allows for an additional very efficient parallelization
+level. In this work we provide the formal details of the new method, describe
+its implementation and present some applications to some test systems.
+Comparisons with the widely used Car-Parrinello molecular dynamics method are
+made, showing that the new approach is advantageous above a certain number of
+atoms in the system. The method is not tied to a particular wave-function
+representation, making it suitable for inclusion in any AIMD software package.

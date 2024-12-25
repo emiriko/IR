@@ -1,0 +1,8 @@
+We revisit the deadlock-prevention problem by focusing on priority digraphs
+instead of the traditional wait-for digraphs. This has allowed us to formulate
+deadlock prevention in terms of prohibiting the occurrence of directed cycles
+even in the most general of wait models (the so-called AND-OR model, in which
+prohibiting wait-for directed cycles is generally overly restrictive). For a
+particular case in which the priority digraphs are somewhat simplified, we
+introduce a Las Vegas probabilistic mechanism for resource granting and analyze
+its key aspects in detail.

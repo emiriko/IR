@@ -1,0 +1,12 @@
+Erasure correcting codes are widely used to ensure data persistence in
+distributed storage systems. This paper addresses the simultaneous repair of
+multiple failures in such codes. We go beyond existing work (i.e., regenerating
+codes by Dimakis et al.) by describing (i) coordinated regenerating codes (also
+known as cooperative regenerating codes) which support the simultaneous repair
+of multiple devices, and (ii) adaptive regenerating codes which allow adapting
+the parameters at each repair. Similarly to regenerating codes by Dimakis et
+al., these codes achieve the optimal tradeoff between storage and the repair
+bandwidth. Based on these extended regenerating codes, we study the impact of
+lazy repairs applied to regenerating codes and conclude that lazy repairs
+cannot reduce the costs in term of network bandwidth but allow reducing the
+disk-related costs (disk bandwidth and disk I/O).

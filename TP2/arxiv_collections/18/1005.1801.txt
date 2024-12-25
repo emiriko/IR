@@ -1,0 +1,14 @@
+Sparse support recovery (SSR) is an important part of the compressive sensing
+(CS). Most of the current SSR methods are with the full information
+measurements. But in practice the amplitude part of the measurements may be
+seriously destroyed. The corrupted measurements mismatch the current SSR
+algorithms, which leads to serious performance degeneration. This paper
+considers the problem of SSR with only phase information. In the proposed
+method, the minimization of the l1 norm of the estimated sparse signal enforces
+sparse distribution, while a nonzero constraint of the uncorrupted random
+measurements' amplitudes with respect to the reconstructed sparse signal is
+introduced. Because it only requires the phase components of the measurements
+in the constraint, it can avoid the performance deterioration by corrupted
+amplitude components. Simulations demonstrate that the proposed phase-only SSR
+is superior in the support reconstruction accuracy when the amplitude
+components of the measurements are contaminated.

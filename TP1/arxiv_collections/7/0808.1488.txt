@@ -1,0 +1,21 @@
+A polymer chain containing $N$ monomers confined in a finite cylindrical tube
+of diameter $D$ grafted at a distance $L$ from the open end of the tube may
+undergo a rather abrupt transition, where part of the chain escapes from the
+tube to form a "crown-like" coil outside of the tube. When this problem is
+studied by Monte Carlo simulation of self-avoiding walks on the simple cubic
+lattice applying a cylindrical confinement and using the standard
+pruned-enriched Rosenbluth method (PERM), one obtains spurious results,
+however: with increasing chain length the transition gets weaker and weaker,
+due to insufficient sampling of the "escaped" states, as a detailed analysis
+shows. In order to solve this problem, a new variant of a biased sequential
+sampling algorithm with re-sampling is proposed, force-biased PERM: the
+difficulty of sampling both phases in the region of the first order transition
+with the correct weights is treated by applying a force at the free end pulling
+it out of the tube. Different strengths of this force need to be used and
+reweighting techniques are applied. Using rather long chains (up to N=18000)
+and wide tubes (up to D=29 lattice spacings), the free energy of the chain, its
+end-to-end distance, the number of "imprisoned" monomers can be estimated, as
+well as the order parameter and its distribution. It is suggested that this new
+algorithm should be useful for other problems involving state changes of
+polymers, where the different states belong to rather disjunct "valleys" in the
+phase space of the system.

@@ -1,0 +1,12 @@
+Recently there has been much interest in data that, in statistical language,
+may be described as having a large crossed and severely unbalanced random
+effects structure. Such data sets arise for recommender engines and information
+retrieval problems. Many large bipartite weighted graphs have this structure
+too. We would like to assess the stability of algorithms fit to such data. Even
+for linear statistics, a naive form of bootstrap sampling can be seriously
+misleading and McCullagh [Bernoulli 6 (2000) 285--301] has shown that no
+bootstrap method is exact. We show that an alternative bootstrap separately
+resampling rows and columns of the data matrix satisfies a mean consistency
+property even in heteroscedastic crossed unbalanced random effects models. This
+alternative does not require the user to fit a crossed random effects model to
+the data.

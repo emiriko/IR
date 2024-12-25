@@ -1,0 +1,12 @@
+We show how to extract existential witnesses from classical proofs using
+Krivine's classical realizability---where classical proofs are interpreted as
+lambda-terms with the call/cc control operator. We first recall the basic
+framework of classical realizability (in classical second-order arithmetic) and
+show how to extend it with primitive numerals for faster computations. Then we
+show how to perform witness extraction in this framework, by discussing several
+techniques depending on the shape of the existential formula. In particular, we
+show that in the Sigma01-case, Krivine's witness extraction method reduces to
+Friedman's through a well-suited negative translation to intuitionistic
+second-order arithmetic. Finally we discuss the advantages of using call/cc
+rather than a negative translation, especially from the point of view of an
+implementation.

@@ -1,0 +1,18 @@
+We consider a combinatorial generalization of the classical multi-armed
+bandit problem that is defined as follows. There is a given bipartite graph of
+$M$ users and $N \geq M$ resources. For each user-resource pair $(i,j)$, there
+is an associated state that evolves as an aperiodic irreducible finite-state
+Markov chain with unknown parameters, with transitions occurring each time the
+particular user $i$ is allocated resource $j$. The user $i$ receives a reward
+that depends on the corresponding state each time it is allocated the resource
+$j$. The system objective is to learn the best matching of users to resources
+so that the long-term sum of the rewards received by all users is maximized.
+This corresponds to minimizing regret, defined here as the gap between the
+expected total reward that can be obtained by the best-possible static matching
+and the expected total reward that can be achieved by a given algorithm. We
+present a polynomial-storage and polynomial-complexity-per-step
+matching-learning algorithm for this problem. We show that this algorithm can
+achieve a regret that is uniformly arbitrarily close to logarithmic in time and
+polynomial in the number of users and resources. This formulation is broadly
+applicable to scheduling and switching problems in networks and significantly
+extends prior results in the area.

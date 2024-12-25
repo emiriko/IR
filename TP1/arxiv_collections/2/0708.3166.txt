@@ -1,0 +1,21 @@
+As the web grows and the amount of traffics on the web server increase,
+problems related to performance begin to appear. Some of the problems, such as
+the number of users that can access the server simultaneously, the number of
+requests that can be handled by the server per second (requests per second) to
+bandwidth consumption and hardware utilization like memories and CPU. To give
+better quality of service (\textbf{\textit{QoS}}), web hosting providers and
+also the system administrators and network administrators who manage the server
+need a benchmark application to measure the capabilities of their servers.
+Later, the application intends to work under Linux/Unix -- like platforms and
+built using Erlang/OTP R11 as a concurrent oriented language under Fedora Core
+Linux 5.0. \textbf{\textit{WiiBench}} is divided into two main parts, the
+controller section and the launcher section. Controller is the core of the
+application. It has several duties, such as read the benchmark scenario file,
+configure the program based on the scenario, initialize the launcher section,
+gather the benchmark results from local and remote Erlang node where the
+launcher runs and write them in a log file (later the log file will be used to
+generate a report page for the sysadmin). Controller also has function as a
+timer which act as timing for user inters arrival to the server. Launcher
+generates a number of users based on the scenario, initialize them and start
+the benchmark by sending requests to the web server. The clients also gather
+the benchmark result and send them to the controller.

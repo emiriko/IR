@@ -1,0 +1,18 @@
+The standard paradigm for the analysis of genome-wide association studies
+involves carrying out association tests at both typed and imputed SNPs. These
+methods will not be optimal for detecting the signal of association at SNPs
+that are not currently known or in regions where allelic heterogeneity occurs.
+We propose a novel association test, complementary to the SNP-based approaches,
+that attempts to extract further signals of association by explicitly modeling
+and estimating both unknown SNPs and allelic heterogeneity at a locus. At each
+site we estimate the genealogy of the case-control sample by taking advantage
+of the HapMap haplotypes across the genome. Allelic heterogeneity is modeled by
+allowing more than one mutation on the branches of the genealogy. Our use of
+Bayesian methods allows us to assess directly the evidence for a causative SNP
+not well correlated with known SNPs and for allelic heterogeneity at each
+locus. Using simulated data and real data from the WTCCC project, we show that
+our method (i) produces a significant boost in signal and accurately identifies
+the form of the allelic heterogeneity in regions where it is known to exist,
+(ii) can suggest new signals that are not found by testing typed or imputed
+SNPs and (iii) can provide more accurate estimates of effect sizes in regions
+of association.

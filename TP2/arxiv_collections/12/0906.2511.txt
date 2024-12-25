@@ -1,0 +1,14 @@
+To combat the detrimental effects of the variability in wireless channels, we
+consider cross-layer rate adaptation based on limited feedback. In particular,
+based on limited feedback in the form of link-layer acknowledgements (ACK) and
+negative acknowledgements (NAK), we maximize the physical-layer transmission
+rate subject to an upper bound on the expected packet error rate. \textr{We
+take a robust approach in that we do not assume} any particular prior
+distribution on the channel state. We first analyze the fundamental limitations
+of such systems and derive an upper bound on the achievable rate for signaling
+schemes based on uncoded QAM and random Gaussian ensembles. We show that, for
+channel estimation based on binary ACK/NAK feedback, it may be preferable to
+use a separate training sequence at high error rates, rather than to exploit
+low-error-rate data packets themselves. We also develop an adaptive recursive
+estimator, which is provably asymptotically optimal and asymptotically
+efficient.

@@ -1,0 +1,12 @@
+We present a new method to accelerate the HITS algorithm by exploiting
+hyperlink structure of the web graph. The proposed algorithm extends the idea
+of authority and hub scores from HITS by introducing two diagonal matrices
+which contain constants that act as weights to make authority pages more
+authoritative and hub pages more hubby. This method works because in the web
+graph good authorities are pointed to by good hubs and good hubs point to good
+authorities. Consequently, these pages will collect their scores faster under
+the proposed algorithm than under the standard HITS. We show that the authority
+and hub vectors of the proposed algorithm exist but are not necessarily be
+unique, and then give a treatment to ensure the uniqueness property of the
+vectors. The experimental results show that the proposed algorithm can improve
+HITS computations, especially for back button datasets.

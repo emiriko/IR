@@ -1,0 +1,10 @@
+In this paper we examine sorting on the assumption that we do not know in
+advance which way to sort a sequence of numbers and we set at work simple local
+comparison and swap operators whose repeating application ends up in sorted
+sequences. These are the basic elements of Emerge-Sort, our approach to
+self-organizing sorting, which we then validate experimentally across a range
+of samples. Observing an O(n2) run-time behaviour, we note that the n/logn
+delay coefficient that differentiates Emerge-Sort from the classical comparison
+based algorithms is an instantiation of the price of anarchy we pay for not
+imposing a sorting order and for letting that order emerge through the local
+interactions.

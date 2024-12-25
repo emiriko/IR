@@ -1,0 +1,21 @@
+The Lovasz Local Lemma (LLL) is a powerful result in probability theory that
+states that the probability that none of a set of bad events happens is nonzero
+if the probability of each event is small compared to the number of events that
+depend on it. It is often used in combination with the probabilistic method for
+non-constructive existence proofs. A prominent application is to k-CNF
+formulas, where LLL implies that, if every clause in the formula shares
+variables with at most d <= 2^k/e other clauses then such a formula has a
+satisfying assignment. Recently, a randomized algorithm to efficiently
+construct a satisfying assignment was given by Moser. Subsequently Moser and
+Tardos gave a randomized algorithm to construct the structures guaranteed by
+the LLL in a very general algorithmic framework. We address the main problem
+left open by Moser and Tardos of derandomizing these algorithms efficiently.
+Specifically, for a k-CNF formula with m clauses and d <= 2^{k/(1+\eps)}/e for
+any \eps\in (0,1), we give an algorithm that finds a satisfying assignment in
+time \tilde{O}(m^{2(1+1/\eps)}). This improves upon the deterministic
+algorithms of Moser and of Moser-Tardos with running time m^{\Omega(k^2)} which
+is superpolynomial for k=\omega(1) and upon other previous algorithms which
+work only for d\leq 2^{k/16}/4. Our algorithm works efficiently for a general
+version of LLL under the algorithmic framework of Moser and Tardos, and is also
+parallelizable, i.e., has polylogarithmic running time using polynomially many
+processors.

@@ -1,0 +1,13 @@
+The Restricted Isometry Constants (RIC) of a matrix $A$ measures how close to
+an isometry is the action of $A$ on vectors with few nonzero entries, measured
+in the $\ell^2$ norm. Specifically, the upper and lower RIC of a matrix $A$ of
+size $n\times N$ is the maximum and the minimum deviation from unity (one) of
+the largest and smallest, respectively, square of singular values of all
+${N\choose k}$ matrices formed by taking $k$ columns from $A$. Calculation of
+the RIC is intractable for most matrices due to its combinatorial nature;
+however, many random matrices typically have bounded RIC in some range of
+problem sizes $(k,n,N)$. We provide the best known bound on the RIC for
+Gaussian matrices, which is also the smallest known bound on the RIC for any
+large rectangular matrix. Improvements over prior bounds are achieved by
+exploiting similarity of singular values for matrices which share a substantial
+number of columns.

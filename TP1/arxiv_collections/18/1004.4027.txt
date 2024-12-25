@@ -1,0 +1,13 @@
+Optimization of complex functions, such as the output of computer simulators,
+is a difficult task that has received much attention in the literature. A less
+studied problem is that of optimization under unknown constraints, i.e., when
+the simulator must be invoked both to determine the typical real-valued
+response and to determine if a constraint has been violated, either for
+physical or policy reasons. We develop a statistical approach based on Gaussian
+processes and Bayesian learning to both approximate the unknown function and
+estimate the probability of meeting the constraints. A new integrated
+improvement criterion is proposed to recognize that responses from inputs that
+violate the constraint may still be informative about the function, and thus
+could potentially be useful in the optimization. The new criterion is
+illustrated on synthetic data, and on a motivating optimization problem from
+health care policy.

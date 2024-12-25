@@ -1,0 +1,20 @@
+The paper describes a neural approach for modelling and control of a
+turbocharged Diesel engine. A neural model, whose structure is mainly based on
+some physical equations describing the engine behaviour, is built for the
+rotation speed and the exhaust gas opacity. The model is composed of three
+interconnected neural submodels, each of them constituting a nonlinear
+multi-input single-output error model. The structural identification and the
+parameter estimation from data gathered on a real engine are described. The
+neural direct model is then used to determine a neural controller of the
+engine, in a specialized training scheme minimising a multivariable criterion.
+Simulations show the effect of the pollution constraint weighting on a
+trajectory tracking of the engine speed. Neural networks, which are flexible
+and parsimonious nonlinear black-box models, with universal approximation
+capabilities, can accurately describe or control complex nonlinear systems,
+with little a priori theoretical knowledge. The presented work extends optimal
+neuro-control to the multivariable case and shows the flexibility of neural
+optimisers. Considering the preliminary results, it appears that neural
+networks can be used as embedded models for engine control, to satisfy the more
+and more restricting pollutant emission legislation. Particularly, they are
+able to model nonlinear dynamics and outperform during transients the control
+schemes based on static mappings.

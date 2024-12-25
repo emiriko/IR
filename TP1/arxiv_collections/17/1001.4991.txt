@@ -1,0 +1,19 @@
+We estimate the impact of weak lensing by strongly nonlinear cosmological
+structures on the cosmic microwave background. Accurate calculation of large
+$\ell$ multipoles requires N-body simulations and ray-tracing schemes with both
+high spatial and temporal resolution. To this end we have developed a new code
+that combines a gravitational Adaptive Particle-Particle, Particle-Mesh (AP3M)
+solver with a weak lensing evaluation routine. The lensing deviations are
+evaluated while structure evolves during the simulation so that all evolution
+steps--rather than just a few outputs--are used in the lensing computations.
+The new code also includes a ray-tracing procedure that avoids periodicity
+effects in a universe that is modeled as a 3-D torus in the standard way.
+Results from our new simulations are compared with previous ones based on
+Particle-Mesh simulations. We also systematically investigate the impact of box
+volume, resolution, and ray-tracing directions on the variance of the computed
+power spectra. We find that a box size of $512 h^{-1}$ Mpc is sufficient to
+provide a robust estimate of the weak lensing angular power spectrum in the
+$\ell$-interval (2,000--7,000). For a reaslistic cosmological model the power
+$[\ell(\ell+1)C_{\ell}/2\pi]^{1/2}$ takes on values of a few $\mu K$ in this
+interval, which suggests that a future detection is feasible and may explain
+the excess power at high $\ell$ in the BIMA and CBI observations.

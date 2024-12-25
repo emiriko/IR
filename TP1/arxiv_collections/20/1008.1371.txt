@@ -1,0 +1,7 @@
+A one-sided Jacobi hyperbolic singular value decomposition (HSVD) algorithm,
+using a massively parallel graphics processing unit (GPU), is developed. The
+algorithm also serves as the final stage of solving a symmetric indefinite
+eigenvalue problem. Numerical testing demonstrates the gains in speed and
+accuracy over sequential and MPI-parallelized variants of similar Jacobi-type
+HSVD algorithms. Finally, possibilities of hybrid CPU--GPU parallelism are
+discussed.

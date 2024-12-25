@@ -1,0 +1,13 @@
+This document is on Geant4 visualization tools (drivers), evaluating pros and
+cons of each option, including recommendations on which tools to support at
+Fermilab for different applications{\cite{Daniel}}.
+  Four visualization drivers are evaluated. They are OpenGL, HepRep, DAWN and
+VRML. They all have good features, OpenGL provides graphic output with out an
+intermediate file! HepRep provides menus to assist the user. DAWN provides high
+quality plots and even for large files produces output quickly. VRML uses the
+smallest disk space for intermediate files.
+  Large experiments at Fermilab will want to write their own display. They
+should proceed to make this display graphics independent. Medium experiment
+will probably want to use HepRep because of it's menu support. Smaller scale
+experiments will want to use OpenGL in the spirit of having immediate response,
+good quality output and keeping things simple.

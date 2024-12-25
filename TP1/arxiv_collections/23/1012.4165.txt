@@ -1,0 +1,13 @@
+Geant4 has an abundant set of physics models that handle the diverse
+interaction of particles with matter across a wide energy range. However, there
+are also many well established reaction codes currently used in the same fields
+where Geant4 is applied. One such code is the Ultra-relativistic Quantum
+Molecular Dynamics (UrQMD) model. In order to take advantage of the UrQMD code,
+we create a tool to enable comparisons among UrQMD and Geant4 hadronic models.
+This tool allows a user to process the output file of UrQMD through Geant4
+toolkit, while at the same time, can choose among different Geant4 hadronic
+model generators. As an example, the UrQMD model is compared with the HARP-CDP
+experimental data and with the Binary and FRITIOF generators, in the framework
+of Geant4. It is shown that the UrQMD model can better reproduce charged pion
+production for p+Cu and Pb interactions at 3, 8 and 15 GeV/c, and is a good
+candidate for Geant4 hadronic models.

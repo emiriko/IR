@@ -1,0 +1,8 @@
+There are two main approaches in compressed sensing: the geometric approach
+and the combinatorial approach. In this paper we introduce an information
+theoretic approach and use results from the theory of Huffman codes to
+construct a sequence of binary sampling vectors to determine a sparse signal.
+Unlike other approaches, our approach is adaptive in the sense that each
+sampling vector depends on the previous sample. The number of measurements we
+need for a k-sparse vector in n-dimensional space is no more than O(k log n)
+and the reconstruction is O(k).

@@ -1,0 +1,10 @@
+Reversible jump Markov chain Monte Carlo (RJMCMC) extends ordinary MCMC
+methods for use in Bayesian multimodel inference. We show that RJMCMC can be
+implemented as Gibbs sampling with alternating updates of a model indicator and
+a vector-valued "palette" of parameters denoted $\bm \psi$. Like an artist uses
+the palette to mix dabs of color for specific needs, we create model-specific
+parameters from the set available in $\bm \psi$. This description not only
+removes some of the mystery of RJMCMC, but also provides a basis for fitting
+models one at a time using ordinary MCMC and computing model weights or Bayes
+factors by post-processing the Monte Carlo output. We illustrate our procedure
+using several examples.

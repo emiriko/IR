@@ -1,0 +1,11 @@
+In various approaches, data cubes are pre-computed in order to answer
+efficiently OLAP queries. The notion of data cube has been declined in various
+ways: iceberg cubes, range cubes or differential cubes. In this paper, we
+introduce the concept of convex cube which captures all the tuples of a
+datacube satisfying a constraint combination. It can be represented in a very
+compact way in order to optimize both computation time and required storage
+space. The convex cube is not an additional structure appended to the list of
+cube variants but we propose it as a unifying structure that we use to
+characterize, in a simple, sound and homogeneous way, the other quoted types of
+cubes. Finally, we introduce the concept of emerging cube which captures the
+significant trend inversions. characterizations.

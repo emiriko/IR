@@ -1,0 +1,15 @@
+In this paper, we present a framework based on a simple data structure and
+parameterized algorithms for the problems of finding items in an unsorted list
+of linearly ordered items based on their rank (selection) or value (search). As
+a side-effect of answering these online selection and search queries, we
+progressively sort the list. Our algorithms are based on Hoare's Quickselect,
+and are parameterized based on the pivot selection method.
+  For example, if we choose the pivot as the last item in a subinterval, our
+framework yields algorithms that will answer q<=n unique selection and/or
+search queries in a total of O(n log q) average time. After q=\Omega(n) queries
+the list is sorted. Each repeated selection query takes constant time, and each
+repeated search query takes O(log n) time. The two query types can be
+interleaved freely. By plugging different pivot selection methods into our
+framework, these results can, for example, become randomized expected time or
+deterministic worst-case time. Our methods are easy to implement, and we show
+they perform well in practice.

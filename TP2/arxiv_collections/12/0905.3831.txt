@@ -1,0 +1,19 @@
+Confidence intervals for a binomial parameter or for the ratio of Poisson
+means are commonly desired in high energy physics (HEP) applications such as
+measuring a detection efficiency or branching ratio. Due to the discreteness of
+the data, in both of these problems the frequentist coverage probability
+unfortunately depends on the unknown parameter. Trade-offs among desiderata
+have led to numerous sets of intervals in the statistics literature, while in
+HEP one typically encounters only the classic intervals of Clopper-Pearson
+(central intervals with no undercoverage but substantial over-coverage) or a
+few approximate methods which perform rather poorly. If strict coverage is
+relaxed, some sort of averaging is needed to compare intervals. In most of the
+statistics literature, this averaging is over different values of the unknown
+parameter, which is conceptually problematic from the frequentist point of view
+in which the unknown parameter is typically fixed. In contrast, we perform an
+(unconditional) {\it average over observed data} in the ratio-of-Poisson-means
+problem. If strict conditional coverage is desired, we recommend
+Clopper-Pearson intervals and intervals from inverting the likelihood ratio
+test (for central and non-central intervals, respectively). Lancaster's mid-$P$
+modification to either provides excellent unconditional average coverage in the
+ratio-of-Poisson-means problem.

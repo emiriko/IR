@@ -1,0 +1,14 @@
+The first separation between quantum polynomial time and classical
+bounded-error polynomial time was due to Bernstein and Vazirani in 1993. They
+first showed a O(1) vs. Omega(n) quantum-classical oracle separation based on
+the quantum Hadamard transform, and then showed how to amplify this into a
+n^{O(1)} time quantum algorithm and a n^{Omega(log n)} classical query lower
+bound.
+  We generalize both aspects of this speedup. We show that a wide class of
+unitary circuits (which we call dispersing circuits) can be used in place of
+Hadamards to obtain a O(1) vs. Omega(n) separation. The class of dispersing
+circuits includes all quantum Fourier transforms (including over nonabelian
+groups) as well as nearly all sufficiently long random circuits. Second, we
+give a general method for amplifying quantum-classical separations that allows
+us to achieve a n^{O(1)} vs. n^{Omega(log n)} separation from any dispersing
+circuit.

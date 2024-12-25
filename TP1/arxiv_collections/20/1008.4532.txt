@@ -1,0 +1,17 @@
+In prediction with expert advice the goal is to design online prediction
+algorithms that achieve small regret (additional loss on the whole data)
+compared to a reference scheme. In the simplest such scheme one compares to the
+loss of the best expert in hindsight. A more ambitious goal is to split the
+data into segments and compare to the best expert on each segment. This is
+appropriate if the nature of the data changes between segments. The standard
+fixed-share algorithm is fast and achieves small regret compared to this
+scheme.
+  Fixed share treats the experts as black boxes: there are no assumptions about
+how they generate their predictions. But if the experts are learning, the
+following question arises: should the experts learn from all data or only from
+data in their own segment? The original algorithm naturally addresses the first
+case. Here we consider the second option, which is more appropriate exactly
+when the nature of the data changes between segments. In general extending
+fixed share to this second case will slow it down by a factor of T on T
+outcomes. We show, however, that no such slowdown is necessary if the experts
+are hidden Markov models.

@@ -1,0 +1,17 @@
+The standard procedure for hardware design consists of describing circuit in
+a hardware description language at logic level followed by extensive
+verification and logic-synthesis. However, this process consumes significant
+time and needs a lot of effort. An alternative is to use formal specification
+language as a high-level hardware description language and synthesize hardware
+from formal specification. Bloem et.al. gave formal specifications and
+synthesize the AMBA AHB Arbiter. Our contributions are as follows:(1) We
+present more complete and compact formal specifications for the AMBA AHB
+Arbiter, and obtain significant (order of magnitude) improvement in synthesis
+results (both with respect to time and the number of gates of the synthesize
+circuit); (2) we present formal specification and synthesize to generate
+compact circuits for the remaining two components of the AMBA AHB protocol,
+namely, the AMBA AHB Master and AMBA AHB Slave; and (3) from the lessons learnt
+we present few principles for writing formal specifications for efficient
+hardware synthesis. Thus with intelligently written complete formal
+specifications we are able to automatically synthesize an important and widely
+used industrial protocol.

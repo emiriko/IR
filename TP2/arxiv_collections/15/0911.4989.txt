@@ -1,0 +1,13 @@
+Membrane system computations proceed in a synchronous fashion: at each step
+all the applicable rules are actually applied. Hence each step depends on the
+previous one. This coarse view can be refined by looking at the dependencies
+among rule occurrences, by recording, for an object, which was the a rule that
+produced it and subsequently (in a later step), which was the a rule that
+consumed it. In this paper we propose a way to look also at the other main
+ingredient in membrane system computations, namely the simultaneity in the rule
+applications. This is achieved using zero-safe nets that allows to synchronize
+transitions, i.e., rule occurrences. Zero-safe nets can be unfolded into
+occurrence nets in a classical way, and to this unfolding an event structure
+can be associated. The capability of capturing simultaneity of zero-safe nets
+is transferred on the level of event structure by adding a way to express which
+events occur simultaneously.

@@ -1,0 +1,11 @@
+We present an adaptive method for the automatic scaling of Random-Walk
+Metropolis-Hastings algorithms, which quickly and robustly identifies the
+scaling factor that yields a specified overall sampler acceptance probability.
+Our method relies on the use of the Robbins-Monro search process, whose
+performance is determined by an unknown steplength constant. We give a very
+simple estimator of this constant for proposal distributions that are
+univariate or multivariate normal, together with a sampling algorithm for
+automating the method. The effectiveness of the algorithm is demonstrated with
+both simulated and real data examples. This approach could be implemented as a
+useful component in more complex adaptive Markov chain Monte Carlo algorithms,
+or as part of automated software packages.

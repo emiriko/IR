@@ -1,0 +1,13 @@
+Reactive systems (RSs) represent a meta-framework aimed at deriving
+behavioral congruences for those computational formalisms whose operational
+semantics is provided by reduction rules. RSs proved a flexible specification
+device, yet so far most of the efforts dealing with their behavioural semantics
+focused on idem pushouts (IPOs) and saturated (also known as dynamic)
+bisimulations. In this paper we introduce a novel, intermediate behavioural
+equivalence: L-bisimilarity, which is able to recast both its IPO and saturated
+counterparts. The equivalence is parametric with respect to a set L of RSs
+labels, and it is shown that under mild conditions on L it is indeed a
+congruence. Furthermore, L-bisimilarity can also recast the notion of barbed
+semantics for RSs, proposed by the same authors in a previous paper. In order
+to provide a suitable test-bed, we instantiate our proposal by addressing the
+semantics of (asynchronous) CCS and of the calculus of mobile ambients.

@@ -1,0 +1,13 @@
+Low-noise temperature measurements at frequencies in the milli-Hertz range
+are needed in the LISA and LISA PathFinder (LPF). The required temperature
+stability for LISA is around 10 uK/sqrt(Hz) at frequencies down to 0.1 mHz. In
+this paper we focus on the identification and reduction of a source of excess
+noise detected when measuring time-varying temperature signals. This is shown
+to be due to non-idealities in the ADC transfer curve, and degrades the
+measurement by about one order of magnitude in the measurement bandwidth when
+the measured temperature exhibits drifts of uK/s. In a suitable measuring
+system for the LISA mission, this noise needs to be reduced. Two different
+methods based on the same technique have been implemented, both consisting in
+the addition of dither signals out of band to mitigate the ADC non-ideality
+errors. Excess noise of this nature has been satisfactorily reduced by using
+these methods when measuring temperature ramps up to 10 uK/s .

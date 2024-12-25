@@ -1,0 +1,16 @@
+We model the dynamics of asset prices and associated derivatives by
+consideration of the dynamics of the conditional probability density process
+for the value of an asset at some specified time in the future. In the case
+where the price process is driven by Brownian motion, an associated "master
+equation" for the dynamics of the conditional probability density is derived
+and expressed in integral form. By a "model" for the conditional density
+process we mean a solution to the master equation along with the specification
+of (a) the initial density, and (b) the volatility structure of the density.
+The volatility structure is assumed at any time and for each value of the
+argument of the density to be a functional of the history of the density up to
+that time. In practice one specifies the functional modulo sufficient
+parametric freedom to allow for the input of additional option data apart from
+that implicit in the initial density. The scheme is sufficiently flexible to
+allow for the input of various types of data depending on the nature of the
+options market and the class of valuation problem being undertaken. Various
+examples are studied in detail, with exact solutions provided in some cases.

@@ -1,0 +1,12 @@
+Network data needs to be shared for distributed security analysis.
+Anonymization of network data for sharing sets up a fundamental tradeoff
+between privacy protection versus security analysis capability. This
+privacy/analysis tradeoff has been acknowledged by many researchers but this is
+the first paper to provide empirical measurements to characterize the
+privacy/analysis tradeoff for an enterprise dataset. Specifically we perform
+anonymization options on single-fields within network packet traces and then
+make measurements using intrusion detection system alarms as a proxy for
+security analysis capability. Our results show: (1) two fields have a zero sum
+tradeoff (more privacy lessens security analysis and vice versa) and (2) eight
+fields have a more complex tradeoff (that is not zero sum) in which both
+privacy and analysis can both be simultaneously accomplished.

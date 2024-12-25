@@ -1,0 +1,11 @@
+The stochastic simulation of biological systems is an increasingly popular
+technique in bioinformatics. It often is an enlightening technique, which may
+however result in being computational expensive. We discuss the main
+opportunities to speed it up on multi-core platforms, which pose new challenges
+for parallelisation techniques. These opportunities are developed in two
+general families of solutions involving both the single simulation and a bulk
+of independent simulations (either replicas of derived from parameter sweep).
+Proposed solutions are tested on the parallelisation of the CWC simulator
+(Calculus of Wrapped Compartments) that is carried out according to proposed
+solutions by way of the FastFlow programming framework making possible fast
+development and efficient execution on multi-cores.

@@ -1,0 +1,25 @@
+For an increasing monotone graph property $\mP$ the \emph{local resilience}
+of a graph $G$ with respect to $\mP$ is the minimal $r$ for which there exists
+of a subgraph $H\subseteq G$ with all degrees at most $r$ such that the removal
+of the edges of $H$ from $G$ creates a graph that does not possesses $\mP$.
+This notion, which was implicitly studied for some ad-hoc properties, was
+recently treated in a more systematic way in a paper by Sudakov and Vu. Most
+research conducted with respect to this distance notion focused on the Binomial
+random graph model $\GNP$ and some families of pseudo-random graphs with
+respect to several graph properties such as containing a perfect matching and
+being Hamiltonian, to name a few. In this paper we continue to explore the
+local resilience notion, but turn our attention to random and pseudo-random
+\emph{regular} graphs of constant degree. We investigate the local resilience
+of the typical random $d$-regular graph with respect to edge and vertex
+connectivity, containing a perfect matching, and being Hamiltonian. In
+particular we prove that for every positive $\epsilon$ and large enough values
+of $d$ with high probability the local resilience of the random $d$-regular
+graph, $\GND$, with respect to being Hamiltonian is at least $(1-\epsilon)d/6$.
+We also prove that for the Binomial random graph model $\GNP$, for every
+positive $\epsilon>0$ and large enough values of $K$, if $p>\frac{K\ln n}{n}$
+then with high probability the local resilience of $\GNP$ with respect to being
+Hamiltonian is at least $(1-\epsilon)np/6$. Finally, we apply similar
+techniques to Positional Games and prove that if $d$ is large enough then with
+high probability a typical random $d$-regular graph $G$ is such that in the
+unbiased Maker-Breaker game played on the edges of $G$, Maker has a winning
+strategy to create a Hamilton cycle.

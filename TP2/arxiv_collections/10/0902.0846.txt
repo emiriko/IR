@@ -1,0 +1,13 @@
+An N-body code containing live stellar evolution through combination of the
+software packages NBODY6 and STARS is presented. Operational details of the two
+codes are outlined and the changes that have been made to combine them
+discussed. We have computed the evolution of clusters of 10 000 stars using the
+combined code and we compare the results with those obtained using NBODY6 and
+the synthetic stellar evolution code SSE. We find that, providing the physics
+package within STARS is set up correctly to match the parameters of the models
+used to construct SSE, the results are very similar. This provides a good
+indication that the new code is working well. We also demonstrate how this
+physics can be changed simply in the new code with convective overshooting as
+an example. Similar changes in SSE would require considerable reworking of the
+model fits. We conclude by outlining proposed future development of the code to
+include more complete models of single stars and binary star systems.

@@ -1,0 +1,10 @@
+In the framework of explicit substitutions there is two termination
+properties: preservation of strong normalization (PSN), and strong
+normalization (SN). Since there are not easily proved, only one of them is
+usually established (and sometimes none). We propose here a connection between
+them which helps to get SN when one already has PSN. For this purpose, we
+formalize a general proof technique of SN which consists in expanding
+substitutions into "pure" lambda-terms and to inherit SN of the whole calculus
+by SN of the "pure" calculus and by PSN. We apply it successfully to a large
+set of calculi with explicit substitutions, allowing us to establish SN, or, at
+least, to trace back the failure of SN to that of PSN.

@@ -1,0 +1,23 @@
+Given a set of alternatives to be ranked, and some pairwise comparison data,
+ranking is a least squares computation on a graph. The vertices are the
+alternatives, and the edge values comprise the comparison data. The basic idea
+is very simple and old: come up with values on vertices such that their
+differences match the given edge data. Since an exact match will usually be
+impossible, one settles for matching in a least squares sense. This formulation
+was first described by Leake in 1976 for rankingfootball teams and appears as
+an example in Professor Gilbert Strang's classic linear algebra textbook. If
+one is willing to look into the residual a little further, then the problem
+really comes alive, as shown effectively by the remarkable recent paper of
+Jiang et al. With or without this twist, the humble least squares problem on
+graphs has far-reaching connections with many current areas ofresearch. These
+connections are to theoretical computer science (spectral graph theory, and
+multilevel methods for graph Laplacian systems); numerical analysis (algebraic
+multigrid, and finite element exterior calculus); other mathematics (Hodge
+decomposition, and random clique complexes); and applications (arbitrage, and
+ranking of sports teams). Not all of these connections are explored in this
+paper, but many are. The underlying ideas are easy to explain, requiring only
+the four fundamental subspaces from elementary linear algebra. One of our aims
+is to explain these basic ideas and connections, to get researchers in many
+fields interested in this topic. Another aim is to use our numerical
+experiments for guidance on selecting methods and exposing the need for further
+development.

@@ -1,0 +1,14 @@
+This article concerns the computational problem of counting the lattice
+points inside convex polytopes, when each point must be counted with a weight
+associated to it. We describe an efficient algorithm for computing the highest
+degree coefficients of the weighted Ehrhart quasi-polynomial for a rational
+simple polytope in varying dimension, when the weights of the lattice points
+are given by a polynomial function h. Our technique is based on a refinement of
+an algorithm of A. Barvinok [Computing the Ehrhart quasi-polynomial of a
+rational simplex, Math. Comp. 75 (2006), pp. 1449--1466] in the unweighted case
+(i.e., h = 1). In contrast to Barvinok's method, our method is local, obtains
+an approximation on the level of generating functions, handles the general
+weighted case, and provides the coefficients in closed form as step polynomials
+of the dilation. To demonstrate the practicality of our approach we report on
+computational experiments which show even our simple implementation can compete
+with state of the art software.

@@ -1,0 +1,14 @@
+For the most popular sequential change detection rules such as CUSUM, EWMA,
+and the Shiryaev-Roberts test, we develop integral equations and a concise
+numerical method to compute a number of performance metrics, including average
+detection delay and average time to false alarm. We pay special attention to
+the Shiryaev-Roberts procedure and evaluate its performance for various
+initialization strategies. Regarding the randomized initialization variant
+proposed by Pollak, known to be asymptotically optimal of order-3, we offer a
+means for numerically computing the quasi-stationary distribution of the
+Shiryaev-Roberts statistic that is the distribution of the initializing random
+variable, thus making this test applicable in practice. A significant
+side-product of our computational technique is the observation that
+deterministic initializations of the Shiryaev-Roberts procedure can also enjoy
+the same order-3 optimality property as Pollak's randomized test and, after
+careful selection, even uniformly outperform it.

@@ -1,0 +1,22 @@
+On March 2004, Anshel, Anshel, Goldfeld, and Lemieux introduced the
+\emph{Algebraic Eraser} scheme for key agreement over an insecure channel,
+using a novel hybrid of infinite and finite noncommutative groups. They also
+introduced the \emph{Colored Burau Key Agreement Protocol (CBKAP)}, a concrete
+realization of this scheme.
+  We present general, efficient heuristic algorithms, which extract the shared
+key out of the public information provided by CBKAP. These algorithms are,
+according to heuristic reasoning and according to massive experiments,
+successful for all sizes of the security parameters, assuming that the keys are
+chosen with standard distributions.
+  Our methods come from probabilistic group theory (permutation group actions
+and expander graphs). In particular, we provide a simple algorithm for finding
+short expressions of permutations in $S_n$, as products of given random
+permutations. Heuristically, our algorithm gives expressions of length
+$O(n^2\log n)$, in time and space $O(n^3)$. Moreover, this is provable from
+\emph{the Minimal Cycle Conjecture}, a simply stated hypothesis concerning the
+uniform distribution on $S_n$. Experiments show that the constants in these
+estimations are small. This is the first practical algorithm for this problem
+for $n\ge 256$.
+  Remark: \emph{Algebraic Eraser} is a trademark of SecureRF. The variant of
+CBKAP actually implemented by SecureRF uses proprietary distributions, and thus
+our results do not imply its vulnerability. See also arXiv:abs/12020598

@@ -1,0 +1,13 @@
+NTRU public key cryptosystem is well studied lattice-based Cryptosystem along
+with Ajtai-Dwork and GGH systems. Underlying
+  NTRU is a hard mathematical problem of finding short vectors in a certain
+lattice. (Shamir 1997) presented a lattice-based attack by which he could find
+the original secret key or alternate key. Shamir concluded if one designs a
+variant of NTRU where the calculations involved during encryption and
+decryption are non-commutative then the system will be secure against Lattice
+based attack.This paper presents a new cryptosystem with above property and we
+have proved that it is completely secure against Lattice based attack. It
+operates in the non-commutative ring M=M_k Z[X]/(X^n - I_{k*k}, where M is a
+matrix ring of k*k matrices of polynomials in R={Z}[X]/(X^n-1). Moreover We
+have got speed improvement by a factor of O(k^{1.624) over NTRU for the same
+bit of information.

@@ -1,0 +1,19 @@
+It is a classical result of Stein and Waterman that the asymptotic number of
+RNA secondary structures is $1.104366 n^{-3/2} 2.618034^n$. In this paper, we
+study combinatorial asymptotics for two special subclasses of RNA secondary
+structures - canonical and saturated structures. Canonical secondary structures
+were introduced by Bompf\"unewerer et al., who noted that the run time of
+Vienna RNA Package is substantially reduced when restricting computations to
+canonical structures. Here we provide an explanation for the speed-up.
+Saturated secondary structures have the property that no base pairs can be
+added without violating the definition of secondary structure (i.e. introducing
+a pseudoknot or base triple). Here we compute the asymptotic number of
+saturated structures, we show that the asymptotic expected number of base pairs
+is $0.337361 n$, and the asymptotic number of saturated stem-loop structures is
+$0.323954 1.69562^n$, in contrast to the number $2^{n-2}$ of (arbitrary)
+stem-loop structures as classically computed by Stein and Waterman. Finally, we
+show that the density of states for [all resp. canonical resp. saturated]
+secondary structures is asymptotically Gaussian. We introduce a stochastic
+greedy method to sample random saturated structures, called quasi-random
+saturated structures, and show that the expected number of base pairs of is
+$0.340633 n$.

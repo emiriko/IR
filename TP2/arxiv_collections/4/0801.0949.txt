@@ -1,0 +1,14 @@
+We present a new approach for reasoning about liveness properties of
+distributed systems, represented as automata. Our approach is based on
+simulation relations, and requires reasoning only over finite execution
+fragments. Current simulation-relation based methods for reasoning about
+liveness properties of automata require reasoning over entire executions, since
+they involve a proof obligation of the form: if a concrete and abstract
+execution ``correspond'' via the simulation, and the concrete execution is
+live, then so is the abstract execution.
+  Our contribution consists of (1) a formalism for defining liveness
+properties, (2) a proof method for liveness properties based on that formalism,
+and (3) two expressive completeness results: firstly, our formalism can express
+any liveness property which satisfies a natural ``robustness'' condition, and
+secondly, our formalism can express any liveness property at all, provided that
+history variables can be used

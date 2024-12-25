@@ -1,0 +1,21 @@
+Statistical properties of order-driven double-auction markets with Bid-Ask
+spread are investigated through the dynamical quantities such as response
+function. We first attempt to utilize the so-called {\it
+Madhavan-Richardson-Roomans model} (MRR for short) to simulate the stochastic
+process of the price-change in empirical data sets (say, EUR/JPY or USD/JPY
+exchange rates) in which the Bid-Ask spread fluctuates in time. We find that
+the MRR theory apparently fails to simulate so much as the qualitative
+behaviour ('non-monotonic' behaviour) of the response function $R(l)$ ($l$
+denotes the difference of times at which the response function is evaluated)
+calculated from the data. Especially, we confirm that the stochastic nature of
+the Bid-Ask spread causes apparent deviations from a linear relationship
+between the $R(l)$ and the auto-correlation function $C(l)$, namely, $R(l)
+\propto -C(l)$. To make the microscopic model of double-auction markets having
+stochastic Bid-Ask spread, we use the minority game with a finite market
+history length and find numerically that appropriate extension of the game
+shows quite similar behaviour of the response function to the empirical
+evidence. We also reveal that the minority game modeling with the adaptive
+('annealed') look-up table reproduces the non-linear relationship $R(l) \propto
+-f(C(l))$ ($f(x)$ stands for a non-linear function leading to
+'$\lambda$-shapes') more effectively than the fixed (`quenched') look-up table
+does.

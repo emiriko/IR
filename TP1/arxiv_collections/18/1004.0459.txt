@@ -1,0 +1,10 @@
+In this paper, we suggest a novel data hiding technique in an HTML Web page.
+HTML Tags are case insensitive and hence an alphabet in lowercase and one in
+uppercase present inside an HTML tag are interpreted in the same manner by the
+browser,i.e., change in case in an web page is imperceptible to the browser. We
+basically exploit this redundancy and use it to embed secret data inside an web
+page, with no changes visible to the user of the web page, so that he can not
+even suspect about the data hiding. The embedded data can be recovered by
+viewing the source of the HTML page. This technique can easily be extended to
+embed secret message inside any piece of source-code where the standard
+interpreter of that language is case-insensitive.

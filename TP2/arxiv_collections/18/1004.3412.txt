@@ -1,0 +1,17 @@
+We consider methods for finding high-precision approximations to simple zeros
+of smooth functions. As an application, we give fast methods for evaluating the
+elementary functions log(x), exp(x), sin(x) etc. to high precision. For
+example, if x is a positive floating-point number with an n-bit fraction, then
+(under rather weak assumptions) an n-bit approximation to log(x) or exp(x) may
+be computed in time asymptotically equal to 13M(n)lg(n), where M(n) is the time
+required to multiply floating-point numbers with n-bit fractions. Similar
+results are given for the other elementary functions. Some analogies with
+operations on formal power series (over a field of characteristic zero) are
+discussed. In particular, it is possible to compute the first n terms in log(1
++ a_1.x + ...) or exp(a_1.x + ...) in time O(M(n)), where M(n) is the time
+required to multiply two polynomials of degree n - 1. It follows that the first
+n terms in a q-th power (1 + a_1.x + ...)^q can be computed in time O(M(n)),
+independent of q. One of the results of this paper is the "Gauss-Legendre" or
+"Brent-Salamin" algorithm for computing pi. This is the first quadratically
+convergent algorithm for pi. It was also published in Brent [J. ACM 23 (1976),
+242-251], and independently by Salamin [Math. Comp. 30 (1976), 565-570].

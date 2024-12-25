@@ -1,0 +1,14 @@
+Optimal sequence alignments depend heavily on alignment scoring parameters.
+Given input sequences, {\em parametric alignment} is the well-studied problem
+that asks for all possible optimal alignment summaries as parameters vary, as
+well as the {\em optimality region} of alignment scoring parameters which yield
+each optimal alignment. But biologically correct alignments might be {\em
+suboptimal} for all parameter choices. Thus we extend parametric alignment to
+{\em parametric $k$-best alignment}, which asks for all possible $k$-tuples of
+$k$-best alignment summaries $(s_1, s_2, ..., s_k)$, as well as the {\em
+$k$-best optimality region} of scoring parameters which make $s_1, s_2, ...,
+s_k$ the top $k$ summaries. By exploiting the integer-structure of alignment
+summaries, we show that, astonishingly, the complexity of parametric $k$-best
+alignment is only polynomial in $k$. Thus parametric $k$-best alignment is
+tractable, and can be applied at the whole-genome scale like parametric
+alignment.

@@ -1,0 +1,23 @@
+We study the complexity of securely evaluating arithmetic circuits over
+finite rings. This question is motivated by natural secure computation tasks.
+Focusing mainly on the case of two-party protocols with security against
+malicious parties, our main goals are to: (1) only make black-box calls to the
+ring operations and standard cryptographic primitives, and (2) minimize the
+number of such black-box calls as well as the communication overhead.
+  We present several solutions which differ in their efficiency, generality,
+and underlying intractability assumptions. These include:
+  1. An unconditionally secure protocol in the OT-hybrid model which makes a
+black-box use of an arbitrary ring $R$, but where the number of ring operations
+grows linearly with (an upper bound on) $\log|R|$.
+  2. Computationally secure protocols in the OT-hybrid model which make a
+black-box use of an underlying ring, and in which the number of ring operations
+does not grow with the ring size. These results extend a previous approach of
+Naor and Pinkas for secure polynomial evaluation (SIAM J. Comput., 35(5),
+2006).
+  3. A protocol for the rings $\mathbb{Z}_m=\mathbb{Z}/m\mathbb{Z}$ which only
+makes a black-box use of a homomorphic encryption scheme. When $m$ is prime,
+the (amortized) number of calls to the encryption scheme for each gate of the
+circuit is constant.
+  All of our protocols are in fact UC-secure in the OT-hybrid model and can be
+generalized to multiparty computation with an arbitrary number of malicious
+parties.

@@ -1,0 +1,14 @@
+We present a new method of wavelet packet decomposition to be used in
+gravitational wave detection. An issue in wavelet analysis is what is the
+time-frequency resolution which is best suited to analyze data when in quest of
+a signal of unknown shape, like a burst. In the other wavelet methods currently
+employed, like LIGO WaveBurst, the analysis is performed at some trial
+resolutions. We propose a decomposition which automatically selects at any
+frequency the best resolution. The criterion for resolution selection is based
+on minimization of a function of the data, named entropy in analogy with the
+information theory. As a qualitative application we show how a multiresolution
+time-frequency scalogram looks in the case of a sample signal injected over
+Gaussian noise. For a more quantitative application of the method we tested its
+efficiency as a non-linear filter of simulated data for burst searches, finding
+that it is able to lower the false alarm rate of the WaveBurst algorithm with
+negligible effects on the efficiency.

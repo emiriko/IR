@@ -1,0 +1,19 @@
+Peptide Optimization is a highly complex problem and it takes very long time
+of computation. This optimization process uses many software applications in a
+cluster running GNU/Linux Operating System that perform special tasks. The
+application to organize the whole optimization process had been already
+developed, namely SEPP (System for Evolutionary Pareto Optimization of
+Peptides/Polymers). A single peptide optimization takes a lot of computation
+time to produce a certain number of individuals. However, it can be accelerated
+by increasing the degree of parallelism as well as the number of nodes
+(processors) in the cluster. In this master thesis, I build a model simulating
+the interplay of the programs so that the usage of each resource (processor)
+can be determined and also the approximated time needed for the overall
+optimization process. There are two Evolutionary Algorithms that could be used
+in the optimization, namely Generation-based and Steady-state Evolutionary
+Algorithm. The results of each Evolutionary Algorithm are shown based on the
+simulations. Moreover, the results are also compared by using different
+parameters (the degree of parallelism and the number of processors) in the
+simulation to give an overview of the advantages and the disadvantages of the
+algorithms in terms of computation time and resource usage. The model is built
+up using JavaSpaces Technology.

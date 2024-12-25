@@ -1,0 +1,18 @@
+Non-interference, in transitive or intransitive form, is defined here over
+unbounded (Place/Transition) Petri nets. The definitions are adaptations of
+similar, well-accepted definitions introduced earlier in the framework of
+labelled transition systems. The interpretation of intransitive
+non-interference which we propose for Petri nets is as follows. A Petri net
+represents the composition of a controlled and a controller systems, possibly
+sharing places and transitions. Low transitions represent local actions of the
+controlled system, high transitions represent local decisions of the
+controller, and downgrading transitions represent synchronized actions of both
+components. Intransitive non-interference means the impossibility for the
+controlled system to follow any local strategy that would force or dodge
+synchronized actions depending upon the decisions taken by the controller after
+the last synchronized action. The fact that both language equivalence and
+bisimulation equivalence are undecidable for unbounded labelled Petri nets
+might be seen as an indication that non-interference properties based on these
+equivalences cannot be decided. We prove the opposite, providing results of
+decidability of non-interference over a representative class of infinite state
+systems.

@@ -1,0 +1,16 @@
+Next to the shortest path distance, the second most popular distance function
+between vertices in a graph is the commute distance (resistance distance). For
+two vertices u and v, the hitting time H_{uv} is the expected time it takes a
+random walk to travel from u to v. The commute time is its symmetrized version
+C_{uv} = H_{uv} + H_{vu}. In our paper we study the behavior of hitting times
+and commute distances when the number n of vertices in the graph is very large.
+We prove that as n converges to infinty, hitting times and commute distances
+converge to expressions that do not take into account the global structure of
+the graph at all. Namely, the hitting time H_{uv} converges to 1/d_v and the
+commute time to 1/d_u + 1/d_v where d_u and d_v denote the degrees of vertices
+u and v. In these cases, the hitting and commute times are misleading in the
+sense that they do not provide information about the structure of the graph. We
+focus on two major classes of random graphs: random geometric graphs (k-nearest
+neighbor graphs, epsilon-graphs, Gaussian similarity graphs) and random graphs
+with given expected degrees (in particular, Erdos-Renyi graphs with and without
+planted partitions)

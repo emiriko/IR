@@ -1,0 +1,13 @@
+Probe-level microarray data are usually stored in matrices, where the row and
+column correspond to array and probe, respectively. Scientists routinely
+summarize each array by a single index as the expression level of each probe
+set (gene). We examine the adequacy of a unidimensional summary for
+characterizing the data matrix of each probe set. To do so, we propose a
+low-rank matrix model for the probe-level intensities, and develop a useful
+framework for testing the adequacy of unidimensionality against targeted
+alternatives. This is an interesting statistical problem where inference has to
+be made based on one data matrix whose entries are not i.i.d. We analyze the
+asymptotic properties of the proposed test statistics, and use Monte Carlo
+simulations to assess their small sample performance. Applications of the
+proposed tests to GeneChip data show that evidence against a unidimensional
+model is often indicative of practically relevant features of a probe set.

@@ -1,0 +1,12 @@
+A simple, efficient, and accurate method is proposed to map multi-dimensional
+free energy landscapes. The method combines the temperature-accelerated
+molecular dynamics (TAMD) proposed in [Maragliano & Vanden-Eijnden, Chem. Phys.
+Lett. 426, 168 (2006)] with a variational reconstruction method using
+radial-basis functions for the representation of the free energy. TAMD is used
+to rapidly sweep through the important regions of the free energy landscape and
+compute the gradient of the free energy locally at points in these regions. The
+variational method is then used to reconstruct the free energy globally from
+the mean force at these points. The algorithmic aspects of the single-sweep
+method are explained in detail, and the method is tested on simple examples,
+compared to metadynamics, and finally used to compute the free energy of the
+solvated alanine dipeptide in two and four dihedral angles.

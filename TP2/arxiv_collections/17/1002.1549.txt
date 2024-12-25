@@ -1,0 +1,10 @@
+Parser generators generate translators from language specifications. In many
+cases, such specifications contain semantic actions written in the same
+language as the generated code. Since these actions are subject to little
+static checking, they are usually a source of errors which are discovered only
+when generated code is compiled.
+  In this paper we propose a parser generator front-end which statically checks
+semantic actions for typing errors and prevents such errors from appearing in
+generated code. The type checking procedure is extensible to support many
+implementation languages. An extension for Java is presented along with an
+extension for declarative type system descriptions.

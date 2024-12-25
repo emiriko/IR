@@ -1,0 +1,16 @@
+Constructive methods for matrices of multihomogeneous (or multigraded)
+resultants for unmixed systems have been studied by Weyman, Zelevinsky,
+Sturmfels, Dickenstein and Emiris. We generalize these constructions to mixed
+systems, whose Newton polytopes are scaled copies of one polytope, thus taking
+a step towards systems with arbitrary supports. First, we specify matrices
+whose determinant equals the resultant and characterize the systems that admit
+such formulae. Bezout-type determinantal formulae do not exist, but we describe
+all possible Sylvester-type and hybrid formulae. We establish tight bounds for
+all corresponding degree vectors, and specify domains that will surely contain
+such vectors; the latter are new even for the unmixed case. Second, we make use
+of multiplication tables and strong duality theory to specify resultant
+matrices explicitly, for a general scaled system, thus including unmixed
+systems. The encountered matrices are classified; these include a new type of
+Sylvester-type matrix as well as Bezout-type matrices, known as partial
+Bezoutians. Our public-domain Maple implementation includes efficient storage
+of complexes in memory, and construction of resultant matrices.

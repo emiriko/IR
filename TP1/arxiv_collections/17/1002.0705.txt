@@ -1,0 +1,16 @@
+The purpose of this paper is to show how existing scientific software can be
+parallelized using a separate thin layer of Python code where all parallel
+communication is implemented. We provide specific examples on such layers of
+code, and these examples may act as templates for parallelizing a wide set of
+serial scientific codes. The use of Python for parallelization is motivated by
+the fact that the language is well suited for reusing existing serial codes
+programmed in other languages. The extreme flexibility of Python with regard to
+handling functions makes it very easy to wrap up decomposed computational tasks
+of a serial scientific application as Python functions. Many
+parallelization-specific components can be implemented as generic Python
+functions, which may take as input those functions that perform concrete
+computational tasks. The overall programming effort needed by this
+parallelization approach is rather limited, and the resulting parallel Python
+scripts have a compact and clean structure. The usefulness of the
+parallelization approach is exemplified by three different classes of
+applications in natural and social sciences.

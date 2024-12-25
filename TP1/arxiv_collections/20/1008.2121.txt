@@ -1,0 +1,10 @@
+Constraint propagation is one of the basic forms of inference in many
+logic-based reasoning systems. In this paper, we investigate constraint
+propagation for first-order logic (FO), a suitable language to express a wide
+variety of constraints. We present an algorithm with polynomial-time data
+complexity for constraint propagation in the context of an FO theory and a
+finite structure. We show that constraint propagation in this manner can be
+represented by a datalog program and that the algorithm can be executed
+symbolically, i.e., independently of a structure. Next, we extend the algorithm
+to FO(ID), the extension of FO with inductive definitions. Finally, we discuss
+several applications.

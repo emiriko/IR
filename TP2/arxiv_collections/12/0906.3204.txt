@@ -1,0 +1,11 @@
+We consider variable selection in high-dimensional linear models where the
+number of covariates greatly exceeds the sample size. We introduce the new
+concept of partial faithfulness and use it to infer associations between the
+covariates and the response. Under partial faithfulness, we develop a
+simplified version of the PC algorithm (Spirtes et al., 2000), the PC-simple
+algorithm, which is computationally feasible even with thousands of covariates
+and provides consistent variable selection under conditions on the random
+design matrix that are of a different nature than coherence conditions for
+penalty-based approaches like the Lasso. Simulations and application to real
+data show that our method is competitive compared to penalty-based approaches.
+We provide an efficient implementation of the algorithm in the R-package pcalg.

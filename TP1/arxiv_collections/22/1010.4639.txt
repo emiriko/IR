@@ -1,0 +1,12 @@
+Nowadays, several industrial applications are being ported to parallel
+architectures. In fact, these platforms allow acquire more performance for
+system modelling and simulation. In the electric machines area, there are many
+problems which need speed-up on their solution. This paper examines the
+parallelism of sparse matrix solver on the graphics processors. More
+specifically, we implement the conjugate gradient technique with input matrix
+stored in CSR, and Symmetric CSR and CSC formats. This method is one of the
+most efficient iterative methods available for solving the finite-element basis
+functions of Maxwell's equations. The GPU (Graphics Processing Unit), which is
+used for its implementation, provides mechanisms to parallel the algorithm.
+Thus, it increases significantly the computation speed in relation to serial
+code on CPU based systems.

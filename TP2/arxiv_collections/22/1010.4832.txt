@@ -1,0 +1,22 @@
+We study the closure problem for continuum balance equations that model
+mesoscale dynamics of large ODE systems. The underlying microscale model
+consists of classical Newton equations of particle dynamics. As a mesoscale
+model we use the balance equations for spatial averages obtained earlier by a
+number of authors: Murdoch and Bedeaux, Hardy, Noll and others. The momentum
+balance equation contains a flux (stress), which is given by an exact function
+of particle positions and velocities. We propose a method for approximating
+this function by a sequence of operators applied to average density and
+momentum. The resulting approximate mesoscopic models are systems in closed
+form. The closed from property allows one to work directly with the mesoscale
+equaitons without the need to calculate underlying particle trajectories, which
+is useful for modeling and simulation of large particle systems. The proposed
+closure method utilizes the theory of ill-posed problems, in particular
+iterative regularization methods for solving first order linear integral
+equations. The closed from approximations are obtained in two steps. First, we
+use Landweber regularization to (approximately) reconstruct the interpolants of
+relevant microscale quantitites from the average density and momentum. Second,
+these reconstructions are substituted into the exact formulas for stress. The
+developed general theory is then applied to non-linear oscillator chains. We
+conduct a detailed study of the simplest zero-order approximation, and show
+numerically that it works well as long as fluctuations of velocity are nearly
+constant.

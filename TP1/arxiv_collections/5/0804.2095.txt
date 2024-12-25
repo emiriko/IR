@@ -1,0 +1,18 @@
+Logic Programming languages and combinational circuit synthesis tools share a
+common "combinatorial search over logic formulae" background. This paper
+attempts to reconnect the two fields with a fresh look at Prolog encodings for
+the combinatorial objects involved in circuit synthesis. While benefiting from
+Prolog's fast unification algorithm and built-in backtracking mechanism,
+efficiency of our search algorithm is ensured by using parallel bitstring
+operations together with logic variable equality propagation, as a mapping
+mechanism from primary inputs to the leaves of candidate Leaf-DAGs implementing
+a combinational circuit specification. After an exhaustive expressiveness
+comparison of various minimal libraries, a surprising first-runner, Strict
+Boolean Inequality "<" together with constant function "1" also turns out to
+have small transistor-count implementations, competitive to NAND-only or
+NOR-only libraries. As a practical outcome, a more realistic circuit
+synthesizer is implemented that combines rewriting-based simplification of
+(<,1) circuits with exhaustive Leaf-DAG circuit search.
+  Keywords: logic programming and circuit design, combinatorial object
+generation, exact combinational circuit synthesis, universal boolean logic
+libraries, symbolic rewriting, minimal transistor-count circuit synthesis

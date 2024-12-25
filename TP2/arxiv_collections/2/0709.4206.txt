@@ -1,0 +1,17 @@
+The identification of genes essential for survival is important for the
+understanding of the minimal requirements for cellular life and for drug
+design. As experimental studies with the purpose of building a catalog of
+essential genes for a given organism are time-consuming and laborious, a
+computational approach which could predict gene essentiality with high accuracy
+would be of great value. We present here a novel computational approach, called
+NTPGE (Network Topology-based Prediction of Gene Essentiality), that relies on
+network topology features of a gene to estimate its essentiality. The first
+step of NTPGE is to construct the integrated molecular network for a given
+organism comprising protein physical, metabolic and transcriptional regulation
+interactions. The second step consists in training a decision tree-based
+machine learning algorithm on known essential and non-essential genes of the
+organism of interest, considering as learning attributes the network topology
+information for each of these genes. Finally, the decision tree classifier
+generated is applied to the set of genes of this organism to estimate
+essentiality for each gene. We applied the NTPGE approach for discovering
+essential genes in Escherichia coli and then assessed its performance.

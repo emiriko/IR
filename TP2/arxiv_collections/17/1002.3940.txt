@@ -1,0 +1,12 @@
+We consider a system with N unit-service-rate queues in tandem, with
+exogenous arrivals of rate lambda at queue 1, under a back-pressure (MaxWeight)
+algorithm: service at queue n is blocked unless its queue length is greater
+than that of next queue n+1. The question addressed is how steady-state queues
+scale as N goes to infinity. We show that the answer depends on whether lambda
+is below or above the critical value 1/4: in the former case queues remain
+uniformly stochastically bounded, while otherwise they grow to infinity.
+  The problem is essentially reduced to the behavior of the system with
+infinite number of queues in tandem, which is studied using tools from
+interacting particle systems theory. In particular, the criticality of load 1/4
+is closely related to the fact that this is the maximum possible flux (flow
+rate) of a stationary totally asymmetric simple exclusion process.

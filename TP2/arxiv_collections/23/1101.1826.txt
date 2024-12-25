@@ -1,0 +1,19 @@
+This paper presents an optimum technique based on the least squares method
+for the derivation of the bubble functions to enrich the standard linear finite
+elements employed in the formulation of Galerkin weighted-residual statements.
+The element-level linear shape functions are enhanced with supplementary
+polynomial bubble functions with undetermined coefficients. The best least
+squares minimization of the residual functional obtained from the insertion of
+these trial functions into model equations results in an algebraic system of
+equations whose solution provides the unknown coefficients in terms of
+element-level nodal values. The normal finite element procedures for the
+construction of stiffness matrices may then be followed with no extra degree of
+freedom incurred as a result of such enrichment. The performance of the
+proposed method has been tested on a number of benchmark linear transport
+equations with the results compared against the exact and standard linear
+element solutions. It has been observed that low order bubble enriched elements
+produce more accurate approximations than the standard linear elements with no
+extra computational cost despite employing relatively crude mesh. However, for
+the solution of strongly convection or reaction dominated problems
+significantly higher order enrichments as well as extra mesh refinements will
+be required.

@@ -1,0 +1,19 @@
+Multiple-input double-output (MIDO) codes are important in the near-future
+wireless communications, where the portable end-user device is physically small
+and will typically contain at most two receive antennas. Especially tempting is
+the 4 x 2 channel due to its immediate applicability in the digital video
+broadcasting (DVB). Such channels optimally employ rate-two space-time (ST)
+codes consisting of (4 x 4) matrices. Unfortunately, such codes are in general
+very complex to decode, hence setting forth a call for constructions with
+reduced complexity.
+  Recently, some reduced complexity constructions have been proposed, but they
+have mainly been based on different ad hoc methods and have resulted in
+isolated examples rather than in a more general class of codes. In this paper,
+it will be shown that a family of division algebra based MIDO codes will always
+result in at least 37.5% worst-case complexity reduction, while maintaining
+full diversity and, for the first time, the non-vanishing determinant (NVD)
+property. The reduction follows from the fact that, similarly to the Alamouti
+code, the codes will be subsets of matrix rings of the Hamiltonian quaternions,
+hence allowing simplified decoding. At the moment, such reductions are among
+the best known for rate-two MIDO codes. Several explicit constructions are
+presented and shown to have excellent performance through computer simulations.

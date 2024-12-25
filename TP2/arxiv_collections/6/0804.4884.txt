@@ -1,0 +1,15 @@
+We show that the NP-hard quadratic unconstrained binary optimization (QUBO)
+problem on a graph $G$ can be solved using an adiabatic quantum computer that
+implements an Ising spin-1/2 Hamiltonian, by reduction through minor-embedding
+of $G$ in the quantum hardware graph $U$. There are two components to this
+reduction: embedding and parameter setting. The embedding problem is to find a
+minor-embedding $G^{emb}$ of a graph $G$ in $U$, which is a subgraph of $U$
+such that $G$ can be obtained from $G^{emb}$ by contracting edges. The
+parameter setting problem is to determine the corresponding parameters, qubit
+biases and coupler strengths, of the embedded Ising Hamiltonian. In this paper,
+we focus on the parameter setting problem. As an example, we demonstrate the
+embedded Ising Hamiltonian for solving the maximum independent set (MIS)
+problem via adiabatic quantum computation (AQC) using an Ising spin-1/2 system.
+We close by discussing several related algorithmic problems that need to be
+investigated in order to facilitate the design of adiabatic algorithms and AQC
+architectures.

@@ -1,0 +1,23 @@
+Middleware technologies often limit the way in which object classes may be
+used in distributed applications due to the fixed distribution policies that
+they impose. These policies permeate applications developed using existing
+middleware systems and force an unnatural encoding of application level
+semantics. For example, the application programmer has no direct control over
+inter-address-space parameter passing semantics. Semantics are fixed by the
+distribution topology of the application, which is dictated early in the design
+cycle. This creates applications that are brittle with respect to changes in
+distribution. This paper explores technology that provides control over the
+extent to which inter-address-space communication is exposed to programmers, in
+order to aid the creation, maintenance and evolution of distributed
+applications. The described system permits arbitrary objects in an application
+to be dynamically exposed for remote access, allowing applications to be
+written without concern for distribution. Programmers can conceal or expose the
+distributed nature of applications as required, permitting object placement and
+distribution boundaries to be decided late in the design cycle and even
+dynamically. Inter-address-space parameter passing semantics may also be
+decided independently of object implementation and at varying times in the
+design cycle, again possibly as late as run-time. Furthermore, transmission
+policy may be defined on a per-class, per-method or per-parameter basis,
+maximizing plasticity. This flexibility is of utility in the development of new
+distributed applications, and the creation of management and monitoring
+infrastructures for existing applications.

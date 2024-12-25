@@ -1,0 +1,8 @@
+This contribution describes the HOPPET Fortran~95 package for carrying out
+DGLAP evolution and other common manipulations of PDFs. The PDFs are
+represented on a grid in $x$-space so as to avoid limitations on the functional
+form of input distributions. Good speed and accuracy are obtained through the
+representation of splitting functions in terms of their convolution with a set
+of piecewise polynomial basis functions. We briefly describe the structure of
+the code and discuss its quantitative performance. Finally we comment of future
+directions for the program's development.

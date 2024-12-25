@@ -1,0 +1,9 @@
+The design, implementation and analysis of a free library for boundary
+element calculations is presented. The library is free in the sense of the GNU
+General Public Licence and is intended to allow users to solve a wide range of
+problems using the boundary element method. The library incorporates a fast
+multipole method which is tailored to boundary elements of order higher than
+zero, taking account of the finite extent of the elements in the generation of
+the domain tree. The method is tested on a sphere and on a cube, to test its
+ability to handle sharp edges, and is found to be accurate, efficient and
+convergent.

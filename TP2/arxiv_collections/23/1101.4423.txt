@@ -1,0 +1,14 @@
+Type theories with higher-order subtyping or singleton types are examples of
+systems where computation rules for variables are affected by type information
+in the context. A complication for these systems is that bounds declared in the
+context do not interact well with the logical relation proof of completeness or
+termination. This paper proposes a natural modification to the type syntax for
+F-Omega-Sub, adding variable's bound to the variable type constructor, thereby
+separating the computational behavior of the variable from the context. The
+algorithm for subtyping in F-Omega-Sub can then be given on types without
+context or kind information. As a consequence, the metatheory follows the
+general approach for type systems without computational information in the
+context, including a simple logical relation definition without Kripke-style
+indexing by context. This new presentation of the system is shown to be
+equivalent to the traditional presentation without bounds on the variable type
+constructor.

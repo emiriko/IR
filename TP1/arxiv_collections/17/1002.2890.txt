@@ -1,0 +1,14 @@
+Consider the linear stochastic differential equation (SDE) on $\mathbb{R}^n$:
+\[\mathrm {d}{X}_t=AX_t\,\mathrm{d}t+B\,\mathrm{d}L_t,\] where $A$ is a real
+$n\times n$ matrix, $B$ is a real $n\times d$ real matrix and $L_t$ is a
+L\'{e}vy process with L\'{e}vy measure $\nu$ on $\mathbb{R}^d$. Assume that
+$\nu(\mathrm {d}{z})\ge \rho_0(z)\,\mathrm{d}z$ for some $\rho_0\ge 0$. If
+$A\le 0,\operatorname {Rank}(B)=n$ and
+$\int_{\{|z-z_0|\le\varepsilon\}}\rho_0(z)^{-1}\,\mathrm{d}z<\infty$ holds for
+some $z_0\in \mathbb{R}^d$ and some $\varepsilon>0$, then the associated Markov
+transition probability $P_t(x,\mathrm {d}{y})$ satisfies
+\[\|P_t(x,\cdot)-P_t(y,\cdot)\|_{\mathrm{var}}\le \frac{C(1+|x-y|)}{\sqrt{t}},
+x,y\in \mathbb{R}^d,t>0,\] for some constant $C>0$, which is sharp for large
+$t$ and implies that the process has successful couplings. The Harnack
+inequality, ultracontractivity and the strong Feller property are also
+investigated for the (conditional) transition semigroup.

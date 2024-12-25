@@ -1,0 +1,13 @@
+We present a probabilistic generative approach for constructing topographic
+maps of light curves from eclipsing binary stars. The model defines a
+low-dimensional manifold of local noise models induced by a smooth non-linear
+mapping from a low-dimensional latent space into the space of probabilistic
+models of the observed light curves. The local noise models are physical models
+that describe how such light curves are generated. Due to the principled
+probabilistic nature of the model, a cost function arises naturally and the
+model parameters are fitted via MAP estimation using the
+Expectation-Maximisation algorithm. Once the model has been trained, each light
+curve may be projected to the latent space as the the mean posterior
+probability over the local noise models. We demonstrate our approach on a
+dataset of artificially generated light curves and on a dataset comprised of
+light curves from real observations.

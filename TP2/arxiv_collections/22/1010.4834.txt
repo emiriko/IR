@@ -1,0 +1,18 @@
+In this work we explore the performance of CUDA in quenched lattice SU(2)
+simulations. CUDA, NVIDIA Compute Unified Device Architecture, is a hardware
+and software architecture developed by NVIDIA for computing on the GPU. We
+present an analysis and performance comparison between the GPU and CPU in
+single and double precision. Analyses with multiple GPUs and two different
+architectures (G200 and Fermi architectures) are also presented. In order to
+obtain a high performance, the code must be optimized for the GPU architecture,
+i.e., an implementation that exploits the memory hierarchy of the CUDA
+programming model.
+  We produce codes for the Monte Carlo generation of SU(2) lattice gauge
+configurations, for the mean plaquette, for the Polyakov Loop at finite T and
+for the Wilson loop. We also present results for the potential using many
+configurations ($50\ 000$) without smearing and almost $2\ 000$ configurations
+with APE smearing. With two Fermi GPUs we have achieved an excellent
+performance of $200 \times$ the speed over one CPU, in single precision, around
+110 Gflops/s. We also find that, using the Fermi architecture, double precision
+computations for the static quark-antiquark potential are not much slower (less
+than $2 \times$ slower) than single precision computations.

@@ -1,0 +1,22 @@
+The problem of privately releasing data is to provide a version of a dataset
+without revealing sensitive information about the individuals who contribute to
+the data. The model of differential privacy allows such private release while
+providing strong guarantees on the output. A basic mechanism achieves
+differential privacy by adding noise to the frequency counts in the contingency
+tables (or, a subset of the count data cube) derived from the dataset. However,
+when the dataset is sparse in its underlying space, as is the case for most
+multi-attribute relations, then the effect of adding noise is to vastly
+increase the size of the published data: it implicitly creates a huge number of
+dummy data points to mask the true data, making it almost impossible to work
+with.
+  We present techniques to overcome this roadblock and allow efficient private
+release of sparse data, while maintaining the guarantees of differential
+privacy. Our approach is to release a compact summary of the noisy data.
+Generating the noisy data and then summarizing it would still be very costly,
+so we show how to shortcut this step, and instead directly generate the summary
+from the input data, without materializing the vast intermediate noisy data. We
+instantiate this outline for a variety of sampling and filtering methods, and
+show how to use the resulting summary for approximate, private, query
+answering. Our experimental study shows that this is an effective, practical
+solution, with comparable and occasionally improved utility over the costly
+materialization approach.

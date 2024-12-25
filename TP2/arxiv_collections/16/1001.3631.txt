@@ -1,0 +1,8 @@
+In this work, we make use of the OpenCL framework to accelerate an EMRI
+modeling application using the hardware accelerators -- Cell BE and Tesla CUDA
+GPU. We describe these compute technologies and our parallelization approach in
+detail, present our performance results, and then compare them with those from
+our previous implementations based on the native CUDA and Cell SDKs. The OpenCL
+framework allows us to execute identical source-code on both architectures and
+yet obtain strong performance gains that are comparable to what can be derived
+from the native SDKs.

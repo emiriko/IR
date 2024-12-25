@@ -1,0 +1,9 @@
+Modern functional-logic programming languages like Toy or Curry feature
+non-strict non-deterministic functions that behave under call-time choice
+semantics. A standard formulation for this semantics is the CRWL logic, that
+specifies a proof calculus for computing the set of possible results for each
+expression. In this paper we present a formalization of that calculus in the
+Isabelle/HOL proof assistant. We have proved some basic properties of CRWL:
+closedness under c-substitutions, polarity and compositionality. We also
+discuss some insights that have been gained, such as the fact that left
+linearity of program rules is not needed for any of these results to hold.

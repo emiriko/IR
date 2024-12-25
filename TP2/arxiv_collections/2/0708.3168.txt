@@ -1,0 +1,11 @@
+We consider the problem of finding cryptographically suitable Jacobians. By
+applying a probabilistic generic algorithm to compute the zeta functions of low
+genus curves drawn from an arbitrary family, we can search for Jacobians
+containing a large subgroup of prime order. For a suitable distribution of
+curves, the complexity is subexponential in genus 2, and O(N^{1/12}) in genus
+3. We give examples of genus 2 and genus 3 hyperelliptic curves over prime
+fields with group orders over 180 bits in size, improving previous results. Our
+approach is particularly effective over low-degree extension fields, where in
+genus 2 we find Jacobians over F_{p^2) and trace zero varieties over F_{p^3}
+with near-prime orders up to 372 bits in size. For p = 2^{61}-1, the average
+time to find a group with 244-bit near-prime order is under an hour on a PC.

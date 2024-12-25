@@ -1,0 +1,16 @@
+We have developed a parallel algorithm for radial basis function (RBF)
+interpolation that exhibits O(N) complexity,requires O(N) storage, and scales
+excellently up to a thousand processes. The algorithm uses a GMRES iterative
+solver with a restricted additive Schwarz method (RASM) as a preconditioner and
+a fast matrix-vector algorithm. Previous fast RBF methods, --,achieving at most
+O(NlogN) complexity,--, were developed using multiquadric and polyharmonic
+basis functions. In contrast, the present method uses Gaussians with a small
+variance (a common choice in particle methods for fluid simulation, our main
+target application). The fast decay of the Gaussian basis function allows rapid
+convergence of the iterative solver even when the subdomains in the RASM are
+very small. The present method was implemented in parallel using the PETSc
+library (developer version). Numerical experiments demonstrate its capability
+in problems of RBF interpolation with more than 50 million data points, timing
+at 106 seconds (19 iterations for an error tolerance of 10^-15 on 1024
+processors of a Blue Gene/L (700 MHz PowerPC processors). The parallel code is
+freely available in the open-source model.

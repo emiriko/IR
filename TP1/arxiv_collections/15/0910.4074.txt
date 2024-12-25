@@ -1,0 +1,14 @@
+Quantum communication typically involves a linear chain of repeater stations,
+each capable of reliable local quantum computation and connected to their
+nearest neighbors by unreliable communication links. The communication rate in
+existing protocols is low as two-way classical communication is used. We show
+that, if Bell pairs are generated between neighboring stations with a
+probability of heralded success greater than 0.65 and fidelity greater than
+0.96, two-way classical communication can be entirely avoided and quantum
+information can be sent over arbitrary distances with arbitrarily low error at
+a rate limited only by the local gate speed. The number of qubits per repeater
+scales logarithmically with the communication distance. If the probability of
+heralded success is less than 0.65 and Bell pairs between neighboring stations
+with fidelity no less than 0.92 are generated only every T_B seconds, the
+logarithmic resource scaling remains and the communication rate through N links
+is proportional to 1/(T_B log^2 N).

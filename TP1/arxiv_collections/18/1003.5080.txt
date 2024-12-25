@@ -1,0 +1,12 @@
+Numerous generalization techniques have been proposed for privacy preserving
+data publishing. Most existing techniques, however, implicitly assume that the
+adversary knows little about the anonymization algorithm adopted by the data
+publisher. Consequently, they cannot guard against privacy attacks that exploit
+various characteristics of the anonymization mechanism. This paper provides a
+practical solution to the above problem. First, we propose an analytical model
+for evaluating disclosure risks, when an adversary knows everything in the
+anonymization process, except the sensitive values. Based on this model, we
+develop a privacy principle, transparent l-diversity, which ensures privacy
+protection against such powerful adversaries. We identify three algorithms that
+achieve transparent l-diversity, and verify their effectiveness and efficiency
+through extensive experiments with real data.

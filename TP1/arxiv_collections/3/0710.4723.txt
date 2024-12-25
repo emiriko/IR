@@ -1,0 +1,15 @@
+This paper reports a novel simulation methodology for analysis and prediction
+of substrate noise impact on analog / RF circuits taking into account the role
+of the parasitic resistance of the on-chip interconnect in the impact
+mechanism. This methodology allows investigation of the role of the separate
+devices (also parasitic devices) in the analog / RF circuit in the overall
+impact. This way is revealed which devices have to be taken care of (shielding,
+topology change) to protect the circuit against substrate noise. The developed
+methodology is used to analyze impact of substrate noise on a 3 GHz LC-tank
+Voltage Controlled Oscillator (VCO) designed in a high-ohmic 0.18 $\mu$m 1PM6
+CMOS technology. For this VCO (in the investigated frequency range from DC to
+15 MHz) impact is mainly caused by resistive coupling of noise from the
+substrate to the non-ideal on-chip ground interconnect, resulting in analog
+ground bounce and frequency modulation. Hence, the presented test-case reveals
+the important role of the on-chip interconnect in the phenomenon of substrate
+noise impact.

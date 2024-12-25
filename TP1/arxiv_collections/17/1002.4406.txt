@@ -1,0 +1,21 @@
+The reduction of integral-field spectrograph (IFS) data is demanding work.
+Many repetitive operations are required in order to convert raw data into,
+typically a large number of, spectra. This effort can be markedly simplified
+through the use of a tool or pipeline, which is designed to complete many of
+the repetitive operations without human interaction. Here we present our
+semi-automatic data-reduction tool p3d that is designed to be used with
+fiber-fed IFSs. Important components of p3d include a novel algorithm for
+automatic finding and tracing of spectra on the detector, and two methods of
+optimal spectrum extraction in addition to standard aperture extraction. p3d
+also provides tools to combine several images, perform wavelength calibration
+and flat field data. p3d is at the moment configured for four IFSs. In order to
+evaluate its performance we have tested the different components of the tool.
+For these tests we used both simulated and observational data. We demonstrate
+that for three of the IFSs a correction for so-called cross-talk due to
+overlapping spectra on the detector is required. Without such a correction
+spectra will be inaccurate, in particular if there is a significant intensity
+gradient across the object. Our tests showed that p3d is able to produce
+accurate results. p3d is a highly general and freely available tool. It is
+easily extended to include improved algorithms, new visualization tools and
+support for additional instruments. The program code can be downloaded from the
+p3d-project web site http://p3d.sourceforge.net

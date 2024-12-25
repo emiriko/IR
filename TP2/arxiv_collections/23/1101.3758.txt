@@ -1,0 +1,19 @@
+We describe the CRASH (Center for Radiative Shock Hydrodynamics) code, a
+block adaptive mesh code for multi-material radiation hydrodynamics. The
+implementation solves the radiation diffusion model with the gray or multigroup
+method and uses a flux limited diffusion approximation to recover the
+free-streaming limit. The electrons and ions are allowed to have different
+temperatures and we include a flux limited electron heat conduction. The
+radiation hydrodynamic equations are solved in the Eulerian frame by means of a
+conservative finite volume discretization in either one, two, or
+three-dimensional slab geometry or in two-dimensional cylindrical symmetry. An
+operator split method is used to solve these equations in three substeps: (1)
+solve the hydrodynamic equations with shock-capturing schemes, (2) a linear
+advection of the radiation in frequency-logarithm space, and (3) an implicit
+solve of the stiff radiation diffusion, heat conduction, and energy exchange.
+We present a suite of verification test problems to demonstrate the accuracy
+and performance of the algorithms. The CRASH code is an extension of the
+Block-Adaptive Tree Solarwind Roe Upwind Scheme (BATS-R-US) code with this new
+radiation transfer and heat conduction library and equation-of-state and
+multigroup opacity solvers. Both CRASH and BATS-R-US are part of the publicly
+available Space Weather Modeling Framework (SWMF).

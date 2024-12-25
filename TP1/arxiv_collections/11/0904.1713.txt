@@ -1,0 +1,21 @@
+The usual procedure for estimating the significance of a peak in a power
+spectrum is to calculate the probability of obtaining that value or a larger
+value by chance (known as the "p-value"), on the assumption that the time
+series contains only noise - typically that the measurements are derived from
+random samplings of a Gaussian distribution. We really need to know the
+probability that the time series is - or is not - compatible with the null
+hypothesis that the measurements are derived from noise. This probability can
+be calculated by Bayesian analysis, but this requires one to specify and
+evaluate a second hypothesis, that the time series does contain a contribution
+other than noise. We approach the problem of identifying this function in two
+ways. We first propose three simple conditions that it seems reasonable to
+impose on this function, and show that these conditions may be satisfied by a
+simple function with one free parameter. We then define two different ways of
+combining information derived from two independent power estimates. We find
+that this consistency condition may be satisfied, to good approximation, by a
+special case of the previously proposed likelihood function. We find that the
+resulting significance estimates are considerably more conservative than those
+usually associated with the p-values. As two examples, we apply the new
+procedure to two recent analyses of solar neutrino data: (a) power spectrum
+analysis of Super-Kamiokande data, and (b) the combined analysis of
+radiochemical neutrino data and irradiance data.

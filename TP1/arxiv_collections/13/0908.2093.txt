@@ -1,0 +1,17 @@
+In this paper, we present a unified computational method based on
+pseudospectral approximations for the design of optimal pulse sequences in open
+quantum systems. The proposed method transforms the problem of optimal pulse
+design, which is formulated as a continuous time optimal control problem, to a
+finite dimensional constrained nonlinear programming problem. This resulting
+optimization problem can then be solved using existing numerical optimization
+suites. We apply the Legendre pseudospectral method to a series of optimal
+control problems on open quantum systems that arise in Nuclear Magnetic
+Resonance (NMR) spectroscopy in liquids. These problems have been well studied
+in previous literature and analytical optimal controls have been found. We find
+an excellent agreement between the maximum transfer efficiency produced by our
+computational method and the analytical expressions. Moreover, our method
+permits us to extend the analysis and address practical concerns, including
+smoothing discontinuous controls as well as deriving minimum energy controls.
+The method is not restricted to the systems studied in this article but is
+universal to every open quantum system whose performance is limited by
+dissipation.

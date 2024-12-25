@@ -1,0 +1,13 @@
+This paper presents a method to automatically generate compact symbolic
+performance models of analog circuits with no prior specification of an
+equation template. The approach takes SPICE simulation data as input, which
+enables modeling of any nonlinear circuits and circuit characteristics. Genetic
+programming is applied as a means of traversing the space of possible symbolic
+expressions. A grammar is specially designed to constrain the search to a
+canonical form for functions. Novel evolutionary search operators are designed
+to exploit the structure of the grammar. The approach generates a set of
+symbolic models which collectively provide a tradeoff between error and model
+complexity. Experimental results show that the symbolic models generated are
+compact and easy to understand, making this an effective method for aiding
+understanding in analog design. The models also demonstrate better prediction
+quality than posynomials.

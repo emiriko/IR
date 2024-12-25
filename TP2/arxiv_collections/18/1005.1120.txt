@@ -1,0 +1,11 @@
+For each $p \in (0,2]$, we present a randomized algorithm that returns an
+$\epsilon$-approximation of the $p$th frequency moment of a data stream $F_p =
+\sum_{i = 1}^n \abs{f_i}^p$. The algorithm requires space $O(\epsilon^{-2} \log
+(mM)(\log n))$ and processes each stream update using time $O((\log n) (\log
+\epsilon^{-1}))$. It is nearly optimal in terms of space (lower bound
+$O(\epsilon^{-2} \log (mM))$ as well as time and is the first algorithm with
+these properties. The technique separates heavy hitters from the remaining
+items in the stream using an appropriate threshold and estimates the
+contribution of the heavy hitters and the light elements to $F_p$ separately. A
+key component is the design of an unbiased estimator for $\abs{f_i}^p$ whose
+data structure has low update time and low variance.

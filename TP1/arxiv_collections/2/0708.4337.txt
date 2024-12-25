@@ -1,0 +1,15 @@
+Mobile robots require basic information to navigate through an environment:
+they need to know where they are (localization) and they need to know where
+they are going. For the latter, robots need a map of the environment. Using
+sensors of a variety of forms, robots gather information as they move through
+an environment in order to build a map. In this paper we present a novel
+sampling algorithm to solving the simultaneous mapping and localization (SLAM)
+problem in indoor environments. We approach the problem from a Bayesian
+statistics perspective. The data correspond to a set of range finder and
+odometer measurements, obtained at discrete time instants. We focus on the
+estimation of the posterior distribution over the space of possible maps given
+the data. By exploiting different factorizations of this distribution, we
+derive three sampling algorithms based on importance sampling. We illustrate
+the results of our approach by testing the algorithms with two real data sets
+obtained through robot navigation inside office buildings at Carnegie Mellon
+University and the Pontificia Universidad Catolica de Chile.

@@ -1,0 +1,15 @@
+Pseudorandom circuits generate quantum states and unitary operators which are
+approximately distributed according to the unitarily invariant Haar measure. We
+explore how several design parameters affect the efficiency of pseudo-random
+circuits, with the goal of identifying relevant trade-offs and optimizing
+convergence. The parameters we explore include the choice of single- and
+two-qubit gates, the topology of the underlying physical qubit architecture,
+the probabilistic application of two-qubit gates, as well as circuit size,
+initialization, and the effect of control constraints. Building on the
+equivalence between pseudo-random circuits and approximate $t$-designs, a
+Markov matrix approach is employed to analyze asymptotic convergence properties
+of pseudo-random second-order moments to a 2-design. Quantitative results on
+the convergence rate as a function of the circuit size are presented for qubit
+topologies with a sufficient degree of symmetry. Our results may be
+theoretically and practically useful to optimize the efficiency of random state
+and operator generation.

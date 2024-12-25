@@ -1,0 +1,16 @@
+Convex polyhedral abstractions of logic programs have been found very useful
+in deriving numeric relationships between program arguments in order to prove
+program properties and in other areas such as termination and complexity
+analysis. We present a tool for constructing polyhedral analyses of
+(constraint) logic programs. The aim of the tool is to make available, with a
+convenient interface, state-of-the-art techniques for polyhedral analysis such
+as delayed widening, narrowing, "widening up-to", and enhanced automatic
+selection of widening points. The tool is accessible on the web, permits user
+programs to be uploaded and analysed, and is integrated with related program
+transformations such as size abstractions and query-answer transformation. We
+then report some experiments using the tool, showing how it can be conveniently
+used to analyse transition systems arising from models of embedded systems, and
+an emulator for a PIC microcontroller which is used for example in wearable
+computing systems. We discuss issues including scalability, tradeoffs of
+precision and computation time, and other program transformations that can
+enhance the results of analysis.

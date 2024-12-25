@@ -1,0 +1,12 @@
+Particle-in-cell (PIC) simulations of relativistic shocks are in principle
+capable of predicting the spectra of photons that are radiated incoherently by
+the accelerated particles. The most direct method evaluates the spectrum using
+the fields given by the Lienard-Wiechart potentials. However, for relativistic
+particles this procedure is computationally expensive. Here we present an
+alternative method, that uses the concept of the photon formation length. The
+algorithm is suitable for evaluating spectra both from particles moving in a
+specific realization of a turbulent electromagnetic field, or from trajectories
+given as a finite, discrete time series by a PIC simulation. The main advantage
+of the method is that it identifies the intrinsic spectral features, and
+filters out those that are artifacts of the limited time resolution and finite
+duration of input trajectories.

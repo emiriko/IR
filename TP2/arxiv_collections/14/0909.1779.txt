@@ -1,0 +1,22 @@
+Recent excitement in the database community surrounding new
+applications?analytic, scientific, graph, geospatial, etc.?has led to an
+explosion in research on database storage systems. New storage systems are
+vital to the database community, as they are at the heart of making database
+systems perform well in new application domains. Unfortunately, each such
+system also represents a substantial engineering effort including a great deal
+of duplication of mechanisms for features such as transactions and caching. In
+this paper, we make the case for RodentStore, an adaptive and declarative
+storage system providing a high-level interface for describing the physical
+representation of data. Specifically, RodentStore uses a declarative storage
+algebra whereby administrators (or database design tools) specify how a logical
+schema should be grouped into collections of rows, columns, and/or arrays, and
+the order in which those groups should be laid out on disk. We describe the key
+operators and types of our algebra, outline the general architecture of
+RodentStore, which interprets algebraic expressions to generate a physical
+representation of the data, and describe the interface between RodentStore and
+other parts of a database system, such as the query optimizer and executor. We
+provide a case study of the potential use of RodentStore in representing dense
+geospatial data collected from a mobile sensor network, showing the ease with
+which different storage layouts can be expressed using some of our algebraic
+constructs and the potential performance gains that a RodentStore-built storage
+system can offer.

@@ -1,0 +1,20 @@
+In this paper, taking the view that a linear parallel interference canceller
+(LPIC) can be seen as a linear matrix filter, we propose new linear matrix
+filters that can result in improved bit error performance compared to other
+LPICs in the literature. The motivation for the proposed filters arises from
+the possibility of avoiding the generation of certain interference and noise
+terms in a given stage that would have been present in a conventional LPIC
+(CLPIC). In the proposed filters, we achieve such avoidance of the generation
+of interference and noise terms in a given stage by simply making the diagonal
+elements of a certain matrix in that stage equal to zero. Hence, the proposed
+filters do not require additional complexity compared to the CLPIC, and they
+can allow achieving a certain error performance using fewer LPIC stages. We
+also extend the proposed matrix filter solutions to a multicarrier DS-CDMA
+system, where we consider two types of receivers. In one receiver (referred to
+as Type-I receiver), LPIC is performed on each subcarrier first, followed by
+multicarrier combining (MCC). In the other receiver (called Type-II receiver),
+MCC is performed first, followed by LPIC. We show that in both Type-I and
+Type-II receivers, the proposed matrix filters outperform other matrix filters.
+Also, Type-II receiver performs better than Type-I receiver because of enhanced
+accuracy of the interference estimates achieved due to frequency diversity
+offered by MCC.

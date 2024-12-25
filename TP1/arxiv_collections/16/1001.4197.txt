@@ -1,0 +1,15 @@
+This paper deals with generating of an optimized route for multiple Vehicle
+routing Problems (mVRP). We used a methodology of clustering the given cities
+depending upon the number of vehicles and each cluster is allotted to a
+vehicle. k- Means clustering algorithm has been used for easy clustering of the
+cities. In this way the mVRP has been converted into VRP which is simple in
+computation compared to mVRP. After clustering, an optimized route is generated
+for each vehicle in its allotted cluster. Once the clustering had been done and
+after the cities were allocated to the various vehicles, each cluster/tour was
+taken as an individual Vehicle Routing problem and the steps of Genetic
+Algorithm were applied to the cluster and iterated to obtain the most optimal
+value of the distance after convergence takes place. After the application of
+the various heuristic techniques, it was found that the Genetic algorithm gave
+a better result and a more optimal tour for mVRPs in short computational time
+than other Algorithms due to the extensive search and constructive nature of
+the algorithm.

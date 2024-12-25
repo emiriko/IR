@@ -1,0 +1,14 @@
+Various empirical and theoretical studies indicate that cumulative network
+traffic is a Gaussian process. However, depending on whether the intensity at
+which sessions are initiated is large or small relative to the session duration
+tail, Mikosch et al. (Ann Appl Probab, 12:23-68, 2002) and Kaj and Taqqu
+(Progress Probab, 60:383-427, 2008) have shown that traffic at large time
+scales can be approximated by either fractional Brownian motion (fBm) or stable
+Levy motion. We study distributional properties of cumulative traffic that
+consists of a finite number of independent streams and give an explanation of
+why Gaussian examples abound in practice but not stable Levy motion. We offer
+an explanation of how much vertical aggregation is needed for the Gaussian
+approximation to hold. Our results are expressed as limit theorems for a
+sequence of cumulative traffic processes whose session initiation intensities
+satisfy growth rates similar to those used in Mikosch et al. (Ann Appl Probab,
+12:23-68, 2002).

@@ -1,0 +1,14 @@
+In the analysis of logic programs, abstract domains for detecting sharing and
+linearity information are widely used. Devising abstract unification algorithms
+for such domains has proved to be rather hard. At the moment, the available
+algorithms are correct but not optimal, i.e., they cannot fully exploit the
+information conveyed by the abstract domains. In this paper, we define a new
+(infinite) domain ShLin-w which can be thought of as a general framework from
+which other domains can be easily derived by abstraction. ShLin-w makes the
+interaction between sharing and linearity explicit. We provide a constructive
+characterization of the optimal abstract unification operator on ShLin-w and we
+lift it to two well-known abstractions of ShLin-w. Namely, to the classical
+Sharing X Lin abstract domain and to the more precise ShLin-2 abstract domain
+by Andy King. In the case of single binding substitutions, we obtain optimal
+abstract unification algorithms for such domains.
+  To appear in Theory and Practice of Logic Programming (TPLP).

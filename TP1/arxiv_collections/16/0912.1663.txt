@@ -1,0 +1,23 @@
+We study the continuous time version of the random walk pinning model, where
+conditioned on a continuous time random walk Y on Z^d with jump rate \rho>0,
+which plays the role of disorder, the law up to time t of a second independent
+random walk X with jump rate 1 is Gibbs transformed with weight e^{\beta
+L_t(X,Y)}, where L_t(X,Y) is the collision local time between X and Y up to
+time t. As the inverse temperature \beta varies, the model undergoes a
+localization-delocalization transition at some critical \beta_c>=0. A natural
+question is whether or not there is disorder relevance, namely whether or not
+\beta_c differs from the critical point \beta_c^{ann} for the annealed model.
+In Birkner and Sun [BS09], it was shown that there is disorder irrelevance in
+dimensions d=1 and 2, and disorder relevance in d>=4. For d>=5, disorder
+relevance was first proved by Birkner, Greven and den Hollander [BGdH08]. In
+this paper, we prove that if X and Y have the same jump probability kernel,
+which is irreducible and symmetric with finite second moments, then there is
+also disorder relevance in the critical dimension d=3, and
+\beta_c-\beta^{ann}_c is at least of the order e^{-C(\zeta)\rho^{-\zeta}},
+C(\zeta)>0, for any \zeta>2. Our proof employs coarse graining and fractional
+moment techniques, which have recently been applied by Lacoin [L09] to the
+directed polymer model in random environment, and by Giacomin, Lacoin and
+Toninelli [GLT09] to establish disorder relevance for the random pinning model
+in the critical dimension. Along the way, we also prove a continuous time
+version of Doney's local limit theorem [D97] for renewal processes with
+infinite mean.

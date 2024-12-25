@@ -1,0 +1,13 @@
+An efficient adaptive direct numerical integration (DNI) algorithm is
+developed for computing high quantiles and conditional Value at Risk (CVaR) of
+compound distributions using characteristic functions. A key innovation of the
+numerical scheme is an effective tail integration approximation that reduces
+the truncation errors significantly with little extra effort. High precision
+results of the 0.999 quantile and CVaR were obtained for compound losses with
+heavy tails and a very wide range of loss frequencies using the DNI, Fast
+Fourier Transform (FFT) and Monte Carlo (MC) methods. These results,
+particularly relevant to operational risk modelling, can serve as benchmarks
+for comparing different numerical methods. We found that the adaptive DNI can
+achieve high accuracy with relatively coarse grids. It is much faster than MC
+and competitive with FFT in computing high quantiles and CVaR of compound
+distributions in the case of moderate to high frequencies and heavy tails.

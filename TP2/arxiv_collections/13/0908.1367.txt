@@ -1,0 +1,23 @@
+Results are presented from numerical experiments aiming at the computation of
+stochastic phase-field models for phase transformations by coarse-graining
+molecular dynamics. The studied phase transformations occur between a solid
+crystal and a liquid. Nucleation and growth, sometimes dendritic, of crystal
+grains in a sub-cooled liquid is determined by diffusion and convection of
+heat, on the macroscopic level, and by interface effects, where the width of
+the solid-liquid interface is on an atomic length-scale. Phase-field methods
+are widely used in the study of the continuum level time evolution of the phase
+transformations; they introduce an order parameter to distinguish between the
+phases. The dynamics of the order parameter is modelled by an Allen--Cahn
+equation and coupled to an energy equation, where the latent heat at the phase
+transition enters as a source term. Stochastic fluctuations are sometimes added
+in the coupled system of partial differential equations to introduce nucleation
+and to get qualitatively correct behaviour of dendritic side-branching. In this
+report the possibility of computing some of the Allen-Cahn model functions from
+a microscale model is investigated. The microscopic model description of the
+material by stochastic, Smoluchowski, dynamics is considered given. A local
+average of contributions to the potential energy in the micro model is used to
+determine the local phase, and a stochastic phase-field model is computed by
+coarse-graining the molecular dynamics. Molecular dynamics simulations on a two
+phase system at the melting point are used to compute a double-well reaction
+term in the Allen--Cahn equation and a diffusion matrix describing the noise in
+the coarse-grained phase-field.

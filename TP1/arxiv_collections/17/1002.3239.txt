@@ -1,0 +1,19 @@
+The max-product algorithm, a local message-passing scheme that attempts to
+compute the most probable assignment (MAP) of a given probability distribution,
+has been successfully employed as a method of approximate inference for
+applications arising in coding theory, computer vision, and machine learning.
+However, the max-product algorithm is not guaranteed to converge to the MAP
+assignment, and if it does, is not guaranteed to recover the MAP assignment.
+  Alternative convergent message-passing schemes have been proposed to overcome
+these difficulties. This work provides a systematic study of such
+message-passing algorithms that extends the known results by exhibiting new
+sufficient conditions for convergence to local and/or global optima, providing
+a combinatorial characterization of these optima based on graph covers, and
+describing a new convergent and correct message-passing algorithm whose
+derivation unifies many of the known convergent message-passing algorithms.
+  While convergent and correct message-passing algorithms represent a step
+forward in the analysis of max-product style message-passing algorithms, the
+conditions needed to guarantee convergence to a global optimum can be too
+restrictive in both theory and practice. This limitation of convergent and
+correct message-passing schemes is characterized by graph covers and
+illustrated by example.

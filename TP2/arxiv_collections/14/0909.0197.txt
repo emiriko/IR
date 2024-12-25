@@ -1,0 +1,11 @@
+We present a novel approach to reverse Monte Carlo (RMC) modeling,
+SpecSwap-RMC, which makes use of pre-computed property data from a discrete
+configuration space replacing atomistic moves with swap moves of contributions
+to a sample-set representing the average, or summed property. The approach is
+particularly suitable for disordered systems and properties which require
+significant computer time to compute. We demonstrate the approach by fitting
+jointly and separately the EXAFS signal and x-ray absorption spectrum (XAS) of
+ice Ih using as SpecSwap sample-set 80 configurations from a space of 1382
+local structures with associated pre-computed spectra. As an additional
+demonstration we compare SpecSwap and FEFFIT fits of EXAFS data on crystalline
+copper finding excellent agreement.

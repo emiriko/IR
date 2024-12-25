@@ -1,0 +1,22 @@
+Nondeterministic weighted automata are finite automata with numerical weights
+on transitions. They define quantitative languages L that assign to each word w
+a real number L(w). The value of an infinite word w is computed as the maximal
+value of all runs over w, and the value of a run as the maximum, limsup,
+liminf, limit average, or discounted sum of the transition weights. We
+introduce probabilistic weighted automata, in which the transitions are chosen
+in a randomized (rather than nondeterministic) fashion. Under almost-sure
+semantics (resp. positive semantics), the value of a word w is the largest real
+v such that the runs over w have value at least v with probability 1 (resp.
+positive probability).
+  We study the classical questions of automata theory for probabilistic
+weighted automata: emptiness and universality, expressiveness, and closure
+under various operations on languages. For quantitative languages, emptiness
+and universality are defined as whether the value of some (resp. every) word
+exceeds a given threshold. We prove some of these questions to be decidable,
+and others undecidable. Regarding expressive power, we show that probabilities
+allow us to define a wide variety of new classes of quantitative languages,
+except for discounted-sum automata, where probabilistic choice is no more
+expressive than nondeterminism. Finally, we give an almost complete picture of
+the closure of various classes of probabilistic weighted automata for the
+following pointwise operations on quantitative languages: max, min, sum, and
+numerical complement.

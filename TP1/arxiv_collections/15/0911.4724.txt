@@ -1,0 +1,19 @@
+Most quantum algorithms that give an exponential speedup over classical
+algorithms exploit the Fourier transform in some way. In Shor's algorithm,
+sampling from the quantum Fourier spectrum is used to discover periodicity of
+the modular exponentiation function. In a generalization of this idea, quantum
+Fourier sampling can be used to discover hidden subgroup structures of some
+functions much more efficiently than it is possible classically. Another
+problem for which the Fourier transform has been recruited successfully on a
+quantum computer is the hidden shift problem. Quantum algorithms for hidden
+shift problems usually have a slightly different flavor from hidden subgroup
+algorithms, as they use the Fourier transform to perform a correlation with a
+given reference function, instead of sampling from the Fourier spectrum
+directly. In this paper we show that hidden shifts can be extracted efficiently
+from Boolean functions that are quadratic forms. We also show how to identify
+an unknown quadratic form on n variables using a linear number of queries, in
+contrast to the classical case were this takes Theta(n^2) many queries to a
+black box. What is more, we show that our quantum algorithm is robust in the
+sense that it can also infer the shift if the function is close to a quadratic,
+where we consider a Boolean function to be close to a quadratic if it has a
+large Gowers U_3 norm.

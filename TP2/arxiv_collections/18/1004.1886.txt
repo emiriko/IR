@@ -1,0 +1,15 @@
+This paper presents a feature level fusion approach which uses the improved
+K-medoids clustering algorithm and isomorphic graph for face and palmprint
+biometrics. Partitioning around medoids (PAM) algorithm is used to partition
+the set of n invariant feature points of the face and palmprint images into k
+clusters. By partitioning the face and palmprint images with scale invariant
+features SIFT points, a number of clusters is formed on both the images. Then
+on each cluster, an isomorphic graph is drawn. In the next step, the most
+probable pair of graphs is searched using iterative relaxation algorithm from
+all possible isomorphic graphs for a pair of corresponding face and palmprint
+images. Finally, graphs are fused by pairing the isomorphic graphs into
+augmented groups in terms of addition of invariant SIFT points and in terms of
+combining pair of keypoint descriptors by concatenation rule. Experimental
+results obtained from the extensive evaluation show that the proposed feature
+level fusion with the improved K-medoids partitioning algorithm increases the
+performance of the system with utmost level of accuracy.

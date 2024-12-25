@@ -1,0 +1,21 @@
+In this paper, we introduce two new achievable schemes for the fading
+multiple access wiretap channel (MAC-WT). In the model that we consider, we
+assume that perfect knowledge of the state of all channels is available at all
+the nodes in a causal fashion. Our schemes use this knowledge together with the
+time varying nature of the channel model to align the interference from
+different users at the eavesdropper perfectly in a one-dimensional space while
+creating a higher dimensionality space for the interfering signals at the
+legitimate receiver hence allowing for better chance of recovery. While we
+achieve this alignment through signal scaling at the transmitters in our first
+scheme (scaling based alignment (SBA)), we let nature provide this alignment
+through the ergodicity of the channel coefficients in the second scheme
+(ergodic secret alignment (ESA)). For each scheme, we obtain the resulting
+achievable secrecy rate region. We show that the secrecy rates achieved by both
+schemes scale with SNR as 1/2log(SNR). Hence, we show the sub-optimality of the
+i.i.d. Gaussian signaling based schemes with and without cooperative jamming by
+showing that the secrecy rates achieved using i.i.d. Gaussian signaling with
+cooperative jamming do not scale with SNR. In addition, we introduce an
+improved version of our ESA scheme where we incorporate cooperative jamming to
+achieve higher secrecy rates. Moreover, we derive the necessary optimality
+conditions for the power control policy that maximizes the secrecy sum rate
+achievable by our ESA scheme when used solely and with cooperative jamming.

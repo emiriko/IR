@@ -1,0 +1,10 @@
+This report presents results of our endeavor towards developing a
+failure-recovery variant of a CORBA-based bank server that provides fault
+tolerance features through message logging and checkpoint logging. In this
+group of projects, three components were developed to satisfy the requirements:
+1) a message-logging protocol for the branch servers of the distributed banking
+system to log required information; 2) a recovery module that restarts the bank
+server using the message log to help the restarted bank server process
+subsequent requests for various operations; 3) a monitor module that
+periodically checks whether the bank server is down and helps the recovery
+module restart the bank server if the latter has crashed.

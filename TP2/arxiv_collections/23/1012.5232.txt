@@ -1,0 +1,22 @@
+While building up a catalog of Earth orbiting objects, if the available
+optical observations are sparse, not deliberate follow ups of specific objects,
+no orbit determination is possible without previous correlation of observations
+obtained at different times. This correlation step is the most computationally
+intensive, and becomes more and more difficult as the number of objects to be
+discovered increases. In this paper we tested two different algorithms (and the
+related prototype software) recently developed to solve the correlation problem
+for objects in geostationary orbit (GEO), including the accurate orbit
+determination by full least squares solutions with all six orbital elements.
+Because of the presence in the GEO region of a significant subpopulation of
+high area to mass objects, strongly affected by non-gravitational
+perturbations, it was actually necessary to solve also for dynamical parameters
+describing these effects, that is to fit between 6 and 8 free parameters for
+each orbit. The validation was based upon a set of real data, acquired from the
+ESA Space Debris Telescope (ESASDT) at the Teide observatory (Canary Islands).
+We proved that it is possible to assemble a set of sparse observations into a
+set of objects with orbits, starting from a sparse time distribution of
+observations, which would be compatible with a survey capable of covering the
+region of interest in the sky just once per night. This could result in a
+significant reduction of the requirements for a future telescope network, with
+respect to what would have been required with the previously known algorithm
+for correlation and orbit determination.

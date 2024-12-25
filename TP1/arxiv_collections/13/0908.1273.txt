@@ -1,0 +1,18 @@
+This paper considers the problem of throughput optimal routing/scheduling in
+a multi-hop constrained queueing network with random connectivity whose special
+case includes opportunistic multi-hop wireless networks and input-queued switch
+fabrics. The main challenge in the design of throughput optimal routing
+policies is closely related to identifying appropriate and universal Lyapunov
+functions with negative expected drift. The few well-known throughput optimal
+policies in the literature are constructed using simple quadratic or
+exponential Lyapunov functions of the queue backlogs and as such they seek to
+balance the queue backlogs across network independent of the topology. By
+considering a class of continuous, differentiable, and piece-wise quadratic
+Lyapunov functions, this paper provides a large class of throughput optimal
+routing policies. The proposed class of Lyapunov functions allow for the
+routing policy to control the traffic along short paths for a large portion of
+state-space while ensuring a negative expected drift. This structure enables
+the design of a large class of routing policies. In particular, and in addition
+to recovering the throughput optimality of the well known backpressure routing
+policy, an opportunistic routing policy with congestion diversity is proved to
+be throughput optimal.

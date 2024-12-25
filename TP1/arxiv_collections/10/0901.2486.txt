@@ -1,0 +1,24 @@
+Astronomic line mapping with single-pixel instruments is usually performed in
+an on-the-fly (OTF) or a raster-mapping mode depending on the capabilities of
+the telescope and the instrument. The observing efficiency can be increased by
+combining several source-point integrations with a common reference
+measurement. This is implemented at many telescopes, but a thorough
+investigation of the optimum calibration of the modes and the best way of
+performing these observations is still lacking.
+  We use knowledge of the instrumental stability obtained by an Allan variance
+measurement to derive a mathematical formalism for optimizing the setup of
+mapping observations. Special attention has to be paid to minimizing of the
+impact of correlated noise introduced by the common OFF integrations and to the
+correction of instrumental drifts. Both aspects can be covered using a
+calibration scheme that interpolates between two OFF measurements and an
+appropriate OFF integration time.
+  The total uncertainty of the calibrated data consisting of radiometric noise
+and drift noise can be minimized by adjusting the source integration time and
+the number of data points observed between two OFF measurements. It turns out
+that OTF observations are very robust. They provide a low relative noise, even
+if their setup deviates considerably from the optimum. Fast data readouts are
+often essential to minimize the drift contributions. In particular, continuum
+measurements may be easily spoiled by instrumental drifts. The main drawback of
+the described mapping modes is the limited use of the measured data at
+different spatial or spectroscopic resolutions obtained by additional
+rebinning.

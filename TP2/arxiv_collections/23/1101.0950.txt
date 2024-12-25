@@ -1,0 +1,13 @@
+We present the public release of the Bayesian sampling algorithm for
+cosmology, CosmoPMC (Cosmology Population Monte Carlo). CosmoPMC explores the
+parameter space of various cosmological probes, and also provides a robust
+estimate of the Bayesian evidence. CosmoPMC is based on an adaptive importance
+sampling method called Population Monte Carlo (PMC). Various cosmology
+likelihood modules are implemented, and new modules can be added easily. The
+importance-sampling algorithm is written in C, and fully parallelised using the
+Message Passing Interface (MPI). Due to very little overhead, the wall-clock
+time required for sampling scales approximately with the number of CPUs. The
+CosmoPMC package contains post-processing and plotting programs, and in
+addition a Monte-Carlo Markov chain (MCMC) algorithm. The sampling engine is
+implemented in the library pmclib, and can be used independently. The software
+is available for download at http://www.cosmopmc.info.

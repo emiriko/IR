@@ -1,0 +1,21 @@
+Random $K$-satisfiability ($K$-SAT) is a model system for studying
+typical-case complexity of combinatorial optimization. Recent theoretical and
+simulation work revealed that the solution space of a random $K$-SAT formula
+has very rich structures, including the emergence of solution communities
+within single solution clusters. In this paper we investigate the influence of
+the solution space landscape to a simple stochastic local search process {\tt
+SEQSAT}, which satisfies a $K$-SAT formula in a sequential manner. Before
+satisfying each newly added clause, {\tt SEQSAT} walk randomly by single-spin
+flips in a solution cluster of the old subformula. This search process is
+efficient when the constraint density $\alpha$ of the satisfied subformula is
+less than certain value $\alpha_{cm}$; however it slows down considerably as
+$\alpha > \alpha_{cm}$ and finally reaches a jammed state at $\alpha \approx
+\alpha_{j}$. The glassy dynamical behavior of {\tt SEQSAT} for $\alpha \geq
+\alpha_{cm}$ probably is due to the entropic trapping of various communities in
+the solution cluster of the satisfied subformula. For random 3-SAT, the jamming
+transition point $\alpha_j$ is larger than the solution space clustering
+transition point $\alpha_d$, and its value can be predicted by a long-range
+frustration mean-field theory. For random $K$-SAT with $K\geq 4$, however, our
+simulation results indicate that $\alpha_j = \alpha_d$. The relevance of this
+work for understanding the dynamic properties of glassy systems is also
+discussed.

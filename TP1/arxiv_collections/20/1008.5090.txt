@@ -1,0 +1,14 @@
+In this paper, we study two general classes of optimization algorithms for
+kernel methods with convex loss function and quadratic norm regularization, and
+analyze their convergence. The first approach, based on fixed-point iterations,
+is simple to implement and analyze, and can be easily parallelized. The second,
+based on coordinate descent, exploits the structure of additively separable
+loss functions to compute solutions of line searches in closed form. Instances
+of these general classes of algorithms are already incorporated into state of
+the art machine learning software for large scale problems. We start from a
+solution characterization of the regularized problem, obtained using
+sub-differential calculus and resolvents of monotone operators, that holds for
+general convex loss functions regardless of differentiability. The two
+methodologies described in the paper can be regarded as instances of non-linear
+Jacobi and Gauss-Seidel algorithms, and are both well-suited to solve large
+scale problems.

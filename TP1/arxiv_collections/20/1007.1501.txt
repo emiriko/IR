@@ -1,0 +1,16 @@
+In revenue maximization of selling a digital product in a social network, the
+utility of an agent is often considered to have two parts: a private valuation,
+and linearly additive influences from other agents. We study the incomplete
+information case where agents know a common distribution about others' private
+valuations, and make decisions simultaneously. The "rational behavior" of
+agents in this case is captured by the well-known Bayesian Nash equilibrium.
+  Two challenging questions arise: how to compute an equilibrium and how to
+optimize a pricing strategy accordingly to maximize the revenue assuming agents
+follow the equilibrium? In this paper, we mainly focus on the natural model
+where the private valuation of each agent is sampled from a uniform
+distribution, which turns out to be already challenging.
+  Our main result is a polynomial-time algorithm that can exactly compute the
+equilibrium and the optimal price, when pairwise influences are non-negative.
+If negative influences are allowed, computing any equilibrium even
+approximately is PPAD-hard. Our algorithm can also be used to design an FPTAS
+for optimizing discriminative price profile.

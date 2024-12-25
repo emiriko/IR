@@ -1,0 +1,14 @@
+This paper deals with the estimation of a sequence of frequencies from a
+corresponding sequence of signals. This problem arises in fields such as
+Doppler imaging where its specificity is twofold. First, only short noisy data
+records are available (typically four sample long) and experimental constraints
+may cause spectral aliasing so that measurements provide unreliable, ambiguous
+information. Second, the frequency sequence is smooth. Here, this information
+is accounted for by a Markov model and application of the Bayes rule yields the
+a posteriori density. The maximum a postariori is computed by a combination of
+Viterbi and descent procedures. One of the major features of the method is that
+it is entirely unsupervised. Adjusting the hyperparameters that balance
+data-based and prior-based information is done automatically by ML using an
+EM-based gradient algorithm. We compared the proposed estimate to a reference
+one and found that it performed better: variance was greatly reduced and
+tracking was correct, even beyond the Nyquist frequency.

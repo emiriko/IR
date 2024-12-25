@@ -1,0 +1,17 @@
+1-Nearest Neighbor with the Dynamic Time Warping (DTW) distance is one of the
+most effective classifiers on time series domain. Since the global constraint
+has been introduced in speech community, many global constraint models have
+been proposed including Sakoe-Chiba (S-C) band, Itakura Parallelogram, and
+Ratanamahatana-Keogh (R-K) band. The R-K band is a general global constraint
+model that can represent any global constraints with arbitrary shape and size
+effectively. However, we need a good learning algorithm to discover the most
+suitable set of R-K bands, and the current R-K band learning algorithm still
+suffers from an 'overfitting' phenomenon. In this paper, we propose two new
+learning algorithms, i.e., band boundary extraction algorithm and iterative
+learning algorithm. The band boundary extraction is calculated from the bound
+of all possible warping paths in each class, and the iterative learning is
+adjusted from the original R-K band learning. We also use a Silhouette index, a
+well-known clustering validation technique, as a heuristic function, and the
+lower bound function, LB_Keogh, to enhance the prediction speed. Twenty
+datasets, from the Workshop and Challenge on Time Series Classification, held
+in conjunction of the SIGKDD 2007, are used to evaluate our approach.

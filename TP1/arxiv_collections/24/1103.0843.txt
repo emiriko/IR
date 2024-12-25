@@ -1,0 +1,22 @@
+We study the asymptotic performance of two multi-hop overlaid ad-hoc networks
+that utilize the same temporal, spectral, and spatial resources based on random
+access schemes. The primary network consists of Poisson distributed legacy
+users with density \lambda^{(p)} and the secondary network consists of Poisson
+distributed cognitive radio users with density \lambda^{(s)} =
+(\lambda^{(p)})^{\beta} (\beta>0, \beta \neq 1) that utilize the spectrum
+opportunistically. Both networks are decentralized and employ ALOHA medium
+access protocols where the secondary nodes are additionally equipped with
+range-limited perfect spectrum sensors to monitor and protect primary
+transmissions. We study the problem in two distinct regimes, namely \beta>1 and
+0<\beta<1. We show that in both cases, the two networks can achieve their
+corresponding stand-alone throughput scaling even without secondary spectrum
+sensing (i.e., the sensing range set to zero); this implies the need for a more
+comprehensive performance metric than just throughput scaling to evaluate the
+influence of the overlaid interactions. We thus introduce a new criterion,
+termed the asymptotic multiplexing gain, which captures the effect of
+inter-network interferences with different spectrum sensing setups. With this
+metric, we clearly demonstrate that spectrum sensing can substantially improve
+primary network performance when \beta>1. On the contrary, spectrum sensing
+turns out to be unnecessary when \beta<1 and setting the secondary network's
+ALOHA parameter appropriately can substantially improve primary network
+performance.

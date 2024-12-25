@@ -1,0 +1,11 @@
+Most of the well known algorithms for watermarking of digital images involve
+transformation of the image data to Fourier or singular vector space. In this
+paper, we introduce watermarking in Hilbert transform domain for digital media.
+Generally, if the image is a matrix of order $m$ by $n$, then the transformed
+space is also an image of the same order. However, with Hilbert transforms, the
+transformed space is of order $2m$ by $2n$. This allows for more latitude in
+storing the watermark in the host image. Based on this idea, we propose an
+algorithm for embedding and extracting watermark in a host image and
+analytically obtain a parameter related to this procedure. Using extensive
+simulations, we show that the algorithm performs well even if the host image is
+corrupted by various attacks.

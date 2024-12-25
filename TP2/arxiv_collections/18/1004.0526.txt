@@ -1,0 +1,22 @@
+A pair of unit clauses is called conflicting if it is of the form $(x)$,
+$(\bar{x})$. A CNF formula is unit-conflict free (UCF) if it contains no pair
+of conflicting unit clauses. Lieberherr and Specker (J. ACM 28, 1981) showed
+that for each UCF CNF formula with $m$ clauses we can simultaneously satisfy at
+least $\pp m$ clauses, where $\pp =(\sqrt{5}-1)/2$. We improve the
+Lieberherr-Specker bound by showing that for each UCF CNF formula $F$ with $m$
+clauses we can find, in polynomial time, a subformula $F'$ with $m'$ clauses
+such that we can simultaneously satisfy at least $\pp m+(1-\pp)m'+(2-3\pp)n"/2$
+clauses (in $F$), where $n"$ is the number of variables in $F$ which are not in
+$F'$.
+  We consider two parameterized versions of MAX-SAT, where the parameter is the
+number of satisfied clauses above the bounds $m/2$ and $m(\sqrt{5}-1)/2$. The
+former bound is tight for general formulas, and the later is tight for UCF
+formulas. Mahajan and Raman (J. Algorithms 31, 1999) showed that every instance
+of the first parameterized problem can be transformed, in polynomial time, into
+an equivalent one with at most $6k+3$ variables and $10k$ clauses. We improve
+this to $4k$ variables and $(2\sqrt{5}+4)k$ clauses. Mahajan and Raman
+conjectured that the second parameterized problem is fixed-parameter tractable
+(FPT). We show that the problem is indeed FPT by describing a polynomial-time
+algorithm that transforms any problem instance into an equivalent one with at
+most $(7+3\sqrt{5})k$ variables. Our results are obtained using our improvement
+of the Lieberherr-Specker bound above.

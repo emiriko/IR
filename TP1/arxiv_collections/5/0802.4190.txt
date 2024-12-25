@@ -1,0 +1,21 @@
+Synthetic indices are used in Economics to measure various aspects of
+monetary inequalities. These scalar indices take as input the distribution over
+a finite population, for example the population of a specific country. In this
+article we consider the case of the French 2004 Wealth survey. We have at hand
+a partial measurement on the distribution of interest consisting of bracketed
+and sometimes missing data, over a subsample of the population of interest. We
+present in this article the statistical methodology used to obtain point and
+interval estimates taking into account the various uncertainties. The
+inequality indices being nonlinear in the input distribution, we rely on a
+simulation based approach where the model for the wealth per household is
+multivariate. Using the survey data as well as matched auxiliary tax
+declarations data, we have at hand a quite intricate non-rectangle
+multidimensional censoring. For practical issues we use a Bayesian approach.
+Inference using Monte-Carlo approximations relies on a Monte-Carlo Markov chain
+algorithm namely the Gibbs sampler. The quantities interesting to the decision
+maker are taken to be the various inequality indices for the French population.
+Their distribution conditional on the data of the subsample are assumed to be
+normal centered on the design-based estimates with variance computed through
+linearization and taking into account the sample design and total nonresponse.
+Exogeneous selection of the subsample, in particular the nonresponse mechanism,
+is assumed and we condition on the adequate covariates.

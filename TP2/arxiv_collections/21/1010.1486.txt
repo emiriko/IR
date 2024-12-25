@@ -1,0 +1,15 @@
+We discuss the CUDA approach to the simulation of pure gauge Lattice SU(2).
+CUDA is a hardware and software architecture developed by NVIDIA for computing
+on the GPU. We present an analysis and performance comparison between the GPU
+and CPU with single precision. Analysis with single and multiple GPU's, using
+CUDA and OPENMP, are also presented. In order to obtain a high performance, the
+code must be optimized for the GPU architecture, i.e., an implementation that
+exploits the memory hierarchy of the CUDA programming model. Using GPU texture
+memory and minimizing the data transfers between CPU and GPU, we achieve a
+speedup of $200\times$ using 2 NVIDIA 295 GTX cards relative to a serial CPU,
+which demonstrates that GPU's can serve as an efficient platform for scientific
+computing. With multi-GPU's we are able, in one day computation, to generate 1
+000 000 gauge configurations in a $48^4$ lattice with $\beta=6.0$ and calculate
+the mean average plaquette. We present results for the mean average plaquette
+in several lattice sizes for different $\beta$. Finally we present results for
+the mean average Polyakov loop at finite temperature.

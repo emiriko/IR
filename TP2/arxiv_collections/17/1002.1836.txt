@@ -1,0 +1,13 @@
+We propose a method for inferring \emph{parameterized regular types} for
+logic programs as solutions for systems of constraints over sets of finite
+ground Herbrand terms (set constraint systems). Such parameterized regular
+types generalize \emph{parametric} regular types by extending the scope of the
+parameters in the type definitions so that such parameters can relate the types
+of different predicates. We propose a number of enhancements to the procedure
+for solving the constraint systems that improve the precision of the type
+descriptions inferred. The resulting algorithm, together with a procedure to
+establish a set constraint system from a logic program, yields a program
+analysis that infers tighter safe approximations of the success types of the
+program than previous comparable work, offering a new and useful efficiency vs.
+precision trade-off. This is supported by experimental results, which show the
+feasibility of our analysis.

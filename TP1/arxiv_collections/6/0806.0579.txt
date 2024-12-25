@@ -1,0 +1,23 @@
+Recent advances in optical systems make them ideal for undersampling
+multiband signals that have high bandwidths. In this paper we propose a new
+scheme for reconstructing multiband sparse signals using a small number of
+sampling channels. The scheme, which we call synchronous multirate sampling
+(SMRS), entails gathering samples synchronously at few different rates whose
+sum is significantly lower than the Nyquist sampling rate. The signals are
+reconstructed by solving a system of linear equations. We have demonstrated an
+accurate and robust reconstruction of signals using a small number of sampling
+channels that operate at relatively high rates. Sampling at higher rates
+increases the signal to noise ratio in samples. The SMRS scheme enables a
+significant reduction in the number of channels required when the sampling rate
+increases. We have demonstrated, using only three sampling channels, an
+accurate sampling and reconstruction of 4 real signals (8 bands). The matrices
+that are used to reconstruct the signals in the SMRS scheme also have low
+condition numbers. This indicates that the SMRS scheme is robust to noise in
+signals. The success of the SMRS scheme relies on the assumption that the
+sampled signals are sparse. As a result most of the sampled spectrum may be
+unaliased in at least one of the sampling channels. This is in contrast to
+multicoset sampling schemes in which an alias in one channel is equivalent to
+an alias in all channels. We have demonstrated that the SMRS scheme obtains
+similar performance using 3 sampling channels and a total sampling rate 8 times
+the Landau rate to an implementation of a multicoset sampling scheme that uses
+6 sampling channels with a total sampling rate of 13 times the Landau rate.

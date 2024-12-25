@@ -1,0 +1,12 @@
+Algorithms for determining quality/cost/price tradeoffs in saturated markets
+are considered. A product is modeled by $d$ real-valued qualities whose sum
+determines the unit cost of producing the product. This leads to the following
+optimization problem: given a set of $n$ customers, each of whom has certain
+minimum quality requirements and a maximum price they are willing to pay,
+design a new product and select a price for that product in order to maximize
+the resulting profit. An $O(n\log n)$ time algorithm is given for the case,
+$d=1$, of linear products, and $O(n(\log n)^{d+1})$ time approximation
+algorithms are given for products with any constant number, $d$, of qualities.
+To achieve the latter result, an $O(nk^{d-1})$ bound on the complexity of an
+arrangement of homothetic simplices in $\R^d$ is given, where $k$ is the
+maximum number of simplices that all contain a single points.

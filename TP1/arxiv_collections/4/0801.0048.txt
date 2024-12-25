@@ -1,0 +1,21 @@
+The concept of rejecting the null hypothesis for definitively detecting a
+signal was extended to relaxation spectrum space for multiexponential
+reconstruction. The novel test was applied to the problem of detecting the
+myelin signal, which is believed to have a time constant below 40ms, in T2
+decays from MRI's of the human brain. It was demonstrated that the test allowed
+the detection of a signal in a relaxation spectrum using only the information
+in the data, thus avoiding any potentially unreliable prior information. The
+test was implemented both explicitly and implicitly for simulated T2
+measurements. For the explicit implementation, the null hypothesis was that a
+relaxation spectrum existed that had no signal below 40ms and that was
+consistent with the T2 decay. The confidence level by which the null hypothesis
+could be rejected gave the confidence level that there was signal below the
+40ms time constant. The explicit implementation assessed the test's performance
+with and without prior information where the prior information was the
+nonnegative relaxation spectrum assumption. The test was also implemented
+implicitly with a data conserving multiexponential reconstruction algorithm
+that used left invertible matrices and that has been published previously. The
+implicit and explicit implementations demonstrated similar characteristics in
+detecting the myelin signal in both the simulated and experimental T2 decays,
+providing additional evidence to support the close link between the two tests.
+[Full abstract in paper]

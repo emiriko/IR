@@ -1,0 +1,10 @@
+In smooth-particle hydrodynamics (SPH), artificial viscosity is necessary for
+the correct treatment of shocks, but often generates unwanted dissipation away
+from shocks. We present a novel method of controlling the amount of artificial
+viscosity, which uses the total time derivative of the velocity divergence as
+shock indicator and aims at completely eliminating viscosity away from shocks.
+We subject the new scheme to numerous tests and find that the method works at
+least as well as any previous technique in the strong-shock regime, but becomes
+virtually inviscid away from shocks, while still maintaining particle order. In
+particular sound waves or oscillations of gas spheres are hardly damped over
+many periods.

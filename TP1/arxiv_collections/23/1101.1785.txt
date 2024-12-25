@@ -1,0 +1,23 @@
+This Mathematica 7.0/8.0 package upgrades and extends the quantum computer
+simulation code called QDENSITY. Use of the density matrix was emphasized in
+QDENSITY, although that code was also applicable to a quantum state
+description. In the present version, the quantum state version is stressed and
+made amenable to future extensions to parallel computer simulations. The add-on
+QCWAVE extends QDENSITY in several ways. The first way is to describe the
+action of one, two and three- qubit quantum gates as a set of small ($2 \times
+2, 4\times 4$ or $8\times 8$) matrices acting on the $2^{n_q}$ amplitudes for a
+system of $n_q$ qubits. This procedure was described in our parallel computer
+simulation QCMPI and is reviewed here. The advantage is that smaller storage
+demands are made, without loss of speed, and that the procedure can take
+advantage of message passing interface (MPI) techniques, which will hopefully
+be generally available in future Mathematica versions.
+  Another extension of QDENSITY provided here is a multiverse approach, as
+described in our QCMPI paper. This multiverse approach involves using the
+present slave-master parallel processing capabilities of Mathematica 7.0/8.0 to
+simulate errors and error correction. The basic idea is that parallel versions
+of QCWAVE run simultaneously with random errors introduced on some of the
+processors, with an ensemble average used to represent the real world
+situation. Within this approach, error correction steps can be simulated and
+their efficacy tested. This capability allows one to examine the detrimental
+effects of errors and the benefits of error correction on particular quantum
+algorithms.

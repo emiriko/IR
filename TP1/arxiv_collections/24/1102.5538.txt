@@ -1,0 +1,17 @@
+We study probabilistic bit-probe schemes for the membership problem. Given a
+set A of at most n elements from the universe of size m we organize such a
+structure that queries of type "Is x in A?" can be answered very quickly.
+H.Buhrman, P.B.Miltersen, J.Radhakrishnan, and S.Venkatesh proposed a bit-probe
+scheme based on expanders. Their scheme needs space of $O(n\log m)$ bits, and
+requires to read only one randomly chosen bit from the memory to answer a
+query. The answer is correct with high probability with two-sided errors. In
+this paper we show that for the same problem there exists a bit-probe scheme
+with one-sided error that needs space of $O(n\log^2 m+\poly(\log m))$ bits. The
+difference with the model of Buhrman, Miltersen, Radhakrishnan, and Venkatesh
+is that we consider a bit-probe scheme with an auxiliary word. This means that
+in our scheme the memory is split into two parts of different size: the main
+storage of $O(n\log^2 m)$ bits and a short word of $\log^{O(1)}m$ bits that is
+pre-computed once for the stored set A and `cached'. To answer a query "Is x in
+A?" we allow to read the whole cached word and only one bit from the main
+storage. For some reasonable values of parameters our space bound is better
+than what can be achieved by any scheme without cached data.

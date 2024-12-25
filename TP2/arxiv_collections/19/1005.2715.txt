@@ -1,0 +1,10 @@
+We introduce the notion of Principal Component Analysis (PCA) of image
+gradient orientations. As image data is typically noisy, but noise is
+substantially different from Gaussian, traditional PCA of pixel intensities
+very often fails to estimate reliably the low-dimensional subspace of a given
+data population. We show that replacing intensities with gradient orientations
+and the $\ell_2$ norm with a cosine-based distance measure offers, to some
+extend, a remedy to this problem. Our scheme requires the eigen-decomposition
+of a covariance matrix and is as computationally efficient as standard $\ell_2$
+PCA. We demonstrate some of its favorable properties on robust subspace
+estimation.

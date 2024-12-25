@@ -1,0 +1,18 @@
+We introduce a non-linear variant of the voter model, the q-voter model, in
+which q neighbors (with possible repetition) are consulted for a voter to
+change opinion. If the q neighbors agree, the voter takes their opinion; if
+they do not have an unanimous opinion, still a voter can flip its state with
+probability $\epsilon$. We solve the model on a fully connected network (i.e.
+in mean-field) and compute the exit probability as well as the average time to
+reach consensus. We analyze the results in the perspective of a recently
+proposed Langevin equation aimed at describing generic phase transitions in
+systems with two ($Z_2$ symmetric) absorbing states. We find that in mean-field
+the q-voter model exhibits a disordered phase for high $\epsilon$ and an
+ordered one for low $\epsilon$ with three possible ways to go from one to the
+other: (i) a unique (generalized voter-like) transition, (ii) a series of two
+consecutive Ising-like and directed percolation transition, and (iii) a series
+of two transitions, including an intermediate regime in which the final state
+depends on initial conditions. This third (so far unexplored) scenario, in
+which a new type of ordering dynamics emerges, is rationalized and found to be
+specific of mean-field, i.e. fluctuations are explicitly shown to wash it out
+in spatially extended systems.

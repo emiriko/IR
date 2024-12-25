@@ -1,0 +1,19 @@
+The scientific method relies on the iterated processes of inference and
+inquiry. The inference phase consists of selecting the most probable models
+based on the available data; whereas the inquiry phase consists of using what
+is known about the models to select the most relevant experiment. Optimizing
+inquiry involves searching the parameterized space of experiments to select the
+experiment that promises, on average, to be maximally informative. In the case
+where it is important to learn about each of the model parameters, the
+relevance of an experiment is quantified by Shannon entropy of the distribution
+of experimental outcomes predicted by a probable set of models. If the set of
+potential experiments is described by many parameters, we must search this
+high-dimensional entropy space. Brute force search methods will be slow and
+computationally expensive. We present an entropy-based search algorithm, called
+nested entropy sampling, to select the most informative experiment for
+efficient experimental design. This algorithm is inspired by Skilling's nested
+sampling algorithm used in inference and borrows the concept of a rising
+threshold while a set of experiment samples are maintained. We demonstrate that
+this algorithm not only selects highly relevant experiments, but also is more
+efficient than brute force search. Such entropic search techniques promise to
+greatly benefit autonomous experimental design.

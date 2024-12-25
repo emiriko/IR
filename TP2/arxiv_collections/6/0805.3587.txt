@@ -1,0 +1,8 @@
+We prove explicit, i.e., non-asymptotic, error bounds for Markov Chain Monte
+Carlo methods, such as the Metropolis algorithm. The problem is to compute the
+expectation (or integral) of f with respect to a measure which can be given by
+a density with respect to another measure. A straight simulation of the desired
+distribution by a random number generator is in general not possible. Thus it
+is reasonable to use Markov chain sampling with a burn-in. We study such an
+algorithm and extend the analysis of Lovasz and Simonovits (1993) to obtain an
+explicit error bound.

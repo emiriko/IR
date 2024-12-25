@@ -1,0 +1,11 @@
+Consider a fully connected network where up to $t$ processes may crash, and
+all processes start in an arbitrary memory state. The self-stabilizing firing
+squad problem consists of eventually guaranteeing simultaneous response to an
+external input. This is modeled by requiring that the non-crashed processes
+"fire" simultaneously if some correct process received an external "GO" input,
+and that they only fire as a response to some process receiving such an input.
+This paper presents FireAlg, the first self-stabilizing firing squad algorithm.
+  The FireAlg algorithm is optimal in two respects: (a) Once the algorithm is
+in a safe state, it fires in response to a GO input as fast as any other
+algorithm does, and (b) Starting from an arbitrary state, it converges to a
+safe state as fast as any other algorithm does.

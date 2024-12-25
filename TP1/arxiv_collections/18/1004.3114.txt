@@ -1,0 +1,9 @@
+Wallace has proposed a new class of pseudo-random generators for normal
+variates. These generators do not require a stream of uniform pseudo-random
+numbers, except for initialisation. The inner loops are essentially
+matrix-vector multiplications and are very suitable for implementation on
+vector processors or vector/parallel processors such as the Fujitsu VPP300. In
+this report we outline Wallace's idea, consider some variations on it, and
+describe a vectorised implementation RANN4 which is more than three times
+faster than its best competitors (the Polar and Box-Muller methods) on the
+Fujitsu VP2200 and VPP300.

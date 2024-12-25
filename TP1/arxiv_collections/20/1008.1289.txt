@@ -1,0 +1,16 @@
+We study an ordinary differential equation (ODE) arising as the many-server
+heavy-traffic fluid limit of a sequence of overloaded Markovian queueing models
+with two customer classes and two service pools. The system, known as the X
+model in the call-center literature, operates under the
+fixed-queue-ratio-with-thresholds (FQR-T) control, which we proposed in a
+recent paper as a way for one service system to help another in face of an
+unanticipated overload. Each pool serves only its own class until a threshold
+is exceeded; then one-way sharing is activated with all customer-server
+assignments then driving the two queues toward a fixed ratio. For large
+systems, that fixed ratio is achieved approximately. The ODE describes system
+performance during an overload. The control is driven by a queue-difference
+stochastic process, which operates in a faster time scale than the queueing
+processes themselves, thus achieving a time-dependent steady state
+instantaneously in the limit. As a result, for the ODE, the driving process is
+replaced by its long-run average behavior at each instant of time; i.e., the
+ODE involves a heavy-traffic averaging principle (AP).

@@ -1,0 +1,15 @@
+This paper considers the average complexity of maximum likelihood (ML)
+decoding of convolutional codes. ML decoding can be modeled as finding the most
+probable path taken through a Markov graph. Integrated with the Viterbi
+algorithm (VA), complexity reduction methods such as the sphere decoder often
+use the sum log likelihood (SLL) of a Markov path as a bound to disprove the
+optimality of other Markov path sets and to consequently avoid exhaustive path
+search. In this paper, it is shown that SLL-based optimality tests are
+inefficient if one fixes the coding memory and takes the codeword length to
+infinity. Alternatively, optimality of a source symbol at a given time index
+can be testified using bounds derived from log likelihoods of the neighboring
+symbols. It is demonstrated that such neighboring log likelihood (NLL)-based
+optimality tests, whose efficiency does not depend on the codeword length, can
+bring significant complexity reduction to ML decoding of convolutional codes.
+The results are generalized to ML sequence detection in a class of
+discrete-time hidden Markov systems.

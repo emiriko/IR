@@ -1,0 +1,13 @@
+We investigate the parameterized computational complexity of the
+satisfiability problem for modal logic and attempt to pinpoint relevant
+structural parameters which cause the problem's combinatorial explosion, beyond
+the number of propositional variables v. To this end we study the modality
+depth, a natural measure which has appeared in the literature, and show that,
+even though modal satisfiability parameterized by v and the modality depth is
+FPT, the running time's dependence on the parameters is a tower of exponentials
+(unless P=NP). To overcome this limitation we propose several possible
+alternative parameters, namely diamond dimension, box dimension and modal
+width. We show fixed-parameter tractability results using these measures where
+the exponential dependence on the parameters is much milder than in the case of
+modality depth thus leading to FPT algorithms for modal satisfiability with
+much more reasonable running times.

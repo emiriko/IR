@@ -1,0 +1,15 @@
+An approximate sparse recovery system in ell_1 norm formally consists of
+parameters N, k, epsilon an m-by-N measurement matrix, Phi, and a decoding
+algorithm, D. Given a vector, x, where x_k denotes the optimal k-term
+approximation to x, the system approximates x by hat_x = D(Phi.x), which must
+satisfy
+  ||hat_x - x||_1 <= (1+epsilon)||x - x_k||_1.
+  Among the goals in designing such systems are minimizing m and the runtime of
+D. We consider the "forall" model, in which a single matrix Phi is used for all
+signals x.
+  All previous algorithms that use the optimal number m=O(k log(N/k)) of
+measurements require superlinear time Omega(N log(N/k)). In this paper, we give
+the first algorithm for this problem that uses the optimum number of
+measurements (up to a constant factor) and runs in sublinear time o(N) when
+k=o(N), assuming access to a data structure requiring space and preprocessing
+O(N).

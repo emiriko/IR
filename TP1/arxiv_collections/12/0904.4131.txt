@@ -1,0 +1,16 @@
+In a recent paper, Alfonsi, Fruth and Schied (AFS) propose a simple order
+book based model for the impact of large orders on stock prices. They use this
+model to derive optimal strategies for the execution of large orders. We apply
+these strategies to an agent-based stochastic order book model that was
+recently proposed by Bovier, \v{C}ern\'{y} and Hryniv, but already the
+calibration fails. In particular, from our simulations the recovery speed of
+the market after a large order is clearly dependent on the order size, whereas
+the AFS model assumes a constant speed. For this reason, we propose a
+generalization of the AFS model, the GAFS model, that incorporates this
+dependency, and prove the optimal investment strategies. As a corollary, we
+find that we can derive the ``correct'' constant resilience speed for the AFS
+model from the GAFS model such that the optimal strategies of the AFS and the
+GAFS model coincide. Finally, we show that the costs of applying the optimal
+strategies of the GAFS model to the artificial market environment still differ
+significantly from the model predictions, indicating that even the improved
+model does not capture all of the relevant details of a real market.

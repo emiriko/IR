@@ -1,0 +1,15 @@
+Tempelmeier (2007) considers the problem of computing replenishment cycle
+policy parameters under non-stationary stochastic demand and service level
+constraints. He analyses two possible service level measures: the minimum no
+stock-out probability per period ({\alpha}-service level) and the so called
+"fill rate", that is the fraction of demand satisfied immediately from stock on
+hand ({\beta}-service level). For each of these possible measures, he presents
+a mixed integer programming (MIP) model to determine the optimal replenishment
+cycles and corresponding order-up-to levels minimizing the expected total setup
+and holding costs. His approach is essentially based on imposing service level
+dependent lower bounds on cycle order-up-to levels. In this note, we argue that
+Tempelmeier's strategy, in the {\beta}-service level case, while being an
+interesting option for practitioners, does not comply with the standard
+definition of "fill rate". By means of a simple numerical example we
+demonstrate that, as a consequence, his formulation might yield sub-optimal
+policies.

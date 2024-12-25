@@ -1,0 +1,10 @@
+We previously developed a polymorphic type system and a type checker for a
+multithreaded lock-based polymorphic typed assembly language (MIL) that ensures
+that well-typed programs do not encounter race conditions. This paper extends
+such work by taking into consideration deadlocks. The extended type system
+verifies that locks are acquired in the proper order. Towards this end we
+require a language with annotations that specify the locking order. Rather than
+asking the programmer (or the compiler's backend) to specifically annotate each
+newly introduced lock, we present an algorithm to infer the annotations. The
+result is a type checker whose input language is non-decorated as before, but
+that further checks that programs are exempt from deadlocks.

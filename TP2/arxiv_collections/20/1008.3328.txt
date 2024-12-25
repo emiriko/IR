@@ -1,0 +1,26 @@
+The LMS algorithm is one of the most successful adaptive filtering
+algorithms. It uses the instantaneous value of the square of the error signal
+as an estimate of the mean-square error (MSE). The LMS algorithm changes
+(adapts) the filter tap weights so that the error signal is minimized in the
+mean square sense. In Trigonometric LMS (TLMS) and Hyperbolic LMS (HLMS), two
+new versions of LMS algorithms, same formulations are performed as in the LMS
+algorithm with the exception that filter tap weights are now expressed using
+trigonometric and hyperbolic formulations, in cases for TLMS and HLMS
+respectively. Hence appears the CORDIC algorithm as it can efficiently perform
+trigonometric, hyperbolic, linear and logarithmic functions. While
+hardware-efficient algorithms often exist, the dominance of the software
+systems has kept those algorithms out of the spotlight. Among these hardware-
+efficient algorithms, CORDIC is an iterative solution for trigonometric and
+other transcendental functions. Former researches worked on CORDIC algorithm to
+observe the convergence behavior of Trigonometric LMS (TLMS) algorithm and
+obtained a satisfactory result in the context of convergence performance of
+TLMS algorithm. But revious researches directly used the CORDIC block output in
+their simulation ignoring the internal step-by-step rotations of the CORDIC
+processor. This gives rise to a need for verification of the convergence
+performance of the TLMS algorithm to investigate if it actually performs
+satisfactorily if implemented with step-by-step CORDIC rotation. This research
+work has done this job. It focuses on the internal operations of the CORDIC
+hardware, implements the Trigonometric LMS (TLMS) and Hyperbolic LMS (HLMS)
+algorithms using actual CORDIC rotations. The obtained simulation results are
+highly satisfactory and also it shows that convergence behavior of HLMS is much
+better than TLMS.

@@ -1,0 +1,14 @@
+In usual stochastic volatility models, the process driving the volatility of
+the asset price evolves according to an autonomous one-dimensional stochastic
+differential equation. We assume that the coefficients of this equation are
+smooth. Using It\^o's formula, we get rid, in the asset price dynamics, of the
+stochastic integral with respect to the Brownian motion driving this SDE.
+Taking advantage of this structure, we propose - a scheme, based on the
+Milstein discretization of this SDE, with order one of weak trajectorial
+convergence for the asset price, - a scheme, based on the Ninomiya-Victoir
+discretization of this SDE, with order two of weak convergence for the asset
+price. We also propose a specific scheme with improved convergence properties
+when the volatility of the asset price is driven by an Orstein-Uhlenbeck
+process. We confirm the theoretical rates of convergence by numerical
+experiments and show that our schemes are well adapted to the multilevel Monte
+Carlo method introduced by Giles [2008a, 2008b].

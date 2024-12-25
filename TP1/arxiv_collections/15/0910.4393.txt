@@ -1,0 +1,21 @@
+We present a comparison between Gaussian processes (GPs) and artificial
+neural networks (ANNs) as methods for determining photometric redshifts for
+galaxies, given training set data. In particular, we compare their degradation
+in performance as the training set size is degraded in ways which might be
+caused by the observational limitations of spectroscopy. We find that
+performance with large, complete training sets is very similar, although the
+ANN achieves slightly smaller root mean square errors. If the size of the
+training set is reduced by random sampling, the RMS errors of both methods
+increase, but they do so to a lesser extent and in a much smoother manner for
+the case of GP regression. When training objects are removed at redshifts
+1.3<z<1.7, to simulate the effects of the "redshift desert" of optical
+spectroscopy, the GP regression is successful at interpolating across the
+redshift gap, while the ANN suffers from strong bias for test objects in this
+redshift range. Overall, GP regression has attractive properties for
+photometric redshift estimation, particularly for deep, high-redshift surveys
+where it is difficult to obtain a large, complete training set. At present,
+unlike the ANN code, public GP regression codes do not take account of
+inhomogeneous measurement errors on the photometric data, and thus cannot
+estimate reliable uncertainties on the predicted redshifts. However, a better
+treatment of errors is in principle possible, and the promising results in this
+paper suggest that such improved GP algorithms should be pursued. (abridged)

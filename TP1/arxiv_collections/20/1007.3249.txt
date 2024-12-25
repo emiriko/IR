@@ -1,0 +1,8 @@
+Although in most cases class initialization works as expected, some static
+fields may be read before being initialized, despite being initialized in their
+corresponding class initializer. We propose an analysis which compute, for each
+program point, the set of static fields that must have been initialized and
+discuss its soundness. We show that such an analysis can be directly applied to
+identify the static fields that may be read before being initialized and to
+improve the precision while preserving the soundness of a null-pointer
+analysis.

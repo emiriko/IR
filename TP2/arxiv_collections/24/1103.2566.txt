@@ -1,0 +1,10 @@
+External-memory dictionaries are a fundamental data structure in file systems
+and databases. Versioned (or fully-persistent) dictionaries have an associated
+version tree where queries can be performed at any version, updates can be
+performed on leaf versions, and any version can be `cloned' by adding a child.
+Various query/update tradeoffs are known for unversioned dictionaries, many of
+them with matching upper and lower bounds. No fully-versioned external-memory
+dictionaries are known with optimal space/query/update tradeoffs. In
+particular, no versioned constructions are known that offer updates in $o(1)$
+I/Os using O(N) space. We present the first cache-oblivious and cache-aware
+constructions that achieve a wide range of optimal points on this tradeoff.

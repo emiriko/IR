@@ -1,0 +1,20 @@
+Composition of weighted transducers is a fundamental algorithm used in many
+applications, including for computing complex edit-distances between automata,
+or string kernels in machine learning, or to combine different components of a
+speech recognition, speech synthesis, or information extraction system. We
+present a generalization of the composition of weighted transducers, 3-way
+composition, which is dramatically faster in practice than the standard
+composition algorithm when combining more than two transducers. The worst-case
+complexity of our algorithm for composing three transducers $T_1$, $T_2$, and
+$T_3$ resulting in $T$, \ignore{depending on the strategy used, is $O(|T|_Q
+d(T_1) d(T_3) + |T|_E)$ or $(|T|_Q d(T_2) + |T|_E)$,} is $O(|T|_Q \min(d(T_1)
+d(T_3), d(T_2)) + |T|_E)$, where $|\cdot|_Q$ denotes the number of states,
+$|\cdot|_E$ the number of transitions, and $d(\cdot)$ the maximum out-degree.
+As in regular composition, the use of perfect hashing requires a pre-processing
+step with linear-time expected complexity in the size of the input transducers.
+In many cases, this approach significantly improves on the complexity of
+standard composition. Our algorithm also leads to a dramatically faster
+composition in practice. Furthermore, standard composition can be obtained as a
+special case of our algorithm. We report the results of several experiments
+demonstrating this improvement. These theoretical and empirical improvements
+significantly enhance performance in the applications already mentioned.

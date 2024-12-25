@@ -1,0 +1,15 @@
+We develop a theory for the market impact of large trading orders, which we
+call metaorders because they are typically split into small pieces and executed
+incrementally. Market impact is empirically observed to be a concave function
+of metaorder size, i.e., the impact per share of large metaorders is smaller
+than that of small metaorders. We formulate a stylized model of an algorithmic
+execution service and derive a fair pricing condition, which says that the
+average transaction price of the metaorder is equal to the price after trading
+is completed. We show that at equilibrium the distribution of trading volume
+adjusts to reflect information, and dictates the shape of the impact function.
+The resulting theory makes empirically testable predictions for the functional
+form of both the temporary and permanent components of market impact. Based on
+the commonly observed asymptotic distribution for the volume of large trades,
+it says that market impact should increase asymptotically roughly as the square
+root of metaorder size, with average permanent impact relaxing to about two
+thirds of peak impact.

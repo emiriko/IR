@@ -1,0 +1,20 @@
+We compare calcium ion signaling ($\mathrm {Ca}^{2+}$) between two exposures;
+the data are present as movies, or, more prosaically, time series of images.
+This paper describes novel uses of singular value decompositions (SVD) and
+weighted versions of them (WSVD) to extract the signals from such movies, in a
+way that is semi-automatic and tuned closely to the actual data and their many
+complexities. These complexities include the following. First, the images
+themselves are of no interest: all interest focuses on the behavior of
+individual cells across time, and thus, the cells need to be segmented in an
+automated manner. Second, the cells themselves have 100$+$ pixels, so that they
+form 100$+$ curves measured over time, so that data compression is required to
+extract the features of these curves. Third, some of the pixels in some of the
+cells are subject to image saturation due to bit depth limits, and this
+saturation needs to be accounted for if one is to normalize the images in a
+reasonably unbiased manner. Finally, the $\mathrm {Ca}^{2+}$ signals have
+oscillations or waves that vary with time and these signals need to be
+extracted. Thus, our aim is to show how to use multiple weighted and standard
+singular value decompositions to detect, extract and clarify the $\mathrm
+{Ca}^{2+}$ signals. Our signal extraction methods then lead to simple although
+finely focused statistical methods to compare $\mathrm {Ca}^{2+}$ signals
+across experimental conditions.

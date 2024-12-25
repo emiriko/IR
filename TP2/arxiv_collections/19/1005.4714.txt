@@ -1,0 +1,17 @@
+Functional dependencies -- traditional, approximate and conditional are of
+critical importance in relational databases, as they inform us about the
+relationships between attributes. They are useful in schema normalization, data
+rectification and source selection. Most of these were however developed in the
+context of deterministic data. Although uncertain databases have started
+receiving attention, these dependencies have not been defined for them, nor are
+fast algorithms available to evaluate their confidences. This paper defines the
+logical extensions of various forms of functional dependencies for
+probabilistic databases and explores the connections between them. We propose a
+pruning-based exact algorithm to evaluate the confidence of functional
+dependencies, a Monte-Carlo based algorithm to evaluate the confidence of
+approximate functional dependencies and algorithms for their conditional
+counterparts in probabilistic databases. Experiments are performed on both
+synthetic and real data evaluating the performance of these algorithms in
+assessing the confidence of dependencies and mining them from data. We believe
+that having these dependencies and algorithms available for probabilistic
+databases will drive adoption of probabilistic data storage in the industry.

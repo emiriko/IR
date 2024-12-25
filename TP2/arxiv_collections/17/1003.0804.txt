@@ -1,0 +1,20 @@
+Deterministic computer simulations are often used as a replacement for
+complex physical experiments. Although less expensive than physical
+experimentation, computer codes can still be time-consuming to run. An
+effective strategy for exploring the response surface of the deterministic
+simulator is the use of an approximation to the computer code, such as a
+Gaussian process (GP) model, coupled with a sequential sampling strategy for
+choosing design points that can be used to build the GP model. The ultimate
+goal of such studies is often the estimation of specific features of interest
+of the simulator output, such as the maximum, minimum, or a level set
+(contour). Before approximating such features with the GP model, sufficient
+runs of the computer simulator must be completed.
+  Sequential designs with an expected improvement (EI) function can yield good
+estimates of the features with a minimal number of runs. The challenge is that
+the expected improvement function itself is often multimodal and difficult to
+maximize. We develop branch and bound algorithms for efficiently maximizing the
+EI function in specific problems, including the simultaneous estimation of a
+minimum and a maximum, and in the estimation of a contour. These branch and
+bound algorithms outperform other optimization strategies such as genetic
+algorithms, and over a number of sequential design steps can lead to
+dramatically superior accuracy in estimation of features of interest.

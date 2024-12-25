@@ -1,0 +1,21 @@
+Submodular function maximization is a central problem in combinatorial
+optimization, generalizing many important problems including Max Cut in
+directed/undirected graphs and in hypergraphs, certain constraint satisfaction
+problems, maximum entropy sampling, and maximum facility location problems.
+Unlike submodular minimization, submodular maximization is NP-hard. For the
+problem of maximizing a non-monotone submodular function, Feige, Mirrokni, and
+Vondr\'ak recently developed a $2\over 5$-approximation algorithm \cite{FMV07},
+however, their algorithms do not handle side constraints.} In this paper, we
+give the first constant-factor approximation algorithm for maximizing any
+non-negative submodular function subject to multiple matroid or knapsack
+constraints. We emphasize that our results are for {\em non-monotone}
+submodular functions. In particular, for any constant $k$, we present a
+$({1\over k+2+{1\over k}+\epsilon})$-approximation for the submodular
+maximization problem under $k$ matroid constraints, and a $({1\over
+5}-\epsilon)$-approximation algorithm for this problem subject to $k$ knapsack
+constraints ($\epsilon>0$ is any constant). We improve the approximation
+guarantee of our algorithm to ${1\over k+1+{1\over k-1}+\epsilon}$ for $k\ge 2$
+partition matroid constraints. This idea also gives a $({1\over
+k+\epsilon})$-approximation for maximizing a {\em monotone} submodular function
+subject to $k\ge 2$ partition matroids, which improves over the previously best
+known guarantee of $\frac{1}{k+1}$.

@@ -1,0 +1,13 @@
+A chief problem in phylogenetics and database theory is the computation of a
+maximum consistent tree from a set of rooted or unrooted trees. A standard
+input are triplets, rooted binary trees on three leaves, or quartets, unrooted
+binary trees on four leaves. We give exact algorithms constructing rooted and
+unrooted maximum consistent supertrees in time O(2^n n^5 m^2 log(m)) for a set
+of m triplets (quartets), each one distinctly leaf-labeled by some subset of n
+labels. The algorithms extend to weighted triplets (quartets). We further
+present fast exact algorithms for constructing rooted and unrooted maximum
+consistent trees in polynomial space. Finally, for a set T of m rooted or
+unrooted trees with maximum degree D and distinctly leaf-labeled by some subset
+of a set L of n labels, we compute, in O(2^{mD} n^m m^5 n^6 log(m)) time, a
+tree distinctly leaf-labeled by a maximum-size subset X of L that all trees in
+T, when restricted to X, are consistent with.

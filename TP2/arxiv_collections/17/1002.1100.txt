@@ -1,0 +1,21 @@
+In many interesting cases the reconstruction of a correct phylogeny is
+blurred by high mutation rates and/or horizontal transfer events. As a
+consequence a divergence arises between the true evolutionary distances and the
+differences between pairs of taxa as inferred from available data, making the
+phylogenetic reconstruction a challenging problem. Mathematically this
+divergence translates in a loss of additivity of the actual distances between
+taxa. In distance-based reconstruction methods, two properties of additive
+distances were extensively exploited as antagonist criteria to drive phylogeny
+reconstruction: on the one hand a local property of quartets, i.e., sets of
+four taxa in a tree, the four-points condition; on the other hand a recently
+proposed formula that allows to write the tree length as a function of the
+distances between taxa, the Pauplin's formula. Here we introduce a new
+reconstruction scheme, that exploits in a unified framework both the
+four-points condition and the Pauplin's formula. We propose, in particular, a
+new general class of distance-based Stochastic Local Search algorithms, which
+reduces in a limit case to the minimization of the Pauplin's length. When
+tested on artificially generated phylogenies our Stochastic Big-Quartet
+Swapping algorithmic scheme significantly outperforms state-of-art
+distance-based algorithms in cases of deviation from additivity due to high
+rate of back mutations. A significant improvement is also observed with respect
+to the state-of-art algorithms in case of high rate of horizontal transfer.

@@ -1,0 +1,9 @@
+We consider a hidden Markov model with multiple observation processes, one of
+which is chosen at each point in time by a policy---a deterministic function of
+the information state---and attempt to determine which policy minimises the
+limiting expected entropy of the information state. Focusing on a special case,
+we prove analytically that the information state always converges in
+distribution, and derive a formula for the limiting entropy which can be used
+for calculations with high precision. Using this fomula, we find
+computationally that the optimal policy is always a threshold policy, allowing
+it to be easily found. We also find that the greedy policy is almost optimal.

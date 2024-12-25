@@ -1,0 +1,15 @@
+The transition probability of a Cox-Ingersoll-Ross process can be represented
+by a non-central chi-square density. First we prove a new representation for
+the central chi-square density based on sums of powers of generalized Gaussian
+random variables. Second we prove Marsaglia's polar method extends to this
+distribution, providing a simple, exact, robust and efficient
+acceptance-rejection method for generalized Gaussian sampling and thus central
+chi-square sampling. Third we derive a simple, high-accuracy, robust and
+efficient direct inversion method for generalized Gaussian sampling based on
+the Beasley-Springer-Moro method. Indeed the accuracy of the approximation to
+the inverse cumulative distribution function is to the tenth decimal place. We
+then apply our methods to non-central chi-square variance sampling in the
+Heston model. We focus on the case when the number of degrees of freedom is
+small and the zero boundary is attracting and attainable, typical in foreign
+exchange markets. Using the additivity property of the chi-square distribution,
+our methods apply in all parameter regimes.

@@ -1,0 +1,7 @@
+Recently, Liaw et al. proposed a remote user authentication scheme using
+smart cards. Their scheme has claimed a number of features e.g. mutual
+authentication, no clock synchronization, no verifier table, flexible user
+password change, etc. We show that Liaw et al.'s scheme is completely insecure.
+By intercepting a valid login message in Liaw et al.'s scheme, any unregistered
+user or adversary can easily login to the remote system and establish a session
+key.

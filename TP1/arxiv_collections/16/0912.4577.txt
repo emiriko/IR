@@ -1,0 +1,23 @@
+In this paper we study the two dimensional motion of three linked rigid
+bodies moving through a fluid. The bodies change their orientation relative to
+each other in a way which mimics the swimming of fish. In contrast to previous
+simulations the bodies are connected by an elastic skin. The skin responds to
+the movement of the bodies and the pressure of the fluid and alters the flow
+around the bodies. In particular it prevents fluid moving between them. The
+system of bodies and skin is similar in appearance to a swimming leech or
+tadpole depending on the relative size of the bodies. We simulate the system
+using SPH, with three types of particles: liquid particles, boundary force
+particles determining the surface of the rigid bodies, and skin particles
+defining the elastic skin. The latter interact with each other, and with the
+boundary force particles to which they are anchored, by linear spring forces.
+The boundary force particles and the skin particles interact with the fluid
+particles by pair forces which are similar to the forces used in the Immersed
+Boundary method. The algorithm is based on a Lagrangian, and the equations of
+motion conserve linear momentum exactly and angular momentum very accurately.
+We compare the motion of rigid bodies with and without skin keeping the total
+mass of the bodies plus skin fixed. When the ellipses are identical, and the
+forward gait is used, the bodies swim ~13% faster when they are connected by
+skin, and they require less energy. When the ellipses have different sizes,
+with the front ellipse largest, they travel ~39% faster and use less energy.
+The algorithm is simple and robust and can be applied to bodies of arbitrary
+shape and in domains which include free surfaces and stratified fluids.

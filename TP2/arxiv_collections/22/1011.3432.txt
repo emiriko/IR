@@ -1,0 +1,13 @@
+It is known that a best low-rank approximation to multi-way arrays or
+higher-order tensors may not exist. This is due to the fact that the set of
+multi-way arrays with rank at most $R$ is not closed. Nonexistence of the best
+low-rank approximation results in diverging rank-1 components when an attempt
+is made to compute the approximation. Recently, a solution to this problem has
+been proposed for real $I\times J\times 2$ arrays. Instead of a best rank-$R$
+approximation the best fitting Generalized Schur Decomposition (GSD) is
+computed. Under the restriction of nonsingular upper triangular matrices in the
+GSD, the set of GSD solutions equals the interior and boundary of the rank-$R$
+set. Here, we show that this holds even without the restriction. We provide a
+complete classification of interior, boundary, and exterior points of the
+rank-$R$ set of real $I\times J\times 2$ arrays, and show that the set of GSD
+solutions equals the interior and boundary of this set.

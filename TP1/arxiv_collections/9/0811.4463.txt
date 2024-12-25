@@ -1,0 +1,12 @@
+In this paper, we propose a computationally efficient approach --
+space(Sparse PArtial Correlation Estimation)-- for selecting non-zero partial
+correlations under the high-dimension-low-sample-size setting. This method
+assumes the overall sparsity of the partial correlation matrix and employs
+sparse regression techniques for model fitting. We illustrate the performance
+of space by extensive simulation studies. It is shown that space performs well
+in both non-zero partial correlation selection and the identification of hub
+variables, and also outperforms two existing methods. We then apply space to a
+microarray breast cancer data set and identify a set of hub genes which may
+provide important insights on genetic regulatory networks. Finally, we prove
+that, under a set of suitable assumptions, the proposed procedure is
+asymptotically consistent in terms of model selection and parameter estimation.

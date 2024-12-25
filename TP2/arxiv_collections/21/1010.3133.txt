@@ -1,0 +1,11 @@
+A probabilistic cellular automaton (PCA) can be viewed as a Markov chain. The
+cells are updated synchronously and independently, according to a distribution
+depending on a finite neighborhood. We investigate the ergodicity of this
+Markov chain. A classical cellular automaton is a particular case of PCA. For a
+1-dimensional cellular automaton, we prove that ergodicity is equivalent to
+nilpotency, and is therefore undecidable. We then propose an efficient perfect
+sampling algorithm for the invariant measure of an ergodic PCA. Our algorithm
+does not assume any monotonicity property of the local rule. It is based on a
+bounding process which is shown to be also a PCA. Last, we focus on the PCA
+Majority, whose asymptotic behavior is unknown, and perform numerical
+experiments using the perfect sampling procedure.

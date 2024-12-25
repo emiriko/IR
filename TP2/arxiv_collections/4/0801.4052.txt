@@ -1,0 +1,10 @@
+We propose a scheme of quantum secret sharing between Alices' group and Bobs'
+group with single photons and unitary transformations. In the protocol, one
+member in Alices' group prepares a sequence of single photons in one of four
+different states, while other members directly encode their information on the
+sequence of single photons via unitary operations, after that the last member
+sends the sequence of single photons to Bobs' group. Then Bobs except for the
+last one do work similarly. Finally last member in Bobs' group measures the
+qubits. If Alices and Bobs guarnnted the security of quantum channel by some
+tests, then the qubit states sent by last member of Alices' group can be used
+as key bits for secret sharing. It is shown that this scheme is safe.

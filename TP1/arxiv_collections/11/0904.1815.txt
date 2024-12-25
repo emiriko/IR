@@ -1,0 +1,13 @@
+Does bearing children shorten a woman's life expectancy? Several demographic
+studies, historic and current, have found no such effect. But the Caerphilly
+cohort study is far the most prominent and frequently-cited, and it answers in
+the affirmative. Why has this study found an effect that others fail to see?
+Their analysis is based on Poisson regression, a statistical technique that is
+accurate only if the underlying data are Poisson distributed. But the
+distribution of the number of children born to women in the Caerphilly database
+departs strongly from Poisson at the high end. This makes the result overly
+sensitive to a handful of women with 15 children or more who lived before 1700.
+When these 5 women are removed from a database of more than 2,900, the Poisson
+regression no longer shows a significant result. Bi-linear regression relating
+life span to fertility and date of birth results in a positive coefficient for
+fertility.

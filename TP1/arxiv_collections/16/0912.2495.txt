@@ -1,0 +1,16 @@
+We present a sub-Nyquist analog-to-digital converter of wideband inputs. Our
+circuit realizes the recently proposed modulated wideband converter, which is a
+flexible platform for sampling signals according to their actual bandwidth
+occupation. The theoretical work enables, for example, a sub-Nyquist wideband
+receiver, which has no prior information on the transmitter carrier positions.
+Our design supports input signals with 2 GHz Nyquist rate and 120 MHz spectrum
+occupancy, with arbitrary transmission frequencies. The sampling rate is as low
+as 280 MHz. To the best of our knowledge, this is the first reported wideband
+hardware for sub-Nyquist conversion. Furthermore, the modular design is proven
+to compete with state-of-the-art Nyquist ADCs in terms of resolution bits and
+full-scale range. We describe the various circuit design considerations, with
+an emphasis on the nonordinary challenges the converter introduces: mixing a
+signal with a multiple set of sinusoids, rather than a single local oscillator,
+and generation of highly-transient periodic waveforms, with transient intervals
+on the order of the Nyquist rate. A series of hardware experiments validates
+the design and demonstrate sub-Nyquist sampling.

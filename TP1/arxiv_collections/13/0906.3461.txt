@@ -1,0 +1,20 @@
+A sensor network is a collection of wireless devices that are able to monitor
+physical or environmental conditions. These devices (nodes) are expected to
+operate autonomously, be battery powered and have very limited computational
+capabilities. This makes the task of protecting a sensor network against
+misbehavior or possible malfunction a challenging problem. In this document we
+discuss performance of Artificial immune systems (AIS) when used as the
+mechanism for detecting misbehavior.
+  We show that (i) mechanism of the AIS have to be carefully applied in order
+to avoid security weaknesses, (ii) the choice of genes and their interaction
+have a profound influence on the performance of the AIS, (iii) randomly created
+detectors do not comply with limitations imposed by communications protocols
+and (iv) the data traffic pattern seems not to impact significantly the overall
+performance.
+  We identified a specific MAC layer based gene that showed to be especially
+useful for detection; genes measure a network's performance from a node's
+viewpoint. Furthermore, we identified an interesting complementarity property
+of genes; this property exploits the local nature of sensor networks and moves
+the burden of excessive communication from normally behaving nodes to
+misbehaving nodes. These results have a direct impact on the design of AIS for
+sensor networks and on engineering of sensor networks.

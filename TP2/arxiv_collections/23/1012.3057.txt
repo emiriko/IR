@@ -1,0 +1,12 @@
+The very recent volume-enclosing surface extraction algorithm, VESTA, is
+revisited. VESTA is used to determine implicit surfaces that are potentially
+contained in 3D data sets, such as 3D image data and/or 3D simulation data.
+VESTA surfaces are non-degenerate, i.e., they always enclose a volume that is
+larger than zero and they never self-intersect, prior to a further processing,
+e.g., towards isosurfaces. In addition to its ability to deal with local cell
+ambiguities consistently - and thereby avoiding the accidental generation of
+holes in the final surfaces - the information of the interior and/or exterior
+of enclosed 3D volumes is propagated correctly to each of the final surface
+tiles. Particular emphasis is put here on the speed up of the original
+formulation of VESTA, while applying the algorithm to 2x2x2 voxel
+neighborhoods.

@@ -1,0 +1,10 @@
+We study systems of equations of the form X1 = f1(X1, ..., Xn), ..., Xn =
+fn(X1, ..., Xn), where each fi is a polynomial with nonnegative coefficients
+that add up to 1. The least nonnegative solution, say mu, of such equation
+systems is central to problems from various areas, like physics, biology,
+computational linguistics and probabilistic program verification. We give a
+simple and strongly polynomial algorithm to decide whether mu=(1, ..., 1)
+holds. Furthermore, we present an algorithm that computes reliable sequences of
+lower and upper bounds on mu, converging linearly to mu. Our algorithm has
+these features despite using inexact arithmetic for efficiency. We report on
+experiments that show the performance of our algorithms.

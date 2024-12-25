@@ -1,0 +1,13 @@
+We define and study a new abstract domain which is a fine-grained combination
+of zonotopes with polyhedric domains such as the interval, octagon, linear
+templates or polyhedron domain. While abstract transfer functions are still
+rather inexpensive and accurate even for interpreting non-linear computations,
+we are able to also interpret tests (i.e. intersections) efficiently. This
+fixes a known drawback of zonotopic methods, as used for reachability analysis
+for hybrid sys- tems as well as for invariant generation in abstract
+interpretation: intersection of zonotopes are not always zonotopes, and there
+is not even a best zonotopic over-approximation of the intersection. We
+describe some examples and an im- plementation of our method in the APRON
+library, and discuss some further in- teresting combinations of zonotopes with
+non-linear or non-convex domains such as quadratic templates and maxplus
+polyhedra.

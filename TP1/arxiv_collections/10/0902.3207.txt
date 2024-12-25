@@ -1,0 +1,13 @@
+The speed of many one-line transformation methods for the production of, for
+example, Levy alpha-stable random numbers, which generalize Gaussian ones, and
+Mittag-Leffler random numbers, which generalize exponential ones, is very high
+and satisfactory for most purposes. However, for the class of decreasing
+probability densities fast rejection implementations like the Ziggurat by
+Marsaglia and Tsang promise a significant speed-up if it is possible to
+complement them with a method that samples the tails of the infinite support.
+This requires the fast generation of random numbers greater or smaller than a
+certain value. We present a method to achieve this, and also to generate random
+numbers within any arbitrary interval. We demonstrate the method showing the
+properties of the transform maps of the above mentioned distributions as
+examples of stable and geometric stable random numbers used for the stochastic
+solution of the space-time fractional diffusion equation.

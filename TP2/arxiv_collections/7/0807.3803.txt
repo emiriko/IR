@@ -1,0 +1,17 @@
+We present a general theory of entanglement-assisted quantum convolutional
+coding. The codes have a convolutional or memory structure, they assume that
+the sender and receiver share noiseless entanglement prior to quantum
+communication, and they are not restricted to possess the
+Calderbank-Shor-Steane structure as in previous work. We provide two
+significant advances for quantum convolutional coding theory. We first show how
+to "expand" a given set of quantum convolutional generators. This expansion
+step acts as a preprocessor for a polynomial symplectic Gram-Schmidt
+orthogonalization procedure that simplifies the commutation relations of the
+expanded generators to be the same as those of entangled Bell states (ebits)
+and ancilla qubits. The above two steps produce a set of generators with
+equivalent error-correcting properties to those of the original generators. We
+then demonstrate how to perform online encoding and decoding for a stream of
+information qubits, halves of ebits, and ancilla qubits. The upshot of our
+theory is that the quantum code designer can engineer quantum convolutional
+codes with desirable error-correcting properties without having to worry about
+the commutation relations of these generators.

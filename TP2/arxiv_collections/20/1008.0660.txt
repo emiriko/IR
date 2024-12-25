@@ -1,0 +1,17 @@
+The two standard branching schemes for CSPs are d-way and 2-way branching.
+Although it has been shown that in theory the latter can be exponentially more
+effective than the former, there is a lack of empirical evidence showing such
+differences. To investigate this, we initially make an experimental comparison
+of the two branching schemes over a wide range of benchmarks. Experimental
+results verify the theoretical gap between d-way and 2-way branching as we move
+from a simple variable ordering heuristic like dom to more sophisticated ones
+like dom/ddeg. However, perhaps surprisingly, experiments also show that when
+state-of-the-art variable ordering heuristics like dom/wdeg are used then d-way
+can be clearly more efficient than 2-way branching in many cases. Motivated by
+this observation, we develop two generic heuristics that can be applied at
+certain points during search to decide whether 2-way branching or a restricted
+version of 2-way branching, which is close to d-way branching, will be
+followed. The application of these heuristics results in an adaptive branching
+scheme. Experiments with instantiations of the two generic heuristics confirm
+that search with adaptive branching outperforms search with a fixed branching
+scheme on a wide range of problems.

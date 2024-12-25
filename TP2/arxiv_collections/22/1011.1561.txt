@@ -1,0 +1,15 @@
+We carry out a systematic numerical stability analysis of ZND detonations of
+Majda's model with Arrhenius-type ignition function, a simplified model for
+reacting flow, as heat release and activation energy are varied. Our purpose
+is, first, to answer a question of Majda whether oscillatory instabilities can
+occur for high activation energies as in the full reacting Euler equations,
+and, second, to test the efficiency of various versions of a numerical
+eigenvalue-finding scheme suggested by Humpherys and Zumbrun against the
+standard method of Lee and Stewart. Our results suggest that instabilities do
+not occur for Majda's model with Arrhenius-type ignition function, nor with a
+modified Arrhenius-type ignition function suggested by Lyng--Zumbrun, even in
+the high-activation energy limit. We find that the algorithm of
+Humpherys--Zumbrun is in the context of Majda's model $100$-$1,000$ times
+faster than the one described in the classical work of Lee and Stewart and
+$1$-$10$ times faster than an optimized version of the Lee--Stewart algorithm
+using an adaptive-mesh ODE solver

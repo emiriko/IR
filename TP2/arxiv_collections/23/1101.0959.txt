@@ -1,0 +1,18 @@
+Massive datasets in the gigabyte and terabyte range combined with the
+availability of increasingly sophisticated statistical tools yield analyses at
+the boundary of what is computationally feasible. Compromising in the face of
+this computational burden by partitioning the dataset into more tractable sizes
+results in stratified analyses, removed from the context that justified the
+initial data collection. In a Bayesian framework, these stratified analyses
+generate intermediate realizations, often compared using point estimates that
+fail to account for the variability within and correlation between the
+distributions these realizations approximate. However, although the initial
+concession to stratify generally precludes the more sensible analysis using a
+single joint hierarchical model, we can circumvent this outcome and capitalize
+on the intermediate realizations by extending the dynamic iterative reweighting
+MCMC algorithm. In doing so, we reuse the available realizations by reweighting
+them with importance weights, recycling them into a now tractable joint
+hierarchical model. We apply this technique to intermediate realizations
+generated from stratified analyses of 687 influenza A genomes spanning 13 years
+allowing us to revisit hypotheses regarding the evolutionary history of
+influenza within a hierarchical statistical framework.

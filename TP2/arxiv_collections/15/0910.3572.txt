@@ -1,0 +1,18 @@
+Chromatin immunoprecipitation combined with DNA microarrays (ChIP-chip) is an
+assay for DNA-protein-binding or post-translational chromatin/histone
+modifications. As with all high-throughput technologies, it requires a thorough
+bioinformatic processing of the data for which there is no standard yet. The
+primary goal is the reliable identification and localization of genomic regions
+that bind a specific protein. The second step comprises comparison of binding
+profiles of functionally related proteins, or of binding profiles of the same
+protein in different genetic backgrounds or environmental conditions.
+Ultimately, one would like to gain a mechanistic understanding of the effects
+of DNA binding events on gene expression. We present a free, open-source R
+package Starr that, in combination with the package Ringo, facilitates the
+comparative analysis of ChIP-chip data across experiments and across different
+microarray platforms. Core features are data import, quality assessment,
+normalization and visualization of the data, and the detection of ChIP-enriched
+genomic regions. The use of common Bioconductor classes ensures the
+compatibility with other R packages. Most importantly, Starr provides methods
+for integration of complementary genomics data, e.g., it enables systematic
+investigation of the relation between gene expression and dna binding.

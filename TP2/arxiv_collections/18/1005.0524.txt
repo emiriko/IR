@@ -1,0 +1,9 @@
+We introduce a variant of linear logic with second order quantifiers and type
+fixpoints, both restricted to purely linear formulas. The Church encodings of
+binary words are typed by a standard non-linear type `Church,' while the Scott
+encodings (purely linear representations of words) are by a linear type
+`Scott.' We give a characterization of polynomial time functions, which is
+derived from (Leivant and Marion 93): a function is computable in polynomial
+time if and only if it can be represented by a term of type Church => Scott.
+  To prove soundness, we employ a resource sensitive realizability technique
+developed by Hofmann and Dal Lago.

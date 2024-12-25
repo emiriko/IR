@@ -1,0 +1,11 @@
+Dealing with large numbers of symmetries is often problematic. One solution
+is to focus on just symmetries that generate the symmetry group. Whilst there
+are special cases where breaking just the symmetries in a generating set is
+complete, there are also cases where no irredundant generating set eliminates
+all symmetry. However, focusing on just generators improves tractability. We
+prove that it is polynomial in the size of the generating set to eliminate all
+symmetric solutions, but NP-hard to prune all symmetric values. Our proof
+considers row and column symmetry, a common type of symmetry in matrix models
+where breaking just generator symmetries is very effective. We show that
+propagating a conjunction of lexicographical ordering constraints on the rows
+and columns of a matrix of decision variables is NP-hard.

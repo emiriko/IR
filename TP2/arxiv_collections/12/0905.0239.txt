@@ -1,0 +1,17 @@
+Seismic waves are the most sensitive probe of the Earth's interior we have.
+With the dense data sets available in exploration, images of subsurface
+structures can be obtained through processes such as migration. Unfortunately,
+relating these surface recordings to actual Earth properties is non-trivial.
+Tomographic techniques use only a small amount of the information contained in
+the full seismogram and result in relatively low resolution images. Other
+methods use a larger amount of the seismogram but are based on either
+linearization of the problem, an expensive statistical search over a limited
+range of models, or both. We present the development of a new approach to full
+waveform inversion, i.e., inversion which uses the complete seismogram. This
+new method, which falls under the general category of inverse scattering, is
+based on a highly non-linear Fredholm integral equation relating the Earth
+structure to itself and to the recorded seismograms. An iterative solution to
+this equation is proposed. The resulting algorithm is numerically intensive but
+is deterministic, i.e., random searches of model space are not required and no
+misfit function is needed. Impressive numerical results in 1D are shown for
+several test cases.

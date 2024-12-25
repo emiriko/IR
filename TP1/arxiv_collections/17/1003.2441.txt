@@ -1,0 +1,14 @@
+Digital pulse width modulation has been considered for high-fidelity and
+high-efficiency audio amplifiers for several years. It has been shown that the
+distortion can be reduced and the implementation of the system can be
+simplified if the switching frequency is much higher than the Nyquist rate of
+the modulating waveform. Hence, the input digital source is normally upsampled
+to a higher frequency. It was also proved that converting uniform samples to
+natural samples will decrease the harmonic distortion. Thus, in this paper, we
+examine a new approach that combines upsampling, digital interpolation and
+natural sampling conversion. This approach uses poly-phase implementation of
+the digital interpolation filter and digital differentiators. We will show that
+the structure consists of an FIR-type linear stage and a nonlinear stage. Some
+spectral simulation results of a pulse width modulation system based on this
+approach will also be presented. Finally, we will discuss the improvement of
+the new approach over old algorithms.

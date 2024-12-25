@@ -1,0 +1,15 @@
+In this paper, we present an efficient deterministic algorithm for consensus
+in presence of Byzantine failures. Our algorithm achieves consensus on an
+$L$-bit value with communication complexity $O(nL + n^4 L^{0.5} + n^6)$ bits,
+in a network consisting of $n$ processors with up to $t$ Byzantine failures,
+such that $t<n/3$. For large enough $L$, communication complexity of the
+proposed algorithm approaches $O(nL)$ bits. In other words, for large $L$, the
+communication complexity is linear in the number of processors in the network.
+This is an improvement over the work of Fitzi and Hirt (from PODC 2006), who
+proposed a probabilistically correct multi-valued Byzantine consensus algorithm
+with a similar complexity for large $L$. In contrast to the algorithm by Fitzi
+and Hirt, our algorithm is guaranteed to be always error-free. Our algorithm
+require no cryptographic technique, such as authentication, nor any secret
+sharing mechanism. To the best of our knowledge, we are the first to show that,
+for large $L$, error-free multi-valued Byzantine consensus on an $L$-bit value
+is achievable with $O(nL)$ bits of communication.

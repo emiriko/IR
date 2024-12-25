@@ -1,0 +1,17 @@
+In this paper, we propose a novel, effective and efficient probabilistic
+pruning criterion for probabilistic similarity queries on uncertain data. Our
+approach supports a general uncertainty model using continuous probabilistic
+density functions to describe the (possibly correlated) uncertain attributes of
+objects. In a nutshell, the problem to be solved is to compute the PDF of the
+random variable denoted by the probabilistic domination count: Given an
+uncertain database object B, an uncertain reference object R and a set D of
+uncertain database objects in a multi-dimensional space, the probabilistic
+domination count denotes the number of uncertain objects in D that are closer
+to R than B. This domination count can be used to answer a wide range of
+probabilistic similarity queries. Specifically, we propose a novel geometric
+pruning filter and introduce an iterative filter-refinement strategy for
+conservatively and progressively estimating the probabilistic domination count
+in an efficient way while keeping correctness according to the possible world
+semantics. In an experimental evaluation, we show that our proposed technique
+allows to acquire tight probability bounds for the probabilistic domination
+count quickly, even for large uncertain databases.

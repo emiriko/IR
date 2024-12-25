@@ -1,0 +1,16 @@
+The gravitational wave signature from binary black hole coalescences is an
+important target for LIGO and VIRGO. The Numerical INJection Analysis (NINJA)
+project brought together the numerical relativity and gravitational wave data
+analysis communities, with the goal to optimize the detectability of these
+events. In its first instantiation, the NINJA project produced a simulated data
+set with numerical waveforms from binary black hole coalescences of various
+morphologies (spin, mass ratio, initial conditions), superimposed to Gaussian
+colored noise at the design sensitivity for initial LIGO and VIRGO. We analyzed
+this simulated data set with the Q-pipeline burst algorithm. This code,
+designed for the all-sky detection of gravitational wave bursts with minimal
+assumptions on the shape of the waveform, filters the data with a bank of
+sine-Gaussians, or sinusoids with Gaussian envelope. The algorithm's
+performance was compared to matched filtering with ring-down templates. The
+results are qualitatively consistent; however due to the low simulation
+statistics in the first NINJA project, it is premature to draw quantitative
+conclusions at this stage.

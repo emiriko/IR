@@ -1,0 +1,27 @@
+If a small "particle" of mass $\mu M$ (with $\mu \ll 1$) orbits a
+Schwarzschild or Kerr black hole of mass $M$, the particle is subject to an
+$\O(\mu)$ radiation-reaction "self-force". Here I argue that it's valuable to
+compute this self-force highly accurately (relative error of $\ltsim 10^{-6}$)
+and efficiently, and I describe techniques for doing this and for obtaining and
+validating error estimates for the computation. I use an
+adaptive-mesh-refinement (AMR) time-domain numerical integration of the
+perturbation equations in the Barack-Ori mode-sum regularization formalism;
+this is efficient, yet allows easy generalization to arbitrary particle orbits.
+I focus on the model problem of a scalar particle in a circular geodesic orbit
+in Schwarzschild spacetime.
+  The mode-sum formalism gives the self-force as an infinite sum of regularized
+spherical-harmonic modes $\sum_{\ell=0}^\infty F_{\ell,\reg}$, with
+$F_{\ell,\reg}$ (and an "internal" error estimate) computed numerically for
+$\ell \ltsim 30$ and estimated for larger~$\ell$ by fitting an asymptotic
+"tail" series. Here I validate the internal error estimates for the individual
+$F_{\ell,\reg}$ using a large set of numerical self-force computations of
+widely-varying accuracies. I present numerical evidence that the actual
+numerical errors in $F_{\ell,\reg}$ for different~$\ell$ are at most weakly
+correlated, so the usual statistical error estimates are valid for computing
+the self-force. I show that the tail fit is numerically ill-conditioned, but
+this can be mostly alleviated by renormalizing the basis functions to have
+similar magnitudes.
+  Using AMR, fixed mesh refinement, and extended-precision floating-point
+arithmetic, I obtain the (contravariant) radial component of the self-force for
+a particle in a circular geodesic orbit of areal radius $r = 10M$ to within
+$1$~ppm relative error.

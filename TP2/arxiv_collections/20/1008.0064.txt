@@ -1,0 +1,25 @@
+Erasure codes provide a storage efficient alternative to replication based
+redundancy in (networked) storage systems. They however entail high
+communication overhead for maintenance, when some of the encoded fragments are
+lost and need to be replenished. Such overheads arise from the fundamental need
+to recreate (or keep separately) first a copy of the whole object before any
+individual encoded fragment can be generated and replenished. There has been
+recently intense interest to explore alternatives, most prominent ones being
+regenerating codes (RGC) and hierarchical codes (HC). We propose as an
+alternative a new family of codes to improve the maintenance process, which we
+call self-repairing codes (SRC), with the following salient features: (a)
+encoded fragments can be repaired directly from other subsets of encoded
+fragments without having to reconstruct first the original data, ensuring that
+(b) a fragment is repaired from a fixed number of encoded fragments, the number
+depending only on how many encoded blocks are missing and independent of which
+specific blocks are missing. These properties allow for not only low
+communication overhead to recreate a missing fragment, but also independent
+reconstruction of different missing fragments in parallel, possibly in
+different parts of the network. We analyze the static resilience of SRCs with
+respect to traditional erasure codes, and observe that SRCs incur marginally
+larger storage overhead in order to achieve the aforementioned properties. The
+salient SRC properties naturally translate to low communication overheads for
+reconstruction of lost fragments, and allow reconstruction with lower latency
+by facilitating repairs in parallel. These desirable properties make
+self-repairing codes a good and practical candidate for networked distributed
+storage systems.

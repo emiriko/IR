@@ -1,0 +1,15 @@
+This work focuses on the convergence analysis of adaptive distributed
+beamforming schemes that can be reformulated as local random search algorithms
+via a random search framework. Once reformulated as local random search
+algorithms, it is proved that under two sufficient conditions: a) the objective
+function of the algorithm is continuous and all its local maxima are global
+maxima, and b) the origin is an interior point within the range of the
+considered transformation of the random perturbation, the corresponding
+adaptive distributed beamforming schemes converge both in probability and in
+mean. This proof of convergence is general since it can be applied to analyze
+randomized adaptive distributed beamforming schemes with any type of objective
+functions and probability measures as long as both the sufficient conditions
+are satisfied. Further, this framework can be generalized to analyze an
+asynchronous scheme where distributed transmitters can only update their
+beamforming coefficients asynchronously. Simulation results are also provided
+to validate our analyses.

@@ -1,0 +1,19 @@
+There are non-Gaussian time series that admit a causal linear autoregressive
+moving average (ARMA) model when regressing the future on the past, but not
+when regressing the past on the future. The reason is that, in the latter case,
+the regression residuals are only uncorrelated but not statistically
+independent of the future. In previous work, we have experimentally verified
+that many empirical time series indeed show such a time inversion asymmetry.
+For various physical systems, it is known that time-inversion asymmetries are
+linked to the thermodynamic entropy production in non-equilibrium states. Here
+we show that such a link also exists for the above unidirectional linearity.
+  We study the dynamical evolution of a physical toy system with linear
+coupling to an infinite environment and show that the linearity of the dynamics
+is inherited to the forward-time conditional probabilities, but not to the
+backward-time conditionals. The reason for this asymmetry between past and
+future is that the environment permanently provides particles that are in a
+product state before they interact with the system, but show statistical
+dependencies afterwards. From a coarse-grained perspective, the interaction
+thus generates entropy. We quantitatively relate the strength of the
+non-linearity of the backward conditionals to the minimal amount of entropy
+generation.

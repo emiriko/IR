@@ -1,0 +1,13 @@
+In this paper we describe in detail and generalize a method for quantum
+process tomography that was presented in [A. Bendersky, F. Pastawski, J. P.
+Paz, Physical Review Letters 100, 190403 (2008)]. The method enables the
+efficient estimation of any element of the $\chi$--matrix of a quantum process.
+Such elements are estimated as averages over experimental outcomes with a
+precision that is fixed by the number of repetitions of the experiment.
+Resources required to implement it scale polynomically with the number of
+qubits of the system. The estimation of all diagonal elements of the
+$\chi$--matrix can be efficiently done without any ancillary qubits. In turn,
+the estimation of all the off-diagonal elements requires an extra clean qubit.
+The key ideas of the method, that is based on efficient estimation by random
+sampling over a set of states forming a 2--design, are described in detail.
+Efficient methods for preparing and detecting such states are explicitly shown.

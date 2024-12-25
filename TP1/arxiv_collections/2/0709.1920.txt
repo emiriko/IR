@@ -1,0 +1,12 @@
+Kernel estimation techniques, such as mean shift, suffer from one major
+drawback: the kernel bandwidth selection. The bandwidth can be fixed for all
+the data set or can vary at each points. Automatic bandwidth selection becomes
+a real challenge in case of multidimensional heterogeneous features. This paper
+presents a solution to this problem. It is an extension of \cite{Comaniciu03a}
+which was based on the fundamental property of normal distributions regarding
+the bias of the normalized density gradient. The selection is done iteratively
+for each type of features, by looking for the stability of local bandwidth
+estimates across a predefined range of bandwidths. A pseudo balloon mean shift
+filtering and partitioning are introduced. The validity of the method is
+demonstrated in the context of color image segmentation based on a
+5-dimensional space.

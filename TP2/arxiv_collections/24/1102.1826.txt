@@ -1,0 +1,22 @@
+In several applications, such as \tsc{weno} interpolation and reconstruction
+[Shu C.W.: SIAM Rev. 51 (2009) 82--126], we are interested in the analytical
+expression of the weight-functions which allow the representation of the
+approximating function on a given stencil (Chebyshev-system) as the weighted
+combination of the corresponding approximating functions on substencils
+(Chebyshev-subsystems). We show that the weight-functions in such
+representations [M\"uhlbach G.: Num. Math. 31 (1978) 97--110] can be generated
+by a general recurrence relation based on the existence of a 1-level
+subdivision rule. As an example of application we apply this recurrence to the
+computation of the weight-functions for Lagrange interpolation [Carlini E.,
+Ferretti R., Russo G.: SIAM J. Sci. Comp. 27 (2005) 1071--1091] for a general
+subdivision of the stencil ${x_{i-M_-},...,x_{i+M_+}}$ of $M+1:=M_-+M_++1$
+distinct ordered points into $K_\mathrm{s}+1\leq M:=M_-+M_+>1$ (Neville)
+substencils ${x_{i-M_-+k_\mathrm{s}},...,x_{i+M_+-K_\mathrm{s}+k_\mathrm{s}}}$
+($k_\mathrm{s}\in{0,...,K_\mathrm{s}}$) all containing the same number of
+$M-K_\mathrm{s}+1$ points but each shifted by 1 cell with respect to its
+neighbour, and give a general proof for the conditions of positivity of the
+weight-functions (implying convexity of the combination), extending previous
+results obtained for particular stencils and subdvisions [Liu Y.Y., Shu C.W.,
+Zhang M.P.: Acta Math. Appl. Sinica 25 (2009) 503--538]. Finally, we apply the
+recurrence relation to the representation by combination of substencils of
+derivatives of arbitrary order of the Lagrange interpolating polynomial.

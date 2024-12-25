@@ -1,0 +1,20 @@
+A previously-developed hybrid particle-continuum method [J. B. Bell, A.
+Garcia and S. A. Williams, SIAM Multiscale Modeling and Simulation,
+6:1256-1280, 2008] is generalized to dense fluids and two and three dimensional
+flows. The scheme couples an explicit fluctuating compressible Navier-Stokes
+solver with the Isotropic Direct Simulation Monte Carlo (DSMC) particle method
+[A. Donev and A. L. Garcia and B. J. Alder, ArXiv preprint 0908.0510]. To
+achieve bidirectional dynamic coupling between the particle (microscale) and
+continuum (macroscale) regions, the continuum solver provides state-based
+boundary conditions to the particle subdomain, while the particle solver
+provides flux-based boundary conditions for the continuum subdomain. The
+equilibrium diffusive (Brownian) motion of a large spherical bead suspended in
+a particle fluid is examined, demonstrating that the hybrid method correctly
+reproduces the velocity autocorrelation function of the bead but only if
+thermal fluctuations are included in the continuum solver. Finally, the hybrid
+is applied to the well-known adiabatic piston problem and it is found that the
+hybrid correctly reproduces the slow non-equilibrium relaxation of the piston
+toward thermodynamic equilibrium but, again, only the continuum solver includes
+stochastic (white-noise) flux terms. These examples clearly demonstrate the
+need to include fluctuations in continuum solvers employed in hybrid multiscale
+methods.

@@ -1,0 +1,11 @@
+Algorithms come with multiple variants which are obtained by changing the
+mathematical approach from which the algorithm is derived. These variants offer
+a wide spectrum of performance when implemented on a multicore platform and we
+seek to understand these differences in performances from a theoretical point
+of view. To that aim, we derive and present the critical path lengths of each
+algorithmic variant for our application problem which enables us to determine a
+lower bound on the time to solution. This metric provides an intuitive grasp of
+the performance of a variant and we present numerical experiments to validate
+the tightness of our lower bounds on practical applications. Our case study is
+the Cholesky inversion and its use in computing the inverse of a symmetric
+positive definite matrix.

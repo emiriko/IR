@@ -1,0 +1,16 @@
+This paper confirms a surprising phenomenon first observed by Wright
+\textit{et al.} \cite{WYGSM_Face_2009_J} \cite{WM_denseError_2010_J} under
+different setting: given $m$ highly corrupted measurements $y = A_{\Omega
+\bullet} x^{\star} + e^{\star}$, where $A_{\Omega \bullet}$ is a submatrix
+whose rows are selected uniformly at random from rows of an orthogonal matrix
+$A$ and $e^{\star}$ is an unknown sparse error vector whose nonzero entries may
+be unbounded, we show that with high probability $\ell_1$-minimization can
+recover the sparse signal of interest $x^{\star}$ exactly from only $m = C
+\mu^2 k (\log n)^2$ where $k$ is the number of nonzero components of
+$x^{\star}$ and $\mu = n \max_{ij} A_{ij}^2$, even if nearly 100% of the
+measurements are corrupted. We further guarantee that stable recovery is
+possible when measurements are polluted by both gross sparse and small dense
+errors: $y = A_{\Omega \bullet} x^{\star} + e^{\star}+ \nu$ where $\nu$ is the
+small dense noise with bounded energy. Numerous simulation results under
+various settings are also presented to verify the validity of the theory as
+well as to illustrate the promising potential of the proposed framework.

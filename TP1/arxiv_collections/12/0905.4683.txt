@@ -1,0 +1,18 @@
+To further our knowledge of the complex physical process of galaxy formation,
+it is essential that we characterize the formation and evolution of large
+databases of galaxies. The spectral synthesis STARLIGHT code of Cid Fernandes
+et al. (2004) was designed for this purpose. Results of STARLIGHT are highly
+dependent on the choice of input basis of simple stellar population (SSP)
+spectra. Speed of the code, which uses random walks through the parameter
+space, scales as the square of the number of basis spectra, making it
+computationally necessary to choose a small number of SSPs that are coarsely
+sampled in age and metallicity. In this paper, we develop methods based on
+diffusion map (Lafon & Lee, 2006) that, for the first time, choose appropriate
+bases of prototype SSP spectra from a large set of SSP spectra designed to
+approximate the continuous grid of age and metallicity of SSPs of which
+galaxies are truly composed. We show that our techniques achieve better
+accuracy of physical parameter estimation for simulated galaxies. Specifically,
+we show that our methods significantly decrease the age-metallicity degeneracy
+that is common in galaxy population synthesis methods. We analyze a sample of
+3046 galaxies in SDSS DR6 and compare the parameter estimates obtained from
+different basis choices.

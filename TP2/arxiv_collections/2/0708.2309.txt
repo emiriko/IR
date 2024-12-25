@@ -1,0 +1,15 @@
+While there exist compact routing schemes designed for grids, trees, and
+Internet-like topologies that offer routing tables of sizes that scale
+logarithmically with the network size, we demonstrate in this paper that in
+view of recent results in compact routing research, such logarithmic scaling on
+Internet-like topologies is fundamentally impossible in the presence of
+topology dynamics or topology-independent (flat) addressing. We use analytic
+arguments to show that the number of routing control messages per topology
+change cannot scale better than linearly on Internet-like topologies. We also
+employ simulations to confirm that logarithmic routing table size scaling gets
+broken by topology-independent addressing, a cornerstone of popular
+locator-identifier split proposals aiming at improving routing scaling in the
+presence of network topology dynamics or host mobility. These pessimistic
+findings lead us to the conclusion that a fundamental re-examination of
+assumptions behind routing models and abstractions is needed in order to find a
+routing architecture that would be able to scale ``indefinitely.''

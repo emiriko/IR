@@ -1,0 +1,13 @@
+Deconvolution is essential for radio interferometric imaging to produce
+scientific quality data because of finite sampling in the Fourier plane. Most
+deconvolution algorithms are based on CLEAN which uses a grid of image pixels,
+or clean components. A critical matter in this process is the selection of
+pixel size for optimal results in deconvolution. As a rule of thumb, the pixel
+size is chosen smaller than the resolution dictated by the interferometer. For
+images consisting of unresolved (or point like) sources, this approach yields
+optimal results. However, for sources that are not point like, in particular
+for partially resolved sources, the selection of right pixel size is still an
+open issue. In this paper, we investigate the limitations of pixelization in
+deconvolving extended sources. In particular, we pursue the usage of
+orthonormal basis functions to model extended sources yielding better results
+than by using clean components.

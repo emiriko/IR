@@ -1,0 +1,23 @@
+The computer-aided diagnosis system we developed for the mass
+characterization is mainly based on a segmentation algorithm and on the neural
+classification of several features computed on the segmented mass. Mass
+segmentation plays a key role in most computerized systems. Our technique is a
+gradient-based one, showing the main characteristic that no free parameters
+have been evaluated on the dataset used in this analysis, thus it can directly
+be applied to datasets acquired in different conditions without any ad-hoc
+modification. A dataset of 226 masses (109 malignant and 117 benign) has been
+used in this study. The segmentation algorithm works with a comparable
+efficiency both on malignant and benign masses. Sixteen features based on
+shape, size and intensity of the segmented masses are analyzed by a
+multi-layered perceptron neural network. A feature selection procedure has been
+carried out on the basis of the feature discriminating power and of the linear
+correlations interplaying among them. The comparison of the areas under the ROC
+curves obtained by varying the number of features to be classified has shown
+that 12 selected features out of the 16 computed ones are powerful enough to
+achieve the best classifier performances. The radiologist assigned the
+segmented masses to three different categories: correctly-, acceptably- and
+non-acceptably-segmented masses. We initially estimated the area under ROC
+curve only on the first category of segmented masses (the 88.5% of the
+dataset), then extending the dataset to the second sub-class (reaching the
+97.8% of the dataset) and finally to the whole dataset, obtaining Az =
+0.805+-0.030, 0.787+-0.024 and 0.780+-0.023, respectively.

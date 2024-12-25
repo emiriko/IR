@@ -1,0 +1,11 @@
+We propose a fully dynamic algorithm for maintaining reachability information
+in directed graphs. The proposed deterministic dynamic algorithm has an update
+time of $O((ins*n^{2}) + (del * (m+n*log(n))))$ where $m$ is the current number
+of edges, $n$ is the number of vertices in the graph, $ins$ is the number of
+edge insertions and $del$ is the number of edge deletions. Each query can be
+answered in O(1) time after each update. The proposed algorithm combines
+existing fully dynamic reachability algorithm with well known witness counting
+technique to improve efficiency of maintaining reachability information when
+edges are deleted. The proposed algorithm improves by a factor of
+$O(\frac{n^2}{m+n*log(n)})$ for edge deletion over the best existing fully
+dynamic algorithm for maintaining reachability information.

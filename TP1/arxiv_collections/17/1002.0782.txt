@@ -1,0 +1,14 @@
+Consider a string of N+1 damped oscillators moving on the line of which the
+motion of the first (called the "leader") is independent of the others. Each of
+the followers `observes' the relative velocity and position of only its nearest
+neighbors. Inasmuch as these are different from 0, this information is then
+used to determine its own acceleration. Fix all parameters except the number N
+in such a way that the system is asymptotically stable. Now as N tends tends we
+consider the following problem. At t=0 the leader gets kicked and starts moving
+with unit velocity away from the flock. Due to asymptotic stability the
+followers will eventually fall in behind the leader and travel each at its own
+predetermined distance from the leader. In this note we conjecture that before
+equilibrium ensues, the perturbations to the orbit of the last oscillator grow
+exponentially in N except when there is a symmetry in the interactions and the
+growth is then linear in N. There are two cases. We prove the conjecture in one
+case, and give a strong heuristic argument in the other.

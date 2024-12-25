@@ -1,0 +1,24 @@
+We present a new C++ code for collisional N-body simulations of star
+clusters. The code uses the Hermite fourth-order scheme with block time steps,
+for advancing the particles in time, while the forces and neighboring particles
+are computed using the GRAPE-6 board. Special treatment is used for close
+encounters, binary and multiple sub-systems that either form dynamically or
+exist in the initial configuration. The structure of the code is modular and
+allows the appropriate treatment of more physical phenomena, such as stellar
+and binary evolution, stellar collisions and evolution of close black-hole
+binaries. Moreover, it can be easily modified so that the part of the code that
+uses GRAPE-6, could be replaced by another module that uses other
+accelerating-hardware like the Graphics Processing Units (GPUs). Appropriate
+choice of the free parameters give a good accuracy and speed for simulations of
+star clusters up to and beyond core collapse. Simulations of Plummer models
+consisting of equal-mass stars reached core collapse at t~17 half-mass
+relaxation times, which compares very well with existing results, while the
+cumulative relative error in the energy remained below 0.001. Also, comparisons
+with published results of other codes for the time of core collapse for
+different initial conditions, show excellent agreement. Simulations of King
+models with an initial mass-function, similar to those found in the literature,
+reached core collapse at t~0.17, which is slightly smaller than the expected
+result from previous works. Finally, the code accuracy becomes comparable and
+even better than the accuracy of existing codes, when a number of close binary
+systems is dynamically created in a simulation. This is due to the high
+accuracy of the method that is used for close binary and multiple sub-systems.

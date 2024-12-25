@@ -1,0 +1,22 @@
+Routing algorithms for wireless sensor networks can be broadly divided into
+two classes - proactive and reactive. Proactive routing is suitable for a
+network with a fixed topology. On the other hand, reactive routing is more
+suitable for a set of mobile nodes where routes are created on demand and there
+is not much time to evaluate the worthiness of a route, the prime concern being
+reachability due to constantly changing node positions. Sensor networks route
+events of interest from source(s) to destination(s) where appropriate actions
+could be taken. However, with mobile sensor nodes, it is not only important to
+know the events but the location of the nodes generating the events. Most
+sensor nodes are not equipped with expensive GPS or accurate RSSI computation
+hardware to aid localization. Keeping these in view, we propose a modified
+reactive routing algorithm, with added support for localization, to localize
+mobile sensor nodes on the basis of information received from fixed sensor
+nodes during mutual exchange of routing control packets. The accuracy of
+localization depends on the ratio of the number of fixed nodes to the number of
+mobile nodes and the topology of the fixed nodes. A typical application
+scenario would be a mix of mobile nodes and fixed nodes, where fixed nodes know
+their absolute location and the location of mobile nodes is derived from the
+fixed nodes, in step with the reactive routing protocol in action. The modified
+algorithm would be suitable for deployments where the approximate position of a
+mobile node (i.e. the event location) is required but there is no external
+support infrastructure available for localization.

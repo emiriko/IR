@@ -1,0 +1,18 @@
+Kohn-Sham density functional theory is one of the most widely used electronic
+structure theories. In the pseudopotential framework, uniform discretization of
+the Kohn-Sham Hamiltonian generally results in a large number of basis
+functions per atom in order to resolve the rapid oscillations of the Kohn-Sham
+orbitals around the nuclei. Previous attempts to reduce the number of basis
+functions per atom include the usage of atomic orbitals and similar objects,
+but the atomic orbitals generally require fine tuning in order to reach high
+accuracy. We present a novel discretization scheme that adaptively and
+systematically builds the rapid oscillations of the Kohn-Sham orbitals around
+the nuclei as well as environmental effects into the basis functions. The
+resulting basis functions are localized in the real space, and are
+discontinuous in the global domain. The continuous Kohn-Sham orbitals and the
+electron density are evaluated from the discontinuous basis functions using the
+discontinuous Galerkin (DG) framework. Our method is implemented in parallel
+and the current implementation is able to handle systems with at least
+thousands of atoms. Numerical examples indicate that our method can reach very
+high accuracy (less than 1meV) with a very small number ($4\sim 40$) of basis
+functions per atom.

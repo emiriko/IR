@@ -1,0 +1,10 @@
+Determining the worst-case uncertainty added by a quantum circuit is shown to
+be computationally intractable. This is the problem of detecting when a quantum
+channel implemented as a circuit is close to a linear isometry, and it is shown
+to be complete for the complexity class QMA of verifiable quantum computation.
+This is done by relating the problem of detecting when a channel is close to an
+isometry to the problem of determining how mixed the output of the channel can
+be when the input is a pure state. How mixed the output of the channel is can
+be detected by a protocol making use of the swap test: this follows from the
+fact that an isometry applied twice in parallel does not affect the symmetry of
+the input state under the swap operation.

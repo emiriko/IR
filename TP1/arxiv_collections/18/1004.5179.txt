@@ -1,0 +1,18 @@
+One of the major goals in quantum information processing is to reduce the
+overhead associated with the practical implementation of quantum protocols, and
+often, routines for quantum error correction account for most of this overhead.
+A particular technique for quantum error correction that may be useful for
+protecting a stream of quantum information is quantum convolutional coding. The
+encoder for a quantum convolutional code has a representation as a
+convolutional encoder or as a "pearl-necklace" encoder. In the pearl-necklace
+representation, it has not been particularly clear in the research literature
+how much quantum memory such an encoder would require for implementation. Here,
+we offer an algorithm that answers this question. The algorithm first
+constructs a weighted, directed acyclic graph where each vertex of the graph
+corresponds to a gate string in the pearl-necklace encoder, and each path
+through the graph represents a path through non-commuting gates in the encoder.
+We show that the weight of the longest path through the graph is equal to the
+minimal amount of memory needed to implement the encoder. A dynamic programming
+search through this graph determines the longest path. The running time for the
+construction of the graph and search through it is quadratic in the number of
+gate strings in the pearl-necklace encoder.

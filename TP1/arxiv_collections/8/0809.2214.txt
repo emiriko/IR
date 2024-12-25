@@ -1,0 +1,16 @@
+Checking infinite-state systems is frequently done by encoding infinite sets
+of states as regular languages. Computing such a regular representation of,
+say, the set of reachable states of a system requires acceleration techniques
+that can finitely compute the effect of an unbounded number of transitions.
+Among the acceleration techniques that have been proposed, one finds both
+specific and generic techniques. Specific techniques exploit the particular
+type of system being analyzed, e.g. a system manipulating queues or integers,
+whereas generic techniques only assume that the transition relation is
+represented by a finite-state transducer, which has to be iterated. In this
+paper, we investigate the possibility of using generic techniques in cases
+where only specific techniques have been exploited so far. Finding that
+existing generic techniques are often not applicable in cases easily handled by
+specific techniques, we have developed a new approach to iterating transducers.
+This new approach builds on earlier work, but exploits a number of new
+conceptual and algorithmic ideas, often induced with the help of experiments,
+that give it a broad scope, as well as good performances.

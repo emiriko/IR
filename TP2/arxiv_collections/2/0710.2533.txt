@@ -1,0 +1,18 @@
+In many networks, it is of great interest to identify "communities",
+unusually densely knit groups of individuals. Such communities often shed light
+on the function of the networks or underlying properties of the individuals.
+Recently, Newman suggested "modularity" as a natural measure of the quality of
+a network partitioning into communities. Since then, various algorithms have
+been proposed for (approximately) maximizing the modularity of the partitioning
+determined.
+  In this paper, we introduce the technique of rounding mathematical programs
+to the problem of modularity maximization, presenting two novel algorithms.
+More specifically, the algorithms round solutions to linear and vector
+programs. Importantly, the linear programing algorithm comes with an a
+posteriori approximation guarantee: by comparing the solution quality to the
+fractional solution of the linear program, a bound on the available "room for
+improvement" can be obtained. The vector programming algorithm provides a
+similar bound for the best partition into two communities. We evaluate both
+algorithms using experiments on several standard test cases for network
+partitioning algorithms, and find that they perform comparably or better than
+past algorithms.

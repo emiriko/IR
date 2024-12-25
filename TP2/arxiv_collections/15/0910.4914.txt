@@ -1,0 +1,11 @@
+We introduce the well-tempered ensemble (WTE) which is the biased ensemble
+sampled by well-tempered metadynamics when the energy is used as collective
+variable. WTE can be designed so as to have approximately the same average
+energy as the canonical ensemble but much larger fluctuations. These two
+properties lead to an extremely fast exploration of phase space. An even
+greater efficiency is obtained when WTE is combined with parallel tempering.
+Unbiased Boltzmann averages are computed on the fly by a recently developed
+reweighting method [M. Bonomi et al. J. Comput. Chem. 30, 1615 (2009)]. We
+apply WTE and its parallel tempering variant to the 2d Ising model and to a
+Go-model of HIV protease, demonstrating in these two representative cases that
+convergence is accelerated by orders of magnitude.

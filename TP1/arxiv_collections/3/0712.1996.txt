@@ -1,0 +1,23 @@
+In the constraint database model, spatial and spatio-temporal data are stored
+by boolean combinations of polynomial equalities and inequalities over the real
+numbers. The relational calculus augmented with polynomial constraints is the
+standard first-order query language for constraint databases. Although the
+expressive power of this query language has been studied extensively, the
+difficulty of the efficient evaluation of queries, usually involving some form
+of quantifier elimination, has received considerably less attention. The
+inefficiency of existing quantifier-elimination software and the intrinsic
+difficulty of quantifier elimination have proven to be a bottle-neck for for
+real-world implementations of constraint database systems. In this paper, we
+focus on a particular query, called the \emph{alibi query}, that asks whether
+two moving objects whose positions are known at certain moments in time, could
+have possibly met, given certain speed constraints. This query can be seen as a
+constraint database query and its evaluation relies on the elimination of a
+block of three existential quantifiers. Implementations of general purpose
+elimination algorithms are in the specific case, for practical purposes, too
+slow in answering the alibi query and fail completely in the parametric case.
+The main contribution of this paper is an analytical solution to the parametric
+alibi query, which can be used to answer this query in the specific case in
+constant time. We also give an analytic solution to the alibi query at a fixed
+moment in time. The solutions we propose are based on geometric argumentation
+and they illustrate the fact that some practical problems require creative
+solutions, where at least in theory, existing systems could provide a solution.

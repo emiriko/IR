@@ -1,0 +1,11 @@
+We present remote Operating System detection as an inference problem: given a
+set of observations (the target host responses to a set of tests), we want to
+infer the OS type which most probably generated these observations. Classical
+techniques used to perform this analysis present several limitations. To
+improve the analysis, we have developed tools using neural networks and
+Statistics tools. We present two working modules: one which uses DCE-RPC
+endpoints to distinguish Windows versions, and another which uses Nmap
+signatures to distinguish different version of Windows, Linux, Solaris,
+OpenBSD, FreeBSD and NetBSD systems. We explain the details of the topology and
+inner workings of the neural networks used, and the fine tuning of their
+parameters. Finally we show positive experimental results.

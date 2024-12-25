@@ -1,0 +1,25 @@
+We formulate and investigate the simplest version of time-optimal quantum
+computation theory (t-QCT), where the computation time is defined by the
+physical one and the Hamiltonian contains only one- and two-qubit interactions.
+This version of t-QCT is also considered as optimality by sub-Riemannian
+geodesic length. The work has two aims: one is to develop a t-QCT itself based
+on physically natural concept of time, and the other is to pursue the
+possibility of using t-QCT as a tool to estimate the complexity in conventional
+gate-optimal quantum computation theory (g-QCT). In particular, we investigate
+to what extent is true the statement: time complexity is polynomial in the
+number of qubits if and only if so is gate complexity. In the analysis, we
+relate t-QCT and optimal control theory (OCT) through fidelity-optimal
+computation theory (f-QCT); f-QCT is equivalent to t-QCT in the limit of unit
+optimal fidelity, while it is formally similar to OCT. We then develop an
+efficient numerical scheme for f-QCT by modifying Krotov's method in OCT, which
+has monotonic convergence property. We implemented the scheme and obtained
+solutions of f-QCT and of t-QCT for the quantum Fourier transform and a unitary
+operator that does not have an apparent symmetry. The former has a polynomial
+gate complexity and the latter is expected to have exponential one because a
+series of generic unitary operators has a exponential gate complexity. The time
+complexity for the former is found to be linear in the number of qubits, which
+is understood naturally by the existence of an upper bound. The time complexity
+for the latter is exponential. Thus the both targets are examples satisfyng the
+statement above. The typical characteristics of the optimal Hamiltonians are
+symmetry under time-reversal and constancy of one-qubit operation, which are
+mathematically shown to hold in fairly general situations.

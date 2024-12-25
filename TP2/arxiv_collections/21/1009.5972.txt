@@ -1,0 +1,10 @@
+We propose a focus of attention mechanism to speed up the Perceptron
+algorithm. Focus of attention speeds up the Perceptron algorithm by lowering
+the number of features evaluated throughout training and prediction. Whereas
+the traditional Perceptron evaluates all the features of each example, the
+Attentive Perceptron evaluates less features for easy to classify examples,
+thereby achieving significant speedups and small losses in prediction accuracy.
+Focus of attention allows the Attentive Perceptron to stop the evaluation of
+features at any interim point and filter the example. This creates an attentive
+filter which concentrates computation at examples that are hard to classify,
+and quickly filters examples that are easy to classify.

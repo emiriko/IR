@@ -1,0 +1,19 @@
+Iterative Logic Arrays (ILAs) are ideal as VLSI sub-systems because of their
+regular structure and its close resemblance with FPGAs (Field Programmable Gate
+Arrays). Reversible circuits are of interest in the design of very low power
+circuits where energy loss implied by high frequency switching is not of much
+consideration. Reversibility is essential for Quantum Computing. This paper
+examines the testability of Reversible Iterative Logic Arrays (ILAs) composed
+of reversible k-CNOT gates. For certain ILAs it is possible to find a test set
+whose size remains constant irrespective of the size of the ILA, while for
+others it varies with array size. Former type of ILAs is known as
+Constant-Testable, i.e. C-Testable. It has been shown that Reversible Logic
+Arrays are C-Testable and size of test set is equal to number of entries in
+cells truth table implying that the reversible ILAs are also Optimal-Testable,
+i.e. O-Testable. Uniform-Testability, i.e. U-Testability has been defined and
+Reversible Heterogeneous ILAs have been characterized as U-Testable. The test
+generation problem has been shown to be related to certain properties of cycles
+in a set of graphs derived from cell truth table. By careful analysis of these
+cycles an efficient test generation technique that can be easily converted to
+an ATPG program has been presented for both 1-D and 2D ILAs. The same
+algorithms can be easily extended for n-Dimensional Reversible ILAs.

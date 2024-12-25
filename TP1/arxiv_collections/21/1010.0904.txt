@@ -1,0 +1,25 @@
+Cellular responses in the single cells are known to be highly heterogeneous
+and individualistic due to the strong influence by extrinsic and intrinsic
+noise. Here, we are concerned about how to model the extrinsic noise-induced
+heterogeneous response in the single cells under the constraints of
+experimentally obtained population-averaged response, but without much detailed
+kinetic information. We propose a novel statistical ensemble scheme where
+extrinsic noise is regarded as fluctuations in the values of kinetic parameters
+and such fluctuations are modeled by randomly sampling the kinetic rate
+constants from a uniform distribution. We consider a large number of signaling
+system replicates, each of which has the same network topology, but a uniquely
+different set of kinetic rate constants. A protein dynamic response from each
+replicate should represent the dynamics in a single cell and the statistical
+ensemble average should be regarded as a population-level response averaged
+over a population of the cells. We devise an optimization algorithm to find the
+correct uniform distribution of the network parameters, which produces the
+correct statistical distribution of the response whose ensemble average and
+distribution agree well with the population-level experimental data and the
+experimentally observed heterogeneity. We apply this statistical ensemble
+analysis to a NF-{\kappa}B signaling system and (1) predict the distributions
+of the heterogeneous NF-{\kappa}B (either oscillatory or non-oscillatory)
+dynamic patterns and of the dynamic features (e.g., period), (2) predict that
+both the distribution and the statistical ensemble average of the NF-{\kappa}B
+dynamic response depends sensitively on the dosage of stimulant, and lastly (3)
+demonstrate the sigmoidally shaped dose-response from the statistical ensemble
+average and the individual replicates.

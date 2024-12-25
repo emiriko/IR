@@ -1,0 +1,18 @@
+We are working on the development of a method for optimizing wide-field X-ray
+telescope mirror prescriptions, including polynomial coefficients, mirror shell
+relative displacements, and (assuming 4 focal plane detectors) detector
+placement along the optical axis and detector tilt. With our methods, we hope
+to reduce number of Monte-Carlo ray traces required to search the
+multi-dimensional design parameter space, and to lessen the complexity of
+finding the optimum design parameters in that space. Regarding higher order
+polynomial terms as small perturbations of an underlying Wolter I optic design,
+we begin by using the results of Monte-Carlo ray traces to devise trial
+analytic functions, for an individual Wolter I mirror shell, that can be used
+to represent the spatial resolution on an arbitrary focal surface. We then
+introduce a notation and tools for Monte-Carlo ray tracing of a polynomial
+mirror shell prescription which permits the polynomial coefficients to remain
+symbolic. In principle, given a set of parameters defining the underlying
+Wolter I optics, a single set of Monte-Carlo ray traces are then sufficient to
+determine the polymonial coefficients through the solution of a large set of
+linear equations in the symbolic coefficients. We describe the present status
+of this development effort.

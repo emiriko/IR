@@ -1,0 +1,6 @@
+Interface adaptation allows code written for one interface to be used with a
+software component with another interface. When multiple adapters are chained
+together to make certain adaptations possible, we need a way to analyze how
+well the adaptation is done in case there are more than one chains that can be
+used. We introduce an approach to precisely analyzing the loss in an interface
+adapter chain using a simple form of abstract interpretation.

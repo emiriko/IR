@@ -1,0 +1,17 @@
+The treatment of Internet traffic is increasingly affected by national
+policies that require the ISPs in a country to adopt common protocols or
+practices. Examples include government enforced censorship, wiretapping, and
+protocol deployment mandates for IPv6 and DNSSEC. If an entire nation's worth
+of ISPs apply common policies to Internet traffic, the global implications
+could be significant. For instance, how many countries rely on China or Great
+Britain (known traffic censors) to transit their traffic? These kinds of
+questions are surprisingly difficult to answer, as they require combining
+information collected at the prefix, Autonomous System, and country level, and
+grappling with incomplete knowledge about the AS-level topology and routing
+policies. In this paper we develop the first framework for country-level
+routing analysis, which allows us to answer questions about the influence of
+each country on the flow of international traffic. Our results show that some
+countries known for their national policies, such as Iran and China, have
+relatively little effect on interdomain routing, while three countries (the
+United States, Great Britain, and Germany) are central to international
+reachability, and their policies thus have huge potential impact.

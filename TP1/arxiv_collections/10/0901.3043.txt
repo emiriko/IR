@@ -1,0 +1,18 @@
+We address the problem of discretizing continuous cosmological signals such
+as a galaxy distribution for further processing with Fast Fourier techniques.
+Discretizing, in particular representing continuous signals by discrete sets of
+sample points, introduces an enormous loss of information, which has to be
+understood in detail if one wants to make inference from the discretely sampled
+signal towards actual natural physical quantities. We therefore review the
+mathematics of discretizing signals and the application of Fast Fourier
+Transforms to demonstrate how the interpretation of the processed data can be
+affected by these procedures. It is also a well known fact that any practical
+sampling method introduces sampling artifacts and false information in the form
+of aliasing. These sampling artifacts, especially aliasing, make further
+processing of the sampled signal difficult. For this reason we introduce a fast
+and efficient supersampling method, frequently applied in 3D computer graphics,
+to cosmological applications such as matter power spectrum estimation. This
+method consists of two filtering steps which allow for a much better
+approximation of the ideal sampling procedure, while at the same time being
+computationally very efficient.Thus, it provides discretely sampled signals
+which are greately cleaned from aliasing contributions.

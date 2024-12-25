@@ -1,0 +1,14 @@
+We study group-testing algorithms for resolving broadcast conflicts on a
+multiple access channel (MAC) and for identifying the dead sensors in a mobile
+ad hoc wireless network. In group-testing algorithms, we are asked to identify
+all the defective items in a set of items when we can test arbitrary subsets of
+items. In the standard group-testing problem, the result of a test is
+binary--the tested subset either contains defective items or not. In the more
+generalized versions we study in this paper, the result of each test is
+non-binary. For example, it may indicate whether the number of defective items
+contained in the tested subset is zero, one, or at least two. We give adaptive
+algorithms that are provably more efficient than previous group testing
+algorithms. We also show how our algorithms can be applied to solve conflict
+resolution on a MAC and dead sensor diagnosis. Dead sensor diagnosis poses an
+interesting challenge compared to MAC resolution, because dead sensors are not
+locally detectable, nor are they themselves active participants.

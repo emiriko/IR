@@ -1,0 +1,20 @@
+An obstacle to the detection of redshifted 21cm emission from the epoch of
+reionization (EoR) is the presence of foregrounds which exceed the cosmological
+signal in intensity by orders of magnitude. We argue that in principle it would
+be better to fit the foregrounds non-parametrically - allowing the data to
+determine their shape - rather than selecting some functional form in advance
+and then fitting its parameters. Non-parametric fits often suffer from other
+problems, however. We discuss these before suggesting a non-parametric method,
+Wp smoothing, which seems to avoid some of them. After outlining the principles
+of Wp smoothing we describe an algorithm used to implement it. We then apply Wp
+smoothing to a synthetic data cube for the LOFAR EoR experiment. The
+performance of Wp smoothing, measured by the extent to which it is able to
+recover the variance of the cosmological signal and to which it avoids leakage
+of power from the foregrounds, is compared to that of a parametric fit, and to
+another non-parametric method (smoothing splines). We find that Wp smoothing is
+superior to smoothing splines for our application, and is competitive with
+parametric methods even though in the latter case we may choose the functional
+form of the fit with advance knowledge of the simulated foregrounds. Finally,
+we discuss how the quality of the fit is affected by the frequency resolution
+and range, by the characteristics of the cosmological signal and by edge
+effects.

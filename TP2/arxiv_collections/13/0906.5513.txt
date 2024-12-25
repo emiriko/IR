@@ -1,0 +1,24 @@
+Single reference coupled-cluster (CC) methods for electronic excitation are
+based on a biorthogonal representation (bCC) of the (shifted) Hamiltonian in
+terms of excited CC states, also referred to as correlated excited (CE) states,
+and an associated set of states biorthogonal to the CE states, the latter being
+essentially configuration interaction (CI) configurations. The bCC
+representation generates a non-hermitian secular matrix, the eigenvalues
+representing excitation energies, while the corresponding spectral intensities
+are to be derived from both the left and right eigenvectors. Using the
+perspective of the bCC representation, a systematic and comprehensive analysis
+of the excited-state CC methods is given, extending and generalizing previous
+such studies. Here, the essential topics are the truncation error
+characteristics and the separability properties, the latter being crucial for
+designing size-consistent approximation schemes. Based on the general order
+relations for the bCC secular matrix and the (left and right) eigenvector
+matrices, formulas for the perturbation-theoretical (PT) order of the
+truncation errors (TEO) are derived for energies, transition moments, and
+property matrix elements of arbitrary excitation classes and truncation levels.
+In the analysis of the separability properties of the transition moments, the
+decisive role of the so-called dual ground state is revealed. Due to the use of
+CE states the bCC approach can be compared to so-called intermediate state
+representation (ISR) methods based exclusively on suitably orthonormalized CE
+states. As the present analysis shows, the bCC approach has decisive advantages
+over the conventional CI treatment, but also distinctly weaker TEO and
+separability properties in comparison with a full (and hermitian) ISR method.

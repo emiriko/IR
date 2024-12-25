@@ -1,0 +1,19 @@
+In this article we address the problem of catching objects that move at a
+relatively large distance from the robot, of the order of tens of times the
+size of the robot itself. To this purpose, we adopt casting manipulation and
+visual-based feedback control. Casting manipulation is a technique to deploy a
+robotic end-effector far from the robot's base, by throwing the end-effector
+and controlling its ballistic flight using forces transmitted through a light
+tether connected to the end-effector itself. The tether cable can then be used
+to retrieve the end- effector to exert forces on the robot's environment. In
+previous work, planar casting manipulation was demon- strated to aptly catch
+static objects placed at a distant, known position, thus proving it suitable
+for applications such as sample acquisition and return, rescue, etc. In this
+paper we propose an extension of the idea to controlling the position of the
+end- effector to reach moving targets in 3D. The goal is achieved by an
+innovative design of the casting mechanism, and by closing a real-time control
+loop on casting manipulation using visual feedback of moving targets. To
+achieve this result, simplified yet accurate models of the system suitable for
+real-time computation are developed, along with a suitable visual feedback
+scheme for the flight phase. Effectiveness of the visual feedback controller is
+demonstrated through experiments with a 2D casting robot.

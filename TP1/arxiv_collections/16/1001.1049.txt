@@ -1,0 +1,20 @@
+Complex computer codes, for instance simulating physical phenomena, are often
+too time expensive to be directly used to perform uncertainty, sensitivity,
+optimization and robustness analyses. A widely accepted method to circumvent
+this problem consists in replacing cpu time expensive computer models by cpu
+inexpensive mathematical functions, called metamodels. In this paper, we focus
+on the Gaussian process metamodel and two essential steps of its definition
+phase. First, the initial design of the computer code input variables (which
+allows to fit the metamodel) has to honor adequate space filling properties. We
+adopt a numerical approach to compare the performance of different types of
+space filling designs, in the class of the optimal Latin hypercube samples, in
+terms of the predictivity of the subsequent fitted metamodel. We conclude that
+such samples with minimal wrap-around discrepancy are particularly well-suited
+for the Gaussian process metamodel fitting. Second, the metamodel validation
+process consists in evaluating the metamodel predictivity with respect to the
+initial computer code. We propose and test an algorithm which optimizes the
+distance between the validation points and the metamodel learning points in
+order to estimate the true metamodel predictivity with a minimum number of
+validation points. Comparisons with classical validation algorithms and
+application to a nuclear safety computer code show the relevance of this new
+sequential validation design.

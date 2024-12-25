@@ -1,0 +1,19 @@
+Synthesis is the automated construction of a system from its specification.
+The system has to satisfy its specification in all possible environments.
+Modern systems often interact with other systems, or agents. Many times these
+agents have objectives of their own, other than to fail the system. Thus, it
+makes sense to model system environments not as hostile, but as composed of
+rational agents; i.e., agents that act to achieve their own objectives. We
+introduce the problem of synthesis in the context of rational agents (rational
+synthesis, for short). The input consists of a temporal-logic formula
+specifying the system and temporal-logic formulas specifying the objectives of
+the agents. The output is an implementation T of the system and a profile of
+strategies, suggesting a behavior for each of the agents. The output should
+satisfy two conditions. First, the composition of T with the strategy profile
+should satisfy the specification. Second, the strategy profile should be an
+equilibria in the sense that, in view of their objectives, agents have no
+incentive to deviate from the strategies assigned to them. We solve the
+rational-synthesis problem for various definitions of equilibria studied in
+game theory. We also consider the multi-valued case in which the objectives of
+the system and the agents are still temporal logic formulas, but involve
+payoffs from a finite lattice.

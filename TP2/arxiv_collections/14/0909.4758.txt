@@ -1,0 +1,16 @@
+We discuss a Bayesian approach to the analysis of radial velocities in planet
+searches. We use a combination of exact and approximate analytic and numerical
+techniques to efficiently evaluate chi-squared for multiple values of orbital
+parameters, and to carry out the marginalization integrals for a single planet
+including the possibility of a long term trend. The result is a robust
+algorithm that is rapid enough for use in real time analysis that outputs
+constraints on orbital parameters and false alarm probabilities for the planet
+and long term trend. The constraints on parameters and odds ratio that we
+derive compare well with previous calculations based on Markov Chain Monte
+Carlo methods, and we compare our results with other techniques for estimating
+false alarm probabilities and errors in derived orbital parameters. False alarm
+probabilities from the Bayesian analysis are systematically higher than
+frequentist false alarm probabilities, due to the different accounting of the
+number of trials. We show that upper limits on the velocity amplitude derived
+for circular orbits are a good estimate of the upper limit on the amplitude of
+eccentric orbits for eccentricities less than about 0.5.

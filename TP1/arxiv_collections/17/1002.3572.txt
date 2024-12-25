@@ -1,0 +1,12 @@
+We consider any network environment in which the "best shot game" is played.
+This is the case where the possible actions are only two for every node (0 and
+1), and the best response for a node is 1 if and only if all her neighbors play
+0. A natural application of the model is one in which the action 1 is the
+purchase of a good, which is locally a public good, in the sense that it will
+be available also to neighbors. This game typically exhibits a great
+multiplicity of equilibria. Imagine a social planner whose scope is to find an
+optimal equilibrium, i.e. one in which the number of nodes playing 1 is
+minimal. To find such an equilibrium is a very hard task for any non-trivial
+network architecture. We propose an implementable mechanism that, in the limit
+of infinite time, reaches an optimal equilibrium, even if this equilibrium and
+even the network structure is unknown to the social planner.

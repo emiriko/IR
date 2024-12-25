@@ -1,0 +1,16 @@
+The pressing need for efficient compression schemes for XML documents has
+recently been focused on stack computation, and in particular calls for a
+formulation of information-lossless stack or pushdown compressors that allows a
+formal analysis of their performance and a more ambitious use of the stack in
+XML compression, where so far it is mainly connected to parsing mechanisms. In
+this paper we introduce the model of pushdown compressor, based on pushdown
+transducers that compute a single injective function while keeping the widest
+generality regarding stack computation.
+  We also consider online compression algorithms that use at most
+polylogarithmic space (plogon). These algorithms correspond to compressors in
+the data stream model.
+  We compare the performance of these two families of compressors with each
+other and with the general purpose Lempel-Ziv algorithm. This comparison is
+made without any a priori assumption on the data's source and considering the
+asymptotic compression ratio for infinite sequences. We prove that in all cases
+they are incomparable.

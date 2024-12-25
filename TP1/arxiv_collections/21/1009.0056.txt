@@ -1,0 +1,16 @@
+We consider transactional memory contention management in the context of
+balanced workloads, where if a transaction is writing, the number of write
+operations it performs is a constant fraction of its total reads and writes. We
+explore the theoretical performance boundaries of contention management in
+balanced workloads from the worst-case perspective by presenting and analyzing
+two new contention management algorithms. The first algorithm Clairvoyant is
+O(\surd s)-competitive, where s is the number of shared resources. This
+algorithm depends on explicitly knowing the conflict graph. The second
+algorithm Non-Clairvoyant is O(\surd s \cdot log n)-competitive, with high
+probability, which is only a O(log n) factor worse, but does not require
+knowledge of the conflict graph, where n is the number of transactions. Both of
+these algorithms are greedy. We also prove that the performance of Clairvoyant
+is tight since there is no contention management algorithm that is better than
+O((\surd s)^(1-\epsilon))-competitive for any constant \epsilon > 0, unless
+NP\subseteq ZPP. To our knowledge, these results are significant improvements
+over the best previously known O(s) competitive ratio bound.

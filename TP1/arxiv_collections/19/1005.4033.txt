@@ -1,0 +1,20 @@
+We present a near-linear time algorithm that approximates the edit distance
+between two strings within a polylogarithmic factor; specifically, for strings
+of length n and every fixed epsilon>0, it can compute a (log n)^O(1/epsilon)
+approximation in n^(1+epsilon) time. This is an exponential improvement over
+the previously known factor, 2^(O (sqrt(log n))), with a comparable running
+time (Ostrovsky and Rabani J.ACM 2007; Andoni and Onak STOC 2009). Previously,
+no efficient polylogarithmic approximation algorithm was known for any
+computational task involving edit distance (e.g., nearest neighbor search or
+sketching).
+  This result arises naturally in the study of a new asymmetric query model. In
+this model, the input consists of two strings x and y, and an algorithm can
+access y in an unrestricted manner, while being charged for querying every
+symbol of x. Indeed, we obtain our main result by designing an algorithm that
+makes a small number of queries in this model. We then provide a
+nearly-matching lower bound on the number of queries.
+  Our lower bound is the first to expose hardness of edit distance stemming
+from the input strings being "repetitive", which means that many of their
+substrings are approximately identical. Consequently, our lower bound provides
+the first rigorous separation between edit distance and Ulam distance, which is
+edit distance on non-repetitive strings, such as permutations.

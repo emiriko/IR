@@ -1,0 +1,21 @@
+To model the radiative evolution of extreme mass-ratio binary inspirals (a
+key target of the LISA mission), the community needs efficient methods for
+computation of the gravitational self-force (SF) on the Kerr spacetime. Here we
+further develop a practical `$m$-mode regularization' scheme for SF
+calculations, and give details of a first implementation. The key steps in the
+method are (i) removal of a singular part of the perturbation field with a
+suitable `puncture' to leave a sufficiently regular residual within a finite
+worldtube surrounding the particle's worldline, (ii) decomposition in azimuthal
+($m$-)modes, (iii) numerical evolution of the $m$-modes in 2+1D with a finite
+difference scheme, and (iv) reconstruction of the SF from the mode sum. The
+method relies on a judicious choice of puncture, based on the
+Detweiler--Whiting decomposition. We give a working definition for the `order'
+of the puncture, and show how it determines the convergence rate of the
+$m$-mode sum. The dissipative piece of the SF displays an exponentially
+convergent mode sum, while the $m$-mode sum for the conservative piece
+converges with a power law. In the latter case the individual modal
+contributions fall off at large $m$ as $m^{-n}$ for even $n$ and as $m^{-n+1}$
+for odd $n$, where $n$ is the puncture order. We describe an $m$-mode
+implementation with a 4th-order puncture to compute the scalar-field SF along
+circular geodesics on Schwarzschild. In a forthcoming companion paper we extend
+the calculation to the Kerr spacetime.

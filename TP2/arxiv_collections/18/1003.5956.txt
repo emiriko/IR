@@ -1,0 +1,17 @@
+Contextual bandit algorithms have become popular for online recommendation
+systems such as Digg, Yahoo! Buzz, and news recommendation in general.
+\emph{Offline} evaluation of the effectiveness of new algorithms in these
+applications is critical for protecting online user experiences but very
+challenging due to their "partial-label" nature. Common practice is to create a
+simulator which simulates the online environment for the problem at hand and
+then run an algorithm against this simulator. However, creating simulator
+itself is often difficult and modeling bias is usually unavoidably introduced.
+In this paper, we introduce a \emph{replay} methodology for contextual bandit
+algorithm evaluation. Different from simulator-based approaches, our method is
+completely data-driven and very easy to adapt to different applications. More
+importantly, our method can provide provably unbiased evaluations. Our
+empirical results on a large-scale news article recommendation dataset
+collected from Yahoo! Front Page conform well with our theoretical results.
+Furthermore, comparisons between our offline replay and online bucket
+evaluation of several contextual bandit algorithms show accuracy and
+effectiveness of our offline evaluation method.

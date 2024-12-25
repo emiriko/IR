@@ -1,0 +1,10 @@
+It is well-known that any sequence of at least N integers contains a
+subsequence whose sum is 0 (mod N). However, there can be very few subsequences
+with this property (e.g. if the initial sequence is just N 1's, then there is
+only one subsequence). When the length L of the sequence is much longer, we
+might expect that there are 2^L/N subsequences with this property (imagine the
+subsequences have sum-of-terms uniformly distributed modulo N -- the 0 class
+gets about 2^L/N subsequences); however, it is easy to see that this is
+actually false. Nonetheless, we are able to prove that if the initial sequence
+has length at least 4N, and N is odd, then there is a subsequence of length L >
+N, having at least 2^L/N subsequences that sum to 0 mod N.

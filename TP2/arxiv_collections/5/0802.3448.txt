@@ -1,0 +1,16 @@
+Summaries of massive data sets support approximate query processing over the
+original data. A basic aggregate over a set of records is the weight of
+subpopulations specified as a predicate over records' attributes. Bottom-k
+sketches are a powerful summarization format of weighted items that includes
+priority sampling and the classic weighted sampling without replacement. They
+can be computed efficiently for many representations of the data including
+distributed databases and data streams.
+  We derive novel unbiased estimators and efficient confidence bounds for
+subpopulation weight. Our estimators and bounds are tailored by distinguishing
+between applications (such as data streams) where the total weight of the
+sketched set can be computed by the summarization algorithm without a
+significant use of additional resources, and applications (such as sketches of
+network neighborhoods) where this is not the case.
+  Our rigorous derivations are based on clever applications of the
+Horvitz-Thompson estimator, and are complemented by efficient computational
+methods. We demonstrate their benefit on a wide range of Pareto distributions.

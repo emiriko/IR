@@ -1,0 +1,14 @@
+Estimation of structure, such as in variable selection, graphical modelling
+or cluster analysis is notoriously difficult, especially for high-dimensional
+data. We introduce stability selection. It is based on subsampling in
+combination with (high-dimensional) selection algorithms. As such, the method
+is extremely general and has a very wide range of applicability. Stability
+selection provides finite sample control for some error rates of false
+discoveries and hence a transparent principle to choose a proper amount of
+regularisation for structure estimation. Variable selection and structure
+estimation improve markedly for a range of selection methods if stability
+selection is applied. We prove for randomised Lasso that stability selection
+will be variable selection consistent even if the necessary conditions needed
+for consistency of the original Lasso method are violated. We demonstrate
+stability selection for variable selection and Gaussian graphical modelling,
+using real and simulated data.

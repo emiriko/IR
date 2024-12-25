@@ -1,0 +1,11 @@
+We consider a standard splitting algorithm for the rare-event simulation of
+overflow probabilities in any subset of stations in a Jackson network at level
+n, starting at a fixed initial position. It was shown in DeanDup09 that a
+subsolution to the Isaacs equation guarantees that a subexponential number of
+function evaluations (in n) suffice to estimate such overflow probabilities
+within a given relative accuracy. Our analysis here shows that in fact
+O(n^{2{\beta}+1}) function evaluations suffice to achieve a given relative
+precision, where {\beta} is the number of bottleneck stations in the network.
+This is the first rigorous analysis that allows to favorably compare splitting
+against directly computing the overflow probability of interest, which can be
+evaluated by solving a linear system of equations with O(n^{d}) variables.

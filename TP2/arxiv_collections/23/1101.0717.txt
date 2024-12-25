@@ -1,0 +1,17 @@
+Here we present an investigation into using nested sampling algorithms in
+cosmological likelihood analysis. We present a new nested sampling algorithm,
+ESNested, that uses Evolution Strategies for sample proposals. This quickly
+finds the maximum for complex likelihoods and provides an accurate measure of
+the Bayesian evidence, with no prior assumptions about the shape of the
+likelihood surface. We present the first cosmological constraints using
+Evolution Strategies, from WMAP 7, HST and SNIa data using likelihood and data
+provided with CosmoMC. We find a significantly higher maximum likelihood than
+that found with other methods. We compare the performance of ESNested with the
+publicly available MultiNest and CosmoNest algorithms, in i) finding the
+maximum likelihood ii) calculating confidence contours in projected parameter
+spaces and iii) calculating the Bayesian evidence. We find that none of the
+algorithms provide a single solution for all of these products in general. Our
+recommendation is that multiple sampling methods should be used in cosmological
+likelihood analysis and that algorithms should be tailored to perform optimally
+for each of these requirements. These results have a resonance with the
+well-known No Free Lunch theorem.

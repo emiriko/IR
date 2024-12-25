@@ -1,0 +1,15 @@
+Algebraic specifications of data types provide a natural basis for testing
+data types implementations. In this framework, the conformance relation is
+based on the satisfaction of axioms. This makes it possible to formally state
+the fundamental concepts of testing: exhaustive test set, testability
+hypotheses, oracle. Various criteria for selecting finite test sets have been
+proposed. They depend on the form of the axioms, and on the possibilities of
+observation of the implementation under test. This last point is related to the
+well-known oracle problem. As the main interest of algebraic specifications is
+data type abstraction, testing a concrete implementation raises the issue of
+the gap between the abstract description and the concrete representation. The
+observational semantics of algebraic specifications bring solutions on the
+basis of the so-called observable contexts. After a description of testing
+methods based on algebraic specifications, the chapter gives a brief
+presentation of some tools and case studies, and presents some applications to
+other formal methods involving datatypes.

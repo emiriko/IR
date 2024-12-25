@@ -1,0 +1,17 @@
+Spectral clustering is one of the most widely used techniques for extracting
+the underlying global structure of a data set. Compressed sensing and matrix
+completion have emerged as prevailing methods for efficiently recovering sparse
+and partially observed signals respectively. We combine the distance preserving
+measurements of compressed sensing and matrix completion with the power of
+robust spectral clustering. Our analysis provides rigorous bounds on how small
+errors in the affinity matrix can affect the spectral coordinates and
+clusterability. This work generalizes the current perturbation results of
+two-class spectral clustering to incorporate multi-class clustering with k
+eigenvectors. We thoroughly track how small perturbation from using compressed
+sensing and matrix completion affect the affinity matrix and in succession the
+spectral coordinates. These perturbation results for multi-class clustering
+require an eigengap between the kth and (k+1)th eigenvalues of the affinity
+matrix, which naturally occurs in data with k well-defined clusters. Our
+theoretical guarantees are complemented with numerical results along with a
+number of examples of the unsupervised organization and clustering of image
+data.

@@ -1,0 +1,12 @@
+Suppose that a rooted tree T is given for preprocessing. The Level-Ancestor
+Problem is to answer quickly queries of the following form. Given a vertex v
+and an integer i > 0, find the i-th vertex on the path from the root to v.
+Algorithms that achieve a linear time bound for preprocessing and a constant
+time bound for a query have been published by Dietz (1991), Alstrup and Holm
+(2000), and Bender and Farach (2002). The first two algorithms address dynamic
+versions of the problem; the last addresses the static version only and is the
+simplest so far. The purpose of this note is to expose another simple
+algorithm, derived from a complicated PRAM algorithm by Berkman and Vishkin
+(1990,1994). We further show some easy extensions of its functionality, adding
+queries for descendants and level successors as well as ancestors, extensions
+for which the formerly known algorithms are less suitable.

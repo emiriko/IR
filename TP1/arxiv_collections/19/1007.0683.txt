@@ -1,0 +1,17 @@
+We study the problem of scheduling periodic real-time tasks so as to meet
+their individual minimum reward requirements. A task generates jobs that can be
+given arbitrary service times before their deadlines. A task then obtains
+rewards based on the service times received by its jobs. We show that this
+model is compatible to the imprecise computation models and the increasing
+reward with increasing service models. In contrast to previous work on these
+models, which mainly focus on maximize the total reward in the system, we aim
+to fulfill different reward requirements by different tasks, which offers
+better fairness and allows fine-grained tradeoff between tasks. We first derive
+a necessary and sufficient condition for a system, along with reward
+requirements of tasks, to be feasible. We also obtain an off-line feasibility
+optimal scheduling policy. We then studies a sufficient condition for a policy
+to be feasibility optimal or achieves some approximation bound. This condition
+can serve as a guideline for designing on-line scheduling policy and we obtains
+a greedy policy based on it. We prove that the on-line policy is feasibility
+optimal when all tasks have the same periods and also obtain an approximation
+bound for the policy under general cases.

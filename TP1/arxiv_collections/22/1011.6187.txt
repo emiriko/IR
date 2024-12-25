@@ -1,0 +1,8 @@
+It is well-known as an existence result that every 3-connected graph G=(V,E)
+on more than 4 vertices admits a sequence of contractions and a sequence of
+removal operations to K_4 such that every intermediate graph is 3-connected. We
+show that both sequences can be computed in optimal time, improving the
+previously best known running times of O(|V|^2) to O(|V|+|E|). This settles
+also the open question of finding a linear time 3-connectivity test that is
+certifying and extends to a certifying 3-edge-connectivity test in the same
+time. The certificates used are easy to verify in time O(|E|).

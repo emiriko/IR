@@ -1,0 +1,12 @@
+We introduce a general Monte Carlo method based on Nested Sampling (NS), for
+sampling complex probability distributions and estimating the normalising
+constant. The method uses one or more particles, which explore a mixture of
+nested probability distributions, each successive distribution occupying ~e^-1
+times the enclosed prior mass of the previous distribution. While NS
+technically requires independent generation of particles, Markov Chain Monte
+Carlo (MCMC) exploration fits naturally into this technique. We illustrate the
+new method on a test problem and find that it can achieve four times the
+accuracy of classic MCMC-based Nested Sampling, for the same computational
+effort; equivalent to a factor of 16 speedup. An additional benefit is that
+more samples and a more accurate evidence value can be obtained simply by
+continuing the run for longer, as in standard MCMC.

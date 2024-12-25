@@ -1,0 +1,24 @@
+A multitude of measures have been proposed to quantify the similarity between
+protein 3-D structure. Among these measures, contact map overlap (CMO)
+maximization deserved sustained attention during past decade because it offers
+a fine estimation of the natural homology relation between proteins. Despite
+this large involvement of the bioinformatics and computer science community,
+the performance of known algorithms remains modest. Due to the complexity of
+the problem, they got stuck on relatively small instances and are not
+applicable for large scale comparison. This paper offers a clear improvement
+over past methods in this respect. We present a new integer programming model
+for CMO and propose an exact B &B algorithm with bounds computed by solving
+Lagrangian relaxation. The efficiency of the approach is demonstrated on a
+popular small benchmark (Skolnick set, 40 domains). On this set our algorithm
+significantly outperforms the best existing exact algorithms, and yet provides
+lower and upper bounds of better quality. Some hard CMO instances have been
+solved for the first time and within reasonable time limits. From the values of
+the running time and the relative gap (relative difference between upper and
+lower bounds), we obtained the right classification for this test. These
+encouraging result led us to design a harder benchmark to better assess the
+classification capability of our approach. We constructed a large scale set of
+300 protein domains (a subset of ASTRAL database) that we have called Proteus
+300. Using the relative gap of any of the 44850 couples as a similarity
+measure, we obtained a classification in very good agreement with SCOP. Our
+algorithm provides thus a powerful classification tool for large structure
+databases.

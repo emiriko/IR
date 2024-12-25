@@ -1,0 +1,19 @@
+Compressed sensing aims to undersample certain high-dimensional signals, yet
+accurately reconstruct them by exploiting signal characteristics. Accurate
+reconstruction is possible when the object to be recovered is sufficiently
+sparse in a known basis. Currently, the best known sparsity-undersampling
+tradeoff is achieved when reconstructing by convex optimization -- which is
+expensive in important large-scale applications. Fast iterative thresholding
+algorithms have been intensively studied as alternatives to convex optimization
+for large-scale problems. Unfortunately known fast algorithms offer
+substantially worse sparsity-undersampling tradeoffs than convex optimization.
+  We introduce a simple costless modification to iterative thresholding making
+the sparsity-undersampling tradeoff of the new algorithms equivalent to that of
+the corresponding convex optimization procedures. The new
+iterative-thresholding algorithms are inspired by belief propagation in
+graphical models. Our empirical measurements of the sparsity-undersampling
+tradeoff for the new algorithms agree with theoretical calculations. We show
+that a state evolution formalism correctly derives the true
+sparsity-undersampling tradeoff. There is a surprising agreement between
+earlier calculations based on random convex polytopes and this new, apparently
+very different theoretical formalism.

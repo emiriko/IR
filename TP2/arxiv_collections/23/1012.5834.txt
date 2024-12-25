@@ -1,0 +1,22 @@
+Robust distributed storage systems dedicated to wireless sensor networks
+utilize several nodes to redundantly store sensed data so that when some
+storage nodes fail, the sensed data can still be reconstructed. For the same
+level of redundancy, erasure coding based approaches are known to require less
+data storage space than replication methods.
+  To maintain the same level of redundancy when one storage node fails, erasure
+coded data can be restored onto some other storage node by having this node
+download respective pieces from other live storage nodes. Previous works showed
+that the benefits in using erasure coding for robust storage over replication
+are made unappealing by the complication in regenerating lost data. More recent
+work has, however, shown that the bandwidth for erasure coded data can be
+further reduced by proposing Regenerating Coding, making erasure codes again
+desirable for robust data storage.
+  But none of these works on regenerating coding consider how these codes will
+perform for data regeneration in wireless sensor networks. We therefore propose
+an analytical model to quantify the network lifetime gains of regenerating
+coding over classical schemes. We also propose a distributed algorithm, TROY,
+that determines which nodes and routes to use for data regeneration. Our
+analytical studies show that for certain topologies, TROY achieves maximum
+network lifetime. Our evaluation studies in real sensor network traces show
+that TROY achieves near optimal lifetime and performs better than baseline
+algorithms.

@@ -1,0 +1,9 @@
+The probabilistic top-k queries based on the interplay of score and
+probability, under the possible worlds semantic, become an important research
+issue that considers both score and uncertainty on the same basis. In the
+literature, many different probabilistic top-k queries are proposed. Almost all
+of them need to compute the probability of a tuple t_i to be ranked at the j-th
+position across the entire set of possible worlds. The cost of such computing
+is the dominant cost and is known as O(kn^2), where n is the size of dataset.
+In this paper, we propose a new novel algorithm that computes such probability
+in O(kn).

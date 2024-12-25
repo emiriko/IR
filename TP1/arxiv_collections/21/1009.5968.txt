@@ -1,0 +1,16 @@
+We give analytical solutions for the time-optimal synthesis of entangling
+gates between indirectly coupled qubits 1 and 3 in a linear spin chain of three
+qubits subject to an Ising Hamiltonian interaction with equal coupling $J$ plus
+a local magnetic field acting on the intermediate qubit. The energy available
+is fixed, but we relax the standard assumption of instantaneous unitary
+operations acting on single qubits. The time required for performing an
+entangling gate which is equivalent, modulo local unitary operations, to the
+$\mathrm{CNOT}(1, 3)$ between the indirectly coupled qubits 1 and 3 is
+$T=\sqrt{3/2} J^{-1}$, i.e. faster than a previous estimate based on a similar
+Hamiltonian and the assumption of local unitaries with zero time cost.
+Furthermore, performing a simple Walsh-Hadamard rotation in the Hlibert space
+of qubit 3 shows that the time-optimal synthesis of the $\mathrm{CNOT}^{\pm}(1,
+3)$ (which acts as the identity when the control qubit 1 is in the state
+$\ket{0}$, while if the control qubit is in the state $\ket{1}$ the target
+qubit 3 is flipped as $\ket{\pm}\rightarrow \ket{\mp}$) also requires the same
+time $T$.

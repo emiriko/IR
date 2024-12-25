@@ -1,0 +1,19 @@
+This paper considers a multiple input multiple output (MIMO) two-way relay
+channel, where two nodes want to exchange data with each other using multiple
+relays. An iterative algorithm is proposed to achieve the optimal achievable
+rate region, when each relay employs an amplify and forward (AF) strategy.
+  The iterative algorithm solves a power minimization problem at every step,
+subject to minimum signal-to-interference-and-noise ratio constraints, which is
+non-convex, however, for which the Karush Kuhn Tuker conditions are sufficient
+for optimality. The optimal AF strategy assumes global channel state
+information (CSI) at each relay. To simplify the CSI requirements, a simple
+amplify and forward strategy, called dual channel matching, is also proposed,
+that requires only local channel state information, and whose achievable rate
+region is close to that of the optimal AF strategy. In the asymptotic regime of
+large number of relays, we show that the achievable rate region of the dual
+channel matching and an upper bound differ by only a constant term and
+establish the capacity scaling law of the two-way relay channel. Relay
+strategies achieving optimal diversity-multiplexing tradeoff are also
+considered with a single relay node. A compress and forward strategy is shown
+to be optimal for achieving diversity multiplexing tradeoff for the full-duplex
+case, in general, and for the half-duplex case in some cases.

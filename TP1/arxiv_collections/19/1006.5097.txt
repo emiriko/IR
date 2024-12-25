@@ -1,0 +1,13 @@
+We consider two-player games played on finite colored graphs where the goal
+is the construction of an infinite path with one of the following
+frequency-related properties: (i) all colors occur with the same asymptotic
+frequency, (ii) there is a constant that bounds the difference between the
+occurrences of any two colors for all prefixes of the path, or (iii) all colors
+occur with a fixed asymptotic frequency.
+  These properties can be viewed as quantitative refinements of the classical
+notion of fair path in a concurrent system, whose simplest form checks whether
+all colors occur infinitely often. In particular, the first two properties
+enforce equal treatment of all the jobs involved in the system, while the third
+one represents a way to assign a given priority to each job. For all the above
+goals, we show that the problem of checking whether there exists a winning
+strategy is CoNP-complete.

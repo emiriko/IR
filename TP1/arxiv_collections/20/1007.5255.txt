@@ -1,0 +1,20 @@
+This paper proposes and analyzes the performance of a simple frequency-agile
+CSMA MAC protocol. In this MAC, a node carrier-senses multiple frequency
+channels simultaneously, and it takes the first opportunity to transmit on any
+one of the channels when allowed by the CSMA backoff mechanism. We show that
+the frequency-agile MAC can effectively 1) boost throughput and 2) remove
+temporal starvation. Furthermore, the MAC can be implemented on the existing
+multiple-frequency setup in Wi-Fi using multi-radio technology, and it can
+co-exist with the legacy MAC using single radio. This paper provides exact
+stationary throughput analysis for regular 1D and thin-strip 2D CSMA networks
+using a "transfer-matrix" approach. In addition, accurate approximations are
+given for 2D grid networks. Our closed-form formulas accurately quantify the
+throughput gain of frequency-agile CSMA. To characterize temporal starvation,
+we use the metric of "mean residual access time" (MRAT). Our simulations and
+closed-form approximations indicate that the frequency-agile MAC can totally
+eliminate temporal starvation in 2D grid networks, reducing its MRAT by orders
+of magnitude. Finally, this paper presents a "coloring theorem" to justify the
+use of the frequency-agile MAC in general network topologies. Our analysis and
+theorem suggest that with enough frequency channels, the frequency-agile MAC
+can effectively decouple the detrimental interactions between neighboring links
+responsible for low throughput and starvation.

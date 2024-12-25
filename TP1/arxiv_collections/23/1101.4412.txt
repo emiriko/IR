@@ -1,0 +1,22 @@
+Peer-to-Peer protocols currently form the most heavily used protocol class in
+the Internet, with BitTorrent, the most popular protocol for content
+distribution, as its flagship.
+  A high number of studies and investigations have been undertaken to measure,
+analyse and improve the inner workings of the BitTorrent protocol. Approaches
+such as tracker message analysis, network probing and packet sniffing have been
+deployed to understand and enhance BitTorrent's internal behaviour.
+  In this paper we present a novel approach that aims to collect, process and
+analyse large amounts of local peer information in BitTorrent swarms. We
+classify the information as periodic status information able to be monitored in
+real time and as verbose logging information to be used for subsequent
+analysis. We have designed and implemented a retrieval, storage and
+presentation infrastructure that enables easy analysis of BitTorrent protocol
+internals. Our approach can be employed both as a comparison tool, as well as a
+measurement system of how network characteristics and protocol implementation
+influence the overall BitTorrent swarm performance.
+  We base our approach on a framework that allows easy swarm creation and
+control for different BitTorrent clients. With the help of a virtualized
+infrastructure and a client-server software layer we are able to create,
+command and manage large sized BitTorrent swarms. The framework allows a user
+to run, schedule, start, stop clients within a swarm and collect information
+regarding their behavior.

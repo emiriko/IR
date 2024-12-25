@@ -1,0 +1,20 @@
+Using mobile robots for autonomous patrolling of environments to prevent
+intrusions is a topic of increasing practical relevance. One of the most
+challenging scientific issues is the problem of finding effective patrolling
+strategies that, at each time point, determine the next moves of the patrollers
+in order to maximize some objective function. In the very last years this
+problem has been addressed in a game theoretical fashion, explicitly
+considering the presence of an adversarial intruder. The general idea is that
+of modeling a patrolling situation as a game, played by the patrollers and the
+intruder, and of studying the equilibria of this game to derive effective
+patrolling strategies. In this paper we present a game theoretical formal
+framework for the determination of effective patrolling strategies that extends
+the previous proposals appeared in the literature, by considering environments
+with arbitrary topology and arbitrary preferences for the agents. The main
+original contributions of this paper are the formulation of the patrolling game
+for generic graph environments, an algorithm for finding a deterministic
+equilibrium strategy, which is a fixed path through the vertices of the graph,
+and an algorithm for finding a non-deterministic equilibrium strategy, which is
+a set of probabilities for moving between adjacent vertices of the graph. Both
+the algorithms are analytically studied and experimentally validated, to assess
+their properties and efficiency.

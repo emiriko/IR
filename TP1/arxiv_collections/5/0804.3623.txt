@@ -1,0 +1,20 @@
+We present a spectrally accurate numerical method for finding non-trivial
+time-periodic solutions of non-linear partial differential equations. The
+method is based on minimizing a functional (of the initial condition and the
+period) that is positive unless the solution is periodic, in which case it is
+zero. We solve an adjoint PDE to compute the gradient of this functional with
+respect to the initial condition. We include additional terms in the functional
+to specify the free parameters, which, in the case of the Benjamin-Ono
+equation, are the mean, a spatial phase, a temporal phase and the real part of
+one of the Fourier modes at $t=0$.
+  We use our method to study global paths of non-trivial time-periodic
+solutions connecting stationary and traveling waves of the Benjamin-Ono
+equation. As a starting guess for each path, we compute periodic solutions of
+the linearized problem by solving an infinite dimensional eigenvalue problem in
+closed form. We then use our numerical method to continue these solutions
+beyond the realm of linear theory until another traveling wave is reached. By
+experimentation with data fitting, we identify the analytical form of the
+solutions on the path connecting the one-hump stationary solution to the
+two-hump traveling wave. We then derive exact formulas for these solutions by
+explicitly solving the system of ODE's governing the evolution of solitons
+using the ansatz suggested by the numerical simulations.

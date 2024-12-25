@@ -1,0 +1,25 @@
+In this paper, we study the optimal secondary-link beamforming pattern that
+balances between the SU's throughput and the interference it causes to PUs in
+MIMO cognitive radio networks. In particular, we aim to maximize the throughput
+of the SU, while keeping the interference temperature at the primary receivers
+below a certain threshold.
+  Unlike traditional MIMO systems, SUs may not have the luxury of knowing the
+channel state information (CSI) on the links to PUs. This presents a key
+challenge for a secondary transmitter to steer interference away from primary
+receivers. In this paper, we consider three scenarios, namely when the
+secondary transmitter has complete, partial, or no knowledge about the channels
+to the primary receivers. In particular, when complete CSI is not available,
+the interference-temperature constraints are to be satisfied with high
+probability, thus resulting in chance constraints that are typically hard to
+deal with. Our contribution is fourfold. First, by analyzing the distributional
+characteristics of MIMO channels, we propose a unified homogeneous QCQP
+formulation that can be applied to all three scenarios. The homogeneous QCQP
+formulation, though non-convex, is amenable to semidefinite programming (SDP)
+relaxation methods. Secondly, we show that the SDP relaxation admits no gap
+when the number of primary links is no larger than two. Thirdly, we propose a
+randomized polynomial-time algorithm for constructing a near-optimal solution
+to the QCQP problem when there are more than two primary links. Finally, we
+show that when the secondary transmitter has no CSI on the links to primary
+receivers, the optimal solution to the QCQP problem can be found by a simple
+matrix eigenvalue-eigenvector computation, which can be done much more
+efficiently than solving the QCQP directly.

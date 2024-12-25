@@ -1,0 +1,17 @@
+By providing new insights into the distribution of a protein's torsion
+angles, recent statistical models for this data have pointed the way to more
+efficient methods for protein structure prediction. Most current approaches
+have concentrated on bivariate models at a single sequence position. There is,
+however, considerable value in simultaneously modeling angle pairs at multiple
+sequence positions in a protein. One area of application for such models is in
+structure prediction for the highly variable loop and turn regions. Such
+modeling is difficult due to the fact that the number of known protein
+structures available to estimate these torsion angle distributions is typically
+small. Furthermore, the data is "sparse" in that not all proteins have angle
+pairs at each sequence position. We propose a new semiparametric model for the
+joint distributions of angle pairs at multiple sequence positions. Our model
+accommodates sparse data by leveraging known information about the behavior of
+protein secondary structure. We demonstrate our technique by predicting the
+torsion angles in a loop from the globin fold family. Our results show that a
+template-based approach can now be successfully extended to modeling the
+notoriously difficult loop and turn regions.

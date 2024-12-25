@@ -1,0 +1,8 @@
+We present and evaluate GPU Bucket Sort, a parallel deterministic sample sort
+algorithm for many-core GPUs. Our method is considerably faster than Thrust
+Merge (Satish et.al., Proc. IPDPS 2009), the best comparison-based sorting
+algorithm for GPUs, and it is as fast as the new randomized sample sort for
+GPUs by Leischner et.al. (to appear in Proc. IPDPS 2010). Our deterministic
+sample sort has the advantage that bucket sizes are guaranteed and therefore
+its running time does not have the input data dependent fluctuations that can
+occur for randomized sample sort.

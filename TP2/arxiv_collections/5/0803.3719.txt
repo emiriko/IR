@@ -1,0 +1,11 @@
+Simulations of motion by mean curvature in bounded domains, with applications
+to bubble motion and grain growth, rely upon boundary conditions that are only
+approximately compatible with the equation of motion. Three closed form
+solutions for the problem exist, governing translation, rotation and expansion
+of a single interface [1], providing the only benchmarks for algorithm
+verification. We derive new identities for the translation solution. Then we
+estimate the accuracy of a straightforward algorithm to recover the analytical
+solution for different values of the velocity V given along the boundary. As
+expected, for large V the error can reach unacceptable levels especially near
+the boundary. We discuss factors influencing the accuracy and propose a simple
+modification of the algorithm which improves the computational accuracy.

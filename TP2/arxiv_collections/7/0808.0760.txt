@@ -1,0 +1,18 @@
+We describe Haskell implementations of interesting combinatorial generation
+algorithms with focus on boolean functions and logic circuit representations.
+  First, a complete exact combinational logic circuit synthesizer is described
+as a combination of catamorphisms and anamorphisms.
+  Using pairing and unpairing functions on natural number representations of
+truth tables, we derive an encoding for Binary Decision Diagrams (BDDs) with
+the unique property that its boolean evaluation faithfully mimics its
+structural conversion to a a natural number through recursive application of a
+matching pairing function.
+  We then use this result to derive ranking and unranking functions for BDDs
+and reduced BDDs.
+  Finally, a generalization of the encoding techniques to Multi-Terminal BDDs
+is provided.
+  The paper is organized as a self-contained literate Haskell program,
+available at http://logic.csci.unt.edu/tarau/research/2008/fBDD.zip .
+  Keywords: exact combinational logic synthesis, binary decision diagrams,
+encodings of boolean functions, pairing/unpairing functions, ranking/unranking
+functions for BDDs and MTBDDs, declarative combinatorics in Haskell

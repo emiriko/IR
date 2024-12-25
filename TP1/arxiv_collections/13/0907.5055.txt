@@ -1,0 +1,16 @@
+Directed graphs (DG), interpreted as state transition diagrams, are
+traditionally used to represent finite-state automata (FSA). In the context of
+formal languages, both FSA and regular expressions (RE) are equivalent in that
+they accept and generate, respectively, type-3 (regular) languages. Based on
+our previous work, this paper analyzes effects of graph manipulations on
+corresponding RE. In this present, starting stage we assume that the DG under
+consideration contains no cycles. Graph manipulation is performed by deleting
+or inserting of nodes or arcs. Combined and/or multiple application of these
+basic operators enable a great variety of transformations of DG (and
+corresponding RE) that can be seen as mutants of the original DG (and
+corresponding RE). DG are popular for modeling complex systems; however they
+easily become intractable if the system under consideration is complex and/or
+large. In such situations, we propose to switch to corresponding RE in order to
+benefit from their compact format for modeling and algebraic operations for
+analysis. The results of the study are of great potential interest to mutation
+testing.

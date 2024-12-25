@@ -1,0 +1,22 @@
+ILU(k) is a commonly used preconditioner for iterative linear solvers for
+sparse, non-symmetric systems. It is often preferred for the sake of its
+stability. We present TPILU(k), the first efficiently parallelized ILU(k)
+preconditioner that maintains this important stability property. Even better,
+TPILU(k) preconditioning produces an answer that is bit-compatible with the
+sequential ILU(k) preconditioning. In terms of performance, the TPILU(k)
+preconditioning is shown to run faster whenever more cores are made available
+to it --- while continuing to be as stable as sequential ILU(k). This is in
+contrast to some competing methods that may become unstable if the degree of
+thread parallelism is raised too far. Where Block Jacobi ILU(k) fails in an
+application, it can be replaced by TPILU(k) in order to maintain good
+performance, while also achieving full stability. As a further optimization,
+TPILU(k) offers an optional level-based incomplete inverse method as a fast
+approximation for the original ILU(k) preconditioned matrix. Although this
+enhancement is not bit-compatible with classical ILU(k), it is bit-compatible
+with the output from the single-threaded version of the same algorithm. In
+experiments on a 16-core computer, the enhanced TPILU(k)-based iterative linear
+solver performed up to 9 times faster. As we approach an era of many-core
+computing, the ability to efficiently take advantage of many cores will become
+ever more important. TPILU(k) also demonstrates good performance on cluster or
+Grid. For example, the new algorithm achieves 50 times speedup with 80 nodes
+for general sparse matrices of dimension 160,000 that are diagonally dominant.

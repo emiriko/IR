@@ -1,0 +1,21 @@
+We present a framework for fully-simulatable $h$-out-of-$n$ oblivious
+transfer ($OT^{n}_{h}$) with security against non-adaptive malicious
+adversaries. The framework costs six communication rounds and costs at most
+$40n$ public-key operations in computational overhead. Compared with the known
+protocols for fully-simulatable oblivious transfer that works in the plain mode
+(where there is no trusted common reference string available) and proven to be
+secure under standard model (where there is no random oracle available), the
+instantiation based on the decisional Diffie-Hellman assumption of the
+framework is the most efficient one, no matter seen from communication rounds
+or computational overhead.
+  Our framework uses three abstract tools, i.e., perfectly binding commitment,
+perfectly hiding commitment and our new smooth projective hash. This allows a
+simple and intuitive understanding of its security.
+  We instantiate the new smooth projective hash under the lattice assumption,
+the decisional Diffie-Hellman assumption, the decisional $N$-th residuosity
+assumption, the decisional quadratic residuosity assumption. This indeed shows
+that the folklore that it is technically difficult to instantiate the
+projective hash framework under the lattice assumption is not true. What's
+more, by using this lattice-based hash and lattice-based commitment scheme, we
+gain a concrete protocol for $OT^{n}_{h}$ which is secure against quantum
+algorithms.

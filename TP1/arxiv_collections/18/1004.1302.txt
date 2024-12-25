@@ -1,0 +1,17 @@
+The scientific community is presently witnessing an unprecedented growth in
+the quality and quantity of data sets coming from simulations and real-world
+experiments. To access effectively and extract the scientific content of such
+large-scale data sets (often sizes are measured in hundreds or even millions of
+Gigabytes) appropriate tools are needed. Visual data exploration and discovery
+is a robust approach for rapidly and intuitively inspecting large-scale data
+sets, e.g. for identifying new features and patterns or isolating small regions
+of interest within which to apply time-consuming algorithms. This paper
+presents a high performance parallelized implementation of Splotch, our
+previously developed visual data exploration and discovery algorithm for
+large-scale astrophysical data sets coming from particle-based simulations.
+Splotch has been improved in order to exploit modern massively parallel
+architectures, e.g. multicore CPUs and CUDA-enabled GPUs. We present
+performance and scalability benchmarks on a number of test cases, demonstrating
+the ability of our high performance parallelized Splotch to handle efficiently
+large-scale data sets, such as the outputs of the Millennium II simulation, the
+largest cosmological simulation ever performed.

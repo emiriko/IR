@@ -1,0 +1,21 @@
+We investigate the use of autonomically created small-world graphs as a
+framework for the long term storage of digital objects on the Web in a
+potentially hostile environment. We attack the classic Erdos - Renyi random,
+Barab'asi and Albert power law, Watts - Strogatz small world and our
+Unsupervised Small-World (USW) graphs using different attacker strategies and
+report their respective robustness. Using different attacker profiles, we
+construct a game where the attacker is allowed to use a strategy of his choice
+to remove a percentage of each graph's elements. The graph is then allowed to
+repair some portion of its self. We report on the number of alternating attack
+and repair turns until either the graph is disconnected, or the game exceeds
+the number of permitted turns. Based on our analysis, an attack strategy that
+focuses on removing the vertices with the highest betweenness value is most
+advantageous to the attacker. Power law graphs can become disconnected with the
+removal of a single edge; random graphs with the removal of as few as 1% of
+their vertices, small-world graphs with the removal of 14% vertices, and USW
+with the removal of 17% vertices. Watts - Strogatz small-world graphs are more
+robust and resilient than random or power law graphs. USW graphs are more
+robust and resilient than small world graphs. A graph of USW connected web
+objects (WOs) filled with data could outlive the individuals and institutions
+that created the data in an environment where WOs are lost due to random
+failures or directed attacks.

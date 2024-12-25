@@ -1,0 +1,15 @@
+In quantum computation every unitary operation can be decomposed into quantum
+circuits-a series of single-qubit rotations and a single type entangling
+two-qubit gates, such as controlled-NOT (CNOT) gates. Two measures are
+important when judging the complexity of the circuit: the total number of CNOT
+gates needed to implement it and the depth of the circuit, measured by the
+minimal number of computation steps needed to perform it. Here we give an
+explicit and simple quantum circuit scheme for preparation of arbitrary quantum
+states, which can directly utilize any decomposition scheme for arbitrary full
+quantum gates, thus connecting the two problems. Our circuit reduces the depth
+of the best currently known circuit by a factor of 2. It also reduces the total
+number of CNOT gates from 2^n to 23/24 2^n in the leading order for even number
+of qubits. Specifically, the scheme allows us to decrease the upper bound from
+11 CNOT gates to 9 and the depth from 11 to 5 steps for four qubits. Our
+results are expected to help in designing and building small-scale quantum
+circuits using present technologies.

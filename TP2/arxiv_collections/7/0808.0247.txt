@@ -1,0 +1,18 @@
+We have designed a new class of public key algorithms based on quasigroup
+string transformations using a specific class of quasigroups called
+multivariate quadratic quasigroups (MQQ). Our public key algorithm is a
+bijective mapping, it does not perform message expansions and can be used both
+for encryption and signatures. The public key consist of n quadratic
+polynomials with n variables where n=140, 160, ... . A particular
+characteristic of our public key algorithm is that it is very fast and highly
+parallelizable. More concretely, it has the speed of a typical modern symmetric
+block cipher - the reason for the phrase "A Public Key Block Cipher" in the
+title of this paper. Namely the reference C code for the 160-bit variant of the
+algorithm performs decryption in less than 11,000 cycles (on Intel Core 2 Duo
+-- using only one processor core), and around 6,000 cycles using two CPU cores
+and OpenMP 2.0 library. However, implemented in Xilinx Virtex-5 FPGA that is
+running on 249.4 MHz it achieves decryption throughput of 399 Mbps, and
+implemented on four Xilinx Virtex-5 chips that are running on 276.7 MHz it
+achieves encryption throughput of 44.27 Gbps. Compared to fastest RSA
+implementations on similar FPGA platforms, MQQ algorithm is more than 10,000
+times faster.

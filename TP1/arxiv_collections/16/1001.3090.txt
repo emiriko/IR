@@ -1,0 +1,11 @@
+This paper concerns the construction of tests for universal hypothesis
+testing problems, in which the alternate hypothesis is poorly modeled and the
+observation space is large. The mismatched universal test is a feature-based
+technique for this purpose. In prior work it is shown that its
+finite-observation performance can be much better than the (optimal) Hoeffding
+test, and good performance depends crucially on the choice of features. The
+contributions of this paper include: 1) We obtain bounds on the number of
+\epsilon distinguishable distributions in an exponential family. 2) This
+motivates a new framework for feature extraction, cast as a rank-constrained
+optimization problem. 3) We obtain a gradient-based algorithm to solve the
+rank-constrained optimization problem and prove its local convergence.

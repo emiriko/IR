@@ -1,0 +1,16 @@
+Coding over subsets (known as generations) rather than over all content
+blocks in P2P distribution networks and other applications is necessary for a
+number of practical reasons such as computational complexity. A penalty for
+coding only within generations is an overall throughput reduction. It has been
+previously shown that allowing contiguous generations to overlap in a
+head-to-toe manner improves the throughput. We here propose and study a scheme,
+referred to as the {\it random annex code}, that creates shared packets between
+any two generations at random rather than only the neighboring ones. By
+optimizing very few design parameters, we obtain a simple scheme that
+outperforms both the non-overlapping and the head-to-toe overlapping schemes of
+comparable computational complexity, both in the expected throughput and in the
+rate of convergence of the probability of decoding failure to zero. We provide
+a practical algorithm for accurate analysis of the expected throughput of the
+random annex code for finite-length information. This algorithm enables us to
+quantify the throughput vs.computational complexity tradeoff, which is
+necessary for optimal selection of the scheme parameters.

@@ -1,0 +1,23 @@
+We examine the performance of several molecular simulation techniques aimed
+at evaluation of the surface tension through its thermodynamic definition. For
+all methods explored, the surface tension is calculated by approximating the
+change in Helmholtz free energy associated with a change in interfacial area
+through simulation of a liquid slab at constant particle number, volume, and
+temperature. The methods explored fall within three general classes:
+free-energy perturbation, the Bennett acceptance-ratio scheme, and the expanded
+ensemble technique. Calculations are performed for both the truncated
+Lennard-Jones and square-well fluids at select temperatures spaced along their
+respective liquid-vapor saturation lines. Overall, we find that Bennett and
+expanded ensemble approaches provide the best combination of accuracy and
+precision. All of the methods, when applied using sufficiently small area
+perturbation, generate equivalent results for the Lennard-Jones fluid. However,
+single-stage free-energy-perturbation methods and the closely related test-area
+technique recently introduced by Gloor et al. [J. Chem. Phys. 123, 134703
+(2005)], generate surface tension values for the square-well fluid that are not
+consistent with those obtained from the more robust expanded ensemble and
+Bennett approaches, regardless of the size of the area perturbation.
+Single-stage perturbation methods fail also for the Lennard-Jones system when
+applied using large area perturbations. Here an analysis of phase-space overlap
+produces a quantitative explanation of the observed inaccuracy, and shows that
+the satisfactory results obtained in these cases from the test-area method
+arise from a cancellation of errors that cannot be expected in general.

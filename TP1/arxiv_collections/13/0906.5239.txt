@@ -1,0 +1,17 @@
+The finite amplitude method (FAM), which we have recently proposed (T.
+Nakatsukasa, T. Inakura, and K. Yabana, Phys. Rev. C 76, 024318 (2007)),
+simplifies significantly the fully self-consistent RPA calculation. Employing
+the FAM, we are conducting systematic, fully self-consistent response
+calculations for a wide mass region. This paper is intended to present a
+computational scheme to be used in the systematic investigation and to show the
+performance of the FAM for a realistic Skyrme energy functional. We implemented
+the method in the mixed representation in which the forward and backward RPA
+amplitudes are represented by indices of single-particle orbitals for occupied
+states and the spatial grid points for unoccupied states. We solve the linear
+response equation for a given frequency. The equation is a linear algebraic
+problem with a sparse non-hermitian matrix, which is solved with an iterative
+method. We show results of the dipole response for selected spherical and
+deformed nuclei. The peak energies of the giant dipole resonance agree well
+with measurements for heavy nuclei, while they are systematically
+underestimated for light nuclei. We also discuss the width of the giant dipole
+resonance in the fully self-consistent RPA calculation.

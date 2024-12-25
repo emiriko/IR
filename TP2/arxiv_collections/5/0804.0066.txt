@@ -1,0 +1,17 @@
+Selman and Kautz's work on ``knowledge compilation'' established how
+approximation (strengthening and/or weakening) of a propositional
+knowledge-base can be used to speed up query processing, at the expense of
+completeness. In this classical approach, querying uses Horn over- and
+under-approximations of a given knowledge-base, which is represented as a
+propositional formula in conjunctive normal form (CNF). Along with the class of
+Horn functions, one could imagine other Boolean function classes that might
+serve the same purpose, owing to attractive deduction-computational properties
+similar to those of the Horn functions. Indeed, Zanuttini has suggested that
+the class of affine Boolean functions could be useful in knowledge compilation
+and has presented an affine approximation algorithm. Since CNF is awkward for
+presenting affine functions, Zanuttini considers both a sets-of-models
+representation and the use of modulo 2 congruence equations. In this paper, we
+propose an algorithm based on reduced ordered binary decision diagrams
+(ROBDDs). This leads to a representation which is more compact than the sets of
+models and, once we have established some useful properties of affine Boolean
+functions, a more efficient algorithm.

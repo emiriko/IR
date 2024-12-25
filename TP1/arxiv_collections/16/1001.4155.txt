@@ -1,0 +1,20 @@
+In the previous papers of this series, we have decomposed into Gaussian
+components all the HI 21-cm line profiles of the Leiden-Argentina-Bonn (LAB)
+database, and studied statistical distributions of the obtained Gaussians. Now
+we are interested in separation from the general database of the components the
+"clouds" of closely spaced similar Gaussians. In this paper we describe the new
+cloud-finding algorithm. To separate the clouds of similar Gaussians, we start
+with the single-link hierarchical clustering procedure in five-dimensional
+(longitude, latitude, velocity, Gaussian width and height) space, but make some
+modifications to accommodate it to the large number of components. We also use
+the requirement that each cloud may be represented at any observed sky position
+by only one Gaussian and take into account the similarity of global properties
+of the merging clouds. As a test, we apply the algorithm for finding the clouds
+of the narrowest HI 21-cm line components. Using the full sky search for cold
+clouds, we easily detect the coldest known HI clouds and demonstrate that
+actually they are a part of a long narrow ribbon of cold clouds. We model these
+clouds as a part of a planar gas ring, deduce their spatial placement, and
+discuss their relation to supernova shells in the solar neighborhood. We
+conclude that the proposed algorithm satisfactorily solves the posed task. We
+guess that the study of the narrowest HI 21-cm line components may be a useful
+tool for finding the structure of neutral gas in solar neighborhood.

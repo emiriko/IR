@@ -1,0 +1,13 @@
+We present a GPU implementation of LAMMPS, a widely-used parallel molecular
+dynamics (MD) software package, and show 5x to 13x single node speedups versus
+the CPU-only version of LAMMPS. This new CUDA package for LAMMPS also enables
+multi-GPU simulation on hybrid heterogeneous clusters, using MPI for inter-node
+communication, CUDA kernels on the GPU for all methods working with particle
+data, and standard LAMMPS C++ code for CPU execution. Cell and neighbor list
+approaches are compared for best performance on GPUs, with thread-per-atom and
+block-per-atom neighbor list variants showing best performance at low and high
+neighbor counts, respectively. Computational performance results of GPU-enabled
+LAMMPS are presented for a variety of materials classes (e.g. biomolecules,
+polymers, metals, semiconductors), along with a speed comparison versus other
+available GPU-enabled MD software. Finally, we show strong and weak scaling
+performance on a CPU/GPU cluster using up to 128 dual GPU nodes.

@@ -1,0 +1,24 @@
+An exact-match overlap graph of $n$ given strings of length $\ell$ is an
+edge-weighted graph in which each vertex is associated with a string and there
+is an edge $(x,y)$ of weight $\omega = \ell - |ov_{max}(x,y)|$ if and only if
+$\omega \leq \lambda$, where $|ov_{max}(x,y)|$ is the length of $ov_{max}(x,y)$
+and $\lambda$ is a given threshold. In this paper, we show that the exact-match
+overlap graphs can be represented by a compact data structure that can be
+stored using at most $(2\lambda -1 )(2\lceil\log n\rceil +
+\lceil\log\lambda\rceil)n$ bits with a guarantee that the basic operation of
+accessing an edge takes $O(\log \lambda)$ time.
+  Exact-match overlap graphs have been broadly used in the context of DNA
+assembly and the \emph{shortest super string problem} where the number of
+strings $n$ ranges from a couple of thousands to a couple of billions, the
+length $\ell$ of the strings is from 25 to 1000, depending on DNA sequencing
+technologies. However, many DNA assemblers using overlap graphs are facing a
+major problem of constructing and storing them. Especially, it is impossible
+for these DNA assemblers to handle the huge amount of data produced by the next
+generation sequencing technologies where the number of strings $n$ is usually
+very large ranging from hundred million to a couple of billions. In fact, to
+our best knowledge there is no DNA assemblers that can handle such a large
+number of strings. Fortunately, with our compact data structure, the major
+problem of constructing and storing overlap graphs is practically solved since
+it only requires linear time and and linear memory. As a result, it opens the
+door of possibilities to build a DNA assembler that can handle large-scale
+datasets efficiently.

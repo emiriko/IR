@@ -1,0 +1,13 @@
+We discuss two new methods of recovery of sparse signals from noisy
+observation based on $\ell_1$- minimization. They are closely related to the
+well-known techniques such as Lasso and Dantzig Selector. However, these
+estimators come with efficiently verifiable guaranties of performance. By
+optimizing these bounds with respect to the method parameters we are able to
+construct the estimators which possess better statistical properties than the
+commonly used ones. We also show how these techniques allow to provide
+efficiently computable accuracy bounds for Lasso and Dantzig Selector. We link
+our performance estimations to the well known results of Compressive Sensing
+and justify our proposed approach with an oracle inequality which links the
+properties of the recovery algorithms and the best estimation performance when
+the signal support is known. We demonstrate how the estimates can be computed
+using the Non-Euclidean Basis Pursuit algorithm.

@@ -1,0 +1,14 @@
+A set $X\subseteq\mathbb N$ is S-recognizable for an abstract numeration
+system S if the set $\rep_S(X)$ of its representations is accepted by a finite
+automaton. We show that the growth function of an S-recognizable set is always
+either $\Theta((\log(n))^{c-df}n^f)$ where $c,d\in\mathbb N$ and $f\ge 1$, or
+$\Theta(n^r \theta^{\Theta(n^q)})$, where $r,q\in\mathbb Q$ with $q\le 1$. If
+the number of words of length n in the numeration language is bounded by a
+polynomial, then the growth function of an S-recognizable set is $\Theta(n^r)$,
+where $r\in \mathbb Q$ with $r\ge 1$. Furthermore, for every $r\in \mathbb Q$
+with $r\ge 1$, we can provide an abstract numeration system S built on a
+polynomial language and an S-recognizable set such that the growth function of
+X is $\Theta(n^r)$. For all positive integers k and l, we can also provide an
+abstract numeration system S built on a exponential language and an
+S-recognizable set such that the growth function of X is $\Theta((\log(n))^k
+n^l)$.

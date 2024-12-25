@@ -1,0 +1,20 @@
+The high-level contribution of this paper is the development and
+implementation of an algorithm to selfextract secondary keywords and their
+combinations (combo words) based on abstracts collected using standard primary
+keywords for research areas from reputed online digital libraries like IEEE
+Explore, PubMed Central and etc. Given a collection of N abstracts, we
+arbitrarily select M abstracts (M<< N; M/N as low as 0.15) and parse each of
+the M abstracts, word by word. Upon the first-time appearance of a word, we
+query the user for classifying the word into an Accept-List or non-Accept-List.
+The effectiveness of the training approach is evaluated by measuring the
+percentage of words for which the user is queried for classification when the
+algorithm parses through the words of each of the M abstracts. We observed that
+as M grows larger, the percentage of words for which the user is queried for
+classification reduces drastically. After the list of acceptable words is built
+by parsing the M abstracts, we now parse all the N abstracts, word by word, and
+count the frequency of appearance of each of the words in Accept-List in these
+N abstracts. We also construct a Combo-Accept-List comprising of all possible
+combinations of the single keywords in Accept-List and parse all the N
+abstracts, two successive words (combo word) at a time, and count the frequency
+of appearance of each of the combo words in the Combo-Accept-List in these N
+abstracts.

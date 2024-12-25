@@ -1,0 +1,12 @@
+Codeword stabilized (CWS) codes are, in general, non-additive quantum codes
+that can correct errors by an exhaustive search of different error patterns,
+similar to the way that we decode classical non-linear codes. For an n-qubit
+quantum code correcting errors on up to t qubits, this brute-force approach
+consecutively tests different errors of weight t or less, and employs a
+separate n-qubit measurement in each test. In this paper, we suggest an error
+grouping technique that allows to simultaneously test large groups of errors in
+a single measurement. This structured error recovery technique exponentially
+reduces the number of measurements by about 3^t times. While it still leaves
+exponentially many measurements for a generic CWS code, the technique is
+equivalent to syndrome-based recovery for the special case of additive CWS
+codes.

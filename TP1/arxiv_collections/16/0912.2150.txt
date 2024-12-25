@@ -1,0 +1,18 @@
+We show how to convert an arbitrary stabilizer code into a bipartite quantum
+code. A bipartite quantum code is one that involves two senders and one
+receiver. The two senders exploit both nonlocal and local quantum resources to
+encode quantum information with local encoding circuits. They transmit their
+encoded quantum data to a single receiver who then decodes the transmitted
+quantum information. The nonlocal resources in a bipartite code are ebits and
+nonlocal information qubits and the local resources are ancillas and local
+information qubits. The technique of bipartite quantum error correction is
+useful in both the quantum communication scenario described above and in
+fault-tolerant quantum computation. It has application in fault-tolerant
+quantum computation because we can prepare nonlocal resources offline and
+exploit local encoding circuits. In particular, we derive an encoding circuit
+for a bipartite version of the Steane code that is local and additionally
+requires only nearest-neighbor interactions. We have simulated this encoding in
+the CNOT extended rectangle with a publicly available fault-tolerant simulation
+software. The result is that there is an improvement in the "pseudothreshold"
+with respect to the baseline Steane code, under the assumption that quantum
+memory errors occur less frequently than quantum gate errors.

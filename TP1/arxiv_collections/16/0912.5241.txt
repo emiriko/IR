@@ -1,0 +1,19 @@
+We propose a database model that allows users to annotate data with belief
+statements. Our motivation comes from scientific database applications where a
+community of users is working together to assemble, revise, and curate a shared
+data repository. As the community accumulates knowledge and the database
+content evolves over time, it may contain conflicting information and members
+can disagree on the information it should store. For example, Alice may believe
+that a tuple should be in the database, whereas Bob disagrees. He may also
+insert the reason why he thinks Alice believes the tuple should be in the
+database, and explain what he thinks the correct tuple should be instead.
+  We propose a formal model for Belief Databases that interprets users'
+annotations as belief statements. These annotations can refer both to the base
+data and to other annotations. We give a formal semantics based on a fragment
+of multi-agent epistemic logic and define a query language over belief
+databases. We then prove a key technical result, stating that every belief
+database can be encoded as a canonical Kripke structure. We use this structure
+to describe a relational representation of belief databases, and give an
+algorithm for translating queries over the belief database into standard
+relational queries. Finally, we report early experimental results with our
+prototype implementation on synthetic data.

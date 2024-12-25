@@ -1,0 +1,14 @@
+Min-entropy sampling gives a bound on the min-entropy of a randomly chosen
+subset of a string, given a bound on the min-entropy of the whole string.
+K\"onig and Renner showed a min-entropy sampling theorem that holds relative to
+quantum knowledge. Their result achieves the optimal rate, but it can only be
+applied if the bits are sampled in blocks, and only gives weak bounds for the
+non-smooth min-entropy. We give two new quantum min-entropy sampling theorems
+that do not have the above weaknesses. The first theorem shows that the result
+by K\"onig and Renner also applies to bitwise sampling, and the second theorem
+gives a strong bound for the non-smooth min-entropy. Our results imply a new
+lower bound for k-out-of-n random access codes: while previous results by
+Ben-Aroya, Regev, and de Wolf showed that the decoding probability is
+exponentially small in k if the storage rate is smaller than 0.7, our results
+imply that this holds for any storage rate strictly smaller than 1, which is
+optimal.

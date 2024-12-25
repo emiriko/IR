@@ -1,0 +1,11 @@
+The 2-player impartial game of Wythoff Nim is played on two piles of tokens.
+A move consists in removing any number of tokens from precisely one of the
+piles or the same number of tokens from both piles. The winner is the player
+who removes the last token. We study this game with a blocking maneuver, that
+is, for each move, before the next player moves the previous player may declare
+at most a predetermined number, $k - 1 \ge 0$, of the options as forbidden.
+When the next player has moved, any blocking maneuver is forgotten and does not
+have any further impact on the game. We resolve the winning strategy of this
+game for $k = 2$ and $k = 3$ and, supported by computer simulations, state
+conjectures of the asymptotic `behavior' of the $P$-positions for the
+respective games when $4 \le k \le 20$.

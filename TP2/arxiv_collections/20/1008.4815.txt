@@ -1,0 +1,17 @@
+In this paper we present a method for reformulating the Recommender Systems
+problem in an Information Retrieval one. In our tests we have a dataset of
+users who give ratings for some movies; we hide some values from the dataset,
+and we try to predict them again using its remaining portion (the so-called
+"leave-n-out approach"). In order to use an Information Retrieval algorithm, we
+reformulate this Recommender Systems problem in this way: a user corresponds to
+a document, a movie corresponds to a term, the active user (whose rating we
+want to predict) plays the role of the query, and the ratings are used as
+weigths, in place of the weighting schema of the original IR algorithm. The
+output is the ranking list of the documents ("users") relevant for the query
+("active user"). We use the ratings of these users, weighted according to the
+rank, to predict the rating of the active user. We carry out the comparison by
+means of a typical metric, namely the accuracy of the predictions returned by
+the algorithm, and we compare this to the real ratings from users. In our first
+tests, we use two different Information Retrieval algorithms: LSPR, a recently
+proposed model based on Discrete Fourier Transform, and a simple vector space
+model.

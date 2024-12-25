@@ -1,0 +1,19 @@
+Tingkat kompleksitas dari program simulasi dinamika molekular membutuhkan
+mesin pemroses dengan kemampuan yang sangat besar. Mesin-mesin paralel terbukti
+memiliki potensi untuk menjawab tantangan komputasi ini. Untuk memanfaatkan
+potensi ini secara maksimal, diperlukan suatu program paralel dengan tingkat
+efisiensi, efektifitas, skalabilitas, dan ekstensibilitas yang maksimal pula.
+Program NAMD yang dibahas pada penulisan ini dianggap mampu untuk memenuhi
+semua kriteria yang diinginkan. Program ini dirancang dengan
+mengimplementasikan pustaka Charm++ untuk pembagian tugas perhitungan secara
+paralel. NAMD memiliki sistem automatic load balancing secara periodik yang
+cerdas, sehingga dapat memaksimalkan penggunaan kemampuan mesin yang tersedia.
+Program ini juga dirancang secara modular, sehingga dapat dimodifikasi dan
+ditambah dengan sangat mudah. NAMD menggunakan banyak kombinasi algoritma
+perhitungan dan tehnik-tehnik numerik lainnya dalam melakukan tugasnya. NAMD
+2.5 mengimplementasikan semua tehnik dan persamaan perhitungan yang digunakan
+dalam dunia simulasi dinamika molekular saat ini. NAMD dapat berjalan diatas
+berbagai mesin paralel termasuk arsitektur cluster, dengan hasil speedup yang
+mengejutkan. Tulisan ini akan menjelaskan dan membuktikan kemampuan NAMD secara
+paralel diatas lima buah mesin cluster. Penulisan ini juga akan memaparkan
+kinerja NAMD pada beberapa.

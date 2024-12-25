@@ -1,0 +1,15 @@
+Separation of the text regions from background texture and graphics is an
+important step of any optical character recognition sytem for the images
+containg both texts and graphics. In this paper, we have presented a novel
+text/graphics separation technique for business card images captured with a
+cell-phone camera. At first, the background is eliminated at a coarse level
+based on intensity variance. This makes the foreground components distinct from
+each other. Then the non-text components are removed using various
+characteristic features of text and graphics. Finally, the text regions are
+skew corrected and binarized for further processing. Experimenting with
+business card images of various resolutions, we have found an optimum
+performance of 98.54% with 0.75 MP images, that takes 0.17 seconds processing
+time and 1.1 MB peak memory on a moderately powerful computer (DualCore 1.73
+GHz Processor, 1 GB RAM, 1 MB L2 Cache). The developed technique is
+computationally efficient and consumes low memory so as to be applicable on
+mobile devices.

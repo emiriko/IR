@@ -1,0 +1,12 @@
+The paper focuses on the adaptation of local polynomial filters at the end of
+the sample period. We show that for real time estimation of signals (i.e.,
+exactly at the boundary of the time support) we cannot rely on the automatic
+adaptation of the local polynomial smoothers, since the direct real time filter
+turns out to be strongly localized, and thereby yields extremely volatile
+estimates. As an alternative, we evaluate a general family of asymmetric
+filters that minimizes the mean square revision error subject to polynomial
+reproduction constraints; in the case of the Henderson filter it nests the
+well-known Musgrave's surrogate filters. The class of filters depends on
+unknown features of the series such as the slope and the curvature of the
+underlying signal, which can be estimated from the data. Several empirical
+examples illustrate the effectiveness of our proposal.

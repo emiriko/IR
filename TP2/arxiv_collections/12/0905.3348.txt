@@ -1,0 +1,18 @@
+An important aspect of mechanism design in social choice protocols and
+multiagent systems is to discourage insincere and manipulative behaviour. We
+examine the computational complexity of false-name manipulation in weighted
+voting games which are an important class of coalitional voting games. Weighted
+voting games have received increased interest in the multiagent community due
+to their compact representation and ability to model coalitional formation
+scenarios. Bachrach and Elkind in their AAMAS 2008 paper examined divide and
+conquer false-name manipulation in weighted voting games from the point of view
+of Shapley-Shubik index. We analyse the corresponding case of the Banzhaf index
+and check how much the Banzhaf index of a player increases or decreases if it
+splits up into sub-players. A pseudo-polynomial algorithm to find the optimal
+split is also provided. Bachrach and Elkind also mentioned manipulation via
+merging as an open problem. In the paper, we examine the cases where a player
+annexes other players or merges with them to increase their Banzhaf index or
+Shapley-Shubik index payoff. We characterize the computational complexity of
+such manipulations and provide limits to the manipulation. The annexation
+non-monotonicity paradox is also discovered in the case of the Banzhaf index.
+The results give insight into coalition formation and manipulation.

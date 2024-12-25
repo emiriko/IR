@@ -1,0 +1,13 @@
+The independence number of a sparse random graph G(n,m) of average degree
+d=2m/n is well-known to be \alpha(G(n,m))~2n ln(d)/d with high probability.
+Moreover, a trivial greedy algorithm w.h.p. finds an independent set of size
+(1+o(1)) n ln(d)/d, i.e. half the maximum size. Yet in spite of 30 years of
+extensive research no efficient algorithm has emerged to produce an independent
+set with (1+c)n ln(d)/d, for any fixed c>0. In this paper we prove that the
+combinatorial structure of the independent set problem in random graphs
+undergoes a phase transition as the size k of the independent sets passes the
+point k nln(d)/d. Roughly speaking, we prove that independent sets of size
+k>(1+c)n ln(d)/d form an intricately ragged landscape, in which local search
+algorithms are bound to get stuck. We illustrate this phenomenon by providing
+an exponential lower bound for the Metropolis process, a Markov chain for
+sampling independents sets.

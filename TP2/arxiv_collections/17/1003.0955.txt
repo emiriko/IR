@@ -1,0 +1,15 @@
+As more and more multi-tier services are developed from commercial components
+or heterogeneous middleware without the source code available, both developers
+and administrators need a precise request tracing tool to help understand and
+debug performance problems of large concurrent services of black boxes.
+Previous work fails to resolve this issue in several ways: they either accept
+the imprecision of probabilistic correlation methods, or rely on knowledge of
+protocols to isolate requests in pursuit of tracing accuracy. This paper
+introduces a tool named PreciseTracer to help debug performance problems of
+multi-tier services of black boxes. Our contributions are two-fold: first, we
+propose a precise request tracing algorithm for multi-tier services of black
+boxes, which only uses application-independent knowledge; secondly, we present
+a component activity graph abstraction to represent causal paths of requests
+and facilitate end-to-end performance debugging. The low overhead and tolerance
+of noise make PreciseTracer a promising tracing tool for using on production
+systems.

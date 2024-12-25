@@ -1,0 +1,11 @@
+It has previously been shown that varying the numerical timestep during a
+symplectic orbital integration leads to a random walk in energy and angular
+momentum, destroying the phase space-conserving property of symplectic
+integrators. Here we show that when altering the timestep symplectic correctors
+can be used to reduce this error to a negligible level. Furthermore, these
+correctors can also be employed to avoid a large error introduction when
+changing the Hamiltonian's partitioning. We have constructed a numerical
+integrator using this technique that is nearly as accurate as widely used
+fixed-step routines. In addition, our algorithm is drastically faster for
+integrations of highly eccentricitic, large semimajor axis orbits, such as
+those found in the Oort Cloud.

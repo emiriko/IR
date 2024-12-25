@@ -1,0 +1,21 @@
+Event-driven automation of reactive functionalities for complex event
+processing is an urgent need in today's distributed service-oriented
+architectures and Web-based event-driven environments. An important problem to
+be addressed is how to correctly and efficiently capture and process the
+event-based behavioral, reactive logic embodied in reaction rules, and
+combining this with other conditional decision logic embodied, e.g., in
+derivation rules. This paper elaborates a homogeneous integration approach that
+combines derivation rules, reaction rules and other rule types such as
+integrity constraints into the general framework of logic programming, the
+industrial-strength version of declarative programming. We describe syntax and
+semantics of the language, implement a distributed web-based middleware using
+enterprise service technologies and illustrate its adequacy in terms of
+expressiveness, efficiency and scalability through examples extracted from
+industrial use cases. The developed reaction rule language provides expressive
+features such as modular ID-based updates with support for external imports and
+self-updates of the intensional and extensional knowledge bases, transactions
+including integrity testing and roll-backs of update transition paths. It also
+supports distributed complex event processing, event messaging and event
+querying via efficient and scalable enterprise middleware technologies and
+event/action reasoning based on an event/action algebra implemented by an
+interval-based event calculus variant as a logic inference formalism.

@@ -1,0 +1,15 @@
+Portfolio balancing requires estimates of covariance between asset returns.
+Returns data have histories which greatly vary in length, since assets begin
+public trading at different times. This can lead to a huge amount of missing
+data--too much for the conventional imputation-based approach. Fortunately, a
+well-known factorization of the MVN likelihood under the prevailing historical
+missingness pattern leads to a simple algorithm of OLS regressions that is much
+more reliable. When there are more assets than returns, however, OLS becomes
+unstable. Gramacy, et al. (2008), showed how classical shrinkage regression may
+be used instead, thus extending the state of the art to much bigger asset
+collections, with further accuracy and interpretation advantages. In this
+paper, we detail a fully Bayesian hierarchical formulation that extends the
+framework further by allowing for heavy-tailed errors, relaxing the historical
+missingness assumption, and accounting for estimation risk. We illustrate how
+this approach compares favorably to the classical one using synthetic data and
+an investment exercise with real returns. An accompanying R package is on CRAN.

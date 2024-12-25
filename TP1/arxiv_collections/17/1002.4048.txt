@@ -1,0 +1,18 @@
+Text segmentation is an inherent part of an OCR system irrespective of the
+domain of application of it. The OCR system contains a segmentation module
+where the text lines, words and ultimately the characters must be segmented
+properly for its successful recognition. The present work implements a Hough
+transform based technique for line and word segmentation from digitized images.
+The proposed technique is applied not only on the document image dataset but
+also on dataset for business card reader system and license plate recognition
+system. For standardization of the performance of the system the technique is
+also applied on public domain dataset published in the website by CMATER,
+Jadavpur University. The document images consist of multi-script printed and
+hand written text lines with variety in script and line spacing in single
+document image. The technique performs quite satisfactorily when applied on
+mobile camera captured business card images with low resolution. The usefulness
+of the technique is verified by applying it in a commercial project for
+localization of license plate of vehicles from surveillance camera images by
+the process of segmentation itself. The accuracy of the technique for word
+segmentation, as verified experimentally, is 85.7% for document images, 94.6%
+for business card images and 88% for surveillance camera images.

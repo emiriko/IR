@@ -1,0 +1,18 @@
+The crux of software transactional memory (STM) is to combine an easy-to-use
+programming interface with an efficient utilization of the concurrent-computing
+abilities provided by modern machines. But does this combination come with an
+inherent cost? We evaluate the cost of concurrency by measuring the amount of
+expensive synchronization that must be employed in an STM implementation that
+ensures positive concurrency, i.e., allows for concurrent transaction
+processing in some executions. We focus on two popular progress conditions that
+provide positive concurrency: progressiveness and permissiveness. We show that
+in permissive STMs, providing a very high degree of concurrency, a transaction
+performs a linear number of expensive synchronization patterns with respect to
+its read-set size. In contrast, progressive STMs provide a very small degree of
+concurrency but, as we demonstrate, can be implemented using at most one
+expensive synchronization pattern per transaction. However, we show that even
+in progressive STMs, a transaction has to "protect" (e.g., by using locks or
+strong synchronization primitives) a linear amount of data with respect to its
+write-set size. Our results suggest that looking for high degrees of
+concurrency in STM implementations may bring a considerable synchronization
+cost.

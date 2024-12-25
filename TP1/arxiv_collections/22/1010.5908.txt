@@ -1,0 +1,9 @@
+We present an engineered version of the divide-and-conquer algorithm for
+finding the closest pair of points, within a given set of points in the
+XY-plane. For this version of the algorithm we show that only two pairwise
+comparisons are required in the combine step, for each point that lies in the 2
+delta-wide vertical slab. The correctness of the algorithm is shown for all
+Minkowski distances with p>=1. We also show empirically that, although the time
+complexity of the algorithm is still O(n lg n), the reduction in the total
+number of comparisons leads to a significant reduction in the total execution
+time, for inputs with size sufficiently large.

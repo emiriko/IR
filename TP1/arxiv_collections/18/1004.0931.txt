@@ -1,0 +1,25 @@
+We propose a modified power method for computing the subdominant eigenvalue
+$\lambda_2$ of a matrix or continuous operator. Here we focus on defining
+simple Monte Carlo methods for its application. The methods presented use
+random walkers of mixed signs to represent the subdominant eigenfuction.
+Accordingly, the methods must cancel these signs properly in order to sample
+this eigenfunction faithfully. We present a simple procedure to solve this sign
+problem and then test our Monte Carlo methods by computing the $\lambda_2$ of
+various Markov chain transition matrices. We first computed ${\lambda_2}$ for
+several one and two dimensional Ising models, which have a discrete phase
+space, and compared the relative efficiencies of the Metropolis and heat-bath
+algorithms as a function of temperature and applied magnetic field. Next, we
+computed $\lambda_2$ for a model of an interacting gas trapped by a harmonic
+potential, which has a mutidimensional continuous phase space, and studied the
+efficiency of the Metropolis algorithm as a function of temperature and the
+maximum allowable step size $\Delta$. Based on the $\lambda_2$ criterion, we
+found for the Ising models that small lattices appear to give an adequate
+picture of comparative efficiency and that the heat-bath algorithm is more
+efficient than the Metropolis algorithm only at low temperatures where both
+algorithms are inefficient. For the harmonic trap problem, we found that the
+traditional rule-of-thumb of adjusting $\Delta$ so the Metropolis acceptance
+rate is around 50% range is often sub-optimal. In general, as a function of
+temperature or $\Delta$, $\lambda_2$ for this model displayed trends defining
+optimal efficiency that the acceptance ratio does not. The cases studied also
+suggested that Monte Carlo simulations for a continuum model are likely more
+efficient than those for a discretized version of the model.

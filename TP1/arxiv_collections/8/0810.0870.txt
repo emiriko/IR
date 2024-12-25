@@ -1,0 +1,17 @@
+In this paper, we present the cognitive radio system design with partial
+channel state information known at the transmitter (CSIT).We replace the dirty
+paper coding (DPC) used in the cognitive radio with full CSIT by the linear
+assignment Gel'fand-Pinsker coding (LA-GPC), which can utilize the limited
+knowledge of the channel more efficiently. Based on the achievable rate derived
+from the LA-GPC, two optimization problems under the fast and slow fading
+channels are formulated. We derive semianalytical solutions to find the
+relaying ratios and precoding coefficients. The critical observation is that
+the complex rate functions in these problems are closely related to ratios of
+quadratic form. Simulation results show that the proposed semi-analytical
+solutions perform close to the optimal solutions found by brute-force search,
+and outperform the systems based on naive DPC. Asymptotic analysis also shows
+that these solutions converge to the optimal ones solved with full CSIT when
+the K-factor of Rician channel approaches infinity. Moreover, a new coding
+scheme is proposed to implement the LA-GPC in practice. Simulation results show
+that the proposed practical coding scheme can efficiently reach the theoretical
+rate performance.

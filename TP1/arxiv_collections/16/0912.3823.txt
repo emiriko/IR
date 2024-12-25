@@ -1,0 +1,13 @@
+Given a single copy of an n qubit quantum state |psi>, the no-cloning theorem
+greatly limits the amount of information which can be extracted from it.
+Moreover, given only a procedure which verifies the state, for example a
+procedure which measures the operator |psi><psi|, we cannot prepare |psi> in
+time polynomial in n . In this paper, we consider the scenario in which we are
+given both a single copy of |psi> and the ability to verify it. We show that in
+this setting, we can do several novel things efficiently. We present a new
+algorithm that we call quantum state restoration which allows us to extend a
+large subsystem of |psi> to the full state, and in turn this allows us to copy
+small subsystems of |psi>. In addition, we present algorithms that can perform
+tomography on small subsystems of |psi>, and we show how to use these
+algorithms to estimate the statistics of any efficiently implementable POVM
+acting on |psi> in time polynomial in the number of outcomes of the POVM.

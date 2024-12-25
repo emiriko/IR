@@ -1,0 +1,21 @@
+In this work, we study position-based cryptography in the quantum setting.
+The aim is to use the geographical position of a party as its only credential.
+On the negative side, we show that if adversaries are allowed to share an
+arbitrarily large entangled quantum state, no secure position-verification is
+possible at all. We show a distributed protocol for computing any unitary
+operation on a state shared between the different users, using local operations
+and one round of classical communication. Using this surprising result, we
+break any position-verification scheme of a very general form. On the positive
+side, we show that if adversaries do not share any entangled quantum state but
+can compute arbitrary quantum operations, secure position-verification is
+achievable. Jointly, these results suggest the interesting question whether
+secure position-verification is possible in case of a bounded amount of
+entanglement. Our positive result can be interpreted as resolving this question
+in the simplest case, where the bound is set to zero.
+  In models where secure positioning is achievable, it has a number of
+interesting applications. For example, it enables secure communication over an
+insecure channel without having any pre-shared key, with the guarantee that
+only a party at a specific location can learn the content of the conversation.
+More generally, we show that in settings where secure position-verification is
+achievable, other position-based cryptographic schemes are possible as well,
+such as secure position-based authentication and position-based key agreement.

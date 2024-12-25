@@ -1,0 +1,12 @@
+Text binarisation process classifies individual pixels as text or background
+in the textual images. Binarization is necessary to bridge the gap between
+localization and recognition by OCR. This paper presents Sliding window method
+to binarise text from textual images with textured background. Suitable
+preprocessing techniques are applied first to increase the contrast of the
+image and blur the background noises due to textured background. Then Edges are
+detected by iterative thresholding. Subsequently formed edge boxes are analyzed
+to remove unwanted edges due to complex background and binarised by sliding
+window approach based character size uniformity check algorithm. The proposed
+method has been applied on localized region from heterogeneous textual images
+and compared with Otsu, Niblack methods and shown encouraging performance of
+the proposed method.

@@ -1,0 +1,21 @@
+An application security has two primary goals: first, it is intended to
+prevent unauthorised personnel from accessing information at higher
+classification than their authorisation. Second, it is intended to prevent
+personnel from declassifying information. Using an object oriented approach to
+implementing application security results not only with the problem of code
+scattering and code tangling, but also results in weaker enforcement of
+security. This weaker enforcement of security could be due to the inherent
+design of the system or due to a programming error. Aspect Oriented Programming
+(AOP) complements Object-Oriented Programming (OOP) by providing another way of
+thinking about program structure. The key unit of modularity in OOP is the
+class, whereas in AOP the unit of modularity is the aspect. The goal of the
+paper is to present that Aspect Oriented Programming AspectJ integrated with
+Spring AOP provides very powerful mechanisms for stronger enforcement of
+security.Aspect-oriented programming (AOP) allows weaving a security aspect
+into an application providing additional security functionality or introducing
+completely new security mechanisms.Implementation of security with AOP is a
+flexible method to develop separated, extensible and reusable pieces of code
+called aspects.In this comparative study paper, we argue that Spring AOP
+provides stronger enforcement of security than AspectJ.We have shown both
+Spring AOP and AspectJ strive to provide a comprehensive AOP solutions and
+complements each other.

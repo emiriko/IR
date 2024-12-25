@@ -1,0 +1,14 @@
+We develop the algebraic theory behind the constructions of Yekhanin (2008)
+and Efremenko (2009), in an attempt to understand the ``algebraic niceness''
+phenomenon in $\mathbb{Z}_m$. We show that every integer $m = pq = 2^t -1$,
+where $p$, $q$ and $t$ are prime, possesses the same good algebraic property as
+$m=511$ that allows savings in query complexity. We identify 50 numbers of this
+form by computer search, which together with 511, are then applied to gain
+improvements on query complexity via Itoh and Suzuki's composition method. More
+precisely, we construct a $3^{\lceil r/2\rceil}$-query LDC for every positive
+integer $r<104$ and a $\left\lfloor (3/4)^{51}\cdot 2^{r}\right\rfloor$-query
+LDC for every integer $r\geq 104$, both of length $N_{r}$, improving the $2^r$
+queries used by Efremenko (2009) and $3\cdot 2^{r-2}$ queries used by Itoh and
+Suzuki (2010).
+  We also obtain new efficient private information retrieval (PIR) schemes from
+the new query-efficient LDCs.

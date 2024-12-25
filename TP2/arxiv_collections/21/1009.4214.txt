@@ -1,0 +1,10 @@
+Algorithms to generate various combinatorial structures find tremendous
+importance in computer science. In this paper, we begin by reviewing an
+algorithm proposed by Rohl that generates all unique permutations of a list of
+elements which possibly contains repetitions, taking some or all of the
+elements at a time, in any imposed order. The algorithm uses an auxiliary array
+that maintains the number of occurrences of each unique element in the input
+list. We provide a proof of correctness of the algorithm. We then show how one
+can efficiently generate other combinatorial structures like combinations,
+subsets, n-Parenthesizations, derangements and integer partitions &
+compositions with minor changes to the same algorithm.

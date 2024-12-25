@@ -1,0 +1,15 @@
+This chapter describes how astronomical imaging survey data have become a
+vital part of modern astronomy, how these data are archived and then served to
+the astronomical community through on-line data access portals. The Virtual
+Observatory, now under development, aims to make all these data accessible
+through a uniform set of interfaces. This chapter also describes the scientific
+need for one common image processing task, that of composing individual images
+into large scale mosaics and introduces Montage as a tool for this task.
+Montage, as distributed, can be used in four ways: as a single thread/process
+on a single CPU, in parallel using MPI to distribute similar tasks across a
+parallel computer, in parallel using grid tools (Pegasus/DAGMan) to distributed
+tasks across a grid, or in parallel using a script-driven approach (Swift). An
+on-request web based Montage service is available for users who do not need to
+build a local version. We also introduce some work on a new scripted version of
+Montage, which offers ease of customization for users. Then, we discuss various
+ideas where Web 2.0 technologies can help the Montage community.

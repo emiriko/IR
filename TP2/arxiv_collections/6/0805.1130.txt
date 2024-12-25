@@ -1,0 +1,22 @@
+We study the convergence time of the best response dynamics in
+player-specific singleton congestion games. It is well known that this dynamics
+can cycle, although from every state a short sequence of best responses to a
+Nash equilibrium exists. Thus, the random best response dynamics, which selects
+the next player to play a best response uniformly at random, terminates in a
+Nash equilibrium with probability one. In this paper, we are interested in the
+expected number of best responses until the random best response dynamics
+terminates.
+  As a first step towards this goal, we consider games in which each player can
+choose between only two resources. These games have a natural representation as
+(multi-)graphs by identifying nodes with resources and edges with players. For
+the class of games that can be represented as trees, we show that the
+best-response dynamics cannot cycle and that it terminates after O(n^2) steps
+where n denotes the number of resources. For the class of games represented as
+cycles, we show that the best response dynamics can cycle. However, we also
+show that the random best response dynamics terminates after O(n^2) steps in
+expectation.
+  Additionally, we conjecture that in general player-specific singleton
+congestion games there exists no polynomial upper bound on the expected number
+of steps until the random best response dynamics terminates. We support our
+conjecture by presenting a family of games for which simulations indicate a
+super-polynomial convergence time.

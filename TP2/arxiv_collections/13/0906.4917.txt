@@ -1,0 +1,14 @@
+Let $\mathbf{x_1}, ..., \mathbf{x_t} \in \mathbb{R}^{n}$. A simultaneous
+integer relation (SIR) for $\mathbf{x_1}, ..., \mathbf{x_t}$ is a vector
+$\mathbf{m} \in \mathbb{Z}^{n}\setminus\{\textbf{0}\}$ such that
+$\mathbf{x_i}^T\mathbf{m} = 0$ for $i = 1, ..., t$. In this paper, we propose
+an algorithm SIRD to detect an SIR for real vectors, which constructs an SIR
+within $\mathcal {O}(n^4 + n^3 \log \lambda(X))$ arithmetic operations, where
+$\lambda(X)$ is the least Euclidean norm of SIRs for $\mathbf{x_1}, >...,
+\mathbf{x_t}$. One can easily generalize SIRD to complex number field.
+Experimental results show that SIRD is practical and better than another
+detecting algorithm in the literature. In its application, we present a new
+algorithm for finding the minimal polynomial of an arbitrary complex algebraic
+number from its an approximation, which is not based on LLL. We also provide a
+sufficient condition on the precision of the approximate value, which depends
+only on the height and the degree of the algebraic number.

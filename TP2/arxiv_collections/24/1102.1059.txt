@@ -1,0 +1,12 @@
+Many programmers, when they encounter an error, would like to have the
+benefit of automatic fix suggestions---as long as they are, most of the time,
+adequate. Initial research in this direction has generally limited itself to
+specific areas, such as data structure classes with carefully designed
+interfaces, and relied on simple approaches. To provide high-quality fix
+suggestions in a broad area of applicability, the present work relies on the
+presence of contracts in the code, and on the availability of dynamic analysis
+to gather evidence on the values taken by expressions derived from the program
+text. The ideas have been built into the AutoFix-E2 automatic fix generator.
+Applications of AutoFix-E2 to general-purpose software, such as a library to
+manipulate documents, show that the approach provides an improvement over
+previous techniques, in particular purely model-based approaches.

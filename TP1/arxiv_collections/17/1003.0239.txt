@@ -1,0 +1,20 @@
+This thesis describes a numerical study of binary boson stars within the
+context of an approximation to general relativity. The approximation we adopt
+places certain restrictions on the dynamical variables of general relativity
+(conformal flatness of the 3-metric), and on the time-slicing of the spacetime
+(maximal slicing). The resulting modeling problem requires the solution of a
+coupled nonlinear system of 4 hyperbolic, and 5 elliptic partial differential
+equations (PDEs) in three space dimensions and time. We approximately solve
+this system as an initial-boundary value problem, using finite difference
+techniques and well known, computationally efficient numerical algorithms such
+as the multigrid method in the case of the elliptic equations. Careful
+attention is paid to the issue of code validation, and a key part of the thesis
+is the demonstration that, as the basic scale of finite difference
+discretization is reduced, our numerical code generates results that converge
+to a solution of the continuum system of PDEs as desired. The thesis concludes
+with a discussion of results from some initial explorations of the orbital
+dynamics of boson star binaries. In particular, we describe calculations in
+which motion of such a binary is followed for more than two orbital periods,
+which is a significant advance over previous studies. We also present results
+from computations in which the boson stars merge, and where there is evidence
+for black hole formation.

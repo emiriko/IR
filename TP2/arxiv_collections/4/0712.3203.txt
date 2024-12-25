@@ -1,0 +1,20 @@
+The subset sum problem (SSP) can be briefly stated as: given a target integer
+$E$ and a set $A$ containing $n$ positive integer $a_j$, find a subset of $A$
+summing to $E$. The \textit{density} $d$ of an SSP instance is defined by the
+ratio of $n$ to $m$, where $m$ is the logarithm of the largest integer within
+$A$. Based on the structural and statistical properties of subset sums, we
+present an improved enumeration scheme for SSP, and implement it as a complete
+and exact algorithm (EnumPlus). The algorithm always equivalently reduces an
+instance to be low-density, and then solve it by enumeration. Through this
+approach, we show the possibility to design a sole algorithm that can
+efficiently solve arbitrary density instance in a uniform way. Furthermore, our
+algorithm has considerable performance advantage over previous algorithms.
+Firstly, it extends the density scope, in which SSP can be solved in expected
+polynomial time. Specifically, It solves SSP in expected $O(n\log{n})$ time
+when density $d \geq c\cdot \sqrt{n}/\log{n}$, while the previously best
+density scope is $d \geq c\cdot n/(\log{n})^{2}$. In addition, the overall
+expected time and space requirement in the average case are proven to be
+$O(n^5\log n)$ and $O(n^5)$ respectively. Secondly, in the worst case, it
+slightly improves the previously best time complexity of exact algorithms for
+SSP. Specifically, the worst-case time complexity of our algorithm is proved to
+be $O((n-6)2^{n/2}+n)$, while the previously best result is $O(n2^{n/2})$.

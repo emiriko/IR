@@ -1,0 +1,12 @@
+A modification scheme to the ensemble Kalman filter (EnKF) is introduced
+based on the concept of the unscented transform (Julier et al., 2000; Julier
+and Uhlmann, 2004), which therefore will be called the ensemble unscented
+Kalman filter (EnUKF) in this work. When the error distribution of the analysis
+is symmetric (not necessarily Gaussian), it can be shown that, compared to the
+ordinary EnKF, the EnUKF has more accurate estimations of the ensemble mean and
+covariance of the background by examining the multidimensional Taylor series
+expansion term by term. This implies that, the EnUKF may have better
+performance in state estimation than the ordinary EnKF in the sense that the
+deviations from the true states are smaller. For verification, some numerical
+experiments are conducted on a 40-dimensional system due to Lorenz and Emanuel
+(Lorenz and Emanuel, 1998). Simulation results support our argument.

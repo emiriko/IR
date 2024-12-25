@@ -1,0 +1,16 @@
+This article aims at reengineering of PDF-based complex documents, where
+specifications of the Object Management Group (OMG) are our initial targets.
+Our motivation is that such specifications are dense and intricate to use, and
+tend to have complicated structures. Our objective is therefore to create an
+approach that allows us to reengineer PDF-based documents, and to illustrate
+how to make more usable versions of electronic documents (such as
+specifications, technical books, etc) so that end users to have a better
+experience with them. The first step was to extract the logical structure of
+the document in a meaningful XML format for subsequent processing. Our initial
+assumption was that, many key concepts of a document are expressed in this
+structure. In the next phase, we created a multilayer hypertext version of the
+document to facilitate browsing and navigating. Although we initially focused
+on OMG software specifications, we chose a general approach for different
+phases of our work including format conversions, logical structure extraction,
+text extraction, multilayer hypertext generation, and concept exploration. As a
+consequence, we can process other complex documents to achieve our goals.

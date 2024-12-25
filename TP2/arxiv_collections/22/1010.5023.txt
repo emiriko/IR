@@ -1,0 +1,9 @@
+We present two novel approaches to parsing context-free languages. The first
+approach is based on an extension of Brzozowski's derivative from regular
+expressions to context-free grammars. The second approach is based on a
+generalization of the derivative to parser combinators. The payoff of these
+techniques is a small (less than 250 lines of code), easy-to-implement parsing
+library capable of parsing arbitrary context-free grammars into lazy parse
+forests. Implementations for both Scala and Haskell are provided. Preliminary
+experiments with S-Expressions parsed millions of tokens per second, which
+suggests this technique is efficient enough for use in practice.

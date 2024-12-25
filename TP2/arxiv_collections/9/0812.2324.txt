@@ -1,0 +1,21 @@
+This paper considers the non-cooperative maximization of mutual information
+in the vector Gaussian interference channel in a fully distributed fashion via
+game theory. This problem has been widely studied in a number of works during
+the past decade for frequency-selective channels, and recently for the more
+general MIMO case, for which the state-of-the art results are valid only for
+nonsingular square channel matrices. Surprisingly, these results do not hold
+true when the channel matrices are rectangular and/or rank deficient matrices.
+The goal of this paper is to provide a complete characterization of the MIMO
+game for arbitrary channel matrices, in terms of conditions guaranteeing both
+the uniqueness of the Nash equilibrium and the convergence of asynchronous
+distributed iterative waterfilling algorithms. Our analysis hinges on new
+technical intermediate results, such as a new expression for the MIMO
+waterfilling projection valid (also) for singular matrices, a mean-value
+theorem for complex matrix-valued functions, and a general contraction theorem
+for the multiuser MIMO watefilling mapping valid for arbitrary channel
+matrices. The quite surprising result is that uniqueness/convergence conditions
+in the case of tall (possibly singular) channel matrices are more restrictive
+than those required in the case of (full rank) fat channel matrices. We also
+propose a modified game and algorithm with milder conditions for the uniqueness
+of the equilibrium and convergence, and virtually the same performance (in
+terms of Nash equilibria) of the original game.

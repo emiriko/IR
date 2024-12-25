@@ -1,0 +1,14 @@
+We describe an implementation of Hedin's GW approximation for molecules and
+clusters, the complexity of which scales as O(N^3) with the number of atoms.
+Our method is guided by two strategies: i) to respect the locality of the
+underlying electronic interactions and ii) to avoid the singularities of
+Green's functions by manipulating, instead, their spectral functions using FFT
+methods. To take into account the locality of the electronic interactions, we
+use a local basis of atomic orbitals and, also, a local basis in the space of
+their products. We further compress the screened Coulomb interaction into a
+space of lower dimensions for speed and to reduce memory requirements. The
+improved scaling of our method with respect to most of the published
+methodologies should facilitate GW calculations for large systems. Our
+implementation is intended as a step forward towards the goal of predicting,
+prior to their synthesis, the ionization energies and electron affinities of
+the large molecules that serve as constituents of organic semiconductors.

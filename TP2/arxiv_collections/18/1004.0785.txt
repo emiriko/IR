@@ -1,0 +1,16 @@
+Distributed storage systems are mainly justified due to the limited amount of
+storage capacity and improving the reliability through distributing data over
+multiple storage nodes. On the other hand, it may happen the data is stored in
+unreliable nodes, while it is desired the end user to have a reliable access to
+the stored data. So, in an event that a node is damaged, to prevent the system
+reliability to regress, it is necessary to regenerate a new node with the same
+amount of stored data as the damaged node to retain the number of storage
+nodes, thereby having the previous reliability. This requires the new node to
+connect to some of existing nodes and downloads the required information,
+thereby occupying some bandwidth, called the repair bandwidth. On the other
+hand, it is more likely the cost of downloading varies across different nodes.
+This paper aims at investigating the theoretical cost-bandwidth tradeoff, and
+more importantly, it is demonstrated that any point on this curve can be
+achieved through the use of the so called generalized regenerating codes which
+is an enhancement of the regeneration codes introduced by Dimakis et al. in
+[1].

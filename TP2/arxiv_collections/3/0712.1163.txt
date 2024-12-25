@@ -1,0 +1,12 @@
+Identifying strongly connected substructures in large networks provides
+insight into their coarse-grained organization. Several approaches based on the
+optimization of a quality function, e.g., the modularity, have been proposed.
+We present here a multistep extension of the greedy algorithm (MSG) that allows
+the merging of more than one pair of communities at each iteration step. The
+essential idea is to prevent the premature condensation into few large
+communities. Upon convergence of the MSG a simple refinement procedure called
+"vertex mover" (VM) is used for reassigning vertices to neighboring communities
+to improve the final modularity value. With an appropriate choice of the step
+width, the combined MSG-VM algorithm is able to find solutions of higher
+modularity than those reported previously. The multistep extension does not
+alter the scaling of computational cost of the greedy algorithm.

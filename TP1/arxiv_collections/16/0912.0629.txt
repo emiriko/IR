@@ -1,0 +1,21 @@
+Lagrangian smoothed particle hydrodynamics (SPH) is a well-established
+approach to model fluids in astrophysical problems, thanks to its geometric
+flexibility and ability to automatically adjust the spatial resolution to the
+clumping of matter. However, a number of recent studies have emphasized
+inaccuracies of SPH in the treatment of fluid instabilities. The origin of
+these numerical problems can be traced back to spurious surface effects across
+contact discontinuities, and to SPH's inherent prevention of mixing at the
+particle level. We here investigate a new fluid particle model where the
+density estimate is carried out with the help of an auxiliary mesh constructed
+as the Voronoi tessellation of the simulation particles instead of an adaptive
+smoothing kernel. This Voronoi-based approach improves the ability of the
+scheme to represent sharp contact discontinuities. We show that this eliminates
+spurious surface tension effects present in SPH and that play a role in
+suppressing certain fluid instabilities. We find that the new `Voronoi Particle
+Hydrodynamics' described here produces comparable results than SPH in shocks,
+and better ones in turbulent regimes of pure hydrodynamical simulations. We
+also discuss formulations of the artificial viscosity needed in this scheme and
+how judiciously chosen correction forces can be derived in order to maintain a
+high degree of particle order and hence a regular Voronoi mesh. This is
+especially helpful in simulating self-gravitating fluids with existing gravity
+solvers used for N-body simulations.

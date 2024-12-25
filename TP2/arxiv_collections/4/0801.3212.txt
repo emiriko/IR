@@ -1,0 +1,15 @@
+In the Ermak-McCammon algorithm for Brownian Dynamics, the hydrodynamic
+interactions (HI) between N spherical particles are described by a 3N x 3N
+diffusion tensor. This tensor has to be factorized at each timestep with a
+runtime of O(N^3), making the calculation of the correlated random
+displacements the bottleneck for many-particle simulations. Here we present a
+faster algorithm for this step, which is based on a truncated expansion of the
+hydrodynamic multi-particle correlations as two-body contributions. The
+comparison to the exact algorithm and to the Chebyshev approximation of Fixman
+verifies that for bead-spring polymers this approximation yields about 95% of
+the hydrodynamic correlations at an improved runtime scaling of O(N^2) and a
+reduced memory footprint. The approximation is independent of the actual form
+of the hydrodynamic tensor and can be applied to arbitrary particle
+configurations. This now allows to include HI into large many-particle Brownian
+dynamics simulations, where until now the runtime scaling of the correlated
+random motion was prohibitive.

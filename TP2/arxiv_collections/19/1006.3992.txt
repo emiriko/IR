@@ -1,0 +1,12 @@
+Bayesian methods are becoming more widely used in asteroseismic analysis. In
+particular, they are being used to determine oscillation frequencies, which are
+also commonly found by Fourier analysis. It is important to establish whether
+the Bayesian methods provide an improvement on Fourier methods. We compare,
+using simulated data, the standard iterative sine-wave fitting method against a
+Markov Chain Monte Carlo (MCMC) code that has been introduced to infer purely
+the frequencies of oscillation modes (Brewer et al. 2007). A uniform prior
+probability distribution function is used for the MCMC method. We find the
+methods do equally well at determining the correct oscillation frequencies,
+although the Bayesian method is able to highlight the possibility of a
+misidentification due to aliasing, which can be useful. In general, we suggest
+that the least computationally intensive method is preferable.

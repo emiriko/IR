@@ -1,0 +1,11 @@
+Inferring the sequence of states from observations is one of the most
+fundamental problems in Hidden Markov Models. In statistical physics language,
+this problem is equivalent to computing the marginals of a one-dimensional
+model with a random external field. While this task can be accomplished through
+transfer matrix methods, it becomes quickly intractable when the underlying
+state space is large.
+  This paper develops several low-complexity approximate algorithms to address
+this inference problem when the state space becomes large. The new algorithms
+are based on various mean-field approximations of the transfer matrix. Their
+performances are studied in detail on a simple realistic model for DNA
+pyrosequencing.

@@ -1,0 +1,12 @@
+In this paper, we describe a novel proactive recovery scheme based on service
+migration for long-running Byzantine fault tolerant systems. Proactive recovery
+is an essential method for ensuring long term reliability of fault tolerant
+systems that are under continuous threats from malicious adversaries. The
+primary benefit of our proactive recovery scheme is a reduced vulnerability
+window. This is achieved by removing the time-consuming reboot step from the
+critical path of proactive recovery. Our migration-based proactive recovery is
+coordinated among the replicas, therefore, it can automatically adjust to
+different system loads and avoid the problem of excessive concurrent proactive
+recoveries that may occur in previous work with fixed watchdog timeouts.
+Moreover, the fast proactive recovery also significantly improves the system
+availability in the presence of faults.

@@ -1,0 +1,8 @@
+Generalized sparse matrix-matrix multiplication is a key primitive for many
+high performance graph algorithms as well as some linear solvers such as
+multigrid. We present the first parallel algorithms that achieve increasing
+speedups for an unbounded number of processors. Our algorithms are based on
+two-dimensional block distribution of sparse matrices where serial sections use
+a novel hypersparse kernel for scalability. We give a state-of-the-art MPI
+implementation of one of our algorithms. Our experiments show scaling up to
+thousands of processors on a variety of test scenarios.

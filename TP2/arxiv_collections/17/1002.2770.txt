@@ -1,0 +1,9 @@
+In this paper we analyze the relaxed form of a shape optimization problem
+with state equation $\{{array}{ll} -div \big(a(x)Du\big)=f\qquad\hbox{in}D
+\hbox{boundary conditions on}\partial D. {array}.$ The new fact is that the
+term $f$ is only known up to a random perturbation $\xi(x,\omega)$. The goal is
+to find an optimal coefficient $a(x)$, fulfilling the usual constraints
+$\alpha\le a\le\beta$ and $\displaystyle\int_D a(x) dx\le m$, which minimizes a
+cost function of the form $$\int_\Omega\int_Dj\big(x,\omega,u_a(x,\omega)\big)
+dx dP(\omega).$$ Some numerical examples are shown in the last section, to
+stress the difference with respect to the case with no perturbation.

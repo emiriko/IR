@@ -1,0 +1,15 @@
+In this paper, we describe direct-sequence code-division multiple-access
+(DS-CDMA) systems with quadriphase-shift keying in which channel estimation,
+coherent demodulation, and decoding are iteratively performed without the use
+of any training or pilot symbols. An expectation-maximization
+channel-estimation algorithm for the fading amplitude, phase, and the
+interference power spectral density (PSD) due to the combined interference and
+thermal noise is proposed for DS-CDMA systems with irregular repeat-accumulate
+codes. After initial estimates of the fading amplitude, phase, and interference
+PSD are obtained from the received symbols, subsequent values of these
+parameters are iteratively updated by using the soft feedback from the channel
+decoder. The updated estimates are combined with the received symbols and
+iteratively passed to the decoder. The elimination of pilot symbols simplifies
+the system design and allows either an enhanced information throughput, an
+improved bit error rate, or greater spectral efficiency. The interference-PSD
+estimation enables DS-CDMA systems to significantly suppress interference.

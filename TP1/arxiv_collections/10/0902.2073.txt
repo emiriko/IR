@@ -1,0 +1,13 @@
+We present a size-aware type system for first-order shapely function
+definitions. Here, a function definition is called shapely when the size of the
+result is determined exactly by a polynomial in the sizes of the arguments.
+Examples of shapely function definitions may be implementations of matrix
+multiplication and the Cartesian product of two lists. The type system is
+proved to be sound w.r.t. the operational semantics of the language. The type
+checking problem is shown to be undecidable in general. We define a natural
+syntactic restriction such that the type checking becomes decidable, even
+though size polynomials are not necessarily linear or monotonic. Furthermore,
+we have shown that the type-inference problem is at least semi-decidable (under
+this restriction). We have implemented a procedure that combines run-time
+testing and type-checking to automatically obtain size dependencies. It
+terminates on total typable function definitions.

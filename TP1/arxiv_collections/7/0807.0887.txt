@@ -1,0 +1,6 @@
+Several users of our AS relationship inference data
+(http://www.caida.org/data/active/as-relationships/), released with cs/0604017,
+asked us why it contained AS relationship cycles, e.g., cases where AS A is a
+provider of AS B, B is a provider of C, and C is a provider of A, or other
+cycle types. Having been answering these questions in private communications,
+we have eventually decided to write down our answers here for future reference.

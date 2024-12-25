@@ -1,0 +1,15 @@
+We consider a linear regression model with regression parameter beta
+=(beta_1, ..., beta_p) and independent and identically N(0, sigma^2)distributed
+errors. Suppose that the parameter of interest is theta = a^T beta where a is a
+specified vector. Define the parameter tau = c^T beta - t where the vector c
+and the number t are specified and a and c are linearly independent. Also
+suppose that we have uncertain prior information that tau = 0. Kabaila and Giri
+(2009c) present a new frequentist 1-alpha confidence interval for theta that
+utilizes this prior information. This interval has expected length that (a) is
+relatively small when the prior information about tau is correct and (b) has a
+maximum value that is not too large. It coincides with the standard 1-alpha
+confidence interval (obtained by fitting the full model to the data) when the
+data strongly contradicts the prior information. At first sight, the
+computation of this new confidence interval seems to be infeasible. However, by
+the use of the various computational devices that are presented in detail in
+the present paper, this computation becomes feasible and practicable.

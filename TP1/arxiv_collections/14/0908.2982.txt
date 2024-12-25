@@ -1,0 +1,10 @@
+We perform the Bayesian inference of a GARCH model by the Metropolis-Hastings
+algorithm with an adaptive proposal density. The adaptive proposal density is
+assumed to be the Student's t-distribution and the distribution parameters are
+evaluated by using the data sampled during the simulation. We apply the method
+for the QGARCH model which is one of asymmetric GARCH models and make empirical
+studies for for Nikkei 225, DAX and Hang indexes. We find that autocorrelation
+times from our method are very small, thus the method is very efficient for
+generating uncorrelated Monte Carlo data. The results from the QGARCH model
+show that all the three indexes show the leverage effect, i.e. the volatility
+is high after negative observations.

@@ -1,0 +1,22 @@
+Expander graphs have been recently proposed to construct efficient compressed
+sensing algorithms. In particular, it has been shown that any $n$-dimensional
+vector that is $k$-sparse (with $k\ll n$) can be fully recovered using
+$O(k\log\frac{n}{k})$ measurements and only $O(k\log n)$ simple recovery
+iterations. In this paper we improve upon this result by considering expander
+graphs with expansion coefficient beyond 3/4 and show that, with the same
+number of measurements, only $O(k)$ recovery iterations are required, which is
+a significant improvement when $n$ is large. In fact, full recovery can be
+accomplished by at most $2k$ very simple iterations. The number of iterations
+can be made arbitrarily close to $k$, and the recovery algorithm can be
+implemented very efficiently using a simple binary search tree. We also show
+that by tolerating a small penalty on the number of measurements, and not on
+the number of recovery iterations, one can use the efficient construction of a
+family of expander graphs to come up with explicit measurement matrices for
+this method. We compare our result with other recently developed
+expander-graph-based methods and argue that it compares favorably both in terms
+of the number of required measurements and in terms of the recovery time
+complexity. Finally we will show how our analysis extends to give a robust
+algorithm that finds the position and sign of the $k$ significant elements of
+an almost $k$-sparse signal and then, using very simple optimization
+techniques, finds in sublinear time a $k$-sparse signal which approximates the
+original signal with very high precision.

@@ -1,0 +1,20 @@
+Human users have a tough time remembering long cryptographic keys. Hence,
+researchers, for so long, have been examining ways to utilize biometric
+features of the user instead of a memorable password or passphrase, in an
+effort to generate strong and repeatable cryptographic keys. Our objective is
+to incorporate the volatility of the users biometric features into the
+generated key, so as to make the key unguessable to an attacker lacking
+significant knowledge of the users biometrics. We go one step further trying to
+incorporate multiple biometric modalities into cryptographic key generation so
+as to provide better security. In this article, we propose an efficient
+approach based on multimodal biometrics (Iris and fingerprint) for generation
+of secure cryptographic key. The proposed approach is composed of three modules
+namely, 1) Feature extraction, 2) Multimodal biometric template generation and
+3) Cryptographic key generation. Initially, the features, minutiae points and
+texture properties are extracted from the fingerprint and iris images
+respectively. Subsequently, the extracted features are fused together at the
+feature level to construct the multibiometric template. Finally, a 256bit
+secure cryptographic key is generated from the multibiometric template. For
+experimentation, we have employed the fingerprint images obtained from publicly
+available sources and the iris images from CASIA Iris Database. The
+experimental results demonstrate the effectiveness of the proposed approach.

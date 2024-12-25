@@ -1,0 +1,23 @@
+In the theory of operator quantum error correction (OQEC), the notion of
+correctability is defined under the assumption that states are perfectly
+initialized inside a particular subspace, a factor of which (a subsystem)
+contains the protected information. If the initial state of the system does not
+belong entirely to the subspace in question, the restriction of the state to
+the otherwise correctable subsystem may not remain invariant after the
+application of noise and error correction. It is known that in the case of
+decoherence-free subspaces and subsystems (DFSs) the condition for perfect
+unitary evolution inside the code imposes more restrictive conditions on the
+noise process if one allows imperfect initialization. It was believed that
+these conditions are necessary if DFSs are to be able to protect imperfectly
+encoded states from subsequent errors. By a similar argument, general OQEC
+codes would also require more restrictive error-correction conditions for the
+case of imperfect initialization. In this study, we examine this requirement by
+looking at the errors on the encoded state. In order to quantitatively analyze
+the errors in an OQEC code, we introduce a measure of the fidelity between the
+encoded information in two states for the case of subsystem encoding. A major
+part of the paper concerns the definition of the measure and the derivation of
+its properties. In contrast to what was previously believed, we obtain that
+more restrictive conditions are not necessary neither for DFSs nor for general
+OQEC codes. This is because the effective noise that can arise inside the code
+as a result of imperfect initialization is such that it can only increase the
+fidelity of an imperfectly encoded state with a perfectly encoded one.

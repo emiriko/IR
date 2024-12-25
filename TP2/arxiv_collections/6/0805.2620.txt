@@ -1,0 +1,10 @@
+The classical algorithm for solving B\"uchi games requires time $O(n\cdot m)$
+for game graphs with $n$ states and $m$ edges. For game graphs with constant
+outdegree, the best known algorithm has running time $O(n^2/\log n)$. We
+present two new algorithms for B\"uchi games. First, we give an algorithm that
+performs at most $O(m)$ more work than the classical algorithm, but runs in
+time O(n) on infinitely many graphs of constant outdegree on which the
+classical algorithm requires time $O(n^2)$. Second, we give an algorithm with
+running time $O(n\cdot m\cdot\log\delta(n)/\log n)$, where $1\le\delta(n)\le n$
+is the outdegree of the game graph. Note that this algorithm performs
+asymptotically better than the classical algorithm if $\delta(n)=O(\log n)$.

@@ -1,0 +1,11 @@
+We show how to extend classical work-stealing to deal also with data parallel
+tasks that can require any number of threads r >= 1 for their execution. We
+explain in detail the so introduced idea of work-stealing with deterministic
+team-building which in a natural way generalizes classical work-stealing. A
+prototype C++ implementation of the generalized work-stealing algorithm has
+been given and is briefly described. Building on this, a serious, well-known
+contender for a best parallel Quicksort algorithm has been implemented, which
+naturally relies on both task and data parallelism. For instance, sorting
+2^27-1 randomly generated integers we could improve the speed-up from 5.1 to
+8.7 on a 32-core Intel Nehalem EX system, being consistently better than the
+tuned, task-parallel Cilk++ system.

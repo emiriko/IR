@@ -1,0 +1,16 @@
+In this work, we modify the superparamagnetic clustering algorithm (SPC) by
+adding an extra weight to the interaction formula that considers which genes
+are regulated by the same transcription factor. With this modified algorithm
+that we call SPCTF, we analyze Spellman et al. microarray data for cell cycle
+genes in yeast, and find clusters with a higher number of elements compared
+with those obtained with the SPC algorithm. Some of the incorporated genes by
+using SPCFT were not detected at first by Spellman et al. but were later
+identified by other studies, whereas several genes still remain unclassified.
+The clusters composed by unidentified genes were analyzed with MUSA, the motif
+finding using an unsupervised approach algorithm, and this allow us to select
+the clusters whose elements contain cell cycle transcription factor binding
+sites as clusters worth of further experimental studies because they would
+probably lead to new cell cycle genes. Finally, our idea of introducing
+available information about transcription factors to optimize the gene
+classification could be implemented for other distance-based clustering
+algorithms

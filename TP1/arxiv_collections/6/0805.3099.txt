@@ -1,0 +1,21 @@
+We present a new two-dimensional numerical code called Nada designed to solve
+the full Einstein equations coupled to the general relativistic hydrodynamics
+equations. The code is mainly intended for studies of self-gravitating
+accretion disks (or tori) around black holes, although it is also suitable for
+regular spacetimes. Concerning technical aspects the Einstein equations are
+formulated and solved in the code using a formulation of the standard 3+1 (ADM)
+system, the so-called BSSN approach. A key feature of the code is that
+derivative terms in the spacetime evolution equations are computed using a
+fourth-order centered finite difference approximation in conjunction with the
+Cartoon method to impose the axisymmetry condition under Cartesian coordinates
+(the choice in Nada), and the puncture/moving puncture approach to carry out
+black hole evolutions. Correspondingly, the general relativistic hydrodynamics
+equations are written in flux-conservative form and solved with
+high-resolution, shock-capturing schemes. We perform and discuss a number of
+tests to assess the accuracy and expected convergence of the code, namely
+(single) black hole evolutions, shock tubes, and evolutions of both spherical
+and rotating relativistic stars in equilibrium, the gravitational collapse of a
+spherical relativistic star leading to the formation of a black hole. In
+addition, paving the way for specific applications of the code, we also present
+results from fully general relativistic numerical simulations of a system
+formed by a black hole surrounded by a self-gravitating torus in equilibrium.

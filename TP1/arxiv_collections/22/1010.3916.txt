@@ -1,0 +1,17 @@
+The dynamic properties and independence structure of stochastic kinetic
+models (SKMs) are analyzed. An SKM is a highly multivariate jump process used
+to model chemical reaction networks, particularly those in biochemical and
+cellular systems. We identify SKM subprocesses with the corresponding counting
+processes and propose a directed, cyclic graph (the kinetic independence graph
+or KIG) that encodes the local independence structure of their conditional
+intensities. Given a partition $[A,D,B]$ of the vertices, the graphical
+separation $A\perp B|D$ in the undirected KIG has an intuitive chemical
+interpretation and implies that $A$ is locally independent of $B$ given $A\cup
+D$. It is proved that this separation also results in global independence of
+the internal histories of $A$ and $B$ conditional on a history of the jumps in
+$D$ which, under conditions we derive, corresponds to the internal history of
+$D$. The results enable mathematical definition of a modularization of an SKM
+using its implied dynamics. Graphical decomposition methods are developed for
+the identification and efficient computation of nested modularizations.
+Application to an SKM of the red blood cell advances understanding of this
+biochemical system.

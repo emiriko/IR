@@ -1,0 +1,14 @@
+Perfect sampling is a technique that uses coupling arguments to provide a
+sample from the stationary distribution of a Markov chain in a finite time
+without ever computing the distribution. This technique is very efficient if
+all the events in the system have monotonicity property. However, in the
+general (non-monotone) case, this technique needs to consider the whole state
+space, which limits its application only to chains with a state space of small
+cardinality. We propose here a new approach for the general case that only
+needs to consider two trajectories. Instead of the original chain, we use two
+bounding processes (envelopes) and we show that, whenever they couple, one
+obtains a sample under the stationary distribution of the original chain. We
+show that this new approach is particularly effective when the state space can
+be partitioned into pieces where envelopes can be easily computed. We further
+show that most Markovian queueing networks have this property and we propose
+efficient algorithms for some of them.

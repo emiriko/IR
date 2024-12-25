@@ -1,0 +1,7 @@
+We define a two-step learner for RFSAs based on an observation table by using
+an algorithm for minimal DFAs to build a table for the reversal of the language
+in question and showing that we can derive the minimal RFSA from it after some
+simple modifications. We compare the algorithm to two other table-based ones of
+which one (by Bollig et al. 2009) infers a RFSA directly, and the other is
+another two-step learner proposed by the author. We focus on the criterion of
+query complexity.

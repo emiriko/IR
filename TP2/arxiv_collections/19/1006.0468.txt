@@ -1,0 +1,26 @@
+The discovery of quantum key distribution by Bennett and Brassard (BB84)
+bases on the fundamental quantum feature: incompatibility of measurements of
+quantum non-commuting observables. In 1991 Ekert showed that cryptographic key
+can be generated at a distance with help of entangled (correlated) quantum
+particles. Recently Barrett, Hardy and Kent showed that the non-locality used
+by Ekert is itself a good resource of cryptographic key even beyond quantum
+mechanics. Their result paved the way to new generation of quantum
+cryptographic protocols - secure even if the devices are built by the very
+eavesdropper. However, there is a question, which is fundamental from both
+practical and philosophical point of view: does Nature offer security on
+operational level based on the original concept behind quantum cryptography -
+that information gain about one observable must cause disturbance to another,
+incompatible one?
+  Here we resolve this problem by using another striking feature of quantum
+world - contextuality. It is a strong version of incompatibility manifested in
+the famous Kochen-Specker paradox. The crucial concept is the use of a new
+class of families of bipartite probability distributions . We show that if two
+persons share systems which locally exhibit the Kochen-Specker paradox and, in
+addition, exhibit perfect correlations, then they can extract secure key, even
+if they do not trust the quantum devices. This is the first operational
+protocol that directly implements the fundamental feature of Nature: the
+information gain vs. disturbance trade-off.
+  For sake of proof we exhibit a new Bell's inequality which is interesting in
+itself. The security is proved not by exploiting strong violation of the
+inequality by quantum mechanics (as one usually proceeds), but rather by
+arguing, that quantum mechanics cannot violate it too much.

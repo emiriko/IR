@@ -1,0 +1,10 @@
+Steganography is the process of hiding secret information by embedding it in
+an "innocent" message. We present protocols for hiding quantum information in a
+codeword of a quantum error-correcting code passing through a channel. Using
+either a shared classical secret key or shared entanglement the sender (Alice)
+disguises her information as errors in the channel. The receiver (Bob) can
+retrieve the hidden information, but an eavesdropper (Eve) with the power to
+monitor the channel, but without the secret key, cannot distinguish the message
+from channel noise. We analyze how difficult it is for Eve to detect the
+presence of secret messages, and estimate rates of steganographic communication
+and secret key consumption for certain protocols.

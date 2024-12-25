@@ -1,0 +1,14 @@
+In a recent Letter entitled "A new numerical method for obtaining gluon
+distribution functions $G(x,Q^2)=xg(x,Q^2)$, from the proton structure function
+$F_2^{\gamma p}(x,Q^2)$" [arXiv:0907.4790], we derived an accurate and fast
+algorithm for numerically inverting Laplace transforms, which we used in
+obtaining gluon distributions from the proton structure function $F_2^{\gamma
+p}(x,Q^2)$. We inverted the function $g(s)$, where $s$ is the variable in
+Laplace space, to $G(v)$, where $v$ is the variable in ordinary space. Since
+publication, we have discovered that the algorithm does not work if
+$g(s)\rightarrow 0$ less rapidly than $1/s$, as $s\rightarrow\infty$. Although
+we require that $g(s)\rightarrow 0$ as $s\rightarrow\infty$, it can approach 0
+as ${1\over s^\beta}$, with $0<\beta<1$, and still be a proper Laplace
+transform. In this note, we derive a new numerical algorithm for just such
+cases, and test it for $g(s)={\sqrt \pi\over \sqrt s} $, the Laplace transform
+of ${1\over \sqrt v}$.

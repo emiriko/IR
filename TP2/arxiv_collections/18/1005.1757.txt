@@ -1,0 +1,16 @@
+Most P2P VoD schemes focused on service architectures and overlays
+optimization without considering segments rarity and the performance of
+prefetching strategies. As a result, they cannot better support VCRoriented
+service in heterogeneous environment having clients using free VCR controls.
+Despite the remarkable popularity in VoD systems, there exist no prior work
+that studies the performance gap between different prefetching strategies. In
+this paper, we analyze and understand the performance of different prefetching
+strategies. Our analytical characterization brings us not only a better
+understanding of several fundamental tradeoffs in prefetching strategies, but
+also important insights on the design of P2P VoD system. On the basis of this
+analysis, we finally proposed a cooperative prefetching strategy called
+"cooching". In this strategy, the requested segments in VCR interactivities are
+prefetched into session beforehand using the information collected through
+gossips. We evaluate our strategy through extensive simulations. The results
+indicate that the proposed strategy outperforms the existing prefetching
+mechanisms.

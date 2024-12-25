@@ -1,0 +1,24 @@
+We present a fast general-purpose algorithm for high-throughput clustering of
+data "with a two dimensional organization". The algorithm is designed to be
+implemented with FPGAs or custom electronics. The key feature is a processing
+time that scales linearly with the amount of data to be processed. This means
+that clustering can be performed in pipeline with the readout, without
+suffering from combinatorial delays due to looping multiple times through all
+the data. This feature makes this algorithm especially well suited for problems
+where the data has high density, e.g. in the case of tracking devices working
+under high-luminosity condition such as those of LHC or Super-LHC. The
+algorithm is organized in two steps: the first step (core) clusters the data;
+the second step analyzes each cluster of data to extract the desired
+information. The current algorithm is developed as a clustering device for
+modern high-energy physics pixel detectors. However, the algorithm has much
+broader field of applications. In fact, its core does not specifically rely on
+the kind of data or detector it is working for, while the second step can and
+should be tailored for a given application. Applications can thus be foreseen
+to other detectors and other scientific fields ranging from HEP calorimeters to
+medical imaging. An additional advantage of this two steps approach is that the
+typical clustering related calculations (second step) are separated from the
+combinatorial complications of clustering. This separation simplifies the
+design of the second step and it enables it to perform sophisticated
+calculations achieving online-quality in online applications. The algorithm is
+general purpose in the sense that only minimal assumptions on the kind of
+clustering to be performed are made.

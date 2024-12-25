@@ -1,0 +1,19 @@
+A portion of frequency band for International Mobile Telecommunications
+(IMT)-Advanced is currently allocated to Fixed Wireless Service (FWS) such as
+Fixed Service (FS), Fixed Satellite Service (FSS), or Fixed Wireless Access
+(FWA), which requires frequency sharing between both the systems. SDMA, due to
+its high throughput nature, is candidate for IMT-Advanced. This paper proposes
+a systematic design of a precoder codebook for SDMA sharing spectrum with
+existing FWS. Based on an estimated direction angle of a victim FWS system, an
+interfering transmitter adaptively constructs a codebook forming a transmit
+null in the direction angle while satisfying orthogonal beamforming constraint.
+We derive not only asymptotic throughput scaling laws, but also an upperbound
+on throughput loss to analyze performance loss of the proposed SDMA relative to
+the popular SDMA called per-user unitary rate control (PU2RC). Furthermore, we
+develop a method of evaluating protection distance in order to analyze the
+spectrum sharing performance of the proposed approach. The simulation results
+of protection distance confirm that the proposed SDMA efficiently shares
+spectrum with FWS systems by reducing protection distance to more than 66%.
+Although our proposed SDMA always has lower throughput compared to PU2RC in
+non-coexistence scenario, it offers an intriguing opportunity to reuse spectrum
+already allocated to FWS.

@@ -1,0 +1,10 @@
+Rijndael algorithm was unanimously chosen as the Advanced Encryption Standard
+(AES) by the panel of researchers at National Institute of Standards and
+Technology (NIST) in October 2000. Since then, Rijndael was destined to be used
+massively in various software as well as hardware entities for encrypting data.
+However, a few years back, Daniel Bernstein devised a cache timing attack that
+was capable enough to break Rijndael seal that encapsulates the encryption key.
+In this paper, we propose a new Dynamic Cache Flushing (DCF) algorithm which
+shows a set of pragmatic software measures that would make Rijndael impregnable
+to cache timing attack. The simulation results demonstrate that the proposed
+DCF algorithm provides better security by encrypting key at a constant time.

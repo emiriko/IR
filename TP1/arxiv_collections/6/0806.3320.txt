@@ -1,0 +1,17 @@
+We develop two new designs of unitary differential space-time modulation
+(DSTM) with low decoding complexity. Their decoder can be separated into a few
+parallel decoders, each of which has a decoding search space of less than
+sqrt(N) if the DSTM codebook contains N codewords. Both designs are based on
+the concept of joint modulation, which means that several information symbols
+are jointly modulated, unlike the conventional symbol-by-symbol modulation. The
+first design is based on Orthogonal Space-Time Block Code (O-STBC) with joint
+constellation constructed from spherical codes. The second design is based on
+Quasi-Orthogonal Space-Time Block Code (QO-STBC) with specially designed
+pair-wise constellation sets. Both the proposed unitary DSTM schemes have
+considerably lower decoding complexity than many prior DSTM schemes, including
+those based on Group Codes and Sp(2) which generally have a decoding search
+space of N for a codebook size of N codewords, and much better decoding
+performance than the existing O-STBC DSTM scheme. Between two designs, the
+proposed DSTM based on O-STBC generally has better decoding performance, while
+the proposed DSTM based on QO-STBC has lower decoding complexity when 8
+transmit antennas.

@@ -1,0 +1,13 @@
+Algorithms have two costs: arithmetic and communication. The latter
+represents the cost of moving data, either between levels of a memory
+hierarchy, or between processors over a network. Communication often dominates
+arithmetic and represents a rapidly increasing proportion of the total cost, so
+we seek algorithms that minimize communication. In \cite{BDHS10} lower bounds
+were presented on the amount of communication required for essentially all
+$O(n^3)$-like algorithms for linear algebra, including eigenvalue problems and
+the SVD. Conventional algorithms, including those currently implemented in
+(Sca)LAPACK, perform asymptotically more communication than these lower bounds
+require. In this paper we present parallel and sequential eigenvalue algorithms
+(for pencils, nonsymmetric matrices, and symmetric matrices) and SVD algorithms
+that do attain these lower bounds, and analyze their convergence and
+communication costs.

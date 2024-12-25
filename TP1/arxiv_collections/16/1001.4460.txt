@@ -1,0 +1,17 @@
+We investigate the properties of the Hybrid Monte-Carlo algorithm (HMC) in
+high dimensions. HMC develops a Markov chain reversible w.r.t. a given target
+distribution $\Pi$ by using separable Hamiltonian dynamics with potential
+$-\log\Pi$. The additional momentum variables are chosen at random from the
+Boltzmann distribution and the continuous-time Hamiltonian dynamics are then
+discretised using the leapfrog scheme. The induced bias is removed via a
+Metropolis-Hastings accept/reject rule. In the simplified scenario of
+independent, identically distributed components, we prove that, to obtain an
+$\mathcal{O}(1)$ acceptance probability as the dimension $d$ of the state space
+tends to $\infty$, the leapfrog step-size $h$ should be scaled as $h= l \times
+d^{-1/4}$. Therefore, in high dimensions, HMC requires $\mathcal{O}(d^{1/4})$
+steps to traverse the state space. We also identify analytically the
+asymptotically optimal acceptance probability, which turns out to be 0.651 (to
+three decimal places). This is the choice which optimally balances the cost of
+generating a proposal, which {\em decreases} as $l$ increases, against the cost
+related to the average number of proposals required to obtain acceptance, which
+{\em increases} as $l$ increases.

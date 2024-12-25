@@ -1,0 +1,11 @@
+Sequential Monte Carlo (SMC) methods are a widely used set of computational
+tools for inference in non-linear non-Gaussian state-space models. We propose a
+new SMC algorithm to compute the expectation of additive functionals
+recursively. Essentially, it is an online or forward-only implementation of a
+forward filtering backward smoothing SMC algorithm proposed in Doucet .et .al
+(2000). Compared to the standard path space SMC estimator whose asymptotic
+variance increases quadratically with time even under favourable mixing
+assumptions, the asymptotic variance of the proposed SMC estimator only
+increases linearly with time. This forward smoothing procedure allows us to
+implement on-line maximum likelihood parameter estimation algorithms which do
+not suffer from the particle path degeneracy problem.

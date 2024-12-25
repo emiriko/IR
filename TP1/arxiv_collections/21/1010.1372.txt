@@ -1,0 +1,18 @@
+We introduce a new method to price American-style options on underlying
+investments governed by stochastic volatility (SV) models. The method does not
+require the volatility process to be observed. Instead, it exploits the fact
+that the optimal decision functions in the corresponding dynamic programming
+problem can be expressed as functions of conditional distributions of
+volatility, given observed data. By constructing statistics summarizing
+information about these conditional distributions, one can obtain high quality
+approximate solutions. Although the required conditional distributions are in
+general intractable, they can be arbitrarily precisely approximated using
+sequential Monte Carlo schemes. The drawback, as with many Monte Carlo schemes,
+is potentially heavy computational demand. We present two variants of the
+algorithm, one closely related to the well-known least-squares Monte Carlo
+algorithm of Longstaff and Schwartz [The Review of Financial Studies 14 (2001)
+113-147], and the other solving the same problem using a "brute force" gridding
+approach. We estimate an illustrative SV model using Markov chain Monte Carlo
+(MCMC) methods for three equities. We also demonstrate the use of our algorithm
+by estimating the posterior distribution of the market price of volatility risk
+for each of the three equities.

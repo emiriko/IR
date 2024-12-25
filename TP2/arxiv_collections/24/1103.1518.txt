@@ -1,0 +1,20 @@
+Tor is a popular low-latency anonymity network. However, Tor does not protect
+against the exploitation of an insecure application to reveal the IP address
+of, or trace, a TCP stream. In addition, because of the linkability of Tor
+streams sent together over a single circuit, tracing one stream sent over a
+circuit traces them all. Surprisingly, it is unknown whether this linkability
+allows in practice to trace a significant number of streams originating from
+secure (i.e., proxied) applications. In this paper, we show that linkability
+allows us to trace 193% of additional streams, including 27% of HTTP streams
+possibly originating from "secure" browsers. In particular, we traced 9% of Tor
+streams carried by our instrumented exit nodes. Using BitTorrent as the
+insecure application, we design two attacks tracing BitTorrent users on Tor. We
+run these attacks in the wild for 23 days and reveal 10,000 IP addresses of Tor
+users. Using these IP addresses, we then profile not only the BitTorrent
+downloads but also the websites visited per country of origin of Tor users. We
+show that BitTorrent users on Tor are over-represented in some countries as
+compared to BitTorrent users outside of Tor. By analyzing the type of content
+downloaded, we then explain the observed behaviors by the higher concentration
+of pornographic content downloaded at the scale of a country. Finally, we
+present results suggesting the existence of an underground BitTorrent ecosystem
+on Tor.

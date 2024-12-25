@@ -1,0 +1,12 @@
+We count ]B, C]-grained, k-factor integers which are simultaneously B-rough
+and C-smooth and have a fixed number k of prime factors. Our aim is to exploit
+explicit versions of the prime number theorem as much as possible to get good
+explicit bounds for the count of such integers. This analysis was inspired by
+certain inner procedures in the general number field sieve. The result should
+at least provide some insight in what happens there.
+  We estimate the given count in terms of some recursively defined functions.
+Since they are still difficult to handle, only another approximation step
+reveals their orders.
+  Finally, we use the obtained bounds to perform numerical experiments that
+show how good the desired count can be approximated for the parameters of the
+general number field sieve in the mentioned inspiring application.

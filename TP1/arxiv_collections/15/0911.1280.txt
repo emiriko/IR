@@ -1,0 +1,15 @@
+Many analyses and parameter estimations undertaken in astronomy require a
+large set (> 10^5) of non-analytical, theoretical spectra, each of these
+defined by multiple parameters. We describe the construction of an
+N-dimensional grid which is suitable for generating such spectra. The
+theoretical spectra are designed to correspond to a targeted parameter grid but
+otherwise to random positions in the parameter space, and they are interpolated
+on-the-fly through a pre-calculated grid of spectra. The initial grid is
+designed to be relatively low in parameter resolution and small in occupied
+hard disk space and therefore can be updated efficiently when a new model is
+desired. In a pilot study of stellar population synthesis of galaxies, the mean
+square errors on the estimated parameters are found to decrease with the
+targeted grid resolution. This scheme of generating a large model grid is
+general for other areas of studies, particularly if they are based on
+multi-dimensional parameter space and are focused on contrasting model
+differences.

@@ -1,0 +1,18 @@
+In computational molecular biology, gene regulatory binding sites prediction
+in whole genome remains a challenge for the researchers. Now a days, the genome
+wide regulatory binding site prediction tools required either direct pattern
+sequence or weight matrix. Although there are known transcription factor
+binding sites databases available for genome wide prediction but no tool is
+available which can construct different weight matrices as per need of user or
+tools available for large data set scanning by first aligning the input
+upstream or promoter sequences and than construct the matrices in different
+level and file format. Considering this, we developed a DNA MATRIX tool for
+searching putative regulatory binding sites in gene upstream sequences. This
+tool uses the simple biological rule based heuristic algorithm for weight
+matrix construction, which can be transformed into different formats after
+motif alignment and therefore provides the possibility to identify the most
+potential conserved binding sites in the regulated genes. The user may
+construct and save specific weight or frequency matrices in different form and
+file formats based on user based selection of conserved aligned block of short
+sequences ranges from 6 to 20 base pairs and prior nucleotide frequency before
+weight scoring.

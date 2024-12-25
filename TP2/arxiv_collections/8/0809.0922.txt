@@ -1,0 +1,14 @@
+Superposition is an established decision procedure for a variety of
+first-order logic theories represented by sets of clauses. A satisfiable
+theory, saturated by superposition, implicitly defines a minimal term-generated
+model for the theory. Proving universal properties with respect to a saturated
+theory directly leads to a modification of the minimal model's term-generated
+domain, as new Skolem functions are introduced. For many applications, this is
+not desired.
+  Therefore, we propose the first superposition calculus that can explicitly
+represent existentially quantified variables and can thus compute with respect
+to a given domain. This calculus is sound and refutationally complete in the
+limit for a first-order fixed domain semantics. For saturated Horn theories and
+classes of positive formulas, we can even employ the calculus to prove
+properties of the minimal model itself, going beyond the scope of known
+superposition-based approaches.

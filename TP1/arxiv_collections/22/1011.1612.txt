@@ -1,0 +1,20 @@
+It is known that the maximum classical mutual information that can be
+achieved between measurements on a pair of quantum systems can drastically
+underestimate the quantum mutual information between those systems. In this
+article, we quantify this distinction between classical and quantum information
+by demonstrating that after removing a logarithmic-sized quantum system from
+one half of a pair of perfectly correlated bitstrings, even the most sensitive
+pair of measurements might only yield outcomes essentially independent of each
+other. This effect is a form of information locking but the definition we use
+is strictly stronger than those used previously. Moreover, we find that this
+property is generic, in the sense that it occurs when removing a random
+subsystem. As such, the effect might be relevant to statistical mechanics or
+black hole physics. Previous work on information locking had always assumed a
+uniform message. In this article, we assume only a min-entropy bound on the
+message and also explore the effect of entanglement. We find that classical
+information is strongly locked almost until it can be completely decoded. As a
+cryptographic application of these results, we exhibit a quantum key
+distribution protocol that is "secure" if the eavesdropper's information about
+the secret key is measured using the accessible information but in which
+leakage of even a logarithmic number of key bits compromises the secrecy of all
+the others.

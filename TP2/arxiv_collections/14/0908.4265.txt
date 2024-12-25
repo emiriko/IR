@@ -1,0 +1,13 @@
+Multipath interference is an ubiquitous phenomenon in modern communication
+systems. The conventional way to compensate for this effect is to equalize the
+channel by estimating its impulse response by transmitting a set of training
+symbols. The primary drawback to this type of approach is that it can be
+unreliable if the channel is changing rapidly. In this paper, we show that
+randomly encoding the signal can protect it against channel uncertainty when
+the channel is sparse. Before transmission, the signal is mapped into a
+slightly longer codeword using a random matrix. From the received signal, we
+are able to simultaneously estimate the channel and recover the transmitted
+signal. We discuss two schemes for the recovery. Both of them exploit the
+sparsity of the underlying channel. We show that if the channel impulse
+response is sufficiently sparse, the transmitted signal can be recovered
+reliably.

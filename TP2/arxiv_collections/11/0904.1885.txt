@@ -1,0 +1,24 @@
+We study a conservative 5-point cell-centered finite volume discretization of
+the high-contrast diffusion equation. We aim to construct preconditioners that
+are robust with respect to the magnitude of the coefficient contrast and the
+mesh size simultaneously. For that, we prove and numerically demonstrate the
+robustness of the preconditioner proposed by Aksoylu et al. (2008, Comput. Vis.
+Sci. 11, pp. 319--331) by extending the devised singular perturbation analysis
+from linear finite element discretization to the above discretization. The
+singular perturbation analysis is more involved than that of finite element
+because all the subblocks in the discretization matrix depend on the diffusion
+coefficient. However, that dependence is eliminated asymptotically. This allows
+the same preconditioner to be utilized due to similar limiting behaviours of
+the submatrices; leading to a narrowing family of preconditioners that can be
+used for different discretizations--a desirable preconditioner design goal. We
+compare our numerical results to standard cell-centered multigrid and observe
+that performance of our preconditioner is independent of the utilized
+prolongation operators and smoothers.
+  As a side result, we also prove that the solution over the highly-diffusive
+island becomes constant asymptotically. Integration of this qualitative
+understanding of the underlying PDE to our preconditioner is the main reason
+behind its superior performance. Diagonal scaling is probably the most basic
+preconditioner for high-contrast coefficients. Extending the matrix entry based
+spectral analysis introduced by Graham and Hagger, we rigorously show that the
+number of small eigenvalues of the diagonally scaled matrix depends on the
+number of isolated islands comprising the highly-diffusive region.

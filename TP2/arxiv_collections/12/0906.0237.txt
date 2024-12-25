@@ -1,0 +1,12 @@
+Power analysis attacks against embedded secret key cryptosystems are widely
+studied since the seminal paper of Paul Kocher, Joshua Ja, and Benjamin Jun in
+1998 where has been introduced the powerful Differential Power Analysis. The
+strength of DPA is such that it became necessary to develop sound and efficient
+countermeasures. Nowadays embedded cryptographic primitives usually integrate
+one or several of these countermeasures (e.g. masking techniques, asynchronous
+designs, balanced dynamic dual-rail gates designs, noise adding, power
+consumption smoothing, etc. ...). This document presents a simple, yet
+interesting, countermeasure to DPA and HO-DPA attacks, called brutal
+countermeasure and new power analysis attacks using multi-linear approximations
+(MLPA attacks) based on very recent and still unpublished results of Tavernier
+et al..

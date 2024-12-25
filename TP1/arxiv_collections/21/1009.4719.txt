@@ -1,0 +1,9 @@
+This paper describes an effective unsupervised speaker indexing approach. We
+suggest a two stage algorithm to speed-up the state-of-the-art algorithm based
+on the Bayesian Information Criterion (BIC). In the first stage of the merging
+process a computationally cheap method based on the vector quantization (VQ) is
+used. Then in the second stage a more computational expensive technique based
+on the BIC is applied. In the speaker indexing task a turning parameter or a
+threshold is used. We suggest an on-line procedure to define the value of a
+turning parameter without using development data. The results are evaluated
+using 10 hours of audio data.

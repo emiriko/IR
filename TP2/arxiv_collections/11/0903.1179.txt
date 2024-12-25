@@ -1,0 +1,16 @@
+We present a Bayesian approach to calculating the coefficients that convert
+the outputs of ALMA 183 GHz water-vapour radiometers into estimates of path
+fluctuations which can then be used to correct the observed interferometric
+visibilities. The key features of the approach are a simple, thin-layer,
+three-parameter model of the atmosphere; using the absolute measurements from
+the radiometers to constrain the model; priors to incorporate physical
+constraints and ancillary information; and a Markov Chain Monte Carlo
+characterisation of the posterior distribution including full distributions for
+the phase correction coefficients. The outcomes of the procedure are therefore
+estimates of the coefficients and their confidence intervals. We illustrate the
+technique with simulations showing some degeneracies that can arise and the
+importance of priors in tackling them. We then apply the technique to an
+hour-long test observation at the Sub-Millimetre Array and find that the
+technique is stable and that, in this case, its performance is close to
+optimal. The modelling is described in detail in the appendices and all of the
+implementation source code is made publicly available under the GPL.

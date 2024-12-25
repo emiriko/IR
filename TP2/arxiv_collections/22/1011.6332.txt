@@ -1,0 +1,14 @@
+The Asteroseismic Modeling Portal (AMP) provides a web-based interface for
+astronomers to run and view simulations that derive the properties of Sun-like
+stars from observations of their pulsation frequencies. In this paper, we
+describe the architecture and implementation of AMP, highlighting the
+lightweight design principles and tools used to produce a functional
+fully-custom web-based science application in less than a year. Targeted as a
+TeraGrid science gateway, AMP's architecture and implementation are intended to
+simplify its orchestration of TeraGrid computational resources. AMP's web-based
+interface was developed as a traditional standalone database-backed web
+application using the Python-based Django web development framework, allowing
+us to leverage the Django framework's capabilities while cleanly separating the
+user interface development from the grid interface development. We have found
+this combination of tools flexible and effective for rapid gateway development
+and deployment.

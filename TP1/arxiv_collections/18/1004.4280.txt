@@ -1,0 +1,17 @@
+Given a discrete stochastic process, for example a chemical reaction system
+or a birth and death process, we often want to find a continuous stochastic
+approximation so that the techniques of stochastic differential equations may
+be brought to bear. One powerful and useful way to do this is the system size
+expansion of van Kampen to express a trajectory as a small stochastic
+perturbation to a deterministic trajectory, using a small parameter related to
+the volume of the system in question. This is usually pursued only up to first
+order, called the Linear Noise Approximation. The usual derivation of this
+proceeds via the master equation of the discrete process and derives a
+Fokker-Planck equation for the stochastic perturbation, both of which are
+equations for the evolution of probability distributions. Here we present a
+derivation using stochastic difference equations for the discrete process and
+leading, via the chemical Langevin equation of Gillespie, directly to a
+stochastic differential equation for the stochastic perturbation. The new
+derivation, which does not yield the full system size expansion, draws more
+explicitly on the intuition of ordinary differential equations so may be more
+easily digestible for some audiences.

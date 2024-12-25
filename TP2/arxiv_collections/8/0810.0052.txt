@@ -1,0 +1,15 @@
+For a fixed virtual scene (=collection of simplices) S and given observer
+position p, how many elements of S are weakly visible (i.e. not fully occluded
+by others) from p? The present work explores the trade-off between query time
+and preprocessing space for these quantities in 2D: exactly, in the approximate
+deterministic, and in the probabilistic sense. We deduce the EXISTENCE of an
+O(m^2/n^2) space data structure for S that, given p and time O(log n), allows
+to approximate the ratio of occluded segments up to arbitrary constant absolute
+error; here m denotes the size of the Visibility Graph--which may be quadratic,
+but typically is just linear in the size n of the scene S. On the other hand,
+we present a data structure CONSTRUCTIBLE in O(n*log(n)+m^2*polylog(n)/k)
+preprocessing time and space with similar approximation properties and query
+time O(k*polylog n), where k<n is an arbitrary parameter. We describe an
+implementation of this approach and demonstrate the practical benefit of the
+parameter k to trade memory for query time in an empirical evaluation on three
+classes of benchmark scenes.

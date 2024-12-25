@@ -1,0 +1,12 @@
+We show by large deviations theory that the performance of running consensus
+is asymptotically equivalent to the performance of the (asymptotically) optimal
+centralized detector. Running consensus is a stochastic approximation type
+algorithm for distributed detection in sensor networks, recently proposed. At
+each time step, the state at each sensor is updated by a local averaging of its
+own state and the states of its neighbors (consensus) and by accounting for the
+new observations (innovation). We assume Gaussian, spatially correlated
+observations, and we allow for the underlying network to be randomly varying.
+This paper shows through large deviations that the Bayes probability of
+detection error, for the distributed detector, decays at the best achievable
+rate, namely, the Chernoff information rate. Numerical examples illustrate the
+behavior of the distributed detector for finite number of observations.

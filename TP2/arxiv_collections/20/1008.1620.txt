@@ -1,0 +1,16 @@
+This paper introduces GODDeS: a fully distributed self-organizing
+decision-theoretic routing algorithm designed to effectively exploit high
+quality paths in lossy ad-hoc wireless environments, typically with a large
+number of nodes. The routing problem is modeled as an optimal control problem
+for a decentralized Markov Decision Process, with links characterized by
+locally known packet drop probabilities that either remain constant on average
+or change slowly. The equivalence of this optimization problem to that of
+performance maximization of an explicitly constructed probabilistic automata
+allows us to effectively apply the theory of quantitative measures of
+probabilistic regular languages, and design a distributed highly efficient
+solution approach that attempts to minimize source-to-sink drop probabilities
+across the network. Theoretical results provide rigorous guarantees on global
+performance, showing that the algorithm achieves near-global optimality, in
+polynomial time. It is also argued that GODDeS is significantly
+congestion-aware, and exploits multi-path routes optimally. Theoretical
+development is supported by high-fidelity network simulations.

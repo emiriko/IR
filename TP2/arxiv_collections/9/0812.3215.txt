@@ -1,0 +1,21 @@
+Theoretical predictions in high energy physics are routinely provided in the
+form of Monte Carlo generators. Comparisons of predictions from different
+programs and/or different initialization set-ups are often necessary. MC-TESTER
+can be used for such tests of decays of intermediate states (particles or
+resonances) in a semi-automated way.
+  Since 2002 new functionalities were introduced into the package. In
+particular, it now works with the HepMC event record, the standard for C++
+programs. The complete set-up for benchmarking the interfaces, such as
+interface between tau-lepton production and decay, including QED bremsstrahlung
+effects is shown. The example is chosen to illustrate the new options
+introduced into the program. From the technical perspective, our paper
+documents software updates and supplements previous documentation.
+  As in the past, our test consists of two steps. Distinct Monte Carlo programs
+are run separately; events with decays of a chosen particle are searched, and
+information is stored by MC-TESTER. Then, at the analysis step, information
+from a pair of runs may be compared and represented in the form of tables and
+plots.
+  Updates introduced in the progam up to version 1.24.3 are also documented. In
+particular, new configuration scripts or script to combine results from
+multitude of runs into single information file to be used in analysis step are
+explained.

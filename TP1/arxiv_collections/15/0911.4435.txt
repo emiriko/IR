@@ -1,0 +1,12 @@
+Here we present the mathematical and numerical details of a general hybrid
+model for plasmas. All grid quantities are stored at cell centers on the grid.
+The most common discretization of the fields in PIC solvers is to have the
+electric and magnetic fields staggered, introduced by Yee. This automatically
+ensures that div(B)=0, down to round-off errors. Here we instead present a cell
+centered discretization of the magnetic field. That the standard cell centered
+second order stencil for rot(E) in Faraday's law will preserve div(B)=0 was
+noted by Toth. The advantage of a cell centered discretization is ease of
+implementation, and the possibility to use available solvers that only handle
+cell centered variables. We also show that the proposed method has very good
+energy conservation for a simple test problem in three dimensions, when
+compared to a commonly used algorithm.

@@ -1,0 +1,11 @@
+Kaltofen has proposed a new approach in [Kaltofen 1992] for computing matrix
+determinants. The algorithm is based on a baby steps/giant steps construction
+of Krylov subspaces, and computes the determinant as the constant term of a
+characteristic polynomial. For matrices over an abstract field and by the
+results of Baur and Strassen 1983, the determinant algorithm, actually a
+straight-line program, leads to an algorithm with the same complexity for
+computing the adjoint of a matrix [Kaltofen 1992]. However, the latter is
+obtained by the reverse mode of automatic differentiation and somehow is not
+``explicit''. We study this adjoint algorithm, show how it can be implemented
+(without resorting to an automatic transformation), and demonstrate its use on
+polynomial matrices.

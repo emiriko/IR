@@ -1,0 +1,11 @@
+A message-passing algorithm for counting short cycles in a graph is
+presented. For bipartite graphs, which are of particular interest in coding,
+the algorithm is capable of counting cycles of length g, g +2,..., 2g - 2,
+where g is the girth of the graph. For a general (non-bipartite) graph, cycles
+of length g; g + 1, ..., 2g - 1 can be counted. The algorithm is based on
+performing integer additions and subtractions in the nodes of the graph and
+passing extrinsic messages to adjacent nodes. The complexity of the proposed
+algorithm grows as $O(g|E|^2)$, where $|E|$ is the number of edges in the
+graph. For sparse graphs, the proposed algorithm significantly outperforms the
+existing algorithms in terms of computational complexity and memory
+requirements.

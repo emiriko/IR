@@ -1,0 +1,15 @@
+We characterize the invariant filtering measures resulting from Kalman
+filtering with intermittent observations (\cite{Bruno}), where the observation
+arrival is modeled as a Bernoulli process. In \cite{Riccati-weakconv}, it was
+shown that there exists a $\overline{\gamma}^{\{\scriptsize{sb}}}>0$ such that
+for every observation packet arrival probability $\overline{\gamma}$,
+$\overline{\gamma}>\overline{\gamma}^{\{\scriptsize{sb}}}>0$, the sequence of
+random conditional error covariance matrices converges in distribution to a
+unique invariant distribution $\mathbb{\mu}^{\overline{\gamma}}$ (independent
+of the filter initialization.) In this paper, we prove that, for controllable
+and observable systems, $\overline{\gamma}^{\{\scriptsize{sb}}}=0$ and that, as
+$\overline{\gamma}\uparrow 1$, the family
+$\{\mathbb{\mu}^{\overline{\gamma}}\}_{\overline{\gamma}>0}$ of invariant
+distributions satisfies a moderate deviations principle (MDP) with a good rate
+function $I$. The rate function $I$ is explicitly identified. In particular,
+our results show:

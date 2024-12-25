@@ -1,0 +1,13 @@
+Algorithms are developed for calculating dealiased linear convolution sums
+without the expense of conventional zero-padding or phase-shift techniques. For
+one-dimensional in-place convolutions, the memory requirements are identical
+with the zero-padding technique, with the important distinction that the
+additional work memory need not be contiguous with the input data. This
+decoupling of data and work arrays dramatically reduces the memory and
+computation time required to evaluate higher-dimensional in-place convolutions.
+The technique also allows one to dealias the higher-order convolutions that
+arise from Fourier transforming cubic and higher powers. Implicitly dealiased
+convolutions can be built on top of state-of-the-art fast Fourier transform
+libraries: vectorized multidimensional implementations for the complex and
+centered Hermitian (pseudospectral) cases have been implemented in the
+open-source software FFTW++.

@@ -1,0 +1,15 @@
+The Use Case Maps (UCM) scenario notation is applicable to many requirements
+engineering activities. However, other scenario notations, such as Message
+Sequence Charts (MSC) and UML Sequence Diagrams (SD), have shown to be better
+suited for detailed design. In order to use the notation that is best
+appropriate for each phase in an efficient manner, a mechanism has to be
+devised to automatically transfer the knowledge acquired during the
+requirements analysis phase (using UCM) to the design phase (using MSC or SD).
+This paper introduces UCMEXPORTER, a new tool that implements such a mechanism
+and reduces the gap between high-level requirements and detailed design.
+UCMEXPORTER automatically transforms individual UCM scenarios to UML Sequence
+Diagrams, MSC scenarios, and even TTCN-3 test skeletons. We highlight the
+current capabilities of the tool as well as architectural solutions addressing
+the main challenges faced during such transformation, including the handling of
+concurrent scenario paths, the generation of customized messages, and tool
+interoperability.

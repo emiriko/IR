@@ -1,0 +1,13 @@
+In this paper, we explore the limits of graphics processors (GPUs) for
+general purpose parallel computing by studying problems that require highly
+irregular data access patterns: parallel graph algorithms for list ranking and
+connected components. Such graph problems represent a worst case scenario for
+coalescing parallel memory accesses on GPUs which is critical for good GPU
+performance. Our experimental study indicates that PRAM algorithms are a good
+starting point for developing efficient parallel GPU methods but require
+non-trivial modifications to ensure good GPU performance. We present a set of
+guidelines that help algorithm designers adapt PRAM graph algorithms for
+parallel GPU computation. We point out that the study of parallel graph
+algorithms for GPUs is of wider interest for discrete and combinatorial
+problems in general because many of these problems require similar irregular
+data access patterns.

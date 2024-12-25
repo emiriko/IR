@@ -1,0 +1,10 @@
+In the particular case we have insertions/deletions at the tail of a given
+set S of $n$ one-dimensional elements, we present a simpler and more concrete
+algorithm than that presented in [Anderson, 2007] achieving the same (but also
+amortized) upper bound of $O(\sqrt{logd/loglogd})$ for finger searching
+queries, where $d$ is the number of sorted keys between the finger element and
+the target element we are looking for. Furthermore, in general case we have
+insertions/deletions anywhere we present a new randomized algorithm achieving
+the same expected time bounds. Even the new solutions achieve the optimal
+bounds in amortized or expected case, the advantage of simplicity is of great
+importance due to practical merits we gain.

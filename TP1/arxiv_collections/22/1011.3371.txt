@@ -1,0 +1,25 @@
+In many medical studies, patients are followed longitudinally and interest is
+on assessing the relationship between longitudinal measurements and time to an
+event. Recently, various authors have proposed joint modeling approaches for
+longitudinal and time-to-event data for a single longitudinal variable. These
+joint modeling approaches become intractable with even a few longitudinal
+variables. In this paper we propose a regression calibration approach for
+jointly modeling multiple longitudinal measurements and discrete time-to-event
+data. Ideally, a two-stage modeling approach could be applied in which the
+multiple longitudinal measurements are modeled in the first stage and the
+longitudinal model is related to the time-to-event data in the second stage.
+Biased parameter estimation due to informative dropout makes this direct
+two-stage modeling approach problematic. We propose a regression calibration
+approach which appropriately accounts for informative dropout. We approximate
+the conditional distribution of the multiple longitudinal measurements given
+the event time by modeling all pairwise combinations of the longitudinal
+measurements using a bivariate linear mixed model which conditions on the event
+time. Complete data are then simulated based on estimates from these pairwise
+conditional models, and regression calibration is used to estimate the
+relationship between longitudinal data and time-to-event data using the
+complete data. We show that this approach performs well in estimating the
+relationship between multivariate longitudinal measurements and the
+time-to-event data and in estimating the parameters of the multiple
+longitudinal process subject to informative dropout. We illustrate this
+methodology with simulations and with an analysis of primary biliary cirrhosis
+(PBC) data.

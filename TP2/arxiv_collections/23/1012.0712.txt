@@ -1,0 +1,19 @@
+Presently available perturbative QCD calculations combining hard process
+matrix element with the Parton Shower Monte Carlo programs feature hard process
+matrix element calculated often beyond the leading order (LO), that is
+including complete next-to-leading-order (NLO), or even
+next-to-next-to-leading-order (NNLO) corrections, while Parton Shower is only
+at the leading order (LO). We report here on a work in progress which
+demonstrate feasibility of constructing Parton Shower Monte Carlo (PSMC)
+featuring complete NLO corrections to QCD evolution with respect to the
+logarithm of the factorization scale. This effort presently covers non-singlet
+subset of Feynman diagrams contributing to the above QCD evolution. It should
+be stressed that our approach to the NLO QCD evolution is exclusive, that is
+giving insight into the fully unintegrated phase space. However, at the
+inclusive level our implementation agrees exactly with the standard inclusive
+picture of the NLO DGLAP evolution. Our new approach (after including NLO
+singlet diagrams) provides a complete method of combining the resummed and
+fixed order perturbative QCD calculations beyond the LO in a form suitable for
+the MC implementation, an alternative to the existing ones. First practical
+applications will include Monte Carlo generators for W/Z production processes
+in hadron-hadron colliders and lepton-hadron colliders.

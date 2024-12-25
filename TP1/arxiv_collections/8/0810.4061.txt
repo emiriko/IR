@@ -1,0 +1,10 @@
+We address the problem of determining a natural local neighbourhood or
+"cluster" associated to a given seed vertex in an undirected graph. We
+formulate the task in terms of absorption times of random walks from other
+vertices to the vertex of interest, and observe that these times are well
+approximated by the components of the principal eigenvector of the
+corresponding fundamental matrix of the graph's adjacency matrix. We further
+present a locally computable gradient-descent method to estimate this
+Dirichlet-Fiedler vector, based on minimising the respective Rayleigh quotient.
+Experimental evaluation shows that the approximations behave well and yield
+well-defined local clusters.

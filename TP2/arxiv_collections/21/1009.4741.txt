@@ -1,0 +1,13 @@
+Coin flipping is a cryptographic primitive for which strictly better
+protocols exist if the players are not only allowed to exchange classical, but
+also quantum messages. During the past few years, several results have appeared
+which give a tight bound on the range of implementable unconditionally secure
+coin flips, both in the classical as well as in the quantum setting and for
+both weak as well as strong coin flipping. But the picture is still incomplete:
+in the quantum setting, all results consider only protocols with perfect
+correctness, and in the classical setting tight bounds for strong coin flipping
+are still missing. We give a general definition of coin flipping which unifies
+the notion of strong and weak coin flipping (it contains both of them as
+special cases) and allows the honest players to abort with a certain
+probability. We give tight bounds on the achievable range of parameters both in
+the classical and in the quantum setting.

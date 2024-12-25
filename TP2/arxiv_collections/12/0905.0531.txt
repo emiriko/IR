@@ -1,0 +1,15 @@
+The surface code scheme for quantum computation features a 2d array of
+nearest-neighbor coupled qubits yet claims a threshold error rate approaching
+1% (NJoP 9:199, 2007). This result was obtained for the toric code, from which
+the surface code is derived, and surpasses all other known codes restricted to
+2d nearest-neighbor architectures by several orders of magnitude. We describe
+in detail an error correction procedure for the toric and surface codes, which
+is based on polynomial-time graph matching techniques and is efficiently
+implementable as the classical feed-forward processing step in a real quantum
+computer. By direct simulation of this error correction scheme, we determine
+the threshold error rates for the two codes (differing only in their boundary
+conditions) for both ideal and non-ideal syndrome extraction scenarios. We
+verify that the toric code has an asymptotic threshold of p = 15.5% under ideal
+syndrome extraction, and p = 7.8 10^-3 for the non-ideal case, in agreement
+with prior work. Simulations of the surface code indicate that the threshold is
+close to that of the toric code.

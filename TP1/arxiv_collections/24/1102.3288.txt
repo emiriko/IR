@@ -1,0 +1,19 @@
+Multiple measurement vector (MMV) problem addresses the identification of
+unknown input vectors that share common sparse support. The MMV problems had
+been traditionally addressed either by sensor array signal processing or
+compressive sensing. However, recent breakthrough in this area such as
+compressive MUSIC (CS-MUSIC) or subspace-augumented MUSIC (SA-MUSIC) optimally
+combines the compressive sensing (CS) and array signal processing such that
+$k-r$ supports are first found by CS and the remaining $r$ supports are
+determined by generalized MUSIC criterion, where $k$ and $r$ denote the
+sparsity and the independent snapshots, respectively. Even though such hybrid
+approach significantly outperforms the conventional algorithms, its performance
+heavily depends on the correct identification of $k-r$ partial support by
+compressive sensing step, which often deteriorate the overall performance. The
+main contribution of this paper is, therefore, to show that as long as $k-r+1$
+correct supports are included in any $k$-sparse CS solution, the optimal $k-r$
+partial support can be found using a subspace fitting criterion, significantly
+improving the overall performance of CS-MUSIC. Furthermore, unlike the single
+measurement CS counterpart that requires infinite SNR for a perfect support
+recovery, we can derive an information theoretic sufficient condition for the
+perfect recovery using CS-MUSIC under a {\em finite} SNR scenario.

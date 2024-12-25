@@ -1,0 +1,25 @@
+In the coming decade, astronomical surveys of the sky will generate tens of
+terabytes of images and detect hundreds of millions of sources every night. The
+study of these sources will involve computation challenges such as anomaly
+detection and classification, and moving object tracking. Since such studies
+benefit from the highest quality data, methods such as image coaddition
+(stacking) will be a critical preprocessing step prior to scientific
+investigation. With a requirement that these images be analyzed on a nightly
+basis to identify moving sources or transient objects, these data streams
+present many computational challenges. Given the quantity of data involved, the
+computational load of these problems can only be addressed by distributing the
+workload over a large number of nodes. However, the high data throughput
+demanded by these applications may present scalability challenges for certain
+storage architectures. One scalable data-processing method that has emerged in
+recent years is MapReduce, and in this paper we focus on its popular
+open-source implementation called Hadoop. In the Hadoop framework, the data is
+partitioned among storage attached directly to worker nodes, and the processing
+workload is scheduled in parallel on the nodes that contain the required input
+data. A further motivation for using Hadoop is that it allows us to exploit
+cloud computing resources, e.g., Amazon's EC2. We report on our experience
+implementing a scalable image-processing pipeline for the SDSS imaging database
+using Hadoop. This multi-terabyte imaging dataset provides a good testbed for
+algorithm development since its scope and structure approximate future surveys.
+First, we describe MapReduce and how we adapted image coaddition to the
+MapReduce framework. Then we describe a number of optimizations to our basic
+approach and report experimental results comparing their performance.

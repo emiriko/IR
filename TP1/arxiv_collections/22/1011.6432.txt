@@ -1,0 +1,14 @@
+Timed automata and register automata are well-known models of computation
+over timed and data words respectively. The former has clocks that allow to
+test the lapse of time between two events, whilst the latter includes registers
+that can store data values for later comparison. Although these two models
+behave in appearance differently, several decision problems have the same
+(un)decidability and complexity results for both models. As a prominent
+example, emptiness is decidable for alternating automata with one clock or
+register, both with non-primitive recursive complexity. This is not by chance.
+  This work confirms that there is indeed a tight relationship between the two
+models. We show that a run of a timed automaton can be simulated by a register
+automaton, and conversely that a run of a register automaton can be simulated
+by a timed automaton. Our results allow to transfer complexity and decidability
+results back and forth between these two kinds of models. We justify the
+usefulness of these reductions by obtaining new results on register automata.

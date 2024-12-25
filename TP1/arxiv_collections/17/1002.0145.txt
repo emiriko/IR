@@ -1,0 +1,23 @@
+We study the problem of identity testing for depth-3 circuits of top fanin k
+and degree d. We give a new structure theorem for such identities. A direct
+application of our theorem improves the known deterministic d^{k^k}-time
+black-box identity test over rationals (Kayal-Saraf, FOCS 2009) to one that
+takes d^{k^2}-time. Our structure theorem essentially says that the number of
+independent variables in a real depth-3 identity is very small. This theorem
+settles affirmatively the stronger rank conjectures posed by Dvir-Shpilka (STOC
+2005) and Kayal-Saraf (FOCS 2009). Our techniques provide a unified framework
+that actually beats all known rank bounds and hence gives the best running time
+(for every field) for black-box identity tests.
+  Our main theorem (almost optimally) pins down the relation between higher
+dimensional Sylvester-Gallai theorems and the rank of depth-3 identities in a
+very transparent manner. The existence of this was hinted at by Dvir-Shpilka
+(STOC 2005), but first proven, for reals, by Kayal-Saraf (FOCS 2009). We
+introduce the concept of Sylvester-Gallai rank bounds for any field, and show
+the intimate connection between this and depth-3 identity rank bounds. We also
+prove the first ever theorem about high dimensional Sylvester-Gallai
+configurations over any field. Our proofs and techniques are very different
+from previous results and devise a very interesting ensemble of combinatorics
+and algebra. The latter concepts are ideal theoretic and involve a new Chinese
+remainder theorem. Our proof methods explain the structure of any depth-3
+identity C: there is a nucleus of C that forms a low rank identity, while the
+remainder is a high dimensional Sylvester-Gallai configuration.

@@ -1,0 +1,23 @@
+We calculate corrections to the fermion propagator and to the Green's
+functions of all fermion bilinear operators of the form $\bar\Psi \Gamma \Psi$,
+to one-loop in perturbation theory.
+  We employ the Wilson/clover action for fermions and a family of Symanzik
+improved actions for gluons.
+  The novel aspect of our calculations is that they are carried out to second
+order in the lattice spacing, $O(a^2)$. Consequently, they have addressed a
+number of new issues, most notably the appearance of loop integrands with
+strong IR divergences (convergent only beyond 6 dimensions). Such integrands
+are not present in $O(a^1)$ improvement calculations; there, IR divergent terms
+are seen to have the same structure as in the $O(a^0)$ case, by virtue of
+parity under integration, and they can thus be handled by well-known
+techniques. We explain how to correctly extract the full $O(a^2)$ dependence;
+in fact, our method is generalizable to any order in $a$.
+  The $O(a^2)$ corrections to the quark propagator and Green's functions
+computed in this paper are useful to improve the nonperturbative RI-MOM
+determination of renormalization constants for quark bilinear operators.
+  Our results depend on a large number of parameters: coupling constant, number
+of colors, lattice spacing, external momentum, clover parameter, Symanzik
+coefficients, gauge parameter. To make these results most easily accessible to
+the reader, we have included them in the distribution package of this paper, as
+an ASCII file named: Oa2results.m ; the file is best perused as Mathematica
+input.

@@ -1,0 +1,17 @@
+We establish a spectral duality for certain unbounded operators in Hilbert
+space. The class of operators includes discrete graph Laplacians arising from
+infinite weighted graphs. The problem in this context is to establish a
+practical approximation of infinite models with suitable sequences of finite
+models which in turn allow (relatively) easy computations.
+  Let $X$ be an infinite set and let $\H$ be a Hilbert space of functions on
+$X$ with inner product $\ip{\cdot}{\cdot}=\ip{\cdot}{\cdot}_{\H}$. We will be
+assuming that the Dirac masses $\delta_x$, for $x\in X$, are contained in $\H$.
+And we then define an associated operator $\Delta$ in $\H$ given by $$(\Delta
+v)(x):=\ip{\delta_x}{v}_{\H}.$$ Similarly, for every finite subset $F\subset
+X$, we get an operator $\Delta_F$.
+  If $F_1\subset F_2\subset...$ is an ascending sequence of finite subsets such
+that $\cup_{k\in\bn}F_k=X$, we are interested in the following two problems:
+  (a) obtaining an approximation formula
+$$\lim_{k\to\infty}\Delta_{F_k}=\Delta;$$ and
+  (b) establish a computational spectral analysis for the truncated operators
+$\Delta_F$ in (a).

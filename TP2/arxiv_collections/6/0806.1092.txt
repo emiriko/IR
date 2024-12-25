@@ -1,0 +1,18 @@
+In this paper we study the effect of stochastic errors on two constrained
+incremental sub-gradient algorithms. We view the incremental sub-gradient
+algorithms as decentralized network optimization algorithms as applied to
+minimize a sum of functions, when each component function is known only to a
+particular agent of a distributed network. We first study the standard cyclic
+incremental sub-gradient algorithm in which the agents form a ring structure
+and pass the iterate in a cycle. We consider the method with stochastic errors
+in the sub-gradient evaluations and provide sufficient conditions on the
+moments of the stochastic errors that guarantee almost sure convergence when a
+diminishing step-size is used. We also obtain almost sure bounds on the
+algorithm's performance when a constant step-size is used. We then consider
+\ram{the} Markov randomized incremental subgradient method, which is a
+non-cyclic version of the incremental algorithm where the sequence of computing
+agents is modeled as a time non-homogeneous Markov chain. Such a model is
+appropriate for mobile networks, as the network topology changes across time in
+these networks. We establish the convergence results and error bounds for the
+Markov randomized method in the presence of stochastic errors for diminishing
+and constant step-sizes, respectively.

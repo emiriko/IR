@@ -1,0 +1,18 @@
+Discrete Fourier transforms~(DFTs) over finite fields have widespread
+applications in digital communication and storage systems. Hence, reducing the
+computational complexities of DFTs is of great significance. Recently proposed
+cyclotomic fast Fourier transforms (CFFTs) are promising due to their low
+multiplicative complexities. Unfortunately, there are two issues with CFFTs:
+(1) they rely on efficient short cyclic convolution algorithms, which has not
+been investigated thoroughly yet, and (2) they have very high additive
+complexities when directly implemented. In this paper, we address both issues.
+One of the main contributions of this paper is efficient bilinear 11-point
+cyclic convolution algorithms, which allow us to construct CFFTs over
+GF$(2^{11})$. The other main contribution of this paper is that we propose
+composite cyclotomic Fourier transforms (CCFTs). In comparison to previously
+proposed fast Fourier transforms, our CCFTs achieve lower overall complexities
+for moderate to long lengths, and the improvement significantly increases as
+the length grows. Our 2047-point and 4095-point CCFTs are also first efficient
+DFTs of such lengths to the best of our knowledge. Finally, our CCFTs are also
+advantageous for hardware implementations due to their regular and modular
+structure.

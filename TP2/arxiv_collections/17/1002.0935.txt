@@ -1,0 +1,13 @@
+A choreography describes a transaction in which several principals interact.
+Since choreographies frequently describe business processes affecting
+substantial assets, we need a security infrastructure in order to implement
+them safely. As part of a line of work devoted to generating cryptoprotocols
+from choreographies, we focus here on the execution models suited to the two
+levels.
+  We give a strand-style semantics for choreographies, and propose a special
+execution model in which choreography-level messages are faithfully delivered
+exactly once. We adapt this model to handle multiparty protocols in which some
+participants may be compromised.
+  At level of cryptoprotocols, we use the standard Dolev-Yao execution model,
+with one alteration. Since many implementations use a "nonce cache" to discard
+multiply delivered messages, we provide a semantics for at-most-once delivery.

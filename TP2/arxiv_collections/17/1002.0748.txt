@@ -1,0 +1,21 @@
+Turbulence simulation codes can exploit the flute-like nature of plasma
+turbulence to reduce the effective number of degrees of freedom necessary to
+represent fluctuations. This can be achieved by employing magnetic coordinates
+of which one is aligned along the magnetic field. This work presents an
+approach in which the position along the field lines is identified by the
+toroidal angle, rather than the most commonly used poloidal angle. It will be
+shown that this approach has several advantages. Among these, periodicity in
+both angles is retained. This property allows moving to an equivalent
+representation in Fourier space with a reduced number of toroidal components.
+It will be shown how this duality can be exploited to transform conventional
+codes that use a spectral representation on the magnetic surface into codes
+with a field-aligned coordinate. It is also shown that the new approach can be
+generalised to get rid of magnetic coordinates in the poloidal plane
+altogether, for a large class of models. Tests are carried out by comparing the
+new approach with the conventional approach employing a uniform grid, for a
+basic ion temperature gradient (ITG) turbulence model implemented by the two
+corresponding versions of the ETAI3D code. These tests uncover an unexpected
+property of the model, that localized large parallel gradients can
+intermittently appear in the turbulent regime. This leaves open the question
+whether this is a general property of plasma turbulence, which may lead one to
+reconsider some of the usual assumptions on micro-turbulence dynamics.

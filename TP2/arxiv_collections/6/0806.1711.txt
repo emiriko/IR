@@ -1,0 +1,9 @@
+Many protocols for distributed and peer-to-peer systems have the feature that
+nodes will stop providing service for others once they have received a certain
+amount of service. Examples include BitTorent's unchoking policy, BAR Gossip's
+balanced exchanges, and threshold strategies in scrip systems. An attacker can
+exploit this by providing service in a targeted way to prevent chosen nodes
+from providing service. While such attacks cannot be prevented, we discuss
+techniques that can be used to limit the damage they do. These techniques
+presume that a certain number of processes will follow the recommended
+protocol, even if they could do better by ``gaming'' the system.

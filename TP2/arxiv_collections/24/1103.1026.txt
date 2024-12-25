@@ -1,0 +1,18 @@
+Efficient dynamic spectrum access mechanism is crucial for improving the
+spectrum utilization. In this paper, we consider the dynamic spectrum access
+mechanism design with both complete and incomplete network information. When
+the network information is available, we propose an evolutionary spectrum
+access mechanism. We use the replicator dynamics to study the dynamics of
+channel selections, and show that the mechanism achieves an equilibrium that is
+an evolutionarily stable strategy and is also max-min fair. With incomplete
+network information, we propose a distributed reinforcement learning mechanism
+for dynamic spectrum access. Each secondary user applies the maximum likelihood
+estimation method to estimate its expected payoff based on the local
+observations, and learns to adjust its mixed strategy for channel selections
+adaptively over time. We study the convergence of the learning mechanism based
+on the theory of stochastic approximation, and show that it globally converges
+to an approximate Nash equilibrium. Numerical results show that the proposed
+evolutionary spectrum access and distributed reinforcement learning mechanisms
+achieve up to 82% and 70% performance improvement than a random access
+mechanism, respectively, and are robust to random perturbations of channel
+selections.

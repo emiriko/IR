@@ -1,0 +1,22 @@
+Logic programming has developed as a rich field, built over a logical
+substratum whose main constituent is a nonclassical form of negation, sometimes
+coexisting with classical negation. The field has seen the advent of a number
+of alternative semantics, with Kripke-Kleene semantics, the well-founded
+semantics, the stable model semantics, and the answer-set semantics standing
+out as the most successful. We show that all aforementioned semantics are
+particular cases of a generic semantics, in a framework where classical
+negation is the unique form of negation and where the literals in the bodies of
+the rules can be `marked' to indicate that they can be the targets of
+hypotheses. A particular semantics then amounts to choosing a particular
+marking scheme and choosing a particular set of hypotheses. When a literal
+belongs to the chosen set of hypotheses, all marked occurrences of that literal
+in the body of a rule are assumed to be true, whereas the occurrences of that
+literal that have not been marked in the body of the rule are to be derived in
+order to contribute to the firing of the rule. Hence the notion of hypothetical
+reasoning that is presented in this framework is not based on making global
+assumptions, but more subtly on making local, contextual assumptions, taking
+effect as indicated by the chosen marking scheme on the basis of the chosen set
+of hypotheses. Our approach offers a unified view on the various semantics
+proposed in logic programming, classical in that only classical negation is
+used, and links the semantics of logic programs to mechanisms that endow
+rule-based systems with the power to harness hypothetical reasoning.

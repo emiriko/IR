@@ -1,0 +1,15 @@
+Adaptive control problems are notoriously difficult to solve even in the
+presence of plant-specific controllers. One way to by-pass the intractable
+computation of the optimal policy is to restate the adaptive control as the
+minimization of the relative entropy of a controller that ignores the true
+plant dynamics from an informed controller. The solution is given by the
+Bayesian control rule-a set of equations characterizing a stochastic adaptive
+controller for the class of possible plant dynamics. Here, the Bayesian control
+rule is applied to derive BCR-MDP, a controller to solve undiscounted Markov
+decision processes with finite state and action spaces and unknown dynamics. In
+particular, we derive a non-parametric conjugate prior distribution over the
+policy space that encapsulates the agent's whole relevant history and we
+present a Gibbs sampler to draw random policies from this distribution.
+Preliminary results show that BCR-MDP successfully avoids sub-optimal limit
+cycles due to its built-in mechanism to balance exploration versus
+exploitation.

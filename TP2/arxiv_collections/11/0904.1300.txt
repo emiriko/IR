@@ -1,0 +1,23 @@
+Bayesian methods and their implementations by means of sophisticated Monte
+Carlo techniques, such as Markov chain Monte Carlo (MCMC) and particle filters,
+have become very popular in signal processing over the last years. However, in
+many problems of practical interest these techniques demand procedures for
+sampling from probability distributions with non-standard forms, hence we are
+often brought back to the consideration of fundamental simulation algorithms,
+such as rejection sampling (RS). Unfortunately, the use of RS techniques
+demands the calculation of tight upper bounds for the ratio of the target
+probability density function (pdf) over the proposal density from which
+candidate samples are drawn. Except for the class of log-concave target pdf's,
+for which an efficient algorithm exists, there are no general methods to
+analytically determine this bound, which has to be derived from scratch for
+each specific case. In this paper, we introduce new schemes for (a) obtaining
+upper bounds for likelihood functions and (b) adaptively computing proposal
+densities that approximate the target pdf closely. The former class of methods
+provides the tools to easily sample from a posteriori probability distributions
+(that appear very often in signal processing problems) by drawing candidates
+from the prior distribution. However, they are even more useful when they are
+exploited to derive the generalized adaptive RS (GARS) algorithm introduced in
+the second part of the paper. The proposed GARS method yields a sequence of
+proposal densities that converge towards the target pdf and enable a very
+efficient sampling of a broad class of probability distributions, possibly with
+multiple modes and non-standard forms.

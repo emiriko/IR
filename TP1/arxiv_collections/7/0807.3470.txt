@@ -1,0 +1,16 @@
+We study Bayesian discriminative inference given a model family $p(c,\x,
+\theta)$ that is assumed to contain all our prior information but still known
+to be incorrect. This falls in between "standard" Bayesian generative modeling
+and Bayesian regression, where the margin $p(\x,\theta)$ is known to be
+uninformative about $p(c|\x,\theta)$. We give an axiomatic proof that
+discriminative posterior is consistent for conditional inference; using the
+discriminative posterior is standard practice in classical Bayesian regression,
+but we show that it is theoretically justified for model families of joint
+densities as well. A practical benefit compared to Bayesian regression is that
+the standard methods of handling missing values in generative modeling can be
+extended into discriminative inference, which is useful if the amount of data
+is small. Compared to standard generative modeling, discriminative posterior
+results in better conditional inference if the model family is incorrect. If
+the model family contains also the true model, the discriminative posterior
+gives the same result as standard Bayesian generative modeling. Practical
+computation is done with Markov chain Monte Carlo.

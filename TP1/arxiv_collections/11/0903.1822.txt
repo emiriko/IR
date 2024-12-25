@@ -1,0 +1,14 @@
+The intuitionistic fragment of the call-by-name version of Curien and
+Herbelin's \lambda\_mu\_{\~mu}-calculus is isolated and proved strongly
+normalising by means of an embedding into the simply-typed lambda-calculus. Our
+embedding is a continuation-and-garbage-passing style translation, the
+inspiring idea coming from Ikeda and Nakazawa's translation of Parigot's
+\lambda\_mu-calculus. The embedding strictly simulates reductions while usual
+continuation-passing-style transformations erase permutative reduction steps.
+For our intuitionistic sequent calculus, we even only need "units of garbage"
+to be passed. We apply the same method to other calculi, namely successive
+extensions of the simply-typed &lambda;-calculus leading to our intuitionistic
+system, and already for the simplest extension we consider (&lambda;-calculus
+with generalised application), this yields the first proof of strong
+normalisation through a reduction-preserving embedding. The results obtained
+extend to second and higher-order calculi.

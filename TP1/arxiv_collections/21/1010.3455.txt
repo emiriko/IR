@@ -1,0 +1,26 @@
+In 1979, Norton showed that the representation theory of the 0-Hecke algebra
+admits a rich combinatorial description. Her constructions rely heavily on some
+triangularity property of the product, but do not use explicitly that the
+0-Hecke algebra is a monoid algebra.
+  The thesis of this paper is that considering the general setting of monoids
+admitting such a triangularity, namely J-trivial monoids, sheds further light
+on the topic. This is a step to use representation theory to automatically
+extract combinatorial structures from (monoid) algebras, often in the form of
+posets and lattices, both from a theoretical and computational point of view,
+and with an implementation in Sage.
+  Motivated by ongoing work on related monoids associated to Coxeter systems,
+and building on well-known results in the semi-group community (such as the
+description of the simple modules or the radical), we describe how most of the
+data associated to the representation theory (Cartan matrix, quiver) of the
+algebra of any J-trivial monoid M can be expressed combinatorially by counting
+appropriate elements in M itself. As a consequence, this data does not depend
+on the ground field and can be calculated in O(n^2), if not O(nm), where n=|M|
+and m is the number of generators. Along the way, we construct a triangular
+decomposition of the identity into orthogonal idempotents, using the usual
+M\"obius inversion formula in the semi-simple quotient (a lattice), followed by
+an algorithmic lifting step.
+  Applying our results to the 0-Hecke algebra (in all finite types), we recover
+previously known results and additionally provide an explicit labeling of the
+edges of the quiver. We further explore special classes of J-trivial monoids,
+and in particular monoids of order preserving regressive functions on a poset,
+generalizing known results on the monoids of nondecreasing parking functions.

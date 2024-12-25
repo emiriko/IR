@@ -1,0 +1,9 @@
+Unit resolution can simplify a CNF formula or detect an inconsistency by
+repeatedly assign the variables occurring in unit clauses. Given any CNF
+formula sigma, we show that there exists a satisfiable CNF formula psi with
+size polynomially related to the size of sigma such that applying unit
+resolution to psi simulates all the effects of applying it to sigma. The
+formula psi is said to be the reified counterpart of sigma. This approach can
+be used to prove that the failed literal rule, which is an inference rule used
+by some SAT solvers, can be entirely simulated by unit resolution. More
+generally, it sheds new light on the expressive power of unit resolution.

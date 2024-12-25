@@ -1,0 +1,17 @@
+As known, physical circuits, e.g. integrated circuits or power system, work
+in a distributed manner, but these circuits could not be easily simulated in a
+distributed way. This is mainly because that the dynamical system of physical
+circuits is nonlinear and the linearized system of physical circuits is
+nonsymmetrical. This paper proposes a simple and natural strategy to mimic the
+distributed behavior of the physical circuit by mimicking the distributed
+behavior of the internal wires inside this circuit. Mimic Transmission Method
+(MTM) is a new distributed algorithm to solve the nonlinear ordinary
+differential equations extracted from physical circuits. It maps the
+transmission delay of interconnects between subcircuits to the communication
+delay of digital data link between processors. MTM is a black-box algorithm. By
+mimicking the transmission lines, MTM seals the nonlinear dynamical system
+within the subcircuit. As the result, we do not need to pay attention on how to
+solve the nonlinear dynamic system or nonsymmetrical linear system in parallel.
+MTM is a global direct algorithm, and it does only one distributed computation
+at each time window to obtain accurate result, so unconvergence issues do not
+need to be worried about.

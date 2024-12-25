@@ -1,0 +1,11 @@
+Many important problems in discrete optimization require maximization of a
+monotonic submodular function subject to matroid constraints. For these
+problems, a simple greedy algorithm is guaranteed to obtain near-optimal
+solutions. In this article, we extend this classic result to a general class of
+adaptive optimization problems under partial observability, where each choice
+can depend on observations resulting from past choices. Specifically, we prove
+that a natural adaptive greedy algorithm provides a $1/(p+1)$ approximation for
+the problem of maximizing an adaptive monotone submodular function subject to
+$p$ matroid constraints, and more generally over arbitrary $p$-independence
+systems. We illustrate the usefulness of our result on a complex adaptive
+match-making application.

@@ -1,0 +1,12 @@
+We present a randomized approximation algorithm for counting contingency
+tables, mxn non-negative integer matrices with given row sums R=(r_1, ..., r_m)
+and column sums C=(c_1, ..., c_n). We define smooth margins (R,C) in terms of
+the typical table and prove that for such margins the algorithm has
+quasi-polynomial N^{O(ln N)} complexity, where N=r_1+...+r_m=c_1+...+c_n.
+Various classes of margins are smooth, e.g., when m=O(n), n=O(m) and the ratios
+between the largest and the smallest row sums as well as between the largest
+and the smallest column sums are strictly smaller than the golden ratio
+(1+sqrt{5})/2 = 1.618. The algorithm builds on Monte Carlo integration and
+sampling algorithms for log-concave densities, the matrix scaling algorithm,
+the permanent approximation algorithm, and an integral representation for the
+number of contingency tables.

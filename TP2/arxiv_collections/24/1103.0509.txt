@@ -1,0 +1,11 @@
+Modelling the complex physics of the Interstellar Medium (ISM) in the context
+of large-scale numerical simulations is a challenging task. A number of methods
+have been proposed to embed a description of the ISM into different codes. We
+propose a new way to achieve this task: Artificial Neural Networks (ANNs). The
+ANN has been trained on a pre-compiled model database, and its predictions have
+been compared to the expected theoretical ones, finding good agreement both in
+static and in dynamical tests run using the Padova Tree-SPH code \textsc{EvoL}.
+A neural network can reproduce the details of the interstellar gas evolution,
+requiring limited computational resources. We suggest that such an algorithm
+can replace a real-time calculation of mass elements chemical evolution in
+hydrodynamical codes.

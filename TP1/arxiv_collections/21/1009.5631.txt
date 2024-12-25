@@ -1,0 +1,17 @@
+This paper presents an approach for obtaining accurate interaction energies
+at the DFT level for systems where dispersion interactions are important. This
+approach combines Becke and Johnson's [J. Chem. Phys. 127, 154108 (2007)]
+method for the evaluation of dispersion energy corrections and a Hirshfeld
+method for partitioning of molecular polarizability tensors into atomic
+contributions. Due to the availability of atomic polarizability tensors, the
+method is extended to incorporate anisotropic contributions, which prove to be
+important for complexes of lower symmetry. The method is validated for a set of
+eighteen complexes, for which interaction energies were obtained with the
+B3LYP, PBE and TPSS functionals combined with the aug-cc-pVTZ basis set and
+compared with the values obtained at CCSD(T) level extrapolated to a complete
+basis set limit. It is shown that very good quality interaction energies can be
+obtained by the proposed method for each of the examined functionals, the
+overall performance of the TPSS functional being the best, which with a slope
+of 1.00 in the linear regression equation and a constant term of only 0.1
+kcal/mol allows to obtain accurate interaction energies without any need of a
+damping function for complexes close to their exact equilibrium geometry.

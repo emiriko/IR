@@ -1,0 +1,12 @@
+As scientific applications extend to the simulation of more and more complex
+systems, they involve an increasing number of abstraction levels, at each of
+which errors can emerge and across which they can propagate; tools for
+correctness evaluation and enforcement at every level (from the code level to
+the application level) are therefore necessary. Whilst code-level debugging
+tools are already a well established standard, application-level tools are
+lagging behind, possibly due to their stronger dependence on the application's
+details. In this paper, we describe the programming model introduced by the
+Cactus framework, review the High Performance Computing (HPC) challenges that
+Cactus is designed to address, and illustrate the correctness strategies that
+are currently available in Cactus at the code, component, and application
+level.

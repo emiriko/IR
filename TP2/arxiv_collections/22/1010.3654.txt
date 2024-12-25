@@ -1,0 +1,16 @@
+A central problem in quantum computation is to understand which quantum
+circuits are useful for exponential speed-ups over classical computation. We
+address this question in the setting of query complexity and show that for
+almost any sufficiently long quantum circuit one can construct a black-box
+problem which is solved by the circuit with a constant number of quantum
+queries, but which requires exponentially many classical queries, even if the
+classical machine has the ability to postselect.
+  We prove the result in two steps. In the first, we show that almost any
+element of an approximate unitary 3-design is useful to solve a certain
+black-box problem efficiently. The problem is based on a recent oracle
+construction of Aaronson and gives an exponential separation between quantum
+and classical bounded-error with postselection query complexities.
+  In the second step, which may be of independent interest, we prove that
+linear-sized random quantum circuits give an approximate unitary 3-design. The
+key ingredient in the proof is a technique from quantum many-body theory to
+lower bound the spectral gap of local quantum Hamiltonians.

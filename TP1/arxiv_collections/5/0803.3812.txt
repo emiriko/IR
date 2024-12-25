@@ -1,0 +1,13 @@
+Given an argumentation framework AF, we introduce a mapping function that
+constructs a disjunctive logic program P, such that the preferred extensions of
+AF correspond to the stable models of P, after intersecting each stable model
+with the relevant atoms. The given mapping function is of polynomial size
+w.r.t. AF. In particular, we identify that there is a direct relationship
+between the minimal models of a propositional formula and the preferred
+extensions of an argumentation framework by working on representing the
+defeated arguments. Then we show how to infer the preferred extensions of an
+argumentation framework by using UNSAT algorithms and disjunctive stable model
+solvers. The relevance of this result is that we define a direct relationship
+between one of the most satisfactory argumentation semantics and one of the
+most successful approach of non-monotonic reasoning i.e., logic programming
+with the stable model semantics.

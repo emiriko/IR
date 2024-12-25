@@ -1,0 +1,12 @@
+The ocean general circulation model OPA is developed by the LODYC team at
+Paris VI university. OPA has recently undergone a major rewriting, migrating to
+FORTRAN95, and its adjoint code needs to be rebuilt. For earlier versions, the
+adjoint of OPA was written by hand at a high development cost. We use the
+Automatic Differentiation tool TAPENADE to build mechanicaly the tangent and
+adjoint codes of OPA. We validate the differentiated codes by comparison with
+divided differences, and also with an identical twin experiment. We apply
+state-of-the-art methods to improve the performance of the adjoint code. In
+particular we implement the Griewank and Walther's binomial checkpointing
+algorithm which gives us an optimal trade-off between time and memory
+consumption. We apply a specific strategy to differentiate the iterative linear
+solver that comes from the implicit time stepping scheme

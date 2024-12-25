@@ -1,0 +1,14 @@
+A bandwidth puzzle was recently proposed to defend against colluding
+adversaries in peer-to-peer networks. The colluding adversaries do not do
+actual work but claim to have uploaded contents for each other to gain free
+credits from the system. The bandwidth puzzle guarantees that if the
+adversaries can solve the puzzle, they must have spent substantial bandwidth,
+the size of which is comparable to the size of the contents they claim to have
+uploaded for each other. Therefore, the puzzle discourages the collusion. In
+this paper, we study the performance of the bandwidth puzzle and give a lower
+bound on the average number of bits the adversaries must receive to be able to
+solve the puzzles with a certain probability. We show that our bound is tight
+in the sense that there exists a strategy to approach this lower bound
+asymptotically within a small factor. The new bound gives better security
+guarantees than the existing bound, and can be used to guide better choices of
+puzzle parameters to improve the system performance.

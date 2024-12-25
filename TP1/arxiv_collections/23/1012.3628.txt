@@ -1,0 +1,17 @@
+This work concerns physical layer collision recovery for cheap sensors with
+allowed variations in frequency and delay of their communications. The work is
+presented as a generic, communication theoretic framework and demonstrated
+using UHF RFID tag technology. Previous work in this area has not provided
+recovery for more than two tags, which is shown to be possible in this work.
+Also presented is a novel mathematical model of the tag signal, incorporating
+the allowed variations in frequency and delay. The main motivation is seen in
+the observation that random variations in frequency and delay make the collided
+signals of different tags separable. The collision recovery is done by
+estimating the sensor specific variation in frequency and delay and using these
+estimates in a successive interference cancellation algorithm and a maximum
+likelihood sequence decoder, to iteratively reconstruct a sensor signal and
+remove it from the received signal. Numerical simulations show that the
+estimates and proposed algorithm are effective in recovering collisions. The
+proposed algorithm is then incorporated into a numerical simulation of the
+Qprotocol for UHF RFID tags and is shown to be effective in providing fast and
+power efficient sensor arbitration.

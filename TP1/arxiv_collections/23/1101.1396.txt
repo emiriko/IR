@@ -1,0 +1,11 @@
+We propose to model the image differentials of astrophysical source maps by
+Student's t-distribution and to use them in the Bayesian source separation
+method as priors. We introduce an efficient Markov Chain Monte Carlo (MCMC)
+sampling scheme to unmix the astrophysical sources and describe the derivation
+details. In this scheme, we use the Langevin stochastic equation for
+transitions, which enables parallel drawing of random samples from the
+posterior, and reduces the computation time significantly (by two orders of
+magnitude). In addition, Student's t-distribution parameters are updated
+throughout the iterations. The results on astrophysical source separation are
+assessed with two performance criteria defined in the pixel and the frequency
+domains.

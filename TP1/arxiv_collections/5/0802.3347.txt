@@ -1,0 +1,24 @@
+Reaction-diffusion processes can be adopted to model a large number of
+dynamics on complex networks, such as transport processes or epidemic
+outbreaks. In most cases, however, they have been studied from a fermionic
+perspective, in which each vertex can be occupied by at most one particle.
+While still useful, this approach suffers from some drawbacks, the most
+important probably being the difficulty to implement reactions involving more
+than two particles simultaneously. Here we introduce a general framework for
+the study of bosonic reaction-diffusion processes on complex networks, in which
+there is no restriction on the number of interacting particles that a vertex
+can host. We describe these processes theoretically by means of continuous time
+heterogeneous mean-field theory and divide them into two main classes: steady
+state and monotonously decaying processes. We analyze specific examples of both
+behaviors within the class of one-species process, comparing the results
+(whenever possible) with the corresponding fermionic counterparts. We find that
+the time evolution and critical properties of the particle density are
+independent of the fermionic or bosonic nature of the process, while
+differences exist in the functional form of the density of occupied vertices in
+a given degree class k. We implement a continuous time Monte Carlo algorithm,
+well suited for general bosonic simulations, which allow us to confirm the
+analytical predictions formulated within mean-field theory. Our results, both
+at the theoretical and numerical level, can be easily generalized to tackle
+more complex, multi-species, reaction-diffusion processes, and open a promising
+path for a general study and classification of this kind of dynamical systems
+on complex networks.

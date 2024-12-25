@@ -1,0 +1,17 @@
+Using recent results on the occurrence times of a string of symbols in a
+stochastic process with mixing properties, we present a new method for the
+search of rare words in biological sequences generally modelled by a Markov
+chain. We obtain a bound on the error between the distribution of the number of
+occurrences of a word in a sequence (under a Markov model) and its Poisson
+approximation. A global bound is already given by a Chen-Stein method. Our
+approach, the psi-mixing method, gives local bounds. Since we only need the
+error in the tails of distribution, the global uniform bound of Chen-Stein is
+too large and it is a better way to consider local bounds. We search for two
+thresholds on the number of occurrences from which we can regard the studied
+word as an over-represented or an under-represented one. A biological role is
+suggested for these over- or under-represented words. Our method gives such
+thresholds for a panel of words much broader than the Chen-Stein method.
+Comparing the methods, we observe a better accuracy for the psi-mixing method
+for the bound of the tails of distribution. We also present the software PANOW
+(available at http://stat.genopole.cnrs.fr/software/panowdir/) dedicated to the
+computation of the error term and the thresholds for a studied word.

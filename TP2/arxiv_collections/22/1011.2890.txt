@@ -1,0 +1,15 @@
+In many metropolitan areas efforts are made to count the homeless to ensure
+proper provision of social services. Some areas are very large, which makes
+spatial sampling a viable alternative to an enumeration of the entire terrain.
+Counts are observed in sampled regions but must be imputed in unvisited areas.
+Along with the imputation process, the costs of underestimating and
+overestimating may be different. For example, if precise estimation in areas
+with large homeless c ounts is critical, then underestimation should be
+penalized more than overestimation in the loss function. We analyze data from
+the 2004--2005 Los Angeles County homeless study using an augmentation of $L_1$
+stochastic gradient boosting that can weight overestimates and underestimates
+asymmetrically. We discuss our choice to utilize stochastic gradient boosting
+over other function estimation procedures. In-sample fitted and out-of-sample
+imputed values, as well as relationships between the response and predictors,
+are analyzed for various cost functions. Practical usage and policy
+implications of these results are discussed briefly.

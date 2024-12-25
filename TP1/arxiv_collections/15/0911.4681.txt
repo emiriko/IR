@@ -1,0 +1,12 @@
+Considering a linear parabolic stochastic partial differential equation
+driven by impulsive space time noise, dX_t+AX_t dt= Q^{1/2}dZ_t, X_0=x_0\in H,
+t\in [0,T], we approximate the distribution of X_T. (Z_t)_{t\in[0,T]} is an
+impulsive cylindrical process and Q describes the spatial covariance structure
+of the noise; Tr(A^{-\alpha})<\infty for some \alpha>0 and A^\beta Q is bounded
+for some \beta\in(\alpha-1,\alpha]. A discretization
+(X_h^n)_{n\in\{0,1,...,N\}} is defined via the finite element method in space
+(parameter h>0) and a \theta-method in time (parameter \Delta t=T/N). For
+\phi\in C^2_b(H;R) we show an integral representation for the error
+|E\phi(X^N_h)-E\phi(X_T)| and prove that
+|E\phi(X^N_h)-E\phi(X_T)|=O(h^{2\gamma}+(\Delta t)^{\gamma}) where
+\gamma<1-\alpha+\beta.

@@ -1,0 +1,19 @@
+This paper studies three types of functions arising separately in the
+analysis of algorithms that we analyze exactly using similar Mellin transform
+techniques. The first is the solution to a Multidimensional Divide-and-Conquer
+(MDC) recurrence that arises when solving problems on points in $d$-dimensional
+space. The second involves weighted digital sums. Write $n$ in its binary
+representation $n=(b_i b_{i-1}... b_1 b_0)_2$ and set $S_M(n) = \sum_{t=0}^i
+t^{\bar{M}} b_t 2^t$. We analyze the average $TS_M(n) = \frac{1}{n}\sum_{j<n}
+S_M(j)$. The third is a different variant of weighted digital sums. Write $n$
+as $n=2^{i_1} + 2^{i_2} + ... + 2^{i_k}$ with $i_1 > i_2 > ... > i_k\geq 0$ and
+set $W_M(n) = \sum_{t=1}^k t^M 2^{i_t}$. We analyze the average $TW_M(n) =
+\frac{1}{n}\sum_{j<n} W_M(j)$.
+  We show that both the MDC functions and $TS_M(n)$ (with $d=M+1$) have
+solutions of the form $\lambda_d n \lg^{d-1}n + \sum_{m=0}^{d-2}(n\lg^m
+n)A_{d,m}(\lg n) + c_d,$ where $\lambda_d,c_d$ are constants and $A_{d,m}(u)$'s
+are periodic functions with period one (given by absolutely convergent Fourier
+series). We also show that $TW_M(n)$ has a solution of the form $n G_M(\lg n) +
+d_M \lg^M n + \sum_{d=0}^{M-1}(\lg^d n)G_{M,d}(\lg n),$ where $d_M$ is a
+constant, $G_M(u)$ and $G_{M,d}(u)$'s are again periodic functions with period
+one (given by absolutely convergent Fourier series).

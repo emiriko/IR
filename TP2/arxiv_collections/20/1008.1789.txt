@@ -1,0 +1,26 @@
+For current state-of-the-art DPLL SAT-solvers the two main bottlenecks are
+the amounts of time and memory used. In proof complexity, these resources
+correspond to the length and space of resolution proofs. There has been a long
+line of research investigating these proof complexity measures, but while
+strong results have been established for length, our understanding of space and
+how it relates to length has remained quite poor. In particular, the question
+whether resolution proofs can be optimized for length and space simultaneously,
+or whether there are trade-offs between these two measures, has remained
+essentially open.
+  In this paper, we remedy this situation by proving a host of length-space
+trade-off results for resolution. Our collection of trade-offs cover almost the
+whole range of values for the space complexity of formulas, and most of the
+trade-offs are superpolynomial or even exponential and essentially tight. Using
+similar techniques, we show that these trade-offs in fact extend to the
+exponentially stronger k-DNF resolution proof systems, which operate with
+formulas in disjunctive normal form with terms of bounded arity k. We also
+answer the open question whether the k-DNF resolution systems form a strict
+hierarchy with respect to space in the affirmative.
+  Our key technical contribution is the following, somewhat surprising,
+theorem: Any CNF formula F can be transformed by simple variable substitution
+into a new formula F' such that if F has the right properties, F' can be proven
+in essentially the same length as F, whereas on the other hand the minimal
+number of lines one needs to keep in memory simultaneously in any proof of F'
+is lower-bounded by the minimal number of variables needed simultaneously in
+any proof of F. Applying this theorem to so-called pebbling formulas defined in
+terms of pebble games on directed acyclic graphs, we obtain our results.

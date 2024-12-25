@@ -1,0 +1,18 @@
+The surveillance, analysis and ultimately the efficient long-term prediction
+and control of epidemic dynamics appear to be one of the major challenges
+nowadays. Detailed atomistic mathematical models play an important role towards
+this aim. In this work it is shown how one can exploit the Equation Free
+approach and optimization methods such as Simulated Annealing to bridge
+detailed individual-based epidemic simulation with coarse-grained,
+systems-level, analysis. The methodology provides a systematic approach for
+analyzing the parametric behavior of complex/ multi-scale epidemic simulators
+much more efficiently than simply simulating forward in time. It is shown how
+steady state and (if required) time-dependent computations, stability
+computations, as well as continuation and numerical bifurcation analysis can be
+performed in a straightforward manner. The approach is illustrated through a
+simple individual-based epidemic model deploying on a random regular connected
+graph. Using the individual-based microscopic simulator as a black box
+coarse-grained timestepper and with the aid of Simulated Annealing I compute
+the coarse-grained equilibrium bifurcation diagram and analyze the stability of
+the stationary states sidestepping the necessity of obtaining explicit closures
+at the macroscopic level under a pairwise representation perspective.

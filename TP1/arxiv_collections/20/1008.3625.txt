@@ -1,0 +1,11 @@
+In this paper, we analyze the security of an RFID authentication protocol
+proposed by Liu and Bailey [1], called Privacy and Authentication Protocol
+(PAP), and show its vulnerabilities and faulty assumptions. PAP is a privacy
+and authentication protocol designed for passive tags. The authors claim that
+the protocol, being resistant to commonly assumed attacks, requires little
+computation and provides privacy protection and authentication. Nevertheless,
+we propose two traceability attacks and an impersonation attack, in which the
+revealing of secret information (i.e., secret key and static identifier) shared
+between the tag and the reader is unnecessary. Moreover, we review all basic
+assumptions on which the design of the protocol resides, and show how many of
+them are incorrect and are contrary to the common assumptions in RFID systems.

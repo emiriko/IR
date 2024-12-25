@@ -1,0 +1,11 @@
+We present a detailed analysis of the bounds on the integration step in
+Discrete Element Method (DEM) for simulating collisions and shearing of
+granular assemblies. We show that, in the numerical scheme, the upper limit for
+the integration step, usually taken from the average time $t_c$ of one contact,
+is in fact not sufficiently small to guarantee numerical convergence of the
+system during relaxation. In particular, we study in detail how the kinetic
+energy decays during the relaxation stage and compute the correct upper limits
+for the integration step, which are significantly smaller than the ones
+commonly used. In addition, we introduce an alternative approach, based on
+simple relations to compute the frictional forces, that converges even for
+integration steps above the upper limit.

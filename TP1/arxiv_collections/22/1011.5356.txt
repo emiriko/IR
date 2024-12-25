@@ -1,0 +1,24 @@
+We present a novel numerical method that allows the calculation of nonlinear
+force-free magnetostatic solutions above a boundary surface on which only the
+distribution of the normal magnetic field component is given. The method relies
+on the theory of force-free electrodynamics and applies directly to the
+reconstruction of the solar coronal magnetic field for a given distribution of
+the photospheric radial field component. The method works as follows: we start
+with any initial magnetostatic global field configuration (e.g. zero, dipole),
+and along the boundary surface we create an evolving distribution of tangential
+(horizontal) electric fields that, via Faraday's equation, give rise to a
+respective normal field distribution approaching asymptotically the target
+distribution. At the same time, these electric fields are used as boundary
+condition to numerically evolve the resulting electromagnetic field above the
+boundary surface, modelled as a thin ideal plasma with non-reflecting,
+perfectly absorbing outer boundaries. The simulation relaxes to a nonlinear
+force-free configuration that satisfies the given normal field distribution on
+the boundary. This is different from existing methods relying on a fixed
+boundary condition - the boundary evolves toward the a priori given one, at the
+same time evolving the three-dimensional field solution above it. Moreover,
+this is the first time a nonlinear force-free solution is reached by using only
+the normal field component on the boundary. This solution is not unique, but
+depends on the initial magnetic field configuration and on the evolutionary
+course along the boundary surface. To our knowledge, this is the first time
+that the formalism of force-free electrodynamics, used very successfully in
+other astrophysical contexts, is applied to the global solar magnetic field.

@@ -1,0 +1,12 @@
+This paper presents a novel implicit representation of solid models. With
+this representation, every solid model can be effectively presented by three
+layered depth-normal images (LDNIs) that are perpendicular to three orthogonal
+axes respectively. The layered depth-normal images for a solid model, whose
+boundary is presented by a polygonal mesh, can be generated efficiently with
+help of the graphics hardware accelerated sampling. Based on this implicit
+representation - LDNIs, solid modeling operations including the Boolean
+operations and the offsetting operation have been developed. A contouring
+algorithm is also introduced in this paper to generate thin structure and sharp
+feature preserved mesh surfaces from the layered depth-normal images.
+Comparisons between LDNIs and other implicit representation of solid models are
+given at the end of the paper to demonstrate the advantages of LDNIs.

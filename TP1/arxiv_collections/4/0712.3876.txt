@@ -1,0 +1,10 @@
+Group testing is a long studied problem in combinatorics: A small set of $r$
+ill people should be identified out of the whole ($n$ people) by using only
+queries (tests) of the form "Does set X contain an ill human?". In this paper
+we provide an explicit construction of a testing scheme which is better
+(smaller) than any known explicit construction. This scheme has $\bigT{\min[r^2
+\ln n,n]}$ tests which is as many as the best non-explicit schemes have. In our
+construction we use a fact that may have a value by its own right: Linear
+error-correction codes with parameters $[m,k,\delta m]_q$ meeting the
+Gilbert-Varshamov bound may be constructed quite efficiently, in $\bigT{q^km}$
+time.

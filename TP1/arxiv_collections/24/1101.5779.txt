@@ -1,0 +1,14 @@
+We design a cross-layer approach to optimize the joint use of multi-packet
+reception and network coding, in order to relieve congestion. We construct a
+model for the behavior of the 802.11 MAC and apply it to several key canonical
+topology components and their extensions to any number of nodes. The results
+obtained from this model match the available experimental results, which are
+for routing and opportunistic network coding, with fidelity. Using this model,
+we show that fairness allocation by the MAC can seriously impact performance;
+hence, we devise a new MAC that not only substantially improves throughput
+relative to the current 802.11 MAC, but also provides fairness to flows of
+information rather than to nodes. We show that the proper combination of
+network coding, multi-packet reception, and our new MAC protocol achieves
+super-additive throughput gains of up to 6.3 times that of routing alone with
+the use of the standard 802.11 MAC. Finally, we extend the model to analyze the
+asymptotic behavior of our new MAC as the number of nodes increases.

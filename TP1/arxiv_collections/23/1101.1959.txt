@@ -1,0 +1,25 @@
+With the coming data deluge from synoptic surveys, there is a growing need
+for frameworks that can quickly and automatically produce calibrated
+classification probabilities for newly-observed variables based on a small
+number of time-series measurements. In this paper, we introduce a methodology
+for variable-star classification, drawing from modern machine-learning
+techniques. We describe how to homogenize the information gleaned from light
+curves by selection and computation of real-numbered metrics ("feature"),
+detail methods to robustly estimate periodic light-curve features, introduce
+tree-ensemble methods for accurate variable star classification, and show how
+to rigorously evaluate the classification results using cross validation. On a
+25-class data set of 1542 well-studied variable stars, we achieve a 22.8%
+overall classification error using the random forest classifier; this
+represents a 24% improvement over the best previous classifier on these data.
+This methodology is effective for identifying samples of specific science
+classes: for pulsational variables used in Milky Way tomography we obtain a
+discovery efficiency of 98.2% and for eclipsing systems we find an efficiency
+of 99.1%, both at 95% purity. We show that the random forest (RF) classifier is
+superior to other machine-learned methods in terms of accuracy, speed, and
+relative immunity to features with no useful class information; the RF
+classifier can also be used to estimate the importance of each feature in
+classification. Additionally, we present the first astronomical use of
+hierarchical classification methods to incorporate a known class taxonomy in
+the classifier, which further reduces the catastrophic error rate to 7.8%.
+Excluding low-amplitude sources, our overall error rate improves to 14%, with a
+catastrophic error rate of 3.5%.

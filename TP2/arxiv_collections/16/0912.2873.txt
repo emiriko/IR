@@ -1,0 +1,14 @@
+It is now widely accepted that knowledge can be acquired from networks by
+clustering their vertices according to connection profiles. Many methods have
+been proposed and in this paper we concentrate on the Stochastic Block Model
+(SBM). The clustering of vertices and the estimation of SBM model parameters
+have been subject to previous work and numerous inference strategies such as
+variational Expectation Maximization (EM) and classification EM have been
+proposed. However, SBM still suffers from a lack of criteria to estimate the
+number of components in the mixture. To our knowledge, only one model based
+criterion, ICL, has been derived for SBM in the literature. It relies on an
+asymptotic approximation of the Integrated Complete-data Likelihood and recent
+studies have shown that it tends to be too conservative in the case of small
+networks. To tackle this issue, we propose a new criterion that we call ILvb,
+based on a non asymptotic approximation of the marginal likelihood. We describe
+how the criterion can be computed through a variational Bayes EM algorithm.

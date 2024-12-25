@@ -1,0 +1,13 @@
+Threads are a convenient and modular abstraction for writing concurrent
+programs, but often fairly expensive. The standard alternative to threads,
+event-loop programming, allows much lighter units of concurrency, but leads to
+code that is difficult to write and even harder to understand. Continuation
+Passing C (CPC) is a translator that converts a program written in threaded
+style into a program written with events and native system threads, at the
+programmer's choice. Together with two undergraduate students, we taught
+ourselves how to program in CPC by writing Hekate, a massively concurrent
+network server designed to efficiently handle tens of thousands of
+simultaneously connected peers. In this paper, we describe a number of
+programming idioms that we learnt while writing Hekate; while some of these
+idioms are specific to CPC, many should be applicable to other programming
+systems with sufficiently cheap threads.

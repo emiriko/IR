@@ -1,0 +1,16 @@
+We are interested in the kernel of one-dimensional diffusion equations with
+continuous coefficients as evaluated by means of explicit discretization
+schemes of uniform step $h>0$ in the limit as $h\to0$. We consider both
+semidiscrete triangulations with continuous time and explicit Euler schemes
+with time step small enough for the method to be stable. We find sharp uniform
+bounds for the convergence rate as a function of the degree of smoothness which
+we conjecture. The bounds also apply to the time derivative of the kernel and
+its first two space derivatives. Our proof is constructive and is based on a
+new technique of path conditioning for Markov chains and a renormalization
+group argument. Convergence rates depend on the degree of smoothness and
+H\"older differentiability of the coefficients. We find that the fastest
+convergence rate is of order $O(h^2)$ and is achieved if the coefficients have
+a bounded second derivative. Otherwise, explicit schemes still converge for any
+degree of H\"older differentiability except that the convergence rate is
+slower. H\"older continuity itself is not strictly necessary and can be relaxed
+by an hypothesis of uniform continuity.

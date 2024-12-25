@@ -1,0 +1,18 @@
+The numerical analysis of elastic wave propagation in unbounded media may be
+difficult due to spurious waves reflected at the model artificial boundaries.
+This point is critical for the analysis of wave propagation in heterogeneous or
+layered solids. Various techniques such as Absorbing Boundary Conditions,
+infinite elements or Absorbing Boundary Layers (e.g. Perfectly Matched Layers)
+lead to an important reduction of such spurious reflections. In this paper, a
+simple absorbing layer method is proposed: it is based on a Rayleigh/Caughey
+damping formulation which is often already available in existing Finite Element
+softwares. The principle of the Caughey Absorbing Layer Method is first
+presented (including a rheological interpretation). The efficiency of the
+method is then shown through 1D Finite Element simulations considering
+homogeneous and heterogeneous damping in the absorbing layer. 2D models are
+considered afterwards to assess the efficiency of the absorbing layer method
+for various wave types and incidences. A comparison with the PML method is
+first performed for pure P-waves and the method is shown to be reliable in a
+more complex 2D case involving various wave types and incidences. It may thus
+be used for various types of problems involving elastic waves (e.g. machine
+vibrations, seismic waves, etc).

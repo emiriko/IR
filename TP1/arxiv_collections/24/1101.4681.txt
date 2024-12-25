@@ -1,0 +1,23 @@
+We consider a retailer selling a single product with limited on-hand
+inventory over a finite selling season. Customer demand arrives according to a
+Poisson process, the rate of which is influenced by a single action taken by
+the retailer (such as price adjustment, sales commission, advertisement
+intensity, etc.). The relationship between the action and the demand rate is
+not known in advance. However, the retailer is able to learn the optimal action
+"on the fly" as she maximizes her total expected revenue based on the observed
+demand reactions.
+  Using the pricing problem as an example, we propose a dynamic
+"learning-while-doing" algorithm that only involves function value estimation
+to achieve a near-optimal performance. Our algorithm employs a series of
+shrinking price intervals and iteratively tests prices within that interval
+using a set of carefully chosen parameters. We prove that the convergence rate
+of our algorithm is among the fastest of all possible algorithms in terms of
+asymptotic "regret" (the relative loss comparing to the full information
+optimal solution). Our result closes the performance gaps between parametric
+and non-parametric learning and between a post-price mechanism and a
+customer-bidding mechanism. Important managerial insight from this research is
+that the values of information on both the parametric form of the demand
+function as well as each customer's exact reservation price are less important
+than prior literature suggests. Our results also suggest that firms would be
+better off to perform dynamic learning and action concurrently rather than
+sequentially.

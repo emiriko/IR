@@ -1,0 +1,14 @@
+The simulated tempering (ST) is an important method to deal with systems
+whose phase spaces are hard to sample ergodically. However, it uses accepting
+probabilities weights which often demand involving and time consuming
+calculations. Here it is shown that such weights are quite accurately obtained
+from the largest eigenvalue of the transfer matrix -- a quantity
+straightforward to compute from direct Monte Carlo simulations -- thus
+simplifying the algorithm implementation. As tests, different systems are
+considered, namely, Ising, Blume-Capel, Blume-Emery-Griffiths and Bell-Lavis
+liquid water models. In particular, we address first-order phase transition at
+low temperatures, a regime notoriously difficulty to simulate because the large
+free-energy barriers. The good results found (when compared with other well
+established approaches) suggest that the ST can be a valuable tool to address
+strong first-order phase transitions, a possibility still not well explored in
+the literature.

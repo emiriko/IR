@@ -1,0 +1,9 @@
+We develop a quantum algorithm to solve combinatorial optimization problems
+through quantum simulation of a classical annealing process. Our algorithm
+combines techniques from quantum walks, quantum phase estimation, and quantum
+Zeno effect. It can be viewed as a quantum analogue of the discrete-time Markov
+chain Monte Carlo implementation of classical simulated annealing. Our
+implementation scales with the inverse of the square root of the minimum
+spectral gap of the stochastic matrix used in the classical simulation. The
+quantum algorithm outperforms the classical one, which scales with the inverse
+of the gap.

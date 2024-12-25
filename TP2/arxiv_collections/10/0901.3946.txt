@@ -1,0 +1,16 @@
+Quantum walks can be used either as tools for quantum algorithm development
+or as entanglement generators, potentially useful to test quantum hardware. We
+present a novel algorithm based on a discrete Hadamard quantum walk on a line
+with one coin and two walkers whose purpose is to generate entanglement between
+walkers. We provide several classical computer simulations of our quantum
+algorithm in which we show that, although the asymptotical amount of
+entanglement generated between walkers does not reach the highest degree of
+entanglement possible at each step for either coin measurement outcome, the
+entanglement ratio (entanglement generated/highest value of entanglement
+possible, for each step) tends to converge, and the actual convergence value
+depends on the coin initial state and on the coin measurement outcome.
+Furthermore, our numerical simulations show that, for the quantum walks used in
+our algorithm, the value towards which entanglement ratio converges also
+depends on the position probability distribution symmetry of a quantum walk
+computed with one single walker and the same coin initial state employed in the
+corresponding quantum walk with two walkers.

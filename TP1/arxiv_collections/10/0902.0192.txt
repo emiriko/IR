@@ -1,0 +1,16 @@
+The behavior of a supercooled polymer melt composed of short chains with ten
+beads near an oscillating plate are simulated by using a hybrid simulation of
+molecular dynamics (MD) and computational fluid dynamics (CFD). In the method,
+the macroscopic dynamics are solved by using CFD, but, instead of using any
+constitutive equations, a local stress is calculated by using a non-equilibrium
+MD simulation associated at each lattice node in the CFD calculation. It is
+seen that the local rheology of the melt varies considerably in a thin viscous
+diffusion layer that arises near an oscillating plate. It is also found that
+the local rheology of the melt is divided into the three different regimes,
+i.e., the viscous fluid, viscoelastic liquid, and viscoelastic solid regimes,
+according to the local Deborah number $De$, which is defined with the Rouse or
+$\alpha$ relaxation time, $\tau_R$ or $\tau_\alpha$, and the angular frequency
+of the plate $\omega$ as $De^R$=$\omega\tau_R$ or
+$De^\alpha$=$\omega\tau_\alpha$. The melt behaves as a viscous fluid when
+$De^R\lesssim 1$, and the crossover between the liquid-like and solid-like
+regime takes place around $De^\alpha\simeq 1$.

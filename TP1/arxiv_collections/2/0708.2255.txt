@@ -1,0 +1,14 @@
+Generic programming is an effective methodology for developing reusable
+software libraries. Many programming languages provide generics and have
+features for describing interfaces, but none completely support the idioms used
+in generic programming. To address this need we developed the language G. The
+central feature of G is the concept, a mechanism for organizing constraints on
+generics that is inspired by the needs of modern C++ libraries. G provides
+modular type checking and separate compilation (even of generics). These
+characteristics support modular software development, especially the smooth
+integration of independently developed components. In this article we present
+the rationale for the design of G and demonstrate the expressiveness of G with
+two case studies: porting the Standard Template Library and the Boost Graph
+Library from C++ to G. The design of G shares much in common with the concept
+extension proposed for the next C++ Standard (the authors participated in its
+design) but there are important differences described in this article.

@@ -1,0 +1,10 @@
+The timed automata formalism is an important model for specifying and
+analysing real-time systems. Robustness is the correctness of the model in the
+presence of small drifts on clocks or imprecision in testing guards. A symbolic
+algorithm for the analysis of the robustness of timed automata has been
+implemented. In this paper, we re-analyse an industrial case lip
+synchronization protocol using the new robust reachability algorithm. This lip
+synchronization protocol is an interesting case because timing aspects are
+crucial for the correctness of the protocol. Several versions of the model are
+considered: with an ideal video stream, with anchored jitter, and with
+non-anchored jitter.

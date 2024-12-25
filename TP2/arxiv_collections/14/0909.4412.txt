@@ -1,0 +1,9 @@
+In this paper, we propose an efficient clustering technique to solve the
+problem of clustering in the presence of obstacles. The proposed algorithm
+divides the spatial area into rectangular cells. Each cell is associated with
+statistical information that enables us to label the cell as dense or
+non-dense. We also label each cell as obstructed (i.e. intersects any obstacle)
+or non-obstructed. Then the algorithm finds the regions (clusters) of
+connected, dense, non-obstructed cells. Finally, the algorithm finds a center
+for each such region and returns those centers as centers of the relatively
+dense regions (clusters) in the spatial area.

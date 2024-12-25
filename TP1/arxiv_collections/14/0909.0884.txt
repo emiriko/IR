@@ -1,0 +1,12 @@
+One of the obstacles in automatic program proving is to obtain suitable loop
+invariants.
+  The invariant of a loop is a weakened form of its postcondition (the loop's
+goal, also known as its contract); the present work takes advantage of this
+observation by using the postcondition as the basis for invariant inference,
+using various heuristics such as "uncoupling" which prove useful in many
+important algorithms.
+  Thanks to these heuristics, the technique is able to infer invariants for a
+large variety of loop examples.
+  We present the theory behind the technique, its implementation (freely
+available for download and currently relying on Microsoft Research's Boogie
+tool), and the results obtained.

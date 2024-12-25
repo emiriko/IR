@@ -1,0 +1,13 @@
+The seabed characterization from sonar images is a very hard task because of
+the produced data and the unknown environment, even for an human expert. In
+this work we propose an original approach in order to combine binary
+classifiers arising from different kinds of strategies such as one-versus-one
+or one-versus-rest, usually used in the SVM-classification. The decision
+functions coming from these binary classifiers are interpreted in terms of
+belief functions in order to combine these functions with one of the numerous
+operators of the belief functions theory. Moreover, this interpretation of the
+decision function allows us to propose a process of decisions by taking into
+account the rejected observations too far removed from the learning data, and
+the imprecise decisions given in unions of classes. This new approach is
+illustrated and evaluated with a SVM in order to classify the different kinds
+of sediment on image sonar.

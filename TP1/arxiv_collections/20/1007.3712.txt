@@ -1,0 +1,23 @@
+This paper introduces the theory and practice of formal verification of
+self-assembling systems. We interpret a well-studied abstraction of
+nanomolecular self assembly, the Abstract Tile Assembly Model (aTAM), into
+Computation Tree Logic (CTL), a temporal logic often used in model checking. We
+then consider the class of "rectilinear" tile assembly systems. This class
+includes most aTAM systems studied in the theoretical literature, and all
+(algorithmic) DNA tile self-assembling systems that have been realized in
+laboratories to date. We present a polynomial-time algorithm that, given a tile
+assembly system T as input, either provides a counterexample to T's
+rectilinearity or verifies whether T has a unique terminal assembly. Using
+partial order reductions, the verification search space for this algorithm is
+reduced from exponential size to O(n^2), where n x n is the size of the
+assembly surface. That reduction is asymptotically the best possible. We report
+on experimental results obtained by translating tile assembly simulator files
+into a Petri net format manipulable by the SMART model checking engines devised
+by Ciardo et al. The model checker runs in O(|T| x n^4) time, where |T| is the
+number of tile types in tile assembly system T, and n x n is the surface size.
+Atypical for a model checking problem -- in which the practical limit usually
+is insufficient memory to store the state space -- the limit in this case was
+the amount of memory required to represent the rules of the model. (Storage of
+the state space and of the reachability graph were small by comparison.) We
+discuss how to overcome this obstacle by means of a front end tailored to the
+characteristics of self-assembly.

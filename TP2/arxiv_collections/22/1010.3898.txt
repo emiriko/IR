@@ -1,0 +1,11 @@
+The Open Archive Initiative Protocol for Metadata Handling (OAI-PMHiii) is a
+standard that is seeing increased use as a means for exchanging structured
+metadata. OAI-PMH implementations must support Dublin Core as a metadata
+standard, with other metadata formats as optional. We have developed tools
+which enable Mercury to consume metadata from OAI-PMH services in any of the
+metadata formats we support (Dublin Core, Darwin Core, FCDC CSDGM, GCMD DIF,
+EML, and ISO 19115/19137). We are also making ORNL DAAC metadata available
+through OAI-PMH for other metadata tools to utilize. This paper describes
+Mercury capabilities with multiple metadata formats, in general, and, more
+specifically, the results of our OAI-PMH implementations and the lessons
+learned.

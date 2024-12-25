@@ -1,0 +1,14 @@
+Let F be a uniformly distributed random k-SAT formula with n variables and m
+clauses. Non-constructive arguments show that F is satisfiable for
+clause/variable ratios m/n< r(k)~2^k ln 2 with high probability. Yet no
+efficient algorithm is know to find a satisfying assignment for densities as
+low as m/n r(k).ln(k)/k with a non-vanishing probability. In fact, the density
+m/n r(k).ln(k)/k seems to form a barrier for a broad class of local search
+algorithms. One of the very few algorithms that plausibly seemed capable of
+breaking this barrier is a message passing algorithm called Belief Propagation
+Guided Decimation. It was put forward on the basis of deep but non-rigorous
+statistical mechanics considerations. Experiments conducted for k=3,4,5
+suggested that the algorithm might succeed for densities very close to r_k.
+Furnishing the first rigorous analysis of BP decimation, the present paper
+shows that the algorithm fails to find a satisfying assignment already for
+m/n>c.r(k)/k, for a constant c>0 (independent of k).

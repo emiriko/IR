@@ -1,0 +1,16 @@
+A fundamental problem in cognitive radio systems is that the cognitive radio
+is ignorant of the primary channel state and the interference it inflicts on
+the primary license holder. In this paper we assume that the primary
+transmitter sends packets across an erasure channel and the primary receiver
+employs ACK/NAK feedback (ARQ) to retransmit erased packets. The cognitive
+radio can eavesdrop on the primary's ARQs. Assuming the primary channel states
+follow a Markov chain, this feedback gives the cognitive radio an indication of
+the primary link quality. Based on the ACK/NACK received, we devise optimal
+transmission strategies for the cognitive radio so as to maximize a weighted
+sum of primary and secondary throughput. The actual weight used during network
+operation is determined by the degree of protection afforded to the primary
+link. We study a two-state model where we characterize a scheme that spans the
+boundary of the primary-secondary rate region. Moreover, we study a three-state
+model where we derive the optimal strategy using dynamic programming. We also
+show via simulations that our optimal strategies achieve gains over the simple
+greedy algorithm for a range of primary channel parameters.

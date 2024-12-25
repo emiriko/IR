@@ -1,0 +1,14 @@
+Bayesian Positive Source Separation (BPSS) is a useful unsupervised approach
+for hyperspectral data unmixing, where numerical non-negativity of spectra and
+abundances has to be ensured, such in remote sensing. Moreover, it is sensible
+to impose a sum-to-one (full additivity) constraint to the estimated source
+abundances in each pixel. Even though non-negativity and full additivity are
+two necessary properties to get physically interpretable results, the use of
+BPSS algorithms has been so far limited by high computation time and large
+memory requirements due to the Markov chain Monte Carlo calculations. An
+implementation strategy which allows one to apply these algorithms on a full
+hyperspectral image, as typical in Earth and Planetary Science, is introduced.
+Effects of pixel selection, the impact of such sampling on the relevance of the
+estimated component spectra and abundance maps, as well as on the computation
+times, are discussed. For that purpose, two different dataset have been used: a
+synthetic one and a real hyperspectral image from Mars.

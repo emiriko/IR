@@ -1,0 +1,19 @@
+We consider the task of testing properties of Boolean functions that are
+invariant under linear transformations of the Boolean cube. Previous work in
+property testing, including the linearity test and the test for Reed-Muller
+codes, has mostly focused on such tasks for linear properties. The one
+exception is a test due to Green for "triangle freeness": a function
+$f:\cube^{n}\to\cube$ satisfies this property if $f(x),f(y),f(x+y)$ do not all
+equal 1, for any pair $x,y\in\cube^{n}$.
+  Here we extend this test to a more systematic study of testing for
+linear-invariant non-linear properties. We consider properties that are
+described by a single forbidden pattern (and its linear transformations), i.e.,
+a property is given by $k$ points $v_{1},...,v_{k}\in\cube^{k}$ and
+$f:\cube^{n}\to\cube$ satisfies the property that if for all linear maps
+$L:\cube^{k}\to\cube^{n}$ it is the case that $f(L(v_{1})),...,f(L(v_{k}))$ do
+not all equal 1. We show that this property is testable if the underlying
+matroid specified by $v_{1},...,v_{k}$ is a graphic matroid. This extends
+Green's result to an infinite class of new properties.
+  Our techniques extend those of Green and in particular we establish a link
+between the notion of "1-complexity linear systems" of Green and Tao, and
+graphic matroids, to derive the results.

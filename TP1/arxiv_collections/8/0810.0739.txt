@@ -1,0 +1,11 @@
+We report a numerical study of self-avoiding polymers on the square lattice,
+including an attractive potential between nonconsecutive monomers. Using
+Wang-Landau sampling (WLS) with adaptive windows, we obtain the density of
+states for chains of up to N=300 monomers and associated thermodynamic
+quantities. The method enables one to simulate accurately the low-temperature
+regime, which is virtually inaccessible using traditional methods. Instead of
+defining fixed energy windows, as in usual WLS, this method uses windows with
+boundaries that depend on the set of energy values on which the histogram is
+flat at a given stage of the simulation. Shifting the windows each time the
+modification factor $f$ is reduced, we eliminate border effects that arise in
+simulations using fixed windows.

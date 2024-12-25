@@ -1,0 +1,23 @@
+Quasi-achromat lattices (small dispersion is allowed in their straight
+sections, between their cells) are considered; in a cell, there are bending
+magnets of two kinds, of unequal magnetic field. Minimization of the effective
+emittance is carried out by the following algorithm (which follows Teng, and
+partly Lee).
+  (1) Every inner dipole's contribution to the natural emittance is minimized
+with respect to all optics parameters (relating to dispersion and
+beta-function), except for the shift parameter, s_0, which specifies the
+interval between the beta-function minimum and the center of a magnet; for a
+side bending magnet, its contribution to an integral relating to the effective
+emittance (the relation uses the fact that the arithmetic mean majorizes the
+geometric mean) is minimized.
+  (2) The other parameters of dipoles (fields, lengths or angles ratios,
+shifts) are restricted with the boundary conditions: the equality of
+Courant-Snyder invariants on the exit from a magnet and on the entrance to the
+following one. (3) The minimum of effective emittance and the last free
+parameters (two or three) can be found by computation.
+  The accuracy of this method falls with decreasing of the number of internal
+dipoles in a cell, and still the isomagnetic Tanaka-Ando minimum (for the
+modified DBA*-lattice which has no inner dipoles) is reproduced with accuracy
+better than half a percent. If the number of dipoles per cell does not exceed
+four, the smallest effective emittance (14% lower than TA-limit) is achieved
+for QBA**-lattice where all dipoles have nonzero shifts.

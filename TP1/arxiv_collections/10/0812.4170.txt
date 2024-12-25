@@ -1,0 +1,18 @@
+The maximum density still life problem (MDSLP) is a hard constraint
+optimization problem based on Conway's game of life. It is a prime example of
+weighted constrained optimization problem that has been recently tackled in the
+constraint-programming community. Bucket elimination (BE) is a complete
+technique commonly used to solve this kind of constraint satisfaction problem.
+When the memory required to apply BE is too high, a heuristic method based on
+it (denominated mini-buckets) can be used to calculate bounds for the optimal
+solution. Nevertheless, the curse of dimensionality makes these techniques
+unpractical for large size problems. In response to this situation, we present
+a memetic algorithm for the MDSLP in which BE is used as a mechanism for
+recombining solutions, providing the best possible child from the parental set.
+Subsequently, a multi-level model in which this exact/metaheuristic hybrid is
+further hybridized with branch-and-bound techniques and mini-buckets is
+studied. Extensive experimental results analyze the performance of these models
+and multi-parent recombination. The resulting algorithm consistently finds
+optimal patterns for up to date solved instances in less time than current
+approaches. Moreover, it is shown that this proposal provides new best known
+solutions for very large instances.

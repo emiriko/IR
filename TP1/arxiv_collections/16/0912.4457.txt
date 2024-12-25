@@ -1,0 +1,13 @@
+We present an acceleration of the well-established Krylov-Ritz methods to
+compute the sign function of large complex matrices, as needed in lattice QCD
+simulations involving the overlap Dirac operator at both zero and nonzero
+baryon density. Krylov-Ritz methods approximate the sign function using a
+projection on a Krylov subspace. To achieve a high accuracy this subspace must
+be taken quite large, which makes the method too costly. The new idea is to
+make a further projection on an even smaller, nested Krylov subspace. If
+additionally an intermediate preconditioning step is applied, this projection
+can be performed without affecting the accuracy of the approximation, and a
+substantial gain in efficiency is achieved for both Hermitian and non-Hermitian
+matrices. The numerical efficiency of the method is demonstrated on lattice
+configurations of sizes ranging from 4^4 to 10^4, and the new results are
+compared with those obtained with rational approximation methods.

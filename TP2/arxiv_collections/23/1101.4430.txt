@@ -1,0 +1,8 @@
+This paper presents a type theory with a form of equality reflection:
+provable equalities can be used to coerce the type of a term. Coercions and
+other annotations, including implicit arguments, are dropped during reduction
+of terms. We develop the metatheory for an undecidable version of the system
+with unannotated terms. We then devise a decidable system with annotated terms,
+justified in terms of the unannotated system. Finally, we show how the approach
+can be extended to account for large eliminations, using what we call
+quasi-implicit products.

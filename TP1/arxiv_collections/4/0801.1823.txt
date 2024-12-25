@@ -1,0 +1,16 @@
+In order to generate initial data for nonlinear relativistic simulations, one
+needs to solve the Einstein constraints, which can be cast into a coupled set
+of nonlinear elliptic equations. Here we present an approach for solving these
+equations on three-dimensional multi-block domains using finite element
+methods. We illustrate our approach on a simple example of Brill wave initial
+data, with the constraints reducing to a single linear elliptic equation for
+the conformal factor $\psi$. We use quadratic Lagrange elements on
+semi-structured simplicial meshes, obtained by triangulation of multi-block
+grids. In the case of uniform refinement the scheme is superconvergent at most
+mesh vertices, due to local symmetry of the finite element basis with respect
+to local spatial inversions. We show that in the superconvergent case
+subsequent unstructured mesh refinements do not improve the quality of our
+initial data. As proof of concept that this approach is feasible for generating
+multi-block initial data in three dimensions, after constructing the initial
+data we evolve them in time using a high order finite-differencing multi-block
+approach and extract the gravitational waves from the numerical solution.

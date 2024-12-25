@@ -1,0 +1,12 @@
+Random walks describe diffusion processes, where movement at every time step
+is restricted to only the neighbouring locations. We construct a quantum random
+walk algorithm, based on discretisation of the Dirac evolution operator
+inspired by staggered lattice fermions. We use it to investigate the spatial
+search problem, i.e. finding a marked vertex on a $d$-dimensional hypercubic
+lattice. The restriction on movement hardly matters for $d>2$, and scaling
+behaviour close to Grover's optimal algorithm (which has no restriction on
+movement) can be achieved. Using numerical simulations, we optimise the
+proportionality constants of the scaling behaviour, and demonstrate the
+approach to that for Grover's algorithm (equivalent to the mean field theory or
+the $d\to\infty$ limit). In particular, the scaling behaviour for $d=3$ is only
+about 25% higher than the optimal $d\to\infty$ value.

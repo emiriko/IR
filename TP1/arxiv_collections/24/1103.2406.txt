@@ -1,0 +1,8 @@
+We present a generic framework to make wrapper induction algorithms tolerant
+to noise in the training data. This enables us to learn wrappers in a
+completely unsupervised manner from automatically and cheaply obtained noisy
+training data, e.g., using dictionaries and regular expressions. By removing
+the site-level supervision that wrapper-based techniques require, we are able
+to perform information extraction at web-scale, with accuracy unattained with
+existing unsupervised extraction techniques. Our system is used in production
+at Yahoo! and powers live applications.

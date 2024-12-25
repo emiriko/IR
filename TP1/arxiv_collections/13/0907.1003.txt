@@ -1,0 +1,17 @@
+MAGIC-I is currently the Imaging Cherenkov Telescope with the worldwide
+largest reflector currently in operation. The initially achieved low trigger
+threshold of 60 GeV has been further reduced by means of a novel trigger that
+allows the telescope to record gamma ray showers down to 25 GeV. The high
+trigger rate combined with the 2 GHz signal sampling rate results in large data
+volumes that can reach 1 TByte per night for MAGIC-I and even more with the
+second MAGIC telescope coming soon into operation. To deal with the large
+storage requirements of MAGIC-I and MAGIC-II, we have installed the distributed
+file system GFS and a cluster of computers with concurrent access to the same
+shared storage units. The system can not only handle a sustained DAQ write rate
+above 1.2 kHz for MAGIC-I, but also allows other nodes to perform simultaneous
+concurrent access to the data on the shared storage units. Various simultaneous
+tasks can be used at any time, in parallel with data taking, including data
+compression, taping, on-line analysis, calibration and analysis of the data.
+The system is designed to quickly recover after the failure of one node in the
+cluster and to be easily extended as more nodes or storage units are required
+in the future.

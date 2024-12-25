@@ -1,0 +1,8 @@
+We propose a strategy to achieve the fastest convergence in the Wang-Landau
+algorithm with varying modification factors. With this strategy, the
+convergence of a simulation is at least as good as the conventional Monte Carlo
+algorithm, i.e. the statistical error vanishes as $1/\sqrt{t}$, where $t$ is a
+normalized time of the simulation. However, we also prove that the error cannot
+vanish faster than $1/t$. Our findings are consistent with the $1/t$
+Wang-Landau algorithm discovered recently, and we argue that one needs external
+information in the simulation to beat the conventional Monte Carlo algorithm.

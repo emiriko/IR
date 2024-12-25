@@ -1,0 +1,11 @@
+Distributed implementations of access control abound in distributed storage
+protocols. While such implementations are often accompanied by informal
+justifications of their correctness, our formal analysis reveals that their
+correctness can be tricky. In particular, we discover several subtleties in a
+standard protocol based on capabilities, that can break security under a simple
+specification of access control. At the same time, we show a sensible
+refinement of the specification for which a secure implementation of access
+control is possible. Our models and proofs are formalized in the applied pi
+calculus, following some new techniques that may be of independent interest.
+Finally, we indicate how our principles can be applied to securely distribute
+other state machines.

@@ -1,0 +1,12 @@
+The Parallel Virtual Machine (PVM) tool has been used for a distributed
+implementation of Greg Ward's Radiance code. In order to generate exactly the
+same primary rays with both the sequential and the parallel codes, the quincunx
+sampling technique used in Radiance for the reduction of the number of primary
+rays by interpolation, must be left untouched in the parallel implementation.
+The octree of local ambient values used in Radiance for the indirect
+illumination has been shared among all the processors. Both static and dynamic
+image partitioning techniques which replicate the octree of the complete scene
+in all the processors and have load-balancing, have been developed for one
+frame rendering. Speedups larger than 7.5 have been achieved in a network of 8
+workstations. For animation sequences, a new dynamic partitioning distribution
+technique with superlinear speedups has also been developed.

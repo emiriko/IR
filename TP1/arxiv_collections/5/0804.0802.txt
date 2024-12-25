@@ -1,0 +1,14 @@
+The class QMA(k), introduced by Kobayashi et al., consists of all languages
+that can be verified using k unentangled quantum proofs. Many of the simplest
+questions about this class have remained embarrassingly open: for example, can
+we give any evidence that k quantum proofs are more powerful than one? Does
+QMA(k)=QMA(2) for k>=2? Can QMA(k) protocols be amplified to exponentially
+small error? In this paper, we make progress on all of the above questions.
+First, we give a protocol by which a verifier can be convinced that a 3SAT
+formula of size n is satisfiable, with constant soundness, given ~O(sqrt(n))
+unentangled quantum witnesses with O(log n) qubits each. Our protocol relies on
+the existence of very short PCPs. Second, we show that assuming a weak version
+of the Additivity Conjecture from quantum information theory, any QMA(2)
+protocol can be amplified to exponentially small error, and QMA(k)=QMA(2) for
+all k>=2. Third, we prove the nonexistence of "perfect disentanglers" for
+simulating multiple Merlins with one.

@@ -1,0 +1,25 @@
+We introduce a new simple game, which is referred to as the complementary
+weighted multiple majority game (C-WMMG for short). C-WMMG models a basic
+cooperation rule, the complementary cooperation rule, and can be taken as a
+sister model of the famous weighted majority game (WMG for short). In this
+paper, we concentrate on the two dimensional C-WMMG. An interesting property of
+this case is that there are at most $n+1$ minimal winning coalitions (MWC for
+short), and they can be enumerated in time $O(n\log n)$, where $n$ is the
+number of players. This property guarantees that the two dimensional C-WMMG is
+more handleable than WMG. In particular, we prove that the main power indices,
+i.e. the Shapley-Shubik index, the Penrose-Banzhaf index, the Holler-Packel
+index, and the Deegan-Packel index, are all polynomially computable. To make a
+comparison with WMG, we know that it may have exponentially many MWCs, and none
+of the four power indices is polynomially computable (unless P=NP). Still for
+the two dimensional case, we show that local monotonicity holds for all of the
+four power indices. In WMG, this property is possessed by the Shapley-Shubik
+index and the Penrose-Banzhaf index, but not by the Holler-Packel index or the
+Deegan-Packel index. Since our model fits very well the cooperation and
+competition in team sports, we hope that it can be potentially applied in
+measuring the values of players in team sports, say help people give more
+objective ranking of NBA players and select MVPs, and consequently bring new
+insights into contest theory and the more general field of sports economics. It
+may also provide some interesting enlightenments into the design of
+non-additive voting mechanisms. Last but not least, the threshold version of
+C-WMMG is a generalization of WMG, and natural variants of it are closely
+related with the famous airport game and the stable marriage/roommates problem.

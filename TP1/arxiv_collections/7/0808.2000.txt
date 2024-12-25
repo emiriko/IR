@@ -1,0 +1,18 @@
+Accurate knowledge of the null distribution of hypothesis tests is important
+for valid application of the tests. In previous papers and software, the
+asymptotic null distribution of likelihood ratio tests for detecting genetic
+linkage in multivariate variance components models has been stated to be a
+mixture of chi-square distributions with binomial mixing probabilities. Here we
+show, by simulation and by theoretical arguments based on the geometry of the
+parameter space, that all aspects of the previously stated asymptotic null
+distribution are incorrect--both the binomial mixing probabilities and the
+chi-square components. Correcting the null distribution gives more conservative
+critical values than previously stated, yielding P values that can easily be
+ten times larger. The true mixing probabilities give the highest probability to
+the case where all variance parameters are estimated positive, and the mixing
+components show severe departures from chi-square distributions. Thus, the
+asymptotic null distribution has complex features that raise challenges for the
+assessment of significance of multivariate linkage findings. We propose a
+method to generate an asymptotic null distribution that is much faster than
+other empirical methods such as gene-dropping, enabling us to obtain P values
+with higher precision more efficiently.

@@ -1,0 +1,20 @@
+Due to the strong effect of systematics/trends in variable star observations,
+we employ the Trend Filtering Algorithm (TFA) on a subset of the MACHO database
+and search for variable stars. TFA has been applied successfully in planetary
+transit searches, where weak, short-lasting periodic dimmings are sought in the
+presence of noise and various systematics (due to, e.g., imperfect flat
+fielding, crowding, etc). These latter effects introduce colored noise in the
+photometric time series that can lead to a complete miss of the signal. By
+using a large number of available photometric time series of a given field, TFA
+utilizes the fact that the same types of systematics appear in several/many
+time series of the same field. As a result, we fit each target time series by a
+(least-square-sense) optimum linear combination of templates and
+frequency-analyze the residuals. Once a signal is found, we reconstruct the
+signal by employing the full model, including the signal, systematics and
+noise. We apply TFA on the brightest ~5300 objects from subsets of each of the
+MACHO Large Magellanic Cloud fields #1 and #79. We find that the Fourier
+frequency analysis performed on the original data detect some 60% of the
+objects as trend-dominated. This figure decreases essentially to zero after
+using TFA. Altogether, We detect 387 variables in the two fields, 183 of which
+would have remained undetected without using TFA. Where possible, we give
+preliminary classification of the variables found.

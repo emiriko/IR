@@ -1,0 +1,11 @@
+In this letter, we prove that the perfectly secure One-Time Pad (OTP)
+encryption can be seen as finding the initial condition on the binary map under
+a random switch based on the perfectly random pad. This turns out to be a
+special case of Grangetto's randomized arithmetic coding performed on the
+Binary Map. Furthermore, we derive the set of possible perfect secrecy systems
+using such an approach. Since OTP encryption is an XOR operation, we thus have
+a dynamical systems implementation of the XOR gate. We show similar
+implementations for other gates such as NOR, NAND, OR, XNOR, AND and NOT. The
+dynamical systems framework unifies the three areas to which Shannon made
+foundational contributions: lossless compression (Source Coding), perfect
+encryption (Cryptography), and design of logic gates (Computation)

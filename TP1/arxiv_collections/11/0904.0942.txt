@@ -1,0 +1,10 @@
+We show that it is possible to significantly improve the accuracy of a
+general class of histogram queries while satisfying differential privacy. Our
+approach carefully chooses a set of queries to evaluate, and then exploits
+consistency constraints that should hold over the noisy output. In a
+post-processing phase, we compute the consistent input most likely to have
+produced the noisy output. The final output is differentially-private and
+consistent, but in addition, it is often much more accurate. We show, both
+theoretically and experimentally, that these techniques can be used for
+estimating the degree sequence of a graph very precisely, and for computing a
+histogram that can support arbitrary range queries accurately.

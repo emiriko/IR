@@ -1,0 +1,12 @@
+Classical mean-variance portfolio theory tells us how to construct a
+portfolio of assets which has the greatest expected return for a given level of
+return volatility. Utility theory then allows an investor to choose the point
+along this efficient frontier which optimally balances her desire for excess
+expected return against her reluctance to bear risk. The means and covariances
+of the distributions of future asset returns are assumed to be known, so the
+only source of uncertainty is the stochastic piece of the price evolution.
+  In the real world, we have another source of uncertainty - we estimate but
+don't know with certainty the means and covariances of future asset returns.
+This note explains how to construct mean-variance optimal portfolios of assets
+whose future returns have uncertain means and covariances. The result is simple
+in form, intuitive, and can easily be incorporated in an optimizer.

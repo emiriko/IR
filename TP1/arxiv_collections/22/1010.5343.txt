@@ -1,0 +1,17 @@
+In recent years, the freely available Monte Carlo code REAS for modelling
+radio emission from cosmic ray air showers has evolved to include the full
+complexity of air shower physics. However, it turned out that in REAS2 and all
+other time-domain models which calculate the radio emission by superposing the
+radiation of the single air shower electrons and positrons, the calculation of
+the emission contributions was not fully consistent. In this article, we
+present a revised implementation in REAS3, which incorporates the missing radio
+emission due to the variation of the number of charged particles during the air
+shower evolution using an "end-point formalism". With the inclusion of these
+emission contributions, the structure of the simulated radio pulses changes
+from unipolar to bipolar, and the azimuthal emission pattern becomes nearly
+symmetric. Remaining asymmetries can be explained by radio emission due to the
+variation of the net charge excess in air showers, which is automatically taken
+into account in the new implementation. REAS3 constitutes the first
+self-consistent time-domain implementation based on single particle emission
+taking the full complexity of air shower physics into account, and is freely
+available for all interested users.

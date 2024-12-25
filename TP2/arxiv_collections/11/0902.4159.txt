@@ -1,0 +1,12 @@
+We introduce a microscopic model for the dynamics of the order book to study
+how the lack of liquidity influences price fluctuations. We use the average
+density of the stored orders (granularity $g$) as a proxy for liquidity. This
+leads to a Price Impact Surface which depends on both volume $\omega$ and $g$.
+The dependence on the volume (averaged over the granularity) of the Price
+Impact Surface is found to be a concave power law function
+$<\phi(\omega,g)>_g\sim\omega^\delta$ with $\delta\approx 0.59$. Instead the
+dependence on the granularity is $\phi(\omega,g|\omega)\sim g^\alpha$ with
+$\alpha\approx-1$, showing a divergence of price fluctuations in the limit
+$g\to 0$. Moreover, even in intermediate situations of finite liquidity, this
+effect can be very large and it is a natural candidate for understanding the
+origin of large price fluctuations.

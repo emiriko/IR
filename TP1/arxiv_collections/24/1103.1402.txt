@@ -1,0 +1,26 @@
+Robust advances in interactome analysis demand comprehensive, non-redundant
+and consistently annotated datasets. By non-redundant, we mean that the
+accounting of evidence for every interaction should be faithful: each
+independent experimental support is counted exactly once, no more, no less.
+While many interactions are shared among public repositories, none of them
+contains the complete known interactome for any model organism. In addition,
+the annotations of the same experimental result by different repositories often
+disagree. This brings up the issue of which annotation to keep while
+consolidating evidences that are the same. The iRefIndex database, including
+interactions from most popular repositories with a standardized protein
+nomenclature, represents a significant advance in all aspects, especially in
+comprehensiveness. However, iRefIndex aims to maintain all
+information/annotation from original sources and requires users to perform
+additional processing to fully achieve the aforementioned goals.
+  To address issues with iRefIndex and to achieve our goals, we have developed
+ppiTrim, a script that processes iRefIndex to produce non-redundant,
+consistently annotated datasets of physical interactions. Our script proceeds
+in three stages: mapping all interactants to gene identifiers and removing all
+undesired raw interactions, deflating potentially expanded complexes, and
+reconciling for each interaction the annotation labels among different source
+databases. As an illustration, we have processed the three largest organismal
+datasets: yeast, human and fruitfly. While ppiTrim can resolve most apparent
+conflicts between different labelings, we also discovered some unresolvable
+disagreements mostly resulting from different annotation policies among
+repositories.
+  URL: http://www.ncbi.nlm.nih.gov/CBBresearch/Yu/downloads/ppiTrim.html

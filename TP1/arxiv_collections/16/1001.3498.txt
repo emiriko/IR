@@ -1,0 +1,18 @@
+The search for interesting association rules is an important topic in
+knowledge discovery in spatial gene expression databases. The set of admissible
+rules for the selected support and confidence thresholds can easily be
+extracted by algorithms based on support and confidence, such as Apriori.
+However, they may produce a large number of rules, many of them are
+uninteresting. The challenge in association rule mining (ARM) essentially
+becomes one of determining which rules are the most interesting. Association
+rule interestingness measures are used to help select and rank association rule
+patterns. Besides support and confidence, there are other interestingness
+measures, which include generality reliability, peculiarity, novelty,
+surprisingness, utility, and applicability. In this paper, the application of
+the interesting measures entropy and variance for association pattern discovery
+from spatial gene expression data has been studied. In this study the fast
+mining algorithm has been used which produce candidate itemsets and it spends
+less time for calculating k-supports of the itemsets with the Boolean matrix
+pruned, and it scans the database only once and needs less memory space.
+Experimental results show that using entropy as the measure of interest for the
+spatial gene expression data has more diverse and interesting rules.

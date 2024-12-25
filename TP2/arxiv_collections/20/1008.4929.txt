@@ -1,0 +1,13 @@
+This paper introduces real time inverse arithmetic coding and user interfaces
+based thereupon. The main idea is that information-efficient data entry can be
+achieved by ensuring that each input's associated display space and ease of
+selection are at all times related to the input's probability of being
+selected. As with data entry based on inverse arithmetic coding, the layout
+initially depends on the probabilities of the possible inputs; however, real
+time inverse arithmetic coding differs in that the user's actions are
+interpreted not to navigate this probability distribution but rather to modify
+it according to a learned update rule, which approximates the conditioning of
+the probability distribution on the user's actions. Potential applications of
+real time inverse arithmetic coding include text entry, file browsing,
+integrated multi-program user interfaces, assistive technologies for users with
+movement disabilities, and ergonomic input methods.

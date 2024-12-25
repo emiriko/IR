@@ -1,0 +1,8 @@
+We present an algorithm for phylogenetic reconstruction using quartets that
+returns the correct topology for $n$ taxa in $O(n \log n)$ time with high
+probability, in a probabilistic model where a quartet is not consistent with
+the true topology of the tree with constant probability, independent of other
+quartets. Our incremental algorithm relies upon a search tree structure for the
+phylogeny that is balanced, with high probability, no matter what the true
+topology is. Our experimental results show that our method is comparable in
+runtime to the fastest heuristics, while still offering consistency guarantees.

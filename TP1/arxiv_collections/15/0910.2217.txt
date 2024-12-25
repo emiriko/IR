@@ -1,0 +1,17 @@
+This paper proposes the application of particle swarm optimization (PSO) to
+the problem of finite element model (FEM) selection. This problem arises when a
+choice of the best model for a system has to be made from set of competing
+models, each developed a priori from engineering judgment. PSO is a
+population-based stochastic search algorithm inspired by the behaviour of
+biological entities in nature when they are foraging for resources. Each
+potentially correct model is represented as a particle that exhibits both
+individualistic and group behaviour. Each particle moves within the model
+search space looking for the best solution by updating the parameters values
+that define it. The most important step in the particle swarm algorithm is the
+method of representing models which should take into account the number,
+location and variables of parameters to be updated. One example structural
+system is used to show the applicability of PSO in finding an optimal FEM. An
+optimal model is defined as the model that has the least number of updated
+parameters and has the smallest parameter variable variation from the mean
+material properties. Two different objective functions are used to compare
+performance of the PSO algorithm.

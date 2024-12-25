@@ -1,0 +1,12 @@
+Generalized Cullen Numbers are positive integers of the form
+$C_b(n):=nb^n+1$. In this work we generalize some known divisibility properties
+of Cullen Numbers and present two primality tests for this family of integers.
+The first test is based in the following property of primes from this family:
+$n^{b^{n}}\equiv (-1)^{b}$ (mod $nb^n+1$). It is stronger and has less
+computational cost than Fermat's test (for bases $b$ and $n$) and than
+Miller-Rabin's test (for base $n$). Pseudoprimes for this new test seem to be
+very scarce, only 4 pseudoprimes have been found among the many millions of
+Generalized Cullen Numbers tested. We also present a second, more demanding,
+test for wich no pseudoprimes have been found. This test leads to a
+"quasi-deterministic" test, running in $\tilde{O}(\log^2(N))$ time, which might
+be very useful in the search of Generalized Cullen Primes.

@@ -1,0 +1,14 @@
+Similarity-based Logic Programming (briefly, SLP ) has been proposed to
+enhance the LP paradigm with a kind of approximate reasoning which supports
+flexible information retrieval applications. This approach uses a fuzzy
+similarity relation R between symbols in the program's signature, while keeping
+the syntax for program clauses as in classical LP. Another recent proposal is
+the QLP(D) scheme for Qualified Logic Programming, an extension of the LP
+paradigm which supports approximate reasoning and more. This approach uses
+annotated program clauses and a parametrically given domain D whose elements
+qualify logical assertions by measuring their closeness to various users'
+expectations. In this paper we propose a more expressive scheme SQLP(R,D) which
+subsumes both SLP and QLP(D) as particular cases. We also show that SQLP(R,D)
+programs can be transformed into semantically equivalent QLP(D) programs. As a
+consequence, existing QLP(D) implementations can be used to give efficient
+support for similarity-based reasoning.

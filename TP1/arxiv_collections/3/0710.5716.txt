@@ -1,0 +1,17 @@
+Models for RNA secondary structures (the topology of folded RNA) without
+pseudo knots are disordered systems with a complex state-space below a critical
+temperature. Hence, a complex dynamical (glassy) behavior can be expected, when
+performing Monte Carlo simulation. Interestingly, in contrast to most other
+complex systems, the ground states and the density of states can be computed in
+polynomial time exactly using transfer matrix methods. Hence, RNA secondary
+structure is an ideal model to study the relation between static/thermodynamic
+properties and dynamics of algorithms. Also they constitute an ideal benchmark
+system for new Monte Carlo methods.
+  Here we considered three different recent Monte Carlo approaches: entropic
+sampling using flat histograms, optimized-weights ensembles, and ParQ, which
+estimates the density of states from transition matrices.
+  These methods were examined by comparing the obtained density of states with
+the exact results. We relate the complexity seen in the dynamics of the Monte
+Carlo algorithms to static properties of the phase space by studying the
+correlations between tunneling times, sampling errors, amount of meta-stable
+states and degree of ultrametricity at finite temperature.

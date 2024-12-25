@@ -1,0 +1,12 @@
+In this paper we describe in detail the implementation and main properties of
+a new inversion code for the polarized radiative transfer equation (VFISV: Very
+Fast inversion of the Stokes vector). VFISV will routinely analyze pipeline
+data from the Helioseismic and Magnetic Imager (HMI) on-board of the Solar
+Dynamics Observatory (SDO). It will provide full-disk maps (4096$\times$4096
+pixels) of the magnetic field vector on the Solar Photosphere every 10 minutes.
+For this reason VFISV is optimized to achieve an inversion speed that will
+allow it to invert 16 million pixels every 10 minutes with a modest number
+(approx. 50) of CPUs. Here we focus on describing a number of important
+details, simplifications and tweaks that have allowed us to significantly speed
+up the inversion process. We also give details on tests performed with data
+from the spectropolarimeter on-board of the Hinode spacecraft.

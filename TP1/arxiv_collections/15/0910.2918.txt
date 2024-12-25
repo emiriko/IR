@@ -1,0 +1,10 @@
+We present a novel method to compute the overlap Dirac operator at zero and
+nonzero quark chemical potential. To approximate the sign function of large,
+sparse matrices, standard methods project the operator on a much smaller Krylov
+subspace, on which the matrix function is computed exactly. However, for large
+lattices this subspace can still be too large for an efficient calculation of
+the sign function. The idea of the new method is to nest Krylov subspace
+approximations by making a further projection on an even smaller subspace,
+which is then small enough to compute the sign function efficiently, and this
+without any noticeable loss of numerical accuracy. We demonstrate the
+efficiency of the method both on Hermitian and non-Hermitian matrices.

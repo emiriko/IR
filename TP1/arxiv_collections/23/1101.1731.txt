@@ -1,0 +1,10 @@
+Linear temporal logic was introduced in order to reason about reactive
+systems. It is often considered with respect to infinite words, to specify the
+behaviour of long-running systems. One can consider more general models for
+linear time, using words indexed by arbitrary linear orderings. We investigate
+the connections between temporal logic and automata on linear orderings, as
+introduced by Bruy\`ere and Carton. We provide a doubly exponential procedure
+to compute from any LTL formula with Until, Since, and the Stavi connectives an
+automaton that decides whether that formula holds on the input word. In
+particular, since the emptiness problem for these automata is decidable, this
+transformation gives a decision procedure for the satisfiability of the logic.

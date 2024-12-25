@@ -1,0 +1,17 @@
+We propose an approximate method for evaluating the importance of
+non-Born-Oppenheimer effects on the quantum dynamics of nuclei. The method uses
+a generalization of the dephasing representation (DR) of quantum fidelity to
+several diabatic potential energy surfaces and its computational cost is the
+cost of dynamics of a classical phase space distribution. It can be implemented
+easily into any molecular dynamics program and also can utilize on-the-fly ab
+initio electronic structure information. We test the methodology on three model
+problems introduced by Tully and on the photodissociation of NaI. The results
+show that for dynamics close to the diabatic limit the decay of fidelity due to
+nondiabatic effects is described accurately by the DR. In this regime, unlike
+the mixed quantum-classical methods such as surface hopping or Ehrenfest
+dynamics, the DR can capture more subtle quantum effects than the population
+transfer between potential energy surfaces. Hence we propose using the DR to
+estimate the dynamical importance of diabatic, spin-orbit, or other couplings
+between potential energy surfaces. The acquired information can help reduce the
+complexity of a studied system without affecting the accuracy of the quantum
+simulation.

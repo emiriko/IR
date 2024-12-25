@@ -1,0 +1,16 @@
+A discontinuous Galerkin method for approximating the Vlasov-Poisson system
+of equations describing the time evolution of a collisionless plasma is
+proposed. The method is mass conservative and, in the case that piecewise
+constant functions are used as a basis, the method preserves the positivity of
+the electron distribution function and weakly enforces continuity of the
+electric field through mesh interfaces and boundary conditions. The performance
+of the method is investigated by computing several examples and error estimates
+associated system's approximation are stated. In particular, computed results
+are benchmarked against established theoretical results for linear advection
+and the phenomenon of linear Landau damping for both the Maxwell and Lorentz
+distributions. Moreover, two nonlinear problems are considered: nonlinear
+Landau damping and a version of the two-stream instability are computed. For
+the latter, fine scale details of the resulting long-time BGK-like state are
+presented. Conservation laws are examined and various comparisons to theory are
+made. The results obtained demonstrate that the discontinuous Galerkin method
+is a viable option for integrating the Vlasov-Poisson system.

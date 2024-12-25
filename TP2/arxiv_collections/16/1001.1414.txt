@@ -1,0 +1,18 @@
+In pay-per click sponsored search auctions which are currently extensively
+used by search engines, the auction for a keyword involves a certain number of
+advertisers (say k) competing for available slots (say m) to display their ads.
+This auction is typically conducted for a number of rounds (say T). There are
+click probabilities mu_ij associated with each agent-slot pairs. The goal of
+the search engine is to maximize social welfare of the advertisers, that is,
+the sum of values of the advertisers. The search engine does not know the true
+values advertisers have for a click to their respective ads and also does not
+know the click probabilities mu_ij s. A key problem for the search engine
+therefore is to learn these click probabilities during the T rounds of the
+auction and also to ensure that the auction mechanism is truthful. Mechanisms
+for addressing such learning and incentives issues have recently been
+introduced and are aptly referred to as multi-armed-bandit (MAB) mechanisms.
+When m = 1, characterizations for truthful MAB mechanisms are available in the
+literature and it has been shown that the regret for such mechanisms will be
+O(T^{2/3}). In this paper, we seek to derive a characterization in the
+realistic but non-trivial general case when m > 1 and obtain several
+interesting results.

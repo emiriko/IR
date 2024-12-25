@@ -1,0 +1,11 @@
+Symmetry is an important feature of many constraint programs. We show that
+any symmetry acting on a set of symmetry breaking constraints can be used to
+break symmetry. Different symmetries pick out different solutions in each
+symmetry class. We use these observations in two methods for eliminating
+symmetry from a problem. These methods are designed to have many of the
+advantages of symmetry breaking methods that post static symmetry breaking
+constraint without some of the disadvantages. In particular, the two methods
+prune the search space using fast and efficient propagation of posted
+constraints, whilst reducing the conflict between symmetry breaking and
+branching heuristics. Experimental results show that the two methods perform
+well on some standard benchmarks.

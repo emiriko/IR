@@ -1,0 +1,8 @@
+A classical approach to accurately estimating the covariance matrix \Sigma of
+a p-variate normal distribution is to draw a sample of size n > p and form a
+sample covariance matrix. However, many modern applications operate with much
+smaller sample sizes, thus calling for estimation guarantees in the regime n <<
+p. We show that a sample of size n = O(m log^6 p) is sufficient to accurately
+estimate in operator norm an arbitrary symmetric part of \Sigma consisting of m
+< n entries per row. This follows from a general result on estimating Hadamard
+products M.\Sigma, where M is an arbitrary symmetric matrix.

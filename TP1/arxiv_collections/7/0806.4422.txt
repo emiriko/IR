@@ -1,0 +1,16 @@
+The method of stable random projections is a tool for efficiently computing
+the $l_\alpha$ distances using low memory, where $0<\alpha \leq 2$ is a tuning
+parameter. The method boils down to a statistical estimation task and various
+estimators have been proposed, based on the geometric mean, the harmonic mean,
+and the fractional power etc.
+  This study proposes the optimal quantile estimator, whose main operation is
+selecting, which is considerably less expensive than taking fractional power,
+the main operation in previous estimators. Our experiments report that the
+optimal quantile estimator is nearly one order of magnitude more
+computationally efficient than previous estimators. For large-scale learning
+tasks in which storing and computing pairwise distances is a serious
+bottleneck, this estimator should be desirable.
+  In addition to its computational advantages, the optimal quantile estimator
+exhibits nice theoretical properties. It is more accurate than previous
+estimators when $\alpha>1$. We derive its theoretical error bounds and
+establish the explicit (i.e., no hidden constants) sample complexity bound.

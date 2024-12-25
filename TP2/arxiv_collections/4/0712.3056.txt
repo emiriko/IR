@@ -1,0 +1,15 @@
+We consider a Bayesian hierarchical version of the normal theory general
+linear model which is practically relevant in the sense that it is general
+enough to have many applications and it is not straightforward to sample
+directly from the corresponding posterior distribution. Thus we study a block
+Gibbs sampler that has the posterior as its invariant distribution. In
+particular, we establish that the Gibbs sampler converges at a geometric rate.
+This allows us to establish conditions for a central limit theorem for the
+ergodic averages used to estimate features of the posterior. Geometric
+ergodicity is also a key component for using batch means methods to
+consistently estimate the variance of the asymptotic normal distribution.
+Together, our results give practitioners the tools to be as confident in
+inferences based on the observations from the Gibbs sampler as they would be
+with inferences based on random samples from the posterior. Our theoretical
+results are illustrated with an application to data on the cost of health plans
+issued by health maintenance organizations.

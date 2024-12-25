@@ -1,0 +1,14 @@
+Let E be a number field and G be a finite group. Let A be any O_E-order of
+full rank in the group algebra E[G] and X be a (left) A-lattice. We give a
+necessary and sufficient condition for X to be free of given rank d over A. In
+the case that the Wedderburn decomposition of E[G] is explicitly computable and
+each component is in fact a matrix ring over a field, this leads to an
+algorithm that either gives an A-basis for X or determines that no such basis
+exists.
+  Let L/K be a finite Galois extension of number fields with Galois group G
+such that E is a subfield of K and put d=[K:E]. The algorithm can be applied to
+certain Galois modules that arise naturally in this situation. For example, one
+can take X to be O_L, the ring of algebraic integers of L, and A to be the
+associated order A of O_L in E[G]. The application of the algorithm to this
+special situation is implemented in Magma under certain extra hypotheses when
+K=E=Q.

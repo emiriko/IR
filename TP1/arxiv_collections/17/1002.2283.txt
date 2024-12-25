@@ -1,0 +1,15 @@
+In many applications, nodes in a network desire not only a consensus, but an
+optimal one. To date, a family of subgradient algorithms have been proposed to
+solve this problem under general convexity assumptions. This paper shows that,
+for the scalar case and by assuming a bit more, novel non-gradient-based
+algorithms with appealing features can be constructed. Specifically, we develop
+Pairwise Equalizing (PE) and Pairwise Bisectioning (PB), two gossip algorithms
+that solve unconstrained, separable, convex consensus optimization problems
+over undirected networks with time-varying topologies, where each local
+function is strictly convex, continuously differentiable, and has a minimizer.
+We show that PE and PB are easy to implement, bypass limitations of the
+subgradient algorithms, and produce switched, nonlinear, networked dynamical
+systems that admit a common Lyapunov function and asymptotically converge.
+Moreover, PE generalizes the well-known Pairwise Averaging and Randomized
+Gossip Algorithm, while PB relaxes a requirement of PE, allowing nodes to never
+share their local functions.

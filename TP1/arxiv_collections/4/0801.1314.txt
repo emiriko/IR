@@ -1,0 +1,23 @@
+In the first part of this series of two papers, we proposed a theoretical
+formalism that enables one to model and categorize heterogeneous materials
+(media) via two-point correlation functions S2 and introduced an efficient
+heterogeneous-medium (re)construction algorithm called the "lattice-point"
+algorithm. Here we discuss the algorithmic details of the lattice-point
+procedure and an algorithm modification using surface optimization to further
+speed up the (re)construction process. The importance of the error tolerance,
+which indicates to what accuracy the media are (re)constructed, is also
+emphasized and discussed. We apply the algorithm to generate three-dimensional
+digitized realizations of a Fontainebleau sandstone and a boron
+carbide/aluminum composite from the two- dimensional tomographic images of
+their slices through the materials. To ascertain whether the information
+contained in S2 is sufficient to capture the salient structural features, we
+compute the two-point cluster functions of the media, which are superior
+signatures of the micro-structure because they incorporate the connectedness
+information. We also study the reconstruction of a binary laser-speckle pattern
+in two dimensions, in which the algorithm fails to reproduce the pattern
+accurately. We conclude that in general reconstructions using S2 only work well
+for heterogeneous materials with single-scale structures. However, two-point
+information via S2 is not sufficient to accurately model multi-scale media.
+Moreover, we construct realizations of hypothetical materials with desired
+structural characteristics obtained by manipulating their two-point correlation
+functions.

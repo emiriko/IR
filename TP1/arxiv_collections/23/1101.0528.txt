@@ -1,0 +1,17 @@
+We present a procedure to construct a configuration-interaction expansion
+containing arbitrary excitations from an underlying
+full-configuration-interaction-type wave function defined for a very large
+active space. Our procedure is based on the density-matrix renormalization
+group (DMRG) algorithm that provides the necessary information in terms of the
+eigenstates of the reduced density matrices to calculate the coefficient of any
+basis state in the many-particle Hilbert space. Since the dimension of the
+Hilbert space scales binomially with the size of the active space, a
+sophisticated Monte Carlo sampling routine is employed. This sampling algorithm
+can also construct such configuration-interaction-type wave functions from any
+other type of tensor network states. The configuration-interaction information
+obtained serves several purposes. It yields a qualitatively correct description
+of the molecule's electronic structure, it allows us to analyze DMRG wave
+functions converged for the same molecular system but with different parameter
+sets (e.g., different numbers of active-system (block) states), and it can be
+considered a balanced reference for the application of a subsequent standard
+multi-reference configuration-interaction method.

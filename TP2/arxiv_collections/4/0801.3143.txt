@@ -1,0 +1,19 @@
+Studying spin-glass physics through analyzing their ground-state properties
+has a long history. Although there exist polynomial-time algorithms for the
+two-dimensional planar case, where the problem of finding ground states is
+transformed to a minimum-weight perfect matching problem, the reachable system
+sizes have been limited both by the needed CPU time and by memory requirements.
+In this work, we present an algorithm for the calculation of exact ground
+states for two-dimensional Ising spin glasses with free boundary conditions in
+at least one direction. The algorithmic foundations of the method date back to
+the work of Kasteleyn from the 1960s for computing the complete partition
+function of the Ising model. Using Kasteleyn cities, we calculate exact ground
+states for huge two-dimensional planar Ising spin-glass lattices (up to
+3000x3000 spins) within reasonable time. According to our knowledge, these are
+the largest sizes currently available. Kasteleyn cities were recently also used
+by Thomas and Middleton in the context of extended ground states on the torus.
+Moreover, they show that the method can also be used for computing ground
+states of planar graphs. Furthermore, we point out that the correctness of
+heuristically computed ground states can easily be verified. Finally, we
+evaluate the solution quality of heuristic variants of the Bieche et al.
+approach.

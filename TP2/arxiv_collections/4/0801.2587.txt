@@ -1,0 +1,13 @@
+The flexibility in gap cost enjoyed by Hidden Markov Models (HMMs) is
+expected to afford them better retrieval accuracy than position-specific
+scoring matrices (PSSMs). We attempt to quantify the effect of more general gap
+parameters by separately examining the influence of position- and
+composition-specific gap scores, as well as by comparing the retrieval accuracy
+of the PSSMs constructed using an iterative procedure to that of the HMMs
+provided by Pfam and SUPERFAMILY, curated ensembles of multiple alignments.
+  We found that position-specific gap penalties have an advantage over uniform
+gap costs. We did not explore optimizing distinct uniform gap costs for each
+query. For Pfam, PSSMs iteratively constructed from seeds based on HMM
+consensus sequences perform equivalently to HMMs that were adjusted to have
+constant gap transition probabilities, albeit with much greater variance. We
+observed no effect of composition-specific gap costs on retrieval performance.

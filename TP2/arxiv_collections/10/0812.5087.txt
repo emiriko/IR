@@ -1,0 +1,14 @@
+Stochastic networks are a plausible representation of the relational
+information among entities in dynamic systems such as living cells or social
+communities. While there is a rich literature in estimating a static or
+temporally invariant network from observation data, little has been done toward
+estimating time-varying networks from time series of entity attributes. In this
+paper we present two new machine learning methods for estimating time-varying
+networks, which both build on a temporally smoothed $l_1$-regularized logistic
+regression formalism that can be cast as a standard convex-optimization problem
+and solved efficiently using generic solvers scalable to large networks. We
+report promising results on recovering simulated time-varying networks. For
+real data sets, we reverse engineer the latent sequence of temporally rewiring
+political networks between Senators from the US Senate voting records and the
+latent evolving regulatory networks underlying 588 genes across the life cycle
+of Drosophila melanogaster from the microarray time course.

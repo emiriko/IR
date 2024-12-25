@@ -1,0 +1,10 @@
+Recent developments have shown that a lot can be gained for QCD simulations
+from GPU hardware. This can be exploited especially in the case of
+Ginsparg-Wilson fermions when the com putational costs are particularly high.
+In this work, we use the Neuberger-Dirac operator as our realisation of
+Ginsparg-Wilson fermions, which greatly facilitate lattice investigations of
+decays like $K \to \pi\pi$. We report on the ongoing study of our GPU
+implementation of the Neuberger-Dirac operator including the exact treatment of
+the low lying eigenmodes of the Wilson-Dirac operator. Our benchmarks show that
+we achieve speed-up factors of around 23 and 16 in single and double precision,
+respectively.

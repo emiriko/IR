@@ -1,0 +1,17 @@
+Formulas are presented for the recursive generation of four-body integrals in
+which the integrand consists of arbitrary integer powers (>= -1) of all the
+interparticle distances r_ij, multiplied by an exponential containing an
+arbitrary linear combination of all the r_ij. These integrals are
+generalizations of those encountered using Hylleraas basis functions, and
+include all that are needed to make energy computations on the Li atom and
+other four-body systems with a fully exponentially correlated Slater-type basis
+of arbitrary quantum numbers. The only quantities needed to start the recursion
+are the basic four-body integral first evaluated by Fromm and Hill, plus some
+easily evaluated three-body "boundary" integrals. The computational labor in
+constructing integral sets for practical computations is less than when the
+integrals are generated using explicit formulas obtained by differentiating the
+basic integral with respect to its parameters. Computations are facilitated by
+using a symbolic algebra program (MAPLE) to compute array index pointers and
+present syntactically correct FORTRAN source code as output; in this way it is
+possible to obtain error-free high-speed evaluations with minimal effort. The
+work can be checked by verifying sum rules the integrals must satisfy.

@@ -1,0 +1,9 @@
+We extend the Wolf direct, pairwise r^(-1) summation method with spherical
+truncation to dipolar interactions in silica. The Tangney-Scandolo interatomic
+force field for silica takes regard of polarizable oxygen atoms whose dipole
+moments are determined by iteration to a self-consistent solution. With Wolf
+summation, the computational effort scales linearly in the system size and can
+easily be distributed among many processors, thus making large-scale
+simulations of dipoles possible. The details of the implementation are
+explained. The approach is validated by estimations of the error term and
+simulations of microstructural and thermodynamic properties of silica.

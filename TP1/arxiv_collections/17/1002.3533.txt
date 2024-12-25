@@ -1,0 +1,13 @@
+A recipe for creating materials with a desired refraction coefficient is
+implemented numerically. The following assumptions are used: \bee
+\zeta_m=h(x_m)/a^\kappa,\quad d=O(a^{(2-\kappa)/3}),\quad
+M=O(1/a^{2-\kappa}),\quad \kappa\in(0,1), \eee where $\zeta_m$ and $x_m$ are
+the boundary impedance and center of the $m$-th ball, respectively, $h(x)\in
+C(D)$, Im$h(x)\leq 0$, $M$ is the number of small balls embedded in the cube
+$D$, $a$ is the radius of the small balls and $d$ is the distance between the
+neighboring balls.
+  An error estimate is given for the approximate solution of the many-body
+scattering problem in the case of small scatterers. This result is used for the
+estimate of the minimal number of small particles to be embedded in a given
+domain $D$ in order to get a material whose refraction coefficient approximates
+the desired one with the relative error not exceeding a desired small quantity.

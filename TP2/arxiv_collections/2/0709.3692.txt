@@ -1,0 +1,14 @@
+A model of MPI synchronization communication programs is presented and its
+three basic simplified models are also defined. A series of theorems and
+methods for deciding whether deadlocks will occur among the three models are
+given and proved strictly. These theories and methods for simple models'
+deadlock detection are the necessary base for real MPI program deadlock
+detection. The methods are based on a static analysis through programs and with
+runtime detection in necessary cases and they are able to determine before
+compiling whether it will be deadlocked for two of the three basic models. For
+another model, some deadlock cases can be found before compiling and others at
+runtime. Our theorems can be used to prove the correctness of currently popular
+MPI program deadlock detection algorithms. Our methods may decrease codes that
+those algorithms need to change to MPI source or profiling interface and may
+detects deadlocks ahead of program execution, thus the overheads can be reduced
+greatly.

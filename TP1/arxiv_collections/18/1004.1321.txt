@@ -1,0 +1,14 @@
+We present a method for calculating the electronic structure of correlated
+materials based on a truly first-principles LDA+U scheme. Recently we suggested
+how to calculate U from first-principles, using a method which we named
+constrained RPA (cRPA). The input is simply the Kohn-Sham eigenfunctions and
+eigenvalues obtained within the LDA. In our proposed self-consistent LDA+U
+scheme, we calculate the LDA+U eigenfunctions and eigenvalues and use these to
+extract U. The updated U is then used in the next iteration to obtain a new set
+of eigenfunctions and eigenvalues and the iteration is continued until
+convergence is achieved. The most significant result is that our numerical
+approach is indeed stable: it is possible to find the effective exchange and
+correlation interaction matrix in a self-consistent way, resulting in a
+significant improvement over the LDA results, regarding both the bandgap in NiO
+and the f-band exchange spin-splitting in Gd, but some discrepancies still
+remain.

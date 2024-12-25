@@ -1,0 +1,18 @@
+We introduce a new galaxy image decomposition tool, GALPHAT (GALaxy
+PHotometric ATtributes), to provide full posterior probability distributions
+and reliable confidence intervals for all model parameters. GALPHAT is designed
+to yield a high speed and accurate likelihood computation, using grid
+interpolation and Fourier rotation. We benchmark this approach using an
+ensemble of simulated Sersic model galaxies over a wide range of observational
+conditions: the signal-to-noise ratio S/N, the ratio of galaxy size to the PSF
+and the image size, and errors in the assumed PSF; and a range of structural
+parameters: the half-light radius $r_e$ and the Sersic index $n$. We
+characterise the strength of parameter covariance in Sersic model, which
+increases with S/N and $n$, and the results strongly motivate the need for the
+full posterior probability distribution in galaxy morphology analyses and later
+inferences.
+  The test results for simulated galaxies successfully demonstrate that, with a
+careful choice of Markov chain Monte Carlo algorithms and fast model image
+generation, GALPHAT is a powerful analysis tool for reliably inferring
+morphological parameters from a large ensemble of galaxies over a wide range of
+different observational conditions. (abridged)

@@ -1,0 +1,11 @@
+A book of size b in a graph is an edge that lies in b triangles. Consider a
+graph G with n vertices and \lfloor n^2/4\rfloor +1 edges. Rademacher proved
+that G contains at least \lfloor n/2\rfloor triangles, and Erdos conjectured
+and Edwards proved that G contains a book of size at least n/6.
+  We prove the following "linear combination" of these two results. Suppose
+that \alpha\in (1/2, 1) and the maximum size of a book in G is less than \alpha
+n/2. Then G contains at least \alpha(1-\alpha) n^2/4 - o(n^2) triangles as n
+approaches infinity. This is asymptotically sharp. On the other hand, for every
+\alpha\in (1/3, 1/2), there exists \beta>0 such that G contains at least \beta
+n^3 triangles. It remains an open problem to determine the largest possible
+\beta in terms of \alpha. Our proof uses the Ruzsa-Szemeredi theorem.

@@ -1,0 +1,13 @@
+As an example of the recently-introduced concept of rate of innovation,
+signals that are linear combinations of a finite number of Diracs per unit time
+can be acquired by linear filtering followed by uniform sampling. However, in
+reality, samples are rarely noiseless. In this paper, we introduce a novel
+stochastic algorithm to reconstruct a signal with finite rate of innovation
+from its noisy samples. Even though variants of this problem has been
+approached previously, satisfactory solutions are only available for certain
+classes of sampling kernels, for example kernels which satisfy the Strang-Fix
+condition. In this paper, we consider the infinite-support Gaussian kernel,
+which does not satisfy the Strang-Fix condition. Other classes of kernels can
+be employed. Our algorithm is based on Gibbs sampling, a Markov chain Monte
+Carlo (MCMC) method. Extensive numerical simulations demonstrate the accuracy
+and robustness of our algorithm.

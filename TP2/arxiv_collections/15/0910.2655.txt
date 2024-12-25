@@ -1,0 +1,15 @@
+In this note we consider the following problem to study the effect of
+malicious players on the social optimum in load balancing games: Consider two
+players SOC and MAL controlling (1-f) and f fraction of the flow in a load
+balancing game. SOC tries to minimize the total cost faced by her players while
+MAL tries to maximize the same.
+  If the latencies are linear, we show that this 2-player zero-sum game has a
+pure strategy Nash equilibrium. Moreover, we show that one of the optimal
+strategies for MAL is to play selfishly: let the f fraction of the flow be sent
+as when the flow was controlled by infinitesimal players playing selfishly and
+reaching a Nash equilibrium. This shows that a malicious player cannot cause
+more harm in this game than a set of selfish agents.
+  We also introduce the notion of Cost of Malice - the ratio of the cost faced
+by SOC at equilibrium to (1-f)OPT, where OPT is the social optimum minimizing
+the cost of all the players. In linear load balancing games we bound the cost
+of malice by (1+f/2).

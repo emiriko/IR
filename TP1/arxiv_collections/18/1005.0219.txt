@@ -1,0 +1,14 @@
+This paper deals with temporal and archive object-oriented data warehouse
+modelling and querying. In a first step, we define a data model describing
+warehouses as central repositories of complex and temporal data extracted from
+one information source. The model is based on the concepts of warehouse object
+and environment. A warehouse object is composed of one current state, several
+past states (modelling value changes) and several archive states (summarising
+some value changes). An environment defines temporal parts in a warehouse
+schema according to a relevant granularity (attribute, class or graph). In a
+second step, we provide a query algebra dedicated to data warehouses. This
+algebra, which is based on common object algebras, integrates temporal
+operators and operators for querying object states. An other important
+contribution concerns dedicated operators allowing users to transform warehouse
+objects in temporal series as well as operators facilitating analytical
+treatments.

@@ -1,0 +1,8 @@
+We study decompositions of NVALUE, a global constraint that can be used to
+model a wide range of problems where values need to be counted. Whilst
+decomposition typically hinders propagation, we identify one decomposition that
+maintains a global view as enforcing bound consistency on the decomposition
+achieves bound consistency on the original global NVALUE constraint. Such
+decompositions offer the prospect for advanced solving techniques like nogood
+learning and impact based branching heuristics. They may also help SAT and IP
+solvers take advantage of the propagation of global constraints.

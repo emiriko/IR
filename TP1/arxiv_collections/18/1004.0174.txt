@@ -1,0 +1,11 @@
+A novel decoding algorithm is developed for general quantum convolutional
+codes. Exploiting useful ideas from classical coding theory, the new decoder
+introduces two innovations that drastically reduce the decoding complexity
+compared to the existing quantum Viterbi decoder. First, the new decoder uses
+an efficient linear-circuits-based mechanism to map a syndrome to a candidate
+vector, whereas the existing algorithm relies on a non-trivial lookup table.
+Second, the new algorithm is cleverly engineered such that only one run of the
+Viterbi algorithm suffices to locate the most-likely error pattern, whereas the
+existing algorithm must run the Viterbi algorithm many times. The efficiency of
+the proposed algorithm allows us to simulate and present the first performance
+curve of a general quantum convolutional code.

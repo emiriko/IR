@@ -1,0 +1,18 @@
+The lambda-calculus with de Bruijn indices assembles each alpha-class of
+lambda-terms in a unique term, using indices instead of variable names.
+Intersection types provide finitary type polymorphism and can characterise
+normalisable lambda-terms through the property that a term is normalisable if
+and only if it is typeable. To be closer to computations and to simplify the
+formalisation of the atomic operations involved in beta-contractions, several
+calculi of explicit substitution were developed mostly with de Bruijn indices.
+Versions of explicit substitutions calculi without types and with simple type
+systems are well investigated in contrast to versions with more elaborate type
+systems such as intersection types. In previous work, we introduced a de Bruijn
+version of the lambda-calculus with an intersection type system and proved that
+it preserves subject reduction, a basic property of type systems. In this paper
+a version with de Bruijn indices of an intersection type system originally
+introduced to characterise principal typings for beta-normal forms is
+presented. We present the characterisation in this new system and the
+corresponding versions for the type inference and the reconstruction of normal
+forms from principal typings algorithms. We briefly discuss the failure of the
+subject reduction property and some possible solutions for it.

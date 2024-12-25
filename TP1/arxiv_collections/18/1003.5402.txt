@@ -1,0 +1,17 @@
+Online adaptive radiation therapy (ART) has great promise to significantly
+reduce normal tissue toxicity and/or improve tumor control through real-time
+treatment adaptations based on the current patient anatomy. However, the major
+technical obstacle for clinical realization of online ART, namely the inability
+to achieve real-time efficiency in treatment re-planning, has yet to be solved.
+To overcome this challenge, this paper presents our work on the implementation
+of an intensity modulated radiation therapy (IMRT) direct aperture optimization
+(DAO) algorithm on graphics processing unit (GPU) based on our previous work on
+CPU. We formulate the DAO problem as a large-scale convex programming problem,
+and use an exact method called column generation approach to deal with its
+extremely large dimensionality on GPU. Five 9-field prostate and five 5-field
+head-and-neck IMRT clinical cases with 5\times5 mm2 beamlet size and
+2.5\times2.5\times2.5 mm3 voxel size were used to evaluate our algorithm on
+GPU. It takes only 0.7~2.5 seconds for our implementation to generate optimal
+treatment plans using 50 MLC apertures on an NVIDIA Tesla C1060 GPU card. Our
+work has therefore solved a major problem in developing ultra-fast
+(re-)planning technologies for online ART.

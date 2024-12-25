@@ -1,0 +1,19 @@
+Among many existing distance measures for time series data, Dynamic Time
+Warping (DTW) distance has been recognized as one of the most accurate and
+suitable distance measures due to its flexibility in sequence alignment.
+However, DTW distance calculation is computationally intensive. Especially in
+very large time series databases, sequential scan through the entire database
+is definitely impractical, even with random access that exploits some index
+structures since high dimensionality of time series data incurs extremely high
+I/O cost. More specifically, a sequential structure consumes high CPU but low
+I/O costs, while an index structure requires low CPU but high I/O costs. In
+this work, we therefore propose a novel indexed sequential structure called
+TWIST (Time Warping in Indexed Sequential sTructure) which benefits from both
+sequential access and index structure. When a query sequence is issued, TWIST
+calculates lower bounding distances between a group of candidate sequences and
+the query sequence, and then identifies the data access order in advance, hence
+reducing a great number of both sequential and random accesses. Impressively,
+our indexed sequential structure achieves significant speedup in a querying
+process by a few orders of magnitude. In addition, our method shows superiority
+over existing rival methods in terms of query processing time, number of page
+accesses, and storage requirement with no false dismissal guaranteed.

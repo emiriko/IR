@@ -1,0 +1,15 @@
+The semi-automatic or automatic synthesis of robot controller software is
+both desirable and challenging. Synthesis of rather simple behaviors such as
+collision avoidance by applying artificial evolution has been shown multiple
+times. However, the difficulty of this synthesis increases heavily with
+increasing complexity of the task that should be performed by the robot. We try
+to tackle this problem of complexity with Artificial Homeostatic Hormone
+Systems (AHHS), which provide both intrinsic, homeostatic processes and
+(transient) intrinsic, variant behavior. By using AHHS the need for pre-defined
+controller topologies or information about the field of application is
+minimized. We investigate how the principle design of the controller and the
+hormone network size affects the overall performance of the artificial
+evolution (i.e., evolvability). This is done by comparing two variants of AHHS
+that show different effects when mutated. We evolve a controller for a robot
+built from five autonomous, cooperating modules. The desired behavior is a form
+of gait resulting in fast locomotion by using the modules' main hinges.

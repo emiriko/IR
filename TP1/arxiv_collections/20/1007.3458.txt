@@ -1,0 +1,6 @@
+We describe a parallel hybrid symplectic integrator for planetary system
+integration that runs on a graphics processing unit (GPU). The integrator
+identifies close approaches between particles and switches from symplectic to
+Hermite algorithms for particles that require higher resolution integrations.
+The integrator is approximately as accurate as other hybrid symplectic
+integrators but is GPU accelerated.

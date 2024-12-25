@@ -1,0 +1,21 @@
+Bilateral CVA as currently implement has the counterintuitive effect of
+profiting from one's own widening CDS spreads, i.e. increased risk of default,
+in practice. The unified picture of CVA and liquidity introduced by Morini &
+Prampolini 2010 has contributed to understanding this. However, there are two
+significant omissions for practical implementation that come from the same
+source, i.e. positions not booked in usual position-keeping systems. The first
+omission is firm-level positions that change value upon firm default. An
+example is Goodwill which is a line item on balance sheets and typically
+written down to zero on default. Another example would be firm Equity. The
+second omission relates to collateralized positions. When these positions are
+out of the money in future, which has a positive probability, they will require
+funding that cannot be secured using the position itself. These contingent
+future funding positions are usually not booked in any position-keeping system.
+We show here how to include these two types of positions and thus help to
+complete the unified picture of CVA and liquidity.
+  For a particular large complex financial institution that profited $2.5B from
+spread widening we show that including Goodwill would have resulted in a $4B
+loss under conservative assumptions. Whilst we cannot make a similar assessment
+for its collateralized derivative portfolio we calculate both the funding costs
+and the CVA from own default for a range of swaps and find that CVA was a
+positive contribution in the examples.

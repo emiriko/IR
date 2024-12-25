@@ -1,0 +1,21 @@
+Quantum walk is one of the main tools for quantum algorithms. Defined by
+analogy to classical random walk, a quantum walk is a time-homogeneous quantum
+process on a graph. Both random and quantum walks can be defined either in
+continuous or discrete time. But whereas a continuous-time random walk can be
+obtained as the limit of a sequence of discrete-time random walks, the two
+types of quantum walk appear fundamentally different, owing to the need for
+extra degrees of freedom in the discrete-time case.
+  In this article, I describe a precise correspondence between continuous- and
+discrete-time quantum walks on arbitrary graphs. Using this correspondence, I
+show that continuous-time quantum walk can be obtained as an appropriate limit
+of discrete-time quantum walks. The correspondence also leads to a new
+technique for simulating Hamiltonian dynamics, giving efficient simulations
+even in cases where the Hamiltonian is not sparse. The complexity of the
+simulation is linear in the total evolution time, an improvement over
+simulations based on high-order approximations of the Lie product formula. As
+applications, I describe a continuous-time quantum walk algorithm for element
+distinctness and show how to optimally simulate continuous-time query
+algorithms of a certain form in the conventional quantum query model. Finally,
+I discuss limitations of the method for simulating Hamiltonians with negative
+matrix elements, and present two problems that motivate attempting to
+circumvent these limitations.

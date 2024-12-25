@@ -1,0 +1,14 @@
+Detection of false-positive motifs is one of the main causes of low
+performance in motif finding methods. It is generally assumed that
+false-positives are mostly due to algorithmic weakness of motif-finders. Here,
+however, we derive the theoretical dependence of false positives on dataset
+size and find that false positives can arise as a result of large dataset size,
+irrespective of the algorithm used. Interestingly, the false-positive strength
+depends more on the number of sequences in the dataset than it does on the
+sequence length. As expected, false-positives can be reduced by decreasing the
+sequence length or by adding more sequences to the dataset. The dependence on
+number of sequences, however, diminishes and reaches a plateau after which
+adding more sequences to the dataset does not reduce the false-positive rate
+significantly. Based on the theoretical results presented here, we provide a
+number of intuitive rules of thumb that may be used to enhance motif-finding
+results in practice.

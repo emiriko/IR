@@ -1,0 +1,24 @@
+Suppose that you are navigating in ``hyperspace'' and you have reached a web
+page with several outgoing links you could choose to follow. Which link should
+you choose in such an online scenario? When you are not sure where the
+information you require resides, you will initiate a navigation session. This
+involves pruning some of the links and following one of the others, where more
+pruning is likely to happen the deeper you navigate. In terms of decision
+making, the utility of navigation diminishes with distance until finally the
+utility drops to zero and the session is terminated. Under this model of
+navigation, we call the number of nodes that are available after pruning, for
+browsing within a session, the {\em potential gain} of the starting web page.
+Thus the parameters that effect the potential gain are the local branching
+factor with respect to the starting web page and the discount factor.
+  We first consider the case when the discounting factor is geometric. We show
+that the distribution of the effective number of links that the user can follow
+at each navigation step after pruning, i.e. the number of nodes added to the
+potential gain at that step, is given by the {\em erf} function. We derive an
+approximation to the potential gain of a web page and show that this is
+numerically a very accurate estimate. We then consider a harmonic discounting
+factor and show that, in this case, the potential gain at each step is closely
+related to the probability density function for the Poisson distribution.
+  The potential gain has been applied to web navigation where it helps the user
+to choose a good starting point for initiating a navigation session. Another
+application is in social network analysis, where the potential gain could
+provide a novel measure of centrality.

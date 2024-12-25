@@ -1,0 +1,13 @@
+We present a recursive minimal polynomial theorem for finite sequences over a
+commutative integral domain $D$. This theorem is relative to any element of
+$D$. The ingredients are: the arithmetic of Laurent polynomials over $D$, a
+recursive 'index function' and simple mathematical induction. Taking
+reciprocals gives a 'Berlekamp-Massey theorem' i.e. a recursive construction of
+the polynomials arising in the Berlekamp-Massey algorithm, relative to any
+element of $D$. The recursive theorem readily yields the iterative minimal
+polynomial algorithm due to the author and a transparent derivation of the
+iterative Berlekamp-Massey algorithm.
+  We give an upper bound for the sum of the linear complexities of $s$ which is
+tight if $s$ has a perfect linear complexity profile. This implies that over a
+field, both iterative algorithms require at most $2\lfloor
+\frac{n^2}{4}\rfloor$ multiplications.

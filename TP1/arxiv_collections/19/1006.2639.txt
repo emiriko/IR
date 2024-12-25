@@ -1,0 +1,22 @@
+We adapt the time-evolving block decimation (TEBD) algorithm, originally
+devised to simulate the dynamics of 1D quantum systems, to simulate the
+time-evolution of non-equilibrium stochastic systems. We describe this method
+in detail; a system's probability distribution is represented by a matrix
+product state (MPS) of finite dimension and then its time-evolution is
+efficiently simulated by repeatedly updating and approximately re-factorizing
+this representation. We examine the use of MPS as an approximation method,
+looking at parallels between the interpretations of applying it to quantum
+state vectors and probability distributions. In the context of stochastic
+systems we consider two types of factorization for use in the TEBD algorithm:
+non-negative matrix factorization (NMF), which ensures that the approximate
+probability distribution is manifestly non-negative, and the singular value
+decomposition (SVD). Comparing these factorizations we find the accuracy of the
+SVD to be substantially greater than current NMF algorithms. We then apply TEBD
+to simulate the totally asymmetric simple exclusion process (TASEP) for systems
+of up to hundreds of lattice sites in size. Using exact analytic results for
+the TASEP steady state, we find that TEBD reproduces this state such that the
+error in calculating expectation values can be made negligible, even when
+severely compressing the description of the system by restricting the dimension
+of the MPS to be very small. Out of the steady state we show for specific
+observables that expectation values converge as the dimension of the MPS is
+increased to a moderate size.

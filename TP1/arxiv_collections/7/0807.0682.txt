@@ -1,0 +1,16 @@
+We show how efficient loop updates, originally developed for Monte Carlo
+simulations of quantum spin systems at finite temperature, can be combined with
+a ground-state projector scheme and variational calculations in the valence
+bond basis. The methods are formulated in a combined space of spin z-components
+and valence bonds. Compared to schemes formulated purely in the valence bond
+basis, the computational effort is reduced from up to O(N^2) to O(N) for
+variational calculations, where N is the system size, and from O(m^2) to O(m)
+for projector simulations, where m>> N is the projection power. These
+improvements enable access to ground states of significantly larger lattices
+than previously. We demonstrate the efficiency of the approach by calculating
+the sublattice magnetization M_s of the two-dimensional Heisenberg model to
+high precision, using systems with up to 256*256 spins. Extrapolating the
+results to the thermodynamic limit gives M_s=0.30743(1). We also discuss
+optimized variational amplitude-product states, which were used as trial states
+in the projector simulations, and compare results of projecting different types
+of trial states.

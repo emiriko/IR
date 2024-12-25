@@ -1,0 +1,19 @@
+A source model for secret key generation between terminals is considered. Two
+users, namely users 1 and 2, at one side communicate with another user, namely
+user 3, at the other side via a public channel where three users can observe
+i.i.d. outputs of correlated sources. Each of users 1 and 2 intends to share a
+secret key with user 3 where user 1 acts as a wiretapper for user 2 and vice
+versa. In this model, two situations are considered: communication from users 1
+and 2 to user 3 (the forward key strategy) and from user 3 to users 1 and 2
+(the backward key strategy). In both situations, the goal is sharing a secret
+key between user 1 and user 3 while leaking no effective information about that
+key to user 2, and simultaneously, sharing another secret key between user 2
+and user 3 while leaking no effective information about the latter key to user
+1. This model is motivated by wireless communications when considering user 3
+as a base station and users 1 and 2 as network users. In this paper, for both
+the forward and backward key strategies, inner and outer bounds of secret key
+capacity regions are derived. In special situations where one of users 1 and 2
+is only interested in wiretapping and not key sharing, our results agree with
+that of Ahlswede and Csiszar. Also, we investigate some special cases in which
+the inner bound coincides with the outer bound and secret key capacity region
+is deduced.

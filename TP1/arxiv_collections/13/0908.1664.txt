@@ -1,0 +1,24 @@
+This review is concerned with the gravitational self-force acting on a mass
+particle in orbit around a large black hole. Renewed interest in this old
+problem is driven by the prospects of detecting gravitational waves from
+strongly gravitating binaries with extreme mass ratios. We begin here with a
+summary of recent advances in the theory of gravitational self-interaction in
+curved spacetime, and proceed to survey some of the ideas and computational
+strategies devised for implementing this theory in the case of a particle
+orbiting a Kerr black hole. We review in detail two of these methods: (i) the
+standard mode-sum method, in which the metric perturbation is regularized
+mode-by-mode in a multipole decomposition, and (ii) $m$-mode regularization,
+whereby individual azimuthal modes of the metric perturbation are regularized
+in 2+1 dimensions. We discuss several practical issues that arise, including
+the choice of gauge, the numerical representation of the particle singularity,
+and how high-frequency contributions near the particle are dealt with in
+frequency-domain calculations. As an example of a full end-to-end
+implementation of the mode-sum method, we discuss the computation of the
+gravitational self-force for eccentric geodesic orbits in Schwarzschild, using
+a direct integration of the Lorenz-gauge perturbation equations in the time
+domain. With the computational framework now in place, researchers have
+recently turned to explore the physical consequences of the gravitational self
+force; we will describe some preliminary results in this area. An appendix to
+this review presents, for the first time, a detailed derivation of the
+regularization parameters necessary for implementing the mode-sum method in
+Kerr spacetime.

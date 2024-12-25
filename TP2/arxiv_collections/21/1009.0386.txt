@@ -1,0 +1,21 @@
+Probabilistic broadcast has been widely used as a flooding optimization
+mechanism to alleviate the effect of broadcast storm problem (BSP) in mobile ad
+hoc networks (MANETs). Many research studies have been carried-out to develop
+and evaluate the performance of this mechanism in an error-free (noiseless)
+environment. In reality, wireless communication channels in MANETs are an
+error-prone and suffer from high packet-loss due to presence of noise, i.e.,
+noisy environment. In this paper, we propose a simulation model that can be
+used to evaluate the performance of probabilistic broadcast for flooding in
+noisy environment. In the proposed model, the noise-level is represented by a
+generic name, probability of reception (pc) (0<=pc<=1), where pc=1 for
+noiseless and <1 for noisy environment. The effect of noise is determined
+randomly by generating a random number \zeta (0<=\zeta<1); if \zeta<=pc means
+the packet is successfully delivered to the receiving node, otherwise,
+unsuccessful delivery occurs. The proposed model is implemented on a MANET
+simulator, namely, MANSim. The effect of noise on the performance of
+probabilistic algorithm was investigated in four scenarios. The main
+conclusions of these scenarios are: the performance of probabilistic algorithm
+suffers in presence of noise. However, this suffering is less in high density
+networks, or if the nodes characterized by high retransmission probability or
+large radio transmission range. The nodes' speed has no or insignificant effect
+on the performance.

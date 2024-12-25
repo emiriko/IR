@@ -1,0 +1,20 @@
+There is a growing interest in techniques for detecting whether a logic
+specification is satisfied too easily, or vacuously. For example, the
+specification "every request is eventually followed by an acknowledgment" is
+satisfied vacuously by a system that never generates any requests. Vacuous
+satisfaction misleads users of model-checking into thinking that a system is
+correct.
+  There are several existing definitions of vacuity. Originally, Beer et al.
+formalized vacuity as insensitivity to syntactic perturbation. However, this
+definition is only reasonable for vacuity in a single occurrence. Armoni et al.
+argued that vacuity must be robust -- not affected by semantically invariant
+changes, such as extending a model with additional atomic propositions. They
+show that syntactic vacuity is not robust for LTL, and propose an alternative
+definition -- trace vacuity.
+  In this article, we continue this line of research. We show that trace
+vacuity is not robust for branching time logic. We refine it to apply uniformly
+to linear and branching time logic and to not suffer from the common pitfalls
+of prior definitions. Our new definition -- bisimulation vacuity -- is a proper
+non-trivial extension of both syntactic and trace vacuity. We discuss the
+complexity of detecting bisimulation vacuity, and give efficient algorithms to
+detect vacuity for several practically-relevant subsets of CTL*.

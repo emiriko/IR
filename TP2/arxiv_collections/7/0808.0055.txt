@@ -1,0 +1,14 @@
+This paper presents the design and the implementation of an interface
+software component between OLE for Process Control (OPC) formatted data and the
+Global Sensor Network (GSN) framework for management of data from sensors. This
+interface, named wrapper in the GSN context, communicates in Data Access mode
+with an OPC server and converts the received data to the internal GSN format,
+according to several temporal modes. This work is realized in the context of a
+Ph.D. Thesis about the control of distributed information fusion systems. The
+developed component allows the injection of OPC data, like measurements or
+industrial processes states information, into a distributed information fusion
+system deployed in a GSN framework. The component behaves as a client of the
+OPC server. Developed in Java and based on the Opensaca Utgard, it can be
+deployed on any computation node supporting a Java virtual machine. The
+experiments show the component conformity according to the Data Access 2.05a
+specification of the OPC standard and to the temporal modes.

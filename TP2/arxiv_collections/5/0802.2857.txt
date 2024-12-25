@@ -1,0 +1,24 @@
+Linearity tests are randomized algorithms which have oracle access to the
+truth table of some function f, and are supposed to distinguish between linear
+functions and functions which are far from linear. Linearity tests were first
+introduced by (Blum, Luby and Rubenfeld, 1993), and were later used in the PCP
+theorem, among other applications. The quality of a linearity test is described
+by its correctness c - the probability it accepts linear functions, its
+soundness s - the probability it accepts functions far from linear, and its
+query complexity q - the number of queries it makes. Linearity tests were
+studied in order to decrease the soundness of linearity tests, while keeping
+the query complexity small (for one reason, to improve PCP constructions).
+Samorodnitsky and Trevisan (Samorodnitsky and Trevisan 2000) constructed the
+Complete Graph Test, and prove that no Hyper Graph Test can perform better than
+the Complete Graph Test. Later in (Samorodnitsky and Trevisan 2006) they prove,
+among other results, that no non-adaptive linearity test can perform better
+than the Complete Graph Test. Their proof uses the algebraic machinery of the
+Gowers Norm. A result by (Ben-Sasson, Harsha and Raskhodnikova 2005) allows to
+generalize this lower bound also to adaptive linearity tests. We also prove the
+same optimal lower bound for adaptive linearity test, but our proof technique
+is arguably simpler and more direct than the one used in (Samorodnitsky and
+Trevisan 2006). We also study, like (Samorodnitsky and Trevisan 2006), the
+behavior of linearity tests on quadratic functions. However, instead of
+analyzing the Gowers Norm of certain functions, we provide a more direct
+combinatorial proof, studying the behavior of linearity tests on random
+quadratic functions...

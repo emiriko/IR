@@ -1,0 +1,13 @@
+This paper proposes a novel, highly effective spectrum sensing algorithm for
+cognitive radio and whitespace applications. The proposed spectral covariance
+sensing (SCS) algorithm exploits the different statistical correlations of the
+received signal and noise in the frequency domain. Test statistics are computed
+from the covariance matrix of a partial spectrogram and compared with a
+decision threshold to determine whether a primary signal or arbitrary type is
+present or not. This detector is analyzed theoretically and verified through
+realistic open-source simulations using actual digital television signals
+captured in the US. Compared to the state of the art in the literature, SCS
+improves sensitivity by 3 dB for the same dwell time, which is a very
+significant improvement for this application. Further, it is shown that SCS is
+highly robust to noise uncertainty, whereas many other spectrum sensors are
+not.

@@ -1,0 +1,15 @@
+Krause's model of opinion dynamics has recently been the object of several
+studies, partly because it is one of the simplest multi-agent systems involving
+position-dependent changing topologies. In this model, agents have an opinion
+represented by a real number and they update it by averaging those agent
+opinions distant from their opinion by less than a certain interaction radius.
+Some results obtained on this model rely on the fact that the opinion orders
+remain unchanged under iteration, a property that is consistent with the
+intuition in models with simultaneous updating on a fully connected
+communication topology. Several variations of this model have been proposed. We
+show that some natural variations are not order preserving and therefore cause
+potential problems with the theoretical analysis and the consistence with the
+intuition. We consider a generic version of Krause's model parameterized by an
+influence function that encapsulates most of the variations proposed in the
+literature. We then derive a necessary and sufficient condition on this
+function for the opinion order to be preserved.

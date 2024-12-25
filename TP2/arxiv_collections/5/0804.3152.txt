@@ -1,0 +1,10 @@
+This paper deals with some computational aspects in the Bayesian analysis of
+statistical models with intractable normalizing constants. In the presence of
+intractable normalizing constants in the likelihood function, traditional MCMC
+methods cannot be applied. We propose an approach to sample from such posterior
+distributions. The method can be thought as a Bayesian version of the MCMC-MLE
+approach of Geyer and Thompson (1992). To the best of our knowledge, this is
+the first general and asymptotically consistent Monte Carlo method for such
+problems. We illustrate the method with examples from image segmentation and
+social network modeling. We study as well the asymptotic behavior of the
+algorithm and obtain a strong law of large numbers for empirical averages.

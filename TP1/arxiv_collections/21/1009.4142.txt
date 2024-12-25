@@ -1,0 +1,24 @@
+The claim experience of the past is a very important information to calculate
+the fair price of an insurance contract. In a lot of European countries for
+instance the prices for motor car insurance depend on the number of claims the
+driver has reported to the insurance company during the last years. Classically
+these prices are calculated on the basis of a mixed Poisson model with a gamma
+mixing distribution. The mixing distribution models the car drivers' qualities
+across the insured portfolio. This is just one example for experience rating.
+In the classical context the price is equal to the expectation of the Bayesian
+posterior distribution.
+  In some lines of business (especially third party liability and lines with
+exposure to extreme weather events) we that the real world data cannot be
+described well enough by the classical Poisson - gamma model. Therefore we
+investigate the influence of the mixing distribution on the posterior
+distribution conditional on the experienced number of claims. This enables the
+application of other - more risk adequate premium principles than the
+expectation principle. We introduce the inverse - gamma distribution as a new
+mixing distribution to model claim numbers and compare it to the classical
+gamma distribution. In both cases a closed analytic representation of the mixed
+distribution can be found: In the classic case the well known negative binomial
+distribution, in our new one a representation using the Bessel functions.
+Additionally we present numerical results about the tail behaviour of the mixed
+Poisson - inverse - gamma distribution. Finally we introduce the concept of
+resolution. It enables us to decide if the classification of risk groups via
+the number of experienced claims is a risk adequate procedure.

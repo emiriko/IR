@@ -1,0 +1,8 @@
+The Parikh vector p(s) of a string s is defined as the vector of
+multiplicities of the characters. Parikh vector q occurs in s if s has a
+substring t with p(t)=q. We present two novel algorithms for searching for a
+query q in a text s. One solves the decision problem over a binary text in
+constant time, using a linear size index of the text. The second algorithm, for
+a general finite alphabet, finds all occurrences of a given Parikh vector q and
+has sub-linear expected time complexity; we present two variants, which both
+use a linear size index of the text.

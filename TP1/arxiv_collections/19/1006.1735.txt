@@ -1,0 +1,13 @@
+The Alternating Step(r,s) Generator, ASG(r,s), is a clock-controlled sequence
+generator which is recently proposed by A. Kanso. It consists of three
+registers of length l, m and n bits. The first register controls the clocking
+of the two others. The two other registers are clocked r times (or not clocked)
+(resp. s times or not clocked) depending on the clock-control bit in the first
+register. The special case r=s=1 is the original and well known Alternating
+Step Generator. Kanso claims there is no efficient attack against the ASG(r,s)
+since r and s are kept secret. In this paper, we present an Alternating Step
+Generator, ASG, model for the ASG(r,s) and also we present a new and efficient
+algebraic attack on ASG(r,s) using 3(m+n) bits of the output sequence to find
+the secret key with O((m^2+n^2)*2^{l+1}+ (2^{m-1})*m^3 + (2^{n-1})*n^3)
+computational complexity. We show that this system is no more secure than the
+original ASG, in contrast to the claim of the ASG(r,s)'s constructor.

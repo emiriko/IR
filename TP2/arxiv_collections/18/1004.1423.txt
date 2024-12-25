@@ -1,0 +1,17 @@
+We consider a Gaussian two-hop network where the source and the destination
+can communicate only via a relay node who is both an eavesdropper and a
+Byzantine adversary. Both the source and the destination nodes are allowed to
+transmit, and the relay receives a superposition of their transmitted signals.
+We propose a new coding scheme that satisfies two requirements simultaneously:
+the transmitted message must be kept secret from the relay node, and the
+destination must be able to detect any Byzantine attack that the relay node
+might launch reliably and fast. The three main components of the scheme are the
+nested lattice code, the privacy amplification and the algebraic manipulation
+detection (AMD)code. Specifically, for the Gaussian two-hop network, we show
+that lattice coding can successfully pair with AMD codes enabling its first
+application to a noisy channel model. We prove, using this new coding scheme,
+that the probability that the Byzantine attack goes undetected decreases
+exponentially fast with respect to the number of channel uses, while the loss
+in the secrecy rate, compared to the rate achievable when the relay is honest,
+can be made arbitrarily small. In addition, in contrast with prior work in
+Gaussian channels, the notion of secrecy provided here is strong secrecy.

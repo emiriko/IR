@@ -1,0 +1,15 @@
+The use of domain knowledge is generally found to improve query efficiency in
+content filtering applications. In particular, tangible benefits have been
+achieved when using knowledge-based approaches within more specialized fields,
+such as medical free texts or legal documents. However, the problem is that
+sources of domain knowledge are time-consuming to build and equally costly to
+maintain. As a potential remedy, recent studies on Wikipedia suggest that this
+large body of socially constructed knowledge can be effectively harnessed to
+provide not only facts but also accurate information about semantic
+concept-similarities. This paper describes a framework for document filtering,
+where Wikipedia's concept-relatedness information is combined with a domain
+ontology to produce semantic content classifiers. The approach is evaluated
+using Reuters RCV1 corpus and TREC-11 filtering task definitions. In a
+comparative study, the approach shows robust performance and appears to
+outperform content classifiers based on Support Vector Machines (SVM) and C4.5
+algorithm.

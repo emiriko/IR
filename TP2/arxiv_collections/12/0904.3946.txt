@@ -1,0 +1,20 @@
+Coin flipping is a cryptographic primitive in which two distrustful parties
+wish to generate a random bit in order to choose between two alternatives. This
+task is impossible to realize when it relies solely on the asynchronous
+exchange of classical bits: one dishonest player has complete control over the
+final outcome. It is only when coin flipping is supplemented with quantum
+communication that this problem can be alleviated, although partial bias
+remains. Unfortunately, practical systems are subject to loss of quantum data,
+which restores complete or nearly complete bias in previous protocols. We
+report herein on the first implementation of a quantum coin-flipping protocol
+that is impervious to loss. Moreover, in the presence of unavoidable
+experimental noise, we propose to use this protocol sequentially to implement
+many coin flips, which guarantees that a cheater unwillingly reveals
+asymptotically, through an increased error rate, how many outcomes have been
+fixed. Hence, we demonstrate for the first time the possibility of flipping
+coins in a realistic setting. Flipping quantum coins thereby joins quantum key
+distribution as one of the few currently practical applications of quantum
+communication. We anticipate our findings to be useful for various
+cryptographic protocols and other applications, such as an online casino, in
+which a possibly unlimited number of coin flips has to be performed and where
+each player is free to decide at any time whether to continue playing or not.

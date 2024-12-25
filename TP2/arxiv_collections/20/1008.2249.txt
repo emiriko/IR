@@ -1,0 +1,19 @@
+We obtain an association policy for STAs in an IEEE 802.11 WLAN by taking
+into account explicitly two aspects of practical importance: (a) TCP-controlled
+short file downloads interspersed with read times (motivated by web browsing),
+and (b) different STAs associated with an AP at possibly different rates
+(depending on distance from the AP). Our approach is based on two steps. First,
+we consider an analytical model to obtain the aggregate AP throughput for long
+TCP-controlled file downloads when STAs are associated at k different rates r1,
+r2, : : :, rk; this extends earlier work in the literature. Second, we present
+a 2-node closed queueing network model to approximate the expected
+average-sized file download time for a user who shares the AP with other users
+associated at a multiplicity of rates. These analytical results motivate the
+proposed association policy, called the Estimated Delay based Association (EDA)
+policy: Associate with the AP at which the expected file download time is the
+least. Simulations indicate that for a web-browsing type traffic scenario, EDA
+outperforms other policies that have been proposed earlier; the extent of
+improvement ranges from 12.8% to 46.4% for a 9-AP network. To the best of our
+knowledge, this is the first work that proposes an association policy tailored
+specifically for web browsing. Apart from this, our analytical results could be
+of independent interest

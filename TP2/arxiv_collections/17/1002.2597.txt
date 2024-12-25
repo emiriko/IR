@@ -1,0 +1,11 @@
+The problem of computing an explicit isogeny between two given elliptic
+curves over F_q, originally motivated by point counting, has recently awaken
+new interest in the cryptology community thanks to the works of Teske and
+Rostovstev & Stolbunov.
+  While the large characteristic case is well understood, only suboptimal
+algorithms are known in small characteristic; they are due to Couveignes,
+Lercier, Lercier & Joux and Lercier & Sirvent. In this paper we discuss the
+differences between them and run some comparative experiments. We also present
+the first complete implementation of Couveignes' second algorithm and present
+improvements that make it the algorithm having the best asymptotic complexity
+in the degree of the isogeny.

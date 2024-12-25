@@ -1,0 +1,16 @@
+In this paper we study the equivalence of nondeterministic automata pairing
+the concept of a bisimulation with the recently introduced concept of a uniform
+relation. In this symbiosis, uniform relations serve as equivalence relations
+which relate states of two possibly different nondeterministic automata, and
+bisimulations ensure compatibility with the transitions, initial and terminal
+states of these automata. We define six types of bisimulations, but due to the
+duality we discuss three of them: forward, backward-forward, and weak forward
+bisimulations. For each od these three types of bisimulations we provide a
+procedure which decides whether there is a bisimulation of this type between
+two automata, and when it exists, the same procedure computes the greatest one.
+We also show that there is a uniform forward bisimulation between two automata
+if and only if the factor automata with respect to the greatest forward
+bisimulation equivalences on these automata are isomorphic. We prove a similar
+theorem for weak forward bisimulations, using the concept of a weak forward
+isomorphism instead of an isomorphism. We also give examples that explain the
+relationships between the considered types of bisimulations.

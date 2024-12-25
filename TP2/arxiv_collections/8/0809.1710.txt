@@ -1,0 +1,16 @@
+Erd\"os conjectured that if $G$ is a triangle free graph of chromatic number
+at least $k\geq 3$, then it contains an odd cycle of length at least
+$k^{2-o(1)}$ \cite{sudakovverstraete, verstraete}. Nothing better than a linear
+bound (\cite{gyarfas}, Problem 5.1.55 in \cite{West}) was so far known. We make
+progress on this conjecture by showing that $G$ contains an odd cycle of length
+at least $O(k\log\log k)$. Erd\"os' conjecture is known to hold for graphs with
+girth at least 5. We show that if a girth 4 graph is $C_5$ free, then Erd\"os'
+conjecture holds. When the number of vertices is not too large we can prove
+better bounds on $\chi$. We also give bounds on the chromatic number of graphs
+with at most $r$ cycles of length $1\bmod k$, or at most $s$ cycles of length
+$2\bmod k$, or no cycles of length $3\bmod k$. Our techniques essentially
+consist of using a depth first search tree to decompose the graph into ordered
+paths, which are then fed to an online coloring algorithm. Using this technique
+we give simple proofs of some old results, and also obtain several simpler
+results. We also obtain a lower bound on the number of colors an online
+coloring algorithm needs to use on triangle free graphs.

@@ -1,0 +1,10 @@
+We propose an l1-regularized likelihood method for estimating the inverse
+covariance matrix in the high-dimensional multivariate normal model in presence
+of missing data. Our method is based on the assumption that the data are
+missing at random (MAR) which entails also the completely missing at random
+case. The implementation of the method is non-trivial as the observed negative
+log-likelihood generally is a complicated and non-convex function. We propose
+an efficient EM algorithm for optimization with provable numerical convergence
+properties. Furthermore, we extend the methodology to handle missing values in
+a sparse regression context. We demonstrate both methods on simulated and real
+data.

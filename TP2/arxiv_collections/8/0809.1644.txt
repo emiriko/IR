@@ -1,0 +1,11 @@
+There are two incompatible Coq libraries that have a theory of the real
+numbers; the Coq standard library gives an axiomatic treatment of classical
+real numbers, while the CoRN library from Nijmegen defines constructively valid
+real numbers. Unfortunately, this means results about one structure cannot
+easily be used in the other structure. We present a way interfacing these two
+libraries by showing that their real number structures are isomorphic assuming
+the classical axioms already present in the standard library reals. This allows
+us to use O'Connor's decision procedure for solving ground inequalities present
+in CoRN to solve inequalities about the reals from the Coq standard library,
+and it allows theorems from the Coq standard library to apply to problem about
+the CoRN reals.

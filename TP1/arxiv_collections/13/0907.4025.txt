@@ -1,0 +1,13 @@
+We present a code, VeDyn, for modelling envelopes and atmospheres of A to F
+stars focusing on accurate treatment of convective processes. VeDyn implements
+the highly sophisticated convection model of Canuto and Dubovikov (1998) but is
+fast and handy enough to be used in practical astrophysical applications. We
+developed the HME envelope solver for this convection model furtheron to
+consistently model the envelope together with the stellar atmosphere. The
+synthesis code SynthV was extended to account for the resulting velocity
+structure. Finally, we tested our approach on atomic line bisectors. It is
+shown that our synthetic line bisectors of HD108642 bend towards the blue and
+are of a magnitude comparable to the observed ones. Even though this approach
+of modelling convection requires the solution of a coupled system of nonlinear
+differential equations, it is fast enough to be applicable to many of the
+investigation techniques relying on model atmospheres.

@@ -1,0 +1,14 @@
+We present a hybrid model of the unitary-evolution-based quantum computation
+model and the measurement-based quantum computation model. In the hybrid model
+part of a quantum circuit is simulated by unitary evolution and the rest by
+measurements on star graph states, thereby combining the advantages of the two
+standard quantum computation models. In the hybrid model, a complicated unitary
+gate under simulation is decomposed in terms of a sequence of single-qubit
+operations, the controlled-Z gates, and multi-qubit rotations around the
+z-axis. Every single-qubit- and the controlled-Z gate are realized by a
+respective unitary evolution, and every multi-qubit rotation is executed by a
+single measurement on a required star graph state. The classical information
+processing in our model only needs an information flow vector and propagation
+matrices. We provide the implementation of multi-control gates in the hybrid
+model. They are very useful for implementing Grover's search algorithm, which
+is studied as an illustrating example.

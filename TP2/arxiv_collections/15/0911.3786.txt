@@ -1,0 +1,16 @@
+We tackle the problem of graph transformation with a particular focus on node
+cloning. We propose a new approach to graph rewriting where nodes can be cloned
+zero, one or more times. A node can be cloned together with all its incident
+edges, with only its outgoing edges, with only its incoming edges or with none
+of its incident edges. We thus subsume previous works such as the
+sesqui-pushout, the heterogeneous pushout and the adaptive star grammars
+approaches. A rewrite rule is defined as a span where the right-hand and
+left-hand sides are graphs while the interface is a polarized graph. A
+polarized graph is a graph endowed with some annotations on nodes. The way a
+node is cloned is indicated by its polarization annotation. We use these
+annotations for designing graph transformation with polarized cloning. We show
+how a clone of a node can be built according to the different possible
+polarizations and define a rewrite step as a final pullback complement followed
+by a pushout. This is called the polarized sesqui-pushout approach. We also
+provide an algorithmic presentation of the proposed graph transformation with
+polarized cloning.

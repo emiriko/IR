@@ -1,0 +1,19 @@
+We present a reformulation of stochastic global optimization as a filtering
+problem. The motivation behind this reformulation comes from the fact that for
+many optimization problems we cannot evaluate exactly the objective function to
+be optimized. Similarly, we may not be able to evaluate exactly the functions
+involved in iterative optimization algorithms. For example, we may only have
+access to noisy measurements of the functions or statistical estimates provided
+through Monte Carlo sampling. This makes iterative optimization algorithms
+behave like stochastic maps. Naive global optimization amounts to evolving a
+collection of realizations of this stochastic map and picking the realization
+with the best properties. This motivates the use of filtering techniques to
+allow focusing on realizations that are more promising than others. In
+particular, we present a filtering reformulation of global optimization in
+terms of a special case of sequential importance sampling methods called
+particle filters. The increasing popularity of particle filters is based on the
+simplicity of their implementation and their flexibility. For parametric
+exponential density estimation problems, we utilize the flexibility of particle
+filters to construct a stochastic global optimization algorithm which converges
+to the optimal solution appreciably faster than naive global optimization.
+Several examples are provided to demonstrate the efficiency of the approach.

@@ -1,0 +1,16 @@
+The eigenvalue spectrum of the adjacency matrix of a network is closely
+related to the behavior of many dynamical processes run over the network. In
+the field of robotics, this spectrum has important implications in many
+problems that require some form of distributed coordination within a team of
+robots. In this paper, we propose a continuous-time control scheme that
+modifies the structure of a position-dependent network of mobile robots so that
+it achieves a desired set of adjacency eigenvalues. For this, we employ a novel
+abstraction of the eigenvalue spectrum by means of the adjacency matrix
+spectral moments. Since the eigenvalue spectrum is uniquely determined by its
+spectral moments, this abstraction provides a way to indirectly control the
+eigenvalues of the network. Our construction is based on artificial potentials
+that capture the distance of the network's spectral moments to their desired
+values. Minimization of these potentials is via a gradient descent closed-loop
+system that, under certain convexity assumptions, ensures convergence of the
+network topology to one with the desired set of moments and, therefore,
+eigenvalues. We illustrate our approach in nontrivial computer simulations.

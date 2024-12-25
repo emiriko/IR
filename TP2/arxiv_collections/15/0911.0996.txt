@@ -1,0 +1,15 @@
+Is there a general theorem that tells us when we can hope for exponential
+speedups from quantum algorithms, and when we cannot? In this paper, we make
+two advances toward such a theorem, in the black-box model where most quantum
+algorithms operate.
+  First, we show that for any problem that is invariant under permuting inputs
+and outputs (like the collision or the element distinctness problems), the
+quantum query complexity is at least the 7th root of the classical randomized
+query complexity. (An earlier version of this paper gave the 9th root.) This
+resolves a conjecture of Watrous from 2002.
+  Second, inspired by recent work of O'Donnell et al. (2005) and Dinur et al.
+(2006), we conjecture that every bounded low-degree polynomial has a "highly
+influential" variable. Assuming this conjecture, we show that every T-query
+quantum algorithm can be simulated on most inputs by a poly(T)-query classical
+algorithm, and that one essentially cannot hope to prove P!=BQP relative to a
+random oracle.

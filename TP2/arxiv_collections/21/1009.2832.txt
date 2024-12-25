@@ -1,0 +1,16 @@
+Almost all known secret sharing schemes work on numbers. Such methods will
+have difficulty in sharing graphs since the number of graphs increases
+exponentially with the number of nodes. We propose a secret sharing scheme for
+graphs where we use graph intersection for reconstructing the secret which is
+hidden as a sub graph in the shares. Our method does not rely on heavy
+computational operations such as modular arithmetic or polynomial interpolation
+but makes use of very basic operations like assignment and checking for
+equality, and graph intersection can also be performed visually. In certain
+cases, the secret could be reconstructed using just pencil and paper by
+authorised parties but cannot be broken by an adversary even with unbounded
+computational power. The method achieves perfect secrecy for (2, n) scheme and
+requires far fewer operations compared to Shamir's algorithm. The proposed
+method could be used to share objects such as matrices, sets, plain text and
+even a heterogeneous collection of these. Since we do not require a previously
+agreed upon encoding scheme, the method is very suitable for sharing
+heterogeneous collection of objects in a dynamic fashion.

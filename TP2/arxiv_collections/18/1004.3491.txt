@@ -1,0 +1,21 @@
+The homogeneous isotropic Boltzmann equation (HIBE) is a fundamental dynamic
+model for many applications in thermodynamics, econophysics and sociodynamics.
+Despite recent hardware improvements, the solution of the Boltzmann equation
+remains extremely challenging from the computational point of view, in
+particular by deterministic methods (free of stochastic noise). This work aims
+to improve a deterministic direct method recently proposed [V.V. Aristov,
+Kluwer Academic Publishers, 2001] for solving the HIBE with a generic
+collisional kernel and, in particular, for taking care of the late dynamics of
+the relaxation towards the equilibrium. Essentially (a) the original problem is
+reformulated in terms of particle kinetic energy (exact particle number and
+energy conservation during microscopic collisions) and (b) the computation of
+the relaxation rates is improved by the DVM-like correction, where DVM stands
+for Discrete Velocity Model (ensuring that the macroscopic conservation laws
+are exactly satisfied). Both these corrections make possible to derive very
+accurate reference solutions for this test case. Moreover this work aims to
+distribute an open-source program (called HOMISBOLTZ), which can be
+redistributed and/or modified for dealing with different applications, under
+the terms of the GNU General Public License. The program has been purposely
+designed in order to be minimal, not only with regards to the reduced number of
+lines (less than 1,000), but also with regards to the coding style (as simple
+as possible).

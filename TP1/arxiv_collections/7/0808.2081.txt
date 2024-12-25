@@ -1,0 +1,22 @@
+Imitating successful behavior is a natural and frequently applied approach to
+trust in when facing scenarios for which we have little or no experience upon
+which we can base our decision. In this paper, we consider such behavior in
+atomic congestion games. We propose to study concurrent imitation dynamics that
+emerge when each player samples another player and possibly imitates this
+agents' strategy if the anticipated latency gain is sufficiently large. Our
+main focus is on convergence properties. Using a potential function argument,
+we show that our dynamics converge in a monotonic fashion to stable states. In
+such a state none of the players can improve its latency by imitating somebody
+else. As our main result, we show rapid convergence to approximate equilibria.
+At an approximate equilibrium only a small fraction of agents sustains a
+latency significantly above or below average. In particular, imitation dynamics
+behave like fully polynomial time approximation schemes (FPTAS). Fixing all
+other parameters, the convergence time depends only in a logarithmic fashion on
+the number of agents. Since imitation processes are not innovative they cannot
+discover unused strategies. Furthermore, strategies may become extinct with
+non-zero probability. For the case of singleton games, we show that the
+probability of this event occurring is negligible. Additionally, we prove that
+the social cost of a stable state reached by our dynamics is not much worse
+than an optimal state in singleton congestion games with linear latency
+function. Finally, we discuss how the protocol can be extended such that, in
+the long run, dynamics converge to a Nash equilibrium.

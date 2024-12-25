@@ -1,0 +1,24 @@
+State-space exploration is an essential step in many modeling and analysis
+problems. Its goal is to find the states reachable from the initial state of a
+discrete-state model described. The state space can used to answer important
+questions, e.g., "Is there a dead state?" and "Can N become negative?", or as a
+starting point for sophisticated investigations expressed in temporal logic.
+  Unfortunately, the state space is often so large that ordinary explicit data
+structures and sequential algorithms cannot cope, prompting the exploration of
+(1) parallel approaches using multiple processors, from simple workstation
+networks to shared-memory supercomputers, to satisfy large memory and runtime
+requirements and (2) symbolic approaches using decision diagrams to encode the
+large structured sets and relations manipulated during state-space generation.
+  Both approaches have merits and limitations. Parallel explicit state-space
+generation is challenging, but almost linear speedup can be achieved; however,
+the analysis is ultimately limited by the memory and processors available.
+Symbolic methods are a heuristic that can efficiently encode many, but not all,
+functions over a structured and exponentially large domain; here the pitfalls
+are subtler: their performance varies widely depending on the class of decision
+diagram chosen, the state variable order, and obscure algorithmic parameters.
+  As symbolic approaches are often much more efficient than explicit ones for
+many practical models, we argue for the need to parallelize symbolic
+state-space generation algorithms, so that we can realize the advantage of both
+approaches. This is a challenging endeavor, as the most efficient symbolic
+algorithm, Saturation, is inherently sequential. We conclude by discussing
+challenges, efforts, and promising directions toward this goal.

@@ -1,0 +1,22 @@
+We introduce a phase-space representation for qubits and spin models. The
+technique uses an SU(n) coherent state basis, and can equally be used for
+either static or dynamical simulations. We review previously known definitions
+and operator identities, and show how these can be used to define an
+off-diagonal, positive phase-space representation analogous to the positive
+P-function. As an illustration of the phase-space method, we use the example of
+the Ising model, which has exact solutions for the finite temperature canonical
+ensemble in two dimensions. We show how a canonical ensemble for an Ising model
+of arbitrary structure can be efficiently simulated using SU(2) or atomic
+coherent states. The technique utilizes a transformation from a canonical
+(imaginary-time) weighted simulation to an equivalent unweighted real-time
+simulation. The results are compared to the exactly soluble two-dimensional
+case. We note that Ising models in one, two or three dimensions are potentially
+achievable experimentally as a lattice-gas of ultra-cold atoms in optical
+lattices. The technique is not restricted to canonical ensembles or to
+Ising-like couplings. It is also able to be used for real-time evolution, and
+for systems whose time-evolution follows a master-equation describing
+decoherence and coupling to external reservoirs. The case of SU(n) phase-space
+is used to describe n-level systems. In general, the requirement that
+time-evolution is stochastic corresponds to a restriction to Hamiltonians and
+master-equations that are quadratic in the group generators or generalized spin
+operators.

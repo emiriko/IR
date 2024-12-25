@@ -1,0 +1,14 @@
+This paper introduces a knowledge recognition algorithm (KRA) for solving the
+3SAT problem in polynomial time. KRA learns member-class relations and
+retrieves information through deductive and reductive iterative reasoning. It
+applies the principle of Chinese COVA* (equivalent to a set of eight 3-variable
+conjunctive clauses) and eliminates the "OR" operation to solve 3-SAT problem.
+That is, KRA does not search the assignment directly. It recognizes the
+complements as rejections at each level of the set through iterative set
+relation recognition. KRA recognizes which conjunctive 3-variable-clause is not
+satisfiable. If all the eight clauses of any set of 3-variable clauses are
+rejected, then there is not an assignment for the formula. If there is at least
+one clause in each set that remains, then there is at least one assignment that
+is the union of clauses of each set. If there is more than one clause in each
+set that remains, then there are multiple assignments that are the unions of
+the clauses of each set respectively.

@@ -1,0 +1,18 @@
+Message passing type algorithms such as the so-called Belief Propagation
+algorithm have recently gained a lot of attention in the statistics, signal
+processing and machine learning communities as attractive algorithms for
+solving a variety of optimization and inference problems. As a decentralized,
+easy to implement and empirically successful algorithm, BP deserves attention
+from the theoretical standpoint, and here not much is known at the present
+stage. In order to fill this gap we consider the performance of the BP
+algorithm in the context of the capacitated minimum-cost network flow problem -
+the classical problem in the operations research field. We prove that BP
+converges to the optimal solution in the pseudo-polynomial time, provided that
+the optimal solution of the underlying problem is unique and the problem input
+is integral. Moreover, we present a simple modification of the BP algorithm
+which gives a fully polynomial-time randomized approximation scheme (FPRAS) for
+the same problem, which no longer requires the uniqueness of the optimal
+solution. This is the first instance where BP is proved to have
+fully-polynomial running time. Our results thus provide a theoretical
+justification for the viability of BP as an attractive method to solve an
+important class of optimization problems.

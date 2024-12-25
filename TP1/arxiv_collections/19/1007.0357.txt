@@ -1,0 +1,18 @@
+Transfer entropy (TE) is a popular measure of information flow found to
+perform consistently well in different settings. Symbolic transfer entropy
+(STE) is defined similarly to TE but on the ranks of the components of the
+reconstructed vectors rather than the reconstructed vectors themselves. First,
+we correct STE by forming the ranks for the future samples of the response
+system with regard to the current reconstructed vector. We give the grounds for
+this modified version of STE, which we call Transfer Entropy on Rank Vectors
+(TERV). Then we propose to use more than one step ahead in the formation of the
+future of the response in order to capture the information flow from the
+driving system over a longer time horizon. To assess the performance of STE, TE
+and TERV in detecting correctly the information flow we use receiver operating
+characteristic (ROC) curves formed by the measure values in the two coupling
+directions computed on a number of realizations of known weakly coupled
+systems. We also consider different settings of state space reconstruction,
+time series length and observational noise. The results show that TERV indeed
+improves STE and in some cases performs better than TE, particularly in the
+presence of noise, but overall TE gives more consistent results. The use of
+multiple steps ahead improves the accuracy of TE and TERV.

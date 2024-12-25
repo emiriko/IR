@@ -1,0 +1,12 @@
+Large datasets with interactions between objects are common to numerous
+scientific fields (i.e. social science, internet, biology...). The interactions
+naturally define a graph and a common way to explore or summarize such dataset
+is graph clustering. Most techniques for clustering graph vertices just use the
+topology of connections ignoring informations in the vertices features. In this
+paper, we provide a clustering algorithm exploiting both types of data based on
+a statistical model with latent structure characterizing each vertex both by a
+vector of features as well as by its connectivity. We perform simulations to
+compare our algorithm with existing approaches, and also evaluate our method
+with real datasets based on hyper-textual documents. We find that our algorithm
+successfully exploits whatever information is found both in the connectivity
+pattern and in the features.

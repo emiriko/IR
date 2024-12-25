@@ -1,0 +1,20 @@
+BIP is a component framework for constructing systems by superposing three
+layers of modeling: Behavior, Interaction, and Priority. Behavior is
+represented by labeled transition systems communicating through ports.
+Interactions are sets of ports. A synchronization between components is
+possible through the interactions specified by a set of connectors. When
+several interactions are possible, priorities allow to restrict the
+non-determinism by choosing an interaction, which is maximal according to some
+given strict partial order.
+  The BIP component framework has been implemented in a language and a
+tool-set. The execution of a BIP program is driven by a dedicated engine, which
+has access to the set of connectors and priority model of the program. A key
+performance issue is the computation of the set of possible interactions of the
+BIP program from a given state.
+  Currently, the choice of the interaction to be executed involves a costly
+exploration of enumerative representations for connectors. This leads to a
+considerable overhead in execution times. In this paper, we propose a symbolic
+implementation of the execution model of BIP, which drastically reduces this
+overhead. The symbolic implementation is based on computing boolean
+representation for components, connectors, and priorities with an existing BDD
+package.

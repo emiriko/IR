@@ -1,0 +1,26 @@
+We derive the weight function w(M) to apply to dark-matter halos that
+minimizes the stochasticity between the weighted halo distribution and its
+underlying mass density field. The optimal w(M) depends on the range of masses
+being used in the estimator. In N-body simulations, the Poisson estimator is up
+to 15 times noisier than the optimal. Implementation of the optimal weight
+yields significantly lower stochasticity than weighting halos by their mass,
+bias or equal. Optimal weighting could make cosmological tests based on the
+matter power spectrum or cross-correlations much more powerful and/or
+cost-effective. A volume-limited measurement of the mass power spectrum at
+k=0.2h/Mpc over the entire z<1 universe could ideally be done using only 6
+million redshifts of halos with mass M>6\times10^{13}h^{-1}M_\odot
+(1\times10^{13}) at z=0 (z=1); this is 5 times fewer than the Poisson model
+predicts. Using halo occupancy distributions (HOD) we find that
+uniformly-weighted catalogs of luminous red galaxies require >3 times more
+redshifts than an optimally-weighted halo catalog to reconstruct the mass to
+the same accuracy. While the mean HODs of galaxies above a threshold luminosity
+are similar to the optimal w(M), the stochasticity of the halo occupation
+degrades the mass estimator. Blue or emission-line galaxies are about 100 times
+less efficient at reconstructing mass than an optimal weighting scheme. This
+suggests an efficient observational approach of identifying and weighting halos
+with a deep photo-z survey before conducting a spectroscopic survey. The
+optimal w(M) and mass-estimator stochasticity predicted by the standard halo
+model for M>10^{12}h^{-1}M_\odot are in reasonable agreement with our
+measurements, with the important exceptions that the halos must be assumed to
+be linearly biased samples of a "halo field" that is distinct from the mass
+field. (Abridged)

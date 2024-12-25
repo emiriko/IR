@@ -1,0 +1,25 @@
+We present and test a new, special-relativistic formulation of Smoothed
+Particle Hydrodynamics (SPH). Our approach benefits from several improvements
+with respect to earlier relativistic SPH formulations. It is self-consistently
+derived from the Lagrangian of an ideal fluid and accounts for
+special-relativistic "grad-h terms". In our approach, we evolve the canonical
+momentum and the canonical energy per baryon and thus circumvent some of the
+problems that have plagued earlier formulations of relativistic SPH. We further
+use a much improved artificial viscosity prescription which uses the extreme
+local eigenvalues of the Euler equations and triggers selectively on a) shocks
+and b) velocity noise. The shock trigger accurately monitors the relative
+density slope and uses it to fine-tune the amount of artificial viscosity that
+is applied. This procedure substantially sharpens shock fronts while still
+avoiding post-shock noise. If not triggered, the viscosity parameter of each
+particle decays to zero. None of these viscosity triggers is specific to
+special relativity, both could also be applied in Newtonian SPH. The
+performance of the new scheme is explored in a large variety of benchmark tests
+where it delivers excellent results. Generally, the grad-h terms deliver minor,
+though worthwhile, improvements. The scheme performs close to perfect in
+supersonic advection tests, but also in strong relativistic shocks, usually
+considered a particular challenge for SPH, the method yields convincing
+results. For example, due to its perfect conservation properties, it is able to
+handle Lorentz-factors as large as $\gamma= 50 \; 000$ in the so-called wall
+shock test. Moreover, we find convincing results in a rarely shown, but
+challenging test that involves so-called relativistic simple waves and also in
+multi-dimensional shock tube tests.

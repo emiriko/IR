@@ -1,0 +1,19 @@
+Representations of Boolean functions by real polynomials play an important
+role in complexity theory. Typically, one is interested in the least degree of
+a polynomial p(x_1,...,x_n) that approximates or sign-represents a given
+Boolean function f(x_1,...,x_n). This article surveys a new and growing body of
+work in communication complexity that centers around the dual objects, i.e.,
+polynomials that certify the difficulty of approximating or sign-representing a
+given function. We provide a unified guide to the following results, complete
+with all the key proofs:
+  (1) Sherstov's Degree/Discrepancy Theorem, which translates lower bounds on
+the threshold degree of a Boolean function into upper bounds on the discrepancy
+of a related function;
+  (2) Two different methods for proving lower bounds on bounded-error
+communication based on the approximate degree: Sherstov's pattern matrix method
+and Shi and Zhu's block composition method;
+  (3) Extension of the pattern matrix method to the multiparty model, obtained
+by Lee and Shraibman and by Chattopadhyay and Ada, and the resulting improved
+lower bounds for DISJOINTNESS;
+  (4) David and Pitassi's separation of NP and BPP in multiparty communication
+complexity for k=(1-eps)log n players.

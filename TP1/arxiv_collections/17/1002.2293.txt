@@ -1,0 +1,22 @@
+Motivated by linear network coding, communication channels perform linear
+operation over finite fields, namely linear operator channels (LOCs), are
+studied in this paper. For such a channel, its output vector is a linear
+transform of its input vector, and the transformation matrix is randomly and
+independently generated. The transformation matrix is assumed to remain
+constant for every T input vectors and to be unknown to both the transmitter
+and the receiver. There are NO constraints on the distribution of the
+transformation matrix and the field size.
+  Specifically, the optimality of subspace coding over LOCs is investigated. A
+lower bound on the maximum achievable rate of subspace coding is obtained and
+it is shown to be tight for some cases. The maximum achievable rate of
+constant-dimensional subspace coding is characterized and the loss of rate
+incurred by using constant-dimensional subspace coding is insignificant.
+  The maximum achievable rate of channel training is close to the lower bound
+on the maximum achievable rate of subspace coding. Two coding approaches based
+on channel training are proposed and their performances are evaluated. Our
+first approach makes use of rank-metric codes and its optimality depends on the
+existence of maximum rank distance codes. Our second approach applies linear
+coding and it can achieve the maximum achievable rate of channel training. Our
+code designs require only the knowledge of the expectation of the rank of the
+transformation matrix. The second scheme can also be realized ratelessly
+without a priori knowledge of the channel statistics.

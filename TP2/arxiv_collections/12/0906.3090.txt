@@ -1,0 +1,15 @@
+Rank estimation is a classical model order selection problem that arises in a
+variety of important statistical signal and array processing systems, yet is
+addressed relatively infrequently in the extant literature. Here we present
+sample covariance asymptotics stemming from random matrix theory, and bring
+them to bear on the problem of optimal rank estimation in the context of the
+standard array observation model with additive white Gaussian noise. The most
+significant of these results demonstrates the existence of a phase transition
+threshold, below which eigenvalues and associated eigenvectors of the sample
+covariance fail to provide any information on population eigenvalues. We then
+develop a decision-theoretic rank estimation framework that leads to a simple
+ordered selection rule based on thresholding; in contrast to competing
+approaches, however, it admits asymptotic minimax optimality and is free of
+tuning parameters. We analyze the asymptotic performance of our rank selection
+procedure and conclude with a brief simulation study demonstrating its
+practical efficacy in the context of subspace tracking.

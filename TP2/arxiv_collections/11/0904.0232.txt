@@ -1,0 +1,6 @@
+An algorithm is presented that incorporates the tensor form of Maxwell's
+equations in a general relativistic electromagnetic particle-in-cell code. The
+code simplifies to Schwartzschild space-time for a non-spinning central mass.
+The particle advance routine uses a fourth-order Runge-Kutta algorithm to
+integrate the four-velocity form of Lorentz force. The current density is
+calculated using the curved space-time of the metric.

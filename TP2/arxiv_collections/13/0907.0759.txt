@@ -1,0 +1,21 @@
+Fluorescent and luminescent gene reporters allow us to dynamically quantify
+changes in molecular species concentration over time on the single cell level.
+The mathematical modeling of their interaction through multivariate dynamical
+models requires the development of effective statistical methods to calibrate
+such models against available data. Given the prevalence of stochasticity and
+noise in biochemical systems inference for stochastic models is of special
+interest. In this paper we present a simple and computationally efficient
+algorithm for the estimation of biochemical kinetic parameters from gene
+reporter data. We use the linear noise approximation to model biochemical
+reactions through a stochastic dynamic model which essentially approximates a
+diffusion model by an ordinary differential equation model with an
+appropriately defined noise process. An explicit formula for the likelihood
+function can be derived allowing for computationally efficient parameter
+estimation. The proposed algorithm is embedded in a Bayesian framework and
+inference is performed using Markov chain Monte Carlo. The major advantage of
+the method is that in contrast to the more established diffusion approximation
+based methods the computationally costly methods of data augmentation are not
+necessary. Our approach also allows for unobserved variables and measurement
+error. The application of the method to both simulated and experimental data
+shows that the proposed methodology provides a useful alternative to diffusion
+approximation based methods.

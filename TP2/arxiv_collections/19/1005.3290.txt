@@ -1,0 +1,13 @@
+This paper describes a minimax state estimation approach for linear
+Differential-Algebraic Equations (DAE) with uncertain parameters. The approach
+addresses continuous-time DAE with non-stationary rectangular matrices and
+uncertain bounded deterministic input. An observation's noise is supposed to be
+random with zero mean and unknown bounded correlation function. Main results
+are a Generalized Kalman Duality (GKD) principle and sub-optimal minimax state
+estimation algorithm. GKD is derived by means of Young-Fenhel duality theorem.
+GKD proves that the minimax estimate coincides with a solution to a Dual
+Control Problem (DCP) with DAE constraints. The latter is ill-posed and,
+therefore, the DCP is solved by means of Tikhonov regularization approach
+resulting a sub-optimal state estimation algorithm in the form of filter. We
+illustrate the approach by an synthetic example and we discuss connections with
+impulse-observability.

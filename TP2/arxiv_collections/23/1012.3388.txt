@@ -1,0 +1,12 @@
+We study stationary states in a diluted asymmetric (kinetic) Ising model. We
+apply the recently introduced dynamic cavity method to compute magnetizations
+of these stationary states. Depending on the update rule, different versions of
+the dynamic cavity method apply. We here study synchronous updates and random
+sequential updates, and compare local properties computed by the dynamic cavity
+method to numerical simulations. Using both types of updates, the dynamic
+cavity method is highly accurate at high enough temperatures. At low enough
+temperatures, for sequential updates the dynamic cavity method tends to a fixed
+point, but which does not agree with numerical simulations, while for parallel
+updates, the dynamic cavity method may display cyclic behavior. When it
+converges and is accurate, the dynamic cavity method offers a huge speed-up
+compared to Monte Carlo, particularly for large systems.

@@ -1,0 +1,13 @@
+The multivariate resultant is a fundamental tool of computational algebraic
+geometry. It can in particular be used to decide whether a system of n
+homogeneous equations in n variables is satisfiable (the resultant is a
+polynomial in the system's coefficients which vanishes if and only if the
+system is satisfiable). In this paper we present several NP-hardness results
+for testing whether a multivariate resultant vanishes, or equivalently for
+deciding whether a square system of homogeneous equations is satisfiable. Our
+main result is that testing the resultant for zero is NP-hard under
+deterministic reductions in any characteristic, for systems of low-degree
+polynomials with coefficients in the ground field (rather than in an
+extension). We also observe that in characteristic zero, this problem is in the
+Arthur-Merlin class AM if the generalized Riemann hypothesis holds true. In
+positive characteristic, the best upper bound remains PSPACE.

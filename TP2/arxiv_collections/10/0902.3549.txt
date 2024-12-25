@@ -1,0 +1,23 @@
+We investigate ways for the exchange of information (explicit communication)
+among deaf and dumb mobile robots scattered in the plane. We introduce the use
+of movement-signals (analogously to flight signals and bees waggle) as a mean
+to transfer messages, enabling the use of distributed algorithms among the
+robots. We propose one-to-one deterministic movement protocols that implement
+explicit communication. We first present protocols for synchronous robots. We
+begin with a very simple coding protocol for two robots. Based on on this
+protocol, we provide one-to-one communication for any system of n \geq 2 robots
+equipped with observable IDs that agree on a common direction (sense of
+direction). We then propose two solutions enabling one-to-one communication
+among anonymous robots. Since the robots are devoid of observable IDs, both
+protocols build recognition mechanisms using the (weak) capabilities offered to
+the robots. The first protocol assumes that the robots agree on a common
+direction and a common handedness (chirality), while the second protocol
+assumes chirality only. Next, we show how the movements of robots can provide
+implicit acknowledgments in asynchronous systems. We use this result to design
+asynchronous one-to-one communication with two robots only. Finally, we combine
+this solution with the schemes developed in synchronous settings to fit the
+general case of asynchronous one-to-one communication among any number of
+robots. Our protocols enable the use of distributing algorithms based on
+message exchanges among swarms of Stigmergic robots. Furthermore, they provides
+robots equipped with means of communication to overcome faults of their
+communication device.

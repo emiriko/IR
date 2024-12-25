@@ -1,0 +1,11 @@
+The aim of this work is to provide fast and accurate approximation schemes
+for the Monte-Carlo pricing of derivatives in the L\'evy LIBOR model of
+Eberlein and \"Ozkan (2005). Standard methods can be applied to solve the
+stochastic differential equations of the successive LIBOR rates but the methods
+are generally slow. We propose an alternative approximation scheme based on
+Picard iterations. Our approach is similar in accuracy to the full numerical
+solution, but with the feature that each rate is, unlike the standard method,
+evolved independently of the other rates in the term structure. This enables
+simultaneous calculation of derivative prices of different maturities using
+parallel computing. We include numerical illustrations of the accuracy and
+speed of our method pricing caplets.

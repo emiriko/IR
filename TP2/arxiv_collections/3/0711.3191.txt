@@ -1,0 +1,20 @@
+In this paper we investigate the uniform distribution properties of
+polynomials in many variables and bounded degree over a fixed finite field F of
+prime order. Our main result is that a polynomial P : F^n -> F is
+poorly-distributed only if P is determined by the values of a few polynomials
+of lower degree, in which case we say that P has small rank.
+  We give several applications of this result, paying particular attention to
+consequences for the theory of the so-called Gowers norms. We establish an
+inverse result for the Gowers U^{d+1}-norm of functions of the form f(x)=
+e_F(P(x)), where P : F^n -> F is a polynomial of degree less than F, showing
+that this norm can only be large if f correlates with e_F(Q(x)) for some
+polynomial Q : F^n -> F of degree at most d.
+  The requirement deg(P) < |F| cannot be dropped entirely. Indeed, we show the
+above claim fails in characteristic 2 when d = 3 and deg(P)=4, showing that the
+quartic symmetric polynomial S_4 in F_2^n has large Gowers U^4-norm but does
+not correlate strongly with any cubic polynomial. This shows that the theory of
+Gowers norms in low characteristic is not as simple as previously supposed.
+This counterexample has also been discovered independently by Lovett, Meshulam,
+and Samorodnitsky.
+  We conclude with sundry other applications of our main result, including a
+recurrence result and a certain type of nullstellensatz.

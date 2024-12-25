@@ -1,0 +1,14 @@
+In this paper we consider the k-set agreement problem in distributed
+message-passing systems using a round-based approach: Both synchrony of
+communication and failures are captured just by means of the messages that
+arrive within a round, resulting in round-by-round communication graphs that
+can be characterized by simple communication predicates. We introduce the weak
+communication predicate PSources(k) and show that it is tight for k-set
+agreement, in the following sense: We (i) prove that there is no algorithm for
+solving (k-1)-set agreement in systems characterized by PSources(k), and (ii)
+present a novel distributed algorithm that achieves k-set agreement in runs
+where PSources(k) holds. Our algorithm uses local approximations of the stable
+skeleton graph, which reflects the underlying perpetual synchrony of a run. We
+prove that this approximation is correct in all runs, regardless of the
+communication predicate, and show that graph-theoretic properties of the stable
+skeleton graph can be used to solve k-set agreement if PSources(k) holds.

@@ -1,0 +1,11 @@
+We propose a new code design that aims to distribute an LDPC code over a
+relay channel. It is based on a split-and-extend approach, which allows the
+relay to split the set of bits connected to some parity-check of the LDPC code
+into two or several subsets. Subsequently, the sums of bits within each subset
+are used in a repeat-accumulate manner in order to generate extra bits sent
+from the relay toward the destination. We show that the proposed design yields
+LDPC codes with enhanced correction capacity and can be advantageously applied
+to existing codes, which allows for addressing cooperation issues for evolving
+standards. Finally, we derive density evolution equations for the proposed
+design, and we show that Split-Extended LDPC codes can approach very closely
+the capacity of the Gaussian relay channel.

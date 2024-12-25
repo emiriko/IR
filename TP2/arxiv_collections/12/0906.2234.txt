@@ -1,0 +1,19 @@
+Recent advances in genomics have underscored the surprising ubiquity of DNA
+copy number variation (CNV). Fortunately, modern genotyping platforms also
+detect CNVs with fairly high reliability. Hidden Markov models and algorithms
+have played a dominant role in the interpretation of CNV data. Here we explore
+CNV reconstruction via estimation with a fused-lasso penalty as suggested by
+Tibshirani and Wang [Biostatistics 9 (2008) 18--29]. We mount a fresh attack on
+this difficult optimization problem by the following: (a) changing the penalty
+terms slightly by substituting a smooth approximation to the absolute value
+function, (b) designing and implementing a new MM (majorization--minimization)
+algorithm, and (c) applying a fast version of Newton's method to jointly update
+all model parameters. Together these changes enable us to minimize the
+fused-lasso criterion in a highly effective way. We also reframe the
+reconstruction problem in terms of imputation via discrete optimization. This
+approach is easier and more accurate than parameter estimation because it
+relies on the fact that only a handful of possible copy number states exist at
+each SNP. The dynamic programming framework has the added bonus of exploiting
+information that the current fused-lasso approach ignores. The accuracy of our
+imputations is comparable to that of hidden Markov models at a substantially
+lower computational cost.

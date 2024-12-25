@@ -1,0 +1,18 @@
+We consider the possibility of adding noise to a quantum circuit to make it
+efficiently simulatable classically. In previous works this approach has been
+used to derive upper bounds to fault tolerance thresholds - usually by
+identifying a privileged resource, such as an entangling gate or a non-Clifford
+operation, and then deriving the noise levels required to make it
+`unprivileged'. In this work we consider extensions of this approach where
+noise is added to Clifford gates too, and then `commuted' around until it
+concentrates on attacking the non-Clifford resource. While commuting noise
+around is not always straightforward, we find that easy instances can be
+identified in popular fault tolerance proposals, thereby enabling sharper upper
+bounds to be derived in these cases. For instance we find that if we take
+Knill's high threshold proposal together with the ability to prepare any
+possible state in the $XY$ plane of the Bloch sphere, then no more than 3.69%
+error-per-gate noise is sufficient to make it classical, and 13.71% of Knill's
+gamma noise model is sufficient. These bounds have been derived without noise
+being added to the decoding parts of the circuits. Introducing such noise in a
+toy example suggests that the present approach can be optimised further to
+yield tighter bounds.

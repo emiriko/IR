@@ -1,0 +1,13 @@
+Compact modeling of MOSFETs from a 0.35 micron SOI technology node operating
+at 4 K is presented. The Verilog-A language is used to modify device equations
+for BSIM models and more accurately reproduce measured DC behavior, which is
+not possible with the standard BSIM model set. The Verilog-A approach also
+allows the embedding of nonlinear length, width and bias effects into BSIM
+calculated curves beyond those that can be achieved by the use of different
+BSIM parameter sets. Nonlinear dependences are necessary to capture effects
+particular to 4 K behavior, such as current kinks. The 4 K DC behavior is
+reproduced well by the compact model and the model seamlessly evolves during
+simulation of circuits and systems as the simulator encounters SOI MOSFETs with
+different lengths and widths. The incorporation of various length/width and
+bias dependent effects into one Verilog-A / BSIM4 library, therefore, produces
+one model for all sets of devices for this technology node.

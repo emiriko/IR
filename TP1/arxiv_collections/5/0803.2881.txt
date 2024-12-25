@@ -1,0 +1,21 @@
+We propose a method of analysis of dynamical networks based on a recent
+measure of Granger causality between time series, based on kernel methods. The
+generalization of kernel Granger causality to the multivariate case, here
+presented, shares the following features with the bivariate measures: (i) the
+nonlinearity of the regression model can be controlled by choosing the kernel
+function and (ii) the problem of false-causalities, arising as the complexity
+of the model increases, is addressed by a selection strategy of the
+eigenvectors of a reduced Gram matrix whose range represents the additional
+features due to the second time series. Moreover, there is no {\it a priori}
+assumption that the network must be a directed acyclic graph. We apply the
+proposed approach to a network of chaotic maps and to a simulated genetic
+regulatory network: it is shown that the underlying topology of the network can
+be reconstructed from time series of node's dynamics, provided that a
+sufficient number of samples is available. Considering a linear dynamical
+network, built by preferential attachment scheme, we show that for limited data
+use of bivariate Granger causality is a better choice w.r.t methods using $L1$
+minimization. Finally we consider real expression data from HeLa cells, 94
+genes and 48 time points. The analysis of static correlations between genes
+reveals two modules corresponding to well known transcription factors; Granger
+analysis puts in evidence nineteen causal relationships, all involving genes
+related to tumor development.

@@ -1,0 +1,20 @@
+Many global circulation models predict supersonic zonal winds and large
+vertical shears in the atmospheres of short-period jovian exoplanets. Using
+linear analysis and nonlinear local simulations, we investigate hydrodynamic
+dissipation mechanisms to balance the thermal acceleration of these winds. The
+adiabatic Richardson criterion remains a good guide to linear stability,
+although thermal diffusion allows some modes to violate it at very long
+wavelengths and very low growth rates. Nonlinearly, wind speeds saturate at
+Mach numbers $\approx 2$ and Richardson numbers $\lesssim 1/4$ for a broad
+range of plausible diffusivities and forcing strengths. Turbulence and vertical
+mixing, though accompanied by weak shocks, dominate the dissipation, which
+appears to be the outcome of a recurrent Kelvin-Helmholtz instability. An
+explicit shear viscosity, as well as thermal diffusivity, is added to ZEUS to
+capture dissipation outside of shocks. The wind speed is not monotonic nor
+single valued for shear viscosities larger than about $10^{-3}$ of the sound
+speed times the pressure scale height. Coarsening the numerical resolution can
+also increase the speed. Hence global simulations that are incapable of
+representing vertical turbulence and shocks, either because of reduced physics
+or because of limited resolution, may overestimate wind speeds. We recommend
+that such simulations include artificial dissipation terms to control the Mach
+and Richardson numbers and to capture mechanical dissipation as heat.

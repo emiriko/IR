@@ -1,0 +1,19 @@
+Molecular dynamics refers to the computer simulation of a material at the
+atomic level. An open problem in numerical analysis is to explain the apparent
+reliability of molecular dynamics simulations. The difficulty is that
+individual trajectories computed in molecular dynamics are accurate for only
+short time intervals, whereas apparently reliable information can be extracted
+from very long-time simulations. It has been conjectured that long molecular
+dynamics trajectories have low-dimensional statistical features that accurately
+approximate those of the original system. Another conjecture is that numerical
+trajectories satisfy the shadowing property: that they are close over long time
+intervals to exact trajectories but with different initial conditions. We prove
+that these two views are actually equivalent to each other, after we suitably
+modify the concept of shadowing. A key ingredient of our result is a general
+theorem that allows us to take random elements of a metric space that are close
+in distribution and embed them in the same probability space so that they are
+close in a strong sense. This result is similar to the Strassen-Dudley Theorem
+except that a mapping is provided between the two random elements. Our results
+on shadowing are motivated by molecular dynamics but apply to the approximation
+of any dynamical system when initial conditions are selected according to a
+probability measure.

@@ -1,0 +1,21 @@
+Graph states are an elegant and powerful quantum resource for measurement
+based quantum computation (MBQC). They are also used for many quantum protocols
+(error correction, secret sharing, etc.). The main focus of this paper is to
+provide a structural characterisation of the graph states that can be used for
+quantum information processing. The existence of a gflow (generalized flow) is
+known to be a requirement for open graphs (graph, input set and output set) to
+perform uniformly and strongly deterministic computations. We weaken the gflow
+conditions to define two new more general kinds of MBQC: uniform
+equiprobability and constant probability. These classes can be useful from a
+cryptographic and information point of view because even though we cannot do a
+deterministic computation in general we can preserve the information and
+transfer it perfectly from the inputs to the outputs. We derive simple graph
+characterisations for these classes and prove that the deterministic and
+uniform equiprobability classes collapse when the cardinalities of inputs and
+outputs are the same. We also prove the reversibility of gflow in that case.
+The new graphical characterisations allow us to go from open graphs to graphs
+in general and to consider this question: given a graph with no inputs or
+outputs fixed, which vertices can be chosen as input and output for quantum
+information processing? We present a characterisation of the sets of possible
+inputs and ouputs for the equiprobability class, which is also valid for
+deterministic computations with inputs and ouputs of the same cardinality.

@@ -1,0 +1,16 @@
+In this paper we study the computational complexity of computing the
+noncommutative determinant. We first consider the arithmetic circuit complexity
+of computing the noncommutative determinant polynomial. Then, more generally,
+we also examine the complexity of computing the determinant (as a function)
+over noncommutative domains. Our hardness results are summarized below:
+  1. We show that if the noncommutative determinant polynomial has small
+noncommutative arithmetic circuits then so does the noncommutative permanent.
+Consequently, the commutative permanent polynomial has small commutative
+arithmetic circuits. 2. For any field F we show that computing the n X n
+permanent over F is polynomial-time reducible to computing the 2n X 2n
+(noncommutative) determinant whose entries are O(n^2) X O(n^2) matrices over
+the field F. 3. We also derive as a consequence that computing the n X n
+permanent over nonnegative rationals is polynomial-time reducible to computing
+the noncommutative determinant over Clifford algebras of n^{O(1)} dimension.
+  Our techniques are elementary and use primarily the notion of the Hadamard
+Product of noncommutative polynomials.

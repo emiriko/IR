@@ -1,0 +1,24 @@
+Abridged: We detail and benchmark two sophisticated chemical models developed
+by the Heidelberg and Bordeaux astrochemistry groups. The main goal of this
+study is to elaborate on a few well-described tests for state-of-the-art
+astrochemical codes covering a range of physical conditions and chemical
+processes, in particular those aimed at constraining current and future
+interferometric observations of protoplanetary disks. We consider three
+physical models: a cold molecular cloud core, a hot core, and an outer region
+of a T Tauri disk. Our chemical network (for both models) is based on the
+original gas-phase osu_03_2008 ratefile and includes gas-grain interactions and
+a set of surface reactions for the H-, O-, C-, S-, and N-bearing molecules. The
+benchmarking is performed with the increasing complexity of the considered
+processes: (1) the pure gas-phase chemistry, (2) the gas-phase chemistry with
+accretion and desorption, and (3) the full gas-grain model with surface
+reactions. Using atomic initial abundances with heavily depleted metals and
+hydrogen in its molecular form, the chemical evolution is modeled within 10^9
+years. The time-dependent abundances calculated with the two chemical models
+are essentially the same for all considered physical cases and for all species,
+including the most complex polyatomic ions and organic molecules. This result
+however required a lot of efforts to make all necessary details consistent
+through the model runs, e.g. definition of the gas particle density, density of
+grain surface sites, the strength and shape of the UV radiation field, etc. The
+reference models and the benchmark setup, along with the two chemical codes and
+resulting time-dependent abundances are made publicly available in the
+Internet: http://www.mpia.de/homes/semenov/Chemistry_benchmark/home.html

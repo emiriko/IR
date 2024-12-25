@@ -1,0 +1,21 @@
+It is well-known that in fluid dynamics an alternative to customary direct
+solution methods (based on the discretization of the fluid fields) is provided
+by so-called \emph{particle simulation methods}. Particle simulation methods
+rely typically on appropriate \emph{kinetic models} for the fluid equations
+which permit the evaluation of the fluid fields in terms of suitable
+expectation values (or \emph{momenta}) of the kinetic distribution function
+$f(\mathbf{r,v},t),$ being respectively $\mathbf{r}$ and\textbf{\}$\mathbf{v}$
+the position an velocity of a test particle with probability density
+$f(\mathbf{r,v},t)$. These kinetic models can be continuous or discrete in
+phase space, yielding respectively \emph{continuous} or \emph{discrete kinetic
+models} for the fluids. However, also particle simulation methods may be biased
+by an undesirable computational complexity. In particular, a fundamental issue
+is to estimate the algorithmic complexity of numerical simulations based on
+traditional LBM's (Lattice-Boltzmann methods; for review see Succi, 2001
+\cite{Succi}). These methods, based on a discrete kinetic approach, represent
+currently an interesting alternative to direct solution methods. Here we intend
+to prove that for incompressible fluids fluids LBM's may present a high
+complexity. The goal of the investigation is to present a detailed account of
+the origin of the various complexity sources appearing in customary LBM's. The
+result is relevant to establish possible strategies for improving the numerical
+efficiency of existing numerical methods.

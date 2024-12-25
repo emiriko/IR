@@ -1,0 +1,15 @@
+High-dimensional classification has become an increasingly important problem.
+In this paper we propose a "Multivariate Adaptive Stochastic Search" (MASS)
+approach which first reduces the dimension of the data space and then applies a
+standard classification method to the reduced space. One key advantage of MASS
+is that it automatically adjusts to mimic variable selection type methods, such
+as the Lasso, variable combination methods, such as PCA, or methods that
+combine these two approaches. The adaptivity of MASS allows it to perform well
+in situations where pure variable selection or variable combination methods
+fail. Another major advantage of our approach is that MASS can accurately
+project the data into very low-dimensional non-linear, as well as linear,
+spaces. MASS uses a stochastic search algorithm to select a handful of optimal
+projection directions from a large number of random directions in each
+iteration. We provide some theoretical justification for MASS and demonstrate
+its strengths on an extensive range of simulation studies and real world data
+sets by comparing it to many classical and modern classification methods.

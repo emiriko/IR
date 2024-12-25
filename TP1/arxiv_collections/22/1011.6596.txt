@@ -1,0 +1,23 @@
+Aggregation is an important building block of modern distributed
+applications, allowing the determination of meaningful properties (e.g. network
+size, total storage capacity, average load, majorities, etc.) that are used to
+direct the execution of the system. However, the majority of the existing
+aggregation algorithms exhibit relevant dependability issues, when prospecting
+their use in real application environments. In this paper, we reveal some
+dependability issues of aggregation algorithms based on iterative averaging
+techniques, giving some directions to solve them. This class of algorithms is
+considered robust (when compared to common tree-based approaches), being
+independent from the used routing topology and providing an aggregation result
+at all nodes. However, their robustness is strongly challenged and their
+correctness often compromised, when changing the assumptions of their working
+environment to more realistic ones. The correctness of this class of algorithms
+relies on the maintenance of a fundamental invariant, commonly designated as
+"mass conservation". We will argue that this main invariant is often broken in
+practical settings, and that additional mechanisms and modifications are
+required to maintain it, incurring in some degradation of the algorithms
+performance. In particular, we discuss the behavior of three representative
+algorithms Push-Sum Protocol, Push-Pull Gossip protocol and Distributed Random
+Grouping under asynchronous and faulty (with message loss and node crashes)
+environments. More specifically, we propose and evaluate two new versions of
+the Push-Pull Gossip protocol, which solve its message interleaving problem
+(evidenced even in a synchronous operation mode).

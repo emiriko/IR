@@ -1,0 +1,17 @@
+We study the power of classical and quantum algorithms equipped with
+nonuniform advice, in the form of a coin whose bias encodes useful information.
+This question takes on particular importance in the quantum case, due to a
+surprising result that we prove: a quantum finite automaton with just two
+states can be sensitive to arbitrarily small changes in a coin's bias. This
+contrasts with classical probabilistic finite automata, whose sensitivity to
+changes in a coin's bias is bounded by a classic 1970 result of Hellman and
+Cover. Despite this finding, we are able to bound the power of advice coins for
+space-bounded classical and quantum computation. We define the classes
+BPPSPACE/coin and BQPSPACE/coin, of languages decidable by classical and
+quantum polynomial-space machines with advice coins. Our main theorem is that
+both classes coincide with PSPACE/poly. Proving this result turns out to
+require substantial machinery. We use an algorithm due to Neff for finding
+roots of polynomials in NC; a result from algebraic geometry that lower-bounds
+the separation of a polynomial's roots; and a result on fixed-points of
+superoperators due to Aaronson and Watrous, originally proved in the context of
+quantum computing with closed timelike curves.

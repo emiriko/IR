@@ -1,0 +1,11 @@
+We develop an incremental-tableau-based decision procedure for the
+multi-agent epistemic logic MAEL(CD) (aka S5_n (CD)), whose language contains
+operators of individual knowledge for a finite set Ag of agents, as well as
+operators of distributed and common knowledge among all agents in Ag. Our
+tableau procedure works in (deterministic) exponential time, thus establishing
+an upper bound for MAEL(CD)-satisfiability that matches the (implicit)
+lower-bound known from earlier results, which implies ExpTime-completeness of
+MAEL(CD)-satisfiability. Therefore, our procedure provides a complexity-optimal
+algorithm for checking MAEL(CD)-satisfiability, which, however, in most cases
+is much more efficient. We prove soundness and completeness of the procedure,
+and illustrate it with an example.

@@ -1,0 +1,21 @@
+ALOHA is one of the most basic Medium Access Control (MAC) protocols and
+represents a foundation for other more sophisticated distributed and
+asynchronous MAC protocols, e.g., CSMA. In this paper, unlike in the
+traditional work that focused on mean value analysis, we study the
+distributional properties of packet transmission delays over an ALOHA channel.
+We discover a new phenomenon showing that a basic finite population ALOHA model
+with variable size (exponential) packets is characterized by power law
+transmission delays, possibly even resulting in zero throughput. These results
+are in contrast to the classical work that shows exponential delays and
+positive throughput for finite population ALOHA with fixed packets.
+Furthermore, we characterize a new stability condition that is entirely derived
+from the tail behavior of the packet and backoff distributions that may not be
+determined by mean values. The power law effects and the possible instability
+might be diminished, or perhaps eliminated, by reducing the variability of
+packets. However, we show that even a slotted (synchronized) ALOHA with packets
+of constant size can exhibit power law delays when the number of active users
+is random. From an engineering perspective, our results imply that the
+variability of packet sizes and number of active users need to be taken into
+consideration when designing robust MAC protocols, especially for ad-hoc/sensor
+networks where other factors, such as link failures and mobility, might further
+compound the problem.

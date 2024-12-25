@@ -1,0 +1,12 @@
+The aim of this paper is to present an adaptable Fat Tree NoC architecture
+for Field Programmable Gate Array (FPGA) designed for image analysis
+applications. Traditional NoCs (Network on Chip) are not optimal for dataflow
+applications with large amount of data. On the opposite, point to point
+communications are designed from the algorithm requirements but they are
+expensives in terms of resource and wire. We propose a dedicated communication
+architecture for image analysis algorithms. This communication mechanism is a
+generic NoC infrastructure dedicated to dataflow image processing applications,
+mixing circuit-switching and packet-switching communications. The complete
+architecture integrates two dedicated communication architectures and reusable
+IP blocks. Communications are based on the NoC concept to support the high
+bandwidth required for a large number and type of data.

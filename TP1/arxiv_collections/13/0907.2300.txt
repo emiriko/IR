@@ -1,0 +1,10 @@
+A new efficient algorithm is proposed for factoring polynomials over an
+algebraic extension field. The extension field is defined by a polynomial ring
+modulo a maximal ideal. If the maximal ideal is given by its Groebner basis, no
+extra Groebner basis computation is needed for factoring a polynomial over this
+extension field. Nothing more than linear algebraic technique is used to get a
+polynomial over the ground field by a generic linear map. Then this polynomial
+is factorized over the ground field. From these factors, the factorization of
+the polynomial over the extension field is obtained. The new algorithm has been
+implemented and computer experiments indicate that the new algorithm is very
+efficient, particularly in complicated examples.

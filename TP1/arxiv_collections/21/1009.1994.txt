@@ -1,0 +1,15 @@
+Over the past years, the freely available Monte Carlo-code REAS which
+simulates radio emission from air showers based on the geosynchrotron model,
+was used regularly for comparisons with data. However, it emerged that in the
+previous version of the code, emission due to the variation of the number of
+charged particles within an air shower was not taken into account. In the
+following article, we show the implementation of these emission contributions
+in REAS3 by the inclusion of ``end-point contributions'' and discuss the
+changes on the predictions of REAS obtained by this revision. The basis for
+describing radiation processes is an universal description which is gained by
+the use of the end-point formulation. Hence, not only pure geomagnetic
+radiation is simulated with REAS3 but also radiation due to the variation of
+the net charge excess in the air shower, independent of the Earth's magnetic
+field. Furthermore, we present a comparison of lateral distributions of LOPES
+data with REAS3-simulated distributions. The comparison shows a good argeement
+between both, data and REAS3 simulations.

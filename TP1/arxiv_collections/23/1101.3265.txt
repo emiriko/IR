@@ -1,0 +1,26 @@
+Three-dimensional (3D) radiative hydrodynamic model atmospheres of metal-poor
+late-type stars are characterized by cooler upper photospheric layers than
+their 1D counterparts. This property of 3D models can dramatically affect
+elemental abundances derived from temperature-sensitive spectral lines. We
+investigate whether the cool surface temperatures predicted by metal-poor 3D
+models can be ascribed to the approximated treatment of scattering in the
+radiative transfer. We use the Bifrost code to test three different ways to
+handle scattering in 3D model atmospheres of metal-poor stars. First, we solve
+self-consistently the radiative transfer equation for a source function with a
+coherent scattering term. Second, we solve the radiative transfer equation for
+a Planckian source function, neglecting the contribution of continuum
+scattering to extinction in the optically thin layers; this has been the
+default mode in previous models of ours. Third, we treat scattering as pure
+absorption everywhere, which is the standard case in CO5BOLD models. We find
+that the second approach produces temperature structures with cool upper
+photospheric layers very similar to the correct coherent scattering solution.
+In contrast, treating scattering as pure absorption leads to significantly
+hotter and shallower temperature stratifications. The main differences in
+temperature structure between our published models and those generated with the
+CO5BOLD code can be traced to the different treatments of scattering.
+Neglecting the contribution of continuum scattering to extinction in optically
+thin layers provides a good approximation to the full radiative transfer
+solution for metal-poor stars. Our results demonstrate that the cool
+temperature stratifications predicted for metal-poor late-type stellar
+atmospheres by previous models of ours are not an artifact of the approximated
+treatment of scattering.

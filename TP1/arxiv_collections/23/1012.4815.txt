@@ -1,0 +1,11 @@
+We consider a single station (STA) in the Power Save Mode (PSM) of an IEEE
+802.11 infrastructure WLAN. This STA is assumed to be carrying uplink and
+downlink traffic via the access point (AP). We assume that the transmission
+queues of the AP and the STA are saturated, i.e., the AP and the STA always
+have at least one packet to send. For this scenario, it is observed that uplink
+and downlink throughputs achieved are different. The reason behind the
+difference is the long term attempt rates of the STA and the AP due to the PSM
+protocol. In this paper we first obtain the the long term attempt rates of the
+STA and the AP and using these, we obtain the saturation throughputs of the AP
+and the STA. We provide a validation of analytical results using the NS-2
+simulator.

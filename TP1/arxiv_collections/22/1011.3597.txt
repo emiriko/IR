@@ -1,0 +1,16 @@
+There are many examples of optimization problems whose associated polyhedra
+can be described much nicer, and with way less inequalities, by projections of
+higher dimensional polyhedra than this would be possible in the original space.
+However, currently not many general tools to construct such extended
+formulations are available. In this paper, we develop a framework of polyhedral
+relations that generalizes inductive constructions of extended formulations via
+projections, and we particularly elaborate on the special case of reflection
+relations. The latter ones provide polynomial size extended formulations for
+several polytopes that can be constructed as convex hulls of the unions of
+(exponentially) many copies of an input polytope obtained via sequences of
+reflections at hyperplanes. We demonstrate the use of the framework by deriving
+small extended formulations for the G-permutahedra of all finite reflection
+groups G (generalizing both Goeman's extended formulation of the permutahedron
+of size O(n log n) and Ben-Tal and Nemirovski's extended formulation with O(k)
+inequalities for the regular 2^k-gon) and for Huffman-polytopes (the convex
+hulls of the weight-vectors of Huffman codes).

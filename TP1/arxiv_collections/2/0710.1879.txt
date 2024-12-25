@@ -1,0 +1,11 @@
+In this paper, we first propose a novel common subexpression elimination
+(CSE) algorithm for matrix-vector multiplications over characteristic-2 fields.
+As opposed to previously proposed CSE algorithms, which usually focus on
+complexity savings due to recurrences of subexpressions, our CSE algorithm
+achieves two types of complexity reductions, differential savings and
+recurrence savings, by taking advantage of the cancelation property of
+characteristic-2 fields. Using our CSE algorithm, we reduce the additive
+complexities of cyclotomic fast Fourier transforms (CFFTs). Using a weighted
+sum of the numbers of multiplications and additions as a metric, our CFFTs
+achieve smaller total complexities than previously proposed CFFTs and other
+FFTs, requiring both fewer multiplications and fewer additions in many cases.

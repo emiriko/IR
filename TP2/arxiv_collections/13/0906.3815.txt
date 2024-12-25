@@ -1,0 +1,17 @@
+A general framework is proposed for integration of rules and external first
+order theories. It is based on the well-founded semantics of normal logic
+programs and inspired by ideas of Constraint Logic Programming (CLP) and
+constructive negation for logic programs. Hybrid rules are normal clauses
+extended with constraints in the bodies; constraints are certain formulae in
+the language of the external theory. A hybrid program is a pair of a set of
+hybrid rules and an external theory. Instances of the framework are obtained by
+specifying the class of external theories, and the class of constraints. An
+example instance is integration of (non-disjunctive) Datalog with ontologies
+formalized as description logics.
+  The paper defines a declarative semantics of hybrid programs and a
+goal-driven formal operational semantics. The latter can be seen as a
+generalization of SLS-resolution. It provides a basis for hybrid
+implementations combining Prolog with constraint solvers. Soundness of the
+operational semantics is proven. Sufficient conditions for decidability of the
+declarative semantics, and for completeness of the operational semantics are
+given.

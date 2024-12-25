@@ -1,0 +1,26 @@
+The ever-increasing complexity of software systems makes them hard to
+comprehend, predict and tune due to emergent properties and non-deterministic
+behaviour. Complexity arises from the size of software systems and the wide
+variety of possible operating environments: the increasing choice of platforms
+and communication policies leads to ever more complex performance
+characteristics. In addition, software systems exhibit different behaviour
+under different workloads. Many software systems are designed to be
+configurable so that policies can be chosen to meet the needs of various
+stakeholders. For complex software systems it can be difficult to accurately
+predict the effects of a change and to know which configuration is most
+appropriate. This thesis demonstrates that it is useful to run automated
+experiments that measure a selection of system configurations. Experiments can
+find configurations that meet the stakeholders' needs, find interesting
+behavioural characteristics, and help produce predictive models of the system's
+behaviour. The design and use of ACT (Automated Configuration Tool) for running
+such experiments is described, in combination a number of search strategies for
+deciding on the configurations to measure. Design Of Experiments (DOE) is
+discussed, with emphasis on Taguchi Methods. These statistical methods have
+been used extensively in manufacturing, but have not previously been used for
+configuring software systems. The novel contribution here is an industrial case
+study, applying the combination of ACT and Taguchi Methods to DC-Directory, a
+product from Data Connection Ltd (DCL). The case study investigated the
+applicability of Taguchi Methods for configuring complex software systems.
+Taguchi Methods were found to be useful for modelling and configuring DC-
+Directory, making them a valuable addition to the techniques available to
+system administrators and developers.

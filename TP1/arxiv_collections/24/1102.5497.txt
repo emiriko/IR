@@ -1,0 +1,25 @@
+We provide an overall description of the Ciao multiparadigm programming
+system emphasizing some of the novel aspects and motivations behind its design
+and implementation. An important aspect of Ciao is that, in addition to
+supporting logic programming (and, in particular, Prolog), it provides the
+programmer with a large number of useful features from different programming
+paradigms and styles, and that the use of each of these features (including
+those of Prolog) can be turned on and off at will for each program module.
+Thus, a given module may be using, e.g., higher order functions and
+constraints, while another module may be using assignment, predicates, Prolog
+meta-programming, and concurrency. Furthermore, the language is designed to be
+extensible in a simple and modular way. Another important aspect of Ciao is its
+programming environment, which provides a powerful preprocessor (with an
+associated assertion language) capable of statically finding non-trivial bugs,
+verifying that programs comply with specifications, and performing many types
+of optimizations (including automatic parallelization). Such optimizations
+produce code that is highly competitive with other dynamic languages or, with
+the (experimental) optimizing compiler, even that of static languages, all
+while retaining the flexibility and interactive development of a dynamic
+language. This compilation architecture supports modularity and separate
+compilation throughout. The environment also includes a powerful
+auto-documenter and a unit testing framework, both closely integrated with the
+assertion system. The paper provides an informal overview of the language and
+program development environment. It aims at illustrating the design philosophy
+rather than at being exhaustive, which would be impossible in a single journal
+paper, pointing instead to previous Ciao literature.

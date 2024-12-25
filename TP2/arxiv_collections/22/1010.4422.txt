@@ -1,0 +1,14 @@
+The problem of computing Craig interpolants in SAT and SMT has recently
+received a lot of interest, mainly for its applications in formal verification.
+Efficient algorithms for interpolant generation have been presented for some
+theories of interest ---including that of equality and uninterpreted functions,
+linear arithmetic over the rationals, and their combination--- and they are
+successfully used within model checking tools. For the theory of linear
+arithmetic over the integers (LA(Z)), however, the problem of finding an
+interpolant is more challenging, and the task of developing efficient
+interpolant generators for the full theory LA(Z) is still the objective of
+ongoing research. In this paper we try to close this gap. We build on previous
+work and present a novel interpolation algorithm for SMT(LA(Z)), which exploits
+the full power of current state-of-the-art SMT(LA(Z)) solvers. We demonstrate
+the potential of our approach with an extensive experimental evaluation of our
+implementation of the proposed algorithm in the MathSAT SMT solver.

@@ -1,0 +1,14 @@
+We present a new approach to compute low lying eigenvalues and corresponding
+eigenvectors for strongly correlated many-body systems. The method was inspired
+by the so-called Automated Multilevel Sub-structuring Method (AMLS).
+Originally, it relies on subdividing the physical space into several regions.
+In these sub-systems the eigenproblem is solved, and the regions are combined
+in an adequate way. We developed a method to partition the state space of a
+many-particle system in order to apply similar operations on the partitions.
+The tensorial structure of the Hamiltonian of many-body systems make them even
+more suitable for this approach. The method allows to break down the complexity
+of large many-body systems to the complexity of two spatial sub-systems having
+half the geometric size. Considering the exponential size of the Hilbert space
+with respect to the geometric size this represents a huge advantage. In this
+work, we present some benchmark computations for the method applied to the
+one-band Hubbard model.

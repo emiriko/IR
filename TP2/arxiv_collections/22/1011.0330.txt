@@ -1,0 +1,25 @@
+Imitation learning in robots, also called programing by demonstration, has
+made important advances in recent years, allowing humans to teach context
+dependant motor skills/tasks to robots. We propose to extend the usual contexts
+investigated to also include acoustic linguistic expressions that might denote
+a given motor skill, and thus we target joint learning of the motor skills and
+their potential acoustic linguistic name. In addition to this, a modification
+of a class of existing algorithms within the imitation learning framework is
+made so that they can handle the unlabeled demonstration of several tasks/motor
+primitives without having to inform the imitator of what task is being
+demonstrated or what the number of tasks are, which is a necessity for language
+learning, i.e; if one wants to teach naturally an open number of new motor
+skills together with their acoustic names. Finally, a mechanism for detecting
+whether or not linguistic input is relevant to the task is also proposed, and
+our architecture also allows the robot to find the right framing for a given
+identified motor primitive. With these additions it becomes possible to build
+an imitator that bridges the gap between imitation learning and language
+learning by being able to learn linguistic expressions using methods from the
+imitation learning community. In this sense the imitator can learn a word by
+guessing whether a certain speech pattern present in the context means that a
+specific task is to be executed. The imitator is however not assumed to know
+that speech is relevant and has to figure this out on its own by looking at the
+demonstrations: indeed, the architecture allows the robot to transparently also
+learn tasks which should not be triggered by an acoustic word, but for example
+by the color or position of an object or a gesture made by someone in the
+environment. To demonstrate this ability to find the ...

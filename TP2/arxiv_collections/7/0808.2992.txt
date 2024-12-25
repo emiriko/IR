@@ -1,0 +1,11 @@
+A parallel code has been written in FORTRAN90, C, and MPI for the analysis of
+biological simulation data. Using a master/slave algorithm, the software
+operates on AMBER generated trajectory data using either UNIX or MPI file IO,
+and it supports up to 15 simultaneous function calls. This software has been
+performance tested on the Ranger Supercomputer on trajectory data of an aqueous
+bacterial reaction center micelle. Although the parallel reading is poor, the
+analysis algorithm itself shows embarrassingly parallel speedup up to 1024
+compute nodes. At this CPU count the overall scaling of the software compares
+well NAMD's best reported speedup, and outperforms AMBER's best known scaling
+by a factor of 3, while using only a small number of function calls and a short
+trajectory length.

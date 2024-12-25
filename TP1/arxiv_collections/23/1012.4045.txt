@@ -1,0 +1,14 @@
+This paper describes a study of comparison of global and one-dimensional
+local optimization methods to operating system scheduler tuning. The operating
+system scheduler we use is the Linux 2.6.23 Completely Fair Scheduler (CFS)
+running in simulator (LinSched). We have ported the Hackbench scheduler
+benchmark to this simulator and use this as the workload. The global
+optimization approach we use is Particle Swarm Optimization (PSO). We make use
+of Response Surface Methodology (RSM) to specify optimal parameters for our PSO
+implementation. The one-dimensional local optimization approach we use is the
+Golden Section method. In order to use this approach, we convert the scheduler
+tuning problem from one involving setting of three parameters to one involving
+the manipulation of one parameter. Our results show that the global
+optimization approach yields better response but the one- dimensional
+optimization approach converges to a solution faster than the global
+optimization approach.

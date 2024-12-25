@@ -1,0 +1,11 @@
+Configuration mixing calculations performed in terms of the Skyrme/Gogny
+Energy Density Functional (EDF) rely on extending the Single-Reference energy
+functional into non-diagonal EDF kernels. The standard way to do so, based on
+an analogy with the pure Hamiltonian case and the use of the generalized Wick
+theorem, is responsible for the recently observed divergences and steps in
+Multi-Reference calculations. We summarize here the minimal solution to this
+problem recently proposed [Lacroix et al, arXiv:0809.2041] and applied with
+success to particle number restoration[Bender et al, arXiv:0809.2045]. Such a
+regularization method provides suitable corrections of pathologies for EDF
+depending on integer powers of the density. The specific case of fractional
+powers of the density[Duguet et al, arXiv:0809.2049] is also discussed.

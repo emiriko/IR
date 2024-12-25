@@ -1,0 +1,16 @@
+Statistical query (SQ) learning model of Kearns (1993) is a natural
+restriction of the PAC learning model in which a learning algorithm is allowed
+to obtain estimates of statistical properties of the examples but cannot see
+the examples themselves. We describe a new and simple characterization of the
+query complexity of learning in the SQ learning model. Unlike the previously
+known bounds on SQ learning our characterization preserves the accuracy and the
+efficiency of learning. The preservation of accuracy implies that that our
+characterization gives the first characterization of SQ learning in the
+agnostic learning framework. The preservation of efficiency is achieved using a
+new boosting technique and allows us to derive a new approach to the design of
+evolutionary algorithms in Valiant's (2006) model of evolvability. We use this
+approach to demonstrate the existence of a large class of monotone evolutionary
+learning algorithms based on square loss performance estimation. These results
+differ significantly from the few known evolutionary algorithms and give
+evidence that evolvability in Valiant's model is a more versatile phenomenon
+than there had been previous reason to suspect.

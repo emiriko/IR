@@ -1,0 +1,24 @@
+The rigorous study of spectral stability for strong detonations was begun by
+J.J. Erpenbeck in [Er1]. Working with the Zeldovitch-von Neumann-D\"oring (ZND)
+model, which assumes a finite reaction rate but ignores effects like viscosity
+corresponding to second order derivatives, he used a normal mode analysis to
+define a stability function $V(\tau,\eps)$ whose zeros in $\Re \tau>0$
+correspond to multidimensional perturbations of a steady detonation profile
+that grow exponentially in time. Later in a remarkable paper [Er3] he provided
+strong evidence, by a combination of formal and rigorous arguments, that for
+certain classes of steady ZND profiles, unstable zeros of $V$ exist for
+perturbations of sufficiently large transverse wavenumber $\eps$, even when the
+von Neumann shock, regarded as a gas dynamical shock, is uniformly stable in
+the sense defined (nearly twenty years later) by Majda. In spite of a great
+deal of later numerical work devoted to computing the zeros of $V(\tau,\eps)$,
+the paper \cite{Er3} remains the only work we know of that presents a detailed
+and convincing theoretical argument for detecting them.
+  The analysis in [Er3] points the way toward, but does not constitute, a
+mathematical proof that such unstable zeros exist. In this paper we identify
+the mathematical issues left unresolved in [Er3] and provide proofs, together
+with certain simplifications and extensions, of the main conclusions about
+stability and instability of detonations contained in that paper.
+  The main mathematical problem, and our principal focus here, is to determine
+the precise asymptotic behavior as $\eps\to \infty$ of solutions to a linear
+system of ODEs in $x$, depending on $\eps$ and a complex frequency $\tau$ as
+parameters, with turning points $x_*$ on the half-line $[0,\infty)$.

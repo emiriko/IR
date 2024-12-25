@@ -1,0 +1,8 @@
+In this paper we study the adaptive prefix coding problem in cases where the
+size of the input alphabet is large. We present an online prefix coding
+algorithm that uses $O(\sigma^{1 / \lambda + \epsilon}) $ bits of space for any
+constants $\eps>0$, $\lambda>1$, and encodes the string of symbols in $O(\log
+\log \sigma)$ time per symbol \emph{in the worst case}, where $\sigma$ is the
+size of the alphabet. The upper bound on the encoding length is $\lambda n H
+(s) +(\lambda \ln 2 + 2 + \epsilon) n + O (\sigma^{1 / \lambda} \log^2 \sigma)$
+bits.

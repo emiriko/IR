@@ -1,0 +1,15 @@
+Determining if two protocols can be securely composed requires analyzing not
+only their additive properties but also their destructive properties. In this
+paper we propose a new composition method for constructing protocols based on
+existing ones found in the literature that can be fully automatized. The
+additive properties of the composed protocols are ensured by the composition of
+protocol preconditions and effects, denoting, respectively, the conditions that
+must hold for protocols to be executed and the conditions that hold after
+executing the protocols. The non-destructive property of the final composed
+protocol is verified by analyzing the independence of the involved protocols, a
+method proposed by the authors in their previous work. The fully automatized
+property is ensured by constructing a rich protocol model that contains
+explicit description of protocol preconditions, effects, generated terms and
+exchanged messages. The proposed method is validated by composing 17 protocol
+pairs and by verifying the correctness of the composed protocols with an
+existing tool.

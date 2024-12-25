@@ -1,0 +1,13 @@
+We introduce the EMC algorithm for reconstructing a particle's 3D diffraction
+intensity from very many photon shot-noise limited 2D measurements, when the
+particle orientation in each measurement is unknown. The algorithm combines a
+maximization step (M) of the intensity's likelihood function, with expansion
+(E) and compression (C) steps that map the 3D intensity model to a redundant
+tomographic representation and back again. After a few iterations of the EMC
+update rule, the reconstructed intensity is given to the difference-map
+algorithm for reconstruction of the particle contrast. We demonstrate
+reconstructions with simulated data and investigate the effects of particle
+complexity, number of measurements, and the number of photons per measurement.
+The relatively transparent scaling behavior of our algorithm provides a first
+estimate of the data processing resources required for future single-particle
+imaging experiments.

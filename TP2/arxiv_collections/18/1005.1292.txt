@@ -1,0 +1,14 @@
+In this paper we study two related iterative randomized algorithms for
+distributed computation of averages. The first one is the recently proposed
+Broadcast Gossip Algorithm, in which at each iteration one randomly selected
+node broadcasts its own state to its neighbors. The second algorithm is a novel
+de-synchronized version of the previous one, in which at each iteration every
+node is allowed to broadcast, with a given probability: hence this algorithm is
+affected by interference among messages. Both algorithms are proved to
+converge, and their performance is evaluated in terms of rate of convergence
+and asymptotical error: focusing on the behavior for large networks, we
+highlight the role of topology and design parameters on the performance.
+Namely, we show that on fully-connected graphs the rate is bounded away from
+one, whereas the asymptotical error is bounded away from zero. On the contrary,
+on a wide class of locally-connected graphs, the rate goes to one and the
+asymptotical error goes to zero, as the size of the network grows larger.

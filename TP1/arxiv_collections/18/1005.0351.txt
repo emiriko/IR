@@ -1,0 +1,25 @@
+We consider the problem of distributed formation control of a large number of
+vehicles. An individual vehicle in the formation is assumed to be a fully
+actuated point mass. A distributed control law is examined: the control action
+on an individual vehicle depends on (i) its own velocity and (ii) the relative
+position measurements with a small subset of vehicles (neighbors) in the
+formation. The neighbors are defined according to an information graph.
+  In this paper we describe a methodology for modeling, analysis, and
+distributed control design of such vehicular formations whose information graph
+is a D-dimensional lattice. The modeling relies on an approximation based on a
+partial differential equation (PDE) that describes the spatio-temporal
+evolution of position errors in the formation. The analysis and control design
+is based on the PDE model. We deduce asymptotic formulae for the closed-loop
+stability margin (absolute value of the real part of the least stable
+eigenvalue) of the controlled formation. The stability margin is shown to
+approach 0 as the number of vehicles N goes to infinity. The exponent on the
+scaling law for the stability margin is influenced by the dimension and the
+structure of the information graph. We show that the scaling law can be
+improved by employing a higher dimensional information graph.
+  Apart from analysis, the PDE model is used for a mistuning-based design of
+control gains to maximize the stability margin. Mistuning here refers to small
+perturbation of control gains from their nominal symmetric values. We show that
+the mistuned design can have a significantly better stability margin even with
+a small amount of perturbation. The results of the analysis with the PDE model
+are corroborated with numerical computation of eigenvalues with the state-space
+model of the formation.

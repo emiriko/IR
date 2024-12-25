@@ -1,0 +1,20 @@
+Publication bias, the fact that studies identified for inclusion in a meta
+analysis do not represent all studies on the topic of interest, is commonly
+recognized as a threat to the validity of the results of a meta analysis. One
+way to explicitly model publication bias is via selection models or weighted
+probability distributions. We adopt the nonparametric approach initially
+introduced by Dear (1992) but impose that the weight function $w$ is monotonely
+non-increasing as a function of the $p$-value. Since in meta analysis one
+typically only has few studies or "observations", regularization of the
+estimation problem seems sensible. In addition, virtually all parametric weight
+functions proposed so far in the literature are in fact decreasing. We discuss
+how to estimate a decreasing weight function in the above model and illustrate
+the new methodology on two well-known examples. The new approach potentially
+offers more insight in the selection process than other methods and is more
+flexible than parametric approaches. Some basic properties of the
+log-likelihood function and computation of a $p$-value quantifying the evidence
+against the null hypothesis of a constant weight function are indicated. In
+addition, we provide an approximate selection bias adjusted profile likelihood
+confidence interval for the treatment effect. The corresponding software and
+the datasets used to illustrate it are provided as the R package selectMeta.
+This enables full reproducibility of the results in this paper.

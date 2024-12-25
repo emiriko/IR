@@ -1,0 +1,12 @@
+Pre-calculated libraries of molecular fragment configurations have previously
+been used as a basis for both equilibrium sampling (via "library-based Monte
+Carlo") and for obtaining absolute free energies using a polymer-growth
+formalism. Here, we combine the two approaches to extend the size of systems
+for which free energies can be calculated. We study a series of all-atom
+poly-alanine systems in a simple dielectric "solvent" and find that precise
+free energies can be obtained rapidly. For instance, for 12 residues, less than
+an hour of single-processor is required. The combined approach is formally
+equivalent to the "annealed importance sampling" algorithm; instead of
+annealing by decreasing temperature, however, interactions among fragments are
+gradually added as the molecule is "grown." We discuss implications for future
+binding affinity calculations in which a ligand is grown into a binding site.

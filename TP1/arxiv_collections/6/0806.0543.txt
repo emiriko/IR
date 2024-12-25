@@ -1,0 +1,11 @@
+We present Tethered Monte Carlo, a simple, general purpose method of
+computing the effective potential of the order parameter (Helmholtz free
+energy). This formalism is based on a new statistical ensemble, closely related
+to the micromagnetic one, but with an extended configuration space (through
+Creutz-like demons). Canonical averages for arbitrary values of the external
+magnetic field are computed without additional simulations. The method is put
+to work in the two dimensional Ising model, where the existence of exact
+results enables us to perform high precision checks. A rather peculiar feature
+of our implementation, which employs a local Metropolis algorithm, is the total
+absence, within errors, of critical slowing down for magnetic observables.
+Indeed, high accuracy results are presented for lattices as large as L=1024.

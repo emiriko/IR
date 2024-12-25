@@ -1,0 +1,20 @@
+Enhancement of the number and array density of nozzles within an inkjet head
+chip is one of the keys to raise the printing speed and printing resolutions.
+However, traditional 2D architecture of driving circuits can not meet the
+requirement for high scanning speed and low data accessing points when nozzle
+numbers greater than 1000. This paper proposes a novel architecture of
+high-selection-speed three-dimensional data registration for inkjet
+applications. With the configuration of three-dimensional data registration,
+the number of data accessing points as well as the scanning lines can be
+greatly reduced for large array inkjet printheads with nozzles numbering more
+than 1000. This IC (Integrated Circuit) architecture involves three-dimensional
+multiplexing with the provision of a gating transistor for each ink firing
+resistor, where ink firing resistors are triggered only by the selection of
+their associated gating transistors. Three signals: selection (S), address (A),
+and power supply (P), are employed together to activate a nozzle for droplet
+ejection. The smart printhead controller has been designed by a 0.35 um CMOS
+process with a total circuit area, 2500 x 500 microm2, which is 80% of the
+cirucuit area by 2D configuration for 1000 nozzles. Experiment results
+demonstrate the functionality of the fabricated IC in operation, signal
+transmission and a potential to control more than 1000 nozzles with only 31
+data access points and reduced 30% scanning time.

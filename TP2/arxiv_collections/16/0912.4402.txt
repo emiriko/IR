@@ -1,0 +1,9 @@
+We describe an algorithm for using a quantum computer to calculate mean
+values of observables and the partition function of a quantum system. Our
+algorithm includes two sub-algorithms. The first sub-algorithm is for
+calculating, with polynomial efficiency, certain diagonal matrix elements of an
+observable. This sub-algorithm is performed on a quantum computer, using
+quantum phase estimation and tomography. The second sub-algorithm is for
+sampling a probability distribution. This sub-algorithm is not polynomially
+efficient. It can be performed either on a classical or a quantum computer, but
+a quantum computer can perform it quadratically faster.

@@ -1,0 +1,15 @@
+Memory cores are usually the densest portion with the smallest feature size
+in system-on-chip (SOC) designs. The reliability of memory cores thus has heavy
+impact on the reliability of SOCs. Transparent test is one of useful technique
+for improving the reliability of memories during life time. This paper presents
+a systematic algorithm used for transforming a bit-oriented march test into a
+transparent word-oriented march test. The transformed transparent march test
+has shorter test complexity compared with that proposed in the previous works
+[Theory of transparent BIST for RAMs, A transparent online memory test for
+simultaneous detection of functional faults and soft errors in memories]. For
+example, if a memory with 32-bit words is tested with March C-, time complexity
+of the transparent word-oriented test transformed by the proposed scheme is
+only about 56% or 19% time complexity of the transparent word-oriented test
+converted by the scheme reported in [Theory of transparent BIST for RAMs] or [A
+transparent online memory test for simultaneous detection of functional faults
+and soft errors in memories], respectively.

@@ -1,0 +1,10 @@
+A divide-and-conquer cryptanalysis can often be mounted against some
+keystream generators composed of several (nonlinear) independent devices
+combined by a Boolean function. In particular, any parity-check relation
+derived from the periods of some constituent sequences usually leads to a
+distinguishing attack whose complexity is determined by the bias of the
+relation. However, estimating this bias is a difficult problem since the
+piling-up lemma cannot be used. Here, we give two exact expressions for this
+bias. Most notably, these expressions lead to a new algorithm for computing the
+bias of a parity-check relation, and they also provide some simple formulae for
+this bias in some particular cases which are commonly used in cryptography.

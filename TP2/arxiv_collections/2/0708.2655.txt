@@ -1,0 +1,10 @@
+I describe the work of the CEDAR collaboration in developing tools for tuning
+and validating Monte Carlo event generator programs. The core CEDAR task is to
+interface the Durham HepData database of experimental measurements to event
+generator validation tools such as the UCL JetWeb system - this has
+necessitated the migration of HepData to a new relational database system and a
+Java-based interaction model. The "number crunching" part of JetWeb is also
+being upgraded, from the Fortran HZTool library to the new C++ Rivet system and
+a generator interfacing layer named RivetGun. Finally, I describe how Rivet is
+already being used as a central part of a new generator tuning system, and
+summarise two other CEDAR activities, HepML and HepForge.

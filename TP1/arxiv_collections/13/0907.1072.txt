@@ -1,0 +1,18 @@
+In 2004, Klavins et al. introduced the use of graph grammars to describe --
+and to program -- systems of self-assembly. We show that these graph grammars
+can be embedded in a graph rewriting characterization of distributed systems
+that was proposed by Degano and Montanari over twenty years ago. We apply this
+embedding to generalize Soloveichik and Winfree's local determinism criterion
+(for achieving a unique terminal assembly), from assembly systems of 4-sided
+tiles that embed in the plane, to arbitrary graph assembly systems. We present
+a partial converse of the embedding result, by providing sufficient conditions
+under which systems of distributed processors can be simulated by graph
+assembly systems topologically, in the plane, and in 3-space. We conclude by
+defining a new complexity measure: "surface cost" (essentially the convex hull
+of the space inhabited by agents at the conclusion of a self-assembled
+computation). We show that, for growth-bounded graphs, executing a subroutine
+to find a Maximum Independent Set only increases the surface cost of a
+self-assembling computation by a constant factor. We obtain this complexity
+bound by using the simulation results to import the distributed computing
+notions of "local synchronizer" and "deterministic coin flipping" into
+self-assembly.

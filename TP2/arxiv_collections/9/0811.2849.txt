@@ -1,0 +1,14 @@
+The development of accurate and fast algorithms for the Boltzmann collision
+integral and their analysis represent a challenging problem in scientific
+computing and numerical analysis. Recently, several works were devoted to the
+derivation of spectrally accurate schemes for the Boltzmann equation, but very
+few of them were concerned with the stability analysis of the method. In
+particular there was no result of stability except when the method is modified
+in order to enforce the posivity preservation, which destroys the spectral
+accuracy. In this paper we propose a new method to study the stability of
+homogeneous Boltzmann equations perturbed by smoothed balanced operators which
+do not preserve positivity of the distribution. This method takes advantage of
+the "spreading" property of the collision, together with estimates on
+regularity and entropy production. As an application we prove stability and
+convergence of spectral methods for the Boltzmann equation, when the
+discretization parameter is large enough (with explicit bound).

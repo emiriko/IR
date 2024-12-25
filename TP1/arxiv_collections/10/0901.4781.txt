@@ -1,0 +1,17 @@
+We propose easy ways of correcting for the systematic errors caused by the
+photon noise and the pixelation effect in cosmic shear measurements. Our
+treatment of noise can reliably remove the noise contamination to the cosmic
+shear even when the flux density of the noise is comparable with those of the
+sources. For pixelated images, we find that one can accurately reconstruct
+their corresponding continuous images by interpolating the logarithms of the
+pixel readouts with either the Bicubic or the Bicubic Spline method. The cosmic
+shears measured from the interpolated continuous images contain negligible
+systematic errors as long as the pixel size is about less than the scale size
+of the point spread function (PSF, including the pixel response function), a
+condition which is almost always satisfied in practice. Our methodology is well
+defined regardless of the morphologies of the galaxies and the PSF. Despite
+that our discussion is based on the shear measurement method of Zhang (2008),
+our way of treating the noise can in principle be considered in other methods,
+and the interpolation method that we introduce for reconstructing continuous
+images from pixelated ones is generally useful for digital image processing of
+all purposes.

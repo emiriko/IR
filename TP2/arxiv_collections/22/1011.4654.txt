@@ -1,0 +1,18 @@
+Carrier Sense Multiple Access with Enhanced Collision Avoidance (CSMA/ECA) is
+a distributed MAC protocol that allows collision-free access to the medium in
+WLAN. The only difference between CSMA/ECA and the well-known CSMA/CA is that
+the former uses a deterministic backoff after successful transmissions.
+Collision-free operation is reached after a transient state during which some
+collisions may occur. This article shows that the duration of the transient
+state can be shortened by appropriately setting the contention parameters.
+Standard absorbing Markov Chain theory can be used to describe the behaviour of
+the system in the transient state and to predict the expected number of slots
+to reach the collision-free operation.
+  The article also introduces CSMA/E2CA, in which a deterministic backoff is
+used two consecutive times after a successful transmission. CSMA/E2CA converges
+quicker to collision-free operation and delivers higher performance than
+CSMA/CA in harsh wireless scenarios with high frame error rates.
+  To achieve collision-free operations when the number of contenders is large,
+it may be necessary to dynamically adjust the contention parameter. The last
+part of the article suggests an approach for such parameter adjustment which is
+validated by simulation results.

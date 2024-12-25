@@ -1,0 +1,11 @@
+We study the quantum walk search algorithm of Shenvi, Kempe and Whaley [PRA
+67 052307 (2003)] on data structures of one to two spatial dimensions, on which
+the algorithm is thought to be less efficient than in three or more spatial
+dimensions. Our aim is to understand why the quantum algorithm is dimension
+dependent whereas the best classical algorithm is not, and to show in more
+detail how the efficiency of the quantum algorithm varies with spatial
+dimension or accessibility of the data. Our numerical results agree with the
+expected scaling in 2D of $O(\sqrt{N \log N})$, and show how the prefactors
+display significant dependence on both the degree and symmetry of the graph.
+Specifically, we see, as expected, the prefactor of the time complexity
+dropping as the degree (connectivity) of the structure is increased.

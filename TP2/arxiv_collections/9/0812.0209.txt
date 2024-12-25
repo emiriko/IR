@@ -1,0 +1,19 @@
+We consider the the problem of tracking heavy hitters and quantiles in the
+distributed streaming model. The heavy hitters and quantiles are two important
+statistics for characterizing a data distribution. Let $A$ be a multiset of
+elements, drawn from the universe $U=\{1,...,u\}$. For a given $0 \le \phi \le
+1$, the $\phi$-heavy hitters are those elements of $A$ whose frequency in $A$
+is at least $\phi |A|$; the $\phi$-quantile of $A$ is an element $x$ of $U$
+such that at most $\phi|A|$ elements of $A$ are smaller than $A$ and at most
+$(1-\phi)|A|$ elements of $A$ are greater than $x$. Suppose the elements of $A$
+are received at $k$ remote {\em sites} over time, and each of the sites has a
+two-way communication channel to a designated {\em coordinator}, whose goal is
+to track the set of $\phi$-heavy hitters and the $\phi$-quantile of $A$
+approximately at all times with minimum communication. We give tracking
+algorithms with worst-case communication cost $O(k/\eps \cdot \log n)$ for both
+problems, where $n$ is the total number of items in $A$, and $\eps$ is the
+approximation error. This substantially improves upon the previous known
+algorithms. We also give matching lower bounds on the communication costs for
+both problems, showing that our algorithms are optimal. We also consider a more
+general version of the problem where we simultaneously track the
+$\phi$-quantiles for all $0 \le \phi \le 1$.

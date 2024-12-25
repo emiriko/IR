@@ -1,0 +1,14 @@
+The increased dominance of intra-die process variations has motivated the
+field of Statistical Static Timing Analysis (SSTA) and has raised the need for
+SSTA-based circuit optimization. In this paper, we propose a new sensitivity
+based, statistical gate sizing method. Since brute-force computation of the
+change in circuit delay distribution to gate size change is computationally
+expensive, we propose an efficient and exact pruning algorithm. The pruning
+algorithm is based on a novel theory of perturbation bounds which are shown to
+decrease as they propagate through the circuit. This allows pruning of gate
+sensitivities without complete propagation of their perturbations. We apply our
+proposed optimization algorithm to ISCAS benchmark circuits and demonstrate the
+accuracy and efficiency of the proposed method. Our results show an improvement
+of up to 10.5% in the 99-percentile circuit delay for the same circuit area,
+using the proposed statistical optimizer and a run time improvement of up to
+56x compared to the brute-force approach.

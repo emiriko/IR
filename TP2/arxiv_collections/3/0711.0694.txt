@@ -1,0 +1,19 @@
+We consider the discrete-time infinite-horizon optimal control problem
+formalized by Markov Decision Processes. We revisit the work of Bertsekas and
+Ioffe, that introduced $\lambda$ Policy Iteration, a family of algorithms
+parameterized by $\lambda$ that generalizes the standard algorithms Value
+Iteration and Policy Iteration, and has some deep connections with the Temporal
+Differences algorithm TD($\lambda$) described by Sutton and Barto. We deepen
+the original theory developped by the authors by providing convergence rate
+bounds which generalize standard bounds for Value Iteration described for
+instance by Puterman. Then, the main contribution of this paper is to develop
+the theory of this algorithm when it is used in an approximate form and show
+that this is sound. Doing so, we extend and unify the separate analyses
+developped by Munos for Approximate Value Iteration and Approximate Policy
+Iteration. Eventually, we revisit the use of this algorithm in the training of
+a Tetris playing controller as originally done by Bertsekas and Ioffe. We
+provide an original performance bound that can be applied to such an
+undiscounted control problem. Our empirical results are different from those of
+Bertsekas and Ioffe (which were originally qualified as "paradoxical" and
+"intriguing"), and much more conform to what one would expect from a learning
+experiment. We discuss the possible reason for such a difference.

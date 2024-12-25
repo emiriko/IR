@@ -1,0 +1,15 @@
+We study in this paper provenance information for queries with aggregation.
+Provenance information was studied in the context of various query languages
+that do not allow for aggregation, and recent work has suggested to capture
+provenance by annotating the different database tuples with elements of a
+commutative semiring and propagating the annotations through query evaluation.
+We show that aggregate queries pose novel challenges rendering this approach
+inapplicable. Consequently, we propose a new approach, where we annotate with
+provenance information not just tuples but also the individual values within
+tuples, using provenance to describe the values computation. We realize this
+approach in a concrete construction, first for "simple" queries where the
+aggregation operator is the last one applied, and then for arbitrary (positive)
+relational algebra queries with aggregation; the latter queries are shown to be
+more challenging in this context. Finally, we use aggregation to encode queries
+with difference, and study the semantics obtained for such queries on
+provenance annotated databases.

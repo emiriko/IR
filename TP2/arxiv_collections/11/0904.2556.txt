@@ -1,0 +1,17 @@
+This article reviews the basic computational techniques for carrying out
+multi-scale simulations using statistical methods, with the focus on
+simulations of epitaxial growth. First, the statistical-physics background
+behind Monte Carlo simulations is briefly described. The kinetic Monte Carlo
+(kMC) method is introduced as an extension of the more wide-spread
+thermodynamic Monte Carlo methods, and algorithms for kMC simulations,
+including parallel ones, are discussed in some detail. The step from the
+atomistic picture to the more coarse-grained description of Monte Carlo
+simulations is exemplified for the case of surface diffusion. Here, the aim is
+the derivation of rate constants from knowledge about the underlying atomic
+processes. Both the simple approach of Transition State Theory, as well as more
+recent approaches using accelerated molecular dynamics are reviewed. Finally, I
+address the point that simplifications often need to be introduced in practical
+Monte Carlo simulations in order to reduce the complexity of 'real' atomic
+processes. Different 'flavors' of kMC simulations and the potential pitfalls
+related to the reduction of complexity are presented in the context of
+simulations of epitaxial growth.

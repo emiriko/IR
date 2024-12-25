@@ -1,0 +1,12 @@
+The introduction of complex SoCs with multiple processor cores presents new
+development challenges, such that development support is now a decisive factor
+when choosing a System-on-Chip (SoC). The presented developments support
+strategy addresses the challenges using both architecture and technology
+approaches. The Multi-Core Debug Support (MCDS) architecture provides flexible
+triggering using cross triggers and a multiple core break and suspend switch.
+Temporal trace ordering is guaranteed down to cycle level by on-chip time
+stamping. The Package Sized-ICE (PSI) approach is a novel method of including
+trace buffers, overlay memories, processing resources and communication
+interfaces without changing device behavior. PSI requires no external emulation
+box, as the debug host interfaces directly with the SoC using a standard
+interface.

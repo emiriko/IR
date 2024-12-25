@@ -1,0 +1,24 @@
+A PCP is a proof system for NP in which the proof can be checked by a
+probabilistic verifier. The verifier is only allowed to read a very small
+portion of the proof, and in return is allowed to err with some bounded
+probability. The probability that the verifier accepts a false proof is called
+the soundness error, and is an important parameter of a PCP system that one
+seeks to minimize. Constructing PCPs with sub-constant soundness error and, at
+the same time, a minimal number of queries into the proof (namely two) is
+especially important due to applications for inapproximability.
+  In this work we construct such PCP verifiers, i.e., PCPs that make only two
+queries and have sub-constant soundness error. Our construction can be viewed
+as a combinatorial alternative to the "manifold vs. point" construction, which
+is the only construction in the literature for this parameter range. The
+"manifold vs. point" PCP is based on a low degree test, while our construction
+is based on a direct product test. We also extend our construction to yield a
+decodable PCP (dPCP) with the same parameters. By plugging in this dPCP into
+the scheme of Dinur and Harsha (FOCS 2009) one gets an alternative construction
+of the result of Moshkovitz and Raz (FOCS 2008), namely: a construction of
+two-query PCPs with small soundness error and small alphabet size.
+  Our construction of a PCP is based on extending the derandomized direct
+product test of Impagliazzo, Kabanets and Wigderson (STOC 09) to a derandomized
+parallel repetition theorem. More accurately, our PCP construction is obtained
+in two steps. We first prove a derandomized parallel repetition theorem for
+specially structured PCPs. Then, we show that any PCP can be transformed into
+one that has the required structure, by embedding it on a de-Bruijn graph.

@@ -1,0 +1,18 @@
+We considerably improve upon the recent result of Martinelli and Toninelli on
+the mixing time of Glauber dynamics for the 2D Ising model in a box of side $L$
+at low temperature and with random boundary conditions whose distribution $P$
+stochastically dominates the extremal plus phase. An important special case is
+when $P$ is concentrated on the homogeneous all-plus configuration, where the
+mixing time $T_{mix}$ is conjectured to be polynomial in $L$. In [MT] it was
+shown that for a large enough inverse-temperature $\beta$ and any $\epsilon >0$
+there exists $c=c(\beta,\epsilon)$ such that $\lim_{L\to\infty}P(T_{mix}\geq
+\exp({c L^\epsilon}))=0$. In particular, for the all-plus boundary conditions
+and $\beta$ large enough $T_{mix} \leq \exp({c L^\epsilon})$.
+  Here we show that the same conclusions hold for all $\beta$ larger than the
+critical value $\beta_c$ and with $\exp({c L^\epsilon})$ replaced by $L^{c \log
+L}$ (i.e. quasi-polynomial mixing). The key point is a modification of the
+inductive scheme of [MT] together with refined equilibrium estimates that hold
+up to criticality, obtained via duality and random-line representation tools
+for the Ising model. In particular, we establish new precise bounds on the law
+of Peierls contours which quantitatively sharpen the Brownian bridge picture
+established e.g. in [Greenberg-Ioffe (2005)],[Higuchi (1979)],[Hryniv (1998)].

@@ -1,0 +1,13 @@
+A central paradigm behind process semantics based on observability and
+testing is that the exact moment of occurring of an internal nondeterministic
+choice is unobservable. It is natural, therefore, for this property to hold
+when the internal choice is quantified with probabilities. However, ever since
+probabilities have been introduced in process semantics, it has been a
+challenge to preserve the unobservability of the random choice, while not
+violating the other laws of process theory and probability theory. This paper
+addresses this problem. It proposes two semantics for processes where the
+internal nondeterminism has been quantified with probabilities. The first one
+is based on the notion of testing, i.e. interaction between the process and its
+environment. The second one, the probabilistic ready trace semantics, is based
+on the notion of observability. Both are shown to coincide. They are also
+preserved under the standard operators.

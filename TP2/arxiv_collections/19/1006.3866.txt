@@ -1,0 +1,25 @@
+The importance-sampling Monte Carlo algorithm appears to be the universally
+optimal solution to the problem of sampling the state space of statistical
+mechanical systems according to the relative importance of configurations for
+the partition function or thermal averages of interest. While this is true in
+terms of its simplicity and universal applicability, the resulting approach
+suffers from the presence of temporal correlations of successive samples
+naturally implied by the Markov chain underlying the importance-sampling
+simulation. In many situations, these autocorrelations are moderate and can be
+easily accounted for by an appropriately adapted analysis of simulation data.
+They turn out to be a major hurdle, however, in the vicinity of phase
+transitions or for systems with complex free-energy landscapes. The critical
+slowing down close to continuous transitions is most efficiently reduced by the
+application of cluster algorithms, where they are available. For first-order
+transitions and disordered systems, on the other hand, macroscopic energy
+barriers need to be overcome to prevent dynamic ergodicity breaking. In this
+situation, generalized-ensemble techniques such as the multicanonical
+simulation method can effect impressive speedups, allowing to sample the full
+free-energy landscape. The Potts model features continuous as well as
+first-order phase transitions and is thus a prototypic example for studying
+phase transitions and new algorithmic approaches. I discuss the possibilities
+of bringing together cluster and generalized-ensemble methods to combine the
+benefits of both techniques. The resulting algorithm allows for the efficient
+estimation of the random-cluster partition function encoding the information of
+all Potts models, even with a non-integer number of states, for all
+temperatures in a single simulation run per system size.

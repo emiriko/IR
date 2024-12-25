@@ -1,0 +1,13 @@
+In this article we propose multiplication based random walk Metropolis
+Hastings (MH) algorithm on the real line. We call it the random dive MH (RDMH)
+algorithm. This algorithm, even if simple to apply, was not studied earlier in
+Markov chain Monte Carlo literature. The associated kernel is shown to have
+standard properties like irreducibility, aperiodicity and Harris recurrence
+under some mild assumptions. These ensure basic convergence (ergodicity) of the
+kernel. Further the kernel is shown to be geometric ergodic for a large class
+of target densities on $\mathbb{R}$. This class even contains realistic target
+densities for which random walk or Langevin MH are not geometrically ergodic.
+Three simulation studies are given to demonstrate the mixing property and
+superiority of RDMH to standard MH algorithms on real line. A share-price
+return data is also analyzed and the results are compared with those available
+in the literature.

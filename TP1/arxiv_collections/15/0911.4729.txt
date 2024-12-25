@@ -1,0 +1,12 @@
+We propose a novel distributed algorithm to cluster graphs. The algorithm
+recovers the solution obtained from spectral clustering without the need for
+expensive eigenvalue/vector computations. We prove that, by propagating waves
+through the graph, a local fast Fourier transform yields the local component of
+every eigenvector of the Laplacian matrix, thus providing clustering
+information. For large graphs, the proposed algorithm is orders of magnitude
+faster than random walk based approaches. We prove the equivalence of the
+proposed algorithm to spectral clustering and derive convergence rates. We
+demonstrate the benefit of using this decentralized clustering algorithm for
+community detection in social graphs, accelerating distributed estimation in
+sensor networks and efficient computation of distributed multi-agent search
+strategies.

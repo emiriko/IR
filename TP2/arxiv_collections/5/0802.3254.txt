@@ -1,0 +1,11 @@
+This paper presents efficient algorithms for testing the finite, polynomial,
+and exponential ambiguity of finite automata with $\epsilon$-transitions. It
+gives an algorithm for testing the exponential ambiguity of an automaton $A$ in
+time $O(|A|_E^2)$, and finite or polynomial ambiguity in time $O(|A|_E^3)$.
+These complexities significantly improve over the previous best complexities
+given for the same problem. Furthermore, the algorithms presented are simple
+and are based on a general algorithm for the composition or intersection of
+automata. We also give an algorithm to determine the degree of polynomial
+ambiguity of a finite automaton $A$ that is polynomially ambiguous in time
+$O(|A|_E^3)$. Finally, we present an application of our algorithms to an
+approximate computation of the entropy of a probabilistic automaton.

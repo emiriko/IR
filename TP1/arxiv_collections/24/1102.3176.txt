@@ -1,0 +1,9 @@
+Truncated Singular Value Decomposition (SVD) calculates the closest rank-$k$
+approximation of a given input matrix. Selecting the appropriate rank $k$
+defines a critical model order choice in most applications of SVD. To obtain a
+principled cut-off criterion for the spectrum, we convert the underlying
+optimization problem into a noisy channel coding problem. The optimal
+approximation capacity of this channel controls the appropriate strength of
+regularization to suppress noise. In simulation experiments, this information
+theoretic method to determine the optimal rank competes with state-of-the art
+model selection techniques.

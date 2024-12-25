@@ -1,0 +1,24 @@
+In this paper we investigate the use of the vector potential as a means of
+maintaining the divergence constraint in the numerical solution of the
+equations of Magnetohydrodynamics (MHD) using the Smoothed Particle
+Hydrodynamics (SPH) method. We derive a self-consistent formulation of the
+equations of motion using a variational principle that is constrained by the
+numerical formulation of both the induction equation and the curl operator used
+to obtain the magnetic field, which guarantees exact and simultaneous
+conservation of momentum, energy and entropy in the numerical scheme. This
+leads to a novel formulation of the MHD force term, unique to the vector
+potential, which differs from previous formulations. We also demonstrate how
+dissipative terms can be correctly formulated for the vector potential such
+that the contribution to the entropy is positive definite and the total energy
+is conserved.
+  On a standard suite of numerical tests in one, two and three dimensions we
+find firstly that the consistent formulation of the vector potential equations
+is unstable to the well-known SPH tensile instability, even more so than in the
+standard Smoothed Particle Magnetohydrodynamics (SPMHD) formulation where the
+magnetic field is evolved directly. Furthermore we find that, whilst a hybrid
+approach based on the vector potential evolution equation coupled with a
+standard force term gives good results for one and two dimensional problems
+(where dAz/dt = 0), such an approach suffers from numerical instability in
+three dimensions related to the unconstrained evolution of vector potential
+components. We conclude that use of the vector potential is not a viable
+approach for Smoothed Particle Magnetohydrodynamics.

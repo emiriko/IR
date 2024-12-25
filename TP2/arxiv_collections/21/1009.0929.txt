@@ -1,0 +1,12 @@
+A target-oriented sequential pattern is a sequential pattern with a concerned
+itemset in the end of pattern. A time-interval sequential pattern is a
+sequential pattern with time-intervals between every pair of successive
+itemsets. In this paper we present an algorithm to discover target-oriented
+sequential pattern with time-intervals. To this end, the original sequences are
+reversed so that the last itemsets can be arranged in front of the sequences.
+The contrasts between reversed sequences and the concerned itemset are then
+used to exclude the irrelevant sequences. Clustering analysis is used with
+typical sequential pattern mining algorithm to extract the sequential patterns
+with time-intervals between successive itemsets. Finally, the discovered
+time-interval sequential patterns are reversed again to the original order for
+searching the target patterns.

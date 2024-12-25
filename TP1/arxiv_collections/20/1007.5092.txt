@@ -1,0 +1,14 @@
+Dependency analysis is a technique to identify and determine data
+dependencies between service protocols. Protocols evolving concurrently in the
+service composition need to impose an order in their execution if there exist
+data dependencies. In this work, we describe a model to formalise context-aware
+service protocols. We also present a composition language to handle dynamically
+the concurrent execution of protocols. This language addresses data dependency
+issues among several protocols concurrently executed on the same user device,
+using mechanisms based on data semantic matching. Our approach aims at
+assisting the user in establishing priorities between these dependencies,
+avoiding the occurrence of deadlock situations. Nevertheless, this process is
+error-prone, since it requires human intervention. Therefore, we also propose
+verification techniques to automatically detect possible inconsistencies
+specified by the user while building the data dependency set. Our approach is
+supported by a prototype tool we have implemented.

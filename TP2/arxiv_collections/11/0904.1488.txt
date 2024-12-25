@@ -1,0 +1,9 @@
+Stuttering bisimulation is a well-known behavioral equivalence that preserves
+CTL-X, namely CTL without the next-time operator X. Correspondingly, the
+stuttering simulation preorder induces a coarser behavioral equivalence that
+preserves the existential fragment ECTL-{X,G}, namely ECTL without the
+next-time X and globally G operators. While stuttering bisimulation equivalence
+can be computed by the well-known Groote and Vaandrager's [1990] algorithm, to
+the best of our knowledge, no algorithm for computing the stuttering simulation
+preorder and equivalence is available. This paper presents such an algorithm
+for finite state systems.

@@ -1,0 +1,21 @@
+We propose a very simple but realistic enough model which allows to include a
+large number of molecules in molecular dynamics MD simulations of these
+bilayers, but nevertheless taking into account molecular charge distributions,
+flexible amphiphilic molecules and a reliable model of water. All these
+parameters are essential in a nanoscopic scale study of intermolecular and long
+range electrostatic interactions. This model was previously used by us to
+simulate a Newton black film and in this paper we extend our investigation to
+bilayers of the biological membrane type. The electrostatic interactions are
+calculated using Ewald sums and, for the macroscopic long range electrostatic
+interactions, we use our previously proposed coarsed fit of the (perpendicular
+to the bilayer plane) molecular charge distributions with gaussian
+distributions. To study an unique biological membrane (not an stack of
+bilayers), we propose a simple effective external potential that takes into
+account the microscopic pair distribution functions of water and is used to
+simulate the interaction with the surrounding water. The method of effective
+macroscopic and external potentials is extremely simple to implement in
+numerical simulations, and the spatial and temporal charge inhomogeneities are
+then roughly taken into account. Molecular dynamics simulations of several
+models of a single biological membrane, of neutral or charged polar
+amphiphilics, with or without water (using the TIP5P intermolecular potential
+for water) are included.

@@ -1,0 +1,11 @@
+Geometric routing algorithms like GFG (GPSR) are lightweight, scalable
+algorithms that can be used to route in resource-constrained ad hoc wireless
+networks. However, such algorithms run on planar graphs only. To efficiently
+construct a planar graph, they require a unit-disk graph. To make the topology
+unit-disk, the maximum link length in the network has to be selected
+conservatively. In practical setting this leads to the designs where the node
+density is rather high. Moreover, the network diameter of a planar subgraph is
+greater than the original graph, which leads to longer routes. To remedy this
+problem, we propose a void traversal algorithm that works on arbitrary
+geometric graphs. We describe how to use this algorithm for geometric routing
+with guaranteed delivery and compare its performance with GFG.

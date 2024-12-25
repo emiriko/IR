@@ -1,0 +1,18 @@
+A sharp stability analysis of atomistic-to-continuum coupling methods is
+essential for evaluating their capabilities for predicting the formation and
+motion of lattice defects. We formulate a simple one-dimensional model problem
+and give a detailed analysis of the stability of the force-based quasicontinuum
+(QCF) method. The focus of the analysis is the question whether the QCF method
+is able to predict a critical load at which fracture occurs. Numerical
+experiments show that the spectrum of a linearized QCF operator is identical to
+the spectrum of a linearized energy-based quasi-nonlocal quasicontinuum
+operator (QNL), which we know from our previous analyses to be positive below
+the critical load. However, the QCF operator is non-normal and it turns out
+that it is not generally positive definite, even when all of its eigenvalues
+are positive. Using a combination of rigorous analysis and numerical
+experiments, we investigate in detail for which choices of "function spaces"
+the QCF operator is stable, uniformly in the size of the atomistic system.
+Force-based multi-physics coupling methods are popular techniques to circumvent
+the difficulties faced in formulating consistent energy-based coupling
+pproaches. Even though the QCF method is possibly the simplest coupling method
+of this kind, we anticipate that many of our observations apply more generally.

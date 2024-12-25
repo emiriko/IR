@@ -1,0 +1,12 @@
+We describe an image analysis supervised learning algorithm that can
+automatically classify galaxy images. The algorithm is first trained using a
+manually classified images of elliptical, spiral, and edge-on galaxies. A large
+set of image features is extracted from each image, and the most informative
+features are selected using Fisher scores. Test images can then be classified
+using a simple Weighted Nearest Neighbor rule such that the Fisher scores are
+used as the feature weights. Experimental results show that galaxy images from
+Galaxy Zoo can be classified automatically to spiral, elliptical and edge-on
+galaxies with accuracy of ~90% compared to classifications carried out by the
+author. Full compilable source code of the algorithm is available for free
+download, and its general-purpose nature makes it suitable for other uses that
+involve automatic image analysis of celestial objects.

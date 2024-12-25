@@ -1,0 +1,16 @@
+In building a quantum information processor (QIP), the challenge is to
+coherently control a large quantum system well enough to perform an arbitrary
+quantum algorithm and to be able to correct errors induced by decoherence.
+Nuclear magnetic resonance (NMR) QIPs offer an excellent test-bed on which to
+develop and benchmark tools and techniques to control quantum systems. Two main
+issues to consider when designing control methods are accuracy and efficiency,
+for which two complementary approaches have been developed so far to control
+qubit registers with liquid-state NMR methods. The first applies optimal
+control theory to numerically optimize the control fields to implement unitary
+operations on low dimensional systems with high fidelity. The second technique
+is based on the efficient optimization of a sequence of imperfect control
+elements so that implementation of a full quantum algorithm is possible while
+minimizing error accumulation. This article summarizes our work in implementing
+both of these methods. Furthermore, we show that taken together, they form a
+basis to design quantum-control methods for a block-architecture QIP so that
+large system size is not a barrier to implementing optimal control techniques.

@@ -1,0 +1,17 @@
+In statistical exercises where there are several candidate models, the
+traditional approach is to select one model using some data driven criterion
+and use that model for estimation, testing and other purposes, ignoring the
+variability of the model selection process. We discuss some problems associated
+with this approach. An alternative scheme is to use a model-averaged estimator,
+that is, a weighted average of estimators obtained under different models, as
+an estimator of a parameter. We show that the risk associated with a Bayesian
+model-averaged estimator is bounded as a function of the sample size, when
+parameter values are fixed. We establish conditions which ensure that a
+model-averaged estimator's distribution can be consistently approximated using
+the bootstrap. A new, data-adaptive, model averaging scheme is proposed that
+balances efficiency of estimation without compromising applicability of the
+bootstrap. This paper illustrates that certain desirable risk and resampling
+properties of model-averaged estimators are obtainable when parameters are
+fixed but unknown; this complements several studies on minimaxity and other
+properties of post-model-selected and model-averaged estimators, where
+parameters are allowed to vary.

@@ -1,0 +1,13 @@
+Bayesian optimization with Gaussian processes has become an increasingly
+popular tool in the machine learning community. It is efficient and can be used
+when very little is known about the objective function, making it popular in
+expensive black-box optimization scenarios. It uses Bayesian methods to sample
+the objective efficiently using an acquisition function which incorporates the
+model's estimate of the objective and the uncertainty at any given point.
+However, there are several different parameterized acquisition functions in the
+literature, and it is often unclear which one to use. Instead of using a single
+acquisition function, we adopt a portfolio of acquisition functions governed by
+an online multi-armed bandit strategy. We propose several portfolio strategies,
+the best of which we call GP-Hedge, and show that this method outperforms the
+best individual acquisition function. We also provide a theoretical bound on
+the algorithm's performance.

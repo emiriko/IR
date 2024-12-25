@@ -1,0 +1,21 @@
+Recent observations in X-ray and Gamma-ray suggest that the emission region
+of the pulsar magnetosphere can be multifold. In particular, the open-close
+boundary of the magnetic field, so-called the Y-point, can be the new candidate
+place where magnetic field energy converts into the plasma heat and/or flow
+energy. Here, we present a new Particle-in-Cell code, which can be applied to
+the Y-point of the pulsar magnetosphere in axisymmetric geometry. The
+electromagnetic solver is used in the two-dimensional grid points with the
+cylindrical coordinate (R, z), while the particle solver operates in the
+three-dimensional Cartesian coordinate (x, y, z), where the Buneman-Boris
+method is used. The particle motion is treated in special relativity. The inner
+boundary conditions are set up to generate rotation of the magnetosphere by use
+of the force-free semi-analytic solution given by Uzdensky (2003, ApJ, 598,
+446).
+  The code has been verified by dispersion relations of all the wave modes in
+electron-positron plasmas.
+  The initial test run is also presented to demonstrate the Y-shaped structure
+at the top of the dead zone on the light cylinder. We suggest that the
+structure is variable with quasi-periodicity associated with magnetic
+reconnection and that plasma will be accelerated and/or heated. In a
+time-averaged point of view, break up of the ideal-MHD condition takes place in
+the vicinity of the Y-point.

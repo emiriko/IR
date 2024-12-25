@@ -1,0 +1,14 @@
+The paper describes a mechanism for indirect object representation and access
+(ORA) in programming languages. The mechanism is based on using a new
+programming construct which is referred to as concept. Concept consists of one
+object class and one reference class both having their fields and methods. The
+object class is the conventional class as defined in OOP with instances passed
+by reference. Instances of the reference class are passed by value and are
+intended to represent objects. The reference classes are used to describe how
+objects have to be represented and accessed by providing custom format for
+their identifiers and custom access procedures. Such an approach to programming
+where concepts are used instead of classes is referred to as concept-oriented
+programming. It generalizes OOP and its main advantage is that it allows the
+programmer to describe not only the functionality of target objects but also
+intermediate functions which are executed behind the scenes as an object is
+being accessed.

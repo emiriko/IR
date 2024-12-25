@@ -1,0 +1,13 @@
+We study error bounds for linear programming decoding of regular LDPC codes.
+For memoryless binary-input output-symmetric channels, we prove bounds on the
+word error probability that are inverse doubly-exponential in the girth of the
+factor graph. For memoryless binary-input AWGN channel, we prove lower bounds
+on the threshold for regular LDPC codes whose factor graphs have logarithmic
+girth under LP-decoding. Specifically, we prove a lower bound of $\sigma=0.735$
+(upper bound of $\frac{Eb}{N_0}=2.67$dB) on the threshold of $(3,6)$-regular
+LDPC codes whose factor graphs have logarithmic girth.
+  Our proof is an extension of a recent paper of Arora, Daskalakis, and Steurer
+[STOC 2009] who presented a novel probabilistic analysis of LP decoding over a
+binary symmetric channel. Their analysis is based on the primal LP
+representation and has an explicit connection to message passing algorithms. We
+extend this analysis to any MBIOS channel.

@@ -1,0 +1,15 @@
+Several protocol efficiency metrics (e.g., scalability, search success rate,
+routing reachability and stability) depend on the capability of preserving
+structure even over the churn caused by the ad-hoc nodes joining or leaving the
+network. Preserving the structure becomes more prohibitive due to the
+distributed and potentially uncooperative nature of such networks, as in the
+peer-to-peer (P2P) networks. Thus, most practical solutions involve
+unstructured approaches while attempting to maintain the structure at various
+levels of protocol stack. The primary focus of this paper is to investigate
+construction and maintenance of scale-free topologies in a distributed manner
+without requiring global topology information at the time when nodes join or
+leave. We consider the uncooperative behavior of peers by limiting the number
+of neighbors to a pre-defined hard cutoff value (i.e., no peer is a major hub),
+and the ad-hoc behavior of peers by rewiring the neighbors of nodes leaving the
+network. We also investigate the effect of these hard cutoffs and rewiring of
+ad-hoc nodes on the P2P search efficiency.

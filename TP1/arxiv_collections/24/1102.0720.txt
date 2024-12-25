@@ -1,0 +1,20 @@
+In this paper we show that gossip algorithms may be effectively used to
+disseminate game events in Peer-to-Peer (P2P) Multiplayer Online Games (MOGs).
+Game events are disseminated through an overlay network. The proposed scheme
+exploits the typical behavior of players to tune the data dissemination. In
+fact, it is well known that users playing a MOG typically generate game events
+at a rate that can be approximated using some (game dependent) probability
+distribution. Hence, as soon as a given node experiences a reception rate, for
+messages coming from a given peer, which is lower than expected, it can send a
+stimulus to the neighbor that usually forwards these messages, asking it to
+increase its dissemination probability. Three variants of this approach will be
+studied. According to the first one, upon reception of a stimulus from a
+neighbor, a peer increases its dissemination probability towards that node
+irrespectively from the sender. In the second protocol a peer increases only
+the dissemination probability for a given sender towards all its neighbors.
+Finally, the third protocol takes into consideration both the sender and the
+neighbor in order to decide how to increase the dissemination probability. We
+performed extensive simulations to assess the efficacy of the proposed scheme,
+and based on the simulation results we compare the different dissemination
+protocols. The results confirm that adaptive gossip schemes are indeed
+effective and deserve further investigation.

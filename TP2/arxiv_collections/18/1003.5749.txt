@@ -1,0 +1,14 @@
+Thanks to the Eslo1 ("Enqu\^ete sociolinguistique d'Orl\'eans", i.e.
+"Sociolinguistic Inquiery of Orl\'eans") campain, a large oral corpus has been
+gathered and transcribed in a textual format. The purpose of the work presented
+here is to associate a morpho-syntactic label to each unit of this corpus. To
+this aim, we have first studied the specificities of the necessary labels, and
+their various possible levels of description. This study has led to a new
+original hierarchical structuration of labels. Then, considering that our new
+set of labels was different from the one used in every available software, and
+that these softwares usually do not fit for oral data, we have built a new
+labeling tool by a Machine Learning approach, from data labeled by Cordial and
+corrected by hand. We have applied linear CRF (Conditional Random Fields)
+trying to take the best possible advantage of the linguistic knowledge that was
+used to define the set of labels. We obtain an accuracy between 85 and 90%,
+depending of the parameters used.

@@ -1,0 +1,13 @@
+We outline a quantum convolutional coding technique for protecting a stream
+of classical bits and qubits. Our goal is to provide a framework for designing
+codes that approach the ``grandfather'' capacity of an entanglement-assisted
+quantum channel for sending classical and quantum information simultaneously.
+Our method incorporates several resources for quantum redundancy: fresh ancilla
+qubits, entangled bits, and gauge qubits. The use of these diverse resources
+gives our technique the benefits of both active and passive quantum error
+correction. We can encode a classical-quantum bit stream with periodic quantum
+gates because our codes possess a convolutional structure. We end with an
+example of a ``grandfather'' quantum convolutional code that protects one qubit
+and one classical bit per frame by encoding them with one fresh ancilla qubit,
+one entangled bit, and one gauge qubit per frame. We explicitly provide the
+encoding and decoding circuits for this example.

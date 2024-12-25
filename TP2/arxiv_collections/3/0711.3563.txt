@@ -1,0 +1,15 @@
+The self-destructive percolation model is defined as follows: Consider
+percolation with parameter $p > p_c$. Remove the infinite occupied cluster.
+Finally, give each vertex (or, for bond percolation, each edge) that at this
+stage is vacant, an extra chance $\delta$ to become occupied. Let $\delta_c(p)$
+be the minimal value of $\delta$, needed to obtain an infinite occupied cluster
+in the final configuration. This model was introduced some years ago by van den
+Berg and Brouwer. They showed that, for the site model on the square lattice
+(and a few other 2D lattices satisfying a special technical condition) that
+$\delta_c(p)\geq\frac{(p-p_c)}{p}$. In particular, $\delta_c(p)$ is at least
+linear in $p-p_c$.
+  Although the arguments used by van den Berg and Brouwer look quite rigid, we
+show that they can be suitably modified to obtain similar linear lower bounds
+for $\delta_c(p)$ (with $p$ near $p_c$) for a much larger class of 2D lattices,
+including bond percolation on the square and triangular lattices, and site
+percolation on the star lattice (or matching lattice) of the square lattice.

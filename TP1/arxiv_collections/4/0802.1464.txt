@@ -1,0 +1,14 @@
+We prove new upper bounds on the tolerable level of noise in a quantum
+circuit. We consider circuits consisting of unitary k-qubit gates each of whose
+input wires is subject to depolarizing noise of strength p, as well as
+arbitrary one-qubit gates that are essentially noise-free. We assume that the
+output of the circuit is the result of measuring some designated qubit in the
+final state. Our main result is that for p>1-\Theta(1/\sqrt{k}), the output of
+any such circuit of large enough depth is essentially independent of its input,
+thereby making the circuit useless. For the important special case of k=2, our
+bound is p>35.7%. Moreover, if the only allowed gate on more than one qubit is
+the two-qubit CNOT gate, then our bound becomes 29.3%. These bounds on p are
+notably better than previous bounds, yet are incomparable because of the
+somewhat different circuit model that we are using. Our main technique is the
+use of a Pauli basis decomposition, which we believe should lead to further
+progress in deriving such bounds.

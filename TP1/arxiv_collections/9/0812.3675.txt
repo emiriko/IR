@@ -1,0 +1,10 @@
+Traditional algorithms for simulating quantum computers on classical ones
+require an exponentially large amount of memory, and so typically cannot
+simulate general quantum circuits with more than about 30 or so qubits on a
+typical PC-scale platform with only a few gigabytes of main memory. However,
+more memory-efficient simulations are possible, requiring only polynomial or
+even linear space in the size of the quantum circuit being simulated. In this
+paper, we describe one such technique, which was recently implemented at FSU in
+the form of a C++ program called SEQCSim, which we releasing publicly. We also
+discuss the potential benefits of this simulation in quantum computing research
+and education, and outline some possible directions for further progress.

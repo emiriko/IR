@@ -1,0 +1,22 @@
+We consider the dynamics of finite-size disordered systems as defined by a
+master equation satisfying detailed balance. The master equation can be mapped
+onto a Schr\"odinger equation in configuration space, where the quantum
+Hamiltonian $H$ has the generic form of an Anderson localization tight-binding
+model. The largest relaxation time $t_{eq}$ governing the convergence towards
+Boltzmann equilibrium is determined by the lowest non-vanishing eigenvalue
+$E_1=1/t_{eq}$ of $H$ (the lowest eigenvalue being $E_0=0$). So the relaxation
+time $t_{eq}$ can be computed {\it without simulating the dynamics} by any
+eigenvalue method able to compute the first excited energy $E_1$. Here we use
+the 'conjugate gradient' method to determine $E_1$ in each disordered sample
+and present numerical results on the statistics of the relaxation time $t_{eq}$
+over the disordered samples of a given size for two models : (i) for the random
+walk in a self-affine potential of Hurst exponent $H$ on a two-dimensional
+square of size $L \times L$, we find the activated scaling $\ln t_{eq}(L) \sim
+L^{\psi}$ with $\psi=H$ as expected; (ii) for the dynamics of the
+Sherrington-Kirkpatrick spin-glass model of $N$ spins, we find the growth $\ln
+t_{eq}(N) \sim N^{\psi}$ with $\psi=1/3$ in agreement with most previous
+Monte-Carlo measures. In addition, we find that the rescaled distribution of
+$(\ln t_{eq})$ decays as $e^{- u^{\eta}}$ for large $u$ with a tail exponent of
+order $\eta \simeq 1.36$. We give a rare-event interpretation of this value,
+that points towards a sample-to-sample fluctuation exponent of order
+$\psi_{width} \simeq 0.26$ for the barrier.

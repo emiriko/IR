@@ -1,0 +1,14 @@
+For every fixed finite field $\F_q$, $p \in (0,1-1/q)$ and $\epsilon > 0$, we
+prove that with high probability a random subspace $C$ of $\F_q^n$ of dimension
+$(1-H_q(p)-\epsilon)n$ has the property that every Hamming ball of radius $pn$
+has at most $O(1/\epsilon)$ codewords.
+  This answers a basic open question concerning the list-decodability of linear
+codes, showing that a list size of $O(1/\epsilon)$ suffices to have rate within
+$\epsilon$ of the "capacity" $1-H_q(p)$. Our result matches up to constant
+factors the list-size achieved by general random codes, and gives an
+exponential improvement over the best previously known list-size bound of
+$q^{O(1/\epsilon)}$.
+  The main technical ingredient in our proof is a strong upper bound on the
+probability that $\ell$ random vectors chosen from a Hamming ball centered at
+the origin have too many (more than $\Theta(\ell)$) vectors from their linear
+span also belong to the ball.

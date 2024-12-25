@@ -1,0 +1,16 @@
+We show that the rank of a depth-3 circuit (over any field) that is simple,
+minimal and zero is at most k^3\log d. The previous best rank bound known was
+2^{O(k^2)}(\log d)^{k-2} by Dvir and Shpilka (STOC 2005). This almost resolves
+the rank question first posed by Dvir and Shpilka (as we also provide a simple
+and minimal identity of rank \Omega(k\log d)).
+  Our rank bound significantly improves (dependence on k exponentially reduced)
+the best known deterministic black-box identity tests for depth-3 circuits by
+Karnin and Shpilka (CCC 2008). Our techniques also shed light on the
+factorization pattern of nonzero depth-3 circuits, most strikingly: the rank of
+linear factors of a simple, minimal and nonzero depth-3 circuit (over any
+field) is at most k^3\log d.
+  The novel feature of this work is a new notion of maps between sets of linear
+forms, called "ideal matchings", used to study depth-3 circuits. We prove
+interesting structural results about depth-3 identities using these techniques.
+We believe that these can lead to the goal of a deterministic polynomial time
+identity test for these circuits.

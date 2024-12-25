@@ -1,0 +1,17 @@
+We show that every construction of one-time signature schemes from a random
+oracle achieves black-box security at most $2^{(1+o(1))q}$, where $q$ is the
+total number of oracle queries asked by the key generation, signing, and
+verification algorithms. That is, any such scheme can be broken with
+probability close to $1$ by a (computationally unbounded) adversary making
+$2^{(1+o(1))q}$ queries to the oracle. This is tight up to a constant factor in
+the number of queries, since a simple modification of Lamport's one-time
+signatures (Lamport '79) achieves $2^{(0.812-o(1))q}$ black-box security using
+$q$ queries to the oracle.
+  Our result extends (with a loss of a constant factor in the number of
+queries) also to the random permutation and ideal-cipher oracles. Since the
+symmetric primitives (e.g. block ciphers, hash functions, and message
+authentication codes) can be constructed by a constant number of queries to the
+mentioned oracles, as corollary we get lower bounds on the efficiency of
+signature schemes from symmetric primitives when the construction is black-box.
+This can be taken as evidence of an inherent efficiency gap between signature
+schemes and symmetric primitives.

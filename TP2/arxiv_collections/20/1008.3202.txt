@@ -1,0 +1,24 @@
+A beautiful theorem of Zeckendorf states that every integer can be written
+uniquely as a sum of non-consecutive Fibonacci numbers
+$\{F_n\}_{n=1}^{\infty}$. Lekkerkerker proved that the average number of
+summands for integers in $[F_n, F_{n+1})$ is $n/(\phi^2 + 1)$, with $\phi$ the
+golden mean. This has been generalized to the following: given nonnegative
+integers $c_1,c_2,...,c_L$ with $c_1,c_L>0$ and recursive sequence
+$\{H_n\}_{n=1}^{\infty}$ with $H_1=1$, $H_{n+1}
+=c_1H_n+c_2H_{n-1}+...+c_nH_1+1$ $(1\le n< L)$ and
+$H_{n+1}=c_1H_n+c_2H_{n-1}+...+c_LH_{n+1-L}$ $(n\geq L)$, every positive
+integer can be written uniquely as $\sum a_iH_i$ under natural constraints on
+the $a_i$'s, the mean and the variance of the numbers of summands for integers
+in $[H_{n}, H_{n+1})$ are of size $n$, and the distribution of the numbers of
+summands converges to a Gaussian as $n$ goes to the infinity. Previous
+approaches used number theory or ergodic theory. We convert the problem to a
+combinatorial one. In addition to re-deriving these results, our method
+generalizes to a multitude of other problems (in the sequel paper \cite{BM} we
+show how this perspective allows us to determine the distribution of gaps
+between summands in decompositions). For example, it is known that every
+integer can be written uniquely as a sum of the $\pm F_n$'s, such that every
+two terms of the same (opposite) sign differ in index by at least 4 (3). The
+presence of negative summands introduces complications and features not seen in
+previous problems. We prove that the distribution of the numbers of positive
+and negative summands converges to a bivariate normal with computable, negative
+correlation, namely $-(21-2\phi)/(29+2\phi) \approx -0.551058$.

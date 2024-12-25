@@ -1,0 +1,19 @@
+Tag-based retrieval of multimedia content is a difficult problem, not only
+because of the shorter length of tags associated with images and videos, but
+also due to mismatch in the terminologies used by searcher and content creator.
+To alleviate this problem, we propose a simple concept-driven probabilistic
+model for improving text-based rich-media search. While our approach is similar
+to existing topic-based retrieval and cluster-based language modeling work,
+there are two important differences: (1) our proposed model considers not only
+the query-generation likelihood from cluster, but explicitly accounts for the
+overall "popularity" of the cluster or underlying concept, and (2) we explore
+the possibility of inferring the likely concept relevant to a rich-media
+content through the user-created communities that the content belongs to.
+  We implement two methods of concept extraction: a traditional cluster based
+approach, and the proposed community based approach. We evaluate these two
+techniques for how effectively they capture the intended meaning of a term from
+the content creator and searcher, and their overall value in improving image
+search. Our results show that concept-driven search, though simple, clearly
+outperforms plain search. Among the two techniques for concept-driven search,
+community-based approach is more successful, as the concepts generated from
+user communities are found to be more intuitive and appealing.

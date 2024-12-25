@@ -1,0 +1,15 @@
+Recently a cosmic ray propagation model has been introduced, where
+anisotropic diffusion is used as a mechanism to allow for $\mathcal{O}(100)$
+km/s galactic winds. This model predicts a reduced antiproton background flux,
+suggesting an excess is being observed. We implement this model in GALPROP
+v50.1 and perform a $\chi^2$ analysis for B/C, $^{10}$Be/$^{9}$Be, and the
+recent PAMELA $\bar{p}/p$ datasets. By introducing a power-index parameter
+$\alpha$ that dictates the dependence of the diffusion coefficient $D_{xx}$ on
+height $|z|$ away from the galactic plane, we confirm that isotropic diffusion
+models with $\alpha=0$ cannot accommodate high velocity convective winds
+suggested by ROSAT, while models with $\alpha=1$ ($D_{xx}\propto |z|$) can give
+a very good fit. A fit to B/C and $^{10}$Be/$^{9}$Be data predicts a lower
+$\bar{p}/p$ flux ratio than the PAMELA measurement at energies between
+approximately 2 GeV to 20 GeV. A combined fit including in addition the
+$\bar{p}/p$ data is marginal, suggesting only a partial contribution to the
+measured antiproton flux.

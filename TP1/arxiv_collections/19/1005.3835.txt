@@ -1,0 +1,19 @@
+We consider scheduling packets with values in a capacity-bounded buffer in an
+online setting. In this model, there is a buffer with limited capacity $B$. At
+any time, the buffer cannot accommodate more than $B$ packets. Packets arrive
+over time. Each packet is associated with a non-negative value. Packets leave
+the buffer only because they are either sent or dropped. Those packets that
+have left the buffer will not be reconsidered for delivery any more. In each
+time step, at most one packet in the buffer can be sent. The order in which the
+packets are sent should comply with the order of their arrival time. The
+objective is to maximize the total value of the packets sent in an online
+manner. In this paper, we study a variant of this FIFO buffering model in which
+a packet's value is either 1 or $\alpha > 1$. We present a deterministic
+memoryless 1.304-competitive algorithm. This algorithm has the same competitive
+ratio as the one presented in (Lotker and Patt-Shamir. PODC 2002, Computer
+Networks 2003). However, our algorithm is simpler and does not employ any
+marking bits. The idea used in our algorithm is novel and different from all
+previous approaches applied for the general model and its variants. We do not
+proactively preempt one packet when a new packet arrives. Instead, we may
+preempt more than one 1-value packet when the buffer contains sufficiently many
+$\alpha$-value packets.

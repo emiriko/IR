@@ -1,0 +1,15 @@
+Modern Avionics are controlled by sophisticated mission components in the
+Aircraft. The control function is implemented via a standard ARINC-429 bus
+interface. It is a two-wire point-topoint serial data bus for control
+communications in Avionics. The bus operates 12.5 or 100kb/sec, the
+implementation is envisaged for one transmits and receive channel respectively.
+Further the code can be modified for more no of independent Tx and Rx channels.
+An on chip memory allotment on the FPGA will provide a buffer bank for storing
+the incoming or outgoing data. For this purpose SRAM based FPGAs are utilized.
+This flexible ARINC429 solution gives exactly what is needed for real time
+applications. The IP can be programmed to send an interrupt to the host and
+also prepare it to process the data. Majority of the hardware function of
+digital natures are embedded into a single FPGA by saving in terms of PCB board
+space, power consumption and volume results. This paper deals with the
+development, implementation, simulation, and verification of ARINC_429 formats.
+The IP core development is described in VHDL.

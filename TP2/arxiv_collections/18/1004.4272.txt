@@ -1,0 +1,18 @@
+The use of improved covariance matrix estimators as an alternative to the
+sample estimator is considered an important approach for enhancing portfolio
+optimization. Here we empirically compare the performance of 9 improved
+covariance estimation procedures by using daily returns of 90 highly
+capitalized US stocks for the period 1997-2007. We find that the usefulness of
+covariance matrix estimators strongly depends on the ratio between estimation
+period T and number of stocks N, on the presence or absence of short selling,
+and on the performance metric considered. When short selling is allowed,
+several estimation methods achieve a realized risk that is significantly
+smaller than the one obtained with the sample covariance method. This is
+particularly true when T/N is close to one. Moreover many estimators reduce the
+fraction of negative portfolio weights, while little improvement is achieved in
+the degree of diversification. On the contrary when short selling is not
+allowed and T>N, the considered methods are unable to outperform the sample
+covariance in terms of realized risk but can give much more diversified
+portfolios than the one obtained with the sample covariance. When T<N the use
+of the sample covariance matrix and of the pseudoinverse gives portfolios with
+very poor performance.

@@ -1,0 +1,8 @@
+Zot is an agile and easily extendible bounded model checker, which can be
+downloaded at http://home.dei.polimi.it/pradella/. The tool supports different
+logic languages through a multi-layered approach: its core uses PLTL, and on
+top of it a decidable predicative fragment of TRIO is defined. An interesting
+feature of Zot is its ability to support different encodings of temporal logic
+as SAT problems by means of plug-ins. This approach encourages experimentation,
+as plug-ins are expected to be quite simple, compact (usually around 500 lines
+of code), easily modifiable, and extendible.

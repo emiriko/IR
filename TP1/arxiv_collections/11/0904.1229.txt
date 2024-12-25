@@ -1,0 +1,8 @@
+Let c(G) be the smallest number of edges we have to test in order to
+determine an unknown acyclic orientation of the given graph G in the worst
+case. For example, if G is the complete graph on n vertices, then c(G) is the
+smallest number of comparisons needed to sort n numbers.
+  We prove that c(G)\le (1/4+o(1))n^2 for any graph G on n vertices, answering
+in the affirmative a question of Aigner, Triesch, and Tuza [Discrete
+Mathematics, 144 (1995) 3-10]. Also, we show that, for every e>0, it is NP-hard
+to approximate the parameter c(G) within a multiplicative factor 74/73-e.

@@ -1,0 +1,11 @@
+In this paper, by applying a diffusion process, we propose a new index to
+quantify the similarity between two users in a user-object bipartite graph. To
+deal with the discrete ratings on objects, we use a multi-channel
+representation where each object is mapped to several channels with the number
+of channels being equal to the number of different ratings. Each channel
+represents a certain rating and a user having voted an object will be connected
+to the channel corresponding to the rating. Diffusion process taking place on
+such a user-channel bipartite graph gives a new similarity measure of user
+pairs, which is further demonstrated to be more accurate than the classical
+Pearson correlation coefficient under the standard collaborative filtering
+framework.

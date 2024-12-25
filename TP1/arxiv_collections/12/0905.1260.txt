@@ -1,0 +1,24 @@
+We develop a method that can constrain any local exchange-correlation
+potential to preserve ba-sic exact conditions. Using the method of Lagrange
+multipliers, we calculate for each set of given Kohn-Sham orbitals, a
+constraint-preserving potential which is closest to the given
+exchange-correlation potential. The method is applicable to both the
+time-dependent (TD) and independent cases. The exact conditions that are
+enforced for the time-independent case are: Galilean covariance, zero net force
+and torque, and Levy-Perdew virial theorem. For the TD case we enforce
+translational covariance, zero net force, the Levy-Perdew virial theorem and
+energy balance. We test our method on the exchange Krieger-Li-Iafrate (xKLI)
+approximate-optimized effective potential (AOEP), for both cases. For the
+time-independent case, we calculated the ground state properties of some
+hydrogen chains and small sodium clusters, for some constrained xKLI potentials
+and Hartree-Fock (HF) exchange. The results indicate that enforcing the exact
+conditions is not important for these cases. On the other hand, in the case,
+constraining both energy balance and zero net force yields improved results
+relative to TDHF calculations. We explored the electron dynamics in small
+sodium clusters driven by CW laser pulses. For each laser pulse we compared
+calculations from TD constrained xKLI, TD partially constrained xKLI and TDHF.
+We found that electron dynamics like elec-tron ionization and moment of inertia
+dynamics for the constrained xKLI are most similar to the TDHF results. Also,
+energy conservation is better by at least an order of magnitude with respect to
+the unconstrained xKLI. We also discuss the problems that arise in satisfying
+constraints in the TD case with a non CW driving force.

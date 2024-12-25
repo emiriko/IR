@@ -1,0 +1,10 @@
+The population annealing algorithm introduced by Hukushima and Iba is
+described. Population annealing combines simulated annealing and Boltzmann
+weighted differential reproduction within a population of replicas to sample
+equilibrium states. Population annealing gives direct access to the free
+energy. It is shown that unbiased measurements of observables can be obtained
+by weighted averages over many runs with weight factors related to the free
+energy estimate from the run. Population annealing is well suited to
+parallelization and may be a useful alternative to parallel tempering for
+systems with rough free energy landscapes such as spin glasses. The method is
+demonstrated for spin glasses.

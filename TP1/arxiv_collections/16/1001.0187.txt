@@ -1,0 +1,15 @@
+A hybrid model of the Deutsch-Jozsa algorithm is presented, inspired by the
+proposals of hybrid computation by S. Lloyd and P. van Loock et. al. The model
+is based on two observations made about both the discrete and continuous
+algorithms already available. First, the Fourier transform is a single-step
+operation in a continuous-variable (CV) setting. Additionally, any
+implementation of the oracle is nontrivial in both schemes. The steps of the
+computation are very similar to those in the CV algorithm, with the main
+difference being the way in which the qunats, or quantum units of analogic
+information, and the qubits interact in the oracle. Using both discrete and
+continuous states of light, linear devices, and photo-detection, an optical
+implementation of the oracle is proposed. For simplicity, infinitely squeezed
+states are used in the continuous register, whereas the optical qubit is
+encoded in the dual-rail logic of the KLM protocol. The initial assumption of
+ideal states as qunats will be dropped to study the effects of finite squeezing
+in the quality of the computation.

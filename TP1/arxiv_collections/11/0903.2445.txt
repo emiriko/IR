@@ -1,0 +1,23 @@
+We investigate logics and equivalence relations that capture the qualitative
+behavior of Markov Decision Processes (MDPs). We present Qualitative Randomized
+CTL (QRCTL): formulas of this logic can express the fact that certain temporal
+properties hold over all paths, or with probability 0 or 1, but they do not
+distinguish among intermediate probability values. We present a symbolic,
+polynomial time model-checking algorithm for QRCTL on MDPs.
+  The logic QRCTL induces an equivalence relation over states of an MDP that we
+call qualitative equivalence: informally, two states are qualitatively
+equivalent if the sets of formulas that hold with probability 0 or 1 at the two
+states are the same. We show that for finite alternating MDPs, where
+nondeterministic and probabilistic choices occur in different states,
+qualitative equivalence coincides with alternating bisimulation, and can thus
+be computed via efficient partition-refinement algorithms. On the other hand,
+in non-alternating MDPs the equivalence relations cannot be computed via
+partition-refinement algorithms, but rather, they require non-local
+computation. Finally, we consider QRCTL*, that extends QRCTL with nested
+temporal operators in the same manner in which CTL* extends CTL. We show that
+QRCTL and QRCTL* induce the same qualitative equivalence on alternating MDPs,
+while on non-alternating MDPs, the equivalence arising from QRCTL* can be
+strictly finer. We also provide a full characterization of the relation between
+qualitative equivalence, bisimulation, and alternating bisimulation, according
+to whether the MDPs are finite, and to whether their transition relations are
+finitely-branching.

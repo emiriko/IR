@@ -1,0 +1,13 @@
+Model checking is a widespread automatic formal analysis that has been
+successful in discovering flaws in security protocols. However existing
+possibilities for state space explosion still hinder analyses of complex
+protocols and protocol configurations. Message Inspection, is a technique that
+delimits the branching of the state space due to the intruder model without
+excluding possible attacks. In a preliminary simulation, the intruder model
+tags the eavesdropped messages with specific metadata that enable validation of
+feasibility of possible attack actions. The Message Inspection algorithm then
+decides based on these metadata, which attacks will certainly fail according to
+known security principles. Thus, it is a priori known that i.e. an encryption
+scheme attack cannot succeed if the intruder does not posses the right key in
+his knowledge. The simulation terminates with a report of the attack actions
+that can be safely removed, resulting in a model with a reduced state space.

@@ -1,0 +1,11 @@
+A method for extracting positive information from negative goals is proposed.
+It makes use of typed existence properties between arguments of a predicate to
+rewrite negative goals in a logic program. A typed existence property is a
+generalization of functional dependencies in that an input value maps to a
+fixed number of output values. Types are used to specify the domains of the
+input and output values. An implementation of the simplification method is
+presented and its complexity is analyzed. A key algorithm of the implementation
+checks if an atom in a negative goal can be extracted using a given typed
+existence property. A digraph links an atom to the quantified variables
+occurring in the atom and is used to quickly retrieve atoms in the negative
+goal that may become extractable after some other atom is extracted.

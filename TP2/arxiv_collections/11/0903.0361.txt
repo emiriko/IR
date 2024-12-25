@@ -1,0 +1,20 @@
+Time-delay systems are an important class of dynamical systems which provide
+a solid mathematical framework to deal with many application domains of
+interest ranging from biology, chemical, electrical, and mechanical
+engineering, to economics. However, the inherent complexity of such systems
+poses serious difficulties to control design, when control objectives depart
+from the standard ones investigated in the current literature, e.g.
+stabilization, regulation, and etc. In this paper we propose one approach to
+control design, which is based on the construction of symbolic models, where
+each symbolic state and each symbolic label correspond to an aggregate of
+continuous states and to an aggregate of input signals in the original system.
+The use of symbolic models offers a systematic methodology for control design
+in which constraints coming from software and hardware, interacting with the
+physical world, can be integrated. The main contribution of this paper is in
+showing that incrementally input-to-state stable time-delay systems do admit
+symbolic models that are approximately bisimilar to the original system, with a
+precision that can be rendered as small as desired. An algorithm is also
+presented which computes the proposed symbolic models. When the state and input
+spaces of time-delay systems are bounded, which is the case in many realistic
+situations, the proposed algorithm is shown to terminate in a finite number of
+steps.

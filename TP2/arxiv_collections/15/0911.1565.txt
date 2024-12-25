@@ -1,0 +1,13 @@
+Hardware accelerators (such as the Cell Broadband Engine) have recently
+received a significant amount of attention from the computational science
+community because they can provide significant gains in the overall performance
+of many numerical simulations at a low cost. However, such accelerators usually
+employ a rather unfamiliar and specialized programming model that often
+requires advanced knowledge of their hardware design. In this article, we
+demonstrate an alternate and simpler approach towards managing the main
+complexities in the programming of the Cell processor, called software caching.
+We apply this technique to a numerical relativity application: a time-domain,
+finite-difference Kerr black hole perturbation evolver, and present the
+performance results. We obtain gains in the overall performance of generic
+simulations that are close to the theoretical maximum that can be obtained
+through our parallelization approach.

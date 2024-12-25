@@ -1,0 +1,14 @@
+We present a system for the boresighting of sensors using inertial
+measurement devices as the basis for developing a range of dynamic real-time
+sensor fusion applications. The proof of concept utilizes a COTS FPGA platform
+for sensor fusion and real-time correction of a misaligned video sensor. We
+exploit a custom-designed 32-bit soft processor core and C-based design &
+synthesis for rapid, platform-neutral development. Kalman filter and sensor
+fusion techniques established in advanced aviation systems are applied to
+automotive vehicles with results exceeding typical industry requirements for
+sensor alignment. Results of the static and the dynamic tests demonstrate that
+using inexpensive accelerometers mounted on (or during assembly of) a sensor
+and an Inertial Measurement Unit (IMU) fixed to a vehicle can be used to
+compute the misalignment of the sensor to the IMU and thus vehicle. In some
+cases the model predications and test results exceeded the requirements by an
+order of magnitude with a 3-sigma or 99% confidence.

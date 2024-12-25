@@ -1,0 +1,18 @@
+We analyze the random fluctuations of several multi-scale algorithms such as
+the multi-scale finite element method (MsFEM) and the finite element
+heterogeneous multiscale method (HMM), that have been developed to solve
+partial differential equations with highly heterogeneous coefficients. Such
+multi-scale algorithms are often shown to correctly capture the homogenization
+limit when the highly oscillatory random medium is stationary and ergodic. This
+paper is concerned with the random fluctuations of the solution about the
+deterministic homogenization limit. We consider the simplified setting of the
+one dimensional elliptic equation, where the theory of random fluctuations is
+well understood. We develop a fluctuation theory for the multi-scale algorithms
+in the presence of random environments with short-range and long-range
+correlations. What we find is that the computationally more expensive method
+MsFEM captures the random fluctuations both for short-range and long-range
+oscillations in the medium. The less expensive method HMM correctly captures
+the fluctuations for long-range oscillations and strongly amplifies their size
+in media with short-range oscillations. We present a modified scheme with an
+intermediate computational cost that captures the random fluctuations in all
+cases.

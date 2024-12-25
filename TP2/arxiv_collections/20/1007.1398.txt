@@ -1,0 +1,24 @@
+The nematode Caenorhabditis elegans is a well-known model organism used to
+investigate fundamental questions in biology. Motility assays of this small
+roundworm are designed to study the relationships between genes and behavior.
+Commonly, motility analysis is used to classify nematode movements and
+characterize them quantitatively. Over the past years, C. elegans' motility has
+been studied across a wide range of environments, including crawling on
+substrates, swimming in fluids, and locomoting through microfluidic substrates.
+However, each environment often requires customized image processing tools
+relying on heuristic parameter tuning. In the present study, we propose a novel
+Multi-Environment Model Estimation (MEME) framework for automated image
+segmentation that is versatile across various environments. The MEME platform
+is constructed around the concept of Mixture of Gaussian (MOG) models, where
+statistical models for both the background environment and the nematode
+appearance are explicitly learned and used to accurately segment a target
+nematode. Our method is designed to simplify the burden often imposed on users;
+here, only a single image which includes a nematode in its environment must be
+provided for model learning. In addition, our platform enables the extraction
+of nematode `skeletons' for straightforward motility quantification. We test
+our algorithm on various locomotive environments and compare performances with
+an intensity-based thresholding method. Overall, MEME outperforms the
+threshold-based approach for the overwhelming majority of cases examined.
+Ultimately, MEME provides researchers with an attractive platform for C.
+elegans' segmentation and `skeletonizing' across a wide range of motility
+assays.

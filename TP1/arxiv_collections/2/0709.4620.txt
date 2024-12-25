@@ -1,0 +1,21 @@
+The variational cluster approach (VCA) is applied to the one-dimensional
+Hubbard model at zero temperature using clusters (chains) of up to ten sites
+with full diagonalization and the Lanczos method as cluster solver. Within the
+framework of the self-energy-functional theory (SFT), different cluster
+reference systems with and without bath degrees of freedom, in different
+topologies and with different sets of variational parameters are considered.
+Static and one-particle dynamical quantities are calculated for half-filling as
+a function of U as well as for fixed U as a function of the chemical potential
+to study the interaction- and filling-dependent metal-insulator (Mott)
+transition. The recently developed Q-matrix technique is used to compute the
+SFT grand potential. For benchmarking purposes we compare the VCA results with
+exact results available from the Bethe ansatz, with essentially exact dynamical
+DMRG data, with (cellular) dynamical mean-field theory and full diagonalization
+of isolated Hubbard chains. Several issues are discussed including convergence
+of the results with cluster size, the ability of cluster approaches to access
+the critical regime of the Mott transition, efficiency in the optimization of
+correlated-site vs. bath-site parameters and of multi-dimensional parameter
+optimization. We also study the role of bath sites for the description of
+excitation properties and as charge reservoirs for the description of filling
+dependencies. The VCA turns out to be a computationally cheap method which is
+competitive with established cluster approaches.

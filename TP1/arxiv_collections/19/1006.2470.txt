@@ -1,0 +1,16 @@
+We analyse the KSB method to estimate gravitational shear from
+surface-brightness moments of small and noisy galaxy images. We identify three
+potentially problematic assumptions. These are: (1) While gravitational shear
+must be estimated from averaged galaxy images, KSB derives a shear estimate
+from each individual image and then takes the average. Since the two operations
+do not commute, KSB gives biased results. (2) KSB implicitly assumes that
+galaxy ellipticities are small, while weak gravitational lensing assures only
+that the change in ellipticity due to the shear is small. (3) KSB does not
+invert the convolution with the point-spread function, but gives an approximate
+PSF correction which - even for a circular PSF - holds only in the limit of
+circular sources. The effects of assumptions (2) and (3) partially counter-act
+in a way dependent on the width of the weight function and of the PSF. We
+quantitatively demonstrate the biases due to all assumptions, extend the KSB
+approach consistently to third order in the shear and ellipticity and show that
+this extension lowers the biases substantially. The issue of proper PSF
+deconvolution will be addressed in a forthcoming paper.

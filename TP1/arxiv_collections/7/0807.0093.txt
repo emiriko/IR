@@ -1,0 +1,15 @@
+We present a unified framework to study graph kernels, special cases of which
+include the random walk graph kernel \citep{GaeFlaWro03,BorOngSchVisetal05},
+marginalized graph kernel \citep{KasTsuIno03,KasTsuIno04,MahUedAkuPeretal04},
+and geometric kernel on graphs \citep{Gaertner02}. Through extensions of linear
+algebra to Reproducing Kernel Hilbert Spaces (RKHS) and reduction to a
+Sylvester equation, we construct an algorithm that improves the time complexity
+of kernel computation from $O(n^6)$ to $O(n^3)$. When the graphs are sparse,
+conjugate gradient solvers or fixed-point iterations bring our algorithm into
+the sub-cubic domain. Experiments on graphs from bioinformatics and other
+application domains show that it is often more than a thousand times faster
+than previous approaches. We then explore connections between diffusion kernels
+\citep{KonLaf02}, regularization on graphs \citep{SmoKon03}, and graph kernels,
+and use these connections to propose new graph kernels. Finally, we show that
+rational kernels \citep{CorHafMoh02,CorHafMoh03,CorHafMoh04} when specialized
+to graphs reduce to the random walk graph kernel.

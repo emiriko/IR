@@ -1,0 +1,13 @@
+Open Answer Set Programming (OASP) is an attractive framework for integrating
+ontologies and rules. In general OASP is undecidable. In previous work we
+provided a tableau-based algorithm for satisfiability checking w.r.t. forest
+logic programs, a decidable fragment of OASP, which has the forest model
+property. In this paper we introduce an optimized version of that algorithm
+achieved by means of a knowledge compilation technique. So-called unit
+completion structures, which are possible building blocks of a forest model, in
+the form of trees of depth 1, are computed in an initial step of the algorithm.
+Repeated computations are avoided by using these structures in a
+pattern-matching style when constructing a model. Furthermore we identify and
+discard redundant unit completion structures: a structure is redundant if there
+is another structure which can always replace the original structure in a
+forest model.

@@ -1,0 +1,17 @@
+We analyse the design and optimisation of quantum logic circuits suitable for
+the experimental demonstration of a three-qubit quantum computation prototype
+based on optically-controlled, solid-state quantum logic gates. In these gates,
+the interaction between two qubits carried by the electron-spin of donors is
+mediated by the optical excitation of a control particle placed in their
+proximity. First, we use a geometrical approach for analysing the entangling
+characteristics of these quantum gates. Then, using a genetic programming
+algorithm, we develop circuits for the refined Deutsch-Jozsa algorithm
+investigating different strategies for obtaining short total computational
+times. We test two separate approaches based on using different sets of
+entangling gates with the shortest possible gate computation time which,
+however, does not introduce leakage of quantum information to the control
+particles. The first set exploits fast approximations of controlled-phase gates
+as entangling gates, while the other one arbitrary entangling gates with a
+shorter gate computation time compared to the first set. We have identified
+circuits with consistently shorter total computation times when using
+controlled-phase gates.

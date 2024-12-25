@@ -1,0 +1,12 @@
+The enumeration of normal surfaces is a crucial but very slow operation in
+algorithmic 3-manifold topology. At the heart of this operation is a polytope
+vertex enumeration in a high-dimensional space (standard coordinates).
+Tollefson's Q-theory speeds up this operation by using a much smaller space
+(quadrilateral coordinates), at the cost of a reduced solution set that might
+not always be sufficient for our needs. In this paper we present algorithms for
+converting between solution sets in quadrilateral and standard coordinates. As
+a consequence we obtain a new algorithm for enumerating all standard vertex
+normal surfaces, yielding both the speed of quadrilateral coordinates and the
+wider applicability of standard coordinates. Experimentation with the software
+package Regina shows this new algorithm to be extremely fast in practice,
+improving speed for large cases by factors from thousands up to millions.

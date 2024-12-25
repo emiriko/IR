@@ -1,0 +1,17 @@
+Peptide sequencing from mass spectrometry data is a key step in proteome
+research. Especially de novo sequencing, the identification of a peptide from
+its spectrum alone, is still a challenge even for state-of-the-art algorithmic
+approaches. In this paper we present Antilope, a new fast and flexible approach
+based on mathematical programming. It builds on the spectrum graph model and
+works with a variety of scoring schemes. Antilope combines Lagrangian
+relaxation for solving an integer linear programming formulation with an
+adaptation of Yen's k shortest paths algorithm. It shows a significant
+improvement in running time compared to mixed integer optimization and performs
+at the same speed like other state-of-the-art tools. We also implemented a
+generic probabilistic scoring scheme that can be trained automatically for a
+dataset of annotated spectra and is independent of the mass spectrometer type.
+Evaluations on benchmark data show that Antilope is competitive to the popular
+state-of-the-art programs PepNovo and NovoHMM both in terms of run time and
+accuracy. Furthermore, it offers increased flexibility in the number of
+considered ion types. Antilope will be freely available as part of the open
+source proteomics library OpenMS.

@@ -1,0 +1,19 @@
+We consider multi-agent systems where agents' preferences are aggregated via
+sequential majority voting: each decision is taken by performing a sequence of
+pairwise comparisons where each comparison is a weighted majority vote among
+the agents. Incompleteness in the agents' preferences is common in many
+real-life settings due to privacy issues or an ongoing elicitation process. In
+addition, there may be uncertainty about how the preferences are aggregated.
+For example, the agenda (a tree whose leaves are labelled with the decisions
+being compared) may not yet be known or fixed. We therefore study how to
+determine collectively optimal decisions (also called winners) when preferences
+may be incomplete, and when the agenda may be uncertain. We show that it is
+computationally easy to determine if a candidate decision always wins, or may
+win, whatever the agenda. On the other hand, it is computationally hard to know
+wheth er a candidate decision wins in at least one agenda for at least one
+completion of the agents' preferences. These results hold even if the agenda
+must be balanced so that each candidate decision faces the same number of
+majority votes. Such results are useful for reasoning about preference
+elicitation. They help understand the complexity of tasks such as determining
+if a decision can be taken collectively, as well as knowing if the winner can
+be manipulated by appropriately ordering the agenda.

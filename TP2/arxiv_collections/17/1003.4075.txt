@@ -1,0 +1,19 @@
+FastSLAM is a framework for simultaneous localization using a
+Rao-Blackwellized particle filter. In FastSLAM, particle filter is used for the
+mobile robot pose (position and orientation) estimation, and an Extended Kalman
+Filter (EKF) is used for the feature location's estimation. However, FastSLAM
+degenerates over time. This degeneracy is due to the fact that a particle set
+estimating the pose of the robot loses its diversity. One of the main reasons
+for loosing particle diversity in FastSLAM is sample impoverishment. It occurs
+when likelihood lies in the tail of the proposal distribution. In this case,
+most of particle weights are insignificant. Another problem of FastSLAM relates
+to the design of an extended Kalman filter for landmark position's estimation.
+The performance of the EKF and the quality of the estimation depends heavily on
+correct a priori knowledge of the process and measurement noise covariance
+matrices (Q and R) that are in most applications unknown. On the other hand, an
+incorrect a priori knowledge of Q and R may seriously degrade the performance
+of the Kalman filter. This paper presents a Neuro-Fuzzy Multi Swarm FastSLAM
+Framework. In our proposed method, a Neuro-Fuzzy extended kalman filter for
+landmark feature estimation, and a particle filter based on particle swarm
+optimization are presented to overcome the impoverishment of FastSLAM.
+Experimental results demonstrate the effectiveness of the proposed algorithm.

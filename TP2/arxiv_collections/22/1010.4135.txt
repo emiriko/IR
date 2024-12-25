@@ -1,0 +1,15 @@
+A highly efficient three-dimensional (3D) Lattice Boltzmann (LB) model for
+high speed compressible flows is proposed. This model is developed from the
+original one by Kataoka and Tsutahara[Phys. Rev. E 69, 056702 (2004)]. The
+convection term is discretized by the Non-oscillatory, containing No free
+parameters and Dissipative (NND) scheme, which effectively damps oscillations
+at discontinuities. To be more consistent with the kinetic theory of viscosity
+and to further improve the numerical stability, an additional dissipation term
+is introduced. Model parameters are chosen in such a way that the von Neumann
+stability criterion is satisfied. The new model is validated by well-known
+benchmarks, (i) Riemann problems, including the problem with Lax shock tube and
+a newly designed shock tube problem with high Mach number; (ii) reaction of
+shock wave on droplet or bubble. Good agreements are obtained between LB
+results and exact ones or previously reported solutions. The model is capable
+of simulating flows from subsonic to supersonic and capturing jumps resulted
+from shock waves.

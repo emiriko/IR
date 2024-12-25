@@ -1,0 +1,10 @@
+Schoening presents a simple randomized algorithm for (d,k)-CSP problems with
+running time (d(k-1)/k)^n poly(n). Here, d is the number of colors, k is the
+size of the constraints, and n is the number of variables. A derandomized
+version of this, given by Dantsin et al., achieves a running time of
+(dk/(k+1))^n poly(n), inferior to Schoening's. We come up with a simple
+modification of the deterministic algorithm, achieving a running time of
+(d(k-1)/k * k^d/(k^d-1))^n \poly(n). Though not completely eleminating the gap,
+this comes very close to the randomized bound for all but very small values of
+d. Our main idea is to define a graph structure on the set of d colors to speed
+up local search.

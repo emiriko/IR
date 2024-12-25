@@ -1,0 +1,21 @@
+We present direct methods and symbolic software for the computation of
+conservation laws of nonlinear partial differential equations (PDEs) and
+differential-difference equations (DDEs).The methods are applied to nonlinear
+PDEs in (1+1) dimensions with polynomial nonlinearities which include the
+Korteweg-de Vries (KdV), Boussinesq, and Drinfel'd-Sokolov-Wilson equations. An
+adaptation of the methods is applied to PDEs with transcendental
+nonlinearities. Examples include the sine-Gordon, sinh-Gordon, and Liouville
+equations.
+  With respect to nonlinear DDEs, our methods are applied to Kac-van Moerbeke,
+Toda, and Ablowitz-Ladik lattices. To overcome the shortcomings of the
+undetermined coefficients method, we designed a new direct method which uses
+leading order analysis. That method is applied to discretizations of the KdV
+and modified KdV equations, and a combination thereof. Additional examples
+include lattices due to Bogoyavlenskii, Belov-Chaltikian, and
+Blaszak-Marciniak.
+  The undetermined coefficient methods for PDEs and DDEs have been implemented
+in Mathematica. The code "TransPDEDensityFlux.m" computes densities and fluxes
+of systems of PDEs with or without transcendental nonlinearities. The code
+"DDEDensityFlux.m" does the same for polynomial nonlinear DDEs. Starting from
+the leading order terms, the new Maple library "discrete" computes densities
+and fluxes of nonlinear DDEs.

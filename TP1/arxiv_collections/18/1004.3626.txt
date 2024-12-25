@@ -1,0 +1,16 @@
+Measurement-based quantum computing, a powerful alternative to the standard
+circuit model, proceeds using only local adaptive measurements on a
+highly-entangled resource state of many spins on a graph or lattice. Along with
+the canonical cluster state, the valence-bond solid ground state on a chain of
+spin-1 particles, studied by Affleck, Kennedy, Lieb, and Tasaki (AKLT), is such
+a resource state. We propose a simulation of this AKLT state using linear
+optics, wherein we can make use of the high-fidelity projective measurements
+that are commonplace in quantum optical experiments, and describe how quantum
+logic gates can be performed on this chain. In our proposed implementation, the
+spin-1 particles comprizing the AKLT state are encoded on polarization
+biphotons: three level systems consisting of pairs of polarized photons in the
+same spatio-temporal mode. A logical qubit encoded on the photonic AKLT state
+can be initialized, read out and have an arbitrary single qubit unitary applied
+to it by performing projective measurements on the constituent biphotons. For
+MBQC, biphoton measurements are required which cannot be deterministically
+performed using only linear optics and photodetection.

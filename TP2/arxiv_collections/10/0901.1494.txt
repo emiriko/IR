@@ -1,0 +1,9 @@
+Work has been on-going for the development of the required code for full
+polarisation processing of VLBI data using some new antennae mounts. The
+extensions of AIPS allows the support of two new mount types; the left-handed
+and right-handed Nasmyth antennae (Pico Veleta in the GMVA and Yebes-40m in the
+EVN) and the EW-mount (Hobart in the LBA). The data handling process is
+seamless, once the correct mount type has been selected. All subsequent calls
+to the parallactic angle subroutine PARANG will return the feed angles for Left
+or Right Nasmyth or EW-mount. These are required, respectively, for Pico
+Veleta, Yebes-40m (low frequency branch) and Hobart.

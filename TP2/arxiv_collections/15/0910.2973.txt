@@ -1,0 +1,14 @@
+Let ${\cal P}=\{h_1, ..., h_s\}\subset \Z[Y_1, ..., Y_k]$, $D\geq \deg(h_i)$
+for $1\leq i \leq s$, $\sigma$ bounding the bit length of the coefficients of
+the $h_i$'s, and $\Phi$ be a quantifier-free ${\cal P}$-formula defining a
+convex semi-algebraic set. We design an algorithm returning a rational point in
+${\cal S}$ if and only if ${\cal S}\cap \Q\neq\emptyset$. It requires
+$\sigma^{\bigO(1)}D^{\bigO(k^3)}$ bit operations. If a rational point is
+outputted its coordinates have bit length dominated by $\sigma D^{\bigO(k^3)}$.
+Using this result, we obtain a procedure deciding if a polynomial $f\in \Z[X_1,
+>..., X_n]$ is a sum of squares of polynomials in $\Q[X_1, ..., X_n]$. Denote
+by $d$ the degree of $f$, $\tau$ the maximum bit length of the coefficients in
+$f$, $D={{n+d}\choose{n}}$ and $k\leq D(D+1)-{{n+2d}\choose{n}}$. This
+procedure requires $\tau^{\bigO(1)}D^{\bigO(k^3)}$ bit operations and the
+coefficients of the outputted polynomials have bit length dominated by $\tau
+D^{\bigO(k^3)}$.

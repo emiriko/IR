@@ -1,0 +1,19 @@
+This paper studies the problem of recovering a non-negative sparse signal $\x
+\in \Re^n$ from highly corrupted linear measurements $\y = A\x + \e \in \Re^m$,
+where $\e$ is an unknown error vector whose nonzero entries may be unbounded.
+Motivated by an observation from face recognition in computer vision, this
+paper proves that for highly correlated (and possibly overcomplete)
+dictionaries $A$, any non-negative, sufficiently sparse signal $\x$ can be
+recovered by solving an $\ell^1$-minimization problem: $\min \|\x\|_1 +
+\|\e\|_1 \quad {subject to} \quad \y = A\x + \e.$ More precisely, if the
+fraction $\rho$ of errors is bounded away from one and the support of $\x$
+grows sublinearly in the dimension $m$ of the observation, then as $m$ goes to
+infinity, the above $\ell^1$-minimization succeeds for all signals $\x$ and
+almost all sign-and-support patterns of $\e$. This result suggests that
+accurate recovery of sparse signals is possible and computationally feasible
+even with nearly 100% of the observations corrupted. The proof relies on a
+careful characterization of the faces of a convex polytope spanned together by
+the standard crosspolytope and a set of iid Gaussian vectors with nonzero mean
+and small variance, which we call the ``cross-and-bouquet'' model. Simulations
+and experimental results corroborate the findings, and suggest extensions to
+the result.

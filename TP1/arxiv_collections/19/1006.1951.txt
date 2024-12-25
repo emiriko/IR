@@ -1,0 +1,11 @@
+In this paper we introduce a framework for computing upper bounds yet
+accurate WCET for hardware platforms with caches and pipelines. The methodology
+we propose consists of 3 steps: 1) given a program to analyse, compute an
+equivalent (WCET-wise) abstract program; 2) build a timed game by composing
+this abstract program with a network of timed automata modeling the
+architecture; and 3) compute the WCET as the optimal time to reach a winning
+state in this game. We demonstrate the applicability of our framework on
+standard benchmarks for an ARM9 processor with instruction and data caches, and
+compute the WCET with UPPAAL-TiGA. We also show that this framework can easily
+be extended to take into account dynamic changes in the speed of the processor
+during program execution. %

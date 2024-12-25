@@ -1,0 +1,18 @@
+In Ref. [1], we proved a duality between two optimizations problems. The
+primary one is, given two quantum channels M and N, to find a quantum channel R
+such that RN is optimally close to M as measured by the worst-case entanglement
+fidelity. The dual problem involves the information obtained by the environment
+through the so-called complementary channels M* and N*, and consists in finding
+a quantum channel R' such that R'M* is optimally close to N*. It turns out to
+be easier to find an approximate solution to the dual problem in certain
+important situations, notably when M is the identity channel---the problem of
+quantum error correction---yielding a good near-optimal worst-case entanglement
+fidelity as well as the corresponding near-optimal correcting channel. Here we
+provide more detailed proofs of these results. In addition, we generalize the
+main theorem to the case where there are certain constraints on the
+implementation of R, namely on the number of Kraus operators. We also offer a
+simple algebraic form for the near-optimal correction channel in the case M=id.
+For approximate error correction, we show that any epsilon-correctable channel
+is, up to appending an ancilla, epsilon-close to an exactly correctable one. We
+also demonstrate an application of our theorem to the problem of minimax state
+discrimination.

@@ -1,0 +1,15 @@
+Particle swarm optimization (PSO) is extensively used for real parameter
+optimization in diverse fields of study. This paper describes an application of
+PSO to the problem of designing a fractional-order
+proportional-integral-derivative (FOPID) controller whose parameters comprise
+proportionality constant, integral constant, derivative constant, integral
+order (lambda) and derivative order (delta). The presence of five optimizable
+parameters makes the task of designing a FOPID controller more challenging than
+conventional PID controller design. Our design method focuses on minimizing the
+Integral Time Absolute Error (ITAE) criterion. The digital realization of the
+deigned system utilizes the Tustin operator-based continued fraction expansion
+scheme. We carry out a simulation that illustrates the effectiveness of the
+proposed approach especially for realizing fractional-order plants. This paper
+also attempts to study the behavior of fractional PID controller vis-a-vis that
+of its integer order counterpart and demonstrates the superiority of the former
+to the latter.

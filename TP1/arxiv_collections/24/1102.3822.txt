@@ -1,0 +1,12 @@
+Pavlov, a well-known strategy in game theory, has been shown to have some
+advantages in the Iterated Prisoner's Dilemma (IPD) game. However, this
+strategy can be exploited by inveterate defectors. We modify this strategy to
+mitigate the exploitation. We call the resulting strategy Rational Pavlov. This
+has a parameter p which measures the "degree of forgiveness" of the players. We
+study the evolution of cooperation in the IPD game, when n players are arranged
+in a cycle, and all play this strategy. We examine the effect of varying p on
+the convergence rate and prove that the convergence rate is fast, O(n log n)
+time, for high values of p. We also prove that the convergence rate is
+exponentially slow in n for small enough p. Our analysis leaves a gap in the
+range of p, but simulations suggest that there is, in fact, a sharp phase
+transition.

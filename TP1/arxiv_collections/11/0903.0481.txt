@@ -1,0 +1,17 @@
+Nonresponse is common in surveys. When the response probability of a survey
+variable $Y$ depends on $Y$ through an observed auxiliary categorical variable
+$Z$ (i.e., the response probability of $Y$ is conditionally independent of $Y$
+given $Z$), a simple method often used in practice is to use $Z$ categories as
+imputation cells and construct estimators by imputing nonrespondents or
+reweighting respondents within each imputation cell. This simple method,
+however, is inefficient when some $Z$ categories have small sizes and ad hoc
+methods are often applied to collapse small imputation cells. Assuming a
+parametric model on the conditional probability of $Z$ given $Y$ and a
+nonparametric model on the distribution of $Y$, we develop a pseudo empirical
+likelihood method to provide more efficient survey estimators. Our method
+avoids any ad hoc collapsing small $Z$ categories, since reweighting or
+imputation is done across $Z$ categories. Asymptotic distributions for
+estimators of population means based on the pseudo empirical likelihood method
+are derived. For variance estimation, we consider a bootstrap procedure and its
+consistency is established. Some simulation results are provided to assess the
+finite sample performance of the proposed estimators.

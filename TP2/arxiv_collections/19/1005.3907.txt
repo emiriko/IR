@@ -1,0 +1,15 @@
+Objective probabilistic forecasts of future climate that include parameter
+uncertainty can be made by using the Bayesian prediction integral with the
+prior set to Jeffreys' Prior. The calculations involved in determining the
+prior can then be simplified by making parametric assumptions about the
+distribution of the output from the climate model. The most obvious assumption
+to make is that the climate model output is normally distributed, in which case
+evaluating the prior becomes a question of evaluating gradients in the
+parameters of the normal distribution. In previous work we have considered the
+special cases of diagonal (but not constant) covariance matrix, and constant
+(but not diagonal) covariance matrix. We now derive expressions for the general
+multivariate normal distribution, with non-constant non-diagonal covariance
+matrix. The algebraic manipulation required is more complex than for the
+special cases, and involves some slightly esoteric matrix operations including
+taking the expectation of a vector quadratic form and differentiating the
+determinants, traces and inverses of matrices.

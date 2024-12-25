@@ -1,0 +1,13 @@
+Let $(G,T)$ be an instance of the (vertex) multiway cut problem where $G$ is
+a graph and $T$ is a set of terminals. For $t \in T$, a set of nonterminal
+vertices separating $t$ from $T \setminus \{T\}$ is called an \emph{isolating
+cut} of $t$. The largest among all the smallest isolating cuts is a natural
+lower bound for a multiway cut of $(G,T)$. Denote this lower bound by $m$ and
+let $k$ be an integer.
+  In this paper we propose an $O(kn^{k+3})$ algorithm that computes a multiway
+cut of $(G,T)$ of size at most $m+k$ or reports that there is no such multiway
+cut. The core of the proposed algorithm is the following combinatorial result.
+Let $G$ be a graph and let $X,Y$ be two disjoint subsets of vertices of $G$.
+Let $m$ be the smallest size of a vertex $X-Y$ separator. Then, for the given
+integer $k$, the number of \emph{important} $X-Y$ separators \cite{MarxTCS} of
+size at most $m+k$ is at most $\sum_{i=0}^k{n \choose i}$.

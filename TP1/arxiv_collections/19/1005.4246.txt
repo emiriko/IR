@@ -1,0 +1,23 @@
+From a mathematical perspective, radiation hydrodynamics can be thought of as
+a system of hyperbolic balance laws with dual multiscale behavior (multiscale
+behavior associated with the hyperbolic wave speeds as well as multiscale
+behavior associated with source term relaxation). With this outlook in mind,
+this paper presents a hybrid Godunov method for one-dimensional radiation
+hydrodynamics that is uniformly well behaved from the photon free streaming
+(hyperbolic) limit through the weak equilibrium diffusion (parabolic) limit and
+to the strong equilibrium diffusion (hyperbolic) limit. Moreover, one finds
+that the technique preserves certain asymptotic limits. The method incorporates
+a backward Euler upwinding scheme for the radiation energy density and flux as
+well as a modified Godunov scheme for the material density, momentum density,
+and energy density. The backward Euler upwinding scheme is first-order accurate
+and uses an implicit HLLE flux function to temporally advance the radiation
+components according to the material flow scale. The modified Godunov scheme is
+second-order accurate and directly couples stiff source term effects to the
+hyperbolic structure of the system of balance laws. This Godunov technique is
+composed of a predictor step that is based on Duhamel's principle and a
+corrector step that is based on Picard iteration. The Godunov scheme is
+explicit on the material flow scale but is unsplit and fully couples matter and
+radiation without invoking a diffusion-type approximation for radiation
+hydrodynamics. This technique derives from earlier work by Miniati & Colella
+2007. Numerical tests demonstrate that the method is stable, robust, and
+accurate across various parameter regimes.

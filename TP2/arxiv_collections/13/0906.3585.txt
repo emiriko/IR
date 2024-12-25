@@ -1,0 +1,18 @@
+Images have become an important data source in many scientific and commercial
+domains. Analysis and exploration of image collections often requires the
+retrieval of the best subregions matching a given query. The support of such
+content-based retrieval requires not only the formulation of an appropriate
+scoring function for defining relevant subregions but also the design of new
+access methods that can scale to large databases. In this paper, we propose a
+solution to this problem of querying significant image subregions. We design a
+scoring scheme to measure the similarity of subregions. Our similarity measure
+extends to any image descriptor. All the images are tiled and each alignment of
+the query and a database image produces a tile score matrix. We show that the
+problem of finding the best connected subregion from this matrix is NP-hard and
+develop a dynamic programming heuristic. With this heuristic, we develop two
+index based scalable search strategies, TARS and SPARS, to query patterns in a
+large image repository. These strategies are general enough to work with other
+scoring schemes and heuristics. Experimental results on real image datasets
+show that TARS saves more than 87% query time on small queries, and SPARS saves
+up to 52% query time on large queries as compared to linear search. Qualitative
+tests on synthetic and real datasets achieve precision of more than 80%.

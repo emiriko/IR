@@ -1,0 +1,9 @@
+We present a multi-level graph partitioning algorithm based on the extreme
+idea to contract only a single edge on each level of the hierarchy. This
+obviates the need for a matching algorithm and promises very good partitioning
+quality since there are very few changes between two levels. Using an efficient
+data structure and new flexible ways to break local search improvements early,
+we obtain an algorithm that scales to large inputs and produces the best known
+partitioning results for many inputs. For example, in Walshaw's well known
+benchmark tables we achieve 155 improvements dominating the entries for large
+graphs.

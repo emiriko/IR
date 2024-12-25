@@ -1,0 +1,15 @@
+Traditional numerical techniques for solving time-dependent
+partial-differential-equation (PDE) initial-value problems (IVPs) store a
+truncated representation of the function values and some number of their time
+derivatives at each time step. Although redundant in the dx->0 limit, what if
+spatial derivatives were also stored? This paper presents an iterated,
+multipoint differential transform method (IMDTM) for numerically evolving PDE
+IVPs. Using this scheme, it is demonstrated that stored spatial derivatives can
+be propagated in an efficient and self-consistent manner; and can effectively
+contribute to the evolution procedure in a way which can confer several
+advantages, including aiding solution verification. Lastly, in order to
+efficiently implement the IMDTM scheme, a generalized finite-difference stencil
+formula is derived which can take advantage of multiple higher-order spatial
+derivatives when computing even-higher-order derivatives. As is demonstrated,
+the performance of these techniques compares favorably to other explicit
+evolution schemes in terms of speed, memory footprint and accuracy.

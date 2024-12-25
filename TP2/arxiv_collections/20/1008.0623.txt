@@ -1,0 +1,20 @@
+We analyze the fundamental security significance of the quantitative criteria
+on the final generated key K in quantum key generation including the quantum
+criterion d, the attacker's mutual information on K, and the statistical
+distance between her distribution on K and the uniform distribution. For
+operational significance a criterion has to produce guarantee on the attacker's
+probability of correctly estimating some portion of K from her measurement, in
+particular her maximum probability of identifying the whole K. We distinguish
+between the raw security of K when the attacker just gets at K before it is
+used in a cryptographic context and its composition security when the attacker
+may gain further information during its actual use to help getting at K. We
+compare both of these securities of K to those obtainable from conventional key
+expansion with a symmetric key cipher. It is pointed out that a common belief
+in the superior security of a quantum generated K is based on an incorrect
+interpretation of d which cannot be true, and the security significance of d is
+uncertain. Generally, the QKD key K has no composition security guarantee and
+its raw security guarantee from concrete protocols is worse than that of
+conventional ciphers. Furthermore, for both raw and composition security there
+is an exponential catch up problem that would make it difficult to
+quantitatively improve the security of K in a realistic protocol. Some possible
+ways to deal with the situation are suggested.

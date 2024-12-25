@@ -1,0 +1,11 @@
+A method for the calculation of the damping rate due to electron-hole pair
+excitation for atomic and molecular motion at metal surfaces is presented. The
+theoretical basis is provided by Time Dependent Density Functional Theory
+(TDDFT) in the quasi-static limit and calculations are performed within a
+standard plane-wave, pseudopotential framework. The artificial periodicity
+introduced by using a super-cell geometry is removed to derive results for the
+motion of an isolated atom or molecule, rather than for the coherent motion of
+an ordered over-layer. The algorithm is implemented in parallel, distributed
+across both ${\bf k}$ and ${\bf g}$ space, and in a form compatible with the
+CASTEP code. Test results for the damping of the motion of hydrogen atoms above
+the Cu(111) surface are presented.

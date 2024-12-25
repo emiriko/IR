@@ -1,0 +1,16 @@
+The problem of computing Craig Interpolants has recently received a lot of
+interest. In this paper, we address the problem of efficient generation of
+interpolants for some important fragments of first order logic, which are
+amenable for effective decision procedures, called Satisfiability Modulo Theory
+solvers.
+  We make the following contributions.
+  First, we provide interpolation procedures for several basic theories of
+interest: the theories of linear arithmetic over the rationals, difference
+logic over rationals and integers, and UTVPI over rationals and integers.
+  Second, we define a novel approach to interpolate combinations of theories,
+that applies to the Delayed Theory Combination approach.
+  Efficiency is ensured by the fact that the proposed interpolation algorithms
+extend state of the art algorithms for Satisfiability Modulo Theories. Our
+experimental evaluation shows that the MathSAT SMT solver can produce
+interpolants with minor overhead in search, and much more efficiently than
+other competitor solvers.

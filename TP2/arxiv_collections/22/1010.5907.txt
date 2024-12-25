@@ -1,0 +1,10 @@
+We investigate the use of the Multiple Optimised Parameter Estimation and
+Data compression algorithm (MOPED) for data compression and faster evaluation
+of likelihood functions. Since MOPED only guarantees maintaining the Fisher
+matrix of the likelihood at a chosen point, multimodal and some degenerate
+distributions will present a problem. We present examples of scenarios in which
+MOPED does faithfully represent the true likelihood but also cases in which it
+does not. Through these examples, we aim to define a set of criteria for which
+MOPED will accurately represent the likelihood and hence may be used to obtain
+a significant reduction in the time needed to calculate it. These criteria may
+involve the evaluation of the full likelihood function for comparison.

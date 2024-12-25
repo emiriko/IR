@@ -1,0 +1,23 @@
+Randomness is an important resource for many applications, from gambling to
+secure communication. However, guaranteeing that the output from a candidate
+random source could not have been predicted by an outside party is a
+challenging task, and many supposedly random sources used today provide no such
+guarantee. Quantum solutions to this problem exist, for example a device which
+internally sends a photon through a beam-splitter and observes on which side it
+emerges, but, presently, such solutions require the user to trust the internal
+workings of the device. Here we seek to go beyond this limitation by asking
+whether randomness can be generated using untrusted devices---even ones created
+by an adversarial agent---while providing a guarantee that no outside party
+(including the agent) can predict it. Since this is easily seen to be
+impossible unless the user has an initially private random string, the task we
+investigate here is private randomness expansion.
+  We introduce a protocol for private randomness expansion with untrusted
+devices which is designed to take as input an initially private random string
+and produce as output a longer private random string. We point out that private
+randomness expansion protocols are generally vulnerable to attacks that can
+render the initial string partially insecure, even though that string is used
+only inside a secure laboratory; our protocol is designed to remove this
+previously unconsidered vulnerability by privacy amplification. We also discuss
+extensions of our protocol designed to generate an arbitrarily long random
+string from a finite initially private random string. The security of these
+protocols against the most general attacks is left as an open question.

@@ -1,0 +1,14 @@
+This paper proposes a new framework for the optimization of excitation inputs
+for system identification. The optimization problem considered is to maximize a
+reduced Fisher information matrix in any of the classical D-, E-, or A-optimal
+senses. In contrast to the majority of published work on this topic, we
+consider the problem in the time domain and subject to constraints on the
+amplitude of the input signal. This optimization problem is nonconvex. The main
+result of the paper is a convex relaxation that gives an upper bound accurate
+to within $2/\pi$ of the true maximum. A randomized algorithm is presented for
+finding a feasible solution which, in a certain sense is expected to be at
+least $2/\pi$ as informative as the globally optimal input signal. In the case
+of a single constraint on input power, the proposed approach recovers the true
+global optimum exactly. Extensions to situations with both power and amplitude
+constraints on both inputs and outputs are given. A simple simulation example
+illustrates the technique.

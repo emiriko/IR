@@ -1,0 +1,16 @@
+We study a generalization of the voter model on complex networks, focusing on
+the scaling of mean exit time. Previous work has defined the voter model in
+terms of an initially chosen node and a randomly chosen neighbor, which makes
+it difficult to disentangle the effects of the stochastic process itself
+relative to the network structure. We introduce a process with two steps, one
+that selects a pair of interacting nodes and one that determines the direction
+of interaction as a function of the degrees of the two nodes and a parameter
+$\alpha$ which sets the likelihood of the higher degree node giving its state.
+Traditional voter model behavior can be recovered within the model. We find
+that on a complete bipartite network, the traditional voter model is the
+fastest process. On a random network with power law degree distribution, we
+observe two regimes. For modest values of $\alpha$, exit time is dominated by
+diffusive drift of the system state, but as the high nodes become more
+influential, the exit time becomes becomes dominated by frustration effects.
+For certain selection processes, a short intermediate regime occurs where exit
+occurs after exponential mixing.

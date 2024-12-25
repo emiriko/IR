@@ -1,0 +1,17 @@
+We study several problems related to properties of non-negative matrices that
+arise at the boundary between quantum and classical probabilistic computation.
+Our results are twofold. First, we identify a large class of quantum
+Hamiltonians describing systems of qubits for which the adiabatic evolution can
+be efficiently simulated on a classical probabilistic computer. These are
+stoquastic local Hamiltonians with a "frustration free" ground-state. A
+Hamiltonian belongs to this class iff it can be represented as $H=\sum_a H_a$
+where (1) every term $H_a$ acts non-trivially on a constant number of qubits,
+(2) every term $H_a$ has real non-positive off-diagonal matrix elements in the
+standard basis, and (3) the ground-state of $H$ is a ground-state of every term
+$H_a$. Secondly, we generalize the Cook-Levin theorem proving NP-completeness
+of the satisfiability problem to the complexity class MA -- a probabilistic
+analogue of NP. Specifically, we construct a quantum version of the k-SAT
+problem which we call "stoquastic k-SAT" such that stoquastic k-SAT is
+contained in MA for any constant $k$, and any promise problem in MA is
+Karp-reducible to stoquastic 6-SAT. This result provides the first non-trivial
+example of a MA-complete promise problem.

@@ -1,0 +1,9 @@
+Secure sum computation of private data inputs is an interesting example of
+Secure Multiparty Computation (SMC) which has attracted many researchers to
+devise secure protocols with lower probability of data leakage. In this paper,
+we provide a novel protocol to compute the sum of individual data inputs with
+zero probability of data leakage when two neighbor parties collude to know the
+data of a middle party. We break the data block of each party into number of
+segments and redistribute the segments among parties before the computation.
+These entire steps create a scenario in which it becomes impossible for semi
+honest parties to know the private data of some other party.

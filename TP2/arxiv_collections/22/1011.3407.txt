@@ -1,0 +1,15 @@
+Automated software verification is a very active field of research which has
+made enormous progress both in theoretical and practical aspects. Recently, an
+important amount of research effort has been put into applying these techniques
+on top of mainstream programming languages. These languages typically provide
+powerful features such as reflection, aliasing and polymorphism which are handy
+for practitioners but, in contrast, make verification a real challenge. In this
+work we present Pest, a simple experimental, while-style, multiprocedural,
+imperative programming language which was conceived with verifiability as one
+of its main goals. This language forces developers to concurrently think about
+both the statements needed to implement an algorithm and the assertions
+required to prove its correctness. In order to aid programmers, we propose
+several techniques to reduce the number and complexity of annotations required
+to successfully verify their programs. In particular, we show that high-level
+iteration constructs may alleviate the need for providing complex loop
+annotations.

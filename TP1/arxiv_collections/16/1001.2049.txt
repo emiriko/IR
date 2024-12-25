@@ -1,0 +1,19 @@
+Traditional analysis techniques may not be sufficient for astronomers to make
+the best use of the data sets that current and future instruments, such as the
+Square Kilometre Array and its Pathfinders, will produce. By utilizing the
+incredible pattern-recognition ability of the human mind, scientific
+visualization provides an excellent opportunity for astronomers to gain
+valuable new insight and understanding of their data, particularly when used
+interactively in 3D. The goal of our work is to establish the feasibility of a
+real-time 3D monitoring system for data going into the Australian SKA
+Pathfinder archive.
+  Based on CUDA, an increasingly popular development tool, our work utilizes
+the massively parallel architecture of modern graphics processing units (GPUs)
+to provide astronomers with an interactive 3D volume rendering for
+multi-spectral data sets. Unlike other approaches, we are targeting real time
+interactive visualization of datasets larger than GPU memory while giving
+special attention to data with low signal to noise ratio - two critical aspects
+for astronomy that are missing from most existing scientific visualization
+software packages. Our framework enables the astronomer to interact with the
+geometrical representation of the data, and to control the volume rendering
+process to generate a better representation of their datasets.

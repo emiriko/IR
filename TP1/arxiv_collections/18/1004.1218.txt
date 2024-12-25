@@ -1,0 +1,25 @@
+Consider the noisy underdetermined system of linear equations: y=Ax0 + z0,
+with n x N measurement matrix A, n < N, and Gaussian white noise z0 ~
+N(0,\sigma^2 I). Both y and A are known, both x0 and z0 are unknown, and we
+seek an approximation to x0. When x0 has few nonzeros, useful approximations
+are obtained by l1-penalized l2 minimization, in which the reconstruction \hxl
+solves min || y - Ax||^2/2 + \lambda ||x||_1.
+  Evaluate performance by mean-squared error (MSE = E ||\hxl - x0||_2^2/N).
+Consider matrices A with iid Gaussian entries and a large-system limit in which
+n,N\to\infty with n/N \to \delta and k/n \to \rho. Call the ratio MSE/\sigma^2
+the noise sensitivity. We develop formal expressions for the MSE of \hxl, and
+evaluate its worst-case formal noise sensitivity over all types of k-sparse
+signals. The phase space 0 < \delta, \rho < 1 is partitioned by curve \rho =
+\rhoMSE(\delta) into two regions. Formal noise sensitivity is bounded
+throughout the region \rho < \rhoMSE(\delta) and is unbounded throughout the
+region \rho > \rhoMSE(\delta). The phase boundary \rho = \rhoMSE(\delta) is
+identical to the previously-known phase transition curve for equivalence of l1
+- l0 minimization in the k-sparse noiseless case. Hence a single phase boundary
+describes the fundamental phase transitions both for the noiseless and noisy
+cases. Extensive computational experiments validate the predictions of this
+formalism, including the existence of game theoretical structures underlying
+it. Underlying our formalism is the AMP algorithm introduced earlier by the
+authors. Other papers by the authors detail expressions for the formal MSE of
+AMP and its close connection to l1-penalized reconstruction. Here we derive the
+minimax formal MSE of AMP and then read out results for l1-penalized
+reconstruction.

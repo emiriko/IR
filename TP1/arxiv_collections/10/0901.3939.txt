@@ -1,0 +1,23 @@
+Maps are an important source of information in archaeology and other
+sciences. Users want to search for historical maps to determine recorded
+history of the political geography of regions at different eras, to find out
+where exactly archaeological artifacts were discovered, etc. Currently, they
+have to use a generic search engine and add the term map along with other
+keywords to search for maps. This crude method will generate a significant
+number of false positives that the user will need to cull through to get the
+desired results. To reduce their manual effort, we propose an automatic map
+identification, indexing, and retrieval system that enables users to search and
+retrieve maps appearing in a large corpus of digital documents using simple
+keyword queries. We identify features that can help in distinguishing maps from
+other figures in digital documents and show how a Support-Vector-Machine-based
+classifier can be used to identify maps. We propose map-level-metadata e.g.,
+captions, references to the maps in text, etc. and document-level metadata,
+e.g., title, abstract, citations, how recent the publication is, etc. and show
+how they can be automatically extracted and indexed. Our novel ranking
+algorithm weights different metadata fields differently and also uses the
+document-level metadata to help rank retrieved maps. Empirical evaluations show
+which features should be selected and which metadata fields should be weighted
+more. We also demonstrate improved retrieval results in comparison to
+adaptations of existing methods for map retrieval. Our map search engine has
+been deployed in an online map-search system that is part of the Blind-Review
+digital library system.

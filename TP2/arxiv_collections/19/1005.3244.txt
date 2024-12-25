@@ -1,0 +1,21 @@
+In evolutionary dynamics, the probability that a mutation spreads through the
+whole population, having arisen in a single individual, is known as the
+fixation probability. In general, it is not possible to find the fixation
+probability analytically given the mutant's fitness and the topological
+constraints that govern the spread of the mutation, so one resorts to
+simulations instead. Depending on the topology in use, a great number of
+evolutionary steps may be needed in each of the simulation events, particularly
+in those that end with the population containing mutants only. We introduce two
+techniques to accelerate the determination of the fixation probability. The
+first one skips all evolutionary steps in which the number of mutants does not
+change and thereby reduces the number of steps per simulation event
+considerably. This technique is computationally advantageous for some of the
+so-called layered networks. The second technique, which is not restricted to
+layered networks, consists of aborting any simulation event in which the number
+of mutants has grown beyond a certain threshold value, and counting that event
+as having led to a total spread of the mutation. For large populations, and
+regardless of the network's topology, we demonstrate, both analytically and by
+means of simulations, that using a threshold of about 100 mutants leads to an
+estimate of the fixation probability that deviates in no significant way from
+that obtained from the full-fledged simulations. We have observed speedups of
+two orders of magnitude for layered networks with 10000 nodes.

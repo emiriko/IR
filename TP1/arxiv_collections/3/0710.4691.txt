@@ -1,0 +1,11 @@
+Buffer insertion is a popular technique to reduce the interconnect delay. The
+classic buffer insertion algorithm of van Ginneken has time complexity O(n^2),
+where n is the number of buffer positions. Lillis, Cheng and Lin extended van
+Ginneken's algorithm to allow b buffer types in time O (b^2 n^2). For modern
+design libraries that contain hundreds of buffers, it is a serious challenge to
+balance the speed and performance of the buffer insertion algorithm. In this
+paper, we present a new algorithm that computes the optimal buffer insertion in
+O (bn^2) time. The reduction is achieved by the observation that the (Q, C)
+pairs of the candidates that generate the new candidates must form a convex
+hull. On industrial test cases, the new algorithm is faster than the previous
+best buffer insertion algorithms by orders of magnitude.

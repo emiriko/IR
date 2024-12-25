@@ -1,0 +1,14 @@
+Goedel's completeness theorem is concerned with provability, while Girard's
+theorem in ludics (as well as full completeness theorems in game semantics) are
+concerned with proofs. Our purpose is to look for a connection between these
+two disciplines. Following a previous work [3], we consider an extension of the
+original ludics with contraction and universal nondeterminism, which play dual
+roles, in order to capture a polarized fragment of linear logic and thus a
+constructive variant of classical propositional logic. We then prove a
+completeness theorem for proofs in this extended setting: for any behaviour
+(formula) A and any design (proof attempt) P, either P is a proof of A or there
+is a model M of the orthogonal of A which defeats P. Compared with proofs of
+full completeness in game semantics, ours exhibits a striking similarity with
+proofs of Goedel's completeness, in that it explicitly constructs a
+countermodel essentially using Koenig's lemma, proceeds by induction on
+formulas, and implies an analogue of Loewenheim-Skolem theorem.

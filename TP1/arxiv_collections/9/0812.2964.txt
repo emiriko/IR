@@ -1,0 +1,7 @@
+We develop a simple algorithm to parallelize generation processes of Markov
+chains. In this algorithm, multiple Markov chains are generated in parallel and
+jointed together to make a longer Markov chain. The joints between the
+constituent Markov chains are processed using the detailed balance. We apply
+the parallelization algorithm to multicanonical calculations of the
+two-dimensional Ising model and demonstrate accurate estimation of
+multicanonical weights.

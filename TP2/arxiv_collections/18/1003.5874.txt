@@ -1,0 +1,16 @@
+Given a set P of n points in |R^d, an eps-kernel K subset P approximates the
+directional width of P in every direction within a relative (1-eps) factor. In
+this paper we study the stability of eps-kernels under dynamic insertion and
+deletion of points to P and by changing the approximation factor eps. In the
+first case, we say an algorithm for dynamically maintaining a eps-kernel is
+stable if at most O(1) points change in K as one point is inserted or deleted
+from P. We describe an algorithm to maintain an eps-kernel of size
+O(1/eps^{(d-1)/2}) in O(1/eps^{(d-1)/2} + log n) time per update. Not only does
+our algorithm maintain a stable eps-kernel, its update time is faster than any
+known algorithm that maintains an eps-kernel of size O(1/eps^{(d-1)/2}). Next,
+we show that if there is an eps-kernel of P of size k, which may be
+dramatically less than O(1/eps^{(d-1)/2}), then there is an (eps/2)-kernel of P
+of size O(min {1/eps^{(d-1)/2}, k^{floor(d/2)} log^{d-2} (1/eps)}). Moreover,
+there exists a point set P in |R^d and a parameter eps > 0 such that if every
+eps-kernel of P has size at least k, then any (eps/2)-kernel of P has size
+Omega(k^{floor(d/2)}).

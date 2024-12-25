@@ -1,0 +1,13 @@
+We show that lambda calculus is a computation model which can step by step
+simulate any sequential deterministic algorithm for any computable function
+over integers or words or any datatype. More formally, given an algorithm above
+a family of computable functions (taken as primitive tools, i.e., kind of
+oracle functions for the algorithm), for every constant K big enough, each
+computation step of the algorithm can be simulated by exactly K successive
+reductions in a natural extension of lambda calculus with constants for
+functions in the above considered family. The proof is based on a fixed point
+technique in lambda calculus and on Gurevich sequential Thesis which allows to
+identify sequential deterministic algorithms with Abstract State Machines. This
+extends to algorithms for partial computable functions in such a way that
+finite computations ending with exceptions are associated to finite reductions
+leading to terms with a particular very simple feature.

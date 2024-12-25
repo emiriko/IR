@@ -1,0 +1,17 @@
+In systems biology new ways are required to analyze the large amount of
+existing data on regulation of cellular processes. Recent work can be roughly
+classified into either dynamical models of well-described subsystems, or
+coarse-grained descriptions of the topology of the molecular networks at the
+scale of the whole organism. In order to bridge these two disparate approaches
+one needs to develop simplified descriptions of dynamics and topological
+measures which address the propagation of signals in molecular networks. Here,
+we consider the directed network of protein regulation in E. coli,
+characterizing its modularity in terms of its potential to transmit signals. We
+demonstrate that the simplest measure based on identifying sub-networks of
+strong components, within which each node could send a signal to every other
+node, indeed partitions the network into functional modules. We then suggest
+measures to quantify the cost and spread associated with sending a signal
+between any particular pair of proteins. Thereby, we address the signalling
+specificity within and between modules, and show that in the regulation of
+E.coli there is a systematic reduction of the cost and spread for signals
+traveling over more than two intermediate reactions.

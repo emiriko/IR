@@ -1,0 +1,10 @@
+We consider a hypothetical topological quantum computer where the qubits are
+comprised of either Ising or Fibonacci anyons. For each case, we calculate the
+time and number of qubits (space) necessary to execute the most computationally
+expensive step of Shor's algorithm, modular exponentiation. For Ising anyons,
+we apply Bravyi's distillation method [S. Bravyi, Phys. Rev. A 73, 042313
+(2006)] which combines topological and non-topological operations to allow for
+universal quantum computation. With reasonable restrictions on the physical
+parameters we find that factoring a 128 bit number requires approximately 10^3
+Fibonacci anyons versus at least 3 x 10^9 Ising anyons. Other distillation
+algorithms could reduce the resources for Ising anyons substantially.

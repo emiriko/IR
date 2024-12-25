@@ -1,0 +1,14 @@
+Developing suitable formal semantics can be of great help in the
+understanding, design and implementation of a programming language, and act as
+a guide for software development tools like analyzers or partial evaluators. In
+this sense, full abstraction is a highly desirable property, indicating a
+perfect correspondence between the semantics and the observable behavior of
+program pieces. In this work we address the question of full abstraction for
+the family of modern functional logic languages, in which functions can be
+higher order and non-deterministic, and where the semantics adopted for
+non-determinism is \emph{call-time choice}. We show that, with respect to
+natural notions of \emph{observation}, any semantics based on
+\emph{extensional} functions is necessarily unsound; in contrast, we show that
+the higher order version of \emph{CRWL}, a well-known existing semantic
+framework for functional logic programming, based on an \emph{intensional} view
+of functions, turns out to be fully abstract and compositional.

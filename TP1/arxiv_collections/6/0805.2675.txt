@@ -1,0 +1,22 @@
+Achieving weighted throughput maximization (WTM) through power control has
+been a long standing open problem in interference-limited wireless networks.
+The complicated coupling between the mutual interferences of links gives rise
+to a non-convex optimization problem. Previous work has considered the WTM
+problem in the high signal to interference-and-noise ratio (SINR) regime, where
+the problem can be approximated and transformed into a convex optimization
+problem through proper change of variables. In the general SINR regime,
+however, the approximation and transformation approach does not work. This
+paper proposes an algorithm, MAPEL, which globally converges to a global
+optimal solution of the WTM problem in the general SINR regime. The MAPEL
+algorithm is designed based on three key observations of the WTM problem: (1)
+the objective function is monotonically increasing in SINR, (2) the objective
+function can be transformed into a product of exponentiated linear fraction
+functions, and (3) the feasible set of the equivalent transformed problem is
+always normal although not necessarily convex. The MAPLE algorithm finds the
+desired optimal power control solution by constructing a series of polyblocks
+that approximate the feasible SINR region in increasing precision. Furthermore,
+by tuning the approximation factor in MAPEL, we could engineer a desirable
+tradeoff between optimality and convergence time. MAPEL provides an important
+benchmark for performance evaluation of other heuristic algorithms targeting
+the same problem. With the help of MAPEL, we evaluate the performance of
+several respective algorithms through extensive simulations.

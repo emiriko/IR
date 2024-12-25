@@ -1,0 +1,12 @@
+This paper introduces a simple and very general theory of compressive
+sensing. In this theory, the sensing mechanism simply selects sensing vectors
+independently at random from a probability distribution F; it includes all
+models - e.g. Gaussian, frequency measurements - discussed in the literature,
+but also provides a framework for new measurement strategies as well. We prove
+that if the probability distribution F obeys a simple incoherence property and
+an isotropy property, one can faithfully recover approximately sparse signals
+from a minimal number of noisy measurements. The novelty is that our recovery
+results do not require the restricted isometry property (RIP) - they make use
+of a much weaker notion - or a random model for the signal. As an example, the
+paper shows that a signal with s nonzero entries can be faithfully recovered
+from about s log n Fourier coefficients that are contaminated with noise.

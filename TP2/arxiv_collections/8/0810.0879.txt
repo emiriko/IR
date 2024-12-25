@@ -1,0 +1,9 @@
+We present several applications of the bias-variance decomposition, beginning
+with straightforward Monte Carlo estimation of integrals, but progressing to
+the more complex problem of Monte Carlo Optimization (MCO), which involves
+finding a set of parameters that optimize a parameterized integral. We present
+the similarity of this application to that of Parametric Learning (PL).
+Algorithms in this field use a particular interpretation of the bias-variance
+trade to improve performance. This interpretation also applies to MCO, and
+should therefore improve performance. We verify that this is indeed the case
+for a particular MCO problem related to adaptive importance sampling.

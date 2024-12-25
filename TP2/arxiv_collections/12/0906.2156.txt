@@ -1,0 +1,23 @@
+An updated version of the dust radiation transfer code Sunrise, including
+models for star-forming regions and a self-consistent calculation of the
+spatially dependent dust and PAH emission, is presented. Given a hydrodynamic
+simulation of a galaxy, this model can calculate a realistic 2-dimensional
+ultraviolet--submillimeter spectral energy distribution of the galaxy,
+including emission lines from HII regions, from any viewpoint. To model the
+emission from star-forming regions, the MAPPINGSIII photoionization code is
+used. The high wavelength resolution (~ 1000 wavelengths) is made possible by
+the polychromatic Monte-Carlo algorithm employed by Sunrise. From the 2-D
+spectral energy distributions, images in any filter bands or integrated galaxy
+SEDs can be created. Using a suite of hydrodynamic simulations of disc
+galaxies, the output broad-band images and spectral energy distributions are
+compared with observed galaxies from the multiwavelength SINGS and SLUGS galaxy
+surveys. Overall, the output spectral energy distributions show a good match
+with observed galaxies in colours ranging from GALEX far-UV to SCUBA
+submillimeter wavelengths. The only possible exception is the 160 micron/850
+micron colour, which the simulations underestimate by a factor "of order 5"
+compared to the SINGS sample. However, the simulations here agree with the
+SLUGS galaxies, which consistently have significantly larger amounts of cold
+dust than the SINGS galaxies. The Sunrise model can be used to generate
+simulated observations of arbitrary hydrodynamic galaxy simulations. In this
+way, predictions of galaxy formation theories can be directly tested against
+observations of galaxies.

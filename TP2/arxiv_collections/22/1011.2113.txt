@@ -1,0 +1,10 @@
+A-posteriori probability (APP) receivers operating over multiple-input,
+multiple-output channels provide enhanced bit error rate (BER) performance at
+the cost of increased complexity. However, employing full APP processing over
+favorable transmission environments, where less efficient approaches may
+already provide the required performance at a reduced complexity, results in
+unnecessary processing. For slowly varying channel statistics substantial
+complexity savings can be achieved by simple adaptive schemes. Such schemes
+track the BER performance and adjust the complexity of the soft output sphere
+decoder by adaptively setting the related log-likelihood ratio (LLR) clipping
+value.

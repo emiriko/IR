@@ -1,0 +1,23 @@
+In this paper, we present a fully fiber-based one-way Quantum Key
+Distribution (QKD) system implementing the Gaussian-Modulated Coherent States
+(GMCS) protocol. The system employs a double Mach-Zehnder Interferometer (MZI)
+configuration in which the weak quantum signal and the strong Local Oscillator
+(LO) go through the same fiber between Alice and Bob, and are separated into
+two paths inside Bob's terminal. To suppress the LO leakage into the signal
+path, which is an important contribution to the excess noise, we implemented a
+novel scheme combining polarization and frequency multiplexing, achieving an
+extinction ratio of 70dB. To further minimize the system excess noise due to
+phase drift of the double MZI, we propose that, instead of employing phase
+feedback control, one simply let Alice remap her data by performing a rotation
+operation. We further present noise analysis both theoretically and
+experimentally. Our calculation shows that the combined polarization and
+frequency multiplexing scheme can achieve better stability in practice than the
+time-multiplexing scheme, because it allows one to use matched fiber lengths
+for the signal and the LO paths on both sides of the double MZI, greatly
+reducing the phase instability caused by unmatched fiber lengths. Our
+experimental noise analysis quantifies the three main contributions to the
+excess noise, which will be instructive to future studies of the GMCS QKD
+systems. Finally, we demonstrate, under the "realistic model" in which Eve
+cannot control the system within Bob's terminal, a secure key rate of
+0.3bit/pulse over a 5km fiber link. This key rate is about two orders of
+magnitude higher than that of a practical BB84 QKD system.

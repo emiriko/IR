@@ -1,0 +1,21 @@
+We present several new examples of speed-ups obtainable by quantum algorithms
+in the context of property testing. First, motivated by sampling algorithms, we
+consider probability distributions given in the form of an oracle
+$f:[n]\to[m]$. Here the probability $\PP_f(j)$ of an outcome $j\in[m]$ is the
+fraction of its domain that $f$ maps to $j$. We give quantum algorithms for
+testing whether two such distributions are identical or $\epsilon$-far in
+$L_1$-norm. Recently, Bravyi, Hassidim, and Harrow \cite{BHH10} showed that if
+$\PP_f$ and $\PP_g$ are both unknown (i.e., given by oracles $f$ and $g$), then
+this testing can be done in roughly $\sqrt{m}$ quantum queries to the
+functions. We consider the case where the second distribution is known, and
+show that testing can be done with roughly $m^{1/3}$ quantum queries, which we
+prove to be essentially optimal. In contrast, it is known that classical
+testing algorithms need about $m^{2/3}$ queries in the unknown-unknown case and
+about $\sqrt{m}$ queries in the known-unknown case. Based on this result, we
+also reduce the query complexity of graph isomorphism testers with quantum
+oracle access. While those examples provide polynomial quantum speed-ups, our
+third example gives a much larger improvement (constant quantum queries vs
+polynomial classical queries) for the problem of testing periodicity, based on
+Shor's algorithm and a modification of a classical lower bound by Lachish and
+Newman \cite{lachish&newman:periodicity}. This provides an alternative to a
+recent constant-vs-polynomial speed-up due to Aaronson \cite{aaronson:bqpph}.

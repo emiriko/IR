@@ -1,0 +1,16 @@
+Differential privacy is a notion of privacy that has become very popular in
+the database community. Roughly, the idea is that a randomized query mechanism
+provides sufficient privacy protection if the ratio between the probabilities
+of two different entries to originate a certain answer is bound by e^\epsilon.
+In the fields of anonymity and information flow there is a similar concern for
+controlling information leakage, i.e. limiting the possibility of inferring the
+secret information from the observables. In recent years, researchers have
+proposed to quantify the leakage in terms of the information-theoretic notion
+of mutual information. There are two main approaches that fall in this
+category: One based on Shannon entropy, and one based on R\'enyi's min entropy.
+The latter has connection with the so-called Bayes risk, which expresses the
+probability of guessing the secret. In this paper, we show how to model the
+query system in terms of an information-theoretic channel, and we compare the
+notion of differential privacy with that of mutual information. We show that
+the notion of differential privacy is strictly stronger, in the sense that it
+implies a bound on the mutual information, but not viceversa.

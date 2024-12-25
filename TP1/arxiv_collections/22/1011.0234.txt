@@ -1,0 +1,18 @@
+We study, both analytically and numerically, the cascade of failures in two
+coupled network systems A and B, where multiple support-dependent relations are
+randomly built between nodes of networks A and B. In our model we assume that
+each node in one network can function only if it has at least a single support
+node in the other network. If both networks A and B are Erd\H{o}s-R\'enyi
+networks, A and B, with (i) sizes $N^A$ and $N^B$, (ii) average degrees $a$ and
+$b$, and (iii) $c^{AB}_0N^B$ support links from network A to B and
+$c^{BA}_0N^B$ support links from network B to A, we find that under random
+attack with removal of fractions $(1-R^A)N^A$ and $(1-R^B)N^B$ nodes
+respectively, the percolating giant components of both networks at the end of
+the cascading failures, $\mu^A_\infty$ and $\mu^B_\infty$, are given by the
+percolation laws $\mu^A_\infty = R^A [1-\exp{({-c^{BA}_0\mu^B_\infty})}]
+[1-\exp{({-a\mu^A_\infty})}]$ and $\mu^B_\infty = R^B
+[1-\exp{({-c^{AB}_0\mu^A_\infty})}] [1-\exp{({-b\mu^B_\infty})}]$. In the limit
+of $c^{BA}_0 \to \infty$ and $c^{AB}_0 \to \infty$, both networks become
+independent, and the giant components are equivalent to a random attack on a
+single Erd\H{o}s-R\'enyi network. We also test our theory on two coupled
+scale-free networks, and find good agreement with the simulations.

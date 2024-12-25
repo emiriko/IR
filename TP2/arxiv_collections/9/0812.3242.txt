@@ -1,0 +1,14 @@
+A thorough study of shear stress within the lattice Boltzmann method is
+provided. Via standard multiscale Chapman-Enskog expansion we investigate the
+dependence of the error in shear stress on grid resolution showing that the
+shear stress obtained by the lattice Boltzmann method is second order accurate.
+This convergence, however, is usually spoiled by the boundary conditions. It is
+also investigated which value of the relaxation parameter minimizes the error.
+Furthermore, for simulations using velocity boundary conditions, an artificial
+mass increase is often observed. This is a consequence of the compressibility
+of the lattice Boltzmann fluid. We investigate this issue and derive an
+analytic expression for the time-dependence of the fluid density in terms of
+the Reynolds number, Mach number and a geometric factor for the case of a
+Poiseuille flow through a rectangular channel in three dimensions. Comparison
+of the analytic expression with results of lattice Boltzmann simulations shows
+excellent agreement.

@@ -1,0 +1,12 @@
+Web applications are becoming an essential part of our everyday lives. Many
+of our activities are dependent on the functionality and security of these
+applications. As the scale of these applications grows, injection
+vulnerabilities such as SQL injection are major security challenges for
+developers today. This paper presents the technique of automatic query
+sanitization to automatically remove SQL injection vulnerabilities in code. In
+our technique, a combination of static analysis and program transformation are
+used to automatically instrument web applications with sanitization code. We
+have implemented this technique in a tool named ASSIST (Automatic and Static
+SQL Injection Sanitization Tool) for protecting Java-based web applications.
+Our experimental evaluation showed that our technique is effective against SQL
+injection vulnerabilities and has a low overhead.

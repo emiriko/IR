@@ -1,0 +1,12 @@
+Let PT-DFA mean a deterministic finite automaton whose transition relation is
+a partial function. We present an algorithm for minimizing a PT-DFA in $O(m \lg
+n)$ time and $O(m+n+\alpha)$ memory, where $n$ is the number of states, $m$ is
+the number of defined transitions, and $\alpha$ is the size of the alphabet.
+Time consumption does not depend on $\alpha$, because the $\alpha$ term arises
+from an array that is accessed at random and never initialized. It is not
+needed, if transitions are in a suitable order in the input. The algorithm uses
+two instances of an array-based data structure for maintaining a refinable
+partition. Its operations are all amortized constant time. One instance
+represents the classical blocks and the other a partition of transitions. Our
+measurements demonstrate the speed advantage of our algorithm on PT-DFAs over
+an $O(\alpha n \lg n)$ time, $O(\alpha n)$ memory algorithm.

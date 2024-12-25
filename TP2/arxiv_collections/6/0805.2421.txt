@@ -1,0 +1,23 @@
+In this paper, we introduce malicious Bayesian congestion games as an
+extension to congestion games where players might act in a malicious way. In
+such a game each player has two types. Either the player is a rational player
+seeking to minimize her own delay, or - with a certain probability - the player
+is malicious in which case her only goal is to disturb the other players as
+much as possible.
+  We show that such games do in general not possess a Bayesian Nash equilibrium
+in pure strategies (i.e. a pure Bayesian Nash equilibrium). Moreover, given a
+game, we show that it is NP-complete to decide whether it admits a pure
+Bayesian Nash equilibrium. This result even holds when resource latency
+functions are linear, each player is malicious with the same probability, and
+all strategy sets consist of singleton sets. For a slightly more restricted
+class of malicious Bayesian congestion games, we provide easy checkable
+properties that are necessary and sufficient for the existence of a pure
+Bayesian Nash equilibrium.
+  In the second part of the paper we study the impact of the malicious types on
+the overall performance of the system (i.e. the social cost). To measure this
+impact, we use the Price of Malice. We provide (tight) bounds on the Price of
+Malice for an interesting class of malicious Bayesian congestion games.
+Moreover, we show that for certain congestion games the advent of malicious
+types can also be beneficial to the system in the sense that the social cost of
+the worst case equilibrium decreases. We provide a tight bound on the maximum
+factor by which this happens.

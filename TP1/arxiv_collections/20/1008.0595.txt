@@ -1,0 +1,11 @@
+The Johnson graph J(n,N) is defined as the graph whose vertices are the
+n-subsets of the set {1,2,...,N}, where two vertices are adjacent if they share
+exactly n - 1 elements. Unlike Johnson graphs, induced subgraphs of Johnson
+graphs (JIS for short) do not seem to have been studied before. We give some
+necessary conditions and some sufficient conditions for a graph to be JIS,
+including: in a JIS graph, any two maximal cliques share at most two vertices;
+all trees, cycles, and complete graphs are JIS; disjoint unions and Cartesian
+products of JIS graphs are JIS; every JIS graph of order n is an induced
+subgraph of J(m,2n) for some m <= n. This last result gives an algorithm for
+deciding if a graph is JIS. We also show that all JIS graphs are edge move
+distance graphs, but not vice versa.

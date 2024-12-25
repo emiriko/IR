@@ -1,0 +1,23 @@
+Background: The vast computational resources that became available during the
+past decade enabled the development and simulation of increasingly complex
+mathematical models of cancer growth. These models typically involve many free
+parameters whose determination is a substantial obstacle to model development.
+Direct measurement of biochemical parameters in vivo is often difficult and
+sometimes impracticable, while fitting them under data-poor conditions may
+result in biologically implausible values.
+  Results: We discuss different methodological approaches to estimate
+parameters in complex biological models. We make use of the high computational
+power of the Blue Gene technology to perform an extensive study of the
+parameter space in a model of avascular tumor growth. We explicitly show that
+the landscape of the cost function used to optimize the model to the data has a
+very rugged surface in parameter space. This cost function has many local
+minima with unrealistic solutions, including the global minimum corresponding
+to the best fit.
+  Conclusions: The case studied in this paper shows one example in which model
+parameters that optimally fit the data are not necessarily the best ones from a
+biological point of view. To avoid force-fitting a model to a dataset, we
+propose that the best model parameters should be found by choosing, among
+suboptimal parameters, those that match criteria other than the ones used to
+fit the model. We also conclude that the model, data and optimization approach
+form a new complex system, and point to the need of a theory that addresses
+this problem more generally.

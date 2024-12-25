@@ -1,0 +1,19 @@
+This paper presents an approach to estimating the health effects of an
+environmental hazard. The approach is general in nature, but is applied here to
+the case of air pollution. It uses a computer model involving ambient pollution
+and temperature inputs, to simulate the exposures experienced by individuals in
+an urban area, whilst incorporating the mechanisms that determine exposures.
+The output from the model comprises a set of daily exposures for a sample of
+individuals from the population of interest. These daily exposures are
+approximated by parametric distributions, so that the predictive exposure
+distribution of a randomly selected individual can be generated. These
+distributions are then incorporated into a hierarchical Bayesian framework
+(with inference using Markov Chain Monte Carlo simulation) in order to examine
+the relationship between short-term changes in exposures and health outcomes,
+whilst making allowance for long-term trends, seasonality, the effect of
+potential confounders and the possibility of ecological bias.
+  The paper applies this approach to particulate pollution (PM$_{10}$) and
+respiratory mortality counts for seniors in greater London ($\geq$65 years)
+during 1997. Within this substantive epidemiological study, the effects on
+health of ambient concentrations and (estimated) personal exposures are
+compared.

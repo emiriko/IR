@@ -1,0 +1,18 @@
+We propose a methodology for the automatic verification of safety properties
+of controllers based on dynamical systems, such as those typically used in
+avionics. In particular, our focus is on proving stability properties of
+software implementing linear and some non-linear controllers. We develop an
+abstract interpretation framework that follows closely the Lyapunov methods
+used in proofs at the model level and describe the corresponding abstract
+domains, which for linear systems consist of ellipsoidal constraints. These
+ellipsoidal domains provide abstractions for the values of state variables and
+must be combined with other domains that model the remaining variables in a
+program. Thus, the problem of automatically assigning the right type of
+abstract domain to each variable arises. We provide an algorithm that solves
+this classification problem in many practical cases and suggest how it could be
+generalized to more complicated cases. We then find a fixpoint by solving a
+matrix equation, which in the linear case is just the discrete Lyapunov
+equation. Contrary to most cases in software analysis, this fixpoint cannot be
+reached by the usual iterative method of propagating constraints until
+saturation and so numerical methods become essential. Finally, we illustrate
+our methodology with several examples.

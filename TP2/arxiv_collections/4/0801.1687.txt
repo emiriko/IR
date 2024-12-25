@@ -1,0 +1,22 @@
+We present a tractable method for synthesizing arbitrarily large concurrent
+programs, for a shared memory model with common hardware-available primitives
+such as atomic registers, compare-and-swap, load-linked/store conditional, etc.
+The programs we synthesize are dynamic: new processes can be created and added
+at run-time, and so our programs are not finite-state, in general.
+Nevertheless, we successfully exploit automatic synthesis and model-checking
+methods based on propositional temporal logic. Our method is algorithmically
+efficient, with complexity polynomial in the number of component processes (of
+the program) that are ``alive'' at any time. Our method does not explicitly
+construct the automata-theoretic product of all processes that are alive,
+thereby avoiding \intr{state explosion}. Instead, for each pair of processes
+which interact, our method constructs an automata-theoretic product
+(\intr{pair-machine}) which embodies all the possible interactions of these two
+processes. From each pair-machine, we can synthesize a correct
+\intr{pair-program} which coordinates the two involved processes as needed. We
+allow such pair-programs to be added dynamically at run-time. They are then
+``composed conjunctively'' with the currently alive pair-programs to
+re-synthesize the program as it results after addition of the new pair-program.
+We are thus able to add new behaviors, which result in new properties being
+satisfied, at run-time. We establish a ``large model'' theorem which shows that
+the synthesized large program inherits correctness properties from the
+pair-programs.

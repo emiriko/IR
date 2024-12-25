@@ -1,0 +1,16 @@
+In this paper, we consider the optimal design of photonic crystal band
+structures for two-dimensional square lattices. The mathematical formulation of
+the band gap optimization problem leads to an infinite-dimensional Hermitian
+eigenvalue optimization problem parametrized by the dielectric material and the
+wave vector. To make the problem tractable, the original eigenvalue problem is
+discretized using the finite element method into a series of finite-dimensional
+eigenvalue problems for multiple values of the wave vector parameter. The
+resulting optimization problem is large-scale and non-convex, with low
+regularity and non-differentiable objective. By restricting to appropriate
+eigenspaces, we reduce the large-scale non-convex optimization problem via
+reparametrization to a sequence of small-scale convex semidefinite programs
+(SDPs) for which modern SDP solvers can be efficiently applied. Numerical
+results are presented for both transverse magnetic (TM) and transverse electric
+(TE) polarizations at several frequency bands. The optimized structures exhibit
+patterns which go far beyond typical physical intuition on periodic media
+design.

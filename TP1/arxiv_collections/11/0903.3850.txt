@@ -1,0 +1,11 @@
+We propose a (limited) solution to the problem of constructing stream values
+defined by recursive equations that do not respect the guardedness condition.
+The guardedness condition is imposed on definitions of corecursive functions in
+Coq, AGDA, and other higher-order proof assistants. In this paper, we
+concentrate in particular on those non-guarded equations where recursive calls
+appear under functions. We use a correspondence between streams and functions
+over natural numbers to show that some classes of non-guarded definitions can
+be modelled through the encoding as structural recursive functions. In
+practice, this work extends the class of stream values that can be defined in a
+constructive type theory-based theorem prover with inductive and coinductive
+types, structural recursion and guarded corecursion

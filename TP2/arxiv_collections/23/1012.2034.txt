@@ -1,0 +1,18 @@
+We define and study a new notion of "robust simulations" between complexity
+classes which is intermediate between the traditional notions of
+infinitely-often and almost-everywhere, as well as a corresponding notion of
+"significant separations". A language L has a robust simulation in a complexity
+class C if there is a language in C which agrees with L on arbitrarily large
+polynomial stretches of input lengths. There is a significant separation of L
+from C if there is no robust simulation of L in C. The new notion of simulation
+is a cleaner and more natural notion of simulation than the infinitely-often
+notion. We show that various implications in complexity theory such as the
+collapse of PH if NP = P and the Karp-Lipton theorem have analogues for robust
+simulations. We then use these results to prove that most known separations in
+complexity theory, such as hierarchy theorems, fixed polynomial circuit lower
+bounds, time-space tradeoffs, and the theorems of Allender and Williams, can be
+strengthened to significant separations, though in each case, an almost
+everywhere separation is unknown.
+  Proving our results requires several new ideas, including a completely
+different proof of the hierarchy theorem for non-deterministic polynomial time
+than the ones previously known.

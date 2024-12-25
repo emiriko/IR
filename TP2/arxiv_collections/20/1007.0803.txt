@@ -1,0 +1,18 @@
+This paper asks a new question: how can we control the collective behavior of
+self-organized multi-agent systems? We try to answer the question by proposing
+a new notion called 'Soft Control', which keeps the local rule of the existing
+agents in the system. We show the feasibility of soft control by a case study.
+Consider the simple but typical distributed multi-agent model proposed by
+Vicsek et al. for flocking of birds: each agent moves with the same speed but
+with different headings which are updated using a local rule based on the
+average of its own heading and the headings of its neighbors. Most studies of
+this model are about the self-organized collective behavior, such as
+synchronization of headings. We want to intervene in the collective behavior
+(headings) of the group by soft control. A specified method is to add a special
+agent, called a 'Shill', which can be controlled by us but is treated as an
+ordinary agent by other agents. We construct a control law for the shill so
+that it can synchronize the whole group to an objective heading. This control
+law is proved to be effective analytically and numerically. Note that soft
+control is different from the approach of distributed control. It is a natural
+way to intervene in the distributed systems. It may bring out many interesting
+issues and challenges on the control of complex systems.

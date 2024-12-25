@@ -1,0 +1,18 @@
+The main goal of routing protocol is to efficiency delivers data from source
+to destination. All routing protocols are the same in this goal, but the way
+they adopt to achieve it is different, so routing strategy has an egregious
+role on the performance of an ad hoc network. Most of routing protocols
+proposed for ad hoc networks have a flat structure. These protocols expand the
+control overhead packets to discover or maintain a route. On the other hand a
+number of hierarchical-based routing protocols have been developed, mostly are
+based on layered design. These protocols improve network performances
+especially when the network size grows up since details about remote portion of
+network can be handled in an aggregate manner. Although, there is another
+approach to design a protocol called cross-layer design. Using this approach
+information can exchange between different layer of protocol stack, result in
+optimizing network performances.
+  In this paper, we intend to exert cross-layer design to optimize Cluster
+Based Routing Protocol (Cross-CBRP). Using NS-2 network simulator we evaluate
+rate of cluster head changes, throughput and packet delivery ratio. Comparisons
+denote that Cross-CBRP has better performances with respect to the original
+CBRP.

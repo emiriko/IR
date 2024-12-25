@@ -1,0 +1,12 @@
+The three-judges protocol, recently advocated by Mclver and Morgan as an
+example of stepwise refinement of security protocols, studies how to securely
+compute the majority function to reach a final verdict without revealing each
+individual judge's decision. We extend their protocol in two different ways for
+an arbitrary number of 2n+1 judges. The first generalisation is inherently
+centralised, in the sense that it requires a judge as a leader who collects
+information from others, computes the majority function, and announces the
+final result. A different approach can be obtained by slightly modifying the
+well-known dining cryptographers protocol, however it reveals the number of
+votes rather than the final verdict. We define a notion of conditional
+anonymity in order to analyse these two solutions. Both of them have been
+checked in the model checker MCMAS.

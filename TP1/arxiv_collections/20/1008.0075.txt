@@ -1,0 +1,11 @@
+We consider the following dynamic Boolean model introduced by van den Berg,
+Meester and White (1997). At time 0, let the nodes of the graph be a Poisson
+point process in R^d with constant intensity and let each node move
+independently according to Brownian motion. At any time t, we put an edge
+between every pair of nodes if their distance is at most r. We study three
+features in this model: detection (the time until a target point---fixed or
+moving---is within distance r from some node of the graph), coverage (the time
+until all points inside a finite box are detected by the graph), and
+percolation (the time until a given node belongs to the infinite connected
+component of the graph). We obtain precise asymptotics for these features by
+combining ideas from stochastic geometry, coupling and multi-scale analysis.

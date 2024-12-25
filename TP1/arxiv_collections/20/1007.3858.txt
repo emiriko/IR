@@ -1,0 +1,15 @@
+PRISM is an extension of Prolog with probabilistic predicates and built-in
+support for expectation-maximization learning. Constraint Handling Rules (CHR)
+is a high-level programming language based on multi-headed multiset rewrite
+rules.
+  In this paper, we introduce a new probabilistic logic formalism, called
+CHRiSM, based on a combination of CHR and PRISM. It can be used for high-level
+rapid prototyping of complex statistical models by means of "chance rules". The
+underlying PRISM system can then be used for several probabilistic inference
+tasks, including probability computation and parameter learning. We define the
+CHRiSM language in terms of syntax and operational semantics, and illustrate it
+with examples. We define the notion of ambiguous programs and define a
+distribution semantics for unambiguous programs. Next, we describe an
+implementation of CHRiSM, based on CHR(PRISM). We discuss the relation between
+CHRiSM and other probabilistic logic programming languages, in particular PCHR.
+Finally we identify potential application domains.

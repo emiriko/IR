@@ -1,0 +1,15 @@
+Several different measures for digraph width have appeared in the last few
+years. However, none of them shares all the "nice" properties of treewidth:
+First, being \emph{algorithmically useful} i.e. admitting polynomial-time
+algorithms for all $\MS1$-definable problems on digraphs of bounded width. And,
+second, having nice \emph{structural properties} i.e. being monotone under
+taking subdigraphs and some form of arc contractions. As for the former,
+(undirected) $\MS1$ seems to be the least common denominator of all reasonably
+expressive logical languages on digraphs that can speak about the edge/arc
+relation on the vertex set.The latter property is a necessary condition for a
+width measure to be characterizable by some version of the cops-and-robber game
+characterizing the ordinary treewidth. Our main result is that \emph{any
+reasonable} algorithmically useful and structurally nice digraph measure cannot
+be substantially different from the treewidth of the underlying undirected
+graph. Moreover, we introduce \emph{directed topological minors} and argue that
+they are the weakest useful notion of minors for digraphs.

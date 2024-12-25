@@ -1,0 +1,20 @@
+An answer to a query has a well-defined lineage expression (alternatively
+called how-provenance) that explains how the answer was derived. Recent work
+has also shown how to compute the lineage of a non-answer to a query. However,
+the cause of an answer or non-answer is a more subtle notion and consists, in
+general, of only a fragment of the lineage. In this paper, we adapt Halpern,
+Pearl, and Chockler's recent definitions of causality and responsibility to
+define the causes of answers and non-answers to queries, and their degree of
+responsibility. Responsibility captures the notion of degree of causality and
+serves to rank potentially many causes by their relative contributions to the
+effect. Then, we study the complexity of computing causes and responsibilities
+for conjunctive queries. It is known that computing causes is NP-complete in
+general. Our first main result shows that all causes to conjunctive queries can
+be computed by a relational query which may involve negation. Thus, causality
+can be computed in PTIME, and very efficiently so. Next, we study computing
+responsibility. Here, we prove that the complexity depends on the conjunctive
+query and demonstrate a dichotomy between PTIME and NP-complete cases. For the
+PTIME cases, we give a non-trivial algorithm, consisting of a reduction to the
+max-flow computation problem. Finally, we prove that, even when it is in PTIME,
+responsibility is complete for LOGSPACE, implying that, unlike causality, it
+cannot be computed by a relational query.

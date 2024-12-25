@@ -1,0 +1,12 @@
+A bicriteria approximation algorithm is presented for the unrooted traveling
+repairman problem, realizing increased profit in return for increased speedup
+of repairman motion. The algorithm generalizes previous results from the case
+in which all time windows are the same length to the case in which their
+lengths can range between l and 2. This analysis can extend to any range of
+time window lengths, following our earlier techniques. This relationship
+between repairman profit and speedup is applicable over a range of values that
+is dependent on the cost of putting the input in an especially desirable form,
+involving what are called "trimmed windows." For time windows with lengths
+between 1 and 2, the range of values for speedup $s$ for which our analysis
+holds is $1 \leq s \leq 6$. In this range, we establish an approximation ratio
+that is constant for any specific value of $s$.

@@ -1,0 +1,10 @@
+Set intersection is a fundamental operation in information retrieval and
+database systems. This paper introduces linear space data structures to
+represent sets such that their intersection can be computed in a worst-case
+efficient way. In general, given k (preprocessed) sets, with totally n
+elements, we will show how to compute their intersection in expected time
+O(n/sqrt(w)+kr), where r is the intersection size and w is the number of bits
+in a machine-word. In addition,we introduce a very simple version of this
+algorithm that has weaker asymptotic guarantees but performs even better in
+practice; both algorithms outperform the state of the art techniques in terms
+of execution time for both synthetic and real data sets and workloads.

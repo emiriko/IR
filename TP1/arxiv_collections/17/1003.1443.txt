@@ -1,0 +1,24 @@
+A well-studied class of functions in communication complexity are composed
+functions of the form $(f \comp g^n)(x,y)=f(g(x^1, y^1),..., g(x^n,y^n))$. This
+is a rich family of functions which encompasses many of the important examples
+in the literature. It is thus of great interest to understand what properties
+of $f$ and $g$ affect the communication complexity of $(f \comp g^n)$, and in
+what way.
+  Recently, Sherstov \cite{She09b} and independently Shi-Zhu \cite{SZ09b}
+developed conditions on the inner function $g$ which imply that the quantum
+communication complexity of $f \comp g^n$ is at least the approximate
+polynomial degree of $f$. We generalize both of these frameworks. We show that
+the pattern matrix framework of Sherstov works whenever the inner function $g$
+is {\em strongly balanced}---we say that $g: X \times Y \to \{-1,+1\}$ is
+strongly balanced if all rows and columns in the matrix $M_g=[g(x,y)]_{x,y}$
+sum to zero. This result strictly generalizes the pattern matrix framework of
+Sherstov \cite{She09b}, which has been a very useful idea in a variety of
+settings \cite{She08b,RS08,Cha07,LS09,CA08,BHN09}.
+  Shi-Zhu require that the inner function $g$ has small {\em spectral
+discrepancy}, a somewhat awkward condition to verify. We relax this to the
+usual notion of discrepancy. We also enhance the framework of composed
+functions studied so far by considering functions $F(x,y) = f(g(x,y))$, where
+the range of $g$ is a group $G$. When $G$ is Abelian, the analogue of the
+strongly balanced condition becomes a simple group invariance property of $g$.
+We are able to formulate a general lower bound on $F$ whenever $g$ satisfies
+this property.

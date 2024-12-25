@@ -1,0 +1,22 @@
+Current computational methods for exon-intron structure prediction from a
+cluster of transcript (EST, mRNA) data do not exhibit the time and space
+efficiency necessary to process large clusters of over than 20,000 ESTs and
+genes longer than 1Mb. Guaranteeing both accuracy and efficiency seems to be a
+computational goal quite far to be achieved, since accuracy is strictly related
+to exploiting the inherent redundancy of information present in a large
+cluster. We propose a fast method for the problem that combines two ideas: a
+novel algorithm of proved small time complexity for computing spliced
+alignments of a transcript against a genome, and an efficient algorithm that
+exploits the inherent redundancy of information in a cluster of transcripts to
+select, among all possible factorizations of EST sequences, those allowing to
+infer splice site junctions that are highly confirmed by the input data. The
+EST alignment procedure is based on the construction of maximal embeddings that
+are sequences obtained from paths of a graph structure, called Embedding Graph,
+whose vertices are the maximal pairings of a genomic sequence T and an EST P.
+The procedure runs in time linear in the size of P, T and of the output.
+PIntron, the software tool implementing our methodology, is able to process in
+a few seconds some critical genes that are not manageable by other gene
+structure prediction tools. At the same time, PIntron exhibits high accuracy
+(sensitivity and specificity) when compared with ENCODE data. Detailed
+experimental data, additional results and PIntron software are available at
+http://www.algolab.eu/PIntron.

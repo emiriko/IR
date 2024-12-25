@@ -1,0 +1,19 @@
+We consider the non-equilibrium dynamics of disordered systems as defined by
+a master equation involving transition rates between configurations (detailed
+balance is not assumed). To compute the important dynamical time scales in
+finite-size systems without simulating the actual time evolution which can be
+extremely slow, we propose to focus on first-passage times that satisfy
+'backward master equations'. Upon the iterative elimination of configurations,
+we obtain the exact renormalization rules that can be followed numerically. To
+test this approach, we study the statistics of some first-passage times for two
+disordered models : (i) for the random walk in a two-dimensional self-affine
+random potential of Hurst exponent $H$, we focus on the first exit time from a
+square of size $L \times L$ if one starts at the square center. (ii) for the
+dynamics of the ferromagnetic Sherrington-Kirkpatrick model of $N$ spins, we
+consider the first passage time $t_f$ to zero-magnetization when starting from
+a fully magnetized configuration. Besides the expected linear growth of the
+averaged barrier $\bar{\ln t_{f}} \sim N$, we find that the rescaled
+distribution of the barrier $(\ln t_{f})$ decays as $e^{- u^{\eta}}$ for large
+$u$ with a tail exponent of order $\eta \simeq 1.72$. This value can be simply
+interpreted in terms of rare events if the sample-to-sample fluctuation
+exponent for the barrier is $\psi_{width}=1/3$.

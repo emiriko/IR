@@ -1,0 +1,11 @@
+Recently, Indesteege et al. [1] had described attacks against 23 and 24-step
+SHA-512 at SAC '08. Their attacks are based on the differential path by Nikolic
+and Biryukov [2]. The reported complexities are $2^{44.9}$ and $2^{53}$ calls
+to the respective step reduced SHA-512 hash function. They provided colliding
+message pairs for 23-step SHA-512 but did not provide a colliding message pair
+for 24-step SHA-512. In this note we provide a colliding message pair for
+23-step SHA-512 and the first colliding message pair for 24-step SHA-512. Our
+attacks use the differential path first described by Sanadhya and Sarkar at
+ACISP '08 [3]. The complexities of our attacks are $2^{16.5}$ and $2^{34.5}$
+calls to the respective step reduced SHA-512 hash function. Complete details of
+the attacks will be provided in an extended version of this note.

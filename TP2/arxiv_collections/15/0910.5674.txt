@@ -1,0 +1,14 @@
+We use non-equilibrium dynamical mean-field theory in combination with a
+recently developed Quantum Monte Carlo impurity solver to study the real-time
+dynamics of a Hubbard model which is driven out of equilibrium by a sudden
+increase in the on-site repulsion U. We discuss the implementation of the
+self-consistency procedure and some important technical improvements of the QMC
+method. The exact numerical solution is compared to iterated perturbation
+theory, which is found to produce accurate results only for weak interaction or
+short times. Furthermore we calculate the spectral functions and the optical
+conductivity from a Fourier transform on the finite Keldysh contour, for which
+the numerically accessible timescales allow to resolve the formation of Hubbard
+bands and a gap in the strongly interacting regime. The spectral function, and
+all one-particle quantities that can be calculated from it, thermalize rapidly
+at the transition between qualitatively different weak- and strong-coupling
+relaxation regimes.

@@ -1,0 +1,8 @@
+The finite element computation of structures such as waveguides can lead to
+heavy computations when the length of the structure is large compared to the
+wavelength. Such waveguides can in fact be seen as one-dimensional periodic
+structures. In this paper a simple recursive method is presented to compute the
+global dynamic stiffness matrix of finite periodic structures. This allows to
+get frequency response functions with a small amount of computations. Examples
+are presented to show that the computing time is of order $\log_2 N$ where $N$
+is the number of periods of the waveguide.

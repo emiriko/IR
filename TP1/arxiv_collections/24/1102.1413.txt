@@ -1,0 +1,14 @@
+We propose three fast algorithms for solving the inverse problem of the
+thermoacoustic tomography corresponding to certain acquisition geometries. Two
+of these methods are designed to process the measurements done with point-like
+detectors placed on a circle (in 2D) or a sphere (in 3D) surrounding the object
+of interest. The third inversion algorithm works with the data measured by the
+integrating line detectors arranged in a cylindrical assembly rotating around
+the object. The number of operations required by these techniques is equal to
+O(n^3 log n) and O(n^3 log^2 n) for the 3D techniques (assuming the
+reconstruction grid with n^3 nodes) and to O(n^2 log n) for the 2D problem with
+n-by-n discretizetion grid. Numerical simulations show that our methods are at
+least two orders of magnitude faster than the existing algorithms, without any
+sacrifice in accuracy or stability. The results of reconstructions from real
+measurements done by the integrating line detectors are also presented, to
+demonstrate the practicality of our methods.

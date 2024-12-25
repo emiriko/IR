@@ -1,0 +1,13 @@
+Materials that exhibit loss or gain have a complex valued refractive index
+$n$. Nevertheless, when considering the propagation of optical pulses, using a
+complex $n$ is generally inconvenient -- hence the standard choice of
+real-valued refractive index, i.e. $n_s = \RealPart (\sqrt{n^2})$. However, an
+analysis of pulse propagation based on the second order wave equation shows
+that use of $n_s$ results in a wave vector \emph{different} to that actually
+exhibited by the propagating pulse. In contrast, an alternative definition $n_c
+= \sqrt{\RealPart (n^2)}$, always correctly provides the wave vector of the
+pulse. Although for small loss the difference between the two is negligible, in
+other cases it is significant; it follows that phase and group velocities are
+also altered. This result has implications for the description of pulse
+propagation in near resonant situations, such as those typical of metamaterials
+with negative (or otherwise exotic) refractive indices.

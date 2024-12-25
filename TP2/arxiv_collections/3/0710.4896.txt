@@ -1,0 +1,19 @@
+LAPACK and ScaLAPACK are arguably the defacto standard libraries among the
+scientific community for solving linear algebra problems on sequential,
+shared-memory and distributed-memory architectures. While ease of use was a
+major design goal for the ScaLAPACK project; with respect to its predecessor
+LAPACK; it is still a non-trivial exercise to develop a new code or modify an
+existing LAPACK code to exploit processor grids, distributed-array descriptors
+and the associated distributed-memory ScaLAPACK/PBLAS routines. In this paper,
+we introduce what we believe will be an invaluable development tool for the
+scientific code developer, which exploits ad-hoc polymorphism, derived-types,
+optional arguments, overloaded operators and conditional compilation in Fortran
+95, to provide wrappers to a subset of common linear algebra kernels. These
+wrappers are introduced to facilitate the abstraction of low-level details
+which are irrelevant to the science being performed, such as target platform
+and execution model. By exploiting this high-level library interface, only a
+single code source is required with mapping onto a diverse range of execution
+models performed at link-time with no user modification. We conclude with a
+case study whereby we describe application of the LAW library in the
+implementation of the well-known Chebyshev Matrix Exponentiation algorithm for
+Hermitian matrices.

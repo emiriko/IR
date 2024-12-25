@@ -1,0 +1,23 @@
+The following source coding problem was introduced by Birk and Kol: a sender
+holds a word $x\in\{0,1\}^n$, and wishes to broadcast a codeword to $n$
+receivers, $R_1,...,R_n$. The receiver $R_i$ is interested in $x_i$, and has
+prior \emph{side information} comprising some subset of the $n$ bits. This
+corresponds to a directed graph $G$ on $n$ vertices, where $i j$ is an edge iff
+$R_i$ knows the bit $x_j$. An \emph{index code} for $G$ is an encoding scheme
+which enables each $R_i$ to always reconstruct $x_i$, given his side
+information. The minimal word length of an index code was studied by
+Bar-Yossef, Birk, Jayram and Kol (FOCS 2006). They introduced a graph
+parameter, $\minrk_2(G)$, which completely characterizes the length of an
+optimal \emph{linear} index code for $G$. The authors of BBJK showed that in
+various cases linear codes attain the optimal word length, and conjectured that
+linear index coding is in fact \emph{always} optimal.
+  In this work, we disprove the main conjecture of BBJK in the following strong
+sense: for any $\epsilon > 0$ and sufficiently large $n$, there is an
+$n$-vertex graph $G$ so that every linear index code for $G$ requires codewords
+of length at least $n^{1-\epsilon}$, and yet a non-linear index code for $G$
+has a word length of $n^\epsilon$. This is achieved by an explicit
+construction, which extends Alon's variant of the celebrated Ramsey
+construction of Frankl and Wilson.
+  In addition, we study optimal index codes in various, less restricted,
+natural models, and prove several related properties of the graph parameter
+$\minrk(G)$.

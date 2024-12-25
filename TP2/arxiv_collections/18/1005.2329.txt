@@ -1,0 +1,10 @@
+We prove the following theorem. Suppose that $M$ is a trim DFA on the Boolean
+alphabet $0,1$. The language $\L(M)$ is well-ordered by the lexicographic order
+$\slex$ iff whenever the non sink states $q,q.0$ are in the same strong
+component, then $q.1$ is a sink. It is easy to see that this property is
+sufficient. In order to show the necessity, we analyze the behavior of a
+$\slex$-descending sequence of words. This property is used to obtain a
+polynomial time algorithm to determine, given a DFA $M$, whether $\L(M)$ is
+well-ordered by the lexicographic order. Last, we apply an argument in
+\cite{BE,BEa} to give a proof that the least nonregular ordinal is
+$\omega^\omega $.

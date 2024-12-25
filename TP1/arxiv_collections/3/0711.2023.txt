@@ -1,0 +1,16 @@
+Higher-order tensor decompositions are analogous to the familiar Singular
+Value Decomposition (SVD), but they transcend the limitations of matrices
+(second-order tensors). SVD is a powerful tool that has achieved impressive
+results in information retrieval, collaborative filtering, computational
+linguistics, computational vision, and other fields. However, SVD is limited to
+two-dimensional arrays of data (two modes), and many potential applications
+have three or more modes, which require higher-order tensor decompositions.
+This paper evaluates four algorithms for higher-order tensor decomposition:
+Higher-Order Singular Value Decomposition (HO-SVD), Higher-Order Orthogonal
+Iteration (HOOI), Slice Projection (SP), and Multislice Projection (MP). We
+measure the time (elapsed run time), space (RAM and disk space requirements),
+and fit (tensor reconstruction accuracy) of the four algorithms, under a
+variety of conditions. We find that standard implementations of HO-SVD and HOOI
+do not scale up to larger tensors, due to increasing RAM requirements. We
+recommend HOOI for tensors that are small enough for the available RAM and MP
+for larger tensors.

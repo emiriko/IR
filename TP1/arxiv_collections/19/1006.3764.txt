@@ -1,0 +1,18 @@
+In recent years, spatial and spatio-temporal modeling have become an
+important area of research in many fields (epidemiology, environmental studies,
+disease mapping). In this work we propose different spatial models to study
+hospital recruitment, including some potentially explicative variables.
+Interest is on the distribution per geographical unit of the ratio between the
+number of patients living in this geographical unit and the population in the
+same unit. Models considered are within the framework of Bayesian Latent
+Gaussian models. Our response variable is assumed to follow a binomial
+distribution, with logit link, whose parameters are the population in the
+geographical unit and the corresponding relative risk. The structured additive
+predictor accounts for effects of various covariates in an additive way,
+including smoothing functions of the covariates (for example spatial effect),
+linear effect of covariates. To approximate posterior marginals, which not
+available in closed form, we use integrated nested Laplace approximations
+(INLA), recently proposed for approximate Bayesian inference in latent Gaussian
+models. INLA has the advantage of giving very accurate approximations and being
+faster than McMC methods when the number of parameters does not exceed 6 (as it
+is in our case). Model comparisons are assessed using DIC criterion.

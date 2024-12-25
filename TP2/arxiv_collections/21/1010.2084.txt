@@ -1,0 +1,17 @@
+Libpsht (or "library for Performant Spherical Harmonic Transforms") is a
+collection of algorithms for efficient conversion between spatial-domain and
+spectral-domain representations of data defined on the sphere. The package
+supports transforms of scalars as well as spin-1 and spin-2 quantities, and can
+be used for a wide range of pixelisations (including HEALPix, GLESP and ECP).
+It will take advantage of hardware features like multiple processor cores and
+floating-point vector operations, if available. Even without this additional
+acceleration, the employed algorithms are among the most efficient (in terms of
+CPU time as well as memory consumption) currently being used in the
+astronomical community.
+  The library is written in strictly standard-conforming C90, ensuring
+portability to many different hard- and software platforms, and allowing
+straightforward integration with codes written in various programming languages
+like C, C++, Fortran, Python etc.
+  Libpsht is distributed under the terms of the GNU General Public License
+(GPL) version 2 and can be downloaded from
+http://sourceforge.net/projects/libpsht.

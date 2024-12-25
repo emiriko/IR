@@ -1,0 +1,13 @@
+We present an efficient parallel algorithm for statistical Molecular Dynamics
+simulations of ion tracks in solids. The method is based on the Rare Event
+Enhanced Domain following Molecular Dynamics (REED-MD) algorithm, which has
+been successfully applied to studies of, e.g., ion implantation into
+crystalline semiconductor wafers. We discuss the strategies for parallelizing
+the method, and we settle on a host-client type polling scheme in which a
+multiple of asynchronous processors are continuously fed to the host, which, in
+turn, distributes the resulting feed-back information to the clients. This
+real-time feed-back consists of, e.g., cumulative damage information or
+statistics updates necessary for the cloning in the rare event algorithm. We
+finally demonstrate the algorithm for radiation effects in a nuclear oxide
+fuel, and we show the balanced parallel approach with high parallel efficiency
+in multiple processor configurations.

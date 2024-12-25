@@ -1,0 +1,20 @@
+We present ROBO, a model and its companion code for the study of the
+interstellar medium (ISM). The aim is to provide an accurate description of the
+physical evolution of the ISM and to set the ground for an ancillary tool to be
+inserted in NBody-Tree-SPH (NB-TSPH) simulations of large scale structures in
+cosmological context or of the formation and evolution of individual galaxies.
+The ISM model consists of gas and dust. The gas chemical composition is
+regulated by a network of reactions that includes a large number of species
+(hydrogen and deuterium based molecules, helium, and metals). New reaction
+rates for the charge transfer in $\mathrm H^+$ and $\mathrm H_2$ collisions are
+presented. The dust contains the standard mixture of carbonaceous grains
+(graphite grains and PAHs) and silicates of which the model follows the
+formation and destruction by several processes. The model takes into account an
+accurate treatment of the cooling process, based on several physical
+mechanisms, and cooling functions recently reported in the literature. The
+model is applied to a wide range of the input parameters and the results for
+important quantities describing the physical state of the gas and dust are
+presented. The results are organized in a database suited to the artificial
+neural networks (ANNs). Once trained, the ANNs yield the same results obtained
+by ROBO, with great accuracy. We plan to develop ANNs suitably tailored for
+applications to NB-TSPH simulations of cosmological structures and/or galaxies.

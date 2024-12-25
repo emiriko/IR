@@ -1,0 +1,13 @@
+Our work addresses the enabling of the execution of highly parallel
+computations composed of loosely coupled serial jobs with no modifications to
+the respective applications, on large-scale systems. This approach allows
+new-and potentially far larger-classes of application to leverage systems such
+as the IBM Blue Gene/P supercomputer and similar emerging petascale
+architectures. We present here the challenges of I/O performance encountered in
+making this model practical, and show results using both micro-benchmarks and
+real applications on two large-scale systems, the BG/P and the SiCortex SC5832.
+Our preliminary benchmarks show that we can scale to 4096 processors on the
+Blue Gene/P and 5832 processors on the SiCortex with high efficiency, and can
+achieve thousands of tasks/sec sustained execution rates for parallel workloads
+of ordinary serial applications. We measured applications from two domains,
+economic energy modeling and molecular dynamics.

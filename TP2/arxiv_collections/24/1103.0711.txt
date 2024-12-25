@@ -1,0 +1,12 @@
+With the wide support for object serialization in object-oriented programming
+languages, persistent objects have become common place and most large
+object-oriented software systems rely on extensive amounts of persistent data.
+Such systems also evolve over time. Retrieving previously persisted objects
+from classes whose schema has changed is however difficult, and may lead to
+invalidating the consistency of the application. The ESCHER framework addresses
+these issues through an IDE-integrated approach that handles class schema
+evolution by managing versions of the code and generating transformation
+functions automatically. The infrastructure also enforces class invariants to
+prevent the introduction of potentially corrupt objects. This article describes
+a model for class attribute changes, a measure for class evolution robustness,
+four empirical studies, and the design and implementation of the ESCHER system.

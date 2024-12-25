@@ -1,0 +1,15 @@
+Grebogi, Ott and Yorke (Phys. Rev. A 38(7), 1988) have investigated the
+effect of finite precision on average period length of chaotic maps. They
+showed that the average length of periodic orbits ($T$) of a dynamical system
+scales as a function of computer precision ($\epsilon$) and the correlation
+dimension ($d$) of the chaotic attractor: $T \sim \epsilon^{-d/2}$. In this
+work, we are concerned with increasing the average period length which is
+desirable for chaotic cryptography applications. Our experiments reveal that
+random and chaotic switching of deterministic chaotic dynamical systems yield
+higher average length of periodic orbits as compared to simple sequential
+switching or absence of switching. To illustrate the application of switching,
+a novel generalization of the Logistic map that exhibits Robust Chaos (absence
+of attracting periodic orbits) is first introduced. We then propose a
+pseudo-random number generator based on chaotic switching between Robust Chaos
+maps which is found to successfully pass stringent statistical tests of
+randomness.

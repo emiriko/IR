@@ -1,0 +1,9 @@
+Splitting a secret s between several participants, we generate (for each
+value of s) shares for all participants. The goal: authorized groups of
+participants should be able to reconstruct the secret but forbidden ones get no
+information about it. In this paper we introduce several notions of non-
+perfect secret sharing, where some small information leak is permitted. We
+study its relation to the Kolmogorov complexity version of secret sharing
+(establishing some connection in both directions) and the effects of changing
+the secret size (showing that we can decrease the size of the secret and the
+information leak at the same time).

@@ -1,0 +1,19 @@
+Since the advent of wireless communication, the need for mobile ad hoc
+networks has been growing exponentially. This has opened up a Pandoras Box of
+algorithms for dealing with mobile ad hoc networks, or MANETs, as they are
+generally referred to. Most attempts made at evaluating these algorithms so far
+have focused on parameters such as throughput, packet delivery ratio, overhead
+etc. An analysis of the convergence times of these algorithms is still an open
+issue. The work carried out fills this gap by evaluating the algorithms on the
+basis of convergence time. Algorithms for MANETs can be classified into three
+categories: reactive, proactive, and hybrid protocols. In this project, we
+compare the convergence times of representative algorithms in each category,
+namely Ad hoc On Demand Distance Vector (AODV) reactive, Destination Sequence
+Distance Vector protocol (DSDV) proactive, and Temporally Ordered Routing
+Algorithm (TORA) hybrid. The algorithm performances are compared by simulating
+them in ns2. Tcl is used to conduct the simulations, while perl is used to
+extract data from the simulation output and calculate convergence time. The
+design of the experiments carried on is documented using Unified modeling
+Language. Also, a user interface is created using perl, which enables the user
+to either run a desired simulation and measure convergence time, or measure the
+convergence time of a simulation that has been run earlier.

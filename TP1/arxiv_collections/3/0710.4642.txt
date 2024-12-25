@@ -1,0 +1,12 @@
+A technique based on the sensitivity of the output to input waveform is
+presented for accurate propagation of delay information through a gate for the
+purpose of static timing analysis (STA) in the presence of noise. Conventional
+STA tools represent a waveform by its arrival time and slope. However, this is
+not an accurate way of modeling the waveform for the purpose of noise analysis.
+The key contribution of our work is the development of a method that allows
+efficient propagation of equivalent waveforms throughout the circuit.
+Experimental results demonstrate higher accuracy of the proposed
+sensitivity-based gate delay propagation technique, SGDP, compared to the best
+of existing approaches. SGDP is compatible with the current level of gate
+characterization in conventional ASIC cell libraries, and as a result, it can
+be easily incorporated into commercial STA tools to improve their accuracy.

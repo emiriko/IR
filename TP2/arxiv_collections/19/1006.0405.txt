@@ -1,0 +1,17 @@
+Multiplication of n-digit integers by long multiplication requires O(n^2)
+operations and can be time-consuming. In 1970 A. Schoenhage and V. Strassen
+published an algorithm capable of performing the task with only O(n log(n))
+arithmetic operations over the complex field C; naturally, finite-precision
+approximations to C are used and rounding errors need to be accounted for.
+Overall, using variable-precision fixed-point numbers, this results in an
+O(n(log(n))^(2+Epsilon))-time algorithm. However, to make this algorithm more
+efficient and practical we need to make use of hardware-based floating-point
+numbers. How do we deal with rounding errors? and how do we determine the
+limits of the fixed-precision hardware? Our solution is to use interval
+arithmetic to guarantee the correctness of results and determine the hardware's
+limits. We examine the feasibility of this approach and are able to report that
+75,000-digit base-256 integers can be handled using double-precision
+containment sets. This clearly demonstrates that our approach has practical
+potential; however, at this stage, our implementation does not yet compete with
+commercial ones, but we are able to demonstrate the feasibility of this
+technique.

@@ -1,0 +1,14 @@
+We describe a accurate and fast pixel-based statistical method to interpolate
+fields of arbitrary spin on the sphere. We call this method Fast and Lean
+Interpolation on the Sphere (FLINTS). The method predicts the optimal
+interpolated values based on the theory of isotropic Gaussian random fields and
+provides an accurate error estimate at no additional cost. We use this method
+to compute lensed Cosmic Microwave Background (CMB) maps precisely and quickly,
+achieving a relative precision of 0.02% at a HEALPix resolution of Nside=4096,
+for a bandlimit of l_max=4096 in the same time it takes to simulate the
+original, unlensed CMB map. The method is suitable for efficient, distributed
+memory parallelization. The power spectra of our lensed maps are accurate to
+better than 0.5% at l=3000 for the temperature, the E and B mode of the
+polarization. As expected theoretically, we demonstrate that, on realistic
+cases, this method is between two to three orders of magnitude more precise
+than other known interpolation methods for the same computational cost.

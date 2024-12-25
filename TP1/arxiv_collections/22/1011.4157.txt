@@ -1,0 +1,13 @@
+The purpose of this project was to design and implement a pipeline
+Analog-to-Digital Converter using 0.35um CMOS technology. Initial requirements
+of a 25-MHz conversion rate and 8-bits of resolution where the only given ones.
+Although additional secondary goals such as low power consumption and small
+area were stated. The architecture is based on a 1.5 bit per stage structure
+utilizing digital correction for each stage [12]. A differential switched
+capacitor circuit consisting of a cascade gm-C op-amp with 200MHz ft is used
+for sampling and amplification in each stage [12]. Differential dynamic
+comparators are used to implement the decision levels required for the 1.5-b
+per stage structure. Correction of the pipeline is accomplished by using
+digital correction circuit consist of D-latches and full-adders. Area and Power
+consumption of whole design was 0.24mm2 and 35mW respectively. The maximum
+sample rate at which the converter gave an adequate output was 33MHz.

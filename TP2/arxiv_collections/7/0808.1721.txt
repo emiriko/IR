@@ -1,0 +1,10 @@
+In this paper, we show our results on the bi-directional data exchange
+between the F-logic language supported by the Flora2 system and the OWL
+language. Most of the TBox and ABox axioms are translated preserving the
+semantics between the two representations, such as: proper inclusion,
+individual definition, functional properties, while some axioms and
+restrictions require a change in the semantics, such as: numbered and qualified
+cardinality restrictions. For the second case, we translate the OWL definite
+style inference rules into F-logic style constraints. We also describe a set of
+reasoning examples using the above translation, including the reasoning in
+Flora2 of a variety of ABox queries.

@@ -1,0 +1,11 @@
+Distance function to a compact set plays a central role in several areas of
+computational geometry. Methods that rely on it are robust to the perturbations
+of the data by the Hausdorff noise, but fail in the presence of outliers. The
+recently introduced distance to a measure offers a solution by extending the
+distance function framework to reasoning about the geometry of probability
+measures, while maintaining theoretical guarantees about the quality of the
+inferred information. A combinatorial explosion hinders working with distance
+to a measure as an ordinary (power) distance function. In this paper, we
+analyze an approximation scheme that keeps the representation linear in the
+size of the input, while maintaining the guarantees on the inference quality
+close to those for the exact (but costly) representation.

@@ -1,0 +1,20 @@
+We examine the {combinatorial} or {probabilistic} definition ("Boltzmann's
+principle") of the entropy or cross-entropy function $H \propto \ln \mathbb{W}$
+or $D \propto - \ln \mathbb{P}$, where $\mathbb{W}$ is the statistical weight
+and $\mathbb{P}$ the probability of a given realization of a system.
+Extremisation of $H$ or $D$, subject to any constraints, thus selects the "most
+probable" (MaxProb) realization. If the system is multinomial, $D$ converges
+asymptotically (for number of entities $N \back \to \back \infty$) to the
+Kullback-Leibler cross-entropy $D_{KL}$; for equiprobable categories in a
+system, $H$ converges to the Shannon entropy $H_{Sh}$. However, in many cases
+$\mathbb{W}$ or $\mathbb{P}$ is not multinomial and/or does not satisfy an
+asymptotic limit. Such systems cannot meaningfully be analysed with $D_{KL}$ or
+$H_{Sh}$, but can be analysed directly by MaxProb. This study reviews several
+examples, including (a) non-asymptotic systems; (b) systems with
+indistinguishable entities (quantum statistics); (c) systems with
+indistinguishable categories; (d) systems represented by urn models, such as
+"neither independent nor identically distributed" (ninid) sampling; and (e)
+systems representable in graphical form, such as decision trees and networks.
+Boltzmann's combinatorial definition of entropy is shown to be of greater
+importance for {"probabilistic inference"} than the axiomatic definition used
+in information theory.

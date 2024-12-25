@@ -1,0 +1,19 @@
+The exact period determination of a multi-periodic variable star based on its
+luminosity time series data is believed a task requiring skill and experience.
+Thus the majority of available time series analysis techniques require human
+intervention to some extent. The present work is dedicated to establish an
+automated method of period (or frequency) determination from the time series
+database of variable stars. Relying on the SigSpec method (Reegen 2007), the
+technique established here employs a statistically unbiased treatment of
+frequency-domain noise and avoids spurious (i. e. noise induced) and alias
+peaks to the highest possible extent. Several add-on's were incorporated to
+tailor SigSpec to our requirements. We present tests on 386 stars taken from
+ASAS2 project database. From the output file produced by SigSpec, the frequency
+with maximum spectral significance is chosen as the genuine frequency. Out of
+386 variable stars available in the ASAS2 database, our results contain 243
+periods recovered exactly and also 88 half periods, 42 different periods etc.
+SigSpec has the potential to be effectively used for fully automated period
+detection from variable stars' time series database. The exact detection of
+periods helps us to identify the type of variability and classify the variable
+stars, which provides a crucial information on the physical processes effective
+in stellar atmospheres.

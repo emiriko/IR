@@ -1,0 +1,13 @@
+We present a first-order theory of sequences with integer elements,
+Presburger arithmetic, and regular constraints, which can model significant
+properties of data structures such as arrays and lists. We give a decision
+procedure for the quantifier-free fragment, based on an encoding into the
+first-order theory of concatenation; the procedure has PSPACE complexity. The
+quantifier-free fragment of the theory of sequences can express properties such
+as sortedness and injectivity, as well as Boolean combinations of periodic and
+arithmetic facts relating the elements of the sequence and their positions
+(e.g., "for all even i's, the element at position i has value i+3 or 2i"). The
+resulting expressive power is orthogonal to that of the most expressive
+decidable logics for arrays. Some examples demonstrate that the fragment is
+also suitable to reason about sequence-manipulating programs within the
+standard framework of axiomatic semantics.

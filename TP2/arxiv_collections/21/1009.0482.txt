@@ -1,0 +1,10 @@
+We explore the possibility of using quantum walks on graphs to find
+structural anomalies, such as extra edges or loops, on a graph. We focus our
+attention on star graphs, whose edges are like spokes coming out of a central
+hub. If there are $N$ spokes, we show that a quantum walk can find an extra
+edge connecting two of the spokes or a spoke with a loop on it in $O(\sqrt{N})$
+steps. We initially find that if all of the spokes have loops except one, the
+walk will not find the spoke without a loop, but this can be fixed if we choose
+the phase with which the particle is reflected from the vertex without the
+loop. Consequently, quantum walks can, under some circumstances, be used to
+find structural anomalies in graphs.

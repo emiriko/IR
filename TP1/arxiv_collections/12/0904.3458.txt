@@ -1,0 +1,16 @@
+Software obfuscation or obscuring a software is an approach to defeat the
+practice of reverse engineering a software for using its functionality
+illegally in the development of another software. Java applications are more
+amenable to reverse engineering and re-engineering attacks through methods such
+as decompilation because Java class files store the program in a semi complied
+form called byte codes. The existing obfuscation systems obfuscate the Java
+class files. Obfuscated source code produce obfuscated byte codes and hence two
+level obfuscation (source code and byte code level) of the program makes it
+more resilient to reverse engineering attacks . But source code obfuscation is
+much more difficult due to richer set of programming constructs and the scope
+of the different variables used in the program and only very little progress
+has been made on this front. We in this paper are proposing a framework named
+JConstHide for hiding constants, especially integers in the java source codes,
+to defeat reverse engineering through decompilation. To the best of our
+knowledge, no data hiding software are available for java source code constant
+hiding.

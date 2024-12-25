@@ -1,0 +1,22 @@
+We study a class of discrete-time multi-agent systems modelling opinion
+dynamics with decaying confidence. We consider a network of agents where each
+agent has an opinion. At each time step, the agents exchange their opinion with
+their neighbors and update it by taking into account only the opinions that
+differ from their own less than some confidence bound. This confidence bound is
+decaying: an agent gives repetitively confidence only to its neighbors that
+approach sufficiently fast its opinion. Essentially, the agents try to reach an
+agreement with the constraint that it has to be approached no slower than a
+prescribed convergence rate. Under that constraint, global consensus may not be
+achieved and only local agreements may be reached. The agents reaching a local
+agreement form communities inside the network. In this paper, we analyze this
+opinion dynamics model: we show that communities correspond to asymptotically
+connected component of the network and give an algebraic characterization of
+communities in terms of eigenvalues of the matrix defining the collective
+dynamics. Finally, we apply our opinion dynamics model to address the problem
+of community detection in graphs. We propose a new formulation of the community
+detection problem based on eigenvalues of normalized Laplacian matrix of graphs
+and show that this problem can be solved using our opinion dynamics model. We
+consider three examples of networks, and compare the communities we detect with
+those obtained by existing algorithms based on modularity optimization. We show
+that our opinion dynamics model not only provides an appealing approach to
+community detection but that it is also effective.

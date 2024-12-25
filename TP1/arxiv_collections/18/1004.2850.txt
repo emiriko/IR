@@ -1,0 +1,16 @@
+A geometric graph is a graph drawn in the plane with vertices represented by
+points and edges as straight-line segments. A geometric graph contains a
+(k,l)-crossing family if there is a pair of edge subsets E_1,E_2 such that
+|E_1| = k and |E_2| = l, the edges in E_1 are pairwise crossing, the edges in
+E_2 are pairwise crossing, and every edges in E_1 is disjoint to every edge in
+E_2. We conjecture that for any fixed k,l, every n-vertex geometric graph with
+no (k,l)-crossing family has at most c_{k,l}n edges, where c_{k,l} is a
+constant that depends only on k and l. In this note, we show that every
+n-vertex geometric graph with no (k,k)-crossing family has at most c_kn\log n
+edges, where c_k is a constant that depends only on k, by proving a more
+general result which relates extremal function of a geometric graph F with
+extremal function of two completely disjoint copies of F. We also settle the
+conjecture for geometric graphs with no (2,1)-crossing family. As a direct
+application, this implies that for any circle graph F on 3 vertices, every
+n-vertex geometric graph that does not contain a matching whose intersection
+graph is F has at most O(n) edges.

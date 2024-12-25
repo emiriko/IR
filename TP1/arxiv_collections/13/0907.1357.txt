@@ -1,0 +1,9 @@
+Increasing the automaticity of proofs in deductive verification of C programs
+is a challenging task. When applied to industrial C programs known heuristics
+to generate simpler verification conditions are not efficient enough. This is
+mainly due to their size and a high number of irrelevant hypotheses. This work
+presents a strategy to reduce program verification conditions by selecting
+their relevant hypotheses. The relevance of a hypothesis is determined by the
+combination of a syntactic analysis and two graph traversals. The first graph
+is labeled by constants and the second one by the predicates in the axioms. The
+approach is applied on a benchmark arising in industrial program verification.

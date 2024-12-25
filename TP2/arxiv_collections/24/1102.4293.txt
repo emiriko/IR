@@ -1,0 +1,26 @@
+The comparison of computer generated protein structural models is an
+important element of protein structure prediction. It has many uses including
+model quality evaluation, selection of the final models from a large set of
+candidates or optimisation of parameters of energy functions used in
+template-free modelling and refinement. Although many protein comparison
+methods are available online on numerous web servers, they are not well suited
+for large scale model comparison: (1) they operate with methods designed to
+compare actual proteins, not the models of the same protein, (2) majority of
+them offer only a single pairwise structural comparison and are unable to scale
+up to a required order of thousands of comparisons. To bridge the gap between
+the protein and model structure comparison we have developed the Protein Models
+Comparator (pm-cmp). To be able to deliver the scalability on demand and handle
+large comparison experiments the pm-cmp was implemented "in the cloud".
+  Protein Models Comparator is a scalable web application for a fast
+distributed comparison of protein models with RMSD, GDT TS, TM-score and
+Q-score measures. It runs on the Google App Engine (GAE) cloud platform and is
+a showcase of how the emerging PaaS (Platform as a Service) technology could be
+used to simplify the development of scalable bioinformatics services. The
+functionality of pm-cmp is accessible through API which allows a full
+automation of the experiment submission and results retrieval. Protein Models
+Comparator is free software released on the Affero GNU Public Licence and is
+available with its source code at: http://www.infobiotics.org/pm-cmp
+  This article presents a new web application addressing the need for a
+large-scale model-specific protein structure comparison and provides an insight
+into the GAE (Google App Engine) platform and its usefulness in scientific
+computing.

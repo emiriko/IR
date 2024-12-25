@@ -1,0 +1,14 @@
+Non-repudiation protocols have an important role in many areas where secured
+transactions with proofs of participation are necessary. Formal methods are
+clever and without error, therefore using them for verifying such protocols is
+crucial. In this purpose, we show how to partially represent non-repudiation as
+a combination of authentications on the Fair Zhou-Gollmann protocol. After
+discussing its limits, we define a new method based on the handling of the
+knowledge of protocol participants. This method is very general and is of
+natural use, as it consists in adding simple annotations, like for
+authentication problems. The method is very easy to implement in tools able to
+handle participants knowledge. We have implemented it in the AVISPA Tool and
+analyzed the optimistic Cederquist-Corin- Dashti protocol, discovering two
+unknown attacks. This extension of the AVISPA Tool for handling non-repudiation
+opens a highway to the specification of many other properties, without any more
+change in the tool itself.

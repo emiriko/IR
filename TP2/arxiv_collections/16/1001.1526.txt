@@ -1,0 +1,13 @@
+In order to generate prime implicants for a given cube (minterm), most of
+minimization methods increase the dimension of this cube by removing one
+literal from it at a time. But there are two problems of exponential
+complexity. One of them is the selection of the order in which the literals are
+to be removed from the implicant at hand. The latter is the mechanism that
+checks whether a tentative literal removal is acceptable. The reduced Offset
+concept has been developed to avoid of these problems. This concept is based on
+positional-cube representation where each cube is represented by two n-bit
+strings. We show that each reduced Off-cube may be represented by a single
+n-bit string and propose a set of bitwise operations to be performed on such
+strings. The experiments on single-output benchmarks show that this approach
+can significantly speed up the minimization process, improve the quality of its
+results and reduce the amount of memory required for this aim.

@@ -1,0 +1,14 @@
+Cis-regulatory modules (CRMs) composed of multiple transcription factor
+binding sites (TFBSs) control gene expression in eukaryotic genomes.
+Comparative genomic studies have shown that these regulatory elements are more
+conserved across species due to evolutionary constraints. We propose a
+statistical method to combine module structure and cross-species orthology in
+de novo motif discovery. We use a hidden Markov model (HMM) to capture the
+module structure in each species and couple these HMMs through multiple-species
+alignment. Evolutionary models are incorporated to consider correlated
+structures among aligned sequence positions across different species. Based on
+our model, we develop a Markov chain Monte Carlo approach, MultiModule, to
+discover CRMs and their component motifs simultaneously in groups of
+orthologous sequences from multiple species. Our method is tested on both
+simulated and biological data sets in mammals and Drosophila, where significant
+improvement over other motif and module discovery methods is observed.

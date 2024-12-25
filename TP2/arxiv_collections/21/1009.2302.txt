@@ -1,0 +1,11 @@
+We propose a shrinkage procedure for simultaneous variable selection and
+estimation in generalized linear models (GLMs) with an explicit predictive
+motivation. The procedure estimates the coefficients by minimizing the
+Kullback-Leibler divergence of a set of predictive distributions to the
+corresponding predictive distributions for the full model, subject to an $l_1$
+constraint on the coefficient vector. This results in selection of a
+parsimonious model with similar predictive performance to the full model.
+Thanks to its similar form to the original lasso problem for GLMs, our
+procedure can benefit from available $l_1$-regularization path algorithms.
+Simulation studies and real-data examples confirm the efficiency of our method
+in terms of predictive performance on future observations.

@@ -1,0 +1,15 @@
+Securing communication channels is especially needed in wireless
+environments. But applying cipher mechanisms in software is limited by the
+calculation and energy resources of the mobile devices. If hardware is applied
+to realize cryptographic operations cost becomes an issue. In this paper we
+describe an approach which tackles all these three points. We implemented a
+hardware accelerator for polynomial multiplication in extended Galois fields
+(GF) applying Karatsuba's method iteratively. With this approach the area
+consumption is reduced to 2.1 mm^2 in comparison to. 6.2 mm^2 for the standard
+application of Karatsuba's method i.e. for recursive application. Our approach
+also reduces the energy consumption to 60 per cent of the original approach.
+The price we have to pay for these achievement is the increased execution time.
+In our implementation a polynomial multiplication takes 3 clock cycles whereas
+the recurisve Karatsuba approach needs only one clock cycle. But considering
+area, energy and calculation speed we are convinced that the benefits of our
+approach outweigh its drawback.

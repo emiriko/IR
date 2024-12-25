@@ -1,0 +1,15 @@
+An artificial neural network (ANN) is investigated as a tool for estimating
+rate coefficients for the collisional excitation of molecules. The performance
+of such a tool can be evaluated by testing it on a dataset of
+collisionally-induced transitions for which rate coefficients are already
+known: the network is trained on a subset of that dataset and tested on the
+remainder. Results obtained by this method are typically accurate to within a
+factor ~ 2.1 (median value) for transitions with low excitation rates and ~ 1.7
+for those with medium or high excitation rates, although 4% of the ANN outputs
+are discrepant by a factor of 10 more. The results suggest that ANNs will be
+valuable in extrapolating a dataset of collisional rate coefficients to include
+high-lying transitions that have not yet been calculated. For the asymmetric
+top molecules considered in this paper, the favored architecture is a
+cascade-correlation network that creates 16 hidden neurons during the course of
+training, with 3 input neurons to characterize the nature of the transition and
+one output neuron to provide the logarithm of the rate coefficient.

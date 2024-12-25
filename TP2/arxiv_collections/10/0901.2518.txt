@@ -1,0 +1,15 @@
+Generalised Symbolic Trajectory Evaluation (GSTE) is a high-capacity formal
+verification technique for hardware. GSTE uses abstraction, meaning that
+details of the circuit behaviour are removed from the circuit model. A
+semantics for GSTE can be used to predict and understand why certain circuit
+properties can or cannot be proven by GSTE. Several semantics have been
+described for GSTE. These semantics, however, are not faithful to the proving
+power of GSTE-algorithms, that is, the GSTE-algorithms are incomplete with
+respect to the semantics.
+  The abstraction used in GSTE makes it hard to understand why a specific
+property can, or cannot, be proven by GSTE. The semantics mentioned above
+cannot help the user in doing so. The contribution of this paper is a faithful
+semantics for GSTE. That is, we give a simple formal theory that deems a
+property to be true if-and-only-if the property can be proven by a GSTE-model
+checker. We prove that the GSTE algorithm is sound and complete with respect to
+this semantics.

@@ -1,0 +1,14 @@
+A more sums than differences (MSTD) set is a finite subset S of the integers
+such |S+S| > |S-S|. We show that the probability that a uniform random subset
+of {0, 1, ..., n} is an MSTD set approaches some limit rho > 4.28 x 10^{-4}.
+This improves the previous result of Martin and O'Bryant that there is a lower
+limit of at least 2 x 10^{-7}. Monte Carlo experiments suggest that rho \approx
+4.5 \x 10^{-4}. We present a deterministic algorithm that can compute rho up to
+arbitrary precision. We also describe the structure of a random MSTD subset S
+of {0, 1, ..., n}. We formalize the intuition that fringe elements are most
+significant, while middle elements are nearly unrestricted. For instance, the
+probability that any ``middle'' element is in S approaches 1/2 as n ->
+infinity, confirming a conjecture of Miller, Orosz, and Scheinerman. In
+general, our results work for any specification on the number of missing sums
+and the number of missing differences of S, with MSTD sets being a special
+case.

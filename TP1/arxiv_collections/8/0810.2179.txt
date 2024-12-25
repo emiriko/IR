@@ -1,0 +1,7 @@
+interpreters are tools to compute approximations for behaviors of a program.
+These approximations can then be used for optimisation or for error detection.
+In this paper, we show how to describe an abstract interpreter using the
+type-theory based theorem prover Coq, using inductive types for syntax and
+structural recursive programming for the abstract interpreter's kernel. The
+abstract interpreter can then be proved correct with respect to a Hoare logic
+for the programming language.

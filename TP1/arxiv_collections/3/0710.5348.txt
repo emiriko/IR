@@ -1,0 +1,13 @@
+This document describes our current effort to gridify Jade, a java-based
+environment for the autonomic management of clustered J2EE application servers,
+developed in the INRIA SARDES research team. Towards this objective, we use the
+java ProActive grid technology. We first present some of the challenges to turn
+such an autonomic management system initially dedicated to distributed
+applications running on clusters of machines, into one that can provide
+self-management capabilities to large-scale systems, i.e. deployed on grid
+infrastructures. This leads us to a brief state of the art on grid monitoring
+systems. Then, we recall the architecture of Jade, and consequently propose to
+reorganize it in a potentially more scalable way. Practical experiments pertain
+to the use of the grid deployment feature offered by ProActive to easily
+conduct the deployment of the Jade system or its revised version on any sort of
+grid.

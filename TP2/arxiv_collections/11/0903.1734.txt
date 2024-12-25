@@ -1,0 +1,11 @@
+To improve unstructured P2P system performance, one wants to minimize the
+number of peers that have to be probed for the shortening of the search time. A
+solution to the problem is to employ a replication scheme, which provides high
+hit rate for target files. Replication can also provide load balancing and
+reduce access latency if the file is accessed by a large population of users.
+This paper briefly describes various replication schemes that have appeared in
+the literature and also focuses on a novel replication technique called
+Q-replication to increase availability of objects in unstructured P2P networks.
+The Q-replication technique replicates objects autonomously to suitable sites
+based on object popularity and site selection logic by extensively employing
+Q-learning concept.

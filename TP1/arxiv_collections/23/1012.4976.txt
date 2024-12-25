@@ -1,0 +1,11 @@
+In this paper, we demonstrate that policy iteration, introduced in the
+context of HJB equations in [Forsyth & Labahn, 2007], is an extremely simple
+generic algorithm for solving linear complementarity problems resulting from
+the finite difference and finite element approximation of American options. We
+show that, in general, O(N) is an upper and lower bound on the number of
+iterations needed to solve a discrete LCP of size N. If embedded in a class of
+standard discretisations with M time steps, the overall complexity of American
+option pricing is indeed only O(N(M+N)), and, therefore, for M N, identical to
+the pricing of European options, which is O(MN). We also discuss the numerical
+properties and robustness with respect to model parameters in relation to
+penalty and projected relaxation methods.

@@ -1,0 +1,20 @@
+An important question in health services research is the estimation of the
+proportion of medical expenditures that exceed a given threshold. Typically,
+medical expenditures present highly skewed, heavy tailed distributions, for
+which (a) simple variable transformations are insufficient to achieve a
+tractable low-dimensional parametric form and (b) nonparametric methods are not
+efficient in estimating exceedance probabilities for large thresholds.
+Motivated by this context, in this paper we propose a general Bayesian approach
+for the estimation of tail probabilities of heavy-tailed distributions, based
+on a mixture of gamma distributions in which the mixing occurs over the shape
+parameter. This family provides a flexible and novel approach for modeling
+heavy-tailed distributions, it is computationally efficient, and it only
+requires to specify a prior distribution for a single parameter. By carrying
+out simulation studies, we compare our approach with commonly used methods,
+such as the log-normal model and nonparametric alternatives. We found that the
+mixture-gamma model significantly improves predictive performance in estimating
+tail probabilities, compared to these alternatives. We also applied our method
+to the Medical Current Beneficiary Survey (MCBS), for which we estimate the
+probability of exceeding a given hospitalization cost for smoking attributable
+diseases. We have implemented the method in the open source GSM package,
+available from the Comprehensive R Archive Network.

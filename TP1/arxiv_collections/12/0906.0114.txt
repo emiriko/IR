@@ -1,0 +1,21 @@
+Motivation: Many biochemical pathways are known, but the numerous parameters
+required to correctly explore the dynamics of the pathways are not known. For
+this reason, algorithms that can make inferences by looking at the topology of
+a network are desirable. In this work, we are particular interested in the
+question of whether a given pathway can potentially harbor multiple stable
+steady states. In other words, the challenge is to find the set of parameters
+such that the dynamical system defined by a set of ordinary differential
+equations will contain multiple stable steady states. Being able to find
+parameters that cause a network to be bistable may also be benefitial for
+engineering synthetic bistable systems where the engineer needs to know a
+working set of parameters.
+  Result: We have developed an algorithm that optimizes the parameters of a
+dynamical system so that the system will contain at least one saddle or
+unstable point. The algorithm then looks at trajectories around this saddle or
+unstable point to see whether the different trajectories converge to different
+stable points. The algorithm returns the parameters that causes the system to
+exhibit multiple stable points. Since this is an optimization algorithm, it is
+not quaranteed to find a solution. Repeated runs are often required to find a
+solution for systems where only a narrow set of parameters exhibit bistability.
+  Availability: The C code for the algorithm is available at
+http://tinkercell.googlecode.com

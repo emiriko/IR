@@ -1,0 +1,18 @@
+Electoral control models ways of changing the outcome of an election via such
+actions as adding/deleting/partitioning either candidates or voters. These
+actions modify an election's participation structure and aim at either making a
+favorite candidate win ("constructive control") or prevent a despised candidate
+from winning ("destructive control"), which yields a total of 22 standard
+control scenarios. To protect elections from such control attempts,
+computational complexity has been used to show that electoral control, though
+not impossible, is computationally prohibitive. Among natural voting systems
+with a polynomial-time winner problem, the two systems with the highest number
+of proven resistances to control types (namely 19 out of 22) are
+"sincere-strategy preference-based approval voting" (SP-AV, a modification of a
+system proposed by Brams and Sanver) and fallback voting. Both are hybrid
+systems; e.g., fallback voting combines approval with Bucklin voting. In this
+paper, we study the control complexity of Bucklin voting itself and show that
+it behaves equally well in terms of control resistance for the 20 cases
+investigated so far. As Bucklin voting is a special case of fallback voting,
+all resistances shown for Bucklin voting in this paper strengthen the
+corresponding resistance for fallback voting.

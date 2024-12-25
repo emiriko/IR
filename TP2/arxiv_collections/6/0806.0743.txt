@@ -1,0 +1,17 @@
+A mini scale helicopter exhibits not only increased sensitivity to control
+inputs and disturbances, but also higher bandwidth of its dynamics. These
+properties make model helicopters, as a flying robot, more difficult to
+control. The dynamics model accuracy will determine the performance of the
+designed controller. It is attractive in this regards to have a controller that
+can accommodate the unmodeled dynamics or parameter changes and perform well in
+such situations. Coefficient Diagram Method (CDM) is chosen as the candidate to
+synthesize such a controller due to its simplicity and convenience in
+demonstrating integrated performance measures including equivalent time
+constant, stability indices and robustness. In this study, CDM is implemented
+for a design of multivariable controller for a small scale helicopter during
+hover and cruise flight. In the synthesis of MIMO CDM, good design common sense
+based on hands-on experience is necessary. The low level controller algorithm
+is designed as part of hybrid supervisory control architecture to be
+implemented on an onboard computer system. Its feasibility and performance are
+evaluated based on its robustness, desired time domain system responses and
+compliance to hard-real time requirements.

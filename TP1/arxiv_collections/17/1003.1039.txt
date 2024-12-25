@@ -1,0 +1,10 @@
+This note describes a parameter-free implementation of Central Force
+Optimization for deterministic multidimensional search and optimization. The
+user supplies only one input: the objective function to be maximized, nothing
+more. The CFO equations of motion are simplified by assigning specific values
+to CFO's basic parameters, and this particular algorithmic implementation also
+includes hardwired internal parameters so that none is user-specified. The
+algorithm's performance is tested against a widely used suite of twenty three
+benchmark functions and compared to other state-of-the-art algorithms. CFO
+performs very well indeed. Includes important update 20 March 2010 addressing
+the issue of different probes coalescing into one.

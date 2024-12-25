@@ -1,0 +1,19 @@
+We present two methods for detecting patterns and clusters in high
+dimensional time-dependent functional data. Our methods are based on
+wavelet-based similarity measures, since wavelets are well suited for
+identifying highly discriminant local time and scale features. The
+multiresolution aspect of the wavelet transform provides a time-scale
+decomposition of the signals allowing to visualize and to cluster the
+functional data into homogeneous groups. For each input function, through its
+empirical orthogonal wavelet transform the first method uses the distribution
+of energy across scales generate a handy number of features that can be
+sufficient to still make the signals well distinguishable. Our new similarity
+measure combined with an efficient feature selection technique in the wavelet
+domain is then used within more or less classical clustering algorithms to
+effectively differentiate among high dimensional populations. The second method
+uses dissimilarity measures between the whole time-scale representations and
+are based on wavelet-coherence tools. The clustering is then performed using a
+k-centroid algorithm starting from these dissimilarities. Practical performance
+of these methods that jointly designs both the feature selection in the wavelet
+domain and the classification distance is demonstrated through simulations as
+well as daily profiles of the French electricity power demand.

@@ -1,0 +1,16 @@
+We consider the matrix completion problem under a form of row/column weighted
+entrywise sampling, including the case of uniform entrywise sampling as a
+special case. We analyze the associated random observation operator, and prove
+that with high probability, it satisfies a form of restricted strong convexity
+with respect to weighted Frobenius norm. Using this property, we obtain as
+corollaries a number of error bounds on matrix completion in the weighted
+Frobenius norm under noisy sampling and for both exact and near low-rank
+matrices. Our results are based on measures of the "spikiness" and
+"low-rankness" of matrices that are less restrictive than the incoherence
+conditions imposed in previous work. Our technique involves an $M$-estimator
+that includes controls on both the rank and spikiness of the solution, and we
+establish non-asymptotic error bounds in weighted Frobenius norm for recovering
+matrices lying with $\ell_q$-"balls" of bounded spikiness. Using
+information-theoretic methods, we show that no algorithm can achieve better
+estimates (up to a logarithmic factor) over these same sets, showing that our
+conditions on matrices and associated rates are essentially optimal.

@@ -1,0 +1,16 @@
+We propose a general security definition for cryptographic quantum protocols
+that implement classical non-reactive two-party tasks. The definition is
+expressed in terms of simple quantum-information-theoretic conditions which
+must be satisfied by the protocol to be secure. The conditions are uniquely
+determined by the ideal functionality F defining the cryptographic task to be
+implemented. We then show the following composition result. If quantum
+protocols pi_1,...,pi_k securely implement ideal functionalities F_1,...,F_k
+according to our security definition, then any purely classical two-party
+protocol, which makes sequential calls to F_1,...,F_k, is equally secure as the
+protocol obtained by replacing the calls to F_1,...,F_k with the respective
+quantum protocols pi_1,...,pi_k. Hence, our approach yields the minimal
+security requirements which are strong enough for the typical use of quantum
+protocols as subroutines within larger classical schemes. Finally, we show that
+recently proposed quantum protocols for oblivious transfer and secure
+identification in the bounded-quantum-storage model satisfy our security
+definition, and thus compose in the above sense.

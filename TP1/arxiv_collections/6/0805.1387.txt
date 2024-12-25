@@ -1,0 +1,10 @@
+We design an adiabatic quantum algorithm for the counting problem, i.e.,
+approximating the proportion, $\alpha$, of the marked items in a given
+database. As the quantum system undergoes a designed cyclic adiabatic
+evolution, it acquires a Berry phase $2\pi\alpha$. By estimating the Berry
+phase, we can approximate $\alpha$, and solve the problem. For an error bound
+$\epsilon$, the algorithm can solve the problem with cost of order
+$(\frac{1}{\epsilon})^{3/2}$, which is not as good as the optimal algorithm in
+the quantum circuit model, but better than the classical random algorithm.
+Moreover, since the Berry phase is a purely geometric feature, the result may
+be robust to decoherence and resilient to certain noise.

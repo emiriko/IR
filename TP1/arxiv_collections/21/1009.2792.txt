@@ -1,0 +1,15 @@
+We present an approach to type theory in which the typing judgments do not
+have explicit contexts. Instead of judgments of shape "Gamma |- A : B", our
+systems just have judgments of shape "A : B". A key feature is that we
+distinguish free and bound variables even in pseudo-terms.
+  Specifically we give the rules of the "Pure Type System" class of type
+theories in this style. We prove that the typing judgments of these systems
+correspond in a natural way with those of Pure Type Systems as traditionally
+formulated. I.e., our systems have exactly the same well-typed terms as
+traditional presentations of type theory.
+  Our system can be seen as a type theory in which all type judgments share an
+identical, infinite, typing context that has infinitely many variables for each
+possible type. For this reason we call our system "Gamma_infinity". This name
+means to suggest that our type judgment "A : B" should be read as
+"Gamma_infinity |- A : B", with a fixed infinite type context called
+"Gamma_infinity".

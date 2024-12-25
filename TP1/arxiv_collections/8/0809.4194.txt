@@ -1,0 +1,10 @@
+This paper presents a new rate based call gapping method. The main advantage
+is that it provides maximal throughput, priority handling and fairness for
+traffic classes without queues, unlike Token Bucket which provides only the
+first two or Weighted Fair Queuing that uses queues. The Token Bucket is used
+for call gapping because it has good throughput characteristics. For this
+reason we present a mixture of the two methods keeping the good properties of
+both. A mathematical model has been developed to support our proposal. It
+defines the three requirements and proves theorems about if they are satisfied
+with the different call gapping mechanisms. Simulation, numerical results and
+statistical discussion are also presented to underpin the findings.

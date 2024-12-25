@@ -1,0 +1,16 @@
+The reversible Markov chains that drive the data augmentation (DA) and
+sandwich algorithms define self-adjoint operators whose spectra encode the
+convergence properties of the algorithms. When the target distribution has
+uncountable support, as is nearly always the case in practice, it is generally
+quite difficult to get a handle on these spectra. We show that, if the
+augmentation space is finite, then (under regularity conditions) the operators
+defined by the DA and sandwich chains are compact, and the spectra are finite
+subsets of $[0,1)$. Moreover, we prove that the spectrum of the sandwich
+operator dominates the spectrum of the DA operator in the sense that the
+ordered elements of the former are all less than or equal to the corresponding
+elements of the latter. As a concrete example, we study a widely used DA
+algorithm for the exploration of posterior densities associated with Bayesian
+mixture models [J. Roy. Statist. Soc. Ser. B 56 (1994) 363--375]. In
+particular, we compare this mixture DA algorithm with an alternative algorithm
+proposed by Fr\"{u}hwirth-Schnatter [J. Amer. Statist. Assoc. 96 (2001)
+194--209] that is based on random label switching.

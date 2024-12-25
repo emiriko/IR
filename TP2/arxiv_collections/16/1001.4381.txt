@@ -1,0 +1,8 @@
+Streams are infinite sequences over a given data type. A stream specification
+is a set of equations intended to define a stream. A core property is
+productivity: unfolding the equations produces the intended stream in the
+limit. In this paper we show that productivity is equivalent to termination
+with respect to the balanced outermost strategy of a TRS obtained by adding an
+additional rule. For specifications not involving branching symbols
+balancedness is obtained for free, by which tools for proving outermost
+termination can be used to prove productivity fully automatically.

@@ -1,0 +1,25 @@
+The Large Area Telescope (LAT), the main instrument of the Fermi Gamma-Ray
+Space Telescope, detects high energy gamma rays with energies from 20 MeV to
+more than 300 GeV. The two main scientific ob jectives, the study of the Milky
+Way diffuse background and the detection of point sources, are complicated by
+the lack of photons. That is why we need a powerful Poisson noise removal
+method on the sphere which is efficient on low count Poisson data. This paper
+presents a new multiscale decomposition on the sphere for data with Poisson
+noise, called Multi-Scale Variance Stabilizing Transform on the Sphere
+(MS-VSTS). This method is based on a Variance Stabilizing Transform (VST), a
+transform which aims to stabilize a Poisson data set such that each stabilized
+sample has a quasi constant variance. In addition, for the VST used in the
+method, the transformed data are asymptotically Gaussian. MS-VSTS consists of
+decomposing the data into a sparse multi-scale dictionary like wavelets or
+curvelets, and then applying a VST on the coefficients in order to get almost
+Gaussian stabilized coefficients. In this work, we use the Isotropic
+Undecimated Wavelet Transform (IUWT) and the Curvelet Transform as spherical
+multi-scale transforms. Then, binary hypothesis testing is carried out to
+detect significant coefficients, and the denoised image is reconstructed with
+an iterative algorithm based on Hybrid Steepest Descent (HSD). To detect point
+sources, we have to extract the Galactic diffuse background: an extension of
+the method to background separation is then proposed. In contrary, to study the
+Milky Way diffuse background, we remove point sources with a binary mask. The
+gaps have to be interpolated: an extension to inpainting is then proposed. The
+method, applied on simulated Fermi LAT data, proves to be adaptive, fast and
+easy to implement.

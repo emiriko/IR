@@ -1,0 +1,17 @@
+This paper is devoted to the study of the Monge-Kantorovich theory of optimal
+mass transport and its applications, in the special case of one-dimensional and
+circular distributions. More precisely, we study the Monge-Kantorovich
+distances between discrete sets of points on the unit circle, in the case where
+the ground distance between two points x and y is defined as h(d(x,y)), where d
+is the geodesic distance on the circle and h a convex and increasing function.
+We first prove that computing a Monge-Kantorovich distance between two given
+sets of pairwise different points boils down to cut the circle at a well chosen
+point and to compute the same distance on the real line. This result is then
+used to obtain a metric between 1D and circular discrete histograms, which can
+be computed in linear time. A particular case of this formula has already been
+used in [Rabin, Delon and Gousseau SIAM 09}] for the matching of local features
+between images, involving circular histograms of gradient orientations. In this
+paper, other applications are investigated, in particular dealing with the hue
+component of color images. In a last part, a study is conducted to compare the
+advantages and drawbacks of transportation distances relying on convex or
+concave cost functions, and of the classical L-1 distance.

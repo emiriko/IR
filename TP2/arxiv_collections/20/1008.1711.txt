@@ -1,0 +1,11 @@
+Non-equilibrium molecular dynamics simulations, of crucial importance in
+sliding friction, are hampered by arbitrariness and uncertainties in the way
+Joule heat is removed. We implement in a realistic frictional simulation a
+parameter-free, non-markovian, stochastic dynamics, which, as expected from
+theory, absorbs Joule heat precisely as a semi-infinite harmonic substrate
+would. Simulating stick-slip friction of a slider over a 2D Lennard-Jones
+solid, we compare our virtually exact frictional results with approximate ones
+from commonly adopted empirical dissipation schemes. While the latter are
+generally in serious error, we show that the exact results can be closely
+reproduced by a viscous Langevin dissipation at the boundary layer, once the
+back-reflected frictional energy is variationally optimized.

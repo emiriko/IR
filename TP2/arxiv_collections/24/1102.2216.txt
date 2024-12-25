@@ -1,0 +1,16 @@
+Memoryless channels with synchronization errors as defined by a stochastic
+channel matrix allowing for symbol insertions and deletions in addition to
+random errors are considered. Such channels are information stable, hence their
+Shannon capacity exists. However, computation of the channel capacity is
+formidable, and only some upper and lower bounds on the capacity (for some
+special cases) exist. In this short paper, using a simple methodology, we prove
+that the channel capacity is a convex function of the stochastic channel
+matrix. Since the more widely studied model of an independent identically
+distributed (i.i.d.) deletion channel is a particular case, as an immediate
+corollary to this result we also argue that the i.i.d. deletion channel
+capacity is a convex function of the deletion probability. We further use this
+result to improve the existing capacity upper bounds on the deletion channel by
+a proper "convexification" argument. In particular, we prove that the capacity
+of the deletion channel, as the deletion probability d --> 1, is upper bounded
+by $0.4143(1-d)$ (which was also observed by a different (weaker) recent
+result).

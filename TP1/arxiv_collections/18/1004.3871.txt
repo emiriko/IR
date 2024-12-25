@@ -1,0 +1,16 @@
+Stochastic differential equations (SDEs) are established tools to model
+physical phenomena whose dynamics are affected by random noise. By estimating
+parameters of an SDE intrinsic randomness of a system around its drift can be
+identified and separated from the drift itself. When it is of interest to model
+dynamics within a given population, i.e. to model simultaneously the
+performance of several experiments or subjects, mixed-effects modelling allows
+for the distinction of between and within experiment variability. A framework
+to model dynamics within a population using SDEs is proposed, representing
+simultaneously several sources of variation: variability between experiments
+using a mixed-effects approach and stochasticity in the individual dynamics
+using SDEs. These "stochastic differential mixed-effects models" have
+applications in e.g. pharmacokinetics/pharmacodynamics and biomedical
+modelling. A parameter estimation method is proposed and computational
+guidelines for an efficient implementation are given. Finally the method is
+evaluated using simulations from standard models like the two-dimensional
+Ornstein-Uhlenbeck (OU) and the square root models.

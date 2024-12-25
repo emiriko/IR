@@ -1,0 +1,14 @@
+We present a simplified framework for proving sequential composability in the
+quantum setting. In particular, we give a new, simulation-based, definition for
+security in the bounded-quantum-storage model, and show that this definition
+allows for sequential composition of protocols. Damgard et al. (FOCS '05,
+CRYPTO '07) showed how to securely implement bit commitment and oblivious
+transfer in the bounded-quantum-storage model, where the adversary is only
+allowed to store a limited number of qubits. However, their security
+definitions did only apply to the standalone setting, and it was not clear if
+their protocols could be composed. Indeed, we first give a simple attack that
+shows that these protocols are not composable without a small refinement of the
+model. Finally, we prove the security of their randomized oblivious transfer
+protocol in our refined model. Secure implementations of oblivious transfer and
+bit commitment then follow easily by a (classical) reduction to randomized
+oblivious transfer.

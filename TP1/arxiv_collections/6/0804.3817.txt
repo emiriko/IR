@@ -1,0 +1,11 @@
+We study the problem of learning k-juntas given access to examples drawn from
+a number of different product distributions. Thus we wish to learn a function f
+: {-1,1}^n -> {-1,1} that depends on k (unknown) coordinates. While the best
+known algorithms for the general problem of learning a k-junta require running
+time of n^k * poly(n,2^k), we show that given access to k different product
+distributions with biases separated by \gamma>0, the functions may be learned
+in time poly(n,2^k,\gamma^{-k}). More generally, given access to t <= k
+different product distributions, the functions may be learned in time n^{k/t} *
+poly(n,2^k,\gamma^{-k}). Our techniques involve novel results in Fourier
+analysis relating Fourier expansions with respect to different biases and a
+generalization of Russo's formula.

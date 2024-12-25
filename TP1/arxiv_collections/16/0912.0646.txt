@@ -1,0 +1,16 @@
+We explain how to implement, in the context of projected entangled-pair
+states (PEPS), the general procedure of fermionization of a tensor network
+introduced in [P. Corboz, G. Vidal, Phys. Rev. B 80, 165129 (2009)]. The
+resulting fermionic PEPS, similar to previous proposals, can be used to study
+the ground state of interacting fermions on a two-dimensional lattice. As in
+the bosonic case, the cost of simulations depends on the amount of entanglement
+in the ground state and not directly on the strength of interactions. The
+present formulation of fermionic PEPS leads to a straightforward numerical
+implementation that allowed us to recycle much of the code for bosonic PEPS. We
+demonstrate that fermionic PEPS are a useful variational ansatz for interacting
+fermion systems by computing approximations to the ground state of several
+models on an infinite lattice. For a model of interacting spinless fermions,
+ground state energies lower than Hartree-Fock results are obtained, shifting
+the boundary between the metal and charge-density wave phases. For the t-J
+model, energies comparable with those of a specialized Gutzwiller-projected
+ansatz are also obtained.

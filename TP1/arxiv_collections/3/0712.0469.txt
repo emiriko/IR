@@ -1,0 +1,13 @@
+PageRank is a ranking of the web pages that measures how often a given web
+page is visited by a random surfer on the web graph, for a simple model of web
+surfing. It seems realistic that PageRank may also have an influence on the
+behavior of web surfers. We propose here a simple model taking into account the
+mutual influence between web ranking and web surfing. Our ranking, the
+T-PageRank, is a nonlinear generalization of the PageRank. It is defined as the
+limit, if it exists, of some nonlinear iterates. A positive parameter T, the
+temperature, measures the confidence of the web surfer in the web ranking. We
+prove that, when the temperature is large enough, the T-PageRank is unique and
+the iterates converge globally on the domain. But when the temperature is
+small, there may be several T-PageRanks, that may strongly depend on the
+initial ranking. Our analysis uses results of nonlinear Perron-Frobenius
+theory, Hilbert projective metric and Birkhoff's coefficient of ergodicity.

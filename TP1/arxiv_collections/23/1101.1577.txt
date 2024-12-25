@@ -1,0 +1,22 @@
+In this paper, we investigate the theoretical guarantees of penalized $\lun$
+minimization (also called Basis Pursuit Denoising or Lasso) in terms of
+sparsity pattern recovery (support and sign consistency) from noisy
+measurements with non-necessarily random noise, when the sensing operator
+belongs to the Gaussian ensemble (i.e. random design matrix with i.i.d.
+Gaussian entries). More precisely, we derive sharp non-asymptotic bounds on the
+sparsity level and (minimal) signal-to-noise ratio that ensure support
+identification for most signals and most Gaussian sensing matrices by solving
+the Lasso problem with an appropriately chosen regularization parameter. Our
+first purpose is to establish conditions allowing exact sparsity pattern
+recovery when the signal is strictly sparse. Then, these conditions are
+extended to cover the compressible or nearly sparse case. In these two results,
+the role of the minimal signal-to-noise ratio is crucial. Our third main result
+gets rid of this assumption in the strictly sparse case, but this time, the
+Lasso allows only partial recovery of the support. We also provide in this case
+a sharp $\ell_2$-consistency result on the coefficient vector. The results of
+the present work have several distinctive features compared to previous ones.
+One of them is that the leading constants involved in all the bounds are sharp
+and explicit. This is illustrated by some numerical experiments where it is
+indeed shown that the sharp sparsity level threshold identified by our
+theoretical results below which sparsistency of the Lasso is guaranteed meets
+that empirically observed.

@@ -1,0 +1,24 @@
+Given a directed graph G = (V,E) and an integer k>=1, a
+k-transitive-closure-spanner (k-TC-spanner) of G is a directed graph H = (V,
+E_H) that has (1) the same transitive-closure as G and (2) diameter at most k.
+These spanners were implicitly studied in access control, data structures, and
+property testing, and properties of these spanners have been rediscovered over
+the span of 20 years. The main goal in each of these applications is to obtain
+the sparsest k-TC-spanners. We bring these diverse areas under the unifying
+framework of TC-spanners.
+  We initiate the study of approximability of the size of the sparsest
+k-TC-spanner for a given directed graph. We completely resolve the
+approximability of 2-TC-spanners, showing that it is Theta(log n) unless P =
+NP. For k>2, we present a polynomial-time algorithm that finds a k-TC-spanner
+with size within O((n log n)^{1-1/k}) of the optimum. Our algorithmic
+techniques also yield algorithms with the best-known approximation ratio for
+well-studied problems on directed spanners when k>3: DIRECTED k-SPANNER,
+CLIENT/SERVER DIRECTED k-SPANNER, and k-DIAMETER SPANNING SUBGRAPH. For
+constant k>=3, we show that the size of the sparsest k-TC-spanner is hard to
+approximate with 2^{log^{1-eps} n} ratio unless NP \subseteq DTIME(n^{polylog
+n}}). Finally, we study the size of the sparsest k-TC-spanners for H-minor-free
+graph families. Combining our constructions with our insight that 2-TC-spanners
+can be used for designing property testers, we obtain a monotonicity tester
+with O(log^2 n /eps) queries for any poset whose transitive reduction is an
+H-minor free digraph, improving the Theta(sqrt(n) log n/eps)-queries required
+of the tester due to Fischer et al (2002).

@@ -1,0 +1,23 @@
+This paper studies the problem of neighbor discovery in wireless networks,
+namely, each node wishes to discover and identify the network interface
+addresses (NIAs) of those nodes within a single hop. A novel paradigm, called
+compressed neighbor discovery is proposed, which enables all nodes to
+simultaneously discover their respective neighborhoods with a single frame of
+transmission, which is typically of a few thousand symbol epochs. The key
+technique is to assign each node a unique on-off signature and let all nodes
+simultaneously transmit their signatures. Despite that the radios are
+half-duplex, each node observes a superposition of its neighbors' signatures
+(partially) through its own off-slots. To identify its neighbors out of a large
+network address space, each node solves a compressed sensing (or sparse
+recovery) problem.
+  Two practical schemes are studied. The first employs random on-off
+signatures, and each node discovers its neighbors using a noncoherent detection
+algorithm based on group testing. The second scheme uses on-off signatures
+based on a deterministic second-order Reed-Muller code, and applies a chirp
+decoding algorithm. The second scheme needs much lower signal-to-noise ratio
+(SNR) to achieve the same error performance. The complexity of the chirp
+decoding algorithm is sub-linear, so that it is in principle scalable to
+networks with billions of nodes with 48-bit IEEE 802.11 MAC addresses. The
+compressed neighbor discovery schemes are much more efficient than conventional
+random-access discovery, where nodes have to retransmit over many frames with
+random delays to be successfully discovered.

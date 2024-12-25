@@ -1,0 +1,14 @@
+In intensity-modulated radiation therapy, optimal intensity distributions of
+incoming beams are decomposed into linear combinations of leaf openings of a
+multileaf collimator (segments). In order to avoid inefficient dose delivery,
+the decomposition should satisfy a number of dosimetric constraints due to
+suboptimal dose characteristics of small segments. However, exact decomposition
+with dosimetric constraints is only in limited cases possible. The present work
+introduces new heuristic segmentation algorithms for the following optimization
+problem: Find a segmentation of an approximated matrix using only allowed
+fields and minimize the approximation error. Finally, the decomposition
+algorithms were implemented into an optimization programme in order to examine
+the assumptions of the algorithms for a clinical example. As a result,
+identical dose distributions with much fewer segments and a significantly
+smaller number of monitor units could be achieved using dosimetric constraints.
+Consequently, the dose delivery is more efficient and less time consuming.

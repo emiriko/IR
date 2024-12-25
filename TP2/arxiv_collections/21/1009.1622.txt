@@ -1,0 +1,22 @@
+Stellar physics and evolution calculations enable a broad range of research
+in astrophysics. Modules for Experiments in Stellar Astrophysics (MESA) is a
+suite of open source libraries for a wide range of applications in
+computational stellar astrophysics. A newly designed 1-D stellar evolution
+module, MESA star, combines many of the numerical and physics modules for
+simulations of a wide range of stellar evolution scenarios ranging from
+very-low mass to massive stars, including advanced evolutionary phases. MESA
+star solves the fully coupled structure and composition equations
+simultaneously. It uses adaptive mesh refinement and sophisticated timestep
+controls, and supports shared memory parallelism based on OpenMP. Independently
+usable modules provide equation of state, opacity, nuclear reaction rates, and
+atmosphere boundary conditions. Each module is constructed as a separate
+Fortran 95 library with its own public interface. Examples include comparisons
+to other codes and show evolutionary tracks of very low mass stars, brown
+dwarfs, and gas giant planets; the complete evolution of a 1 Msun star from the
+pre-main sequence to a cooling white dwarf; the Solar sound speed profile; the
+evolution of intermediate mass stars through the thermal pulses on the He-shell
+burning AGB phase; the interior structure of slowly pulsating B Stars and Beta
+Cepheids; evolutionary tracks of massive stars from the pre-main sequence to
+the onset of core collapse; stars undergoing Roche lobe overflow; and accretion
+onto a neutron star. Instructions for downloading and installing MESA can be
+found on the project web site (http://mesa.sourceforge.net/).

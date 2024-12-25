@@ -1,0 +1,21 @@
+Data warehouses are overwhelmingly built through a bottom-up process, which
+starts with the identification of sources, continues with the extraction and
+transformation of data from these sources, and then loads the data into a set
+of data marts according to desired multidimensional relational schemas. End
+user business intelligence tools are added on top of the materialized
+multidimensional schemas to drive decision making in an organization.
+Unfortunately, this bottom-up approach is costly both in terms of the skilled
+users needed and the sheer size of the warehouses. This paper proposes a
+top-down framework in which data warehousing is driven by a conceptual model.
+The framework offers both design time and run time environments. At design
+time, a business user first uses the conceptual modeling language as a
+multidimensional object model to specify what business information is needed;
+then she maps the conceptual model to a pre-existing logical multidimensional
+representation. At run time, a system will transform the user conceptual model
+together with the mappings into views over the logical multidimensional
+representation. We focus on how the user can conceptually abstract from an
+existing data warehouse, and on how this conceptual model can be mapped to the
+logical multidimensional representation. We also give an indication of what
+query language is used over the conceptual model. Finally, we argue that our
+framework is a step along the way to allowing automatic generation of the data
+warehouse.

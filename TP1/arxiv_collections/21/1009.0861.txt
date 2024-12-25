@@ -1,0 +1,19 @@
+Low-rank matrix approximations are often used to help scale standard machine
+learning algorithms to large-scale problems. Recently, matrix coherence has
+been used to characterize the ability to extract global information from a
+subset of matrix entries in the context of these low-rank approximations and
+other sampling-based algorithms, e.g., matrix com- pletion, robust PCA. Since
+coherence is defined in terms of the singular vectors of a matrix and is
+expensive to compute, the practical significance of these results largely
+hinges on the following question: Can we efficiently and accurately estimate
+the coherence of a matrix? In this paper we address this question. We propose a
+novel algorithm for estimating coherence from a small number of columns,
+formally analyze its behavior, and derive a new coherence-based matrix
+approximation bound based on this analysis. We then present extensive
+experimental results on synthetic and real datasets that corroborate our
+worst-case theoretical analysis, yet provide strong support for the use of our
+proposed algorithm whenever low-rank approximation is being considered. Our
+algorithm efficiently and accurately estimates matrix coherence across a wide
+range of datasets, and these coherence estimates are excellent predictors of
+the effectiveness of sampling-based matrix approximation on a case-by-case
+basis.

@@ -1,0 +1,11 @@
+We introduce the first self-index based on the Lempel-Ziv 1977 compression
+format (LZ77). It is particularly competitive for highly repetitive text
+collections such as sequence databases of genomes of related species, software
+repositories, versioned document collections, and temporal text databases. Such
+collections are extremely compressible but classical self-indexes fail to
+capture that source of compressibility. Our self-index takes in practice a few
+times the space of the text compressed with LZ77 (as little as 2.6 times),
+extracts 1--2 million characters of the text per second, and finds patterns at
+a rate of 10--50 microseconds per occurrence. It is smaller (up to one half)
+than the best current self-index for repetitive collections, and faster in many
+cases.

@@ -1,0 +1,14 @@
+This paper is concerned with scalar quantization of transform coefficients in
+an audio codec. The generalized Gaussian distribution (GGD) is used as an
+approximation of one-dimensional probability density function for transform
+coefficients obtained by modulated lapped transform (MLT) or modified cosine
+transform (MDCT) filterbank. The rationale of the model is provided in
+comparison with theoretically achievable rate-distortion function. The
+rate-distortion function computed for the random sequence obtained from a real
+sequence of samples from a large database is compared with that computed for
+random sequence obtained by a GGD random generator. A simple algorithm of
+constructing the Extended Zero Zone (EZZ) quantizer is proposed. Simulation
+results show that the EZZ quantizer yields a negligible loss in terms of coding
+efficiency compared to optimal scalar quantizers. Furthermore, we describe an
+adaptive version of the EZZ quantizer which works efficiently with low bitrate
+requirements for transmitting side information

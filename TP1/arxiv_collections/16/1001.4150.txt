@@ -1,0 +1,11 @@
+We propose a generic design for Chinese remainder algorithms. A Chinese
+remainder computation consists in reconstructing an integer value from its
+residues modulo non coprime integers. We also propose an efficient linear data
+structure, a radix ladder, for the intermediate storage and computations. Our
+design is structured into three main modules: a black box residue computation
+in charge of computing each residue; a Chinese remaindering controller in
+charge of launching the computation and of the termination decision; an integer
+builder in charge of the reconstruction computation. We then show that this
+design enables many different forms of Chinese remaindering (e.g.
+deterministic, early terminated, distributed, etc.), easy comparisons between
+these forms and e.g. user-transparent parallelism at different parallel grains.

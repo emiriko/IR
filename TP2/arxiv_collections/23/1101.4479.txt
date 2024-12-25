@@ -1,0 +1,20 @@
+Techniques in which words are represented as vectors have proved useful in
+many applications in computational linguistics, however there is currently no
+general semantic formalism for representing meaning in terms of vectors. We
+present a framework for natural language semantics in which words, phrases and
+sentences are all represented as vectors, based on a theoretical analysis which
+assumes that meaning is determined by context.
+  In the theoretical analysis, we define a corpus model as a mathematical
+abstraction of a text corpus. The meaning of a string of words is assumed to be
+a vector representing the contexts in which it occurs in the corpus model.
+Based on this assumption, we can show that the vector representations of words
+can be considered as elements of an algebra over a field. We note that in
+applications of vector spaces to representing meanings of words there is an
+underlying lattice structure; we interpret the partial ordering of the lattice
+as describing entailment between meanings. We also define the context-theoretic
+probability of a string, and, based on this and the lattice structure, a degree
+of entailment between strings.
+  We relate the framework to existing methods of composing vector-based
+representations of meaning, and show that our approach generalises many of
+these, including vector addition, component-wise multiplication, and the tensor
+product.

@@ -1,0 +1,12 @@
+Quantum walks are the quantum-mechanical analog of random walks, in which a
+quantum `walker' evolves between initial and final states by traversing the
+edges of a graph, either in discrete steps from node to node or via continuous
+evolution under the Hamiltonian furnished by the adjacency matrix of the graph.
+We present a hybrid scheme for universal quantum computation in which a quantum
+walker takes discrete steps of continuous evolution. This `discontinuous'
+quantum walk employs perfect quantum state transfer between two nodes of
+specific subgraphs chosen to implement a universal gate set, thereby ensuring
+unitary evolution without requiring the introduction of an ancillary coin
+space. The run time is linear in the number of simulated qubits and gates. The
+scheme allows multiple runs of the algorithm to be executed almost
+simultaneously by starting walkers one timestep apart.

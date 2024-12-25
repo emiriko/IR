@@ -1,0 +1,14 @@
+First-order applicative term rewriting systems provide a natural framework
+for modeling higher-order aspects. In earlier work we introduced an uncurrying
+transformation which is termination preserving and reflecting. In this paper we
+investigate how this transformation behaves for innermost termination and
+(innermost) derivational complexity. We prove that it reflects innermost
+termination and innermost derivational complexity and that it preserves and
+reflects polynomial derivational complexity. For the preservation of innermost
+termination and innermost derivational complexity we give counterexamples.
+Hence uncurrying may be used as a preprocessing transformation for innermost
+termination proofs and establishing polynomial upper and lower bounds on the
+derivational complexity. Additionally it may be used to establish upper bounds
+on the innermost derivational complexity while it neither is sound for proving
+innermost non-termination nor for obtaining lower bounds on the innermost
+derivational complexity.

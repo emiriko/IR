@@ -1,0 +1,12 @@
+Cloud computing has demonstrated that processing very large datasets over
+commodity clusters can be done simply given the right programming model and
+infrastructure. In this paper, we describe the design and implementation of the
+Sector storage cloud and the Sphere compute cloud. In contrast to existing
+storage and compute clouds, Sector can manage data not only within a data
+center, but also across geographically distributed data centers. Similarly, the
+Sphere compute cloud supports User Defined Functions (UDF) over data both
+within a data center and across data centers. As a special case, MapReduce
+style programming can be implemented in Sphere by using a Map UDF followed by a
+Reduce UDF. We describe some experimental studies comparing Sector/Sphere and
+Hadoop using the Terasort Benchmark. In these studies, Sector is about twice as
+fast as Hadoop. Sector/Sphere is open source.

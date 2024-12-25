@@ -1,0 +1,10 @@
+Estimating the ground state energy of a multiparticle system with relative
+error $\e$ using deterministic classical algorithms has cost that grows
+exponentially with the number of particles. The problem depends on a number of
+state variables $d$ that is proportional to the number of particles and suffers
+from the curse of dimensionality. Quantum computers can vanquish this curse. In
+particular, we study a ground state eigenvalue problem and exhibit a quantum
+algorithm that achieves relative error $\e$ using a number of qubits $C^\prime
+d\log \e^{-1}$ with total cost (number of queries plus other quantum
+operations) $Cd\e^{-(3+\delta)}$, where $\delta>0$ is arbitrarily small and $C$
+and $C^\prime$ are independent of $d$ and $\e$.

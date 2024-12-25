@@ -1,0 +1,14 @@
+We develop a method to carry out MAP estimation for a class of Bayesian
+regression models in which coefficients are assigned with Gaussian-based spike
+and slab priors. The objective function in the corresponding optimization
+problem has a Lagrangian form in that regression coefficients are regularized
+by a mixture of squared $l_2$ and $l_0$ norms. A tight approximation to the
+$l_0$ norm using majorization-minimization techniques is derived, and a
+coordinate descent algorithm in conjunction with a soft-thresholding scheme is
+used in searching for the optimizer of the approximate objective. Simulation
+studies show that the proposed method can lead to more accurate variable
+selection than other benchmark methods. Theoretical results show that under
+regular conditions, sign consistency can be established, even when the
+Irrepresentable Condition is violated. Results on posterior model consistency
+and estimation consistency, and an extension to parameter estimation in the
+generalized linear models are provided.

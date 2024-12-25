@@ -1,0 +1,19 @@
+We numerically investigate a mean-field Bayesian approach with the assistance
+of the Markov chain Monte Carlo method to estimate motion velocity fields and
+probabilistic models simultaneously in consecutive digital images described by
+spatio-temporal Markov random fields. Preliminary to construction of our
+procedure, we find that mean-field variables in the iteration diverge due to
+improper normalization factor of regularization terms appearing in the
+posterior. To avoid this difficulty, we rescale the regularization term by
+introducing a scaling factor and optimizing it by means of minimization of the
+mean-square error. We confirm that the optimal scaling factor stabilizes the
+mean-field iterative process of the motion velocity estimation. We next attempt
+to estimate the optimal values of hyper-parameters including the regularization
+term, which define our probabilistic model macroscopically, by using the
+Boltzmann-machine type learning algorithm based on gradient descent of marginal
+likelihood (type-II likelihood) with respect to the hyper-parameters. In our
+framework, one can estimate both the probabilistic model (hyper-parameters) and
+motion velocity fields simultaneously. We find that our motion estimation is
+much better than the result obtained by Zhang and Hanouer (1995) in which the
+hyper-parameters are set to some ad-hoc values without any theoretical
+justification.

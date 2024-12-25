@@ -1,0 +1,22 @@
+In recent work, we have proposed an approach to Test Data Generation (TDG) of
+imperative bytecode by partial evaluation (PE) of CLP which consists in two
+phases: (1) the bytecode program is first transformed into an equivalent CLP
+program by means of interpretive compilation by PE, (2) a second PE is
+performed in order to supervise the generation of test-cases by execution of
+the CLP decompiled program. The main advantages of TDG by PE include
+flexibility to handle new coverage criteria, the possibility to obtain
+test-case generators and its simplicity to be implemented. The approach in
+principle can be directly applied for TDG of any imperative language. However,
+when one tries to apply it to a declarative language like Prolog, we have found
+as a main difficulty the generation of test-cases which cover the more complex
+control flow of Prolog. Essentially, the problem is that an intrinsic feature
+of PE is that it only computes non-failing derivations while in TDG for Prolog
+it is essential to generate test-cases associated to failing computations.
+Basically, we propose to transform the original Prolog program into an
+equivalent Prolog program with explicit failure by partially evaluating a
+Prolog interpreter which captures failing derivations w.r.t. the input program.
+Another issue that we discuss in the paper is that, while in the case of
+bytecode the underlying constraint domain only manipulates integers, in Prolog
+it should properly handle the symbolic data manipulated by the program. The
+resulting scheme is of interest for bringing the advantages which are inherent
+in TDG by PE to the field of logic programming.

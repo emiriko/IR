@@ -1,0 +1,16 @@
+In this paper, we consider reachability games over general hybrid systems,
+and distinguish between two possible observation frameworks for those games:
+either the precise dynamics of the system is seen by the players (this is the
+perfect observation framework), or only the starting point and the delays are
+known by the players (this is the partial observation framework). In the first
+more classical framework, we show that time-abstract bisimulation is not
+adequate for solving this problem, although it is sufficient in the case of
+timed automata . That is why we consider an other equivalence, namely the
+suffix equivalence based on the encoding of trajectories through words. We show
+that this suffix equivalence is in general a correct abstraction for games. We
+apply this result to o-minimal hybrid systems, and get decidability and
+computability results in this framework. For the second framework which assumes
+a partial observation of the dynamics of the system, we propose another
+abstraction, called the superword encoding, which is suitable to solve the
+games under that assumption. In that framework, we also provide decidability
+and computability results.

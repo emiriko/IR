@@ -1,0 +1,15 @@
+In this paper, we present the computational task-management tool Ganga, which
+allows for the specification, submission, bookkeeping and post-processing of
+computational tasks on a wide set of distributed resources. Ganga has been
+developed to solve a problem increasingly common in scientific projects, which
+is that researchers must regularly switch between different processing systems,
+each with its own command set, to complete their computational tasks. Ganga
+provides a homogeneous environment for processing data on heterogeneous
+resources. We give examples from High Energy Physics, demonstrating how an
+analysis can be developed on a local system and then transparently moved to a
+Grid system for processing of all available data. Ganga has an API that can be
+used via an interactive interface, in scripts, or through a GUI. Specific
+knowledge about types of tasks or computational resources is provided at
+run-time through a plugin system, making new developments easy to integrate. We
+give an overview of the Ganga architecture, give examples of current use, and
+demonstrate how Ganga can be used in many different areas of science.

@@ -1,0 +1,10 @@
+Here we present a program aimed at free-energy calculations in molecular
+systems. It consists of a series of routines that can be interfaced with the
+most popular classical molecular dynamics (MD) codes through a simple patching
+procedure. This leaves the possibility for the user to exploit many different
+MD engines depending on the system simulated and on the computational resources
+available. Free-energy calculations can be performed as a function of many
+collective variables, with a particular focus on biological problems, and using
+state-of-the-art methods such as metadynamics, umbrella sampling and
+Jarzynski-equation based steered MD. The present software, written in ANSI-C
+language, can be easily interfaced with both fortran and C/C++ codes.

@@ -1,0 +1,25 @@
+Software piracy, the illegal using, copying, and resale of applications is a
+major concern for anyone develops software. Software developers also worry
+about their applications being reverse engineered by extracting data structures
+and algorithms from an application and incorporated into competitor's code. A
+defense against software piracy is watermarking, a process that embeds a secret
+message in a cover software. Watermarking is a method that does not aim to stop
+piracy copying, but to prove ownership of the software and possibly even the
+data structures and algorithms used in the software. The language Java was
+designed to be compiled into a platform independent bytecode format. Much of
+the information contained in the source code remains in the bytecode, which
+means that decompilation is easier than with traditional native codes. In this
+thesis, we present a technique for watermarking Java programs by using a
+never-executed dummy method (Monden et.al., 2000) combined with opaque
+predicates (Collberg et.al., 1998; Arboit, 2002) and improved with dynamically
+opaque predicates (Palsberg et.al., 2000). This work presents a method to
+construct a dynamic opaque predicates by grouping two or more opaque predicates
+according to predefined rules. Any software watermarking technique will exhibit
+a trade-off between resilience, data rate, cost, and stealth. To evaluate the
+quality of a watermarking scheme we must also know how well it stands up to
+different types of attacks. Ideally, we would like our watermarks to survive
+translation (compilation, decompilation, and binary translation), optimization,
+and obfuscation. Add a single watermark will increasing source code approximate
+3.854 bytes with dummy method that cover up to 15 characters, two dynamic data
+structures, two threads and two opaque predicates. Application loading-time
+increase approximate 6108 milliseconds.

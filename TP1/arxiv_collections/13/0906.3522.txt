@@ -1,0 +1,22 @@
+We introduce a new technique based on artificial neural networks which allows
+us to make accurate predictions for the spectral energy distributions (SEDs) of
+large samples of galaxies, at wavelengths ranging from the far-ultra-violet to
+the sub-millimetre and radio. The neural net is trained to reproduce the SEDs
+predicted by a hybrid code comprised of the GALFORM semi-analytical model of
+galaxy formation, which predicts the full star formation and galaxy merger
+histories, and the GRASIL spectro-photometric code, which carries out a
+self-consistent calculation of the SED, including absorption and emission of
+radiation by dust. Using a small number of galaxy properties predicted by
+GALFORM, the method reproduces the luminosities of galaxies in the majority of
+cases to within 10% of those computed directly using GRASIL. The method
+performs best in the sub-mm and reasonably well in the mid-infrared and the
+far-ultra-violet. The luminosity error introduced by the method has negligible
+impact on predicted statistical distributions, such as luminosity functions or
+colour distributions of galaxies. We use the neural net to predict the overlap
+between galaxies selected in the rest-frame UV and in the observer-frame sub-mm
+at z=2. We find that around half of the galaxies with a 850um flux above 5 mJy
+should have optical magnitudes brighter than R_AB < 25 mag. However, only 1% of
+the galaxies selected in the rest-frame UV down to R_AB < 25 mag should have
+850um fluxes brighter than 5 mJy. Our technique will allow the generation of
+wide-angle mock catalogues of galaxies selected at rest-frame UV or mid- and
+far-infrared wavelengths.

@@ -1,0 +1,22 @@
+Multi-agent systems where the agents are developed by parties with competing
+interests, and where there is no access to an agent's internal state, are often
+classified as `open'. The member agents of such systems may inadvertently fail
+to, or even deliberately choose not to, conform to the system specification.
+Consequently, it is necessary to specify the normative relations that may exist
+between the agents, such as permission, obligation, and institutional power.
+The specification of open agent systems of this sort is largely seen as a
+design-time activity. Moreover, there is no support for run-time specification
+modification. Due to environmental, social, or other conditions, however, it is
+often required to revise the specification during the system execution. To
+address this requirement, we present an infrastructure for `dynamic'
+specifications, that is, specifications that may be modified at run-time by the
+agents. The infrastructure consists of well-defined procedures for proposing a
+modification of the `rules of the game', as well as decision-making over and
+enactment of proposed modifications. We evaluate proposals for rule
+modification by modelling a dynamic specification as a metric space, and by
+considering the effects of accepting a proposal on system utility. Furthermore,
+we constrain the enactment of proposals that do not meet the evaluation
+criteria. We employ the action language C+ to formalise dynamic specifications,
+and the `Causal Calculator' implementation of C+ to execute the specifications.
+We illustrate our infrastructure by presenting a dynamic specification of a
+resource-sharing protocol.

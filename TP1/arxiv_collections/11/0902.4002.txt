@@ -1,0 +1,16 @@
+We adapt a modern scheme of smoothed particle hydrodynamics (SPH) to our tree
+N-body/SPH galactic chemodynamics code GCD+. The applied scheme includes imple-
+mentations of the artificial viscosity switch and artificial thermal
+conductivity pro- posed by Morris & Monaghan (1997), Rosswog & Price (2007) and
+Price (2008), to model discontinuities and Kelvin-Helmholtz instabilities more
+accurately. We first present hydrodynamics test simulations and contrast the
+results to runs undertaken without artificial viscosity switch or thermal
+conduction. In addition, we also explore the different levels of smoothing by
+adopting larger or smaller smoothing lengths, i.e. a larger or smaller number
+of neighbour particles, Nnb. We demonstrate that the new version of GCD+ is
+capable of modelling Kelvin-Helmholtz instabilities to a simi- lar level as the
+mesh code, Athena. From the Gresho vortex, point-like explosion and
+self-similar collapse tests, we conclude that setting the smoothing length to
+keep the number of neighbour particles as high as Nnb~58 is preferable to
+adopting smaller smoothing lengths. We present our optimised parameter sets
+from the hydrodynamics tests.

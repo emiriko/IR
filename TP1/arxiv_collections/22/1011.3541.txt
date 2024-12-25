@@ -1,0 +1,23 @@
+Using a version of the ZEUS code, we carry out two-dimensional simulations of
+self-gravitating shearing sheets, with application to QSO accretion disks at a
+few thousand Schwarzschild radii, corresponding to a few hundredths of a parsec
+for a 10^8 solar-mass black hole. Radiation pressure and optically thick
+radiative cooling are implemented via vertical averages. We determine
+dimensionless versions of the maximum surface density, accretion rate, and
+effective viscosity that can be sustained by density-wave turbulence without
+fragmentation. Where fragments do form, we study the final masses that result.
+The maximum Shakura-Sunyaev viscosity parameter is approximately 0.4.
+Fragmentation occurs when the cooling time is less than about twice the
+shearing time, as found by Gammie and others, but can also occur at very long
+cooling times in sheets that are strongly radiation-pressure dominated. For
+accretion at the Eddington rate onto a 10^8 solar-mass black hole,
+fragmentation occurs beyond four thousand Schwarzschild radii, r_s. Near this
+radius, initial fragment masses are several hundred suns, consistent with
+estimates from linear stability; final masses after merging increase with the
+size of the sheet, reaching several thousand suns in our largest simulations.
+With increasing black-hole mass at a fixed Eddington ratio, self-gravity
+prevails to smaller multiples of r_s, where radiation pressure is more
+important and the cooling time is longer compared to the dynamical time;
+nevertheless, fragmentation can occur and produces larger initial fragment
+masses. We also find energy conservation is likely to be a challenge for all
+eulerian codes in self-gravitating regimes where radiation pressure dominates.

@@ -1,0 +1,10 @@
+The eigenvalue-function pair of the 3D Schr\"odinger equation can be
+efficiently computed by use of high order, imaginary time propagators. Due to
+the diffusion character of the kinetic energy operator in imaginary time,
+algorithms developed so far are at most fourth-order. In this work, we show
+that for a grid based algorithm, imaginary time propagation of any even order
+can be devised on the basis of multi-product splitting. The effectiveness of
+these algorithms, up to the 12$^{\rm th}$ order, is demonstrated by computing
+all 120 eigenstates of a model C$_{60}$ molecule to very high precisions. The
+algorithms are particularly useful when implemented on parallel computer
+architectures.

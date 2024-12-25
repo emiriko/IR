@@ -1,0 +1,9 @@
+This paper presents Timed Quorum System (TQS), a new quorum system especially
+suited for large-scale and dynamic systems. TQS requires that two quorums
+intersect with high probability if they are used in the same small period of
+time. It proposed an algorithm that implements TQS and that verifies
+probabilistic atomicity: a consistency criterion that requires each operation
+to respect atomicity with high probability. This TQS implementation has quorum
+of size O(\sqrt{nD}) and expected access time of O(log \sqrt{nD}) message
+delays, where n measures the size of the system and D is a required parameter
+to handle dynamism.

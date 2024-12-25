@@ -1,0 +1,20 @@
+The information content of a non-enzymatic self-replicator is limited by
+Eigen's error threshold. Presumably, enzymatic replication can maintain higher
+complexity, but in a competitive environment such a replicator is faced with
+two problems related to its twofold role as enzyme and substrate: as enzyme, it
+should replicate itself rather than wastefully copy non-functional substrates,
+and as substrate it should preferably be replicated by superior enzymes instead
+of less-efficient mutants. Because specific recognition can enforce these
+propensities, we thoroughly analyze an idealized quasispecies model for
+enzymatic replication, with replication rates that are either a decreasing
+(self-specific) or increasing (cross-specific) function of the Hamming distance
+between the recognition or "tag" sequences of enzyme and substrate. We find
+that very weak self-specificity suffices to localize a population about a
+master sequence and thus to preserve its information, while simultaneous
+localization about complementary sequences in the cross-specific case is more
+challenging. A surprising result is that stronger specificity constraints allow
+longer recognition sequences, because the populations are better localized.
+Extrapolating from experimental data, we obtain rough quantitative estimates
+for the maximal length of the recognition or tag sequence that can be used to
+reliably discriminate appropriate and infeasible enzymes and substrates,
+respectively.

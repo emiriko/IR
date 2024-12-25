@@ -1,0 +1,7 @@
+We give a quantum algorithm for evaluating a class of boolean formulas (such
+as NAND trees and 3-majority trees) on a restricted set of inputs. Due to the
+structure of the allowed inputs, our algorithm can evaluate a depth $n$ tree
+using $O(n^{2+\log\omega})$ queries, where $\omega$ is independent of $n$ and
+depends only on the type of subformulas within the tree. We also prove a
+classical lower bound of $n^{\Omega(\log\log n)}$ queries, thus showing a
+(small) super-polynomial speed-up.

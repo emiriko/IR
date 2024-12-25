@@ -1,0 +1,14 @@
+Bootstrap percolation on the random graph $G_{n,p}$ is a process of spread of
+"activation" on a given realization of the graph with a given number of
+initially active nodes. At each step those vertices which have not been active
+but have at least $r\geq2$ active neighbors become active as well. We study the
+size $A^*$ of the final active set. The parameters of the model are, besides
+$r$ (fixed) and $n$ (tending to $\infty$), the size $a=a(n)$ of the initially
+active set and the probability $p=p(n)$ of the edges in the graph. We show that
+the model exhibits a sharp phase transition: depending on the parameters of the
+model, the final size of activation with a high probability is either $n-o(n)$
+or it is $o(n)$. We provide a complete description of the phase diagram on the
+space of the parameters of the model. In particular, we find the phase
+transition and compute the asymptotics (in probability) for $A^*$; we also
+prove a central limit theorem for $A^*$ in some ranges. Furthermore, we provide
+the asymptotics for the number of steps until the process stops.

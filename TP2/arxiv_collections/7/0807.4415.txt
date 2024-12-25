@@ -1,0 +1,14 @@
+In this paper, we first define the notion of viscosity solution for the
+following system of partial differential equations involving a subdifferential
+operator:\[\{[c]{l}\dfrac{\partial u}{\partial
+t}(t,x)+\mathcal{L}_tu(t,x)+f(t,x,u(t,x))\in\partial\phi (u(t,x)),\quad
+t\in[0,T),x\in\mathbb{R}^d, u(T,x)=h(x),\quad x\in\mathbb{R}^d,\] where
+$\partial\phi$ is the subdifferential operator of the proper convex lower
+semicontinuous function $\phi:\mathbb{R}^k\to (-\infty,+\infty]$ and
+$\mathcal{L}_t$ is a second differential operator given by
+$\mathcal{L}_tv_i(x)={1/2}\operatorname
+{Tr}[\sigma(t,x)\sigma^*(t,x)\mathrm{D}^2v_i(x)]+< b(t,x),\nabla v_i(x)>$,
+$i\in\bar{1,k}$. We prove the uniqueness of the viscosity solution and then,
+via a stochastic approach, prove the existence of a viscosity solution
+$u:[0,T]\times\mathbb{R}^d\to\mathbb{R}^k$ of the above parabolic variational
+inequality.

@@ -1,0 +1,12 @@
+Let $\alpha,\beta\in(0,1)$ and \[ K^{\alpha,\beta}:=\left\{a\in L^\infty(\T):
+\sum_{k=1}^\infty |\hat{a}(-k)|^2 k^{2\alpha}<\infty, \sum_{k=1}^\infty
+|\hat{a}(k)|^2 k^{2\beta}<\infty \right\}. \] Mark Krein proved in 1966 that
+$K^{1/2,1/2}$ forms a Banach algebra. He also observed that this algebra is
+important in the asymptotic theory of finite Toeplitz matrices. Ten years
+later, Harold Widom extended earlier results of Gabor Szeg\H{o} for scalar
+symbols and established the asymptotic trace formula \[
+\operatorname{trace}f(T_n(a))=(n+1)G_f(a)+E_f(a)+o(1) \quad\text{as}\
+n\to\infty \] for finite Toeplitz matrices $T_n(a)$ with matrix symbols $a\in
+K^{1/2,1/2}_{N\times N}$. We show that if $\alpha+\beta\ge 1$ and $a\in
+K^{\alpha,\beta}_{N\times N}$, then the Szeg\H{o}-Widom asymptotic trace
+formula holds with $o(1)$ replaced by $o(n^{1-\alpha-\beta})$.

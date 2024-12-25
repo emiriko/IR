@@ -1,0 +1,17 @@
+We consider the problem of designing truthful auctions, when the bidders'
+valuations have a public and a private component. In particular, we consider
+combinatorial auctions where the valuation of an agent $i$ for a set $S$ of
+items can be expressed as $v_if(S)$, where $v_i$ is a private single parameter
+of the agent, and the function $f$ is publicly known. Our motivation behind
+studying this problem is two-fold: (a) Such valuation functions arise naturally
+in the case of ad-slots in broadcast media such as Television and Radio. For an
+ad shown in a set $S$ of ad-slots, $f(S)$ is, say, the number of {\em unique}
+viewers reached by the ad, and $v_i$ is the valuation per-unique-viewer. (b)
+From a theoretical point of view, this factorization of the valuation function
+simplifies the bidding language, and renders the combinatorial auction more
+amenable to better approximation factors. We present a general technique, based
+on maximal-in-range mechanisms, that converts any $\alpha$-approximation
+non-truthful algorithm ($\alpha \leq 1$) for this problem into
+$\Omega(\frac{\alpha}{\log{n}})$ and $\Omega(\alpha)$-approximate truthful
+mechanisms which run in polynomial time and quasi-polynomial time,
+respectively.

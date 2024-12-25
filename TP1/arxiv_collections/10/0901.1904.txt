@@ -1,0 +1,16 @@
+We consider the problem of joint universal variable-rate lossy coding and
+identification for parametric classes of stationary $\beta$-mixing sources with
+general (Polish) alphabets. Compression performance is measured in terms of
+Lagrangians, while identification performance is measured by the variational
+distance between the true source and the estimated source. Provided that the
+sources are mixing at a sufficiently fast rate and satisfy certain smoothness
+and Vapnik-Chervonenkis learnability conditions, it is shown that, for bounded
+metric distortions, there exist universal schemes for joint lossy compression
+and identification whose Lagrangian redundancies converge to zero as $\sqrt{V_n
+\log n /n}$ as the block length $n$ tends to infinity, where $V_n$ is the
+Vapnik-Chervonenkis dimension of a certain class of decision regions defined by
+the $n$-dimensional marginal distributions of the sources; furthermore, for
+each $n$, the decoder can identify $n$-dimensional marginal of the active
+source up to a ball of radius $O(\sqrt{V_n\log n/n})$ in variational distance,
+eventually with probability one. The results are supplemented by several
+examples of parametric sources satisfying the regularity conditions.

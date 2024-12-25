@@ -1,0 +1,24 @@
+We study the setting in which the bits of an unknown infinite binary sequence
+x are revealed sequentially to an observer. We show that very limited
+assumptions about x allow one to make successful predictions about unseen bits
+of x. First, we study the problem of successfully predicting a single 0 from
+among the bits of x. In our model we have only one chance to make a prediction,
+but may do so at a time of our choosing. We describe and motivate this as the
+problem of a frog who wants to cross a road safely.
+  Letting N_t denote the number of 1s among the first t bits of x, we say that
+x is "eps-weakly sparse" if lim inf (N_t/t) <= eps. Our main result is a
+randomized algorithm that, given any eps-weakly sparse sequence x, predicts a 0
+of x with success probability as close as desired to 1 - \eps. Thus we can
+perform this task with essentially the same success probability as under the
+much stronger assumption that each bit of x takes the value 1 independently
+with probability eps. We apply this result to show how to successfully predict
+a bit (0 or 1) under a broad class of possible assumptions on the sequence x.
+The assumptions are stated in terms of the behavior of a finite automaton M
+reading the bits of x.
+  We also propose and solve a variant of the well-studied "ignorant
+forecasting" problem. For every eps > 0, we give a randomized forecasting
+algorithm S_eps that, given sequential access to a binary sequence x, makes a
+prediction of the form: "A p fraction of the next N bits will be 1s." (The
+algorithm gets to choose p, N, and the time of the prediction.) For any fixed
+sequence x, the forecast fraction p is accurate to within +-eps with
+probability 1 - eps.

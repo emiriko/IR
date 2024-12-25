@@ -1,0 +1,16 @@
+Two-player zero-sum games are a well-established model for synthesising
+controllers that optimise some performance criterion. In such games one player
+represents the controller, while the other describes the (adversarial)
+environment, and controller synthesis corresponds to computing the optimal
+strategies of the controller for a given criterion. Asarin and Maler initiated
+the study of quantitative games on (non-probabilistic) timed automata by
+synthesising controllers which optimise the time to reach a final state. The
+correctness and termination of their approach was dependent on exploiting the
+properties of a special class of functions, called simple functions, that can
+be finitely represented. In this paper we consider quantitative games over
+probabilistic timed automata. Since the concept of simple functions is not
+sufficient to solve games in this setting, we generalise simple functions to
+so-called quasi-simple functions. Then, using this class of functions, we
+demonstrate that the problem of solving games with either expected
+reachability-time or expected discounted-time criteria on probabilistic timed
+automata are in NEXPTIME $\cap$ co-NEXPTIME.

@@ -1,0 +1,14 @@
+Shared memory multiprocessors come back to popularity thanks to rapid
+spreading of commodity multi-core architectures. As ever, shared memory
+programs are fairly easy to write and quite hard to optimise; providing
+multi-core programmers with optimising tools and programming frameworks is a
+nowadays challenge. Few efforts have been done to support effective streaming
+applications on these architectures. In this paper we introduce FastFlow, a
+low-level programming framework based on lock-free queues explicitly designed
+to support high-level languages for streaming applications. We compare FastFlow
+with state-of-the-art programming frameworks such as Cilk, OpenMP, and Intel
+TBB. We experimentally demonstrate that FastFlow is always more efficient than
+all of them in a set of micro-benchmarks and on a real world application; the
+speedup edge of FastFlow over other solutions might be bold for fine grain
+tasks, as an example +35% on OpenMP, +226% on Cilk, +96% on TBB for the
+alignment of protein P01111 against UniProt DB using Smith-Waterman algorithm.

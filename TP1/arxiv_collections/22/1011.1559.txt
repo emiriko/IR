@@ -1,0 +1,17 @@
+Subject of this paper is a detailed analysis of the PINOCCHIO algorithm for
+studying the relative velocity statistics of merging haloes in Lagrangian
+perturbation theory. Given a cosmological background model, a power spectrum of
+fluctuations as well as a Gaussian linear density contrast field $\delta_{\rm
+l}$ is generated on a cubic grid, which is then smoothed repeatedly with
+Gaussian filters. For each Lagrangian particle at position $\bmath{q}$ and each
+smoothing radius $R$, the collapse time, the velocities and ellipsoidal
+truncation are computed using Lagrangian Perturbation Theory. The collapsed
+medium is then fragmented into isolated objects by an algorithm designed to
+mimic the accretion and merger events of hierarchical collapse. Directly after
+the fragmentation process the mass function, merger histories of haloes and the
+statistics of the relative velocities at merging are evaluated. We
+reimplemented the algorithm in C++, recovered the mass function and optimised
+the construction of halo merging histories. Comparing our results with the
+output of the Millennium simulation suggests that PINOCCHIO is well suited for
+studying relative velocities of merging haloes and is able to reproduce the
+pairwise velocity distribution.

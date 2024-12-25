@@ -1,0 +1,15 @@
+Continually arriving information is communicated through a network of $n$
+agents, with the value of information to the $j$'th recipient being a
+decreasing function of $j/n$, and communication costs paid by recipient.
+Regardless of details of network and communication costs, the social optimum
+policy is to communicate arbitrarily slowly. But selfish agent behavior leads
+to Nash equilibria which (in the $n \to \infty$ limit) may be efficient (Nash
+payoff $=$ social optimum payoff) or wasteful ($0 < $ Nash payoff $<$ social
+optimum payoff) or totally wasteful (Nash payoff $=0$). We study the cases of
+the complete network (constant communication costs between all agents), the
+grid with only nearest-neighbor communication, and the grid with communication
+cost a function of distance. The main technical tool is analysis of the
+associated first passage percolation process or SI epidemic (representing
+spread of one item of information) and in particular its "window width", the
+time interval during which most agents learn the item. Many arguments are just
+outlined, not intended as complete rigorous proofs.

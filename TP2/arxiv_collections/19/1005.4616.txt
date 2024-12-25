@@ -1,0 +1,9 @@
+A parametric analysis is an analysis whose input and output are parametrized
+with a number of parameters which can be instantiated to abstract properties
+after analysis is completed. This paper proposes to use Cousot and Cousot's
+Cardinal power domain to capture functional dependencies of analysis output on
+its input and obtain a parametric analysis by parametrizing a non-parametric
+base analysis. We illustrate the method by parametrizing a $\pos$ based
+groundness analysis of logic programs to a parametric groundness analysis. In
+addition, a prototype implementation shows that generality of the parametric
+groundness analysis comes with a negligible extra cost.

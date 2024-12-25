@@ -1,0 +1,18 @@
+We present a comparative study of two computer simulation methods to obtain
+static and dynamic properties of dilute polymer solutions. The first approach
+is a recently established hybrid algorithm based upon dissipative coupling
+between Molecular Dynamics and lattice Boltzmann (LB), while the second is
+standard Brownian Dynamics (BD) with fluctuating hydrodynamic interactions.
+Applying these methods to the same physical system (a single polymer chain in a
+good solvent in thermal equilibrium) allows us to draw a detailed and
+quantitative comparison in terms of both accuracy and efficiency. It is found
+that the static conformations of the LB model are distorted when the box length
+L is too small compared to the chain size. Furthermore, some dynamic properties
+of the LB model are subject to an $L^{-1}$ finite size effect, while the BD
+model directly reproduces the asymptotic $L \to \infty$ behavior. Apart from
+these finite size effects, it is also found that in order to obtain the correct
+dynamic properties for the LB simulations, it is crucial to properly thermalize
+all the kinetic modes. Only in this case, the results are in excellent
+agreement with each other, as expected. Moreover, Brownian Dynamics is found to
+be much more efficient than lattice Boltzmann as long as the degree of
+polymerization is not excessively large.

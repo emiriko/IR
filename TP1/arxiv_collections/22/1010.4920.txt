@@ -1,0 +1,24 @@
+We study the problem of channel pairing and power allocation in a
+multichannel multihop relay network to enhance the end-to-end data rate. Both
+amplify-and-forward (AF) and decode-and-forward (DF) relaying strategies are
+considered. Given fixed power allocation to the channels, we show that channel
+pairing over multiple hops can be decomposed into independent pairing problems
+at each relay, and a sorted-SNR channel pairing strategy is sum-rate optimal,
+where each relay pairs its incoming and outgoing channels by their SNR order.
+For the joint optimization of channel pairing and power allocation under both
+total and individual power constraints, we show that the problem can be
+decoupled into two subproblems solved separately. This separation principle is
+established by observing the equivalence between sorting SNRs and sorting
+channel gains in the jointly optimal solution. It significantly reduces the
+computational complexity in finding the jointly optimal solution. It follows
+that the channel pairing problem in joint optimization can be again decomposed
+into independent pairing problems at each relay based on sorted channel gains.
+The solution for optimizing power allocation for DF relaying is also provided,
+as well as an asymptotically optimal solution for AF relaying. Numerical
+results are provided to demonstrate substantial performance gain of the jointly
+optimal solution over some suboptimal alternatives. It is also observed that
+more gain is obtained from optimal channel pairing than optimal power
+allocation through judiciously exploiting the variation among multiple
+channels. Impact of the variation of channel gain, the number of channels, and
+the number of hops on the performance gain is also studied through numerical
+examples.

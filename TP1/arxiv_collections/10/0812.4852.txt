@@ -1,0 +1,23 @@
+Because contemporary large software systems are pervasively inconsistent, it
+is not safe to reason about them using classical logic. The goal of Direct
+Logic is to be a minimal fix to classical mathematical logic that meets the
+requirements of large-scale Internet applications (including sense making for
+natural language) by addressing the following issues: inconsistency robustness,
+contrapositive inference bug, and direct argumentation.
+  Direct Logic makes the following contributions over previous work:
+  * Direct Inference (no contrapositive bug for inference)
+  * Direct Argumentation (inference directly expressed)
+  * Inconsistency-robust deduction without artifices such as indices (labels)
+on propositions or restrictions on reiteration
+  * Intuitive inferences hold including the following:
+  * Boolean Equivalences
+  * Reasoning by splitting for disjunctive cases
+  * Soundness
+  * Inconsistency-robust Proof by Contradiction
+  Since the global state model of computation (first formalized by Turing) is
+inadequate to the needs of modern large-scale Internet applications the Actor
+Model was developed to meet this need. Using, the Actor Model, this paper
+proves that Logic Programming is not computationally universal in that there
+are computations that cannot be implemented using logical inference.
+Consequently the Logic Programming paradigm is strictly less general than the
+Procedural Embedding of Knowledge paradigm.

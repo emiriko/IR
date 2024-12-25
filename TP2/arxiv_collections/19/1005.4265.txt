@@ -1,0 +1,13 @@
+This paper describes the use of fuzzy logic controller for efficiency
+optimization control of a drive while keeping good dynamic response. At
+steady-state light-load condition, the fuzzy controller adaptively adjusts the
+excitation current with respect to the torque current to give the minimum total
+copper and iron loss. The measured input power such that, for a given load
+torque and speed, the drive settles down to the minimum input power, i.e.,
+operates at maximum efficiency. The low-frequency pulsating torque due to
+decrementation of flux is compensated in a feed forward manner. If the load
+torque or speed commands changes, the efficiency search algorithm is abandoned
+and the rated flux is established to get the best dynamic response. The drive
+system with the proposed efficiency optimization controller has been simulated
+with lossy models of converter and machine, and its performance has been
+thoroughly investigated.

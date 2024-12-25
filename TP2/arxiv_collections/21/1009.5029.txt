@@ -1,0 +1,16 @@
+The multiple Stack Travelling Salesman Problem, STSP, deals with the collect
+and the deliverance of n commodities in two distinct cities. The two cities are
+represented by means of two edge-valued graphs (G1,d2) and (G2,d2). During the
+pick-up tour, the commodities are stored into a container whose rows are
+subject to LIFO constraints. As a generalisation of standard TSP, the problem
+obviously is NP-hard; nevertheless, one could wonder about what combinatorial
+structure of STSP does the most impact its complexity: the arrangement of the
+commodities into the container, or the tours themselves? The answer is not
+clear. First, given a pair (T1,T2) of pick-up and delivery tours, it is
+polynomial to decide whether these tours are or not compatible. Second, for a
+given arrangement of the commodities into the k rows of the container, the
+optimum pick-up and delivery tours w.r.t. this arrangement can be computed
+within a time that is polynomial in n, but exponential in k. Finally, we
+provide instances on which a tour that is optimum for one of three distances
+d1, d2 or d1+d2 lead to solutions of STSP that are arbitrarily far to the
+optimum STSP.

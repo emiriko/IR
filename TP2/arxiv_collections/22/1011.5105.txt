@@ -1,0 +1,15 @@
+The paper discusses properties of a DATALOG$^{\neg\neg}$-like query language
+4QL, originally outlined in [MS10]. Negated literals in heads of rules
+naturally lead to inconsistencies. On the other hand, rules do not have to
+attach meaning to some literals. Therefore 4QL is founded on a four-valued
+semantics, employing the logic introduced in [MSV08, VMS09] with truth values:
+'true', 'false', 'inconsistent' and 'unknown'. 4QL allows one to use rules with
+negation in heads and bodies of rules, it is based on a simple and intuitive
+semantics and provides uniform tools for "lightweight" versions of known forms
+of nonmonotonic reasoning. In addition, 4QL is tractable as regards its data
+complexity and captures PTIME queries. Even if DATALOG$^{\neg\neg}$ is known as
+a concept for the last 30 years, to our best knowledge no existing approach
+enjoys these properties.
+  In the current paper we: - investigate properties of well-supported models of
+4QL - prove the correctness of the algorithm for computing well-supported
+models - show that 4QL has PTIME data complexity and captures PTIME.

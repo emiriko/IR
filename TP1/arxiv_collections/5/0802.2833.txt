@@ -1,0 +1,20 @@
+The main goal of this paper is to put some known results in a common
+perspective and to simplify their proofs. We start with a simple proof of a
+result from (Vereshchagin, 2002) saying that $\limsup_n\KS(x|n)$ (here
+$\KS(x|n)$ is conditional (plain) Kolmogorov complexity of $x$ when $n$ is
+known) equals $\KS^{\mathbf{0'}(x)$, the plain Kolmogorov complexity with
+$\mathbf{0'$-oracle. Then we use the same argument to prove similar results for
+prefix complexity (and also improve results of (Muchnik, 1987) about limit
+frequencies), a priori probability on binary tree and measure of effectively
+open sets. As a by-product, we get a criterion of $\mathbf{0'}$ Martin-L\"of
+randomness (called also 2-randomness) proved in (Miller, 2004): a sequence
+$\omega$ is 2-random if and only if there exists $c$ such that any prefix $x$
+of $\omega$ is a prefix of some string $y$ such that $\KS(y)\ge |y|-c$. (In the
+1960ies this property was suggested in (Kolmogorov, 1968) as one of possible
+randomness definitions; its equivalence to 2-randomness was shown in (Miller,
+2004) while proving another 2-randomness criterion (see also (Nies et al.
+2005)): $\omega$ is 2-random if and only if $\KS(x)\ge |x|-c$ for some $c$ and
+infinitely many prefixes $x$ of $\omega$. Finally, we show that the low-basis
+theorem can be used to get alternative proofs for these results and to improve
+the result about effectively open sets; this stronger version implies the
+2-randomness criterion mentioned in the previous sentence.

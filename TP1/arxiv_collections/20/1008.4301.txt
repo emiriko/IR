@@ -1,0 +1,18 @@
+We investigate a class of mixing dynamical systems around the concept of
+iceberg transformation. In brief, an iceberg transformation is defined using
+symbolic language as follows. We build a sequence of words such that the next
+word is a concatenation of rotated copies of the previous word. For example, a
+word CAT can turn into CAT.ATC.TCA.TCA.CAT.ATC, then we repeat the procedure
+applying it to this new word and so on. Geometrically, given an invertible
+measure preserving transformation $T$ an iceberg is a union of two icelets for
+the map $T$, one direct and one reverse with common base set, where icelet is
+defined in a similar way as Rokhlin tower $B \sqcup TB \sqcup \ldots \sqcup
+T^{h-1}B$, namely, an icelet is a sequence of disjoint measurable sets $\{B_0,
+B_1, \ldots, B_{h-1}\}$ such that the levels are nested: $B_{j+1} \subseteq
+TB_j$. Reverse icelet is defined as icelet for $T^{-1}$, and it grows towards
+the past. Iceberg transformation is approximated by a sequence of icebergs,
+resembling the behaviour of rank one ergodic maps.
+  It is show that a class of random iceberg transformations almost surely has
+simple spectrum, $1/4$-local rank property and spectral type $\sigma$ such that
+$\sigma \conv \sigma \ll \la$ where $\la$ is the Lebesgue measure on the circle
+$S^1$.

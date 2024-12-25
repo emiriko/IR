@@ -1,0 +1,19 @@
+This paper is motivated by the following observation. Take a 3 x 3 random
+(Haar distributed) orthogonal matrix $\Gamma$, and use it to "rotate" the north
+pole, $x_0$ say, on the unit sphere in $R^3$. This then gives a point $u=\Gamma
+x_0$ that is uniformly distributed on the unit sphere. Now use the same
+orthogonal matrix to transform u, giving $v=\Gamma u=\Gamma^2 x_0$. Simulations
+reported in Marzetta et al (2002) suggest that v is more likely to be in the
+northern hemisphere than in the southern hemisphere, and, morever, that
+$w=\Gamma^3 x_0$ has higher probability of being closer to the poles $\pm x_0$
+than the uniformly distributed point u. In this paper we prove these results,
+in the general setting of dimension $p\ge 3$, by deriving the exact
+distributions of the relevant components of u and v. The essential questions
+answered are the following. Let x be any fixed point on the unit sphere in
+$R^p$, where $p\ge 3$. What are the distributions of $U_2=x'\Gamma^2 x$ and
+$U_3=x'\Gamma^3 x$? It is clear by orthogonal invariance that these
+distribution do not depend on x, so that we can, without loss of generality,
+take x to be $x_0=(1,0,...,0)'\in R^p$. Call this the "north pole". Then
+$x_0'\Gamma^ k x_0$ is the first component of the vector $\Gamma^k x_0$. We
+derive stochastic representations for the exact distributions of $U_2$ and
+$U_3$ in terms of random variables with known distributions.

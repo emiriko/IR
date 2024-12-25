@@ -1,0 +1,16 @@
+Dot plots are a standard method for local comparison of biological sequences.
+In a dot plot, a substring to substring distance is computed for all pairs of
+fixed-size windows in the input strings. Commonly, the Hamming distance is used
+since it can be computed in linear time. However, the Hamming distance is a
+rather crude measure of string similarity, and using an alignment-based edit
+distance can greatly improve the sensitivity of the dot plot method. In this
+paper, we show how to compute alignment plots of the latter type efficiently.
+Given two strings of length m and n and a window size w, this problem consists
+in computing the edit distance between all pairs of substrings of length w, one
+from each input string. The problem can be solved by repeated application of
+the standard dynamic programming algorithm in time O(mnw^2). This paper gives
+an improved data-parallel algorithm, running in time $O(mnw/\gamma/p)$ using
+vector operations that work on $\gamma$ values in parallel and $p$ processors.
+We show experimental results from an implementation of this algorithm, which
+uses Intel's MMX/SSE instructions for vector parallelism and MPI for
+coarse-grained parallelism.

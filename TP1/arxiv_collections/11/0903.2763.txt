@@ -1,0 +1,13 @@
+High order actions proposed by Chin have been used for the first time in path
+integral Monte Carlo simulations. Contrarily to the Takahashi-Imada action,
+which is accurate to fourth order only for the trace, the Chin action is fully
+fourth order, with the additional advantage that the leading fourth and sixth
+order error coefficients are finely tunable. By optimizing two free parameters
+entering in the new action we show that the time step error dependence achieved
+is best fitted with a sixth order law. The computational effort per bead is
+increased but the total number of beads is greatly reduced, and the efficiency
+improvement with respect to the primitive approximation is approximately a
+factor of ten. The Chin action is tested in a one-dimensional harmonic
+oscillator, a H$_2$ drop, and bulk liquid $^4$He. In all cases a sixth-order
+law is obtained with values of the number of beads that compare well with the
+pair action approximation in the stringent test of superfluid $^4$He.

@@ -1,0 +1,26 @@
+Using the 'k-means' cluster analysis algorithm, we carry out an unsupervised
+classification of all galaxy spectra in the seventh and final Sloan Digital Sky
+Survey data release (SDSS/DR7). Except for the shift to restframe wavelengths,
+and the normalization to the g-band flux, no manipulation is applied to the
+original spectra. The algorithm guarantees that galaxies with similar spectra
+belong to the same class. We find that 99 % of the galaxies can be assigned to
+only 17 major classes, with 11 additional minor classes including the remaining
+1%. The classification is not unique since many galaxies appear in between
+classes, however, our rendering of the algorithm overcomes this weakness with a
+tool to identify borderline galaxies. Each class is characterized by a template
+spectrum, which is the average of all the spectra of the galaxies in the class.
+These low noise template spectra vary smoothly and continuously along a
+sequence labeled from 0 to 27, from the reddest class to the bluest class. Our
+Automatic Spectroscopic K-means-based (ASK) classification separates galaxies
+in colors, with classes characteristic of the red sequence, the blue cloud, as
+well as the green valley. When red sequence galaxies and green valley galaxies
+present emission lines, they are characteristic of AGN activity. Blue galaxy
+classes have emission lines corresponding to star formation regions. We find
+the expected correlation between spectroscopic class and Hubble type, but this
+relationship exhibits a high intrinsic scatter. Several potential uses of the
+ASK classification are identified and sketched, including fast determination of
+physical properties by interpolation, classes as templates in redshift
+determinations, and target selection in follow-up works (we find classes of
+Seyfert galaxies, green valley galaxies, as well as a significant number of
+outliers). The ASK classification is publicly accessible through various
+websites.

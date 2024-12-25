@@ -1,0 +1,17 @@
+A biclique is a set of vertices that induce a bipartite complete graph. A
+graph G is biclique-Helly when its family of maximal bicliques satisfies the
+Helly property. If every induced subgraph of G is also biclique-Helly, then G
+is hereditary biclique-Helly. A graph is C_4-dominated when every cycle of
+length 4 contains a vertex that is dominated by the vertex of the cycle that is
+not adjacent to it. In this paper we show that the class of hereditary
+biclique-Helly graphs is formed precisely by those C_4-dominated graphs that
+contain no triangles and no induced cycles of length either 5, or 6. Using this
+characterization, we develop an algorithm for recognizing hereditary
+biclique-Helly graphs in O(n^2+\alpha m) time and O(m) space. (Here n, m, and
+\alpha = O(m^{1/2}) are the number of vertices and edges, and the arboricity of
+the graph, respectively.) As a subprocedure, we show how to recognize those
+C_4-dominated graphs that contain no triangles in O(\alpha m) time and O(m)
+space. Finally, we show how to enumerate all the maximal bicliques of a
+C_4-dominated graph with no triangles in O(n^2 + \alpha m) time and O(\alpha m)
+space, and we discuss how some biclique problems can be solved in O(\alpha m)
+time and O(n+m) space.

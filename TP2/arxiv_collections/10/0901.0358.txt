@@ -1,0 +1,15 @@
+The aim of this paper is the supervised classification of semi-structured
+data. A formal model based on bayesian classification is developed while
+addressing the integration of the document structure into classification tasks.
+We define what we call the structural context of occurrence for unstructured
+data, and we derive a recursive formulation in which parameters are used to
+weight the contribution of structural element relatively to the others. A
+simplified version of this formal model is implemented to carry out textual
+documents classification experiments. First results show, for a adhoc weighting
+strategy, that the structural context of word occurrences has a significant
+impact on classification results comparing to the performance of a simple
+multinomial naive Bayes classifier. The proposed implementation competes on the
+Reuters-21578 data with the SVM classifier associated or not with the splitting
+of structural components. These results encourage exploring the learning of
+acceptable weighting strategies for this model, in particular boosting
+strategies.

@@ -1,0 +1,12 @@
+We present a new similarity measure tailored to posts in an online forum. Our
+measure takes into account all the available information about user interest
+and interaction --- the content of posts, the threads in the forum, and the
+author of the posts. We use this post similarity to build a similarity between
+users, based on principal coordinate analysis. This allows easy visualization
+of the user activity as well. Similarity between users has numerous
+applications, such as clustering or classification. We show that including the
+author of a post in the post similarity has a smoothing effect on principal
+coordinate projections. We demonstrate our method on real data drawn from an
+internal corporate forum, and compare our results to those given by a standard
+document classification method. We conclude our method gives a more detailed
+picture of both the local and global network structure.

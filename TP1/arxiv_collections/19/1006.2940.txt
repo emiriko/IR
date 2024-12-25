@@ -1,0 +1,13 @@
+Additive isotonic regression attempts to determine the relationship between a
+multi-dimensional observation variable and a response, under the constraint
+that the estimate is the additive sum of univariate component effects that are
+monotonically increasing. In this article, we present a new method for such
+regression called LASSO Isotone (LISO). LISO adapts ideas from sparse linear
+modelling to additive isotonic regression. Thus, it is viable in many
+situations with high dimensional predictor variables, where selection of
+significant versus insignificant variables are required. We suggest an
+algorithm involving a modification of the backfitting algorithm CPAV. We give a
+numerical convergence result, and finally examine some of its properties
+through simulations. We also suggest some possible extensions that improve
+performance, and allow calculation to be carried out when the direction of the
+monotonicity is unknown.

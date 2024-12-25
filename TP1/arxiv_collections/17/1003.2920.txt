@@ -1,0 +1,15 @@
+The log-periodic power law (LPPL) is a model of asset prices during
+endogenous bubbles. If the on-going development of a bubble is suspected, asset
+prices can be fit numerically to the LPPL law. The best solutions can then
+indicate whether a bubble is in progress and, if so, the bubble critical time
+(i.e., when the bubble is expected to burst). Consequently, the LPPL model is
+useful only if the data can be fit to the model with algorithms that are
+accurate and computationally efficient. In this paper, we address primarily the
+computational efficiency and secondarily the precision of the LPPL non-linear
+least-square fit. Specifically, we present a parallel Levenberg-Marquardt
+algorithm (LMA) for LPPL least-square fit that sped up computation of more than
+a factor of four over a sequential LMA on historical and synthetic price
+series. Additionally, we isolate a linear sub-structure of the LPPL
+least-square fit that can be paired with an exact computation of the Jacobian,
+give new settings for the Levenberg-Marquardt damping factor, and describe a
+heuristic method to choose initial solutions.

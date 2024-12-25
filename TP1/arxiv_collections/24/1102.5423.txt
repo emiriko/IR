@@ -1,0 +1,14 @@
+Arm locking is a technique that has been proposed for reducing laser
+frequency fluctuations in the Laser Interferometer Space Antenna (LISA), a
+gravitational-wave observatory sensitive in the milliHertz frequency band. Arm
+locking takes advantage of the geometric stability of the triangular
+constellation of three spacecraft that comprise LISA to provide a frequency
+reference with a stability in the LISA measurement band that exceeds that
+available from a standard reference such as an optical cavity or molecular
+absorption line. We have implemented a time-domain simulation of arm locking
+including the expected limiting noise sources (shot noise, clock noise,
+spacecraft jitter noise, and residual laser frequency noise). The effect of
+imperfect a priori knowledge of the LISA heterodyne frequencies and the
+associated 'pulling' of an arm locked laser is included. We find that our
+implementation meets requirements both on the noise and dynamic range of the
+laser frequency.

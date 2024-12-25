@@ -1,0 +1,20 @@
+The emergence of real-time 3D ultrasound (US) makes it possible to consider
+image-based tracking of subcutaneous soft tissue targets for computer guided
+diagnosis and therapy. We propose a 3D transrectal US based tracking system for
+precise prostate biopsy sample localisation. The aim is to improve sample
+distribution, to enable targeting of unsampled regions for repeated biopsies,
+and to make post-interventional quality controls possible. Since the patient is
+not immobilized, since the prostate is mobile and due to the fact that probe
+movements are only constrained by the rectum during biopsy acquisition, the
+tracking system must be able to estimate rigid transformations that are beyond
+the capture range of common image similarity measures. We propose a fast and
+robust multi-resolution attribute-vector registration approach that combines
+global and local optimization methods to solve this problem. Global
+optimization is performed on a probe movement model that reduces the
+dimensionality of the search space and thus renders optimization efficient. The
+method was tested on 237 prostate volumes acquired from 14 different patients
+for 3D to 3D and 3D to orthogonal 2D slices registration. The 3D-3D version of
+the algorithm converged correctly in 96.7% of all cases in 6.5s with an
+accuracy of 1.41mm (r.m.s.) and 3.84mm (max). The 3D to slices method yielded a
+success rate of 88.9% in 2.3s with an accuracy of 1.37mm (r.m.s.) and 4.3mm
+(max).

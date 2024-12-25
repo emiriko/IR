@@ -1,0 +1,14 @@
+Many plasmas of interest to the astrophysical and fusion communities are
+weakly collisional. In such plasmas, small scales can develop in the
+distribution of particle velocities, potentially affecting observable
+quantities such as turbulent fluxes. Consequently, it is necessary to monitor
+velocity space resolution in gyrokinetic simulations. In this paper, we present
+a set of computationally efficient diagnostics for measuring velocity space
+resolution in gyrokinetic simulations and apply them to a range of plasma
+physics phenomena using the continuum gyrokinetic code GS2. For the cases
+considered here, it is found that the use of a collisionality at or below
+experimental values allows for the resolution of plasma dynamics with
+relatively few velocity space grid points. Additionally, we describe
+implementation of an adaptive collision frequency which can be used to improve
+velocity space resolution in the collisionless regime, where results are
+expected to be independent of collision frequency.

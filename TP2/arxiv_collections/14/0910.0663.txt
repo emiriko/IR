@@ -1,0 +1,11 @@
+Transmission line, or wire, is always troublesome to integrated circuits
+designers, but it could be helpful to parallel computing researchers. This
+paper proposes the Virtual Transmission Method (VTM), which is a new
+distributed and stationary iterative algorithm to solve the linear system
+extracted from circuit. It tears the circuit by virtual transmission lines to
+achieve distributed computing. For the symmetric positive definite (SPD) linear
+system, VTM is proved to be convergent. For the unsymmetrical linear system,
+numerical experiments show that VTM is possible to achieve better convergence
+property than the traditional stationary algorithms. VTM could be accelerated
+by some preconditioning techniques, and the convergence speed of VTM is fast
+when its preconditioner is properly chosen.

@@ -1,0 +1,7 @@
+Let G be a graph that may be drawn in the plane in such a way that all
+internal faces are centrally symmetric convex polygons. We show how to find a
+drawing of this type that maximizes the angular resolution of the drawing, the
+minimum angle between any two incident edges, in polynomial time, by reducing
+the problem to one of finding parametric shortest paths in an auxiliary graph.
+The running time is at most O(t^3), where t is a parameter of the input graph
+that is at most O(n) but is more typically proportional to n^.5.

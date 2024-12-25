@@ -1,0 +1,15 @@
+In mean-payoff games, the objective of the protagonist is to ensure that the
+limit average of an infinite sequence of numeric weights is nonnegative. In
+energy games, the objective is to ensure that the running sum of weights is
+always nonnegative. Generalized mean-payoff and energy games replace individual
+weights by tuples, and the limit average (resp. running sum) of each coordinate
+must be (resp. remain) nonnegative. These games have applications in the
+synthesis of resource-bounded processes with multiple resources.
+  We prove the finite-memory determinacy of generalized energy games and show
+the inter-reducibility of generalized mean-payoff and energy games for
+finite-memory strategies. We also improve the computational complexity for
+solving both classes of games with finite-memory strategies: while the
+previously best known upper bound was EXPSPACE, and no lower bound was known,
+we give an optimal coNP-complete bound. For memoryless strategies, we show that
+the problem of deciding the existence of a winning strategy for the protagonist
+is NP-complete.

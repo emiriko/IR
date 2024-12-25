@@ -1,0 +1,17 @@
+In their seminal work, Alon, Matias, and Szegedy introduced several sketching
+techniques, including showing that 4-wise independence is sufficient to obtain
+good approximations of the second frequency moment. In this work, we show that
+their sketching technique can be extended to product domains $[n]^k$ by using
+the product of 4-wise independent functions on $[n]$. Our work extends that of
+Indyk and McGregor, who showed the result for $k = 2$. Their primary motivation
+was the problem of identifying correlations in data streams. In their model, a
+stream of pairs $(i,j) \in [n]^2$ arrive, giving a joint distribution $(X,Y)$,
+and they find approximation algorithms for how close the joint distribution is
+to the product of the marginal distributions under various metrics, which
+naturally corresponds to how close $X$ and $Y$ are to being independent. By
+using our technique, we obtain a new result for the problem of approximating
+the $\ell_2$ distance between the joint distribution and the product of the
+marginal distributions for $k$-ary vectors, instead of just pairs, in a single
+pass. Our analysis gives a randomized algorithm that is a $(1 \pm \epsilon)$
+approximation (with probability $1-\delta$) that requires space logarithmic in
+$n$ and $m$ and proportional to $3^k$.

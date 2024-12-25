@@ -1,0 +1,22 @@
+In the field of quality of health care measurement, one approach to assessing
+patient sickness at admission involves a logistic regression of mortality
+within 30 days of admission on a fairly large number of sickness indicators (on
+the order of 100) to construct a sickness scale, employing classical variable
+selection methods to find an ``optimal'' subset of 10--20 indicators. Such
+``benefit-only'' methods ignore the considerable differences among the sickness
+indicators in cost of data collection, an issue that is crucial when admission
+sickness is used to drive programs (now implemented or under consideration in
+several countries, including the U.S. and U.K.) that attempt to identify
+substandard hospitals by comparing observed and expected mortality rates (given
+admission sickness). When both data-collection cost and accuracy of prediction
+of 30-day mortality are considered, a large variable-selection problem arises
+in which costly variables that do not predict well enough should be omitted
+from the final scale. In this paper (a) we develop a method for solving this
+problem based on posterior model odds, arising from a prior distribution that
+(1) accounts for the cost of each variable and (2) results in a set of
+posterior model probabilities that corresponds to a generalized cost-adjusted
+version of the Bayesian information criterion (BIC), and (b) we compare this
+method with a decision-theoretic cost-benefit approach based on maximizing
+expected utility. We use reversible-jump Markov chain Monte Carlo (RJMCMC)
+methods to search the model space, and we check the stability of our findings
+with two variants of the MCMC model composition ($\mathit{MC}^3$) algorithm.

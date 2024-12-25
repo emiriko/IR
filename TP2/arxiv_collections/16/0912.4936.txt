@@ -1,0 +1,10 @@
+This paper deals with computing topological invariants such as connected
+components, boundary surface genus, and homology groups. For each input data
+set, we have designed or implemented algorithms to calculate connected
+components, boundary surfaces and their genus, and homology groups. Due to the
+fact that genus calculation dominates the entire task for 3D object in 3D
+space, in this paper, we mainly discuss the calculation of the genus. The new
+algorithms designed in this paper will perform:
+  (1) pathological cases detection and deletion, (2) raster space to point
+space (dual space) transformation, (3) the linear time algorithm for boundary
+point classification, and (4) genus calculation.

@@ -1,0 +1,14 @@
+A function $F$ defined on all subsets of a finite ground set $E$ is
+quasi-concave if $F(X\cup Y)\geq\min\{F(X),F(Y)\}$ for all $X,Y\subset E$.
+Quasi-concave functions arise in many fields of mathematics and computer
+science such as social choice, theory of graph, data mining, clustering and
+other fields.
+  The maximization of quasi-concave function takes, in general, exponential
+time. However, if a quasi-concave function is defined by associated monotone
+linkage function then it can be optimized by the greedy type algorithm in a
+polynomial time.
+  Quasi-concave functions defined as minimum values of monotone linkage
+functions were considered on antimatroids, where the correspondence between
+quasi-concave and bottleneck functions was shown (Kempner & Levit, 2003). The
+goal of this paper is to analyze quasi-concave functions on different families
+of sets and to investigate their relationships with monotone linkage functions.

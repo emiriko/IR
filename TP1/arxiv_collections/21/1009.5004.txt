@@ -1,0 +1,15 @@
+Most commercial manufacturers of industrial robots require their robots to be
+programmed in a proprietary language tailored to the domain - a typical
+domain-specific language (DSL). However, these languages oftentimes suffer from
+shortcomings such as controller-specific design, limited expressiveness and a
+lack of extensibility. For that reason, we developed the extensible Robotics
+API for programming industrial robots on top of a general-purpose language.
+Although being a very flexible approach to programming industrial robots, a
+fully-fledged language can be too complex for simple tasks. Additionally,
+legacy support for code written in the original DSL has to be maintained. For
+these reasons, we present a lightweight implementation of a typical robotic
+DSL, the KUKA Robot Language (KRL), on top of our Robotics API. This work deals
+with the challenges in reverse-engineering the language and mapping its
+specifics to the Robotics API. We introduce two different approaches of
+interpreting and executing KRL programs: tree-based and bytecode-based
+interpretation.

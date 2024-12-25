@@ -1,0 +1,16 @@
+Computer experiments are often performed to allow modeling of a response
+surface of a physical experiment that can be too costly or difficult to run
+except using a simulator. Running the experiment over a dense grid can be
+prohibitively expensive, yet running over a sparse design chosen in advance can
+result in obtaining insufficient information in parts of the space,
+particularly when the surface calls for a nonstationary model. We propose an
+approach that automatically explores the space while simultaneously fitting the
+response surface, using predictive uncertainty to guide subsequent experimental
+runs. The newly developed Bayesian treed Gaussian process is used as the
+surrogate model, and a fully Bayesian approach allows explicit measures of
+uncertainty. We develop an adaptive sequential design framework to cope with an
+asynchronous, random, agent--based supercomputing environment, by using a
+hybrid approach that melds optimal strategies from the statistics literature
+with flexible strategies from the active learning literature. The merits of
+this approach are borne out in several examples, including the motivating
+computational fluid dynamics simulation of a rocket booster.

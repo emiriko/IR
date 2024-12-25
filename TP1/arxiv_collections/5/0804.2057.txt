@@ -1,0 +1,14 @@
+Query expansion is a well known method to improve the performance of
+information retrieval systems. In this work we have tested different approaches
+to extract the candidate query terms from the top ranked documents returned by
+the first-pass retrieval.
+  One of them is the cooccurrence approach, based on measures of cooccurrence
+of the candidate and the query terms in the retrieved documents. The other one,
+the probabilistic approach, is based on the probability distribution of terms
+in the collection and in the top ranked set.
+  We compare the retrieval improvement achieved by expanding the query with
+terms obtained with different methods belonging to both approaches. Besides, we
+have developed a na\"ive combination of both kinds of method, with which we
+have obtained results that improve those obtained with any of them separately.
+This result confirms that the information provided by each approach is of a
+different nature and, therefore, can be used in a combined manner.

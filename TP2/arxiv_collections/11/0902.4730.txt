@@ -1,0 +1,17 @@
+In an ideal distributed computing infrastructure, users would be able to use
+diverse distributed computing resources in a simple coherent way, with
+guaranteed security and efficient use of shared resources in accordance with
+the wishes of the owners of the resources. Our strategy for approaching this
+ideal is to first find the simplest structure within which these goals can
+plausibly be achieved. This structure, we find, is given by a particular
+recursive distributive lattice freely constructed from a presumed partially
+ordered set of all data in the infrastructure. Minor syntactic adjustments to
+the resulting algebra yields a simple language resembling a UNIX shell, a
+concept of execution and an interprocess protocol. Persons, organizations and
+servers within the system express their interests explicitly via a hierarchical
+currency. The currency provides a common framework for treating authentication,
+access control and resource sharing as economic problems while also introducing
+a new dimension for improving the infrastructure over time by designing system
+components which compete with each other to earn the currency. We explain these
+results, discuss experience with an implementation called egg and point out
+areas where more research is needed.

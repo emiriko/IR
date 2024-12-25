@@ -1,0 +1,14 @@
+Detailed modeling of processors and high performance cycle-accurate
+simulators are essential for today's hardware and software design. These
+problems are challenging enough by themselves and have seen many previous
+research efforts. Addressing both simultaneously is even more challenging, with
+many existing approaches focusing on one over another. In this paper, we
+propose the Reduced Colored Petri Net (RCPN) model that has two advantages:
+first, it offers a very simple and intuitive way of modeling pipelined
+processors; second, it can generate high performance cycle-accurate simulators.
+RCPN benefits from all the useful features of Colored Petri Nets without
+suffering from their exponential growth in complexity. RCPN processor models
+are very intuitive since they are a mirror image of the processor pipeline
+block diagram. Furthermore, in our experiments on the generated cycle-accurate
+simulators for XScale and StrongArm processor models, we achieved an order of
+magnitude (~15 times) speedup over the popular SimpleScalar ARM simulator.

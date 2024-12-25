@@ -1,0 +1,12 @@
+Compression of inverted lists with methods that support fast intersection
+operations is an active research topic. Most compression schemes rely on
+encoding differences between consecutive positions with techniques that favor
+small numbers. In this paper we explore a completely different alternative: We
+use Re-Pair compression of those differences. While Re-Pair by itself offers
+fast decompression at arbitrary positions in main and secondary memory, we
+introduce variants that in addition speed up the operations required for
+inverted list intersection. We compare the resulting data structures with
+several recent proposals under various list intersection algorithms, to
+conclude that our Re-Pair variants offer an interesting time/space tradeoff for
+this problem, yet further improvements are required for it to improve upon the
+state of the art.

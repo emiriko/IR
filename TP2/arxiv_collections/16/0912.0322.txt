@@ -1,0 +1,16 @@
+Submodularity is a fundamental phenomenon in combinatorial optimization.
+Submodular functions occur in a variety of combinatorial settings such as
+coverage problems, cut problems, welfare maximization, and many more.
+Therefore, a lot of work has been concerned with maximizing or minimizing a
+submodular function, often subject to combinatorial constraints. Many of these
+algorithmic results exhibit a common structure. Namely, the function is
+extended to a continuous, usually non-linear, function on a convex domain.
+Then, this relaxation is solved, and the fractional solution rounded to yield
+an integral solution. Often, the continuous extension has a natural
+interpretation in terms of distributions on subsets of the ground set. This
+interpretation is often crucial to the results and their analysis. The purpose
+of this survey is to highlight this connection between extensions,
+distributions, relaxations, and optimization in the context of submodular
+functions. We also present the first constant factor approximation algorithm
+for minimizing symmetric submodular functions subject to a cardinality
+constraint.

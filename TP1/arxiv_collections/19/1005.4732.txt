@@ -1,0 +1,9 @@
+Given an order-$d$ tensor $\tensor A \in \R^{n \times n \times...\times n}$,
+we present a simple, element-wise sparsification algorithm that zeroes out all
+sufficiently small elements of $\tensor A$, keeps all sufficiently large
+elements of $\tensor A$, and retains some of the remaining elements with
+probabilities proportional to the square of their magnitudes. We analyze the
+approximation accuracy of the proposed algorithm using a powerful inequality
+that we derive. This inequality bounds the spectral norm of a random tensor and
+is of independent interest. As a result, we obtain novel bounds for the tensor
+sparsification problem.

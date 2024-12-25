@@ -1,0 +1,18 @@
+Timing side-channels represent an insidious security challenge for cloud
+computing, because: (a) massive parallelism in the cloud makes timing channels
+pervasive and hard to control; (b) timing channels enable one customer to steal
+information from another without leaving a trail or raising alarms; (c) only
+the cloud provider can feasibly detect and report such attacks, but the
+provider's incentives are not to; and (d) resource partitioning schemes for
+timing channel control undermine statistical sharing efficiency, and, with it,
+the cloud computing business model. We propose a new approach to timing channel
+control, using provider-enforced deterministic execution instead of resource
+partitioning to eliminate timing channels within a shared cloud domain.
+Provider-enforced determinism prevents execution timing from affecting the
+results of a compute task, however large or parallel, ensuring that a task's
+outputs leak no timing information apart from explicit timing inputs and total
+compute duration. Experiments with a prototype OS for deterministic cloud
+computing suggest that such an approach may be practical and efficient. The OS
+supports deterministic versions of familiar APIs such as processes, threads,
+shared memory, and file systems, and runs coarse-grained parallel tasks as
+efficiently and scalably as current timing channel-ridden systems.

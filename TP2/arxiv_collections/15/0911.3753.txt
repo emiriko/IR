@@ -1,0 +1,11 @@
+There exists a range of different models for estimating and simulating credit
+risk transitions to optimally manage credit risk portfolios and products. In
+this chapter we present a Coupled Markov Chain approach to model rating
+transitions and thereby default probabilities of companies. As the likelihood
+of the model turns out to be a non-convex function of the parameters to be
+estimated, we apply heuristics to find the ML estimators. To this extent, we
+outline the model and its likelihood function, and present both a Particle
+Swarm Optimization algorithm, as well as an Evolutionary Optimization algorithm
+to maximize the likelihood function. Numerical results are shown which suggest
+a further application of evolutionary optimization techniques for credit risk
+management.

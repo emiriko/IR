@@ -1,0 +1,14 @@
+We study novel simulation-like preorders for quotienting nondeterministic
+B\"uchi automata. We define fixed-word delayed simulation, a new preorder
+coarser than delayed simulation. We argue that fixed-word simulation is the
+coarsest forward simulation-like preorder which can be used for quotienting
+B\"uchi automata, thus improving our understanding of the limits of
+quotienting. Also, we show that computing fixed-word simulation is
+PSPACE-complete. On the practical side, we introduce proxy simulations, which
+are novel polynomial-time computable preorders sound for quotienting. In
+particular, delayed proxy simulation induce quotients that can be smaller by an
+arbitrarily large factor than direct backward simulation. We derive proxy
+simulations as the product of a theory of refinement transformers: A refinement
+transformer maps preorders non-decreasingly, preserving certain properties. We
+study under which general conditions refinement transformers are sound for
+quotienting.

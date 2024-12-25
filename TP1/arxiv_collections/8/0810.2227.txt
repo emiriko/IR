@@ -1,0 +1,11 @@
+This paper addresses the problem of efficiently storing and accessing massive
+data blocks in a large-scale distributed environment, while providing efficient
+fine-grain access to data subsets. This issue is crucial in the context of
+applications in the field of databases, data mining and multimedia. We propose
+a data sharing service based on distributed, RAM-based storage of data, while
+leveraging a DHT-based, natively parallel metadata management scheme. As
+opposed to the most commonly used grid storage infrastructures that provide
+mechanisms for explicit data localization and transfer, we provide a
+transparent access model, where data are accessed through global identifiers.
+Our proposal has been validated through a prototype implementation whose
+preliminary evaluation provides promising results.

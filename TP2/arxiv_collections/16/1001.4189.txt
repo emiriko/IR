@@ -1,0 +1,12 @@
+Segmenting a MRI images into homogeneous texture regions representing
+disparate tissue types is often a useful preprocessing step in the
+computer-assisted detection of breast cancer. That is why we proposed new
+algorithm to detect cancer in mammogram breast cancer images. In this paper we
+proposed segmentation using vector quantization technique. Here we used Linde
+Buzo-Gray algorithm (LBG) for segmentation of MRI images. Initially a codebook
+of size 128 was generated for MRI images. These code vectors were further
+clustered in 8 clusters using same LBG algorithm. These 8 images were displayed
+as a result. This approach does not leads to over segmentation or under
+segmentation. For the comparison purpose we displayed results of watershed
+segmentation and Entropy using Gray Level Co-occurrence Matrix along with this
+method.

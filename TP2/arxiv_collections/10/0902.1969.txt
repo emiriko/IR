@@ -1,0 +1,16 @@
+We present an efficient algorithm for generating unitary maps on a
+$d$-dimensional Hilbert space from a time-dependent Hamiltonian through a
+combination of stochastic searches and geometric construction. The protocol is
+based on the eigen-decomposition of the map. A unitary matrix can be
+implemented by sequentially mapping each eigenvector to a fiducial state,
+imprinting the eigenphase on that state, and mapping it back to the
+eigenvector. This requires the design of only $d$ state-to-state maps generated
+by control waveforms that are efficiently found by a gradient search with
+computational resources that scale polynomially in $d$. In contrast, the
+complexity of a stochastic search for a single waveform that simultaneously
+acts as desired on all eigenvectors scales exponentially in $d$. We extend this
+construction to design maps on an $n$-dimensional subspace of the Hilbert space
+using only $n$ stochastic searches. Additionally, we show how these techniques
+can be used to control atomic spins in the ground electronic hyperfine manifold
+of alkali atoms in order to implement general qudit logic gates as well to
+perform a simple form of error correction on an embedded qubit.

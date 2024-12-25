@@ -1,0 +1,16 @@
+By introducing a predictive mechanism with small-world connections, we
+propose a new motion protocol for self-driven flocks. The small-world
+connections are implemented by randomly adding long-range interactions from the
+leader to a few distant agents, namely pseudo-leaders. The leader can directly
+affect the pseudo-leaders, thereby influencing all the other agents through
+them efficiently. Moreover, these pseudo-leaders are able to predict the
+leader's motion several steps ahead and use this information in decision making
+towards coherent flocking with more stable formation. It is shown that drastic
+improvement can be achieved in terms of both the consensus performance and the
+communication cost. From the industrial engineering point of view, the current
+protocol allows for a significant improvement in the cohesion and rigidity of
+the formation at a fairly low cost of adding a few long-range links embedded
+with predictive capabilities. Significantly, this work uncovers an important
+feature of flocks that predictive capability and long-range links can
+compensate for the insufficiency of each other. These conclusions are valid for
+both the attractive/repulsive swarm model and the Vicsek model.

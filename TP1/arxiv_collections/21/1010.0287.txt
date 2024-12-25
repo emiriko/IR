@@ -1,0 +1,16 @@
+In this paper, we consider a queue-aware distributive resource control
+algorithm for two-hop MIMO cooperative systems. We shall illustrate that relay
+buffering is an effective way to reduce the intrinsic half-duplex penalty in
+cooperative systems. The complex interactions of the queues at the source node
+and the relays are modeled as an average-cost infinite horizon Markov Decision
+Process (MDP). The traditional approach solving this MDP problem involves
+centralized control with huge complexity. To obtain a distributive and low
+complexity solution, we introduce a linear structure which approximates the
+value function of the associated Bellman equation by the sum of per-node value
+functions. We derive a distributive two-stage two-winner auction-based control
+policy which is a function of the local CSI and local QSI only. Furthermore, to
+estimate the best fit approximation parameter, we propose a distributive online
+stochastic learning algorithm using stochastic approximation theory. Finally,
+we establish technical conditions for almost-sure convergence and show that
+under heavy traffic, the proposed low complexity distributive control is global
+optimal.

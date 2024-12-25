@@ -1,0 +1,15 @@
+Since the seminal work of Paturi and Simon \cite[FOCS'84 & JCSS'86]{PS86},
+the unbounded-error classical communication complexity of a Boolean function
+has been studied based on the arrangement of points and hyperplanes. Recently,
+\cite[ICALP'07]{INRY07} found that the unbounded-error {\em quantum}
+communication complexity in the {\em one-way communication} model can also be
+investigated using the arrangement, and showed that it is exactly (without a
+difference of even one qubit) half of the classical one-way communication
+complexity. In this paper, we extend the arrangement argument to the {\em
+two-way} and {\em simultaneous message passing} (SMP) models. As a result, we
+show similarly tight bounds of the unbounded-error two-way/one-way/SMP
+quantum/classical communication complexities for {\em any} partial/total
+Boolean function, implying that all of them are equivalent up to a
+multiplicative constant of four. Moreover, the arrangement argument is also
+used to show that the gap between {\em weakly} unbounded-error quantum and
+classical communication complexities is at most a factor of three.

@@ -1,0 +1,13 @@
+In this paper, we present the design of a sample sort algorithm for manycore
+GPUs. Despite being one of the most efficient comparison-based sorting
+algorithms for distributed memory architectures its performance on GPUs was
+previously unknown. For uniformly distributed keys our sample sort is at least
+25% and on average 68% faster than the best comparison-based sorting algorithm,
+GPU Thrust merge sort, and on average more than 2 times faster than GPU
+quicksort. Moreover, for 64-bit integer keys it is at least 63% and on average
+2 times faster than the highly optimized GPU Thrust radix sort that directly
+manipulates the binary representation of keys. Our implementation is robust to
+different distributions and entropy levels of keys and scales almost linearly
+with the input size. These results indicate that multi-way techniques in
+general and sample sort in particular achieve substantially better performance
+than two-way merge sort and quicksort.

@@ -1,0 +1,23 @@
+Random number generation is a fundamental security primitive for RFID
+devices. However, even this relatively simple requirement is beyond the
+capacity of today's average RFID tag. A recently proposed solution, Fingerprint
+Extraction and Random Number Generation in SRAM (FERNS) [14, 15], involves the
+use of onboard RAM as the source of "true" randomness. Unfortunately, practical
+considerations prevent this approach from reaching its full potential. First,
+this method must compete with other system functionalities for use of memory.
+Thus, the amount of uninitialized RAM available for utilization as a randomness
+generator may be severely restricted. Second, RAM is subject to data remanence;
+there is a time period after losing power during which stored data remains
+intact in memory. This means that after a portion of memory has been used for
+entropy collection once it will require a relatively extended period of time
+without power before it can be reused. In a usable RFID based security
+application, which requires multiple or long random numbers, this may lead to
+unacceptably high delays.
+  In this paper, we show that data remanence negatively affects RAM based
+random number generation. We demonstrate the practical considerations that must
+be taken into account when using RAM as an entropy source. We also discuss the
+implementation of a true random number generator on Intel's WISP RFID tag,
+which is the first such implementation to the authors' best knowledge. By
+relating this to the requirements of some popular RFID authentication
+protocols, we assess the (im)practicality of utilizing memory based randomness
+techniques on resource constrained devices.

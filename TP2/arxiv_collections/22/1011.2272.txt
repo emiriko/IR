@@ -1,0 +1,13 @@
+In this paper, a new directionally adaptive, learning based, single image
+super resolution method using multiple direction wavelet transform, called
+Directionlets is presented. This method uses directionlets to effectively
+capture directional features and to extract edge information along different
+directions of a set of available high resolution images .This information is
+used as the training set for super resolving a low resolution input image and
+the Directionlet coefficients at finer scales of its high-resolution image are
+learned locally from this training set and the inverse Directionlet transform
+recovers the super-resolved high resolution image. The simulation results
+showed that the proposed approach outperforms standard interpolation techniques
+like Cubic spline interpolation as well as standard Wavelet-based learning,
+both visually and in terms of the mean squared error (mse) values. This method
+gives good result with aliased images also.

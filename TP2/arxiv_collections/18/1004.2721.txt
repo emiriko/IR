@@ -1,0 +1,15 @@
+We present an adiabatic quantum algorithm for the abstract problem of
+searching marked vertices in a graph, or spatial search. Given a random walk
+(or Markov chain) $P$ on a graph with a set of unknown marked vertices, one can
+define a related absorbing walk $P'$ where outgoing transitions from marked
+vertices are replaced by self-loops. We build a Hamiltonian $H(s)$ from the
+interpolated Markov chain $P(s)=(1-s)P+sP'$ and use it in an adiabatic quantum
+algorithm to drive an initial superposition over all vertices to a
+superposition over marked vertices. The adiabatic condition implies that for
+any reversible Markov chain and any set of marked vertices, the running time of
+the adiabatic algorithm is given by the square root of the classical hitting
+time. This algorithm therefore demonstrates a novel connection between the
+adiabatic condition and the classical notion of hitting time of a random walk.
+It also significantly extends the scope of previous quantum algorithms for this
+problem, which could only obtain a full quadratic speed-up for state-transitive
+reversible Markov chains with a unique marked vertex.

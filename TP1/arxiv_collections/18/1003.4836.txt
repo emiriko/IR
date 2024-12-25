@@ -1,0 +1,11 @@
+Several propositions were done to provide adapted concurrency control to
+object-oriented databases. However, most of these proposals miss the fact that
+considering solely read and write access modes on instances may lead to less
+parallelism than in relational databases! This paper cope with that issue, and
+advantages are numerous: (1) commutativity of methods is determined a priori
+and automatically by the compiler, without measurable overhead, (2) run-time
+checking of commutativity is as efficient as for compatibility, (3) inverse
+operations need not be specified for recovery, (4) this scheme does not
+preclude more sophisticated approaches, and, last but not least, (5) relational
+and object-oriented concurrency control schemes with read and write access
+modes are subsumed under this proposition.

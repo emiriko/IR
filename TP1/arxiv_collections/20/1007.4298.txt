@@ -1,0 +1,16 @@
+We describe a new finite element method (FEM) to construct continuous
+equilibrium distribution functions of stellar systems. The method is a
+generalization of Schwarzschild's orbit superposition method from the space of
+discrete functions to continuous ones. In contrast to Schwarzschild's method,
+FEM produces a continuous distribution function (DF) and satisfies the intra
+element continuity and Jeans equations. The method employs two finite-element
+meshes, one in configuration space and one in action space. The DF is
+represented by its values at the nodes of the action-space mesh and by
+interpolating functions inside the elements. The Galerkin projection of all
+equations that involve the DF leads to a linear system of equations, which can
+be solved for the nodal values of the DF using linear or quadratic programming,
+or other optimization methods. We illustrate the superior performance of FEM by
+constructing ergodic and anisotropic equilibrium DFs for spherical stellar
+systems (Hernquist models). We also show that explicitly constraining the DF by
+the Jeans equations leads to smoother and/or more accurate solutions with both
+Schwarzschild's method and FEM.

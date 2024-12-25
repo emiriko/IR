@@ -1,0 +1,17 @@
+We describe the production and verification of sky maps of the five SPIRE
+fields observed as part of the Herschel Multi-tiered Extragalactic Survey
+(HerMES) during the Science Demonstration Phase (SDP) of the Herschel mission.
+We have implemented an iterative map-making algorithm (SHIM; The SPIRE-HerMES
+Iterative Mapper) to produce high fidelity maps that preserve extended diffuse
+emission on the sky while exploiting the repeated observations of the same
+region of the sky with many detectors in multiple scan directions to minimize
+residual instrument noise. We specify here the SHIM algorithm and outline the
+various tests that were performed to determine and characterize the quality of
+the maps and verify that the astrometry, point source flux and power on all
+relevant angular scales meets the needs of the HerMES science goals. These
+include multiple jackknife tests, determination of the map transfer function
+and detailed examination of the power spectra of both sky and jackknife maps.
+The map transfer function is approximately unity on scales from one arcminute
+to one degree. Final maps (v1.0), including multiple jackknives, as well as the
+SHIM pipeline, have been used by the HerMES team for the production of SDP
+papers.

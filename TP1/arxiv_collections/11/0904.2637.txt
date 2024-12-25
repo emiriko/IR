@@ -1,0 +1,16 @@
+Logan's graphical analysis (LGA) is a widely-used approach for quantification
+of biochemical and physiological processes from Positron emission tomography
+(PET) image data. A well-noted problem associated with the LGA method is the
+bias in the estimated parameters. We recently systematically evaluated the bias
+associated with the linear model approximation and developed an alternative to
+minimize the bias due to model error. In this study, we examined the noise
+structure in the equations defining linear quantification methods, including
+LGA. The noise structure conflicts with the conditions given by the
+Gauss-Markov theorem for the least squares (LS) solution to generate the best
+linear unbiased estimator. By carefully taking care of the data error
+structure, we propose to use structured total least squares (STLS) to obtain
+the solution using a one-dimensional optimization problem. Simulations of PET
+data for [11C] benzothiazole-aniline (Pittsburgh Compound-B [PIB]) show that
+the proposed method significantly reduces the bias. We conclude that the bias
+associated with noise is primarily due to the unusual structure of he
+correlated noise and it can be reduced with the proposed STLS method.

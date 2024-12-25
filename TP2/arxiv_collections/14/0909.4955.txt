@@ -1,0 +1,11 @@
+Given a family of rational curves depending on a real parameter, defined by
+its parametric equations, we provide an algorithm to compute a finite partition
+of the parameter space (${\Bbb R}$, in general) so that the shape of the family
+stays invariant along each element of the partition. So, from this partition
+the topology types in the family can be determined. The algorithm is based on a
+geometric interpretation of previous work (\cite{JGRS}) for the implicit case.
+However, in our case the algorithm works directly with the parametrization of
+the family, and the implicit equation does not need to be computed. Timings
+comparing the algorithm in the implicit and the parametric cases are given;
+these timings show that the parametric algorithm developed here provides in
+general better results than the known algorithm for the implicit case.

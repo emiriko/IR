@@ -1,0 +1,15 @@
+The ever-increasing amount of data in biomedical research, and in cancer
+research in particular, needs to be managed to support efficient data access,
+exchange and integration. Existing software infrastructures, such caGrid,
+support access to distributed information annotated with a domain ontology.
+However, caGrid's current querying functionality depends on the structure of
+individual data resources without exploiting the semantic annotations. In this
+paper, we present the design and development of an ontology-based querying
+functionality that consists of: the generation of OWL2 ontologies from the
+underlying data resources metadata and a query rewriting and translation
+process based on reasoning, which converts a query at the domain ontology level
+into queries at the software infrastructure level. We present a detailed
+analysis of our approach as well as an extensive performance evaluation. While
+the implementation and evaluation was performed for the caGrid infrastructure,
+the approach could be applicable to other model and metadata-driven
+environments for data sharing.

@@ -1,0 +1,15 @@
+We extend stochastic network optimization theory to treat networks with
+arbitrary sample paths for arrivals, channels, and mobility. The network can
+experience unexpected link or node failures, traffic bursts, and topology
+changes, and there are no probabilistic assumptions describing these time
+varying events. Performance of our scheduling algorithm is compared against an
+ideal T-slot lookahead policy that can make optimal decisions based on
+knowledge up to T-slots into the future. We develop a simple non-anticipating
+algorithm that provides network throughput-utility that is arbitrarily close to
+(or better than) that of the T-slot lookahead policy, with a tradeoff in the
+worst case queue backlog kept at any queue. The same policy offers even
+stronger performance, closely matching that of an ideal infinite lookahead
+policy, when ergodic assumptions are imposed.
+  Our analysis uses a sample path version of Lyapunov drift and provides a
+methodology for optimizing time averages in general time-varying optimization
+problems.

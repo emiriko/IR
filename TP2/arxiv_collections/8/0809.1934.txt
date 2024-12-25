@@ -1,0 +1,10 @@
+We present a security analysis of the recently introduced Quantum Private
+Query (QPQ) protocol. It is a cheat sensitive quantum protocol to perform a
+private search on a classical database. It allows a user to retrieve an item
+from the database without revealing which item was retrieved, and at the same
+time it ensures data privacy of the database (the information that the user can
+retrieve in a query is bounded and does not depend on the size of the
+database). The security analysis is based on information-disturbance tradeoffs
+which show that whenever the provider tries to obtain information on the query,
+the query (encoded into a quantum system) is disturbed so that the person
+querying the database can detect the privacy violation.

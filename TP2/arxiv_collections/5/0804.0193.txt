@@ -1,0 +1,15 @@
+Wilson's numerical renormalization group (NRG) method for solving quantum
+impurity models yields a set of energy eigenstates that have the form of matrix
+product states (MPS). White's density matrix renormalization group (DMRG) for
+treating quantum lattice problems can likewise be reformulated in terms of MPS.
+Thus, the latter constitute a common algebraic structure for both approaches.
+We exploit this fact to compare the NRG approach for the single-impurity
+Anderson model to a variational matrix product state approach (VMPS),
+equivalent to single-site DMRG. For the latter, we use an ``unfolded'' Wilson
+chain, which brings about a significant reduction in numerical costs compared
+to those of NRG. We show that all NRG eigenstates (kept and discarded) can be
+reproduced using VMPS, and compare the difference in truncation criteria, sharp
+vs. smooth in energy space, of the two approaches. Finally, we demonstrate that
+NRG results can be improved upon systematically by performing a variational
+optimization in the space of variational matrix product states, using the
+states produced by NRG as input.

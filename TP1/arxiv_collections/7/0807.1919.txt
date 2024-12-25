@@ -1,0 +1,12 @@
+Let $X$ be a normed space that satisfies the Johnson-Lindenstrauss lemma (J-L
+lemma, in short) in the sense that for any integer $n$ and any
+$x_1,\ldots,x_n\in X$ there exists a linear mapping $L:X\to F$, where
+$F\subseteq X$ is a linear subspace of dimension $O(\log n)$, such that
+$\|x_i-x_j\|\le\|L(x_i)-L(x_j)\|\le O(1)\cdot\|x_i-x_j\|$ for all $i,j\in
+\{1,\ldots, n\}$. We show that this implies that $X$ is almost Euclidean in the
+following sense: Every $n$-dimensional subspace of $X$ embeds into Hilbert
+space with distortion $2^{2^{O(\log^*n)}}$. On the other hand, we show that
+there exists a normed space $Y$ which satisfies the J-L lemma, but for every
+$n$ there exists an $n$-dimensional subspace $E_n\subseteq Y$ whose Euclidean
+distortion is at least $2^{\Omega(\alpha(n))}$, where $\alpha$ is the inverse
+Ackermann function.

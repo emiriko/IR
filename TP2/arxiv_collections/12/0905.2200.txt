@@ -1,0 +1,14 @@
+Computational neuroscience is being revolutionized with the advent of
+multi-electrode arrays that provide real-time, dynamic, perspectives into brain
+function. Mining event streams from these chips is critical to understanding
+the firing patterns of neurons and to gaining insight into the underlying
+cellular activity. We present a GPGPU solution to mining spike trains. We focus
+on mining frequent episodes which captures coordinated events across time even
+in the presence of intervening background/"junk" events. Our algorithmic
+contributions are two-fold: MapConcatenate, a new computation-to-core mapping
+scheme, and a two-pass elimination approach to quickly find supported episodes
+from a large number of candidates. Together, they help realize a real-time
+"chip-on-chip" solution to neuroscience data mining, where one chip (the
+multi-electrode array) supplies the spike train data and another (the GPGPU)
+mines it at a scale unachievable previously. Evaluation on both synthetic and
+real datasets demonstrate the potential of our approach.

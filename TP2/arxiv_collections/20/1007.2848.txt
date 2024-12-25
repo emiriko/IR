@@ -1,0 +1,19 @@
+We have written and tested a new general relativistic magnetohydrodynamics
+(GRMHD) code, capable of evolving MHD fluids in dynamical spacetimes with
+adaptive-mesh refinement (AMR). Our code solves the Einstein-Maxwell-MHD system
+of coupled equations in full 3+1 dimensions, evolving the metric via the
+Baumgarte-Shapiro Shibata-Nakamura (BSSN) formalism and the MHD and magnetic
+induction equations via a conservative, high-resolution shock-capturing scheme.
+The induction equations are recast as an evolution equation for the magnetic
+vector potential, which exists on a grid that is staggered with respect to the
+hydrodynamic and metric variables. The divergenceless constraint div(B)=0 is
+enforced by the curl of the vector potential. Our MHD scheme is fully
+compatible with AMR, so that fluids at AMR refinement boundaries maintain
+div(B)=0. In simulations with uniform grid spacing, our MHD scheme is
+numerically equivalent to a commonly used, staggered-mesh constrained-transport
+scheme. We present code validation test results, both in Minkowski and curved
+spacetimes. They include magnetized shocks, nonlinear Alfv\'en waves,
+cylindrical explosions, cylindrical rotating disks, magnetized Bondi tests, and
+the collapse of a magnetized rotating star. Some of the more stringent tests
+involve black holes. We find good agreement between analytic and numerical
+solutions in these tests, and achieve convergence at the expected order.

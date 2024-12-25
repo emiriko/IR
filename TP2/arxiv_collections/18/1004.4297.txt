@@ -1,0 +1,25 @@
+Multiple-Input Multiple-Output (MIMO) based Medium Access Control (MAC)
+protocols have received a good deal of attention as researchers look to enhance
+overall performance of Ad Hoc networks by leveraging multi antenna enabled
+nodes. To date such MAC protocols have been evaluated through comparative
+simulation based studies that report on the number of concurrent links the
+protocol can support. However, a bound on the maximum number of concurrent
+links (MNCL) that a MIMO based MAC protocol should strive to achieve has
+hitherto been unavailable. In this paper we present a theoretical formulation
+for calculating the bound on the MNCL in a Mobile Ad Hoc Network (MANET) where
+the nodes have multiple antenna capability, while guaranteeing a minimum
+Quality of Service (QoS). In an attempt to make our findings as practical and
+realistic as possible, the study incorporates models for the following PHY
+layer and channel dependent elements: (a) path loss and fast fading effects, in
+order to accurately model adjacent link interference; (b) a Minimum Mean
+Squared Error (MMSE) based detector in the receiver which provides a balance
+between completely nulling of neighboring interference and hardware complexity.
+In calculating the bound on the MNCL our work also delivers the optimal power
+control solution for the network as well as the optimal link selection. The
+results are readily applicable to MIMO systems using Receive Diversity, Space
+Time Block Coding (STBC), and Transmit Beamforming and show that with a 4
+element antenna system, as much as 3x improvement in the total number of
+concurrent links can be achieved relative to a SISO based network. The results
+also show diminishing improvement as the number of antennas is increased beyond
+4, and the maximum allowable transmit power is increased beyond 10 dBm (for the
+simulated parameters).

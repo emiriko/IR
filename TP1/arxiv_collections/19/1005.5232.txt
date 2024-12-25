@@ -1,0 +1,12 @@
+MKM has been defined as the quest for technologies to manage mathematical
+knowledge. MKM "in the small" is well-studied, so the real problem is to scale
+up to large, highly interconnected corpora: "MKM in the large". We contend that
+advances in two areas are needed to reach this goal. We need representation
+languages that support incremental processing of all primitive MKM operations,
+and we need software architectures and implementations that implement these
+operations scalably on large knowledge bases.
+  We present instances of both in this paper: the MMT framework for modular
+theory-graphs that integrates meta-logical foundations, which forms the base of
+the next OMDoc version; and TNTBase, a versioned storage system for XML-based
+document formats. TNTBase becomes an MMT database by instantiating it with
+special MKM operations for MMT.

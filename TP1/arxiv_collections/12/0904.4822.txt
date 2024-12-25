@@ -1,0 +1,14 @@
+Option written on several foreign exchange rates (FXRs) depends on
+correlation between the rates. To evaluate the option, historical estimates for
+correlations can be used but usually they are not stable. More significantly,
+pricing of the option using these estimates is usually inconsistent to the
+traded vanilla contracts. To price options written on several FXRs with the
+same denominating currency, financial practitioners and traders often use
+implied correlations calculated from implied volatilities of FXRs that form
+"currency triangles". However, some options may have underlying FXRs with
+different denominating currencies. In this paper, we present the formula for
+the implied correlations between such FXRs. These can be used for valuation,
+for example, barrier option on two FXRs with different denominating currencies
+where one FXR determines how much the option is in or out of the money at
+maturity while another FXR is related to the barrier. Other relevant options
+are straightforward.

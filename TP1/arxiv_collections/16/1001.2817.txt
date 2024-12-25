@@ -1,0 +1,14 @@
+For the purposes of tool development, computer languages are usually
+described using context-free grammars with annotations such as semantic actions
+or pretty-printing instructions.
+  These descriptions are processed by generators which automatically build
+software, e.g., parsers, pretty-printers and editing support.
+  In many cases the annotations make grammars unreadable, and when generating
+code for several tools supporting the same language, one usually needs to
+duplicate the grammar in order to provide different annotations for different
+generators.
+  We present an approach to describing languages which improves readability of
+grammars and reduces the duplication. To achieve this we use Aspect-Oriented
+Programming principles. This approach has been implemented in an open-source
+tool named Grammatic. We show how it can be used to generate pretty-printers
+and syntax highlighters.

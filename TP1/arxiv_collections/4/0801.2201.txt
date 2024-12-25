@@ -1,0 +1,9 @@
+Pipelining is a well understood and often used implementation technique for
+increasing the performance of a hardware system. We develop several SystemC/C++
+modeling techniques that allow us to quickly model, simulate, and evaluate
+pipelines. We employ a small domain specific language (DSL) based on resource
+usage patterns that automates the drudgery of boilerplate code needed to
+configure connectivity in simulation models. The DSL is embedded directly in
+the host modeling language SystemC/C++. Additionally we develop several
+techniques for parameterizing a pipeline's behavior based on policies of
+function, communication, and timing (performance modeling).

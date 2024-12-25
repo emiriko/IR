@@ -1,0 +1,9 @@
+In semi-supervised learning on graphs, response variables observed at one
+node are used to estimate missing values at other nodes. The methods exploit
+correlations between nearby nodes in the graph. In this paper we prove that
+many such proposals are equivalent to kriging predictors based on a fixed
+covariance matrix driven by the link structure of the graph. We then propose a
+data-driven estimator of the correlation structure that exploits patterns among
+the observed response values. By incorporating even a small fraction of
+observed covariation into the predictions, we are able to obtain much improved
+prediction on two graph data sets.

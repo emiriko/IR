@@ -1,0 +1,15 @@
+Currently there is considerable interest in making use of many-core processor
+architectures, such as Nvidia and AMD graphics processing units (GPUs) for
+scientific computing. In this work we explore the use of the Open Computing
+Language (OpenCL) for a typical Numerical Relativity application: a time-domain
+Teukolsky equation solver (a linear, hyperbolic, partial differential equation
+solver using finite-differencing). OpenCL is the only vendor-agnostic and
+multi-platform parallel computing framework that has been adopted by all major
+processor vendors. Therefore, it allows us to write portable source-code and
+run it on a wide variety of compute hardware and perform meaningful
+comparisons. The outcome of our experimentation suggests that it is relatively
+straightforward to obtain order-of-magnitude gains in overall application
+performance by making use of many-core GPUs over multi-core CPUs and this fact
+is largely independent of the specific hardware architecture and vendor. We
+also observe that a single high-end GPU can match the performance of a
+small-sized, message-passing based CPU cluster.

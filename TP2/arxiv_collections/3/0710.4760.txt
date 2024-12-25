@@ -1,0 +1,14 @@
+Low power oriented circuit optimization consists in selecting the best
+alternative between gate sizing, buffer insertion and logic structure
+transformation, for satisfying a delay constraint at minimum area cost. In this
+paper we used a closed form model of delay in CMOS structures to define metrics
+for a deterministic selection of the optimization alternative. The target is
+delay constraint satisfaction with minimum area cost. We validate the design
+space exploration method, defining maximum and minimum delay bounds on logical
+paths. Then we adapt this method to a "constant sensitivity method" allowing to
+size a circuit at minimum area under a delay constraint. An optimisation
+protocol is finally defined to manage the trade-off performance constraint -
+circuit structure. These methods are implemented in an optimization tool (POPS)
+and validated by comparing on a 0.25$\mu$m process, the optimization efficiency
+obtained on various benchmarks (ISCAS?85) to that resulting from an industrial
+tool.

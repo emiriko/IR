@@ -1,0 +1,11 @@
+This paper proposes a new probabilistic classification algorithm using a
+Markov random field approach. The joint distribution of class labels is
+explicitly modelled using the distances between feature vectors. Intuitively, a
+class label should depend more on class labels which are closer in the feature
+space, than those which are further away. Our approach builds on previous work
+by Holmes and Adams (2002, 2003) and Cucala et al. (2008). Our work shares many
+of the advantages of these approaches in providing a probabilistic basis for
+the statistical inference. In comparison to previous work, we present a more
+efficient computational algorithm to overcome the intractability of the Markov
+random field model. The results of our algorithm are encouraging in comparison
+to the k-nearest neighbour algorithm.

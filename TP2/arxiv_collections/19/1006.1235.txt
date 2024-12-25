@@ -1,0 +1,9 @@
+The library RNGSSELIB for random number generators (RNGs) based upon the SSE2
+command set is presented. The library contains realization of a number of
+modern and most reliable generators. Usage of SSE2 command set allows to
+substantially improve performance of the generators. Three new RNG realizations
+are also constructed. We present detailed analysis of the speed depending on
+compiler usage and associated optimization level, as well as results of
+extensive statistical testing for all generators using available test packages.
+Fast SSE implementations produce exactly the same output sequence as the
+original algorithms.

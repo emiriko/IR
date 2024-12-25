@@ -1,0 +1,19 @@
+The problem of combinatorially determining the rank of the 3-dimensional
+bar-joint {\em rigidity matroid} of a graph is an important open problem in
+combinatorial rigidity theory. Maxwell's condition states that the edges of a
+graph $G=(V, E)$ are {\em independent} in its $d$-dimensional generic rigidity
+matroid only if $(a)$ the number of edges $|E|$ $\le$ $d|V| - {d+1\choose 2}$,
+and $(b)$ this holds for every induced subgraph with at least $d$ vertices. We
+call such graphs {\em Maxwell-independent} in $d$ dimensions. Laman's theorem
+shows that the converse holds for $d=2$ and thus every maximal
+Maxwell-independent set of $G$ has size equal to the rank of the 2-dimensional
+generic rigidity matroid. While this is false for $d=3$, we show that every
+maximal, Maxwell-independent set of a graph $G$ has size at least the rank of
+the 3-dimensional generic rigidity matroid of $G$. This answers a question
+posed by Tib\'or Jord\'an at the 2008 rigidity workshop at BIRS
+\cite{bib:birs}.
+  Along the way, we construct subgraphs (1) that yield alternative formulae for
+a rank upper bound for Maxwell-independent graphs and (2) that contain a
+maximal (true) independent set. We extend this bound to special classes of
+non-Maxwell-independent graphs. One further consequence is a simpler proof of
+correctness for existing algorithms that give rank bounds.

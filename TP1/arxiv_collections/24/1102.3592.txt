@@ -1,0 +1,11 @@
+Many statistical problems involve mixture models and the need for
+computationally efficient methods to estimate the mixing distribution has
+increased dramatically in recent years. Newton [Sankhya Ser. A 64 (2002)
+306--322] proposed a fast recursive algorithm for estimating the mixing
+distribution, which we study as a special case of stochastic approximation
+(SA). We begin with a review of SA, some recent statistical applications, and
+the theory necessary for analysis of a SA algorithm, which includes Lyapunov
+functions and ODE stability theory. Then standard SA results are used to prove
+consistency of Newton's estimate in the case of a finite mixture. We also
+propose a modification of Newton's algorithm that allows for estimation of an
+additional unknown parameter in the model, and prove its consistency.

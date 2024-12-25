@@ -1,0 +1,12 @@
+We consider the numerical approximation of a general second order
+semi--linear parabolic stochastic partial differential equation (SPDE) driven
+by additive space-time noise. We introduce a new modified scheme using a linear
+functional of the noise with a semi--implicit Euler--Maruyama method in time
+and in space we analyse a finite element method (although extension to finite
+differences or finite volumes would be possible). We prove convergence in the
+root mean square $L^{2}$ norm for a diffusion reaction equation and diffusion
+advection reaction equation. We present numerical results for a linear reaction
+diffusion equation in two dimensions as well as a nonlinear example of
+two-dimensional stochastic advection diffusion reaction equation. We see from
+both the analysis and numerics that the proposed scheme has better convergence
+properties than the standard semi--implicit Euler--Maruyama method.

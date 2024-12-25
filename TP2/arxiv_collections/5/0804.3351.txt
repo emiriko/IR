@@ -1,0 +1,22 @@
+Constraint Handling Rules (CHR) is a committed-choice declarative language
+which has been originally designed for writing constraint solvers and which is
+nowadays a general purpose language. CHR programs consist of multi-headed
+guarded rules which allow to rewrite constraints into simpler ones until a
+solved form is reached. Many empirical evidences suggest that multiple heads
+augment the expressive power of the language, however no formal result in this
+direction has been proved, so far.
+  In the first part of this paper we analyze the Turing completeness of CHR
+with respect to the underneath constraint theory. We prove that if the
+constraint theory is powerful enough then restricting to single head rules does
+not affect the Turing completeness of the language. On the other hand,
+differently from the case of the multi-headed language, the single head CHR
+language is not Turing powerful when the underlying signature (for the
+constraint theory) does not contain function symbols.
+  In the second part we prove that, no matter which constraint theory is
+considered, under some reasonable assumptions it is not possible to encode the
+CHR language (with multi-headed rules) into a single headed language while
+preserving the semantics of the programs. We also show that, under some
+stronger assumptions, considering an increasing number of atoms in the head of
+a rule augments the expressive power of the language.
+  These results provide a formal proof for the claim that multiple heads
+augment the expressive power of the CHR language.

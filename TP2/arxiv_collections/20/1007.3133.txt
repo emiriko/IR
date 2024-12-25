@@ -1,0 +1,13 @@
+Sun and the CERT recommend for secure Java development to not allow partially
+initialized objects to be accessed. The CERT considers the severity of the
+risks taken by not following this recommendation as high. The solution
+currently used to enforce object initialization is to implement a coding
+pattern proposed by Sun, which is not formally checked. We propose a modular
+type system to formally specify the initialization policy of libraries or
+programs and a type checker to statically check at load time that all loaded
+classes respect the policy. This allows to prove the absence of bugs which have
+allowed some famous privilege escalations in Java. Our experimental results
+show that our safe default policy allows to prove 91% of classes of java.lang,
+java.security and javax.security safe without any annotation and by adding 57
+simple annotations we proved all classes but four safe. The type system and its
+soundness theorem have been formalized and machine checked using Coq.

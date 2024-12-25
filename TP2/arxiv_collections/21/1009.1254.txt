@@ -1,0 +1,15 @@
+We consider the $N$-user broadcast erasure channel with $N$ unicast sessions
+(one for each user) where receiver feedback is regularly sent to the
+transmitter in the form of ACK/NACK messages. We first provide a generic outer
+bound to the capacity of this system; we then propose a virtual-queue-based
+inter-session mixing coding algorithm, determine its rate region and show that
+it achieves capacity under certain conditions on channel statistics, assuming
+that instantaneous feedback is known to all users. Removing this assumption
+results in a rate region that asymptotically differs from the outer bound by 1
+bit as $L\to \infty$, where $L$ is the number of bits per packet (packet
+length). For the case of arbitrary channel statistics, we present a
+modification of the previous algorithm whose rate region is identical to the
+outer bound for N=3, when instant feedback is known to all users, and differs
+from the bound by 1 bit as $L\to \infty$, when the 3 users know only their own
+ACK. The proposed algorithms do not require any prior knowledge of channel
+statistics.

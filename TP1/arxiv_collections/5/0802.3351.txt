@@ -1,0 +1,11 @@
+We determine the computational difficulty of finding ground states of
+one-dimensional (1D) Hamiltonians which are known to be Matrix Product States
+(MPS). To this end, we construct a class of 1D frustration free Hamiltonians
+with unique MPS ground states and a polynomial gap above, for which finding the
+ground state is at least as hard as factoring. By lifting the requirement of a
+unique ground state, we obtain a class for which finding the ground state
+solves an NP-complete problem. Therefore, for these Hamiltonians it is not even
+possible to certify that the ground state has been found. Our results thus
+imply that in order to prove convergence of variational methods over MPS, as
+the Density Matrix Renormalization Group, one has to put more requirements than
+just MPS ground states and a polynomial spectral gap.

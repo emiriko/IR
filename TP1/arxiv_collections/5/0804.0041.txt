@@ -1,0 +1,21 @@
+Let A be an M by N matrix (M < N) which is an instance of a real random
+Gaussian ensemble. In compressed sensing we are interested in finding the
+sparsest solution to the system of equations A x = y for a given y. In general,
+whenever the sparsity of x is smaller than half the dimension of y then with
+overwhelming probability over A the sparsest solution is unique and can be
+found by an exhaustive search over x with an exponential time complexity for
+any y. The recent work of Cand\'es, Donoho, and Tao shows that minimization of
+the L_1 norm of x subject to A x = y results in the sparsest solution provided
+the sparsity of x, say K, is smaller than a certain threshold for a given
+number of measurements. Specifically, if the dimension of y approaches the
+dimension of x, the sparsity of x should be K < 0.239 N. Here, we consider the
+case where x is d-block sparse, i.e., x consists of n = N / d blocks where each
+block is either a zero vector or a nonzero vector. Instead of L_1-norm
+relaxation, we consider the following relaxation min x \| X_1 \|_2 + \| X_2
+\|_2 + ... + \| X_n \|_2, subject to A x = y where X_i = (x_{(i-1)d+1},
+x_{(i-1)d+2}, ..., x_{i d}) for i = 1,2, ..., N. Our main result is that as n
+-> \infty, the minimization finds the sparsest solution to Ax = y, with
+overwhelming probability in A, for any x whose block sparsity is k/n < 1/2 -
+O(\epsilon), provided M/N > 1 - 1/d, and d = \Omega(\log(1/\epsilon)/\epsilon).
+The relaxation can be solved in polynomial time using semi-definite
+programming.

@@ -1,0 +1,21 @@
+We seek to derive the probability--expressed in terms of the Hilbert-Schmidt
+(Euclidean or flat) metric--that a generic (nine-dimensional) real two-qubit
+system is separable, by implementing the well-known Peres-Horodecki test on the
+partial transposes (PT's) of the associated 4 x 4 density matrices). But the
+full implementation of the test--requiring that the determinant of the PT be
+nonnegative for separability to hold--appears to be, at least presently,
+computationally intractable. So, we have previously implemented--using the
+auxiliary concept of a diagonal-entry-parameterized separability function
+(DESF)--the weaker implied test of nonnegativity of the six 2 x 2 principal
+minors of the PT. This yielded an exact upper bound on the separability
+probability of 1024/{135 pi^2} =0.76854$. Here, we piece together
+(reflection-symmetric) results obtained by requiring that each of the four 3 x
+3 principal minors of the PT, in turn, be nonnegative, giving an
+improved/reduced upper bound of 22/35 = 0.628571. Then, we conclude that a
+still further improved upper bound of 1129/2100 = 0.537619 can be found by
+similarly piecing together the (reflection-symmetric) results of enforcing the
+simultaneous nonnegativity of certain pairs of the four 3 x 3 principal minors.
+In deriving our improved upper bounds, we rely repeatedly upon the use of
+certain integrals over cubes that arise. Finally, we apply an independence
+assumption to a pair of DESF's that comes close to reproducing our numerical
+estimate of the true separability function.

@@ -1,0 +1,12 @@
+In this paper, we present a probabilistic adaptation of an Assume/Guarantee
+contract formalism. For the sake of generality, we assume that the extended
+state machines used in the contracts and implementations define sets of runs on
+a given set of variables, that compose by intersection over the common
+variables. In order to enable probabilistic reasoning, we consider that the
+contracts dictate how certain input variables will behave, being either
+non-deterministic, or probabilistic; the introduction of probabilistic
+variables leading us to tune the notions of implementation, refinement and
+composition. As shown in the report, this probabilistic adaptation of the
+Assume/Guarantee contract theory preserves compositionality and therefore
+allows modular reliability analysis, either with a top-down or a bottom-up
+approach.

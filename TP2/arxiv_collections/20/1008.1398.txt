@@ -1,0 +1,8 @@
+We present three generalisations of Kernel Principal Components Analysis
+(KPCA) which incorporate knowledge of the class labels of a subset of the data
+points. The first, MV-KPCA, penalises within class variances similar to Fisher
+discriminant analysis. The second, LSKPCA is a hybrid of least squares
+regression and kernel PCA. The final LR-KPCA is an iteratively reweighted
+version of the previous which achieves a sigmoid loss function on the labeled
+points. We provide a theoretical risk bound as well as illustrative experiments
+on real and toy data sets.

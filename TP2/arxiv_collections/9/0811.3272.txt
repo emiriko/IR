@@ -1,0 +1,17 @@
+With increasingly ambitious initiatives such as GENI and FIND that seek to
+design the future Internet, it becomes imperative to define the characteristics
+of robust topologies, and build future networks optimized for robustness. This
+paper investigates the characteristics of network topologies that maintain a
+high level of throughput in spite of multiple attacks. To this end, we select
+network topologies belonging to the main network models and some real world
+networks. We consider three types of attacks: removal of random nodes, high
+degree nodes, and high betweenness nodes. We use elasticity as our robustness
+measure and, through our analysis, illustrate that different topologies can
+have different degrees of robustness. In particular, elasticity can fall as low
+as 0.8% of the upper bound based on the attack employed. This result
+substantiates the need for optimized network topology design. Furthermore, we
+implement a tradeoff function that combines elasticity under the three attack
+strategies and considers the cost of the network. Our extensive simulations
+show that, for a given network density, regular and semi-regular topologies can
+have higher degrees of robustness than heterogeneous topologies, and that link
+redundancy is a sufficient but not necessary condition for robustness.

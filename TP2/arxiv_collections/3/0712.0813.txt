@@ -1,0 +1,11 @@
+We describe a new, parallel programming version of the scalar field
+simulation program LATTICEEASY. The new C++ program, CLUSTEREASY, can simulate
+arbitrary scalar field models on distributed-memory clusters. The speed and
+memory requirements scale well with the number of processors. As with the
+serial version of LATTICEEASY, CLUSTEREASY can run simulations in one, two, or
+three dimensions, with or without expansion of the universe, with customizable
+parameters and output. The program and its full documentation are available on
+the LATTICEEASY website at
+http://www.science.smith.edu/departments/Physics/fstaff/gfelder/latticeeasy/.
+In this paper we provide a brief overview of what CLUSTEREASY does and the ways
+in which it does and doesn't differ from the serial version of LATTICEEASY.

@@ -1,0 +1,8 @@
+Column-oriented indexes-such as projection or bitmap indexes-are compressed
+by run-length encoding to reduce storage and increase speed. Sorting the tables
+improves compression. On realistic data sets, permuting the columns in the
+right order before sorting can reduce the number of runs by a factor of two or
+more. Unfortunately, determining the best column order is NP-hard. For many
+cases, we prove that the number of runs in table columns is minimized if we
+sort columns by increasing cardinality. Experimentally, sorting based on
+Hilbert space-filling curves is poor at minimizing the number of runs.

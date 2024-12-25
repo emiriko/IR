@@ -1,0 +1,9 @@
+The dispersive character of the Hall-MHD solutions, in particular the
+whistler waves, is a strong restriction to numerical treatments of this system.
+Numerical stability demands a time step dependence of the form $\Delta t\propto
+(\Delta x)^2$ for explicit calculations. A new semi--implicit scheme for
+integrating the induction equation is proposed and applied to a reconnection
+problem. It it based on a fix point iteration with a physically motivated
+preconditioning. Due to its convergence properties, short wavelengths converge
+faster than long ones, thus it can be used as a smoother in a nonlinear
+multigrid method.

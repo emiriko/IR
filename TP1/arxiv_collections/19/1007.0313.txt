@@ -1,0 +1,14 @@
+This paper presents a method for improving any object tracking algorithm
+based on machine learning. During the training phase, important trajectory
+features are extracted which are then used to calculate a confidence value of
+trajectory. The positions at which objects are usually lost and found are
+clustered in order to construct the set of 'lost zones' and 'found zones' in
+the scene. Using these zones, we construct a triplet set of zones i.e. three
+zones: In/Out zone (zone where an object can enter or exit the scene), 'lost
+zone' and 'found zone'. Thanks to these triplets, during the testing phase, we
+can repair the erroneous trajectories according to which triplet they are most
+likely to belong to. The advantage of our approach over the existing state of
+the art approaches is that (i) this method does not depend on a predefined
+contextual scene, (ii) we exploit the semantic of the scene and (iii) we have
+proposed a method to filter out noisy trajectories based on their confidence
+value.

@@ -1,0 +1,18 @@
+As compared to a large spectrum of performance optimizations, relatively
+little effort has been dedicated to optimize other aspects of embedded
+applications such as memory space requirements, power, real-time
+predictability, and reliability. In particular, many modern embedded systems
+operate under tight memory space constraints. One way of satisfying these
+constraints is to compress executable code and data as much as possible. While
+research on code compression have studied efficient hardware and software based
+code strategies, many of these techniques do not take application behavior into
+account, that is, the same compression/decompression strategy is used
+irrespective of the application being optimized. This paper presents a code
+compression strategy based on control flow graph (CFG) representation of the
+embedded program. The idea is to start with a memory image wherein all basic
+blocks are compressed, and decompress only the blocks that are predicted to be
+needed in the near future. When the current access to a basic block is over,
+our approach also decides the point at which the block could be compressed. We
+propose several compression and decompression strategies that try to reduce
+memory requirements without excessively increasing the original instruction
+cycle counts.

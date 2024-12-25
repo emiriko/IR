@@ -1,0 +1,14 @@
+Given the vast reservoirs of data stored worldwide, efficient mining of data
+from a large information store has emerged as a great challenge. Many databases
+like that of intrusion detection systems, web-click records, player statistics,
+texts, proteins etc., store strings or sequences. Searching for an unusual
+pattern within such long strings of data has emerged as a requirement for
+diverse applications. Given a string, the problem then is to identify the
+substrings that differs the most from the expected or normal behavior, i.e.,
+the substrings that are statistically significant. In other words, these
+substrings are less likely to occur due to chance alone and may point to some
+interesting information or phenomenon that warrants further exploration. To
+this end, we use the chi-square measure. We propose two heuristics for
+retrieving the top-k substrings with the largest chi-square measure. We show
+that the algorithms outperform other competing algorithms in the runtime, while
+maintaining a high approximation ratio of more than 0.96.

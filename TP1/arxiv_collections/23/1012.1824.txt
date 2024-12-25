@@ -1,0 +1,9 @@
+Using efficient point-to-point communication channels is critical for
+implementing fine grained parallel program on modern shared cache multi-core
+architectures.
+  This report discusses in detail several implementations of wait-free
+Single-Producer/Single-Consumer queue (SPSC), and presents a novel and
+efficient algorithm for the implementation of an unbounded wait-free SPSC queue
+(uSPSC). The correctness proof of the new algorithm, and several performance
+measurements based on simple synthetic benchmark and microbenchmark, are also
+discussed.

@@ -1,0 +1,16 @@
+Random graph generation is an important tool for studying large complex
+networks. Despite abundance of random graph models, constructing models with
+application-driven constraints is poorly understood. In order to advance
+state-of-the-art in this area, we focus on random graphs without short cycles
+as a stylized family of graphs, and propose the RandGraph algorithm for
+randomly generating them. For any constant k, when m=O(n^{1+1/[2k(k+3)]}),
+RandGraph generates an asymptotically uniform random graph with n vertices, m
+edges, and no cycle of length at most k using O(n^2m) operations. We also
+characterize the approximation error for finite values of n. To the best of our
+knowledge, this is the first polynomial-time algorithm for the problem.
+RandGraph works by sequentially adding $m$ edges to an empty graph with n
+vertices. Recently, such sequential algorithms have been successful for random
+sampling problems. Our main contributions to this line of research includes
+introducing a new approach for sequentially approximating edge-specific
+probabilities at each step of the algorithm, and providing a new method for
+analyzing such algorithms.

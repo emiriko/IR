@@ -1,0 +1,19 @@
+We pursue the development and application of the recently-introduced linear
+optimization method for determining the optimal linear and nonlinear parameters
+of Jastrow-Slater wave functions in a variational Monte Carlo framework. In
+this approach, the optimal parameters are found iteratively by diagonalizing
+the Hamiltonian matrix in the space spanned by the wave function and its
+first-order derivatives, making use of a strong zero-variance principle. We
+extend the method to optimize the exponents of the basis functions,
+simultaneously with all the other parameters, namely the Jastrow, configuration
+state function and orbital parameters. We show that the linear optimization
+method can be thought of as a so-called augmented Hessian approach, which helps
+explain the robustness of the method and permits us to extend it to minimize a
+linear combination of the energy and the energy variance. We apply the linear
+optimization method to obtain the complete ground-state potential energy curve
+of the C_2 molecule up to the dissociation limit, and discuss size consistency
+and broken spin-symmetry issues in quantum Monte Carlo calculations. We perform
+calculations of the first-row atoms and homonuclear diatomic molecules with
+fully optimized Jastrow-Slater wave functions, and we demonstrate that
+molecular well depths can be obtained with near chemical accuracy quite
+systematically at the diffusion Monte Carlo level for these systems.

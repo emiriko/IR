@@ -1,0 +1,13 @@
+Often the result of a scientific experiment is given by the difference of
+measurements in two configurations, denoted by A and B. Since the measurements
+are not obtained simultaneously, drift of the zero-point can bias the result.
+In practice measurement patterns are used to minimize this bias. The time
+sequence AB followed by BA, for example, would cancel a linear drift in the
+average difference A-B. We propose taking data with an alternating series
+ABAB.., and removing drift with a post-hoc analysis. We present an analysis
+method that removes bias from the result for drift up to polynomial order p. A
+statistical cost function c(N) is introduced to compare the uncertainty in the
+end result with that from using a raw data average. For a data set size N>30
+the statistical cost is negligible. For N<30 the cost is plotted as a function
+of N and filter order p and the trade off between the size of the data set and
+p is discussed.

@@ -1,0 +1,24 @@
+Although the influence of magnetic fields is regarded as vital in the star
+formation process, only a few magnetohydrodynamics (MHD) simulations have been
+performed on this subject within the smoothed particle hydrodynamics (SPH)
+method. This is largely due to the unsatisfactory treatment of non-vanishing
+divergence of the magnetic field. Recently smoothed particle
+magnetohydrodynamics (SPMHD) simulations based on Euler potentials have proven
+to be successful in treating MHD collapse and fragmentation problems, however
+these methods are known to have some intrinsical difficulties. We have
+performed SPMHD simulations based on a traditional approach evolving the
+magnetic field itself using the induction equation. To account for the
+numerical divergence, we have chosen an approach that subtracts the effects of
+numerical divergence from the force equation, and additionally we employ
+artificial magnetic dissipation as a regularization scheme. We apply this
+realization of SPMHD to a widely known setup, a variation of the 'Boss &
+Bodenheimer standard isothermal test case', to study the impact of the magnetic
+fields on collapse and fragmentation. In our simulations, we concentrate on
+setups, where the initial magnetic field is parallel to the rotation axis. We
+examine different field strengths and compare our results to other findings
+reported in the literature. We are able to confirm specific results found
+elsewhere, namely the delayed onset of star formation for strong fields,
+accompanied by the tendency to form only single stars. We also find that the
+'magnetic cushioning effect', where the magnetic field is wound up to form a
+'cushion' between the binary, aids binary fragmentation in a case, where
+previously only formation of a single protostar was expected.

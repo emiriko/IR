@@ -1,0 +1,13 @@
+Does the advent of flash devices constitute a radical change for secondary
+storage? How should database systems adapt to this new form of secondary
+storage? Before we can answer these questions, we need to fully understand the
+performance characteristics of flash devices. More specifically, we want to
+establish what kind of IOs should be favored (or avoided) when designing
+algorithms and architectures for flash-based systems. In this paper, we focus
+on flash IO patterns, that capture relevant distribution of IOs in time and
+space, and our goal is to quantify their performance. We define uFLIP, a
+benchmark for measuring the response time of flash IO patterns. We also present
+a benchmarking methodology which takes into account the particular
+characteristics of flash devices. Finally, we present the results obtained by
+measuring eleven flash devices, and derive a set of design hints that should
+drive the development of flash-based systems on current devices.

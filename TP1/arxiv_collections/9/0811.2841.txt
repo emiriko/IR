@@ -1,0 +1,18 @@
+A mechanism for releasing information about a statistical database with
+sensitive data must resolve a trade-off between utility and privacy. Privacy
+can be rigorously quantified using the framework of {\em differential privacy},
+which requires that a mechanism's output distribution is nearly the same
+whether or not a given database row is included or excluded. The goal of this
+paper is strong and general utility guarantees, subject to differential
+privacy.
+  We pursue mechanisms that guarantee near-optimal utility to every potential
+user, independent of its side information (modeled as a prior distribution over
+query results) and preferences (modeled via a loss function).
+  Our main result is: for each fixed count query and differential privacy
+level, there is a {\em geometric mechanism} $M^*$ -- a discrete variant of the
+simple and well-studied Laplace mechanism -- that is {\em simultaneously
+expected loss-minimizing} for every possible user, subject to the differential
+privacy constraint. This is an extremely strong utility guarantee: {\em every}
+potential user $u$, no matter what its side information and preferences,
+derives as much utility from $M^*$ as from interacting with a differentially
+private mechanism $M_u$ that is optimally tailored to $u$.

@@ -1,0 +1,19 @@
+We describe a compression method for floating-point astronomical images that
+gives compression ratios of 6 -- 10 while still preserving the scientifically
+important information in the image. The pixel values are first preprocessed by
+quantizing them into scaled integer intensity levels, which removes some of the
+uncompressible noise in the image. The integers are then losslessly compressed
+using the fast and efficient Rice algorithm and stored in a portable FITS
+format file. Quantizing an image more coarsely gives greater image compression,
+but it also increases the noise and degrades the precision of the photometric
+and astrometric measurements in the quantized image. Dithering the pixel values
+during the quantization process can greatly improve the precision of
+measurements in the images. This is especially important if the analysis
+algorithm relies on the mode or the median which would be similarly quantized
+if the pixel values are not dithered. We perform a series of experiments on
+both synthetic and real astronomical CCD images to quantitatively demonstrate
+that the magnitudes and positions of stars in the quantized images can be
+measured with the predicted amount of precision. In order to encourage wider
+use of these image compression methods, we have made available a pair of
+general-purpose image compression programs, called fpack and funpack, which can
+be used to compress any FITS format image.

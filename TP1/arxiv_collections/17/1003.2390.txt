@@ -1,0 +1,19 @@
+High-throughput scientific studies involving no clear a'priori hypothesis are
+common. For example, a large-scale genomic study of a disease may examine
+thousands of genes without hypothesizing that any specific gene is responsible
+for the disease. In these studies, the objective is to explore a large number
+of possible factors (e.g. genes) in order to identify a small number that will
+be considered in follow-up studies that tend to be more thorough and on smaller
+scales. For large-scale studies, we propose a nonparametric Bayesian approach
+based on random partition models. Our model thus divides the set of candidate
+factors into several subgroups according to their degrees of relevance, or
+potential effect, in relation to the outcome of interest. The model allows for
+a latent rank to be assigned to each factor according to the overall potential
+importance of its corresponding group. The posterior expectation or mode of
+these ranks is used to set up a threshold for selecting potentially relevant
+factors. Using simulated data, we demonstrate that our approach could be quite
+effective in finding relevant genes compared to several alternative methods. We
+apply our model to two large-scale studies. The first study involves
+transcriptome analysis of infection by human cytomegalovirus (HCMV). The
+objective of the second study is to identify differentially expressed genes
+between two types of leukemia.

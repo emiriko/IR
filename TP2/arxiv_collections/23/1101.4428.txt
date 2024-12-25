@@ -1,0 +1,13 @@
+Intersection and union types denote conjunctions and disjunctions of
+properties. Using bidirectional typechecking, intersection types are relatively
+straightforward, but union types present challenges. For union types, we can
+case-analyze a subterm of union type when it appears in evaluation position
+(replacing the subterm with a variable, and checking that term twice under
+appropriate assumptions). This technique preserves soundness in a call-by-value
+semantics.
+  Sadly, there are so many choices of subterms that a direct implementation is
+not practical. But carefully transforming programs into let-normal form
+drastically reduces the number of choices. The key results are soundness and
+completeness: a typing derivation (in the system with too many subterm choices)
+exists for a program if and only if a derivation exists for the let-normalized
+program.

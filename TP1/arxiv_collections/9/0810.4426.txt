@@ -1,0 +1,15 @@
+In this paper we present a simple and robust method for self-correction of
+camera distortion using single images of scenes which contain straight lines.
+Since the most common distortion can be modelled as radial distortion, we
+illustrate the method using the Harris radial distortion model, but the method
+is applicable to any distortion model. The method is based on transforming the
+edgels of the distorted image to a 1-D angular Hough space, and optimizing the
+distortion correction parameters which minimize the entropy of the
+corresponding normalized histogram. Properly corrected imagery will have fewer
+curved lines, and therefore less spread in Hough space. Since the method does
+not rely on any image structure beyond the existence of edgels sharing some
+common orientations and does not use edge fitting, it is applicable to a wide
+variety of image types. For instance, it can be applied equally well to images
+of texture with weak but dominant orientations, or images with strong vanishing
+points. Finally, the method is performed on both synthetic and real data
+revealing that it is particularly robust to noise.

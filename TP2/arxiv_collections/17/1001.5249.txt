@@ -1,0 +1,18 @@
+Owing to their favorable scaling with dimensionality, Monte Carlo (MC)
+methods have become the tool of choice for numerical integration across the
+quantitative sciences. Almost invariably, efficient MC integration schemes are
+strictly designed to compute ratios of integrals, their efficiency being
+intimately tied to the degree of overlap between the given integrands.
+Consequently, substantial user insight is required prior to the use of such
+methods, either to mitigate the oft-encountered lack of overlap in ratio
+computations, or to find closely related integrands of known quadrature in
+absolute integral estimation. Here a simple physical idea--measuring the volume
+of a container by filling it up with an ideal gas--is exploited to design a new
+class of MC integration schemes that can yield efficient, absolute integral
+estimates for a broad class of integrands with simple transition matrices as
+input. The methods are particularly useful in cases where existing (importance
+sampling) strategies are most demanding, namely when the integrands are
+concentrated in relatively small and unknown regions of configuration space
+(e.g. physical systems in ordered/low-temperature phases). Examples ranging
+from a volume with infinite support to the partition function of the 2D Ising
+model are provided to illustrate the application and scope of the methods.

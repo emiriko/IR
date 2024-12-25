@@ -1,0 +1,13 @@
+When a considerable number of mutations have no effects on fitness values,
+the fitness landscape is said neutral. In order to study the interplay between
+neutrality, which exists in many real-world applications, and performances of
+metaheuristics, it is useful to design landscapes which make it possible to
+tune precisely neutral degree distribution. Even though many neutral landscape
+models have already been designed, none of them are general enough to create
+landscapes with specific neutral degree distributions. We propose three steps
+to design such landscapes: first using an algorithm we construct a landscape
+whose distribution roughly fits the target one, then we use a simulated
+annealing heuristic to bring closer the two distributions and finally we affect
+fitness values to each neutral network. Then using this new family of fitness
+landscapes we are able to highlight the interplay between deceptiveness and
+neutrality.

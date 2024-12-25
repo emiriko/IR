@@ -1,0 +1,15 @@
+We present a new algorithm for isolating the real roots of a system of
+multivariate polynomials, given in the monomial basis. It is inspired by
+existing subdivision methods in the Bernstein basis; it can be seen as
+generalization of the univariate continued fraction algorithm or alternatively
+as a fully analog of Bernstein subdivision in the monomial basis. The
+representation of the subdivided domains is done through homographies, which
+allows us to use only integer arithmetic and to treat efficiently unbounded
+regions. We use univariate bounding functions, projection and preconditionning
+techniques to reduce the domain of search. The resulting boxes have optimized
+rational coordinates, corresponding to the first terms of the continued
+fraction expansion of the real roots. An extension of Vincent's theorem to
+multivariate polynomials is proved and used for the termination of the
+algorithm. New complexity bounds are provided for a simplified version of the
+algorithm. Examples computed with a preliminary C++ implementation illustrate
+the approach.

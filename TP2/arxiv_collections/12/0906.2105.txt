@@ -1,0 +1,23 @@
+Let $S\subset\R^d$ be a bounded subset with positive Lebesgue measure. The
+Paley-Wiener space associated to $S$, $PW_S$, is defined to be the set of all
+square-integrable functions on $\R^d$ whose Fourier transforms vanish outside
+$S$. A sequence $(x_j:j\kin\N)$ in $\R^d$ is said to be a Riesz-basis sequence
+for $L_2(S)$ (equivalently, a complete interpolating sequence for $PW_S$) if
+the sequence $(e^{-i\la x_j,\cdot\ra}:j\kin\N)$ of exponential functions forms
+a Riesz basis for $L_2(S)$. Let $(x_j:j\kin\N)$ be a Riesz-basis sequence for
+$L_2(S)$. Given $\lambda>0$ and $f\in PW_S$, there is a unique sequence $(a_j)$
+in $\ell_2$ such that the function $$
+I_\lambda(f)(x):=\sum_{j\in\N}a_je^{-\lambda \|x-x_j\|_2^2}, \qquad x\kin\R^d,
+$$ is continuous and square integrable on $\R^d$, and satisfies the condition
+$I_\lambda(f)(x_n)=f(x_n)$ for every $n\kin\N$. This paper studies the
+convergence of the interpolant $I_\lambda(f)$ as $\lambda$ tends to zero, {\it
+i.e.,\} as the variance of the underlying Gaussian tends to infinity. The
+following result is obtained: Let $\delta\in(\sqrt{2/3},1]$ and
+$0<\beta<\sqrt{3\delta^2 -2}$. Suppose that $\delta B_2\subset Z\subset B_2$,
+and let $(x_j:j\in\N)$ be a Riesz basis sequence for $L_2(Z)$. If $f\in
+PW_{\beta B_2}$, then $f=\lim_{\lambda\to 0^+} I_\lambda(f)$ in $L_2(\R^d)$ and
+uniformly on $\R^d$. If $\delta=1$, then one may take $\beta$ to be 1 as well,
+and this reduces to a known theorem in the univariate case. However, if
+$d\ge2$, it is not known whether $L_2(B_2)$ admits a Riesz-basis sequence. On
+the other hand, in the case when $\delta<1$, there do exist bodies $Z$
+satisfying the hypotheses of the theorem (in any space dimension).

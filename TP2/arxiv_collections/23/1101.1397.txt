@@ -1,0 +1,7 @@
+We propose a Bayesian approach to joint source separation and restoration for
+astrophysical diffuse sources. We constitute a prior statistical model for the
+source images by using their gradient maps. We assume a t-distribution for the
+gradient maps in different directions, because it is able to fit both smooth
+and sparse data. A Monte Carlo technique, called Langevin sampler, is used to
+estimate the source images and all the model parameters are estimated by using
+deterministic techniques.

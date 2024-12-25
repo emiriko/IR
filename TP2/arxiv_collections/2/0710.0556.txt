@@ -1,0 +1,15 @@
+This work is an application of game theory to quantum information. In a state
+estimate, we are given observations distributed according to an unknown
+distribution $P_{\theta}$ (associated with award $Q$), which Nature chooses at
+random from the set $\{P_{\theta}: \theta \in \Theta \}$ according to a known
+prior distribution $\mu$ on $\Theta$, we produce an estimate $M$ for the
+unknown distribution $P_{\theta}$, and in the end, we will suffer a relative
+entropy cost $\mathcal{R}(P;M)$, measuring the quality of this estimate,
+therefore the whole utility is taken as $P \cdot Q -\mathcal{R}(P; M)$.
+  In an introduction to strategic game, a sufficient condition for minimax
+theorem is obtained; An estimate is explored in the frame of game theory, and
+in the view of convex conjugate, we reach one new approach to quantum relative
+entropy, correspondingly quantum mutual entropy, and quantum channel capacity,
+which are more general, in the sense, without Radon-Nikodym (RN) derivatives.
+Also the monotonicity of quantum relative entropy and the additivity of quantum
+channel capacity are investigated.

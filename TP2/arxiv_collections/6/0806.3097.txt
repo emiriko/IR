@@ -1,0 +1,9 @@
+We show that the classical Rosenbluth method for sampling self-avoiding walks
+can be extended to a general algorithm for sampling many families of objects,
+including self-avoiding polygons. The implementation relies on an elementary
+move which is a generalisation of kinetic growth; rather than only appending
+edges to the endpoint, edges may be inserted at any vertex providing the
+resulting objects still lie within the same family. We implement this method
+using pruning and enrichment to sample self-avoiding walks and polygons. The
+algorithm can be further extended by mixing it with length-preserving moves,
+such pivots and crank-shaft moves.

@@ -1,0 +1,22 @@
+A recent study reported development of Muscorian, a generic text processing
+tool for extracting protein-protein interactions from text that achieved
+comparable performance to biomedical-specific text processing tools. This
+result was unexpected since potential errors from a series of text analysis
+processes is likely to adversely affect the outcome of the entire process. Most
+biomedical entity relationship extraction tools have used biomedical-specific
+parts-of-speech (POS) tagger as errors in POS tagging and are likely to affect
+subsequent semantic analysis of the text, such as shallow parsing. This study
+aims to evaluate the parts-of-speech (POS) tagging accuracy and attempts to
+explore whether a comparable performance is obtained when a generic POS tagger,
+MontyTagger, was used in place of MedPost, a tagger trained in biomedical text.
+Our results demonstrated that MontyTagger, Muscorian's POS tagger, has a POS
+tagging accuracy of 83.1% when tested on biomedical text. Replacing MontyTagger
+with MedPost did not result in a significant improvement in entity relationship
+extraction from text; precision of 55.6% from MontyTagger versus 56.8% from
+MedPost on directional relationships and 86.1% from MontyTagger compared to
+81.8% from MedPost on nondirectional relationships. This is unexpected as the
+potential for poor POS tagging by MontyTagger is likely to affect the outcome
+of the information extraction. An analysis of POS tagging errors demonstrated
+that 78.5% of tagging errors are being compensated by shallow parsing. Thus,
+despite 83.1% tagging accuracy, MontyTagger has a functional tagging accuracy
+of 94.6%.

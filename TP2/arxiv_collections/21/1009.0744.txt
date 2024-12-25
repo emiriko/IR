@@ -1,0 +1,15 @@
+Consider an m by N matrix Phi with the Restricted Isometry Property of order
+k and level delta, that is, the norm of any k-sparse vector in R^N is preserved
+to within a multiplicative factor of 1 +- delta under application of Phi. We
+show that by randomizing the column signs of such a matrix Phi, the resulting
+map with high probability embeds any fixed set of p = O(e^k) points in R^N into
+R^m without distorting the norm of any point in the set by more than a factor
+of 1 +- delta. Consequently, matrices with the Restricted Isometry Property and
+with randomized column signs provide optimal Johnson-Lindenstrauss embeddings
+up to logarithmic factors in N. In particular, our results improve the best
+known bounds on the necessary embedding dimension m for a wide class of
+structured random matrices; for partial Fourier and partial Hadamard matrices,
+we improve the recent bound m = O(delta^(-4) log(p) log^4(N)) appearing in
+Ailon and Liberty to m = O(delta^(-2) log(p) log^4(N)), which is optimal up to
+the logarithmic factors in N. Our results also have a direct application in the
+area of compressed sensing for redundant dictionaries.

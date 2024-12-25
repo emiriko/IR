@@ -1,0 +1,15 @@
+The purpose of this article is to introduce a new analytical framework
+dedicated to measuring performance of recommender systems. The standard
+approach is to assess the quality of a system by means of accuracy related
+statistics. However, the specificity of the environments in which recommender
+systems are deployed requires to pay much attention to speed and memory
+requirements of the algorithms. Unfortunately, it is implausible to assess
+accurately the complexity of various algorithms with formal tools. This can be
+attributed to the fact that such analyses are usually based on an assumption of
+dense representation of underlying data structures. Whereas, in real life the
+algorithms operate on sparse data and are implemented with collections
+dedicated for them. Therefore, we propose to measure the complexity of
+recommender systems with artificial datasets that posses real-life properties.
+We utilize recently developed bipartite graph generator to evaluate how
+state-of-the-art recommender systems' behavior is determined and diversified by
+topological properties of the generated datasets.

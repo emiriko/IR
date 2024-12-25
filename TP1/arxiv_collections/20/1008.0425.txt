@@ -1,0 +1,25 @@
+In the current thesis we first talk about the six-qubit quantum
+error-correcting code and show its connections to entanglement-assisted
+error-correcting coding theory and then to subsystem codes. This code bridges
+the gap between the five-qubit (perfect) and Steane codes. We discuss two
+methods to encode one qubit into six physical qubits. Each of the two examples
+corrects an arbitrary single-qubit error. The first example is a degenerate
+six-qubit quantum error-correcting code. We prove that a six-qubit code without
+entanglement assistance cannot simultaneously possess a Calderbank-Shor-Steane
+(CSS) stabilizer and correct an arbitrary single-qubit error. A corollary of
+this result is that the Steane seven-qubit code is the smallest single-error
+correcting CSS code. Our second example is the construction of a non-degenerate
+six-qubit CSS entanglement-assisted code. This code uses one bit of
+entanglement (an ebit) shared between the sender (Alice) and the receiver (Bob)
+and corrects an arbitrary single-qubit error. In the second half of this thesis
+we explore the yet uncharted and relatively undiscovered area of quantum
+steganography. Steganography is the process of hiding secret information by
+embedding it in an innocent message. We present protocols for hiding quantum
+information in a codeword of a quantum error-correcting code passing through a
+channel. Using either a shared classical secret key or shared entanglement
+Alice disguises her information as errors in the channel. Bob can retrieve the
+hidden information, but an eavesdropper (Eve) with the power to monitor the
+channel, but without the secret key, cannot distinguish the message from
+channel noise. We analyze how difficult it is for Eve to detect the presence of
+secret messages, and estimate rates of steganographic communication and secret
+key consumption for certain protocols.

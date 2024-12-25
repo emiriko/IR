@@ -1,0 +1,23 @@
+In order to model pressure and viscous terms in the equation for the
+Lagrangian dynamics of the velocity gradient tensor in turbulent flows,
+Chevillard & Meneveau (Phys. Rev. Lett. 97, 174501, 2006) introduced the Recent
+Fluid Deformation closure. Using matrix exponentials, the closure allows to
+overcome the unphysical finite-time blow-up of the well-known Restricted Euler
+model. However, it also requires the specification of a decorrelation time
+scale of the velocity gradient along the Lagrangian evolution, and when the
+latter is chosen too short (or, equivalently, the Reynolds number is too high),
+the model leads to unphysical statistics. In the present paper, we explore the
+limitations of this closure by means of numerical experiments and analytical
+considerations. We also study the possible effects of using time-correlated
+stochastic forcing instead of the previously employed white-noise forcing.
+Numerical experiments show that reducing the correlation time scale specified
+in the closure and in the forcing does not lead to a commensurate reduction of
+the autocorrelation time scale of the predicted evolution of the velocity
+gradient tensor. This observed inconsistency could explain the unrealistic
+predictions at increasing Reynolds numbers.We perform a series expansion of the
+matrix exponentials in powers of the decorrelation time scale, and we compare
+the full original model with a linearized version. The latter is not able to
+extend the limits of applicability of the former but allows the model to be
+cast in terms of a damping term whose sign gives additional information about
+the stability of the model as function of the second invariant of the velocity
+gradient tensor.

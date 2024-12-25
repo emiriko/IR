@@ -1,0 +1,14 @@
+The premise of automated alert correlation is to accept that false alerts
+from a low level intrusion detection system are inevitable and use attack
+models to explain the output in an understandable way. Several algorithms exist
+for this purpose which use attack graphs to model the ways in which attacks can
+be combined. These algorithms can be classified in to two broad categories
+namely scenario-graph approaches, which create an attack model starting from a
+vulnerability assessment and type-graph approaches which rely on an abstract
+model of the relations between attack types. Some research in to improving the
+efficiency of type-graph correlation has been carried out but this research has
+ignored the hypothesizing of missing alerts. Our work is to present a novel
+type-graph algorithm which unifies correlation and hypothesizing in to a single
+operation. Our experimental results indicate that the approach is extremely
+efficient in the face of intensive alerts and produces compact output graphs
+comparable to other techniques.

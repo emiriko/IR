@@ -1,0 +1,18 @@
+Complex information extraction (IE) pipelines assembled by plumbing together
+off-the-shelf operators, specially customized operators, and operators re-used
+from other text processing pipelines are becoming an integral component of most
+text processing frameworks. A critical task faced by the IE pipeline user is to
+run a post-mortem analysis on the output. Due to the diverse nature of
+extraction operators (often implemented by independent groups), it is time
+consuming and error-prone to describe operator semantics formally or
+operationally to a provenance system. We introduce the first system that helps
+IE users analyze pipeline semantics and infer provenance interactively while
+debugging. This allows the effort to be proportional to the need, and to focus
+on the portions of the pipeline under the greatest suspicion. We present a
+generic debugger for running post-execution analysis of any IE pipeline
+consisting of arbitrary types of operators. We propose an effective provenance
+model for IE pipelines which captures a variety of operator types, ranging from
+those for which full or no specifications are available. We present a suite of
+algorithms to effectively build provenance and facilitate debugging. Finally,
+we present an extensive experimental study on large-scale real-world
+extractions from an index of ~500 million Web documents.

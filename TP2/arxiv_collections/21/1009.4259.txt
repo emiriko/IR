@@ -1,0 +1,20 @@
+Pervasive user-centric applications are systems which are meant to sense the
+presence, mood, and intentions of users in order to optimize user comfort and
+performance. Building such applications requires not only state-of-the art
+techniques from artificial intelligence but also sound software engineering
+methods for facilitating modular design, runtime adaptation and verification of
+critical system requirements.
+  In this paper we focus on high-level design and analysis, and use the
+algebraic rewriting language Real-Time Maude for specifying applications in a
+real-time setting. We propose a generic component-based approach for modeling
+pervasive user-centric systems and we show how to analyze and prove crucial
+properties of the system architecture through model checking and simulation.
+For proving time-dependent properties we use Metric Temporal Logic (MTL) and
+present analysis algorithms for model checking two subclasses of MTL formulas:
+time-bounded response and time-bounded safety MTL formulas. The underlying idea
+is to extend the Real-Time Maude model with suitable clocks, to transform the
+MTL formulas into LTL formulas over the extended specification, and then to use
+the LTL model checker of Maude. It is shown that these analyses are sound and
+complete for maximal time sampling. The approach is illustrated by a simple
+adaptive advertising scenario in which an adaptive advertisement display can
+react to actions of the users in front of the display.

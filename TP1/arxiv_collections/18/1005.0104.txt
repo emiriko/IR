@@ -1,0 +1,13 @@
+We consider the problem of jointly training structured models for extraction
+from sources whose instances enjoy partial overlap. This has important
+applications like user-driven ad-hoc information extraction on the web. Such
+applications present new challenges in terms of the number of sources and their
+arbitrary pattern of overlap not seen by earlier collective training schemes
+applied on two sources. We present an agreement-based learning framework and
+alternatives within it to trade-off tractability, robustness to noise, and
+extent of agreement. We provide a principled scheme to discover low-noise
+agreement sets in unlabeled data across the sources. Through extensive
+experiments over 58 real datasets, we establish that our method of additively
+rewarding agreement over maximal segments of text provides the best trade-offs,
+and also scores over alternatives such as collective inference, staged
+training, and multi-view learning.

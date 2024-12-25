@@ -1,0 +1,13 @@
+The random phase approximation (RPA) for the electron correlation energy,
+combined with the exact-exchange energy, represents the state-of-the-art
+exchange-correlation functional within density-functional theory (DFT).
+However, the standard RPA practice -- evaluating both the exact-exchange and
+the RPA correlation energy using local or semilocal Kohn-Sham (KS) orbitals --
+leads to a systematic underbinding of molecules and solids. Here we demonstrate
+that this behavior is largely corrected by adding a "single excitation" (SE)
+contribution, so far not included in the standard RPA scheme. A similar
+improvement can also be achieved by replacing the non-self-consistent
+exact-exchange total energy by the corresponding self-consistent Hartree-Fock
+total energy, while retaining the RPA correlation energy evaluated using
+Kohn-Sham orbitals. Both schemes achieve chemical accuracy for a standard
+benchmark set of non-covalent intermolecular interactions.

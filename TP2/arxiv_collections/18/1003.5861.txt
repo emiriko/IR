@@ -1,0 +1,20 @@
+This paper presents multi-appearance fusion of Principal Component Analysis
+(PCA) and generalization of Linear Discriminant Analysis (LDA) for multi-camera
+view offline face recognition (verification) system. The generalization of LDA
+has been extended to establish correlations between the face classes in the
+transformed representation and this is called canonical covariate. The proposed
+system uses Gabor filter banks for characterization of facial features by
+spatial frequency, spatial locality and orientation to make compensate to the
+variations of face instances occurred due to illumination, pose and facial
+expression changes. Convolution of Gabor filter bank to face images produces
+Gabor face representations with high dimensional feature vectors. PCA and
+canonical covariate are then applied on the Gabor face representations to
+reduce the high dimensional feature spaces into low dimensional Gabor
+eigenfaces and Gabor canonical faces. Reduced eigenface vector and canonical
+face vector are fused together using weighted mean fusion rule. Finally,
+support vector machines (SVM) have trained with augmented fused set of features
+and perform the recognition task. The system has been evaluated with UMIST face
+database consisting of multiview faces. The experimental results demonstrate
+the efficiency and robustness of the proposed system for multi-view face images
+with high recognition rates. Complexity analysis of the proposed system is also
+presented at the end of the experimental results.

@@ -1,0 +1,9 @@
+Propagation of transient mechanical waves in porous media is numerically
+investigated in 1D. The framework is the linear Biot's model with
+frequency-independant coefficients. The coexistence of a propagating fast wave
+and a diffusive slow wave makes numerical modeling tricky. A method combining
+three numerical tools is proposed: a fourth-order ADER scheme with
+time-splitting to deal with the time-marching, a space-time mesh refinement to
+account for the small-scale evolution of the slow wave, and an interface method
+to enforce the jump conditions at interfaces. Comparisons with analytical
+solutions confirm the validity of this approach.

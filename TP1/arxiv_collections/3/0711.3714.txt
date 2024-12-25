@@ -1,0 +1,12 @@
+Single qubit rotation gate and the controlled-NOT (CNOT) gate constitute a
+complete set of gates for universal quantum computation. In general the CNOT
+gate are only for two nearby qubits. For two qubits which are remote from each
+other, we need a series of swap gates to transfer these two qubits to the
+nearest neighboring sites, and then after the CNOT gate we should transfer them
+to their original sites again. However, a series of swap gates are resource for
+quantum information processing. One economy way which does not consume so much
+resource is to implement CNOT gate remotely. The remote CNOT gate is to
+implement the CNOT gate for two remotely separated qubits with the help of one
+additional maximally entangled state. The original remote CNOT gate is for two
+qubits, here we will present the d-dimensional remote CNOT gate. The role of
+quantum teleportation is identified in the process of the remote CNOT gate.

@@ -1,0 +1,20 @@
+In this paper, a library-based synthesis methodology for reversible circuits
+is proposed where a reversible specification is considered as a permutation
+comprising a set of cycles. To this end, a pre-synthesis optimization step is
+introduced to construct a reversible specification from an irreversible
+function. In addition, a cycle-based representation model is presented to be
+used as an intermediate format in the proposed synthesis methodology. The
+selected intermediate format serves as a focal point for all potential
+representation models. In order to synthesize a given function, a library
+containing seven building blocks is used where each building block is a cycle
+of length less than 6. To synthesize large cycles, we also propose a
+decomposition algorithm which produces all possible minimal and inequivalent
+factorizations for a given cycle of length greater than 5. All decompositions
+contain the maximum number of disjoint cycles. The generated decompositions are
+used in conjunction with a novel cycle assignment algorithm which is proposed
+based on the graph matching problem to select the best possible cycle pairs.
+Then, each pair is synthesized by using the available components of the
+library. The decomposition algorithm together with the cycle assignment method
+are considered as a binding method which selects a building block from the
+library for each cycle. Finally, a post-synthesis optimization step is
+introduced to optimize the synthesis results in terms of different costs.

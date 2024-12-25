@@ -1,0 +1,21 @@
+Timed model checking, the method to formally verify real-time systems, is
+attracting increasing attention from both the model checking community and the
+real-time community. Explicit-time description methods verify real-time systems
+using general model constructs found in standard un-timed model checkers.
+Lamport proposed an explicit-time description method using a clock-ticking
+process (Tick) to simulate the passage of time together with a group of global
+variables to model time requirements. Two methods, the Sync-based Explicit-time
+Description Method using rendezvous synchronization steps and the
+Semaphore-based Explicit-time Description Method using only one global variable
+were proposed; they both achieve better modularity than Lamport's method in
+modeling the real-time systems. In contrast to timed automata based model
+checkers like UPPAAL, explicit-time description methods can access and store
+the current time instant for future calculations necessary for many real-time
+systems, especially those with pre-emptive scheduling. However, the Tick
+process in the above three methods increments the time by one unit in each
+tick; the state spaces therefore grow relatively fast as the time parameters
+increase, a problem when the system's time period is relatively long. In this
+paper, we propose a more efficient method which enables the Tick process to
+leap multiple time units in one tick. Preliminary experimental results in a
+high performance computing environment show that this new method significantly
+reduces the state space and improves both the time and memory efficiency.

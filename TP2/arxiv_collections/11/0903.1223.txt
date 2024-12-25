@@ -1,0 +1,19 @@
+We consider the problem of regression learning for deterministic design and
+independent random errors. We start by proving a sharp PAC-Bayesian type bound
+for the exponentially weighted aggregate (EWA) under the expected squared
+empirical loss. For a broad class of noise distributions the presented bound is
+valid whenever the temperature parameter $\beta$ of the EWA is larger than or
+equal to $4\sigma^2$, where $\sigma^2$ is the noise variance. A remarkable
+feature of this result is that it is valid even for unbounded regression
+functions and the choice of the temperature parameter depends exclusively on
+the noise level. Next, we apply this general bound to the problem of
+aggregating the elements of a finite-dimensional linear space spanned by a
+dictionary of functions $\phi_1,...,\phi_M$. We allow $M$ to be much larger
+than the sample size $n$ but we assume that the true regression function can be
+well approximated by a sparse linear combination of functions $\phi_j$. Under
+this sparsity scenario, we propose an EWA with a heavy tailed prior and we show
+that it satisfies a sparsity oracle inequality with leading constant one.
+Finally, we propose several Langevin Monte-Carlo algorithms to approximately
+compute such an EWA when the number $M$ of aggregated functions can be large.
+We discuss in some detail the convergence of these algorithms and present
+numerical experiments that confirm our theoretical findings.

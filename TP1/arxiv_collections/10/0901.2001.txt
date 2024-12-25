@@ -1,0 +1,24 @@
+Within the context of upcoming full-sky lensing surveys, the edge-preserving
+non- linear algorithm Aski is presented. Using the framework of Maximum A
+Posteriori inversion, it aims at recovering the full-sky convergence map from
+surveys with masks. It proceeds in two steps: CCD images of crowded galactic
+fields are deblurred using automated edge-preserving deconvolution; once the
+reduced shear is estimated, the convergence map is also inverted via an edge-
+preserving method. For the deblurring, it is found that when the observed field
+is crowded, this gain can be quite significant for realistic ground-based
+surveys when both positivity and edge-preserving penalties are imposed during
+the iterative deconvolution. For the convergence inversion, the quality of the
+reconstruction is investigated on noisy maps derived from the horizon N-body
+simulation, with and without Galactic cuts, and quantified using one-point
+statistics, power spectra, cluster counts, peak patches and the skeleton. It is
+found that the reconstruction is able to interpolate and extrapolate within the
+Galactic cuts/non-uniform noise; its sharpness-preserving penalization avoids
+strong biasing near the clusters of the map; it reconstructs well the shape of
+the PDF as traced by its skewness and kurtosis; the geometry and topology of
+the reconstructed map is close to the initial map as traced by the peak patch
+distribution and the skeleton's differential length; the two-points statistics
+of the recovered map is consistent with the corresponding smoothed version of
+the initial map; the distribution of point sources is also consistent with the
+corresponding smoothing, with a significant improvement when edge preserving
+prior is applied. The contamination of B-modes when realistic Galactic cuts are
+present is also investigated. Leakage mainly occurs on large scales.

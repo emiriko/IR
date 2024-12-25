@@ -1,0 +1,15 @@
+Central Force Optimization is a deterministic metaheuristic for an
+evolutionary algorithm that searches a decision space by flying probes whose
+trajectories are computed using a gravitational metaphor. CFO benefits
+substantially from the inclusion of a pseudorandom component (a numerical
+sequence that is precisely known by specification or calculation but otherwise
+arbitrary). The essential requirement is that the sequence is uncorrelated with
+the decision space topology, so that its effect is to pseudorandomly distribute
+probes throughout the landscape. While this process may appear to be similar to
+the randomness in an inherently stochastic algorithm, it is in fact
+fundamentally different because CFO remains deterministic at every step. Three
+pseudorandom methods are discussed (initial probe distribution, repositioning
+factor, and decision space adaptation). A sample problem is presented in detail
+and summary data included for a 23-function benchmark suite. CFO's performance
+is quite good compared to other highly developed, state-of-the-art algorithms.
+Includes corrections 02-03-2010.

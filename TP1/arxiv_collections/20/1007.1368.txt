@@ -1,0 +1,24 @@
+Linear Programming (LP) decoding of Low-Density Parity-Check (LDPC) codes has
+attracted much attention in the research community in the past few years. The
+aim of LP decoding is to develop an algorithm which has error-correcting
+performance similar to that of the Sum-Product (SP) decoding algorithm, while
+at the same time it should be amenable to mathematical analysis. The LP
+decoding algorithm has also been extended to nonbinary linear codes by Flanagan
+et al. However, the most important problem with LP decoding for both binary and
+nonbinary linear codes is that the complexity of standard LP solvers such as
+the simplex algorithm remain prohibitively large for codes of moderate to large
+block length. To address this problem, Vontobel et al. proposed a low
+complexity LP decoding algorithm for binary linear codes which has complexity
+linear in the block length. In this paper, we extend the latter work and
+propose a low-complexity LP decoding algorithm for nonbinary linear codes. We
+use the LP formulation proposed by Flanagan et al. as a basis and derive a pair
+of primal-dual LP formulations. The dual LP is then used to develop the
+low-complexity LP decoding algorithm for nonbinary linear codes. In contrast to
+the binary low-complexity LP decoding algorithm, our proposed algorithm is not
+directly related to the nonbinary SP algorithm. Nevertheless, the complexity of
+the proposed algorithm is linear in the block length and is limited mainly by
+the maximum check node degree. As a proof of concept, we also present a
+simulation result for a $[80,48]$ LDPC code defined over $\mathbb{Z}_4$ using
+quaternary phase-shift keying over the AWGN channel, and we show that the
+error-correcting performance of the proposed LP decoding algorithm is similar
+to that of the standard LP decoding using the simplex solver.

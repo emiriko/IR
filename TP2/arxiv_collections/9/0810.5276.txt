@@ -1,0 +1,17 @@
+The $k$th-nearest neighbor rule is arguably the simplest and most intuitively
+appealing nonparametric classification procedure. However, application of this
+method is inhibited by lack of knowledge about its properties, in particular,
+about the manner in which it is influenced by the value of $k$; and by the
+absence of techniques for empirical choice of $k$. In the present paper we
+detail the way in which the value of $k$ determines the misclassification
+error. We consider two models, Poisson and Binomial, for the training samples.
+Under the first model, data are recorded in a Poisson stream and are "assigned"
+to one or other of the two populations in accordance with the prior
+probabilities. In particular, the total number of data in both training samples
+is a Poisson-distributed random variable. Under the Binomial model, however,
+the total number of data in the training samples is fixed, although again each
+data value is assigned in a random way. Although the values of risk and regret
+associated with the Poisson and Binomial models are different, they are
+asymptotically equivalent to first order, and also to the risks associated with
+kernel-based classifiers that are tailored to the case of two derivatives.
+These properties motivate new methods for choosing the value of $k$.

@@ -1,0 +1,16 @@
+We present a new code for solving the molecular and atomic excitation and
+radiation transfer problem in a molecular gas and predicting emergent spectra.
+This code works in arbitrary three dimensional geometry using unstructured
+Delaunay latices for the transport of photons. Various physical models can be
+used as input, ranging from analytical descriptions over tabulated models to
+SPH simulations. To generate the Delaunay grid we sample the input model
+randomly, but weigh the sample probability with the molecular density and other
+parameters, and thereby we obtain an average grid point separation that scales
+with the local opacity. Our code does photon very efficiently so that the slow
+convergence of opaque models becomes traceable. When convergence between the
+level populations, the radiation field, and the point separation has been
+obtained, the grid is ray-traced to produced images that can readily be
+compared to observations. Because of the high dynamic range in scales that can
+be resolved using this type of grid, our code is particularly well suited for
+modeling of ALMA data. Our code can furthermore deal with overlapping lines of
+multiple molecular and atomic species.

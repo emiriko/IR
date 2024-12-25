@@ -1,0 +1,16 @@
+The paper presents a detailed review of the smooth particle hydrodynamics
+(SPH) method with particular focus on its astrophysical applications. We start
+by introducing the basic ideas and concepts and thereby outline all ingredients
+that are necessary for a practical implementation of the method in a working
+SPH code. Much of SPH's success relies on its excellent conservation properties
+and therefore the numerical conservation of physical invariants receives much
+attention throughout this review. The self-consistent derivation of the SPH
+equations from the Lagrangian of an ideal fluid is the common theme of the
+remainder of the text. We derive a modern, Newtonian SPH formulation from the
+Lagrangian of an ideal fluid. It accounts for changes of the local resolution
+lengths which result in corrective, so-called "grad-h-terms". We extend this
+strategy to special relativity for which we derive the corresponding grad-h
+equation set. The variational approach is further applied to a
+general-relativistic fluid evolving in a fixed, curved background space-time.
+Particular care is taken to explicitely derive all relevant equations in a
+coherent way.

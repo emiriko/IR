@@ -1,0 +1,19 @@
+Several overlay-based live multimedia streaming platforms have been proposed
+in the recent peer-to-peer streaming literature. In most of the cases, the
+overlay neighbors are chosen randomly for robustness of the overlay. However,
+this causes nodes that are distant in terms of proximity in the underlying
+physical network to become neighbors, and thus data travels unnecessary
+distances before reaching the destination. For efficiency of bulk data
+transmission like multimedia streaming, the overlay neighborhood should
+resemble the proximity in the underlying network. In this paper, we exploit the
+proximity and redundancy properties of a recently proposed clique-based
+clustered overlay network, named eQuus, to build efficient as well as robust
+overlays for multimedia stream dissemination. To combine the efficiency of
+content pushing over tree structured overlays and the robustness of data-driven
+mesh overlays, higher capacity stable nodes are organized in tree structure to
+carry the long haul traffic and less stable nodes with intermittent presence
+are organized in localized meshes. The overlay construction and fault-recovery
+procedures are explained in details. Simulation study demonstrates the good
+locality properties of the platform. The outage time and control overhead
+induced by the failure recovery mechanism are minimal as demonstrated by the
+analysis.

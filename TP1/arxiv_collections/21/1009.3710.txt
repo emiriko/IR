@@ -1,0 +1,19 @@
+Web service applications are distributed processes that are composed of
+dynamically bounded services. In our previous work [15], we have described a
+framework for performing runtime monitoring of web service against behavioural
+correctness properties (described using property patterns and converted into
+finite state automata). These specify forbidden behavior (safety properties)
+and desired behavior (bounded liveness properties). Finite execution traces of
+web services described in BPEL are checked for conformance at runtime. When
+violations are discovered, our framework automatically proposes and ranks
+recovery plans which users can then select for execution. Such plans for safety
+violations essentially involve "going back" - compensating the executed actions
+until an alternative behaviour of the application is possible. For bounded
+liveness violations, recovery plans include both "going back" and "re-planning"
+- guiding the application towards a desired behaviour. Our experience, reported
+in [16], identified a drawback in this approach: we compute too many plans due
+to (a) overapproximating the number of program points where an alternative
+behaviour is possible and (b) generating recovery plans for bounded liveness
+properties which can potentially violate safety properties. In this paper, we
+describe improvements to our framework that remedy these problems and describe
+their effectiveness on a case study.

@@ -1,0 +1,9 @@
+We propose a Markov chain model for credit rating changes. We do not use any
+distributional assumptions on the asset values of the rated companies but
+directly model the rating transitions process. The parameters of the model are
+estimated by a maximum likelihood approach using historical rating transitions
+and heuristic global optimization techniques.
+  We benchmark the model against a GLMM model in the context of bond portfolio
+risk management. The proposed model yields stronger dependencies and higher
+risks than the GLMM model. As a result, the risk optimal portfolios are more
+conservative than the decisions resulting from the benchmark model.

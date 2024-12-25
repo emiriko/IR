@@ -1,0 +1,22 @@
+Path diversity works by setting up multiple parallel connections between the
+end points using the topological path redundancy of the network. In this paper,
+\textit{Forward Error Correction} (FEC) is applied across multiple independent
+paths to enhance the end-to-end reliability. Network paths are modeled as
+erasure Gilbert-Elliot channels. It is known that over any erasure channel,
+\textit{Maximum Distance Separable} (MDS) codes achieve the minimum probability
+of irrecoverable loss among all block codes of the same size. Based on the
+adopted model for the error behavior, we prove that the probability of
+irrecoverable loss for MDS codes decays exponentially for an asymptotically
+large number of paths. Then, optimal rate allocation problem is solved for the
+asymptotic case where the number of paths is large. Moreover, it is shown that
+in such asymptotically optimal rate allocation, each path is assigned a
+positive rate \textit{iff} its quality is above a certain threshold. The
+quality of a path is defined as the percentage of the time it spends in the bad
+state. Finally, using dynamic programming, a heuristic suboptimal algorithm
+with polynomial runtime is proposed for rate allocation over a finite number of
+paths. This algorithm converges to the asymptotically optimal rate allocation
+when the number of paths is large. The simulation results show that the
+proposed algorithm approximates the optimal rate allocation (found by
+exhaustive search) very closely for practical number of paths, and provides
+significant performance improvement compared to the alternative schemes of rate
+allocation.

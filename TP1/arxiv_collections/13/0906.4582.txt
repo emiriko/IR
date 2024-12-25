@@ -1,0 +1,14 @@
+In recent years, the spectral analysis of appropriately defined kernel
+matrices has emerged as a principled way to extract the low-dimensional
+structure often prevalent in high-dimensional data. Here we provide an
+introduction to spectral methods for linear and nonlinear dimension reduction,
+emphasizing ways to overcome the computational limitations currently faced by
+practitioners with massive datasets. In particular, a data subsampling or
+landmark selection process is often employed to construct a kernel based on
+partial information, followed by an approximate spectral analysis termed the
+Nystrom extension. We provide a quantitative framework to analyse this
+procedure, and use it to demonstrate algorithmic performance bounds on a range
+of practical approaches designed to optimize the landmark selection process. We
+compare the practical implications of these bounds by way of real-world
+examples drawn from the field of computer vision, whereby low-dimensional
+manifold structure is shown to emerge from high-dimensional video data streams.

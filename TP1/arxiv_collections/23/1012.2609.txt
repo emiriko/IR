@@ -1,0 +1,13 @@
+Term weighting schemes often dominate the performance of many classifiers,
+such as kNN, centroid-based classifier and SVMs. The widely used term weighting
+scheme in text categorization, i.e., tf.idf, is originated from information
+retrieval (IR) field. The intuition behind idf for text categorization seems
+less reasonable than IR. In this paper, we introduce inverse category frequency
+(icf) into term weighting scheme and propose two novel approaches, i.e., tf.icf
+and icf-based supervised term weighting schemes. The tf.icf adopts icf to
+substitute idf factor and favors terms occurring in fewer categories, rather
+than fewer documents. And the icf-based approach combines icf and relevance
+frequency (rf) to weight terms in a supervised way. Our cross-classifier and
+cross-corpus experiments have shown that our proposed approaches are superior
+or comparable to six supervised term weighting schemes and three traditional
+schemes in terms of macro-F1 and micro-F1.

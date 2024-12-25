@@ -1,0 +1,19 @@
+We show that there are quantum devices that accept all regular languages and
+that are exponentially more concise than deterministic finite automata (DFA).
+For this purpose, we introduce a new computing model of {\it one-way quantum
+finite automata} (1QFA), namely, {\it one-way quantum finite automata together
+with classical states} (1QFAC), which extends naturally both measure-only 1QFA
+and DFA and whose state complexity is upper-bounded by both. The original
+contributions of the paper are the following. First, we show that the set of
+languages accepted by 1QFAC with bounded error consists precisely of all
+regular languages. Second, we prove that 1QFAC are at most exponentially more
+concise than DFA. Third, we show that the previous bound is tight for families
+of regular languages that are not recognized by measure-once (RMO),
+measure-many (RMM) and multi-letter 1QFA. % More concretely we exhibit regular
+languages $L^0(m)$ for $m$ prime such that: (i) $L^0(m)$ cannot be recognized
+by measure-once, measure-many and multi-letter 1QFA; (ii) the minimal DFA that
+accepts $L^0(m)$ has $O(m)$ states; (iii) there is a 1QFAC with constant
+classical states and $O(\log(m))$ quantum basis that accepts $L^0(m)$. Fourth,
+we give a polynomial-time algorithm for determining whether any two 1QFAC are
+equivalent. Finally, we show that state minimization of 1QFAC is decidable
+within EXPSPACE. We conclude the paper by posing some open problems.

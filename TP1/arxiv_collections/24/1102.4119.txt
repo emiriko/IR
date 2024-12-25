@@ -1,0 +1,17 @@
+The idea of automatic synthesis of reactive programs starting from temporal
+logic (LTL) specifications is quite old, but was commonly thought to be
+infeasible due to the known double exponential complexity of the problem.
+However, new ideas have recently renewed the interest in LTL synthesis: One
+major new contribution in this area is the recent work of Piterman et al. who
+showed how polynomial time synthesis can be achieved for a large class of LTL
+specifications that is expressive enough to cover many practical examples.
+These LTL specifications are equivalent to omega-automata having a so-called
+GR(1) acceptance condition. This approach has been used to automatically
+synthesize implementations of real-world applications. To this end, manually
+written deterministic omega-automata having GR(1) conditions were used instead
+of the original LTL specifications. However, manually generating deterministic
+monitors is, of course, a hard and error-prone task. In this paper, we
+therefore present algorithms to automatically translate specifications of a
+remarkable large fragment of LTL to deterministic monitors having a GR(1)
+acceptance condition so that the synthesis algorithms can start with more
+readable LTL specifications.

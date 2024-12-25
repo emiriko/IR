@@ -1,0 +1,22 @@
+In this paper, based on a weighted projection of bipartite user-object
+network, we introduce a personalized recommendation algorithm, called the
+\emph{network-based inference} (NBI), which has higher accuracy than the
+classical algorithm, namely \emph{collaborative filtering}. In the NBI, the
+correlation resulting from a specific attribute may be repeatedly counted in
+the cumulative recommendations from different objects. By considering the
+higher order correlations, we design an improved algorithm that can, to some
+extent, eliminate the redundant correlations. We test our algorithm on two
+benchmark data sets, \emph{MovieLens} and \emph{Netflix}. Compared with the
+NBI, the algorithmic accuracy, measured by the ranking score, can be further
+improved by 23% for \emph{MovieLens} and 22% for \emph{Netflix}, respectively.
+The present algorithm can even outperform the \emph{Latent Dirichlet
+Allocation} algorithm, which requires much longer computational time.
+Furthermore, most of the previous studies considered the algorithmic accuracy
+only, in this paper, we argue that the diversity and popularity, as two
+significant criteria of algorithmic performance, should also be taken into
+account. With more or less the same accuracy, an algorithm giving higher
+diversity and lower popularity is more favorable. Numerical results show that
+the present algorithm can outperform the standard one simultaneously in all
+five adopted metrics: lower ranking score and higher precision for accuracy,
+larger Hamming distance and lower intra-similarity for diversity, as well as
+smaller average degree for popularity.

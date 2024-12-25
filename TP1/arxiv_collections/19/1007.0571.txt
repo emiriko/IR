@@ -1,0 +1,20 @@
+We consider how local and global decision policies interact in stopping time
+problems such as quickest time change detection. Individual agents make myopic
+local decisions via social learning, that is, each agent records a private
+observation of a noisy underlying state process, selfishly optimizes its local
+utility and then broadcasts its local decision. Given these local decisions,
+how can a global decision maker achieve quickest time change detection when the
+underlying state changes according to a phase-type distribution? The paper
+presents four results. First, using Blackwell dominance of measures, it is
+shown that the optimal cost incurred in social learning based quickest
+detection is always larger than that of classical quickest detection. Second,
+it is shown that in general the optimal decision policy for social learning
+based quickest detection is characterized by multiple thresholds within the
+space of Bayesian distributions. Third, using lattice programming and
+stochastic dominance, sufficient conditions are given for the optimal decision
+policy to consist of a single linear hyperplane, or, more generally, a
+threshold curve. Estimation of the optimal linear approximation to this
+threshold curve is formulated as a simulation-based stochastic optimization
+problem. Finally, the paper shows that in multi-agent sensor management with
+quickest detection, where each agent views the world according to its prior,
+the optimal policy has a similar structure to social learning.

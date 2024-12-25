@@ -1,0 +1,16 @@
+We introduce a new smooth estimator of the ROC curve based on log-concave
+density estimates of the constituent distributions. We show that our estimate
+is asymptotically equivalent to the empirical ROC curve if the underlying
+densities are in fact log-concave. In addition, we empirically show that our
+proposed estimator exhibits an efficiency gain for finite sample sizes with
+respect to the standard empirical estimate in various scenarios and that it is
+only slightly less efficient, if at all, compared to the fully parametric
+binormal estimate in case the underlying distributions are normal. The
+estimator is also quite robust against modest deviations from the log-concavity
+assumption. We show that bootstrap confidence intervals for the value of the
+ROC curve at a fixed false positive fraction based on the new estimate are on
+average shorter compared to the approach by Zhou & Qin (2005), while
+maintaining coverage probability. Computation of our proposed estimate uses the
+R package logcondens that implements univariate log-concave density estimation
+and can be done very efficiently using only one line of code. These obtained
+results lead us to advocate our estimate for a wide range of scenarios.

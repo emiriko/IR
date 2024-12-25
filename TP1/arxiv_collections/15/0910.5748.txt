@@ -1,0 +1,19 @@
+In this work it is shown how the immersed boundary method of (Peskin2002) for
+modeling flexible structures immersed in a fluid can be extended to include
+thermal fluctuations. A stochastic numerical method is proposed which deals
+with stiffness in the system of equations by handling systematically the
+statistical contributions of the fastest dynamics of the fluid and immersed
+structures over long time steps. An important feature of the numerical method
+is that time steps can be taken in which the degrees of freedom of the fluid
+are completely underresolved, partially resolved, or fully resolved while
+retaining a good level of accuracy. Error estimates in each of these regimes
+are given for the method. A number of theoretical and numerical checks are
+furthermore performed to assess its physical fidelity. For a conservative
+force, the method is found to simulate particles with the correct Boltzmann
+equilibrium statistics. It is shown in three dimensions that the diffusion of
+immersed particles simulated with the method has the correct scaling in the
+physical parameters. The method is also shown to reproduce a well-known
+hydrodynamic effect of a Brownian particle in which the velocity
+autocorrelation function exhibits an algebraic tau^(-3/2) decay for long times.
+A few preliminary results are presented for more complex systems which
+demonstrate some potential application areas of the method.

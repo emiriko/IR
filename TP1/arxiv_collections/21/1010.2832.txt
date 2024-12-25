@@ -1,0 +1,19 @@
+We present a simple and efficient variational finite difference method for
+simulating time-dependent Stokes flow in the presence of irregular free
+surfaces and moving solid boundaries. The method uses an embedded boundary
+approach on staggered Cartesian grids, avoiding the need for expensive
+remeshing operations, and can be applied to flows in both two and three
+dimensions. It uses fully implicit backwards Euler integration to provide
+stability and supports spatially varying density and viscosity, while requiring
+the solution of just a single sparse, symmetric positive-definite linear system
+per time step. By expressing the problem in a variational form, challenging
+irregular domains are supported implicitly through the use of natural boundary
+conditions. In practice, the discretization requires only centred finite
+difference stencils and per-cell volume fractions, and is straightforward to
+implement. The variational form further permits generalizations to coupling
+other mechanics, all the while reducing to a sparse symmetric positive definite
+matrix. We demonstrate consistent first order convergence of velocity in L1 and
+Linf norms on a range of analytical test cases in two dimensions. Furthermore,
+we apply our method as part of a simple Navier-Stokes solver to illustrate that
+it can reproduce the characteristic jet buckling phenomenon of Newtonian
+liquids at moderate viscosities, in both two and three dimensions.

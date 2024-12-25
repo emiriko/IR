@@ -1,0 +1,18 @@
+We study the information spreading yielded by the \emph{(Parsimonious)
+$1$-Flooding Protocol} in geometric Mobile Ad-Hoc Networks. We consider $n$
+agents on a convex plane region of diameter $D$ performing independent random
+walks with move radius $\rho$. At any time step, every active agent $v$ informs
+every non-informed agent which is within distance $R$ from $v$ ($R>0$ is the
+transmission radius). An agent is only active at the time step immediately
+after the one in which has been informed and, after that, she is removed. At
+the initial time step, a source agent is informed and we look at the
+\emph{completion time} of the protocol, i.e., the first time step (if any) in
+which all agents are informed. This random process is equivalent to the
+well-known \emph{Susceptible-Infective-Removed ($SIR$}) infection process in
+Mathematical Epidemiology. No analytical results are available for this random
+process over any explicit mobility model. The presence of removed agents makes
+this process much more complex than the (standard) flooding. We prove optimal
+bounds on the completion time depending on the parameters $n$, $D$, $R$, and
+$\rho$. The obtained bounds hold with high probability. We remark that our
+method of analysis provides a clear picture of the dynamic shape of the
+information spreading (or infection wave) over the time.

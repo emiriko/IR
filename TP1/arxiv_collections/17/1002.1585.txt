@@ -1,0 +1,19 @@
+I briefly describe a simple routine for emission-line profiles fitting by
+Gaussian curves or Gauss-Hermite series. The PROFIT (line-PROfile FITting)
+routine represent a new alternative for use in fits data cubes, as those from
+Integral Field Spectroscopy or Fabry-Perot Interferometry, and may be useful to
+better study the emission-line flux distributions and gas kinematics in
+distinct astrophysical objects, such as the central regions of galaxies and
+star forming regions. The PROFIT routine is written in IDL language and is
+available at http://www.ufsm.br/rogemar/software.html.
+  The PROFIT routine was used to fit the [Fe II]1.257um emission-line profiles
+for about 1800 spectra of the inner 350 pc of the Seyfert galaxy Mrk1066
+obtained with Gemini NIFS and shows that the line profiles are better
+reproduced by Gauss-Hermite series than by the commonly used Gaussian curves.
+The two-dimensional map of the h_3 Gauss-Hermite moment shows its highest
+absolute values in regions close to the edge of the radio structure. These high
+values may be originated in an biconical outflowing gas associated with the
+radio jet - previously observed in the optical [O III] emission. The analysis
+of this kinematic component indicates that the radio jet leaves the center of
+the galaxy with the north-west side slightly oriented towards us and the
+south-east side away from us, being partially hidden by the disc of the galaxy.

@@ -1,0 +1,19 @@
+MEG (Mu to Electron Gamma) is an experiment dedicated to search for the
+$\mu^+ \rightarrow e^+\gamma$ decay that is strongly suppressed in the Standard
+Model but predicted in several Super Symmetric extensions of it at an
+accessible rate. MEG is a small-size experiment ($\approx 50-60$ physicists at
+any time) with a life span of about 10 years. The limited human resource
+available, in particular in the core offline group, emphasized the importance
+of reusing software and exploiting existing expertise. Great care has been
+devoted to provide a simple system that hides implementation details to the
+average programmer. That allowed many members of the collaboration to
+contribute to the development of the software of the experiment with limited
+programming skill. The offline software is based on two frameworks: {\bf REM}
+in FORTRAN 77 used for the event generation and detector simulation package
+{\bf GEM}, based on GEANT 3, and {\bf ROME} in C++ used in the readout
+simulation {\bf Bartender} and in the reconstruction and analysis program {\bf
+Analyzer}. Event display in the simulation is based on GEANT 3 graphic
+libraries and in the reconstruction on ROOT graphic libraries. Data are stored
+in different formats in various stage of the processing. The frameworks include
+utilities for input/output, database handling and format conversion transparent
+to the user.

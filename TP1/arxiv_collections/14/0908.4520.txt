@@ -1,0 +1,24 @@
+In this work, we have theoretically analyzed and numerically evaluated the
+accuracy of high-order lattice Boltzmann (LB) models for capturing
+non-equilibrium effects in rarefied gas flows. In the incompressible limit, the
+LB equation is proved to be equivalent to the linearized Bhatnagar-Gross-Krook
+(BGK) equation. Therefore, when the same Gauss-Hermite quadrature is used, LB
+method closely assembles the discrete velocity method (DVM). In addition, the
+order of Hermite expansion for the equilibrium distribution function is found
+not to be correlated with the approximation order in terms of the Knudsen
+number to the BGK equation, which was previously suggested by
+\cite{2006JFM...550..413S}. Furthermore, we have numerically evaluated the LB
+models for a standing-shear-wave problem, which is designed specifically for
+assessing model accuracy by excluding the influence of gas molecule/surface
+interactions at wall boundaries. The numerical simulation results confirm that
+the high-order terms in the discrete equilibrium distribution function play a
+negligible role. Meanwhile, appropriate Gauss-Hermite quadrature has the most
+significant effect on whether LB models can describe the essential flow physics
+of rarefied gas accurately. For the same order of the Gauss-Hermite quadrature,
+the exact abscissae will also modestly influence numerical accuracy. Using the
+same Gauss-Hermite quadrature, the numerical results of both LB and DVM methods
+are in excellent agreement for flows across a broad range of the Knudsen
+numbers, which confirms that the LB simulation is similar to the DVM process.
+Therefore, LB method can offer flexible models suitable for simulating
+continuum flows at Navier Stokes level and rarefied gas flows at the linearized
+Boltzmann equation level.

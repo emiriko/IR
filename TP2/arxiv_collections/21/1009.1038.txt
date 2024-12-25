@@ -1,0 +1,11 @@
+With the discovery of new exploit techniques, novel protection mechanisms are
+needed as well. Mitigations like DEP (Data Execution Prevention) or ASLR
+(Address Space Layout Randomization) created a significantly more difficult
+environment for exploitation. Attackers, however, have recently researched new
+exploitation methods which are capable of bypassing the operating system's
+memory mitigations. One of the newest and most popular exploitation techniques
+to bypass both of the aforementioned security protections is JIT memory
+spraying, introduced by Dion Blazakis. In this article we will present a short
+overview of the JIT spraying technique and also novel mitigation methods
+against this innovative class of attacks. An anti-JIT spraying library was
+created as part of our shellcode execution prevention system.

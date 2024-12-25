@@ -1,0 +1,18 @@
+Several high-throughput distributed data-processing applications require
+multi-hop processing of streams of data. These applications include continual
+processing on data streams originating from a network of sensors, composing a
+multimedia stream through embedding several component streams originating from
+different locations, etc. These data-flow computing applications require
+multiple processing nodes interconnected according to the data-flow topology of
+the application, for on-stream processing of the data. Since the applications
+usually sustain for a long period, it is important to optimally map the
+component computations and communications on the nodes and links in the
+network, fulfilling the capacity constraints and optimizing some quality metric
+such as end-to-end latency. The mapping problem is unfortunately NP-complete
+and heuristics have been previously proposed to compute the approximate
+solution in a centralized way. However, because of the dynamicity of the
+network, it is practically impossible to aggregate the correct state of the
+whole network in a single node. In this paper, we present a distributed
+algorithm for optimal mapping of the components of the data flow applications.
+We propose several heuristics to minimize the message complexity of the
+algorithm while maintaining the quality of the solution.

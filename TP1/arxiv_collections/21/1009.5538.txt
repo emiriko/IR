@@ -1,0 +1,17 @@
+A priority queue is presented that supports the operations insert and
+find-min in worst-case constant time, and delete and delete-min on element x in
+worst-case O(lg(min{w_x, q_x}+2)) time, where w_x (respectively q_x) is the
+number of elements inserted after x (respectively before x) and are still
+present at the time of the deletion of x. Our priority queue then has both the
+working-set and the queueish properties, and more strongly it satisfies these
+properties in the worst-case sense. We also define a new distribution-sensitive
+property---the time-finger property, which encapsulates and generalizes both
+the working-set and queueish properties, and present a priority queue that
+satisfies this property.
+  In addition, we prove a strong implication that the working-set property is
+equivalent to the unified bound (which is the minimum per operation among the
+static finger, static optimality, and the working-set bounds). This latter
+result is of tremendous interest by itself as it had gone unnoticed since the
+introduction of such bounds by Sleater and Tarjan [JACM 1985]. Accordingly, our
+priority queue satisfies other distribution-sensitive properties as the static
+finger, static optimality, and the unified bound.

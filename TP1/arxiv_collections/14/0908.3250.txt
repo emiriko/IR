@@ -1,0 +1,14 @@
+Super-resolution (SR) techniques make use of subpixel shifts between frames
+in an image sequence to yield higher-resolution images. We propose an original
+observation model devoted to the case of non isometric inter-frame motion as
+required, for instance, in the context of airborne imaging sensors. First, we
+describe how the main observation models used in the SR literature deal with
+motion, and we explain why they are not suited for non isometric motion. Then,
+we propose an extension of the observation model by Elad and Feuer adapted to
+affine motion. This model is based on a decomposition of affine transforms into
+successive shear transforms, each one efficiently implemented by row-by-row or
+column-by-column 1-D affine transforms.
+  We demonstrate on synthetic and real sequences that our observation model
+incorporated in a SR reconstruction technique leads to better results in the
+case of variable scale motions and it provides equivalent results in the case
+of isometric motions.

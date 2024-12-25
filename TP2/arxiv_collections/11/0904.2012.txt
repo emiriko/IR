@@ -1,0 +1,16 @@
+In this paper, we define a category DB, called the category of simplicial
+databases, whose objects are databases and whose morphisms are data-preserving
+maps. Along the way we give a precise formulation of the category of relational
+databases, and prove that it is a full subcategory of DB. We also prove that
+limits and colimits always exist in DB and that they correspond to queries such
+as select, join, union, etc.
+  One feature of our construction is that the schema of a simplicial database
+has a natural geometric structure: an underlying simplicial set. The geometry
+of a schema is a way of keeping track of relationships between distinct tables,
+and can be thought of as a system of foreign keys. The shape of a schema is
+generally intuitive (e.g. the schema for round-trip flights is a circle
+consisting of an edge from $A$ to $B$ and an edge from $B$ to $A$), and as
+such, may be useful for analyzing data.
+  We give several applications of our approach, as well as possible advantages
+it has over the relational model. We also indicate some directions for further
+research.

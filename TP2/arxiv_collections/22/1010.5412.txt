@@ -1,0 +1,14 @@
+The lift-and-project closure is the relaxation obtained by computing all
+lift-and-project cuts from the initial formulation of a mixed integer linear
+program or equivalently by computing all mixed integer Gomory cuts read from
+all tableau's corresponding to feasible and infeasible bases. In this paper, we
+present an algorithm for approximating the value of the lift-and-project
+closure. The originality of our method is that it is based on a very simple cut
+generation linear programming problem which is obtained from the original
+linear relaxation by simply modifying the bounds on the variables and
+constraints. This separation LP can also be seen as the dual of the cut
+generation LP used in disjunctive programming procedures with a particular
+normalization. We study some properties of this separation LP in particular
+relating it to the equivalence between lift-and-project cuts and Gomory cuts
+shown by Balas and Perregaard. Finally, we present some computational
+experiments and comparisons with recent related works.

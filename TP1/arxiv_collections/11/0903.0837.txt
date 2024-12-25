@@ -1,0 +1,14 @@
+We present a Bayesian sampling algorithm called adaptive importance sampling
+or Population Monte Carlo (PMC), whose computational workload is easily
+parallelizable and thus has the potential to considerably reduce the wall-clock
+time required for sampling, along with providing other benefits. To assess the
+performance of the approach for cosmological problems, we use simulated and
+actual data consisting of CMB anisotropies, supernovae of type Ia, and weak
+cosmological lensing, and provide a comparison of results to those obtained
+using state-of-the-art Markov Chain Monte Carlo (MCMC). For both types of data
+sets, we find comparable parameter estimates for PMC and MCMC, with the
+advantage of a significantly lower computational time for PMC. In the case of
+WMAP5 data, for example, the wall-clock time reduces from several days for MCMC
+to a few hours using PMC on a cluster of processors. Other benefits of the PMC
+approach, along with potential difficulties in using the approach, are analysed
+and discussed.

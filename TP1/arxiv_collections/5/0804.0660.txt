@@ -1,0 +1,23 @@
+Weak affine light typing (WALT) assigns light affine linear formulae as types
+to a subset of lambda-terms of System F. WALT is poly-time sound: if a
+lambda-term M has type in WALT, M can be evaluated with a polynomial cost in
+the dimension of the derivation that gives it a type. The evaluation proceeds
+under any strategy of a rewriting relation which is a mix of both call-by-name
+and call-by-value beta-reductions. WALT weakens, namely generalizes, the notion
+of "stratification of deductions", common to some Light Systems -- those
+logical systems, derived from Linear logic, to characterize the set of
+Polynomial functions -- . A weaker stratification allows to define a
+compositional embedding of Safe recursion on notation (SRN) into WALT. It turns
+out that the expressivity of WALT is strictly stronger than the one of the
+known Light Systems. The embedding passes through the representation of a
+subsystem of SRN. It is obtained by restricting the composition scheme of SRN
+to one that can only use its safe variables linearly. On one side, this
+suggests that SRN, in fact, can be redefined in terms of more primitive
+constructs. On the other, the embedding of SRN into WALT enjoys the two
+following remarkable aspects. Every datatype, required by the embedding, is
+represented from scratch, showing the strong structural proof-theoretical roots
+of WALT. Moreover, the embedding highlights a stratification structure of the
+normal and safe arguments, normally hidden inside the world of SRN-normal/safe
+variables: the less an argument is "polyomially impredicative", the deeper, in
+a formal, proof-theoretical sense, it is represented inside WALT. Finally,
+since WALT is SRN-complete it is also polynomial-time complete since SRN is.

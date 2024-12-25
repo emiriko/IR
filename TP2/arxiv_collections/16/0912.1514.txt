@@ -1,0 +1,24 @@
+Context: Knowledge about the coronal magnetic field is important to the
+understanding the structure of the solar corona. We compute the field in the
+higher layers of the solar atmosphere from the measured photospheric field
+under the assumption that the corona is force-free. Aims: Here we develop a
+method for nonlinear force-free coronal magnetic field medelling and
+preprocessing of photospheric vector magnetograms in spherical geometry using
+the optimization procedure. Methods: We describe a newly developed code for the
+extrapolation of nonlinear force-free coronal magnetic fields in spherical
+coordinates over a restricted area of the Sun. The program uses measured vector
+magnetograms on the solar photosphere as input and solves the force-free
+equations in the solar corona. We develop a preprocessing procedure in
+spherical geometry to drive the observed non-force-free data towards suitable
+boundary conditions for a force-free extrapolation. Results: We test the code
+with the help of a semi-analytic solution and assess the quality of our
+reconstruction qualitatively by magnetic field line plots and quantitatively
+with a number of comparison metrics for different boundary conditions. The
+reconstructed fields from the lower boundary data with the weighting function
+are in good agreement with the original reference fields. We added artificial
+noise to the boundary conditions and tested the code with and without
+preprocessing. The preprocessing recovered all main structures of the
+magnetogram and removed small-scale noise. The main test was to extrapolate
+from the noisy photospheric vector magnetogram with and without preprocessing.
+The preprocessing was found to significantly improve the agreement between the
+extrapolated and the exact field.

@@ -1,0 +1,19 @@
+Many cryptographic protocols are intended to coordinate state changes among
+principals. Exchange protocols coordinate delivery of new values to the
+participants, e.g. additions to the set of values they possess. An exchange
+protocol is fair if it ensures that delivery of new values is balanced: If one
+participant obtains a new possession via the protocol, then all other
+participants will, too. Fair exchange requires progress assumptions, unlike
+some other protocol properties. The strand space model is a framework for
+design and verification of cryptographic protocols. A strand is a local
+behavior of a single principal in a single session of a protocol. A bundle is a
+partially ordered global execution built from protocol strands and adversary
+activities. The strand space model needs two additions for fair exchange
+protocols. First, we regard the state as a multiset of facts, and we allow
+strands to cause changes in this state via multiset rewriting. Second, progress
+assumptions stipulate that some channels are resilient-and guaranteed to
+deliver messages-and some principals are assumed not to stop at certain
+critical steps. This method leads to proofs of correctness that cleanly
+separate protocol properties, such as authentication and confidentiality, from
+invariants governing state evolution. G. Wang's recent fair exchange protocol
+illustrates the approach.

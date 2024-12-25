@@ -1,0 +1,17 @@
+In this article, we propose a penalized clustering method for large scale
+data with multiple covariates through a functional data approach. In the
+proposed method, responses and covariates are linked together through
+nonparametric multivariate functions (fixed effects), which have great
+flexibility in modeling a variety of function features, such as jump points,
+branching, and periodicity. Functional ANOVA is employed to further decompose
+multivariate functions in a reproducing kernel Hilbert space and provide
+associated notions of main effect and interaction. Parsimonious random effects
+are used to capture various correlation structures. The mixed-effect models are
+nested under a general mixture model, in which the heterogeneity of functional
+data is characterized. We propose a penalized Henderson's likelihood approach
+for model-fitting and design a rejection-controlled EM algorithm for the
+estimation. Our method selects smoothing parameters through generalized
+cross-validation. Furthermore, the Bayesian confidence intervals are used to
+measure the clustering uncertainty. Simulation studies and real-data examples
+are presented to investigate the empirical performance of the proposed method.
+Open-source code is available in the R package MFDA.

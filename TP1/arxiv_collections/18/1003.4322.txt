@@ -1,0 +1,16 @@
+A hybrid scheme that utilizes MPI for distributed memory parallelism and
+OpenMP for shared memory parallelism is presented. The work is motivated by the
+desire to achieve exceptionally high Reynolds numbers in pseudospectral
+computations of fluid turbulence on emerging petascale, high core-count,
+massively parallel processing systems. The hybrid implementation derives from
+and augments a well-tested scalable MPI-parallelized pseudospectral code. The
+hybrid paradigm leads to a new picture for the domain decomposition of the
+pseudospectral grids, which is helpful in understanding, among other things,
+the 3D transpose of the global data that is necessary for the parallel fast
+Fourier transforms that are the central component of the numerical
+discretizations. Details of the hybrid implementation are provided, and
+performance tests illustrate the utility of the method. It is shown that the
+hybrid scheme achieves near ideal scalability up to ~20000 compute cores with a
+maximum mean efficiency of 83%. Data are presented that demonstrate how to
+choose the optimal number of MPI processes and OpenMP threads in order to
+optimize code performance on two different platforms.

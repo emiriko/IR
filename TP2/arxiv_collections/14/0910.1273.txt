@@ -1,0 +1,10 @@
+We present promising results for real-time vehicle visual detection, obtained
+with adaBoost using new original ?keypoints presence features?. These
+weak-classifiers produce a boolean response based on presence or absence in the
+tested image of a ?keypoint? (~ a SURF interest point) with a descriptor
+sufficiently similar (i.e. within a given distance) to a reference descriptor
+characterizing the feature. A first experiment was conducted on a public image
+dataset containing lateral-viewed cars, yielding 95% recall with 95% precision
+on test set. Moreover, analysis of the positions of adaBoost-selected keypoints
+show that they correspond to a specific part of the object category (such as
+?wheel? or ?side skirt?) and thus have a ?semantic? meaning.

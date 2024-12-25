@@ -1,0 +1,9 @@
+The simulation of the time-dependent evolution of the resonant tunneling
+diode is done by a multiscale algorithm exploiting the existence of resonant
+states. After revisiting and improving the algorithm developed in [N. Ben
+Abdallah, O. Pinaud, J. Comp. Phys. 213 (2006) 288-310] for the stationary
+case, the time-dependent problem is dealt with. The wave function is decomposed
+into a non resonant part and a resonant one. The projection method to compute
+the resonant part leads to an accurate algorithm thanks to a suitable
+interpolation of the non resonant one. The simulation times are largely
+reduced.

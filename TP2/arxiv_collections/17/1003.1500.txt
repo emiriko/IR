@@ -1,0 +1,14 @@
+Several multi-pass algorithms have been proposed for Association Rule Mining
+from static repositories. However, such algorithms are incapable of online
+processing of transaction streams. In this paper we introduce an efficient
+single-pass algorithm for mining association rules, given a hierarchical
+classification amongest items. Processing efficiency is achieved by utilizing
+two optimizations, hierarchy aware counting and transaction reduction, which
+become possible in the context of hierarchical classification. This paper
+considers the problem of integrating constraints that are Boolean expression
+over the presence or absence of items into the association discovery algorithm.
+This paper present three integrated algorithms for mining association rules
+with item constraints and discuss their tradeoffs. It is concluded that the
+variation of complexity depends on the measure of DIT (Depth of Inheritance
+Tree) and NOC (Number of Children) in the context of Hierarchical
+Classification.

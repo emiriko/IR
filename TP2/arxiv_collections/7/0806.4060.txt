@@ -1,0 +1,21 @@
+We use projector operators to correct the Kohn-Sham Hamiltonian of density
+functional theory (KS-DFT) so that the resulting mean-field scheme yields, in
+finite systems, virtual orbitals and energy gaps in better agreement with those
+predicted by quasiparticle theory. The proposed correction term is a
+scissors-like operator of the form $(\hat{I}-\hat{\rho})\delta
+\hat{H}(\hat{I}-\hat{\rho})$, where $\hat{I}$ is the identity operator,
+$\hat{\rho}$ the density matrix of the N-particle system and $\delta \hat{H}$
+is either the difference between the N+1- and N-particle Kohn-Sham Hamiltonians
+or a non-self-consistent approximation to it. Such a term replaces the
+Kohn-Sham virtual orbitals of the $N$-particle system by the HOMO and virtual
+orbitals of the system with $N+1$ particles in an attempt to mimic a true
+quasiparticle spectrum. Using a local density approximation (LDA) we compute
+the gaps of a variety of small molecules finding good agreement with experiment
+and computationally more demanding methods. For these systems we examine the
+physical origin of this gap correction and show that so-called band gap
+discontinuity, $\Delta_{xc}$, contains electrostatic contributions that do not
+originate from the discontinuity in the exchange-correlation potential. The
+similarity between the corrected and Hartree-Fock virtual orbitals is
+illustrated and the extent to which the bare LDA virtual orbitals are improved
+is considered. The lack of band-gap discontinuity and the presence of
+self-interaction errors in the proposed correction are also discussed.

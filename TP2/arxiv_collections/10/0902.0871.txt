@@ -1,0 +1,20 @@
+The increasing importance of Web 2.0 applications during the last years has
+created significant interest in tools for analyzing and describing collective
+user activities and emerging phenomena within the Web. Network structures have
+been widely employed in this context for modeling users, web resources and
+relations between them. However, the amount of data produced by modern web
+systems results in networks that are of unprecedented size and complexity, and
+are thus hard to interpret. To this end, community detection methods attempt to
+uncover natural groupings of web objects by analyzing the topology of their
+containing network. There are numerous techniques adopting a global perspective
+to the community detection problem, i.e. they operate on the complete network
+structure, thus being computationally expensive and hard to apply in a
+streaming manner. In order to add a local perspective to the study of the
+problem, we present Bridge Bounding, a local methodology for community
+detection, which explores the local network topology around a seed node in
+order to identify edges that act as boundaries to the local community. The
+proposed method can be integrated in an efficient global community detection
+scheme that compares favorably to the state of the art. As a case study, we
+apply the method to explore the topic structure of the LYCOS iQ collaborative
+question/answering application by detecting communities in the networks created
+from the collective tagging activity of users.

@@ -1,0 +1,14 @@
+Marginal structural models were introduced in order to provide estimates of
+causal effects from interventions based on observational studies in
+epidemiological research. The key point is that this can be understood in terms
+of Girsanov's change of measure. This offers a mathematical interpretation of
+marginal structural models that has not been available before. We consider both
+a model of an observational study and a model of a hypothetical randomized
+trial. These models correspond to different martingale measures -- the
+observational measure and the randomized trial measure -- on some underlying
+space. We describe situations where the randomized trial measure is absolutely
+continuous with respect to the observational measure. The resulting
+continuous-time likelihood ratio process with respect to these two probability
+measures corresponds to the weights in discrete-time marginal structural
+models. In order to do inference for the hypothetical randomized trial, we can
+simulate samples using observational data weighted by this likelihood ratio.

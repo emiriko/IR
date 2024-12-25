@@ -1,0 +1,16 @@
+Youtopia is a platform for collaborative management and integration of
+relational data. At the heart of Youtopia is an update exchange abstraction:
+changes to the data propagate through the system to satisfy user-specified
+mappings. We present a novel change propagation model that combines a
+deterministic chase with human intervention. The process is fundamentally
+cooperative and gives users significant control over how mappings are repaired.
+An additional advantage of our model is that mapping cycles can be permitted
+without compromising correctness.
+  We investigate potential harmful interference between updates in our model;
+we introduce two appropriate notions of serializability that avoid such
+interference if enforced. The first is very general and related to classical
+final-state serializability; the second is more restrictive but highly
+practical and related to conflict-serializability. We present an algorithm to
+enforce the latter notion. Our algorithm is an optimistic one, and as such may
+sometimes require updates to be aborted. We develop techniques for reducing the
+number of aborts and we test these experimentally.

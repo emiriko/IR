@@ -1,0 +1,21 @@
+The NGSIM trajectory data sets provide longitudinal and lateral positional
+information for all vehicles in certain spatiotemporal regions. Velocity and
+acceleration information cannot be extracted directly since the noise in the
+NGSIM positional information is greatly increased by the necessary numerical
+differentiations. We propose a smoothing algorithm for positions, velocities
+and accelerations that can also be applied near the boundaries. The smoothing
+time interval is estimated based on velocity time series and the variance of
+the processed acceleration time series. The velocity information obtained in
+this way is then applied to calculate the density function of the
+two-dimensional distribution of velocity and inverse distance, and the density
+of the distribution corresponding to the ``microscopic'' fundamental diagram.
+Furthermore, it is used to calculate the distributions of time gaps and
+times-to-collision, conditioned to several ranges of velocities and velocity
+differences. By simulating virtual stationary detectors we show that the
+probability for critical values of the times-to-collision is greatly
+underestimated when estimated from single-vehicle data of stationary detectors.
+Finally, we investigate the lane-changing process and formulate a quantitative
+criterion for the duration of lane changes that is based on the trajectory
+density in normalized coordinates. Remarkably, there is a very noisy but
+significant velocity advantage in favor of the targeted lane that decreases
+immediately before the change due to anticipatory accelerations.

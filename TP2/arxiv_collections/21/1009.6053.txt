@@ -1,0 +1,12 @@
+This correspondence presents an efficient method for reconstructing a
+band-limited signal in the discrete domain from its crossings with a sine wave.
+The method makes it possible to design A/D converters that only deliver the
+crossing timings, which are then used to interpolate the input signal at
+arbitrary instants. Potentially, it may allow for reductions in power
+consumption and complexity in these converters. The reconstruction in the
+discrete domain is based on a recently-proposed modification of the Lagrange
+interpolator, which is readily implementable with linear complexity and
+efficiently, given that it re-uses known schemes for variable fractional-delay
+(VFD) filters. As a spin-off, the method allows one to perform spectral
+analysis from sine wave crossings with the complexity of the FFT. Finally, the
+results in the correspondence are validated in several numerical examples.

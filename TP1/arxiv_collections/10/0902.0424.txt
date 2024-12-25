@@ -1,0 +1,23 @@
+A Monte-Carlo approach to solving a stochastic jump transition model for
+active-region energy (Wheatland and Glukhov, Astrophys. J. 494, 1998;
+Wheatland, Astrophys. J. 679, 2008) is described. The new method numerically
+solves the stochastic differential equation describing the model, rather than
+the equivalent master equation. This has the advantages of allowing more
+efficient numerical solution, the modelling of time-dependent situations, and
+investigation of details of event statistics. The Monte-Carlo approach is
+illustrated by application to a Gaussian test case, and to the class of
+flare-like models presented in Wheatland (2008), which are steady-state models
+with constant rates of energy supply, and power-law distributed jump transition
+rates. These models have two free parameters: an index ($\delta $), which
+defines the dependence of the jump transition rates on active-region energy,
+and a non-dimensional ratio ($\overline{r})$ of total flaring rate to rate of
+energy supply. For $\overline{r}\ll 1$ the non-dimensional mean energy
+$<\overline{E}>$ of the active-region satisfies $<\overline{E}> \gg 1$,
+resulting in a power-law distribution of flare events over many decades in
+energy. The Monte-Carlo method is used to explore the behavior of the
+waiting-time distributions for the flare-like models. The models with
+$\delta\neq 0$ are found to have waiting times which depart significantly from
+simple Poisson behavior when $<\overline{E}> \gg 1$. The original model from
+Wheatland and Glukhov (1998), with $\delta=0$ (no dependence of transition
+rates on active-region energy), is identified as being most consistent with
+observed flare statistics.

@@ -1,0 +1,11 @@
+We propose a new method for defragmenting the module layout of a
+reconfigurable device, enabled by a novel approach for dealing with
+communication needs between relocated modules and with inhomogeneities found in
+commonly used FPGAs. Our method is based on dynamic relocation of module
+positions during runtime, with only very little reconfiguration overhead; the
+objective is to maximize the length of contiguous free space that is available
+for new modules. We describe a number of algorithmic aspects of good
+defragmentation, and present an optimization method based on tabu search.
+Experimental results indicate that we can improve the quality of module layout
+by roughly 50 % over static layout. Among other benefits, this improvement
+avoids unnecessary rejections of modules

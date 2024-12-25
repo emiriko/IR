@@ -1,0 +1,18 @@
+This paper presents an in-depth analysis on the energy efficiency of Luby
+Transform (LT) codes with Frequency Shift Keying (FSK) modulation in a Wireless
+Sensor Network (WSN) over Rayleigh fading channels with pathloss. We describe a
+proactive system model according to a flexible duty-cycling mechanism utilized
+in practical sensor apparatus. The present analysis is based on realistic
+parameters including the effect of channel bandwidth used in the IEEE 802.15.4
+standard, active mode duration and computation energy. A comprehensive
+analysis, supported by some simulation studies on the probability mass function
+of the LT code rate and coding gain, shows that among uncoded FSK and various
+classical channel coding schemes, the optimized LT coded FSK is the most
+energy-efficient scheme for distance d greater than the pre-determined
+threshold level d_T , where the optimization is performed over coding and
+modulation parameters. In addition, although the optimized uncoded FSK
+outperforms coded schemes for d < d_T , the energy gap between LT coded and
+uncoded FSK is negligible for d < d_T compared to the other coded schemes.
+These results come from the flexibility of the LT code to adjust its rate to
+suit instantaneous channel conditions, and suggest that LT codes are beneficial
+in practical low-power WSNs with dynamic position sensor nodes.

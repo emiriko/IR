@@ -1,0 +1,12 @@
+Privacy policies often place requirements on the purposes for which a
+governed entity may use personal information. For example, regulations, such as
+HIPAA, require that hospital employees use medical information for only certain
+purposes, such as treatment. Thus, using formal or automated methods for
+enforcing privacy policies requires a semantics of purpose requirements to
+determine whether an action is for a purpose or not. We provide such a
+semantics using a formalism based on planning. We model planning using a
+modified version of Markov Decision Processes, which exclude redundant actions
+for a formal definition of redundant. We use the model to formalize when a
+sequence of actions is only for or not for a purpose. This semantics enables us
+to provide an algorithm for automating auditing, and to describe formally and
+compare rigorously previous enforcement methods.

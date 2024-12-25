@@ -1,0 +1,13 @@
+An efficient O(N) cluster Monte Carlo method for Ising models with long-range
+interactions is presented. Our novel algorithm does not introduce any cutoff
+for interaction range and thus it strictly fulfills the detailed balance. The
+realized stochastic dynamics is equivalent to that of the conventional
+Swendsen-Wang algorithm, which requires O(N^2) operations per Monte Carlo sweep
+if applied to long-range interacting models. In addition, it is shown that the
+total energy and the specific heat can also be measured in O(N) time. We
+demonstrate the efficiency of our algorithm over the conventional method and
+the O(N log N) algorithm by Luijten and Bloete. We also apply our algorithm to
+the classical and quantum Ising chains with inverse-square ferromagnetic
+interactions, and confirm in a high accuracy that a Kosterlitz-Thouless phase
+transition, associated with a universal jump in the magnetization, occurs in
+both cases.

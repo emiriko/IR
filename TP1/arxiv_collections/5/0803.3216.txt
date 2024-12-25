@@ -1,0 +1,16 @@
+Quantum master equations are common tools to describe the dynamics of
+many-body systems open to an environment. Due to the interaction with the
+latter, even for the case of non-interacting electrons, the computational cost
+to solve these equations increases exponentially with the particle number. We
+propose a simple scheme, that allows to study the dynamics of $N$
+non-interacting electrons taking into account both dissipation effects and
+Fermi statistics, with a computational cost that scales linearly with $N$. Our
+method is based on a mapping of the many-body system to a specific set of
+effective single-particle systems. We provide detailed numerical results
+showing excellent agreement between the effective single-particle scheme and
+the exact many-body one, as obtained from studying the dynamics of two
+different systems. In the first, we study optically-induced currents in quantum
+rings at zero temperature, and in the second we study a linear chain coupled at
+its ends to two thermal baths with different (finite) temperatures. In
+addition, we give an analytical justification for our method, based on an exact
+averaging over the many-body states of the original master equations.

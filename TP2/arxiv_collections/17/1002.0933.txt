@@ -1,0 +1,15 @@
+This paper investigates session programming and typing of benchmark examples
+to compare productivity, safety and performance with other communications
+programming languages. Parallel algorithms are used to examine the above
+aspects due to their extensive use of message passing for interaction, and
+their increasing prominence in algorithmic research with the rising
+availability of hardware resources such as multicore machines and clusters. We
+contribute new benchmark results for SJ, an extension of Java for type-safe,
+binary session programming, against MPJ Express, a Java messaging system based
+on the MPI standard. In conclusion, we observe that (1) despite rich libraries
+and functionality, MPI remains a low-level API, and can suffer from commonly
+perceived disadvantages of explicit message passing such as deadlocks and
+unexpected message types, and (2) the benefits of high-level session
+abstraction, which has significant impact on program structure to improve
+readability and reliability, and session type-safety can greatly facilitate the
+task of communications programming whilst retaining competitive performance.

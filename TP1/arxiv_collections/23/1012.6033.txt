@@ -1,0 +1,17 @@
+The proposed approach extends the confidence posterior distribution to the
+semi-parametric empirical Bayes setting. Whereas the Bayesian posterior is
+defined in terms of a prior distribution conditional on the observed data, the
+confidence posterior is defined such that the probability that the parameter
+value lies in any fixed subset of parameter space, given the observed data, is
+equal to the coverage rate of the corresponding confidence interval. A
+confidence posterior that has correct frequentist coverage at each fixed
+parameter value is combined with the estimated local false discovery rate to
+yield a parameter distribution from which interval and point estimates are
+derived within the framework of minimizing expected loss. The point estimates
+exhibit suitable shrinkage toward the null hypothesis value, making them
+practical for automatically ranking features in order of priority. The
+corresponding confidence intervals are also shrunken and tend to be much
+shorter than their fixed-parameter counterparts, as illustrated with gene
+expression data. Further, simulations confirm a theoretical argument that the
+shrunken confidence intervals cover the parameter at a higher-than-nominal
+frequency.

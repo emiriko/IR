@@ -1,0 +1,17 @@
+Global sensitivity analysis is used to quantify the influence of uncertain
+input parameters on the response variability of a numerical model. The common
+quantitative methods are applicable to computer codes with scalar input
+variables. This paper aims to illustrate different variance-based sensitivity
+analysis techniques, based on the so-called Sobol indices, when some input
+variables are functional, such as stochastic processes or random spatial
+fields. In this work, we focus on large cpu time computer codes which need a
+preliminary meta-modeling step before performing the sensitivity analysis. We
+propose the use of the joint modeling approach, i.e., modeling simultaneously
+the mean and the dispersion of the code outputs using two interlinked
+Generalized Linear Models (GLM) or Generalized Additive Models (GAM). The
+``mean'' model allows to estimate the sensitivity indices of each scalar input
+variables, while the ``dispersion'' model allows to derive the total
+sensitivity index of the functional input variables. The proposed approach is
+compared to some classical SA methodologies on an analytical function. Lastly,
+the proposed methodology is applied to a concrete industrial computer code that
+simulates the nuclear fuel irradiation.

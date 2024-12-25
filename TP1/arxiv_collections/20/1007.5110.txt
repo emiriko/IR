@@ -1,0 +1,24 @@
+Top-$k$ queries allow end-users to focus on the most important (top-$k$)
+answers amongst those which satisfy the query. In traditional databases, a user
+defined score function assigns a score value to each tuple and a top-$k$ query
+returns $k$ tuples with the highest score. In uncertain database, top-$k$
+answer depends not only on the scores but also on the membership probabilities
+of tuples. Several top-$k$ definitions covering different aspects of
+score-probability interplay have been proposed in recent
+past~\cite{R10,R4,R2,R8}. Most of the existing work in this research field is
+focused on developing efficient algorithms for answering top-$k$ queries on
+static uncertain data. Any change (insertion, deletion of a tuple or change in
+membership probability, score of a tuple) in underlying data forces
+re-computation of query answers. Such re-computations are not practical
+considering the dynamic nature of data in many applications. In this paper, we
+propose a fully dynamic data structure that uses ranking function
+$PRF^e(\alpha)$ proposed by Li et al.~\cite{R8} under the generally adopted
+model of $x$-relations~\cite{R11}. $PRF^e$ can effectively approximate various
+other top-$k$ definitions on uncertain data based on the value of parameter
+$\alpha$. An $x$-relation consists of a number of $x$-tuples, where $x$-tuple
+is a set of mutually exclusive tuples (up to a constant number) called
+alternatives. Each $x$-tuple in a relation randomly instantiates into one tuple
+from its alternatives. For an uncertain relation with $N$ tuples, our structure
+can answer top-$k$ queries in $O(k\log N)$ time, handles an update in $O(\log
+N)$ time and takes $O(N)$ space. Finally, we evaluate practical efficiency of
+our structure on both synthetic and real data.

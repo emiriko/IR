@@ -1,0 +1,19 @@
+The visualization of any graph plays important role in various aspects, such
+as graph drawing software. Complex systems (like large databases or networks)
+that have a graph structure should be properly visualized in order to avoid
+obfuscation. One way to provide an aesthetic improvement to a graph
+visualization is to apply a force-directed drawing algorithm to it. This
+method, that emerged in the 60's views graphs as spring systems that exert
+forces (repulsive or attractive) to the nodes.
+  A Lombardi drawing of a graph is a drawing where the edges are drawn as
+circular arcs (straight edges are considered circular arcs of infinite radius)
+with perfect angular resolution. This means, that consecutive edges around a
+vertex are equally spaced around it. In other words, each angle between the
+tangents of two consecutive edges is equal to $2\pi/d$ where d is the degree of
+that specific vertex. The requirement of using circular edges in graphs when we
+want to provide perfect angular resolution is necessary, since even cycle
+graphs cannot be drawn with straight edges when perfect angular resolution is
+needed.
+  In this survey, we provide an algorithm that takes as input a random drawing
+of a graph and provides its Lombardi drawing, giving a proper visualization of
+the graph.

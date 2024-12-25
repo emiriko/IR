@@ -1,0 +1,13 @@
+The behavior of a Lattice Monte Carlo algorithm (if it is designed correctly)
+must approach that of the continuum system that it is designed to simulate as
+the time step and the mesh step tend to zero. However, we show for an algorithm
+for unbiased particle diffusion that if one of these two parameters remains
+fixed, the accuracy of the algorithm is optimal for a certain finite value of
+the other parameter. In one dimension, the optimal algorithm with moves to the
+two nearest neighbor sites reproduces the correct second and fourth moments
+(and minimizes the error for the higher moments at large times) of the particle
+distribution and preserves the first two moments of the first-passage time
+distributions. In two and three dimensions, the same level of accuracy requires
+simultaneous moves along two axes ("diagonal" moves). Such moves attempting to
+cross an impenetrable boundary should be projected along the boundary, rather
+than simply rejected. We also treat the case of absorbing boundaries.

@@ -1,0 +1,14 @@
+This paper considers robust filtering for a nominal Gaussian state-space
+model, when a relative entropy tolerance is applied to each time increment of a
+dynamical model. The problem is formulated as a dynamic minimax game where the
+maximizer adopts a myopic strategy. This game is shown to admit a saddle point
+whose structure is characterized by applying and extending results presented
+earlier in [1] for static least-squares estimation. The resulting minimax
+filter takes the form of a risk-sensitive filter with a time varying risk
+sensitivity parameter, which depends on the tolerance bound applied to the
+model dynamics and observations at the corresponding time index. The
+least-favorable model is constructed and used to evaluate the performance of
+alternative filters. Simulations comparing the proposed risk-sensitive filter
+to a standard Kalman filter show a significant performance advantage when
+applied to the least-favorable model, and only a small performance loss for the
+nominal model.

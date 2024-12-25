@@ -1,0 +1,10 @@
+We introduce an adaptive regularization approach. In contrast to conventional
+Tikhonov regularization, which specifies a fixed regularization operator, we
+estimate it simultaneously with parameters. From a Bayesian perspective we
+estimate the prior distribution on parameters assuming that it is close to some
+given model distribution. We constrain the prior distribution to be a
+Gauss-Markov random field (GMRF), which allows us to solve for the prior
+distribution analytically and provides a fast optimization algorithm. We apply
+our approach to non-rigid image registration to estimate the spatial
+transformation between two images. Our evaluation shows that the adaptive
+regularization approach significantly outperforms standard variational methods.

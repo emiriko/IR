@@ -1,0 +1,12 @@
+The proof of Toda's celebrated theorem that the polynomial hierarchy is
+contained in $\P^{# P}$ relies on the fact that, under mild technical
+conditions on the complexity class $C$, we have $\exists C \subset BP \cdot
+\oplus C$. More concretely, there is a randomized reduction which transforms
+nonempty sets and the empty set, respectively, into sets of odd or even size.
+The customary method is to invoke Valiant's and Vazirani's randomized reduction
+from NP to UP, followed by amplification of the resulting success probability
+from $1/\poly(n)$ to a constant by combining the parities of $\poly(n)$ trials.
+Here we give a direct algebraic reduction which achieves constant success
+probability without the need for amplification. Our reduction is very simple,
+and its analysis relies on well-known properties of the Legendre symbol in
+finite fields.

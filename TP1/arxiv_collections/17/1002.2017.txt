@@ -1,0 +1,18 @@
+An MCMC simulation method based on a two stage delayed rejection
+Metropolis-Hastings algorithm is proposed to estimate a factor multivariate
+stochastic volatility model. The first stage uses kstep iteration towards the
+mode, with k small, and the second stage uses an adaptive random walk proposal
+density. The marginal likelihood approach of Chib (1995) is used to choose the
+number of factors, with the posterior density ordinates approximated by
+Gaussian copula. Simulation and real data applications suggest that the
+proposed simulation method is computationally much more efficient than the
+approach of Chib. Nardari and Shephard (2006}. This increase in computational
+efficiency is particularly important in calculating marginal likelihoods
+because it is necessary to carry out the simulation a number of times to
+estimate the posterior ordinates for a given marginal likelihood. In addition
+to the MCMC method, the paper also proposes a fast approximate EM method to
+estimate the factor multivariate stochastic volatility model. The estimates
+from the approximate EM method are of interest in their own right, but are
+especially useful as initial inputs to MCMC methods, making them more efficient
+computationally. The methodology is illustrated using simulated and real
+examples.

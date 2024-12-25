@@ -1,0 +1,19 @@
+Principal manifolds are defined as lines or surfaces passing through ``the
+middle'' of data distribution. Linear principal manifolds (Principal Components
+Analysis) are routinely used for dimension reduction, noise filtering and data
+visualization. Recently, methods for constructing non-linear principal
+manifolds were proposed, including our elastic maps approach which is based on
+a physical analogy with elastic membranes. We have developed a general
+geometric framework for constructing ``principal objects'' of various
+dimensions and topologies with the simplest quadratic form of the smoothness
+penalty which allows very effective parallel implementations. Our approach is
+implemented in three programming languages (C++, Java and Delphi) with two
+graphical user interfaces (VidaExpert
+http://bioinfo.curie.fr/projects/vidaexpert and ViMiDa
+http://bioinfo-out.curie.fr/projects/vimida applications). In this paper we
+overview the method of elastic maps and present in detail one of its major
+applications: the visualization of microarray data in bioinformatics. We show
+that the method of elastic maps outperforms linear PCA in terms of data
+approximation, representation of between-point distance structure, preservation
+of local point neighborhood and representing point classes in low-dimensional
+spaces.

@@ -1,0 +1,18 @@
+In many astronomical problems one often needs to determine the upper and/or
+lower boundary of a given data set. An automatic and objective approach
+consists in fitting the data using a generalised least-squares method, where
+the function to be minimized is defined to handle asymmetrically the data at
+both sides of the boundary. In order to minimise the cost function, a numerical
+approach, based on the popular downhill simplex method, is employed. The
+procedure is valid for any numerically computable function. Simple polynomials
+provide good boundaries in common situations. For data exhibiting a complex
+behaviour, the use of adaptive splines gives excellent results. Since the
+described method is sensitive to extreme data points, the simultaneous
+introduction of error weighting and the flexibility of allowing some points to
+fall outside of the fitted frontier, supplies the parameters that help to tune
+the boundary fitting depending on the nature of the considered problem. Two
+simple examples are presented, namely the estimation of spectra
+pseudo-continuum and the segregation of scattered data into ranges. The
+normalisation of the data ranges prior to the fitting computation typically
+reduces both the numerical errors and the number of iterations required during
+the iterative minimisation procedure.

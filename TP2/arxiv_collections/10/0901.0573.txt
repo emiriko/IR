@@ -1,0 +1,16 @@
+In any wireless communication environment in which a transmitter creates
+interference to the others, a system of non-linear equations arises. Its form
+(for 2 terminals) is p1=g1(p2;a1) and p2=g2(p1;a2), with p1, p2 power levels;
+a1, a2 quality-of-service (QoS) targets; and g1, g2 functions akin to
+"interference functions" in Yates (JSAC, 13(7):1341-1348, 1995). Two
+fundamental questions are: (1) does the system have a solution?; and if so, (2)
+what is it?. (Yates, 1995) shows that IF the system has a solution, AND the
+"interference functions" satisfy some simple properties, a "greedy" power
+adjustment process will always converge to a solution. We show that, if the
+power-adjustment functions have similar properties to those of (Yates, 1995),
+and satisfy a condition of the simple form gi(1,1,...,1)<1, then the system has
+a unique solution that can be found iteratively. As examples, feasibility
+conditions for macro-diversity and multiple-connection receptions are given.
+Informally speaking, we complement (Yates, 1995) by adding the feasibility
+condition it lacked. Our analysis is based on norm concepts, and the Banach's
+contraction-mapping principle.

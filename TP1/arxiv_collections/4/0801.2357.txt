@@ -1,0 +1,19 @@
+Dissipative particle dynamics (DPD) is a novel particle method for mesoscale
+modeling of complex fluids. DPD particles are often thought to represent
+packets of real atoms, and the physical scale probed in DPD models are
+determined by the mapping of DPD variables to the corresponding physical
+quantities. However, the non-uniqueness of such mapping has led to difficulties
+in setting up simulations to mimic real systems and in interpreting results.
+For modeling transport phenomena where thermal fluctuations are important
+(e.g., fluctuating hydrodynamics), an area particularly suited for DPD method,
+we propose that DPD fluid particles should be viewed as only 1) to provide a
+medium in which the momentum and energy are transferred according to the
+hydrodynamic laws and 2) to provide objects immersed in the DPD fluids the
+proper random "kicks" such that these objects exhibit correct fluctuation
+behaviors at the macroscopic scale. We show that, in such a case, the choice of
+system temperature and mapping of DPD scales to physical scales are uniquely
+determined by the level of coarse-graining and properties of DPD fluids. We
+also verified that DPD simulation can reproduce the macroscopic effects of
+thermal fluctuation in particulate suspension by showing that the Brownian
+diffusion of solid particles can be computed in DPD simulations with good
+accuracy.

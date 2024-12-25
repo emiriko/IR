@@ -1,0 +1,16 @@
+Many applications in the field of statistics require Markov chain Monte Carlo
+methods. Determining appropriate starting values and run lengths can be both
+analytically and empirically challenging. A desire to overcome these problems
+has led to the development of exact, or perfect, sampling algorithms which
+convert a Markov chain into an algorithm that produces i.i.d. samples from the
+stationary distribution. Unfortunately, very few of these algorithms have been
+developed for the distributions that arise in statistical applications, which
+typically have uncountable support. Here we study an exact sampling algorithm
+using a geometrically ergodic Markov chain on a general state space. Our work
+provides a significant reduction to the number of input draws necessary for the
+Bernoulli factory, which enables exact sampling via a rejection sampling
+approach. We illustrate the algorithm on a univariate Metropolis-Hastings
+sampler and a bivariate Gibbs sampler, which provide a proof of concept and
+insight into hyper-parameter selection. Finally, we illustrate the algorithm on
+a Bayesian version of the one-way random effects model with data from a styrene
+exposure study.

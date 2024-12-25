@@ -1,0 +1,6 @@
+The girth of a graph is the length of its shortest cycle. We give an
+algorithm that computes in O(n(log n)^3) time and O(n) space the (weighted)
+girth of an n-vertex planar digraph with arbitrary real edge weights. This is
+an improvement of a previous time bound of O(n^(3/2)), a bound which was only
+valid for non-negative edge-weights. Our algorithm can be modified to output a
+shortest cycle within the same time and space bounds if such a cycle exists.

@@ -1,0 +1,14 @@
+Huang's Empirical Mode Decomposition (EMD) is an algorithm for analyzing
+nonstationary data that provides a localized time-frequency representation by
+decomposing the data into adaptively defined modes. EMD can be used to estimate
+a signal's instantaneous frequency (IF) but suffers from poor performance in
+the presence of noise. To produce a meaningful IF, each mode of the
+decomposition must be nearly monochromatic, a condition that is not guaranteed
+by the algorithm and fails to be met when the signal is corrupted by noise. In
+this work, the extraction of modes containing both signal and noise is
+identified as the cause of poor IF estimation. The specific mechanism by which
+such "transition" modes are extracted is detailed and builds on the observation
+of Flandrin and Goncalves that EMD acts in a filter bank manner when analyzing
+pure noise. The mechanism is shown to be dependent on spectral leak between
+modes and the phase of the underlying signal. These ideas are developed through
+the use of simple signals and are tested on a synthetic seismic waveform.

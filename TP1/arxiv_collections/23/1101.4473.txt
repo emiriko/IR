@@ -1,0 +1,17 @@
+The advent of the Auger Engineering Radio Array (AERA) necessitates the
+development of a powerful framework for the analysis of radio measurements of
+cosmic ray air showers. As AERA performs "radio-hybrid" measurements of air
+shower radio emission in coincidence with the surface particle detectors and
+fluorescence telescopes of the Pierre Auger Observatory, the radio analysis
+functionality had to be incorporated in the existing hybrid analysis solutions
+for fluoresence and surface detector data. This goal has been achieved in a
+natural way by extending the existing Auger Offline software framework with
+radio functionality. In this article, we lay out the design, highlights and
+features of the radio extension implemented in the Auger Offline framework. Its
+functionality has achieved a high degree of sophistication and offers advanced
+features such as vectorial reconstruction of the electric field, advanced
+signal processing algorithms, a transparent and efficient handling of FFTs, a
+very detailed simulation of detector effects, and the read-in of multiple data
+formats including data from various radio simulation codes. The source code of
+this radio functionality can be made available to interested parties on
+request.

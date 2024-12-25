@@ -1,0 +1,23 @@
+In the Max Lin-2 problem we are given a system $S$ of $m$ linear equations in
+$n$ variables over $\mathbb{F}_2$ in which Equation $j$ is assigned a positive
+integral weight $w_j$ for each $j$. We wish to find an assignment of values to
+the variables which maximizes the total weight of satisfied equations. This
+problem generalizes Max Cut. The expected weight of satisfied equations is
+$W/2$, where $W=w_1+... +w_m$; $W/2$ is a tight lower bound on the optimal
+solution of Max Lin-2.
+  Mahajan et al. (J. Comput. Syst. Sci. 75, 2009) stated the following
+parameterized version of Max Lin-2: decide whether there is an assignment of
+values to the variables that satisfies equations of total weight at least
+$W/2+k$, where $k$ is the parameter. They asked whether this parameterized
+problem is fixed-parameter tractable, i.e., can be solved in time
+$f(k)(nm)^{O(1)}$, where $f(k)$ is an arbitrary computable function in $k$
+only. Their question remains open, but using some probabilistic inequalities
+and, in one case, a Fourier analysis inequality, Gutin et al. (IWPEC 2009)
+proved that the problem is fixed-parameter tractable in three special cases.
+  In this paper we significantly extend two of the three special cases using
+only tools from combinatorics. We show that one of our results can be used to
+obtain a combinatorial proof that another problem from Mahajan et al. (J.
+Comput. Syst. Sci. 75, 2009), Max $r$-SAT above the Average, is fixed-parameter
+tractable for each $r\ge 2.$ Note that Max $r$-SAT above the Average has been
+already shown to be fixed-parameter tractable by Alon et al. (SODA 2010), but
+the paper used the approach of Gutin et al. (IWPEC 2009).

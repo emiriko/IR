@@ -1,0 +1,20 @@
+The problem of model selection arises in a number of contexts, such as
+compressed sensing, subset selection in linear regression, estimation of
+structures in graphical models, and signal denoising. This paper generalizes
+the notion of \emph{incoherence} in the existing literature on model selection
+and introduces two fundamental measures of coherence---termed as the worst-case
+coherence and the average coherence---among the columns of a design matrix. In
+particular, it utilizes these two measures of coherence to provide an in-depth
+analysis of a simple one-step thresholding (OST) algorithm for model selection.
+One of the key insights offered by the ensuing analysis is that OST is feasible
+for model selection as long as the design matrix obeys an easily verifiable
+property. In addition, the paper also characterizes the model-selection
+performance of OST in terms of the worst-case coherence, \mu, and establishes
+that OST performs near-optimally in the low signal-to-noise ratio regime for N
+x C design matrices with \mu = O(N^{-1/2}). Finally, in contrast to some of the
+existing literature on model selection, the analysis in the paper is
+nonasymptotic in nature, it does not require knowledge of the true model order,
+it is applicable to generic (random or deterministic) design matrices, and it
+neither requires submatrices of the design matrix to have full rank, nor does
+it assume a statistical prior on the values of the nonzero entries of the data
+vector.

@@ -1,0 +1,18 @@
+A graph $G=(V,E)$ is representable if there exists a word $W$ over the
+alphabet $V$ such that letters $x$ and $y$ alternate in $W$ if and only if
+$(x,y)\in E$ for each $x\neq y$. If $W$ is $k$-uniform (each letter of $W$
+occurs exactly $k$ times in it) then $G$ is called $k$-representable. It was
+shown that a graph is representable if and only if it is $k$-representable for
+some $k$. Minimum $k$ for which a representable graph $G$ is $k$-representable
+is called its representation number.
+  In this paper we give a characterization of representable graphs in terms of
+orientations. Namely, we show that a graph is representable if and only if it
+admits an orientation into a so-called \emph{semi-transitive digraph}. This
+allows us to prove a number of results about representable graphs, not the
+least that 3-colorable graphs are representable. We also prove that the
+representation number of a graph on $n$ nodes is at most $n$, from which one
+concludes that the recognition problem for representable graphs is in NP. This
+bound is tight up to a constant factor, as we present a graph whose
+representation number is $n/2$.
+  We also answer several questions, in particular, on representability of the
+Petersen graph and local permutation representability.

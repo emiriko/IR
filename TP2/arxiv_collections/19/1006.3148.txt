@@ -1,0 +1,12 @@
+Bandwidth-starved multicore chips have become ubiquitous. It is well known
+that the performance of stencil codes can be improved by temporal blocking,
+lessening the pressure on the memory interface. We introduce a new pipelined
+approach that makes explicit use of shared caches in multicore environments and
+minimizes synchronization and boundary overhead. Benchmark results are
+presented for three current x86-based microprocessors, showing clearly that our
+optimization works best on designs with high-speed shared caches and low memory
+bandwidth per core. We furthermore demonstrate that simple bandwidth-based
+performance models are inaccurate for this kind of algorithm and employ a more
+elaborate, synthetic modeling procedure. Finally we show that temporal blocking
+can be employed successfully in a hybrid shared/distributed-memory environment,
+albeit with limited benefit at strong scaling.

@@ -1,0 +1,9 @@
+Two standard algorithms for approximately solving two-player zero-sum
+concurrent reachability games are value iteration and strategy iteration. We
+prove upper and lower bounds of 2^(m^(Theta(N))) on the worst case number of
+iterations needed by both of these algorithms for providing non-trivial
+approximations to the value of a game with N non-terminal positions and m
+actions for each player in each position. In particular, both algorithms have
+doubly-exponential complexity. Even when the game given as input has only one
+non-terminal position, we prove an exponential lower bound on the worst case
+number of iterations needed to provide non-trivial approximations.

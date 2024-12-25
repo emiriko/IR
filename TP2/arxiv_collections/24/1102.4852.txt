@@ -1,0 +1,12 @@
+In astrophysical magnetohydrodynamics (MHD) and electrodynamics simulations,
+numerically enforcing the divB=0 constraint on the magnetic field has been
+difficult. We observe that for point-based discretization, as used in
+finite-difference type and pseudo-spectral methods, the divB=0 constraint can
+be satisfied entirely by a choice of interpolation used to define the
+derivatives of B. As an example we demonstrate a new class of finite-difference
+type derivative operators on a regular grid which has the divB=0 property. This
+principle clarifies the nature of divB != 0 errors. The principles and
+techniques demonstrated in this paper are particularly useful for the magnetic
+field, but can be applied to any vector field. This paper serves as a brief
+introduction to the method and demonstrates an implementation showing
+convergence.

@@ -1,0 +1,13 @@
+This paper presents a critical discussion of popular approaches to ensure the
+Liskov substitution principle in class hierarchies (e.g. Design by
+Contract(TM), specification inheritance). It will be shown that they have some
+deficiencies which are due to the way how effective constraints are calculated
+for subclass methods. A new mechanism, called client conformance, is introduced
+that takes the client's view on the program state into account more properly:
+The client's static type determines the context in which reasoning about
+program state is to be done. This is the context to which the runtime assertion
+checking (RAC) of server methods must be adapted appropriately. In a stepwise
+argumentation we show the improvements for RAC that can be reached following
+this approach in a natural way, preserving the percolation pattern mechanism:
+Clients will neither be confronted with unsafe or surprising executions, nor
+with surprising failures of server methods.

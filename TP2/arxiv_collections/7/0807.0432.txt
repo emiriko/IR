@@ -1,0 +1,21 @@
+This work deals with the numerical solution of the monodomain and bidomain
+models of electrical activity of myocardial tissue. The bidomain model is a
+system consisting of a possibly degenerate parabolic PDE coupled with an
+elliptic PDE for the transmembrane and extracellular potentials, respectively.
+This system of two scalar PDEs is supplemented by a time-dependent ODE modeling
+the evolution of the so-called gating variable. In the simpler sub-case of the
+monodomain model, the elliptic PDE reduces to an algebraic equation. Two simple
+models for the membrane and ionic currents are considered, the
+Mitchell-Schaeffer model and the simpler FitzHugh-Nagumo model. Since typical
+solutions of the bidomain and monodomain models exhibit wavefronts with steep
+gradients, we propose a finite volume scheme enriched by a fully adaptive
+multiresolution method, whose basic purpose is to concentrate computational
+effort on zones of strong variation of the solution. Time adaptivity is
+achieved by two alternative devices, namely locally varying time stepping and a
+Runge-Kutta-Fehlberg-type adaptive time integration. A series of numerical
+examples demonstrates thatthese methods are efficient and sufficiently accurate
+to simulate the electrical activity in myocardial tissue with affordable
+effort. In addition, an optimalthreshold for discarding non-significant
+information in the multiresolution representation of the solution is derived,
+and the numerical efficiency and accuracy of the method is measured in terms of
+CPU time speed-up, memory compression, and errors in different norms.

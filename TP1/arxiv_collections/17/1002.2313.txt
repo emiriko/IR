@@ -1,0 +1,12 @@
+Following Hartigan, a cluster is defined as a connected component of the
+t-level set of the underlying density, i.e., the set of points for which the
+density is greater than t. A clustering algorithm which combines a density
+estimate with spectral clustering techniques is proposed. Our algorithm is
+composed of two steps. First, a nonparametric density estimate is used to
+extract the data points for which the estimated density takes a value greater
+than t. Next, the extracted points are clustered based on the eigenvectors of a
+graph Laplacian matrix. Under mild assumptions, we prove the almost sure
+convergence in operator norm of the empirical graph Laplacian operator
+associated with the algorithm. Furthermore, we give the typical behavior of the
+representation of the dataset into the feature space, which establishes the
+strong consistency of our proposed algorithm.

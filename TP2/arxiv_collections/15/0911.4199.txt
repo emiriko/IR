@@ -1,0 +1,12 @@
+A 2-hued coloring of a graph $G$ (also known as conditional $(k, 2)$-coloring
+and dynamic coloring) is a coloring such that for every vertex $v\in V(G)$ of
+degree at least $2$, the neighbors of $v$ receive at least $2$ colors. The
+smallest integer $k$ such that $G$ has a 2-hued coloring with $ k $ colors, is
+called the {\it 2-hued chromatic number} of $G$ and denoted by $\chi_2(G)$. In
+this paper, we will show that if $G$ is a regular graph, then $ \chi_{2}(G)-
+\chi(G) \leq 2 \log _{2}(\alpha(G)) +\mathcal{O}(1) $ and if $G$ is a graph and
+$\delta(G)\geq 2$, then $ \chi_{2}(G)- \chi(G) \leq 1+\lceil \sqrt[\delta
+-1]{4\Delta^{2}} \rceil ( 1+ \log _{\frac{2\Delta(G)}{2\Delta(G)-\delta(G)}}
+(\alpha(G)) ) $ and in general case if $G$ is a graph, then $ \chi_{2}(G)-
+\chi(G) \leq 2+ \min \lbrace
+\alpha^{\prime}(G),\frac{\alpha(G)+\omega(G)}{2}\rbrace $.

@@ -1,0 +1,12 @@
+The Kronecker product is a key algorithm and is ubiquitous across the
+physical, biological, and computation social sciences. Thus considerations of
+optimal implementation are important. The need to have high performance and
+computational reproducibility is paramount. Moreover, due to the need to
+compose multiple Kronecker products, issues related to data structures, layout
+and indexing algebra require a new look at an old problem. This paper discusses
+the outer product/tensor product and a special case of the tensor product: the
+Kronecker product, along with optimal implementation when composed, and mapped
+to complex processor/memory hierarchies. We discuss how the use of ``A
+Mathematics of Arrays" (MoA), and the psi-Calculus, (a calculus of indexing
+with shapes), provides optimal, verifiable, reproducible, scalable, and
+portable implementations of both hardware and software.

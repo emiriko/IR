@@ -1,0 +1,10 @@
+Deterministic graph grammars generate regular graphs, that form a structural
+extension of configuration graphs of pushdown systems. In this paper, we study
+a probabilistic extension of regular graphs obtained by labelling the terminal
+arcs of the graph grammars by probabilities. Stochastic properties of these
+graphs are expressed using PCTL, a probabilistic extension of computation tree
+logic. We present here an algorithm to perform approximate verification of PCTL
+formulae. Moreover, we prove that the exact model-checking problem for PCTL on
+probabilistic regular graphs is undecidable, unless restricting to qualitative
+properties. Our results generalise those of EKM06, on probabilistic pushdown
+automata, using similar methods combined with graph grammars techniques.

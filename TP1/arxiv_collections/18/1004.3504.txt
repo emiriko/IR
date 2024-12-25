@@ -1,0 +1,13 @@
+In this paper, we present a very important primitive called Information
+Checking Protocol (ICP) which plays an important role in constructing
+statistical Verifiable Secret Sharing (VSS) and Weak Secret Sharing (WSS)
+protocols. Informally, ICP is a tool for authenticating messages in the
+presence of computationally unbounded corrupted parties. Here we extend the
+basic bare-bone definition of ICP, introduced by Rabin et al. and then present
+an ICP that attains the best communication complexity and round complexity
+among all the existing ICPs in the literature. We also show that our ICP
+satisfies several interesting properties such as linearity property which is an
+important requirement in many applications of ICP. Though not presented in this
+paper, we can design communication and round efficient statistical (i.e
+involves negligible error probability in computation) VSS and Multiparty
+Computation (MPC) protocol using our new ICP.

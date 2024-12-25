@@ -1,0 +1,23 @@
+Cosmological hydrogen recombination has recently been the subject of renewed
+attention because of its importance for predicting the power spectrum of cosmic
+microwave background anisotropies. It has become clear that it is necessary to
+account for a large number n >~ 100 of energy shells of the hydrogen atom,
+separately following the angular momentum substates in order to obtain
+sufficiently accurate recombination histories. However, the multi-level atom
+codes that follow the populations of all these levels are computationally
+expensive, limiting recent analyses to only a few points in parameter space. In
+this paper, we present a new method for solving the multi-level atom
+recombination problem, which splits the problem into a computationally
+expensive atomic physics component that is independent of the cosmology, and an
+ultrafast cosmological evolution component. The atomic physics component
+follows the network of bound-bound and bound-free transitions among excited
+states and computes the resulting effective transition rates for the small set
+of "interface" states radiatively connected to the ground state. The
+cosmological evolution component only follows the populations of the interface
+states. By pre-tabulating the effective rates, we can reduce the recurring cost
+of multi-level atom calculations by more than 5 orders of magnitude. The
+resulting code is fast enough for inclusion in Markov Chain Monte Carlo
+parameter estimation algorithms. It does not yet include the radiative transfer
+or high-n two-photon processes considered in some recent papers. Further work
+on analytic treatments for these effects will be required in order to produce a
+recombination code usable for Planck data analysis.

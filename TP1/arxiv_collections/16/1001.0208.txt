@@ -1,0 +1,21 @@
+We show that the Tile Assembly Model exhibits a strong notion of universality
+where the goal is to give a single tile assembly system that simulates the
+behavior of any other tile assembly system. We give a tile assembly system that
+is capable of simulating a very wide class of tile systems, including itself.
+Specifically, we give a tile set that simulates the assembly of any tile
+assembly system in a class of systems that we call \emph{locally consistent}:
+each tile binds with exactly the strength needed to stay attached, and that
+there are no glue mismatches between tiles in any produced assembly.
+  Our construction is reminiscent of the studies of \emph{intrinsic
+universality} of cellular automata by Ollinger and others, in the sense that
+our simulation of a tile system $T$ by a tile system $U$ represents each tile
+in an assembly produced by $T$ by a $c \times c$ block of tiles in $U$, where
+$c$ is a constant depending on $T$ but not on the size of the assembly $T$
+produces (which may in fact be infinite). Also, our construction improves on
+earlier simulations of tile assembly systems by other tile assembly systems (in
+particular, those of Soloveichik and Winfree, and of Demaine et al.) in that we
+simulate the actual process of self-assembly, not just the end result, as in
+Soloveichik and Winfree's construction, and we do not discriminate against
+infinite structures. Both previous results simulate only temperature 1 systems,
+whereas our construction simulates tile assembly systems operating at
+temperature 2.

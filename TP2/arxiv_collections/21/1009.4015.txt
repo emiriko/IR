@@ -1,0 +1,26 @@
+We present DisPerSE, a novel approach to the coherent multi-scale
+identification of all types of astrophysical structures, and in particular the
+filaments, in the large scale distribution of matter in the Universe. This
+method and corresponding piece of software allows a genuinely scale free and
+parameter free identification of the voids, walls, filaments, clusters and
+their configuration within the cosmic web, directly from the discrete
+distribution of particles in N-body simulations or galaxies in sparse
+observational catalogues. To achieve that goal, the method works directly over
+the Delaunay tessellation of the discrete sample and uses the DTFE density
+computed at each tracer particle; no further sampling, smoothing or processing
+of the density field is required.
+  The idea is based on recent advances in distinct sub-domains of computational
+topology, which allows a rigorous application of topological principles to
+astrophysical data sets, taking into account uncertainties and Poisson noise.
+Practically, the user can define a given persistence level in terms of
+robustness with respect to noise (defined as a "number of sigmas") and the
+algorithm returns the structures with the corresponding significance as sets of
+critical points, lines, surfaces and volumes corresponding to the clusters,
+filaments, walls and voids; filaments, connected at cluster nodes, crawling
+along the edges of walls bounding the voids. The method is also interesting as
+it allows for a robust quantification of the topological properties of a
+discrete distribution in terms of Betti numbers or Euler characteristics,
+without having to resort to smoothing or having to define a particular scale.
+  In this paper, we introduce the necessary mathematical background and
+describe the method and implementation, while we address the application to 3D
+simulated and observed data sets to the companion paper.

@@ -1,0 +1,19 @@
+We construct uniformly bounded solutions for the equations $\text{div}\, U=f$
+and $\text{curl}\, U=F$ in the critical cases $f \in L^d(T^d,R)$, and
+respectively, $F \in L^3(T^3,R^3)$. Criticality in this context, manifests
+itself by the lack of linear solution operator mapping $L^d$ to
+$L^\infty(T^d)$, Bourgain & Brezis \cite{BB03,BB07}. Thus, the intriguing
+aspect here is that although the problems are linear, the construction of their
+solution is not.
+  Our constructions are special cases of a general framework for solving linear
+equations of the form $T\, U=f$, where $T$ is a linear operator densely defined
+in Banach space $B$ with a closed range in a (proper subspace) of Lebesgue
+space $L^p(\Omega)$, and with an injective dual $T^*$. The solutions are
+realized in terms of a multiscale {\em hierarchical representation},
+$U=\sum_{j=1}^\infty u_j$, interesting for its own sake. Here, the $u_j$'s are
+constructed recursively as minimizers of $u_{j+1} =
+\text{arginf}_{u}{|u|_B+\lambda_{j+1} |r_j-T u |^p_{L^p}}$, where the residuals
+$r_j:=f- T (\sum^j_{k=1} u_k)$ are resolved in terms of a dyadic sequence of
+scales $\lambda_{j+1} =\lambda_1 2^j$ with sufficiently large $\lambda_1$. The
+nonlinear aspect of this construction is a counterpart of the fact that one
+cannot linearly solve $T U =f$ in critical spaces.

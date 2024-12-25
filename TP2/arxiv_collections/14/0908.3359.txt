@@ -1,0 +1,24 @@
+A binocular system developed by the author in terms of projective Fourier
+transform (PFT) of the conformal camera, which numerically integrates the head,
+eyes, and visual cortex, is used to process visual information during saccadic
+eye movements. Although we make three saccades per second at the eyeball's
+maximum speed of 700 deg/sec, our visual system accounts for these incisive eye
+movements to produce a stable percept of the world. This visual constancy is
+maintained by neuronal receptive field shifts in various retinotopically
+organized cortical areas prior to saccade onset, giving the brain access to
+visual information from the saccade's target before the eyes' arrival. It
+integrates visual information acquisition across saccades. Our modeling
+utilizes basic properties of PFT. First, PFT is computable by FFT in complex
+logarithmic coordinates that approximate the retinotopy. Second, a translation
+in retinotopic (logarithmic) coordinates, modeled by the shift property of the
+Fourier transform, remaps the presaccadic scene into a postsaccadic reference
+frame. It also accounts for the perisaccadic mislocalization observed by human
+subjects in laboratory experiments. Because our modeling involves
+cross-disciplinary areas of conformal geometry, abstract and computational
+harmonic analysis, computational vision, and visual neuroscience, we include
+the corresponding background material and elucidate how these different areas
+interwove in our modeling of primate perception. In particular, we present the
+physiological and behavioral facts underlying the neural processes related to
+our modeling. We also emphasize the conformal camera's geometry and discuss how
+it is uniquely useful in the intermediate-level vision computational aspects of
+natural scene understanding.

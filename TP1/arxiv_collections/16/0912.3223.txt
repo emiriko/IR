@@ -1,0 +1,17 @@
+The Graphics Processing Unit (GPU) is a powerful tool for parallel computing.
+In the past years the performance and capabilities of GPUs have increased, and
+the Compute Unified Device Architecture (CUDA) - a parallel computing
+architecture - has been developed by NVIDIA to utilize this performance in
+general purpose computations. Here we show for the first time a possible
+application of GPU for environmental studies serving as a basement for decision
+making strategies. A stochastic Lagrangian particle model has been developed on
+CUDA to estimate the transport and the transformation of the radionuclides from
+a single point source during an accidental release. Our results show that
+parallel implementation achieves typical acceleration values in the order of
+80-120 times compared to CPU using a single-threaded implementation on a 2.33
+GHz desktop computer. Only very small differences have been found between the
+results obtained from GPU and CPU simulations, which are comparable with the
+effect of stochastic transport phenomena in atmosphere. The relatively high
+speedup with no additional costs to maintain this parallel architecture could
+result in a wide usage of GPU for diversified environmental applications in the
+near future.

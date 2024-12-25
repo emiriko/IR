@@ -1,0 +1,19 @@
+We present an optimized algorithm for assigning fibers to targets in
+next-generation fiber-fed multi-object spectrographs. The method, that we named
+draining algorithm, ensures that the maximum number of targets in a given
+target field is observed in the first few tiles. Using randomly distributed
+targets and mock galaxy catalogs we have estimated that the gain provided by
+the draining algorithm as compared to a random assignment can be as much as 2%
+for the first tiles. This would imply for a survey like BigBOSS saving for
+observation several hundred thousand objects or, alternatively, reducing the
+covered area in ~350 sq. deg. An important advantage of this method is that the
+fiber collision problem can be solved easily and in an optimal way. We also
+discuss additional optimizations of the fiber positioning process. In
+particular, we show that allowing for rotation of the focal plane can improve
+the efficiency of the process in ~3.5-4.5% even if only small adjustments are
+permitted (up to 2 deg). For instruments that allow large rotations of the
+focal plane the expected gain increases to ~5-6%. These results, therefore,
+strongly support focal plane rotation in future spectrographs, as far as the
+efficiency of the fiber positioning process is concerned. Finally, we discuss
+on the implications of our optimizations and provide some basic hints for an
+optimal survey strategy based on the number of targets per positioner.

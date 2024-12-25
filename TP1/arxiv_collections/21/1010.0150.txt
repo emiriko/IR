@@ -1,0 +1,15 @@
+Since many of the currently available multi-agent frameworks are generally
+mostly intended for research, it can be difficult to built multi-agent systems
+using physical robots. In this report I describe a way to combine the
+multi-agent framework Jason, an extended version of the agent-oriented
+programming language AgentSpeak, with Lego robots to address this problem. By
+extending parts of the Jason reasoning cycle I show how Lego robots are able to
+complete tasks such as following lines on a floor and communicating to be able
+to avoid obstacles with minimal amount of coding. The final implementation is a
+functional extension that is able to built multi-agent systems using Lego
+agents, however there are some issues that have not been addressed. If the
+agents are highly dependent on percepts from their sensors, they are required
+to move quite slowly, because there currently is a high delay in the reasoning
+cycle, when it is combined with a robot. Overall the system is quite robust and
+can be used to make simple Lego robots perform tasks of an advanced agent in a
+multi-agent environment.

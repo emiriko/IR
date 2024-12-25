@@ -1,0 +1,19 @@
+We consider the 3-D Navier-Stokes initial value problem, $$ v_t - \nu \Delta
+v = -\mathcal{P} [ v \cdot \nabla v ] + f , v(x, 0) = v_0 (x), x \in
+\mathbb{T}^3 (*) $$ where $\mathcal{P}$ is the Hodge projection. We assume that
+the Fourier transform norms $ \| {\hat f} \|_{l^1 (\mathbb{Z}^3)}$ and $\|
+{\hat v}_0 \|_{l^{1} (\mathbb{Z}^3)}$ are finite. Using an inverse Laplace
+transform approach, we prove that an integral equation equivalent to (*) has a
+unique solution ${\hat U} (k, q)$, exponentially bounded for $q$ in a sector
+centered on $\RR^+$, where $q$ is the inverse Laplace dual to $1/t^n$ for $n
+\ge 1$. This implies in particular local existence of a classical solution to
+(*) for $t \in (0, T)$, where $T$ depends on $\| {\hat v}_0 \|_{l^{1}}$ and $\|
+{\hat f} \|_{l^1}$. Global existence of the solution to NS follows if $\| {\hat
+U} (\cdot, q) \|_{l^1}$ has subexponential bounds as $q\to\infty$. If $f=0$,
+then the converse is also true: if NS has global solution, then there exists $n
+\ge 1 $ for which $\| {\hat U} (\cdot, q) \|$ necessarily decays. We show the
+exponential growth rate bound of U, \alpha, can be better estimated based on
+the values of ${\hat U}$ on a finite interval $[0,q_0]$. We also show how the
+integral equation can be solved numerically with controlled errors. Preliminary
+numerical calculations suggest that this approach gives an existence time that
+substantially exceeds classical estimate.

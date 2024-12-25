@@ -1,0 +1,21 @@
+The Web is ephemeral. Many resources have representations that change over
+time, and many of those representations are lost forever. A lucky few manage to
+reappear as archived resources that carry their own URIs. For example, some
+content management systems maintain version pages that reflect a frozen prior
+state of their changing resources. Archives recurrently crawl the web to obtain
+the actual representation of resources, and subsequently make those available
+via special-purpose archived resources. In both cases, the archival copies have
+URIs that are protocol-wise disconnected from the URI of the resource of which
+they represent a prior state. Indeed, the lack of temporal capabilities in the
+most common Web protocol, HTTP, prevents getting to an archived resource on the
+basis of the URI of its original. This turns accessing archived resources into
+a significant discovery challenge for both human and software agents, which
+typically involves following a multitude of links from the original to the
+archival resource, or of searching archives for the original URI. This paper
+proposes the protocol-based Memento solution to address this problem, and
+describes a proof-of-concept experiment that includes major servers of archival
+content, including Wikipedia and the Internet Archive. The Memento solution is
+based on existing HTTP capabilities applied in a novel way to add the temporal
+dimension. The result is a framework in which archived resources can seamlessly
+be reached via the URI of their original: protocol-based time travel for the
+Web.

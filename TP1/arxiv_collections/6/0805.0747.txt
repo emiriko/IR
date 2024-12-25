@@ -1,0 +1,11 @@
+Data stored in a data warehouse are inherently multidimensional, but most
+data-pruning techniques (such as iceberg and top-k queries) are unidimensional.
+However, analysts need to issue multidimensional queries. For example, an
+analyst may need to select not just the most profitable stores
+or--separately--the most profitable products, but simultaneous sets of stores
+and products fulfilling some profitability constraints. To fill this need, we
+propose a new operator, the diamond dice. Because of the interaction between
+dimensions, the computation of diamonds is challenging. We present the first
+diamond-dicing experiments on large data sets. Experiments show that we can
+compute diamond cubes over fact tables containing 100 million facts in less
+than 35 minutes using a standard PC.

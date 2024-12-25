@@ -1,0 +1,13 @@
+In this work, we present an automatic way to parallelize logic programs for
+finding all the answers to queries using a transformation to low level
+threading primitives. Although much work has been done in parallelization of
+logic programming more than a decade ago (e.g., Aurora, Muse, YapOR), the
+current state of parallelizing logic programs is still very poor. This work
+presents a way for parallelism of tabled logic programs in XSB Prolog under the
+well founded semantics. An important contribution of this work relies in
+merging answer-tables from multiple children threads without incurring copying
+or full-sharing and synchronization of data-structures. The implementation of
+the parent-children shared answer-tables surpasses in efficiency all the other
+data-structures currently implemented for completion of answers in
+parallelization using multi-threading. The transformation and its lower-level
+answer merging predicates were implemented as an extension to the XSB system.

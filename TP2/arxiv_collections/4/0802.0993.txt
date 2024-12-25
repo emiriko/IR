@@ -1,0 +1,16 @@
+We propose an image deconvolution algorithm when the data is contaminated by
+Poisson noise. The image to restore is assumed to be sparsely represented in a
+dictionary of waveforms such as the wavelet or curvelet transform. Our key
+innovations are: First, we handle the Poisson noise properly by using the
+Anscombe variance stabilizing transform leading to a non-linear degradation
+equation with additive Gaussian noise. Second, the deconvolution problem is
+formulated as the minimization of a convex functional with a data-fidelity term
+reflecting the noise properties, and a non-smooth sparsity-promoting penalties
+over the image representation coefficients (e.g. l1-norm). Third, a fast
+iterative backward-forward splitting algorithm is proposed to solve the
+minimization problem. We derive existence and uniqueness conditions of the
+solution, and establish convergence of the iterative algorithm. Experimental
+results are carried out to show the striking benefits gained from taking into
+account the Poisson statistics of the noise. These results also suggest that
+using sparse-domain regularization may be tractable in many deconvolution
+applications, e.g. astronomy or microscopy.

@@ -1,0 +1,19 @@
+In this paper, we study cyclic stabiliser codes over $\mathbb{F}_p$ of length
+dividing $p^t+1$ for some positive integer $t$. We call these $t$-Frobenius
+codes or just Frobenius codes for short. We give methods to construct them and
+show that they have efficient decoding algorithms. An important subclass of
+stabiliser codes are the linear stabiliser codes. For linear Frobenius codes we
+have stronger results: We completely characterise all linear Frobenius codes.
+As a consequence, we show that for every integer $n$ that divides $p^t+1$ for
+an odd $t$, there are no linear cyclic codes of length $n$. On the other hand
+for even $t$, we give an explicit method to construct all of them. This gives
+us a many explicit example of Frobenius codes which include the well studied
+Laflamme code. We show that the classical notion of BCH distance can be
+generalised to all the Frobenius codes that we construct, including the
+non-linear ones, and show that the algorithm of Berlekamp can be generalised to
+correct quantum errors within the BCH limit. This gives, for the first time, a
+family of codes that are neither CSS nor linear for which efficient decoding
+algorithm exits. The explicit examples that we construct are summarised in
+Table \ref{tab:explicit-examples-short} and explained in detail in Tables
+\ref{tab:explicit-examples-2} (linear case) and \ref{tab:explicit-examples-3}
+(non-linear case).

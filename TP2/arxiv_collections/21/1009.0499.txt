@@ -1,0 +1,17 @@
+We formulate weighted graph clustering as a prediction problem: given a
+subset of edge weights we analyze the ability of graph clustering to predict
+the remaining edge weights. This formulation enables practical and theoretical
+comparison of different approaches to graph clustering as well as comparison of
+graph clustering with other possible ways to model the graph. We adapt the
+PAC-Bayesian analysis of co-clustering (Seldin and Tishby, 2008; Seldin, 2009)
+to derive a PAC-Bayesian generalization bound for graph clustering. The bound
+shows that graph clustering should optimize a trade-off between empirical data
+fit and the mutual information that clusters preserve on the graph nodes. A
+similar trade-off derived from information-theoretic considerations was already
+shown to produce state-of-the-art results in practice (Slonim et al., 2005;
+Yom-Tov and Slonim, 2009). This paper supports the empirical evidence by
+providing a better theoretical foundation, suggesting formal generalization
+guarantees, and offering a more accurate way to deal with finite sample issues.
+We derive a bound minimization algorithm and show that it provides good results
+in real-life problems and that the derived PAC-Bayesian bound is reasonably
+tight.

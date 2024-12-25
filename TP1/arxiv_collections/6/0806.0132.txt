@@ -1,0 +1,15 @@
+For microprocessors used in real-time embedded systems, minimizing power
+consumption is difficult due to the timing constraints. Dynamic voltage scaling
+(DVS) has been incorporated into modern microprocessors as a promising
+technique for exploring the trade-off between energy consumption and system
+performance. However, it remains a challenge to realize the potential of DVS in
+unpredictable environments where the system workload cannot be accurately
+known. Addressing system-level power-aware design for DVS-enabled embedded
+controllers, this paper establishes an analytical model for the DVS system that
+encompasses multiple real-time control tasks. From this model, a feedback
+control based approach to power management is developed to reduce dynamic power
+consumption while achieving good application performance. With this approach,
+the unpredictability and variability of task execution times can be attacked.
+Thanks to the use of feedback control theory, predictable performance of the
+DVS system is achieved, which is favorable to real-time applications. Extensive
+simulations are conducted to evaluate the performance of the proposed approach.

@@ -1,0 +1,10 @@
+We address the problem of semantic querying of relational databases (RDB)
+modulo knowledge bases using very expressive knowledge representation
+formalisms, such as full first-order logic or its various fragments. We propose
+to use a first-order logic (FOL) reasoner for computing schematic answers to
+deductive queries, with the subsequent instantiation of these schematic answers
+using a conventional relational DBMS. In this research note, we outline the
+main idea of this technique -- using abstractions of databases and constrained
+clauses for deriving schematic answers. The proposed method can be directly
+used with regular RDB, including legacy databases. Moreover, we propose it as a
+potential basis for an efficient Web-scale semantic search technology.

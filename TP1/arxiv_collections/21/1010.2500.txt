@@ -1,0 +1,17 @@
+The Sloan Digital Sky Survey (SDSS) automated spectroscopic reduction
+pipeline provides >1.5 million intermediate resolution, R~2000, moderate
+signal-to-noise ratio (SNR), SNR~15, astronomical spectra of unprecedented
+homogeneity that cover the wavelength range 3800-9200AA. However, there remain
+significant systematic residuals in many spectra due to the sub-optimal
+subtraction of the strong OH sky emission lines longward of 6700AA. The OH sky
+lines extend over almost half the wavelength range of the SDSS spectra, and the
+SNR over substantial wavelength regions in many spectra is reduced by more than
+a factor two over that expected from photon counting statistics. Following the
+OH line subtraction procedure presented in Wild & Hewett (2005), we make
+available to the community sky-residual subtracted spectra for the Sloan
+Digital Sky Survey Data Relase 7. Here we summarise briefly the method,
+including minor changes in the implementation of the procedure with respect to
+WH05. The spectra are suitable for many science applications but we highlight
+some limitations for certain investigations. Details of the data model for the
+sky-residual subtracted spectra and instructions on how to access the spectra
+are provided.

@@ -1,0 +1,11 @@
+We present an approximate distance oracle for a point set S with n points and
+doubling dimension {\lambda}. For every {\epsilon}>0, the oracle supports
+(1+{\epsilon})-approximate distance queries in (universal) constant time,
+occupies space [{\epsilon}^{-O({\lambda})} + 2^{O({\lambda} log {\lambda})}]n,
+and can be constructed in [2^{O({\lambda})} log3 n + {\epsilon}^{-O({\lambda})}
++ 2^{O({\lambda} log {\lambda})}]n expected time. This improves upon the best
+previously known constructions, presented by Har-Peled and Mendel. Furthermore,
+the oracle can be made fully dynamic with expected O(1) query time and only
+2^{O({\lambda})} log n + {\epsilon}^{-O({\lambda})} + 2^{O({\lambda} log
+{\lambda})} update time. This is the first fully dynamic
+(1+{\epsilon})-distance oracle.

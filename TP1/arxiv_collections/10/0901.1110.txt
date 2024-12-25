@@ -1,0 +1,13 @@
+We consider a PDE system comprising compressible hydrodynamics, flux-limited
+diffusion radiation transport and chemical ionization kinetics in a
+cosmologically-expanding universe. Under an operator-split framework, the
+cosmological hydrodynamics equations are solved through the Piecewise Parabolic
+Method, as implemented in the Enzo community hydrodynamics code. The remainder
+of the model, including radiation transport, chemical ionization kinetics, and
+gas energy feedback, form a stiff coupled PDE system, which we solve using a
+fully-implicit inexact Newton approach, and which forms the crux of this paper.
+The inner linear Newton systems are solved using a Schur complement
+formulation, and employ a multigrid-preconditioned conjugate gradient solver
+for the inner Schur systems. We describe this approach and provide results on a
+suite of test problems, demonstrating its accuracy, robustness, and scalability
+to very large problems.

@@ -1,0 +1,11 @@
+We present a new modular traffic signs recognition system, successfully
+applied to both American and European speed limit signs. Our sign detection
+step is based only on shape-detection (rectangles or circles). This enables it
+to work on grayscale images, contrary to most European competitors, which eases
+robustness to illumination conditions (notably night operation). Speed sign
+candidates are classified (or rejected) by segmenting potential digits inside
+them (which is rather original and has several advantages), and then applying a
+neural digit recognition. The global detection rate is ~90% for both (standard)
+U.S. and E.U. speed signs, with a misclassification rate <1%, and no validated
+false alarm in >150 minutes of video. The system processes in real-time ~20
+frames/s on a standard high-end laptop.

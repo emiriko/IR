@@ -1,0 +1,25 @@
+The U.S. Air Force currently is in the process of developing an Airborne
+Network (AN) to provide support to its combat aircrafts on a mission. The
+reliability needed for continuous operation of an AN is difficult to achieve
+through completely infrastructure-less mobile ad hoc networks. In this paper we
+first propose an architecture for an AN where airborne networking platforms
+(ANPs - aircrafts, UAVs and satellites) form the backbone of the AN. In this
+architecture, the ANPs can be viewed as mobile base stations and the combat
+aircrafts on a mission as mobile clients. The combat aircrafts on a mission
+move through a space called air corridor. The goal of the AN design is to form
+a backbone network with the ANPs with two properties: (i) the backbone network
+remains connected at all times, even though the topology of the network changes
+with the movement of the ANPs, and (ii) the entire 3D space of the air corridor
+is under radio coverage at all times by the continuously moving ANPs.
+  In addition to proposing an architecture for an AN, the contributions of the
+paper include, development of an algorithm that finds the velocity and
+transmission range of the ANPs so that the dynamically changing backbone
+network remains connected at all times, development of a routing algorithm that
+ensures a connection between the source-destination node pair with the fewest
+number of path switching, given the dimensions of the air corridor and the
+radius of the coverage sphere associated with an ANP, development of an
+algorithm that finds the fewest number of ANPs required to provide complete
+coverage of the air corridor at all times, development of an algorithm that
+provides connected-coverage to the air corridor at all times, and development
+of a visualization tool that depicts the movement patterns of the ANPs and the
+resulting dynamic graph and the coverage volume of the backbone network.

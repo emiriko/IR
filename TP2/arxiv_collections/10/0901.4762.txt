@@ -1,0 +1,18 @@
+As the number of services and the size of data involved in workflows
+increases, centralised orchestration techniques are reaching the limits of
+scalability. In the classic orchestration model, all data passes through a
+centralised engine, which results in unnecessary data transfer, wasted
+bandwidth and the engine to become a bottleneck to the execution of a workflow.
+  This paper presents and evaluates the Circulate architecture which maintains
+the robustness and simplicity of centralised orchestration, but facilitates
+choreography by allowing services to exchange data directly with one another.
+Circulate could be realised within any existing workflow framework, in this
+paper, we focus on WS-Circulate, a Web services based implementation.
+  Taking inspiration from the Montage workflow, a number of common workflow
+patterns (sequence, fan-in and fan-out), input to output data size
+relationships and network configurations are identified and evaluated. The
+performance analysis concludes that a substantial reduction in communication
+overhead results in a 2-4 fold performance benefit across all patterns. An
+end-to-end pattern through the Montage workflow results in an 8 fold
+performance benefit and demonstrates how the advantage of using the Circulate
+architecture increases as the complexity of a workflow grows.

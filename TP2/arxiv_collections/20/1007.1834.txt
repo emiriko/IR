@@ -1,0 +1,12 @@
+We present an extension of our GPGCD method, an iterative method for
+calculating approximate greatest common divisor (GCD) of univariate
+polynomials, to polynomials with the complex coefficients. For a given pair of
+polynomials and a degree, our algorithm finds a pair of polynomials which has a
+GCD of the given degree and whose coefficients are perturbed from those in the
+original inputs, making the perturbations as small as possible, along with the
+GCD. In our GPGCD method, the problem of approximate GCD is transfered to a
+constrained minimization problem, then solved with a so-called modified Newton
+method, which is a generalization of the gradient-projection method, by
+searching the solution iteratively. While our original method is designed for
+polynomials with the real coefficients, we extend it to accept polynomials with
+the complex coefficients in this paper.

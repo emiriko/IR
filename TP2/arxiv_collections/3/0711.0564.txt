@@ -1,0 +1,20 @@
+We present a new computational framework (LEO), that enables us to carry out
+the very first large-scale, high-resolution computations in the context of the
+characteristic approach in numerical relativity. At the analytic level, our
+approach is based on a new implementation of the ``eth'' formalism, using a
+non-standard representation of the spin-raising and lowering angular operators
+in terms of non-conformal coordinates on the sphere; we couple this formalism
+to a partially first-order reduction (in the angular variables) of the Einstein
+equations. The numerical implementation of our approach supplies the basic
+building blocks for a highly parallel, easily extensible numerical code. We
+demonstrate the adaptability and excellent scaling of our numerical code by
+solving, within our numerical framework, for a scalar field minimally coupled
+to gravity (the Einstein-Klein-Gordon problem) in 3-dimensions. The nonlinear
+code is globally second-order convergent, and has been extensively tested using
+as reference a calibrated code with the same boundary-initial data and radial
+marching algorithm. In this context, we show how accurately we can follow
+quasi-normal mode ringing. In the linear regime, we show energy conservation
+for a number of initial data sets with varying angular structure. A striking
+result that arises in this context is the saturation of the flow of energy
+through the Schwarzschild radius. As a final calibration check we perform a
+large simulation with resolution never achieved before.

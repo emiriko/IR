@@ -1,0 +1,21 @@
+Software correlation, where a correlation algorithm written in a high-level
+language such as C++ is run on commodity computer hardware, has become
+increasingly attractive for small to medium sized and/or bandwidth constrained
+radio interferometers. In particular, many long baseline arrays (which
+typically have fewer than 20 elements and are restricted in observing bandwidth
+by costly recording hardware and media) have utilized software correlators for
+rapid, cost-effective correlator upgrades to allow compatibility with new,
+wider bandwidth recording systems and improve correlator flexibility. The DiFX
+correlator, made publicly available in 2007, has been a popular choice in such
+upgrades and is now used for production correlation by a number of
+observatories and research groups worldwide. Here we describe the evolution in
+the capabilities of the DiFX correlator over the past three years, including a
+number of new capabilities, substantial performance improvements, and a large
+amount of supporting infrastructure to ease use of the code. New capabilities
+include the ability to correlate a large number of phase centers in a single
+correlation pass, the extraction of phase calibration tones, correlation of
+disparate but overlapping sub-bands, the production of rapidly sampled
+filterbank and kurtosis data at minimal cost, and many more. The latest version
+of the code is at least 15% faster than the original, and in certain situations
+many times this value. Finally, we also present detailed test results
+validating the correctness of the new code.

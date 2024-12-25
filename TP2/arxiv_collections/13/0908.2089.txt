@@ -1,0 +1,14 @@
+The Mahonian statistic is the number of inversions in a permutation of a
+multiset with $a_i$ elements of type $i$, $1\le i\le m$. The counting function
+for this statistic is the $q$ analog of the multinomial coefficient
+$\binom{a_1+...+a_m}{a_1,... a_m}$, and the probability generating function is
+the normalization of the latter. We give two proofs that the distribution is
+asymptotically normal. The first is {\it computer-assisted}, based on the
+method of moments. The Maple package {\tt MahonianStat}, available from the
+webpage of this article, can be used by the reader to perform experiments and
+calculations. Our second proof uses characteristic functions. We then take up
+the study of a local limit theorem to accompany our central limit theorem. Here
+our result is less general, and we must be content with a conjecture about
+further work. Our local limit theorem permits us to conclude that the
+coeffiecients of the $q$-multinomial are log-concave, provided one stays near
+the center (where the largest coefficients reside.)

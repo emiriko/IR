@@ -1,0 +1,18 @@
+Numerical simulation of plasma turbulence in the Large Plasma Device (LAPD)
+[Gekelman et al, Rev. Sci. Inst., 62, 2875, 1991] is presented. The model,
+implemented in the BOUndary Turbulence (BOUT) code [M. Umansky et al, Contrib.
+Plasma Phys. 180, 887 (2009)], includes 3-D collisional fluid equations for
+plasma density, electron parallel momentum, and current continuity, and also
+includes the effects of ion-neutral collisions. In nonlinear simulations using
+measured LAPD density profiles but assuming constant temperature profile for
+simplicity, self-consistent evolution of instabilities and
+nonlinearly-generated zonal flows results in a saturated turbulent state.
+Comparisons of these simulations with measurements in LAPD plasmas reveal good
+qualitative and reasonable quantitative agreement, in particular in frequency
+spectrum, spatial correlation and amplitude probability distribution function
+of density fluctuations. For comparison with LAPD measurements, the plasma
+density profile in simulations is maintained either by direct azimuthal
+averaging on each time step, or by adding particle source/sink function. The
+inferred source/sink values are consistent with the estimated ionization source
+and parallel losses in LAPD. These simulations lay the groundwork for more a
+comprehensive effort to test fluid turbulence simulation against LAPD data.

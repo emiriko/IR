@@ -1,0 +1,11 @@
+The paper describes the design, the implementation of a neural controller
+used in an automatic daylight control system. The automatic lighting control
+system (ALCS) attempt to maintain constant the illuminance at the desired level
+on working plane even if the daylight contribution is variable. Therefore, the
+daylight will represent the perturbation signal for the ALCS. The mathematical
+model of process is unknown. The applied structure of control need the inverse
+model of process. For this purpose it was used other artificial neural network
+(ANN) which identify the inverse model of process in an on-line manner. In
+fact, this ANN identify the inverse model of process + the perturbation signal.
+In this way the learning signal for neural controller has a better accuracy for
+the present application.

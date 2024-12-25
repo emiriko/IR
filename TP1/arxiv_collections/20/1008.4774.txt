@@ -1,0 +1,14 @@
+Tensor network decompositions offer an efficient description of certain
+many-body states of a lattice system and are the basis of a wealth of numerical
+simulation algorithms. In a recent paper [arXiv:0907.2994v1] we discussed how
+to incorporate a global internal symmetry, given by a compact, completely
+reducible group G, into tensor network decompositions and algorithms. Here we
+specialize to the case of Abelian groups and, for concreteness, to a U(1)
+symmetry, often associated with particle number conservation. We consider
+tensor networks made of tensors that are invariant (or covariant) under the
+symmetry, and explain how to decompose and manipulate such tensors in order to
+exploit their symmetry. In numerical calculations, the use of U(1) symmetric
+tensors allows selection of a specific number of particles, ensures the exact
+preservation of particle number, and significantly reduces computational costs.
+We illustrate all these points in the context of the multi-scale entanglement
+renormalization ansatz.

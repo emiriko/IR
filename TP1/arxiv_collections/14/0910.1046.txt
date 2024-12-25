@@ -1,0 +1,11 @@
+For linear and fully non-linear diffusion equations of Bellman-Isaacs type,
+we introduce a class of approximation schemes based on differencing and
+interpolation. As opposed to classical numerical methods, these schemes work
+for general diffusions with coefficient matrices that may be non-diagonal
+dominant and arbitrarily degenerate. In general such schemes have to have a
+wide stencil. Besides providing a unifying framework for several known first
+order accurate schemes, our class of schemes includes new first and higher
+order versions. The methods are easy to implement and more efficient than some
+other known schemes. We prove consistency and stability of the methods, and for
+the monotone first order methods, we prove convergence in the general case and
+robust error estimates in the convex case. The methods are extensively tested.

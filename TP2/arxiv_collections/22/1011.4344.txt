@@ -1,0 +1,15 @@
+Quantum mechanics for many-body systems may be reduced to the evaluation of
+integrals in 3N dimensions using Monte-Carlo, providing the Quantum Monte Carlo
+ab initio methods. Here we limit ourselves to expectation values for trial
+wavefunctions, that is to Variational quantum Monte Carlo. Almost all previous
+implementations employ samples distributed as the physical probability density
+of the trial wavefunction, and assume the Central Limit Theorem to be valid. In
+this paper we provide an analysis of random error in estimation and
+optimisation that leads naturally to new sampling strategies with improved
+computational and statistical properties. A rigorous lower limit to the random
+error is derived, and an efficient sampling strategy presented that
+significantly increases computational efficiency. In addition the infinite
+variance heavy tailed random errors of optimum parameters in conventional
+methods are replaced with a Normal random error, strengthening the theoretical
+basis of optimisation. The method is applied to a number of first-row systems,
+and compared with previously published results.

@@ -1,0 +1,13 @@
+PARISROC is a complete read out chip, in AMS SiGe 0.35 micron technology [1],
+for photomultipliers array. It allows triggerless acquisition for next
+generation neutrino experiments and it belongs to an R&D program funded by the
+French national agency for research (ANR) called PMm2: Innovative electronics
+for photodetectors array used in High Energy Physics and Astroparticles [2]
+(ref.ANR-06-BLAN- 0186). The ASIC integrates 16 independent and auto triggered
+channels with variable gain and provides charge and time measurement by a
+Wilkinson ADC and a 24-bit Counter. The charge measurement should be performed
+from 1 up to 300 photo-electrons (p.e.) with a good linearity. The time
+measurement allowed to a coarse time with a 24-bit counter at 10 MHz and a fine
+time on a 100ns ramp to achieve a resolution of 1 ns. The ASIC sends out only
+the relevant data through network cables to the central data storage. This
+paper describes the front-end electronics ASIC called PARISROC.

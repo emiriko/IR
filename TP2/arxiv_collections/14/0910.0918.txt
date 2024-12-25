@@ -1,0 +1,19 @@
+The paper studies the problem of filtering a discrete-time linear system
+observed by a network of sensors. The sensors share a common communication
+medium to the estimator and transmission is bit and power budgeted. Under the
+assumption of conditional Gaussianity of the signal process at the estimator
+(which may be ensured by observation packet acknowledgements), the conditional
+prediction error covariance of the optimum mean-squared error filter is shown
+to evolve according to a random dynamical system (RDS) on the space of
+non-negative definite matrices. Our RDS formalism does not depend on the
+particular medium access protocol (randomized) and, under a minimal distributed
+observability assumption, we show that the sequence of random conditional
+prediction error covariance matrices converges in distribution to a unique
+invariant distribution (independent of the initial filter state), i.e., the
+conditional error process is shown to be ergodic. Under broad assumptions on
+the medium access protocol, we show that the conditional error covariance
+sequence satisfies a Markov-Feller property, leading to an explicit
+characterization of the support of its invariant measure. The methodology
+adopted in this work is sufficiently general to envision this application to
+sample path analysis of more general hybrid or switched systems, where existing
+analysis is mostly moment-based.

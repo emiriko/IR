@@ -1,0 +1,13 @@
+We define two transformations from term rewriting systems (TRSs) to
+context-sensitive TRSs in such a way that termination of the target system
+implies outermost termination of the original system. In the transformation
+based on 'context extension', each outermost rewrite step is modeled by exactly
+one step in the transformed system. This transformation turns out to be
+complete for the class of left-linear TRSs. The second transformation is called
+`dynamic labeling' and results in smaller sized context-sensitive TRSs. Here
+each modeled step is adjoined with a small number of auxiliary steps. As a
+result state-of-the-art termination methods for context-sensitive rewriting
+become available for proving termination of outermost rewriting. Both
+transformations have been implemented in Jambox, making it the most successful
+tool in the category of outermost rewriting of the last edition of the annual
+termination competition.

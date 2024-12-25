@@ -1,0 +1,13 @@
+Energy loss through optically thin radiative cooling plays an important part
+in the evolution of astrophysical gas dynamics and should therefore be
+considered a necessary element in any numerical simulation. Although the
+addition of this physical process to the equations of hydrodynamics is
+straightforward, it does create numerical challenges that have to be overcome
+in order to ensure the physical correctness of the simulation. First, the
+cooling has to be treated (semi-)implicitly, owing to the discrepancies between
+the cooling timescale and the typical timesteps of the simulation. Secondly,
+because of its dependence on a tabulated cooling curve, the introduction of
+radiative cooling creates the necessity for an interpolation scheme. In
+particular, we will argue that the addition of radiative cooling to a numerical
+simulation creates the need for extremely high resolution, which can only be
+fully met through the use of adaptive mesh refinement.

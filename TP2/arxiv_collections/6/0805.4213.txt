@@ -1,0 +1,9 @@
+We analyze the latency of fault-tolerant quantum computing based on the
+9-qubit Bacon-Shor code using a local, two-dimensional architecture. We embed
+the data qubits in a 7 by 7 array of physical qubits, where the extra qubits
+are used for ancilla preparation and qubit transportation by means of a SWAP
+chain. The latency is reduced with respect to a similar implementation using
+Steane's 7-qubit code (K. M. Svore, D. P. DiVincenzo, and B. M. Terhal, Quantum
+Information & Computation {\bf 7}, 297 (2007)). Furthermore, the error
+threshold is also improved to $2.02 \times 10^{-5}$, when memory errors are
+taken to be one tenth of the gate error rates.

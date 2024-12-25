@@ -1,0 +1,11 @@
+Two-dimensional bootstrap percolation is a cellular automaton in which sites
+become 'infected' by contact with two or more already infected nearest
+neighbors. We consider these dynamics, which can be interpreted as a monotone
+version of the Ising model, on an n x n square, with sites initially infected
+independently with probability p. The critical probability p_c is the smallest
+p for which the probability that the entire square is eventually infected
+exceeds 1/2. Holroyd determined the sharp first-order approximation: p_c \sim
+\pi^2/(18 log n) as n \to \infty. Here we sharpen this result, proving that the
+second term in the expansion is -(log n)^{-3/2+ o(1)}, and moreover determining
+it up to a poly(log log n)-factor. The exponent -3/2 corrects numerical
+predictions from the physics literature.

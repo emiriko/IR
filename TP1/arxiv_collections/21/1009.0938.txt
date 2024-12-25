@@ -1,0 +1,16 @@
+In many problems in Computational Physics and Chemistry, one finds a special
+kind of sparse matrices, termed "banded matrices". These matrices, which are
+defined as having non-zero entries only within a given distance from the main
+diagonal, need often to be inverted in order to solve the associated linear
+system of equations. In this work, we introduce a new O(n) algorithm for
+solving such a system, being n X n the size of the matrix. We produce the
+analytical recursive expressions that allow to directly obtain the solution, as
+well as the pseudocode for its computer implementation. Moreover, we review the
+different options for possibly parallelizing the method, we describe the
+extension to deal with matrices that are banded plus a small number of non-zero
+entries outside the band, and we use the same ideas to produce a method for
+obtaining the full inverse matrix. Finally, we show that the New Algorithm is
+competitive, both in accuracy and in numerical efficiency, when compared to a
+standard method based in Gaussian elimination. We do this using sets of large
+random banded matrices, as well as the ones that appear when one tries to solve
+the 1D Poisson equation by finite differences.

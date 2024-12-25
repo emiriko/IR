@@ -1,0 +1,15 @@
+We develop a new symbolic-numeric algorithm for the certification of singular
+isolated points, using their associated local ring structure and certified
+numerical computations. An improvement of an existing method to compute inverse
+systems is presented, which avoids redundant computation and reduces the size
+of the intermediate linear systems to solve. We derive a one-step deflation
+technique, from the description of the multiplicity structure in terms of
+differentials. The deflated system can be used in Newton-based iterative
+schemes with quadratic convergence. Starting from a polynomial system and a
+small-enough neighborhood, we obtain a criterion for the existence and
+uniqueness of a singular root of a given multiplicity structure, applying a
+well-chosen symbolic perturbation. Standard verification methods, based eg. on
+interval arithmetic and a fixed point theorem, are employed to certify that
+there exists a unique perturbed system with a singular root in the domain.
+Applications to topological degree computation and to the analysis of real
+branches of an implicit curve illustrate the method.

@@ -1,0 +1,15 @@
+Nowadays, a popular method used for additive watermarking is wide spread
+spectrum. It consists in adding a spread signal into the host document. This
+signal is obtained by the sum of a set of carrier vectors, which are modulated
+by the bits to be embedded. To extract these embedded bits, weighted
+correlations between the watermarked document and the carriers are computed.
+Unfortunately, even without any attack, the obtained set of bits can be
+corrupted due to the interference with the host signal (host interference) and
+also due to the interference with the others carriers (inter-symbols
+interference (ISI) due to the non-orthogonality of the carriers). Some recent
+watermarking algorithms deal with host interference using side informed
+methods, but inter-symbols interference problem is still open. In this paper,
+we deal with interference cancellation methods, and we propose to consider ISI
+as side information and to integrate it into the host signal. This leads to a
+great improvement of extraction performance in term of signal-to-noise ratio
+and/or watermark robustness.

@@ -1,0 +1,22 @@
+The book of Lajos Tak\'acs \emph{Combinatorial Methods in the Theory of
+Stochastic Processes} has been published in 1967. It discusses various problems
+associated with $$ P_{k,i}=\mathrm{P}{\sup_{1\leq
+n\leq\rho(i)}(N_n-n)<k-i},\leqno(*) $$ where $N_n=\nu_1+\nu_2...+\nu_n$ is a
+sum of mutually independent, nonnegative integer and identically distributed
+random variables, $\pi_j=\mathrm{P}\{\nu_k=j\}$, $j\geq0$, $\pi_0>0$, and
+$\rho(i)$ is the smallest $n$ such that $N_n=n-i$, $i\geq1$. (If there is no
+such $n$, then $\rho(i)=\infty$.)
+  (*) is a discrete generalization of the classic ruin probability, and its
+value is represented as $P_{k,i}={Q_{k-i}}/{Q_k}$, where the sequence
+$\{Q_k\}_{k\geq0}$ satisfies the recurrence relation of convolution type:
+$Q_0\neq0$ and $Q_k=\sum_{j=0}^k\pi_jQ_{k-j+1}$.
+  Since 1967 there have been many papers related to applications of the
+generalized classic ruin probability. The present survey concerns only with one
+of the areas of application associated with asymptotic behavior of $Q_k$ as
+$k\to\infty$. The theorem on asymptotic behavior of $Q_k$ as $k\to\infty$ and
+further properties of that limiting sequence are given on pages 22-23 of the
+aforementioned book by Tak\'acs. In the present survey we discuss applications
+of Tak\'acs' asymptotic theorem and other related results in queueing theory,
+telecommunication systems and dams. Many of the results presented in this
+survey have appeared recently, and some of them are new. In addition, further
+applications of Tak\'acs' theorem are discussed.

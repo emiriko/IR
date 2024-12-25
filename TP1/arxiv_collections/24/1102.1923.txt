@@ -1,0 +1,12 @@
+We are developing a 3D radiation hydrodynamics code to simulate the
+interaction of convection and pulsation in classical variable stars. One key
+goal is the ability to carry these simulations to full amplitude in order to
+compare them with observed light and velocity curves. Previous 2D calculations
+were prevented from doing this because of drift in the radial coordinate
+system, due to the algorithm defining radial movement of the coordinate system
+during the pulsation cycle. We remove this difficulty by defining our
+coordinate system flow algorithm to require that the mass in a spherical shell
+remain constant throughout the pulsation cycle. We perform adiabatic test
+calculations to show that large amplitude solutions repeat over more than 150
+pulsation periods. We also verify that the computational method conserves the
+peak kinetic energy per period, as must be true for adiabatic pulsation models.

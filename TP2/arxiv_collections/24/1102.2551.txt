@@ -1,0 +1,22 @@
+In light of the growing market of Ad Exchanges for the real-time sale of
+advertising slots, publishers face new challenges in choosing between the
+allocation of contract-based reservation ads and spot market ads. In this
+setting, the publisher should take into account the tradeoff between short-term
+revenue from an Ad Exchange and quality of allocating reservation ads. In this
+paper, we formalize this combined optimization problem as a stochastic control
+problem and derive an efficient policy for online ad allocation in settings
+with general joint distribution over placement quality and exchange bids. We
+prove asymptotic optimality of this policy in terms of any trade-off between
+quality of delivered reservation ads and revenue from the exchange, and provide
+a rigorous bound for its convergence rate to the optimal policy. We also give
+experimental results on data derived from real publisher inventory, showing
+that our policy can achieve any pareto-optimal point on the quality vs. revenue
+curve. Finally, we study a parametric training-based algorithm in which instead
+of learning the dual variables from a sample data (as is done in non-parametric
+training-based algorithms), we learn the parameters of the distribution and
+construct those dual variables from the learned parameter values. We compare
+parametric and non-parametric ways to estimate from data both analytically and
+experimentally in the special case without the ad exchange, and show that
+though both methods converge to the optimal policy as the sample size grows,
+our parametric method converges faster, and thus performs better on smaller
+samples.

@@ -1,0 +1,23 @@
+In analyses of algorithms, a substantial amount of effort has often to be
+spent on the discussion of special cases. For example, when the analysis
+considers the cases X<Y and X>Y separately, one might have to be especially
+careful about what happens when X=Y. On the other hand, experience tells us
+that when a yet unregarded special case of this kind is discovered, one nearly
+always finds a way to handle it. This is typically done by modifying the
+analysis and/or the algorithm very slightly.
+  In this article we substantiate this observation theoretically. We
+concentrate on deterministic algorithms for weighted combinatorial optimization
+problems. A problem instance of this kind is defined by its structure and a
+vector of weights. The concept of a null case is introduced as set of problem
+instances whose weight vectors constitute a nowhere open set (or null set) in
+the space of all possible weight configurations. An algorithm is called robust
+if any null case can be disregarded in the analysis of both its solution
+quality and resource requirements.
+  We show that achieving robustness is only a matter of breaking ties the right
+way. More specifically, we show that the concept of symbolic perturbation known
+from the area of geometric algorithms guarantees that no surprises will happen
+in null cases. We argue that for a huge class of combinatorial optimization
+algorithms it is easy to verify that they implicitly use symbolic perturbation
+for breaking ties and thus can be analyzed under the assumption that some
+arbitrary null case never occurs. Finally, we prove that there exists a
+symbolic perturbation tie breaking policy for any algorithm.

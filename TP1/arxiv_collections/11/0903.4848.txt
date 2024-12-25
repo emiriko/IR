@@ -1,0 +1,18 @@
+Based on functional analysis, we propose an algorithm for finite-norm
+solutions of higher-order linear Fuchsian-type ordinary differential equations
+(ODEs) P(x,d/dx)f(x)=0 with P(x,d/dx):=[\sum_m p_m (x) (d/dx)^m] by using only
+the four arithmetical operations on integers. This algorithm is based on a
+band-diagonal matrix representation of the differential operator P(x,d/dx),
+though it is quite different from the usual Galerkin methods. This
+representation is made for the respective CONSs of the input Hilbert space H
+and the output Hilbert space H' of P(x,d/dx). This band-diagonal matrix enables
+the construction of a recursive algorithm for solving the ODE. However, a
+solution of the simultaneous linear equations represented by this matrix does
+not necessarily correspond to the true solution of ODE. We show that when this
+solution is an l^2 sequence, it corresponds to the true solution of ODE. We
+invent a method based on an integer-type algorithm for extracting only l^2
+components. Further, the concrete choice of Hilbert spaces H and H' is also
+given for our algorithm when p_m is a polynomial or a rational function with
+rational coefficients. We check how our algorithm works based on several
+numerical demonstrations related to special functions, where the results show
+that the accuracy of our method is extremely high.

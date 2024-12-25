@@ -1,0 +1,12 @@
+Hamiltonian splitting methods are an established technique to derive stable
+and accurate integration schemes in molecular dynamics, in which additional
+accuracy can be gained using force gradients. For rigid bodies, a tradition
+exists in the literature to further split up the kinetic part of the
+Hamiltonian, which lowers the accuracy. The goal of this note is to comment on
+the best combination of optimized splitting and gradient methods that avoids
+splitting the kinetic energy. These schemes are generally applicable, but the
+optimal scheme depends on the desired level of accuracy. For simulations of
+liquid water it is found that the velocity Verlet scheme is only optimal for
+crude simulations with accuracies larger than 1.5%, while surprisingly a
+modified Verlet scheme (HOA) is optimal up to accuracies of 0.4% and a fourth
+order gradient scheme (GIER4) is optimal for even higher accuracies.

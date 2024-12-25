@@ -1,0 +1,19 @@
+Structural parameters are normally extracted from observed galaxies by
+fitting analytic light profiles to the observations. Obtaining accurate fits to
+high-resolution images is a computationally expensive task, requiring many
+model evaluations and convolutions with the imaging point spread function.
+While these algorithms contain high degrees of parallelism, current
+implementations do not exploit this property. With evergrowing volumes of
+observational data, an inability to make use of advances in computing power can
+act as a constraint on scientific outcomes. This is the motivation behind our
+work, which aims to implement the model-fitting procedure on a graphics
+processing unit (GPU). We begin by analysing the algorithms involved in model
+evaluation with respect to their suitability for modern many-core computing
+architectures like GPUs, finding them to be well-placed to take advantage of
+the high memory bandwidth offered by this hardware. Following our analysis, we
+briefly describe a preliminary implementation of the model fitting procedure
+using freely-available GPU libraries. Early results suggest a speed-up of
+around 10x over a CPU implementation. We discuss the opportunities such a
+speed-up could provide, including the ability to use more computationally
+expensive but better-performing fitting routines to increase the quality and
+robustness of fits.

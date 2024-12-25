@@ -1,0 +1,18 @@
+The accuracy of a diagnostic test is typically characterised using the
+receiver operating characteristic (ROC) curve. Summarising indexes such as the
+area under the ROC curve (AUC) are used to compare different tests as well as
+to measure the difference between two populations. Often additional information
+is available on some of the covariates which are known to influence the
+accuracy of such measures. We propose nonparametric methods for covariate
+adjustment of the AUC. Models with normal errors and non-normal errors are
+discussed and analysed separately. Nonparametric regression is used for
+estimating mean and variance functions in both scenarios. In the general noise
+case we propose a covariate-adjusted Mann-Whitney estimator for AUC estimation
+which effectively uses available data to construct working samples at any
+covariate value of interest and is computationally efficient for
+implementation. This provides a generalisation of the Mann-Whitney approach for
+comparing two populations by taking covariate effects into account. We derive
+asymptotic properties for the AUC estimators in both settings, including
+asymptotic normality, optimal strong uniform convergence rates and MSE
+consistency. The usefulness of the proposed methods is demonstrated through
+simulated and real data examples.

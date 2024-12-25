@@ -1,0 +1,23 @@
+A "clique minor" in a graph G can be thought of as a set of connected
+subgraphs in G that are pairwise disjoint and pairwise adjacent. The "Hadwiger
+number" h(G) is the maximum cardinality of a clique minor in G. This paper
+studies clique minors in the Cartesian product G*H.
+  Our main result is a rough structural characterisation theorem for Cartesian
+products with bounded Hadwiger number. It implies that if the product of two
+sufficiently large graphs has bounded Hadwiger number then it is one of the
+following graphs:
+  - a planar grid with a vortex of bounded width in the outerface,
+  - a cylindrical grid with a vortex of bounded width in each of the two `big'
+faces, or
+  - a toroidal grid.
+  Motivation for studying the Hadwiger number of a graph includes Hadwiger's
+Conjecture, which states that the chromatic number chi(G) <= h(G). It is open
+whether Hadwiger's Conjecture holds for every Cartesian product. We prove that
+if |V(H)|-1 >= chi(G) >= chi(H) then Hadwiger's Conjecture holds for G*H. On
+the other hand, we prove that Hadwiger's Conjecture holds for all Cartesian
+products if and only if it holds for all G * K_2. We then show that h(G * K_2)
+is tied to the treewidth of G.
+  We also develop connections with pseudoachromatic colourings and connected
+dominating sets that imply near-tight bounds on the Hadwiger number of grid
+graphs (Cartesian products of paths) and Hamming graphs (Cartesian products of
+cliques).

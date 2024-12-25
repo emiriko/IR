@@ -1,0 +1,17 @@
+Efficient global optimization is the problem of minimizing an unknown
+function f, using as few evaluations f(x) as possible. It can be considered as
+a continuum-armed bandit problem, with noiseless data and simple regret.
+Expected improvement is perhaps the most popular method for solving this
+problem; the algorithm performs well in experiments, but little is known about
+its theoretical properties. Implementing expected improvement requires a choice
+of Gaussian process prior, which determines an associated space of functions,
+its reproducing-kernel Hilbert space (RKHS). When the prior is fixed, expected
+improvement is known to converge on the minimum of any function in the RKHS. We
+begin by providing convergence rates for this procedure. The rates are optimal
+for functions of low smoothness, and we modify the algorithm to attain optimal
+rates for smoother functions. For practitioners, however, these results are
+somewhat misleading. Priors are typically not held fixed, but depend on
+parameters estimated from the data. For standard estimators, we show this
+procedure may never discover the minimum of f. We then propose alternative
+estimators, chosen to minimize the constants in the rate of convergence, and
+show these estimators retain the convergence rates of a fixed prior.

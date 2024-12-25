@@ -1,0 +1,10 @@
+Sosemanuk is a new synchronous software-oriented stream cipher, corresponding
+to Profile 1 of the ECRYPT call for stream cipher primitives. Its key length is
+variable between 128 and 256 bits. It ac- commodates a 128-bit initial value.
+Any key length is claimed to achieve 128-bit security. The Sosemanuk cipher
+uses both some basic design principles from the stream cipher SNOW 2.0 and some
+transformations derived from the block cipher SERPENT. Sosemanuk aims at
+improv- ing SNOW 2.0 both from the security and from the efficiency points of
+view. Most notably, it uses a faster IV-setup procedure. It also requires a
+reduced amount of static data, yielding better performance on several
+architectures.

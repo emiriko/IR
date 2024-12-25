@@ -1,0 +1,15 @@
+This paper presents the following results on sets that are complete for NP.
+  1. If there is a problem in NP that requires exponential time at almost all
+lengths, then every many-one NP-complete set is complete under
+length-increasing reductions that are computed by polynomial-size circuits. 2.
+If there is a problem in coNP that cannot be solved by polynomial-size
+nondeterministic circuits, then every many-one complete set is complete under
+length-increasing reductions that are computed by polynomial-size circuits. 3.
+If there exist a one-way permutation that is secure against subexponential-size
+circuits and there is a hard tally language in NP intersect coNP, then there is
+a Turing complete language for NP that is not many-one complete. Our first two
+results use worst-case hardness hypotheses whereas earlier work that showed
+similar results relied on average-case or almost-everywhere hardness
+assumptions. The use of average-case and worst-case hypotheses in the last
+result is unique as previous results obtaining the same consequence relied on
+almost-everywhere hardness results.

@@ -1,0 +1,15 @@
+The impact of a stress scenario of default events on the loss distribution of
+a credit portfolio can be assessed by determining the loss distribution
+conditional on these events. While it is conceptually easy to estimate loss
+distributions conditional on default events by means of Monte Carlo simulation,
+it becomes impractical for two or more simultaneous defaults as then the
+conditioning event is extremely rare. We provide an analytical approach to the
+calculation of the conditional loss distribution for the CreditRisk+ portfolio
+model with independent random loss given default distributions. The analytical
+solution for this case can be used to check the accuracy of an approximation to
+the conditional loss distribution whereby the unconditional model is run with
+stressed input probabilities of default (PDs). It turns out that this
+approximation is unbiased. Numerical examples, however, suggest that the
+approximation may be seriously inaccurate but that the inaccuracy leads to
+overestimation of tail losses and hence the approach errs on the conservative
+side.

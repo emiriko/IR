@@ -1,0 +1,22 @@
+Discrete Fourier transforms~(DFTs) over finite fields have widespread
+applications in error correction coding. Hence, reducing the computational
+complexities of DFTs is of great significance, especially for long DFTs as
+increasingly longer error control codes are chosen for digital communication
+and storage systems. Since DFTs involve both multiplications and additions over
+finite fields and multiplications are much more complex than additions,
+recently proposed cyclotomic fast Fourier transforms (CFFTs) are promising due
+to their low multiplicative complexity. Unfortunately, they have very high
+additive complexity. Techniques such as common subexpression elimination (CSE)
+can be used to reduce the additive complexity of CFFTs, but their effectiveness
+for long DFTs is limited by their complexity. In this paper, we propose prime
+factor cyclotomic Fourier transforms (PFCFTs), which use CFFTs as sub-DFTs via
+the prime factor algorithm. When the length of DFTs is prime, our PFCFTs reduce
+to CFFTs. When the length has co-prime factors, since the sub-DFTs have much
+shorter lengths, this allows us to use CSE to significantly reduce their
+additive complexity. In comparison to previously proposed fast Fourier
+transforms, our PFCFTs achieve reduced overall complexity when the length of
+DFTs is at least 255, and the improvement significantly increases as the length
+grows. This approach also enables us to propose efficient DFTs with very long
+length (e.g., 4095-point), first efficient DFTs of such lengths in the
+literature. Finally, our PFCFTs are also advantageous for hardware
+implementation due to their regular structure.

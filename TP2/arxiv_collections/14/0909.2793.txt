@@ -1,0 +1,19 @@
+This paper proposes and compares two new sampling schemes for sparse
+deconvolution using a Bernoulli-Gaussian model. To tackle such a deconvolution
+problem in a blind and unsupervised context, the Markov Chain Monte Carlo
+(MCMC) framework is usually adopted, and the chosen sampling scheme is most
+often the Gibbs sampler. However, such a sampling scheme fails to explore the
+state space efficiently. Our first alternative, the $K$-tuple Gibbs sampler, is
+simply a grouped Gibbs sampler. The second one, called partially marginalized
+sampler, is obtained by integrating the Gaussian amplitudes out of the target
+distribution. While the mathematical validity of the first scheme is obvious as
+a particular instance of the Gibbs sampler, a more detailed analysis is
+provided to prove the validity of the second scheme.
+  For both methods, optimized implementations are proposed in terms of
+computation and storage cost. Finally, simulation results validate both schemes
+as more efficient in terms of convergence time compared with the plain Gibbs
+sampler. Benchmark sequence simulations show that the partially marginalized
+sampler takes fewer iterations to converge than the $K$-tuple Gibbs sampler.
+However, its computation load per iteration grows almost quadratically with
+respect to the data length, while it only grows linearly for the $K$-tuple
+Gibbs sampler.

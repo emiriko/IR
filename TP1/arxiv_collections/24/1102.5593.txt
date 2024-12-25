@@ -1,0 +1,13 @@
+Kolmogorov-Smirnov (K-S) test-a non-parametric method to measure the goodness
+of fit, is applied for automatic modulation classification (AMC) in this paper.
+The basic procedure involves computing the empirical cumulative distribution
+function (ECDF) of some decision statistic derived from the received signal,
+and comparing it with the CDFs of the signal under each candidate modulation
+format. The K-S-based modulation classifier is first developed for AWGN
+channel, then it is applied to OFDM-SDMA systems to cancel multiuser
+interference. Regarding the complexity issue of K-S modulation classification,
+we propose a low-complexity method based on the robustness of the K-S
+classifier. Extensive simulation results demonstrate that compared with the
+traditional cumulant-based classifiers, the proposed K-S classifier offers
+superior classification performance and requires less number of signal samples
+(thus is fast).

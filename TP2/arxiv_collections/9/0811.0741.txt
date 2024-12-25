@@ -1,0 +1,13 @@
+With the multiplication of XML data sources, many XML data warehouse models
+have been proposed to handle data heterogeneity and complexity in a way
+relational data warehouses fail to achieve. However, XML-native database
+systems currently suffer from limited performances, both in terms of manageable
+data volume and response time. Fragmentation helps address both these issues.
+Derived horizontal fragmentation is typically used in relational data
+warehouses and can definitely be adapted to the XML context. However, the
+number of fragments produced by classical algorithms is difficult to control.
+In this paper, we propose the use of a k-means-based fragmentation approach
+that allows to master the number of fragments through its $k$ parameter. We
+experimentally compare its efficiency to classical derived horizontal
+fragmentation algorithms adapted to XML data warehouses and show its
+superiority.

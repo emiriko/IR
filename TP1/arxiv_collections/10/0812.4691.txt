@@ -1,0 +1,17 @@
+We present a mesh refinement algorithm for detecting singularities of
+time-dependent partial differential equations. The main idea behind the
+algorithm is to treat the occurrence of singularities of time-dependent partial
+differential equations as phase transitions. We show how the mesh refinement
+algorithm can be used to calculate the blow-up rate as we approach the
+singularity. This calculation can be done in three different ways: i) the
+direct approach where one monitors the blowing-up quantity as it approaches the
+singularity and uses the data to calculate the blow-up rate ; ii) the "phase
+transition" approach (\`a la Wilson) where one treats the singularity as a
+fixed point of the renormalization flow equation and proceeds to compute the
+blow-up rate via an analysis in the vicinity of the fixed point and iii) the
+"scaling" approach (\`a la Widom-Kadanoff) where one postulates the existence
+of scaling laws for different quantities close to the singularity, computes the
+associated exponents and then uses them to estimate the blow-up rate. Our
+algorithm allows a unified presentation of these three approaches. The inviscid
+Burgers equation and the supercritical Schrodinger equation are used as
+instructive examples to illustrate the constructions.

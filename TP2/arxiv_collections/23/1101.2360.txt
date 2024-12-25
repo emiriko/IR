@@ -1,0 +1,21 @@
+Given a polygon and a visibility range, the Myopic Watchman Problem with
+Discrete Vision (MWPDV) asks for a closed path P and a set of scan points S,
+such that (i) every point of the polygon is within visibility range of a scan
+point; and (ii) path length plus weighted sum of scan number along the tour is
+minimized. Alternatively, the bicriteria problem (ii') aims at minimizing both
+scan number and tour length. We consider both lawn mowing (in which tour and
+scan points may leave P) and milling (in which tour, scan points and visibility
+must stay within P) variants for the MWPDV; even for simple special cases,
+these problems are NP-hard.
+  We show that this problem is NP-hard, even for the special cases of
+rectilinear polygons and L_\infty scan range 1, and negligible small travel
+cost or negligible travel cost. For rectilinear MWPDV milling in grid polygons
+we present a 2.5-approximation with unit scan range; this holds for the
+bicriteria version, thus for any linear combination of travel cost and scan
+cost. For grid polygons and circular unit scan range, we describe a bicriteria
+4-approximation. These results serve as stepping stones for the general case of
+circular scans with scan radius r and arbitrary polygons of feature size a, for
+which we extend the underlying ideas to a pi(r/a}+(r+1)/2) bicriteria
+approximation algorithm. Finally, we describe approximation schemes for MWPDV
+lawn mowing and milling of grid polygons, for fixed ratio between scan cost and
+travel cost.

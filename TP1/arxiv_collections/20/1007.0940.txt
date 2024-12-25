@@ -1,0 +1,21 @@
+Classic decision-theory is based on the maximum expected utility (MEU)
+principle, but crucially ignores the resource costs incurred when determining
+optimal decisions. Here we propose an axiomatic framework for bounded
+decision-making that considers resource costs. Agents are formalized as
+probability measures over input-output streams. We postulate that any such
+probability measure can be assigned a corresponding conjugate utility function
+based on three axioms: utilities should be real-valued, additive and monotonic
+mappings of probabilities. We show that these axioms enforce a unique
+conversion law between utility and probability (and thereby, information).
+Moreover, we show that this relation can be characterized as a variational
+principle: given a utility function, its conjugate probability measure
+maximizes a free utility functional. Transformations of probability measures
+can then be formalized as a change in free utility due to the addition of new
+constraints expressed by a target utility function. Accordingly, one obtains a
+criterion to choose a probability measure that trades off the maximization of a
+target utility function and the cost of the deviation from a reference
+distribution. We show that optimal control, adaptive estimation and adaptive
+control problems can be solved this way in a resource-efficient way. When
+resource costs are ignored, the MEU principle is recovered. Our formalization
+might thus provide a principled approach to bounded rationality that
+establishes a close link to information theory.

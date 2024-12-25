@@ -1,0 +1,13 @@
+We consider quantum learning machines -- quantum computers that modify
+themselves in order to improve their performance in some way -- that are
+trained to perform certain classical task, i.e. to execute a function which
+takes classical bits as input and returns classical bits as output. This allows
+a fair comparison between learning efficiency of quantum and classical learning
+machine in terms of the number of iterations required for completion of
+learning. We find an explicit example of the task for which numerical
+simulations show that quantum learning is faster than its classical
+counterpart. The task is extraction of the k-th root of NOT (NOT = logical
+negation), with k=2^m and m \in N. The reason for this speed-up is that
+classical machine requires memory of size log k=m to accomplish the learning,
+while the memory of a single qubit is sufficient for the quantum machine for
+any k.

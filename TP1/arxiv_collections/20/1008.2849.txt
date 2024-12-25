@@ -1,0 +1,13 @@
+Sorting algorithms are the deciding factor for the performance of common
+operations such as removal of duplicates or database sort-merge joins. This
+work focuses on 32-bit integer keys, optionally paired with a 32-bit value. We
+present a fast radix sorting algorithm that builds upon a
+microarchitecture-aware variant of counting sort. Taking advantage of virtual
+memory and making use of write-combining yields a per-pass throughput
+corresponding to at least 88 % of the system's peak memory bandwidth. Our
+implementation outperforms Intel's recently published radix sort by a factor of
+1.5. It also compares favorably to the reported performance of an algorithm for
+Fermi GPUs when data-transfer overhead is included. These results indicate that
+scalar, bandwidth-sensitive sorting algorithms remain competitive on current
+architectures. Various other memory-intensive applications can benefit from the
+techniques described herein.

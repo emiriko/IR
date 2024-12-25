@@ -1,0 +1,11 @@
+We adapt multilevel, force-directed graph layout techniques to visualizing
+dynamic graphs in which vertices and edges are added and removed in an online
+fashion (i.e., unpredictably). We maintain multiple levels of coarseness using
+a dynamic, randomized coarsening algorithm. To ensure the vertices follow
+smooth trajectories, we employ dynamics simulation techniques, treating the
+vertices as point particles. We simulate fine and coarse levels of the graph
+simultaneously, coupling the dynamics of adjacent levels. Projection from
+coarser to finer levels is adaptive, with the projection determined by an
+affine transformation that evolves alongside the graph layouts. The result is a
+dynamic graph visualizer that quickly and smoothly adapts to changes in a
+graph.

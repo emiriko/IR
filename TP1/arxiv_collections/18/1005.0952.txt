@@ -1,0 +1,18 @@
+Voice over Internet protocol (VoIP) is one of the most important applications
+for the IEEE 802.11 wireless local area networks (WLANs). For network planners
+who are deploying VoIP over WLANs, one of the important issues is the VoIP
+capacity. VoIP bandwidth consumption over a WAN is one of the most important
+factors to consider when building a VoIP infrastructure. Failure to account for
+VoIP bandwidth requirements will severely limit the reliability of a VoIP
+system and place a huge burden on the WAN infrastructure. Less bandwidth
+utilization is the key reasons for reduced number of channel accesses in VOIP.
+But in the QoS point of view the free bandwidth of atleast 1-5% will improve
+the voice quality. This proposal utilizes the maximum bandwidth by leaving 1-5%
+free bandwidth. A Bandwidth Data rate Moderation (BDM) algorithm has been
+proposed which correlates the data rate specified in IEEE802.11b with the free
+bandwidth. At each time BDM will calculate the bandwidth utilization before
+sending the packet to improve performance and voice quality of VoIP. The
+bandwidth calculation in BDM can be done by using Erlang and VOIP bandwidth
+calculator. Finally, ns2 experimental study shows the relationship between
+bandwidth utilization, free bandwidth and data rate. The paper concludes that
+marginal VoIP call rate has been increased by BDM algorithm.

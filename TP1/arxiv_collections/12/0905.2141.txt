@@ -1,0 +1,17 @@
+In this work we study the validity of the so-called curse of dimensionality
+for indexing of databases for similarity search. We perform an asymptotic
+analysis, with a test model based on a sequence of metric spaces $(\Omega_d)$
+from which we pick datasets $X_d$ in an i.i.d. fashion. We call the subscript
+$d$ the dimension of the space $\Omega_d$ (e.g. for $\mathbb{R}^d$ the
+dimension is just the usual one) and we allow the size of the dataset $n=n_d$
+to be such that $d$ is superlogarithmic but subpolynomial in $n$.
+  We study the asymptotic performance of pivot-based indexing schemes where the
+number of pivots is $o(n/d)$. We pick the relatively simple cost model of
+similarity search where we count each distance calculation as a single
+computation and disregard the rest.
+  We demonstrate that if the spaces $\Omega_d$ exhibit the (fairly common)
+concentration of measure phenomenon the performance of similarity search using
+such indexes is asymptotically linear in $n$. That is for large enough $d$ the
+difference between using such an index and performing a search without an index
+at all is negligeable. Thus we confirm the curse of dimensionality in this
+setting.

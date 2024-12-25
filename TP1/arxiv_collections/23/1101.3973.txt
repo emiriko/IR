@@ -1,0 +1,17 @@
+The subject of this work is the patrolling of an environment with the aid of
+a team of autonomous agents. We consider both the design of open-loop
+trajectories with optimal properties, and of distributed control laws
+converging to optimal trajectories. As performance criteria, the refresh time
+and the latency are considered, i.e., respectively, time gap between any two
+visits of the same region, and the time necessary to inform every agent about
+an event occurred in the environment. We associate a graph with the
+environment, and we study separately the case of a chain, tree, and cyclic
+graph. For the case of chain graph, we first describe a minimum refresh time
+and latency team trajectory, and we propose a polynomial time algorithm for its
+computation. Then, we describe a distributed procedure that steers the robots
+toward an optimal trajectory. For the case of tree graph, a polynomial time
+algorithm is developed for the minimum refresh time problem, under the
+technical assumption of a constant number of robots involved in the patrolling
+task. Finally, we show that the design of a minimum refresh time trajectory for
+a cyclic graph is NP-hard, and we develop a constant factor approximation
+algorithm.

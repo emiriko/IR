@@ -1,0 +1,24 @@
+We discuss the DISORT-based radiative transfer pipeline ('CRISM_LambertAlb')
+for atmospheric and thermal correction of MRO/CRISM data acquired in
+multispectral mapping mode (~200 m/pixel, 72 spectral channels). Currently, in
+this phase-one version of the system, we use aerosol optical depths, surface
+temperatures, and lower-atmospheric temperatures, all from climatology derived
+from Mars Global Surveyor Thermal Emission Spectrometer (MGS-TES) data, and
+surface altimetry derived from MGS Mars Orbiter Laser Altimeter (MOLA). The
+DISORT-based model takes as input the dust and ice aerosol optical depths
+(scaled to the CRISM wavelength range), the surface pressures (computed from
+MOLA altimetry, MGS-TES lower-atmospheric thermometry, and Viking-based
+pressure climatology), the surface temperatures, the reconstructed instrumental
+photometric angles, and the measured I/F spectrum, and then outputs a
+Lambertian albedo spectrum. The Lambertian albedo spectrum is valuable
+geologically since it allows the mineralogical composition to be estimated.
+Here, I/F is defined as the ratio of the radiance measured by CRISM to the
+solar irradiance at Mars divided by $\pi$. After discussing the capabilities
+and limitations of the pipeline software system, we demonstrate its application
+on several multispectral data cubes: the outer northern ice cap of Mars,
+Tyrrhena Terra, and near the landing site for the Phoenix mission. For the icy
+spectra near the northern polar cap, aerosols need to be included in order to
+properly correct for the CO_2 absorption in the H_{2}O ice bands at wavelengths
+near 2.0 $\mu$m. In future phases of software development, we intend to use
+CRISM data directly in order to retrieve the spatiotemporal maps of aerosol
+optical depths, surface pressure and surface temperature.

@@ -1,0 +1,20 @@
+One approach to estimating a species tree from a collection of gene trees is
+to first estimate probabilities of clades from the gene trees, and then to
+construct the species tree from the estimated clade probabilities. While a
+greedy consensus algorithm, which consecutively accepts the most probable
+clades compatible with previously accepted clades, can be used for this second
+stage, this method is known to be statistically inconsistent under the
+multispecies coalescent model. This raises the question of whether it is
+theoretically possible to reconstruct the species tree from known probabilities
+of clades on gene trees. We investigate clade probabilities arising from the
+multispecies coalescent model, with an eye toward identifying features of the
+species tree. Clades on gene trees with probability greater than 1/3 are shown
+to reflect clades on the species tree, while those with smaller probabilities
+may not. Linear invariants of clade probabilities are studied both
+computationally and theoretically, with certain linear invariants giving
+insight into the clade structure of the species tree. For species trees with
+generic edge lengths, these invariants can be used to identify the species tree
+topology. These theoretical results both confirm that clade probabilities
+contain full information on the species tree topology and suggest future
+directions of study for developing statistically consistent inference methods
+from clade frequencies on gene trees.

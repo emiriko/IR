@@ -1,0 +1,12 @@
+This article presents a distributed algorithm for a group of robotic agents
+with omnidirectional vision to deploy into nonconvex polygonal environments
+with holes. Agents begin deployment from a common point, possess no prior
+knowledge of the environment, and operate only under line-of-sight sensing and
+communication. The objective of the deployment is for the agents to achieve
+full visibility coverage of the environment while maintaining line-of-sight
+connectivity with each other. This is achieved by incrementally partitioning
+the environment into distinct regions, each completely visible from some agent.
+Proofs are given of (i) convergence, (ii) upper bounds on the time and number
+of agents required, and (iii) bounds on the memory and communication
+complexity. Simulation results and description of robust extensions are also
+included.

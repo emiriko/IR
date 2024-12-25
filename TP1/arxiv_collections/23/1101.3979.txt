@@ -1,0 +1,20 @@
+Network coding permits to deploy distributed packet delivery algorithms that
+locally adapt to the network availability in media streaming applications.
+However, it may also increase delay and computational complexity if it is not
+implemented efficiently. We address here the effective placement of nodes that
+implement randomized network coding in overlay networks, so that the goodput is
+kept high while the delay for decoding stays small in streaming applications.
+We first estimate the decoding delay at each client, which depends on the
+innovative rate in the network. This estimation permits to identify the nodes
+that have to perform coding for a reduced decoding delay. We then propose two
+iterative algorithms for selecting the nodes that should perform network
+coding. The first algorithm relies on the knowledge of the full network
+statistics. The second algorithm uses only local network statistics at each
+node. Simulation results show that large performance gains can be achieved with
+the selection of only a few network coding nodes. Moreover, the second
+algorithm performs very closely to the central estimation strategy, which
+demonstrates that the network coding nodes can be selected efficiently in a
+distributed manner. Our scheme shows large gains in terms of achieved
+throughput, delay and video quality in realistic overlay networks when compared
+to methods that employ traditional streaming strategies as well as random
+network nodes selection algorithms.

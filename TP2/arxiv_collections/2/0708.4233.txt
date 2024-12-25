@@ -1,0 +1,14 @@
+We describe the universal Monte-Carlo event generator WHIZARD.
+  The program automatically computes complete tree-level matrix elements,
+integrates them over phase space, evaluates distributions of observables, and
+generates unweighted event samples that can be used directly in detector
+simulation. There is no principal limit on the process complexity; using
+current hardware, the program has successfully been applied to hard scattering
+processes with up to eight particles in the final state. Matrix elements are
+computed as helicity amplitudes, so spin and color correlations are retained.
+The Standard Model, the MSSM, and many alternative models such as Little Higgs,
+anomalous couplings, or effects of extra dimensions or noncommutative SM
+extensions have been implemented. Using standard interfaces to PDF,
+beamstrahlung, parton shower and hadronization programs, WHIZARD generates
+complete physical events and covers physics at hadron, lepton, and photon
+colliders.

@@ -1,0 +1,10 @@
+We investigate convergence properties of a proposed distributed model
+predictive control (DMPC) scheme, where agents negotiate to compute an optimal
+consensus point using an incremental subgradient method based on primal
+decomposition as described in Johansson et al. [2006, 2007]. The objective of
+the distributed control strategy is to agree upon and achieve an optimal common
+output value for a group of agents in the presence of constraints on the agent
+dynamics using local predictive controllers. Stability analysis using a
+receding horizon implementation of the distributed optimal consensus scheme is
+performed. Conditions are given under which convergence can be obtained even if
+the negotiations do not reach full consensus.

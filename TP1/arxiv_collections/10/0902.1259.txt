@@ -1,0 +1,12 @@
+Recently, different works proposed a new way to mine patterns in databases
+with pathological size. For example, experiments in genome biology usually
+provide databases with thousands of attributes (genes) but only tens of objects
+(experiments). In this case, mining the "transposed" database runs through a
+smaller search space, and the Galois connection allows to infer the closed
+patterns of the original database. We focus here on constrained pattern mining
+for those unusual databases and give a theoretical framework for database and
+constraint transposition. We discuss the properties of constraint transposition
+and look into classical constraints. We then address the problem of generating
+the closed patterns of the original database satisfying the constraint,
+starting from those mined in the "transposed" database. Finally, we show how to
+generate all the patterns satisfying the constraint from the closed ones.

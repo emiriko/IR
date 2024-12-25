@@ -1,0 +1,11 @@
+Monte Carlo methods can provide accurate p-value estimates of word counting
+test statistics and are easy to implement. They are especially attractive when
+an asymptotic theory is absent or when either the search sequence or the word
+pattern is too short for the application of asymptotic formulae. Naive direct
+Monte Carlo is undesirable for the estimation of small probabilities because
+the associated rare events of interest are seldom generated. We propose instead
+efficient importance sampling algorithms that use controlled insertion of the
+desired word patterns on randomly generated sequences. The implementation is
+illustrated on word patterns of biological interest: Palindromes and inverted
+repeats, patterns arising from position specific weight matrices and
+co-occurrences of pairs of motifs.

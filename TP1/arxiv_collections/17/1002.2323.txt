@@ -1,0 +1,23 @@
+We introduce a quasi-geostrophic model of core dynamics, which aims at
+describing core processes on geomagnetic secular variation timescales. It
+extends the formalism of Alfv\'en torsional oscillations by incorporating
+non-zonal motions. Within this framework, the magnetohydrodynamics takes place
+in the equatorial plane; it involves quadratic magnetic quantities, which are
+averaged along the direction of rotation of the Earth. In addition, the
+equatorial flow is projected on the core-mantle boundary. It interacts with the
+magnetic field at the core surface, through the radial component of the
+magnetic induction equation. That part of the model connects the dynamics and
+the observed secular variation, with the radial component of the magnetic field
+acting as a passive tracer. We resort to variational data assimilation to
+construct formally the relationship between model predictions and observations.
+Variational data assimilation seeks to minimize an objective function, by
+computing its sensitivity to its control variables. The sensitivity is
+efficiently calculated after integration of the adjoint model. We illustrate
+that framework with twin experiments, performed first in the case of the
+kinematic core flow inverse problem, and then in the case of Alfv\'en torsional
+oscillations. In both cases, using the adjoint model allows us to retrieve core
+state variables which, while taking part in the dynamics, are not directly
+sampled at the core surface. We study the effect of several factors on the
+solution (width of the assimilation time window, amount and quality of data),
+and we discuss the potential of the model to deal with real geomagnetic
+observations.

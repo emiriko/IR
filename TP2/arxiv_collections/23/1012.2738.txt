@@ -1,0 +1,18 @@
+A q-query locally testable code (LTC) is an error correcting code that can be
+tested by a randomized algorithm that reads at most q symbols from the given
+word. An important question is whether there exist LTCs that have the
+ccc-property: constant relative rate, constant relative distance, and that can
+be tested with a constant number of queries. Such codes are sometimes referred
+to as "asymptotically good".
+  We show that dense LTCs cannot be ccc. The density of a tester is roughly the
+average number of distinct local views in which a coordinate participates. An
+LTC is dense if it has a tester with density >> 1.
+  More precisely, we show that a 3-query locally testable code with a tester of
+density >> 1 cannot be ccc. Moreover, we show that a q-query locally testable
+code (q>3) with a tester of density >> n^{q-2} cannot be ccc. Our results hold
+when the tester has the following two properties: 1) "no weights": Every
+q-tuple of queries occurs with the same probability. 2) "last-one-fixed": In
+every `test' of the tester, the value to any q-1 of the symbols determines the
+value of the last symbol. (Linear codes have constraints of this type).
+  We also show that several natural ways to quantitatively improve our results
+would already resolve the general ccc-question, i.e. also for non-dense LTCs.

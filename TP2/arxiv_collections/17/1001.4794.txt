@@ -1,0 +1,24 @@
+We present a stable and convergent method for studying a system of gas and
+dust, coupled through viscous drag in both non-stiff and stiff regimes. To
+account for the effects of dust drag in the update of the fluid quantities, we
+employ a fluid description of the dust component and study the modified
+gas-dust hyperbolic system following the approach in Miniati & Colella (2007).
+In addition to two entropy waves for the gas and dust components, respectively,
+the extended system includes three waves driven partially by gas pressure and
+partially by dust drift, which, in the limit of vanishing coupling, tend to the
+two original acoustic waves and the unhindered dust streaming. Based on this
+analysis we formulate a predictor step providing first order accurate
+reconstruction of the time-averaged state variables at cell interfaces, whence
+a second order accurate estimate of the conservative fluxes can be obtained
+through a suitable linearized Riemann solver. The final source term update is
+carried out using a one-step, second order accurate, L-stable, predictor
+corrector asymptotic method (the alpha-QSS method suggested by Mott et. al.
+2000). This procedure completely defines a two-fluid method for gas-dust
+system. Using the updated fluid solution allows us to then advance the
+individual particle solutions, including self-consistently the time evolution
+of the gas velocity in the estimate of the drag force. This is done with a
+suitable particle scheme also based on the alpha-QSS method. A set of benchmark
+problems shows that our method is stable and convergent. When dust is modeled
+as a fluid (two-fluid) second order accuracy is achieved in both stiff and
+non-stiff regimes, whereas when dust is modeled with particles (hybrid) second
+order is achieved in the non-stiff regime and first order otherwise.

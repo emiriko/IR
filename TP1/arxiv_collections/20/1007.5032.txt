@@ -1,0 +1,25 @@
+We study combinatorial auctions for the secondary spectrum market. In this
+market, short-term licenses shall be given to wireless nodes for communication
+in their local neighborhood. In contrast to the primary market, channels can be
+assigned to multiple bidders, provided that the corresponding devices are well
+separated such that the interference is sufficiently low. Interference
+conflicts are described in terms of a conflict graph in which the nodes
+represent the bidders and the edges represent conflicts such that the feasible
+allocations for a channel correspond to the independent sets in the conflict
+graph.
+  In this paper, we suggest a novel LP formulation for combinatorial auctions
+with conflict graph using a non-standard graph parameter, the so-called
+inductive independence number. Taking into account this parameter enables us to
+bypass the well-known lower bound of \Omega(n^{1-\epsilon}) on the
+approximability of independent set in general graphs with n nodes (bidders). We
+achieve significantly better approximation results by showing that interference
+constraints for wireless networks yield conflict graphs with bounded inductive
+independence number.
+  Our framework covers various established models of wireless communication,
+e.g., the protocol or the physical model. For the protocol model, we achieve an
+O(\sqrt{k})-approximation, where k is the number of available channels. For the
+more realistic physical model, we achieve an O(\sqrt{k} \log^2 n) approximation
+based on edge-weighted conflict graphs. Combining our approach with the the
+LP-based framework of Lavi and Swamy, we obtain incentive compatible mechanisms
+for general bidders with arbitrary valuations on bundles of channels specified
+in terms of demand oracles.

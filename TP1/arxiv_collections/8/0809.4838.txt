@@ -1,0 +1,13 @@
+In this paper, we consider the back and forth nudging algorithm that has been
+introduced for data assimilation purposes. It consists of iteratively and
+alternately solving forward and backward in time the model equation, with a
+feedback term to the observations. We consider the case of 1-dimensional
+transport equations, either viscous or inviscid, linear or not (B\"urgers'
+equation). Our aim is to prove some theoretical results on the convergence, and
+convergence properties, of this algorithm. We show that for non viscous
+equations (both linear transport and Burgers), the convergence of the algorithm
+holds under observability conditions. Convergence can also be proven for
+viscous linear transport equations under some strong hypothesis, but not for
+viscous Burgers' equation. Moreover, the convergence rate is always exponential
+in time. We also notice that the forward and backward system of equations is
+well posed when no nudging term is considered.

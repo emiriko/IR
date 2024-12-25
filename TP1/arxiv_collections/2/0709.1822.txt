@@ -1,0 +1,12 @@
+In this paper we report on a novel simulation tool designed for the 3D
+coupled electro-thermal simulation of Smart Power Mosfets, that is a tool
+capable of taking into account not only the electrical (and thermal) behaviour
+of the power device but also the different driving strategies as they are
+imposed by a control logic circuit which usually resides on the same chip. The
+simulator is fully developed under Matlab and solves, self consistently, the 3D
+heat equation with proper boundary conditions and heat sources. An adaptive
+meshing algorithm based on temperature gradients and an optimized time stepping
+strategy have also been developed to reduce computational load and speed up
+simulation time without loosing accuracy. To validate this approach, simulator
+results are finally compared to experimental data obtained on a commercial
+Smart Power device used in automotive applications.

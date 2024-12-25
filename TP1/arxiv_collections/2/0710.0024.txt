@@ -1,0 +1,13 @@
+The efficiency of statistical sampling in broad-histogram Monte Carlo
+simulations can be considerably improved by optimizing the simulated extended
+ensemble for fastest equilibration. Here we describe how a recently developed
+feedback algorithm can be generalized to find optimized sampling distributions
+for the simulation of quantum systems in the context of the stochastic series
+expansion (SSE) when defining an extended ensemble in the expansion order. If
+the chosen update method is efficient, such as non-local updates for systems
+undergoing a second-order phase transition, the optimized ensemble is
+characterized by a flat histogram in the expansion order if a variable-length
+formulation of the SSE is used. Whenever the update method suffers from
+slowdown, such as at a first-order phase transition, the feedback algorithm
+shifts weight towards the expansion orders in the transition region, resulting
+in a non-uniform histogram.

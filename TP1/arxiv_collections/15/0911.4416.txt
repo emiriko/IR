@@ -1,0 +1,13 @@
+Land cover classification using multispectral satellite image is a very
+challenging task with numerous practical applications. We propose a multi-stage
+classifier that involves fuzzy rule extraction from the training data and then
+generation of a possibilistic label vector for each pixel using the fuzzy rule
+base. To exploit the spatial correlation of land cover types we propose four
+different information aggregation methods which use the possibilistic class
+label of a pixel and those of its eight spatial neighbors for making the final
+classification decision. Three of the aggregation methods use Dempster-Shafer
+theory of evidence while the remaining one is modeled after the fuzzy k-NN
+rule. The proposed methods are tested with two benchmark seven channel
+satellite images and the results are found to be quite satisfactory. They are
+also compared with a Markov random field (MRF) model-based contextual
+classification method and found to perform consistently better.

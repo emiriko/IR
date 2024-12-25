@@ -1,0 +1,13 @@
+We consider simulating the BCS Hamiltonian, a model of low temperature
+superconductivity, on a quantum computer. In particular we consider conducting
+the simulation on the qubus quantum computer, which uses a continuous variable
+ancilla to generate interactions between qubits. We demonstrate an O(N^3)
+improvement over previous work conducted on an NMR computer [PRL 89 057904
+(2002) & PRL 97 050504 (2006)] for the nearest neighbour and completely general
+cases. We then go on to show methods to minimise the number of operations
+needed per time step using the qubus in three cases; a completely general case,
+a case of exponentially decaying interactions and the case of fixed range
+interactions. We make these results controlled on an ancilla qubit so that we
+can apply the phase estimation algorithm, and hence show that when N \geq 5,
+our qubus simulation requires significantly less operations that a similar
+simulation conducted on an NMR computer.

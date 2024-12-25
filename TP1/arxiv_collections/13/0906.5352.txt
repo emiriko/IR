@@ -1,0 +1,23 @@
+Resistivity and viscosity have a significant role in establishing the energy
+levels in turbulence driven by the magnetorotational instability (MRI) in local
+astrophysical disk models. This study uses the Athena code to characterize the
+effects of a constant shear viscosity \nu and Ohmic resistivity \eta in
+unstratified shearing box simulations with a net toroidal magnetic flux. A
+previous study of shearing boxes with zero net magnetic field performed with
+the ZEUS code found that turbulence dies out for values of the magnetic Prandtl
+number, P_m = \nu/\eta, below P_m \sim 1; for P_m \gtrsim 1, time- and
+volume-averaged stress levels increase with P_m. We repeat these experiments
+with Athena and obtain consistent results. Next, the influence of viscosity and
+resistivity on the toroidal field MRI is investigated both for linear growth
+and for fully-developed turbulence. In the linear regime, a sufficiently large
+\nu or \eta can prevent MRI growth; P_m itself has little direct influence on
+growth from linear perturbations. By applying a range of values for \nu and
+\eta to an initial state consisting of fully developed turbulence in the
+presence of a background toroidal field, we investigate their effects in the
+fully nonlinear system. Here, increased viscosity enhances the turbulence, and
+the turbulence decays only if the resistivity is above a critical value;
+turbulence can be sustained even when P_m < 1, in contrast to the zero net
+field model. While we find preliminary evidence that the stress converges to a
+small range of values when \nu and \eta become small enough, the influence of
+dissipation terms on MRI-driven turbulence for relatively large \eta and \nu is
+significant, independent of field geometry.

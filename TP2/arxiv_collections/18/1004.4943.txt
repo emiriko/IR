@@ -1,0 +1,12 @@
+Eikonal, or ray tracing, methods are commonly used to estimate the
+propagation of radio frequency fields in plasmas. While the information gained
+from the rays is quite useful, an approximate solution for the fields would
+also be valuable, e.g., for comparison to full wave simulations. Such
+approximations are often difficult to perform numerically because of the
+special care which must be taken to correctly reconstruct the fields near
+reflection and focusing caustics. In this paper, we compare the standard
+eikonal method for approximating fields to a method based on the dynamics of
+wave packets. We compare the approximations resulting from these two methods to
+the analytical solution for a lower hybrid wave reflecting from a cutoff. The
+algorithm based on wave packets has the advantage that it can correctly deal
+with caustics, without any special treatment.

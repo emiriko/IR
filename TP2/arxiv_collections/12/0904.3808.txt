@@ -1,0 +1,15 @@
+Approximately over 50 million people worldwide suffer from epilepsy.
+Traditional diagnosis of epilepsy relies on tedious visual screening by highly
+trained clinicians from lengthy EEG recording that contains the presence of
+seizure (ictal) activities. Nowadays, there are many automatic systems that can
+recognize seizure-related EEG signals to help the diagnosis. However, it is
+very costly and inconvenient to obtain long-term EEG data with seizure
+activities, especially in areas short of medical resources. We demonstrate in
+this paper that we can use the interictal scalp EEG data, which is much easier
+to collect than the ictal data, to automatically diagnose whether a person is
+epileptic. In our automated EEG recognition system, we extract three classes of
+features from the EEG data and build Probabilistic Neural Networks (PNNs) fed
+with these features. We optimize the feature extraction parameters and combine
+these PNNs through a voting mechanism. As a result, our system achieves an
+impressive 94.07% accuracy, which is very close to reported human recognition
+accuracy by experienced medical professionals.

@@ -1,0 +1,13 @@
+The codeword stabilized ("CWS") quantum codes formalism presents a unifying
+approach to both additive and nonadditive quantum error-correcting codes
+(arXiv:0708.1021). This formalism reduces the problem of constructing such
+quantum codes to finding a binary classical code correcting an error pattern
+induced by a graph state. Finding such a classical code can be very difficult.
+Here, we consider an algorithm which maps the search for CWS codes to a problem
+of identifying maximum cliques in a graph. While solving this problem is in
+general very hard, we prove three structure theorems which reduce the search
+space, specifying certain admissible and optimal ((n,K,d)) additive codes. In
+particular, we find there does not exist any ((7,3,3)) CWS code though the
+linear programming bound does not rule it out. The complexity of the CWS search
+algorithm is compared with the contrasting method introduced by Aggarwal and
+Calderbank (arXiv:cs/0610159).

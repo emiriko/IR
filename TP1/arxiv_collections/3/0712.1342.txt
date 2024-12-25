@@ -1,0 +1,10 @@
+Improving efficiency of importance sampler is at the center of research in
+Monte Carlo methods. While adaptive approach is usually difficult within the
+Markov Chain Monte Carlo framework, the counterpart in importance sampling can
+be justified and validated easily. We propose an iterative adaptation method
+for learning the proposal distribution of an importance sampler based on
+stochastic approximation. The stochastic approximation method can recruit
+general iterative optimization techniques like the minorization-maximization
+algorithm. The effectiveness of the approach in optimizing the Kullback
+divergence between the proposal distribution and the target is demonstrated
+using several simple examples.

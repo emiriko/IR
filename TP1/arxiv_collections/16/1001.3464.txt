@@ -1,0 +1,12 @@
+Compensating CSP (cCSP) is a language defined to model long running business
+transactions within the framework of standard CSP process algebra. In earlier
+work, we have defined both traces and operational semantics of the language. We
+have shown the consistency between the two semantic models by defining a
+relationship between them. Synchronization was missing from the earlier
+semantic definitions which is an important feature for any process algebra. In
+this paper, we address this issue by extending the syntax and semantics to
+support synchronization and define a relationship between the semantic models.
+Moreover, we improve the scalability of our proof technique by mechanically
+verifying the semantic relationship using theorem prover PVS. We show how to
+embed process algebra terms and semantics into PVS and to use these embeddings
+to prove the semantic relationship.

@@ -1,0 +1,17 @@
+The famous F5 algorithm for computing Gr\"obner basis was presented by
+Faug\`ere in 2002 without complete proofs for its correctness. The current
+authors have simplified the original F5 algorithm into an F5 algorithm in
+Buchberger's style (F5B algorithm), which is equivalent to original F5
+algorithm and may deduce some F5-like versions. In this paper, the F5B
+algorithm is briefly revisited and a new complete proof for the correctness of
+F5B algorithm is proposed. This new proof is not limited to homogeneous systems
+and does not depend on the strategy of selecting critical pairs (i.e. the
+strategy deciding which critical pair is computed first) such that any strategy
+could be utilized in F5B (F5) algorithm. From this new proof, we find that the
+special reduction procedure (F5-reduction) is the key of F5 algorithm, so
+maintaining this special reduction, various variation algorithms become
+available. A natural variation of F5 algorithm, which transforms original F5
+algorithm to a non-incremental algorithm, is presented and proved in this paper
+as well. This natural variation has been implemented over the Boolean ring. The
+two revised criteria in this natural variation are also able to reject almost
+all unnecessary computations and few polynomials reduce to 0 in most examples.

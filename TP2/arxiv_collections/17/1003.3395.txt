@@ -1,0 +1,17 @@
+We consider dimensional reduction techniques for the Liouville-von Neumann
+equation for the evaluation of the expectation values in a mixed quantum
+system. In applications such as nuclear spin dynamics the main goal for
+simulations is being able to simulate a system with as many spins as possible,
+for this reason it is very important to have an efficient method that scales
+well with respect to particle numbers. We describe several existing methods
+that have appeared in the literature, pointing out their limitations
+particularly in the setting of large systems. We introduce a method for direct
+computation of expectations via Chebyshev polynomials (DEC) based on evaluation
+of a trace formula combined with expansion in modified Chebyshev polynomials.
+This reduction is highly efficient and does not destroy any information. We
+demonstrate the practical application of the scheme for a nuclear spin system
+and compare with several alternatives, focusing on the performance of the
+various methods with increasing system dimension. Our method may be applied to
+autonomous quantum problems where the desired outcome of quantum simulation,
+rather than being a full description of the system dynamics, is only the
+expectation value of some given observable.

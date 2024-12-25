@@ -1,0 +1,24 @@
+We present a computational scheme to study spin excitations in magnetic
+materials from first principles. The central quantity is the transverse spin
+susceptibility, from which the complete excitation spectrum, including
+single-particle spin-flip Stoner excitations and collective spin-wave modes,
+can be obtained. The susceptibility is derived from many-body perturbation
+theory and includes dynamic correlation through a summation over ladder
+diagrams that describe the coupling of electrons and holes with opposite spins.
+In contrast to earlier studies, we do not use a model potential with adjustable
+parameters for the electron-hole interaction but employ the random-phase
+approximation. To reduce the numerical cost for the calculation of the
+four-point scattering matrix we perform a projection onto maximally localized
+Wannier functions, which allows us to truncate the matrix efficiently by
+exploiting the short spatial range of electronic correlation in the partially
+filled d or f orbitals. Our implementation is based on the FLAPW method.
+Starting from a ground-state calculation within the LSDA, we first analyze the
+matrix elements of the screened Coulomb potential in the Wannier basis for the
+3d transition-metal series. In particular, we discuss the differences between a
+constrained nonmagnetic and a proper spin-polarized treatment for the
+ferromagnets Fe, Co, and Ni. The spectrum of single-particle and collective
+spin excitations in fcc Ni is then studied in detail. The calculated spin-wave
+dispersion is in good overall agreement with experimental data and contains
+both an acoustic and an optical branch for intermediate wave vectors along the
+[100] direction. In addition, we find evidence for a similar double-peak
+structure in the spectral function along the [111] direction.

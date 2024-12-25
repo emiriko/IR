@@ -1,0 +1,13 @@
+Classifiers are often used to detect miscreant activities. We study how an
+adversary can systematically query a classifier to elicit information that
+allows the adversary to evade detection while incurring a near-minimal cost of
+modifying their intended malfeasance. We generalize the theory of Lowd and Meek
+(2005) to the family of convex-inducing classifiers that partition input space
+into two sets one of which is convex. We present query algorithms for this
+family that construct undetected instances of approximately minimal cost using
+only polynomially-many queries in the dimension of the space and in the level
+of approximation. Our results demonstrate that near-optimal evasion can be
+accomplished without reverse-engineering the classifier's decision boundary. We
+also consider general lp costs and show that near-optimal evasion on the family
+of convex-inducing classifiers is generally efficient for both positive and
+negative convexity for all levels of approximation if p=1.

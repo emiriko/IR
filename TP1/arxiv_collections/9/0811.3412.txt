@@ -1,0 +1,23 @@
+The quantum analogue of a constraint satisfaction problem is a sum of local
+Hamiltonians - each local Hamiltonian specifies a local constraint whose
+violation contributes to the energy of the given quantum state. Formalizing the
+intuitive connection between the ground (minimal) energy of the Hamiltonian and
+the minimum number of violated constraints is problematic, since the number of
+constraints being violated is not well defined when the terms in the
+Hamiltonian do not commute. The detectability lemma proved in this paper
+provides precisely such a quantitative connection. We apply the lemma to derive
+a quantum analogue of a basic primitive in classical complexity: amplification
+of probabilities by random walks on expander graphs. It holds under the
+restriction that the interaction graph of the local Hamiltonian is an expander.
+Our proofs are based on a novel structure imposed on the Hilbert space that we
+call the $XY$ decomposition, which enables a reduction from the quantum
+non-commuting case to the commuting case (where many classical arguments go
+through).
+  The results may have several interesting implications. First, proving a
+quantum analogue to the PCP theorem is one of the most important challenges in
+quantum complexity theory. Our quantum gap amplification lemma may be viewed as
+the quantum analogue of the first of the three main steps in Dinur's PCP proof.
+Quantum gap amplification may also be related to spectral gap amplification,
+and in particular, to fault tolerance of adiabatic computation. Finally, the
+detectability lemma, and the $XY$ decomposition provide a handle on the
+structure of local Hamiltonians and their ground states.

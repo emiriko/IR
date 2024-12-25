@@ -1,0 +1,16 @@
+In many systems, the time scales of the microscopic dynamics and macroscopic
+dynamics of interest are separated by many orders of magnitude. Examples
+abound, for instance nucleation, protein folding, and chemical reactions. For
+these systems, direct simulation of phase space trajectories does not
+efficiently determine most physical quantities of interest. The last decade has
+seen the advent of methods circumventing brute force simulation. For most
+dynamical quantities, these methods all share the drawback of systematical
+errors. We present a novel method for generating ensembles of phase space
+trajectories. By sampling small pieces of these trajectories in different phase
+space domains and piecing them together in a smart way using equilibrium
+properties, we obtain physical quantities such as transition times. This method
+does not have any systematic error and is very efficient; the computational
+effort to calculate the first passage time across a free energy barrier does
+not increase with the height of the barrier. The strength of the method is
+shown in the Ising model. Accurate measurements of nucleation times span almost
+ten orders of magnitude and reveal corrections to classical nucleation theory.

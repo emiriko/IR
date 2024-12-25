@@ -1,0 +1,13 @@
+The mathematical interpretation of L0, L1 and L2 is needed to understand how
+we should use these norms for optimization problems. The L0 norm is
+combinatorics which is counting certain properties of an object or an operator.
+This is the least amplitude dependent norm since it is counted regardless of
+the magnitude. The L1 norm could be interpreted as minimal geometric
+description. It is somewhat sensitive to amplitude information. In geophysics,
+it has been used to edit outliers like spikes in seismic data. This is a good
+application of L1 norm. The L2 norm could be interpreted as the numerically
+simplest solution to fitting data with a differential equation. It is very
+sensitive to amplitude information. Previous application includes least square
+migration. In this paper, we will show how to combine the usage of L0 and L1
+and L2. We will not be optimizing the 3 norms simultaneously but will go from
+one norm to the next norm to optimize the data before the final migration.

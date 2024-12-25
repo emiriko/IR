@@ -1,0 +1,15 @@
+The dynamics of interacting structured populations can be modeled by
+$\frac{dx_i}{dt}= A_i (x)x_i$ where $x_i\in \R^{n_i}$, $x=(x_1,\dots,x_k)$, and
+$A_i(x)$ are matrices with non-negative off-diagonal entries. These models are
+permanent if there exists a positive global attractor and are robustly
+permanent if they remain permanent following perturbations of $A_i(x)$.
+Necessary and sufficient conditions for robust permanence are derived using
+dominant Lyapunov exponents $\lambda_i(\mu)$ of the $A_i(x)$ with respect to
+invariant measures $\mu$. The necessary condition requires $\max_i
+\lambda_i(\mu)>0$ for all ergodic measures with support in the boundary of the
+non-negative cone. The sufficient condition requires that the boundary admits a
+Morse decomposition such that $\max_i \lambda_i(\mu)>0$ for all invariant
+measures $\mu$ supported by a component of the Morse decomposition. When the
+Morse components are Axiom A, uniquely ergodic, or support all but one
+population, the necessary and sufficient conditions are equivalent.
+Applications to spatial ecology, epidemiology, and gene networks are given.

@@ -1,0 +1,10 @@
+In this paper, we propose a new method for impulse noise removal from images.
+It uses the sparsity of images in the Discrete Cosine Transform (DCT) domain.
+The zeros in this domain give us the exact mathematical equation to reconstruct
+the pixels that are corrupted by random-value impulse noises. The proposed
+method can also detect and correct the corrupted pixels. Moreover, in a simpler
+case that salt and pepper noise is the brightest and darkest pixels in the
+image, we propose a simpler version of our method. In addition to the proposed
+method, we suggest a combination of the traditional median filter method with
+our method to yield better results when the percentage of the corrupted samples
+is high.

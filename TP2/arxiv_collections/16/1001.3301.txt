@@ -1,0 +1,24 @@
+Context: Radiative feedback plays a crucial role in the formation of massive
+stars. The implementation of a fast and accurate description of the proceeding
+thermodynamics in pre-stellar cores and evolving accretion disks is therefore a
+main effort in current hydrodynamics simulations.
+  Aims: We introduce our newly implemented three-dimensional frequency
+dependent radiation transport algorithm for hydrodynamics simulations of
+spatial configurations with a dominant central source.
+  Methods: The module combines the advantage of the speed of an approximate
+Flux Limited Diffusion (FLD) solver with the high accuracy of a frequency
+dependent first order ray-tracing routine.
+  Results: We prove the viability of the scheme in a standard radiation
+benchmark test compared to a full frequency dependent Monte-Carlo based
+radiative transfer code. The setup includes a central star, a circumstellar
+flared disk, as well as an envelope. The test is performed for different
+optical depths. Considering the frequency dependence of the stellar
+irradiation, the temperature distributions can be described precisely in the
+optically thin, thick, and irradiated transition regions. Resulting radiative
+forces onto dust grains are reproduced with high accuracy. The achievable
+parallel speedup of the method imposes no restriction on further radiative
+(magneto-) hydrodynamics simulations.
+  Conclusions: The proposed approximate radiation transport method enables
+frequency dependent radiation hydrodynamics studies of the evolution of
+pre-stellar cores and circumstellar accretion disks around an evolving massive
+star in a highly efficient and accurate manner.

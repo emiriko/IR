@@ -1,0 +1,11 @@
+An arithmetically simple method has been developed for the evaluation of
+Biot--Savart integrals on tetrahedralized distributions of vorticity. In place
+of the usual approach of analytical formulae for the velocity induced by a
+linear distribution of vorticity on a tetrahedron, the integration is performed
+using Gaussian quadrature and a ray tracing technique from computer graphics.
+This eliminates completely the need for the evaluation of square roots,
+logarithms and arc tangents, and almost completely eliminates the requirement
+for trigonometric functions, with no operation more costly than a division
+required during the main calculation loop. An assessment of the algorithm's
+performance is presented, demonstrating its accuracy, second order convergence
+and near-linear speedup on parallel systems.

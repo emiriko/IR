@@ -1,0 +1,16 @@
+Missing data estimation is an important challenge with high-dimensional data
+arranged in the form of a matrix. Typically this data matrix is transposable,
+meaning that either the rows, columns or both can be treated as features. To
+model transposable data, we present a modification of the matrix-variate
+normal, the mean-restricted matrix-variate normal, in which the rows and
+columns each have a separate mean vector and covariance matrix. By placing
+additive penalties on the inverse covariance matrices of the rows and columns,
+these so-called transposable regularized covariance models allow for maximum
+likelihood estimation of the mean and nonsingular covariance matrices. Using
+these models, we formulate EM-type algorithms for missing data imputation in
+both the multivariate and transposable frameworks. We present theoretical
+results exploiting the structure of our transposable models that allow these
+models and imputation methods to be applied to high-dimensional data.
+Simulations and results on microarray data and the Netflix data show that these
+imputation techniques often outperform existing methods and offer a greater
+degree of flexibility.

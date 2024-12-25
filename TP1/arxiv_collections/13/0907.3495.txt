@@ -1,0 +1,11 @@
+We present a new class of high-order imaginary time propagators for
+path-integral Monte Carlo simulations by subtracting lower order propagators.
+By requiring all terms of the extrapolated propagator be sampled uniformly, the
+subtraction only affects the potential part of the path integral. The
+negligible violation of positivity of the resulting path integral at small time
+steps has no discernable affect on the accuracy of our method. Thus in
+principle arbitrarily high order algorithms can be devised for path-integral
+Monte Carlo simulations. We verify this claim is by showing that fourth, sixth,
+and eighth order convergence can indeed be achieved in solving for the ground
+state of strongly interacting quantum many-body systems such as bulk liquid
+$^4$He.

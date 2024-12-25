@@ -1,0 +1,11 @@
+We present a \emph{pairwise normal form} for finite-state shared memory
+concurrent programs: all variables are shared between exactly two processes,
+and the guards on transitions are conjunctions of conditions over this pairwise
+shared state. This representation has been used to efficiently (in polynomial
+time) synthesize and model-check correctness properties of concurrent programs.
+Our main result is that any finite state concurrent program can be transformed
+into pairwise normal form. Specifically, if $Q$ is an arbitrary finite-state
+shared memory concurrent program, then there exists a finite-state shared
+memory concurrent program $P$ expressed in pairwise normal form such that $P$
+is strongly bisimilar to $Q$. Our result is constructive: we give an algorithm
+for producing $P$, given $Q$.

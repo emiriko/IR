@@ -1,0 +1,22 @@
+Context. Mathematical optimization can be used as a computational tool to
+obtain the optimal solution to a given problem in a systematic and efficient
+way. For example, in twice-differentiable functions and problems with no
+constraints, the optimization consists of finding the points where the gradient
+of the objective function is zero and using the Hessian matrix to classify the
+type of each point. Sometimes, however it is impossible to compute these
+derivatives and other type of techniques must be employed such as the steepest
+descent/ascent method and more sophisticated methods such as those based on the
+evolutionary algorithms. Aims. We present a simple algorithm based on the idea
+of genetic algorithms (GA) for optimization. We refer to this algorithm as AGA
+(Asexual Genetic Algorithm) and apply it to two kinds of problems: the
+maximization of a function where classical methods fail and model fitting in
+astronomy. For the latter case, we minimize the chi-square function to estimate
+the parameters in two examples: the orbits of exoplanets by taking a set of
+radial velocity data, and the spectral energy distribution (SED) observed
+towards a YSO (Young Stellar Object). Methods. The algorithm AGA may also be
+called genetic, although it differs from standard genetic algorithms in two
+main aspects: a) the initial population is not encoded, and b) the new
+generations are constructed by asexual reproduction. Results. Applying our
+algorithm in optimizing some complicated functions, we find the global maxima
+within a few iterations. For model fitting to the orbits of exoplanets and the
+SED of a YSO, we estimate the parameters and their associated errors.

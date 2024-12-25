@@ -1,0 +1,13 @@
+We perform an error analysis for numerical approximation methods of
+continuous time Markov chain models commonly found in the chemistry and
+biochemistry literature. The motivation for the analysis is to be able to
+compare the accuracy of different approximation methods and, specifically,
+Euler tau-leaping and midpoint tau-leaping. We perform our analysis under a
+scaling in which the size of the time discretization is inversely proportional
+to some (bounded) power of the norm of the state of the system. We argue that
+this is a more appropriate scaling than that found in previous error analyses
+in which the size of the time discretization goes to zero independent of the
+rest of the model. Under the present scaling, we show that midpoint tau-leaping
+achieves a higher order of accuracy, in both a weak and a strong sense, than
+Euler tau-leaping; a result that is in contrast to previous analyses. We
+present examples that demonstrate our findings.

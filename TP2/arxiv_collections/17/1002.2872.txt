@@ -1,0 +1,15 @@
+The Plan Execution Interchange Language (PLEXIL) is a synchronous language
+developed by NASA to support autonomous spacecraft operations. In this paper,
+we propose a rewriting logic semantics of PLEXIL in Maude, a high-performance
+logical engine. The rewriting logic semantics is by itself a formal interpreter
+of the language and can be used as a semantic benchmark for the implementation
+of PLEXIL executives. The implementation in Maude has the additional benefit of
+making available to PLEXIL designers and developers all the formal analysis and
+verification tools provided by Maude. The formalization of the PLEXIL semantics
+in rewriting logic poses an interesting challenge due to the synchronous nature
+of the language and the prioritized rules defining its semantics. To overcome
+this difficulty, we propose a general procedure for simulating synchronous set
+relations in rewriting logic that is sound and, for deterministic relations,
+complete. We also report on two issues at the design level of the original
+PLEXIL semantics that were identified with the help of the executable
+specification in Maude.

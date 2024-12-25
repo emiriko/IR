@@ -1,0 +1,13 @@
+In this paper, we investigate the impact of T_{ox} and Vth on power
+performance trade-offs for on-chip caches. We start by examining the
+optimization of the various components of a single level cache and then extend
+this to two level cache systems. In addition to leakage, our studies also
+account for the dynamic power expanded as a result of cache misses. Our results
+show that one can often reduce overall power by increasing the size of the L2
+cache if we only allow one pair of Vth/T_{ox} in L2. However, if we allow the
+memory cells and the peripherals to have their own Vth's and T_{ox}'s, we show
+that a two-level cache system with smaller L2's will yield less total leakage.
+We further show that two Vth's and two T_{ox}'s are sufficient to get close to
+an optimal solution, and that Vth is generally a better design knob than T_{ox}
+for leakage optimization, thus it is better to restrict the number of T_{ox}'s
+rather than Vth's if cost is a concern.

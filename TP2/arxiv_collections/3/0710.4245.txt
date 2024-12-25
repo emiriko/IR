@@ -1,0 +1,17 @@
+In this paper we introduce a novel particle filter scheme for a class of
+partially-observed multivariate diffusions. %continuous-time dynamic models
+where the %signal is given by a multivariate diffusion process. We consider a
+variety of observation schemes, including diffusion observed with error,
+observation of a subset of the components of the multivariate diffusion and
+arrival times of a Poisson process whose intensity is a known function of the
+diffusion (Cox process). Unlike currently available methods, our particle
+filters do not require approximations of the transition and/or the observation
+density using time-discretisations. Instead, they build on recent methodology
+for the exact simulation of the diffusion process and the unbiased estimation
+of the transition density as described in \cite{besk:papa:robe:fear:2006}. %In
+particular, w We introduce the Generalised Poisson Estimator, which generalises
+the Poisson Estimator of \cite{besk:papa:robe:fear:2006}. %Thus, our filters
+avoid the systematic biases caused by %time-discretisations and they have
+significant computational %advantages over alternative continuous-time filters.
+These %advantages are supported theoretically by a A central limit theorem is
+given for our particle filter scheme.

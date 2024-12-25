@@ -1,0 +1,16 @@
+The multidimensional gas-kinetic scheme for the Navier-Stokes equations under
+gravitational fields [J. Comput. Phys. 226 (2007) 2003-2027] is extended to
+resistive magnetic flows. The non-magnetic part of the magnetohydrodynamics
+equations is calculated by a BGK solver modified due to magnetic field. The
+magnetic part is treated by the flux splitting method based gas-kinetic theory
+[J. Comput. Phys. 153 (1999) 334-352 ], using a particle distribution function
+constructed in the BGK solver. To include Lorentz force effects into gas
+evolution stage is very important to improve the accuracy of the scheme. For
+some multidimensional problems, the deviations tangential to the cell interface
+from equilibrium distribution are essential to keep the scheme robust and
+accurate. Besides implementation of a TVD time discretization scheme, enhancing
+the dynamic dissipation a little bit is a simply and efficient way to stabilize
+the calculation. One-dimensional and two-dimensional shock waves tests are
+calculated to validate this new scheme. A three-dimensional turbulent
+magneto-convection simulation is used to show the applicability of current
+scheme to complicated astrophysical flows.

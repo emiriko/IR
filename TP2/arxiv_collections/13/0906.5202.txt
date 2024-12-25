@@ -1,0 +1,15 @@
+In this article we introduce a broad family of adaptive, linear
+time-frequency representations termed superposition frames, and show that they
+admit desirable fast overlap-add reconstruction properties akin to standard
+short-time Fourier techniques. This approach stands in contrast to many
+adaptive time-frequency representations in the extant literature, which, while
+more flexible than standard fixed-resolution approaches, typically fail to
+provide efficient reconstruction and often lack the regular structure necessary
+for precise frame-theoretic analysis. Our main technical contributions come
+through the development of properties which ensure that this construction
+provides for a numerically stable, invertible signal representation. Our
+primary algorithmic contributions come via the introduction and discussion of
+specific signal adaptation criteria in deterministic and stochastic settings,
+based respectively on time-frequency concentration and nonstationarity
+detection. We conclude with a short speech enhancement example that serves to
+highlight potential applications of our approach.

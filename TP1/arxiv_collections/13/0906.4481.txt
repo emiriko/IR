@@ -1,0 +1,22 @@
+Memory corruption attacks remain the primary threat for computer security.
+Information flow tracking or taint analysis has been proven to be effective
+against most memory corruption attacks. However, there are two shortcomings
+with current taint analysis based techniques. First, these techniques cause
+application slowdown by about 76% thereby limiting their practicality. Second,
+these techniques cannot handle non-control data attacks i.e., attacks that do
+not overwrite control data such as return address, but instead overwrite
+critical application configuration data or user identity data. In this work, to
+address these problems, we describe a coarse-grained taint analysis technique
+that uses information flow tracking at the level of application data objects.
+We propagate a one-bit taint over each application object that is modified by
+untrusted data thereby reducing the taint management overhead considerably. We
+performed extensive experimental evaluation of our approach and show that it
+can detect all critical attacks such as buffer overflows, and format string
+attacks, including non-control data attacks. Unlike the currently known
+approaches that can detect such a wide range of attacks, our approach does not
+require the source code or any hardware extensions. Run-time performance
+overhead evaluation shows that, on an average, our approach causes application
+slowdown by only 37% which is an order of magnitude improvement over existing
+approaches. Finally, since our approach performs run-time binary
+instrumentation, it is easier to integrate it with existing applications and
+systems.

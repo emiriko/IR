@@ -1,0 +1,14 @@
+In the context of clustering, we assume a generative model where each cluster
+is the result of sampling points in the neighborhood of an embedded smooth
+surface; the sample may be contaminated with outliers, which are modeled as
+points sampled in space away from the clusters. We consider a prototype for a
+higher-order spectral clustering method based on the residual from a local
+linear approximation. We obtain theoretical guarantees for this algorithm and
+show that, in terms of both separation and robustness to outliers, it
+outperforms the standard spectral clustering algorithm (based on pairwise
+distances) of Ng, Jordan and Weiss (NIPS '01). The optimal choice for some of
+the tuning parameters depends on the dimension and thickness of the clusters.
+We provide estimators that come close enough for our theoretical purposes. We
+also discuss the cases of clusters of mixed dimensions and of clusters that are
+generated from smoother surfaces. In our experiments, this algorithm is shown
+to outperform pairwise spectral clustering on both simulated and real data.

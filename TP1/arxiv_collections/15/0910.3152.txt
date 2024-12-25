@@ -1,0 +1,10 @@
+Preserving access to file content requires preserving not just bits but also
+meaningful logical structures. The ongoing development of the Data Format
+Description Language (DFDL) is a completely general standard that addresses
+this need. The Defuddle parser is a generic parser that can use DFDL-style
+format descriptions to extract logical structures from ASCII or binary files
+written in those formats. DFDL and Defuddle provide a preservation capability
+that has minimal format-specific software and cleanly separates issues related
+to bits, formats, and logical content. Such a system has the potential to
+greatly reduce overall system development and maintenance costs as well as the
+per-file-format costs for long term preservation.

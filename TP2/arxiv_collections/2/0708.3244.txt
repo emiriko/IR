@@ -1,0 +1,18 @@
+We explore the possibilities of enforcing and preventing consensus in
+continuous opinion dynamics that result from modifications in the communication
+rules. We refer to the model of Weisbuch and Deffuant, where $n$ agents adjust
+their continuous opinions as a result of random pairwise encounters whenever
+their opinions differ not more than a given bound of confidence $\eps$. A high
+$\eps$ leads to consensus, while a lower $\eps$ leads to a fragmentation into
+several opinion clusters. We drop the random encounter assumption and ask: How
+small may $\eps$ be such that consensus is still possible with a certain
+communication plan for the entire group? Mathematical analysis shows that
+$\eps$ may be significantly smaller than in the random pairwise case. On the
+other hand we ask: How large may $\eps$ be such that preventing consensus is
+still possible? In answering this question we prove Fortunato's simulation
+result that consensus cannot be prevented for $\eps>0.5$ for large groups. %
+Next we consider opinion dynamics under different individual strategies and
+examine their power to increase the chances of consensus. One result is that
+balancing agents increase chances of consensus, especially if the agents are
+cautious in adapting their opinions. However, curious agents increase chances
+of consensus only if those agents are not cautious in adapting their opinions.

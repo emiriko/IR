@@ -1,0 +1,11 @@
+In this paper a new dynamic subsumption technique for Boolean CNF formulae is
+proposed. It exploits simple and sufficient conditions to detect during
+conflict analysis, clauses from the original formula that can be reduced by
+subsumption. During the learnt clause derivation, and at each step of the
+resolution process, we simply check for backward subsumption between the
+current resolvent and clauses from the original formula and encoded in the
+implication graph. Our approach give rise to a strong and dynamic
+simplification technique that exploits learning to eliminate literals from the
+original clauses. Experimental results show that the integration of our dynamic
+subsumption approach within the state-of-the-art SAT solvers Minisat and Rsat
+achieves interesting improvements particularly on crafted instances.

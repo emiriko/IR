@@ -1,0 +1,14 @@
+The stochastic Euler scheme is known to converge to the exact solution of a
+stochastic differential equation with globally Lipschitz continuous drift and
+diffusion coefficient. Recent results extend this convergence to coefficients
+which grow at most linearly. For superlinearly growing coefficients finite-time
+convergence in the strong mean square sense remained an open question according
+to [Higham, Mao & Stuart (2002); Strong convergence of Euler-type methods for
+nonlinear stochastic differential equations, SIAM J. Numer. Anal. 40, no. 3,
+1041-1063]. In this article we answer this question to the negative and prove
+for a large class of stochastic differential equations with non-globally
+Lipschitz continuous coefficients that Euler's approximation converges neither
+in the strong mean square sense nor in the numerically weak sense to the exact
+solution at a finite time point. Even worse, the difference of the exact
+solution and of the numerical approximation at a finite time point diverges to
+infinity in the strong mean square sense and in the numerically weak sense.

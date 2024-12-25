@@ -1,0 +1,16 @@
+High-throughput screening (HTS) using model organisms is a promising method
+to identify a small number of genes or drugs potentially relevant to human
+biology or disease. In HTS experiments, robots and computers do a significant
+portion of the experimental work. However, one remaining major bottleneck is
+the manual analysis of experimental results, which is commonly in the form of
+microscopy images. This manual inspection is labor intensive, slow and
+subjective. Here we report our progress towards applying computer vision and
+machine learning methods to analyze HTS experiments that use Caenorhabditis
+elegans (C. elegans) worms grown on agar. Our main contribution is a robust
+segmentation algorithm for separating the worms from the background using
+brightfield images. We also show that by combining the output of this
+segmentation algorithm with an algorithm to detect the fluorescent dye, Nile
+Red, we can reliably distinguish different fluorescence-based phenotypes even
+though the visual differences are subtle. The accuracy of our method is similar
+to that of expert human analysts. This new capability is a significant step
+towards fully automated HTS experiments using C. elegans.

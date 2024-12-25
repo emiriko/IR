@@ -1,0 +1,9 @@
+We present our approach for deploying and managing distributed
+component-based applications. A Desired State Description (DSD), written in a
+high-level declarative language, specifies requirements for a distributed
+application. Our infrastructure accepts a DSD as input, and from it
+automatically configures and deploys the distributed application. Subsequent
+violations of the original requirements are detected and, where possible,
+automatically rectified by reconfiguration and redeployment of the necessary
+application components. A constraint solving tool is used to plan deployments
+that meet the application requirements.

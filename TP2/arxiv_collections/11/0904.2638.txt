@@ -1,0 +1,15 @@
+Most specification languages express only qualitative constraints.
+  However, among two implementations that satisfy a given specification, one
+may be preferred to another. For example, if a specification asks that every
+request is followed by a response, one may prefer an implementation that
+generates responses quickly but does not generate unnecessary responses. We use
+quantitative properties to measure the "goodness" of an implementation. Using
+games with corresponding quantitative objectives, we can synthesize "optimal"
+implementations, which are preferred among the set of possible implementations
+that satisfy a given specification. In particular, we show how automata with
+lexicographic mean-payoff conditions can be used to express many interesting
+quantitative properties for reactive systems. In this framework, the synthesis
+of optimal implementations requires the solution of lexicographic mean-payoff
+games (for safety requirements), and the solution of games with both
+lexicographic mean-payoff and parity objectives (for liveness requirements). We
+present algorithms for solving both kinds of novel graph games.

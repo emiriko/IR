@@ -1,0 +1,10 @@
+This paper proposes a new methodology to compute Value at Risk (VaR) for
+quantifying losses in credit portfolios. We approximate the cumulative
+distribution of the loss function by a finite combination of Haar wavelets
+basis functions and calculate the coefficients of the approximation by
+inverting its Laplace transform. In fact, we demonstrate that only a few
+coefficients of the approximation are needed, so VaR can be reached quickly. To
+test the methodology we consider the Vasicek one-factor portfolio credit loss
+model as our model framework. The Haar wavelets method is fast, accurate and
+robust to deal with small or concentrated portfolios, when the hypothesis of
+the Basel II formulas are violated.

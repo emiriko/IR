@@ -1,0 +1,12 @@
+We face the following dilemma for designing low-density parity-check codes
+(LDPC) for quantum error correction. 1) The row weights of parity-check should
+be large: The minimum distances are bounded above by the minimum row weights of
+parity-check matrices of constituent classical codes. Small minimum distance
+tends to result in poor decoding performance at the error-floor region. 2) The
+row weights of parity-check matrices should not be large: The sum-product
+decoding performance at the water-fall region is degraded as the row weight
+increases. Recently, Kudekar et al. showed spatially-coupled (SC) LDPC codes
+exhibit capacity-achieving performance for classical channels. SC LDPC codes
+have both large row weight and capacity-achieving error-floor and water-fall
+performance. In this paper, we design SC LDPC-CSS (Calderbank, Shor and Steane)
+codes for quantum error correction over the depolarizing channels.

@@ -1,0 +1,19 @@
+Modularity is one of the most widely used quality measures for graph
+clusterings. Maximizing modularity is NP-hard, and the runtime of exact
+algorithms is prohibitive for large graphs. A simple and effective class of
+heuristics coarsens the graph by iteratively merging clusters (starting from
+singletons), and optionally refines the resulting clustering by iteratively
+moving individual vertices between clusters. Several heuristics of this type
+have been proposed in the literature, but little is known about their relative
+performance.
+  This paper experimentally compares existing and new coarsening- and
+refinement-based heuristics with respect to their effectiveness (achieved
+modularity) and efficiency (runtime). Concerning coarsening, it turns out that
+the most widely used criterion for merging clusters (modularity increase) is
+outperformed by other simple criteria, and that a recent algorithm by Schuetz
+and Caflisch is no improvement over simple greedy coarsening for these
+criteria. Concerning refinement, a new multi-level algorithm is shown to
+produce significantly better clusterings than conventional single-level
+algorithms. A comparison with published benchmark results and algorithm
+implementations shows that combinations of coarsening and multi-level
+refinement are competitive with the best algorithms in the literature.

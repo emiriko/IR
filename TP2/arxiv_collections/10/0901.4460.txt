@@ -1,0 +1,12 @@
+Logistic models are studied as a tool to convert output from numerical
+weather forecasting systems (deterministic and ensemble) into probability
+forecasts for binary events. A logistic model obtains by putting the
+logarithmic odds ratio equal to a linear combination of the inputs. As any
+statistical model, logistic models will suffer from over-fitting if the number
+of inputs is comparable to the number of forecast instances. Computational
+approaches to avoid over-fitting by regularisation are discussed, and efficient
+approaches for model assessment and selection are presented. A logit version of
+the so called lasso, which is originally a linear tool, is discussed. In lasso
+models, less important inputs are identified and discarded, thereby providing
+an efficient and automatic model reduction procedure. For this reason, lasso
+models are particularly appealing for diagnostic purposes.

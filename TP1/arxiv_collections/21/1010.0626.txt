@@ -1,0 +1,14 @@
+Correlation in user connectivity patterns is generally considered a problem
+for system designers, since it results in peaks of demand and also in the
+scarcity of resources for peer-to-peer applications. The other side of the coin
+is that these connectivity patterns are often predictable and that, to some
+extent, they can be dealt with proactively.
+  In this work, we build predictors aiming to determine the probability that
+any given user will be online at any given time in the future. We evaluate the
+quality of these predictors on various large traces from instant messaging and
+file sharing applications.
+  We also illustrate how availability prediction can be applied to enhance the
+behavior of peer-to-peer applications: we show through simulation how data
+availability is substantially increased in a distributed hash table simply by
+adjusting data placement policies according to peer availability prediction and
+without requiring any additional storage from any peer.

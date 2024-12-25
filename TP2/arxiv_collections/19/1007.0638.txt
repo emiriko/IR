@@ -1,0 +1,14 @@
+In this work we investigate a novel approach to handle the challenges of face
+recognition, which includes rotation, scale, occlusion, illumination etc. Here,
+we have used thermal face images as those are capable to minimize the affect of
+illumination changes and occlusion due to moustache, beards, adornments etc.
+The proposed approach registers the training and testing thermal face images in
+polar coordinate, which is capable to handle complicacies introduced by scaling
+and rotation. Line features are extracted from thermal polar images and feature
+vectors are constructed using these line. Feature vectors thus obtained passes
+through principal component analysis (PCA) for the dimensionality reduction of
+feature vectors. Finally, the images projected into eigenspace are classified
+using a multi-layer perceptron. In the experiments we have used Object Tracking
+and Classification Beyond Visible Spectrum (OTCBVS) database. Experimental
+results show that the proposed approach significantly improves the verification
+and identification performance and the success rate is 99.25%.

@@ -1,0 +1,20 @@
+Testing for the significance of a subset of regression coefficients in a
+linear model, a staple of statistical analysis, goes back at least to the work
+of Fisher who introduced the analysis of variance (ANOVA). We study this
+problem under the assumption that the coefficient vector is sparse, a common
+situation in modern high-dimensional settings. Suppose we have $p$ covariates
+and that under the alternative, the response only depends upon the order of
+$p^{1-\alpha}$ of those, $0\le\alpha\le1$. Under moderate sparsity levels, that
+is, $0\le\alpha\le1/2$, we show that ANOVA is essentially optimal under some
+conditions on the design. This is no longer the case under strong sparsity
+constraints, that is, $\alpha>1/2$. In such settings, a multiple comparison
+procedure is often preferred and we establish its optimality when
+$\alpha\geq3/4$. However, these two very popular methods are suboptimal, and
+sometimes powerless, under moderately strong sparsity where $1/2<\alpha<3/4$.
+We suggest a method based on the higher criticism that is powerful in the whole
+range $\alpha>1/2$. This optimality property is true for a variety of designs,
+including the classical (balanced) multi-way designs and more modern "$p>n$"
+designs arising in genetics and signal processing. In addition to the standard
+fixed effects model, we establish similar results for a random effects model
+where the nonzero coefficients of the regression vector are normally
+distributed.

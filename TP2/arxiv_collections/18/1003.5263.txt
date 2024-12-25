@@ -1,0 +1,17 @@
+When a function $f(x)$ is singular at a point $x_{s}$ on the real axis, its
+Fourier series, when truncated at the $N$-th term, gives a pointwise error of
+only $O(1/N)$ over the entire real axis. Such singularities spontaneously arise
+as "fronts" in meteorology and oceanography and "shocks" in other branches of
+fluid mechanics. It has been previously shown that it is possible to recover an
+exponential rate of convegence at all points away from the singularity in the
+sense that $|f(x) - f_{N}^{\sigma}(x) | \sim O(\exp(- q(x) N))$ where
+$f_{N}^{\sigma}(x)$ is the result of applying a filter or summability method to
+the partial sum $f_{N}(x)$ and $q(x)$ is a proportionality constant that is a
+function of $d(x) \equiv |x-x_{s}|$, the distance from $x$ to the singularity.
+Here we give an elementary proof of great generality using conformal mapping in
+a dummy variable $z$; this is equivalent to applying the Euler acceleration. We
+show that $q(x) \approx \log(\cos(d(x)/2))$ for the Euler filter when the
+Fourier period is $2 \pi$. More sophisticated filters can increase $q(x)$, but
+the Euler filter is simplest. We can also correct recently published claims
+that only a root-exponential rate of convergence can be recovered for filters
+of compact support such as the Euler acceleration and the Erfc-Log filter.

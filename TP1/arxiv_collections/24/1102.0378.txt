@@ -1,0 +1,27 @@
+In this thesis, we introduce a new quantum Turing machine (QTM) model that
+supports general quantum operators, together with its pushdown, counter, and
+finite automaton variants, and examine the computational power of classical and
+quantum machines using small space bounds in many different cases. The main
+contributions are summarized below.
+  Firstly, we consider QTMs in the unbounded error setting: (i) in some cases
+of sublogarithmic space bounds, the class of languages recognized by QTMs is
+shown to be strictly larger than that of classical ones; (ii) in constant space
+bounds, the same result can still be obtained for restricted QTMs; (iii) the
+complete characterization of the class of languages recognized by realtime
+constant space nondeterministic QTMs is given.
+  Secondly, we consider constant space-bounded QTMs in the bounded error
+setting: (i) we introduce a new type of quantum and probabilistic finite
+automata (QFAs and PFAs, respectively,) with a special two-way input head which
+is not allowed to be stationary or move to the left but has the capability to
+reset itself to its starting position; (ii) the computational power of this
+type of quantum machine is shown to be superior to that of the probabilistic
+machine; (iii) based on these models, two-way PFAs and two-way classical-head
+QFAs are shown to be more succinct than two-way nondeterministic finite
+automata and their one-way variants; (iv) we also introduce PFAs and QFAs with
+postselection with their bounded error language classes, and give many
+characterizations of them.
+  Thirdly, the computational power of realtime QFAs augmented with a write-only
+memory is investigated by showing many simulation results for different kinds
+of counter automata.
+  Finally, some lower bounds of realtime classical Turing machines in order to
+recognize a nonregular language are shown to be tight.

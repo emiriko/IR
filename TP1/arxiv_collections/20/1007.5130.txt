@@ -1,0 +1,16 @@
+Autonomous planetary vehicles, also known as rovers, are small autonomous
+vehicles equipped with a variety of sensors used to perform exploration and
+experiments on a planet's surface. Rovers work in a partially unknown
+environment, with narrow energy/time/movement constraints and, typically, small
+computational resources that limit the complexity of on-line planning and
+scheduling, thus they represent a great challenge in the field of autonomous
+vehicles. Indeed, formal models for such vehicles usually involve hybrid
+systems with nonlinear dynamics, which are difficult to handle by most of the
+current planning algorithms and tools. Therefore, when offline planning of the
+vehicle activities is required, for example for rovers that operate without a
+continuous Earth supervision, such planning is often performed on simplified
+models that are not completely realistic. In this paper we show how the
+UPMurphi model checking based planning tool can be used to generate
+resource-optimal plans to control the engine of an autonomous planetary
+vehicle, working directly on its hybrid model and taking into account several
+safety constraints, thus achieving very accurate results.

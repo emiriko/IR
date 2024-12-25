@@ -1,0 +1,10 @@
+We engineer algorithms for sorting huge data sets on massively parallel
+machines. The algorithms are based on the multiway merging paradigm. We first
+outline an algorithm whose I/O requirement is close to a lower bound. Thus, in
+contrast to naive implementations of multiway merging and all other approaches
+known to us, the algorithm works with just two passes over the data even for
+the largest conceivable inputs. A second algorithm reduces communication
+overhead and uses more conventional specifications of the result at the cost of
+slightly increased I/O requirements. An implementation wins the well known
+sorting benchmark in several categories and by a large margin over its
+competitors.

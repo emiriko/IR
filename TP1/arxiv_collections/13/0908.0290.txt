@@ -1,0 +1,21 @@
+For the laser interferometer space antenna (LISA) to reach it's design
+sensitivity, the coupling of the free running laser frequency noise to the
+signal readout must be reduced by more than 14 orders of magnitude. One
+technique employed to reduce the laser frequency noise will be arm locking,
+where the laser frequency is locked to the LISA arm length. This paper details
+an implementation of arm locking, studies orbital effects, the impact of errors
+in the Doppler knowledge, and noise limits. The noise performance of arm
+locking is calculated with the inclusion of the dominant expected noise
+sources: ultra stable oscillator (clock) noise, spacecraft motion, and shot
+noise. Studying these issues reveals that although dual arm locking [A. Sutton
+& D. A Shaddock, Phys. Rev. D 78, 082001 (2008).] has advantages over single
+(or common) arm locking in terms of allowing high gain, it has disadvantages in
+both laser frequency pulling and noise performance. We address this by
+proposing a hybrid sensor, retaining the benefits of common and dual arm
+locking sensors. We present a detailed design of an arm locking controller and
+perform an analysis of the expected performance when used with and without
+laser pre-stabilization. We observe that the sensor phase changes beneficially
+near unity-gain frequencies of the arm-locking controller, allowing a factor of
+10 more gain than previously believed, without degrading stability. We show
+that the LISA frequency noise goal can be realized with arm locking and
+Time-Delay Interferometry only, without any form of pre-stabilization.

@@ -1,0 +1,14 @@
+A hybrid scheme obtained by combining 3DVar with the Assimilation in the
+Unstable Subspace (3DVar-AUS) is tested in a QG model, under perfect model
+conditions, with a fixed observational network, with and without observational
+noise. The AUS scheme, originally formulated to assimilate adaptive
+observations, is used here to assimilate the fixed observations that are found
+in the region of local maxima of BDAS vectors (Bred vectors subject to
+assimilation), while the remaining observations are assimilated by 3DVar.
+  The performance of the hybrid scheme is compared with that of 3DVar and of an
+EnKF. The improvement gained by 3DVar-AUS and the EnKF with respect to 3DVar
+alone is similar in the present model and observational configuration, while
+3DVar-AUS outperforms the EnKF during the forecast stage. The 3DVar-AUS
+algorithm is easy to implement and the results obtained in the idealized
+conditions of this study encourage further investigation toward an
+implementation in more realistic contexts.

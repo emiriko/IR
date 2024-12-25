@@ -1,0 +1,9 @@
+This paper proposes a novel similarity measure for clustering sequential
+data. We first construct a common state-space by training a single
+probabilistic model with all the sequences in order to get a unified
+representation for the dataset. Then, distances are obtained attending to the
+transition matrices induced by each sequence in that state-space. This approach
+solves some of the usual overfitting and scalability issues of the existing
+semi-parametric techniques, that rely on training a model for each sequence.
+Empirical studies on both synthetic and real-world datasets illustrate the
+advantages of the proposed similarity measure for clustering sequences.

@@ -1,0 +1,13 @@
+This paper is devoted to adaptive long autoregressive spectral analysis when
+(i) very few data are available, (ii) information does exist beforehand
+concerning the spectral smoothness and time continuity of the analyzed signals.
+The contribution is founded on two papers by Kitagawa and Gersch. The first one
+deals with spectral smoothness, in the regularization framework, while the
+second one is devoted to time continuity, in the Kalman formalism. The present
+paper proposes an original synthesis of the two contributions: a new
+regularized criterion is introduced that takes both information into account.
+The criterion is efficiently optimized by a Kalman smoother. One of the major
+features of the method is that it is entirely unsupervised: the problem of
+automatically adjusting the hyperparameters that balance data-based versus
+prior-based information is solved by maximum likelihood. The improvement is
+quantified in the field of meteorological radar.

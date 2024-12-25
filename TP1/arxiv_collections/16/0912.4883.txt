@@ -1,0 +1,19 @@
+The problem is sequence prediction in the following setting. A sequence
+$x_1,...,x_n,...$ of discrete-valued observations is generated according to
+some unknown probabilistic law (measure) $\mu$. After observing each outcome,
+it is required to give the conditional probabilities of the next observation.
+The measure $\mu$ belongs to an arbitrary but known class $C$ of stochastic
+process measures. We are interested in predictors $\rho$ whose conditional
+probabilities converge (in some sense) to the "true" $\mu$-conditional
+probabilities if any $\mu\in C$ is chosen to generate the sequence. The
+contribution of this work is in characterizing the families $C$ for which such
+predictors exist, and in providing a specific and simple form in which to look
+for a solution. We show that if any predictor works, then there exists a
+Bayesian predictor, whose prior is discrete, and which works too. We also find
+several sufficient and necessary conditions for the existence of a predictor,
+in terms of topological characterizations of the family $C$, as well as in
+terms of local behaviour of the measures in $C$, which in some cases lead to
+procedures for constructing such predictors. It should be emphasized that the
+framework is completely general: the stochastic processes considered are not
+required to be i.i.d., stationary, or to belong to any parametric or countable
+family.

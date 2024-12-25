@@ -1,0 +1,11 @@
+Over the last couple of years it has been realized that the vast
+computational power of graphics processing units (GPUs) could be harvested for
+purposes other than the video game industry. This power, which at least
+nominally exceeds that of current CPUs by large factors, results from the
+relative simplicity of the GPU architectures as compared to CPUs, combined with
+a large number of parallel processing units on a single chip. To benefit from
+this setup for general computing purposes, the problems at hand need to be
+prepared in a way to profit from the inherent parallelism and hierarchical
+structure of memory accesses. In this contribution I discuss the performance
+potential for simulating spin models, such as the Ising model, on GPU as
+compared to conventional simulations on CPU.

@@ -1,0 +1,13 @@
+In radio astronomy, the correlator measures intensity in visibility space. In
+addition, the EoR power spectrum measured by an experiment such as the MWA is
+constructed in visibility space. Thus, correcting for the ionosphere in the
+uv-plane instead of real space could potentially save computation. In this
+paper, we study this technique. The mathematical formula for obtaining the
+unperturbed data from the ionospherically reflected data is non-local in the
+uv-plane. Moreover, an analytic solution for the unperturbed intensity may only
+be obtained for a limited number of expansions of the ionospheric
+perturbations. We numerically study one of these expansions (with perturbations
+as sinusoidal modes). Obtaining an analytic solution for this expansion
+required a Taylor expansion, and we investigate the optimal order of this
+expansion. We also propose a number of potential computation saving techniques,
+and evaluate their pros and cons.

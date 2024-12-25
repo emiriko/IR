@@ -1,0 +1,21 @@
+Based on the famous Rotation-Extension technique, by creating the new
+concepts and methods: broad cycle, main segment, useful cut and insert,
+destroying edges for a main segment, main goal Hamilton cycle, depth-first
+search tree, we develop a polynomial time algorithm for a famous NPC: the
+Hamilton cycle problem. Thus we proved that NP=P. The key points of this paper
+are: 1) there are two ways to get a Hamilton cycle in exponential time: a full
+permutation of n vertices; or, chose n edges from all k edges, and check all
+possible combinations. The main problem is: how to avoid checking all
+combinations of n edges from all edges. My algorithm can avoid this. Lemma 1
+and lemma 2 are very important. They are the foundation that we always can get
+a good branch in the depth-first search tree and can get a series of destroying
+edges (all are bad edges) for this good branch in polynomial time. The
+extraordinary insights are: destroying edges, a tree contains each main segment
+at most one time at the same time, and dynamic combinations. The difficult part
+is to understand how to construct a main segment's series of destroying edges
+by dynamic combinations. The proof logic is: if there is at least on Hamilton
+cycle in the graph, we always can do useful cut and inserts until a Hamilton
+cycle is got. The times of useful cut and inserts are polynomial. So if at any
+step we cannot have a useful cut and insert, this means that there are no
+Hamilton cycles in the graph. In this version, I add a detailed polynomial time
+algorithm and proof for 3SAT

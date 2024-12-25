@@ -1,0 +1,10 @@
+A statistical learning/inference framework for color demosaicing is
+presented. We start with simplistic assumptions about color constancy, and
+recast color demosaicing as a blind linear inverse problem: color parameterizes
+the unknown kernel, while brightness takes on the role of a latent variable. An
+expectation-maximization algorithm naturally suggests itself for the estimation
+of them both. Then, as we gradually broaden the family of hypothesis where
+color is learned, we let our demosaicing behave adaptively, in a manner that
+reflects our prior knowledge about the statistics of color images. We show that
+we can incorporate realistic, learned priors without essentially changing the
+complexity of the simple expectation-maximization algorithm we started with.

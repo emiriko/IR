@@ -1,0 +1,16 @@
+ML5 is a programming language for spatially distributed computing, based on a
+Curry-Howard correspondence with the modal logic S5. Despite being designed by
+a correspondence with S5 modal logic, the ML5 programming language differs from
+the logic in several ways. In this paper, we explain these discrepancies
+between ML5 and S5 by translating ML5 into a slightly different logic:
+intuitionistic S5 extended with a lax modality that encapsulates effectful
+computations in a monad. This translation both explains the existing ML5 design
+and suggests some simplifications and generalizations. We have formalized our
+translation within the Agda proof assistant. Rather than formalizing lax S5 as
+a proof theory, we \emph{embed} it as a universe within the the dependently
+typed host language, with the universe elimination given by implementing the
+modal logic's Kripke semantics. This representation technique saves us the work
+of defining a proof theory for the logic and proving it correct, and
+additionally allows us to inherit the equational theory of the meta-language,
+which can be exploited in proving that the semantics validates the operational
+semantics of ML5.

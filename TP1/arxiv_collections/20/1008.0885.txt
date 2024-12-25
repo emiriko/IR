@@ -1,0 +1,12 @@
+Compressed sensing is a novel technique where one can recover sparse signals
+from the undersampled measurements. This paper studies a $K \times N$ partial
+Fourier measurement matrix for compressed sensing which is deterministically
+constructed via cyclic difference sets (CDS). Precisely, the matrix is
+constructed by $K$ rows of the $N\times N$ inverse discrete Fourier transform
+(IDFT) matrix, where each row index is from a $(N, K, \lambda)$ cyclic
+difference set. The restricted isometry property (RIP) is statistically studied
+for the deterministic matrix to guarantee the recovery of sparse signals. A
+computationally efficient reconstruction algorithm is then proposed from the
+structure of the matrix. Numerical results show that the reconstruction
+algorithm presents competitive recovery performance with allowable
+computational complexity.

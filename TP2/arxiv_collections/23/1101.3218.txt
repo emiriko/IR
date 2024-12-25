@@ -1,0 +1,14 @@
+The context of this work is the design of a software, called MEMSALab,
+dedicated to the automatic derivation of multiscale models of arrays of micro-
+and nanosystems. In this domain a model is a partial differential equation.
+Multiscale methods approximate it by another partial differential equation
+which can be numerically simulated in a reasonable time. The challenge consists
+in taking into account a wide range of geometries combining thin and periodic
+structures with the possibility of multiple nested scales.
+  In this paper we present a transformation language that will make the
+development of MEMSALab more feasible. It is proposed as a Maple package for
+rule-based programming, rewriting strategies and their combination with
+standard Maple code. We illustrate the practical interest of this language by
+using it to encode two examples of multiscale derivations, namely the two-scale
+limit of the derivative operator and the two-scale model of the stationary heat
+equation.

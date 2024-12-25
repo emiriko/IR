@@ -1,0 +1,23 @@
+We present the implementation of a radiative transfer solver with coherent
+scattering in the new BIFROST code for radiative magneto-hydrodynamical (MHD)
+simulations of stellar surface convection. The code is fully parallelized using
+MPI domain decomposition, which allows for large grid sizes and improved
+resolution of hydrodynamical structures. We apply the code to simulate the
+surface granulation in a solar-type star, ignoring magnetic fields, and
+investigate the importance of coherent scattering for the atmospheric
+structure. A scattering term is added to the radiative transfer equation,
+requiring an iterative computation of the radiation field. We use a
+short-characteristics-based Gauss-Seidel acceleration scheme to compute
+radiative flux divergences for the energy equation. The effects of coherent
+scattering are tested by comparing the temperature stratification of three 3D
+time-dependent hydrodynamical atmosphere models of a solar-type star: without
+scattering, with continuum scattering only, and with both continuum and line
+scattering. We show that continuum scattering does not have a significant
+impact on the photospheric temperature structure for a star like the Sun.
+Including scattering in line-blanketing, however, leads to a decrease of
+temperatures by about 350\,K below log tau < -4. The effect is opposite to that
+of 1D hydrostatic models in radiative equilibrium, where scattering reduces the
+cooling effect of strong LTE lines in the higher layers of the photosphere.
+Coherent line scattering also changes the temperature distribution in the high
+atmosphere, where we observe stronger fluctuations compared to a treatment of
+lines as true absorbers.

@@ -1,0 +1,19 @@
+We describe the reduction of data taken with the PACS instrument on board the
+Herschel Space Observatory in the Science Demonstration Phase of the
+Herschel-ATLAS (H-ATLAS) survey, specifically data obtained for a 4x4-deg^2
+region using Herschel's fast-scan (60 arcsec/s) parallel mode. We describe in
+detail a pipeline for data reduction using customised procedures within HIPE
+from data retrieval to the production of science-quality images. We found that
+the standard procedure for removing Cosmic-Ray glitches also removed parts of
+bright sources and so implemented an effective two-stage process to minimise
+these problems. The pronounced 1/f noise is removed from the timelines using
+3.4- and 2.5-arcmin boxcar high-pass filters at 100 and 160-um. Empirical
+measurements of the point-spread function (PSF) are used to determine the
+encircled energy fraction as a function of aperture size. For the 100- and
+160-um bands, the effective PSFs are ~9 and ~13 arcsec (FWHM), and the
+90-per-cent encircled energy radii are 13 and 18 arcsec. Astrometric accuracy
+is good to ~<2 arcsec. The noise in the final maps is correlated between
+neighbouring pixels and rather higher than advertised prior to launch. For a
+pair of cross-scans, the 5-sigma point-source sensitivities are 125-165 mJy for
+9-13-arcsec radius apertures at 100-um and 150-240 mJy for 13-18-arcsec radius
+apertures at 160-um.

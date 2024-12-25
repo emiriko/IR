@@ -1,0 +1,22 @@
+This paper studies the effects of introducing altruistic agents into atomic
+congestion games. Altruistic behavior is modeled by a trade-off between selfish
+and social objectives. In particular, we assume agents optimize a linear
+combination of personal delay of a strategy and the resulting increase in
+social cost. Our model can be embedded in the framework of congestion games
+with player-specific latency functions. Stable states are the Nash equilibria
+of these games, and we examine their existence and the convergence of
+sequential best-response dynamics. Previous work shows that for symmetric
+singleton games with convex delays Nash equilibria are guaranteed to exist. For
+concave delay functions we observe that there are games without Nash equilibria
+and provide a polynomial time algorithm to decide existence for symmetric
+singleton games with arbitrary delay functions. Our algorithm can be extended
+to compute best and worst Nash equilibria if they exist. For more general
+congestion games existence becomes NP-hard to decide, even for symmetric
+network games with quadratic delay functions. Perhaps surprisingly, if all
+delay functions are linear, then there is always a Nash equilibrium in any
+congestion game with altruists and any better-response dynamics converges. In
+addition to these results for uncoordinated dynamics, we consider a scenario in
+which a central altruistic institution can motivate agents to act
+altruistically. We provide constructive and hardness results for finding the
+minimum number of altruists to stabilize an optimal congestion profile and more
+general mechanisms to incentivize agents to adopt favorable behavior.

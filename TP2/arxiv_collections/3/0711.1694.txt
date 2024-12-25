@@ -1,0 +1,23 @@
+A discrete-time quantum walk on a graph is the repeated application of a
+unitary evolution operator to a Hilbert space corresponding to the graph.
+Hitting times for discrete quantum walks on graphs give an average time before
+the walk reaches an ending condition. We derive an expression for hitting time
+using superoperators, and numerically evaluate it for the walk on the hypercube
+for various coins and decoherence models. We show that, by contrast to
+classical walks, quantum walks can have infinite hitting times for some initial
+states. We seek criteria to determine if a given walk on a graph will have
+infinite hitting times, and find a sufficient condition for their existence.
+The phenomenon of infinite hitting times is in general a consequence of the
+symmetry of the graph and its automorphism group. Symmetries of a graph, given
+by its automorphism group, can be inherited by the evolution operator. Using
+the irreducible representations of the automorphism group, we derive conditions
+such that quantum walks defined on this graph must have infinite hitting times
+for some initial states. Symmetry can also cause the walk to be confined to a
+subspace of the original Hilbert space for certain initial states. We show that
+a quantum walk confined to the subspace corresponding to this symmetry group
+can be seen as a different quantum walk on a smaller quotient graph and we give
+an explicit construction of the quotient graph. We conjecture that the
+existence of a small quotient graph with finite hitting times is necessary for
+a walk to exhibit a quantum speed-up. Finally, we use symmetry and the theory
+of decoherence-free subspaces to determine when the subspace of the quotient
+graph is a decoherence-free subspace of the dynamics.

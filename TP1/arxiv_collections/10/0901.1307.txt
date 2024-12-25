@@ -1,0 +1,12 @@
+The ability to detect fragments of deleted image files and to reconstruct
+these image files from all available fragments on disk is a key activity in the
+field of digital forensics. Although reconstruction of image files from the
+file fragments on disk can be accomplished by simply comparing the content of
+sectors on disk with the content of known files, this brute-force approach can
+be time consuming. This paper presents results from research into the use of
+Graphics Processing Units (GPUs) in detecting specific image file byte patterns
+in disk clusters. Unique identifying pattern for each disk sector is compared
+against patterns in known images. A pattern match indicates the potential
+presence of an image and flags the disk sector for further in-depth examination
+to confirm the match. The GPU-based implementation outperforms the software
+implementation by a significant margin.

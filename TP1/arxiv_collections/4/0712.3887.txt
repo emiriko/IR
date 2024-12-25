@@ -1,0 +1,10 @@
+This paper introduces QuanTree v1.1 and QuanLin v1.1, two Java applications
+available for free. (Source code included in the distribution.) Each
+application compiles a different type of input quantum evolution operator. The
+applications output a quantum circuit that is approximately equal to the input
+evolution operator. QuanTree compiles an input evolution operator whose
+Hamiltonian is proportional to the incidence matrix of a balanced, binary tree
+graph. QuanLin compiles an input evolution operator whose Hamiltonian is
+proportional to the incidence matrix of a line (open string) graph. Both
+applications also output an error, defined as the distance in the Frobenius
+norm between the input evolution operator and the output quantum circuit.

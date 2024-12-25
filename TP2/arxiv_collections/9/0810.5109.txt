@@ -1,0 +1,14 @@
+Although it is believed unlikely that $\NP$-hard problems admit efficient
+quantum algorithms, it has been shown that a quantum verifier can solve
+$\NP$-complete problems given a "short" quantum proof; more precisely,
+$\NP\subseteq \QMA_{\log}(2)$ where $\QMA_{\log}(2)$ denotes the class of
+quantum Merlin-Arthur games in which there are two unentangled provers who send
+two logarithmic size quantum witnesses to the verifier. The inclusion
+$\NP\subseteq \QMA_{\log}(2)$ has been proved by Blier and Tapp by stating a
+quantum Merlin-Arthur protocol for 3-coloring with perfect completeness and gap
+$\frac{1}{24n^6}$. Moreover, Aaronson {\it et al.} have shown the above
+inclusion with a constant gap by considering $\widetilde{O}(\sqrt{n})$
+witnesses of logarithmic size. However, we still do not know if
+$\QMA_{\log}(2)$ with a constant gap contains $\NP$. In this paper, we show
+that 3-SAT admits a $\QMA_{\log}(2)$ protocol with the gap
+$\frac{1}{n^{3+\epsilon}}$ for every constant $\epsilon>0$.

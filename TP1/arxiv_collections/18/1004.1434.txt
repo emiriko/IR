@@ -1,0 +1,11 @@
+Given a prior probability distribution over a set of possible oracle
+functions, we define a number of queries to be useless for determining some
+property of the function if the probability that the function has the property
+is unchanged after the oracle responds to the queries. A familiar example is
+the parity of a uniformly random Boolean-valued function over $\{1,2,...,N\}$,
+for which $N-1$ classical queries are useless. We prove that if $2k$ classical
+queries are useless for some oracle problem, then $k$ quantum queries are also
+useless. For such problems, which include classical threshold secret sharing
+schemes, our result also gives a new way to obtain a lower bound on the quantum
+query complexity, even in cases where neither the function nor the property to
+be determined is Boolean.

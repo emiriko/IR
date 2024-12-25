@@ -1,0 +1,12 @@
+We present a non-canonically symplectic integration scheme tailored to
+numerically computing the post-Newtonian motion of a spinning black-hole
+binary. Using a splitting approach we combine the flows of orbital and spin
+contributions. In the context of the splitting, it is possible to integrate the
+individual terms of the spin-orbit and spin-spin Hamiltonians analytically,
+exploiting the special structure of the underlying equations of motion. The
+outcome is a symplectic, time-reversible integrator, which can be raised to
+arbitrary order by composition. A fourth-order version is shown to give
+excellent behavior concerning error growth and conservation of energy and
+angular momentum in long-term simulations. Favorable properties of the
+integrator are retained in the presence of weak dissipative forces due to
+radiation damping in the full post-Newtonian equations.

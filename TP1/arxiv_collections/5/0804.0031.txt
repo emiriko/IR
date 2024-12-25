@@ -1,0 +1,17 @@
+While a set of covariance matrices corresponding to different populations are
+unlikely to be exactly equal they can still exhibit a high degree of
+similarity. For example, some pairs of variables may be positively correlated
+across most groups, while the correlation between other pairs may be
+consistently negative. In such cases much of the similarity across covariance
+matrices can be described by similarities in their principal axes, the axes
+defined by the eigenvectors of the covariance matrices. Estimating the degree
+of across-population eigenvector heterogeneity can be helpful for a variety of
+estimation tasks. Eigenvector matrices can be pooled to form a central set of
+principal axes, and to the extent that the axes are similar, covariance
+estimates for populations having small sample sizes can be stabilized by
+shrinking their principal axes towards the across-population center. To this
+end, this article develops a hierarchical model and estimation procedure for
+pooling principal axes across several populations. The model for the
+across-group heterogeneity is based on a matrix-valued antipodally symmetric
+Bingham distribution that can flexibly describe notions of ``center'' and
+``spread'' for a population of orthonormal matrices.

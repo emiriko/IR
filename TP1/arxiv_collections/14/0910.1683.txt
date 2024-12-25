@@ -1,0 +1,21 @@
+Analyses of serially-sampled data often begin with the assumption that the
+observations represent discrete samples from a latent continuous-time
+stochastic process. The continuous-time Markov chain (CTMC) is one such
+generative model whose popularity extends to a variety of disciplines ranging
+from computational finance to human genetics and genomics. A common theme among
+these diverse applications is the need to simulate sample paths of a CTMC
+conditional on realized data that is discretely observed. Here we present a
+general solution to this sampling problem when the CTMC is defined on a
+discrete and finite state space. Specifically, we consider the generation of
+sample paths, including intermediate states and times of transition, from a
+CTMC whose beginning and ending states are known across a time interval of
+length $T$. We first unify the literature through a discussion of the three
+predominant approaches: (1) modified rejection sampling, (2) direct sampling,
+and (3) uniformization. We then give analytical results for the complexity and
+efficiency of each method in terms of the instantaneous transition rate matrix
+$Q$ of the CTMC, its beginning and ending states, and the length of sampling
+time $T$. In doing so, we show that no method dominates the others across all
+model specifications, and we give explicit proof of which method prevails for
+any given $Q,T,$ and endpoints. Finally, we introduce and compare three
+applications of CTMCs to demonstrate the pitfalls of choosing an inefficient
+sampler.

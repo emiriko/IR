@@ -1,0 +1,22 @@
+(Abridged) We introduce a novel technique to construct spatially resolved
+maps of stellar mass surface density in galaxies based on optical and near IR
+imaging. We use optical/NIR colour(s) to infer effective stellar mass-to-light
+ratios (M/L) at each pixel, which are then multiplied by the surface brightness
+to obtain the local stellar surface mass density. We build look-up tables to
+express M/L as a function of colour(s) by marginalizing over a Monte Carlo
+library of 50,000 stellar population synthesis (SPS) models by Charlot &
+Bruzual (2007), which include a revised prescription for the TP-AGB stellar
+evolutionary phase, with a wide range of dust exinctions. In order to extract
+reliable flux and colour information at any position in the galaxy, we perform
+a median adaptive smoothing of the images that preserves the highest possible
+spatial resolution. As the most practical and robust, and hence fiducial
+method, we express the M/L in the H band as a function of (g-i) and (i-H).
+Stellar mass maps computed in this way have a typical accuracy of 30 per cent
+or less at any given pixel, determined from the scatter in the models. We
+compare maps obtained with our fiducial method with those derived using other
+combinations of bandpasses and the old BC03 TP-AGB prescription. Finally, we
+compare total stellar mass estimates obtained by integrating resolved mass maps
+with those obtained with unresolved photometry. In galaxies with evident dust
+lanes, unresolved estimates may miss up to 40 per cent of the total stellar
+mass because dusty regions are strongly under-represented in the luminous
+fluxes.

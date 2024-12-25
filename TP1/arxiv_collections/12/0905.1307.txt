@@ -1,0 +1,13 @@
+We show how to use the RSA one-way accumulator to realize an efficient and
+dynamic authenticated dictionary, where untrusted directories provide
+cryptographically verifiable answers to membership queries on a set maintained
+by a trusted source. Our accumulator-based scheme for authenticated
+dictionaries supports efficient incremental updates of the underlying set by
+insertions and deletions of elements. Also, the user can optimally verify in
+constant time the authenticity of the answer provided by a directory with a
+simple and practical algorithm. We have also implemented this scheme and we
+give empirical results that can be used to determine the best strategy for
+systems implementation with respect to resources that are available. This work
+has applications to certificate revocation in public key infrastructure and
+end-to-end integrity of data collections published by third parties on the
+Internet.

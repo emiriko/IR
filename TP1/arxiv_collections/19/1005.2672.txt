@@ -1,0 +1,19 @@
+To improve on existing models of interaction with a proof assistant (PA), in
+particular for storage and replay of proofs, we in- troduce three related
+concepts, those of: a proof movie, consisting of frames which record both user
+input and the corresponding PA response; a camera, which films a user's
+interactive session with a PA as a movie; and a proviola, which replays a movie
+frame-by-frame to a third party. In this paper we describe the movie data
+structure and we discuss a proto- type implementation of the camera and
+proviola based on the ProofWeb system. ProofWeb uncouples the interaction with
+a PA via a web- interface (the client) from the actual PA that resides on the
+server. Our camera films a movie by "listening" to the ProofWeb communication.
+The first reason for developing movies is to uncouple the reviewing of a formal
+proof from the PA used to develop it: the movie concept enables users to
+discuss small code fragments without the need to install the PA or to load a
+whole library into it. Other advantages include the possibility to develop a
+separate com- mentary track to discuss or explain the PA interaction. We assert
+that a combined camera+proviola provides a generic layer between a client
+(user) and a server (PA). Finally we claim that movies are the right type of
+data to be stored in an encyclopedia of formalized mathematics, based on our
+experience in filming the Coq standard library.

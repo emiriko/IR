@@ -1,0 +1,14 @@
+We bound the running time of an algorithm that computes the genus-two class
+polynomials of a primitive quartic CM-field K. This is in fact the first
+running time bound and even the first proof of correctness of any algorithm
+that computes these polynomials.
+  Essential to bounding the running time is our bound on the height of the
+polynomials, which is a combination of denominator bounds of Goren and Lauter
+and our own absolute value bounds. The absolute value bounds are obtained by
+combining Dupont's estimates of theta constants with an analysis of the shape
+of CM period lattices.
+  The algorithm is basically the complex analytic method of Spallek and van
+Wamelen, and we show that it finishes in time Otilde(Delta^(7/2)), where Delta
+is the discriminant of K. We give a complete running time analysis of all parts
+of the algorithm, and a proof of correctness including a rounding error
+analysis. We also provide various improvements along the way.

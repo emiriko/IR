@@ -1,0 +1,18 @@
+Inference on an extreme-value copula usually proceeds via its Pickands
+dependence function, which is a convex function on the unit simplex satisfying
+certain inequality constraints. In the setting of an iid random sample from a
+multivariate distribution with known margins and unknown extreme-value copula,
+an extension of the Cap\'era\`a-Foug\`eres-Genest estimator was introduced by
+D. Zhang, M. T. Wells and L. Peng [Journal of Multivariate Analysis 99 (2008)
+577-588]. The joint asymptotic distribution of the estimator as a random
+function on the simplex was not provided. Moreover, implementation of the
+estimator requires the choice of a number of weight functions on the simplex,
+the issue of their optimal selection being left unresolved.
+  A new, simplified representation of the CFG-estimator combined with standard
+empirical process theory provides the means to uncover its asymptotic
+distribution in the space of continuous, real-valued functions on the simplex.
+Moreover, the ordinary least-squares estimator of the intercept in a certain
+linear regression model provides an adaptive version of the CFG-estimator whose
+asymptotic behavior is the same as if the variance-minimizing weight functions
+were used. As illustrated in a simulation study, the gain in efficiency can be
+quite sizeable.

@@ -1,0 +1,14 @@
+In this paper we analyse the requirements of performing parallel
+transaction-oriented simulations within loosely coupled systems like ad hoc
+grids. We focus especially on the space-parallel approach to parallel
+simulation and on discrete event synchronisation algorithms that are suitable
+for transaction-oriented simulation and the target environment of ad hoc grids.
+To demonstrate our findings, a Java-based parallel simulator for the
+transaction-oriented language GPSS/H is implemented on the basis of the most
+promising shock-resistant Time Warp (SRTW) synchronisation algorithm and using
+the grid framework ProActive. The analysis of our parallel simulator, based on
+experiments using the Grid5000 platform, shows that the SRTW algorithm can
+successfully reduce the number of rolled back transaction moves but it also
+reveals circumstances in which the SRTW algorithm can be outperformed by the
+normal Time Warp algorithm. Finally, possible improvements to the SRTW
+algorithm are proposed in order to avoid such problems.

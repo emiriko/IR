@@ -1,0 +1,15 @@
+CMB polarization signal may be decomposed into gradient-like (E) and
+curl-like (B) mode. We have investigated E/B decomposition in pixel space. We
+find E/B mixing due to incomplete sky is localized in pixel-space, and
+negligible in the regions far away from the masked area. By estimating the
+expected local leakage power, we have diagnosed ambiguous pixels. Our criteria
+for ambiguous pixels (i.e. r_c) is associated with the tensor-to-scalar ratio
+of B mode power spectrum, which the leakage power is comparable to. By setting
+r_c to a lower value, we may reduce leakage level, but reduce sky fraction at
+the same time. Therefore, we have solved \partial \Delta C_l/\partial r_c=0,
+and obtained the optimal r_c, which minimizes the estimation uncertainty, given
+a foreground mask and noise level. We have applied our method to a simulated
+map blocked by a foreground (diffuse + point source) mask. Our simulation shows
+leakage power is smaller than primordial (i.e. unlensed) B mode power spectrum
+of tensor-to-scalar ratio r\sim 10^{-3} at wide range of multipoles (50\lesssim
+l \lesssim 2000), while allowing us to retain sky fraction ~ 0.48.

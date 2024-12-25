@@ -1,0 +1,11 @@
+A Bayesian re-analysis of published radial velocity data sets is providing
+evidence for additional planetary candidates. The nonlinear model fitting is
+accomplished with a new hybrid Markov chain Monte Carlo (HMCMC) algorithm which
+incorporates parallel tempering, simulated annealing and genetic crossover
+operations. Each of these features facilitate the detection of a global minimum
+in chi^2. By combining all three, the HMCMC greatly increases the probability
+of realizing this goal. When applied to the Kepler problem it acts as a
+powerful multi-planet Kepler periodogram for both parameter estimation and
+model selection. The HMCMC algorithm is embedded in a unique two stage adaptive
+control system that automates the tuning of the MCMC proposal distributions
+through an annealing operation.

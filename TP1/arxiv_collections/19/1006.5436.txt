@@ -1,0 +1,16 @@
+Use of ARIMA model in Sensor network The basic idea of our energy efficient
+information collection scheme is to suppress data transmission if the data
+sampled by sensor nodes are predictable by the sink node. This is done in two
+phases 1) Preliminary Data Collection- During this phase sink node collects
+enough data so that it can build up ARIMA model for each node. Then sink node
+selects a model for the particular node and sends back the corresponding model
+parameters to the node and also keeps them with it. Selecting the model for a
+node there is a tradeoff between energy consumption and accuracy of prediction.
+So we choose the model according to C = {\alpha} xMAE + (1 - {\alpha}) x rtran
+0=< {\alpha} =<1 where the model should minimize C. Here MAE is Mean Absolute
+Error which is normalized by some predefined error tolerance and rtran is the
+ratio of number of samples transmitted over total number of samples. 2)
+Adaptive Data Collection- After the sensor node has received the model
+parameters it checks each actual data value with the data value calculated from
+the parameters received. If there is deviation beyond some predefined error
+tolerance then only it sends the original data value to the sink node.

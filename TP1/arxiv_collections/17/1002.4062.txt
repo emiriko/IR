@@ -1,0 +1,16 @@
+Signalling pathways are abstractions that help life scientists structure the
+coordination of cellular activity. Cross-talk between pathways accounts for
+many of the complex behaviours exhibited by signalling pathways and is often
+critical in producing the correct signal-response relationship. Formal models
+of signalling pathways and cross-talk in particular can aid understanding and
+drive experimentation. We define an approach to modelling based on the concept
+that a pathway is the (synchronising) parallel composition of instances of
+generic modules (with internal and external labels). Pathways are then composed
+by (synchronising) parallel composition and renaming; different types of
+cross-talk result from different combinations of synchronisation and renaming.
+We define a number of generic modules in PRISM and five types of cross-talk:
+signal flow, substrate availability, receptor function, gene expression and
+intracellular communication. We show that Continuous Stochastic Logic
+properties can both detect and distinguish the types of cross-talk. The
+approach is illustrated with small examples and an analysis of the cross-talk
+between the TGF-b/BMP, WNT and MAPK pathways.

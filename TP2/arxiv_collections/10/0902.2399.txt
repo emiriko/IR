@@ -1,0 +1,20 @@
+The Gap-Hamming-Distance problem arose in the context of proving space lower
+bounds for a number of key problems in the data stream model. In this problem,
+Alice and Bob have to decide whether the Hamming distance between their $n$-bit
+input strings is large (i.e., at least $n/2 + \sqrt n$) or small (i.e., at most
+$n/2 - \sqrt n$); they do not care if it is neither large nor small. This
+$\Theta(\sqrt n)$ gap in the problem specification is crucial for capturing the
+approximation allowed to a data stream algorithm.
+  Thus far, for randomized communication, an $\Omega(n)$ lower bound on this
+problem was known only in the one-way setting. We prove an $\Omega(n)$ lower
+bound for randomized protocols that use any constant number of rounds.
+  As a consequence we conclude, for instance, that $\epsilon$-approximately
+counting the number of distinct elements in a data stream requires
+$\Omega(1/\epsilon^2)$ space, even with multiple (a constant number of) passes
+over the input stream. This extends earlier one-pass lower bounds, answering a
+long-standing open question. We obtain similar results for approximating the
+frequency moments and for approximating the empirical entropy of a data stream.
+  In the process, we also obtain tight $n - \Theta(\sqrt{n}\log n)$ lower and
+upper bounds on the one-way deterministic communication complexity of the
+problem. Finally, we give a simple combinatorial proof of an $\Omega(n)$ lower
+bound on the one-way randomized communication complexity.

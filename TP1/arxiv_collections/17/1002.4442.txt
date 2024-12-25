@@ -1,0 +1,15 @@
+Let $x$ be a complex random variable such that ${\E {x}=0}$, ${\E |x|^2=1}$,
+${\E |x|^{4} < \infty}$. Let $x_{ij}$, $i,j \in \{1,2,...\}$ be independet
+copies of $x$. Let ${\Xb=(N^{-1/2}x_{ij})}$, $1\leq i,j \leq N$ be a random
+matrix. Writing $\Xb^*$ for the adjoint matrix of $\Xb$, consider the product
+$\Xb^m{\Xb^*}^m$ with some $m \in \{1,2,...\}$. The matrix $\Xb^m{\Xb^*}^m$ is
+Hermitian positive semi-definite. Let $\lambda_1,\lambda_2,...,\lambda_N$ be
+eigenvalues of $\Xb^m{\Xb^*}^m$ (or squared singular values of the matrix
+$\Xb^m$). In this paper we find the asymptotic distribution function \[
+  G^{(m)}(x)=\lim_{N\to\infty}\E{F_N^{(m)}(x)} \] of the empirical distribution
+function \[ {F_N^{(m)}(x)} = N^{-1} \sum_{k=1}^N {\mathbb{I}{\{\lambda_k \leq
+x\}}}, \] where $\mathbb{I} \{A\}$ stands for the indicator function of event
+$A$. The moments of $G^{(m)}$ satisfy \[ M^{(m)}_p=\int_{\mathbb{R}}{x^p
+dG^{(m)}(x)}=\frac{1}{mp+1}\binom{mp+p}{p}. \] In Free Probability Theory
+$M^{(m)}_p$ are known as Fuss--Catalan numbers. With $m=1$ our result turns to
+a well known result of Marchenko--Pastur 1967.

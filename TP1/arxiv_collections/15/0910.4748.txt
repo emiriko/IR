@@ -1,0 +1,14 @@
+In abstract interpretation-based static analysis, approximation is encoded by
+abstract domains. They provide systematic guidelines for designing abstract
+semantic functions that approximate some concrete system behaviors under
+analysis. It may happen that an abstract domain contains redundant information
+for the specific purpose of approximating a given concrete semantic function.
+This paper introduces the notion of correctness kernel of abstract
+interpretations, a methodology for simplifying abstract domains, i.e. removing
+abstract values from them, in a maximal way while retaining exactly the same
+approximate behavior of the system under analysis. We show that in abstract
+model checking correctness kernels provide a simplification paradigm of the
+abstract state space that is guided by examples, meaning that this
+simplification preserves spuriousness of examples (i.e., abstract paths). In
+particular, we show how correctness kernels can be integrated with the
+well-known CEGAR (CounterExample-Guided Abstraction Refinement) methodology.

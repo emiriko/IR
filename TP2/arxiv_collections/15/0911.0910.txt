@@ -1,0 +1,8 @@
+The study deals with the parallelization of finite element based
+Navier-Stokes codes using domain decomposition and state-ofart sparse direct
+solvers. There has been significant improvement in the performance of sparse
+direct solvers. Parallel sparse direct solvers are not found to exhibit good
+scalability. Hence, the parallelization of sparse direct solvers is done using
+domain decomposition techniques. A highly efficient sparse direct solver
+PARDISO is used in this study. The scalability of both Newton and modified
+Newton algorithms are tested.

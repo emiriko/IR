@@ -1,0 +1,24 @@
+Here we introduce PHAT, the PHoto-z Accuracy Testing programme, an
+international initiative to test and compare different methods of photo-z
+estimation. Two different test environments are set up, one (PHAT0) based on
+simulations to test the basic functionality of the different photo-z codes, and
+another one (PHAT1) based on data from the GOODS survey. The accuracy of the
+different methods is expressed and ranked by the global photo-z bias, scatter,
+and outlier rates. Most methods agree well on PHAT0 but produce photo-z
+scatters that can differ by up to a factor of two even in this idealised case.
+A larger spread in accuracy is found for PHAT1. Few methods benefit from the
+addition of mid-IR photometry. Remaining biases and systematic effects can be
+explained by shortcomings in the different template sets and the use of priors
+on the one hand and an insufficient training set on the other hand. Scatters of
+4-8% in Delta_z/(1+z) were obtained, consistent with other studies. However,
+somewhat larger outlier rates (>7.5% with Delta_z/(1+z)>0.15; >4.5% after
+cleaning) are found for all codes. There is a general trend that empirical
+codes produce smaller biases than template-based codes. The systematic,
+quantitative comparison of different photo-z codes presented here is a snapshot
+of the current state-of-the-art of photo-z estimation and sets a standard for
+the assessment of photo-z accuracy in the future. The rather large outlier
+rates reported here for PHAT1 on real data should be investigated further since
+they are most probably also present (and possibly hidden) in many other
+studies. The test data sets are publicly available and can be used to compare
+new methods to established ones and help in guiding future photo-z method
+development. (abridged)

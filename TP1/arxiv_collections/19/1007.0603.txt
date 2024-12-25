@@ -1,0 +1,10 @@
+We study decompositions of the global NVALUE constraint. Our main
+contribution is theoretical: we show that there are propagators for global
+constraints like NVALUE which decomposition can simulate with the same time
+complexity but with a much greater space complexity. This suggests that the
+benefit of a global propagator may often not be in saving time but in saving
+space. Our other theoretical contribution is to show for the first time that
+range consistency can be enforced on NVALUE with the same worst-case time
+complexity as bound consistency. Finally, the decompositions we study are
+readily encoded as linear inequalities. We are therefore able to use them in
+integer linear programs.

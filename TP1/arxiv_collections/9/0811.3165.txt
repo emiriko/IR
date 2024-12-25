@@ -1,0 +1,18 @@
+In this paper we develop techniques that eliminate the need of the
+Generalized Riemann Hypothesis (GRH) from various (almost all) known results
+about deterministic polynomial factoring over finite fields. Our main result
+shows that given a polynomial f(x) of degree n over a finite field k, we can
+find in deterministic poly(n^{\log n},\log |k|) time "either" a nontrivial
+factor of f(x) "or" a nontrivial automorphism of k[x]/(f(x)) of order n. This
+main tool leads to various new GRH-free results, most striking of which are:
+  (1) Given a noncommutative algebra over a finite field, we can find a zero
+divisor in deterministic subexponential time.
+  (2) Given a positive integer r such that either 8|r or r has at least two
+distinct odd prime factors. There is a deterministic polynomial time algorithm
+to find a nontrivial factor of the r-th cyclotomic polynomial over a finite
+field.
+  In this paper, following the seminal work of Lenstra (1991) on constructing
+isomorphisms between finite fields, we further generalize classical Galois
+theory constructs like cyclotomic extensions, Kummer extensions, Teichmuller
+subgroups, to the case of commutative semisimple algebras with automorphisms.
+These generalized constructs help eliminate the dependence on GRH.

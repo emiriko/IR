@@ -1,0 +1,17 @@
+Kinetic Particle In Cell (PIC) methods can extend greatly their range of
+applicability if implicit time differencing and spatial adaption are used to
+address the wide range of time and length scales typical of plasmas. For
+implicit differencing, we refer the reader to our recent summary of the
+implicit moment PIC method implemented in our CELESTE3D code [G. Lapenta, Phys.
+Plasmas, 13, 055904 (2006)]. Instead, the present document deals with the issue
+of PIC spatial adaptation. Adapting a kinetic PIC code requires two tasks:
+adapting the grid description of the fields and moments and adapting the
+particle description of the distribution function. Below we address both
+issues. First, we describe how grid adaptation can be guided by appropriate
+measures of the local accuracy of the solution. Based on such information, grid
+adaptation can be obtained by moving grid points from regions of lesser
+interest to regions of higher interest or by adding and removing points. We
+discuss both strategies. Second, we describe how to adapt the local number of
+particles to reach the required statistical variance in the description of the
+particle population. Finally two typical applications of adaptive PIC are
+shown: collisionless shocks and charging of small bodies immersed in a plasma.

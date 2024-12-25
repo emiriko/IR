@@ -1,0 +1,19 @@
+In a Role-Playing Game, finding optimal trajectories is one of the most
+important tasks. In fact, the strategy decision system becomes a key component
+of a game engine. Determining the way in which decisions are taken (online,
+batch or simulated) and the consumed resources in decision making (e.g.
+execution time, memory) will influence, in mayor degree, the game performance.
+When classical search algorithms such as A* can be used, they are the very
+first option. Nevertheless, such methods rely on precise and complete models of
+the search space, and there are many interesting scenarios where their
+application is not possible. Then, model free methods for sequential decision
+making under uncertainty are the best choice. In this paper, we propose a
+heuristic planning strategy to incorporate the ability of heuristic-search in
+path-finding into a Dyna agent. The proposed Dyna-H algorithm, as A* does,
+selects branches more likely to produce outcomes than other branches. Besides,
+it has the advantages of being a model-free online reinforcement learning
+algorithm. The proposal was evaluated against the one-step Q-Learning and
+Dyna-Q algorithms obtaining excellent experimental results: Dyna-H
+significantly overcomes both methods in all experiments. We suggest also, a
+functional analogy between the proposed sampling from worst trajectories
+heuristic and the role of dreams (e.g. nightmares) in human behavior.

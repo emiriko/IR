@@ -1,0 +1,10 @@
+Preconditioned eigenvalue solvers (eigensolvers) are gaining popularity, but
+their convergence theory remains sparse and complex. We consider the simplest
+preconditioned eigensolver--the gradient iterative method with a fixed step
+size--for symmetric generalized eigenvalue problems, where we use the gradient
+of the Rayleigh quotient as an optimization direction. A sharp convergence rate
+bound for this method has been obtained in 2001--2003. It still remains the
+only known such bound for any of the methods in this class. While the bound is
+short and simple, its proof is not. We extend the bound to Hermitian matrices
+in the complex space and present a new self-contained and significantly shorter
+proof using novel geometric ideas.

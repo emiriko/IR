@@ -1,0 +1,16 @@
+Given a finite poset P, we consider pairs of linear extensions of P with
+maximal distance, where the distance between two linear extensions L_1, L_2 is
+the number of pairs of elements of P appearing in different orders in L_1 and
+L_2. A diametral pair maximizes the distance among all pairs of linear
+extensions of P. Felsner and Reuter defined the linear extension diameter of P
+as the distance between a diametral pair of linear extensions.
+  We show that computing the linear extension diameter is NP-complete in
+general, but can be solved in polynomial time for posets of width 3.
+  Felsner and Reuter conjectured that, in every diametral pair, at least one of
+the linear extensions reverses a critical pair. We construct a counterexample
+to this conjecture. On the other hand, we show that a slightly stronger
+property holds for many classes of posets: We call a poset "diametrally
+reversing" if, in every diametral pair, both linear extensions reverse a
+critical pair. Among other results we show that interval orders and 3-layer
+posets are diametrally reversing. From the latter it follows that almost all
+posets are diametrally reversing.

@@ -1,0 +1,17 @@
+As one of the newest members in Artificial Immune Systems (AIS), the
+Dendritic Cell Algorithm (DCA) has been applied to a range of problems. These
+applications mainly belong to the field of anomaly detection. However,
+real-time detection, a new challenge to anomaly detection, requires improvement
+on the real-time capability of the DCA. To assess such capability, formal
+methods in the research of rea-time systems can be employed. The findings of
+the assessment can provide guideline for the future development of the
+algorithm. Therefore, in this paper we use an interval logic based method,
+named the Duration Calculus (DC), to specify a simplified single-cell model of
+the DCA. Based on the DC specifications with further induction, we find that
+each individual cell in the DCA can perform its function as a detector in
+real-time. Since the DCA can be seen as many such cells operating in parallel,
+it is potentially capable of performing real-time detection. However, the
+analysis process of the standard DCA constricts its real-time capability. As a
+result, we conclude that the analysis process of the standard DCA should be
+replaced by a real-time analysis component, which can perform periodic analysis
+for the purpose of real-time detection.

@@ -1,0 +1,12 @@
+Compressed Counting (CC) was recently proposed for very efficiently computing
+the (approximate) $\alpha$th frequency moments of data streams, where $0<\alpha
+<= 2$. Several estimators were reported including the geometric mean estimator,
+the harmonic mean estimator, the optimal power estimator, etc. The geometric
+mean estimator is particularly interesting for theoretical purposes. For
+example, when $\alpha -> 1$, the complexity of CC (using the geometric mean
+estimator) is $O(1/\epsilon)$, breaking the well-known large-deviation bound
+$O(1/\epsilon^2)$. The case $\alpha\approx 1$ has important applications, for
+example, computing entropy of data streams.
+  For practical purposes, this study proposes the optimal quantile estimator.
+Compared with previous estimators, this estimator is computationally more
+efficient and is also more accurate when $\alpha> 1$.

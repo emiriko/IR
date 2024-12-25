@@ -1,0 +1,19 @@
+The venerable 2D point-vortex model plays an important role as a simplified
+version of many disparate physical systems, including superfluids,
+Bose-Einstein condensates, certain plasma configurations, and inviscid
+turbulence. This system is also a veritable mathematical playground, touching
+upon many different disciplines from topology to dynamic systems theory.
+Point-vortex dynamics are described by a relatively simple system of nonlinear
+ODEs which can easily be integrated numerically using an appropriate adaptive
+time stepping method. As the separation between a pair of vortices relative to
+all other inter-vortex length scales decreases, however, the computational time
+required diverges. Accuracy is usually the most discouraging casualty when
+trying to account for such vortex motion, though the varying energy of this
+ostensibly Hamiltonian system is a potentially more serious problem. We solve
+these problems by a series of coordinate transformations: We first transform to
+action-angle coordinates, which, to lowest order, treat the close pair as a
+single vortex amongst all others with an internal degree of freedom. We next,
+and most importantly, apply Lie transform perturbation theory to remove the
+higher-order correction terms in succession. The overall transformation
+drastically increases the numerical efficiency and ensures that the total
+energy remains constant to high accuracy.

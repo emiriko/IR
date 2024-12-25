@@ -1,0 +1,15 @@
+In this work we suggest a statistical mechanics approach to the
+classification of high-dimensional data according to a binary label. We propose
+an algorithm whose aim is twofold: First it learns a classifier from a
+relatively small number of data, second it extracts a sparse signature, {\it
+i.e.} a lower-dimensional subspace carrying the information needed for the
+classification. In particular the second part of the task is NP-hard, therefore
+we propose a statistical-mechanics based message-passing approach. The
+resulting algorithm is firstly tested on artificial data to prove its validity,
+but also to elucidate possible limitations.
+  As an important application, we consider the classification of
+gene-expression data measured in various types of cancer tissues. We find that,
+despite the currently low quantity and quality of available data (the number of
+available samples is much smaller than the number of measured genes, limiting
+thus strongly the predictive capacities), the algorithm performs slightly
+better than many state-of-the-art approaches in bioinformatics.

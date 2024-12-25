@@ -1,0 +1,21 @@
+We consider the classical mathematical economics problem of {\em Bayesian
+optimal mechanism design} where a principal aims to optimize expected revenue
+when allocating resources to self-interested agents with preferences drawn from
+a known distribution. In single-parameter settings (i.e., where each agent's
+preference is given by a single private value for being served and zero for not
+being served) this problem is solved [Myerson '81]. Unfortunately, these single
+parameter optimal mechanisms are impractical and rarely employed [Ausubel and
+Milgrom '06], and furthermore the underlying economic theory fails to
+generalize to the important, relevant, and unsolved multi-dimensional setting
+(i.e., where each agent's preference is given by multiple values for each of
+the multiple services available) [Manelli and Vincent '07]. In contrast to the
+theory of optimal mechanisms we develop a theory of sequential posted price
+mechanisms, where agents in sequence are offered take-it-or-leave-it prices.
+These mechanisms are approximately optimal in single-dimensional settings, and
+avoid many of the properties that make optimal mechanisms impractical.
+Furthermore, these mechanisms generalize naturally to give the first known
+approximations to the elusive optimal multi-dimensional mechanism design
+problem. In particular, we solve multi-dimensional multi-unit auction problems
+and generalizations to matroid feasibility constraints. The constant
+approximations we obtain range from 1.5 to 8. For all but one case, our posted
+price sequences can be computed in polynomial time.

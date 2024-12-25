@@ -1,0 +1,18 @@
+A new algorithm for reconstructing a two dimensional object from a set of one
+dimensional projected views is presented that is both computationally exact and
+experimentally practical. The algorithm has a computational complexity of O(n
+log2 n) with n = N^2 for an NxN image, is robust in the presence of noise and
+produces no artefacts in the reconstruction process, as is the case with
+conventional tomographic methods. The reconstruction process is approximation
+free because the object is assumed to be discrete and utilizes fully discrete
+Radon transforms. Noise in the projection data can be suppressed further by
+introducing redundancy in the reconstruction. The number of projections
+required for exact reconstruction and the response to noise can be controlled
+without comprising the digital nature of the algorithm. The digital projections
+are those of the Mojette Transform, a form of discrete linogram. A simple
+analytical mapping is developed that compacts these projections exactly into
+symmetric periodic slices within the Discrete Fourier Transform. A new digital
+angle set is constructed that allows the periodic slices to completely fill all
+of the objects Discrete Fourier space. Techniques are proposed to acquire these
+digital projections experimentally to enable fast and robust two dimensional
+reconstructions.

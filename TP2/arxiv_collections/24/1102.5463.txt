@@ -1,0 +1,13 @@
+Given a real valued function f(X,Y), a box region B_0 in R^2 and a positive
+epsilon, we want to compute an epsilon-isotopic polygonal approximation to the
+restriction of the curve S=f^{-1}(0)={p in R^2: f(p)=0} to B_0. We focus on
+subdivision algorithms because of their adaptive complexity and ease of
+implementation. Plantinga and Vegter gave a numerical subdivision algorithm
+that is exact when the curve S is bounded and non-singular. They used a
+computational model that relied only on function evaluation and interval
+arithmetic. We generalize their algorithm to any bounded (but possibly
+non-simply connected) region that does not contain singularities of S. With
+this generalization as a subroutine, we provide a method to detect isolated
+algebraic singularities and their branching degree. This appears to be the
+first complete purely numerical method to compute isotopic approximations of
+algebraic curves with isolated singularities.

@@ -1,0 +1,10 @@
+Drift analysis has become a powerful tool to prove bounds on the runtime of
+randomized search heuristics. It allows, for example, fairly simple proofs for
+the classical problem how the (1+1) Evolutionary Algorithm (EA) optimizes an
+arbitrary pseudo-Boolean linear function. The key idea of drift analysis is to
+measure the progress via another pseudo-Boolean function (called drift
+function) and use deeper results from probability theory to derive from this a
+good bound for the runtime of the EA. Surprisingly, all these results manage to
+use the same drift function for all linear objective functions.
+  In this work, we show that such universal drift functions only exist if the
+mutation probability is close to the standard value of $1/n$.

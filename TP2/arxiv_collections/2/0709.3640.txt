@@ -1,0 +1,13 @@
+Combining the mutual information criterion with a forward feature selection
+strategy offers a good trade-off between optimality of the selected feature
+subset and computation time. However, it requires to set the parameter(s) of
+the mutual information estimator and to determine when to halt the forward
+procedure. These two choices are difficult to make because, as the
+dimensionality of the subset increases, the estimation of the mutual
+information becomes less and less reliable. This paper proposes to use
+resampling methods, a K-fold cross-validation and the permutation test, to
+address both issues. The resampling methods bring information about the
+variance of the estimator, information which can then be used to automatically
+set the parameter and to calculate a threshold to stop the forward procedure.
+The procedure is illustrated on a synthetic dataset as well as on real-world
+examples.

@@ -1,0 +1,18 @@
+Logic programming provides a high-level view of programming, giving
+implementers a vast latitude into what techniques to explore to achieve the
+best performance for logic programs. Towards obtaining maximum performance, one
+of the holy grails of logic programming has been to design computational models
+that could be executed efficiently and that would allow both for a reduction of
+the search space and for exploiting all the available parallelism in the
+application. These goals have motivated the design of the Extended Andorra
+Model, a model where goals that do not constrain non-deterministic goals can
+execute first.
+  In this work we present and evaluate the Basic design for Extended Andorra
+Model (BEAM), a system that builds upon David H. D. Warren's original EAM with
+Implicit Control. We provide a complete description and implementation of the
+BEAM System as a set of rewrite and control rules. We present the major data
+structures and execution algorithms that are required for efficient execution,
+and evaluate system performance.
+  A detailed performance study of our system is included. Our results show that
+the system achieves acceptable base performance, and that a number of
+applications benefit from the advanced search inherent to the EAM.

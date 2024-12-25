@@ -1,0 +1,17 @@
+Typically, operational risk losses are reported above some threshold. This
+paper studies the impact of ignoring data truncation on the 0.999 quantile of
+the annual loss distribution for operational risk for a broad range of
+distribution parameters and truncation levels. Loss frequency and severity are
+modelled by the Poisson and Lognormal distributions respectively. Two cases of
+ignoring data truncation are studied: the "naive model" - fitting a Lognormal
+distribution with support on a positive semi-infinite interval, and "shifted
+model" - fitting a Lognormal distribution shifted to the truncation level. For
+all practical cases, the "naive model" leads to underestimation (that can be
+severe) of the 0.999 quantile. The "shifted model" overestimates the 0.999
+quantile except some cases of small underestimation for large truncation
+levels. Conservative estimation of capital charge is usually acceptable and the
+use of the "shifted model" can be justified while the "naive model" should not
+be allowed. However, if parameter uncertainty is taken into account (in
+practice it is often ignored), the "shifted model" can lead to considerable
+underestimation of capital charge. This is demonstrated with a practical
+example.

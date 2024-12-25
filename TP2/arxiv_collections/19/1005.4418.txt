@@ -1,0 +1,16 @@
+EPW (Electron-Phonon coupling using Wannier functions) is a program written
+in FORTRAN90 for calculating the electron-phonon coupling in periodic systems
+using density-functional perturbation theory and maximally-localized Wannier
+functions. EPW can calculate electron-phonon interaction self-energies,
+electron-phonon spectral functions, and total as well as mode-resolved
+electron-phonon coupling strengths. The calculation of the electron-phonon
+coupling requires a very accurate sampling of electron-phonon scattering
+processes throughout the Brillouin zone, hence reliable calculations can be
+prohibitively time-consuming. EPW combines the Kohn-Sham electronic eigenstates
+and the vibrational eigenmodes provided by the Quantum-ESPRESSO package [1]
+with the maximally localized Wannier functions provided by the wannier90
+package [2] in order to generate electron-phonon matrix elements on arbitrarily
+dense Brillouin zone grids using a generalized Fourier interpolation. This
+feature of EPW leads to fast and accurate calculations of the electron-phonon
+coupling, and enables the study of the electron-phonon coupling in large and
+complex systems.

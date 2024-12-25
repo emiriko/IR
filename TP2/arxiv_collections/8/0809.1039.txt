@@ -1,0 +1,20 @@
+This work analyzes the high-SNR asymptotic error performance of
+outage-limited communications with fading, where the number of bits that arrive
+at the transmitter during any time slot is random but the delivery of bits at
+the receiver must adhere to a strict delay limitation. Specifically, bit errors
+are caused by erroneous decoding at the receiver or violation of the strict
+delay constraint. Under certain scaling of the statistics of the bit-arrival
+process with SNR, this paper shows that the optimal decay behavior of the
+asymptotic total probability of bit error depends on how fast the burstiness of
+the source scales down with SNR. If the source burstiness scales down too
+slowly, the total probability of error is asymptotically dominated by
+delay-violation events. On the other hand, if the source burstiness scales down
+too quickly, the total probability of error is asymptotically dominated by
+channel-error events. However, at the proper scaling, where the burstiness
+scales linearly with 1/sqrt(log SNR) and at the optimal coding duration and
+transmission rate, the occurrences of channel errors and delay-violation errors
+are asymptotically balanced. In this latter case, the optimal exponent of the
+total probability of error reveals a tradeoff that addresses the question of
+how much of the allowable time and rate should be used for gaining reliability
+over the channel and how much for accommodating the burstiness with delay
+constraints.

@@ -1,0 +1,20 @@
+Space-time adaptive processing (STAP) is a well-known technique in detecting
+slow-moving targets in the presence of a clutter-spreading environment. When
+considering the STAP system deployed with conformal radar array (CFA), the
+training data are range-dependent, which results in poor detection performance
+of traditional statistical-based algorithms. Current registration-based
+compensation (RBC) is implemented based on a sub-snapshot spectrum using
+temporal smoothing. In this case, the estimation accuracy of the configuration
+parameters and the clutter power distribution is limited. In this paper, the
+technique of sparse representation is introduced into the spectral estimation,
+and a new compensation method is proposed, namely RBC with sparse
+representation (SR-RBC). This method first converts the clutter spectral
+estimation into an ill-posed problem with the constraint of sparsity. Then, the
+technique of sparse representation, like iterative reweighted least squares
+(IRLS), is utilized to solve this problem. Then, the transform matrix is
+designed so that the processed training data behaves nearly stationary with the
+test cell. Because the configuration parameters and the clutter spectral
+response are obtained with full-snapshot using sparse representation, SR-RBC
+provides more accurate clutter spectral estimation, and the transformed
+training data are more stationary so that better signal-clutter-ratio (SCR)
+improvement is expected.

@@ -1,0 +1,20 @@
+This paper aims at answering the following two questions in
+privacy-preserving data analysis and publishing: What formal privacy guarantee
+(if any) does $k$-anonymization provide? How to benefit from the adversary's
+uncertainty about the data? We have found that random sampling provides a
+connection that helps answer these two questions, as sampling can create
+uncertainty. The main result of the paper is that $k$-anonymization, when done
+"safely", and when preceded with a random sampling step, satisfies
+$(\epsilon,\delta)$-differential privacy with reasonable parameters. This
+result illustrates that "hiding in a crowd of $k$" indeed offers some privacy
+guarantees. This result also suggests an alternative approach to output
+perturbation for satisfying differential privacy: namely, adding a random
+sampling step in the beginning and pruning results that are too sensitive to
+change of a single tuple. Regarding the second question, we provide both
+positive and negative results. On the positive side, we show that adding a
+random-sampling pre-processing step to a differentially-private algorithm can
+greatly amplify the level of privacy protection. Hence, when given a dataset
+resulted from sampling, one can utilize a much large privacy budget. On the
+negative side, any privacy notion that takes advantage of the adversary's
+uncertainty likely does not compose. We discuss what these results imply in
+practice.

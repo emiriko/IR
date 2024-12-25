@@ -1,0 +1,13 @@
+When Bluetooth devices come within the range of another, an electronic
+conversation takes place to determine whether the devices in range are known or
+whether one needs to control the other. Most Bluetooth devices do not require
+any form of user interaction for this to occur. If devices within range are
+known to one another, the devices automatically form a network known as a
+pairing. Authentication addresses the identity of each communicating device.
+The sender sends an encrypted authentication request frame to the receiver. The
+receiver sends an encrypted challenge frame back to the sender. Both perform a
+predefined algorithm. The sender sends its findings back to the receiver, which
+in turn either allows or denies the connection. There are three different
+functions for authentication in Bluetooth-E1, E2, and E3. E1 is used when
+encrypting the authorization challenge-response values.E2 is for generating
+different link keys.E3 is used when creating the encryption key.

@@ -1,0 +1,16 @@
+A 'dual-field' strategy is often used for tumors with highly complex shapes
+and/or with large volumes exceeding available field-size in both passive and
+scanning irradiations with ion beams. Range and setup uncertainties can cause
+hot and cold doses at the field junction within the target. Such uncertainties
+will also cause cold doses in the peripheral region of the target. We have
+developed an algorithm to reduce the sensitivity of the dual-field plan to
+these uncertainties in scanning irradiations. This algorithm is composed of the
+following two steps: 1) generating the expanded target volume, and 2) solving
+the inverse problem where the terms suppressing the dose gradient of individual
+fields are added into the objective function. The validity of this algorithm is
+demonstrated through the simulation studies for three extreme cases of two
+fields with unidirectional, opposing and orthogonal geometries. With the
+proposed algorithm, we can obtain a more robust plan to minimize the effects of
+range and setup uncertainties than the conventional plan. Compared to that for
+the conventional plan, the optimization time for the robust plan increased by a
+factor of approximately three.

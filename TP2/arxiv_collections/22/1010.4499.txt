@@ -1,0 +1,25 @@
+Autonomous wireless agents such as unmanned aerial vehicles or mobile base
+stations present a great potential for deployment in next-generation wireless
+networks. While current literature has been mainly focused on the use of agents
+within robotics or software applications, we propose a novel usage model for
+self-organizing agents suited to wireless networks. In the proposed model, a
+number of agents are required to collect data from several arbitrarily located
+tasks. Each task represents a queue of packets that require collection and
+subsequent wireless transmission by the agents to a central receiver. The
+problem is modeled as a hedonic coalition formation game between the agents and
+the tasks that interact in order to form disjoint coalitions. Each formed
+coalition is modeled as a polling system consisting of a number of agents which
+move between the different tasks present in the coalition, collect and transmit
+the packets. Within each coalition, some agents can also take the role of a
+relay for improving the packet success rate of the transmission. The proposed
+algorithm allows the tasks and the agents to take distributed decisions to join
+or leave a coalition, based on the achieved benefit in terms of effective
+throughput, and the cost in terms of delay. As a result of these decisions, the
+agents and tasks structure themselves into independent disjoint coalitions
+which constitute a Nash-stable network partition. Moreover, the proposed
+algorithm allows the agents and tasks to adapt the topology to environmental
+changes such as the arrival/removal of tasks or the mobility of the tasks.
+Simulation results show how the proposed algorithm improves the performance, in
+terms of average player (agent or task) payoff, of at least 30.26% (for a
+network of 5 agents with up to 25 tasks) relatively to a scheme that allocates
+nearby tasks equally among agents.

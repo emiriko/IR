@@ -1,0 +1,17 @@
+Prior to the recent development of symplectic integrators, the time-stepping
+operator $\e^{h(A+B)}$ was routinely decomposed into a sum of products of
+$\e^{h A}$ and $\e^{hB}$ in the study of hyperbolic partial differential
+equations. In the context of solving Hamiltonian dynamics, we show that such a
+decomposition give rises to both {\it even} and {\it odd} order Runge-Kutta and
+Nystr\"om integrators. By use of Suzuki's forward-time derivative operator to
+enforce the time-ordered exponential, we show that the same decomposition can
+be used to solve non-autonomous equations. In particular, odd order algorithms
+are derived on the basis of a highly non-trivial {\it time-asymmetric} kernel.
+Such an operator approach provides a general and unified basis for
+understanding structure non-preserving algorithms and is especially useful in
+deriving very high-order algorithms via {\it analytical} extrapolations. In
+this work, algorithms up to the 100th order are tested by integrating the
+ground state wave function of the hydrogen atom. For such a singular Coulomb
+problem, the multi-product expansion showed uniform convergence and is free of
+poles usually associated with structure-preserving methods. Other examples are
+also discussed.

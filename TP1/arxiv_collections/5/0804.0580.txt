@@ -1,0 +1,13 @@
+Scheduling problems are generally NP-hard combinatorial problems, and a lot
+of research has been done to solve these problems heuristically. However, most
+of the previous approaches are problem-specific and research into the
+development of a general scheduling algorithm is still in its infancy.
+  Mimicking the natural evolutionary process of the survival of the fittest,
+Genetic Algorithms (GAs) have attracted much attention in solving difficult
+scheduling problems in recent years. Some obstacles exist when using GAs: there
+is no canonical mechanism to deal with constraints, which are commonly met in
+most real-world scheduling problems, and small changes to a solution are
+difficult. To overcome both difficulties, indirect approaches have been
+presented (in [1] and [2]) for nurse scheduling and driver scheduling, where
+GAs are used by mapping the solution space, and separate decoding routines then
+build solutions to the original problem.

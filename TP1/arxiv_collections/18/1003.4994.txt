@@ -1,0 +1,20 @@
+If a quantum system is subject to noise, it is possible to perform quantum
+error correction reversing the action of the noise if and only if no
+information about the system's quantum state leaks to the environment. In this
+article, we develop an analogous duality in the case that the environment
+approximately forgets the identity of the quantum state, a weaker condition
+satisfied by epsilon-randomizing maps and approximate unitary designs.
+Specifically, we show that the environment approximately forgets quantum states
+if and only if the original channel approximately preserves pairwise fidelities
+of pure inputs, an observation we call weak decoupling duality. Using this
+tool, we then go on to study the task of using the output of a channel to
+simulate restricted classes of measurements on a space of input states. The
+case of simulating measurements that test whether the input state is an
+arbitrary pure state is known as equality testing or quantum identification. An
+immediate consequence of weak decoupling duality is that the ability to perform
+quantum identification cannot be cloned. We furthermore establish that the
+optimal amortized rate at which quantum states can be identified through a
+noisy quantum channel is equal to the entanglement-assisted classical capacity
+of the channel, despite the fact that the task is quantum, not classical, and
+entanglement-assistance is not allowed. In particular, this rate is strictly
+positive for every non-constant quantum channel, including classical channels.

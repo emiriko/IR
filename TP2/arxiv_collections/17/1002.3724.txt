@@ -1,0 +1,15 @@
+As an emerging field, MS-based proteomics still requires software tools for
+efficiently storing and accessing experimental data. In this work, we focus on
+the management of LC-MS data, which are typically made available in standard
+XML-based portable formats. The structures that are currently employed to
+manage these data can be highly inefficient, especially when dealing with
+high-throughput profile data. LC-MS datasets are usually accessed through 2D
+range queries. Optimizing this type of operation could dramatically reduce the
+complexity of data analysis. We propose a novel data structure for LC-MS
+datasets, called mzRTree, which embodies a scalable index based on the R-tree
+data structure. mzRTree can be efficiently created from the XML-based data
+formats and it is suitable for handling very large datasets. We experimentally
+show that, on all range queries, mzRTree outperforms other known structures
+used for LC-MS data, even on those queries these structures are optimized for.
+Besides, mzRTree is also more space efficient. As a result, mzRTree reduces
+data analysis computational costs for very large profile datasets.

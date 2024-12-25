@@ -1,0 +1,14 @@
+We consider forecasting the latent rate profiles of a time series of
+inhomogeneous Poisson processes. The work is motivated by operations management
+of queueing systems, in particular, telephone call centers, where accurate
+forecasting of call arrival rates is a crucial primitive for efficient staffing
+of such centers. Our forecasting approach utilizes dimension reduction through
+a factor analysis of Poisson variables, followed by time series modeling of
+factor score series. Time series forecasts of factor scores are combined with
+factor loadings to yield forecasts of future Poisson rate profiles. Penalized
+Poisson regressions on factor loadings guided by time series forecasts of
+factor scores are used to generate dynamic within-process rate updating.
+Methods are also developed to obtain distributional forecasts. Our methods are
+illustrated using simulation and real data. The empirical results demonstrate
+how forecasting and dynamic updating of call arrival rates can affect the
+accuracy of call center staffing.

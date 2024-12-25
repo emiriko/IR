@@ -1,0 +1,19 @@
+We present the Smoothed Hessian Major Axis Filament Finder (SHMAFF), an
+algorithm that uses the eigenvectors of the Hessian matrix of the smoothed
+galaxy distribution to identify individual filamentary structures. Filaments
+are traced along the Hessian eigenvector corresponding to the largest
+eigenvalue, and are stopped when the axis orientation changes more rapidly than
+a preset threshold. In both N-body simulations and the Sloan Digital Sky Survey
+(SDSS) main galaxy redshift survey data, the resulting filament length
+distributions are approximately exponential. In the SDSS galaxy distribution,
+using smoothing lengths of 10 h^{-1} Mpc and 15 h^{-1} Mpc, we find filament
+lengths per unit volume of 1.9x10^{-3} h^2 Mpc^{-2} and 7.6x10^{-4} h^2
+Mpc^{-2}, respectively. The filament width distributions, which are much more
+sensitive to non-linear growth, are also consistent between the real and mock
+galaxy distributions using a standard cosmology. In SDSS, we find mean filament
+widths of 5.5 h^{-1} Mpc and 8.4 h^{-1} Mpc on 10 h^{-1} Mpc and 15 h^{-1} Mpc
+smoothing scales, with standard deviations of 1.1 h^{-1} Mpc and 1.4 h^{-1}
+Mpc, respectively. Finally, the spatial distribution of filamentary structure
+in simulations is very similar between z=3 and z=0 on smoothing scales as large
+as 15 h^{-1} Mpc, suggesting that the outline of filamentary structure is
+already in place at high redshift.

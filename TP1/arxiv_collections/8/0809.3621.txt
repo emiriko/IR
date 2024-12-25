@@ -1,0 +1,10 @@
+This report concerns the inverse problem of estimating a spacially dependent
+coefficient of a partial differential equation from observations of the
+solution at the boundary. Such a problem can be formulated as an optimal
+control problem with the coefficient as the control variable and the solution
+as state variable. The heat or the wave equation is here considered as state
+equation. It is well known that such inverse problems are ill-posed and need to
+be regularized. The powerful Hamilton-Jacobi theory is used to construct a
+simple and general method where the first step is to analytically regularize
+the Hamiltonian; next its Hamiltonian system, a system of nonlinear partial
+differential equations, is solved with the Newton method and a sparse Jacobian.

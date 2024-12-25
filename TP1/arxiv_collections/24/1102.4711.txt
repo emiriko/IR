@@ -1,0 +1,15 @@
+Two classes of turbo codes over high-order finite fields are introduced. The
+codes are derived from a particular protograph sub-ensemble of the (dv=2,dc=3)
+low-density parity-check code ensemble. A first construction is derived as a
+parallel concatenation of two non-binary, time-variant accumulators. The second
+construction is based on the serial concatenation of a non-binary, time-variant
+differentiator and of a non-binary, time-variant accumulator, and provides a
+highly-structured flexible encoding scheme for (dv=2,dc=4) ensemble codes. A
+cycle graph representation is provided. The proposed codes can be decoded
+efficiently either as low-density parity-check codes (via belief propagation
+decoding over the codes bipartite graph) or as turbo codes (via the
+forward-backward algorithm applied to the component codes trellis). The
+forward-backward algorithm for symbol maximum a posteriori decoding of the
+component codes is illustrated and simplified by means of the fast Fourier
+transform. The proposed codes provide remarkable gains (~ 1 dB) over binary
+low-density parity-check and turbo codes in the moderate-short block regimes.

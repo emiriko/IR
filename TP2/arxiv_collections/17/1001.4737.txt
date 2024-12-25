@@ -1,0 +1,24 @@
+To asses stability against 1/f noise, the Low Frequency Instrument (LFI)
+onboard the Planck mission will acquire data at a rate much higher than the
+data rate allowed by its telemetry bandwith of 35.5 kbps. The data are
+processed by an onboard pipeline, followed onground by a reversing step. This
+paper illustrates the LFI scientific onboard processing to fit the allowed
+datarate. This is a lossy process tuned by using a set of 5 parameters Naver,
+r1, r2, q, O for each of the 44 LFI detectors. The paper quantifies the level
+of distortion introduced by the onboard processing, EpsilonQ, as a function of
+these parameters. It describes the method of optimizing the onboard processing
+chain. The tuning procedure is based on a optimization algorithm applied to
+unprocessed and uncompressed raw data provided either by simulations, prelaunch
+tests or data taken from LFI operating in diagnostic mode. All the needed
+optimization steps are performed by an automated tool, OCA2, which ends with
+optimized parameters and produces a set of statistical indicators, among them
+the compression rate Cr and EpsilonQ. For Planck/LFI the requirements are Cr =
+2.4 and EpsilonQ <= 10% of the rms of the instrumental white noise. To speedup
+the process an analytical model is developed that is able to extract most of
+the relevant information on EpsilonQ and Cr as a function of the signal
+statistics and the processing parameters. This model will be of interest for
+the instrument data analysis. The method was applied during ground tests when
+the instrument was operating in conditions representative of flight. Optimized
+parameters were obtained and the performance has been verified, the required
+data rate of 35.5 Kbps has been achieved while keeping EpsilonQ at a level of
+3.8% of white noise rms well within the requirements.

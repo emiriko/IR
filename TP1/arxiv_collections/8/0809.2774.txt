@@ -1,0 +1,9 @@
+As a subproduct of the Schoof-Elkies-Atkin algorithm to count points on
+elliptic curves defined over finite fields of characteristic p, there exists an
+algorithm that computes, for l an Elkies prime, l-torsion points in an
+extension of degree l-1 at cost O(l max(l, \log q)^2) bit operations in the
+favorable case where l < p/2.
+  We combine in this work a fast algorithm for computing isogenies due to
+Bostan, Morain, Salvy and Schost with the p-adic approach followed by Joux and
+Lercier to get for the first time an algorithm valid without any limitation on
+l and p but of similar complexity.

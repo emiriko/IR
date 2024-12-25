@@ -1,0 +1,12 @@
+The goal of this work is to minimize the energy dissipation of embedded
+controllers without jeopardizing the quality of control (QoC). Taking advantage
+of the dynamic voltage scaling (DVS) technology, this paper develops a
+performance-aware power management scheme for embedded controllers with
+processors that allow multiple voltage levels. The periods of control tasks are
+adapted online with respect to the current QoC, thus facilitating additional
+energy reduction over standard DVS. To avoid the waste of CPU resources as a
+result of the discrete voltage levels, a resource reclaiming mechanism is
+employed to maximize the CPU utilization and also to improve the QoC.
+Simulations are conducted to evaluate the performance of the proposed scheme.
+Compared with the optimal standard DVS scheme, the proposed scheme is shown to
+be able to save remarkably more energy while maintaining comparable QoC.

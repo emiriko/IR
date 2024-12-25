@@ -1,0 +1,20 @@
+Quantum computers can break the RSA and El Gamal public-key cryptosystems,
+since they can factor integers and extract discrete logarithms. If we believe
+that quantum computers will someday become a reality, we would like to have
+\emph{post-quantum} cryptosystems which can be implemented today with classical
+computers, but which will remain secure even in the presence of quantum
+attacks.
+  In this article we show that the McEliece cryptosystem over
+\emph{well-permuted, well-scrambled} linear codes resists precisely the attacks
+to which the RSA and El Gamal cryptosystems are vulnerable---namely, those
+based on generating and measuring coset states. This eliminates the approach of
+strong Fourier sampling on which almost all known exponential speedups by
+quantum algorithms are based. Specifically, we show that the natural case of
+the Hidden Subgroup Problem to which the McEliece cryptosystem reduces cannot
+be solved by strong Fourier sampling, or by any measurement of a coset state.
+We start with recent negative results on quantum algorithms for Graph
+Isomorphism, which are based on particular subgroups of size two, and extend
+them to subgroups of arbitrary structure, including the automorphism groups of
+linear codes. This allows us to obtain the first rigorous results on the
+security of the McEliece cryptosystem in the face of quantum adversaries,
+strengthening its candidacy for post-quantum cryptography.

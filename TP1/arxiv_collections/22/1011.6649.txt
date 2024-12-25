@@ -1,0 +1,14 @@
+Non-gaussian spatial data are very common in many disciplines. For instance,
+count data are common in disease mapping, and binary data are common in
+ecology. When fitting spatial regressions for such data, one needs to account
+for dependence to ensure reliable inference for the regression coefficients.
+The spatial generalized linear mixed model (SGLMM) offers a very popular and
+flexible approach to modeling such data, but the SGLMM suffers from three major
+shortcomings: (1) uninterpretability of parameters due to spatial confounding,
+(2) variance inflation due to spatial confounding, and (3) high-dimensional
+spatial random effects that make fully Bayesian inference for such models
+computationally challenging. We propose a new parameterization of the SGLMM
+that alleviates spatial confounding and speeds computation by greatly reducing
+the dimension of the spatial random effects. We illustrate the application of
+our approach to simulated binary, count, and Gaussian spatial datasets, and to
+a large infant mortality dataset.

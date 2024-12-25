@@ -1,0 +1,19 @@
+The Galactic O-Star Spectroscopic Survey (GOSSS) is an ambitious project that
+is observing all known Galactic O stars with B < 13 in the blue-violet part of
+the spectrum with R-2500. It is based on version 2 of the most complete catalog
+to date of Galactic O stars with accurate spectral types (v1, Ma\'iz
+Apell\'aniz et al. 2004 ;v2, Sota et al. 2008). Given the large amount of data
+that we are getting (more than 150 nights of observations at three different
+observatories in the last 4 years) we have developed an automatic spectroscopic
+reduction pipeline. This pipeline has been programmed in IDL and automates the
+process of data reduction. It can operate in two modes: automatic data
+reduction (quicklook) or semi-automatic data reduction (full). In "quicklook",
+we are able to get rectified and calibrated spectra of all stars of a full
+night just minutes after the observations. The pipeline automatically
+identifies the type of image and applies the standard reduction procedure (bias
+subtraction, flat field correction, application of bad pixel mask, ...). It
+also extracts all spectra of the stars in one image (including close visual
+binaries), aligns and merges all spectra of the same star (to increase the
+signal to noise ratio and to correct defects such as cosmic rays), calibrates
+in wavelength and rectifies the continuum. The same operations are performed in
+full mode, but allowing the user to adjust the parameters used in the process.

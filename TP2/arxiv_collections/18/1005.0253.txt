@@ -1,0 +1,13 @@
+Size-Change Termination (SCT) is a method of proving program termination
+based on the impossibility of infinite descent. To this end we may use a
+program abstraction in which transitions are described by monotonicity
+constraints over (abstract) variables. When only constraints of the form x>y'
+and x>=y' are allowed, we have size-change graphs. Both theory and practice are
+now more evolved in this restricted framework then in the general framework of
+monotonicity constraints. This paper shows that it is possible to extend and
+adapt some theory from the domain of size-change graphs to the general case,
+thus complementing previous work on monotonicity constraints. In particular, we
+present precise decision procedures for termination; and we provide a procedure
+to construct explicit global ranking functions from monotonicity constraints in
+singly-exponential time, which is better than what has been published so far
+even for size-change graphs.

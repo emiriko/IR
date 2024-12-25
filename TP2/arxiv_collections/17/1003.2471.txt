@@ -1,0 +1,15 @@
+In this paper, we consider the problem of real-time transmission scheduling
+over time-varying channels. We first formulate the transmission scheduling
+problem as a Markov decision process (MDP) and systematically unravel the
+structural properties (e.g. concavity in the state-value function and
+monotonicity in the optimal scheduling policy) exhibited by the optimal
+solutions. We then propose an online learning algorithm which preserves these
+structural properties and achieves -optimal solutions for an arbitrarily small
+. The advantages of the proposed online method are that: (i) it does not
+require a priori knowledge of the traffic arrival and channel statistics and
+(ii) it adaptively approximates the state-value functions using piece-wise
+linear functions and has low storage and computation complexity. We also extend
+the proposed low-complexity online learning solution to the prioritized data
+transmission. The simulation results demonstrate that the proposed method
+achieves significantly better utility (or delay)-energy trade-offs when
+comparing to existing state-of-art online optimization methods.

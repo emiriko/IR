@@ -1,0 +1,16 @@
+Synchronous languages rely on formal methods to ease the development of
+applications in an efficient and reusable way. Formal methods have been
+advocated as a means of increasing the reliability of systems, especially those
+which are safety or business critical. It is still difficult to develop
+automatic specification and verification tools due to limitations like state
+explosion, undecidability, etc... In this work, we design a new specification
+model based on a reactive synchronous approach. Then, we benefit from a formal
+framework well suited to perform compilation and formal validation of systems.
+In practice, we design and implement a special purpose language (LE) and its
+two semantics: the ehavioral semantics helps us to define a program by the set
+of its behaviors and avoid ambiguousness in programs' interpretation; the
+execution equational semantics allows the modular compilation of programs into
+software and hardware targets (c code, vhdl code, fpga synthesis, observers).
+Our approach is pertinent considering the two main requirements of critical
+realistic applications: the modular compilation allows us to deal with large
+systems, the model-based approach provides us with formal validation.

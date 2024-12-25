@@ -1,0 +1,16 @@
+Random scale-free overlay topologies provide a number of properties like for
+example high resilience against failures of random nodes, small (average)
+diameter as well as good expansion and congestion characteristics that make
+them interesting for the use in large-scale distributed systems. A number of
+these properties have been shown to be influenced by the exponent \gamma of
+their degree distribution P(k) ~ k^{-\gamma}. In this article, we present a
+distributed rewiring scheme that is suitable to effectuate scale-free overlay
+topologies with an adjustable exponent. The scheme uses a biased random walk
+strategy to sample new endpoints of edges being rewired and relies on a simple
+equilibrium model for scale-free networks. The bias of the random walk strategy
+can be tuned to produce random scale-free networks with arbitrary degree
+distribution exponents greater than two. We argue that the rewiring strategy
+can be implemented in a distributed fashion based on a node's information about
+its immediate neighbors. We present both analytical arguments as well as
+results that have been obtained using an implementation of the proposed
+protocol.

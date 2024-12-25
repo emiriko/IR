@@ -1,0 +1,6 @@
+The Extended Burrows Wheeler transform (EBWT) helps to find the distance
+between two sequences. Implementation of an existing algorithm takes
+considerable amount of time for small size sequences. In this paper, we give a
+parallel implementation of this algorithm using NVIDIA Compute Unified Device
+Architecture (CUDA). We have obtained, on an average, a 2X improvement in the
+performance.

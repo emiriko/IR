@@ -1,0 +1,14 @@
+One of the most important open questions in the theory of quantum
+convolutional coding is to determine a minimal-memory, non-catastrophic,
+polynomial-depth convolutional encoder for an arbitrary quantum convolutional
+code. Here, we present a technique that finds quantum convolutional encoders
+with such desirable properties for several example quantum convolutional codes
+(an exposition of our technique in full generality will appear elsewhere). We
+first show how to encode the well-studied Forney-Grassl-Guha (FGG) code with an
+encoder that exploits just one memory qubit (the former Grassl-Roetteler
+encoder requires 15 memory qubits). We then show how our technique can find an
+online decoder corresponding to this encoder, and we also detail the operation
+of our technique on a different example of a quantum convolutional code.
+Finally, the reduction in memory for the FGG encoder makes it feasible to
+simulate the performance of a quantum turbo code employing it, and we present
+the results of such simulations.

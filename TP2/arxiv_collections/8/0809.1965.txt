@@ -1,0 +1,10 @@
+Analytical queries defined on data warehouses are complex and use several
+join operations that are very costly, especially when run on very large data
+volumes. To improve response times, data warehouse administrators casually use
+indexing techniques. This task is nevertheless complex and fastidious. In this
+paper, we present an automatic, dynamic index selection method for data
+warehouses that is based on incremental frequent itemset mining from a given
+query workload. The main advantage of this approach is that it helps update the
+set of selected indexes when workload evolves instead of recreating it from
+scratch. Preliminary experimental results illustrate the efficiency of this
+approach, both in terms of performance enhancement and overhead.

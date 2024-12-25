@@ -1,0 +1,13 @@
+This paper describes JANUS, a modular massively parallel and reconfigurable
+FPGA-based computing system. Each JANUS module has a computational core and a
+host. The computational core is a 4x4 array of FPGA-based processing elements
+with nearest-neighbor data links. Processors are also directly connected to an
+I/O node attached to the JANUS host, a conventional PC. JANUS is tailored for,
+but not limited to, the requirements of a class of hard scientific applications
+characterized by regular code structure, unconventional data manipulation
+instructions and not too large data-base size. We discuss the architecture of
+this configurable machine, and focus on its use on Monte Carlo simulations of
+statistical mechanics. On this class of application JANUS achieves impressive
+performances: in some cases one JANUS processing element outperfoms high-end
+PCs by a factor ~ 1000. We also discuss the role of JANUS on other classes of
+scientific applications.

@@ -1,0 +1,21 @@
+Several challenging problem in clustering, partitioning and imaging have
+traditionally been solved using the "spectral technique". These problems
+include the normalized cut problem, the graph expander ratio problem, the
+Cheeger constant problem and the conductance problem. These problems share
+several common features: all seek a bipartition of a set of elements; the
+problems are formulated as a form of ratio cut; the formulation as discrete
+optimization is shown here to be equivalent to a quadratic ratio, sometimes
+referred to as the Raleigh ratio, on discrete variables and a single sum
+constraint which we call the balance or orthogonality constraint; when the
+discrete nature of the variables is disregarded, the continuous relaxation is
+solved by the spectral method. Indeed the spectral relaxation technique is a
+dominant method providing an approximate solution to these problems.
+  We propose an algorithm for these problems which involves a relaxation of the
+orthogonality constraint only. This relaxation is shown here to be solved
+optimally, and in strongly polynomial time, in O(mn log((n^2) / m) for a graph
+on $n$ nodes and $m$ edges. The algorithm, using HPF (Hochbaum's Pseudo-Flow)
+as subroutine, is efficient enough to be used to solve these bi-partitioning
+problems on millions of elements and more than 300 million edges within less
+than 10 minutes. It is also demonstrated, via a preliminary experimental study,
+that the results of the combinatorial algorithm proposed often improve
+dramatically on the quality of the results of the spectral method.

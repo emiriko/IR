@@ -1,0 +1,16 @@
+It has been widely realized that Monte Carlo methods (approximation via a
+sample ensemble) may fail in large scale systems. This work offers some
+theoretical insight into this phenomenon in the context of the particle filter.
+We demonstrate that the maximum of the weights associated with the sample
+ensemble converges to one as both the sample size and the system dimension
+tends to infinity. Specifically, under fairly weak assumptions, if the ensemble
+size grows sub-exponentially in the cube root of the system dimension, the
+convergence holds for a single update step in state-space models with
+independent and identically distributed kernels. Further, in an important
+special case, more refined arguments show (and our simulations suggest) that
+the convergence to unity occurs unless the ensemble grows super-exponentially
+in the system dimension. The weight singularity is also established in models
+with more general multivariate likelihoods, e.g. Gaussian and Cauchy. Although
+presented in the context of atmospheric data assimilation for numerical weather
+prediction, our results are generally valid for high-dimensional particle
+filters.

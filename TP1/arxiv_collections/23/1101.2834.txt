@@ -1,0 +1,13 @@
+We present an item-based approach for collaborative filtering. We determine a
+list of recommended items for a user by considering their previous purchases.
+Additionally other features of the users could be considered such as page
+views, search queries, etc... In particular we address the problem of
+efficiently comparing items. Our algorithm can efficiently approximate an
+estimate of the similarity between two items. As measure of similarity we use
+an approximation of the Jaccard similarity that can be computed by constant
+time operations and one bitwise OR. Moreover we improve the accuracy of the
+similarity by introducing the concept of user preference for a given product,
+which both takes into account multiple purchases and purchases of related
+items. The product of the user preference and the Jaccard measure (or its
+approximation) is used as a score for deciding whether a given product has to
+be recommended.

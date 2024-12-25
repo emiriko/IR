@@ -1,0 +1,12 @@
+This report contains a numerical stability analysis of factorization
+algorithms for computing the Cholesky decomposition of symmetric positive
+definite matrices of displacement rank 2. The algorithms in the class can be
+expressed as sequences of elementary downdating steps. The stability of the
+factorization algorithms follows directly from the numerical properties of
+algorithms for realizing elementary downdating operations. It is shown that the
+Bareiss algorithm for factorizing a symmetric positive definite Toeplitz matrix
+is in the class and hence the Bareiss algorithm is stable. Some numerical
+experiments that compare behavior of the Bareiss algorithm and the Levinson
+algorithm are presented. These experiments indicate that in general (when the
+reflection coefficients are not all positive) the Levinson algorithm is not
+stable; certainly it can give much larger residuals than the Bareiss algorithm.

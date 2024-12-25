@@ -1,0 +1,17 @@
+In large scale multiple testing, the use of an empirical null distribution
+rather than the theoretical null distribution can be critical for correct
+inference. This paper proposes a ``mode matching'' method for fitting an
+empirical null when the theoretical null belongs to any exponential family.
+Based on the central matching method for $z$-scores, mode matching estimates
+the null density by fitting an appropriate exponential family to the histogram
+of the test statistics by Poisson regression in a region surrounding the mode.
+The empirical null estimate is then used to estimate local and tail false
+discovery rate (FDR) for inference. Delta-method covariance formulas and
+approximate asymptotic bias formulas are provided, as well as simulation
+studies of the effect of the tuning parameters of the procedure on the
+bias-variance trade-off. The standard FDR estimates are found to be biased down
+at the far tails. Correlation between test statistics is taken into account in
+the covariance estimates, providing a generalization of Efron's ``wing
+function'' for exponential families. Applications with $\chi^2$ statistics are
+shown in a family-based genome-wide association study from the Framingham Heart
+Study and an anatomical brain imaging study of dyslexia in children.

@@ -1,0 +1,11 @@
+Efficient generation of cluster states is crucial for engineering large-scale
+measurement-based quantum computers. Hybrid matter-optical systems offer a
+robust, scalable path to this goal. Such systems have an ancilla which acts as
+a bus connecting the qubits. We show that by generating smaller cluster "Lego
+bricks", reusing one ancilla per brick, the cluster can be produced with
+maximal efficiency, requiring fewer than half the operations compared with no
+bus reuse. By reducing the time required to prepare sections of the cluster,
+bus reuse more than doubles the size of the computational workspace that can be
+used before decoherence effects dominate. A row of buses in parallel provides
+fully scalable cluster state generation requiring only 20 CPhase gates per bus
+use.

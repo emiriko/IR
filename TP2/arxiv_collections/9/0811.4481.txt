@@ -1,0 +1,8 @@
+Grover's quantum search algorithm is considered as one of the milestone in
+the field of quantum computing. The algorithm can search for a single match in
+a database with $N$ records in $O(\sqrt{N})$ assuming that the item must exist
+in the database with quadratic speedup over the best known classical algorithm.
+This review paper discusses the performance of Grover's algorithm in case of
+multiple matches where the problem is expected to be easier. Unfortunately, we
+will find that the algorithm will fail for $M>3N/4$, where $M$ is the number of
+matches in the list.

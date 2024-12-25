@@ -1,0 +1,22 @@
+Vehicular traffic is a classical example of a multi-agent system in which
+autonomous drivers operate in a shared environment. The article provides an
+overview of the state-of-the-art in microscopic traffic modeling and the
+implications for simulation techniques. We focus on the short-time dynamics of
+car-following models which describe continuous feedback control tasks
+(acceleration and braking) and models for discrete-choice tasks as a response
+to the surrounding traffic. The driving style of an agent is characterized by
+model parameters such as reaction time, desired speed, desired time gap,
+anticipation etc. In addition, internal state variables corresponding to the
+agent's "mind" are used to incorporate the driving experiences. We introduce a
+time-dependency of some parameters to describe the frustration of drivers being
+in a traffic jam for a while. Furthermore, the driver's behavior is externally
+influenced by the neighboring vehicles and also by environmental input such as
+limited motorization and braking power, visibility conditions and road traffic
+regulations. A general approach for dealing with discrete decision problems in
+the context of vehicular traffic is introduced and applied to mandatory and
+discretionary lane changes. Furthermore, we consider the decision process
+whether to brake or not when approaching a traffic light turning from green to
+amber. Another aspect of vehicular traffic is related to the heterogeneity of
+drivers. We discuss a hybrid system of coupled vehicle and information flow
+which can be used for developing and testing applications of upcoming
+inter-vehicle communication techniques.

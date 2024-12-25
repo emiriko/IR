@@ -1,0 +1,21 @@
+This paper suggests a nonlinear mixed effects model for data points in
+$\mathit{SO}(3)$, the set of $3\times3$ rotation matrices, collected according
+to a repeated measure design. Each sample individual contributes a sequence of
+rotation matrices giving the relative orientations of the right foot with
+respect to the right lower leg as its ankle moves. The random effects are the
+five angles characterizing the orientation of the two rotation axes of a
+subject's right ankle. The fixed parameters are the average value of these
+angles and their variances within the population. The algorithms to fit
+nonlinear mixed effects models presented in Pinheiro and Bates (2000) are
+adapted to the new directional model. The estimation of the random effects are
+of interest since they give predictions of the rotation axes of an individual
+ankle. The performance of these algorithms is investigated in a Monte Carlo
+study. The analysis of two data sets is presented. In the biomechanical
+literature, there is no consensus on an in vivo method to estimate the two
+rotation axes of the ankle. The new model is promising. The estimates obtained
+from a sample of volunteers are shown to be in agreement with the clinically
+accepted results of Inman (1976), obtained by manipulating cadavers. The
+repeated measure directional model presented in this paper is developed for a
+particular application. The approach is, however, general and might be applied
+to other models provided that the random directional effects are clustered
+around their mean values.

@@ -1,0 +1,24 @@
+In this paper we provide new bounds on classical and quantum distributional
+communication complexity in the two-party, one-way model of communication. In
+the classical model, our bound extends the well known upper bound of Kremer,
+Nisan and Ron to include non-product distributions. We show that for a boolean
+function f:X x Y -> {0,1} and a non-product distribution mu on X x Y and
+epsilon in (0,1/2) constant: D_{epsilon}^{1, mu}(f)= O((I(X:Y)+1) vc(f)), where
+D_{epsilon}^{1, mu}(f) represents the one-way distributional communication
+complexity of f with error at most epsilon under mu; vc(f) represents the
+Vapnik-Chervonenkis dimension of f and I(X:Y) represents the mutual
+information, under mu, between the random inputs of the two parties. For a
+non-boolean function f:X x Y ->[k], we show a similar upper bound on
+D_{epsilon}^{1, mu}(f) in terms of k, I(X:Y) and the pseudo-dimension of f' =
+f/k. In the quantum one-way model we provide a lower bound on the
+distributional communication complexity, under product distributions, of a
+function f, in terms the well studied complexity measure of f referred to as
+the rectangle bound or the corruption bound of f . We show for a non-boolean
+total function f : X x Y -> Z and a product distribution mu on XxY,
+Q_{epsilon^3/8}^{1, mu}(f) = Omega(rec_ epsilon^{1, mu}(f)), where
+Q_{epsilon^3/8}^{1, mu}(f) represents the quantum one-way distributional
+communication complexity of f with error at most epsilon^3/8 under mu and rec_
+epsilon^{1, mu}(f) represents the one-way rectangle bound of f with error at
+most epsilon under mu . Similarly for a non-boolean partial function f:XxY -> Z
+U {*} and a product distribution mu on X x Y, we show, Q_{epsilon^6/(2 x
+15^4)}^{1, mu}(f) = Omega(rec_ epsilon^{1, mu}(f)).

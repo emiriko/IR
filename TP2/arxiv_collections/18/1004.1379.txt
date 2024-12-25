@@ -1,0 +1,26 @@
+Index Coding has received considerable attention recently motivated in part
+by real-world applications and in part by its connection to Network Coding. The
+basic setting of Index Coding encodes the problem input as an undirected graph
+and the fundamental parameter is the broadcast rate $\beta$, the average
+communication cost per bit for sufficiently long messages (i.e. the non-linear
+vector capacity). Recent nontrivial bounds on $\beta$ were derived from the
+study of other Index Coding capacities (e.g. the scalar capacity $\beta_1$) by
+Bar-Yossef et al (2006), Lubetzky and Stav (2007) and Alon et al (2008).
+However, these indirect bounds shed little light on the behavior of $\beta$:
+there was no known polynomial-time algorithm for approximating $\beta$ in a
+general network to within a nontrivial (i.e. $o(n)$) factor, and the exact
+value of $\beta$ remained unknown for any graph where Index Coding is
+nontrivial.
+  Our main contribution is a direct information-theoretic analysis of the
+broadcast rate $\beta$ using linear programs, in contrast to previous
+approaches that compared $\beta$ with graph-theoretic parameters. This allows
+us to resolve the aforementioned two open questions. We provide a
+polynomial-time algorithm with a nontrivial approximation ratio for computing
+$\beta$ in a general network along with a polynomial-time decision procedure
+for recognizing instances with $\beta=2$. In addition, we pinpoint $\beta$
+precisely for various classes of graphs (e.g. for various Cayley graphs of
+cyclic groups) thereby simultaneously improving the previously known upper and
+lower bounds for these graphs. Via this approach we construct graphs where the
+difference between $\beta$ and its trivial lower bound is linear in the number
+of vertices and ones where $\beta$ is uniformly bounded while its upper bound
+derived from the naive encoding scheme is polynomially worse.

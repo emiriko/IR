@@ -1,0 +1,20 @@
+Any frequency selective device with an ongoing drift will cause observed
+spectra to be variously and simultaneously scaled in proportion to their source
+distances. The reason is that detectors after the drifting selection will
+integrate instantaneous electric or magnetic field values from successive
+sinusoids, and these sinusoids would differ in both frequency and phase. Phase
+differences between frequencies are ordinarily irrelevant, and recalibration
+procedures at most correct for frequency differences. With drifting selection,
+however, each integrated field value comes from *the sinusoid of the
+instantaneously selected frequency at its instantaneous received phase*, hence
+the waveform constructed by the integration will follow the drifting selection
+with a phase acceleration given by the drift rate times the slope of the
+received phase spectrum. A phase acceleration is literally a frequency shift,
+and the phase spectrum slope of a received waveform is an asymptotic measure of
+the source distance, as the path delay presents phase offsets proportional to
+frequency times the distance, and eventually exceeding all initial phase
+differences. Tunable optics may soon be fast enough for realizing such shifts
+by Fourier switching, and could lead to pocket X-ray devices; sources
+continuously variable from RF to gamma rays; capacity multiplication with
+jamming and noise immunity in both fibre and radio channels, passive ranging
+from ground to deep space; etc.

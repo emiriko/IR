@@ -1,0 +1,10 @@
+With the aid of index functions, we re-derive the ML(n)BiCGStab algorithm in
+a paper by Yeung and Chan in 1999 in a more systematic way. It turns out that
+there are n ways to define the ML(n)BiCGStab residual vector. Each definition
+will lead to a different ML(n)BiCGStab algorithm. We demonstrate this by
+presenting a second algorithm which requires less storage. In theory, this
+second algorithm serves as a bridge that connects the Lanczos-based BiCGStab
+and the Arnoldi-based FOM while ML(n)BiCG a bridge connecting BiCG and FOM. We
+also analyze the breakdown situations from the probabilistic point of view and
+summarize some useful properties of ML(n)BiCGStab. Implementation issues are
+also addressed.

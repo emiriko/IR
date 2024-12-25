@@ -1,0 +1,8 @@
+Lenstra's integer factorization algorithm is asymptotically one of the
+fastest known algorithms, and is ideally suited for parallel computation. We
+suggest a way in which the algorithm can be speeded up by the addition of a
+second phase. Under some plausible assumptions, the speedup is of order log(p),
+where p is the factor which is found. In practice the speedup is significant.
+We mention some refinements which give greater speedup, an alternative way of
+implementing a second phase, and the connection with Pollard's "p-1"
+factorization algorithm.

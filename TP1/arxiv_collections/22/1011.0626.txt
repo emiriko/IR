@@ -1,0 +1,18 @@
+This paper illustrates novel methods for nonstationary time series modeling
+along with their applications to selected problems in neuroscience. These
+methods are semi-parametric in that inferences are derived by combining
+sequential Bayesian updating with a non-parametric change-point test. As a test
+statistic, we propose a Kullback--Leibler (KL) divergence between posterior
+distributions arising from different sets of data. A closed form expression of
+this statistic is derived for exponential family models, whereas standard
+Markov chain Monte Carlo output is used to approximate its value and its
+critical region for more general models. The behavior of one-step ahead
+predictive distributions under our semi-parametric framework is described
+analytically for a dynamic linear time series model. Conditions under which our
+approach reduces to fully parametric state-space modeling are also illustrated.
+We apply our methods to estimating the functional dynamics of a wide range of
+neural data, including multi-channel electroencephalogram recordings,
+longitudinal behavioral experiments and in-vivo multiple spike trains
+recordings. The estimated dynamics are related to the presentation of visual
+stimuli, to the evaluation of a learning performance and to changes in the
+functional connections between neurons over a sequence of experiments.

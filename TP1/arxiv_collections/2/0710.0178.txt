@@ -1,0 +1,16 @@
+Quality of microarray gene expression data has emerged as a new research
+topic. As in other areas, microarray quality is assessed by comparing suitable
+numerical summaries across microarrays, so that outliers and trends can be
+visualized, and poor quality arrays or variable quality sets of arrays can be
+identified. Since each single array comprises tens or hundreds of thousands of
+measurements, the challenge is to find numerical summaries which can be used to
+make accurate quality calls. To this end, several new quality measures are
+introduced based on probe level and probeset level information, all obtained as
+a by-product of the low-level analysis algorithms RMA/fitPLM for Affymetrix
+GeneChips. Quality landscapes spatially localize chip or hybridization
+problems. Numerical chip quality measures are derived from the distributions of
+Normalized Unscaled Standard Errors and of Relative Log Expressions. Quality of
+chip batches is assessed by Residual Scale Factors. These quality assessment
+measures are demonstrated on a variety of datasets (spike-in experiments, small
+lab experiments, multi-site studies). They are compared with Affymetrix's
+individual chip quality report.

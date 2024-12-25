@@ -1,0 +1,16 @@
+The task of verifying the compatibility between interacting web services has
+traditionally been limited to checking the compatibility of the interaction
+protocol in terms of message sequences and the type of data being exchanged.
+Since web services are developed largely in an uncoordinated way, different
+services often use independently developed ontologies for the same domain
+instead of adhering to a single ontology as standard. In this work we
+investigate the approaches that can be taken by the server to verify the
+possibility to reach a state with semantically inconsistent results during the
+execution of a protocol with a client, if the client ontology is published.
+Often database is used to store the actual data along with the ontologies
+instead of storing the actual data as a part of the ontology description. It is
+important to observe that at the current state of the database the semantic
+conflict state may not be reached even if the verification done by the server
+indicates the possibility of reaching a conflict state. A relational algebra
+based decision procedure is also developed to incorporate the current state of
+the client and the server databases in the overall verification procedure.

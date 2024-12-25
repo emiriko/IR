@@ -1,0 +1,9 @@
+We accelerated an ab-initio molecular QMC calculation by using GPGPU. Only
+the bottle-neck part of the calculation is replaced by CUDA subroutine and
+performed on GPU. The performance on a (single core CPU + GPU) is compared with
+that on a (single core CPU with double precision), getting 23.6 (11.0) times
+faster calculations in single (double) precision treatments on GPU. The energy
+deviation caused by the single precision treatment was found to be within the
+accuracy required in the calculation, \sim 10^{-5} hartree. The accelerated
+computational nodes mounting GPU are combined to form a hybrid MPI cluster on
+which we confirmed the performance linearly scales to the number of nodes.

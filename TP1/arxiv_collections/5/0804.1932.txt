@@ -1,0 +1,18 @@
+Partition functions, also known as homomorphism functions, form a rich family
+of graph invariants that contain combinatorial invariants such as the number of
+k-colourings or the number of independent sets of a graph and also the
+partition functions of certain "spin glass" models of statistical physics such
+as the Ising model.
+  Building on earlier work by Dyer, Greenhill and Bulatov, Grohe, we completely
+classify the computational complexity of partition functions. Our main result
+is a dichotomy theorem stating that every partition function is either
+computable in polynomial time or #P-complete. Partition functions are described
+by symmetric matrices with real entries, and we prove that it is decidable in
+polynomial time in terms of the matrix whether a given partition function is in
+polynomial time or #P-complete.
+  While in general it is very complicated to give an explicit algebraic or
+combinatorial description of the tractable cases, for partition functions
+described by a Hadamard matrices -- these turn out to be central in our proofs
+-- we obtain a simple algebraic tractability criterion, which says that the
+tractable cases are those "representable" by a quadratic polynomial over the
+field GF(2).

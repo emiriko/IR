@@ -1,0 +1,13 @@
+Integration of the form $\int_a^\infty {f(x)w(x)dx} $, where $w(x)$ is either
+$\sin (\omega {\kern 1pt} x)$ or $\cos (\omega {\kern 1pt} x)$, is widely
+encountered in many engineering and scientific applications, such as those
+involving Fourier or Laplace transforms. Often such integrals are approximated
+by a numerical integration over a finite domain $(a,\,b)$, leaving a truncation
+error equal to the tail integration $\int_b^\infty {f(x)w(x)dx} $ in addition
+to the discretization error. This paper describes a very simple, perhaps the
+simplest, end-point correction to approximate the tail integration, which
+significantly reduces the truncation error and thus increases the overall
+accuracy of the numerical integration, with virtually no extra computational
+effort. Higher order correction terms and error estimates for the end-point
+correction formula are also derived. The effectiveness of this one-point
+correction formula is demonstrated through several examples.

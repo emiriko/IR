@@ -1,0 +1,6 @@
+When there are multiple node failures in a distributed storage system,
+regenerating the failed storage nodes individually in a one-by-one manner is
+suboptimal as far as repair-bandwidth minimization is concerned. If data
+exchange among the newcomers is enabled, we can get a better tradeoff between
+repair bandwidth and the storage per node. An explicit and optimal construction
+of cooperative regenerating code is illustrated.

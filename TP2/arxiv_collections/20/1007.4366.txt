@@ -1,0 +1,11 @@
+We propose a multi-scale stochastic volatility model in which a fast
+mean-reverting factor of volatility is built on top of the Heston stochastic
+volatility model. A singular pertubative expansion is then used to obtain an
+approximation for European option prices. The resulting pricing formulas are
+semi-analytic, in the sense that they can be expressed as integrals.
+Difficulties associated with the numerical evaluation of these integrals are
+discussed, and techniques for avoiding these difficulties are provided.
+Overall, it is shown that computational complexity for our model is comparable
+to the case of a pure Heston model, but our correction brings significant
+flexibility in terms of fitting to the implied volatility surface. This is
+illustrated numerically and with option data.

@@ -1,0 +1,26 @@
+Consider a system governed by the time-dependent Schr\"odinger equation in
+its ground state. When subjected to weak (size $\epsilon$) parametric forcing
+by an "ionizing field" (time-varying), the state decays with advancing time due
+to coupling of the bound state to radiation modes. The decay-rate of this
+metastable state is governed by {\it Fermi's Golden Rule}, $\Gamma[V]$, which
+depends on the potential $V$ and the details of the forcing. We pose the
+potential design problem: find $V_{opt}$ which minimizes $\Gamma[V]$ (maximizes
+the lifetime of the state) over an admissible class of potentials with fixed
+spatial support. We formulate this problem as a constrained optimization
+problem and prove that an admissible optimal solution exists. Then, using
+quasi-Newton methods, we compute locally optimal potentials. These have the
+structure of a truncated periodic potential with a localized defect. In
+contrast to optimal structures for other spectral optimization problems, our
+optimizing potentials appear to be interior points of the constraint set and to
+be smooth. The multi-scale structures that emerge incorporate the physical
+mechanisms of energy confinement via material contrast and interference
+effects.
+  An analysis of locally optimal potentials reveals local optimality is
+attained via two mechanisms: (i) decreasing the density of states near a
+resonant frequency in the continuum and (ii) tuning the oscillations of
+extended states to make $\Gamma[V]$, an oscillatory integral, small. Our
+approach achieves lifetimes, $\sim (\epsilon^2\Gamma[V])^{-1}$, for locally
+optimal potentials with $\Gamma^{-1}\sim\mathcal{O}(10^{9})$ as compared with
+$\Gamma^{-1}\sim \mathcal{O}(10^{2})$ for a typical potential. Finally, we
+explore the performance of optimal potentials via simulations of the
+time-evolution.

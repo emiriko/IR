@@ -1,0 +1,16 @@
+Managing the software complexity of package-based systems can be regarded as
+one of the main challenges in software architectures. Upgrades are required on
+a short time basis and systems are expected to be reliable and consistent after
+that. For each package in the system, a set of dependencies and a set of
+conflicts have to be taken into account. Although this problem is
+computationally hard to solve, efficient tools are required. In the best
+scenario, the solutions provided should also be optimal in order to better
+fulfill users requirements and expectations. This paper describes two different
+tools, both based on Boolean satisfiability (SAT), for solving Linux
+upgradeability problems. The problem instances used in the evaluation of these
+tools were mainly obtained from real environments, and are subject to two
+different lexicographic optimization criteria. The developed tools can provide
+optimal solutions for many of the instances, but a few challenges remain.
+Moreover, it is our understanding that this problem has many similarities with
+other configuration problems, and therefore the same techniques can be used in
+other domains.

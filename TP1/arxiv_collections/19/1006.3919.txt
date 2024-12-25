@@ -1,0 +1,12 @@
+In this paper, we study the convergence behavior of distributed iterative
+algorithms with quantized message passing. We first introduce general iterative
+function evaluation algorithms for solving fixed point problems distributively.
+We then analyze the convergence of the distributed algorithms, e.g. Jacobi
+scheme and Gauss-Seidel scheme, under the quantized message passing. Based on
+the closed-form convergence performance derived, we propose two quantizer
+designs, namely the time invariant convergence-optimal quantizer (TICOQ) and
+the time varying convergence-optimal quantizer (TVCOQ), to minimize the effect
+of the quantization error on the convergence. We also study the tradeoff
+between the convergence error and message passing overhead for both TICOQ and
+TVCOQ. As an example, we apply the TICOQ and TVCOQ designs to the iterative
+waterfilling algorithm of MIMO interference game.

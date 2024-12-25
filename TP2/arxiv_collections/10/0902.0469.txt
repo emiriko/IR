@@ -1,0 +1,18 @@
+Since the seminal work from F. Cohen in the eighties, abstract virology has
+seen the apparition of successive viral models, all based on Turing-equivalent
+formalisms. But considering recent malware such as rootkits or k-ary codes,
+these viral models only partially cover these evolved threats. The problem is
+that Turing-equivalent models do not support interactive computations. New
+models have thus appeared, offering support for these evolved malware, but
+loosing the unified approach in the way. This article provides a basis for a
+unified malware model founded on process algebras and in particular the
+Join-Calculus. In terms of expressiveness, the new model supports the
+fundamental definitions based on self-replication and adds support for
+interactions, concurrency and non-termination allows the definition of more
+complex behaviors. Evolved malware such as rootkits can now be thoroughly
+modeled. In terms of detection and prevention, the fundamental results of
+undecidability and isolation still hold. However the process-based model has
+permitted to establish new results: identification of fragments from the
+Join-Calculus where malware detection becomes decidable, formal definition of
+the non-infection property, approximate solutions to restrict malware
+propagation.

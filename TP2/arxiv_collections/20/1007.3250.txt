@@ -1,0 +1,16 @@
+State of the art analyzers in the Logic Programming (LP) paradigm are
+nowadays mature and sophisticated. They allow inferring a wide variety of
+global properties including termination, bounds on resource consumption, etc.
+The aim of this work is to automatically transfer the power of such analysis
+tools for LP to the analysis and verification of Java bytecode (JVML). In order
+to achieve our goal, we rely on well-known techniques for meta-programming and
+program specialization. More precisely, we propose to partially evaluate a JVML
+interpreter implemented in LP together with (an LP representation of) a JVML
+program and then analyze the residual program. Interestingly, at least for the
+examples we have studied, our approach produces very simple LP representations
+of the original JVML programs. This can be seen as a decompilation from JVML to
+high-level LP source. By reasoning about such residual programs, we can
+automatically prove in the CiaoPP system some non-trivial properties of JVML
+programs such as termination, run-time error freeness and infer bounds on its
+resource consumption. We are not aware of any other system which is able to
+verify such advanced properties of Java bytecode.

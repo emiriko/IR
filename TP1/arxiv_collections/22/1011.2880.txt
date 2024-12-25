@@ -1,0 +1,9 @@
+We consider two-grid mixed-finite element schemes for the spatial
+discretization of the incompressible Navier-Stokes equations. A standard
+mixed-finite element method is applied over the coarse grid to approximate the
+nonlinear Navier-Stokes equations while a linear evolutionary problem is solved
+over the fine grid. The previously computed Galerkin approximation to the
+velocity is used to linearize the convective term. For the analysis we take
+into account the lack of regularity of the solutions of the Navier-Stokes
+equations at the initial time in the absence of nonlocal compatibility
+conditions of the data. Optimal error bounds are obtained.

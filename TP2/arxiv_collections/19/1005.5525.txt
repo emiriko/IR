@@ -1,0 +1,15 @@
+The Generalized Traveling Salesman Problem (GTSP) is a well-known
+combinatorial optimization problem with a host of applications. It is an
+extension of the Traveling Salesman Problem (TSP) where the set of cities is
+partitioned into so-called clusters, and the salesman has to visit every
+cluster exactly once.
+  While the GTSP is a very important combinatorial optimization problem and is
+well studied in many aspects, the local search algorithms used in the
+literature are mostly basic adaptations of simple TSP heuristics. Hence, a
+thorough and deep research of the neighborhoods and local search algorithms
+specific to the GTSP is required.
+  We formalize the procedure of adaptation of a TSP neighborhood for the GTSP
+and classify all other existing and some new GTSP neighborhoods. For every
+neighborhood, we provide efficient exploration algorithms that are often
+significantly faster than the ones known from the literature. Finally, we
+compare different local search implementations empirically.

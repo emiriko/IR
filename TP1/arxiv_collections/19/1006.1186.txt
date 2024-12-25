@@ -1,0 +1,15 @@
+Image steganography is the art of hiding information into a cover image. This
+paper presents a novel technique for Image steganography based on Block-DCT,
+where DCT is used to transform original image (cover image) blocks from spatial
+domain to frequency domain. Firstly a gray level image of size M x N is divided
+into no joint 8 x 8 blocks and a two dimensional Discrete Cosine Transform (2-d
+DCT) is performed on each of the P = MN / 64 blocks. Then Huffman encoding is
+also performed on the secret messages/images before embedding and each bit of
+Huffman code of secret message/image is embedded in the frequency domain by
+altering the least significant bit of each of the DCT coefficients of cover
+image blocks. The experimental results show that the algorithm has a high
+capacity and a good invisibility. Moreover PSNR of cover image with stego-image
+shows the better results in comparison with other existing steganography
+approaches. Furthermore, satisfactory security is maintained since the secret
+message/image cannot be extracted without knowing decoding rules and Huffman
+table.

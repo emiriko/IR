@@ -1,0 +1,15 @@
+We show that Trevisan's extractor and its variants \cite{T99,RRV99} are
+secure against bounded quantum storage adversaries. One instantiation gives the
+first such extractor to achieve an output length $\Theta(K-b)$, where $K$ is
+the source's entropy and $b$ the adversary's storage, together with a
+poly-logarithmic seed length. Another instantiation achieves a logarithmic key
+length, with a slightly smaller output length $\Theta((K-b)/K^\gamma)$ for any
+$\gamma>0$. In contrast, the previous best construction \cite{TS09} could only
+extract $(K/b)^{1/15}$ bits. Some of our constructions have the additional
+advantage that every bit of the output is a function of only a polylogarithmic
+number of bits from the source, which is crucial for some cryptographic
+applications.
+  Our argument is based on bounds for a generalization of quantum random access
+codes, which we call \emph{quantum functional access codes}. This is crucial as
+it lets us avoid the local list-decoding algorithm central to the approach in
+\cite{TS09}, which was the source of the multiplicative overhead.

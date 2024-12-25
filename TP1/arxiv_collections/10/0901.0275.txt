@@ -1,0 +1,14 @@
+In this paper we consider tandem error control coding and cryptography in the
+setting of the {\em wiretap channel} due to Wyner. In a typical communications
+system a cryptographic application is run at a layer above the physical layer
+and assumes the channel is error free. However, in any real application the
+channels for friendly users and passive eavesdroppers are not error free and
+Wyner's wiretap model addresses this scenario. Using this model, we show the
+security of a common cryptographic primitive, i.e. a keystream generator based
+on linear feedback shift registers (LFSR), can be strengthened by exploiting
+properties of the physical layer. A passive eavesdropper can be made to
+experience greater difficulty in cracking an LFSR-based cryptographic system
+insomuch that the computational complexity of discovering the secret key
+increases by orders of magnitude, or is altogether infeasible. This result is
+shown for two fast correlation attacks originally presented by Meier and
+Staffelbach, in the context of channel errors due to the wiretap channel model.

@@ -1,0 +1,16 @@
+We present the first method to handle curvature regularity in region-based
+image segmentation and inpainting that is independent of initialization.
+  To this end we start from a new formulation of length-based optimization
+schemes, based on surface continuation constraints, and discuss the connections
+to existing schemes. The formulation is based on a \emph{cell complex} and
+considers basic regions and boundary elements. The corresponding optimization
+problem is cast as an integer linear program.
+  We then show how the method can be extended to include curvature regularity,
+again cast as an integer linear program. Here, we are considering pairs of
+boundary elements to reflect curvature. Moreover, a constraint set is derived
+to ensure that the boundary variables indeed reflect the boundary of the
+regions described by the region variables.
+  We show that by solving the linear programming relaxation one gets quite
+close to the global optimum, and that curvature regularity is indeed much
+better suited in the presence of long and thin objects compared to standard
+length regularity.

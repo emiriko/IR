@@ -1,0 +1,24 @@
+Communication Based Train Control (CBTC) system is the state-of-the-art train
+control system. In a CBTC system, to guarantee the safety of train operation,
+trains communicate with each other intensively and adjust their control modes
+autonomously by computing critical control parameters, e.g. velocity range,
+according to the information they get. As the correctness of the control
+parameters generated are critical to the safety of the system, a method to
+verify these parameters is a strong desire in the area of train control system.
+In this paper, we present our ideas of how to model and verify the control
+parameter calculations in a CBTC system efficiently. - As the behavior of the
+system is highly nondeterministic, it is difficult to build and verify the
+complete behavior space model of the system online in advance. Thus, we propose
+to model the system according to the ongoing behavior model induced by the
+control parameters. - As the parameters are generated online and updated very
+quickly, the verification result will be meaningless if it is given beyond the
+time bound, since by that time the model will be changed already. Thus, we
+propose a method to verify the existence of certain dangerous scenarios in the
+model online quickly. To demonstrate the feasibility of these proposed
+approaches, we present the composed linear hybrid automata with readable shared
+variables as a modeling language to model the control parameters calculation
+and give a path-oriented reachability analysis technique for the scenario-based
+verification of this model. We demonstrate the model built for the CBTC system,
+and show the performance of our technique in fast online verification. Last but
+not least, as CBTC system is a typical CPS system, we also give a short
+discussion of the potential directions for CPS verification in this paper.

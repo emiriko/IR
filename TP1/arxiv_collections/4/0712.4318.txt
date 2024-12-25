@@ -1,0 +1,12 @@
+We consider an agent interacting with an unknown environment. The environment
+is a function which maps natural numbers to natural numbers; the agent's set of
+hypotheses about the environment contains all such functions which are
+computable and compatible with a finite set of known input-output pairs, and
+the agent assigns a positive probability to each such hypothesis. We do not
+require that this probability distribution be computable, but it must be
+bounded below by a positive computable function. The agent has a utility
+function on outputs from the environment. We show that if this utility function
+is bounded below in absolute value by an unbounded computable function, then
+the expected utility of any input is undefined. This implies that a computable
+utility function will have convergent expected utilities iff that function is
+bounded.

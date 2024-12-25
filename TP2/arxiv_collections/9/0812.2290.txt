@@ -1,0 +1,8 @@
+An Ensemble Kalman Filter (EnKF, the predictor) is used make a large change
+in the state, followed by a Particle Filer (PF, the corrector) which assigns
+importance weights to describe non-Gaussian distribution. The weights are
+obtained by nonparametric density estimation. It is demonstrated on several
+numerical examples that the new predictor-corrector filter combines the
+advantages of the EnKF and the PF and that it is suitable for high dimensional
+states which are discretizations of solutions of partial differential
+equations.

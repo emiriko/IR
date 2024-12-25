@@ -1,0 +1,15 @@
+Typical protocols for peer-to-peer file sharing over the Internet divide
+files to be shared into pieces. New peers strive to obtain a complete
+collection of pieces from other peers and from a seed. In this paper we
+investigate a problem that can occur if the seeding rate is not large enough.
+The problem is that, even if the statistics of the system are symmetric in the
+pieces, there can be symmetry breaking, with one piece becoming very rare. If
+peers depart after obtaining a complete collection, they can tend to leave
+before helping other peers receive the rare piece. Assuming that peers arrive
+with no pieces, there is a single seed, random peer contacts are made, random
+useful pieces are downloaded, and peers depart upon receiving the complete
+file, the system is stable if the seeding rate (in pieces per time unit) is
+greater than the arrival rate, and is unstable if the seeding rate is less than
+the arrival rate. The result persists for any piece selection policy that
+selects from among useful pieces, such as rarest first, and it persists with
+the use of network coding.

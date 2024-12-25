@@ -1,0 +1,7 @@
+We propose different implementations of the sparse matrix--dense vector
+multiplication (\spmv{}) for finite fields and rings $\Zb/m\Zb$. We take
+advantage of graphic card processors (GPU) and multi-core architectures. Our
+aim is to improve the speed of \spmv{} in the \linbox library, and henceforth
+the speed of its black box algorithms. Besides, we use this and a new
+parallelization of the sigma-basis algorithm in a parallel block Wiedemann rank
+implementation over finite fields.

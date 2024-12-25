@@ -1,0 +1,24 @@
+In this paper, we study the problem of processing continuous range queries in
+a hierarchical wireless sensor network. Contrasted with the traditional
+approach of building networks in a "flat" structure using sensor devices of the
+same capability, the hierarchical approach deploys devices of higher capability
+in a higher tier, i.e., a tier closer to the server. While query processing in
+flat sensor networks has been widely studied, the study on query processing in
+hierarchical sensor networks has been inadequate. In wireless sensor networks,
+the main costs that should be considered are the energy for sending data and
+the storage for storing queries. There is a trade-off between these two costs.
+Based on this, we first propose a progressive processing method that
+effectively processes a large number of continuous range queries in
+hierarchical sensor networks. The proposed method uses the query merging
+technique proposed by Xiang et al. as the basis and additionally considers the
+trade-off between the two costs. More specifically, it works toward reducing
+the storage cost at lower-tier nodes by merging more queries, and toward
+reducing the energy cost at higher-tier nodes by merging fewer queries (thereby
+reducing "false alarms"). We then present how to build a hierarchical sensor
+network that is optimal with respect to the weighted sum of the two costs. It
+allows for a cost-based systematic control of the trade-off based on the
+relative importance between the storage and energy in a given network
+environment and application. Experimental results show that the proposed method
+achieves a near-optimal control between the storage and energy and reduces the
+cost by 0.989~84.995 times compared with the cost achieved using the flat
+(i.e., non-hierarchical) setup as in the work by Xiang et al.

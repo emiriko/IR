@@ -1,0 +1,17 @@
+Gibbs random fields (GRF) are polymorphous statistical models that can be
+used to analyse different types of dependence, in particular for spatially
+correlated data. However, when those models are faced with the challenge of
+selecting a dependence structure from many, the use of standard model choice
+methods is hampered by the unavailability of the normalising constant in the
+Gibbs likelihood. In particular, from a Bayesian perspective, the computation
+of the posterior probabilities of the models under competition requires special
+likelihood-free simulation techniques like the Approximate Bayesian Computation
+(ABC) algorithm that is intensively used in population genetics. We show in
+this paper how to implement an ABC algorithm geared towards model choice in the
+general setting of Gibbs random fields, demonstrating in particular that there
+exists a sufficient statistic across models. The accuracy of the approximation
+to the posterior probabilities can be further improved by importance sampling
+on the distribution of the models. The practical aspects of the method are
+detailed through two applications, the test of an iid Bernoulli model versus a
+first-order Markov chain, and the choice of a folding structure for two
+proteins.

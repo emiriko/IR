@@ -1,0 +1,23 @@
+Short-range forecasts of precipitation fields are needed in a wealth of
+agricultural, hydrological, ecological and other applications. Forecasts from
+numerical weather prediction models are often biased and do not provide
+uncertainty information. Here we present a postprocessing technique for such
+numerical forecasts that produces correlated probabilistic forecasts of
+precipitation accumulation at multiple sites simultaneously. The statistical
+model is a spatial version of a two-stage model that represents the
+distribution of precipitation by a mixture of a point mass at zero and a Gamma
+density for the continuous distribution of precipitation accumulation. Spatial
+correlation is captured by assuming that two Gaussian processes drive
+precipitation occurrence and precipitation amount, respectively. The first
+process is latent and drives precipitation occurrence via a threshold. The
+second process explains the spatial correlation in precipitation accumulation.
+It is related to precipitation via a site-specific transformation function, so
+as to retain the marginal right-skewed distribution of precipitation while
+modeling spatial dependence. Both processes take into account the information
+contained in the numerical weather forecast and are modeled as stationary
+isotropic spatial processes with an exponential correlation function. The
+two-stage spatial model was applied to 48-hour-ahead forecasts of daily
+precipitation accumulation over the Pacific Northwest in 2004. The predictive
+distributions from the two-stage spatial model were calibrated and sharp, and
+outperformed reference forecasts for spatially composite and areally averaged
+quantities.

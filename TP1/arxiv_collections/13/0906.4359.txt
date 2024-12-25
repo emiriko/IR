@@ -1,0 +1,16 @@
+A recently developed self-healing diffusion Monte Carlo algorithm
+  [PRB 79, 195117] is extended to the calculation of excited states. The
+formalism is based on an excited-state fixed-node approximation and the mixed
+estimator of the excited-state probability density. The fixed-node ground state
+wave-functions of inequivalent nodal pockets are found simultaneously using a
+recursive approach. The decay of the wave-function into lower energy states is
+prevented using two methods: i) The projection of the improved trial-wave
+function into previously calculated eigenstates is removed. ii) The reference
+energy for each nodal pocket is adjusted in order to create a kink in the
+global fixed-node wave-function which, when locally smoothed out, increases the
+volume of the higher energy pockets at the expense of the lower energy ones
+until the energies of every pocket become equal. This reference energy method
+is designed to find nodal structures that are local minima for arbitrary
+fluctuations of the nodes within a given nodal topology. We demonstrate in a
+model system that the algorithm converges to many-body eigenstates in
+bosonic-like and fermionic cases.

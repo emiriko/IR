@@ -1,0 +1,13 @@
+In this paper, we describe two computational methods for calculating the
+cumulative distribution function and the upper quantiles of the maximal
+difference between a Brownian bridge and its concave majorant. The first method
+has two different variants that are both based on a Monte Carlo approach,
+whereas the second uses the Gaver-Stehfest (GS) algorithm for numerical
+inversion of Laplace transform. If the former method is straightforward to
+implement, it is very much outperformed by the GS algorithm, which provides a
+very accurate approximation of the cumulative distribution as well as its upper
+quantiles. Our numerical work has a direct application in statistics: the
+maximal difference between a Brownian bridge and its concave majorant arises in
+connection with a nonparametric test for monotonicity of a density or
+regression curve on [0, 1]. Our results can be used to construct very accurate
+rejection region for this test at a given asymptotic level.

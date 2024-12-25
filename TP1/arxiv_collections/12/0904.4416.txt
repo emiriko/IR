@@ -1,0 +1,9 @@
+I briefly report on some unexpected results that I obtained when optimizing
+the model parameters of the Lasso. In simulations with varying
+observations-to-variables ratio n=p, I typically observe a strong peak in the
+test error curve at the transition point n/p = 1. This peaking phenomenon is
+well-documented in scenarios that involve the inversion of the sample
+covariance matrix, and as I illustrate in this note, it is also the source of
+the peak for the Lasso. The key problem is the parametrization of the Lasso
+penalty (as e.g. in the current R package lars) and I present a solution in
+terms of a normalized Lasso parameter.

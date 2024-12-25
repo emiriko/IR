@@ -1,0 +1,20 @@
+In many scientific settings data can be naturally partitioned into variable
+groupings called views. Common examples include environmental (1st view) and
+genetic information (2nd view) in ecological applications, chemical (1st view)
+and biological (2nd view) data in drug discovery. Multi-view data also occur in
+text analysis and proteomics applications where one view consists of a graph
+with observations as the vertices and a weighted measure of pairwise similarity
+between observations as the edges. Further, in several of these applications
+the observations can be partitioned into two sets, one where the response is
+observed (labeled) and the other where the response is not (unlabeled). The
+problem for simultaneously addressing viewed data and incorporating unlabeled
+observations in training is referred to as multi-view transductive learning. In
+this work we introduce and study a comprehensive generalized fixed point
+additive modeling framework for multi-view transductive learning, where any
+view is represented by a linear smoother. The problem of view selection is
+discussed using a generalized Akaike Information Criterion, which provides an
+approach for testing the contribution of each view. An efficient implementation
+is provided for fitting these models with both backfitting and local-scoring
+type algorithms adjusted to semi-supervised graph-based learning. The proposed
+technique is assessed on both synthetic and real data sets and is shown to be
+competitive to state-of-the-art co-training and graph-based techniques.

@@ -1,0 +1,16 @@
+In this paper, we present an adaptive investment strategy for environments
+with periodic returns on investment. In our approach, we consider an investment
+model where the agent decides at every time step the proportion of wealth to
+invest in a risky asset, keeping the rest of the budget in a risk-free asset.
+Every investment is evaluated in the market via a stylized return on investment
+function (RoI), which is modeled by a stochastic process with unknown
+periodicities and levels of noise. For comparison reasons, we present two
+reference strategies which represent the case of agents with zero-knowledge and
+complete-knowledge of the dynamics of the returns. We consider also an
+investment strategy based on technical analysis to forecast the next return by
+fitting a trend line to previous received returns. To account for the
+performance of the different strategies, we perform some computer experiments
+to calculate the average budget that can be obtained with them over a certain
+number of time steps. To assure for fair comparisons, we first tune the
+parameters of each strategy. Afterwards, we compare the performance of these
+strategies for RoIs with different periodicities and levels of noise.

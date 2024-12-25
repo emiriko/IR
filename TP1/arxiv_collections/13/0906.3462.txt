@@ -1,0 +1,13 @@
+Numerical issues arising in computations of viscous flows in corners formed
+by a liquid-fluid free surface and a solid boundary are considered. It is shown
+that on the solid a Dirichlet boundary condition, which removes multivaluedness
+of velocity in the `moving contact-line problem' and gives rise to a
+logarithmic singularity of pressure, requires a certain modification of the
+standard finite-element method. This modification appears to be insufficient
+above a certain critical value of the corner angle where the numerical solution
+becomes mesh-dependent. As shown, this is due to an eigensolution, which exists
+for all angles and becomes dominant for the supercritical ones. A method of
+incorporating the eigensolution into the numerical method is described that
+makes numerical results mesh-independent again. Some implications of the
+unavoidable finiteness of the mesh size in practical applications of the finite
+element method in the context of the present problem are discussed.

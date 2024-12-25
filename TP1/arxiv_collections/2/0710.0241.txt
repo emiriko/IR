@@ -1,0 +1,13 @@
+The paper is devoted to modeling optimal exercise strategies of the behavior
+of investors and issuers working with convertible bonds. This implies solution
+of the problems of stock price modeling, payoff computation and min-max
+optimization.
+  Stock prices (underlying asset) were modeled under the assumption of the
+geometric Brownian motion of their values. The Monte Carlo method was used for
+calculating the real payoff which is the objective function. The min-max
+optimization problem was solved using the derivative-free Downhill Simplex
+method.
+  The performed numerical experiments allowed to formulate recommendations for
+the choice of appropriate size of the initial simplex in the Downhill Simplex
+Method, the number of generated trajectories of underlying asset, the size of
+the problem and initial trajectories of the behavior of investors and issuers.

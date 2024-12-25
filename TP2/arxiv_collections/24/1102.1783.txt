@@ -1,0 +1,17 @@
+We present a new threshold phenomenon in data structure lower bounds where
+slightly reduced update times lead to exploding query times. Consider
+incremental connectivity, letting t_u be the time to insert an edge and t_q be
+the query time. For t_u = Omega(t_q), the problem is equivalent to the
+well-understood union-find problem: InsertEdge(s,t) can be implemented by
+Union(Find(s), Find(t)). This gives worst-case time t_u = t_q = O(lg n / lglg
+n) and amortized t_u = t_q = O(alpha(n)).
+  By contrast, we show that if t_u = o(lg n / lglg n), the query time explodes
+to t_q >= n^{1-o(1)}. In other words, if the data structure doesn't have time
+to find the roots of each disjoint set (tree) during edge insertion, there is
+no effective way to organize the information!
+  For amortized complexity, we demonstrate a new inverse-Ackermann type
+trade-off in the regime t_u = o(t_q).
+  A similar lower bound is given for fully dynamic connectivity, where an
+update time of o(\lg n) forces the query time to be n^{1-o(1)}. This lower
+bound allows for amortization and Las Vegas randomization, and comes close to
+the known O(lg n * poly(lglg n)) upper bound.

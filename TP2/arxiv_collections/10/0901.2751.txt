@@ -1,0 +1,10 @@
+Pyro-Align is a multiple alignment program specifically designed for
+pyrosequencing reads of huge number. Multiple sequence alignment is shown to be
+NP-hard and heuristics are designed for approximate solutions. Multiple
+sequence alignment of pyrosequenceing reads is complex mainly because of 2
+factors. One being the huge number of reads, making the use of traditional
+heuristics,that scale very poorly for large number, unsuitable. The second
+reason is that the alignment cannot be performed arbitrarily, because the
+position of the reads with respect to the original genome is important and has
+to be taken into account.In this report we present a short description of the
+multiple alignment system for pyrosequencing reads.

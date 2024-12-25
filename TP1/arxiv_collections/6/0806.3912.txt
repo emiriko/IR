@@ -1,0 +1,8 @@
+We introduce a Predictor-Corrector type method suitable for performing
+many-particle Brownian Dynamics simulations. Since the method goes over to the
+Gear's method for Molecular Dynamics simulation in the limit of vanishing
+friction, we refer to it as a Gear-like algorithm. The algorithm has been
+tested on a one-dimensional, stochastically damped harmonic oscillator model,
+showing that it can cover a wide range of friction coefficients with a
+high-order accuracy, excellent stability, and a very small energy drift on the
+long time scales.

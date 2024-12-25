@@ -1,0 +1,16 @@
+We introduce a new type of cryptographic primitive that we call hiding
+fingerprinting. A (quantum) fingerprinting scheme translates a binary string of
+length $n$ to $d$ (qu)bits, typically $d\ll n$, such that given any string $y$
+and a fingerprint of $x$, one can decide with high accuracy whether $x=y$.
+Classical fingerprinting schemes cannot hide information very well: a classical
+fingerprint of $x$ that guarantees error at most $\epsilon$ necessarily reveals
+$\Omega(\log(1/\ epsilon))$ bits about $x$. We call a scheme hiding if it
+reveals $o(\log(1/\epsilon))$ bits; accordingly, no classical scheme is hiding.
+For any constant $c$, we construct two kinds of hiding fingerprinting schemes,
+both mapping $n$-bit strings to $O(\log n)$ qubits and guaranteeing one-sided
+error probability at most $1/n^c$. The first kind uses pure states and leaks at
+most $O(1)$ bits, and the second kind uses mixed states and leaks at most
+$1/n^c$ bits, where the "leakage" is bounded via accessible information. The
+schemes are computationally efficient. Our mixed-state scheme is optimal, as
+shown via a generic strategy that extracts $1/\poly(n)$ bits from any
+fingerprint over $O(\log n)$ qubits.

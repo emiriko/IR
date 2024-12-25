@@ -1,0 +1,14 @@
+This article reports on first results of the KONWIHR-II project OMI4papps at
+the Leibniz Supercomputing Centre (LRZ). The first part describes Apex-MAP, a
+tunable synthetic benchmark designed to simulate the performance of typical
+scientific applications. Apex-MAP mimics common memory access patterns and
+different computational intensity of scientific codes. An approach for
+modelling LRZ's application mix is given whichh makes use of performance
+counter measurements of real applications running on "HLRB II", an SGI Altix
+system based on 9728 Intel Montecito dual-cores.
+  The second part will show how the Apex-MAP benchmark could be used to
+simulate the performance of two mathematical kernels frequently used in
+scientific applications: a dense matrix-matrix multiplication and a sparse
+matrix-vector multiplication. The performance of both kernels has been
+intensively studied on x86 cores and hardware accelerators. We will compare the
+predicted performance with measured data to validate our Apex-MAP approach.

@@ -1,0 +1,19 @@
+We study the automatic synthesis of fair non-repudiation protocols, a class
+of fair exchange protocols, used for digital contract signing. First, we show
+how to specify the objectives of the participating agents and the trusted third
+party (TTP) as path formulas in LTL and prove that the satisfaction of these
+objectives imply fairness; a property required of fair exchange protocols. We
+then show that weak (co-operative) co-synthesis and classical (strictly
+competitive) co-synthesis fail, whereas assume-guarantee synthesis (AGS)
+succeeds. We demonstrate the success of assume-guarantee synthesis as follows:
+(a) any solution of assume-guarantee synthesis is attack-free; no subset of
+participants can violate the objectives of the other participants; (b) the
+Asokan-Shoup-Waidner (ASW) certified mail protocol that has known
+vulnerabilities is not a solution of AGS; (c) the Kremer-Markowitch (KM)
+non-repudiation protocol is a solution of AGS; and (d) AGS presents a new and
+symmetric fair non-repudiation protocol that is attack-free. To our knowledge
+this is the first application of synthesis to fair non-repudiation protocols,
+and our results show how synthesis can both automatically discover
+vulnerabilities in protocols and generate correct protocols. The solution to
+assume-guarantee synthesis can be computed efficiently as the secure
+equilibrium solution of three-player graph games.

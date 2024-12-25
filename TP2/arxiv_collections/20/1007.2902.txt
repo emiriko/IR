@@ -1,0 +1,21 @@
+As ISPs begin to cooperate to expose their network locality information as
+services, e.g., P4P, solutions based on locality information provision for P2P
+traffic localization will soon approach their capability limits. A natural
+question is: can we do any better provided that no further locality information
+improvement can be made? This paper shows how the utility of locality
+information could be limited by conventional P2P data scheduling algorithms,
+even as sophisticated as the local rarest first policy.
+  Network coding's simplified data scheduling makes it competent for improving
+P2P application's throughput. Instead of only using locality information in the
+topology construction, this paper proposes the locality-aware network coding
+(LANC) that uses locality information in both the topology construction and
+downloading decision, and demonstrates its exceptional ability for P2P traffic
+localization. The randomization introduced by network coding enhances the
+chance for a peer to find innovative blocks in its neighborhood. Aided by
+proper locality-awareness, the probability for a peer to get innovative blocks
+from its proximity will increase as well, resulting in more efficient use of
+network resources. Extensive simulation results show that LANC can
+significantly reduce P2P traffic redundancy without sacrificing
+application-level performance. Aided by the same locality knowledge, the
+traffic redundancies of LANC in most cases are less than 50\% of the current
+best approach that does not use network coding.

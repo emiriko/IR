@@ -1,0 +1,16 @@
+Oblivious transfer is a fundamental primitive in cryptography. While perfect
+information theoretic security is impossible, quantum oblivious transfer
+protocols can limit the dishonest players' cheating. Finding the optimal
+security parameters in such protocols is an important open question. In this
+paper we show that every 1-out-of-2 oblivious transfer protocol allows a
+dishonest party to cheat with probability bounded below by a constant strictly
+larger than 1/2. Alice's cheating is defined as her probability of guessing
+Bob's index, and Bob's cheating is defined as his probability of guessing both
+input bits of Alice. In our proof, we relate these cheating probabilities to
+the cheating probabilities of a coin flipping protocol and conclude by using
+Kitaev's coin flipping lower bound. Then, we present an oblivious transfer
+protocol with two messages and cheating probabilities at most 3/4. Last, we
+extend Kitaev's semidefinite programming formulation to more general
+primitives, where the security is against a dishonest player trying to force
+the outcome of the other player, and prove optimal lower and upper bounds for
+them.

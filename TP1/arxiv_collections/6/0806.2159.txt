@@ -1,0 +1,8 @@
+We present parallel and sequential dense QR factorization algorithms that are
+both optimal (up to polylogarithmic factors) in the amount of communication
+they perform, and just as stable as Householder QR. Our first algorithm, Tall
+Skinny QR (TSQR), factors m-by-n matrices in a one-dimensional (1-D) block
+cyclic row layout, and is optimized for m >> n. Our second algorithm, CAQR
+(Communication-Avoiding QR), factors general rectangular matrices distributed
+in a two-dimensional block cyclic layout. It invokes TSQR for each block column
+factorization.

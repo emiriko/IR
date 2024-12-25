@@ -1,0 +1,7 @@
+Vajda and Buttyan (VB) proposed a set of five lightweight RFID authentication
+protocols. Defend, Fu, and Juels (DFJ) did cryptanalysis on two of them - XOR
+and SUBSET. To the XOR protocol, DFJ proposed repeated keys attack and nibble
+attack. In this paper, we identify the vulnerability existed in the original
+VB's successive session key permutation algorithm. We propose three
+enhancements to prevent DFJ's attacks and make XOR protocol stronger without
+introducing extra resource cost.

@@ -1,0 +1,25 @@
+Consider updates arriving online in which the $t$th input is $(i_t,d_t)$,
+where $i_t$'s are thought of as IDs of users. Informally, a randomized function
+$f$ is {\em differentially private} with respect to the IDs if the probability
+distribution induced by $f$ is not much different from that induced by it on an
+input in which occurrences of an ID $j$ are replaced with some other ID $k$
+Recently, this notion was extended to {\em pan-privacy} where the computation
+of $f$ retains differential privacy, even if the internal memory of the
+algorithm is exposed to the adversary (say by a malicious break-in or by fiat
+by the government). This is a strong notion of privacy, and surprisingly, for
+basic counting tasks such as distinct counts, heavy hitters and others, Dwork
+et al~\cite{dwork-pan} present pan-private algorithms with reasonable accuracy.
+The pan-private algorithms are nontrivial, and rely on sampling. We reexamine
+these basic counting tasks and show improved bounds. In particular, we estimate
+the distinct count $\Dt$ to within $(1\pm \eps)\Dt \pm O(\polylog m)$, where
+$m$ is the number of elements in the universe. This uses suitably noisy
+statistics on sketches known in the streaming literature. We also present the
+first known lower bounds for pan-privacy with respect to a single intrusion.
+Our lower bounds show that, even if allowed to work with unbounded memory,
+pan-private algorithms for distinct counts can not be significantly more
+accurate than our algorithms. Our lower bound uses noisy decoding. For heavy
+hitter counts, we present a pan private streaming algorithm that is accurate to
+within $O(k)$ in worst case; previously known bound for this problem is
+arbitrarily worse. An interesting aspect of our pan-private algorithms is that,
+they deliberately use very small (polylogarithmic) space and tend to be
+streaming algorithms, even though using more space is not forbidden.

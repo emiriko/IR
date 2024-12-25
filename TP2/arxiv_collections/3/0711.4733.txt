@@ -1,0 +1,22 @@
+Grover's database search algorithm is the optimal algorithm for finding a
+desired object from an unsorted collection of items. Although it was discovered
+in the context of quantum computation, it is simple and versatile enough to be
+implemented using any physical system that allows superposition of states, and
+several proposals have been made in the literature. I study a mechanical
+realisation of the algorithm using coupled simple harmonic oscillators, and
+construct its physical model for the simplest case of four identical
+oscillators. The identification oracle is implemented as an elastic reflection
+of the desired oscillator, and the overrelaxation operation is realised as
+evolution of the system by half an oscillation period. I derive the equations
+of motion, and solve them both analytically and by computer simulation. I
+extend the ideal case analysis and explore the sensitivity of the algorithm to
+changes in the initial conditions, masses of springs and damping. The amplitude
+amplification provided by the algorithm enhances the energy of the desired
+oscillator, while running the algorithm backwards spreads out the energy of the
+perturbed oscillator among its partners. The former (efficient focusing of
+energy into a specific oscillator) can have interesting applications in
+processes that need crossing of an energy threshold for completion, and can be
+useful in nanotechnological devices and catalysis. The latter (efficient
+redistribution of energy) can be useful in processes requiring rapid
+dissipation of energy, such as shock-absorbers and vibrational shielding. I
+present some tentative proposals.

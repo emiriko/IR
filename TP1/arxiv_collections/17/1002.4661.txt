@@ -1,0 +1,24 @@
+Circadian clocks are oscillatory genetic networks that help organisms adapt
+to the 24-hour day/night cycle. The clock of the green alga Ostreococcus tauri
+is the simplest plant clock discovered so far. Its many advantages as an
+experimental system facilitate the testing of computational predictions.
+  We present a model of the Ostreococcus clock in the stochastic process
+algebra Bio-PEPA and exploit its mapping to different analysis techniques, such
+as ordinary differential equations, stochastic simulation algorithms and
+model-checking. The small number of molecules reported for this system tests
+the limits of the continuous approximation underlying differential equations.
+We investigate the difference between continuous-deterministic and
+discrete-stochastic approaches. Stochastic simulation and model-checking allow
+us to formulate new hypotheses on the system behaviour, such as the presence of
+self-sustained oscillations in single cells under constant light conditions.
+  We investigate how to model the timing of dawn and dusk in the context of
+model-checking, which we use to compute how the probability distributions of
+key biochemical species change over time. These show that the relative
+variation in expression level is smallest at the time of peak expression,
+making peak time an optimal experimental phase marker. Building on these
+analyses, we use approaches from evolutionary systems biology to investigate
+how changes in the rate of mRNA degradation impacts the phase of a key protein
+likely to affect fitness. We explore how robust this circadian clock is towards
+such potential mutational changes in its underlying biochemistry. Our work
+shows that multiple approaches lead to a more complete understanding of the
+clock.

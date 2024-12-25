@@ -1,0 +1,9 @@
+Weighted low-rank approximation (WLRA), a dimensionality reduction technique
+for data analysis, has been successfully used in several applications, such as
+in collaborative filtering to design recommender systems or in computer vision
+to recover structure from motion. In this paper, we study the computational
+complexity of WLRA and prove that it is NP-hard to find an approximate
+solution, even when a rank-one approximation is sought. Our proofs are based on
+a reduction from the maximum-edge biclique problem, and apply to strictly
+positive weights as well as binary weights (the latter corresponding to
+low-rank matrix approximation with missing data).

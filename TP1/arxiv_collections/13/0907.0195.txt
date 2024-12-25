@@ -1,0 +1,18 @@
+We implemented the charge self-consistent combination of Density Functional
+Theory and Dynamical Mean Field Theory (DMFT) in two full-potential methods,
+the Augmented Plane Wave and the Linear Muffin-Tin Orbital methods. We
+categorize the commonly used projection methods in terms of the causality of
+the resulting DMFT equations and the amount of partial spectral weight
+retained. The detailed flow of the Dynamical Mean Field algorithm is described,
+including the computation of response functions such as transport coefficients.
+We discuss the implementation of the impurity solvers based on hybridization
+expansion and an analytic continuation method for self-energy. We also derive
+the formalism for the bold continuous time quantum Monte Carlo method. We test
+our method on a classic problem in strongly correlated physics, the
+isostructural transition in Ce metal. We apply our method to the class of heavy
+fermion materials CeIrIn_5, CeCoIn_5 and CeRhIn_5 and show that the Ce 4f
+electrons are more localized in CeRhIn_5 than in the other two, a result
+corroborated by experiment. We show that CeIrIn_5 is the most itinerant and has
+a very anisotropic hybridization, pointing mostly towards the out-of-plane In
+atoms. In CeRhIn_5 we stabilized the antiferromagnetic DMFT solution below 3K,
+in close agreement with the experimental N\'eel temperature.

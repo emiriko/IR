@@ -1,0 +1,15 @@
+Querying over XML elements using keyword search is steadily gaining
+popularity. The traditional similarity measure is widely employed in order to
+effectively retrieve various XML documents. A number of authors have already
+proposed different similarity-measure methods that take advantage of the
+structure and content of XML documents. They do not, however, consider the
+similarity between latent semantic information of element texts and that of
+keywords in a query. Although many algorithms on XML element search are
+available, some of them have the high computational complexity due to searching
+a huge number of elements. In this paper, we propose a new algorithm that makes
+use of the semantic similarity between elements instead of between entire XML
+documents, considering not only the structure and content of an XML document,
+but also semantic information of namespaces in elements. We compare our
+algorithm with the three other algorithms by testing on the real datasets. The
+experiments have demonstrated that our proposed method is able to improve the
+query accuracy, as well as to reduce the running time.

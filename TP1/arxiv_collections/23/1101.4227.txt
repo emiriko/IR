@@ -1,0 +1,14 @@
+We theoretically study semi-supervised clustering in sparse graphs in the
+presence of pairwise constraints on the cluster assignments of nodes. We focus
+on bi-cluster graphs, and study the impact of semi-supervision for varying
+constraint density and overlap between the clusters. Recent results for
+unsupervised clustering in sparse graphs indicate that there is a critical
+ratio of within-cluster and between-cluster connectivities below which clusters
+cannot be recovered with better than random accuracy. The goal of this paper is
+to examine the impact of pairwise constraints on the clustering accuracy. Our
+results suggests that the addition of constraints does not provide automatic
+improvement over the unsupervised case. When the density of the constraints is
+sufficiently small, their only impact is to shift the detection threshold while
+preserving the criticality. Conversely, if the density of (hard) constraints is
+above the percolation threshold, the criticality is suppressed and the
+detection threshold disappears.

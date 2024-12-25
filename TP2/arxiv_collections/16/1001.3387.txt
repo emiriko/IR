@@ -1,0 +1,15 @@
+This paper considers the problem of securing a linear network coding system
+against an adversary that is both an eavesdropper and a jammer. The network is
+assumed to transport n packets from source to each receiver, and the adversary
+is allowed to eavesdrop on \mu arbitrarily chosen links and also to inject up
+to t erroneous packets into the network. The goal of the system is to achieve
+zero-error communication that is information-theoretically secure from the
+adversary. Moreover, this goal must be attained in a universal fashion, i.e.,
+regardless of the network topology or the underlying network code. An upper
+bound on the achievable rate under these requirements is shown to be n-\mu-2t
+packets per transmission. A scheme is proposed that can achieve this maximum
+rate, for any n and any field size q, provided the packet length m is at least
+n symbols. The scheme is based on rank-metric codes and admits low-complexity
+encoding and decoding. In addition, the scheme is shown to be optimal in the
+sense that the required packet length is the smallest possible among all
+universal schemes that achieve the maximum rate.

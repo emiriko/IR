@@ -1,0 +1,17 @@
+Quantum logic gates must perform properly when operating on their standard
+input basis states, as well as when operating on complex superpositions of
+these states. Experiments using superconducting qubits have validated the truth
+table for particular implementations of e.g. the controlled-NOT gate [1,2], but
+have not fully characterized gate operation for arbitrary superpositions of
+input states. Here we demonstrate the use of quantum process tomography (QPT)
+[3,4] to fully characterize the performance of a universal entangling gate
+between two superconducting quantum bits. Process tomography permits complete
+gate analysis, but requires precise preparation of arbitrary input states,
+control over the subsequent qubit interaction, and simultaneous single-shot
+measurement of the output states. We use QPT to measure the fidelity of the
+entangling gate and to quantify the decoherence mechanisms affecting the gate
+performance. In addition to demonstrating a promising fidelity, our entangling
+gate has a on/off ratio of 300, a level of adjustable coupling that will become
+a requirement for future high-fidelity devices. This is the first solid-state
+demonstration of QPT in a two-qubit system, as solid-state process tomography
+has previously only been demonstrated with single qubits [5,6].

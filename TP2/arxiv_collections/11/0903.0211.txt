@@ -1,0 +1,10 @@
+We propose Range and Roots which are two common patterns useful for
+specifying a wide range of counting and occurrence constraints. We design
+specialised propagation algorithms for these two patterns. Counting and
+occurrence constraints specified using these patterns thus directly inherit a
+propagation algorithm. To illustrate the capabilities of the Range and Roots
+constraints, we specify a number of global constraints taken from the
+literature. Preliminary experiments demonstrate that propagating counting and
+occurrence constraints using these two patterns leads to a small loss in
+performance when compared to specialised global constraints and is competitive
+with alternative decompositions using elementary constraints.

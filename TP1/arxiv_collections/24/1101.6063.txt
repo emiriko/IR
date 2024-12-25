@@ -1,0 +1,18 @@
+Testing for nonlinearity is one of the most important preprocessing steps in
+nonlinear time series analysis. Typically, this is done by means of the linear
+surrogate data methods. But it is a known fact that the validity of the results
+heavily depends on the stationarity of the time series. Since most
+physiological signals are non-stationary, it is easy to falsely detect
+nonlinearity using the linear surrogate data methods. In this document, we
+propose a methodology to extend the procedure for generating constrained
+surrogate time series in order to assess nonlinearity in non-stationary data.
+The method is based on the band-phase-randomized surrogates, which consists
+(contrary to the linear surrogate data methods) in randomizing only a portion
+of the Fourier phases in the high frequency band. Analysis of simulated time
+series showed that in comparison to the linear surrogate data method, our
+method is able to discriminate between linear stationarity, linear
+non-stationary and nonlinear time series. When applying our methodology to
+heart rate variability (HRV) time series that present spikes and other kinds of
+nonstationarities, we where able to obtain surrogate time series that look like
+the data and preserves linear correlations, something that is not possible to
+do with the existing surrogate data methods.

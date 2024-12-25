@@ -1,0 +1,23 @@
+Switching state-space models (SSSM) are a very popular class of time series
+models that have found many applications in statistics, econometrics and
+advanced signal processing. Bayesian inference for these models typically
+relies on Markov chain Monte Carlo (MCMC) techniques. However, even
+sophisticated MCMC methods dedicated to SSSM can prove quite inefficient as
+they update potentially strongly correlated discrete-valued latent variables
+one-at-a-time (Carter and Kohn, 1996; Gerlach et al., 2000; Giordani and Kohn,
+2008). Particle Markov chain Monte Carlo (PMCMC) methods are a recently
+developed class of MCMC algorithms which use particle filters to build
+efficient proposal distributions in high-dimensions (Andrieu et al., 2010). The
+existing PMCMC methods of Andrieu et al. (2010) are applicable to SSSM, but are
+restricted to employing standard particle filtering techniques. Yet, in the
+context of discrete-valued latent variables, specialised particle techniques
+have been developed which can outperform by up to an order of magnitude
+standard methods (Fearnhead, 1998; Fearnhead and Clifford, 2003; Fearnhead,
+2004). In this paper we develop a novel class of PMCMC methods relying on these
+very efficient particle algorithms. We establish the theoretical validy of this
+new generic methodology referred to as discrete PMCMC and demonstrate it on a
+variety of examples including a multiple change-points model for well-log data
+and a model for U.S./U.K. exchange rate data. Discrete PMCMC algorithms are
+shown to outperform experimentally state-of-the-art MCMC techniques for a fixed
+computational complexity. Additionally they can be easily parallelized (Lee et
+al., 2010) which allows further substantial gains.

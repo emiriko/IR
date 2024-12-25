@@ -1,0 +1,20 @@
+In this thesis, I investigate aspects of local Hamiltonians in quantum
+computing. First, I focus on the Adiabatic Quantum Computing model, based on
+evolution with a time dependent Hamiltonian. I show that to succeed using AQC,
+the Hamiltonian involved must have local structure, which leads to a result
+about eigenvalue gaps from information theory. I also improve results about
+simulating quantum circuits with AQC. Second, I look at classically simulating
+time evolution with local Hamiltonians and finding their ground state
+properties. I give a numerical method for finding the ground state of
+translationally invariant Hamiltonians on an infinite tree. This method is
+based on imaginary time evolution within the Matrix Product State ansatz, and
+uses a new method for bringing the state back to the ansatz after each
+imaginary time step. I then use it to investigate the phase transition in the
+transverse field Ising model on the Bethe lattice. Third, I focus on locally
+constrained quantum problems Local Hamiltonian and Quantum Satisfiability and
+prove several new results about their complexity. Finally, I define a
+Hamiltonian Quantum Cellular Automaton, a continuous-time model of computation
+which doesn't require control during the computation process, only preparation
+of product initial states. I construct two of these, showing that time
+evolution with a simple, local, translationally invariant and time-independent
+Hamiltonian can be used to simulate quantum circuits.

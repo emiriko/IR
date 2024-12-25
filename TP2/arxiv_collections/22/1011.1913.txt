@@ -1,0 +1,25 @@
+The weak-lensing science of the LSST project drives the need to carefully
+model and separate the instrumental artifacts from the intrinsic lensing
+signal. The dominant source of the systematics for all ground based telescopes
+is the spatial correlation of the PSF modulated by both atmospheric turbulence
+and optical aberrations. In this paper, we present a full FOV simulation of the
+LSST images by modeling both the atmosphere and the telescope optics with the
+most current data for the telescope specifications and the environment. To
+simulate the effects of atmospheric turbulence, we generated six-layer phase
+screens with the parameters estimated from the on-site measurements. For the
+optics, we combined the ray-tracing tool ZEMAX and our simulated focal plane
+data to introduce realistic aberrations and focal plane height fluctuations.
+Although this expected flatness deviation for LSST is small compared with that
+of other existing cameras, the fast f-ratio of the LSST optics makes this focal
+plane flatness variation and the resulting PSF discontinuities across the CCD
+boundaries significant challenges in our removal of the systematics. We resolve
+this complication by performing PCA CCD-by-CCD, and interpolating the basis
+functions using conventional polynomials. We demonstrate that this PSF
+correction scheme reduces the residual PSF ellipticity correlation below 10^-7
+over the cosmologically interesting scale. From a null test using HST/UDF
+galaxy images without input shear, we verify that the amplitude of the galaxy
+ellipticity correlation function, after the PSF correction, is consistent with
+the shot noise set by the finite number of objects. Therefore, we conclude that
+the current optical design and specification for the accuracy in the focal
+plane assembly are sufficient to enable the control of the PSF systematics
+required for weak-lensing science with the LSST.

@@ -1,0 +1,17 @@
+We propose an optimization method of mutual learning which converges into the
+identical state of optimum ensemble learning within the framework of on-line
+learning, and have analyzed its asymptotic property through the statistical
+mechanics method.The proposed model consists of two learning steps: two
+students independently learn from a teacher, and then the students learn from
+each other through the mutual learning. In mutual learning, students learn from
+each other and the generalization error is improved even if the teacher has not
+taken part in the mutual learning. However, in the case of different initial
+overlaps(direction cosine) between teacher and students, a student with a
+larger initial overlap tends to have a larger generalization error than that of
+before the mutual learning. To overcome this problem, our proposed optimization
+method of mutual learning optimizes the step sizes of two students to minimize
+the asymptotic property of the generalization error. Consequently, the
+optimized mutual learning converges to a generalization error identical to that
+of the optimal ensemble learning. In addition, we show the relationship between
+the optimum step size of the mutual learning and the integration mechanism of
+the ensemble learning.

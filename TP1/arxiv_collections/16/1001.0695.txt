@@ -1,0 +1,11 @@
+This paper studies the geodesic diameter of polygonal domains having h holes
+and n corners. For simple polygons (i.e., h = 0), the geodesic diameter is
+determined by a pair of corners of a given polygon and can be computed in
+linear time, as known by Hershberger and Suri. For general polygonal domains
+with h >= 1, however, no algorithm for computing the geodesic diameter was
+known prior to this paper. In this paper, we present the first algorithms that
+compute the geodesic diameter of a given polygonal domain in worst-case time
+O(n^7.73) or O(n^7 (log n + h)). The main difficulty unlike the simple polygon
+case relies on the following observation revealed in this paper: two interior
+points can determine the geodesic diameter and in that case there exist at
+least five distinct shortest paths between the two.

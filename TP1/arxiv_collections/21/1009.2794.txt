@@ -1,0 +1,11 @@
+LF has been designed and successfully used as a meta-logical framework to
+represent and reason about object logics. Here we design a representation of
+the Isabelle logical framework in LF using the recently introduced module
+system for LF. The major novelty of our approach is that we can naturally
+represent the advanced Isabelle features of type classes and locales.
+  Our representation of type classes relies on a feature so far lacking in the
+LF module system: morphism variables and abstraction over them. While
+conservative over the present system in terms of expressivity, this feature is
+needed for a representation of type classes that preserves the modular
+structure. Therefore, we also design the necessary extension of the LF module
+system.

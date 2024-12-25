@@ -1,0 +1,10 @@
+When calculating the infrared spectral energy distributions (SEDs) of
+galaxies in radiation-transfer models, the calculation of dust grain
+temperatures is generally the most time-consuming part of the calculation.
+Because of its highly parallel nature, this calculation is perfectly suited for
+massively parallel general-purpose Graphics Processing Units (GPUs). This paper
+presents an implementation of the calculation of dust grain equilibrium
+temperatures on GPUs in the Monte-Carlo radiation transfer code Sunrise, using
+the CUDA API. The GPU can perform this calculation 69 times faster than the 8
+CPU cores, showing great potential for accelerating calculations of galaxy
+SEDs.

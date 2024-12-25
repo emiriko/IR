@@ -1,0 +1,11 @@
+A set of ontology matching algorithms (for finding correspondences between
+concepts) is based on a thesaurus that provides the source data for the
+semantic distance calculations. In this wiki era, new resources may spring up
+and improve this kind of semantic search. In the paper a solution of this task
+based on Russian Wiktionary is compared to WordNet based algorithms. Metrics
+are estimated using the test collection, containing 353 English word pairs with
+a relatedness score assigned by human evaluators. The experiment shows that the
+proposed method is capable in principle of calculating a semantic distance
+between pair of words in any language presented in Russian Wiktionary. The
+calculation of Wiktionary based metric had required the development of the
+open-source Wiktionary parser software.

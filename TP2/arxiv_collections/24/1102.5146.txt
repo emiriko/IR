@@ -1,0 +1,19 @@
+In processing large quantities of data, a fundamental problem is to obtain a
+summary which supports approximate query answering. Random sampling yields
+flexible summaries which naturally support subset-sum queries with unbiased
+estimators and well-understood confidence bounds.
+  Classic sample-based summaries, however, are designed for arbitrary subset
+queries and are oblivious to the structure in the set of keys. The particular
+structure, such as hierarchy, order, or product space (multi-dimensional),
+makes range queries much more relevant for most analysis of the data.
+  Dedicated summarization algorithms for range-sum queries have also been
+extensively studied. They can outperform existing sampling schemes in terms of
+accuracy on range queries per summary size. Their accuracy, however, rapidly
+degrades when, as is often the case, the query spans multiple ranges. They are
+also less flexible - being targeted for range sum queries alone - and are often
+quite costly to build and use.
+  In this paper we propose and evaluate variance optimal sampling schemes that
+are structure-aware. These summaries improve over the accuracy of existing
+structure-oblivious sampling schemes on range queries while retaining the
+benefits of sample-based summaries: flexible summaries, with high accuracy on
+both range queries and arbitrary subset queries.

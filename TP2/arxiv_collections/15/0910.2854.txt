@@ -1,0 +1,23 @@
+FISH is a fast and simple ideal magneto-hydrodynamics code that scales to ~10
+000 processes for a Cartesian computational domain of ~1000^3 cells. The
+simplicity of FISH has been achieved by the rigorous application of the
+operator splitting technique, while second order accuracy is maintained by the
+symmetric ordering of the operators. Between directional sweeps, the
+three-dimensional data is rotated in memory so that the sweep is always
+performed in a cache-efficient way along the direction of contiguous memory.
+Hence, the code only requires a one-dimensional description of the conservation
+equations to be solved. This approach also enable an elegant novel
+parallelisation of the code that is based on persistent communications with MPI
+for cubic domain decomposition on machines with distributed memory. This scheme
+is then combined with an additional OpenMP parallelisation of different sweeps
+that can take advantage of clusters of shared memory. We document the detailed
+implementation of a second order TVD advection scheme based on flux
+reconstruction. The magnetic fields are evolved by a constrained transport
+scheme. We show that the subtraction of a simple estimate of the hydrostatic
+gradient from the total gradients can significantly reduce the dissipation of
+the advection scheme in simulations of gravitationally bound hydrostatic
+objects. Through its simplicity and efficiency, FISH is as well-suited for
+hydrodynamics classes as for large-scale astrophysical simulations on
+high-performance computer clusters. In preparation for the release of a public
+version, we demonstrate the performance of FISH in a suite of astrophysically
+orientated test cases.

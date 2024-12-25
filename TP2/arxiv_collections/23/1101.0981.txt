@@ -1,0 +1,17 @@
+The requirements for accurate numerical simulation are increasing constantly.
+Modern high precision physics experiments now exceed the achievable numerical
+accuracy of standard commercial and scientific simulation tools. One example
+are optical resonators for which changes in the optical length are now commonly
+measured to 10^{-15} precision. The achievable measurement accuracy for
+resonators and cavities is directly influenced by changes in the distances
+between the optical components. If deformations in the range of 10^{-15} occur,
+those effects cannot be modeled and analysed any more with standard methods
+based on double precision data types. New experimental approaches point out
+that the achievable experimental accuracies may improve down to the level of
+10^{-17} in the near future. For the development and improvement of high
+precision resonators and the analysis of experimental data, new methods have to
+be developed which enable the needed level of simulation accuracy. Therefore we
+plan the development of new high precision algorithms for the simulation and
+modeling of thermo-mechanical effects with an achievable accuracy of 10^{-20}.
+In this paper we analyse a test case and identify the problems on the way to
+this goal.

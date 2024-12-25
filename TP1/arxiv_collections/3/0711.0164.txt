@@ -1,0 +1,19 @@
+In a recent paper `The equi-energy sampler with applications statistical
+inference and statistical mechanics' [Ann. Stat. 34 (2006) 1581--1619], Kou,
+Zhou & Wong have presented a new stochastic simulation method called the
+equi-energy (EE) sampler. This technique is designed to simulate from a
+probability measure $\pi$, perhaps only known up to a normalizing constant. The
+authors demonstrate that the sampler performs well in quite challenging
+problems but their convergence results (Theorem 2) appear incomplete. This was
+pointed out, in the discussion of the paper, by Atchad\'e & Liu (2006) who
+proposed an alternative convergence proof. However, this alternative proof,
+whilst theoretically correct, does not correspond to the algorithm that is
+implemented. In this note we provide a new proof of convergence of the
+equi-energy sampler based on the Poisson equation and on the theory developed
+in Andrieu et al. (2007) for \emph{Non-Linear} Markov chain Monte Carlo (MCMC).
+The objective of this note is to provide a proof of correctness of the EE
+sampler when there is only one feeding chain; the general case requires a much
+more technical approach than is suitable for a short note. In addition, we also
+seek to highlight the difficulties associated with the analysis of this type of
+algorithm and present the main techniques that may be adopted to prove the
+convergence of it.

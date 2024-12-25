@@ -1,0 +1,11 @@
+Threads as considered in basic thread algebra are primarily looked upon as
+behaviours exhibited by sequential programs on execution. It is a fact of life
+that sequential programs are often fragmented. Consequently, fragmented program
+behaviours are frequently found. In this paper, we consider this phenomenon. We
+extend basic thread algebra with the barest mechanism for sequencing of threads
+that are taken for fragments. This mechanism, called poly-threading, supports
+both autonomous and non-autonomous thread selection in sequencing. We relate
+the resulting theory to the algebraic theory of processes known as ACP and use
+it to describe analytic execution architectures suited for fragmented programs.
+We also consider the case where the steps of fragmented program behaviours are
+interleaved in the ways of non-distributed and distributed multi-threading.

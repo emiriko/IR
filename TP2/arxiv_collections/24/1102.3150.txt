@@ -1,0 +1,13 @@
+The current research on credit risk is primarily focused on modeling default
+probabilities. Recovery rates are often treated as an afterthought; they are
+modeled independently, in many cases they are even assumed constant. This is
+despite of their pronounced effect on the tail of the loss distribution. Here,
+we take a step back, historically, and start again from the Merton model, where
+defaults and recoveries are both determined by an underlying process. Hence,
+they are intrinsically connected. For the diffusion process, we can derive the
+functional relation between expected recovery rate and default probability.
+This relation depends on a single parameter only. In Monte Carlo simulations we
+find that the same functional dependence also holds for jump-diffusion and
+GARCH processes. We discuss how to incorporate this structural recovery rate
+into reduced form models, in order to restore essential structural information
+which is usually neglected in the reduced-form approach.

@@ -1,0 +1,14 @@
+We propose a new numerical approach to compute nonclassical solutions to
+hyperbolic conservation laws. The class of finite difference schemes presented
+here is fully conservative and keep nonclassical shock waves as sharp
+interfaces, contrary to standard finite difference schemes. The main challenge
+is to achieve, at the discretization level, a consistency property with respect
+to a prescribed kinetic relation. The latter is required for the selection of
+physically meaningful nonclassical shocks. Our method is based on a
+reconstruction technique performed in each computational cell that may contain
+a nonclassical shock. To validate this approach, we establish several
+consistency and stability properties, and we perform careful numerical
+experiments. The convergence of the algorithm toward the physically meaningful
+solutions selected by a kinetic relation is demonstrated numerically for
+several test cases, including concave-convex as well as convex-concave
+flux-functions.

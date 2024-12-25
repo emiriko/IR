@@ -1,0 +1,30 @@
+In this paper, a few novel data hiding techniques are proposed. These
+techniques are improvements over the classical LSB data hiding technique and
+the Fibonacci LSB data-hiding technique proposed by Battisti et al. \cite{r1}.
+The classical LSB technique is the simplest, but using this technique it is
+possible to embed only in first few bit-planes, since image quality becomes
+drastically distorted when embedding in higher bit-planes. Battisti et al.
+\cite{r1} proposed an improvement over this by using Fibonacci decomposition
+technique and generating a different set of virtual bit-planes all together,
+thereby increasing the number of bit-planes. In this paper, first we
+mathematically model and generalize this particular approach of virtual
+bit-plane generation. Then we propose two novel embedding techniques, both of
+which are special-cases of our generalized model. The first embedding scheme is
+based on decomposition of a number (pixel-value) in sum of prime numbers, while
+the second one is based on decomposition in sum of natural numbers. Each of
+these particular representations generates a different set of (virtual)
+bit-planes altogether, suitable for embedding purposes. They not only allow one
+to embed secret message in higher bit-planes but also do it without much
+distortion, with a much better stego-image quality, in a reliable and secured
+manner, guaranteeing efficient retrieval of secret message. A comparative
+performance study between the classical Least Significant Bit (LSB) method, the
+data hiding technique using Fibonacci -p-Sequence decomposition and our
+proposed schemes has been done. Theoretical analysis indicates that image
+quality of the stego-image hidden by the technique using Fibonacci
+decomposition improves against simple LSB substitution method, while the same
+using the prime decomposition method improves drastically against that using
+Fibonacci decomposition technique, and finally the natural number decomposition
+method is a further improvement against that using prime decomposition
+technique. Also, optimality for the last technique is proved. For both of our
+data-hiding techniques, the experimental results show that, the stego-image is
+visually indistinguishable from the original cover image.

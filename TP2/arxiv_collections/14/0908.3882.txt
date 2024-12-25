@@ -1,0 +1,13 @@
+Genomic instability, the propensity of aberrations in chromosomes, plays a
+critical role in the development of many diseases. High throughput genotyping
+experiments have been performed to study genomic instability in diseases. The
+output of such experiments can be summarized as high dimensional binary
+vectors, where each binary variable records aberration status at one marker
+locus. It is of keen interest to understand how these aberrations interact with
+each other. In this paper, we propose a novel method, \texttt{LogitNet}, to
+infer the interactions among aberration events. The method is based on
+penalized logistic regression with an extension to account for spatial
+correlation in the genomic instability data. We conduct extensive simulation
+studies and show that the proposed method performs well in the situations
+considered. Finally, we illustrate the method using genomic instability data
+from breast cancer samples.

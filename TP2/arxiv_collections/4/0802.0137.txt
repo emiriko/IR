@@ -1,0 +1,8 @@
+We investigate a decentralised approach to committing transactions in a
+replicated database, under partial replication. Previous protocols either
+re-execute transactions entirely and/or compute a total order of transactions.
+In contrast, ours applies update values, and orders only conflicting
+transactions. It results that transactions execute faster, and distributed
+databases commit in small committees. Both effects contribute to preserve
+scalability as the number of databases and transactions increase. Our algorithm
+ensures serializability, and is live and safe in spite of faults.

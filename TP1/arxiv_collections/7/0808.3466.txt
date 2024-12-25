@@ -1,0 +1,10 @@
+We present a sequential Monte Carlo sampler variant of the partial rejection
+control algorithm, and show that this variant can be considered as a sequential
+Monte Carlo sampler with a modified mutation kernel. We prove that the new
+sampler can reduce the variance of the incremental importance weights when
+compared with standard sequential Monte Carlo samplers. We provide a study of
+theoretical properties of the new algorithm, and make connections with some
+existing algorithms. Finally, the sampler is adapted for application under the
+challenging "likelihood free," approximate Bayesian computation modelling
+framework, where we demonstrate superior performance over existing
+likelihood-free samplers.

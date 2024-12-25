@@ -1,0 +1,18 @@
+We apply deep belief networks of restricted Boltzmann machines to bags of
+words of sift features obtained from databases of 13 Scenes, 15 Scenes and
+Caltech 256 and study experimentally their behavior and performance. We find
+that the final performance in the supervised phase is reached much faster if
+the system is pre-trained. Pre-training the system on a larger dataset keeping
+the supervised dataset fixed improves the performance (for the 13 Scenes case).
+After the unsupervised pre-training, neurons arise that form approximate
+explicit representations for several categories (meaning they are mostly active
+for this category). The last three facts suggest that unsupervised training
+really discovers structure in these data. Pre-training can be done on a
+completely different dataset (we use Corel dataset) and we find that the
+supervised phase performs just as good (on the 15 Scenes dataset). This leads
+us to conjecture that one can pre-train the system once (e.g. in a factory) and
+subsequently apply it to many supervised problems which then learn much faster.
+The best performance is obtained with single hidden layer system suggesting
+that the histogram of sift features doesn't have much high level structure. The
+overall performance is almost equal, but slightly worse then that of the
+support vector machine and the spatial pyramidal matching.

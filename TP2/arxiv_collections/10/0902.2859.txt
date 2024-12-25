@@ -1,0 +1,7 @@
+Threads as considered in thread algebra model behaviours to be controlled by
+some execution environment: upon each action performed by a thread, a reply
+from its execution environment -- which takes the action as an instruction to
+be processed -- determines how the thread proceeds. In this paper, we are
+concerned with the case where the execution environment is remote: we describe
+and analyse some transmission protocols for passing instructions from a thread
+to a remote execution environment.

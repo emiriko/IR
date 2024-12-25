@@ -1,0 +1,9 @@
+We develop a method for measuring homology classes. This involves three
+problems. First, we define the size of a homology class, using ideas from
+relative homology. Second, we define an optimal basis of a homology group to be
+the basis whose elements' size have the minimal sum. We provide a greedy
+algorithm to compute the optimal basis and measure classes in it. The algorithm
+runs in $O(\beta^4 n^3 \log^2 n)$ time, where $n$ is the size of the simplicial
+complex and $\beta$ is the Betti number of the homology group. Third, we
+discuss different ways of localizing homology classes and prove some hardness
+results.

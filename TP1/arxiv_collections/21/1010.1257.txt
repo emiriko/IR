@@ -1,0 +1,25 @@
+The complexity of atmospheric modelling and its inherent non-linearity,
+together with the limited amount of data of exoplanets available, motivate
+model intercomparisons and benchmark tests. In the geophysical community, the
+Held-Suarez test is a standard benchmark for comparing dynamical core
+simulations of the Earth's atmosphere with different solvers, based on
+statistically-averaged flow quantities. In the present study, we perform
+analogues of the Held-Suarez test for tidally-locked exoplanets with the
+GFDL-Princeton Flexible Modeling System (FMS) by subjecting both the spectral
+and finite difference dynamical cores to a suite of tests, including the
+standard benchmark for Earth, a hypothetical tidally-locked Earth, a "shallow"
+hot Jupiter model and a "deep" model of HD 209458b. We find qualitative and
+quantitative agreement between the solvers for the Earth, tidally-locked Earth
+and shallow hot Jupiter benchmarks, but the agreement is less than satisfactory
+for the deep model of HD 209458b. Further investigation reveals that closer
+agreement may be attained by arbitrarily adjusting the values of the horizontal
+dissipation parameters in the two solvers, but it remains the case that the
+magnitude of the horizontal dissipation is not easily specified from first
+principles. Irrespective of radiative transfer or chemical composition
+considerations, our study points to limitations in our ability to accurately
+model hot Jupiter atmospheres with meteorological solvers at the level of ten
+percent for the temperature field and several tens of percent for the velocity
+field. Direct wind measurements should thus be particularly constraining for
+the models. Our suite of benchmark tests also provides a reference point for
+researchers wishing to adapt their codes to study the atmospheric circulation
+regimes of tidally-locked Earths/Neptunes/Jupiters.

@@ -1,0 +1,13 @@
+We prove that the subset sum problem has a polynomial time computable
+certificate of infeasibility for all $a$ weight vectors with density at most
+$1/(2n)$ and for almost all integer right hand sides. The certificate is
+branching on a hyperplane, i.e. by a methodology dual to the one explored by
+Lagarias and Odlyzko; Frieze; Furst and Kannan; and Coster et. al.
+  The proof has two ingredients. We first prove that a vector that is near
+parallel to $a$ is a suitable branching direction, regardless of the density.
+Then we show that for a low density $a$ such a near parallel vector can be
+computed using diophantine approximation, via a methodology introduced by Frank
+and Tardos.
+  We also show that there is a small number of long intervals whose disjoint
+union covers the integer right hand sides, for which the infeasibility is
+proven by branching on the above hyperplane.

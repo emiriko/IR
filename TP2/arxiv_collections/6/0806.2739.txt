@@ -1,0 +1,14 @@
+Numerical quantum transport calculations are commonly based on a
+tight-binding formulation. A wide class of quantum transport algorithms
+requires the tight-binding Hamiltonian to be in the form of a block-tridiagonal
+matrix. Here, we develop a matrix reordering algorithm based on graph
+partitioning techniques that yields the optimal block-tridiagonal form for
+quantum transport. The reordered Hamiltonian can lead to significant
+performance gains in transport calculations, and allows to apply conventional
+two-terminal algorithms to arbitrary complex geometries, including
+multi-terminal structures. The block-tridiagonalization algorithm can thus be
+the foundation for a generic quantum transport code, applicable to arbitrary
+tight-binding systems. We demonstrate the power of this approach by applying
+the block-tridiagonalization algorithm together with the recursive Green's
+function algorithm to various examples of mesoscopic transport in
+two-dimensional electron gases in semiconductors and graphene.

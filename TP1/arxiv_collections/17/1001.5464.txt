@@ -1,0 +1,19 @@
+In this paper, we consider band-structure calculations governed by the
+Helmholtz or Maxwell equations in piecewise homogeneous periodic materials.
+Methods based on boundary integral equations are natural in this context, since
+they discretize the interface alone and can achieve high order accuracy in
+complicated geometries. In order to handle the quasi-periodic conditions which
+are imposed on the unit cell, the free-space Green's function is typically
+replaced by its quasi-periodic cousin. Unfortunately, the quasi-periodic
+Green's function diverges for families of parameter values that correspond to
+resonances of the empty unit cell. Here, we bypass this problem by means of a
+new integral representation that relies on the free-space Green's function
+alone, adding auxiliary layer potentials on the boundary of the unit cell
+itself. An important aspect of our method is that by carefully including a few
+neighboring images, the densities may be kept smooth and convergence rapid.
+This framework results in an integral equation of the second kind, avoids
+spurious resonances, and achieves spectral accuracy. Because of our image
+structure, inclusions which intersect the unit cell walls may be handled easily
+and automatically. Our approach is compatible with fast-multipole acceleration,
+generalizes easily to three dimensions, and avoids the complication of
+divergent lattice sums.

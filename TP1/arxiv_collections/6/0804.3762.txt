@@ -1,0 +1,10 @@
+We investigate here a new version of the Calculus of Inductive Constructions
+(CIC) on which the proof assistant Coq is based: the Calculus of Congruent
+Inductive Constructions, which truly extends CIC by building in arbitrary
+first-order decision procedures: deduction is still in charge of the CIC
+kernel, while computation is outsourced to dedicated first-order decision
+procedures that can be taken from the shelves provided they deliver a proof
+certificate. The soundness of the whole system becomes an incremental property
+following from the soundness of the certificate checkers and that of the
+kernel. A detailed example shows that the resulting style of proofs becomes
+closer to that of the working mathematician.

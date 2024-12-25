@@ -1,0 +1,14 @@
+Collaborative web applications such as Facebook, Flickr and Yelp present new
+challenges for storing and querying large amounts of data. As users and
+developers are focused more on performance than single copy consistency or the
+ability to perform ad-hoc queries, there exists an opportunity for a
+highly-scalable system tailored specifically for relaxed consistency and
+pre-computed queries. The Web 2.0 development model demands the ability to both
+rapidly deploy new features and automatically scale with the number of users.
+There have been many successful distributed key-value stores, but so far none
+provide as rich a query language as SQL. We propose a new architecture, SCADS,
+that allows the developer to declaratively state application specific
+consistency requirements, takes advantage of utility computing to provide cost
+effective scale-up and scale-down, and will use machine learning models to
+introspectively anticipate performance problems and predict the resource
+requirements of new queries before execution.

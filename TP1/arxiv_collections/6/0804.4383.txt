@@ -1,0 +1,16 @@
+This article introduces a fully automated verification technique that permits
+to analyze real-time systems described using a continuous notion of time and a
+mixture of operational (i.e., automata-based) and descriptive (i.e.,
+logic-based) formalisms. The technique relies on the reduction, under
+reasonable assumptions, of the continuous-time verification problem to its
+discrete-time counterpart. This reconciles in a viable and effective way the
+dense/discrete and operational/descriptive dichotomies that are often
+encountered in practice when it comes to specifying and analyzing complex
+critical systems. The article investigates the applicability of the technique
+through a significant example centered on a communication protocol. More
+precisely, concurrent runs of the protocol are formalized by parallel instances
+of a Timed Automaton, while the synchronization rules between these instances
+are specified through Metric Temporal Logic formulas, thus creating a
+multi-paradigm model. Verification tests run on this model using a bounded
+validity checker implementing the technique show consistent results and
+interesting performances.

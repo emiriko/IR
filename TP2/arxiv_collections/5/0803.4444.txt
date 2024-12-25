@@ -1,0 +1,8 @@
+We present a method for performing sampling from a Boltzmann distribution of
+an ill-conditioned quadratic action. This method is based on heatbath
+thermalization along a set of conjugate directions, generated via a
+conjugate-gradient procedure. The resulting scheme outperforms local updates
+for matrices with very high condition number, since it avoids the slowing down
+of modes with lower eigenvalue, and has some advantages over the global
+heatbath approach, compared to which it is more stable and allows for more
+freedom in devising case-specific optimizations.

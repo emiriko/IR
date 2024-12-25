@@ -1,0 +1,17 @@
+The efficient estimation of frequency moments of a data stream in one-pass
+using limited space and time per item is one of the most fundamental problem in
+data stream processing. An especially important estimation is to find the
+number of distinct elements in a data stream, which is generally referred to as
+the zeroth frequency moment and denoted by $F_0$. In this paper, we consider
+streams of rectangles defined over a discrete space and the task is to compute
+the total number of distinct points covered by the rectangles. This is known as
+the Klee's measure problem in 2 dimensions. We present and analyze a randomized
+streaming approximation algorithm which gives an $(\epsilon,
+\delta)$-approximation of $F_0$ for the total area of Klee's measure problem in
+2 dimensions. Our algorithm achieves the following complexity bounds: (a) the
+amortized processing time per rectangle is $O(\frac{1}{\epsilon^4}\log^3
+n\log\frac{1}{\delta})$; (b) the space complexity is
+$O(\frac{1}{\epsilon^2}\log n \log\frac{1}{\delta})$ bits; and (c) the time to
+answer a query for $F_0$ is $O(\log\frac{1}{\delta})$, respectively. To our
+knowledge, this is the first streaming approximation for the Klee's measure
+problem that achieves sub-polynomial bounds.

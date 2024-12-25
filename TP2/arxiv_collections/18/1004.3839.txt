@@ -1,0 +1,20 @@
+We present our recently developed {\em galcon} approach to hydrodynamical
+cosmological simulations of galaxy clusters - a subgrid model added to the {\em
+Enzo} adaptive mesh refinement code - which is capable of tracking galaxies
+within the cluster potential and following the feedback of their main baryonic
+processes. Galcons are physically extended galactic constructs within which
+baryonic processes are modeled analytically. By identifying galaxy halos and
+initializing galcons at high redshift ($z \sim 3$, well before most clusters
+virialize), we are able to follow the evolution of star formation, galactic
+winds, and ram-pressure stripping of interstellar media, along with their
+associated mass, metals and energy feedback into intracluster (IC) gas, which
+are deposited through a well-resolved spherical interface layer. Our approach
+is fully described and all results from initial simulations with the enhanced
+{\em Enzo-Galcon} code are presented. With a galactic star formation rate
+derived from the observed cosmic star formation density, our galcon simulation
+better reproduces the observed properties of IC gas, including the density,
+temperature, metallicity, and entropy profiles. By following the impact of a
+large number of galaxies on IC gas we explicitly demonstrate the advantages of
+this approach in producing a lower stellar fraction, a larger gas core radius,
+an isothermal temperature profile in the central cluster region, and a flatter
+metallicity gradient than in a standard simulation.

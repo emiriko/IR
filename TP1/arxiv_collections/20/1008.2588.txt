@@ -1,0 +1,21 @@
+Solving fastest mixing Markov chain problem (i.e. finding transition
+probabilities on the edges to minimize the second largest eigenvalue modulus of
+the transition probability matrix) over networks with different topologies is
+one of the primary areas of research in the context of computer science and one
+of the well known networks in this issue is K-partite network. Here in this
+work we present analytical solution for the problem of fastest mixing Markov
+chain by means of stratification and semidefinite programming, for four
+particular types of K-partite networks, namely Symmetric K-PPDR, Semi Symmetric
+K-PPDR, Cycle K-PPDR and Semi Cycle K-PPDR networks. Our method in this paper
+is based on convexity of fastest mixing Markov chain problem, and inductive
+comparing of the characteristic polynomials initiated by slackness conditions
+in order to find the optimal transition probabilities. The presented results
+shows that a Symmetric K-PPDR network and its equivalent Semi Symmetric K-PPDR
+network have the same SLEM despite the fact that Semi symmetric K-PPDR network
+has less edges than its equivalent symmetric K-PPDR network and at the same
+time symmetric K-PPDR network has better mixing rate per step than its
+equivalent semi symmetric K-PPDR network at first few iterations. The same
+results are true for Cycle K-PPDR and Semi Cycle K-PPDR networks. Also the
+obtained optimal transition probabilities have been compared with the
+transition probabilities obtained from Metropolis-Hasting method by comparing
+mixing time improvements numerically.

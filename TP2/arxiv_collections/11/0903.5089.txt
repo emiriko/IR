@@ -1,0 +1,18 @@
+The network of biochemical reactions inside living organisms is characterized
+by an overwhelming complexity which stems from the sheer number of reactions
+and from the complicated topology of biochemical cycles. However the high speed
+of computers and the sophisticated computational methods that are available
+today are powerful tools that allow the numerical exploration of these
+exceedingly interesting dynamical systems. We are now developing a program, the
+Virtual Biophysics Lab (VBL), that simulates tumor spheroids, and which
+includes a reduced - but still quite complex - description of the biochemistry
+of individual cells, plus many diffusion processes that bring oxygen and
+nutrients into cells and metabolites into the environment. Each simulation step
+requires the integration of nonlinear differential equations that describe the
+individual cell's clockwork and the integration of the diffusion equations.
+These integrations are carried out under widely different conditions, in a
+changing environment, and for this reason they need integrators that are both
+unconditionally stable and that do not display unwanted algorithmic artifacts.
+These conditions are not always fulfilled in the existing literature, and we
+feel that a review of the underlying mathematical principles may be important
+not just for us but for other workers in the field of system biology as well.

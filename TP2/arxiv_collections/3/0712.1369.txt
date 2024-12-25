@@ -1,0 +1,21 @@
+We present a complete prescription for the numerical calculation of surface
+Green's functions and self-energies of semi-infinite quasi-onedimensional
+systems. Our work extends the results of Sanvito et al. [1] generating a robust
+algorithm to be used in conjunction with ab initio electronic structure
+methods. We perform a detailed error analysis of the scheme and find that the
+highest accuracy is found if no inversion of the usually ill conditioned
+hopping matrix is involved. Even in this case however a transformation of the
+hopping matrix that decreases its condition number is needed in order to limit
+the size of the imaginary part of the wave-vectors. This is done in two
+different ways, either by applying a singular value decomposition and setting a
+lowest bound for the smallest singular value, or by adding a random matrix of
+small amplitude. By using the first scheme the size of the Hamiltonian matrix
+is reduced, making the computation considerably faster for large systems. For
+most energies the method gives high accuracy, however in the presence of
+surface states the error diverges due to the singularity in the self-energy. A
+surface state is found at a particular energy if the set of solution
+eigenvectors of the infinite system is linearly dependent. This is then used as
+a criterion to detect surface states, and the error is limited by adding a
+small imaginary part to the energy.
+  [1] S. Sanvito, C. J. Lambert, J. H. Jefferson, and A. M. Bratkovsky, Phys.
+Rev. B 59, 11936 (1999).

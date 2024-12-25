@@ -1,0 +1,22 @@
+Developments in dynamical systems theory provides new support for the
+macroscale modelling of pdes and other microscale systems such as Lattice
+Boltzmann, Monte Carlo or Molecular Dynamics simulators. By systematically
+resolving subgrid microscale dynamics the dynamical systems approach constructs
+accurate closures of macroscale discretisations of the microscale system. Here
+we specifically explore reaction-diffusion problems in two spatial dimensions
+as a prototype of generic systems in multiple dimensions. Our approach unifies
+into one the modelling of systems by a type of finite elements, and the
+`equation free' macroscale modelling of microscale simulators efficiently
+executing only on small patches of the spatial domain. Centre manifold theory
+ensures that a closed model exist on the macroscale grid, is emergent, and is
+systematically approximated. Dividing space either into overlapping finite
+elements or into spatially separated small patches, the specially crafted
+inter-element/patch coupling also ensures that the constructed discretisations
+are consistent with the microscale system/PDE to as high an order as desired.
+Computer algebra handles the considerable algebraic details as seen in the
+specific application to the Ginzburg--Landau PDE. However, higher order models
+in multiple dimensions require a mixed numerical and algebraic approach that is
+also developed. The modelling here may be straightforwardly adapted to a wide
+class of reaction-diffusion PDEs and lattice equations in multiple space
+dimensions. When applied to patches of microscopic simulations our coupling
+conditions promise efficient macroscale simulation.

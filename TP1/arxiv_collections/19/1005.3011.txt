@@ -1,0 +1,17 @@
+Two recent preprints [B. Altshuler, H. Krovi, and J. Roland, "Quantum
+adiabatic optimization fails for random instances of NP-complete problems",
+arXiv:0908.2782 and "Anderson localization casts clouds over adiabatic quantum
+optimization", arXiv:0912.0746] argue that random 4th order perturbative
+corrections to the energies of local minima of random instances of NP-complete
+problem lead to avoided crossings that cause the failure of quantum adiabatic
+algorithm (due to exponentially small gap) close to the end, for very small
+transverse field that scales as an inverse power of instance size N. The
+theoretical portion of this work does not to take into account the exponential
+degeneracy of the ground and excited states at zero field. A corrected analysis
+shows that unlike those in the middle of the spectrum, avoided crossings at the
+edge would require high [O(1)] transverse fields, at which point the
+perturbation theory may become divergent due to quantum phase transition. This
+effect manifests itself only in large instances [exp(0.02 N) >> 1], which might
+be the reason it had not been observed in the authors' numerical work. While we
+dispute the proposed mechanism of failure of quantum adiabatic algorithm, we
+cannot draw any conclusions on its ultimate complexity.

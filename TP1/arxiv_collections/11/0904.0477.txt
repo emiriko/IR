@@ -1,0 +1,23 @@
+We use a power grid model with $M$ generators and $N$ consumption units to
+optimize the grid and its control. Each consumer demand is drawn from a
+predefined finite-size-support distribution, thus simulating the instantaneous
+load fluctuations. Each generator has a maximum power capability. A generator
+is not overloaded if the sum of the loads of consumers connected to a generator
+does not exceed its maximum production. In the standard grid each consumer is
+connected only to its designated generator, while we consider a more general
+organization of the grid allowing each consumer to select one generator
+depending on the load from a pre-defined consumer-dependent and sufficiently
+small set of generators which can all serve the load. The model grid is
+interconnected in a graph with loops, drawn from an ensemble of random
+bipartite graphs, while each allowed configuration of loaded links represent a
+set of graph covering trees. Losses, the reactive character of the grid and the
+transmission-level connections between generators (and many other details
+relevant to realistic power grid) are ignored in this proof-of-principles
+study. We focus on the asymptotic limit and we show that the interconnects
+allow significant expansion of the parameter domains for which the probability
+of a generator overload is asymptotically zero. Our construction explores the
+formal relation between the problem of grid optimization and the modern theory
+of sparse graphical models. We also design heuristic algorithms that achieve
+the asymptotically optimal selection of loaded links. We conclude discussing
+the ability of this approach to include other effects, such as a more realistic
+modeling of the power grid and related optimization and control algorithms.

@@ -1,0 +1,9 @@
+Static analysis is a powerful technique for automatic verification of
+programs but raises major engineering challenges when developing a full-fledged
+analyzer for a realistic language such as Java. This paper describes the Sawja
+library: a static analysis framework fully compliant with Java 6 which provides
+OCaml modules for efficiently manipulating Java bytecode programs. We present
+the main features of the library, including (i) efficient functional
+data-structures for representing program with implicit sharing and lazy
+parsing, (ii) an intermediate stack-less representation, and (iii) fast
+computation and manipulation of complete programs.

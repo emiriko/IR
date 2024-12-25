@@ -1,0 +1,11 @@
+We show how to implement cryptographic primitives based on the realistic
+assumption that quantum storage of qubits is noisy. We thereby consider
+individual-storage attacks, i.e. the dishonest party attempts to store each
+incoming qubit separately. Our model is similar to the model of bounded-quantum
+storage, however, we consider an explicit noise model inspired by present-day
+technology. To illustrate the power of this new model, we show that a protocol
+for oblivious transfer (OT) is secure for any amount of quantum-storage noise,
+as long as honest players can perform perfect quantum operations. Our model
+also allows the security of protocols that cope with noise in the operations of
+the honest players and achieve more advanced tasks such as secure
+identification.

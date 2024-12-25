@@ -1,0 +1,16 @@
+We propose a method to reduce the relaxation time towards equilibrium in
+stochastic sampling of complex energy landscapes in statistical systems with
+discrete degrees of freedom by generalizing the platform previously developed
+for continuous systems. The method starts from a master equation, in contrast
+to the Fokker-Planck equation for the continuous case. The master equation is
+transformed into an imaginary-time Schr\"odinger equation. The Hamiltonian of
+the Schr\"odinger equation is modified by adding a projector to its known
+ground state. We show how this transformation decreases the relaxation time and
+propose a way to use it to accelerate simulated annealing for optimization
+problems. We implement our method in a simplified kinetic Monte Carlo scheme
+and show an acceleration by an order of magnitude in simulated annealing of the
+symmetric traveling salesman problem. Comparisons of simulated annealing are
+made with the exchange Monte Carlo algorithm for the three-dimensional Ising
+spin glass. Our implementation can be seen as a step toward accelerating the
+stochastic sampling of generic systems with complex landscapes and long
+equilibration times.

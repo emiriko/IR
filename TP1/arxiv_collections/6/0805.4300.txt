@@ -1,0 +1,19 @@
+The construction of perfect hash functions is a well-studied topic. In this
+paper, this concept is generalized with the following definition. We say that a
+family of functions from $[n]$ to $[k]$ is a $\delta$-balanced $(n,k)$-family
+of perfect hash functions if for every $S \subseteq [n]$, $|S|=k$, the number
+of functions that are 1-1 on $S$ is between $T/\delta$ and $\delta T$ for some
+constant $T>0$. The standard definition of a family of perfect hash functions
+requires that there will be at least one function that is 1-1 on $S$, for each
+$S$ of size $k$. In the new notion of balanced families, we require the number
+of 1-1 functions to be almost the same (taking $\delta$ to be close to 1) for
+every such $S$. Our main result is that for any constant $\delta > 1$, a
+$\delta$-balanced $(n,k)$-family of perfect hash functions of size $2^{O(k \log
+\log k)} \log n$ can be constructed in time $2^{O(k \log \log k)} n \log n$.
+Using the technique of color-coding we can apply our explicit constructions to
+devise approximation algorithms for various counting problems in graphs. In
+particular, we exhibit a deterministic polynomial time algorithm for
+approximating both the number of simple paths of length $k$ and the number of
+simple cycles of size $k$ for any $k \leq O(\frac{\log n}{\log \log \log n})$
+in a graph with $n$ vertices. The approximation is up to any fixed desirable
+relative error.

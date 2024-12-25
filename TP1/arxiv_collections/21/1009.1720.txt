@@ -1,0 +1,25 @@
+It is known that both quantum and classical cellular automata (CA) exist that
+are computationally universal in the sense that they can simulate, after
+appropriate initialization, any quantum or classical computation, respectively.
+Here we introduce a different notion of universality: a CA is called physically
+universal if every transformation on any finite region can be (approximately)
+implemented by the autonomous time evolution of the system after the complement
+of the region has been initialized in an appropriate way. We pose the question
+of whether physically universal CAs exist. Such CAs would provide a model of
+the world where the boundary between a physical system and its controller can
+be consistently shifted, in analogy to the Heisenberg cut for the quantum
+measurement problem. We propose to study the thermodynamic cost of computation
+and control within such a model because implementing a cyclic process on a
+microsystem may require a non-cyclic process for its controller, whereas
+implementing a cyclic process on system and controller may require the
+implementation of a non-cyclic process on a "meta"-controller, and so on.
+Physically universal CAs avoid this infinite hierarchy of controllers and the
+cost of implementing cycles on a subsystem can be described by mixing
+properties of the CA dynamics. We define a physical prior on the CA
+configurations by applying the dynamics to an initial state where half of the
+CA is in the maximum entropy state and half of it is in the all-zero state
+(thus reflecting the fact that life requires non-equilibrium states like the
+boundary between a hold and a cold reservoir). As opposed to Solomonoff's
+prior, our prior does not only account for the Kolmogorov complexity but also
+for the cost of isolating the system during the state preparation if the
+preparation process is not robust.

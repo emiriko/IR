@@ -1,0 +1,17 @@
+We describe the BinProlog system's compilation technology, runtime system and
+its extensions supporting first-class Logic Engines while providing a short
+history of its development, details of some of its newer re-implementations as
+well as an overview of the most important architectural choices involved in
+their design.
+  With focus on its differences with conventional WAM implementations, we
+explain key details of BinProlog's compilation technique, which replaces the
+WAM with a simplified continuation passing runtime system (the "BinWAM"), based
+on a mapping of full Prolog to binary logic programs. This is followed by a
+description of a term compression technique using a "tag-on-data"
+representation.
+  Later derivatives, the Java-based Jinni Prolog compiler and the recently
+developed Lean Prolog system refine the BinProlog architecture with first-class
+Logic Engines, made generic through the use of an Interactor interface. An
+overview of their applications with focus on the ability to express at source
+level a wide variety of Prolog built-ins and extensions, covers these newer
+developments.

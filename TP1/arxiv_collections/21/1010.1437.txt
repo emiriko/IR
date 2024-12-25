@@ -1,0 +1,16 @@
+Transactional network data can be thought of as a list of one-to-many
+communications(e.g., email) between nodes in a social network. Most social
+network models convert this type of data into binary relations between pairs of
+nodes. We develop a latent mixed membership model capable of modeling richer
+forms of transactional network data, including relations between more than two
+nodes. The model can cluster nodes and predict transactions. The block-model
+nature of the model implies that groups can be characterized in very general
+ways. This flexible notion of group structure enables discovery of rich
+structure in transactional networks. Estimation and inference are accomplished
+via a variational EM algorithm. Simulations indicate that the learning
+algorithm can recover the correct generative model. Interesting structure is
+discovered in the Enron email dataset and another dataset extracted from the
+Reddit website. Analysis of the Reddit data is facilitated by a novel
+performance measure for comparing two soft clusterings. The new model is
+superior at discovering mixed membership in groups and in predicting
+transactions.

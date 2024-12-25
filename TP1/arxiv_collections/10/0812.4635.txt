@@ -1,0 +1,16 @@
+We consider the problem of quantum multi-parameter estimation with
+experimental constraints and formulate the solution in terms of a convex
+optimization. Specifically, we outline an efficient method to identify the
+optimal strategy for estimating multiple unknown parameters of a quantum
+process and apply this method to a realistic example. The example is two
+electron spin qubits coupled through the dipole and exchange interactions with
+unknown coupling parameters -- explicitly, the position vector relating the two
+qubits and the magnitude of the exchange interaction are unknown. This coupling
+Hamiltonian generates a unitary evolution which, when combined with arbitrary
+single-qubit operations, produces a universal set of quantum gates. However,
+the unknown parameters must be known precisely to generate high-fidelity gates.
+We use the Cram\'er-Rao bound on the variance of a point estimator to construct
+the optimal series of experiments to estimate these free parameters, and
+present a complete analysis of the optimal experimental configuration. Our
+method of transforming the constrained optimal parameter estimation problem
+into a convex optimization is powerful and widely applicable to other systems.

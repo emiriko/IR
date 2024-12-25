@@ -1,0 +1,12 @@
+The memory subsystem has always been a bottleneck in performance as well as
+significant power contributor in memory intensive applications. Many
+researchers have presented multi-layered memory hierarchies as a means to
+design energy and performance efficient systems. However, most of the previous
+work do not explore trade-offs systematically. We fill this gap by proposing a
+formalized technique that takes into consideration data reuse, limited lifetime
+of the arrays of an application and application specific prefetching
+opportunities, and performs a thorough trade-off exploration for different
+memory layer sizes. This technique has been implemented on a prototype tool,
+which was tested successfully using nine real-life applications of industrial
+relevance. Following this approach we have able to reduce execution time up to
+60%, and energy consumption up to 70%.

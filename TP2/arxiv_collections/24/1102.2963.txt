@@ -1,0 +1,14 @@
+Finite automata on infinite words ($\omega$-automata) proved to be a powerful
+weapon for modeling and reasoning infinite behaviors of reactive systems.
+Complementation of $\omega$-automata is crucial in many of these applications.
+But the problem is non-trivial; even after extensive study during the past four
+decades, we still have an important type of $\omega$-automata, namely Streett
+automata, for which the gap between the current best lower bound $2^{\Omega(n
+\lg nk)}$ and upper bound $2^{\Omega(nk \lg nk)}$ is substantial, for the
+Streett index size $k$ can be exponential in the number of states $n$. In
+arXiv:1102.2960 we showed a construction for complementing Streett automata
+with the upper bound $2^{O(n \lg n+nk \lg k)}$ for $k = O(n)$ and $2^{O(n^{2}
+\lg n)}$ for $k=\omega(n)$. In this paper we establish a matching lower bound
+$2^{\Omega(n \lg n+nk \lg k)}$ for $k = O(n)$ and $2^{\Omega(n^{2} \lg n)}$ for
+$k = \omega(n)$, and therefore showing that the construction is asymptotically
+optimal with respect to the $2^{\Theta(\cdot)}$ notation.

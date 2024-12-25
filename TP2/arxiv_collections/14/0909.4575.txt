@@ -1,0 +1,24 @@
+Steganographic protocols enable one to embed covert messages into
+inconspicuous data over a public communication channel in such a way that no
+one, aside from the sender and the intended receiver, can even detect the
+presence of the secret message. In this paper, we provide a new
+provably-secure, private-key steganographic encryption protocol secure in the
+framework of Hopper et al. We first present a "one-time stegosystem" that
+allows two parties to transmit messages of length at most that of the shared
+key with information-theoretic security guarantees. The employment of a
+pseudorandom generator (PRG) permits secure transmission of longer messages in
+the same way that such a generator allows the use of one-time pad encryption
+for messages longer than the key in symmetric encryption. The advantage of our
+construction, compared to all previous work is randomness efficiency: in the
+information theoretic setting our protocol embeds a message of length n bits
+using a shared secret key of length (1+o(1))n bits while achieving security
+2^{-n/log^{O(1)}n}; simply put this gives a rate of key over message that is 1
+as n tends to infinity (the previous best result achieved a constant rate
+greater than 1 regardless of the security offered). In this sense, our protocol
+is the first truly randomness efficient steganographic system. Furthermore, in
+our protocol, we can permit a portion of the shared secret key to be public
+while retaining precisely n private key bits. In this setting, by separating
+the public and the private randomness of the shared key, we achieve security of
+2^{-n}. Our result comes as an effect of the application of randomness
+extractors to stegosystem design. To the best of our knowledge this is the
+first time extractors have been applied in steganography.

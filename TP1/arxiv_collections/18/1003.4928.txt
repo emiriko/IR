@@ -1,0 +1,25 @@
+In this paper we discuss the effect of recombinations to highly excited
+states (n > 100) in hydrogen during the cosmological recombination epoch. For
+this purpose, we developed a new ODE solver for the recombination problem,
+based on an implicit Gear's method. This solver allows us to include up to 350
+l-resolved shells or ~61 000 separate levels in the hydrogen model and to solve
+the recombination problem for one cosmology in ~27 hours. This is a huge
+improvement in performance over our previous recombination code, for which a
+100-shell computation (5050 separate states) already required ~150 hours on a
+single processor. We show that for 350 shells down to redshift z ~200 the
+results for the free electron fraction have practically converged. The final
+modification in the free electron fraction at z ~200 decreases from about
+\DeltaNe/Ne ~2.8% for 100 shells to \DeltaNe/Ne ~1.6% for 350 shells. However,
+the associated changes in the CMB power spectra at large multipoles l are
+rather small, so that for accurate computations in connection with the analysis
+of Planck data already ~100 shells are expected to be sufficient. Nevertheless,
+the total value of \tau could still be affected at a significant level. We also
+briefly investigate the effect of collisions on the recombination dynamics.
+With our current estimates for the collisional rates we find a correction of
+\DeltaNe/Ne ~ -0.088% at z ~ 700, which is mainly caused by l-changing
+collisions with protons. Furthermore, we present results on the cosmological
+recombination spectrum, showing that at low frequencies collisional processes
+are important. However, the current accuracy of collisional rates is
+insufficient for precise computations of templates for the recombination
+spectrum at \nu<~1 GHz, and also the effect of collisions on the recombination
+dynamics suffers from the uncertainty in these rates.

@@ -1,0 +1,10 @@
+We propose to store several integers modulo a small prime into a single
+machine word. Modular addition is performed by addition and possibly
+subtraction of a word containing several times the modulo. Modular
+Multiplication is not directly accessible but modular dot product can be
+performed by an integer multiplication by the reverse integer. Modular
+multiplication by a word containing a single residue is a also possible.
+Therefore matrix multiplication can be performed on such a compressed storage.
+We here give bounds on the sizes of primes and matrices for which such a
+compression is possible. We also explicit the details of the required
+compressed arithmetic routines.

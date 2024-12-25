@@ -1,0 +1,21 @@
+Motivated by microscopic traffic modeling, we analyze dynamical systems which
+have a piecewise linear concave dynamics not necessarily monotonic. We
+introduce a deterministic Petri net extension where edges may have negative
+weights. The dynamics of these Petri nets are well-defined and may be described
+by a generalized matrix with a submatrix in the standard algebra with possibly
+negative entries, and another submatrix in the minplus algebra. When the
+dynamics is additively homogeneous, a generalized additive eigenvalue may be
+introduced, and the ergodic theory may be used to define a growth rate under
+additional technical assumptions. In the traffic example of two roads with one
+junction, we compute explicitly the eigenvalue and we show, by numerical
+simulations, that these two quantities (the additive eigenvalue and the growth
+rate) are not equal, but are close to each other. With this result, we are able
+to extend the well-studied notion of fundamental traffic diagram (the average
+flow as a function of the car density on a road) to the case of two roads with
+one junction and give a very simple analytic approximation of this diagram
+where four phases appear with clear traffic interpretations. Simulations show
+that the fundamental diagram shape obtained is also valid for systems with many
+junctions. To simulate these systems, we have to compute their dynamics, which
+are not quite simple. For building them in a modular way, we introduce
+generalized parallel, series and feedback compositions of piecewise linear
+concave dynamics.

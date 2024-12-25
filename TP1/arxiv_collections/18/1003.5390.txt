@@ -1,0 +1,11 @@
+We show that all perfect odd integer squares not divisible by 3, can be
+usefully written as sqrt(N) = a + 18p, where the constant a is determined by
+the basic properties of N. The equation can be solved deterministically by an
+efficient four step algorithm that is solely based on integer arithmetic. There
+is no required multiplication or division by multiple digit integers, nor does
+the algorithm need a seed value. It finds the integer p when N is a perfect
+square, and certifies N as a non-square when the algorithm terminates without a
+solution. The number of iterations scales approximately as log(sqrt(N)/2) for
+square roots. The paper also outlines how one of the methods discussed for
+squares can be extended to finding an arbitrary root of N. Finally, we present
+a rule that distinguishes products of twin primes from squares.

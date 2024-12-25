@@ -1,0 +1,17 @@
+We describe a three-stage procedure to analyze the dependence of Poisson
+Boltzmann calculations on the shape, size and geometry of the boundary between
+solute and solvent. Our study is carried out within the boundary element
+formalism, but our results are also of interest to finite difference techniques
+of Poisson Boltzmann calculations. At first, we identify the critical size of
+the geometrical elements for discretizing the boundary, and thus the necessary
+resolution required to establish numerical convergence. In the following two
+steps we perform reference calculations on a set of dipeptides in different
+conformations using the Polarizable Continuum Model and a high-level Density
+Functional as well as a high-quality basis set. Afterwards, we propose a
+mechanism for defining appropriate boundary geometries. Finally, we compare the
+classic Poisson Boltzmann description with the Quantum Chemical description,
+and aim at finding appropriate fitting parameters to get a close match to the
+reference data. Surprisingly, when using default AMBER partial charges and the
+rigorous geometric parameters derived in the initial two stages, no scaling of
+the partial charges is necessary and the best fit against the reference set is
+obtained automatically

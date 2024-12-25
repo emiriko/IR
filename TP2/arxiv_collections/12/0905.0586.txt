@@ -1,0 +1,16 @@
+Open source bioinformatics tools running under MS Windows are rare to find,
+and those running under Windows HPC cluster are almost non-existing. This is
+despite the fact that the Windows is the most popular operating system used
+among life scientists. Therefore, we introduce in this initiative
+WinBioinfTools, a toolkit containing a number of bioinformatics tools running
+under Windows High Performance Computing Server 2008. It is an open source code
+package, where users and developers can share and add to. We currently start
+with three programs from the area of sequence analysis: 1) CoCoNUT for pairwise
+genome comparison, 2) parallel BLAST for biological database search, and 3)
+parallel global pairwise sequence alignment. In this report, we focus on
+technical aspects concerning how some components of these tools were ported
+from Linux/Unix environment to run under Windows. We also show the advantages
+of using the Windows HPC Cluster 2008. We demonstrate by experiments the
+performance gain achieved when using a computer cluster against a single
+machine. Furthermore, we show the results of comparing the performance of
+WinBioinfTools on the Windows and Linux Cluster.

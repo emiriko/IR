@@ -1,0 +1,14 @@
+The solid-liquid interface free energy \gamma sl is a key parameter
+controlling nucleation and growth during solidification and other phenomena.
+There are intrinsic difficulties in obtaining accurate experimental values, and
+the previous approaches to compute \gamma sl with atomistic simulations are
+computationally demanding. We propose a new approach, which is to obtain \gamma
+sl from a free energy map of the phase transition reconstructed by
+metadynamics. We apply this to the benchmark case of a Lennard-Jones potential
+and the results confirm the most reliable data obtained previously. We
+demonstrate several advantages of our new approach: it is simple to implement,
+robust and free of hysteresis problems, it allows a rigorous and unbiased
+estimate of the statistical uncertainty and it returns a good estimate of of
+the thermodynamic limit with system sizes of a just a few hundred atoms. It is
+therefore attractive for using with more realistic and specific models of
+interatomic forces.

@@ -1,0 +1,12 @@
+We present the complete automation of the universal subtraction formalism
+proposed by Frixione, Kunszt, and Signer for the computation of any cross
+section at the next-to-leading order in QCD. Given a process, the only
+ingredient to be provided externally is the infrared- and ultraviolet-finite
+contribution of virtual origin. Our implementation, currently restricted to the
+case of e+e- collisions, is built upon and works in the same way as MadGraph.
+It is particularly suited to parallel computation, and it can deal with any
+physical process resulting from a theory implemented in MadGraph, thus
+including the Standard Model as well as Beyond the Standard Model theories. We
+give results for some sample processes that document the performances of the
+implementation, and show in particular how the number of subtraction terms has
+an extremely mild growth with final-state multiplicity.

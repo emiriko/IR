@@ -1,0 +1,11 @@
+Our concern is selecting the concentration matrix's nonzero coefficients for
+a sparse Gaussian graphical model in a high-dimensional setting. This
+corresponds to estimating the graph of conditional dependencies between the
+variables. We describe a novel framework taking into account a latent structure
+on the concentration matrix. This latent structure is used to drive a penalty
+matrix and thus to recover a graphical model with a constrained topology. Our
+method uses an $\ell_1$ penalized likelihood criterion. Inference of the graph
+of conditional dependencies between the variates and of the hidden variables is
+performed simultaneously in an iterative \textsc{em}-like algorithm. The
+performances of our method is illustrated on synthetic as well as real data,
+the latter concerning breast cancer.

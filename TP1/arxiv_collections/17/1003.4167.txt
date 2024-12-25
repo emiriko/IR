@@ -1,0 +1,23 @@
+The rapidly increasing volume of asteroseismic observations on solar-type
+stars has revealed a need for automated analysis tools. The reason for this is
+not only that individual analyses of single stars are rather time consuming,
+but more importantly that these large volumes of observations open the
+possibility to do population studies on large samples of stars and such
+population studies demand a consistent analysis. By consistent analysis we
+understand an analysis that can be performed without the need to make any
+subjective choices on e.g. mode identification and an analysis where the
+uncertainties are calculated in a consistent way.
+  Here we present a set of automated asterosesimic analysis tools. The main
+engine of these set of tools is an algorithm for modelling the autocovariance
+spectra of the stellar acoustic spectra allowing us to measure not only the
+frequency of maximum power and the large frequency separation, but also the
+small frequency separation and potentially the mean rotational rate and the
+inclination.
+  The measured large and small frequency separations and the frequency of
+maximum power are used as input to an algorithm that estimates fundamental
+stellar parameters such as mass, radius, luminosity, effective temperature,
+surface gravity and age based on grid modeling.
+  All the tools take into account the window function of the observations which
+means that they work equally well for space-based photometry observations from
+e.g. the NASA Kepler satellite and ground-based velocity observations from e.g.
+the ESO HARPS spectrograph.

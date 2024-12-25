@@ -1,0 +1,13 @@
+An extension of the synchronous parallel kinetic Monte Carlo (pkMC) algorithm
+developed by Martinez {\it et al} [{\it J.\ Comp.\ Phys.} {\bf 227} (2008)
+3804] to discrete lattices is presented. The method solves the master equation
+synchronously by recourse to null events that keep all processors time clocks
+current in a global sense. Boundary conflicts are rigorously solved by adopting
+a chessboard decomposition into non-interacting sublattices. We find that the
+bias introduced by the spatial correlations attendant to the sublattice
+decomposition is within the standard deviation of the serial method, which
+confirms the statistical validity of the method. We have assessed the parallel
+efficiency of the method and find that our algorithm scales consistently with
+problem size and sublattice partition. We apply the method to the calculation
+of scale-dependent critical exponents in billion-atom 3D Ising systems, with
+very good agreement with state-of-the-art multispin simulations.

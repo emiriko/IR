@@ -1,0 +1,13 @@
+The advantages of tabled evaluation regarding program termination and
+reduction of complexity are well known --as are the significant implementation,
+portability, and maintenance efforts that some proposals (especially those
+based on suspension) require. This implementation effort is reduced by program
+transformation-based continuation call techniques, at some efficiency cost.
+However, the traditional formulation of this proposal by Ramesh and Cheng
+limits the interleaving of tabled and non-tabled predicates and thus cannot be
+used as-is for arbitrary programs. In this paper we present a complete
+translation for the continuation call technique which, using the runtime
+support needed for the traditional proposal, solves these problems and makes it
+possible to execute arbitrary tabled programs. We present performance results
+which show that CCall offers a useful tradeoff that can be competitive with
+state-of-the-art implementations.

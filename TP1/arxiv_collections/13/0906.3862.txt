@@ -1,0 +1,16 @@
+Free energy of crystal phases is commonly evaluated by thermodynamic
+integration (TDI) along a reversible path that involves an external potential.
+A persistent problem in this method is that a significant hysteresis is
+observed due to differences in the center of mass position of the crystal phase
+in the presence and absence of the external potential. To alleviate this
+hysteresis, a constraint on the translational degrees of freedom of the crystal
+phase is imposed along the path and subsequently a correction term is added to
+the free energy to account for such a constraint. In this work, we propose a
+new methodology termed as error-biased Bennett Acceptance ratio (EBAR) method
+that effectively solves this problem without the need to impose any constraint.
+This method is simple to implement as it does not require any modification to
+the path or to the simulation code. We show the applicability of this method in
+the computation of crystal-melt interfacial energy by cleaving wall method [J.
+Chem. Phys., 118, 7651 (2003)] and bulk crystal-melt free energy difference by
+constrained fluid $\lambda$-integration method [J. Chem. Phys., 120, 2122
+(2004)] for a model potential of silicon.

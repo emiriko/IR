@@ -1,0 +1,22 @@
+We prove two main results on how arbitrary linear threshold functions $f(x) =
+\sign(w\cdot x - \theta)$ over the $n$-dimensional Boolean hypercube can be
+approximated by simple threshold functions.
+  Our first result shows that every $n$-variable threshold function $f$ is
+$\eps$-close to a threshold function depending only on $\Inf(f)^2 \cdot
+\poly(1/\eps)$ many variables, where $\Inf(f)$ denotes the total influence or
+average sensitivity of $f.$ This is an exponential sharpening of Friedgut's
+well-known theorem \cite{Friedgut:98}, which states that every Boolean function
+$f$ is $\eps$-close to a function depending only on $2^{O(\Inf(f)/\eps)}$ many
+variables, for the case of threshold functions. We complement this upper bound
+by showing that $\Omega(\Inf(f)^2 + 1/\epsilon^2)$ many variables are required
+for $\epsilon$-approximating threshold functions.
+  Our second result is a proof that every $n$-variable threshold function is
+$\eps$-close to a threshold function with integer weights at most $\poly(n)
+\cdot 2^{\tilde{O}(1/\eps^{2/3})}.$ This is a significant improvement, in the
+dependence on the error parameter $\eps$, on an earlier result of
+\cite{Servedio:07cc} which gave a $\poly(n) \cdot 2^{\tilde{O}(1/\eps^{2})}$
+bound. Our improvement is obtained via a new proof technique that uses strong
+anti-concentration bounds from probability theory. The new technique also gives
+a simple and modular proof of the original \cite{Servedio:07cc} result, and
+extends to give low-weight approximators for threshold functions under a range
+of probability distributions beyond just the uniform distribution.

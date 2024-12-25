@@ -1,0 +1,12 @@
+In the paper, an evolutionary approach to test generation for functional BIST
+is considered. The aim of the proposed scheme is to minimize the test data
+volume by allowing the device's microprogram to test its logic, providing an
+observation structure to the system, and generating appropriate test data for
+the given architecture. Two methods of deriving a deterministic test set at
+functional level are suggested. The first method is based on the classical
+genetic algorithm with binary and arithmetic crossover and mutation operators.
+The second one uses genetic programming, where test is represented as a
+sequence of microoperations. In the latter case, we apply two-point crossover
+based on exchanging test subsequences and mutation implemented as random
+replacement of microoperations or operands. Experimental data of the program
+realization showing the efficiency of the proposed methods are presented.

@@ -1,0 +1,17 @@
+Tensors naturally model many real world processes which generate multi-aspect
+data. Such processes appear in many different research disciplines, e.g,
+chemometrics, computer vision, psychometrics and neuroimaging analysis. Tensor
+decompositions such as the Tucker decomposition are used to analyze
+multi-aspect data and extract latent factors, which capture the multilinear
+data structure. Such decompositions are powerful mining tools, for extracting
+patterns from large data volumes. However, most frequently used algorithms for
+such decompositions involve the computationally expensive Singular Value
+Decomposition.
+  In this paper we propose MACH, a new sampling algorithm to compute such
+decompositions. Our method is of significant practical value for tensor
+streams, such as environmental monitoring systems, IP traffic matrices over
+time, where large amounts of data are accumulated and the analysis is
+computationally intensive but also in "post-mortem" data analysis cases where
+the tensor does not fit in the available memory. We provide the theoretical
+analysis of our proposed method, and verify its efficacy in monitoring system
+applications.

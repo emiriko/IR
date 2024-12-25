@@ -1,0 +1,16 @@
+Given an undirected graph $G$ and an error parameter $\epsilon > 0$, the {\em
+graph sparsification} problem requires sampling edges in $G$ and giving the
+sampled edges appropriate weights to obtain a sparse graph $G_{\epsilon}$ with
+the following property: the weight of every cut in $G_{\epsilon}$ is within a
+factor of $(1\pm \epsilon)$ of the weight of the corresponding cut in $G$. If
+$G$ is unweighted, an $O(m\log n)$-time algorithm for constructing
+$G_{\epsilon}$ with $O(n\log n/\epsilon^2)$ edges in expectation, and an
+$O(m)$-time algorithm for constructing $G_{\epsilon}$ with $O(n\log^2
+n/\epsilon^2)$ edges in expectation have recently been developed
+(Hariharan-Panigrahi, 2010). In this paper, we improve these results by giving
+an $O(m)$-time algorithm for constructing $G_{\epsilon}$ with $O(n\log
+n/\epsilon^2)$ edges in expectation, for unweighted graphs. Our algorithm is
+optimal in terms of its time complexity; further, no efficient algorithm is
+known for constructing a sparser $G_{\epsilon}$. Our algorithm is Monte-Carlo,
+i.e. it produces the correct output with high probability, as are all efficient
+graph sparsification algorithms.

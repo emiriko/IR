@@ -1,0 +1,23 @@
+Two recent works have adapted the Kalman-Bucy filter into an ensemble
+setting. In the first formulation, BR10, the full ensemble is updated in the
+analysis step as the solution of single set of ODEs in pseudo-BGR09, the
+ensemble of perturbations is updated by the solution of an ordinary
+differential equation (ODE) in pseudo-time, while the mean is updated as in the
+standard KF. In the second formulation, BR10, the full ensemble is updated in
+the analysis step as the solution of single set of ODEs in pseudo-time. Neither
+requires matrix inversions except for the frequently diagonal observation error
+covariance.
+  We analyze the behavior of the ODEs involved in these formulations. We
+demonstrate that they stiffen for large magnitudes of the ratio of background
+to observational error covariance, and that using the integration scheme
+proposed in both BGR09 and BR10 can lead to failure. An integration scheme that
+is both stable and is not computationally expensive is proposed. We develop
+transform-based alternatives for these Bucy-type approaches so that the
+integrations are computed in ensemble space where the variables are weights (of
+dimension equal to the ensemble size) rather than model variables.
+  Finally, the performance of our ensemble transform Kalman-Bucy
+implementations is evaluated using three models: the 3-variable Lorenz 1963
+model, the 40-variable Lorenz 1996 model, and a medium complexity atmospheric
+general circulation model (AGCM) known as SPEEDY. The results from all three
+models are encouraging and warrant further exploration of these assimilation
+techniques.

@@ -1,0 +1,14 @@
+CG, SYMMLQ, and MINRES are Krylov subspace methods for solving symmetric
+systems of linear equations. When these methods are applied to an incompatible
+system (that is, a singular symmetric least-squares problem), CG could break
+down and SYMMLQ's solution could explode, while MINRES would give a
+least-squares solution but not necessarily the minimum-length (pseudoinverse)
+solution. This understanding motivates us to design a MINRES-like algorithm to
+compute minimum-length solutions to singular symmetric systems.
+  MINRES uses QR factors of the tridiagonal matrix from the Lanczos process
+(where R is upper-tridiagonal). MINRES-QLP uses a QLP decomposition (where
+rotations on the right reduce R to lower-tridiagonal form). On ill-conditioned
+systems (singular or not), MINRES-QLP can give more accurate solutions than
+MINRES. We derive preconditioned MINRES-QLP, new stopping rules, and better
+estimates of the solution and residual norms, the matrix norm, and the
+condition number.

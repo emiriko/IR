@@ -1,0 +1,13 @@
+Assembling simulation software along with the associated tools and utilities
+is a challenging endeavor, particularly when the components are distributed
+across multiple source code versioning systems. It is problematic for
+researchers compiling and running the software across many different
+supercomputers, as well as for novices in a field who are often presented with
+a bewildering list of software to collect and install. In this paper, we
+describe a language (CRL) for specifying software components with the details
+needed to obtain them from source code repositories. The language supports
+public and private access. We describe a tool called GetComponents which
+implements CRL and can be used to assemble software. We demonstrate the tool
+for application scenarios with the Cactus Framework on the NSF TeraGrid
+resources. The tool itself is distributed with an open source license and
+freely available from our web page.

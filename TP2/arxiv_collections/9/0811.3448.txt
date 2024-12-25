@@ -1,0 +1,20 @@
+Sorting is a common and ubiquitous activity for computers. It is not
+surprising that there exist a plethora of sorting algorithms. For all the
+sorting algorithms, it is an accepted performance limit that sorting algorithms
+are linearithmic or O(N lg N). The linearithmic lower bound in performance
+stems from the fact that the sorting algorithms use the ordering property of
+the data. The sorting algorithm uses comparison by the ordering property to
+arrange the data elements from an initial permutation into a sorted
+permutation.
+  Linear O(N) sorting algorithms exist, but use a priori knowledge of the data
+to use a specific property of the data and thus have greater performance. In
+contrast, the linearithmic sorting algorithms are generalized by using a
+universal property of data-comparison, but have a linearithmic performance
+lower bound. The trade-off in sorting algorithms is generality for performance
+by the chosen property used to sort the data elements.
+  A general-purpose, linear sorting algorithm in the context of the trade-off
+of performance for generality at first consideration seems implausible. But,
+there is an implicit assumption that only the ordering property is universal.
+But, as will be discussed and examined, it is not the only universal property
+for data elements. The binar sort is a general-purpose sorting algorithm that
+uses this other universal property to sort linearly.

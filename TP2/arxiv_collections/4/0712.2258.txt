@@ -1,0 +1,13 @@
+This paper is concerned with the numerical minimization of energy functionals
+in Hilbert spaces involving convex constraints coinciding with a semi-norm for
+a subspace. The optimization is realized by alternating minimizations of the
+functional on a sequence of orthogonal subspaces. On each subspace an iterative
+proximity-map algorithm is implemented via \emph{oblique thresholding}, which
+is the main new tool introduced in this work. We provide convergence conditions
+for the algorithm in order to compute minimizers of the target energy.
+Analogous results are derived for a parallel variant of the algorithm.
+Applications are presented in domain decomposition methods for singular
+elliptic PDE's arising in total variation minimization and in accelerated
+sparse recovery algorithms based on $\ell_1$-minimization. We include numerical
+examples which show efficient solutions to classical problems in signal and
+image processing.

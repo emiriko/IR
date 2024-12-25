@@ -1,0 +1,19 @@
+Adiabatic quantum computation (AQC) is a universal model for quantum
+computation which seeks to transform the initial ground state of a quantum
+system into a final ground state encoding the answer to a computational
+problem. AQC initial Hamiltonians conventionally have a uniform superposition
+as ground state. We diverge from this practice by introducing a simple form of
+heuristics: the ability to start the quantum evolution with a state which is a
+guess to the solution of the problem. With this goal in mind, we explain the
+viability of this approach and the needed modifications to the conventional AQC
+(CAQC) algorithm. By performing a numerical study on hard-to-satisfy 6 and 7
+bit random instances of the satisfiability problem (3-SAT), we show how this
+heuristic approach is possible and we identify that the performance of the
+particular algorithm proposed is largely determined by the Hamming distance of
+the chosen initial guess state with respect to the solution. Besides the
+possibility of introducing educated guesses as initial states, the new strategy
+allows for the possibility of restarting a failed adiabatic process from the
+measured excited state as opposed to restarting from the full superposition of
+states as in CAQC. The outcome of the measurement can be used as a more refined
+guess state to restart the adiabatic evolution. This concatenated restart
+process is another heuristic that the CAQC strategy cannot capture.

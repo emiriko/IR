@@ -1,0 +1,16 @@
+This work studies the quantum query complexity of Boolean functions in a
+scenario where it is only required that the query algorithm succeeds with a
+probability strictly greater than 1/2. We show that, just as in the
+communication complexity model, the unbounded error quantum query complexity is
+exactly half of its classical counterpart for any (partial or total) Boolean
+function. Moreover, we show that the "black-box" approach to convert quantum
+query algorithms into communication protocols by Buhrman-Cleve-Wigderson
+[STOC'98] is optimal even in the unbounded error setting.
+  We also study a setting related to the unbounded error model, called the
+weakly unbounded error setting, where the cost of a query algorithm is given by
+q+log(1/2(p-1/2)), where q is the number of queries made and p>1/2 is the
+success probability of the algorithm. In contrast to the case of communication
+complexity, we show a tight Theta(log n) separation between quantum and
+classical query complexity in the weakly unbounded error setting for a partial
+Boolean function. We also show the asymptotic equivalence between them for some
+well-studied total Boolean functions.

@@ -1,0 +1,11 @@
+Using multiport beam-splitter (BS) configurations eight input operators
+a(0),a(1),a(2) a(3),a(4) a(5),a(6), a(7) are mixed by 12 BS's to produce the
+output operators b(0), b(1), b(2), b(3), b(4), b(5), b(6), b(7). A single
+photon entering into, or exiting from, one port of a BS is considered as the
+|0> state while that in the second port of the BS is considered as the |1>
+state. Two single photons are inserted into two of the BS's simulating two
+input qubit-states by operators a(0), a(1),a(2), a(3) . In order to simulate
+the two-qubit gates we exclude by postselection all the cases in which one or
+two photons exit through output ports b(4), b(5), b(6), b(7) so that only 25%
+of the experiments are taken into account. The method simulates explicitly the
+CNOT and SWAP gates but similar methods can be used for other gates.

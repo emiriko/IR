@@ -1,0 +1,15 @@
+Guidelines and consistency rules of UML are used to control the degrees of
+freedom provided by the language to prevent faults. Guidelines are used in
+specific domains (e.g., avionics) to recommend the proper use of technologies.
+Consistency rules are used to deal with inconsistencies in models. However,
+guidelines and consistency rules use informal restrictions on the uses of
+languages, which makes checking difficult. In this paper, we consider these
+problems from a language-theoretic view. We propose the formalism of C-Systems,
+short for "formal language control systems". A C-System consists of a
+controlled grammar and a controlling grammar. Guidelines and consistency rules
+are formalized as controlling grammars that control the uses of UML, i.e. the
+derivations using the grammar of UML. This approach can be implemented as a
+parser, which can automatically verify the rules on a UML user model in XMI
+format. A comparison to related work shows our contribution: a generic top-down
+and syntax-based approach that checks language level constraints at
+compile-time.

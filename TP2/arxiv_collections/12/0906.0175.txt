@@ -1,0 +1,24 @@
+Aims: Develop and validate tools to estimate residual noise covariance in
+Planck frequency maps. Quantify signal error effects and compare different
+techniques to produce low-resolution maps.
+  Methods: We derive analytical estimates of covariance of the residual noise
+contained in low-resolution maps produced using a number of map-making
+approaches. We test these analytical predictions using Monte Carlo simulations
+and their impact on angular power spectrum estimation. We use simulations to
+quantify the level of signal errors incurred in different resolution
+downgrading schemes considered in this work.
+  Results: We find an excellent agreement between the optimal residual noise
+covariance matrices and Monte Carlo noise maps. For destriping map-makers, the
+extent of agreement is dictated by the knee frequency of the correlated noise
+component and the chosen baseline offset length. The significance of signal
+striping is shown to be insignificant when properly dealt with. In map
+resolution downgrading, we find that a carefully selected window function is
+required to reduce aliasing to the sub-percent level at multipoles, ell >
+2Nside, where Nside is the HEALPix resolution parameter. We show that
+sufficient characterization of the residual noise is unavoidable if one is to
+draw reliable contraints on large scale anisotropy.
+  Conclusions: We have described how to compute the low-resolution maps, with a
+controlled sky signal level, and a reliable estimate of covariance of the
+residual noise. We have also presented a method to smooth the residual noise
+covariance matrices to describe the noise correlations in smoothed, bandwidth
+limited maps.

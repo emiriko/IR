@@ -1,0 +1,18 @@
+We present a new algorithm for clustering points in R^n. The key property of
+the algorithm is that it is affine-invariant, i.e., it produces the same
+partition for any affine transformation of the input. It has strong guarantees
+when the input is drawn from a mixture model. For a mixture of two arbitrary
+Gaussians, the algorithm correctly classifies the sample assuming only that the
+two components are separable by a hyperplane, i.e., there exists a halfspace
+that contains most of one Gaussian and almost none of the other in probability
+mass. This is nearly the best possible, improving known results substantially.
+For k > 2 components, the algorithm requires only that there be some
+(k-1)-dimensional subspace in which the emoverlap in every direction is small.
+Here we define overlap to be the ratio of the following two quantities: 1) the
+average squared distance between a point and the mean of its component, and 2)
+the average squared distance between a point and the mean of the mixture. The
+main result may also be stated in the language of linear discriminant analysis:
+if the standard Fisher discriminant is small enough, labels are not needed to
+estimate the optimal subspace for projection. Our main tools are isotropic
+transformation, spectral projection and a simple reweighting technique. We call
+this combination isotropic PCA.

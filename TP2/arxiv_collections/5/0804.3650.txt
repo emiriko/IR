@@ -1,0 +1,19 @@
+The famous Fourier theorem states that, under some restrictions, any periodic
+function (or real world signal) can be obtained as a sum of sinusoids, and
+hence, a technique exists for decomposing a signal into its sinusoidal
+components. From this theory an entire branch of research has flourished: from
+the Short-Time or Windowed Fourier Transform to the Wavelets, the Frames, and
+lately the Generic Frequency Analysis. The aim of this paper is to take the
+Frequency Analysis a step further. It will be shown that keeping the same
+reconstruction algorithm as the Fourier Theorem but changing to a new computing
+method for the analysis phase allows the generalization of the Fourier Theorem
+to a large class of nonorthogonal bases. New methods and algorithms can be
+employed in function decomposition on such generic bases. It will be shown that
+these algorithms are a generalization of the Fourier analysis, i.e. they are
+reduced to the familiar Fourier tools when using orthogonal bases. The
+differences between this tool and the wavelets and frames theories will be
+discussed. Examples of analysis and reconstruction of functions using the given
+algorithms and nonorthogonal bases will be given. In this first part the focus
+will be on vectorial decomposition, while the second part will be on phased
+decomposition. The phased decomposition thanks to a single function basis has
+many interesting consequences and applications.

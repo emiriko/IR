@@ -1,0 +1,11 @@
+The compact Genetic Algorithm (cGA) is an Estimation of Distribution
+Algorithm that generates offspring population according to the estimated
+probabilistic model of the parent population instead of using traditional
+recombination and mutation operators. The cGA only needs a small amount of
+memory; therefore, it may be quite useful in memory-constrained applications.
+This paper introduces a theoretical framework for studying the cGA from the
+convergence point of view in which, we model the cGA by a Markov process and
+approximate its behavior using an Ordinary Differential Equation (ODE). Then,
+we prove that the corresponding ODE converges to local optima and stays there.
+Consequently, we conclude that the cGA will converge to the local optima of the
+function to be optimized.

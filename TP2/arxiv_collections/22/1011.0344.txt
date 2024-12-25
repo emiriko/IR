@@ -1,0 +1,19 @@
+We introduce a new approach to isolate the real roots of a square-free
+polynomial $F=\sum_{i=0}^n A_i x^i$ with real coefficients. It is assumed that
+each coefficient of $F$ can be approximated to any specified error bound. The
+presented method is exact, complete and deterministic. Due to its similarities
+to the Descartes method, we also consider it practical and easy to implement.
+Compared to previous approaches, our new method achieves a significantly better
+bit complexity. It is further shown that the hardness of isolating the real
+roots of $F$ is exclusively determined by the geometry of the roots and not by
+the complexity or the size of the coefficients. For the special case where $F$
+has integer coefficients of maximal bitsize $\tau$, our bound on the bit
+complexity writes as $\tilde{O}(n^3\tau^2)$ which improves the best bounds
+known for existing practical algorithms by a factor of $n=deg F$. The crucial
+idea underlying the new approach is to run an approximate version of the
+Descartes method, where, in each subdivision step, we only consider
+approximations of the intermediate results to a certain precision. We give an
+upper bound on the maximal precision that is needed for isolating the roots of
+$F$. For integer polynomials, this bound is by a factor $n$ lower than that of
+the precision needed when using exact arithmetic explaining the improved bound
+on the bit complexity.

@@ -1,0 +1,15 @@
+A data stream is viewed as a sequence of $M$ updates of the form
+$(\text{index},i,v)$ to an $n$-dimensional integer frequency vector $f$, where
+the update changes $f_i$ to $f_i + v$, and $v$ is an integer and assumed to be
+in $\{-m, ..., m\}$. The $p$th frequency moment $F_p$ is defined as
+$\sum_{i=1}^n \abs{f_i}^p$. We consider the problem of estimating $F_p$ to
+within a multiplicative approximation factor of $1\pm \epsilon$, for $p \in
+[0,2]$. Several estimators have been proposed for this problem, including
+Indyk's median estimator \cite{indy:focs00}, Li's geometric means estimator
+\cite{pinglib:2006}, an \Hss-based estimator \cite{gc:random07}. The first two
+estimators require space $\tilde{O}(\epsilon^{-2})$, where the $\tilde{O}$
+notation hides polylogarithmic factors in $\epsilon^{-1}, m, n$ and $M$.
+Recently, Kane, Nelson and Woodruff in \cite{knw:soda10} present a
+space-optimal and novel estimator, called the log-cosine estimator. In this
+paper, we present an elementary analysis of the log-cosine estimator in a
+stand-alone setting. The analysis in \cite{knw:soda10} is more complicated.

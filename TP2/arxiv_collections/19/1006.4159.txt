@@ -1,0 +1,15 @@
+This paper presents applications of weighted meshless scheme for conservation
+laws to the Euler equations and the equations of ideal magnetohydrodynamics.
+The divergence constraint of the latter is maintained to the truncation error
+by a new meshless divergence cleaning procedure. The physics of the interaction
+between the particles is described by an one-dimensional Riemann problem in a
+moving frame. As a result, necessary diffusion which is required to treat
+dissipative processes is added automatically. As a result, our scheme has no
+free parameters that controls the physics of inter-particle interaction, with
+the exception of the number of the interacting neighbours which control the
+resolution and accuracy. The resulting equations have the form similar to SPH
+equations, and therefore existing SPH codes can be used to implement the
+weighed particle scheme. The scheme is validated in several hydrodynamic and
+MHD test cases. In particular, we demonstrate for the first time the ability of
+a meshless MHD scheme to model magneto-rotational instability in accretion
+disks.

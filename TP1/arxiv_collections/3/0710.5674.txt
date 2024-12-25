@@ -1,0 +1,12 @@
+Key substitution vulnerable signature schemes are signature schemes that
+permit an intruder, given a public verification key and a signed message, to
+compute a pair of signature and verification keys such that the message appears
+to be signed with the new signature key. A digital signature scheme is said to
+be vulnerable to destructive exclusive ownership property (DEO) If it is
+computationaly feasible for an intruder, given a public verification key and a
+pair of message and its valid signature relatively to the given public key, to
+compute a pair of signature and verification keys and a new message such that
+the given signature appears to be valid for the new message relatively to the
+new verification key. In this paper, we prove decidability of the insecurity
+problem of cryptographic protocols where the signature schemes employed in the
+concrete realisation have this two properties.

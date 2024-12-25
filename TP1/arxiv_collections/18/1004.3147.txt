@@ -1,0 +1,25 @@
+This thesis investigates the use of problem-specific knowledge to enhance a
+genetic algorithm approach to multiple-choice optimisation problems.It shows
+that such information can significantly enhance performance, but that the
+choice of information and the way it is included are important factors for
+success.Two multiple-choice problems are considered.The first is constructing a
+feasible nurse roster that considers as many requests as possible.In the second
+problem, shops are allocated to locations in a mall subject to constraints and
+maximising the overall income.Genetic algorithms are chosen for their
+well-known robustness and ability to solve large and complex discrete
+optimisation problems.However, a survey of the literature reveals room for
+further research into generic ways to include constraints into a genetic
+algorithm framework.Hence, the main theme of this work is to balance
+feasibility and cost of solutions.In particular, co-operative co-evolution with
+hierarchical sub-populations, problem structure exploiting repair schemes and
+indirect genetic algorithms with self-adjusting decoder functions are
+identified as promising approaches.The research starts by applying standard
+genetic algorithms to the problems and explaining the failure of such
+approaches due to epistasis.To overcome this, problem-specific information is
+added in a variety of ways, some of which are designed to increase the number
+of feasible solutions found whilst others are intended to improve the quality
+of such solutions.As well as a theoretical discussion as to the underlying
+reasons for using each operator,extensive computational experiments are carried
+out on a variety of data.These show that the indirect approach relies less on
+problem structure and hence is easier to implement and superior in solution
+quality.

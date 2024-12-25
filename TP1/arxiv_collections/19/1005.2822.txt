@@ -1,0 +1,9 @@
+A technique is described for constructing three-dimensional vector graphics
+representations of planar regions bounded by cubic B\'ezier curves, such as
+smooth glyphs. It relies on a novel algorithm for compactly partitioning planar
+B\'ezier regions into nondegenerate Coons patches. New optimizations are also
+described for B\'ezier inside-outside tests and the computation of global
+bounds of directionally monotonic functions over a B\'ezier surface (such as
+its bounding box or optimal field-of-view angle). These algorithms underlie the
+three-dimensional illustration and typography features of the TeX-aware vector
+graphics language Asymptote.

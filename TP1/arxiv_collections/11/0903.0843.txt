@@ -1,0 +1,14 @@
+The Pseudo-Boolean Optimization (PBO) and Maximum Satisfiability (MaxSAT)
+problems are natural optimization extensions of Boolean Satisfiability (SAT).
+  In the recent past, different algorithms have been proposed for PBO and for
+MaxSAT, despite the existence of straightforward mappings from PBO to MaxSAT
+and vice-versa. This papers proposes Weighted Boolean Optimization (WBO), a new
+unified framework that aggregates and extends PBO and MaxSAT. In addition, the
+paper proposes a new unsatisfiability-based algorithm for WBO, based on recent
+unsatisfiability-based algorithms for MaxSAT. Besides standard MaxSAT, the new
+algorithm can also be used to solve weighted MaxSAT and PBO, handling
+pseudo-Boolean constraints either natively or by translation to clausal form.
+Experimental results illustrate that unsatisfiability-based algorithms for
+MaxSAT can be orders of magnitude more efficient than existing dedicated
+algorithms. Finally, the paper illustrates how other algorithms for either PBO
+or MaxSAT can be extended to WBO.

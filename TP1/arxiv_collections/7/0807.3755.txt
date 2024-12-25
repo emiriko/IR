@@ -1,0 +1,13 @@
+For bounded datasets such as the TREC Web Track (WT10g) the computation of
+term frequency (TF) and inverse document frequency (IDF) is not difficult.
+However, when the corpus is the entire web, direct IDF calculation is
+impossible and values must instead be estimated. Most available datasets
+provide values for term count (TC) meaning the number of times a certain term
+occurs in the entire corpus. Intuitively this value is different from document
+frequency (DF), the number of documents (e.g., web pages) a certain term occurs
+in. We conduct a comparison study between TC and DF values within the Web as
+Corpus (WaC). We found a very strong correlation with Spearman's rho >0.8
+(p<0.005) which makes us confident in claiming that for such recently created
+corpora the TC and DF values can be used interchangeably to compute IDF values.
+These results are useful for the generation of accurate lexical signatures
+based on the TF-IDF scheme.

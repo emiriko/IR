@@ -1,0 +1,17 @@
+Suppose the signal x is realized by driving a k-sparse signal u through an
+arbitrary unknown stable discrete-linear time invariant system H. These types
+of processes arise naturally in Reflection Seismology. In this paper we are
+interested in several problems: (a) Blind-Deconvolution: Can we recover both
+the filter $H$ and the sparse signal $u$ from noisy measurements? (b)
+Compressive Sensing: Is x compressible in the conventional sense of compressed
+sensing? Namely, can x, u and H be reconstructed from a sparse set of
+measurements. We develop novel L1 minimization methods to solve both cases and
+establish sufficient conditions for exact recovery for the case when the
+unknown system H is auto-regressive (i.e. all pole) of a known order. In the
+compressed sensing/sampling setting it turns out that both H and x can be
+reconstructed from O(k log(n)) measurements under certain technical conditions
+on the support structure of u. Our main idea is to pass x through a linear time
+invariant system G and collect O(k log(n)) sequential measurements. The filter
+G is chosen suitably, namely, its associated Toeplitz matrix satisfies the RIP
+property. We develop a novel LP optimization algorithm and show that both the
+unknown filter H and the sparse input u can be reliably estimated.

@@ -1,0 +1,23 @@
+Switched-Capacitor Converters (SCC) suffer from a fundamental power loss
+deficiency which make their use in some applications prohibitive. The power
+loss is due to the inherent energy dissipation when SCC operate between or
+outside their output target voltages. This drawback was alleviated in this work
+by developing two new classes of SCC providing binary and arbitrary resolution
+of closely spaced target voltages. Special attention is paid to SCC topologies
+of binary resolution. Namely, SCC systems that can be configured to have a
+no-load output to input voltage ratio that is equal to any binary fraction for
+a given number of bits. To this end, we define a new number system and develop
+rules to translate these numbers into SCC hardware that follows the algebraic
+behavior. According to this approach, the flying capacitors are automatically
+kept charged to binary weighted voltages and consequently the resolution of the
+target voltages follows a binary number representation and can be made higher
+by increasing the number of capacitors (bits). The ability to increase the
+number of target voltages reduces the spacing between them and, consequently,
+increases the efficiency when the input varies over a large voltage range. The
+thesis presents the underlining theory of the binary SCC and its extension to
+the general radix case. Although the major application is in step-down SCC, a
+simple method to utilize these SCC for step-up conversion is also described, as
+well as a method to reduce the output voltage ripple. In addition, the generic
+and unified model is strictly applied to derive the SCC equivalent resistor,
+which is a measure of the power loss. The theoretical predictions are verified
+by simulation and experimental results.

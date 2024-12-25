@@ -1,0 +1,21 @@
+Given a finite regular graph G=(V,E) and a metric space (X,d_X), let
+$gamma_+(G,X) denote the smallest constant $\gamma_+>0$ such that for all
+f,g:V\to X we have:
+  \frac{1}{|V|^2}\sum_{x,y\in V} d_X(f(x),g(y))^2\le \frac{\gamma_+}{|E|}
+\sum_{xy\in E} d_X(f(x),g(y))^2.
+  In the special case X=R this quantity coincides with the reciprocal of the
+absolute spectral gap of $G$, but for other geometries the parameter
+\gamma_+(G,X), which we still think of as measuring the non-linear spectral gap
+of G with respect to X (even though there is no actual spectrum present here),
+can behave very differently.
+  Non-linear spectral gaps arise often in the theory of metric embeddings, and
+in the present paper we systematically study the theory of non-linear spectral
+gaps, partially in order to obtain a combinatorial construction of
+super-expander -- a family of bounded-degree graphs G_i=(V_i,E_i), with
+\lim_{i\to \infty} |V_i|=\infty, which do not admit a coarse embedding into any
+uniformly convex normed space. In addition, the bi-Lipschitz distortion of G_i
+in any uniformly convex Banach space is \Omega(\log |V_i|), which is the worst
+possible behavior due to Bourgain's embedding theorem. Such remarkable graph
+families were previously known to exist due to a tour de force algebraic
+construction of Lafforgue. Our construction is different and combinatorial,
+relying on the zigzag product of Reingold-Vadhan-Wigderson.

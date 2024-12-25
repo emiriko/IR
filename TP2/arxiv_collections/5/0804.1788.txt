@@ -1,0 +1,13 @@
+Let p be a prime and a, c be integers such that a<>0 mod p. The quadratic
+generator is a sequence (u_n) of pseudorandom numbers defined by
+u_{n+1}=a*(u_n)^2+c mod p. In this article we probe that if we know
+sufficiently many of the most significant bits of two consecutive values u_n,
+u_{n+1}, then we can compute the seed u_0 except for a small number of
+exceptional values.
+  -----
+  Sean p un primo, a y c enteros tales que a<>0 mod p. El generador cuadratico
+es una sucesion (u_n) de numeros pseudoaleatorios definidos por la relacion
+u_{n+1}=a*(u_n)^2+c mod p. En este trabajo demostramos que si conocemos un
+numero suficientemente grande de los bits mas significativos para dos valores
+consecutivos u_n, u_{n+1}, entonces podemos descubrir en tiempo polinomial la
+semilla u_0, excepto para un conjunto pequeno de valores excepcionales.

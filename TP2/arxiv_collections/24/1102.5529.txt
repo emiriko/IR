@@ -1,0 +1,17 @@
+Besides the complexity in time or in number of messages, a common approach
+for analyzing distributed algorithms is to look at the assumptions they make on
+the underlying network. We investigate this question from the perspective of
+network dynamics. In particular, we ask how a given property on the evolution
+of the network can be rigorously proven as necessary or sufficient for a given
+algorithm. The main contribution of this paper is to propose the combination of
+two existing tools in this direction: local computations by means of graph
+relabelings, and evolving graphs. Such a combination makes it possible to
+express fine-grained properties on the network dynamics, then examine what
+impact those properties have on the execution at a precise, intertwined, level.
+We illustrate the use of this framework through the analysis of three simple
+algorithms, then discuss general implications of this work, which include (i)
+the possibility to compare distributed algorithms on the basis of their
+topological requirements, (ii) a formal hierarchy of dynamic networks based on
+these requirements, and (iii) the potential for mechanization induced by our
+framework, which we believe opens a door towards automated analysis and
+decision support in dynamic networks.

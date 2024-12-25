@@ -1,0 +1,21 @@
+Given a convex region in the plane, and a sweep-line as a tool, what is best
+way to reduce the region to a single point by a sequence of sweeps? The problem
+of sweeping points by orthogonal sweeps was first studied in [2]. Here we
+consider the following \emph{slanted} variant of sweeping recently introduced
+in [1]: In a single sweep, the sweep-line is placed at a start position
+somewhere in the plane, then moved continuously according to a sweep vector
+$\vec v$ (not necessarily orthogonal to the sweep-line) to another parallel end
+position, and then lifted from the plane. The cost of a sequence of sweeps is
+the sum of the lengths of the sweep vectors. The (optimal) sweeping cost of a
+region is the infimum of the costs over all finite sweeping sequences for that
+region. An optimal sweeping sequence for a region is one with a minimum total
+cost, if it exists. Another parameter of interest is the number of sweeps.
+  We show that there exist convex regions for which the optimal sweeping cost
+cannot be attained by two sweeps. This disproves a conjecture of Bousany,
+Karker, O'Rourke, and Sparaco stating that two sweeps (with vectors along the
+two adjacent sides of a minimum-perimeter enclosing parallelogram) always
+suffice [1]. Moreover, we conjecture that for some convex regions, no finite
+sweeping sequence is optimal. On the other hand, we show that both the 2-sweep
+algorithm based on minimum-perimeter enclosing rectangle and the 2-sweep
+algorithm based on minimum-perimeter enclosing parallelogram achieve a $4/\pi
+\approx 1.27$ approximation in this sweeping model.

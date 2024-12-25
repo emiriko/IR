@@ -1,0 +1,19 @@
+We present an implementation of the GW approximation for the electronic
+self-energy within the full-potential linearized augmented-plane-wave (FLAPW)
+method. The algorithm uses an all-electron mixed product basis for the
+representation of response matrices and related quantities. This basis is
+derived from the FLAPW basis and is exact for wave-function products. The
+singularity of the bare and screened interaction potentials gives rise to a
+numerically important self-energy contribution, which we treat analytically to
+achieve good convergence with respect to the k-point sampling. As numerical
+realizations of the GW approximation typically suffer from the high
+computational expense required for the evaluation of the nonlocal and
+frequency-dependent self-energy, we demonstrate how the algorithm can be made
+very efficient by exploiting spatial and time-reversal symmetry as well as by
+applying an optimization of the mixed product basis that retains only the
+numerically important contributions of the electron-electron interaction.
+Furthermore, we demonstrate that one can employ an extrapolar approximation for
+high-lying states to reduce the number of empty states that must be taken into
+account explicitly in the construction of the polarization function and the
+self-energy. We show convergence tests, CPU timings, and results for prototype
+semiconductors and insulators as well as ferromagnetic nickel.

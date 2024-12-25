@@ -1,0 +1,20 @@
+Many databases store data in relational format, with different types of
+entities and information about links between the entities. The field of
+statistical-relational learning (SRL) has developed a number of new statistical
+models for such data. In this paper we focus on learning class-level or
+first-order dependencies, which model the general database statistics over
+attributes of linked objects and links (e.g., the percentage of A grades given
+in computer science classes). Class-level statistical relationships are
+important in themselves, and they support applications like policy making,
+strategic planning, and query optimization. Most current SRL methods find
+class-level dependencies, but their main task is to support instance-level
+predictions about the attributes or links of specific entities. We focus only
+on class-level prediction, and describe algorithms for learning class-level
+models that are orders of magnitude faster for this task. Our algorithms learn
+Bayes nets with relational structure, leveraging the efficiency of single-table
+nonrelational Bayes net learners. An evaluation of our methods on three data
+sets shows that they are computationally feasible for realistic table sizes,
+and that the learned structures represent the statistical information in the
+databases well. After learning compiles the database statistics into a Bayes
+net, querying these statistics via Bayes net inference is faster than with SQL
+queries, and does not depend on the size of the database.

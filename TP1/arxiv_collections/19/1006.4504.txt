@@ -1,0 +1,16 @@
+This paper explores technology permitting arbitrary application components to
+be exposed for remote access from other software. Using this, the application
+and its constituent components can be written without concern for its
+distribution. Software running in different address spaces, on different
+machines, can perform operations on the remotely accessible components. This is
+of utility in the creation of distributed applications and in permitting tools
+such as debuggers, component browsers, observers or remote probes access to
+application components. Current middleware systems do not allow arbitrary
+exposure of application components: instead, the programmer is forced to decide
+statically which classes of component will support remote accessibility. In the
+work described here, arbitrary components of any class can be dynamically
+exposed via Web Services. Traditional Web Services are extended with a remote
+reference scheme. This extension permits application components to be invoked
+using either the traditional pass-by-value semantics supported by Web Services
+or pass-by-reference semantics. The latter permits the preservation of local
+call semantics across address space boundaries.

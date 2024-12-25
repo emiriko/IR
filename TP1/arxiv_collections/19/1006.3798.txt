@@ -1,0 +1,20 @@
+The bounded confidence model of opinion dynamics, introduced by Deffuant et
+al, is a stochastic model for the evolution of continuous-valued opinions
+within a finite group of peers. We prove that, as time goes to infinity, the
+opinions evolve globally into a random set of clusters too far apart to
+interact, and thereafter all opinions in every cluster converge to their
+barycenter. We then prove a mean-field limit result, propagation of chaos: as
+the number of peers goes to infinity in adequately started systems and time is
+rescaled accordingly, the opinion processes converge to i.i.d. nonlinear Markov
+(or McKean-Vlasov) processes; the limit opinion processes evolves as if under
+the influence of opinions drawn from its own instantaneous law, which are the
+unique solution of a nonlinear integro-differential equation of Kac type. This
+implies that the (random) empirical distribution processes converges to this
+(deterministic) solution. We then prove that, as time goes to infinity, this
+solution converges to a law concentrated on isolated opinions too far apart to
+interact, and identify sufficient conditions for the limit not to depend on the
+initial condition, and to be concentrated at a single opinion. Finally, we
+prove that if the equation has an initial condition with a density, then its
+solution has a density at all times, develop a numerical scheme for the
+corresponding functional equation, and show numerically that bifurcations may
+occur.

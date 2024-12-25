@@ -1,0 +1,16 @@
+In this paper we describe a HepML format and a corresponding C++ library
+developed for keeping complete description of parton level events in a unified
+and flexible form. HepML tags contain enough information to understand what
+kind of physics the simulated events describe and how the events have been
+prepared. A HepML block can be included into event files in the LHEF format.
+The structure of the HepML block is described by means of several XML Schemas.
+The Schemas define necessary information for the HepML block and how this
+information should be located within the block. The library libhepml is a C++
+library intended for parsing and serialization of HepML tags, and representing
+the HepML block in computer memory. The library is an API for external
+software. For example, Matrix Element Monte Carlo event generators can use the
+library for preparing and writing a header of a LHEF file in the form of HepML
+tags. In turn, Showering and Hadronization event generators can parse the HepML
+header and get the information in the form of C++ classes. libhepml can be used
+in C++, C, and Fortran programs. All necessary parts of HepML have been
+prepared and we present the project to the HEP community.

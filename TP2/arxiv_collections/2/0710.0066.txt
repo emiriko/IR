@@ -1,0 +1,10 @@
+We study a variant of the Schwarz-preconditioned HMC algorithm. In contrast
+to the original proposal of L\"uscher, we apply the domain decomposition in one
+lattice direction only. This is sufficient to reduce the condition number of
+the fermion matrix restricted to the domains compared with the full fermion
+matrix. For the same linear extension of the domain, less links reside on the
+boundaries of the domains. Therefore it becomes e.g. practical to iterate the
+decomposition. We perform numerical tests for two degenerate flavours of Wilson
+fermions. The standard Wilson gauge action at $\beta=5.6$ is used. The
+performance of our implementation is compared with other recent studies using
+various types of preconditioning.

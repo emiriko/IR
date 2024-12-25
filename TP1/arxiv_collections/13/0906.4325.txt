@@ -1,0 +1,23 @@
+This article reports on the confluence of two streams of research, one
+emanating from the fields of numerical analysis and scientific computation, the
+other from topology and geometry. In it we consider the numerical
+discretization of partial differential equations that are related to
+differential complexes so that de Rham cohomology and Hodge theory are key
+tools for the continuous problem. After a brief introduction to finite element
+methods, the discretization methods we consider, we develop an abstract Hilbert
+space framework for analyzing stability and convergence. In this framework, the
+differential complex is represented by a complex of Hilbert spaces and
+stability is obtained by transferring Hodge theoretic structures from the
+continuous level to the discrete. We show stable discretization is achieved if
+the finite element spaces satisfy two hypotheses: they form a subcomplex and
+there exists a bounded cochain projection from the full complex to the
+subcomplex. Next, we consider the most canonical example of the abstract
+theory, in which the Hilbert complex is the de Rham complex of a domain in
+Euclidean space. We use the Koszul complex to construct two families of finite
+element differential forms, show that these can be arranged in subcomplexes of
+the de Rham complex in numerous ways, and for each construct a bounded cochain
+projection. The abstract theory therefore applies to give the stability and
+convergence of finite element approximations of the Hodge Laplacian. Other
+applications are considered as well, especially to the equations of elasticity.
+Background material is included to make the presentation self-contained for a
+variety of readers.

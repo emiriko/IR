@@ -1,0 +1,15 @@
+Coin flipping is a fundamental cryptographic primitive that enables two
+distrustful and far apart parties to create a uniformly random bit [Blu81].
+Quantum information allows for protocols in the information theoretic setting
+where no dishonest party can perfectly cheat. The previously best-known quantum
+protocol by Ambainis achieved a cheating probability of at most 3/4 [Amb01]. On
+the other hand, Kitaev showed that no quantum protocol can have cheating
+probability less than $1/\sqrt{2}$ [Kit03]. Closing this gap has been one of
+the important open questions in quantum cryptography.
+  In this paper, we resolve this question by presenting a quantum strong coin
+flipping protocol with cheating probability arbitrarily close to $1/\sqrt{2}$.
+More precisely, we show how to use any weak coin flipping protocol with
+cheating probability $1/2+\epsilon$ in order to achieve a strong coin flipping
+protocol with cheating probability $1/\sqrt{2}+O(\epsilon)$. The optimal
+quantum strong coin flipping protocol follows from our construction and the
+optimal quantum weak coin flipping protocol described by Mochon [Moc07].

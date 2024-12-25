@@ -1,0 +1,17 @@
+This paper presents a streaming (sequential) protocol for universal
+entanglement concentration at the Shannon bound. Alice and Bob begin with N
+identical (but unknown) two-qubit pure states, each containing E ebits of
+entanglement. They each run a reversible algorithm on their qubits, and end up
+with Y perfect EPR pairs, where Y = NE +- O(\sqrt N). Our protocol is
+streaming, so the N input systems are fed in one at a time, and perfect EPR
+pairs start popping out almost immediately. It matches the optimal block
+protocol exactly at each stage, so the average yield after n inputs is <Y> = nE
+- O(log n). So, somewhat surprisingly, there is no tradeoff between yield and
+lag -- our protocol optimizes both. In contrast, the optimal N-qubit block
+protocol achieves the same yield, but since no EPR pairs are produced until the
+entire input block is read, its lag is O(N). Finally, our algorithm runs in
+O(log N) space, so a lot of entanglement can be efficiently concentrated using
+a very small (e.g., current or near-future technology) quantum processor. Along
+the way, we find an optimal streaming protocol for extracting randomness from
+classical i.i.d. sources and a more space-efficient implementation of the Schur
+transform.

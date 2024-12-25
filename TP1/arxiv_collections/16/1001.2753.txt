@@ -1,0 +1,23 @@
+While existing mathematical descriptions can accurately account for phenomena
+at microscopic scales (e.g. molecular dynamics), these are often
+high-dimensional, stochastic and their applicability over macroscopic time
+scales of physical interest is computationally infeasible or impractical. In
+complex systems, with limited physical insight on the coherent behavior of
+their constituents, the only available information is data obtained from
+simulations of the trajectories of huge numbers of degrees of freedom over
+microscopic time scales. This paper discusses a Bayesian approach to deriving
+probabilistic coarse-grained models that simultaneously address the problems of
+identifying appropriate reduced coordinates and the effective dynamics in this
+lower-dimensional representation. At the core of the models proposed lie
+simple, low-dimensional dynamical systems which serve as the building blocks of
+the global model. These approximate the latent, generating sources and
+parameterize the reduced-order dynamics. We discuss parallelizable, online
+inference and learning algorithms that employ Sequential Monte Carlo samplers
+and scale linearly with the dimensionality of the observed dynamics. We propose
+a Bayesian adaptive time-integration scheme that utilizes probabilistic
+predictive estimates and enables rigorous concurrent s imulation over
+macroscopic time scales. The data-driven perspective advocated assimilates
+computational and experimental data and thus can materialize data-model fusion.
+It can deal with applications that lack a mathematical description and where
+only observational data is available. Furthermore, it makes non-intrusive use
+of existing computational models.

@@ -1,0 +1,24 @@
+The spectral energy distribution of galaxies is a complex function of the
+star formation history and geometrical arrangement of stars and gas in
+galaxies. The computation of the radiative transfer of stellar radiation
+through the dust distribution is time-consuming. This aspect becomes
+unacceptable in particular when dealing with the predictions by semi-analytical
+galaxy formation models populating cosmological volumes, to be then compared
+with multi-wavelength surveys. Mainly for this aim, we have implemented an
+artificial neural network algorithm into the spectro-photometric and radiative
+transfer code GRASIL in order to compute the spectral energy distribution of
+galaxies in a short computing time. This allows to avoid the adoption of
+empirical templates that may have nothing to do with the mock galaxies output
+by models. The ANN has been implemented to compute the dust emission spectrum
+(the bottleneck of the computation), and separately for the star-forming
+molecular clouds and the diffuse dust (due to their different properties and
+dependencies). We have defined the input neurons effectively determining their
+emission, which means this implementation has a general applicability and is
+not linked to a particular galaxy formation model. We have trained the net for
+the disc and spherical geometries, and tested its performance to reproduce the
+SED of disc and starburst galaxies, as well as for a semi-analytical model for
+spheroidal galaxies. We have checked that for this model both the SEDs and the
+galaxy counts in the Herschel bands obtained with the ANN approximation are
+almost superimposed to the same quantities obtained with the full GRASIL. We
+conclude that this method appears robust and advantageous, and will present the
+application to a more complex SAM in another paper.

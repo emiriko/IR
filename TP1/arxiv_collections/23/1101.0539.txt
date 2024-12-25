@@ -1,0 +1,18 @@
+An implementation of full self-consistency over the electronic density in the
+DFT+DMFT framework on the basis of a plane wave-projector augmented wave (PAW)
+DFT code is presented. It allows for an accurate calculation of the total
+energy in DFT+DMFT within a plane wave approach. In contrast to frameworks
+based on the maximally localized Wannier function, the method is easily applied
+to f electron systems, such as cerium, cerium oxide (Ce2O3) and plutonium oxide
+(Pu2O3). In order to have a correct and physical calculation of the energy
+terms, we find that the calculation of the self-consistent density is
+mandatory. The formalism is general and does not depend on the method used to
+solve the impurity model. Calculations are carried out within the Hubbard I
+approximation, which is fast to solve, and gives a good description of strongly
+correlated insulators. We compare the DFT+DMFT and DFT+U solutions, and
+underline the qualitative differences of their converged densities. We
+emphasize that in contrast to DFT+U, DFT+DMFT does not break the spin and
+orbital symmetry. As a consequence, DFT+DMFT implies, on top of a better
+physical description of correlated metals and insulators, a reduced occurrence
+of unphysical metastable solutions in correlated insulators in comparison to
+DFT+U.

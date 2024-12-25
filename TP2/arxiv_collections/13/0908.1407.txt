@@ -1,0 +1,9 @@
+An energy efficient distributed Change Detection scheme based on Page's CUSUM
+algorithm was presented in \cite{icassp}. In this paper we consider a
+nonparametric version of this algorithm. In the algorithm in \cite{icassp},
+each sensor runs CUSUM and transmits only when the CUSUM is above some
+threshold. The transmissions from the sensors are fused at the physical layer.
+The channel is modeled as a Multiple Access Channel (MAC) corrupted with noise.
+The fusion center performs another CUSUM to detect the change. In this paper,
+we generalize the algorithm to also include nonparametric CUSUM and provide a
+unified analysis.

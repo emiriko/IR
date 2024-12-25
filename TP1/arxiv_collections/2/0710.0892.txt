@@ -1,0 +1,15 @@
+We develop a matrix-based approach to predict and verify indirect
+interactions in gene and protein regulatory networks. It is based on the
+approximate transitivity of indirect regulations (e.g. A regulates B and B
+regulates C often implies that A regulates C) and optimally takes into account
+the length of a cascade and signs of intermediate interactions. Our method is
+at its most powerful when applied to large and densely interconnected networks.
+It successfully predicts both the yet unknown indirect regulations, as well as
+the sign (activation or repression) of already known ones. The reliability of
+sign predictions was calibrated using the gold-standard sets of positive and
+negative interactions. We fine-tuned the parameters of our algorithm by
+maximizing the area under the Receiver Operating Characteristic (ROC) curve. We
+then applied the optimized algorithm to large literature-derived networks of
+all direct and indirect regulatory interactions in several model organisms
+(Homo sapiens, Saccharomyces cerevisiae, Arabidopsis thaliana and Drosophila
+melanogaster).

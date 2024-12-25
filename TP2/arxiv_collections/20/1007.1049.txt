@@ -1,0 +1,18 @@
+Gradecast is a simple three-round algorithm presented by Feldman and Micali.
+The current work presents a very simple algorithm that utilized Gradecast to
+achieve Byzantine agreement. Two small variations of the presented algorithm
+lead to improved algorithms for solving the Approximate agreement problem and
+the Multi-consensus problem.
+  An optimal approximate agreement algorithm was presented by Fekete, which
+supports up to 1/4 n Byzantine nodes and has message complexity of O(n^k),
+where n is the number of nodes and k is the number of rounds.
+  Our solution to the approximate agreement problem is optimal, simple and
+reduces the message complexity to O(k * n^3), while supporting up to 1/3 n
+Byzantine nodes.
+  Multi consensus was first presented by Bar-Noy et al. It consists of
+consecutive executions of l Byzantine consensuses. Bar-Noy et al., show an
+optimal amortized solution to this problem, assuming that all nodes start each
+consensus instance at the same time, a property that cannot be guaranteed with
+early stopping. Our solution is simpler, preserves round complexity optimality,
+allows early stopping and does not require synchronized starts of the consensus
+instances.

@@ -1,0 +1,16 @@
+We introduce hierarchical neighbor graphs, a new architecture for connecting
+ad hoc wireless nodes distributed in a plane. The structure has the flavor of
+hierarchical clustering and requires only local knowledge and minimal
+computation at each node to be formed and repaired. Hence, it is a suitable
+interconnection model for an ad hoc wireless sensor network. The structure is
+able to use energy efficiently by reorganizing dynamically when the battery
+power of heavily utilized nodes degrades and is able to achieve throughput,
+energy efficiency and network lifetimes that compare favorably with the leading
+proposals for data collation in sensor networks such as LEACH (Heinzelman et.
+al., 2002). Additionally, hierarchical neighbor graphs have low power stretch
+i.e. the power required to connect nodes through the network is a small factor
+higher than the power required to connect them directly. Our structure also
+compares favorably to mathematical structures proposed for connecting points in
+a plane e.g. nearest-neighbor graphs (Ballister et. al., 2005), $\theta$-graphs
+(Ruppert and Seidel, 1991), in that it has expected constant degree and does
+not require any significant computation or global information to be formed.

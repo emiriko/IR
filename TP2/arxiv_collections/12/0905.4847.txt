@@ -1,0 +1,20 @@
+The use of proper orthogonal decomposition (POD) to explore the complex fluid
+flows that are common in engineering applications is increasing and has yielded
+new physical insights. However, for most engineering systems the dimension of
+the dynamics is expected to be very large yet the flow field data is available
+only for a finite time. In this context, it is important to establish the
+convergence of the POD in order to accurately estimate such quantities as the
+Karhunen-Lo\`{e}ve dimension. Using direct numerical simulations of
+Rayleigh-B\'{e}nard convection in a finite cylindrical geometry we explore a
+regime exhibiting extensive chaos and demonstrate the consequences of
+performing a POD with a finite amount of data. In particular, we show that the
+convergence in time of the eigenvalue spectrum, the eigenfunctions, and the
+dimension are very slow in comparison with the time scale of the convection
+rolls and that the errors incurred by not using the asymptotic values can be
+significant. We compute the dimension using two approaches, the method of
+snapshots and a Fourier method that exploits the azimuthal symmetry. We find
+that the convergence rate of the Fourier method is vastly improved over the
+method of snapshots. The dimension is found to be extensive as the system size
+is increased and for a dimension measurement that captures 90% of the variance
+in the data the Karhunen-Lo\`{e}ve dimension is about 20 times larger than the
+Lyapunov dimension.

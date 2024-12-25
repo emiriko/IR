@@ -1,0 +1,11 @@
+In network quality of service provisioning, premium services generally
+require to keep a very small loss probability, which is infeasible to measure
+directly. The proposed virtual queue scheme estimates the small packet loss
+probability of a real queueing system by measuring queue statistics in a set of
+separate virtual queues. A novel scaling property between the real queue and
+the virtual queues is deduced on the basis of the maximum variance asymptotic
+(MVA) theory. The new scheme retains the high accuracy and wide applicability
+of the MVA method for aggregated traffic while avoiding the high computational
+complexity in a direct application of the original MVA analysis in real time.
+This makes it suitable for online measurement applications such as network
+performance monitoring and measurement-based admission control.

@@ -1,0 +1,14 @@
+Live sequence charts (LSCs) have been proposed as an inter-object
+scenario-based specification and visual programming language for reactive
+systems. In this paper, we introduce a logic-based framework to check the
+consistency of an LSC specification. An LSC simulator has been implemented in
+logic programming, utilizing a memoized depth-first search strategy, to show
+how a reactive system in LSCs would response to a set of external event
+sequences. A formal notation is defined to specify external event sequences,
+extending the regular expression with a parallel operator and a testing
+control. The parallel operator allows interleaved parallel external events to
+be tested in LSCs simultaneously; while the testing control provides users to a
+new approach to specify and test certain temporal properties (e.g., CTL
+formula) in a form of LSC. Our framework further provides either a state
+transition graph or a failure trace to justify the consistency checking
+results.

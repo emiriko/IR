@@ -1,0 +1,19 @@
+Optimal synthesis of reversible functions is a non-trivial problem. One of
+the major limiting factors in computing such circuits is the sheer number of
+reversible functions. Even restricting synthesis to 4-bit reversible functions
+results in a huge search space (16! {\approx} 2^{44} functions). The output of
+such a search alone, counting only the space required to list Toffoli gates for
+every function, would require over 100 terabytes of storage. In this paper, we
+present two algorithms: one, that synthesizes an optimal circuit for any 4-bit
+reversible specification, and another that synthesizes all optimal
+implementations. We employ several techniques to make the problem tractable. We
+report results from several experiments, including synthesis of all optimal
+4-bit permutations, synthesis of random 4-bit permutations, optimal synthesis
+of all 4-bit linear reversible circuits, synthesis of existing benchmark
+functions; we compose a list of the hardest permutations to synthesize, and
+show distribution of optimal circuits. We further illustrate that our proposed
+approach may be extended to accommodate physical constraints via reporting
+LNN-optimal reversible circuits. Our results have important implications in the
+design and optimization of reversible and quantum circuits, testing circuit
+synthesis heuristics, and performing experiments in the area of quantum
+information processing.

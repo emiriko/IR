@@ -1,0 +1,18 @@
+Exchangeable random variables form an important and well-studied
+generalization of i.i.d. variables, however simple examples show that no
+nontrivial concept or function classes are PAC learnable under general
+exchangeable data inputs $X_1,X_2,\ldots$. Inspired by the work of Berti and
+Rigo on a Glivenko--Cantelli theorem for exchangeable inputs, we propose a new
+paradigm, adequate for learning from exchangeable data: predictive PAC
+learnability. A learning rule $\mathcal L$ for a function class $\mathscr F$ is
+predictive PAC if for every $\e,\delta>0$ and each function $f\in {\mathscr
+F}$, whenever $\abs{\sigma}\geq s(\delta,\e)$, we have with confidence
+$1-\delta$ that the expected difference between $f(X_{n+1})$ and the image of
+$f\vert\sigma$ under $\mathcal L$ does not exceed $\e$ conditionally on
+$X_1,X_2,\ldots,X_n$. Thus, instead of learning the function $f$ as such, we
+are learning to a given accuracy $\e$ the predictive behaviour of $f$ at the
+future points $X_i(\omega)$, $i>n$ of the sample path. Using de Finetti's
+theorem, we show that if a universally separable function class $\mathscr F$ is
+distribution-free PAC learnable under i.i.d. inputs, then it is
+distribution-free predictive PAC learnable under exchangeable inputs, with a
+slightly worse sample complexity.

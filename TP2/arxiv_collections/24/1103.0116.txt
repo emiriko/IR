@@ -1,0 +1,12 @@
+In this work we focus on the problem of finding the heaviest-k and lightest-k
+hitters in a sliding window data stream. The most recent research endeavours
+have yielded an epsilon-approximate algorithm with update operations in
+constant time with high probability and O(1/epsilon) query time for the
+heaviest hitters case. We propose a novel algorithm which for the first time,
+to our knowledge, provides exact, not approximate, results while at the same
+time achieves O(1) time with high probability complexity on both update and
+query operations. Furthermore, our algorithm is able to provide both the
+heaviest-k and the lightest-k hitters at the same time without any overhead. In
+this work, we describe the algorithm and the accompanying data structure that
+supports it and perform quantitative experiments with synthetic data to verify
+our theoretical predictions.

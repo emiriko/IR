@@ -1,0 +1,24 @@
+Understanding the amplifier phase noise is a critical issue in numerous
+fields of engineering and physics, like oscillators, frequency synthesis,
+telecommunications, radars, spectroscopy, in the emerging domain of microwave
+photonics, and in more exotic domains like radio astronomy, particle
+accelerators, etc.
+  This article analyzes the two main types of phase noise in amplifiers, white
+and flicker. White phase noise results from adding white noise to the RF
+spectrum around the carrier. For a given amount of RF noise added, noise is
+proportional to the inverse of the carrier power. By contrast, the 1/f
+coefficient is a constant parameter of the amplifier, in a wide range of
+carrier power. This fact has amazing consequences on different amplifier
+topologies. Connecting m equal amplifiers in parallel, flicker is 1/m times
+that of one device. Cascading m equal amplifiers, flicker is m times that of
+one amplifier. Recirculating the signal in an amplifier so that the gain
+increases by a power of m (a factor of m in dB) due to positive feedback
+(regeneration), which for integer m is similar to the case of m amplifiers, we
+find that flicker is m^2 times that of the amplifier alone.
+  Starting from the fact that near-dc flicker exists in all electronic devices,
+although generally not accessible from outside, the simplest model for the 1/f
+phase noise is that the near-dc 1/f noise phase-modulates the carrier through
+some parametric effect in the semiconductor. This model predicts the behavior
+of the (simple) amplifier and of the different amplifier topologies. Numerous
+measurements on amplifiers from different technologies and frequencies (HF to
+microwaves), also including some obsolete amplifiers, validate the theory.

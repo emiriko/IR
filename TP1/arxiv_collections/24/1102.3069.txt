@@ -1,0 +1,14 @@
+We present MuMax, a general-purpose micromagnetic simulation tool running on
+Graphical Processing Units (GPUs). MuMax is designed for high performance
+computations and specifically targets large simulations. In that case speedups
+of over a factor 100x can easily be obtained compared to the CPU-based OOMMF
+program developed at NIST. MuMax aims to be general and broadly applicable. It
+solves the classical Landau-Lifshitz equation taking into account the
+magnetostatic, exchange and anisotropy interactions, thermal effects and
+spin-transfer torque. Periodic boundary conditions can optionally be imposed. A
+spatial discretization using finite differences in 2 or 3 dimensions can be
+employed. MuMax is publicly available as open source software. It can thus be
+freely used and extended by community. Due to its high computational
+performance, MuMax should open up the possibility of running extensive
+simulations that would be nearly inaccessible with typical CPU-based
+simulators.

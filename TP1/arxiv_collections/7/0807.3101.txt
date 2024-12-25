@@ -1,0 +1,21 @@
+We propose a new method in the spectral analysis of noisy time-series data
+for damped oscillators. From the Jacobi three terms recursive relation for the
+denominators of the Pad\'e Approximations built on the well-known Z-transform
+of an infinite time-series, we build an Hilbert space operator, a J-Operator,
+where each bound state (inside the unit circle in the complex plane) is simply
+associated to one damped oscillator while the continuous spectrum of the
+J-Operator, which lies on the unit circle itself, is shown to represent the
+noise. Signal and noise are thus clearly separated in the complex plane. For a
+finite time series of length 2N, the J-operator is replaced by a finite order
+J-Matrix J_N, having N eigenvalues which are time reversal covariant. Different
+classes of input noise, such as blank (white and uniform), Gaussian and pink,
+are discussed in detail, the J-Matrix formalism allowing us to efficiently
+calculate hundreds of poles of the Z-transform. Evidence of a universal
+behaviour in the final statistical distribution of the associated poles and
+zeros of the Z-transform is shown. In particular the poles and zeros tend, when
+the length of the time series goes to infinity, to a uniform angular
+distribution on the unit circle. Therefore at finite order, the roots of unity
+in the complex plane appear to be noise attractors. We show that the
+Z-transform presents the exceptional feature of allowing lossless undersampling
+and how to make use of this property. A few basic examples are given to suggest
+the power of the proposed method.

@@ -1,0 +1,17 @@
+For a given time horizon DT, this article explores the relationship between
+the realized volatility (the volatility that will occur between t and t+DT),
+the implied volatility (corresponding to at-the-money option with expiry at
+t+DT), and several forecasts for the volatility build from multi-scales linear
+ARCH processes. The forecasts are derived from the process equations, and the
+parameters set a priori. An empirical analysis across multiple time horizons DT
+shows that a forecast provided by an I-GARCH(1) process (1 time scale) does not
+capture correctly the dynamic of the realized volatility. An I-GARCH(2) process
+(2 time scales, similar to GARCH(1,1)) is better, while a long memory LM-ARCH
+process (multiple time scales) replicates correctly the dynamic of the realized
+volatility and delivers consistently good forecast for the implied volatility.
+The relationship between market models for the forward variance and the
+volatility forecasts provided by ARCH processes is investigated. The structure
+of the forecast equations is identical, but with different coefficients. Yet
+the process equations for the variance are very different (postulated for a
+market model, induced by the process equations for an ARCH model), and not of
+any usual diffusive type when derived from ARCH.

@@ -1,0 +1,17 @@
+We determine the computational complexity of approximately counting the total
+weight of variable assignments for every complex-weighted Boolean constraint
+satisfaction problem (or CSP) with any number of additional unary (i.e., arity
+1) constraints, particularly, when degrees of input instances are bounded from
+above by a fixed constant. All degree-1 counting CSPs are obviously solvable in
+polynomial time. When the instance's degree is more than two, we present a
+dichotomy theorem that classifies all counting CSPs admitting free unary
+constraints into exactly two categories. This classification theorem extends,
+to complex-weighted problems, an earlier result on the approximation complexity
+of unweighted counting Boolean CSPs of bounded degree. The framework of the
+proof of our theorem is based on a theory of signature developed from Valiant's
+holographic algorithms that can efficiently solve seemingly intractable
+counting CSPs. Despite the use of arbitrary complex weight, our proof of the
+classification theorem is rather elementary and intuitive due to an extensive
+use of a novel notion of limited T-constructibility. For the remaining degree-2
+problems, in contrast, they are as hard to approximate as Holant problems,
+which are a generalization of counting CSPs.

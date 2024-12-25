@@ -1,0 +1,10 @@
+While distributed systems with transfer of processes have become pervasive,
+methods for reasoning about their behaviour are underdeveloped. In this paper
+we propose a bisimulation technique for proving behavioural equivalence of such
+systems modelled in the \emph{higher-order $\pi$-calculus with passivation}
+(and restriction). Previous research for this calculus is limited to context
+bisimulations and normal bisimulations which are either impractical or unsound.
+In contrast, we provide a sound and useful definition of \emph{environmental
+bisimulations}, with several non-trivial examples. Technically, a central point
+in our bisimulations is the clause for parallel composition, which must account
+for passivation of the spawned processes in the middle of their execution.

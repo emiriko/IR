@@ -1,0 +1,20 @@
+Novel method of calculating Nuclear Statistical Equilibrium is presented.
+Basic equations are carefully solved using arbitrary precision arithmetic.
+Special interpolation procedure is then used to retrieve all abundances using
+tabulated results for neutrons and protons, together with basic nuclear data.
+Proton and neutron abundance tables, basic nuclear data and partition functions
+for nuclides used in calculations are provided. Simple interpolation algorithm
+using pre-calculated p and n abundances tabulated as a functions of kT, rho and
+Ye is outlined. Unique properties of this method are: (1) ability to pick-up
+out of NSE selected nuclei only (2) computational time scaling linearly with
+number of re-calculated abundances (3) relatively small amount of stored data:
+only two large tables (4) slightly faster than solving NSE equations using
+traditional Newton-Raphson methods for small networks (few tens of species);
+superior for huge (800-3000) networks (5) do not require initial guess; works
+well on random input (6) can tailored to specific application (7) ability to
+use third-party NSE solvers to obtain fully compatible tables (8) encapsulation
+of the NSE code for bug-free calculations.
+  Range of applications for this approach is possible: coverage test of
+traditional NSE Newton-Raphson codes, generating starting values, code-to-code
+verification and possible replacement of the old legacy procedures in supernova
+simulations.

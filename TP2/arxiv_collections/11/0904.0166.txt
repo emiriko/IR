@@ -1,0 +1,10 @@
+A program calculating Bhabha scattering at high energy colliders is
+considered for porting to the EGEE Grid infrastructure. The program code, which
+is a result of the aITALC project, is ported by using a master-worker operating
+scheme. The job submission, execution and monitoring are implemented using the
+GridWay metascheduler. The unattended execution of jobs turned out to be
+complete and rather efficient, even when pre-knowledge of the grid is absent.
+While the batch of jobs remains organized at the user's side, the actual
+computation was carried out within the phenogrid virtual organization. The
+scientific results support the use of the small angle Bhabha scattering for the
+luminosity measurements of the International Linear Collider project.

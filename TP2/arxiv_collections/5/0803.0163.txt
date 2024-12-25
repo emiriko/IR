@@ -1,0 +1,17 @@
+Spreadsheets often need changing in ways made tedious and risky by Excel. For
+example: simultaneously altering many tables' size, orientation, and position;
+inserting cross-tabulations; moving data between sheets; splitting and merging
+sheets. A safer, faster restructuring tool is, we claim, Excelsior. The result
+of a research project into reducing spreadsheet risk, Excelsior is the first
+ever tool for modularising spreadsheets; i.e. for building them from components
+which can be independently created, tested, debugged, and updated. It
+represents spreadsheets in a way that makes these components explicit,
+separates them from layout, and allows both components and layout to be changed
+without breaking dependent formulae. Here, we report experiments to test that
+this does indeed make such changes easier. In one, we automatically generated a
+cross-tabulation and added it to a spreadsheet. In the other, we generated new
+versions of a 10,000-cell housing-finance spreadsheet containing many
+interconnected 20*40 tables. We varied table sizes from 5*10 to 200*2,000;
+moved tables between sheets; and flipped table orientations. Each change
+generated a spreadsheet with different structure but identical outputs; each
+change took just a few minutes.

@@ -1,0 +1,8 @@
+The M-tree is a paged, dynamically balanced metric access method that
+responds gracefully to the insertion of new objects. To date, no algorithm has
+been published for the corresponding Delete operation. We believe this to be
+non-trivial because of the design of the M-tree's Insert algorithm. We propose
+a modification to Insert that overcomes this problem and give the corresponding
+Delete algorithm. The performance of the tree is comparable to the M-tree and
+offers additional benefits in terms of supported operations, which we briefly
+discuss.

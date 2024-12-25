@@ -1,0 +1,13 @@
+We consider symmetric positive definite systems of linear equations with
+multiple right-hand sides. The seed conjugate gradient method solves one
+right-hand side with the conjugate gradient method and simultaneously projects
+over the Krylov subspace thus developed for the other right-hand sides. Then
+the next system is solved and used to seed the remaining ones. Rounding error
+in the conjugate gradient method limits how much the seeding can improve
+convergence. We propose three changes to the seed conjugate gradient method:
+only the first right-hand side is used for seeding, this system is solved past
+convergence, and the roundoff error is controlled with some
+reorthogonalization. We will show that results are actually better with only
+one seeding, even in the case of related right-hand sides. Controlling rounding
+error gives the potential for rapid convergence for the second and subsequent
+right-hand sides.

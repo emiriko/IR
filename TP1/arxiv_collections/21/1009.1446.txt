@@ -1,0 +1,18 @@
+Ensuring sufficient liquidity is one of the key challenges for designers of
+prediction markets. Various market making algorithms have been proposed in the
+literature and deployed in practice, but there has been little effort to
+evaluate their benefits and disadvantages in a systematic manner. We introduce
+a novel experimental design for comparing market structures in live trading
+that ensures fair comparison between two different microstructures with the
+same trading population. Participants trade on outcomes related to a
+two-dimensional random walk that they observe on their computer screens. They
+can simultaneously trade in two markets, corresponding to the independent
+horizontal and vertical random walks. We use this experimental design to
+compare the popular inventory-based logarithmic market scoring rule (LMSR)
+market maker and a new information based Bayesian market maker (BMM). Our
+experiments reveal that BMM can offer significant benefits in terms of price
+stability and expected loss when controlling for liquidity; the caveat is that,
+unlike LMSR, BMM does not guarantee bounded loss. Our investigation also
+elucidates some general properties of market makers in prediction markets. In
+particular, there is an inherent tradeoff between adaptability to market shocks
+and convergence during market equilibrium.

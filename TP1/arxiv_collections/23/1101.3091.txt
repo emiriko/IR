@@ -1,0 +1,13 @@
+Enumerating all 3-manifold triangulations of a given size is a difficult but
+increasingly important problem in computational topology. A key difficulty for
+enumeration algorithms is that most combinatorial triangulations must be
+discarded because they do not represent topological 3-manifolds. In this paper
+we show how to preempt bad triangulations by detecting genus in
+partially-constructed vertex links, allowing us to prune the enumeration tree
+substantially.
+  The key idea is to manipulate the boundary edges surrounding partial vertex
+links using expected logarithmic time operations. Practical testing shows the
+resulting enumeration algorithm to be significantly faster, with up to 249x
+speed-ups even for small problems where comparisons are feasible. We also
+discuss parallelisation, and describe new data sets that have been obtained
+using high-performance computing facilities.

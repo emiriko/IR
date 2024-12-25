@@ -1,0 +1,21 @@
+We offer a new proof of Furstenberg and Katznelson's density version of the
+Hales-Jewett Theorem:
+  For any $\delta > 0$ there is some $N_0 \geq 1$ such that whenever $A
+\subseteq [k]^N$ with $N \geq N_0$ and $|A|\geq \delta k^N$, $A$ contains a
+\textbf{combinatorial line}: that is, for some $I \subseteq [N]$ nonempty and
+$w_0 \in [k]^{[N]\setminus I}$ we have
+  A \supseteq \{w: w|_{[N]\setminus I} = w_0, w|_I = \rm{const.}\}.
+  Following Furstenberg and Katznelson, we first show that this result is
+equivalent to a `multiple recurrence' assertion for a class of probability
+measures enjoying a certain kind of stationarity. However, we then give a quite
+different proof of this latter assertion through a reduction to an infinitary
+removal lemma in the spirit of Tao's work on infinite random hypergraphs (and
+also its recent re-interpretation in a new proof of the multidimensional
+Szemeredi Theorem by the present author). This reduction is based on a
+structural analysis of these stationary laws closely analogous to the classical
+representation theorems for various partial exchangeable stochastic processes
+in the sense of Hoover, Aldous and Kallenberg. However, the underlying
+combinatorial arguments used to prove this theorem are rather different from
+those required to work with exchangeable arrays, and involve crucially an
+observation that arose during ongoing work by a collaborative team of authors
+to give a purely finitary proof of the above theorem.

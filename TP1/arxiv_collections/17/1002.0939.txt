@@ -1,0 +1,15 @@
+The upcoming many-core architectures require software developers to exploit
+concurrency to utilize available computational power. Today's high-level
+language virtual machines (VMs), which are a cornerstone of software
+development, do not provide sufficient abstraction for concurrency concepts. We
+analyze concrete and abstract concurrency models and identify the challenges
+they impose for VMs. To provide sufficient concurrency support in VMs, we
+propose to integrate concurrency operations into VM instruction sets.
+  Since there will always be VMs optimized for special purposes, our goal is to
+develop a methodology to design instruction sets with concurrency support.
+Therefore, we also propose a list of trade-offs that have to be investigated to
+advise the design of such instruction sets.
+  As a first experiment, we implemented one instruction set extension for
+shared memory and one for non-shared memory concurrency. From our experimental
+results, we derived a list of requirements for a full-grown experimental
+environment for further research.

@@ -1,0 +1,20 @@
+On-chip buses are typically designed to meet performance constraints at
+worst-case conditions, including process corner, temperature, IR-drop, and
+neighboring net switching pattern. This can result in significant performance
+slack at more typical operating conditions. In this paper, we propose a dynamic
+voltage scaling (DVS) technique for buses, based on a double sampling latch
+which can detect and correct for delay errors without the need for
+retransmission. The proposed approach recovers the available slack at
+non-worst-case operating points through more aggressive voltage scaling and
+tracks changing conditions by monitoring the error recovery rate. Voltage
+margins needed in traditional designs to accommodate worst-case performance
+conditions are therefore eliminated, resulting in a significant improvement in
+energy efficiency. The approach was implemented for a 6mm memory read bus
+operating at 1.5GHz (0.13 $\mu$m technology node) and was simulated for a
+number of benchmark programs. Even at the worst-case process and environment
+conditions, energy gains of up to 17% are achieved, with error recovery rates
+under 2.3%. At more typical process and environment conditions, energy gains
+range from 35% to 45%, with a performance degradation under 2%. An analysis of
+optimum interconnect architectures for maximizing energy gains with this
+approach shows that the proposed approach performs well with technology
+scaling.

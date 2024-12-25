@@ -1,0 +1,13 @@
+BCH (Bose-Chaudhuri-Hocquenghen) error correcting codes ([1]-[2]) are now
+widely used in communication systems and digital technology. Direct LFSR(linear
+feedback shifted register)-based encoding of a long BCH code suffers from
+serial-in and serial-out limitation and large fanout effect of some XOR gates.
+This makes the LFSR-based encoders of long BCH codes cannot keep up with the
+data transmission speed in some applications. Several parallel long parallel
+encoders for long cyclic codes have been proposed in [3]-[8]. The technique for
+eliminating the large fanout effect by J-unfolding method and some algebraic
+manipulation was presented in [7] and [8] . In this paper we propose a
+CRT(Chinese Remainder Theorem)-based parallel architecture for long BCH
+encoding. Our novel technique can be used to eliminate the fanout bottleneck.
+The only restriction on the speed of long BCH encoding of our CRT-based
+architecture is $log_2N$, where $N$ is the length of the BCH code.

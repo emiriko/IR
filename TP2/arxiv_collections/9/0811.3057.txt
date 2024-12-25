@@ -1,0 +1,21 @@
+In 1946, Behrend gave a construction of dense finite sets of integers that do
+not contain 3-term arithmetic progressions. In 1961, Rankin generalized
+Behrend's construction to sets avoiding k-term arithmetic progressions, and in
+2008 Elkin refined Behrend's 3-term construction. In this work, we combine
+Elkin's refinement and Rankin's generalization. Arithmetic progressions are
+handled as a special case of polynomial progressions.
+  In 1946, Behrend gave a construction of dense finite sets of integers that do
+not contain a 3-term arithmetic progression (AP). In 1961, Rankin generalized
+Behrend's construction to sets avoiding k-term APs. In 2008, Elkin refined
+Behrend's 3-term construction, and later in 2008, Green & Wolf found a distinct
+approach (albeit morally similar) that is technically more straightforward.
+This work combines Elkin's refinement and Rankin's generalization in the Green
+& Wolf framework. A curious aspect of the construction is that we induct
+through sets that do not contain a long polynomial progression in order to
+construct a set without a long AP. The bounds for r_k(N), the largest size of a
+subset of {1,2,...,N} that does not contain a k element AP, are (where
+\log=\log_2, for sufficiently large N, with n=\ceiling{\log k}): r_3(N) > N
+(\sqrt{360}/(e \pi^{3/2})-\epsilon) \sqrt[4]{2\log N} * 4^{-\sqrt{2 \log N}},
+r_k(N) > CN 2^{-n 2^{(n-1)/2} \sqrt[n]{\log N}+\frac{1}{2n}\log\log N}. The
+improvement over earlier work is in the simplification of the construction, the
+explicitness of the bound for r_3, and in the \log\log term for general k.

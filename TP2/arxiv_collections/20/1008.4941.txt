@@ -1,0 +1,12 @@
+We propose distributed algorithms to automatically deploy a group of robotic
+agents and provide coverage of a discretized environment represented by a
+graph. The classic Lloyd approach to coverage optimization involves separate
+centering and partitioning steps and converges to the set of centroidal Voronoi
+partitions. In this work we present a novel graph coverage algorithm which
+achieves better performance without this separation while requiring only
+pairwise ``gossip'' communication between agents. Our new algorithm provably
+converges to an element of the set of pairwise-optimal partitions, a subset of
+the set of centroidal Voronoi partitions. We illustrate that this new
+equilibrium set represents a significant performance improvement through
+numerical comparisons to existing Lloyd-type methods. Finally, we discuss ways
+to efficiently do the necessary computations.

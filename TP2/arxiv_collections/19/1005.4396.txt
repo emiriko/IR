@@ -1,0 +1,24 @@
+Purpose: To develop a novel aperture-based algorithm for volumetric modulated
+arc therapy (VMAT) treatment plan optimization with high quality and high
+efficiency. Methods: The VMAT optimization problem is formulated as a
+large-scale convex programming problem solved by a column generation approach.
+We consider a cost function consisting two terms, the first which enforces a
+desired dose distribution while the second guarantees a smooth dose rate
+variation between successive gantry angles. At each iteration of the column
+generation method, a subproblem is first solved to generate one more
+deliverable MLC aperture which potentially decreases the cost function most
+effectively. A subsequent master problem is then solved to determine the dose
+rate at all currently generated apertures by minimizing the cost function. The
+iteration of such an algorithm yields a set of deliverable apertures, as well
+as dose rates, at all gantry angles. Results: The algorithm was preliminarily
+tested on five prostate and five head-and-neck clinical cases, each with one
+full gantry rotation and without any couch/collimator rotations. Compared to
+corresponding co-planar IMRT treatment plans (9 fields for prostate cases and 5
+fields for head-and-neck cases), the VMAT plans delivered much lower doses to
+critical structures and more conformal doses to targets. Moreover, extremely
+high efficiency has been achieved in our algorithm. It takes only 5~8 minutes
+on CPU (MATLAB code on an Intel Xeon 2.27 GHz CPU) and 18~31 seconds on GPU
+(CUDA code on an NVIDIA Tesla C1060 GPU card) to generate such a plan.
+Conclusions: We have developed an aperture-based VMAT optimization algorithm
+which can generate clinically deliverable and high quality treatment plans at
+very high efficiency.

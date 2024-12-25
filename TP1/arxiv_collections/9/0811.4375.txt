@@ -1,0 +1,20 @@
+We report developments of the kinetic Monte Carlo (KMC) method with improved
+accuracy and increased versatility for the description of atomic diffusivity on
+metal surfaces. The on-lattice constraint built into our recently proposed
+Self-Learning KMC (SLKMC) [1] is released, leaving atoms free to occupy
+Off-Lattice positions to accommodate several processes responsible for
+small-cluster diffusion, periphery atom motion and hetero-epitaxial growth. The
+technique combines the ideas embedded in the SLKMC method with a new pattern
+recognition scheme fitted to an Off-Lattice model in which relative atomic
+positions is used to characterize and store configurations. Application of a
+combination of the drag and the Repulsive Bias Potential (RBP) methods for
+saddle points searches, allows the treatment of concerted cluster, and multiple
+and single atom motions on equal footing. This tandem approach has helped
+reveal several new atomic mechanisms which contribute to cluster migration. We
+present applications of this Off-Lattice SLKMC to the diffusion of 2D islands
+of Cu (containing 2 to 30 atoms) on Cu and Ag(111), using interatomic potential
+from the Embedded Atom Method. For the hetero system Cu/Ag(111), this technique
+has uncovered mechanisms involving concerted motions such as shear, breathing
+and commensurate-incommensurate occupancies. Although the technique introduces
+complexities in storage and retrieval, it does not introduce noticeable extra
+computational cost.

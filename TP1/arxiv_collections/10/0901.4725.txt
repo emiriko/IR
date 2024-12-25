@@ -1,0 +1,7 @@
+We present a new method for isothermal rigid body simulations using the
+quaternion representation and Langevin dynamics. It can be combined with the
+traditional Langevin or gradient (Brownian) dynamics for the translational
+degrees of freedom to correctly sample the NVT distribution in a simulation of
+rigid molecules. We propose simple, quasi-symplectic second-order numerical
+integrators and test their performance on the TIP4P model of water. We also
+investigate the optimal choice of thermostat parameters.

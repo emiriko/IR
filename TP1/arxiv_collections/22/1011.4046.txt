@@ -1,0 +1,11 @@
+We develop a "semi-parallel" simulation technique suggested by Pretorius and
+Lehner, in which the simulation spacetime volume is divided into a large number
+of small 4-volumes which have only initial and final surfaces. Thus there is no
+two-way communication between processors, and the 4-volumes can be simulated
+independently without the use of MPI. This technique allows us to simulate much
+larger volumes than we otherwise could, because we are not limited by total
+memory size. No processor time is lost waiting for other processors. We compare
+a cosmic string simulation we developed using the semi-parallel technique with
+our previous MPI-based code for several test cases and find a factor of 2.6
+improvement in the total amount of processor time required to accomplish the
+same job for strings evolving in the matter-dominated era.

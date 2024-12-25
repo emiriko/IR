@@ -1,0 +1,8 @@
+We develop probabilistic tools for upper and lower bounding the expected time
+until two independent random walks on $\ZZ$ intersect each other. This leads to
+the first sharp analysis of a non-trivial Birthday attack, proving that
+Pollard's Kangaroo method solves the discrete logarithm problem $g^x=h$ on a
+cyclic group in expected time $(2+o(1))\sqrt{b-a}$ for an average
+$x\in_{uar}[a,b]$. Our methods also resolve a conjecture of Pollard's, by
+showing that the same bound holds when step sizes are generalized from powers
+of 2 to powers of any fixed $n$.

@@ -1,0 +1,8 @@
+This paper presents a method to find new De Bruijn cycles based on ones of
+lesser order. This is done by mapping a De Bruijn cycle to several vertex
+disjoint cycles in a De Bruijn digraph of higher order and connecting these
+cycles into one full cycle. We characterize homomorphisms between De Bruijn
+digraphs of different orders that allow this construction. These maps
+generalize the well-known D-morphism of Lempel between De Bruijn digraphs of
+consecutive orders. Also, an efficient recursive algorithm that yields an
+exponential number of nonbinary De Bruijn cycles is implemented.

@@ -1,0 +1,19 @@
+Optimum implementation of non-conventional wells allows us to increase
+considerably hydrocarbon recovery. By considering the high drilling cost and
+the potential improvement in well productivity, well placement decision is an
+important issue in field development. Considering complex reservoir geology and
+high reservoir heterogeneities, stochastic optimization methods are the most
+suitable approaches for optimum well placement. This paper proposes an
+optimization methodology to determine optimal well location and trajectory
+based upon the Covariance Matrix Adaptation - Evolution Strategy (CMA-ES) which
+is a variant of Evolution Strategies recognized as one of the most powerful
+derivative-free optimizers for continuous optimization. To improve the
+optimization procedure, two new techniques are investigated: (1). Adaptive
+penalization with rejection is developed to handle well placement constraints.
+(2). A meta-model, based on locally weighted regression, is incorporated into
+CMA-ES using an approximate ranking procedure. Therefore, we can reduce the
+number of reservoir simulations, which are computationally expensive. Several
+examples are presented. Our new approach is compared with a Genetic Algorithm
+incorporating the Genocop III technique. It is shown that our approach
+outperforms the genetic algorithm: it leads in general to both a higher NPV and
+a significant reduction of the number of reservoir simulations.

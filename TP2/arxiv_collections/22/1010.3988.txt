@@ -1,0 +1,9 @@
+In this paper, we determine the appropriate decay function for item-based
+collaborative filtering (CF). Instead of intuitive deduction, we introduce the
+Similarity-Signal-to-Noise-Ratio (SSNR) to quantify the impacts of rated items
+on current recommendations. By measuring the variation of SSNR over time, drift
+in user interest is well visualized and quantified. Based on the trend changes
+of SSNR, the piecewise decay function is thus devised and incorporated to build
+our time-aware CF algorithm. Experiments show that the proposed algorithm
+strongly outperforms the conventional item-based CF algorithm and other
+time-aware algorithms with various decay functions.

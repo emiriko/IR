@@ -1,0 +1,21 @@
+We consider the problem of deterministic broadcasting in radio networks when
+the nodes have limited knowledge about the topology of the network. We show
+that for every deterministic broadcasting protocol there exists a network, of
+radius 2, for which the protocol takes at least $\Omega(\sqrt{n}) rounds for
+completing the broadcast. Our argument can be extended to prove a lower bound
+of Omega(\sqrt{nD}) rounds for broadcasting in radio networks of radius D. This
+resolves one of the open problems posed in [29], where in the authors proved a
+lower bound of $\Omega(n^{1/4}) rounds for broadcasting in constant diameter
+networks.
+  We prove the new lower $\Omega(\sqrt{n})$ bound for a special family of
+radius 2 networks. Each network of this family consists of O(\sqrt{n})
+components which are connected to each other via only the source node. At the
+heart of the proof is a novel simulation argument, which essentially says that
+any arbitrarily complicated strategy of the source node can be simulated by the
+nodes of the networks, if the source node just transmits partial topological
+knowledge about some component instead of arbitrary complicated messages. To
+the best of our knowledge this type of simulation argument is novel and may be
+useful in further improving the lower bound or may find use in other
+applications.
+  Keywords: radio networks, deterministic broadcast, lower bound, advice
+string, simulation, selective families, limited topological knowledge.

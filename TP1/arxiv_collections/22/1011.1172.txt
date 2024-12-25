@@ -1,0 +1,20 @@
+We study the underlying mathematical properties of various partial order
+models of concurrency based on transition systems, Petri nets, and event
+structures, and show that the concurrent behaviour of these systems can be
+captured in a uniform way by two simple and general dualities of local
+behaviour. Such dualities are used to define new mu-calculi and logic games for
+the analysis of concurrent systems with partial order semantics. Some results
+of this work are: the definition of a number of mu-calculi which, in some
+classes of systems, induce the same identifications as some of the best known
+bisimulation equivalences for concurrency; and the definition of (infinite)
+higher-order logic games for bisimulation and model-checking, where the players
+of the games are given (local) monadic second-order power on the sets of
+elements they are allowed to play. More specifically, we show that our games
+are sound and complete, and therefore, determined; moreover, they are decidable
+in the finite case and underpin novel decision procedures for bisimulation and
+model-checking. Since these mu-calculi and logic games generalise well-known
+fixpoint logics and game-theoretic decision procedures for concurrent systems
+with interleaving semantics, the results herein give some of the groundwork for
+the design of a logic-based, game-theoretic framework for studying, in a
+uniform way, several concurrent systems regardless of whether they have an
+interleaving or a partial order semantics.

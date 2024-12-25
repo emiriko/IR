@@ -1,0 +1,16 @@
+In 1986 Victor Miller described an algorithm for computing the Weil pairing
+in his unpublished manuscript. This algorithm has then become the core of all
+pairing-based cryptosystems. Many improvements of the algorithm have been
+presented. Most of them involve a choice of elliptic curves of a \emph{special}
+forms to exploit a possible twist during Tate pairing computation. Other
+improvements involve a reduction of the number of iterations in the Miller's
+algorithm. For the generic case, Blake, Murty and Xu proposed three refinements
+to Miller's algorithm over Weierstrass curves. Though their refinements which
+only reduce the total number of vertical lines in Miller's algorithm, did not
+give an efficient computation as other optimizations, but they can be applied
+for computing \emph{both} of Weil and Tate pairings on \emph{all}
+pairing-friendly elliptic curves. In this paper we extend the Blake-Murty-Xu's
+method and show how to perform an elimination of all vertical lines in Miller's
+algorithm during Weil/Tate pairings computation on \emph{general} elliptic
+curves. Experimental results show that our algorithm is faster about 25% in
+comparison with the original Miller's algorithm.

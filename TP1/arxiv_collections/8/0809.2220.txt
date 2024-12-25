@@ -1,0 +1,14 @@
+In the nonlinear prediction of scalar time series, the common practice is to
+reconstruct the state space using time-delay embedding and apply a local model
+on neighborhoods of the reconstructed space. The method of false nearest
+neighbors is often used to estimate the embedding dimension. For prediction
+purposes, the optimal embedding dimension can also be estimated by some
+prediction error minimization criterion. We investigate the proper state space
+reconstruction for multivariate time series and modify the two abovementioned
+criteria to search for optimal embedding in the set of the variables and their
+delays. We pinpoint the problems that can arise in each case and compare the
+state space reconstructions (suggested by each of the two methods) on the
+predictive ability of the local model that uses each of them. Results obtained
+from Monte Carlo simulations on known chaotic maps revealed the non-uniqueness
+of optimum reconstruction in the multivariate case and showed that prediction
+criteria perform better when the task is prediction.

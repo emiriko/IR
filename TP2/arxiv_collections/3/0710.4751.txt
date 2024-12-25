@@ -1,0 +1,12 @@
+Safety-critical embedded systems having to meet real-time constraints are
+expected to be highly predictable in order to guarantee at design time that
+certain timing deadlines will always be met. This requirement usually prevents
+designers from utilizing caches due to their highly dynamic, thus hardly
+predictable behavior. The integration of scratchpad memories represents an
+alternative approach which allows the system to benefit from a performance gain
+comparable to that of caches while at the same time maintaining predictability.
+In this work, we compare the impact of scratchpad memories and caches on worst
+case execution time (WCET) analysis results. We show that caches, despite
+requiring complex techniques, can have a negative impact on the predicted WCET,
+while the estimated WCET for scratchpad memories scales with the achieved
+Performance gain at no extra analysis cost.

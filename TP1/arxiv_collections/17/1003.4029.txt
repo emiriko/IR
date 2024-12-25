@@ -1,0 +1,15 @@
+We study deterministic extractors for oblivious bit-fixing sources (a.k.a.
+resilient functions) and exposure-resilient functions with small min-entropy:
+of the function's n input bits, k << n bits are uniformly random and unknown to
+the adversary. We simplify and improve an explicit construction of extractors
+for bit-fixing sources with sublogarithmic k due to Kamp and Zuckerman (SICOMP
+2006), achieving error exponentially small in k rather than polynomially small
+in k. Our main result is that when k is sublogarithmic in n, the short output
+length of this construction (O(log k) output bits) is optimal for extractors
+computable by a large class of space-bounded streaming algorithms.
+  Next, we show that a random function is an extractor for oblivious bit-fixing
+sources with high probability if and only if k is superlogarithmic in n,
+suggesting that our main result may apply more generally. In contrast, we show
+that a random function is a static (resp. adaptive) exposure-resilient function
+with high probability even if k is as small as a constant (resp. log log n). No
+explicit exposure-resilient functions achieving these parameters are known.

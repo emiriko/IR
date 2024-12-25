@@ -1,0 +1,25 @@
+Internet advertising is a sophisticated game in which the many advertisers
+"play" to optimize their return on investment. There are many "targets" for the
+advertisements, and each "target" has a collection of games with a potentially
+different set of players involved. In this paper, we study the problem of how
+advertisers allocate their budget across these "targets". In particular, we
+focus on formulating their best response strategy as an optimization problem.
+Advertisers have a set of keywords ("targets") and some stochastic information
+about the future, namely a probability distribution over scenarios of cost vs
+click combinations. This summarizes the potential states of the world assuming
+that the strategies of other players are fixed. Then, the best response can be
+abstracted as stochastic budget optimization problems to figure out how to
+spread a given budget across these keywords to maximize the expected number of
+clicks.
+  We present the first known non-trivial poly-logarithmic approximation for
+these problems as well as the first known hardness results of getting better
+than logarithmic approximation ratios in the various parameters involved. We
+also identify several special cases of these problems of practical interest,
+such as with fixed number of scenarios or with polynomial-sized parameters
+related to cost, which are solvable either in polynomial time or with improved
+approximation ratios. Stochastic budget optimization with scenarios has
+sophisticated technical structure. Our approximation and hardness results come
+from relating these problems to a special type of (0/1, bipartite) quadratic
+programs inherent in them. Our research answers some open problems raised by
+the authors in (Stochastic Models for Budget Optimization in Search-Based
+Advertising, Algorithmica, 58 (4), 1022-1044, 2010).

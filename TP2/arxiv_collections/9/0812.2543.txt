@@ -1,0 +1,17 @@
+We study in this paper an $M/M/1$ queue whose server rate depends upon the
+state of an independent Ornstein-Uhlenbeck diffusion process $(X(t))$ so that
+its value at time $t$ is $\mu \phi(X(t))$, where $\phi(x)$ is some bounded
+function and $\mu>0$. We first establish the differential system for the
+conditional probability density functions of the couple $(L(t),X(t))$ in the
+stationary regime, where $L(t)$ is the number of customers in the system at
+time $t$. By assuming that $\phi(x)$ is defined by $\phi(x) = 1-\varepsilon
+((x\wedge a/\varepsilon)\vee(-b/\varepsilon))$ for some positive real numbers
+$a$, $b$ and $\varepsilon$, we show that the above differential system has a
+unique solution under some condition on $a$ and $b$. We then show that this
+solution is close, in some appropriate sense, to the solution to the
+differential system obtained when $\phi$ is replaced with
+$\Phi(x)=1-\varepsilon x$ for sufficiently small $\varepsilon$. We finally
+perform a perturbation analysis of this latter solution for small
+$\varepsilon$. This allows us to check at the first order the validity of the
+so-called reduced service rate approximation, stating that everything happens
+as if the server rate were constant and equal to $\mu(1-\eps\E(X(t)))$.

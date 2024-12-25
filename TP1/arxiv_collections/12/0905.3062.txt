@@ -1,0 +1,19 @@
+The detrending algorithms which are widely used to reduce the impact of
+stellar variability on space-based transit surveys are ill-suited for
+estimating the parameters of confirmed planets, as they unavoidably alter the
+transit signal. We present a post-detection detrending algorithm, which filters
+out signal on other timescales than the period of the transit while preserving
+the transit signal.
+  We compare the performance of this new filter to a well-established
+pre-detection detrending algorithm, by applying both to a set of 20 simulated
+light curves containing planetary transits, stellar variability, and
+instrumental noise as expected for the CoRoT space mission, and performing
+analytic fits to the transits. Compared to the pre-detection benchmark, the new
+post-detection filter systematically yields significantly reduced errors
+(median reduction in relative error over our sample of about 40%) on the
+planet-to-star radius ratio, system scale and impact parameter. This is
+particularly important for active stars, where errors induced by variability
+can otherwise dominate the final error budget on the planet parameters.
+  Aside from improving planet parameter estimates, the new filter preserves all
+signal at the orbital period of the planet, and thus could also be used to
+search for light reflected by the planet.

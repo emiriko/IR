@@ -1,0 +1,9 @@
+We consider a variant of the Cops and Robbers game where the robber can move
+t edges at a time, and show that in this variant, the cop number of a d-regular
+graph with girth larger than 2t+2 is Omega(d^t). By the known upper bounds on
+the order of cages, this implies that the cop number of a connected n-vertex
+graph can be as large as Omega(n^{2/3}) if t>1, and Omega(n^{4/5}) if t>3. This
+improves the Omega(n^{(t-3)/(t-2)}) lower bound of Frieze, Krivelevich, and Loh
+(Variations on Cops and Robbers, J. Graph Theory, 2011) when 1<t<7. We also
+conjecture a general upper bound O(n^{t/t+1}) for the cop number in this
+variant, generalizing Meyniel's conjecture.

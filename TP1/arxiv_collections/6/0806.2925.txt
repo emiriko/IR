@@ -1,0 +1,14 @@
+For medical volume visualization, one of the most important tasks is to
+reveal clinically relevant details from the 3D scan (CT, MRI ...), e.g. the
+coronary arteries, without obscuring them with less significant parts. These
+volume datasets contain different materials which are difficult to extract and
+visualize with 1D transfer functions based solely on the attenuation
+coefficient. Multi-dimensional transfer functions allow a much more precise
+classification of data which makes it easier to separate different surfaces
+from each other. Unfortunately, setting up multi-dimensional transfer functions
+can become a fairly complex task, generally accomplished by trial and error.
+This paper explains neural networks, and then presents an efficient way to
+speed up visualization process by semi-automatic transfer function generation.
+We describe how to use neural networks to detect distinctive features shown in
+the 2D histogram of the volume data and how to use this information for data
+classification.

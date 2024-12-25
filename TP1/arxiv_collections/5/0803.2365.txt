@@ -1,0 +1,13 @@
+We describe SAFIUS, a secure accountable file system that resides over an
+untrusted storage. SAFIUS provides strong security guarantees like
+confidentiality, integrity, prevention from rollback attacks, and
+accountability. SAFIUS also enables read/write sharing of data and provides the
+standard UNIX-like interface for applications. To achieve accountability with
+good performance, it uses asynchronous signatures; to reduce the space required
+for storing these signatures, a novel signature pruning mechanism is used.
+SAFIUS has been implemented on a GNU/Linux based system modifying OpenGFS.
+Preliminary performance studies show that SAFIUS has a tolerable overhead for
+providing secure storage: while it has an overhead of about 50% of OpenGFS in
+data intensive workloads (due to the overhead of performing
+encryption/decryption in software), it is comparable (or better in some cases)
+to OpenGFS in metadata intensive workloads.

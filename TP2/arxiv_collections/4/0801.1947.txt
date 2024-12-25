@@ -1,0 +1,11 @@
+We introduce an efficient method to calculate the ground state of
+one-dimensional lattice models with periodic boundary conditions. The method
+works in the representation of Matrix Product States (MPS), related to the
+Density Matrix Renormalization Group (DMRG) method. It improves on a previous
+approach by Verstraete et al. We introduce a factorization procedure for long
+products of MPS matrices, which reduces the computational effort from m^5 to
+m^3, where m is the matrix dimension, and m ~ 100 - 1000 in typical cases. We
+test the method on the S=1/2 and S=1 Heisenberg chains. It is also applicable
+to non-translationally invariant cases. The new method makes ground state
+calculations with periodic boundary conditions about as efficient as
+traditional DMRG calculations for systems with open boundaries.

@@ -1,0 +1,15 @@
+We consider the following problem: to decompose a nonnegative integer matrix
+into a linear combination of binary matrices that respect the consecutive ones
+prop- erty. This problem occurs in the radiotherapy treatment of cancer. The
+nonnegative integer matrix corresponds to fields giving the different radiation
+beams that a linear accelerator has to send throughout the body of a patient.
+Due to the in- homogeneous dose levels, leaves from a multi-leaf collimator are
+used between the accelerator and the body of the patient to block the
+radiations. The leaves positions can be represented by segments, that are
+binary matrices with the consecutive ones property. The aim is to find
+efficient decompositions that simultaneously minimize the irradiation time, the
+cardinality of the decomposition and the setup-time to configure the multi-leaf
+collimator at each step of the decomposition. We propose for this NP-hard
+multiobjective combinatorial problem a heuristic, based on the adaptation of
+the two-phase Pareto local search. Experiments are carried out on different
+size instances and the results are reported.

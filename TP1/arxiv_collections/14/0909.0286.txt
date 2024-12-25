@@ -1,0 +1,19 @@
+For given computational resources, the accuracy of plasma simulations using
+particles is mainly held back by the noise due to limited statistical sampling
+in the reconstruction of the particle distribution function. A method based on
+wavelet analysis is proposed and tested to reduce this noise. The method, known
+as wavelet based density estimation (WBDE), was previously introduced in the
+statistical literature to estimate probability densities given a finite number
+of independent measurements. Its novel application to plasma simulations can be
+viewed as a natural extension of the finite size particles (FSP) approach, with
+the advantage of estimating more accurately distribution functions that have
+localized sharp features. The proposed method preserves the moments of the
+particle distribution function to a good level of accuracy, has no constraints
+on the dimensionality of the system, does not require an a priori selection of
+a global smoothing scale, and its able to adapt locally to the smoothness of
+the density based on the given discrete particle data. Most importantly, the
+computational cost of the denoising stage is of the same order as one time step
+of a FSP simulation. The method is compared with a recently proposed proper
+orthogonal decomposition based method, and it is tested with three particle
+data sets that involve different levels of collisionality and interaction with
+external and self-consistent fields.

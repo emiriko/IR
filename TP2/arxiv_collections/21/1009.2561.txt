@@ -1,0 +1,16 @@
+Wave-front sensing from focal plane multiple images is a promising technique
+for high-contrast imaging systems. However, the wave-front error of an optics
+system can be properly reconstructed only when it is very small. This paper
+presents an iterative optimization algorithm for the measurement of large
+static wave-front errors directly from only one focal plane image. We firstly
+measure the intensity of the pupil image to get the pupil function of the
+system and acquire the aberrated image on the focal plane with a phase error
+that is to be measured. Then we induce a dynamic phase to the tested pupil
+function and calculate the associated intensity of the reconstructed image on
+the focal plane. The algorithm is to minimize the intensity difference between
+the reconstructed image and the tested aberrated image on the focal plane,
+where the induced phase is as the variable of the optimization algorithm. The
+simulation shows that the wave-front of an optics system can be theoretically
+reconstructed with a high precision, which indicates that such an iterative
+algorithm may be an effective way for the wave-front sensing for high-contrast
+imaging systems.

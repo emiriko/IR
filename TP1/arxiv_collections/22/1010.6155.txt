@@ -1,0 +1,13 @@
+Starting from version 2.0, UML introduced hierarchical composite structures,
+which are an expressive way of defining complex software architectures, but
+which have a very loosely defined semantics in the standard. In this paper we
+propose a set of consistency rules that disambiguate the meaning of UML
+composite structures. Our primary goal was to have an operational model of
+composite structures for the OMEGA UML profile, an executable profile dedicated
+to the formal specification and validation of real-time systems, developed in a
+past project to which we contributed. However, the rules and principles stated
+here are applicable to other hierarchical component models based on the same
+concepts, such as SysML. The presented ruleset is supported by an OCL
+formalization which is described in this report. This formalization was applied
+on different complex models for the evaluation and validation of the proposed
+principles.

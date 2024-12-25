@@ -1,0 +1,14 @@
+A simple method for improving cache efficiency of serial and parallel
+explicit finite procedure with application to casting solidification simulation
+over three-dimensional complex geometries is presented. The method is based on
+division of the global data to smaller blocks and treating each block
+independently from others at each time step. A novel parallel finite element
+algorithm for non-overlapped element-base decomposed domain is presented for
+implementation of serial and parallel version of the presented method. Effect
+of mesh reordering on the efficiency is also investigated. A simple algorithm
+is presented for high quality decomposition of decoupled global mesh. Our
+result shows 10-20 \% performance improvement by mesh reordering and 1.2-2.2
+speedup with application of the presented cache efficient algorithm (for serial
+and parallel versions). Also the presented parallel solver (without
+cache-efficient feature) shows nearly linear speedup on the traditional
+Ethernet networked Linux cluster.

@@ -1,0 +1,12 @@
+We describe an algorithm to count the number of distinct real zeros of a
+polynomial (square) system f. The algorithm performs O(n D kappa(f)) iterations
+where n is the number of polynomials (as well as the dimension of the ambient
+space), D is a bound on the polynomials' degree, and kappa(f) is a condition
+number for the system. Each iteration uses an exponential number of operations.
+The algorithm uses finite-precision arithmetic and a polynomial bound for the
+precision required to ensure the returned output is correct is exhibited. This
+bound is a major feature of our algorithm since it is in contrast with the
+exponential precision required by the existing (symbolic) algorithms for
+counting real zeros. The algorithm parallelizes well in the sense that each
+iteration can be computed in parallel polynomial time with an exponential
+number of processors.

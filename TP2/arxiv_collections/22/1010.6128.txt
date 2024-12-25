@@ -1,0 +1,16 @@
+The advent of large cosmological sky surveys - ushering in the era of
+precision cosmology - has been accompanied by ever larger cosmological
+simulations. The analysis of these simulations, which currently encompass tens
+of billions of particles and up to trillion particles in the near future, is
+often as daunting as carrying out the simulations in the first place.
+Therefore, the development of very efficient analysis tools combining
+qualitative and quantitative capabilities is a matter of some urgency. In this
+paper we introduce new analysis features implemented within ParaView, a
+parallel, open-source visualization toolkit, to analyze large N-body
+simulations. The new features include particle readers and a very efficient
+halo finder which identifies friends-of-friends halos and determines common
+halo properties. In combination with many other functionalities already
+existing within ParaView, such as histogram routines or interfaces to Python,
+this enhanced version enables fast, interactive, and convenient analyses of
+large cosmological simulations. In addition, development paths are available
+for future extensions.

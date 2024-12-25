@@ -1,0 +1,18 @@
+We consider Holder smoothness classes of surfaces for which we construct
+piecewise polynomial approximation networks, which are graphs with polynomial
+pieces as nodes and edges between polynomial pieces that are in `good
+continuation' of each other. Little known to the community, a similar
+construction was used by Kolmogorov and Tikhomirov in their proof of their
+celebrated entropy results for Holder classes.
+  We show how to use such networks in the context of detecting geometric
+objects buried in noise to approximate the scan statistic, yielding an
+optimization problem akin to the Traveling Salesman. In the same context, we
+describe an alternative approach based on computing the longest path in the
+network after appropriate thresholding.
+  For the special case of curves, we also formalize the notion of `good
+continuation' between beamlets in any dimension, obtaining more economical
+piecewise linear approximation networks for curves.
+  We include some numerical experiments illustrating the use of the beamlet
+network in characterizing the filamentarity content of 3D datasets, and show
+that even a rudimentary notion of good continuity may bring substantial
+improvement.

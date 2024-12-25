@@ -1,0 +1,17 @@
+In this paper, we propose a parameter space augmentation approach that is
+based on "intentionally" introducing a pseudo-nuisance parameter into
+generalized linear models for the purpose of variance reduction. We first
+consider the parameter whose norm is equal to one. By introducing a
+pseudo-nuisance parameter into models to be estimated, an extra estimation is
+asymptotically normal and is, more importantly, non-positively correlated to
+the estimation that asymptotically achieves the Fisher/quasi Fisher
+information. As such, the resulting estimation is asymptotically with smaller
+variance-covariance matrices than the Fisher/quasi Fisher information. For
+general cases where the norm of the parameter is not necessarily equal to one,
+two-stage quasi-likelihood procedures separately estimating the scalar and
+direction of the parameter are proposed. The traces of the limiting
+variance-covariance matrices are in general smaller than or equal to that of
+the Fisher/quasi-Fisher information. We also discuss the pros and cons of the
+new methodology, and possible extensions. As this methodology of parameter
+space augmentation is general, and then may be readily extended to handle, say,
+cluster data and correlated data, and other models.

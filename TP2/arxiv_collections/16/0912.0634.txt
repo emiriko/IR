@@ -1,0 +1,19 @@
+The motion of pedestrian crowds (e.g. for simulation of an evacuation
+situation) can be modeled as a multi-body system of self driven particles with
+repulsive interaction. We use a few simple situations to determine the simplest
+allowed functional form of the force function. More complexity may be necessary
+to model more complex situations. There are many unknown parameters to such
+models, which have to be adjusted correctly. The parameters can be related to
+quantities that can be measured independently, like step length and frequency.
+The microscopic behavior is, however, only poorly reproduced in many
+situations, a person approaching a standing or slow obstacle will e.g. show
+oscillations in position, and the trajectories of two persons meeting in a
+corridor in opposite direction will be far from realistic and somewhat erratic.
+This is inpart due to the assumption of instantaneous reaction on the momentary
+situation. Obviously, persons react with a small time lag, while on the other
+hand they will anticipate changing situations for at least a short time. Thus
+basing the repulsive interaction on a (linear) extrapolation over a short time
+(e.g. 1 s) eliminates the oscillations at slowing down and smoothes the
+patterns of giving way to others to a more realistic behavior. A second problem
+is the additive combination of binary interactions. It is shown that combining
+only a few relevant interactions gives better model performance.

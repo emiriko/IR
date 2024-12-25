@@ -1,0 +1,21 @@
+The susceptible-infectious-recovered (SIR) model describes the evolution of
+three species of individuals which are subject to an infection and recovery
+mechanism. A susceptible $S$ can become infectious with an infection rate
+$\beta$ by an infectious $I$- type provided that both are in contact. The $I$-
+type may recover with a rate $\gamma$ and from then on stay immune. Due to the
+coupling between the different individuals, the model is nonlinear and out of
+equilibrium. We adopt a stochastic individual-based description where
+individuals are represented by nodes of a graph and contact is defined by the
+links of the graph. Mapping the underlying Master equation into a quantum
+formulation in terms of spin operators, the hierarchy of evolution equations
+can be solved exactly for arbitrary initial conditions on a linear chain. In
+case of uncorrelated random initial conditions the exact time evolution for all
+three individuals of the SIR model is given analytically. Depending on the
+initial conditions and reaction rates $\beta$ and $\gamma$, the $I$-population
+may increase initially before decaying to zero. Due to fluctuations, isolated
+regions of susceptible individuals evolve and unlike in the standard mean-field
+SIR model one observes a finite stationary distribution of the $S$-type even
+for large population size. The exact results for the ensemble averaged
+population size are compared with simulations for single realizations of the
+process and also with standard mean field theory which is expected to be valid
+on large fully-connected graphs.

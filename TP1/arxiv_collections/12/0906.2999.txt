@@ -1,0 +1,18 @@
+Meta-analysis seeks to combine the results of several experiments in order to
+improve the accuracy of decisions. It is common to use a test for homogeneity
+to determine if the results of the several experiments are sufficiently similar
+to warrant their combination into an overall result. Cochran's Q statistic is
+frequently used for this homogeneity test. It is often assumed that Q follows a
+chi-square distribution under the null hypothesis of homogeneity, but it has
+long been known that this asymptotic distribution for Q is not accurate for
+moderate sample sizes. Here we present formulas for the mean and variance of Q
+under the null hypothesis which represent O(1/n) corrections to the
+corresponding chi-square moments in the one parameter case. The formulas are
+fairly complicated, and so we provide a program (available at
+http://www.imperial.ac.uk/stathelp/researchprojects/metaanalysis) for making
+the necessary calculations. We apply the results to the standardized mean
+difference (Cohen's d-statistic) and consider two approximations: a gamma
+distribution with estimated shape and scale parameters and the chi-square
+distribution with fractional degrees of freedom equal to the estimated mean of
+Q. We recommend the latter distribution as an approximate distribution for Q to
+use for testing the null hypothesis.

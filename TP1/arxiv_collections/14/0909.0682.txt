@@ -1,0 +1,14 @@
+In this paper, we address the problem of generating preferred plans by
+combining the procedural control knowledge specified by Hierarchical Task
+Networks (HTNs) with rich qualitative user preferences. The outcome of our work
+is a language for specifyin user preferences, tailored to HTN planning,
+together with a provably optimal preference-based planner, HTNPLAN, that is
+implemented as an extension of SHOP2. To compute preferred plans, we propose an
+approach based on forward-chaining heuristic search. Our heuristic uses an
+admissible evaluation function measuring the satisfaction of preferences over
+partial plans. Our empirical evaluation demonstrates the effectiveness of our
+HTNPLAN heuristics. We prove our approach sound and optimal with respect to the
+plans it generates by appealing to a situation calculus semantics of our
+preference language and of HTN planning. While our implementation builds on
+SHOP2, the language and techniques proposed here are relevant to a broad range
+of HTN planners.

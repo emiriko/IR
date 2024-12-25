@@ -1,0 +1,12 @@
+The movement of a flock with a single leader (and a directed path from it to
+every agent) can be stabilized. Nonetheless for large flocks perturbations in
+the movement of the leader may grow to a considerable size as they propagate
+throughout the flock and before they die out over time. As an example we
+consider a string of N+1 oscillators moving in the line. Each one `observes'
+the relative velocity and position of only its nearest neighbors. This
+information is then used to determine its own acceleration. Now we fix all
+parameters except the number of oscillators. We then show (within a certain
+class of systems) that a perturbation in the leader's orbit is almost always
+amplified exponentially in N as it propagates towards the outlying members of
+the flock. The only exception is when there is a symmetry present in the
+interaction: in that case the growth of the perturbation is linear in N.

@@ -1,0 +1,12 @@
+We present two adaptive schemes for dynamically choosing the number of
+parallel instances in parallel evolutionary algorithms. This includes the
+choice of the offspring population size in a (1+$\lambda$) EA as a special
+case. Our schemes are parameterless and they work in a black-box setting where
+no knowledge on the problem is available. Both schemes double the number of
+instances in case a generation ends without finding an improvement. In a
+successful generation, the first scheme resets the system to one instance,
+while the second scheme halves the number of instances. Both schemes provide
+near-optimal speed-ups in terms of the parallel time. We give upper bounds for
+the asymptotic sequential time (i.e., the total number of function evaluations)
+that are not larger than upper bounds for a corresponding non-parallel
+algorithm derived by the fitness-level method.

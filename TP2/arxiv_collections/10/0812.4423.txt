@@ -1,0 +1,9 @@
+In this paper we describe a quantum algorithm to solve sparse systems of
+nonlinear differential equations whose nonlinear terms are polynomials. The
+algorithm is nondeterministic and its expected resource requirements are
+polylogarithmic in the number of variables and exponential in the integration
+time. The best classical algorithm runs in a time scaling linearly with the
+number of variables, so this provides an exponential improvement. The algorithm
+is built on two subroutines: (i) a quantum algorithm to implement a nonlinear
+transformation of the probability amplitudes of an unknown quantum state; and
+(ii) a quantum implementation of Euler's method.

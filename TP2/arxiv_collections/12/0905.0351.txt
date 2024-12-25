@@ -1,0 +1,17 @@
+We present a set of global, self-consistent N-body/SPH simulations of the
+dynamic evolution of galactic discs with gas and including magnetic fields. We
+have implemented a description to follow the evolution of magnetic fields with
+the ideal induction equation in the SPH part of the Vine code. Results from a
+direct implementation of the field equations are compared to a representation
+by Euler potentials, which pose a div(B)-free description, an constraint not
+fulfilled for the direct implementation. All simulations are compared to an
+implementation of magnetic fields in the Gadget code which includes also
+cleaning methods for div(B).
+  Starting with a homogeneous seed field we find that by differential rotation
+and spiral structure formation of the disc the field is amplified by one order
+of magnitude within five rotation periods of the disc. The amplification is
+stronger for higher numerical resolution. Moreover, we find a tight connection
+of the magnetic field structure to the density pattern of the galaxy in our
+simulations, with the magnetic field lines being aligned with the developing
+spiral pattern of the gas. Our simulations clearly show the importance of
+non-axisymmetry for the evolution of the magnetic field.

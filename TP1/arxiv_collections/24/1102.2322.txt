@@ -1,0 +1,17 @@
+We introduce new methods of analysing time to event data via extended
+versions of the proportional hazards and accelerated failure time (AFT) models.
+In many time to event studies, the time of first observation is arbitrary, in
+the sense that no risk modifying event occurs. This is particularly common in
+epidemiological studies. We show formally that, in these situations, it is not
+sensible to take the first observation as the time origin, either in AFT or
+proportional hazards type models. Instead, we advocate using age of the subject
+as the time scale. We account for the fact that baseline observations may be
+made at different ages in different patients via a two stage procedure. First,
+we marginally regress any potentially age-varying covariates against age,
+retaining the residuals. These residuals are then used as covariates in the
+fitting of either an AFT model or a proportional hazards model. We call the
+procedures residual accelerated failure time (RAFT) regression and residual
+proportional hazards (RPH) regression respectively. We compare standard AFT
+with RAFT, and demonstrate superior predictive ability of RAFT in real
+examples. In epidemiology, this has real implications in terms of risk
+communication to both patients and policy makers.

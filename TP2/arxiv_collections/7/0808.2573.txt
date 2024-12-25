@@ -1,0 +1,15 @@
+Many experiments, and in particular gravitational wave detectors, produce
+continuous streams of data whose frequency representations contain discrete,
+relatively narrowband coherent features at high amplitude. We discuss the
+application of digital Fourier transforms (DFTs) to characterization of these
+features, hereafter frequently referred to as lines. Application of DFTs to
+continuously produced time domain data are achieved through an algorithm
+hereafter referred to as EFC for efficient time-domain determination of the
+Fourier coefficients of a data set. We first define EFC and discuss parameters
+relating to the algorithm that determine its properties and action on the data.
+In gravitational wave interferometers, these lines are commonly due to
+parasitic sources of coherent background interference coupling into the
+instrument. Using GEO 600 data, we next demonstrate that time domain
+subtraction of lines can proceed without detrimental effects either on features
+at frequencies separated from that of the subtracted line, or on features at
+the frequency of the line but having different stationarity properties.

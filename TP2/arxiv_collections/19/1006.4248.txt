@@ -1,0 +1,23 @@
+Multi-packet reception (MPR) has been recognized as a powerful
+capacity-enhancement technique for random-access wireless local area networks
+(WLANs). As is common with all random access protocols, the wireless channel is
+often under-utilized in MPR WLANs. In this paper, we propose a novel
+multi-round contention random-access protocol to address this problem. This
+work complements the existing random-access methods that are based on
+single-round contention. In the proposed scheme, stations are given multiple
+chances to contend for the channel until there are a sufficient number of
+``winning" stations that can share the MPR channel for data packet
+transmission. The key issue here is the identification of the optimal time to
+stop the contention process and start data transmission. The solution
+corresponds to finding a desired tradeoff between channel utilization and
+contention overhead. In this paper, we conduct a rigorous analysis to
+characterize the optimal strategy using the theory of optimal stopping. An
+interesting result is that the optimal stopping strategy is a simple
+threshold-based rule, which stops the contention process as soon as the total
+number of winning stations exceeds a certain threshold. Compared with the
+conventional single-round contention protocol, the multi-round contention
+scheme significantly enhances channel utilization when the MPR capability of
+the channel is small to medium. Meanwhile, the scheme automatically falls back
+to single-round contention when the MPR capability is very large, in which case
+the throughput penalty due to random access is already small even with
+single-round contention.

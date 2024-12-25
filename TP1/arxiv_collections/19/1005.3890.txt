@@ -1,0 +1,21 @@
+Interacting binaries consist of a secondary star which fills or is very close
+to filling its Roche lobe, resulting in accretion onto the primary star, which
+is often, but not always, a compact object. In many cases, the primary star,
+secondary star, and the accretion disk can all be significant sources of
+luminosity. SIM Lite will only measure the photocenter of an astrometric
+target, and thus determining the true astrometric orbits of such systems will
+be difficult. We have modified the Eclipsing Light Curve code (Orosz &
+Hauschildt 2000) to allow us to model the flux-weighted reflex motions of
+interacting binaries, in a code we call REFLUX. This code gives us sufficient
+flexibility to investigate nearly every configuration of interacting binary. We
+find that SIM Lite will be able to determine astrometric orbits for all
+sufficiently bright interacting binaries where the primary or secondary star
+dominates the luminosity. For systems where there are multiple components that
+comprise the spectrum in the optical bandpass accessible to SIM Lite, we find
+it is possible to obtain absolute masses for both components, although
+multi-wavelength photometry will be required to disentangle the multiple
+components. In all cases, SIM Lite will at least yield accurate inclinations,
+and provide valuable information that will allow us to begin to understand the
+complex evolution of mass-transferring binaries. It is critical that SIM Lite
+maintains a multi-wavelength capability to allow for the proper deconvolution
+of the astrometric orbits in multi-component systems.

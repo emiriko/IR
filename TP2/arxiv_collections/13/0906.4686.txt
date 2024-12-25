@@ -1,0 +1,14 @@
+As part of the SMOS mission (Soil Moisture and Ocean Salinity) IMS and EPHYSE
+laboratories are involved in the study and validation of the inversion
+algorithm LMEB. In the framework of this study, we developed a model using the
+numerical modeling software-HFSS ANSOFT. It allows the computation of the
+emissivity of multilayer systems (soil-litter for example). We have improved
+our approach to incorporate new parameters that can have a significant effect
+on the measurements. Indeed, so far the effect of soil roughness associated
+with the litter has not been studied. Moreover, the thickness of litter is
+never constant and we must therefore introduce a realistic profile of litter
+thickness. This article presents our work to integrate these profiles in our
+numerical model. These profiles may be derived from measurements (litter
+thickness profiles or soil roughness profiles) or calculations (roughness
+profile). In both cases the input data of our model are files of XYZ points
+representing our profile.

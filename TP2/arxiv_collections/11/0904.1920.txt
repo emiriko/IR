@@ -1,0 +1,16 @@
+Motion planning is a fundamental problem of robotics with applications in
+many areas of computer science and beyond. Its restriction to graphs has been
+investigated in the literature for it allows to concentrate on the
+combinatorial problem abstracting from geometric considerations. In this paper,
+we consider motion planning over directed graphs, which are of interest for
+asymmetric communication networks. Directed graphs generalize undirected
+graphs, while introducing a new source of complexity to the motion planning
+problem: moves are not reversible. We first consider the class of acyclic
+directed graphs and show that the feasibility can be solved in time linear in
+the product of the number of vertices and the number of arcs. We then turn to
+strongly connected directed graphs. We first prove a structural theorem for
+decomposing strongly connected directed graphs into strongly biconnected
+components.Based on the structural decomposition, we give an algorithm for the
+feasibility of motion planning on strongly connected directed graphs, and show
+that it can also be decided in time linear in the product of the number of
+vertices and the number of arcs.

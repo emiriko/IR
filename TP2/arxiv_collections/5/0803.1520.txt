@@ -1,0 +1,13 @@
+Strong replica consistency is often achieved by writing deterministic
+applications, or by using a variety of mechanisms to render replicas
+deterministic. There exists a large body of work on how to render replicas
+deterministic under the benign fault model. However, when replicas can be
+subject to malicious faults, most of the previous work is no longer effective.
+Furthermore, the determinism of the replicas is often considered harmful from
+the security perspective and for many applications, their integrity strongly
+depends on the randomness of some of their internal operations. This calls for
+new approaches towards achieving replica consistency while preserving the
+replica randomness. In this paper, we present two such approaches. One is based
+on Byzantine agreement and the other on threshold coin-tossing. Each approach
+has its strength and weaknesses. We compare the performance of the two
+approaches and outline their respective best use scenarios.

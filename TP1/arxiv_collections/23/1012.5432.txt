@@ -1,0 +1,25 @@
+Models for topological quantum computation are based on braiding and fusing
+anyons (quasiparticles of fractional statistics) in (2+1)-D. The anyons that
+can exist in a physical theory are determined by the symmetry group of the
+Hamiltonian. In the case that the Hamiltonian undergoes spontaneous symmetry
+breaking of the full symmetry group G to a finite residual gauge group H,
+particles are given by representations of the quantum double $D(H)$ of the
+subgroup. The quasi-triangular Hopf Algebra D(H) is obtained from Drinfeld's
+quantum double construction applied to the algebra F(H) of functions on the
+finite group H.
+  A major new contribution of this work is a program written in MAGMA to
+compute the particles (and their properties - including spin) that can exist in
+a system with an arbitrary finite residual gauge group, in addition to the
+braiding and fusion rules for those particles. We compute explicitly the fusion
+rules for two non-abelian group doubles suggested for universal quantum
+computation: $S_3$ and $A_5$, and discover some interesting results,
+subsystems, and symmetries in the tables. SO(3)_4 (the restriction of
+Chern-Simons theory $SU(2)_4$) and its mirror image are discovered as
+3-particle subsystems in the 8-particle $S_3$ quantum double. The tables
+demonstrate that both $S_3$ and $A_5$ anyons are all Majorana, but this is not
+the case for all finite groups. In the appendices, the quantum doubles for the
+remaining nonabelian subgroups of SO(3) - $S_4$, $A_4$, and $D_4$ (the second
+in the infinite family $D_n$) - are tabulated and analyzed. In addition, the
+probabilities of obtaining any given fusion product in quantum computation
+applications are determined and programmed in MAGMA. Throughout, connections to
+possible experiments are mentioned.

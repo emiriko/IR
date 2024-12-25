@@ -1,0 +1,13 @@
+In this paper, we propose a decentralized coordina- tion algorithm for safe
+and efficient management of a group of mobile robots following predefined paths
+in a dynamic industrial environment. The proposed algorithm is based on a
+shared resources protocol and a replanning strategy. It is proved to guarantee
+ordered traffic flows avoiding collisions, deadlocks (stall situations) and
+livelock (agents move without reaching final destinations). Mutual access to
+resources has been proved for the proposed approach while condition on the
+maximum number of AGVs is given to ensure the absence of deadlocks during
+system evolutions. Finally conditions to verify a local livelocks will also be
+proposed. In consistency with the model of distributed robotic systems (DRS),
+no centralized mechanism, synchronized clock, shared memory or ground support
+is needed. A local inter-robot communication, based on sign-boards, is
+considered among a small number of spatially adjacent robotic units.

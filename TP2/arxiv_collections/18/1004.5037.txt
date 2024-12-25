@@ -1,0 +1,21 @@
+This paper investigates the use of multiple directions of stratification as a
+variance reduction technique for Monte Carlo simulations of path-dependent
+options driven by Gaussian vectors. The precision of the method depends on the
+choice of the directions of stratification and the allocation rule within each
+strata. Several choices have been proposed but, even if they provide variance
+reduction, their implementation is computationally intensive and not applicable
+to realistic payoffs, in particular not to Asian options with barrier.
+Moreover, all these previously published methods employ orthogonal directions
+for multiple stratification. In this work we investigate the use of algorithms
+producing convenient directions, generally non-orthogonal, combining a lower
+computational cost with a comparable variance reduction. In addition, we study
+the accuracy of optimal allocation in terms of variance reduction compared to
+the Latin Hypercube Sampling. We consider the directions obtained by the Linear
+Transformation and the Principal Component Analysis. We introduce a new
+procedure based on the Linear Approximation of the explained variance of the
+payoff using the law of total variance. In addition, we exhibit a novel
+algorithm that permits to correctly generate normal vectors stratified along
+non-orthogonal directions. Finally, we illustrate the efficiency of these
+algorithms in the computation of the price of different path-dependent options
+with and without barriers in the Black-Scholes and in the Cox-Ingersoll-Ross
+markets.

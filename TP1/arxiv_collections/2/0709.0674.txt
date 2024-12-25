@@ -1,0 +1,22 @@
+I postulate that human or other intelligent agents function or should
+function as follows. They store all sensory observations as they come - the
+data is holy. At any time, given some agent's current coding capabilities, part
+of the data is compressible by a short and hopefully fast program / description
+/ explanation / world model. In the agent's subjective eyes, such data is more
+regular and more "beautiful" than other data. It is well-known that knowledge
+of regularity and repeatability may improve the agent's ability to plan actions
+leading to external rewards. In absence of such rewards, however, known beauty
+is boring. Then "interestingness" becomes the first derivative of subjective
+beauty: as the learning agent improves its compression algorithm, formerly
+apparently random data parts become subjectively more regular and beautiful.
+Such progress in compressibility is measured and maximized by the curiosity
+drive: create action sequences that extend the observation history and yield
+previously unknown / unpredictable but quickly learnable algorithmic
+regularity. We discuss how all of the above can be naturally implemented on
+computers, through an extension of passive unsupervised learning to the case of
+active data selection: we reward a general reinforcement learner (with access
+to the adaptive compressor) for actions that improve the subjective
+compressibility of the growing data. An unusually large breakthrough in
+compressibility deserves the name "discovery". The "creativity" of artists,
+dancers, musicians, pure mathematicians can be viewed as a by-product of this
+principle. Several qualitative examples support this hypothesis.

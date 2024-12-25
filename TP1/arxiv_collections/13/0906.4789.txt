@@ -1,0 +1,15 @@
+The selection of the optimal feature subset and the classification has become
+an important issue in the field of iris recognition. In this paper we propose
+several methods for iris feature subset selection and vector creation. The
+deterministic feature sequence is extracted from the iris image by using the
+contourlet transform technique. Contourlet transform captures the intrinsic
+geometrical structures of iris image. It decomposes the iris image into a set
+of directional sub-bands with texture details captured in different
+orientations at various scales so for reducing the feature vector dimensions we
+use the method for extract only significant bit and information from normalized
+iris images. In this method we ignore fragile bits. And finally we use SVM
+(Support Vector Machine) classifier for approximating the amount of people
+identification in our proposed system. Experimental result show that most
+proposed method reduces processing time and increase the classification
+accuracy and also the iris feature vector length is much smaller versus the
+other methods.

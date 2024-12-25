@@ -1,0 +1,16 @@
+The proposed system aims at the retrieval of the summarized information from
+the documents collected from web based search engine as per the user query
+related to cricket and hockey domain. The system is designed in a manner that
+it takes the voice commands as keywords for search. The parts of speech in the
+query are extracted using the natural language extractor for English. Based on
+the keywords the search is categorized into 2 types: - 1.Concept wise -
+information retrieved to the query is retrieved based on the keywords and the
+concept words related to it. The retrieved information is summarized using the
+probabilistic approach and weighted means algorithm.2.Keyword search - extracts
+the result relevant to the query from the highly ranked document retrieved from
+the search by the search engine. The relevant search results are retrieved and
+then keywords are used for summarizing part. During summarization it follows
+the weighted and probabilistic approaches in order to identify the data
+comparable to the keywords extracted. The extracted information is then refined
+repeatedly through the aggregation process to reduce redundancy. Finally the
+resultant data is submitted to the user in the form of audio output.

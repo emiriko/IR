@@ -1,0 +1,10 @@
+Many neural learning algorithms require to solve large least square systems
+in order to obtain synaptic weights. Moore-Penrose inverse matrices allow for
+solving such systems, even with rank deficiency, and they provide minimum-norm
+vectors of synaptic weights, which contribute to the regularization of the
+input-output mapping. It is thus of interest to develop fast and accurate
+algorithms for computing Moore-Penrose inverse matrices. In this paper, an
+algorithm based on a full rank Cholesky factorization is proposed. The
+resulting pseudoinverse matrices are similar to those provided by other
+algorithms. However the computation time is substantially shorter, particularly
+for large systems.

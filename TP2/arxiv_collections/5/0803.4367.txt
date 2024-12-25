@@ -1,0 +1,16 @@
+Proteins have been empirically linked to memory. If memory relates to protein
+structure, then each conformation would_functionally_ code only one bit, making
+it difficult to explain large memories. Nor is there a simple way to relate
+memory to protein dynamics on current molecular dynamics (MD), which is
+memoryless. Here we point out that MD may be modified to involve memory ab
+initio without any new hypothesis: simply replace the electrostatic (Coulomb)
+force by the electrodynamic force--which is more accurate. We now need to solve
+functional differential equations (FDEs), instead of the ordinary differential
+equations (ODEs) currently solved in MD. Unlike ODEs, retarded FDEs are
+history-dependent: so memory is already present even at the level of
+interacting sites within molecules. The resulting increase in computational
+complexity is within the reach of current computers. While Amdahl's law does
+pose a challenge to parallelised time-stepping with this model, the
+compute-intensive part--the force calculation--may still be carried out in
+parallel. Thus, reformulating MD to use FDEs is feasible, and this could help
+to understand the possible dynamical basis of memory.

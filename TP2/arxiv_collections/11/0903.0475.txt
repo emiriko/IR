@@ -1,0 +1,12 @@
+An attractive mechanism to specify global constraints in rostering and other
+domains is via formal languages. For instance, the Regular and Grammar
+constraints specify constraints in terms of the languages accepted by an
+automaton and a context-free grammar respectively. Taking advantage of the
+fixed length of the constraint, we give an algorithm to transform a
+context-free grammar into an automaton. We then study the use of minimization
+techniques to reduce the size of such automata and speed up propagation. We
+show that minimizing such automata after they have been unfolded and domains
+initially reduced can give automata that are more compact than minimizing
+before unfolding and reducing. Experimental results show that such
+transformations can improve the size of rostering problems that we can 'model
+and run'.

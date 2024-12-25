@@ -1,0 +1,22 @@
+A major open problem in communication complexity is whether or not quantum
+protocols can be exponentially more efficient than classical protocols on
+_total_ Boolean functions in the two-party interactive model. The answer
+appears to be ``No''. In 2002, Razborov proved this conjecture for so far the
+most general class of functions
+  F(x, y) = f(x_1 * y_1, x_2 * y_2, ..., x_n * y_n), where f is a_symmetric_
+Boolean function on n Boolean inputs, and x_i, y_i are the i'th bit of x and y,
+respectively. His elegant proof critically depends on the symmetry of f.
+  We develop a lower-bound method that does not require symmetry and prove the
+conjecture for a broader class of functions. Each of those functions F(x, y) is
+obtained by what we call the ``block-composition'' of a ``building block'' g :
+{0, 1}^k by {0, 1}^k --> {0, 1}, with an f : {0, 1}^n -->{0, 1}, such that
+  F(x, y) = f(g(x_1, y_1), g(x_2, y_2), ..., g(x_n, y_n)), where x_i and y_i
+are the i'th k-bit block of x and y, respectively.
+  We show that as long as g itself is ``hard'' enough, its block-composition
+with an_arbitrary_ f has polynomially related quantum and classical
+communication complexities. Our approach gives an alternative proof for
+Razborov's result (albeit with a slightly weaker parameter), and establishes
+new quantum lower bounds. For example, when g is the Inner Product function for
+k=\Omega(\log n), the_deterministic_ communication complexity of its
+block-composition with_any_ f is asymptotically at most the quantum complexity
+to the power of 7.

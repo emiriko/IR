@@ -1,0 +1,17 @@
+To assess the classification accuracy of a continuous diagnostic result, the
+receiver operating characteristic (ROC) curve is commonly used in applications.
+The partial area under the ROC curve (pAUC) is one of widely accepted summary
+measures due to its generality and ease of probability interpretation. In the
+field of life science, a direct extension of the pAUC into the time-to-event
+setting can be used to measure the usefulness of a biomarker for disease
+detection over time. Without using a trapezoidal rule, we propose nonparametric
+estimators, which are easily computed and have closed-form expressions, for the
+time-dependent pAUC. The asymptotic Gaussian processes of the estimators are
+established and the estimated variance-covariance functions are provided, which
+are essential in the construction of confidence intervals. The finite sample
+performance of the proposed inference procedures are investigated through a
+series of simulations. Our method is further applied to evaluate the
+classification ability of CD4 cell counts on patient's survival time in the
+AIDS Clinical Trials Group (ACTG) 175 study. In addition, the inferences can be
+generalized to compare the time-dependent pAUCs between patients received the
+prior antiretroviral therapy and those without it.

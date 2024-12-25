@@ -1,0 +1,21 @@
+Material indentation studies, in which a probe is brought into controlled
+physical contact with an experimental sample, have long been a primary means by
+which scientists characterize the mechanical properties of materials. More
+recently, the advent of atomic force microscopy, which operates on the same
+fundamental principle, has in turn revolutionized the nanoscale analysis of
+soft biomaterials such as cells and tissues. This paper addresses the
+inferential problems associated with material indentation and atomic force
+microscopy, through a framework for the changepoint analysis of pre- and
+post-contact data that is applicable to experiments across a variety of
+physical scales. A hierarchical Bayesian model is proposed to account for
+experimentally observed changepoint smoothness constraints and measurement
+error variability, with efficient Monte Carlo methods developed and employed to
+realize inference via posterior sampling for parameters such as Young's
+modulus, a key quantifier of material stiffness. These results are the first to
+provide the materials science community with rigorous inference procedures and
+uncertainty quantification, via optimized and fully automated high-throughput
+algorithms, implemented as the publicly available software package BayesCP. To
+demonstrate the consistent accuracy and wide applicability of this approach,
+results are shown for a variety of data sets from both macro- and
+micro-materials experiments--including silicone, neurons, and red blood
+cells--conducted by the authors and others.

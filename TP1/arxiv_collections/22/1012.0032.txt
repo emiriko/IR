@@ -1,0 +1,9 @@
+Let $\xi$ be a random integer vector, having uniform distribution
+\[\mathbf{P} \{\xi = (i_1,i_2,...,i_n) = 1/n^n \} \ \hbox{for} \ 1 \leq
+i_1,i_2,...,i_n\leq n.\] A realization $(i_1,i_2,...,i_n)$ of $\xi$ is called
+\textit{good}, if its elements are different. We present algorithms
+\textsc{Linear}, \textsc{Backward}, \textsc{Forward}, \textsc{Tree},
+\textsc{Garbage}, \textsc{Bucket} which decide whether a given realization is
+good. We analyse the number of comparisons and running time of these algorithms
+using simulation gathering data on all possible inputs for small values of $n$
+and generating random inputs for large values of $n$.

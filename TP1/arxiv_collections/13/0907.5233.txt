@@ -1,0 +1,16 @@
+Although there exist very accurate hardware systems for measuring traffic on
+the internet, their widespread use for analysis tasks is limited by their high
+cost. On the other hand, less expensive, software-based systems exist that are
+widely available and can be used to perform a number of simple analysis tasks.
+The caveat with using such software systems is that application of standard
+analysis methods cannot proceed blindly because inherent distortions exist in
+the measurements obtained from software systems. The goal of this paper is to
+analyze common Internet measurement systems to discover the effect of these
+distortions on common analysis tasks. Then by selecting one specific task,
+periodic signal detection, a more in-depth analysis is conducted which derives
+a signal representation to capture the salient features of the measurement and
+develops a periodic detection mechanism designed for the measurement system
+which outperforms an existing detection method not optimized for the
+measurement system. Finally, through experiments the importance of
+understanding the relationship between the input traffic, measurement system
+configuration and detection method performance is emphasized.

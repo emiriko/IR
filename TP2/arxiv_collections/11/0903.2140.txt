@@ -1,0 +1,20 @@
+We compare a variety of lossless image compression methods on a large sample
+of astronomical images and show how the compression ratios and speeds of the
+algorithms are affected by the amount of noise in the images. In the ideal case
+where the image pixel values have a random Gaussian distribution, the
+equivalent number of uncompressible noise bits per pixel is given by Nbits
+=log2(sigma * sqrt(12)) and the lossless compression ratio is given by R =
+BITPIX / Nbits + K where BITPIX is the bit length of the pixel values and K is
+a measure of the efficiency of the compression algorithm.
+  We perform image compression tests on a large sample of integer astronomical
+CCD images using the GZIP compression program and using a newer FITS
+tiled-image compression method that currently supports 4 compression
+algorithms: Rice, Hcompress, PLIO, and GZIP. Overall, the Rice compression
+algorithm strikes the best balance of compression and computational efficiency;
+it is 2--3 times faster and produces about 1.4 times greater compression than
+GZIP. The Rice algorithm produces 75%--90% (depending on the amount of noise in
+the image) as much compression as an ideal algorithm with K = 0.
+  The image compression and uncompression utility programs used in this study
+(called fpack and funpack) are publicly available from the HEASARC web site. A
+simple command-line interface may be used to compress or uncompress any FITS
+image file.

@@ -1,0 +1,21 @@
+We introduce the Reduced-Rank Hidden Markov Model (RR-HMM), a generalization
+of HMMs that can model smooth state evolution as in Linear Dynamical Systems
+(LDSs) as well as non-log-concave predictive distributions as in
+continuous-observation HMMs. RR-HMMs assume an m-dimensional latent state and n
+discrete observations, with a transition matrix of rank k <= m. This implies
+the dynamics evolve in a k-dimensional subspace, while the shape of the set of
+predictive distributions is determined by m. Latent state belief is represented
+with a k-dimensional state vector and inference is carried out entirely in R^k,
+making RR-HMMs as computationally efficient as k-state HMMs yet more
+expressive. To learn RR-HMMs, we relax the assumptions of a recently proposed
+spectral learning algorithm for HMMs (Hsu, Kakade and Zhang 2009) and apply it
+to learn k-dimensional observable representations of rank-k RR-HMMs. The
+algorithm is consistent and free of local optima, and we extend its performance
+guarantees to cover the RR-HMM case. We show how this algorithm can be used in
+conjunction with a kernel density estimator to efficiently model
+high-dimensional multivariate continuous data. We also relax the assumption
+that single observations are sufficient to disambiguate state, and extend the
+algorithm accordingly. Experiments on synthetic data and a toy video, as well
+as on a difficult robot vision modeling problem, yield accurate models that
+compare favorably with standard alternatives in simulation quality and
+prediction capability.

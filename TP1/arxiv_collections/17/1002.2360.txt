@@ -1,0 +1,17 @@
+To compare photometric properties of galaxies at different redshifts, the
+fluxes need to be corrected for the changes of effective rest-frame wavelengths
+of filter bandpasses, called K-corrections. Usual approaches to compute them
+are based on the template fitting of observed spectral energy distributions
+(SED) and, thus, require multi-colour photometry. Here, we demonstrate that, in
+cases of widely used optical and near-infrared filters, K-corrections can be
+precisely approximated as two-dimensional low-order polynomials of only two
+parameters: redshift and one observed colour. With this minimalist approach, we
+present the polynomial fitting functions for K-corrections in SDSS ugriz, UKIRT
+WFCAM YJHK, Johnson-Cousins UBVR_cI_c, and 2MASS JHK_s bands for galaxies at
+redshifts Z<0.5 based on empirically-computed values obtained by fitting
+combined optical-NIR SEDs of a set of 10^5 galaxies constructed from SDSS DR7
+and UKIDSS DR5 photometry using the Virtual Observatory. For luminous red
+galaxies we provide K-corrections as functions of their redshifts only. In two
+filters, g and r, we validate our solutions by computing K-corrections directly
+from SDSS DR7 spectra. We also present a K-corrections calculator, a web-based
+service for computing K-corrections on-line.

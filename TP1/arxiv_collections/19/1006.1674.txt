@@ -1,0 +1,21 @@
+The problem of optimal allocation of monitoring resources for tracking
+transactions progressing through a distributed system, modeled as a queueing
+network, is considered. Two forms of monitoring information are considered,
+viz., locally unique transaction identifiers, and arrival and departure
+timestamps of transactions at each processing queue. The timestamps are assumed
+available at all the queues but in the absence of identifiers, only enable
+imprecise tracking since parallel processing can result in out-of-order
+departures. On the other hand, identifiers enable precise tracking but are not
+available without proper instrumentation. Given an instrumentation budget, only
+a subset of queues can be selected for production of identifiers, while the
+remaining queues have to resort to imprecise tracking using timestamps. The
+goal is then to optimally allocate the instrumentation budget to maximize the
+overall tracking accuracy. The challenge is that the optimal allocation
+strategy depends on accuracies of timestamp-based tracking at different queues,
+which has complex dependencies on the arrival and service processes, and the
+queueing discipline. We propose two simple heuristics for allocation by
+predicting the order of timestamp-based tracking accuracies of different
+queues. We derive sufficient conditions for these heuristics to achieve
+optimality through the notion of stochastic comparison of queues. Simulations
+show that our heuristics are close to optimality, even when the parameters
+deviate from these conditions.

@@ -1,0 +1,16 @@
+In this research, we study the optimization challenges of MANET and
+cross-layer technique to improve its performance. We propose an adaptive
+retransmission limits algorithm for IEEE 802.11 MAC to reduce the false link
+failures and predict the node mobility. We implemented cross layer interaction
+between physical and MAC layers. The MAC layer utilizes the physical layer
+information for differentiating false link failure from true link failure. The
+MAC layer adaptively selects a retransmission limit (short and long) based on
+the neighbour signal strength and sender node speed information from the
+physical layer. The proposed approach tracks the signal strength of each node
+in network and, while transmitting to a neighbour node, if it's received signal
+strength is high and is received recently then Adaptive MAC persists in its
+retransmission attempts. As there is high probability that neighbour node is
+still in transmission range and may be not responding due to some problems
+other then mobility. In this paper, we evaluate the performance of MANET and
+show that how our Adaptive MAC greatly improves it. The simulation is done
+using Network Simulator NS-2.

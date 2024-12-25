@@ -1,0 +1,25 @@
+Passive network tomography uses end-to-end observations of network
+communication to characterize the network, for instance to estimate the network
+topology and to localize random or adversarial glitches. Under the setting of
+linear network coding this work provides a comprehensive study of passive
+network tomography in the presence of network (random or adversarial) glitches.
+To be concrete, this work is developed along two directions: 1. Tomographic
+upper and lower bounds (i.e., the most adverse conditions in each problem
+setting under which network tomography is possible, and corresponding schemes
+(computationally efficient, if possible) that achieve this performance) are
+presented for random linear network coding (RLNC). We consider RLNC designed
+with common randomness, i.e., the receiver knows the random code-books all
+nodes. (To justify this, we show an upper bound for the problem of topology
+estimation in networks using RLNC without common randomness.) In this setting
+we present the first set of algorithms that characterize the network topology
+exactly. Our algorithm for topology estimation with random network errors has
+time complexity that is polynomial in network parameters. For the problem of
+network error localization given the topology information, we present the first
+computationally tractable algorithm to localize random errors, and prove it is
+computationally intractable to localize adversarial errors. 2. New network
+coding schemes are designed that improve the tomographic performance of RLNC
+while maintaining the desirable low-complexity, throughput-optimal, distributed
+linear network coding properties of RLNC. In particular, we design network
+codes based on Reed-Solomon codes so that a maximal number of adversarial
+errors can be localized in a computationally efficient manner even without the
+information of network topology.

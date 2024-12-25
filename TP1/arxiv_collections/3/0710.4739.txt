@@ -1,0 +1,11 @@
+When applying Dynamic Power Management (DPM) technique to pervasively
+deployed embedded systems, the technique needs to be very efficient so that it
+is feasible to implement the technique on low end processor and tight-budget
+memory. Furthermore, it should have the capability to track time varying
+behavior rapidly because the time varying is an inherent characteristic of real
+world system. Existing methods, which are usually model-based, may not satisfy
+the aforementioned requirements. In this paper, we propose a model-free DPM
+technique based on Q-Learning. Q-DPM is much more efficient because it removes
+the overhead of parameter estimator and mode-switch controller. Furthermore,
+its policy optimization is performed via consecutive online trialing, which
+also leads to very rapid response to time varying behavior.

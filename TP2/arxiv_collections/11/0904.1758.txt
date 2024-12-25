@@ -1,0 +1,11 @@
+This paper contains a study of ADI methods in the presence of charge and
+current sources. It is shown that there are four significantly distinct cases,
+with four more related by duality. Of those, only one preserves divergence and,
+thus, is guaranteed to be stable in the presence of moving charged particles.
+Computational verification of this property is accomplished by implementation
+in existing 3D-EMPIC simulation software. Of the other three cases, two are
+verified unstable, as expected, and one remains stable, despite the lack of
+divergence preservation. This other stable algorithm is shown to be related to
+the divergence preserving case by a similarity transformation, effectively
+providing the complement of the divergence preserving field in the
+finite-difference energy quantity.

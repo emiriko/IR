@@ -1,0 +1,23 @@
+Purpose: Monte Carlo methods are considered the gold standard for dosimetric
+computations in radiotherapy. Their execution time is however still an obstacle
+to the routine use of Monte Carlo packages in a clinical setting. To address
+this problem, a completely new, and designed from the ground up for the GPU,
+Monte Carlo dose calculation package for voxelized geometries is proposed:
+GPUMCD. Method : GPUMCD implements a coupled photon-electron Monte Carlo
+simulation for energies in the range 0.01 MeV to 20 MeV. An analogue simulation
+of photon interactions is used and a Class II condensed history method has been
+implemented for the simulation of electrons. A new GPU random number generator,
+some divergence reduction methods as well as other optimization strategies are
+also described. GPUMCD was run on a NVIDIA GTX480 while single threaded
+implementations of EGSnrc and DPM were run on an Intel Core i7 860. Results :
+Dosimetric results obtained with GPUMCD were compared to EGSnrc. In all but one
+test case, 98% or more of all significant voxels passed a gamma criteria of
+2%-2mm. In terms of execution speed and efficiency, GPUMCD is more than 900
+times faster than EGSnrc and more than 200 times faster than DPM, a Monte Carlo
+package aiming fast executions. Absolute execution times of less than 0.3 s are
+found for the simulation of 1M electrons and 4M photons in water for
+monoenergetic beams of 15 MeV, including GPU-CPU memory transfers. Conclusion :
+GPUMCD, a new GPU-oriented Monte Carlo dose calculation platform, has been
+compared to EGSnrc and DPM in terms of dosimetric results and execution speed.
+Its accuracy and speed make it an interesting solution for full Monte Carlo
+dose calculation in radiation oncology.

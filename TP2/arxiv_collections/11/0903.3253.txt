@@ -1,0 +1,11 @@
+We show how to combine the light-cone and matrix product algorithms to
+simulate quantum systems far from equilibrium for long times. For the case of
+the XXZ spin chain at $\Delta=0.5$, we simulate to a time of $\approx 22.5$.
+While part of the long simulation time is due to the use of the light-cone
+method, we also describe a modification of the iTEBD algorithm with improved
+numerical stability, and we describe how to incorporate symmetry into this
+algorithm. While statistical sampling error means that we are not yet able to
+make a definite statement, the behavior of the simulation at long times
+indicates the appearance of either "revivals" in the order parameter as
+predicted previously or of a distinct shoulder in the decay of the order
+parameter.

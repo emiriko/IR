@@ -1,0 +1,21 @@
+Sensing on smartphones is known to be power-hungry. It has been shown that
+this problem can be solved by adding an ultra low-power processor to execute
+simple, frequent sensor data processing. While very effective in saving energy,
+this resulting heterogeneous, distributed architecture poses a significant
+challenge to application development.
+  We present Reflex, a suite of runtime and compilation techniques to conceal
+the heterogeneous, distributed nature from developers. The Reflex automatically
+transforms the developer's code for distributed execution with the help of the
+Reflex runtime. To create a unified system illusion, Reflex features a novel
+software distributed shared memory (DSM) design that leverages the extreme
+architectural asymmetry between the low-power processor and the powerful
+central processor to achieve both energy efficiency and performance.
+  We report a complete realization of Reflex for heterogeneous smartphones with
+Maemo/Linux as the central kernel. Using a tri-processor hardware prototype and
+sensing applications reported in recent literature, we evaluate the Reflex
+realization for programming transparency, energy efficiency, and performance.
+We show that Reflex supports a programming style that is very close to
+contemporary smartphone programming. It allows existing sensing applications to
+be ported with minor source code changes. Reflex reduces the system power in
+sensing by up to 83%, and its runtime system only consumes 10% local memory on
+a typical ultra-low power processor.

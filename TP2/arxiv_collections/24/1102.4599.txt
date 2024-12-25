@@ -1,0 +1,21 @@
+Breadth First Search (BFS) is a widely used approach for sampling large
+unknown Internet topologies. Its main advantage over random walks and other
+exploration techniques is that a BFS sample is a plausible graph on its own,
+and therefore we can study its topological characteristics. However, it has
+been empirically observed that incomplete BFS is biased toward high-degree
+nodes, which may strongly affect the measurements. In this paper, we first
+analytically quantify the degree bias of BFS sampling. In particular, we
+calculate the node degree distribution expected to be observed by BFS as a
+function of the fraction f of covered nodes, in a random graph RG(pk) with an
+arbitrary degree distribution pk. We also show that, for RG(pk), all commonly
+used graph traversal techniques (BFS, DFS, Forest Fire, Snowball Sampling, RDS)
+suffer from exactly the same bias. Next, based on our theoretical analysis, we
+propose a practical BFS-bias correction procedure. It takes as input a
+collected BFS sample together with its fraction f. Even though RG(pk) does not
+capture many graph properties common in real-life graphs (such as
+assortativity), our RG(pk)-based correction technique performs well on a broad
+range of Internet topologies and on two large BFS samples of Facebook and Orkut
+networks. Finally, we consider and evaluate a family of alternative correction
+procedures, and demonstrate that, although they are unbiased for an arbitrary
+topology, their large variance makes them far less effective than the
+RG(pk)-based technique.

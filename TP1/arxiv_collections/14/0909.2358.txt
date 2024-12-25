@@ -1,0 +1,14 @@
+A simplified model of a redundant power grid is used to study integration of
+fluctuating renewable generation. The grid consists of large number of
+generator and consumer nodes. The net power consumption is determined by the
+difference between the gross consumption and the level of renewable generation.
+The gross consumption is drawn from a narrow distribution representing the
+predictability of aggregated loads, and we consider two different distributions
+representing wind and solar resources. Each generator is connected to D
+consumers, and redundancy is built in by connecting R of these consumers to
+other generators. The lines are switchable so that at any instance each
+consumer is connected to a single generator. We explore the capacity of the
+renewable generation by determining the level of "firm" generation capacity
+that can be displaced for different levels of redundancy R. We also develop
+message-passing control algorithm for finding switch settings where no
+generator is overloaded.

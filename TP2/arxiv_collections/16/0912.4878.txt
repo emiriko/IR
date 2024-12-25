@@ -1,0 +1,8 @@
+Topological collections allow to consider uniformly many data structures in
+programming languages and are handled by functions defined by pattern matching
+called transformations. We present two type systems for languages with
+topological collections and transformations. The first one is a strong type
+system \`a la Hindley/Milner which can be entirely typed at compile time. The
+second one is a mixed static and dynamic type system allowing to handle
+heterogeneous collections, that is collections which contain values with
+different types. In the two cases, automatic type inference is possible.

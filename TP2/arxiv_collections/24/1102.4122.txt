@@ -1,0 +1,8 @@
+Let E_n={x_i=1, x_i+x_j=x_k, x_i \cdot x_j=x_k: i,j,k \in {1,...,n}}. There
+is an algorithm that for every computable function f:N->N returns a positive
+integer m(f), for which a second algorithm accepts on the input f and any
+integer n>=m(f), and returns a system S \subseteq E_n such that S has
+infinitely many integer solutions and each integer tuple (x_1,...,x_n) that
+solves S satisfies x_1=f(n). For each integer n>=12 we construct a system S
+\subseteq E_n such that S has infinitely many integer solutions and they all
+belong to Z^n\[-2^{2^{n-1}},2^{2^{n-1}}]^n.

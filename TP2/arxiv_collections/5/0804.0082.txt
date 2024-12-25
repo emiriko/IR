@@ -1,0 +1,15 @@
+Algorithms for quantum information processing are usually decomposed into
+sequences of quantum gate operations, most often realized with single- and two-
+qubit gates[1]. While such operations constitute a universal set for quantum
+computation, gates acting on more than two qubits can simplify the
+implementation of complex quantum algorithms[2]. Thus, a single three-qubit
+operation can replace a complex sequence of two-qubit gates, which in turn
+promises faster execution with potentially higher Fidelity. One important
+three-qubit operation is the quantum Toffoli gate which performs a NOT
+operation on a target qubit depending on the state of two control qubits. Here
+we present the first experimental realization of the quantum Toffoli gate in an
+ion trap quantum computer. Our implementation is particular effcient as we
+directly encode the relevant logic information in the motion of the ion string.
+[1] DiVincenzo, D. P. Two-bit gates are universal for quantum computation.
+cond-mat/9407022, Phys.Rev. A 51, 1015-1022 (1995). [2] Chiaverini, J. et al.
+Realization of quantum error correction. Nature 432, 602-605 (2004).

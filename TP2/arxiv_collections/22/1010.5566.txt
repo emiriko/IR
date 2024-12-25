@@ -1,0 +1,12 @@
+We investigate a graphical representation of session invocation
+interdependency in order to prove progress for the pi-calculus with sessions
+under the usual session typing discipline. We show that those processes whose
+associated dependency graph is acyclic can be brought to reduce. We call such
+processes transparent processes. Additionally, we prove that for well-typed
+processes where services contain no free names, such acyclicity is preserved by
+the reduction semantics.
+  Our results encompass programs (processes containing neither free nor
+restricted session channels) and higher-order sessions (delegation).
+Furthermore, we give examples suggesting that transparent processes constitute
+a large enough class of processes with progress to have applications in modern
+session-based programming languages for web services.

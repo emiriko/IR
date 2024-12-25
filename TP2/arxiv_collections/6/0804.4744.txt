@@ -1,0 +1,14 @@
+Given a k-dimensional subspace M\subseteq \R^n and a full rank integer
+lattice L\subseteq \R^n, the \emph{subspace avoiding problem} SAP is to find a
+shortest vector in L\setminus M. Treating k as a parameter, we obtain new
+parameterized approximation and exact algorithms for SAP based on the AKS
+sieving technique. More precisely, we give a randomized
+$(1+\epsilon)$-approximation algorithm for parameterized SAP that runs in time
+2^{O(n)}.(1/\epsilon)^k, where the parameter k is the dimension of the subspace
+M. Thus, we obtain a 2^{O(n)} time algorithm for \epsilon=2^{-O(n/k)}. We also
+give a 2^{O(n+k\log k)} exact algorithm for the parameterized SAP for any
+\ell_p norm.
+  Several of our algorithms work for all gauge functions as metric with some
+natural restrictions, in particular for all \ell_p norms. We also prove an
+\Omega(2^n) lower bound on the query complexity of AKS sieving based exact
+algorithms for SVP that accesses the gauge function as oracle.

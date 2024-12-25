@@ -1,0 +1,22 @@
+Background: Connectivity mapping is a process to recognize novel
+pharmacological and toxicological properties in small molecules by comparing
+their gene expression signatures with others in a database. A simple and robust
+method for connectivity mapping with increased specificity and sensitivity was
+recently developed, and its utility demonstrated using experimentally derived
+gene signatures.
+  Results: This paper introduces sscMap (statistically significant connections'
+map), a Java application designed to undertake connectivity mapping tasks using
+the recently published method. The software is bundled with a default
+collection of reference gene-expression profiles based on the publicly
+available dataset from the Broad Institute Connectivity Map 02, which includes
+data from over 7000 Affymetrix microarrays, for over 1000 small-molecule
+compounds, and 6100 treatment instances in 5 human cell lines. In addition, the
+application allows users to add their custom collections of reference profiles
+and is applicable to a wide range of other 'omics technologies.
+  Conclusions: The utility of sscMap is two fold. First, it serves to make
+statistically significant connections between a user-supplied gene signature
+and the 6100 core reference profiles based on the Broad Institute expanded
+dataset. Second, it allows users to apply the same improved method to
+custom-built reference profiles which can be added to the database for future
+referencing. The software can be freely downloaded from
+http://purl.oclc.org/NET/sscMap

@@ -1,0 +1,13 @@
+The analysis of execution paths (also known as software traces) collected
+from a given software product can help in a number of areas including software
+testing, software maintenance and program comprehension. The lack of a scalable
+matching algorithm operating on detailed execution paths motivates the search
+for an alternative solution.
+  This paper proposes the use of word entropies for the classification of
+software traces. Using a well-studied defective software as an example, we
+investigate the application of both Shannon and extended entropies
+(Landsberg-Vedral, R\'{e}nyi and Tsallis) to the classification of traces
+related to various software defects. Our study shows that using entropy
+measures for comparisons gives an efficient and scalable method for comparing
+traces. The three extended entropies, with parameters chosen to emphasize rare
+events, all perform similarly and are superior to the Shannon entropy.

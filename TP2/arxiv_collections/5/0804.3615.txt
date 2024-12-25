@@ -1,0 +1,12 @@
+Presented approach in polynomial time calculates large number of invariants
+for each vertex, which won't change with graph isomorphism and should fully
+determine the graph. For example numbers of closed paths of length k for given
+starting vertex, what can be though as the diagonal terms of k-th power of the
+adjacency matrix. For k=2 we would get degree of verities invariant, higher
+describes local topology deeper. Now if two graphs are isomorphic, they have
+the same set of such vectors of invariants - we can sort theses vectors
+lexicographically and compare them. If they agree, permutations from sorting
+allow to reconstruct the isomorphism. I'm presenting arguments that these
+invariants should fully determine the graph, but unfortunately I can't prove it
+in this moment. This approach can give hope, that maybe P=NP - instead of
+checking all instances, we should make arithmetics on these large numbers.

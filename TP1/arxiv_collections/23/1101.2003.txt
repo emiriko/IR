@@ -1,0 +1,22 @@
+A natural way for cooperative tasking in multi-agent systems is through a
+top-down design by decomposing a global task into sub-tasks for each individual
+agent such that the accomplishments of these sub-tasks will guarantee the
+achievement of the global task. In our previous works [1], [2] we presented
+necessary and sufficient conditions on the decomposability of a global task
+automaton between cooperative agents. As a follow-up work, this paper deals
+with the robustness issues of the proposed top-down design approach with
+respect to event failures in the multi-agent systems. The main concern under
+event failure is whether a previously decomposable task can still be achieved
+collectively by the agents, and if not, we would like to investigate that under
+what conditions the global task could be robustly accomplished. This is
+actually the fault-tolerance issue of the top-down design, and the results
+provide designers with hints on which events are fragile with respect to
+failures, and whether redundancies are needed. The main objective of this paper
+is to identify necessary and sufficient conditions on failed events under which
+a decomposable global task can still be achieved successfully. For such a
+purpose, a notion called passivity is introduced to characterize the type of
+event failures. The passivity is found to reflect the redundancy of
+communication links over shared events, based on which necessary and sufficient
+conditions for the reliability of cooperative tasking under event failures are
+derived, followed by illustrative examples and remarks for the derived
+conditions.

@@ -1,0 +1,14 @@
+Molecular dynamics (MD) simulation is a powerful computational tool to study
+the behavior of macromolecular systems. But many simulations of this field are
+limited in spatial or temporal scale by the available computational resource.
+In recent years, graphics processing unit (GPU) provides unprecedented
+computational power for scientific applications. Many MD algorithms suit with
+the multithread nature of GPU. In this paper, MD algorithms for macromolecular
+systems that run entirely on GPU are presented. Compared to the MD simulation
+with free software GROMACS on a single CPU core, our codes achieve about 10
+times speed-up on a single GPU. For validation, we have performed MD
+simulations of polymer crystallization on GPU, and the results observed
+perfectly agree with computations on CPU. Therefore, our single GPU codes have
+already provided an inexpensive alternative for macromolecular simulations on
+traditional CPU clusters and they can also be used as a basis to develop
+parallel GPU programs to further speedup the computations.

@@ -1,0 +1,16 @@
+Correctness of program transformations in extended lambda calculi with a
+contextual semantics is usually based on reasoning about the operational
+semantics which is a rewrite semantics. A successful approach to proving
+correctness is the combination of a context lemma with the computation of
+overlaps between program transformations and the reduction rules, and then of
+so-called complete sets of diagrams. The method is similar to the computation
+of critical pairs for the completion of term rewriting systems. We explore
+cases where the computation of these overlaps can be done in a first order way
+by variants of critical pair computation that use unification algorithms. As a
+case study we apply the method to a lambda calculus with recursive
+let-expressions and describe an effective unification algorithm to determine
+all overlaps of a set of transformations with all reduction rules. The
+unification algorithm employs many-sorted terms, the equational theory of
+left-commutativity modelling multi-sets, context variables of different kinds
+and a mechanism for compactly representing binding chains in recursive
+let-expressions.

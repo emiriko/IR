@@ -1,0 +1,22 @@
+In this paper we introduced an algebraic semantics for process algebra in
+form of abstract data types. For that purpose, we developed a particular type
+of algebra, the seed algebra, which describes exactly the behavior of a process
+within a labeled transition system. We have shown the possibility of
+characterizing the bisimulation of two processes with the isomorphism of their
+corresponding seed algebras. We pointed out that the traditional concept of
+isomorphism of algebra does not apply here, because there is even no one-one
+correspondence between the elements of two seed algebras. The lack of this
+one-one correspondence comes from the non-deterministic choice of transitions
+of a process. We introduce a technique of hidden operations to mask unwanted
+details of elements of a seed algebra, which only reflect non-determinism or
+other implicit control mechanism of process transition. Elements of a seed
+algebra are considered as indistinguishable if they show the same behavior
+after these unwanted details are masked. Each class of indistinguishable
+elements is called a non-hidden closure. We proved that bisimulation of two
+processes is equivalent to isomorphism of non-hidden closures of two seed
+algebras representing these two processes. We call this kind of isomorphism a
+deep isomorphism. We get different models of seed algebra by specifying
+different axiom systems for the same signature. Each model corresponds to a
+different kind of bisimulation. By proving the relations between these models
+we also established relations between 10 different bisimulations, which form a
+acyclic directed graph.

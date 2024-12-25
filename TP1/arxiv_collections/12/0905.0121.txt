@@ -1,0 +1,15 @@
+The eigenvalues of a matrix polynomial can be determined classically by
+solving a generalized eigenproblem for a linearized matrix pencil, for instance
+by writing the matrix polynomial in companion form. We introduce a general
+scaling technique, based on tropical algebra, which applies in particular to
+this companion form. This scaling, which is inspired by an earlier work of
+Akian, Bapat, and Gaubert, relies on the computation of "tropical roots". We
+give explicit bounds, in a typical case, indicating that these roots provide
+accurate estimates of the order of magnitude of the different eigenvalues, and
+we show by experiments that this scaling improves the accuracy (measured by
+normwise backward error) of the computations, particularly in situations in
+which the data have various orders of magnitude. In the case of quadratic
+polynomial matrices, we recover in this way a scaling due to Fan, Lin, and Van
+Dooren, which coincides with the tropical scaling when the two tropical roots
+are equal. If not, the eigenvalues generally split in two groups, and the
+tropical method leads to making one specific scaling for each of the groups.

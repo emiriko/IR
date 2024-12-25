@@ -1,0 +1,15 @@
+Background. All-atom crystallographic refinement of proteins is a laborious
+manually driven procedure, as a result of which, alternative and multiconformer
+interpretations are not routinely investigated.
+  Results. We describe efficient loop sampling procedures in Rappertk and
+demonstrate that single loops in proteins can be automatically and accurately
+modelled with few positional restraints. Loops constructed with a composite
+CNS/Rappertk protocol consistently have better Rfree than those with CNS alone.
+This approach is extended to a more realistic scenario where there are often
+large positional uncertainties in loops along with small imperfections in the
+secondary structural framework. Both ensemble and collection methods are used
+to estimate the structural heterogeneity of loop regions.
+  Conclusion. Apart from benchmarking Rappertk for the all-atom protein
+refinement task, this work also demonstrates its utility in both aspects of
+loop modelling - building a single conformer and estimating structural
+heterogeneity the loops can exhibit.

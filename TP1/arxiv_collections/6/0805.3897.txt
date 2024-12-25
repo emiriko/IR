@@ -1,0 +1,19 @@
+We propose a set of benchmarks that specifically targets a major cause of
+performance degradation in high performance computing platforms: irregular
+access patterns. These benchmarks are meant to be used to asses the performance
+of optimizing compilers on codes with a varying degree of irregular access. The
+irregularity caused by the use of pointers and indirection arrays are a major
+challenge for optimizing compilers. Codes containing such patterns are
+notoriously hard to optimize but they have a huge impact on the performance of
+modern architectures, which are under-utilized when encountering irregular
+memory accesses. In this paper, a set of benchmarks is described that
+explicitly measures the performance of kernels containing a variety of
+different access patterns found in real world applications. By offering a
+varying degree of complexity, we provide a platform for measuring the
+effectiveness of transformations. The difference in complexity stems from a
+difference in traversal patterns, the use of multiple indirections and control
+flow statements. The kernels used cover a variety of different access patterns,
+namely pointer traversals, indirection arrays, dynamic loop bounds and run-time
+dependent if-conditions. The kernels are small enough to be fully understood
+which makes this benchmark set very suitable for the evaluation of
+restructuring transformations.

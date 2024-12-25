@@ -1,0 +1,14 @@
+We take up optimality results for robust Kalman filtering from
+Ruckdeschel[2001,2010] where robustness is understood in a distributional
+sense, i.e.; we enlarge the distribution assumptions made in the ideal model by
+suitable neighborhoods, allowing for outliers which in our context may be
+system-endogenous/propagating or -exogenous/non-propagating, inducing the
+somewhat conflicting goals of tracking and attenuation. Correspondingly, the
+cited references provide optimally-robust procedures to deal with each type of
+outliers separately, but in case of IO-robustness does not say much about the
+implementation. We discuss this in more detail in this paper. Most importantly,
+we define a hybrid filter combining AO- and IO-optimal ones, which is able to
+treat both types of outliers simultaneously, albeit with a certain delay. We
+check our filters at a reference state space model, and compare the results
+with those obtained by the ACM filter Martin and Masreliez[1977], Martin[1979]
+and non-parametric, repeated-median based filters Fried et al.[2006,2007].

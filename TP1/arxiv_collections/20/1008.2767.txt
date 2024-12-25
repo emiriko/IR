@@ -1,0 +1,11 @@
+We present MPWide, a platform independent communication library for
+performing message passing between computers. Our library allows coupling of
+several local MPI applications through a long distance network and is
+specifically optimized for such communications. The implementation is
+deliberately kept light-weight, platform independent and the library can be
+installed and used without administrative privileges. The only requirements are
+a C++ compiler and at least one open port to a wide area network on each site.
+In this paper we present the library, describe the user interface, present
+performance tests and apply MPWide in a large scale cosmological N-body
+simulation on a network of two computers, one in Amsterdam and the other in
+Tokyo.

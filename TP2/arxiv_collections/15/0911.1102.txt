@@ -1,0 +1,11 @@
+We show how a quantum walk can be used to find a marked edge or a marked
+complete subgraph of a complete graph. We employ a version of a quantum walk,
+the scattering walk, which lends itself to experimental implementation. The
+edges are marked by adding elements to them that impart a specific phase shift
+to the particle as it enters or leaves the edge. If the complete graph has N
+vertices and the subgraph has K vertices, the particle becomes localized on the
+subgraph in O(N/K) steps. This leads to a quantum search that is quadratically
+faster than a corresponding classical search. We show how to implement the
+quantum walk using a quantum circuit and a quantum oracle, which allows us to
+specify the resource needed for a quantitative comparison of the efficiency of
+classical and quantum searches -- the number of oracle calls.

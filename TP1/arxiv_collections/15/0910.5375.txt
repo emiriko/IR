@@ -1,0 +1,14 @@
+We propose a rotationally-invariant quantum key distribution scheme that uses
+a pair of orthogonal qubit trines, realized as mixed states of three physical
+qubits. The measurement outcomes do not depend on how Alice and Bob choose
+their individual reference frames. The efficient key generation by two-way
+communication produces two independent raw keys, a bit key and a trit key. For
+a noiseless channel, Alice and Bob get a total of 0.573 key bits per trine
+state sent (98% of the Shannon limit). This exceeds by a considerable amount
+the yield of standard trine schemes, which ideally attain half a key bit per
+trine state. Eavesdropping introduces an $\epsilon$-fraction of unbiased noise,
+ensured by twirling if necessary. The security analysis reveals an asymmetry in
+Eve's conditioned ancillas for Alice and Bob resulting from their inequivalent
+roles in the key generation. Upon simplifying the analysis by a plausible
+symmetry assumption, we find that a secret key can be generated if the noise is
+below the threshold set by $\epsilon = 0.197$.

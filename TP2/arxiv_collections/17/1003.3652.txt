@@ -1,0 +1,34 @@
+SNS is a MATLAB-based software library written to aid in the design and
+analysis of receiver architectures. It uses electrical scattering matrices and
+noise wave vectors to describe receiver architectures of arbitrary topology and
+complexity. It differs from existing freely-available software mainly in that
+the scattering matrices used to describe the receiver and its components are
+analytic rather than numeric. This allows different types of modeling and
+analysis of receivers to be performed. Non-ideal behavior of receiver
+components can be parameterized in their scattering matrices. SNS enables the
+instrument designer to then derive analytic expressions for the signal and
+noise at the receiver outputs in terms of parameterized component
+imperfections, and predict their contribution to receiver systematic errors
+precisely. This can drive the receiver design process by, for instance,
+allowing the instrument designer to identify which component imperfections
+contribute most to receiver systematic errors, and hence place firm
+specifications on individual components. Using SNS to perform this analysis is
+preferable to traditional Jones matrix-based analysis as it includes internal
+reflections and is able to model noise: two effects which Jones matrix analysis
+is unable to describe. SNS can be used to model any receiver in which the
+components can be described by scattering matrices. Of particular interest to
+the sub-mm and terahertz frequency regime is the choice between coherent and
+direct detection technologies. Steady improvements in mm and sub-mm Low Noise
+Amplifiers (LNAs) mean that coherent receivers with LNAs as their first active
+element are becoming increasingly competitive, in terms of sensitivity, with
+bolometer-based receivers at frequencies above ~100 GHz. As an example of the
+utility of SNS, we use it to compare two polarimeter architectures commonly
+used to perform measurements of the polarized Cosmic Microwave Background:
+differencing polarimeters, an architecture commonly used in polarization
+sensitive bolometer-based polarimeters; and pseudo-correlation polarimeters, an
+architecture commonly used in coherent, LNA-based, polarimeters. We
+parameterize common sources of receiver systematic errors in both architectures
+and compare them through their Mueller matrices, which encode how well the
+instruments measure the Stokes parameters of the incident radiation. These
+analytic Mueller matrices are used to demonstrate the different sources of
+systematic errors in differencing and correlation polarimeters.

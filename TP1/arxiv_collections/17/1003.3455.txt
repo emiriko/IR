@@ -1,0 +1,17 @@
+We compare the predictions of four different algorithms for the distribution
+of ionized gas during the Epoch of Reionization. These algorithms are all used
+to run a 100 Mpc/h simulation of reionization with the same initial conditions.
+Two of the algorithms are state-of-the-art ray-tracing radiative transfer codes
+that use disparate methods to calculate the ionization history. The other two
+algorithms are fast but more approximate schemes based on iterative application
+of a smoothing filter to the underlying source and density fields. We compare
+these algorithms' resulting ionization and 21 cm fields using several different
+statistical measures. The two radiative transfer schemes are in excellent
+agreement with each other (with the cross-correlation coefficient of the
+ionization fields >0.8 for k < 10 h/Mpc and in good agreement with the analytic
+schemes (>0.6 for k < 1 h/Mpc). When used to predict the 21cm power spectrum at
+different times during reionization, all ionization algorithms agree with one
+another at the 10s of percent level. This agreement suggests that the different
+approximations involved in the ray tracing algorithms are sensible and that
+semi-numerical schemes provide a numerically-inexpensive, yet fairly accurate,
+description of the reionization process.

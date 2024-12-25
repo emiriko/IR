@@ -1,0 +1,12 @@
+The bidirectional Fano algorithm (BFA) can achieve at least two times
+decoding throughput compared to the conventional unidirectional Fano algorithm
+(UFA). In this paper, bidirectional Fano decoding is examined from the queuing
+theory perspective. A Discrete Time Markov Chain (DTMC) is employed to model
+the BFA decoder with a finite input buffer. The relationship between the input
+data rate, the input buffer size and the clock speed of the BFA decoder is
+established. The DTMC based modelling can be used in designing a high
+throughput parallel BFA decoding system. It is shown that there is a tradeoff
+between the number of BFA decoders and the input buffer size, and an optimal
+input buffer size can be chosen to minimize the hardware complexity for a
+target decoding throughput in designing a high throughput parallel BFA decoding
+system.

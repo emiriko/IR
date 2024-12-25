@@ -1,0 +1,18 @@
+Let g:{\mathbb R} --> {\mathbb C} be a C^{\infty}-function with all
+derivatives bounded and let tr_n denote the normalized trace on the n x n
+matrices. In the paper [EM] Ercolani and McLaughlin established asymptotic
+expansions of the mean value E{tr_n(g(X_n))} for a rather general class of
+random matrices X_n,including the Gaussian Unitary Ensemble (GUE). Using an
+analytical approach, we provide in the present paper an alternative proof of
+this asymptotic expansion in the GUE case. Specifically we derive for a GUE
+random matrix X_n that
+  E{tr_n(g(X_n))}= \frac{1}{2\pi}\int_{-2}^2 g(x)\sqrt{4-x^2} dx
++\sum_{j=1}^k\frac{\alpha_j(g)}{n^{2j}}+ O(n^{-2k-2}),
+  where k is an arbitrary positive integer. Considered as mappings of g, we
+determine the coefficients \alpha_j(g), j\in{\mathbb N}, as distributions (in
+the sense of L. Schwarts). We derive a similar asymptotic expansion for the
+covariance Cov{Tr_n[f(X_n)],Tr_n[g(X_n)]}, where f is a function of the same
+kind as g, and Tr_n=n tr_n. Special focus is drawn to the case where
+g(x)=1/(z-x) and f(x)=1/(w-x) for non-real complex numbers z and w. In this
+case the mean and covariance considered above correspond to, respectively, the
+one- and two-dimensional Cauchy (or Stieltjes) transform of the GUE(n,1/n).

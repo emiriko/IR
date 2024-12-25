@@ -1,0 +1,21 @@
+Linear Vector AutoRegressive (VAR) models where the innovations could be
+unconditionally heteroscedastic and serially dependent are considered. The
+volatility structure is deterministic and quite general, including breaks or
+trending variances as special cases. In this framework we propose Ordinary
+Least Squares (OLS), Generalized Least Squares (GLS) and Adaptive Least Squares
+(ALS) procedures. The GLS estimator requires the knowledge of the time-varying
+variance structure while in the ALS approach the unknown variance is estimated
+by kernel smoothing with the outer product of the OLS residuals vectors.
+Different bandwidths for the different cells of the time-varying variance
+matrix are also allowed. We derive the asymptotic distribution of the proposed
+estimators for the VAR model coefficients and compare their properties. In
+particular we show that the ALS estimator is asymptotically equivalent to the
+infeasible GLS estimator. This asymptotic equivalence is obtained uniformly
+with respect to the bandwidth(s) in a given range and hence justifies
+data-driven bandwidth rules. Using these results we build Wald tests for the
+linear Granger causality in mean which are adapted to VAR processes driven by
+errors with a non stationary volatility. It is also shown that the commonly
+used standard Wald test for the linear Granger causality in mean is potentially
+unreliable in our framework. Monte Carlo experiments illustrate the use of the
+different estimation approaches for the analysis of VAR models with stable
+innovations.

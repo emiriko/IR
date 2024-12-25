@@ -1,0 +1,17 @@
+We give a sequential model for noninterference security including probability
+(but not demonic choice), thus supporting reasoning about the likelihood that
+high-security values might be revealed by observations of low-security
+activity. Our novel methodological contribution is the definition of a
+refinement order and its use to compare security measures between
+specifications and (their supposed) implementations. This contrasts with the
+more common practice of evaluating the security of individual programs in
+isolation.
+  The appropriateness of our model and order is supported by our showing that
+our refinement order is the greatest compositional relation --the compositional
+closure-- with respect to our semantics and an "elementary" order based on
+Bayes Risk --- a security measure already in widespread use. We also relate
+refinement to other measures such as Shannon Entropy.
+  By applying the approach to a non-trivial example, the anonymous-majority
+Three-Judges protocol, we demonstrate by example that correctness arguments can
+be simplified by the sort of layered developments --through levels of
+increasing detail-- that are allowed and encouraged by compositional semantics.

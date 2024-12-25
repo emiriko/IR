@@ -1,0 +1,15 @@
+Wireless Sensor Networks (WSNs) rely on in-network aggregation for
+efficiency, however, this comes at a price: A single adversary can severely
+influence the outcome by contributing an arbitrary partial aggregate value.
+Secure in-network aggregation can detect such manipulation. But as long as such
+faults persist, no aggregation result can be obtained. In contrast, the
+collection of individual sensor node values is robust and solves the problem of
+availability, yet in an inefficient way. Our work seeks to bridge this gap in
+secure data collection: We propose a system that enhances availability with an
+efficiency close to that of in-network aggregation. To achieve this, our scheme
+relies on costly operations to localize and exclude nodes that manipulate the
+aggregation, but \emph{only} when a failure is detected. The detection of
+aggregation disruptions and the removal of faulty nodes provides robustness. At
+the same time, after removing faulty nodes, the WSN can enjoy low cost (secure)
+aggregation. Thus, the high exclusion cost is amortized, and efficiency
+increases.

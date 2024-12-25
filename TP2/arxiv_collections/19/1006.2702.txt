@@ -1,0 +1,15 @@
+The Model / View / Controller design pattern divides an application
+environment into three components to handle the user-interactions, computations
+and output respectively. This separation greatly favors architectural
+reusability. The pattern works well in the case of single-address space and not
+proven to be efficient for web applications involving multiple address spaces.
+Web applications force the designers to decide which of the components of the
+pattern are to be partitioned between the server and client(s) before the
+design phase commences. For any rapidly growing web application, it is very
+difficult to incorporate future changes in policies related to partitioning.
+One solution to this problem is to duplicate the Model and controller
+components at both server and client(s). However, this may add further problems
+like delayed data fetch, security and scalability issues. In order to overcome
+this, a new architecture SPIM has been proposed that deals with the
+partitioning problem in an alternative way. SPIM shows tremendous improvements
+in performance when compared with a similar architecture.

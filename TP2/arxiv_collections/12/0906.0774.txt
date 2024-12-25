@@ -1,0 +1,19 @@
+Standard formulations of smoothed particle hydrodynamics (SPH) are unable to
+resolve mixing at fluid boundaries. We use an error and stability analysis of
+the generalised SPH equations of motion to prove that this is due to two
+distinct problems. The first is a leading order error in the momentum equation.
+This should decrease with increasing neighbour number, but does not because
+numerical instabilities cause the kernel to be irregularly sampled. We identify
+two important instabilities: the clumping instability and the banding
+instability, and we show that both are cured by a suitable choice of kernel.
+The second problem is the local mixing instability (LMI). This occurs as
+particles attempt to mix on the kernel scale, but are unable to due to entropy
+conservation. The result is a pressure discontinuity at boundaries that pushes
+fluids of different entropy apart. We cure the LMI by using a weighted density
+estimate that ensures that pressures are single valued throughout the flow.
+This also gives a better volume estimate for the particles, reducing errors in
+the continuity and momentum equations. We demonstrate mixing in our new
+Optimised Smoothed Particle Hydrodynamics (OSPH) scheme using a Kelvin
+Helmholtz instability (KHI) test with density contrast 1:2, and the 'blob test'
+- a 1:10 density ratio gas sphere in a wind tunnel - finding excellent
+agreement between OSPH and Eulerian codes.

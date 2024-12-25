@@ -1,0 +1,14 @@
+VERSA provides a general-purpose framework for defining and recognizing
+events in live or recorded surveillance video streams. The approach for event
+recognition in VERSA is using a declarative logic language to define the
+spatial and temporal relationships that characterize a given event or activity.
+Doing so requires the definition of certain fundamental spatial and temporal
+relationships and a high-level syntax for specifying frame templates and query
+parameters. Although the handling of uncertainty in the current VERSA
+implementation is simplistic, the language and architecture is amenable to
+extending using Fuzzy Logic or similar approaches. VERSA's high-level
+architecture is designed to work in XML-based, services- oriented environments.
+VERSA can be thought of as subscribing to the XML annotations streamed by a
+lower-level video analytics service that provides basic entity detection,
+labeling, and tracking. One or many VERSA Event Monitors could thus analyze
+video streams and provide alerts when certain events are detected.

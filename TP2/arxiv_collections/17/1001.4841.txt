@@ -1,0 +1,23 @@
+We present a new general relativistic (GR) code for hydrodynamic supernova
+simulations with neutrino transport in spherical and azimuthal symmetry
+(1D/2D). The code is a combination of the CoCoNuT hydro module, which is a
+Riemann-solver based, high-resolution shock-capturing method, and the
+three-flavor, energy-dependent neutrino transport scheme VERTEX. VERTEX
+integrates the neutrino moment equations with a variable Eddington factor
+closure computed from a model Boltzmann equation and uses the ray-by-ray plus
+approximation in 2D, assuming the neutrino distribution to be axially symmetric
+around the radial direction, and thus the neutrino flux to be radial. Our
+spacetime treatment employs the ADM 3+1 formalism with the conformal flatness
+condition for the spatial three-metric. This approach is exact in 1D and has
+been shown to yield very accurate results also for rotational stellar collapse.
+We introduce new formulations of the energy equation to improve total energy
+conservation in relativistic and Newtonian hydro simulations with Eulerian
+finite-volume codes. Moreover, a modified version of the VERTEX scheme is
+developed that simultaneously conserves energy and lepton number with better
+accuracy and higher numerical stability. To verify our code, we conduct a
+series of tests, including a detailed comparison with published 1D results for
+stellar core collapse. Long-time simulations of proto-neutron star cooling over
+several seconds both demonstrate the robustness of the new CoCoNuT-VERTEX code
+and show the approximate treatment of GR effects by means of an effective
+gravitational potential as in PROMETHEUS-VERTEX to be remarkably accurate in
+1D. (abridged)

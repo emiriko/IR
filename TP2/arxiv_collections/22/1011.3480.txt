@@ -1,0 +1,7 @@
+Suppose we are asked to preprocess a string \(s [1..n]\) such that later,
+given a substring's endpoints, we can quickly count how many distinct
+characters it contains. In this paper we give a data structure for this problem
+that takes \(n H_0 (s) + \Oh{n} + \oh{n H_0 (s)}\) bits, where \(H_0 (s)\) is
+the 0th-order empirical entropy of $s$, and answers queries in $\Oh{\log^{1 +
+\epsilon} n}$ time for any constant \(\epsilon > 0\). We also show how our data
+structure can be made partially dynamic.

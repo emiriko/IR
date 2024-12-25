@@ -1,0 +1,12 @@
+Kedlaya's algorithm (Kedlaya, J. Ramanujan Math. Soc 16, 2001) can be used to
+count the points of arbitrary hyperelliptic curves over finite fields of
+characteristic p, where p is an odd prime. The algorithm uses the cohomology of
+a p-adic lift of the curve. The Frobenius morphism of the curve induces an
+automorphism of this cohomological space. The key step of the algorithm is to
+determine this automorphism with a sufficiently high p-adic precision: it is
+given in the form of a matrix with respect to a certain basis. Edixhoven has
+found a basis that has the property that the coefficients of the matrix are
+p-adically integral. This allows a smaller required precision, because a
+(semi-linear) power of this matrix must be computed up to some given precision.
+This text describes Edixhoven's basis and provides a proof of the fact that the
+basis is suitable.

@@ -1,0 +1,14 @@
+This paper introduces a random multiple access method for satellite
+communications, named Network Coding-based Slotted Aloha (NCSA). The goal is to
+improve diversity of data bursts on a slotted-ALOHA-like channel thanks to
+error correcting codes and Physical-layer Network Coding (PNC). This scheme can
+be considered as a generalization of the Contention Resolution Diversity
+Slotted Aloha (CRDSA) where the different replicas of this system are replaced
+by the different parts of a single word of an error correcting code. The
+performance of this scheme is first studied through a density evolution
+approach. Then, simulations confirm the CRDSA results by showing that, for a
+time frame of $400$ slots, the achievable total throughput is greater than
+$0.7\times C$, where $C$ is the maximal throughput achieved by a centralized
+scheme. This paper is a first analysis of the proposed scheme which open
+several perspectives. The most promising approach is to integrate collided
+bursts into the decoding process in order to improve the obtained performance.

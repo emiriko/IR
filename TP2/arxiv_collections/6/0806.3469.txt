@@ -1,0 +1,21 @@
+Let $P$ be a partially ordered set and consider the free monoid $P^*$ of all
+words over $P$. If $w,w'\in P^*$ then $w'$ is a factor of $w$ if there are
+words $u,v$ with $w=uw'v$. Define generalized factor order on $P^*$ by letting
+$u\le w$ if there is a factor $w'$ of $w$ having the same length as $u$ such
+that $u\le w'$, where the comparison of $u$ and $w'$ is done componentwise
+using the partial order in $P$. One obtains ordinary factor order by insisting
+that $u=w'$ or, equivalently, by taking $P$ to be an antichain.
+  Given $u\in P^*$, we prove that the language $\cF(u)=\{w : w\ge u\}$ is
+accepted by a finite state automaton. If $P$ is finite then it follows that the
+generating function $F(u)=\sum_{w\ge u} w$ is rational. This is an analogue of
+a theorem of Bj\"orner and Sagan for generalized subword order.
+  We also consider $P=\bbP$, the positive integers with the usual total order,
+so that $P^*$ is the set of compositions. In this case one obtains a weight
+generating function $F(u;t,x)$ by substituting $tx^n$ each time $n\in\bbP$
+appears in $F(u)$. We show that this generating function is also rational by
+using the transfer-matrix method. Words $u,v$ are said to be Wilf equivalent if
+$F(u;t,x)=F(v;t,x)$ and we prove various Wilf equivalences combinatorially.
+  Bj\"orner found a recursive formula for the M\"obius function of ordinary
+factor order on $P^*$. It follows that one always has $\mu(u,w)=0,\pm1$. Using
+the Pumping Lemma we show that the generating function $M(u)=\sum_{w\ge u}
+|\mu(u,w)| w$ can be irrational.

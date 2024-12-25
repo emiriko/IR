@@ -1,0 +1,13 @@
+We provide a real algebraic symbolic-numeric algorithm for computing the real
+variety $V_R(I)$ of an ideal $I$, assuming it is finite while $V_C(I)$ may not
+be. Our approach uses sets of linear functionals on $R[X]$, vanishing on a
+given set of polynomials generating $I$ and their prolongations up to a given
+degree, as well as on polynomials of the real radical ideal of $I$, obtained
+from the kernel of a suitably defined moment matrix assumed to be positive
+semidefinite and of maximum rank. We formulate a condition on the dimensions of
+projections of these sets of linear functionals, which serves as stopping
+criterion for our algorithm. This algorithm, based on standard numerical linear
+algebra routines and semidefinite optimization, combines techniques from
+previous work of the authors together with an existing algorithm for the
+complex variety. This results in a unified methodology for the real and complex
+cases.

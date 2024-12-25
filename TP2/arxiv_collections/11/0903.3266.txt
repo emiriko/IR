@@ -1,0 +1,14 @@
+The Conjugate Gradient method (CGM) is known to be the fastest generic
+iterative method for solving linear systems with symmetric sign definite
+matrices. In this paper, we modify this method so that it could find
+fundamental solitary waves of nonlinear Hamiltonian equations. The main
+obstacle that such a modified CGM overcomes is that the operator of the
+equation linearized about a solitary wave is not sign definite. Instead, it has
+a finite number of eigenvalues on the opposite side of zero than the rest of
+its spectrum. We present versions of the modified CGM that can find solitary
+waves with prescribed values of either the propagation constant or power. We
+also extend these methods to handle multi-component nonlinear wave equations.
+Convergence conditions of the proposed methods are given, and their practical
+implications are discussed. We demonstrate that our modified CGMs converge much
+faster than, say, Petviashvili's or similar methods, especially when the latter
+converge slowly.

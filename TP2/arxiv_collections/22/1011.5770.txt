@@ -1,0 +1,26 @@
+Star-galaxy classification is one of the most fundamental data-processing
+tasks in survey astronomy, and a critical starting point for the scientific
+exploitation of survey data. For bright sources this classification can be done
+with almost complete reliability, but for the numerous sources close to a
+survey's detection limit each image encodes only limited morphological
+information. In this regime, from which many of the new scientific discoveries
+are likely to come, it is vital to utilise all the available information about
+a source, both from multiple measurements and also prior knowledge about the
+star and galaxy populations. It is also more useful and realistic to provide
+classification probabilities than decisive classifications. All these
+desiderata can be met by adopting a Bayesian approach to star-galaxy
+classification, and we develop a very general formalism for doing so. An
+immediate implication of applying Bayes's theorem to this problem is that it is
+formally impossible to combine morphological measurements in different bands
+without using colour information as well; however we develop several
+approximations that disregard colour information as much as possible. The
+resultant scheme is applied to data from the UKIRT Infrared Deep Sky Survey
+(UKIDSS), and tested by comparing the results to deep Sloan Digital Sky Survey
+(SDSS) Stripe 82 measurements of the same sources. The Bayesian classification
+probabilities obtained from the UKIDSS data agree well with the deep SDSS
+classifications both overall (a mismatch rate of 0.022, compared to 0.044 for
+the UKIDSS pipeline classifier) and close to the UKIDSS detection limit (a
+mismatch rate of 0.068 compared to 0.075 for the UKIDSS pipeline classifier).
+The Bayesian formalism developed here can be applied to improve the reliability
+of any star-galaxy classification schemes based on the measured values of
+morphology statistics alone.

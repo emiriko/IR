@@ -1,0 +1,18 @@
+Binary trait data record the presence or absence of distinguishing traits in
+individuals. We treat the problem of estimating ancestral trees with time depth
+from binary trait data. Simple analysis of such data is problematic. Each
+homology class of traits has a unique birth event on the tree, and the birth
+event of a trait visible at the leaves is biased towards the leaves. We propose
+a model-based analysis of such data, and present an MCMC algorithm that can
+sample from the resulting posterior distribution. Our model is based on using a
+birth-death process for the evolution of the elements of sets of traits. Our
+analysis correctly accounts for the removal of singleton traits, which are
+commonly discarded in real data sets. We illustrate Bayesian inference for two
+binary-trait data sets which arise in historical linguistics. The Bayesian
+approach allows for the incorporation of information from ancestral languages.
+The marginal prior distribution of the root time is uniform. We present a
+thorough analysis of the robustness of our results to model mispecification,
+through analysis of predictive distributions for external data, and fitting
+data simulated under alternative observation models. The reconstructed ages of
+tree nodes are relatively robust, whilst posterior probabilities for topology
+are not reliable.

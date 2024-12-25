@@ -1,0 +1,10 @@
+Scheideler has shown that peer-to-peer overlays networks can only survive
+Byzantine attacks if malicious nodes are not able to predict what is going to
+be the topology of the network for a given sequence of join and leave
+operations. In this paper we investigate adversarial strategies by following
+specific games. Our analysis demonstrates first that an adversary can very
+quickly subvert DHT-based overlays by simply never triggering leave operations.
+We then show that when all nodes (honest and malicious ones) are imposed on a
+limited lifetime, the system eventually reaches a stationary regime where the
+ratio of polluted clusters is bounded, independently from the initial amount of
+corruption in the system.

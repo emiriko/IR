@@ -1,0 +1,15 @@
+We discuss three applications of efficient quantum algorithms to determining
+properties of permutations and group automorphisms. The first uses the
+Bernstein-Vazirani algorithm to determine an unknown homomorphism from
+$Z_{p-1}^{m}$ to $Aut(Z_{p})$ where $p$ is prime. The remaining two make use of
+modifications of the Grover search algorithm. The first finds the fixed point
+of a permutation or an automorphism (assuming it has only one besides the
+identity). It can be generalized to find cycles of a specified size for
+permutations or orbits of a specified size for automorphisms. The second finds
+which of a set of permutations or automorphisms maps one particular element of
+a set or group onto another. This has relevance to the conjugacy problem for
+groups. We show how two of these algorithms can be implemented via programmable
+quantum processors. This approach opens new perspectives in quantum information
+processing, wherein both the data and the programs are represented by states of
+quantum registers. In particular, quantum programs that specify control over
+data can be treated using methods of quantum information theory.

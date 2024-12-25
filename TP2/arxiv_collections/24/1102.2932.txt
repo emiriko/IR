@@ -1,0 +1,25 @@
+Raz's recent result \cite{Raz2010} has rekindled people's interest in the
+study of \emph{tensor rank}, the generalization of matrix rank to high
+dimensions, by showing its connections to arithmetic formulas. In this paper,
+we follow Raz's work and show that \emph{monotone rank}, the monotone variant
+of tensor rank and matrix rank, has applications in algebraic complexity,
+quantum computing and communication complexity. This paper differs from Raz's
+paper in that it leverages existing results to show unconditional bounds while
+Raz's result relies on some assumptions.
+  We show a super-exponential separation between monotone and non-monotone
+computation in the non-commutative model, and thus provide a strong solution to
+Nisan's question \cite{Nis1991} in algebraic complexity. More specifically, we
+exhibit that there exists a homogeneous algebraic function $f$ of degree $d$
+($d$ even) on $n$ variables with the monotone algebraic branching program (ABP)
+complexity $\Omega(d^2\log n)$ and the non-monotone ABP complexity $O(d^2)$.
+  In Bell's theorem\cite{Bel1964, CHSH1969}, a basic assumption is that players
+have free will, and under such an assumption, local hidden variable theory
+still cannot predict the correlations produced by quantum mechanics. Using
+tools from monotone rank, we show that even if we disallow the players to have
+free will, local hidden variable theory still cannot predict the correlations
+produced by quantum mechanics.
+  We generalize the log-rank conjecture \cite{LS1988} in communication
+complexity to the multiparty case, and prove that for super-polynomial parties,
+there is a super-polynomial separation between the deterministic communication
+complexity and the logarithm of the rank of the communication tensor. This
+means that the log-rank conjecture does not hold in high dimensions.

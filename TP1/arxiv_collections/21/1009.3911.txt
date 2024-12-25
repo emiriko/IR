@@ -1,0 +1,17 @@
+This paper proposes a method for deriving formal specifications of systems.
+To accomplish this task we pass through a non trivial number of steps, concepts
+and tools where the first one, the most important, is the concept of method
+itself, since we realized that computer science has a proliferation of
+languages but very few methods. We also propose the idea of Layered Fault
+Tolerant Specification (LFTS) to make the method extensible to dependable
+systems. The principle is layering the specification, for the sake of clarity,
+in (at least) two different levels, the first one for the normal behavior and
+the others (if more than one) for the abnormal. The abnormal behavior is
+described in terms of an Error Injector (EI) which represents a model of the
+erroneous interference coming from the environment. This structure has been
+inspired by the notion of idealized fault tolerant component but the
+combination of LFTS and EI using rely guarantee thinking to describe
+interference can be considered one of the main contributions of this work. The
+progress toward this method and the way to layer specifications has been made
+experimenting on the Transportation and the Automotive Case Studies of the
+DEPLOY project.

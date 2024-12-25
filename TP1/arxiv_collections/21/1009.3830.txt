@@ -1,0 +1,16 @@
+Most experimental realizations of quantum key distribution are based on the
+Bennett-Brassard 1984 (so-called BB84) protocol. In a typical optical
+implementation of this scheme, the sender uses an active source to produce the
+required BB84 signal states. While active state preparation of BB84 signals is
+a simple and elegant solution in principle, in practice passive state
+preparation might be desirable in some scenarios, for instance, in those
+experimental setups operating at high transmission rates. Passive schemes might
+also be more robust against side-channel attacks than active sources. Typical
+passive devices involve parametric down-conversion. In this paper, we show that
+both coherent light and practical single photon sources are also suitable for
+passive generation of BB84 signal states. Our method does not require any
+external-driven element, but only linear optical components and photodetectors.
+In the case of coherent light, the resulting key rate is similar to the one
+delivered by an active source. When the sender uses practical single photon
+sources, however, the distance covered by a passive transmitter might be longer
+than the one of an active configuration.

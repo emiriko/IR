@@ -1,0 +1,18 @@
+Relay selection for cooperative communications promises significant
+performance improvements, and is, therefore, attracting considerable attention.
+While several criteria have been proposed for selecting one or more relays,
+distributed mechanisms that perform the selection have received relatively less
+attention. In this paper, we develop a novel, yet simple, asymptotic analysis
+of a splitting-based multiple access selection algorithm to find the single
+best relay. The analysis leads to simpler and alternate expressions for the
+average number of slots required to find the best user. By introducing a new
+`contention load' parameter, the analysis shows that the parameter settings
+used in the existing literature can be improved upon. New and simple bounds are
+also derived. Furthermore, we propose a new algorithm that addresses the
+general problem of selecting the best $Q \ge 1$ relays, and analyze and
+optimize it. Even for a large number of relays, the algorithm selects the best
+two relays within 4.406 slots and the best three within 6.491 slots, on
+average. We also propose a new and simple scheme for the practically relevant
+case of discrete metrics. Altogether, our results develop a unifying
+perspective about the general problem of distributed selection in cooperative
+systems and several other multi-node systems.

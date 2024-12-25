@@ -1,0 +1,17 @@
+Over the past few years it has been demonstrated that "coarse timesteppers"
+establish a link between traditional numerical analysis and microscopic/
+stochastic simulation. The underlying assumption of the associated
+lift-run-restrict-estimate procedure is that macroscopic models exist and close
+in terms of a few governing moments of microscopically evolving distributions,
+but they are unavailable in closed form. This leads to a system identification
+based computational approach that sidesteps the necessity of deriving explicit
+closures. Two-level codes are constructed; the outer code performs macroscopic,
+continuum level numerical tasks, while the inner code estimates -through
+appropriately initialized bursts of microscopic simulation- the quantities
+required for continuum numerics. Such quantities include residuals, time
+derivatives, and the action of coarse slow Jacobians. We demonstrate how these
+coarse timesteppers can be applied to perform equation-free computations of a
+kinetic Monte Carlo simulation of E. coli chemotaxis. Coarse-grained
+contraction mappings, system level stability analysis as well as acceleration
+of the direct simulation, are enabled through this computational multiscale
+enabling technology.

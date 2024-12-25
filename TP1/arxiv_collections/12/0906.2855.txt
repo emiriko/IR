@@ -1,0 +1,10 @@
+We approximate the distribution of the sum of independent but not necessarily
+identically distributed Bernoulli random variables using a shifted binomial
+distribution where the three parameters (the number of trials, the probability
+of success, and the shift amount) are chosen to match up the first three
+moments of the two distributions. We give a bound on the approximation error in
+terms of the total variation metric using Stein's method. A numerical study is
+discussed that shows shifted binomial approximations typically are more
+accurate than Poisson or standard binomial approximations. The application of
+the approximation to solving a problem arising in Bayesian hierarchical
+modeling is also discussed.

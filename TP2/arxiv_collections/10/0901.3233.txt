@@ -1,0 +1,14 @@
+We describe an efficient algorithm for determining exactly the minimum number
+of sires consistent with the multi-locus genotypes of a mother and her progeny.
+We consider cases where a simple exhaustive search through all possible sets of
+sires is impossible in practice (because it would take too long to complete).
+Our algorithm for solving this combinatorial optimisation problem avoids
+visiting large parts of search space which would not improve the solution found
+so far (i.e., result in a solution with fewer number of sires). This is of
+particular importance when the number of allelic types in the progeny array is
+large and when the minimum number of sires is expected to be large. Precisely
+in such cases it is important to know the minimum number of sires: this number
+gives an exact bound on the most likely number of sires estimated by a random
+search algorithm in a parameter region where it may be difficult to determine
+whether it has converged. We apply our algorithm to data from the marine snail,
+Littorina saxatilis.

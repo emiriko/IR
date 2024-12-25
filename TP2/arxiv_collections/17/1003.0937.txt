@@ -1,0 +1,19 @@
+We suggest a novel discretisation of the momentum equation for Smoothed
+Particle Hydrodynamics (SPH) and show that it significantly improves the
+accuracy of the obtained solutions. Our new formulation which we refer to as
+relative pressure SPH, rpSPH, evaluates the pressure force in respect to the
+local pressure. It respects Newtons first law of motion and applies forces to
+particles only when there is a net force acting upon them. This is in contrast
+to standard SPH which explicitly uses Newtons third law of motion continuously
+applying equal but opposite forces between particles. rpSPH does not show the
+unphysical particle noise, the clumping or banding instability, unphysical
+surface tension, and unphysical scattering of different mass particles found
+for standard SPH. At the same time it uses fewer computational operations. and
+only changes a single line in existing SPH codes. We demonstrate its
+performance on isobaric uniform density distributions, uniform density shearing
+flows, the Kelvin-Helmholtz and Rayleigh-Taylor instabilities, the Sod shock
+tube, the Sedov-Taylor blast wave and a cosmological integration of the Santa
+Barbara galaxy cluster formation test. rpSPH is an improvement these cases. The
+improvements come at the cost of giving up exact momentum conservation of the
+scheme. Consequently one can also obtain unphysical solutions particularly at
+low resolutions.

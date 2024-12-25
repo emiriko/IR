@@ -1,0 +1,17 @@
+Within the framework of statistical learning theory we analyze in detail the
+so-called elastic-net regularization scheme proposed by Zou and Hastie for the
+selection of groups of correlated variables. To investigate on the statistical
+properties of this scheme and in particular on its consistency properties, we
+set up a suitable mathematical framework. Our setting is random-design
+regression where we allow the response variable to be vector-valued and we
+consider prediction functions which are linear combination of elements ({\em
+features}) in an infinite-dimensional dictionary. Under the assumption that the
+regression function admits a sparse representation on the dictionary, we prove
+that there exists a particular ``{\em elastic-net representation}'' of the
+regression function such that, if the number of data increases, the elastic-net
+estimator is consistent not only for prediction but also for variable/feature
+selection. Our results include finite-sample bounds and an adaptive scheme to
+select the regularization parameter. Moreover, using convex analysis tools, we
+derive an iterative thresholding algorithm for computing the elastic-net
+solution which is different from the optimization procedure originally proposed
+by Zou and Hastie

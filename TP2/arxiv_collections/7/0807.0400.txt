@@ -1,0 +1,15 @@
+We present a fully adaptive multiresolution scheme for spatially
+one-dimensional quasilinear strongly degenerate parabolic equations with
+zero-flux and periodic boundary conditions. The numerical scheme is based on a
+finite volume discretization using the Engquist-Osher numerical flux and
+explicit time stepping. An adaptive multiresolution scheme based on cell
+averages is then used to speed up the CPU time and the memory requirements of
+the underlying finite volume scheme, whose first-order version is known to
+converge to an entropy solution of the problem. A particular feature of the
+method is the storage of the multiresolution representation of the solution in
+a graded tree, whose leaves are the non-uniform finite volumes on which the
+numerical divergence is eventually evaluated. Moreover using the $L^1$
+contraction of the discrete time evolution operator we derive the optimal
+choice of the threshold in the adaptive multiresolution method. Numerical
+examples illustrate the computational efficiency together with the convergence
+properties.

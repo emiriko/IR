@@ -1,0 +1,12 @@
+The paper introduces a novel iterative method that assigns a reputation to n
++ m items: n raters and m objects. Each rater evaluates a subset of objects
+leading to a n x m rating matrix with a certain sparsity pattern. From this
+rating matrix we give a nonlinear formula to define the reputation of raters
+and objects. We also provide an iterative algorithm that superlinearly
+converges to the unique vector of reputations and this for any rating matrix.
+In contrast to classical outliers detection, no evaluation is discarded in this
+method but each one is taken into account with different weights for the
+reputation of the objects. The complexity of one iteration step is linear in
+the number of evaluations, making our algorithm efficient for large data set.
+Experiments show good robustness of the reputation of the objects against
+cheaters and spammers and good detection properties of cheaters and spammers.

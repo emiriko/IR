@@ -1,0 +1,25 @@
+Click through rates (CTR) offer useful user feedback that can be used to
+infer the relevance of search results for queries. However it is not very
+meaningful to look at the raw click through rate of a search result because the
+likelihood of a result being clicked depends not only on its relevance but also
+the position in which it is displayed. One model of the browsing behavior, the
+{\em Examination Hypothesis} \cite{RDR07,Craswell08,DP08}, states that each
+position has a certain probability of being examined and is then clicked based
+on the relevance of the search snippets. This is based on eye tracking studies
+\cite{Claypool01, GJG04} which suggest that users are less likely to view
+results in lower positions. Such a position dependent variation in the
+probability of examining a document is referred to as {\em position bias}. Our
+main observation in this study is that the position bias tends to differ with
+the kind of information the user is looking for. This makes the position bias
+{\em query specific}. In this study, we present a model for analyzing a query
+specific position bias from the click data and use these biases to derive
+position independent relevance values of search results. Our model is based on
+the assumption that for a given query, the positional click through rate of a
+document is proportional to the product of its relevance and a {\em query
+specific} position bias. We compare our model with the vanilla examination
+hypothesis model (EH) on a set of queries obtained from search logs of a
+commercial search engine. We also compare it with the User Browsing Model (UBM)
+\cite{DP08} which extends the cascade model of Craswell et al\cite{Craswell08}
+by incorporating multiple clicks in a query session. We show that the our
+model, although much simpler to implement, consistently outperforms both EH and
+UBM on well-used measures such as relative error and cross entropy.

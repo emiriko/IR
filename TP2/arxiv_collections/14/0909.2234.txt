@@ -1,0 +1,25 @@
+For the universal hypothesis testing problem, where the goal is to decide
+between the known null hypothesis distribution and some other unknown
+distribution, Hoeffding proposed a universal test in the nineteen sixties.
+Hoeffding's universal test statistic can be written in terms of
+Kullback-Leibler (K-L) divergence between the empirical distribution of the
+observations and the null hypothesis distribution. In this paper a modification
+of Hoeffding's test is considered based on a relaxation of the K-L divergence
+test statistic, referred to as the mismatched divergence. The resulting
+mismatched test is shown to be a generalized likelihood-ratio test (GLRT) for
+the case where the alternate distribution lies in a parametric family of the
+distributions characterized by a finite dimensional parameter, i.e., it is a
+solution to the corresponding composite hypothesis testing problem. For certain
+choices of the alternate distribution, it is shown that both the Hoeffding test
+and the mismatched test have the same asymptotic performance in terms of error
+exponents. A consequence of this result is that the GLRT is optimal in
+differentiating a particular distribution from others in an exponential family.
+It is also shown that the mismatched test has a significant advantage over the
+Hoeffding test in terms of finite sample size performance. This advantage is
+due to the difference in the asymptotic variances of the two test statistics
+under the null hypothesis. In particular, the variance of the K-L divergence
+grows linearly with the alphabet size, making the test impractical for
+applications involving large alphabet distributions. The variance of the
+mismatched divergence on the other hand grows linearly with the dimension of
+the parameter space, and can hence be controlled through a prudent choice of
+the function class defining the mismatched divergence.

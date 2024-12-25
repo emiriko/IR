@@ -1,0 +1,12 @@
+We present a new tool, GPA, that can generate key performance measures for
+very large systems. Based on solving systems of ordinary differential equations
+(ODEs), this method of performance analysis is far more scalable than
+stochastic simulation. The GPA tool is the first to produce higher moment
+analysis from differential equation approximation, which is essential, in many
+cases, to obtain an accurate performance prediction. We identify so-called
+switch points as the source of error in the ODE approximation. We investigate
+the switch point behaviour in several large models and observe that as the
+scale of the model is increased, in general the ODE performance prediction
+improves in accuracy. In the case of the variance measure, we are able to
+justify theoretically that in the limit of model scale, the ODE approximation
+can be expected to tend to the actual variance of the model.

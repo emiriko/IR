@@ -1,0 +1,17 @@
+Space-time adaptive processing (STAP) is an effective tool for detecting a
+moving target in spaceborne or airborne radar systems. Statistical-based STAP
+methods generally need sufficient statistically independent and identically
+distributed (IID) training data to estimate the clutter characteristics.
+However, most actual clutter scenarios appear only locally stationary and lack
+sufficient IID training data. In this paper, by exploiting the intrinsic
+sparsity of the clutter distribution in the angle-Doppler domain, a new STAP
+algorithm called SR-STAP is proposed, which uses the technique of sparse
+recovery to estimate the clutter space-time spectrum. Joint sparse recovery
+with several training samples is also used to improve the estimation
+performance. Finally, an effective clutter covariance matrix (CCM) estimate and
+the corresponding STAP filter are designed based on the estimated clutter
+spectrum. Both the Mountaintop data and simulated experiments have illustrated
+the fast convergence rate of this approach. Moreover, SR-STAP is less dependent
+on prior knowledge, so it is more robust to the mismatch in the prior knowledge
+than knowledge-based STAP methods. Due to these advantages, SR-STAP has great
+potential for application in actual clutter scenarios.

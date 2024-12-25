@@ -1,0 +1,17 @@
+Dependently typed lambda calculi such as the Logical Framework (LF) can
+encode relationships between terms in types and can naturally capture
+correspondences between formulas and their proofs. Such calculi can also be
+given a logic programming interpretation: the Twelf system is based on such an
+interpretation of LF. We consider here whether a conventional logic programming
+language can provide the benefits of a Twelf-like system for encoding type and
+proof-and-formula dependencies. In particular, we present a simple mapping from
+LF specifications to a set of formulas in the higher-order hereditary Harrop
+(hohh) language, that relates derivations and proof-search between the two
+frameworks. We then show that this encoding can be improved by exploiting
+knowledge of the well-formedness of the original LF specifications to elide
+much redundant type-checking information. The resulting logic program has a
+structure that closely resembles the original specification, thereby allowing
+LF specifications to be viewed as hohh meta-programs. Using the Teyjus
+implementation of lambdaProlog, we show that our translation provides an
+efficient means for executing LF specifications, complementing the ability that
+the Twelf system provides for reasoning about them.

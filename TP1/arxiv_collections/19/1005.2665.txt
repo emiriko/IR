@@ -1,0 +1,21 @@
+In this work we consider the state estimation problem in
+nonlinear/non-Gaussian systems. We introduce a framework, called the scaled
+unscented transform Gaussian sum filter (SUT-GSF), which combines two ideas:
+the scaled unscented Kalman filter (SUKF) based on the concept of scaled
+unscented transform (SUT), and the Gaussian mixture model (GMM). The SUT is
+used to approximate the mean and covariance of a Gaussian random variable which
+is transformed by a nonlinear function, while the GMM is adopted to approximate
+the probability density function (pdf) of a random variable through a set of
+Gaussian distributions. With these two tools, a framework can be set up to
+assimilate nonlinear systems in a recursive way. Within this framework, one can
+treat a nonlinear stochastic system as a mixture model of a set of sub-systems,
+each of which takes the form of a nonlinear system driven by a known Gaussian
+random process. Then, for each sub-system, one applies the SUKF to estimate the
+mean and covariance of the underlying Gaussian random variable transformed by
+the nonlinear governing equations of the sub-system. Incorporating the
+estimations of the sub-systems into the GMM gives an explicit (approximate)
+form of the pdf, which can be regarded as a "complete" solution to the state
+estimation problem, as all of the statistical information of interest can be
+obtained from the explicit form of the pdf ...
+  This work is on the construction of the Gaussian sum filter based on the
+scaled unscented transform.

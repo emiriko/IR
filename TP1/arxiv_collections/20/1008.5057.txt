@@ -1,0 +1,16 @@
+We consider the evaluation of approximate top-k queries from relations with
+a-priori unknown values. Such relations can arise for example in the context of
+expensive predicates, or cloud-based data sources. The task is to find an
+approximate top-k set that is close to the exact one while keeping the total
+processing cost low. The cost of a query is the sum of the costs of the entries
+that are read from the hidden relation. A novel aspect of this work is that we
+consider prior information about the values in the hidden matrix. We propose an
+algorithm that uses regression models at query time to assess whether a row of
+the matrix can enter the top-k set given that only a subset of its values are
+known. The regression models are trained with existing data that follows the
+same distribution as the relation subjected to the query. To evaluate the
+algorithm and to compare it with a method proposed previously in literature, we
+conduct experiments using data from a context sensitive Wikipedia search
+engine. The results indicate that the proposed method outperforms the baseline
+algorithms in terms of the cost while maintaining a high accuracy of the
+returned results.

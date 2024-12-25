@@ -1,0 +1,21 @@
+We study the electronic structure of a spherical jellium in the presence of a
+central Gaussian impurity. We test how well the resulting inhomogeneity effects
+beyond spherical jellium are reproduced by several approximations of density
+functional theory (DFT). Four rungs of Perdew's ladder of DFT functionals,
+namely local density approximation (LDA), generalized gradient approximation
+(GGA), meta-GGA and orbital-dependent hybrid functionals are compared against
+our quantum Monte Carlo (QMC) benchmarks. We identify several distinct
+transitions in the ground state of the system as the electronic occupation
+changes between delocalized and localized states. We examine the parameter
+space of realistic densities ($1 \le r_s\le 5$) and moderate depths of the
+Gaussian impurity ($Z<7$). The selected 18 electron system (with closed-shell
+ground state) presents $1d \to 2s$ transitions while the 30 electron system
+(with open-shell ground state) exhibits $1f \to 2p$ transitions. For the former
+system, the accuracy for the transitions is clearly improving with increasing
+sophistication of functionals with meta-GGA and hybrid functionals having only
+small deviations from QMC. However, for the latter system, we find much larger
+differences for the underlying transitions between our pool of DFT functionals
+and QMC. We attribute this failure to treatment of the exact exchange within
+these functionals. Additionally, we amplify the inhomogeneity effects by
+creating the system with spherical shell which leads to even larger errors in
+DFT approximations.

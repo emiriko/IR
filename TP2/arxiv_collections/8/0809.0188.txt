@@ -1,0 +1,14 @@
+We study the problem of computing a minimum equivalent digraph (also known as
+the problem of computing a strong transitive reduction) and its maximum
+objective function variant, with two types of extensions. First, we allow to
+declare a set $D\subset E$ and require that a valid solution $A$ satisfies
+$D\subset A$ (it is sometimes called transitive reduction problem). In the
+second extension (called $p$-ary transitive reduction), we have integer edge
+labeling and we view two paths as equivalent if they have the same beginning,
+ending and the sum of labels modulo $p$. A solution $A\subseteq E$ is valid if
+it gives an equivalent path for every original path. For all problems we
+establish the following: polynomial time minimization of $|A|$ within ratio
+1.5, maximization of $|E-A|$ within ratio 2, MAX-SNP hardness even of the
+length of simple cycles is limited to 5. Furthermore, we believe that the
+combinatorial technique behind the approximation algorithm for the minimization
+version might be of interest to other graph connectivity problems as well.

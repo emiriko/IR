@@ -1,0 +1,19 @@
+Highly size-asymmetrical fluid mixtures arise in a variety of physical
+contexts, notably in suspensions of colloidal particles to which much smaller
+particles have been added in the form of polymers or nanoparticles.
+Conventional schemes for simulating models of such systems are hamstrung by the
+difficulty of relaxing the large species in the presence of the small one. Here
+we describe how the rejection-free geometrical cluster algorithm (GCA) of Liu
+and Luijten [Phys. Rev. Lett 92, 035504 (2004)] can be embedded within a
+restricted Gibbs ensemble to facilitate efficient and accurate studies of fluid
+phase behavior of highly size-asymmetrical mixtures. After providing a detailed
+description of the algorithm, we summarize the bespoke analysis techniques of
+Ashton et al. [J. Chem. Phys. 132, 074111 (2010)] that permit accurate
+estimates of coexisting densities and critical-point parameters. We apply our
+methods to study the liquid--vapor phase diagram of a particular mixture of
+Lennard-Jones particles having a 10:1 size ratio. As the reservoir volume
+fraction of small particles is increased in the range 0--5%, the critical
+temperature decreases by approximately 50%, while the critical density drops by
+some 30%. These trends imply that in our system, adding small particles
+decreases the net attraction between large particles, a situation that
+contrasts with hard-sphere mixtures where an attractive depletion force occurs.

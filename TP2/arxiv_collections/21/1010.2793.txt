@@ -1,0 +1,12 @@
+Bit commitment schemes are at the basis of modern cryptography. Since
+information-theoretic security is impossible both in the classical and the
+quantum regime, we need to look at computationally secure commitment schemes.
+In this paper, we study worst-case complexity assumptions that imply quantum
+bit-commitment schemes. First, we show that QSZK not included in QMA implies a
+computationally hiding and statistically binding auxiliary-input quantum
+commitment scheme. Additionally, we give auxiliary-input commitment schemes
+using quantum advice that depend on the much weaker assumption that QIP is not
+included in QMA (which is weaker than PSPACE not included in PP). Finally, we
+find a quantum oracle relative to which honest-verifier QSZK is not contained
+in QCMA, the class of languages that can be verified using a classical proof in
+quantum polynomial time.

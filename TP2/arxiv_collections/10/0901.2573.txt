@@ -1,0 +1,18 @@
+The Lomb-Scargle periodogram is a common tool in the frequency analysis of
+unequally spaced data equivalent to least-squares fitting of sine waves. We
+give an analytic solution for the generalisation to a full sine wave fit,
+including an offset and weights ($\chi^{2}$ fitting). Compared to the
+Lomb-Scargle periodogram, the generalisation is superior as it provides more
+accurate frequencies, is less susceptible to aliasing, and gives a much better
+determination of the spectral intensity. Only a few modifications are required
+for the computation and the computational effort is similar. Our approach
+brings together several related methods that can be found in the literature,
+viz. the date-compensated discrete Fourier transform, the floating-mean
+periodogram, and the "spectral significance" estimator used in the SigSpec
+program, for which we point out some equivalences. Furthermore, we present an
+algorithm that implements this generalisation for the evaluation of the
+Keplerian periodogram that searches for the period of the best-fitting
+Keplerian orbit to radial velocity data. The systematic and non-random
+algorithm is capable of detecting eccentric orbits, which is demonstrated by
+two examples and can be a useful tool in searches for the orbital periods of
+exoplanets.

@@ -1,0 +1,20 @@
+We consider the evolution of an asexually reproducing population in an
+uncorrelated random fitness landscape in the limit of infinite genome size,
+which implies that each mutation generates a new fitness value drawn from a
+probability distribution $g(w)$. This is the finite population version of
+Kingman's house of cards model [J.F.C. Kingman, \textit{J. Appl. Probab.}
+\textbf{15}, 1 (1978)]. In contrast to Kingman's work, the focus here is on
+unbounded distributions $g(w)$ which lead to an indefinite growth of the
+population fitness. The model is solved analytically in the limit of infinite
+population size $N \to \infty$ and simulated numerically for finite $N$. When
+the genome-wide mutation probability $U$ is small, the long time behavior of
+the model reduces to a point process of fixation events, which is referred to
+as a \textit{diluted record process} (DRP). The DRP is similar to the standard
+record process except that a new record candidate (a number that exceeds all
+previous entries in the sequence) is accepted only with a certain probability
+that depends on the values of the current record and the candidate. We develop
+a systematic analytic approximation scheme for the DRP. At finite $U$ the
+fitness frequency distribution of the population decomposes into a stationary
+part due to mutations and a traveling wave component due to selection, which is
+shown to imply a reduction of the mean fitness by a factor of $1-U$ compared to
+the $U \to 0$ limit.

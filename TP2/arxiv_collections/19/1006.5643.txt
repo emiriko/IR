@@ -1,0 +1,13 @@
+Current middleware systems suffer from drawbacks. Often one is forced to make
+decisions early in the design process about which classes may participate in
+inter-machine communication. Further, application level and middleware specific
+semantics cannot be separated forcing an unnatural design. The RAFDA project
+proposes to adress these deficiencies by creating an adaptive, reflective
+framework that enables the transformation of non-distributed applications into
+isomorphic applications whose distribution architecture is flexible. This paper
+describes the code transformation techniques that have been developed as part
+of the project. The system enables the distribution of a program according to a
+flexible configuration without user intervention. Proxy objects can then be
+substituted, permitting cross-address space communication. The distributed
+program can adapt to its environment by dynamically altering its distribution
+boundaries.

@@ -1,0 +1,21 @@
+Let $ \{X, X_{k,i}; i \geq 1, k \geq 1 \}$ be a double array of nondegenerate
+i.i.d. random variables and let $\{p_{n}; n \geq 1 \}$ be a sequence of
+positive integers such that $n/p_{n}$ is bounded away from $0$ and $\infty$.
+This paper is devoted to the solution to an open problem posed in Li, Liu, and
+Rosalsky (2010) on the asymptotic distribution of the largest entry $L_{n} =
+\max_{1 \leq i < j \leq p_{n}} \left | \hat{\rho}^{(n)}_{i,j} \right |$ of the
+sample correlation matrix ${\bf \Gamma}_{n} = \left ( \hat{\rho}_{i,j}^{(n)}
+\right )_{1 \leq i, j \leq p_{n}}$ where $\hat{\rho}^{(n)}_{i,j}$ denotes the
+Pearson correlation coefficient between $(X_{1, i},..., X_{n,i})'$ and $(X_{1,
+j},..., X_{n,j})'$. We show under the assumption $\mathbb{E}X^{2} < \infty$
+that the following three statements are equivalent: \begin{align*} & {\bf (1)}
+\quad \lim_{n \to \infty} n^{2} \int_{(n \log n)^{1/4}}^{\infty} \left(
+F^{n-1}(x) - F^{n-1}\left(\frac{\sqrt{n \log n}}{x} \right) \right) dF(x) = 0,
+\\ & {\bf (2)} \quad \left ( \frac{n}{\log n} \right )^{1/2} L_{n}
+  \stackrel{\mathbb{P}}{\rightarrow} 2, \\ & {\bf (3)} \quad \lim_{n
+\rightarrow \infty} \mathbb{P} \left (n L_{n}^{2} - a_{n} \leq t \right ) =
+\exp \left \{ - \frac{1}{\sqrt{8 \pi}} e^{-t/2} \right \}, - \infty < t <
+\infty \end{align*} where $F(x) = \mathbb{P}(|X| \leq x), x \geq 0$ and $a_{n}
+= 4 \log p_{n} - \log \log p_{n}$, $n \geq 2$. To establish this result, we
+present six interesting new lemmas which may be beneficial to the further study
+of the sample correlation matrix.

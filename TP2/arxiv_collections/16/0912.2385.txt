@@ -1,0 +1,15 @@
+A central problem in artificial intelligence is that of planning to maximize
+future reward under uncertainty in a partially observable environment. In this
+paper we propose and demonstrate a novel algorithm which accurately learns a
+model of such an environment directly from sequences of action-observation
+pairs. We then close the loop from observations to actions by planning in the
+learned model and recovering a policy which is near-optimal in the original
+environment. Specifically, we present an efficient and statistically consistent
+spectral algorithm for learning the parameters of a Predictive State
+Representation (PSR). We demonstrate the algorithm by learning a model of a
+simulated high-dimensional, vision-based mobile robot planning task, and then
+perform approximate point-based planning in the learned PSR. Analysis of our
+results shows that the algorithm learns a state space which efficiently
+captures the essential features of the environment. This representation allows
+accurate prediction with a small number of parameters, and enables successful
+and efficient planning.

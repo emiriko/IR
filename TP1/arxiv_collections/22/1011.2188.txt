@@ -1,0 +1,16 @@
+An essential component in proton radiotherapy is the algorithm to calculate
+the radiation dose to be delivered to the patient. The most common dose
+algorithms are fast but they are approximate analytical approaches. However
+their level of accuracy is not always satisfactory, especially for
+heterogeneous anatomic areas, like the thorax. Monte Carlo techniques provide
+superior accuracy, however, they often require large computation resources,
+which render them impractical for routine clinical use. Track-repeating
+algorithms, for example the Fast Dose Calculator, have shown promise for
+achieving the accuracy of Monte Carlo simulations for proton radiotherapy dose
+calculations in a fraction of the computation time. We report on the
+implementation of the Fast Dose Calculator for proton radiotherapy on a card
+equipped with graphics processor units (GPU) rather than a central processing
+unit architecture. This implementation reproduces the full Monte Carlo and
+CPU-based track-repeating dose calculations within 2%, while achieving a
+statistical uncertainty of 2% in less than one minute utilizing one single GPU
+card, which should allow real-time accurate dose calculations.

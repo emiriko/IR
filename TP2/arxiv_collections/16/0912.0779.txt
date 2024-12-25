@@ -1,0 +1,22 @@
+In a previous publication we proposed discrete global optimization as a
+method to train a strong binary classifier constructed as a thresholded sum
+over weak classifiers. Our motivation was to cast the training of a classifier
+into a format amenable to solution by the quantum adiabatic algorithm. Applying
+adiabatic quantum computing (AQC) promises to yield solutions that are superior
+to those which can be achieved with classical heuristic solvers. Interestingly
+we found that by using heuristic solvers to obtain approximate solutions we
+could already gain an advantage over the standard method AdaBoost. In this
+communication we generalize the baseline method to large scale classifier
+training. By large scale we mean that either the cardinality of the dictionary
+of candidate weak classifiers or the number of weak learners used in the strong
+classifier exceed the number of variables that can be handled effectively in a
+single global optimization. For such situations we propose an iterative and
+piecewise approach in which a subset of weak classifiers is selected in each
+iteration via global optimization. The strong classifier is then constructed by
+concatenating the subsets of weak classifiers. We show in numerical studies
+that the generalized method again successfully competes with AdaBoost. We also
+provide theoretical arguments as to why the proposed optimization method, which
+does not only minimize the empirical loss but also adds L0-norm regularization,
+is superior to versions of boosting that only minimize the empirical loss. By
+conducting a Quantum Monte Carlo simulation we gather evidence that the quantum
+adiabatic algorithm is able to handle a generic training problem efficiently.

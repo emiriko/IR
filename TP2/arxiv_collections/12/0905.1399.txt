@@ -1,0 +1,18 @@
+The next-to-leading order (NLO) evolution of the parton distribution
+functions (PDF's) in QCD is the "industry standard" in the lepton-hadron and
+hadron-hadron collider data analysis. The standard NLO DGLAP evolution is
+formulated for inclusive (integrated) PDFs and is done using inclusive NLO
+kernels. We report here on the ongoing project, called KRKMC, in which NLO
+DGLAP evolution is performed for the exclusive multiparton (fully unintegrated)
+distributions (ePDF's) with the help of the exclusive kernels. These kernels
+are calculated within the two-parton phase space for bremsstrahlung subset of
+the Feynman diagrams of the non-singlet evolution, using
+Curci-Furmanski-Petronzio factorization scheme. The multiparton distribution
+with multiple use of the exclusive NLO kernels is implemented in the Monte
+Carlo program simulating multi-gluon emission from single quark emitter. With
+high statistics tests ($\sim 10^{9}$ events) it is shown that the new scheme
+works perfectly well in practice and is equivalent at the inclusive level with
+the traditional inclusive NLO DGLAP evolution. Once completed, this Monte Carlo
+module is aimed as a building block for the NLO parton shower Monte Carlo, for
+W/Z production at LHC and for ep scattering, as well as a starting point for
+other perturbative QCD based Monte Carlo projects.

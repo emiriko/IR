@@ -1,0 +1,18 @@
+In this paper we study the problem of recovering sparse or compressible
+signals from uniformly quantized measurements. We present a new class of convex
+optimization programs, or decoders, coined Basis Pursuit DeQuantizer of moment
+$p$ (BPDQ$_p$), that model the quantization distortion more faithfully than the
+commonly used Basis Pursuit DeNoise (BPDN) program. Our decoders proceed by
+minimizing the sparsity of the signal to be reconstructed subject to a
+data-fidelity constraint expressed in the $\ell_p$-norm of the residual error
+for $2\leq p\leq \infty$.
+  We show theoretically that, (i) the reconstruction error of these new
+decoders is bounded if the sensing matrix satisfies an extended Restricted
+Isometry Property involving the $\ell_p$ norm, and (ii), for Gaussian random
+matrices and uniformly quantized measurements, BPDQ$_p$ performance exceeds
+that of BPDN by dividing the reconstruction error due to quantization by
+$\sqrt{p+1}$. This last effect happens with high probability when the number of
+measurements exceeds a value growing with $p$, i.e. in an oversampled situation
+compared to what is commonly required by BPDN = BPDQ$_2$. To demonstrate the
+theoretical power of BPDQ$_p$, we report numerical simulations on signal and
+image reconstruction problems.

@@ -1,0 +1,23 @@
+This article is concerned with the Axelrod model, a stochastic process which
+similarly to the voter model includes social influence, but unlike the voter
+model also accounts for homophily. Each vertex of the network of interactions
+is characterized by a set of $F$ cultural features, each of which can assume
+$q$ states. Pairs of adjacent vertices interact at a rate proportional to the
+number of features they share, which results in the interacting pair having one
+more cultural feature in common. The Axelrod model has been extensively studied
+during the past ten years, based on numerical simulations and simple mean-field
+treatments, while there is a total lack of analytical results for the spatial
+model itself. Simulation results for the one-dimensional system led physicists
+to formulate the following conjectures. When the number of features $F$ and the
+number of states $q$ both equal two, or when the number of features exceeds the
+number of states, the system converges to a monocultural equilibrium in the
+sense that the number of cultural domains rescaled by the population size
+converges to zero as the population goes to infinity. In contrast, when the
+number of states exceeds the number of features, the system freezes in a highly
+fragmented configuration in which the ultimate number of cultural domains
+scales like the population size. In this article, we prove analytically for the
+one-dimensional system convergence to a monocultural equilibrium in terms of
+clustering when $F=q=2$, as well as fixation to a highly fragmented
+configuration when the number of states is sufficiently larger than the number
+of features. Our first result also implies clustering of the one-dimensional
+constrained voter model.

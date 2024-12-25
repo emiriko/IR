@@ -1,0 +1,15 @@
+The past decade has witnessed many interesting algorithms for maintaining
+statistics over a data stream. This paper initiates a theoretical study of
+algorithms for monitoring distributed data streams over a time-based sliding
+window (which contains a variable number of items and possibly out-of-order
+items). The concern is how to minimize the communication between individual
+streams and the root, while allowing the root, at any time, to be able to
+report the global statistics of all streams within a given error bound. This
+paper presents communication-efficient algorithms for three classical
+statistics, namely, basic counting, frequent items and quantiles. The
+worst-case communication cost over a window is $O(\frac{k} {\epsilon} \log
+\frac{\epsilon N}{k})$ bits for basic counting and $O(\frac{k}{\epsilon} \log
+\frac{N}{k})$ words for the remainings, where $k$ is the number of distributed
+data streams, $N$ is the total number of items in the streams that arrive or
+expire in the window, and $\epsilon < 1$ is the desired error bound. Matching
+and nearly matching lower bounds are also obtained.

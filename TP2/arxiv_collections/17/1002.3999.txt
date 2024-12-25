@@ -1,0 +1,16 @@
+MIMO (Multi Input Multi Output) wireless communication system is an
+innovative solution to improve the bandwidth efficiency by exploiting
+multipath-richness of the propagation environment. The degree of
+multipath-richness of the channel will determine the capacity gain attainable
+by MIMO deployment. Therefore, it is very important to have accurate knowledge
+of the propagation environment/radio channel before MIMO implement. The radio
+channel behavior can be estimated by channel measurement or channel sounding.
+CDM (Code Division multiplexing) is one of the channel sounding techniques that
+allow accurate measurement at the cost of hardware complexity. CDM based
+channel sounder, requires code with excellent autocorrelation and
+cross-correlation properties which generally difficult to achieve
+simultaneously. Theoretical analysis and computer simulation result
+demonstrated that, having excellent correlation propertied Loosely Synchronous
+(LS) code sequence perform efficiently. Finally, the an efficient LS code
+generator as a data source for transmitter implemented in Xilinx FPGA that can
+be integrated into CDM based 2x2 MIMO complete channel sounder.

@@ -1,0 +1,17 @@
+This paper presents a new technique for deterministic length reduction. This
+technique improves the running time of the algorithm presented in \cite{LR07}
+for performing fast convolution in sparse data. While the regular fast
+convolution of vectors $V_1,V_2$ whose sizes are $N_1,N_2$ respectively, takes
+$O(N_1 \log N_2)$ using FFT, using the new technique for length reduction, the
+algorithm proposed in \cite{LR07} performs the convolution in $O(n_1 \log^3
+n_1)$, where $n_1$ is the number of non-zero values in $V_1$. The algorithm
+assumes that $V_1$ is given in advance, and $V_2$ is given in running time. The
+novel technique presented in this paper improves the convolution time to $O(n_1
+\log^2 n_1)$ {\sl deterministically}, which equals the best running time given
+achieved by a {\sl randomized} algorithm.
+  The preprocessing time of the new technique remains the same as the
+preprocessing time of \cite{LR07}, which is $O(n_1^2)$. This assumes and deals
+the case where $N_1$ is polynomial in $n_1$. In the case where $N_1$ is
+exponential in $n_1$, a reduction to a polynomial case can be used. In this
+paper we also improve the preprocessing time of this reduction from $O(n_1^4)$
+to $O(n_1^3{\rm polylog}(n_1))$.

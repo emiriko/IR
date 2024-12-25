@@ -1,0 +1,13 @@
+While quantum computers are capable of simulating many quantum systems
+efficiently, the simulation algorithms must begin with the preparation of an
+appropriate initial state. We present a method for generating physically
+relevant quantum states on a lattice in real space. In particular, the present
+algorithm is able to prepare general pure and mixed many-particle states of any
+number of particles. It relies on a procedure for converting from a
+second-quantized state to its first-quantized counterpart. The algorithm is
+efficient in that it operates in time that is polynomial in all the essential
+descriptors of the system, such the number of particles, the resolution of the
+lattice, and the inverse of the maximum final error. This scaling holds under
+the assumption that the wavefunction to be prepared is bounded or its
+indefinite integral known and that the Fock operator of the system is
+efficiently simulatable.

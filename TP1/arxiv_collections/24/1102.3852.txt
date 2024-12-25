@@ -1,0 +1,14 @@
+In many typical mobile communication receivers the channel is estimated based
+on pilot symbols to allow for a coherent detection and decoding in a separate
+processing step. Currently much work is spent on receivers which break up this
+separation, e.g., by enhancing channel estimation based on reliability
+information on the data symbols. In the present work, we evaluate the possible
+gain of a joint processing of data and pilot symbols in comparison to the case
+of a separate processing in the context of stationary Rayleigh flat-fading
+channels. Therefore, we discuss the nature of the possible gain of a joint
+processing of pilot and data symbols. We show that the additional information
+that can be gained by a joint processing is captured in the temporal
+correlation of the channel estimation error of the solely pilot based channel
+estimation, which is not retrieved by the channel decoder in case of separate
+processing. In addition, we derive a new lower bound on the achievable rate for
+joint processing of pilot and data symbols.

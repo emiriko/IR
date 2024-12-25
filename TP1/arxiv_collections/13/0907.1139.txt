@@ -1,0 +1,16 @@
+Kepler mission will provide a huge amount of asteroseismic data during the
+next few years, among which hundreds of solar-like stars will be targeted. The
+amount of stars and their observation length represent a step forward in the
+comprehension of the stellar evolution that has already been initiated by CoRoT
+and MOST missions. Up to now, the slow cadence of observed targets allowed an
+individual and personalized analysis of each star. During the survey phase of
+Kepler, this will be impossible. This is the reason why, within the AsteroFLAG
+team, we have been developing automatic pipelines for the Kepler solar-like
+oscillation stars. Our code starts by finding the frequency-range where p-mode
+power is present and, after fitting the background, it looks for the mode
+amplitudes as well as the central frequency of the p-mode hump. A good
+estimation of the large separation can thus be inferred in this region. If the
+signal to noise is high enough, the code obtains the characteristics of the p
+modes by doing a global fitting on the power spectrum. Here, we will first
+describe a few features of this pipeline and its application to AsteroFLAG
+synthetic data to check the validity of the code.

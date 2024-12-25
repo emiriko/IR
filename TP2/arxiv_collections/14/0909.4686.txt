@@ -1,0 +1,16 @@
+We present a new methodology for computing approximate Nash equilibria for
+two-person non-cooperative games based upon certain extensions and
+specializations of an existing optimization approach previously used for the
+derivation of fixed approximations for this problem. In particular, the general
+two-person problem is reduced to an indefinite quadratic programming problem of
+special structure involving the $n \times n$ adjacency matrix of an induced
+simple graph specified by the input data of the game, where $n$ is the number
+of players' strategies. Using this methodology and exploiting certain
+properties of the positive part of the spectrum of the induced graph, we show
+that for any $\varepsilon > 0$ there is an algorithm to compute an
+$\varepsilon$-approximate Nash equilibrium in time $n^{\xi(m)/\varepsilon}$,
+where, $\xi (m) = \sum_{i=1}^m \lambda_i / n$ and $\lambda_1, \lambda_2, >...,
+\lambda_m$ are the positive eigenvalues of the adjacency matrix of the graph.
+For classes of games for which $\xi (m)$ is a constant, there is a PTAS. Based
+on the best upper bound derived for $\xi(m)$ so far, the worst case complexity
+of the method is bounded by the subexponential $n^{\sqrt{m}/\varepsilon}$.

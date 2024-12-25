@@ -1,0 +1,15 @@
+Recently there has been a renewed interest in the calculation of
+exact-exchange and RPA correlation energies for realistic systems. These
+quantities are main ingredients of the so-called EXX/RPA+ scheme which has been
+shown to be a promising alternative approach to the standard LDA/GGA DFT for
+weakly bound systems where LDA and GGA perform poorly. In this paper, we
+present an efficient approach to compute the RPA correlation energy in the
+framework of the Adiabatic-Connection Fluctuation-Dissipation formalism. The
+method is based on the calculation of a relatively small number of eigenmodes
+of RPA dielectric matrix, efficiently computed by iterative density response
+calculations in the framework of Density Functional Perturbation Theory. We
+will also discuss a careful treatment of the integrable divergence in the
+exact-exchange energy calculation which alleviates the problem of its slow
+convergence with respect to Brillouin zone sampling. As an illustration of the
+method, we show the results of applications to bulk Si, Be dimer and atomic
+systems.

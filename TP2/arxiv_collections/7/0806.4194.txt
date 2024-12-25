@@ -1,0 +1,12 @@
+In this paper we present FeynRules, a new Mathematica package that
+facilitates the implementation of new particle physics models. After the user
+implements the basic model information (e.g. particle content, parameters and
+Lagrangian), FeynRules derives the Feynman rules and stores them in a generic
+form suitable for translation to any Feynman diagram calculation program. The
+model can then be translated to the format specific to a particular Feynman
+diagram calculator via FeynRules translation interfaces. Such interfaces have
+been written for CalcHEP/CompHEP, FeynArts/FormCalc, MadGraph/MadEvent and
+Sherpa, making it possible to write a new model once and have it work in all of
+these programs. In this paper, we describe how to implement a new model,
+generate the Feynman rules, use a generic translation interface, and write a
+new translation interface. We also discuss the details of the FeynRules code.

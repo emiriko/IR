@@ -1,0 +1,9 @@
+In parametric sequence alignment, optimal alignments of two sequences are
+computed as a function of the penalties for mismatches and spaces, producing
+many different optimal alignments. Here we give a 3/(2^{7/3}\pi^{2/3})n^{2/3}
++O(n^{1/3} \log n) lower bound on the maximum number of distinct optimal
+alignment summaries of length-n binary sequences. This shows that the upper
+bound given by Gusfield et. al. is tight over all alphabets, thereby disproving
+the "square root of n conjecture". Thus the maximum number of distinct optimal
+alignment summaries (i.e. vertices of the alignment polytope) over all pairs of
+length-n sequences is Theta(n^{2/3}).

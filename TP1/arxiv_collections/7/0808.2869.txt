@@ -1,0 +1,14 @@
+The standard definition of quantum state randomization, which is the quantum
+analog of the classical one-time pad, consists in applying some transformation
+to the quantum message conditioned on a classical secret key $k$. We
+investigate encryption schemes in which this transformation is conditioned on a
+quantum encryption key state $\rho_k$ instead of a classical string, and extend
+this symmetric-key scheme to an asymmetric-key model in which copies of the
+same encryption key $\rho_k$ may be held by several different people, but
+maintaining information-theoretical security. We find bounds on the message
+size and the number of copies of the encryption key which can be safely created
+in these two models in terms of the entropy of the decryption key, and show
+that the optimal bound can be asymptotically reached by a scheme using
+classical encryption keys. This means that the use of quantum states as
+encryption keys does not allow more of these to be created and shared, nor
+encrypt larger messages, than if these keys are purely classical.

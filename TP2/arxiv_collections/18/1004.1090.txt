@@ -1,0 +1,8 @@
+The Doi formalism treats a reaction-diffusion process as a quantum many-body
+problem. We use this second quantized formulation as a starting point to derive
+a numerical scheme for simulating $X\to 0$ reaction-diffusion processes,
+following a well-established time discretization procedure. In the case of a
+reaction zone localized in the configuration space, this formulation provides
+also a systematic way of designing an optimized, multiple time step algorithm,
+spending most of the computation time to sample the configurations where the
+reaction is likely to occur.

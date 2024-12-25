@@ -1,0 +1,13 @@
+Consider a point set D with a measure function w : D -> R. Let A be the set
+of subsets of D induced by containment in a shape from some geometric family
+(e.g. axis-aligned rectangles, half planes, balls, k-oriented polygons). We say
+a range space (D, A) has an eps-approximation P if max {R \in A} | w(R \cap
+P)/w(P) - w(R \cap D)/w(D) | <= eps. We describe algorithms for
+deterministically constructing discrete eps-approximations for continuous point
+sets such as distributions or terrains. Furthermore, for certain families of
+subsets A, such as those described by axis-aligned rectangles, we reduce the
+size of the eps-approximations by almost a square root from O(1/eps^2 log
+1/eps) to O(1/eps polylog 1/eps). This is often the first step in transforming
+a continuous problem into a discrete one for which combinatorial techniques can
+be applied. We describe applications of this result in geo-spatial analysis,
+biosurveillance, and sensor networks.

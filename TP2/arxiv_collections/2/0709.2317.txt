@@ -1,0 +1,11 @@
+To estimate the emission parameters in hidden Markov models one commonly uses
+the EM algorithm or its variation. Our primary motivation, however, is the
+Philips speech recognition system wherein the EM algorithm is replaced by the
+Viterbi training algorithm. Viterbi training is faster and computationally less
+involved than EM, but it is also biased and need not even be consistent. We
+propose an alternative to the Viterbi training -- adjusted Viterbi training --
+that has the same order of computational complexity as Viterbi training but
+gives more accurate estimators. Elsewhere, we studied the adjusted Viterbi
+training for a special case of mixtures, supporting the theory by simulations.
+This paper proves the adjusted Viterbi training to be also possible for more
+general hidden Markov models.

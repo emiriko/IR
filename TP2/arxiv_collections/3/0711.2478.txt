@@ -1,0 +1,17 @@
+A Genetic Algorithm (GA) is proposed in which each member of the population
+can change schemata only with its neighbors according to a rule. The rule
+methodology and the neighborhood structure employ elements from the Cellular
+Automata (CA) strategies. Each member of the GA population is assigned to a
+cell and crossover takes place only between adjacent cells, according to the
+predefined rule. Although combinations of CA and GA approaches have appeared
+previously, here we rely on the inherent self-organizing features of CA, rather
+than on parallelism. This conceptual shift directs us toward the evolution of
+compact populations containing only a handful of members. We find that the
+resulting algorithm can search the design space more efficiently than
+traditional GA strategies due to its ability to exploit mutations within this
+compact self-organizing population. Consequently, premature convergence is
+avoided and the final results often are more accurate. In order to reinforce
+the superior mutation capability, a re-initialization strategy also is
+implemented. Ten test functions and two benchmark structural engineering truss
+design problems are examined in order to demonstrate the performance of the
+method.

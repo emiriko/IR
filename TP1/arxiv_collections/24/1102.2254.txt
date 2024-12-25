@@ -1,0 +1,19 @@
+This paper considers the problem of matrix completion when some number of the
+columns are completely and arbitrarily corrupted, potentially by a malicious
+adversary. It is well-known that standard algorithms for matrix completion can
+return arbitrarily poor results, if even a single column is corrupted. One
+direct application comes from robust collaborative filtering. Here, some number
+of users are so-called manipulators who try to skew the predictions of the
+algorithm by calibrating their inputs to the system. In this paper, we develop
+an efficient algorithm for this problem based on a combination of a trimming
+procedure and a convex program that minimizes the nuclear norm and the
+$\ell_{1,2}$ norm. Our theoretical results show that given a vanishing fraction
+of observed entries, it is nevertheless possible to complete the underlying
+matrix even when the number of corrupted columns grows. Significantly, our
+results hold without any assumptions on the locations or values of the observed
+entries of the manipulated columns. Moreover, we show by an
+information-theoretic argument that our guarantees are nearly optimal in terms
+of the fraction of sampled entries on the authentic columns, the fraction of
+corrupted columns, and the rank of the underlying matrix. Our results therefore
+sharply characterize the tradeoffs between sample, robustness and rank in
+matrix completion.

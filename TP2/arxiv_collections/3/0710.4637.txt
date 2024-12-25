@@ -1,0 +1,10 @@
+We investigate a new fault ordering heuristic for test generation in
+full-scan circuits. The heuristic is referred to as the accidental detection
+index. It associates a value ADI (f) with every circuit fault f. The heuristic
+estimates the number of faults that will be detected by a test generated for f.
+Fault ordering is done such that a fault with a higher accidental detection
+index appears earlier in the ordered fault set and targeted earlier during test
+generation. This order is effective for generating compact test sets, and for
+obtaining a test set with a steep fault coverage curve. Such a test set has
+several applications. We present experimental results to demonstrate the
+effectiveness of the heuristic.

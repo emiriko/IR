@@ -1,0 +1,17 @@
+Recent studies into the properties of quantum statistical ensembles in
+high-dimensional Hilbert spaces have encountered difficulties associated with
+the Monte-Carlo sampling of quantum superpositions constrained by the energy
+expectation value. A straightforward Monte-Carlo routine would enclose the
+energy constrained manifold within a larger manifold, which is easy to sample,
+for example, a hypercube. The efficiency of such a sampling routine decreases
+exponentially with the increase of the dimension of the Hilbert space, because
+the volume of the enclosing manifold becomes exponentially larger than the
+volume of the manifold of interest. The present paper explores the ways to
+optimise the above routine by varying the shapes of the manifolds enclosing the
+energy-constrained manifold. The resulting improvement in the sampling
+efficiency is about a factor of five for a 14-dimensional Hilbert space. The
+advantage of the above algorithm is that it does not compromise on the rigorous
+statistical nature of the sampling outcome and hence can be used to test other
+more sophisticated Monte-Carlo routines. The present attempts to optimise the
+enclosing manifolds also bring insights into the geometrical properties of the
+energy constrained manifold itself.

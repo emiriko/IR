@@ -1,0 +1,23 @@
+The Herschel Space Observatory of ESA was launched in May 2009 and is in
+operation since. From its distant orbit around L2 it needs to transmit a huge
+quantity of information through a very limited bandwidth. This is especially
+true for the PACS imaging camera which needs to compress its data far more than
+what can be achieved with lossless compression. This is currently solved by
+including lossy averaging and rounding steps on board. Recently, a new theory
+called compressed-sensing emerged from the statistics community. This theory
+makes use of the sparsity of natural (or astrophysical) images to optimize the
+acquisition scheme of the data needed to estimate those images. Thus, it can
+lead to high compression factors.
+  A previous article by Bobin et al. (2008) showed how the new theory could be
+applied to simulated Herschel/PACS data to solve the compression requirement of
+the instrument. In this article, we show that compressed-sensing theory can
+indeed be successfully applied to actual Herschel/PACS data and give
+significant improvements over the standard pipeline. In order to fully use the
+redundancy present in the data, we perform full sky map estimation and
+decompression at the same time, which cannot be done in most other compression
+methods. We also demonstrate that the various artifacts affecting the data
+(pink noise, glitches, whose behavior is a priori not well compatible with
+compressed-sensing) can be handled as well in this new framework. Finally, we
+make a comparison between the methods from the compressed-sensing scheme and
+data acquired with the standard compression scheme. We discuss improvements
+that can be made on ground for the creation of sky maps from the data.

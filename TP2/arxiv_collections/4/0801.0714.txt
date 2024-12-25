@@ -1,0 +1,14 @@
+XML database query languages such as XQuery employ regular expression types
+with structural subtyping. Subtyping systems typically have two presentations,
+which should be equivalent: a declarative version in which the subsumption rule
+may be used anywhere, and an algorithmic version in which the use of
+subsumption is limited in order to make typechecking syntax-directed and
+decidable. However, the XQuery standard type system circumvents this issue by
+using imprecise typing rules for iteration constructs and defining only
+algorithmic typechecking, and another extant proposal provides more precise
+types for iteration constructs but ignores subtyping. In this paper, we
+consider a core XQuery-like language with a subsumption rule and prove the
+completeness of algorithmic typechecking; this is straightforward for XQuery
+proper but requires some care in the presence of more precise iteration typing
+disciplines. We extend this result to an XML update language we have introduced
+in earlier work.

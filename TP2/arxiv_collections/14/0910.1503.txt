@@ -1,0 +1,14 @@
+Conventional vector-based simulators for quantum computers are quite limited
+in the size of the quantum circuits they can handle, due to the worst-case
+exponential growth of even sparse representations of the full quantum state
+vector as a function of the number of quantum operations applied. However, this
+exponential-space requirement can be avoided by using general space-time
+tradeoffs long known to complexity theorists, which can be appropriately
+optimized for this particular problem in a way that also illustrates some
+interesting reformulations of quantum mechanics. In this paper, we describe the
+design and empirical space-time complexity measurements of a working software
+prototype of a quantum computer simulator that avoids excessive space
+requirements. Due to its space-efficiency, this design is well-suited to
+embedding in single-chip environments, permitting especially fast execution
+that avoids access latencies to main memory. We plan to prototype our design on
+a standard FPGA development board.

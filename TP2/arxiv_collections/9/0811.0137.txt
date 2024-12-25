@@ -1,0 +1,14 @@
+This contribution deals with identification of fractional-order dynamical
+systems. System identification, which refers to estimation of process
+parameters, is a necessity in control theory. Real processes are usually of
+fractional order as opposed to the ideal integral order models. A simple and
+elegant scheme of estimating the parameters for such a fractional order process
+is proposed. This method employs fractional calculus theory to find equations
+relating the parameters that are to be estimated, and then estimates the
+process parameters after solving the simultaneous equations. The said
+simultaneous equations are generated and updated using particle swarm
+optimization (PSO) technique, the fitness function being the sum of squared
+deviations from the actual set of observations. The data used for the
+calculations are intentionally corrupted to simulate real-life conditions.
+Results show that the proposed scheme offers a very high degree of accuracy
+even for erroneous data.

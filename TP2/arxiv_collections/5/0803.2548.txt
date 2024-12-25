@@ -1,0 +1,13 @@
+We report on an exceptionally accurate spin-glass-type Potts model for
+community detection. With a simple algorithm, we find that our approach is at
+least as accurate as the best currently available algorithms and robust to the
+effects of noise. It is also competitive with the best currently available
+algorithms in terms of speed and size of solvable systems. We find that the
+computational demand often exhibits superlinear scaling L^1.3 where L is the
+number of edges in the system, and we have applied the algorithm to synthetic
+systems as large as 40x10^6 nodes and over 1x10^9 edges. A previous stumbling
+block encountered by popular community detection methods is the so-called
+"resolution limit." Being a "local" measure of community structure, our Potts
+model is free from this resolution-limit effect, and it further remains a local
+measure on weighted and directed graphs. We also address the mitigation of
+resolution-limit effects for two other popular Potts models.

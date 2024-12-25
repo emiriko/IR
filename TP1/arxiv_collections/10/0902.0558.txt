@@ -1,0 +1,19 @@
+WLAN devices have become a fundamental component of nowadays network
+deployments. However, even though traditional networking applications run
+mostly unchanged over wireless links, the actual interaction between these
+applications and the dynamics of wireless transmissions is not yet fully
+understood. An important example of such applications are bandwidth estimation
+tools. This area has become a mature research topic with well-developed
+results. Unfortunately recent studies have shown that the application of these
+results to WLAN links is not straightforward. The main reasons for this is that
+the assumptions taken to develop bandwidth measurements tools do not hold any
+longer in the presence of wireless links (e.g. non-FIFO scheduling). This paper
+builds from these observations and its main goal is to analyze the interaction
+between probe packets and WLAN transmissions in bandwidth estimation processes.
+The paper proposes an analytical model that better accounts for the
+particularities of WLAN links. The model is validated through extensive
+experimentation and simulation and reveals that (1) the distribution of the
+delay to transmit probing packets is not the same for the whole probing
+sequence, this biases the measurements process and (2) existing tools and
+techniques point at the achievable throughput rather than the available
+bandwidth or the capacity, as previously assumed.

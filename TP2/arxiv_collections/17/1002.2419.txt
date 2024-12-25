@@ -1,0 +1,16 @@
+We solve an open problem by constructing quantum walks that not only detect
+but also find marked vertices in a graph. In the case when the marked set $M$
+consists of a single vertex, the number of steps of the quantum walk is
+quadratically smaller than the classical hitting time $HT(P,M)$ of any
+reversible random walk $P$ on the graph. In the case of multiple marked
+elements, the number of steps is given in terms of a related quantity
+$HT^+(\mathit{P,M})$ which we call extended hitting time.
+  Our approach is new, simpler and more general than previous ones. We
+introduce a notion of interpolation between the random walk $P$ and the
+absorbing walk $P'$, whose marked states are absorbing. Then our quantum walk
+is simply the quantum analogue of this interpolation. Contrary to previous
+approaches, our results remain valid when the random walk $P$ is not
+state-transitive. We also provide algorithms in the cases when only
+approximations or bounds on parameters $p_M$ (the probability of picking a
+marked vertex from the stationary distribution) and $HT^+(\mathit{P,M})$ are
+known.

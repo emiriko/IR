@@ -1,0 +1,20 @@
+A method to facilitate the consistent inclusion of cross-section measurements
+based on complex final-states from HERA, TEVATRON and the LHC in proton parton
+density function (PDF) fits has been developed. This can be used to increase
+the sensitivity of LHC data to deviations from Standard Model predictions. The
+method stores perturbative coefficients of NLO QCD calculations of final-state
+observables measured in hadron colliders in look-up tables. This allows the
+posteriori inclusion of parton density functions (PDFs), and of the strong
+coupling, as well as the a posteriori variation of the renormalisation and
+factorisation scales in cross-section calculations.
+  The main novelties in comparison to original work on the subject are the use
+of higher-order interpolation, which substantially improves the trade-off
+between accuracy and memory use, and a CPU and computer memory optimised way to
+construct and store the look-up table using modern software tools.
+  It is demonstrated that a sufficient accuracy on the cross-section
+calculation can be achieved with reasonably small look-up table size by using
+the examples of jet production and electro-weak boson (Z, W) production in
+proton-proton collisions at a center-of-mass energy of 14 TeV at the LHC.
+  The use of this technique in PDF fitting is demonstrated in a PDF-fit to HERA
+data and simulated LHC jet cross-sections as well as in a study of the jet
+cross-section uncertainties at various centre-of-mass energies.

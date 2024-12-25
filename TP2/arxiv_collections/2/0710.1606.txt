@@ -1,0 +1,24 @@
+A mathematical framework for Continuous Time Finance based on operator
+algebraic methods offers a new direct and entirely constructive perspective on
+the field and leads to new numerical analysis techniques. This is partly a
+review paper as it covers and expands on the mathematical framework underlying
+a series of more applied articles. In addition, this article also presents a
+few key new theorems that make the treatment self-contained. Stochastic
+processes with continuous time and continuous space variables are defined
+constructively by establishing new convergence estimates for Markov chains on
+simplicial sequences. We emphasize high precision computability by numerical
+linear algebra methods as opposed to the ability of arriving to analytically
+closed form expressions in terms of special functions. Path dependent processes
+adapted to a given Markov filtration are associated to an operator algebra. If
+this algebra is commutative, the corresponding process is named Abelian, a
+concept which provides a far reaching extension of the notion of stochastic
+integral. We recover the classic Cameron-Dyson-Feynman-Girsanov-Ito-Kac-Martin
+theorem as a particular case of a broadly general block-diagonalization
+algorithm. This technique has many applications ranging from the problem of
+pricing cliquets to target-redemption-notes and volatility derivatives.
+Non-Abelian processes are also relevant and appear in several important
+applications to for instance snowballs and soft calls. We show that in these
+cases one can effectively use block-factorization algorithms. Finally, we
+discuss the method of dynamic conditioning that allows one to dynamically
+correlate over possibly even hundreds of processes in a numerically noiseless
+framework while preserving marginal distributions.

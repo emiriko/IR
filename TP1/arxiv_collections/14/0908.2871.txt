@@ -1,0 +1,10 @@
+We propose a performance evaluation method for security protocols. Based on
+the informal specification, we construct a canonical model which includes,
+alongside protocol messages, cryptographic operations performed by participants
+in the process of message construction. Each cryptographic operation is
+assigned a cost modeled as a function of the size of processed message
+components. We model not only the size of regular message components but also
+the size of ciphertext produced by various cryptographic operations. We
+illustrate the applicability of our method by comparatively analyzing the
+performance of the original CCITT X.509 protocol and a slightly modified
+version of the same protocol.

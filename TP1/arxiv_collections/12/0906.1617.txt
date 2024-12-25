@@ -1,0 +1,19 @@
+Equations describing the complete series of image charges for a system of
+conducting spheres are presented. The method of image charges, originally
+described by J. C. Maxwell in 1873, has been and continues to be a useful
+method for solving many three dimensional electrostatic problems. Here we
+demonstrate that as expected when the series is truncated to any finite order
+N, the electric field resulting from the truncated series becomes qualitatively
+more similar to the correct field as N increases. A method of charge
+normalization is developed which provides significant improvement for truncated
+low order solutions. The formulation of the normalization technique and its
+solution via a matrix inversion has similarities to the method of moments,
+which is a numerical solution of Poisson's equation, using an integral equation
+for the unknown charge density with a known boundary potential. The last
+section of this paper presents a gradient search method to optimize a set of L
+point charges for M spheres. This method may use the image charge series to
+initialize the gradient search. We demonstrate quantitatively how the metric
+can be optimized by adjusting the locations and amounts of charge for the set
+of points, and that an optimized set of charges generally performs better than
+truncated normalized image charges, at the expense of gradient search iteration
+time.

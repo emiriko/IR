@@ -1,0 +1,25 @@
+This paper discusses a novel fully implicit formulation for a 1D
+electrostatic particle-in-cell (PIC) plasma simulation approach. Unlike earlier
+implicit electrostatic PIC approaches (which are based on a linearized
+Vlasov-Poisson formulation), ours is based on a nonlinearly converged
+Vlasov-Amp\`ere (VA) model. By iterating particles and fields to a tight
+nonlinear convergence tolerance, the approach features superior stability and
+accuracy properties, avoiding most of the accuracy pitfalls in earlier implicit
+PIC implementations. In particular, the formulation is stable against temporal
+(CFL) and spatial (aliasing) instabilities. It is charge- and energy-conserving
+to numerical roundoff for arbitrary implicit time steps. While momentum is not
+exactly conserved, errors are kept small by an adaptive particle sub-stepping
+orbit integrator, which is instrumental to prevent particle tunneling. The VA
+model is orbit-averaged along particle orbits to enforce an energy conservation
+theorem with particle sub-stepping. As a result, very large time steps,
+constrained only by the dynamical time scale of interest, are possible without
+accuracy loss. Algorithmically, the approach features a Jacobian-free
+Newton-Krylov solver. A main development in this study is the nonlinear
+elimination of the new-time particle variables (positions and velocities). Such
+nonlinear elimination, which we term particle enslavement, results in a
+nonlinear formulation with memory requirements comparable to those of a fluid
+computation, and affords us substantial freedom in regards to the particle
+orbit integrator. Numerical examples are presented that demonstrate the
+advertised properties of the scheme. In particular, long-time ion acoustic wave
+simulations show that numerical accuracy does not degrade even with very large
+implicit time steps, and that significant CPU gains are possible.

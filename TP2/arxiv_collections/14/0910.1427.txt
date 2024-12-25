@@ -1,0 +1,18 @@
+Algorithmic tools for graphs of small treewidth are used to address questions
+in complexity theory. For both arithmetic and Boolean circuits, it is shown
+that any circuit of size $n^{O(1)}$ and treewidth $O(\log^i n)$ can be
+simulated by a circuit of width $O(\log^{i+1} n)$ and size $n^c$, where $c =
+O(1)$, if $i=0$, and $c=O(\log \log n)$ otherwise. For our main construction,
+we prove that multiplicatively disjoint arithmetic circuits of size $n^{O(1)}$
+and treewidth $k$ can be simulated by bounded fan-in arithmetic formulas of
+depth $O(k^2\log n)$. From this we derive the analogous statement for
+syntactically multilinear arithmetic circuits, which strengthens a theorem of
+Mahajan and Rao. As another application, we derive that constant width
+arithmetic circuits of size $n^{O(1)}$ can be balanced to depth $O(\log n)$,
+provided certain restrictions are made on the use of iterated multiplication.
+Also from our main construction, we derive that Boolean bounded fan-in circuits
+of size $n^{O(1)}$ and treewidth $k$ can be simulated by bounded fan-in
+formulas of depth $O(k^2\log n)$. This strengthens in the non-uniform setting
+the known inclusion that $SC^0 \subseteq NC^1$. Finally, we apply our
+construction to show that {\sc reachability} for directed graphs of bounded
+treewidth is in $LogDCFL$.

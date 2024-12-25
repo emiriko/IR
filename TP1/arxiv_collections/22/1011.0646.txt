@@ -1,0 +1,20 @@
+Rapid developments in geographical information systems (GIS) continue to
+generate interest in analyzing complex spatial datasets. One area of activity
+is in creating smoothed disease maps to describe the geographic variation of
+disease and generate hypotheses for apparent differences in risk. With multiple
+diseases, a multivariate conditionally autoregressive (MCAR) model is often
+used to smooth across space while accounting for associations between the
+diseases. The MCAR, however, imposes complex covariance structures that are
+difficult to interpret and estimate. This article develops a much simpler
+alternative approach building upon the techniques of smoothed ANOVA (SANOVA).
+Instead of simply shrinking effects without any structure, here we use SANOVA
+to smooth spatial random effects by taking advantage of the spatial structure.
+We extend SANOVA to cases in which one factor is a spatial lattice, which is
+smoothed using a CAR model, and a second factor is, for example, type of
+cancer. Datasets routinely lack enough information to identify the additional
+structure of MCAR. SANOVA offers a simpler and more intelligible structure than
+the MCAR while performing as well. We demonstrate our approach with simulation
+studies designed to compare SANOVA with different design matrices versus MCAR
+with different priors. Subsequently a cancer-surveillance dataset, describing
+incidence of 3-cancers in Minnesota's 87 counties, is analyzed using both
+approaches, showing the competitiveness of the SANOVA approach.

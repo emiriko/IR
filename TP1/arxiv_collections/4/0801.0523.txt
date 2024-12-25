@@ -1,0 +1,18 @@
+High confidence in floating-point programs requires proving numerical
+properties of final and intermediate values. One may need to guarantee that a
+value stays within some range, or that the error relative to some ideal value
+is well bounded. Such work may require several lines of proof for each line of
+code, and will usually be broken by the smallest change to the code (e.g. for
+maintenance or optimization purpose). Certifying these programs by hand is
+therefore very tedious and error-prone. This article discusses the use of the
+Gappa proof assistant in this context. Gappa has two main advantages over
+previous approaches: Its input format is very close to the actual C code to
+validate, and it automates error evaluation and propagation using interval
+arithmetic. Besides, it can be used to incrementally prove complex mathematical
+properties pertaining to the C code. Yet it does not require any specific
+knowledge about automatic theorem proving, and thus is accessible to a wide
+community. Moreover, Gappa may generate a formal proof of the results that can
+be checked independently by a lower-level proof assistant like Coq, hence
+providing an even higher confidence in the certification of the numerical code.
+The article demonstrates the use of this tool on a real-size example, an
+elementary function with correctly rounded output.

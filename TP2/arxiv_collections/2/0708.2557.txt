@@ -1,0 +1,21 @@
+We consider the problem of secure identification: user U proves to server S
+that he knows an agreed (possibly low-entropy) password w, while giving away as
+little information on w as possible, namely the adversary can exclude at most
+one possible password for each execution of the scheme. We propose a solution
+in the bounded-quantum-storage model, where U and S may exchange qubits, and a
+dishonest party is assumed to have limited quantum memory. No other restriction
+is posed upon the adversary.
+  An improved version of the proposed identification scheme is also secure
+against a man-in-the-middle attack, but requires U and S to additionally share
+a high-entropy key k. However, security is still guaranteed if one party loses
+k to the attacker but notices the loss. In both versions of the scheme, the
+honest participants need no quantum memory, and noise and imperfect quantum
+sources can be tolerated. The schemes compose sequentially, and w and k can
+securely be re-used.
+  A small modification to the identification scheme results in a
+quantum-key-distribution (QKD) scheme, secure in the bounded-quantum-storage
+model, with the same re-usability properties of the keys, and without assuming
+authenticated channels. This is in sharp contrast to known QKD schemes (with
+unbounded adversary) without authenticated channels, where authentication keys
+must be updated, and unsuccessful executions can cause the parties to run out
+of keys.

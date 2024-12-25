@@ -1,0 +1,13 @@
+Merging wireless traces is a fundamental step in measurement-based studies
+involving multiple packet sniffers. Existing merging tools either require a
+wired infrastructure or are limited in their usability. We propose WiPal, an
+offline merging tool for IEEE 802.11 traces that has been designed to be
+efficient and simple to use. WiPal is flexible in the sense that it does not
+require any specific services, neither from monitors (like synchronization,
+access to a wired network, or embedding specific software) nor from its
+software environment (e.g. an SQL server). We present WiPal's operation and
+show how its features - notably, its modular design - improve both ease of use
+and efficiency. Experiments on real traces show that WiPal is an order of
+magnitude faster than other tools providing the same features. To our
+knowledge, WiPal is the only offline trace merger that can be used by the
+research community in a straightforward fashion.

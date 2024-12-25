@@ -1,0 +1,13 @@
+We develop a novel and powerful technique for communication lower bounds, the
+pattern matrix method. Specifically, fix an arbitrary function f:{0,1}^n->{0,1}
+and let A_f be the matrix whose columns are each an application of f to some
+subset of the variables x_1,x_2,...,x_{4n}. We prove that A_f has bounded-error
+communication complexity Omega(d), where d is the approximate degree of f. This
+result remains valid in the quantum model, regardless of prior entanglement. In
+particular, it gives a new and simple proof of Razborov's breakthrough quantum
+lower bounds for disjointness and other symmetric predicates. We further
+characterize the discrepancy, approximate rank, and approximate trace norm of
+A_f in terms of well-studied analytic properties of f, broadly generalizing
+several recent results on small-bias communication and agnostic learning. The
+method of this paper has recently enabled important progress in multiparty
+communication complexity.

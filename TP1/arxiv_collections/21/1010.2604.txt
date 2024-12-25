@@ -1,0 +1,7 @@
+We introduce a new technique for constructing a finite state deterministic
+automaton from a regular expression, based on the idea of marking a suitable
+set of positions inside the expression, intuitively representing the possible
+points reached after the processing of an initial prefix of the input string.
+Pointed regular expressions join the elegance and the symbolic appealingness of
+Brzozowski's derivatives, with the effectiveness of McNaughton and Yamada's
+labelling technique, essentially combining the best of the two approaches.

@@ -1,0 +1,15 @@
+Frameshift mutations in protein-coding DNA sequences produce a drastic change
+in the resulting protein sequence, which prevents classic protein alignment
+methods from revealing the proteins' common origin. Moreover, when a large
+number of substitutions are additionally involved in the divergence, the
+homology detection becomes difficult even at the DNA level. To cope with this
+situation, we propose a novel method to infer distant homology relations of two
+proteins, that accounts for frameshift and point mutations that may have
+affected the coding sequences. We design a dynamic programming alignment
+algorithm over memory-efficient graph representations of the complete set of
+putative DNA sequences of each protein, with the goal of determining the two
+putative DNA sequences which have the best scoring alignment under a powerful
+scoring system designed to reflect the most probable evolutionary process. This
+allows us to uncover evolutionary information that is not captured by
+traditional alignment methods, which is confirmed by biologically significant
+examples.

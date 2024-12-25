@@ -1,0 +1,17 @@
+The problem of the logarithmic discretization of an arbitrary positive
+function (such as the density of states) is studied in general terms.
+Logarithmic discretization has arbitrary high resolution around some chosen
+point (such as Fermi level) and it finds application, for example, in the
+numerical renormalization group (NRG) approach to quantum impurity problems
+(Kondo model), where the continuum of the conduction band states needs to be
+reduced to a finite number of levels with good sampling near the Fermi level.
+The discretization schemes under discussion are required to reproduce the
+original function after averaging over different interleaved discretization
+meshes, thus systematic deviations which appear in the conventional logarithmic
+discretization are eliminated. An improved scheme is proposed in which the
+discretization-mesh points themselves are determined in an adaptive way; they
+are denser in the regions where the function has higher values. Such schemes
+help in reducing the residual numeric artefacts in NRG calculations in
+situations where the density of states approaches zero over extended intervals.
+A reference implementation of the solver for the differential equations which
+determine the full set of discretization coefficients is also described.

@@ -1,0 +1,14 @@
+A continuous-time financial portfolio selection model with expected utility
+maximization typically boils down to solving a (static) convex stochastic
+optimization problem in terms of the terminal wealth, with a budget constraint.
+In literature the latter is solved by assuming {\it a priori} that the problem
+is well-posed (i.e., the supremum value is finite) and a Lagrange multiplier
+exists (and as a consequence the optimal solution is attainable). In this paper
+it is first shown, via various counter-examples, neither of these two
+assumptions needs to hold, and an optimal solution does not necessarily exist.
+These anomalies in turn have important interpretations in and impacts on the
+portfolio selection modeling and solutions. Relations among the non-existence
+of the Lagrange multiplier, the ill-posedness of the problem, and the
+non-attainability of an optimal solution are then investigated. Finally,
+explicit and easily verifiable conditions are derived which lead to finding the
+unique optimal solution.

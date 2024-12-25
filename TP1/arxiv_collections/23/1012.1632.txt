@@ -1,0 +1,12 @@
+We have compared the performance of five non-commercial triple stores,
+Virtuoso-open source, Jena SDB, Jena TDB, SWIFT-OWLIM and 4Store. We examined
+three performance aspects: the query execution time, scalability and run-to-run
+reproducibility. The queries we chose addressed different ontological or
+biological topics, and we obtained evidence that individual store performance
+was quite query specific. We identified three groups of queries displaying
+similar behavior across the different stores: 1) relatively short response
+time, 2) moderate response time and 3) relatively long response time. OWLIM
+proved to be a winner in the first group, 4Store in the second and Virtuoso in
+the third. Our benchmarking showed Virtuoso to be a very balanced performer -
+its response time was better than average for all the 24 queries; it showed a
+very good scalability and a reasonable run-to-run reproducibility.

@@ -1,0 +1,15 @@
+Real-time heuristic search algorithms are suitable for situated agents that
+need to make their decisions in constant time. Since the original work by Korf
+nearly two decades ago, numerous extensions have been suggested. One of the
+most intriguing extensions is the idea of backtracking wherein the agent
+decides to return to a previously visited state as opposed to moving forward
+greedily. This idea has been empirically shown to have a significant impact on
+various performance measures. The studies have been carried out in particular
+empirical testbeds with specific real-time search algorithms that use
+backtracking. Consequently, the extent to which the trends observed are
+characteristic of backtracking in general is unclear. In this paper, we present
+the first entirely theoretical study of backtracking in real-time heuristic
+search. In particular, we present upper bounds on the solution cost exponential
+and linear in a parameter regulating the amount of backtracking. The results
+hold for a wide class of real-time heuristic search algorithms that includes
+many existing algorithms as a small subclass.

@@ -1,0 +1,18 @@
+In some recent works [G. Dimarco, L. Pareschi, Hybrid multiscale methods I.
+Hyperbolic Relaxation Problems, Comm. Math. Sci., 1, (2006), pp. 155-177], [G.
+Dimarco, L. Pareschi, Hybrid multiscale methods II. Kinetic equations, SIAM
+Multiscale Modeling and Simulation Vol 6., No 4,pp. 1169-1197, (2008)] we
+developed a general framework for the construction of hybrid algorithms which
+are able to face efficiently the multiscale nature of some hyperbolic and
+kinetic problems. Here, at variance with respect to the previous methods, we
+construct a method form-fitting to any type of finite volume or finite
+difference scheme for the reduced equilibrium system. Thanks to the coupling of
+Monte Carlo techniques for the solution of the kinetic equations with
+macroscopic methods for the limiting fluid equations, we show how it is
+possible to solve multiscale fluid dynamic phenomena faster with respect to
+traditional deterministic/stochastic methods for the full kinetic equations. In
+addition, due to the hybrid nature of the schemes, the numerical solution is
+affected by less fluctuations when compared to standard Monte Carlo schemes.
+Applications to the Boltzmann-BGK equation are presented to show the
+performance of the new methods in comparison with classical approaches used in
+the simulation of kinetic equations.

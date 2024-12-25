@@ -1,0 +1,22 @@
+The force-free (or low inertia) limit of magnetohydrodynamics (MHD) can be
+applied to many astrophysical objects, including black holes, neutron stars,
+and accretion disks, where the electromagnetic field is so strong that the
+inertia and pressure of the plasma can be ignored. This is difficult to achieve
+with the standard MHD numerical methods because they still have to deal with
+plasma inertial terms even when these terms are much smaller than the
+electromagnetic terms. Under the force free approximation, the plasma dynamics
+is entirely determined by the magnetic field. The plasma provides the currents
+and charge densities required by the dynamics of electromagnetic fields, but
+these currents carry no inertia. We present a high order Godunov scheme to
+study such force-free electrodynamics. We have implemented weighted essentially
+non-oscillatory (WENO) spatial interpolations in our scheme. An exact Riemann
+solver is implemented, which requires spectral decomposition into
+characteristic waves. We advance the magnetic field with the constrained
+transport (CT) scheme to preserve the divergence free condition to machine
+round-off error. We apply the third order total variation diminishing (TVD)
+Runge-Kutta scheme for the temporal integration. The mapping from face-centered
+variables to volume-centered variables is carefully considered. Extensive
+testing are performed to demonstrate the ability of our scheme to address
+force-free electrodynamics correctly. We finally apply the scheme to study
+relativistic magnetically dominated tearing instabilities and neutron star
+magnetospheres.

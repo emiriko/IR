@@ -1,0 +1,8 @@
+The testing time for a system-on-chip(SOC) largely depends on the design of
+test wrappers and the test access mechanism(TAM).Wrapper/TAM co-optimization is
+therefore necessary to minimize SOC testing time . In this paper, we propose an
+efficient algorithm to construct wrappers that reduce testing time for cores.
+We further propose a new approach for wrapper/TAM co-optimization based on
+two-dimensional rectangle packing. This approach considers the diagonal length
+of the rectangles to emphasize on both TAM widths required by a core and its
+corresponding testing time.

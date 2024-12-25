@@ -1,0 +1,14 @@
+The context of this paper is the use of formal methods for topology-based
+geometric modelling. Topology-based geometric modelling deals with objects of
+various dimensions and shapes. Usually, objects are defined by a graph-based
+topological data structure and by an embedding that associates each topological
+element (vertex, edge, face, etc.) with relevant data as their geometric shape
+(position, curve, surface, etc.) or application dedicated data (e.g. molecule
+concentration level in a biological context). We propose to define
+topology-based geometric objects as labelled graphs. The arc labelling defines
+the topological structure of the object whose topological consistency is then
+ensured by labelling constraints. Nodes have as many labels as there are
+different data kinds in the embedding. Labelling constraints ensure then that
+the embedding is consistent with the topological structure. Thus,
+topology-based geometric objects constitute a particular subclass of a category
+of labelled graphs in which nodes have multiple labels.

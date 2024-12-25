@@ -1,0 +1,22 @@
+We combine in a single framework the two complementary benefits of
+chi^2-template fits and empirical training sets used e.g. in neural nets: chi^2
+is more reliable when its probability density functions (PDFs) are inspected
+for multiple peaks, while empirical training is more accurate when calibration
+and priors of query data and training set match. We present a chi^2-empirical
+method that derives PDFs from empirical models as a subclass of kernel
+regression methods, and apply it to the SDSS DR5 sample of >75,000 QSOs, which
+is full of ambiguities. Objects with single-peak PDFs show <1% outliers, rms
+redshift errors <0.05 and vanishing redshift bias. At z>2.5, these figures are
+2x better. Outliers result purely from the discrete nature and limited size of
+the model, and rms errors are dominated by the instrinsic variety of object
+colours. PDFs classed as ambiguous provide accurate probabilities for
+alternative solutions and thus weights for using both solutions and avoiding
+needless outliers. E.g., the PDFs predict 78.0% of the stronger peaks to be
+correct, which is true for 77.9% of them. Redshift incompleteness is common in
+faint spectroscopic surveys and turns into a massive undetectable outlier risk
+above other performance limitations, but we can quantify residual outlier risks
+stemming from size and completeness of the model. We propose a matched
+chi^2-error scale for noisy data and show that it produces correct error
+estimates and redshift distributions accurate within Poisson errors. Our method
+can easily be applied to future large galaxy surveys, which will benefit from
+the reliability in ambiguity detection and residual risk quantification.

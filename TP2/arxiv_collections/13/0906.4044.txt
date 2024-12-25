@@ -1,0 +1,19 @@
+Conference paper assignment, i.e., the task of assigning paper submissions to
+reviewers, presents multi-faceted issues for recommender systems research.
+Besides the traditional goal of predicting `who likes what?', a conference
+management system must take into account aspects such as: reviewer capacity
+constraints, adequate numbers of reviews for papers, expertise modeling,
+conflicts of interest, and an overall distribution of assignments that balances
+reviewer preferences with conference objectives. Among these, issues of
+modeling preferences and tastes in reviewing have traditionally been studied
+separately from the optimization of paper-reviewer assignment. In this paper,
+we present an integrated study of both these aspects. First, due to the paucity
+of data per reviewer or per paper (relative to other recommender systems
+applications) we show how we can integrate multiple sources of information to
+learn paper-reviewer preference models. Second, our models are evaluated not
+just in terms of prediction accuracy but in terms of the end-assignment
+quality. Using a linear programming-based assignment optimization formulation,
+we show how our approach better explores the space of unsupplied assignments to
+maximize the overall affinities of papers assigned to reviewers. We demonstrate
+our results on real reviewer preference data from the IEEE ICDM 2007
+conference.

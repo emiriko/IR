@@ -1,0 +1,12 @@
+Bailey showed that the general pointwise forecasting for stationary and
+ergodic time series has a negative solution. However, it is known that for
+Markov chains the problem can be solved. Morvai showed that there is a stopping
+time sequence $\{\lambda_n\}$ such that
+$P(X_{\lambda_n+1}=1|X_0,...,X_{\lambda_n}) $ can be estimated from samples
+$(X_0,...,X_{\lambda_n})$ such that the difference between the conditional
+probability and the estimate vanishes along these stoppping times for all
+stationary and ergodic binary time series. We will show it is not possible to
+estimate the above conditional probability along a stopping time sequence for
+all stationary and ergodic binary time series in a pointwise sense such that if
+the time series turns out to be a Markov chain, the predictor will predict
+eventually for all $n$.

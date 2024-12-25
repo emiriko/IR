@@ -1,0 +1,23 @@
+We study opinion dynamics in a population of interacting adaptive agents
+voting on a set of complex multidimensional issues. We consider agents which
+can classify issues into for or against. The agents arrive at the opinions
+about each issue in question using an adaptive algorithm. Adaptation comes from
+learning and the information for the learning process comes from interacting
+with other neighboring agents and trying to change the internal state in order
+to concur with their opinions. The change in the internal state is driven by
+the information contained in the issue and in the opinion of the other agent.
+We present results in a simple yet rich context where each agent uses a Boolean
+Perceptron to state its opinion. If there is no internal clock, so the update
+occurs with asynchronously exchanged information among pairs of agents, then
+the typical case, if the number of issues is kept small, is the evolution into
+a society thorn by the emergence of factions with extreme opposite beliefs.
+This occurs even when seeking consensus with agents with opposite opinions. The
+curious result is that it is learning from those that hold the same opinions
+that drives the emergence of factions. This results follows from the fact that
+factions are prevented by not learning at all from those agents that hold the
+same opinion. If the number of issues is large, the dynamics becomes trapped
+and the society does not evolve into factions and a distribution of moderate
+opinions is observed. We also study the less realistic, but technically simpler
+synchronous case showing that global consensus is a fixed point. However, the
+approach to this consensus is glassy in the limit of large societies if agents
+adapt even in the case of agreement.

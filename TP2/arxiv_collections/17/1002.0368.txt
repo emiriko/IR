@@ -1,0 +1,17 @@
+In his famous 1981 talk, Feynman proposed that unlike classical computers,
+which would presumably experience an exponential slowdown when simulating
+quantum phenomena, a universal quantum simulator would not. An ideal quantum
+simulator would be controllable, and built using existing technology. In some
+cases, moving away from gate-model-based implementations of quantum computing
+may offer a more feasible solution for particular experimental implementations.
+Here we consider an adiabatic quantum simulator which simulates the ground
+state properties of sparse Hamiltonians consisting of one- and two-local
+interaction terms, using sparse Hamiltonians with at most three-local
+interactions. Properties of such Hamiltonians can be well approximated with
+Hamiltonians containing only two-local terms. The register holding the
+simulated ground state is brought adiabatically into interaction with a probe
+qubit, followed by a single diabatic gate operation on the probe which then
+undergoes free evolution until measured. This allows one to recover e.g. the
+ground state energy of the Hamiltonian being simulated. Given a ground state,
+this scheme can be used to verify the QMA-complete problem LOCAL HAMILTONIAN,
+and is therefore likely more powerful than classical computing.

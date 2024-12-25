@@ -1,0 +1,12 @@
+This paper introduces a new approach to solve sensor management problems.
+Classically sensor management problems can be well formalized as
+Partially-Observed Markov Decision Processes (POMPD). The original approach
+developped here consists in deriving the optimal parameterized policy based on
+a stochastic gradient estimation. We assume in this work that it is possible to
+learn the optimal policy off-line (in simulation) using models of the
+environement and of the sensor(s). The learned policy can then be used to
+manage the sensor(s). In order to approximate the gradient in a stochastic
+context, we introduce a new method to approximate the gradient, based on
+Infinitesimal Perturbation Approximation (IPA). The effectiveness of this
+general framework is illustrated by the managing of an Electronically Scanned
+Array Radar. First simulations results are finally proposed.

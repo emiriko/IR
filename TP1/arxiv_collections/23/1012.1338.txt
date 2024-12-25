@@ -1,0 +1,8 @@
+In this note we present the worst-character rule, an efficient variation of
+the bad-character heuristic for the exact string matching problem, firstly
+introduced in the well-known Boyer-Moore algorithm. Our proposed rule selects a
+position relative to the current shift which yields the largest average
+advancement, according to the characters distribution in the text. Experimental
+results show that the worst-character rule achieves very good results
+especially in the case of long patterns or small alphabets in random texts and
+in the case of texts in natural languages.

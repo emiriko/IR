@@ -1,0 +1,8 @@
+We present a new online learning algorithm for cumulative discounted gain.
+This learning algorithm does not use exponential weights on the experts.
+Instead, it uses a weighting scheme that depends on the regret of the master
+algorithm relative to the experts. In particular, experts whose discounted
+cumulative gain is smaller (worse) than that of the master algorithm receive
+zero weight. We also sketch how a regret-based algorithm can be used as an
+alternative to Bayesian averaging in the context of inferring latent random
+variables.

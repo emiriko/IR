@@ -1,0 +1,19 @@
+In QCD chiral symmetry is explicitly broken by quark masses, the effect of
+which can be described reliably by chiral perturbation theory. Effects of
+explicit chiral symmetry breaking by the lattice regularisation of the Dirac
+operator, typically parametrised by the residual mass, should be negligible for
+almost all observables if the residual mass of the Dirac operator is much
+smaller than the quark mass. However, maintaining a small residual mass becomes
+increasingly expensive as the quark mass decreases towards the physical value
+and the continuum limit is approached. We investigate the feasibility of using
+a new approximately chiral Dirac operator with a small residual mass as an
+alternative to overlap and domain wall fermions for lattice simulations. Our
+Dirac operator is constructed from a Zolotarev rational approximation for the
+matrix sign function that is optimal for bulk modes of the Hermitian kernel
+Dirac operator but not for the low-lying parts of its spectrum. We test our
+operator on various 32^3\times64 lattices, comparing the residual mass and the
+performance of the Hybrid Monte Carlo algorithm at a similar lattice spacing
+and pion mass with a hyperbolic tangent operator as used by domain wall
+fermions. We find that our approximations have a significantly smaller residual
+mass than domain wall fermions at a similar computational cost, and still admit
+topological charge change.

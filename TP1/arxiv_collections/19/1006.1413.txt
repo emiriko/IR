@@ -1,0 +1,18 @@
+In recent work we have shown how it is possible to define very precise type
+systems for object-oriented languages by abstractly compiling a program into a
+Horn formula f. Then type inference amounts to resolving a certain goal w.r.t.
+the coinductive (that is, the greatest) Herbrand model of f.
+  Type systems defined in this way are idealized, since in the most interesting
+instantiations both the terms of the coinductive Herbrand universe and goal
+derivations cannot be finitely represented. However, sound and quite expressive
+approximations can be implemented by considering only regular terms and
+derivations. In doing so, it is essential to introduce a proper subtyping
+relation formalizing the notion of approximation between types.
+  In this paper we study a subtyping relation on coinductive terms built on
+union and object type constructors. We define an interpretation of types as set
+of values induced by a quite intuitive relation of membership of values to
+types, and prove that the definition of subtyping is sound w.r.t. subset
+inclusion between type interpretations. The proof of soundness has allowed us
+to simplify the notion of contractive derivation and to discover that the
+previously given definition of subtyping did not cover all possible
+representations of the empty type.

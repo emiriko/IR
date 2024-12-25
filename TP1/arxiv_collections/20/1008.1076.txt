@@ -1,0 +1,17 @@
+We introduce a novel method for weak-lensing measurements, which is based on
+a mathematically exact deconvolution of the moments of the apparent brightness
+distribution of galaxies from the telescope's PSF. No assumptions on the shape
+of the galaxy or the PSF are made. The (de)convolution equations are exact for
+unweighted moments only, while in practice a compact weight function needs to
+be applied to the noisy images to ensure that the moment measurement yields
+significant results. We employ a Gaussian weight function, whose centroid and
+ellipticity are iteratively adjusted to match the corresponding quantities of
+the source. The change of the moments caused by the application of the weight
+function can then be corrected by considering higher-order weighted moments of
+the same source. Because of the form of the deconvolution equations, even an
+incomplete weighting correction leads to an excellent shear estimation if
+galaxies and PSF are measured with a weight function of identical size. We
+demonstrate the accuracy and capabilities of this new method in the context of
+weak gravitational lensing measurements with a set of specialized tests and
+show its competitive performance on the GREAT08 challenge data. A complete C++
+implementation of the method can be requested from the authors.

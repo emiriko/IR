@@ -1,0 +1,22 @@
+This paper proposes a hierarchical, multi-resolution framework for the
+identification of model parameters and their spatially variability from noisy
+measurements of the response or output. Such parameters are frequently
+encountered in PDE-based models and correspond to quantities such as density or
+pressure fields, elasto-plastic moduli and internal variables in solid
+mechanics, conductivity fields in heat diffusion problems, permeability fields
+in fluid flow through porous media etc. The proposed model has all the
+advantages of traditional Bayesian formulations such as the ability to produce
+measures of confidence for the inferences made and providing not only
+predictive estimates but also quantitative measures of the predictive
+uncertainty. In contrast to existing approaches it utilizes a parsimonious,
+non-parametric formulation that favors sparse representations and whose
+complexity can be determined from the data. The proposed framework in
+non-intrusive and makes use of a sequence of forward solvers operating at
+various resolutions. As a result, inexpensive, coarse solvers are used to
+identify the most salient features of the unknown field(s) which are
+subsequently enriched by invoking solvers operating at finer resolutions. This
+leads to significant computational savings particularly in problems involving
+computationally demanding forward models but also improvements in accuracy. It
+is based on a novel, adaptive scheme based on Sequential Monte Carlo sampling
+which is embarrassingly parallelizable and circumvents issues with slow mixing
+encountered in Markov Chain Monte Carlo schemes.

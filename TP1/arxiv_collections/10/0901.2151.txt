@@ -1,0 +1,12 @@
+The community structure of a complex network can be determined by finding the
+partitioning of its nodes that maximizes modularity. Many of the proposed
+algorithms for doing this work by recursively bisecting the network. We show
+that this unduely constrains their results, leading to a bias in the size of
+the communities they find and limiting their effectivness. To solve this
+problem, we propose adding a step to the existing algorithms that does not
+increase the order of their computational complexity. We show that, if this
+step is combined with a commonly used method, the identified constraint and
+resulting bias are removed, and its ability to find the optimal partitioning is
+improved. The effectiveness of this combined algorithm is also demonstrated by
+using it on real-world example networks. For a number of these examples, it
+achieves the best results of any known algorithm.

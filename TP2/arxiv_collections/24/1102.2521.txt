@@ -1,0 +1,17 @@
+We present an iterative algorithm for enforcing policies represented in a
+first-order logic, which can, in particular, express all transmission-related
+clauses in the HIPAA Privacy Rule. The logic has three features that raise
+challenges for enforcement --- uninterpreted predicates (used to model
+subjective concepts in privacy policies), real-time temporal properties, and
+quantification over infinite domains (such as the set of messages containing
+personal information). The algorithm operates over audit logs that are
+inherently incomplete and evolve over time. In each iteration, the algorithm
+provably checks as much of the policy as possible over the current log and
+outputs a residual policy that can only be checked when the log is extended
+with additional information. We prove correctness and termination properties of
+the algorithm. While these results are developed in a general form, accounting
+for many different sources of incompleteness in audit logs, we also prove that
+for the special case of logs that maintain a complete record of all relevant
+actions, the algorithm effectively enforces all safety and co-safety
+properties. The algorithm can significantly help automate enforcement of
+policies derived from the HIPAA Privacy Rule.

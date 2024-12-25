@@ -1,0 +1,11 @@
+The main function of IDS (Intrusion Detection System) is to protect the
+system, analyze and predict the behaviors of users. Then these behaviors will
+be considered an attack or a normal behavior. Though IDS has been developed for
+many years, the large number of return alert messages makes managers maintain
+system inefficiently. In this paper, we use RST (Rough Set Theory) and SVM
+(Support Vector Machine) to detect intrusions. First, RST is used to preprocess
+the data and reduce the dimensions. Next, the features were selected by RST
+will be sent to SVM model to learn and test respectively. The method is
+effective to decrease the space density of data. The experiments will compare
+the results with different methods and show RST and SVM schema could improve
+the false positive rate and accuracy.

@@ -1,0 +1,16 @@
+A recently developed spectral-element adaptive refinement incompressible
+magnetohydrodynamic (MHD) code [Rosenberg, Fournier, Fischer, Pouquet, J. Comp.
+Phys. 215, 59-80 (2006)] is applied to simulate the problem of MHD island
+coalescence instability (MICI) in two dimensions. MICI is a fundamental MHD
+process that can produce sharp current layers and subsequent reconnection and
+heating in a high-Lundquist number plasma such as the solar corona [Ng and
+Bhattacharjee, Phys. Plasmas, 5, 4028 (1998)]. Due to the formation of thin
+current layers, it is highly desirable to use adaptively or statically refined
+grids to resolve them, and to maintain accuracy at the same time. The output of
+the spectral-element static adaptive refinement simulations are compared with
+simulations using a finite difference method on the same refinement grids, and
+both methods are compared to pseudo-spectral simulations with uniform grids as
+baselines. It is shown that with the statically refined grids roughly scaling
+linearly with effective resolution, spectral element runs can maintain accuracy
+significantly higher than that of the finite difference runs, in some cases
+achieving close to full spectral accuracy.

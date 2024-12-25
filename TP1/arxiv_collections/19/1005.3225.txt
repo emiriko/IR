@@ -1,0 +1,20 @@
+This thesis is dedicated to the statistical analysis of multi-sub ject fMRI
+data, with the purpose of identifying bain structures involved in certain
+cognitive or sensori-motor tasks, in a reproducible way across sub jects. To
+overcome certain limitations of standard voxel-based testing methods, as
+implemented in the Statistical Parametric Mapping (SPM) software, we introduce
+a Bayesian model selection approach to this problem, meaning that the most
+probable model of cerebral activity given the data is selected from a
+pre-defined collection of possible models. Based on a parcellation of the brain
+volume into functionally homogeneous regions, each model corresponds to a
+partition of the regions into those involved in the task under study and those
+inactive. This allows to incorporate prior information, and avoids the
+dependence of the SPM-like approach on an arbitrary threshold, called the
+cluster- forming threshold, to define active regions. By controlling a Bayesian
+risk, our approach balances false positive and false negative risk control.
+Furthermore, it is based on a generative model that accounts for the spatial
+uncertainty on the localization of individual effects, due to spatial
+normalization errors. On both simulated and real fMRI datasets, we show that
+this new paradigm corrects several biases of the SPM-like approach, which
+either swells or misses the different active regions, depending on the choice
+of a cluster-forming threshold.

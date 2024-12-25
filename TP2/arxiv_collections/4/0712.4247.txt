@@ -1,0 +1,21 @@
+The quantum key distribution protocol BB84, published by C. H. Bennett and G.
+Brassard in 1984, describes how two spatially separated parties can generate a
+random bit string fully known only to them by transmission of single-qubit
+quantum states. Any attempt to eavesdrop on the protocol introduces disturbance
+which can be detected by the legitimate parties. In this Master's Thesis a
+novel modification to the BB84 protocol is analyzed. Instead of sending single
+particles one-by-one as in BB84, they are grouped and a non-local
+transformation is applied to each group before transmission. Each particle is
+sent to the intended receiver, always delaying the transmission until the
+receiver has acknowledged the previous particle on an authenticated classical
+channel, restricting eavesdropping to accessing the quantum transmission one
+particle at a time. Hence, an eavesdropper cannot undo the non-local
+transformation perfectly. Even if perfect cloning of quantum states was
+possible the state of the group could not be cloned. We calculate the maximal
+information on the established key provided by an intercept-resend attack and
+the induced disturbance for different transformations. We observe that it is
+possible to significantly reduce the eavesdropper's maximal information on the
+key--to one eighth of that in BB84 for a fixed, reasonable amount of
+disturbance. We also show that the individual access to the particles poses a
+fundamental restriction to the eavesdropper, and discuss a novel attack type
+against the proposed protocol.

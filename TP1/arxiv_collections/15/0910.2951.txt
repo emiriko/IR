@@ -1,0 +1,14 @@
+The Vicsek model is a very popular individual based model which describes
+collective behavior among animal societies. A macroscopic version of the Vicsek
+model has been derived from a large scale limit of this individual based model
+\cite{degond2007ml}. In this work, we want to numerically validate this
+Macroscopic Vicsek model (MV). To this aim, we compare the simulations of the
+macroscopic and microscopic models one with each other. The MV model is a
+non-conservative hyperbolic equation with a geometric constraint. Due to the
+lack of theory for this kind of equations, we derive several equivalents for
+this system leading to specific numerical schemes. The numerical simulations
+reveal that the microscopic and macroscopic models are in good agreement
+provided that we choose one of the proposed formulations based on a relaxation
+of the geometric constraint. This confirms the relevance of the macroscopic
+equation but it also calls for a better theoretical understanding of this type
+of equations.

@@ -1,0 +1,14 @@
+Quantum computers are appealing for their ability to solve some tasks much
+faster than their classical counterparts. It was shown in [Aspuru-Guzik et al.,
+Science 309, 1704 (2005)] that they, if available, would be able to perform the
+full configuration interaction (FCI) energy calculations with a polynomial
+scaling. This is in contrast to conventional computers where FCI scales
+exponentially. We have developed a code for simulation of quantum computers and
+implemented our version of the quantum full configuration interaction
+algorithm. We provide a detailed description of this algorithm and the results
+of the assessment of its performance on the four lowest lying electronic states
+of CH2 molecule. This molecule was chosen as a benchmark, since its two lowest
+lying 1A1 states exhibit a multireference character at the equilibrium
+geometry. It has been shown that with a suitably chosen initial state of the
+quantum register, one is able to achieve the probability amplification regime
+of the iterative phase estimation algorithm even in this case.

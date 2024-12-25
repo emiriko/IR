@@ -1,0 +1,17 @@
+We present an efficient quantum algorithm for preparing a pure state on a
+quantum computer, where the quantum state corresponds to that of a molecular
+system with a given number $m$ of electrons occupying a given number $n$ of
+spin orbitals. Each spin orbital is mapped to a qubit: the states $| 1 >$ and
+$| 0>$ of the qubit represent, respectively, whether the spin orbital is
+occupied by an electron or not. To prepare a general state in the full Hilbert
+space of $n$ qubits, which is of dimension $2^{n}$%, $O(2^{n})$ controlled-NOT
+gates are needed, i.e., the number of gates scales \emph{exponentially} with
+the number of qubits. We make use of the fact that the state to be prepared
+lies in a smaller Hilbert space, and we find an algorithm that requires at most
+$O(2^{m+1} n^{m}/{m!})$ gates, i.e., scales \emph{polynomially} with the number
+of qubits $n$, provided $n\gg m$. The algorithm is simulated numerically for
+the cases of the hydrogen molecule and the water molecule. The numerical
+simulations show that when additional symmetries of the system are considered,
+the number of gates to prepare the state can be drastically reduced, in the
+examples considered in this paper, by several orders of magnitude, from the
+above estimate.

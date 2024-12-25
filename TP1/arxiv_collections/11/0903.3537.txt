@@ -1,0 +1,14 @@
+In this paper, we demonstrate, both theoretically and by numerical examples,
+that adding a local prediction component to the update rule can significantly
+improve the convergence rate of distributed averaging algorithms. We focus on
+the case where the local predictor is a linear combination of the node's two
+previous values (i.e., two memory taps), and our update rule computes a
+combination of the predictor and the usual weighted linear combination of
+values received from neighbouring nodes. We derive the optimal mixing parameter
+for combining the predictor with the neighbors' values, and carry out a
+theoretical analysis of the improvement in convergence rate that can be
+obtained using this acceleration methodology. For a chain topology on n nodes,
+this leads to a factor of n improvement over the one-step algorithm, and for a
+two-dimensional grid, our approach achieves a factor of n^1/2 improvement, in
+terms of the number of iterations required to reach a prescribed level of
+accuracy.

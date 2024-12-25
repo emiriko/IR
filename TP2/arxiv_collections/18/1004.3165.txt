@@ -1,0 +1,22 @@
+We show an Omega(sqrt{n}/T) lower bound for the space required by any
+unidirectional constant-error randomized T-pass streaming algorithm that
+recognizes whether an expression over two types of parenthesis is
+well-parenthesized. This proves a conjecture due to Magniez, Mathieu, and Nayak
+(2009) and rigorously establishes that bidirectional streams are exponentially
+more efficient in space usage as compared with unidirectional ones. We obtain
+the lower bound by establishing the minimum amount of information that is
+necessarily revealed by the players about their respective inputs in a
+two-party communication protocol for a variant of the Index function, namely
+Augmented Index. The information cost trade-off is obtained by a novel
+application of the conceptually simple and familiar ideas such as average
+encoding and the cut-and-paste property of randomized protocols.
+  Motivated by recent examples of exponential savings in space by streaming
+quantum algorithms, we also study quantum protocols for Augmented Index.
+Defining an appropriate notion of information cost for quantum protocols
+involves a delicate balancing act between its applicability and the ease with
+which we can analyze it. We define a notion of quantum information cost which
+reflects some of the non-intuitive properties of quantum information and give a
+trade-off for this notion. While this trade-off demonstrates the strength of
+our proof techniques, it does not lead to a space lower bound for checking
+parentheses. We leave such an implication for quantum streaming algorithms as
+an intriguing open question.

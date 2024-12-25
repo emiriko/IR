@@ -1,0 +1,23 @@
+In this paper we treat both forms of probabilistic inference, estimating
+marginal probabilities of the joint distribution and finding the most probable
+assignment, through a unified message-passing algorithm architecture. We
+generalize the Belief Propagation (BP) algorithms of sum-product and
+max-product and tree-rewaighted (TRW) sum and max product algorithms (TRBP) and
+introduce a new set of convergent algorithms based on "convex-free-energy" and
+Linear-Programming (LP) relaxation as a zero-temprature of a
+convex-free-energy. The main idea of this work arises from taking a general
+perspective on the existing BP and TRBP algorithms while observing that they
+all are reductions from the basic optimization formula of $f + \sum_i h_i$
+where the function $f$ is an extended-valued, strictly convex but non-smooth
+and the functions $h_i$ are extended-valued functions (not necessarily convex).
+We use tools from convex duality to present the "primal-dual ascent" algorithm
+which is an extension of the Bregman successive projection scheme and is
+designed to handle optimization of the general type $f + \sum_i h_i$. Mapping
+the fractional-free-energy variational principle to this framework introduces
+the "norm-product" message-passing. Special cases include sum-product and
+max-product (BP algorithms) and the TRBP algorithms. When the
+fractional-free-energy is set to be convex (convex-free-energy) the
+norm-product is globally convergent for estimating of marginal probabilities
+and for approximating the LP-relaxation. We also introduce another branch of
+the norm-product, the "convex-max-product". The convex-max-product is
+convergent (unlike max-product) and aims at solving the LP-relaxation.

@@ -1,0 +1,16 @@
+Adiabatic quantum optimization offers a new method for solving hard
+optimization problems. In this paper we calculate median adiabatic times (in
+seconds) determined by the minimum gap during the adiabatic quantum
+optimization for an NP-hard Ising spin glass instance class with up to 128
+binary variables. Using parameters obtained from a realistic superconducting
+adiabatic quantum processor, we extract the minimum gap and matrix elements
+using high performance Quantum Monte Carlo simulations on a large-scale
+Internet-based computing platform. We compare the median adiabatic times with
+the median running times of two classical solvers and find that, for the
+considered problem sizes, the adiabatic times for the simulated processor
+architecture are about 4 and 6 orders of magnitude shorter than the two
+classical solvers' times. This shows that if the adiabatic time scale were to
+determine the computation time, adiabatic quantum optimization would be
+significantly superior to those classical solvers for median spin glass
+problems of at least up to 128 qubits. We also discuss important additional
+constraints that affect the performance of a realistic system.

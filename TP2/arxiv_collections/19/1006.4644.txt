@@ -1,0 +1,12 @@
+In this paper we report the prototype of the first coalescing binary
+detection pipeline fully implemented on NVIDIA GPU hardware accelerators. The
+code has been embedded in a GPU library, called cuInspiral and has been
+developed under CUDA framework. The library contains for example a PN
+gravitational wave signal generator, matched filtering/FFT and detection
+algorithms that have been profiled and compared with the corresponding CPU code
+with dedicated benchmark in order to provide gain factor respect to the
+standard CPU implementation. In the paper we present performances and accuracy
+results about some of the main important elements of the pipeline,
+demonstrating the feasibility and the chance of obtain an impressive computing
+gain from these new many-core architectures in the perspective of the second
+and third generations of gravitational wave detectors.

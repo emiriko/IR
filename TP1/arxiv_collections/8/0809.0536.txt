@@ -1,0 +1,16 @@
+The opportunistic beamforming in the downlink of multiple-input single-output
+(MISO) systems forms $N$ transmit beams, usually, no more than the number of
+transmit antennas $N_t$. However, the degrees of freedom in this downlink is as
+large as $N_t^2$. That is, at most $N_t^2$ rather than only $N_t$ users can be
+simultaneously transmitted and thus the scheduling latency can be significantly
+reduced. In this paper, we focus on the opportunistic beamforming schemes with
+$N_t<N\le N_t^2$ transmit beams in the downlink of MISO systems over Rayleigh
+fading channels. We first show how to design the beamforming matrices with
+maximum number of transmit beams as well as least correlation between any pair
+of them as possible, through Fourier, Grassmannian, and mutually unbiased bases
+(MUB) based constructions in practice. Then, we analyze their system throughput
+by exploiting the asymptotic theory of extreme order statistics. Finally, our
+simulation results show the Grassmannian-based beamforming achieves the maximum
+throughput in all cases with $N_t=2$, 3, 4. However, if we want to exploit
+overall $N_t^2$ degrees of freedom, we shall resort to the Fourier and
+MUB-based constructions in the cases with $N_t=3$, 4, respectively.

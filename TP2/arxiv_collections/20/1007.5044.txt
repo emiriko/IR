@@ -1,0 +1,22 @@
+We consider the problem of optimally allocating a given total storage budget
+in a distributed storage system. A source has a data object which it can code
+and store over a set of storage nodes; it is allowed to store any amount of
+coded data in each node, as long as the total amount of storage used does not
+exceed the given budget. A data collector subsequently attempts to recover the
+original data object by accessing each of the nodes independently with some
+constant probability. By using an appropriate code, successful recovery occurs
+when the total amount of data in the accessed nodes is at least the size of the
+original data object. The goal is to find an optimal storage allocation that
+maximizes the probability of successful recovery. This optimization problem is
+challenging because of its discrete nature and nonconvexity, despite its simple
+formulation. Symmetric allocations (in which all nonempty nodes store the same
+amount of data), though intuitive, may be suboptimal; the problem is nontrivial
+even if we optimize over only symmetric allocations. Our main result shows that
+the symmetric allocation that spreads the budget maximally over all nodes is
+asymptotically optimal in a regime of interest. Specifically, we derive an
+upper bound for the suboptimality of this allocation and show that the
+performance gap vanishes asymptotically in the specified regime. Further, we
+explicitly find the optimal symmetric allocation for a variety of cases. Our
+results can be applied to distributed storage systems and other problems
+dealing with reliability under uncertainty, including delay tolerant networks
+(DTNs) and content delivery networks (CDNs).

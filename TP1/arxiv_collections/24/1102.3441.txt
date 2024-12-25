@@ -1,0 +1,20 @@
+We provide a non-interactive quantum bit commitment scheme which has
+statistically-hiding and computationally-binding properties from any quantum
+one-way function. Our protocol is basically a parallel composition of the
+previous non-interactive quantum bit commitment schemes (based on quantum
+one-way permutations, due to Dumais, Mayers and Salvail (EUROCRYPT 2000)) with
+pairwise independent hash functions. To construct our non-interactive quantum
+bit commitment scheme from any quantum one-way function, we follow the
+procedure below: (i) from Dumais-Mayers-Salvail scheme to a weakly-hiding and
+1-out-of-2 binding commitment (of a parallel variant); (ii) from the
+weakly-hiding and 1-out-of-2 binding commitment to a strongly-hiding and
+1-out-of-2 binding commitment; (iii) from the strongly-hiding and 1-out-of-2
+binding commitment to a normal statistically-hiding commitment. In the
+classical case, statistically-hiding bit commitment scheme (by Haitner, Nguyen,
+Ong, Reingold and Vadhan (SIAM J. Comput., Vol.39, 2009)) is also constructible
+from any one-way function. While the classical statistically-hiding bit
+commitment has large round complexity, our quantum scheme is non-interactive,
+which is advantageous over the classical schemes. A main technical contribution
+is to provide a quantum analogue of the new interactive hashing theorem, due to
+Haitner and Reingold (CCC 2007). Moreover, the parallel composition enables us
+to simplify the security analysis drastically.

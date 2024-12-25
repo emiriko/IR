@@ -1,0 +1,23 @@
+There are many sources of error in counting votes: the apparent winner might
+not be the rightful winner. Hand tallies of the votes in a random sample of
+precincts can be used to test the hypothesis that a full manual recount would
+find a different outcome. This paper develops a conservative sequential test
+based on the vote-counting errors found in a hand tally of a simple or
+stratified random sample of precincts. The procedure includes a natural
+escalation: If the hypothesis that the apparent outcome is incorrect is not
+rejected at stage $s$, more precincts are audited. Eventually, either the
+hypothesis is rejected--and the apparent outcome is confirmed--or all precincts
+have been audited and the true outcome is known. The test uses a priori bounds
+on the overstatement of the margin that could result from error in each
+precinct. Such bounds can be derived from the reported counts in each precinct
+and upper bounds on the number of votes cast in each precinct. The test allows
+errors in different precincts to be treated differently to reflect voting
+technology or precinct sizes. It is not optimal, but it is conservative: the
+chance of erroneously confirming the outcome of a contest if a full manual
+recount would show a different outcome is no larger than the nominal
+significance level. The approach also gives a conservative $P$-value for the
+hypothesis that a full manual recount would find a different outcome, given the
+errors found in a fixed size sample. This is illustrated with two contests from
+November, 2006: the U.S. Senate race in Minnesota and a school board race for
+the Sausalito Marin City School District in California, a small contest in
+which voters could vote for up to three candidates.

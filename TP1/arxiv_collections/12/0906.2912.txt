@@ -1,0 +1,23 @@
+Implicit particle-in-cell codes offer advantages over their explicit
+counterparts in that they suffer weaker stability constraints on the need to
+resolve the higher frequency modes of the system. This feature may prove
+particularly valuable for modeling the interaction of high-intensity laser
+pulses with overcritical plasmas, in the case where the electrostatic modes in
+the denser regions are of negligible influence on the physical processes under
+study. To this goal, we have developed the new two-dimensional electromagnetic
+code ELIXIRS (standing for ELectromagnetic Implicit X-dimensional Iterative
+Relativistic Solver) based on the relativistic extension of the so-called
+Direct Implicit Method [D. Hewett and A. B. Langdon, J. Comp. Phys.
+\textbf{72}, 121(1987)]. Dissipation-free propagation of light waves into
+vacuum is achieved by an adjustable-damping electromagnetic solver. In the
+high-density case where the Debye length is not resolved, satisfactory energy
+conservation is ensured by the use of high-order weight factors. In this paper,
+we first present an original derivation of the electromagnetic direct implicit
+method within a Newton iterative scheme. Its linear properties are then
+investigated through numerically solving the relation dispersions obtained for
+both light and plasma waves, accounting for finite space and time steps.
+Finally, our code is successfully benchmarked against explicit particle-in-cell
+simulations for two kinds of physical problems: plasma expansion into vacuum
+and relativistic laser-plasma interaction. In both cases, we will demonstrate
+the robustness of the implicit solver for crude discretizations, as well as the
+gains in efficiency which can be realized over standard explicit simulations.

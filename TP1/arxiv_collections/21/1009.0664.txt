@@ -1,0 +1,12 @@
+Consider a system of coalescing random walks where each individual performs
+random walk over a finite graph G, or (more generally) evolves according to
+some reversible Markov chain generator Q. Let C be the first time at which all
+walkers have coalesced into a single cluster. C is closely related to the
+consensus time of the voter model for this G or Q.
+  We prove that the expected value of C is at most a constant multiple of the
+largest hitting time of an element in the state space. This solves a problem
+posed by Aldous and Fill and gives sharp bounds in many examples, including all
+vertex-transitive graphs. We also obtain results on the expected time until
+only k>1 clusters remain. Our proof tools include a new exponential inequality
+for the meeting time of a reversible Markov chain and a deterministic
+trajectory, which we believe to be of independent interest.

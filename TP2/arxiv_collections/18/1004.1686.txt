@@ -1,0 +1,12 @@
+The paper presents new clustering algorithm. The proposed algorithm gives
+less distortion as compared to well known Linde Buzo Gray (LBG) algorithm and
+Kekre's Proportionate Error (KPE) Algorithm. Constant error is added every time
+to split the clusters in LBG, resulting in formation of cluster in one
+direction which is 1350 in 2-dimensional case. Because of this reason
+clustering is inefficient resulting in high MSE in LBG. To overcome this
+drawback of LBG proportionate error is added to change the cluster orientation
+in KPE. Though the cluster orientation in KPE is changed its variation is
+limited to +/- 450 over 1350. The proposed algorithm takes care of this problem
+by introducing new orientation every time to split the clusters. The proposed
+method reduces PSNR by 2db to 5db for codebook size 128 to 1024 with respect to
+LBG.

@@ -1,0 +1,20 @@
+When outcomes are missing for reasons beyond an investigator's control, there
+are two different ways to adjust a parameter estimate for covariates that may
+be related both to the outcome and to missingness. One approach is to model the
+relationships between the covariates and the outcome and use those
+relationships to predict the missing values. Another is to model the
+probabilities of missingness given the covariates and incorporate them into a
+weighted or stratified estimate. Doubly robust (DR) procedures apply both types
+of model simultaneously and produce a consistent estimate of the parameter if
+either of the two models has been correctly specified. In this article, we show
+that DR estimates can be constructed in many ways. We compare the performance
+of various DR and non-DR estimates of a population mean in a simulated example
+where both models are incorrect but neither is grossly misspecified. Methods
+that use inverse-probabilities as weights, whether they are DR or not, are
+sensitive to misspecification of the propensity model when some estimated
+propensities are small. Many DR methods perform better than simple
+inverse-probability weighting. None of the DR methods we tried, however,
+improved upon the performance of simple regression-based prediction of the
+missing values. This study does not represent every missing-data problem that
+will arise in practice. But it does demonstrate that, in at least some
+settings, two wrong models are not better than one.

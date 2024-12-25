@@ -1,0 +1,15 @@
+In their paper on the "chasm at depth four", Agrawal and Vinay have shown
+that polynomials in m variables of degree O(m) which admit arithmetic circuits
+of size 2^o(m) also admit arithmetic circuits of depth four and size 2^o(m).
+This theorem shows that for problems such as arithmetic circuit lower bounds or
+black-box derandomization of identity testing, the case of depth four circuits
+is in a certain sense the general case. In this paper we show that smaller
+depth four circuits can be obtained if we start from polynomial size arithmetic
+circuits. For instance, we show that if the permanent of n*n matrices has
+circuits of size polynomial in n, then it also has depth 4 circuits of size
+n^O(sqrt(n)*log(n)). Our depth four circuits use integer constants of
+polynomial size. These results have potential applications to lower bounds and
+deterministic identity testing, in particular for sums of products of sparse
+univariate polynomials. We also give an application to boolean circuit
+complexity, and a simple (but suboptimal) reduction to polylogarithmic depth
+for arithmetic circuits of polynomial size and polynomially bounded degree.

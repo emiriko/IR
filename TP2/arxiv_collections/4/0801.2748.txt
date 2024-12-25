@@ -1,0 +1,12 @@
+We consider the problem of sparse canonical correlation analysis (CCA), i.e.,
+the search for two linear combinations, one for each multivariate, that yield
+maximum correlation using a specified number of variables. We propose an
+efficient numerical approximation based on a direct greedy approach which
+bounds the correlation at each stage. The method is specifically designed to
+cope with large data sets and its computational complexity depends only on the
+sparsity levels. We analyze the algorithm's performance through the tradeoff
+between correlation and parsimony. The results of numerical simulation suggest
+that a significant portion of the correlation may be captured using a
+relatively small number of variables. In addition, we examine the use of sparse
+CCA as a regularization method when the number of available samples is small
+compared to the dimensions of the multivariates.

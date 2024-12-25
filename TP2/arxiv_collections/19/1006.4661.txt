@@ -1,0 +1,12 @@
+We study the integer minimization of a quasiconvex polynomial with
+quasiconvex polynomial constraints. We propose a new algorithm that is an
+improvement upon the best known algorithm due to Heinz (Journal of Complexity,
+2005). This improvement is achieved by applying a new modern Lenstra-type
+algorithm, finding optimal ellipsoid roundings, and considering sparse
+encodings of polynomials. For the bounded case, our algorithm attains a
+time-complexity of s (r l M d)^{O(1)} 2^{2n log_2(n) + O(n)} when M is a bound
+on the number of monomials in each polynomial and r is the binary encoding
+length of a bound on the feasible region. In the general case, s l^{O(1)}
+d^{O(n)} 2^{2n log_2(n) +O(n)}. In each we assume d>= 2 is a bound on the total
+degree of the polynomials and l bounds the maximum binary encoding size of the
+input.

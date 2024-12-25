@@ -1,0 +1,14 @@
+Batch codes, introduced by Ishai, Kushilevitz, Ostrovsky and Sahai in [1],
+are methods for solving the following data storage problem: n data items are to
+be stored in m servers in such a way that any k of the n items can be retrieved
+by reading at most t items from each server, and that the total number of items
+stored in m servers is N . A Combinatorial batch code (CBC) is a batch code
+where each data item is stored without change, i.e., each stored data item is a
+copy of one of the n data items. One of the basic yet challenging problems is
+to find optimal CBCs, i.e., CBCs for which total storage (N) is minimal for
+given values of n, m, k, and t. In [2], Paterson, Stinson and Wei exclusively
+studied CBCs and gave constructions of some optimal CBCs. In this article, we
+give a lower bound on the total storage (N) for CBCs. We give explicit
+construction of optimal CBCs for a range of values of n. For a different range
+of values of n, we give explicit construction of optimal and almost optimal
+CBCs. Our results partly settle an open problem of [2].

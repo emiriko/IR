@@ -1,0 +1,12 @@
+Given a sequence of observations from a discrete-time, finite-state hidden
+Markov model, we would like to estimate the sampling distribution of a
+statistic. The bootstrap method is employed to approximate the confidence
+regions of a multi-dimensional parameter. We propose an importance sampling
+formula for efficient simulation in this context. Our approach consists of
+constructing a locally asymptotically normal (LAN) family of probability
+distributions around the default resampling rule and then minimizing the
+asymptotic variance within the LAN family. The solution of this minimization
+problem characterizes the asymptotically optimal resampling scheme, which is
+given by a tilting formula. The implementation of the tilting formula is
+facilitated by solving a Poisson equation. A few numerical examples are given
+to demonstrate the efficiency of the proposed importance sampling scheme.

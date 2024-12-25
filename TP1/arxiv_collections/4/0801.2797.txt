@@ -1,0 +1,12 @@
+Suppose $G$ is a graph with degrees bounded by $d$, and one needs to remove
+more than $\epsilon n$ of its edges in order to make it planar. We show that in
+this case the statistics of local neighborhoods around vertices of $G$ is far
+from the statistics of local neighborhoods around vertices of any planar graph
+$G'$ with the same degree bound. In fact, a similar result is proved for any
+minor-closed property of bounded degree graphs.
+  As an immediate corollary of the above result we infer that many well studied
+graph properties, like being planar, outer-planar, series-parallel, bounded
+genus, bounded tree-width and several others, are testable with a constant
+number of queries, where the constant may depend on $\epsilon$ and $d$, but not
+on the graph size. None of these properties was previously known to be testable
+even with $o(n)$ queries.

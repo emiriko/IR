@@ -1,0 +1,21 @@
+I introduce an algorithm for estimating parameters from multidimensional data
+based on forward modelling. In contrast to many machine learning approaches it
+avoids fitting an inverse model and the problems associated with this. The
+algorithm makes explicit use of the sensitivities of the data to the
+parameters, with the goal of better treating parameters which only have a weak
+impact on the data. The forward modelling approach provides uncertainty (full
+covariance) estimates in the predicted parameters as well as a goodness-of-fit
+for observations. I demonstrate the algorithm, ILIUM, with the estimation of
+stellar astrophysical parameters (APs) from simulations of the low resolution
+spectrophotometry to be obtained by Gaia. The AP accuracy is competitive with
+that obtained by a support vector machine. For example, for zero extinction
+stars covering a wide range of metallicity, surface gravity and temperature,
+ILIUM can estimate Teff to an accuracy of 0.3% at G=15 and to 4% for (lower
+signal-to-noise ratio) spectra at G=20. [Fe/H] and logg can be estimated to
+accuracies of 0.1-0.4dex for stars with G<=18.5. If extinction varies a priori
+over a wide range (Av=0-10mag), then Teff and Av can be estimated quite
+accurately (3-4% and 0.1-0.2mag respectively at G=15), but there is a strong
+and ubiquitous degeneracy in these parameters which limits our ability to
+estimate either accurately at faint magnitudes. Using the forward model we can
+map these degeneracies (in advance), and thus provide a complete probability
+distribution over solutions. (Abridged)

@@ -1,0 +1,10 @@
+We show how an algorithm for the problem of inverting a permutation may be
+used to design one for the problem of unordered search (with a unique
+solution). Since there is a straightforward reduction in the reverse direction,
+the problems are essentially equivalent.
+  The reduction we present helps us bypass the hybrid argument due to Bennett,
+Bernstein, Brassard, and Vazirani (1997) and the quantum adversary method due
+to Ambainis (2002) that were earlier used to derive lower bounds on the quantum
+query complexity of the problem of inverting permutations. It directly implies
+that the quantum query complexity of the problem is asymptotically the same as
+that for unordered search, namely in Theta(sqrt(n)).

@@ -1,0 +1,13 @@
+We are given a graph $G$ with $n$ vertices, where a random subset of $k$
+vertices has been made into a clique, and the remaining edges are chosen
+independently with probability $\tfrac12$. This random graph model is denoted
+$G(n,\tfrac12,k)$. The hidden clique problem is to design an algorithm that
+finds the $k$-clique in polynomial time with high probability. An algorithm due
+to Alon, Krivelevich and Sudakov uses spectral techniques to find the hidden
+clique with high probability when $k = c \sqrt{n}$ for a sufficiently large
+constant $c > 0$. Recently, an algorithm that solves the same problem was
+proposed by Feige and Ron. It has the advantages of being simpler and more
+intuitive, and of an improved running time of $O(n^2)$. However, the analysis
+in the paper gives success probability of only $2/3$. In this paper we present
+a new algorithm for finding hidden cliques that both runs in time $O(n^2)$, and
+has a failure probability that is less than polynomially small.

@@ -1,0 +1,11 @@
+In a secure message transmission (SMT) scenario a sender wants to send a
+message in a private and reliable way to a receiver. Sender and receiver are
+connected by $n$ vertex disjoint paths, referred to as wires, $t$ of which can
+be controlled by an adaptive adversary with unlimited computational resources.
+In Eurocrypt 2008, Garay and Ostrovsky considered an SMT scenario where sender
+and receiver have access to a public discussion channel and showed that secure
+and reliable communication is possible when $n \geq t+1$. In this paper we will
+show that a secure protocol requires at least 3 rounds of communication and 2
+rounds invocation of the public channel and hence give a complete answer to the
+open question raised by Garay and Ostrovsky. We also describe a round optimal
+protocol that has \emph{constant} transmission rate over the public channel.

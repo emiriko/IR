@@ -1,0 +1,24 @@
+A general and rigorous methodology to compute the quantum equilibrium isotope
+effect is described. Unlike standard approaches, ours does not assume
+separability of rotational and vibrational motions and does not make the
+harmonic approximation for vibrations or rigid rotor approximation for the
+rotations. In particular, zero point energy and anharmonicity effects are
+described correctly quantum mechanically. The approach is based on the
+thermodynamic integration with respect to the mass of isotopes and on the
+Feynman path integral representation of the partition function. An efficient
+estimator for the derivative of free energy is used whose statistical error is
+independent of the number of imaginary time slices in the path integral,
+speeding up calculations by a factor of 60 at 500 K. We describe the
+implementation of the methodology in the molecular dynamics package Amber 10.
+The method is tested on three [1,5] sigmatropic hydrogen shift reactions.
+Because of the computational expense, we use ab initio potentials to evaluate
+the equilibrium isotope effects within the harmonic approximation, and then the
+path integral method together with semiempirical potentials to evaluate the
+anharmonicity corrections. Our calculations show that the anharmonicity effects
+amount up to 30% of the symmetry reduced reaction free energy. The numerical
+results are compared with recent experiments of Doering and coworkers,
+confirming the accuracy of the most recent measurement on
+2,4,6,7,9-pentamethyl-5-(5,5-$^2$H$_2$)methylene-11,11a-dihydro-12H-naphthacene
+as well as concerns about compromised accuracy, due to side reactions, of
+another measurement on
+2-methyl-10-(10,10-$^2$H$_2$)methylenebicyclo[4.4.0]dec-1-ene.

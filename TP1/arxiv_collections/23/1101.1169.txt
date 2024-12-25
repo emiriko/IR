@@ -1,0 +1,27 @@
+In this paper, we study the complexity of computing the determinant of a
+matrix over a non-commutative algebra. In particular, we ask the question,
+"over which algebras, is the determinant easier to compute than the permanent?"
+Towards resolving this question, we show the following hardness and easiness of
+noncommutative determinant computation.
+  * [Hardness] Computing the determinant of an n \times n matrix whose entries
+are themselves 2 \times 2 matrices over a field is as hard as computing the
+permanent over the field. This extends the recent result of Arvind and
+Srinivasan, who proved a similar result which however required the entries to
+be of linear dimension.
+  * [Easiness] Determinant of an n \times n matrix whose entries are themselves
+d \times d upper triangular matrices can be computed in poly(n^d) time.
+  Combining the above with the decomposition theorem of finite dimensional
+algebras (in particular exploiting the simple structure of 2 \times 2 matrix
+algebras), we can extend the above hardness and easiness statements to more
+general algebras as follows. Let A be a finite dimensional algebra over a
+finite field with radical R(A).
+  * [Hardness] If the quotient A/R(A) is non-commutative, then computing the
+determinant over the algebra A is as hard as computing the permanent.
+  * [Easiness] If the quotient A/R(A) is commutative and furthermore, R(A) has
+nilpotency index d (i.e., the smallest d such that R(A)d = 0), then there
+exists a poly(n^d)-time algorithm that computes determinants over the algebra
+A.
+  In particular, for any constant dimensional algebra A over a finite field,
+since the nilpotency index of R(A) is at most a constant, we have the following
+dichotomy theorem: if A/R(A) is commutative, then efficient determinant
+computation is feasible and otherwise determinant is as hard as permanent.

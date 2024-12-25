@@ -1,0 +1,9 @@
+In a previous paper we considered a positive function f, uniquely determined
+for s>0 by the requirements f(1)=1, log(1/f) is convex and the functional
+equation f(s)=psi(f(s+1)) with psi(s)=s-1/s. We prove that the meromorphic
+extension of f to the whole complex plane is given by the formula
+f(z)=lim_{n\to\infty}psi^{\circ n}(lambda_n(lambda_{n+1}/lambda_n)^z), where
+the numbers lambda_n are defined by lambda_0=0 and the recursion
+lambda_{n+1}=(1/2)(lambda_n+sqrt{lambda_n^2+4}). The numbers m_n=1/lambda_{n+1}
+form a Hausdorff moment sequence of a probability measure \mu such that \int
+t^{z-1}d\mu(t)=1/f(z)

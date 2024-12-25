@@ -1,0 +1,15 @@
+Email is a private medium of communication, and the inherent privacy
+constraints form a major obstacle in developing effective spam filtering
+methods which require access to a large amount of email data belonging to
+multiple users. To mitigate this problem, we envision a privacy preserving spam
+filtering system, where the server is able to train and evaluate a logistic
+regression based spam classifier on the combined email data of all users
+without being able to observe any emails using primitives such as homomorphic
+encryption and randomization. We analyze the protocols for correctness and
+security, and perform experiments of a prototype system on a large scale spam
+filtering task.
+  State of the art spam filters often use character n-grams as features which
+result in large sparse data representation, which is not feasible to be used
+directly with our training and evaluation protocols. We explore various data
+independent dimensionality reduction which decrease the running time of the
+protocol making it feasible to use in practice while achieving high accuracy.

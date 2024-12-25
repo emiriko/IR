@@ -1,0 +1,24 @@
+The standard approach to the design of individual space-time codes is based
+on optimizing diversity and coding gains. This geometric approach leads to
+remarkable examples, such as perfect space-time block codes, for which the
+complexity of Maximum Likelihood (ML) decoding is considerable. Code diversity
+is an alternative and complementary approach where a small number of feedback
+bits are used to select from a family of space-time codes. Different codes lead
+to different induced channels at the receiver, where Channel State Information
+(CSI) is used to instruct the transmitter how to choose the code. This method
+of feedback provides gains associated with beamforming while minimizing the
+number of feedback bits. It complements the standard approach to code design by
+taking advantage of different (possibly equivalent) realizations of a
+particular code design. Feedback can be combined with sub-optimal low
+complexity decoding of the component codes to match ML decoding performance of
+any individual code in the family. It can also be combined with ML decoding of
+the component codes to improve performance beyond ML decoding performance of
+any individual code. One method of implementing code diversity is the use of
+feedback to adapt the phase of a transmitted signal as shown for 4 by 4
+Quasi-Orthogonal Space-Time Block Code (QOSTBC) and multi-user detection using
+the Alamouti code. Code diversity implemented by selecting from equivalent
+variants is used to improve ML decoding performance of the Golden code. This
+paper introduces a family of full rate circulant codes which can be linearly
+decoded by fourier decomposition of circulant matrices within the code
+diversity framework. A 3 by 3 circulant code is shown to outperform the
+Alamouti code at the same transmission rate.

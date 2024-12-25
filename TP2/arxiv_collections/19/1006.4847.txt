@@ -1,0 +1,14 @@
+In this work, we introduce an algorithm to compute the derivatives of
+physical observables along the constrained subspace when flexible constraints
+are imposed on the system (i.e., constraints in which the hard coordinates are
+fixed to configuration-dependent values). The presented scheme is exact, it
+does not contain any tunable parameter, and it only requires the calculation
+and inversion of a sub-block of the Hessian matrix of second derivatives of the
+function through which the constraints are defined. We also present a practical
+application to the case in which the sought observables are the Euclidean
+coordinates of complex molecular systems, and the function whose minimization
+defines the constraints is the potential energy. Finally, and in order to
+validate the method, which, as far as we are aware, is the first of its kind in
+the literature, we compare it to the natural and straightforward
+finite-differences approach in three molecules of biological relevance:
+methanol, N-methyl-acetamide and a tri-glycine peptide

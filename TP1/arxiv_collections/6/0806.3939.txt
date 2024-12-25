@@ -1,0 +1,18 @@
+This paper proposes a simple, generic and robust method to extract the grains
+from experimental tridimensionnal images of granular materials obtained by
+X-ray tomography. This extraction has two steps: segmentation and splitting.
+For the segmentation step, if there is a sufficient contrast between the
+different components, a classical threshold procedure followed by a succession
+of morphological filters can be applied. If not, and if the boundary needs to
+be localized precisely, a watershed transformation controlled by labels is
+applied. The basement of this transformation is to localize a label included in
+the component and another label in the component complementary. A "soft"
+threshold following by an opening is applied on the initial image to localize a
+label in a component. For any segmentation procedure, the visualisation shows a
+problem: some groups of two grains, close one to each other, become connected.
+So if a classical cluster procedure is applied on the segmented binary image,
+these numerical connected grains are considered as a single grain. To overcome
+this problem, we applied a procedure introduced by L. Vincent in 1993. This
+grains extraction is tested for various complexes porous media and granular
+material, to predict various properties (diffusion, electrical conductivity,
+deformation field) in a good agreement with experiment data.

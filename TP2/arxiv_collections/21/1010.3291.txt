@@ -1,0 +1,6 @@
+We investigate the performance of a hybrid plasma solver on the test problem
+of an ion beam. The parallel solver is based on cell centered finite
+differences in space, and a predictor-corrector leapfrog scheme in time. The
+implementation is done in the FLASH software framework. It is shown that the
+solver conserves energy well over time, and that the parallelization is
+efficient (it exhibits weak scaling).

@@ -1,0 +1,11 @@
+We consider the dimensionality-reduction problem (finding a subspace
+approximation of observed data) for contaminated data in the high dimensional
+regime, where the number of observations is of the same magnitude as the number
+of variables of each observation, and the data set contains some (arbitrarily)
+corrupted observations. We propose a High-dimensional Robust Principal
+Component Analysis (HR-PCA) algorithm that is tractable, robust to contaminated
+points, and easily kernelizable. The resulting subspace has a bounded deviation
+from the desired one, achieves maximal robustness -- a breakdown point of 50%
+while all existing algorithms have a breakdown point of zero, and unlike
+ordinary PCA algorithms, achieves optimality in the limit case where the
+proportion of corrupted points goes to zero.

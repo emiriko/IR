@@ -1,0 +1,10 @@
+Natural images in the colour space YUV have been observed to have a
+non-Gaussian, heavy tailed distribution (called 'sparse') when the filter
+G(U)(r) = U(r) - sum_{s \in N(r)} w{(Y)_{rs}} U(s), is applied to the
+chromacity channel U (and equivalently to V), where w is a weighting function
+constructed from the intensity component Y [1]. In this paper we develop
+Bayesian analysis of the colorization problem using the filter response as a
+regularization term to arrive at a non-convex optimization problem. This
+problem is convexified using L1 optimization which often gives the same results
+for sparse signals [2]. It is observed that L1 optimization, in many cases,
+over-performs the famous colorization algorithm by Levin et al [3].

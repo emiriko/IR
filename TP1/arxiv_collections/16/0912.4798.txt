@@ -1,0 +1,18 @@
+In this paper, we propose a framework to solve a demand-supply optimization
+problem of long-term water resource allocation on a multi-connection reservoir
+network which, in two aspects, is different to the problem considered in
+previous works. First, while all previous works consider a problem where each
+reservoir can transfer water to only one fixed reservoir, we consider a
+multi-connection network being constructed in Thailand in which each reservoir
+can transfer water to many reservoirs in one period of time. Second, a
+demand-supply plan considered here is static, in contrast to a dynamic policy
+considered in previous works. Moreover, in order to efficiently develop a
+long-term static plan, a severe loss (a risk) is taken into account, i.e. a
+risk occurs if the real amount of water stored in each reservoir in each time
+period is less than what planned by the optimizer. The multi-connection
+function and the risk make the problem rather complex such that traditional
+stochastic dynamic programming and deterministic/heuristic approaches are
+inappropriate. Our framework is based on a novel convex programming formulation
+in which stochastic information can be naturally taken into account and an
+optimal solution is guaranteed to be found efficiently. Extensive experimental
+results show promising results of the framework.

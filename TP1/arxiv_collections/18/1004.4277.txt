@@ -1,0 +1,22 @@
+One of the main problems in all-optical packet-switched networks is the lack
+of optical buffers, and one feasible technology for the constructions of
+optical buffers is to use optical crossbar Switches and fiber Delay Lines
+(SDL). In this two-part paper, we consider SDL constructions of optical queues
+with a limited number of recirculations through the optical switches and the
+fiber delay lines. Such a problem arises from practical feasibility
+considerations. In Part I, we have proposed a class of greedy constructions for
+certain types of optical queues, including linear compressors, linear
+decompressors, and 2-to-1 FIFO multiplexers, and have shown that every optimal
+construction among our previous constructions of these types of optical queues
+under the constraint of a limited number of recirculations must be a greedy
+construction. In Part II, the present paper, we further show that there are at
+most two optimal constructions and give a simple algorithm to obtain the
+optimal construction(s). The main idea in Part II is to use \emph{pairwise
+comparison} to remove a sequence $\dbf_1^M\in \Gcal_{M,k}$ such that
+$B(\dbf_1^M;k)<B({\dbf'}_1^M;k)$ for some ${\dbf'}_1^M\in \Gcal_{M,k}$. To our
+surprise, the simple algorithm for obtaining the optimal construction(s) is
+related to the well-known \emph{Euclid's algorithm} for finding the greatest
+common divisor (gcd) of two integers. In particular, we show that if
+$\gcd(M,k)=1$, then there is only one optimal construction; if $\gcd(M,k)=2$,
+then there are two optimal constructions; and if $\gcd(M,k)\geq 3$, then there
+are at most two optimal constructions.

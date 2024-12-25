@@ -1,0 +1,23 @@
+Cooperative communications is a class of techniques which seek to improve
+reliability and throughput in wireless systems by pooling the resources of
+distributed nodes. While cooperation can occur at different network layers and
+time scales, physical layer cooperation at symbol time scales offers the
+largest benefit in combating losses due to fading. However, symbol level
+cooperation poses significant implementation challenges, especially in
+synchronizing the behaviors and carrier frequencies of distributed nodes. We
+present the implementation and characterization of a complete, real-time
+cooperative physical layer transceiver built on the Rice Wireless Open-Access
+Research Platform (WARP). In our implementation autonomous nodes employ
+physical layer cooperation without a central synchronization source, and are
+capable of selecting between non-cooperative and cooperative communication per
+packet. Cooperative transmissions use a distributed Alamouti space-time block
+code and employ either amplify-and-forward or decode-and-forward relaying. We
+also present experimental results of our transceiver's real-time performance
+under a variety of topologies and propagation conditions. Our results clearly
+demonstrate significant performance gains (more than 40x improvement in PER in
+some topologies) provided by physical layer cooperation, even when subject to
+the constraints of a real-time implementation. We also present methodologies to
+isolate and understand the sources of performance bottlenecks in our design. As
+with all our work on WARP, our transceiver design and experimental framework
+are available via the open-source WARP repository for use by other wireless
+researchers.

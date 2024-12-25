@@ -1,0 +1,9 @@
+In recent years, a number of fast algorithms for computing the determinant of
+a Toeplitz matrix were developed. The fastest algorithm we know so far is of
+order $k^2\log{n}+k^3$, where $n$ is the number of rows of the Toeplitz matrix
+and $k$ is the bandwidth size. This is possible because such a determinant can
+be expressed as the determinant of certain parts of $n$-th power of a related
+$k \times k$ companion matrix. In this paper, we give a new elementary proof of
+this fact, and provide various examples. We give symbolic formulas for the
+determinants of Toeplitz matrices in terms of the eigenvalues of the
+corresponding companion matrices when $k$ is small.

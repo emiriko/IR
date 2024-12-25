@@ -1,0 +1,12 @@
+Sodium Laser Guide Stars (LGSs) are elongated sources due to the thickness
+and the finite distance of the sodium layer. The fluctuations of the sodium
+layer altitude and atom density profile induce errors on centroid measurements
+of elongated spots, and generate spurious optical aberrations in closed--loop
+adaptive optics (AO) systems. According to an analytical model and experimental
+results obtained with the University of Victoria LGS bench demonstrator, one of
+the main origins of these aberrations, referred to as LGS aberrations, is not
+the Centre-of-Gravity (CoG) algorithm itself, but the thresholding applied on
+the pixels of the image prior to computing the spot centroids. A new
+thresholding method, termed ``radial thresholding'', is presented here,
+cancelling out most of the LGS aberrations without altering the centroid
+measurement accuracy.

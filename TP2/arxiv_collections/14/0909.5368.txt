@@ -1,0 +1,16 @@
+It is a well-known fact that mathematical functions that are timelimited (or
+spacelimited) cannot be simultaneously bandlimited (in frequency). Yet the
+finite precision of measurement and computation unavoidably bandlimits our
+observation and modeling scientific data, and we often only have access to, or
+are only interested in, a study area that is temporally or spatially bounded.
+In the geosciences we may be interested in spectrally modeling a time series
+defined only on a certain interval, or we may want to characterize a specific
+geographical area observed using an effectively bandlimited measurement device.
+It is clear that analyzing and representing scientific data of this kind will
+be facilitated if a basis of functions can be found that are "spatiospectrally"
+concentrated, i.e. "localized" in both domains at the same time. Here, we give
+a theoretical overview of one particular approach to this "concentration"
+problem, as originally proposed for time series by Slepian and coworkers, in
+the 1960s. We show how this framework leads to practical algorithms and
+statistically performant methods for the analysis of signals and their power
+spectra in one and two dimensions, and on the surface of a sphere.

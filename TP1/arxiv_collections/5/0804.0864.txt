@@ -1,0 +1,8 @@
+A new concept is introduced for the adaptive finite element discretization of
+partial differential equations that have a sparsely representable solution.
+Motivated by recent work on compressed sensing, a recursive mesh refinement
+procedure is presented that uses linear programming to find a good
+approximation to the sparse solution on a given refinement level. Then only
+those parts of the mesh are refined that belong to large expansion
+coefficients. Error estimates for this procedure are refined and the behavior
+of the procedure is demonstrated via some simple elliptic model problems.

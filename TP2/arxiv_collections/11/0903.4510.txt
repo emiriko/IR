@@ -1,0 +1,22 @@
+Consider the following problem: given a metric space, some of whose points
+are "clients", open a set of at most $k$ facilities to minimize the average
+distance from the clients to these facilities. This is just the well-studied
+$k$-median problem, for which many approximation algorithms and hardness
+results are known. Note that the objective function encourages opening
+facilities in areas where there are many clients, and given a solution, it is
+often possible to get a good idea of where the clients are located. However,
+this poses the following quandary: what if the identity of the clients is
+sensitive information that we would like to keep private? Is it even possible
+to design good algorithms for this problem that preserve the privacy of the
+clients?
+  In this paper, we initiate a systematic study of algorithms for discrete
+optimization problems in the framework of differential privacy (which
+formalizes the idea of protecting the privacy of individual input elements). We
+show that many such problems indeed have good approximation algorithms that
+preserve differential privacy; this is even in cases where it is impossible to
+preserve cryptographic definitions of privacy while computing any non-trivial
+approximation to even the_value_ of an optimal solution, let alone the entire
+solution.
+  Apart from the $k$-median problem, we study the problems of vertex and set
+cover, min-cut, facility location, Steiner tree, and the recently introduced
+submodular maximization problem, "Combinatorial Public Projects" (CPP).

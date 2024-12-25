@@ -1,0 +1,14 @@
+In cloud computing environments, a large number of users access data stored
+in highly available storage systems. To provide good performance to
+geographically disperse users and allow operation even in the presence of
+failures or network partitions, these systems often rely on optimistic
+replication solutions that guarantee only eventual consistency. In this
+scenario, it is important to be able to accurately and efficiently identify
+updates executed concurrently. In this paper, first we review, and expose
+problems with current approaches to causality tracking in optimistic
+replication: these either lose information about causality or do not scale, as
+they require replicas to maintain information that grows linearly with the
+number of clients or updates. Then, we propose a novel solution that fully
+captures causality while being very concise in that it maintains information
+that grows linearly only with the number of servers that register updates for a
+given data element, bounded by the degree of replication.

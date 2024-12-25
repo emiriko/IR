@@ -1,0 +1,15 @@
+This paper studies the effect of discretizing the parametrization of a
+dictionary used for Matching Pursuit decompositions of signals. Our approach
+relies on viewing the continuously parametrized dictionary as an embedded
+manifold in the signal space on which the tools of differential (Riemannian)
+geometry can be applied. The main contribution of this paper is twofold. First,
+we prove that if a discrete dictionary reaches a minimal density criterion,
+then the corresponding discrete MP (dMP) is equivalent in terms of convergence
+to a weakened hypothetical continuous MP. Interestingly, the corresponding
+weakness factor depends on a density measure of the discrete dictionary.
+Second, we show that the insertion of a simple geometric gradient ascent
+optimization on the atom dMP selection maintains the previous comparison but
+with a weakness factor at least two times closer to unity than without
+optimization. Finally, we present numerical experiments confirming our
+theoretical predictions for decomposition of signals and images on regular
+discretizations of dictionary parametrizations.

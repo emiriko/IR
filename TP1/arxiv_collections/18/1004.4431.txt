@@ -1,0 +1,12 @@
+Exploiting the performance of today's processors requires intimate knowledge
+of the microarchitecture as well as an awareness of the ever-growing complexity
+in thread and cache topology. LIKWID is a set of command-line utilities that
+addresses four key problems: Probing the thread and cache topology of a
+shared-memory node, enforcing thread-core affinity on a program, measuring
+performance counter metrics, and toggling hardware prefetchers. An API for
+using the performance counting features from user code is also included. We
+clearly state the differences to the widely used PAPI interface. To demonstrate
+the capabilities of the tool set we show the influence of thread pinning on
+performance using the well-known OpenMP STREAM triad benchmark, and use the
+affinity and hardware counter tools to study the performance of a stencil code
+specifically optimized to utilize shared caches on multicore chips.

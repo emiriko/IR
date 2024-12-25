@@ -1,0 +1,13 @@
+In this note, we address the theoretical properties of $\Delta_p$, a class of
+compressed sensing decoders that rely on $\ell^p$ minimization with 0<p<1 to
+recover estimates of sparse and compressible signals from incomplete and
+inaccurate measurements. In particular, we extend the results of Candes,
+Romberg and Tao, and Wojtaszczyk regarding the decoder $\Delta_1$, based on
+$\ell^1$ minimization, to $\Delta_p$ with 0<p<1. Our results are two-fold.
+First, we show that under certain sufficient conditions that are weaker than
+the analogous sufficient conditions for $\Delta_1$ the decoders $\Delta_p$ are
+robust to noise and stable in the sense that they are (2,p) instance optimal
+for a large class of encoders. Second, we extend the results of Wojtaszczyk to
+show that, like $\Delta_1$, the decoders $\Delta_p$ are (2,2) instance optimal
+in probability provided the measurement matrix is drawn from an appropriate
+distribution.

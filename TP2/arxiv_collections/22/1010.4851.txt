@@ -1,0 +1,20 @@
+This study derives geometric, variational discretizations of continuum
+theories arising in fluid dynamics, magnetohydrodynamics (MHD), and the
+dynamics of complex fluids. A central role in these discretizations is played
+by the geometric formulation of fluid dynamics, which views solutions to the
+governing equations for perfect fluid flow as geodesics on the group of
+volume-preserving diffeomorphisms of the fluid domain. Inspired by this
+framework, we construct a finite-dimensional approximation to the
+diffeomorphism group and its Lie algebra, thereby permitting a variational
+temporal discretization of geodesics on the spatially discretized
+diffeomorphism group. The extension to MHD and complex fluid flow is then made
+through an appeal to the theory of Euler-Poincar\'{e} systems with advection,
+which provides a generalization of the variational formulation of ideal fluid
+flow to fluids with one or more advected parameters. Upon deriving a family of
+structured integrators for these systems, we test their performance via a
+numerical implementation of the update schemes on a cartesian grid. Among the
+hallmarks of these new numerical methods are exact preservation of momenta
+arising from symmetries, automatic satisfaction of solenoidal constraints on
+vector fields, good long-term energy behavior, robustness with respect to the
+spatial and temporal resolution of the discretization, and applicability to
+irregular meshes.

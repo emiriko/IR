@@ -1,0 +1,8 @@
+We present an algorithm for doing Gibbs sampling on a quantum computer. The
+algorithm combines phase estimation for a Szegedy operator, and Grover's
+algorithm. For any $\epsilon>0$, the algorithm will sample a probability
+distribution in ${\cal O}(\frac{1}{\sqrt{\delta}})$ steps with precision ${\cal
+O}(\epsilon)$. Here $\delta$ is the distance between the two largest eigenvalue
+magnitudes of the transition matrix of the Gibbs Markov chain used in the
+algorithm. It takes ${\cal O}(\frac{1}{\delta})$ steps to achieve the same
+precision if one does Gibbs sampling on a classical computer.

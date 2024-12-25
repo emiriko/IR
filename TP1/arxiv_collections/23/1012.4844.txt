@@ -1,0 +1,12 @@
+A new numerical method is presented to efficiently simulate the inelastic
+hard sphere (IHS) model for granular media, when fluid and frozen regions
+coexist in the presence of gravity. The IHS model is extended by allowing
+particles to change their dynamics into either a frozen state or back to the
+normal collisional state, while computing the dynamics only for the particles
+in the normal state. Careful criteria, local in time and space, are designed
+such that particles become frozen only at mechanically stable positions. The
+homogeneous deposition over a static surface and the dynamics of a rotating
+drum are studied as test cases. The simulations agree with previous
+experimental results. The model is much more efficient than the usual event
+driven method and allows to overcome some of the difficulties of the standard
+IHS model, such as the existence of a static limit.

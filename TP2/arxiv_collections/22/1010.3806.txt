@@ -1,0 +1,23 @@
+Taha and Nielsen have developed a multi-stage calculus {\lambda}{\alpha} with
+a sound type system using the notion of environment classifiers. They are
+special identifiers, with which code fragments and variable declarations are
+annotated, and their scoping mechanism is used to ensure statically that
+certain code fragments are closed and safely runnable. In this paper, we
+investigate the Curry-Howard isomorphism for environment classifiers by
+developing a typed {\lambda}-calculus {\lambda}|>. It corresponds to
+multi-modal logic that allows quantification by transition variables---a
+counterpart of classifiers---which range over (possibly empty) sequences of
+labeled transitions between possible worlds. This interpretation will reduce
+the "run" construct---which has a special typing rule in
+{\lambda}{\alpha}---and embedding of closed code into other code fragments of
+different stages---which would be only realized by the cross-stage persistence
+operator in {\lambda}{\alpha}---to merely a special case of classifier
+application. {\lambda}|> enjoys not only basic properties including subject
+reduction, confluence, and strong normalization but also an important property
+as a multi-stage calculus: time-ordered normalization of full reduction. Then,
+we develop a big-step evaluation semantics for an ML-like language based on
+{\lambda}|> with its type system and prove that the evaluation of a well-typed
+{\lambda}|> program is properly staged. We also identify a fragment of the
+language, where erasure evaluation is possible. Finally, we show that the proof
+system augmented with a classical axiom is sound and complete with respect to a
+Kripke semantics of the logic.

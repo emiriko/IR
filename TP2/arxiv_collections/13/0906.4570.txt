@@ -1,0 +1,18 @@
+A widespread design approach in distributed applications based on the
+service-oriented paradigm, such as web-services, consists of clearly separating
+the enforcement of authorization policies and the workflow of the applications,
+so that the interplay between the policy level and the workflow level is
+abstracted away. While such an approach is attractive because it is quite
+simple and permits one to reason about crucial properties of the policies under
+consideration, it does not provide the right level of abstraction to specify
+and reason about the way the workflow may interfere with the policies, and vice
+versa. For example, the creation of a certificate as a side effect of a
+workflow operation may enable a policy rule to fire and grant access to a
+certain resource; without executing the operation, the policy rule should
+remain inactive. Similarly, policy queries may be used as guards for workflow
+transitions.
+  In this paper, we present a two-level formal verification framework to
+overcome these problems and formally reason about the interplay of
+authorization policies and workflow in service-oriented architectures. This
+allows us to define and investigate some verification problems for SO
+applications and give sufficient conditions for their decidability.

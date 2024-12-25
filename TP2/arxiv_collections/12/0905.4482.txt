@@ -1,0 +1,21 @@
+Compressed sensing has a wide range of applications that include error
+correction, imaging, radar and many more. Given a sparse signal in a high
+dimensional space, one wishes to reconstruct that signal accurately and
+efficiently from a number of linear measurements much less than its actual
+dimension. Although in theory it is clear that this is possible, the difficulty
+lies in the construction of algorithms that perform the recovery efficiently,
+as well as determining which kind of linear measurements allow for the
+reconstruction. There have been two distinct major approaches to sparse
+recovery that each present different benefits and shortcomings. The first,
+L1-minimization methods such as Basis Pursuit, use a linear optimization
+problem to recover the signal. This method provides strong guarantees and
+stability, but relies on Linear Programming, whose methods do not yet have
+strong polynomially bounded runtimes. The second approach uses greedy methods
+that compute the support of the signal iteratively. These methods are usually
+much faster than Basis Pursuit, but until recently had not been able to provide
+the same guarantees. This gap between the two approaches was bridged when we
+developed and analyzed the greedy algorithm Regularized Orthogonal Matching
+Pursuit (ROMP). ROMP provides similar guarantees to Basis Pursuit as well as
+the speed of a greedy algorithm. Our more recent algorithm Compressive Sampling
+Matching Pursuit (CoSaMP) improves upon these guarantees, and is optimal in
+every important aspect.

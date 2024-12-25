@@ -1,0 +1,15 @@
+The reconstruction approach [Shu C.W.: {\em SIAM Rev.} {\bf 51} (2009)
+82--126] for the numerical approximation of $f'(x)$ is based on the
+construction of a dual function $h(x)$ whose sliding averages over the interval
+$[x-\tfrac{1}{2}\Delta x,x+\tfrac{1}{2}\Delta x]$ are equal to $f(x)$ (assuming
+an homogeneous grid of cell-size $\Delta x$). We study the deconvolution
+problem [Harten A., Engquist B., Osher S., Chakravarthy S.R.: {\em J. Comp.
+Phys.} {\bf 71} (1987) 231--303] which relates the Taylor polynomials of $h(x)$
+and $f(x)$, and obtain its explicit solution, by introducing rational numbers
+$\tau_n$ defined by a recurrence relation, or determined by their generating
+function, $g_\tau(x)$, related with the reconstruction pair of ${\rm e}^x$. We
+then apply these results to the specific case of Lagrange-interpolation-based
+polynomial reconstruction, and determine explicitly the approximation error of
+the Lagrange reconstructing polynomial (whose sliding averages are equal to the
+Lagrange interpolating polynomial) on an arbitrary stencil defined on a
+homogeneous grid.

@@ -1,0 +1,22 @@
+Let us call a sequence of numbers heapable if they can be sequentially
+inserted to form a binary tree with the heap property, where each insertion
+subsequent to the first occurs at a leaf of the tree, i.e. below a previously
+placed number. In this paper we consider a variety of problems related to
+heapable sequences and subsequences that do not appear to have been studied
+previously. Our motivation for introducing these concepts is two-fold. First,
+such problems correspond to natural extensions of the well-known secretary
+problem for hiring an organization with a hierarchical structure. Second, from
+a purely combinatorial perspective, our problems are interesting variations on
+similar longest increasing subsequence problems, a problem paradigm that has
+led to many deep mathematical connections.
+  We provide several basic results. We obtain an efficient algorithm for
+determining the heapability of a sequence, and also prove that the question of
+whether a sequence can be arranged in a complete binary heap is NP-hard.
+Regarding subsequences we show that, with high probability, the longest
+heapable subsequence of a random permutation of n numbers has length (1 - o(1))
+n, and a subsequence of length (1 - o(1)) n can in fact be found online with
+high probability. We similarly show that for a random permutation a subsequence
+that yields a complete heap of size \alpha n for a constant \alpha can be found
+with high probability. Our work highlights the interesting structure underlying
+this class of subsequence problems, and we leave many further interesting
+variations open for future work.

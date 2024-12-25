@@ -1,0 +1,19 @@
+Under two-party deterministic dense-coding, Alice communicates (perfectly
+distinguishable) messages to Bob via a qudit from a pair of entangled qudits in
+pure state |Psi>. If |Psi> represents a maximally entangled state (i.e., each
+of its Schmidt coefficients is sqrt(1/d)), then Alice can convey to Bob one of
+d^2 distinct messages. If |Psi> is not maximally entangled, then Ji et al.
+[Phys. Rev. A 73, 034307 (2006)] have shown that under the original
+deterministic dense-coding protocol, in which messages are encoded by unitary
+operations performed on Alice's qudit, it is impossible to encode d^2-1
+messages. Encoding d^2-2 is possible; see, e.g., the numerical studies by Mozes
+et al. [Phys. Rev. A 71, 012311 (2005)]. Answering a question raised by Wu et
+al. [Phys. Rev. A 73, 042311 (2006)], we show that when |Psi> is not maximally
+entangled, the communications limit of d^2-2 messages persists even when the
+requirement that Alice encode by unitary operations on her qudit is weakened to
+allow encoding by more general quantum operators. We then describe a
+dense-coding protocol that can overcome this limitation with high probability,
+assuming the largest Schmidt coefficient of |Psi> is sufficiently close to
+sqrt(1/d). In this protocol, d^2-2 of the messages are encoded via unitary
+operations on Alice's qudit, and the final (d^2-1)-th message is encoded via a
+(non-trace-preserving) quantum operation.

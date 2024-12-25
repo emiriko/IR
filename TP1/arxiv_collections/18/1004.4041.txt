@@ -1,0 +1,20 @@
+We study the group test for DNA library screening based on probabilistic
+approach. Group test is a method of detecting a few positive items from among a
+large number of items, and has wide range of applications. In DNA library
+screening, positive item corresponds to the clone having a specified DNA
+segment, and it is necessary to identify and isolate the positive clones for
+compiling the libraries. In the group test, a group of items, called pool, is
+assayed in a lump in order to save the cost of testing, and positive items are
+detected based on the observation from each pool. It is known that the design
+of grouping, that is, pooling design is important to %reduce the estimation
+bias and achieve accurate detection. In the probabilistic approach, positive
+clones are picked up based on the posterior probability. Naive methods of
+computing the posterior, however, involves exponentially many sums, and thus we
+need a device. Loopy belief propagation (loopy BP) algorithm is one of popular
+methods to obtain approximate posterior probability efficiently. There are some
+works investigating the relation between the accuracy of the loopy BP and the
+pooling design. Based on these works, we develop pooling design with small
+estimation bias of posterior probability, and we show that the balanced
+incomplete block design (BIBD) has nice property for our purpose. Some
+numerical experiments show that the bias correction under the BIBD is useful to
+improve the estimation accuracy.

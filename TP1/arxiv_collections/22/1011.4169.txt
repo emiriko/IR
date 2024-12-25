@@ -1,0 +1,14 @@
+It is important to have fast and effective methods for simplifying 3-manifold
+triangulations without losing any topological information. In theory this is
+difficult: we might need to make a triangulation super-exponentially more
+complex before we can make it smaller than its original size. Here we present
+experimental work suggesting that for 3-sphere triangulations the reality is
+far different: we never need to add more than two tetrahedra, and we never need
+more than a handful of local modifications. If true in general, these extremely
+surprising results would have significant implications for decision algorithms
+and the study of triangulations in 3-manifold topology.
+  The algorithms behind these experiments are interesting in their own right.
+Key techniques include the isomorph-free generation of all 3-manifold
+triangulations of a given size, polynomial-time computable signatures that
+identify triangulations uniquely up to isomorphism, and parallel algorithms for
+studying finite level sets in the infinite Pachner graph.

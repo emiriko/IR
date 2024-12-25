@@ -1,0 +1,11 @@
+This system description provides an overview of H-PILoT (Hierarchical Proving
+by Instantiation in Local Theory extensions), a program for hierarchical
+reasoning in extensions of logical theories. H-PILoT reduces deduction problems
+in the theory extension to deduction problems in the base theory. Specialized
+provers and standard SMT solvers can be used for testing the satisfiability of
+the formulae obtained after the reduction. For a certain type of theory
+extension (namely for local theory extensions) this hierarchical reduction is
+sound and complete and -- if the formulae obtained this way belong to a
+fragment decidable in the base theory -- H-PILoT provides a decision procedure
+for testing satisfiability of ground formulae, and can also be used for model
+generation.

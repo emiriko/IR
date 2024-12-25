@@ -1,0 +1,12 @@
+Finding the largest clique is a notoriously hard problem, even on random
+graphs. It is known that the clique number of a random graph G(n,1/2) is almost
+surely either k or k+1, where k = 2log n - 2log(log n) - 1. However, a simple
+greedy algorithm finds a clique of size only (1+o(1))log n, with high
+probability, and finding larger cliques -- that of size even (1+ epsilon)log n
+-- in randomized polynomial time has been a long-standing open problem. In this
+paper, we study the following generalization: given a random graph G(n,1/2),
+find the largest subgraph with edge density at least (1-delta). We show that a
+simple modification of the greedy algorithm finds a subset of 2log n vertices
+whose induced subgraph has edge density at least 0.951, with high probability.
+To complement this, we show that almost surely there is no subset of 2.784log n
+vertices whose induced subgraph has edge density 0.951 or more.

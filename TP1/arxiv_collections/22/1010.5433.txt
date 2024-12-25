@@ -1,0 +1,6 @@
+We present our implementation of the RHMC algorithm for staggered fermions on
+Graphics Processing Units using the NVIDIA CUDA programming language. While
+previous studies exclusively deal with the Dirac matrix inversion problem, our
+code performs the complete MD trajectory on the GPU. After pointing out the
+main bottlenecks and how to circumvent them, we discuss the performance of our
+code.

@@ -1,0 +1,12 @@
+We develop a theory for finding quantum error correction (QEC) procedures
+which are optimized for given noise channels. Our theory accounts for
+uncertainties in the noise channel, against which our QEC procedures are
+robust. We demonstrate via numerical examples that our optimized QEC procedures
+always achieve a higher channel fidelity than the standard error correction
+method, which is agnostic about the specifics of the channel. This demonstrates
+the importance of channel characterization before QEC procedures are applied.
+Our main novel finding is that in the setting of a known noise channel the
+recovery ancillas are redundant for optimized quantum error correction. We show
+this using a general rank minimization heuristic and supporting numerical
+calculations. Therefore, one can further improve the fidelity by utilizing all
+the available ancillas in the encoding block.

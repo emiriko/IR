@@ -1,0 +1,7 @@
+The Pollard Rho algorithm is a widely used algorithm for solving discrete
+logarithms on general cyclic groups, including elliptic curves. Recently the
+first nontrivial runtime estimates were provided for it, culminating in a sharp
+O(sqrt(n)) bound for the collision time on a cyclic group of order n. In this
+paper we show that for n satisfying a mild arithmetic condition, the collisions
+guaranteed by these results are nondegenerate with high probability: that is,
+the Pollard Rho algorithm successfully finds the discrete logarithm.

@@ -1,0 +1,21 @@
+What is the relationship between the complexity of a learner and the
+randomness of his mistakes? This question was posed in \cite{rat0903} who
+showed that the more complex the learner the higher the possibility that his
+mistakes deviate from a true random sequence. In the current paper we report on
+an empirical investigation of this problem. We investigate two characteristics
+of randomness, the stochastic and algorithmic complexity of the binary sequence
+of mistakes. A learner with a Markov model of order $k$ is trained on a finite
+binary sequence produced by a Markov source of order $k^{*}$ and is tested on a
+different random sequence. As a measure of learner's complexity we define a
+quantity called the \emph{sysRatio}, denoted by $\rho$, which is the ratio
+between the compressed and uncompressed lengths of the binary string whose
+$i^{th}$ bit represents the maximum \emph{a posteriori} decision made at state
+$i$ of the learner's model. The quantity $\rho$ is a measure of information
+density. The main result of the paper shows that this ratio is crucial in
+answering the above posed question. The result indicates that there is a
+critical threshold $\rho^{*}$ such that when $\rho\leq\rho^{*}$ the sequence of
+mistakes possesses the following features: (1)\emph{}low divergence $\Delta$
+from a random sequence, (2) low variance in algorithmic complexity. When
+$\rho>\rho^{*}$, the characteristics of the mistake sequence changes sharply
+towards a\emph{}high\emph{$\Delta$} and high variance in algorithmic
+complexity.

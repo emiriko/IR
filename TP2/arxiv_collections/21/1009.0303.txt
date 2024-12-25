@@ -1,0 +1,11 @@
+We have combined a custom implementation of the fast multiple-time-stepping
+LN integrator with parallel tempering to explore folding properties of small
+peptides in implicit solvent on the time scale of microseconds. We applied this
+algorithm to the synthetic {\beta}-hairpin trpzip2 and one of its sequence
+variants W2W9. Each simulation consisted of over 12 {\mu}s of aggregated
+virtual time. Several measures of folding behavior showed convergence, allowing
+comparison with experimental equilibrium properties. Our simulations suggest
+that the electrostatic interaction of tryptophan sidechains is responsible for
+much of the stability of the native fold. We conclude that the ff99 force field
+combined with ff96 {\phi} and {\psi} dihedral energies and implicit solvent can
+reproduce plausible folding behavior in both trpzip2 and W2W9.

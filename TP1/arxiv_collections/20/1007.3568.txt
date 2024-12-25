@@ -1,0 +1,25 @@
+Suppose Alice wishes to send messages to Bob through a communication channel
+C_1, but her transmissions also reach an eavesdropper Eve through another
+channel C_2. The goal is to design a coding scheme that makes it possible for
+Alice to communicate both reliably and securely. Reliability is measured in
+terms of Bob's probability of error in recovering the message, while security
+is measured in terms of the mutual information between the message and Eve's
+observations. Wyner showed that the situation is characterized by a single
+constant C_s, called the secrecy capacity, which has the following meaning: for
+all $\epsilon > 0$, there exist coding schemes of rate $R \ge C_s - \epsilon$
+that asymptotically achieve both the reliability and the security objectives.
+However, his proof of this result is based upon a nonconstructive random-coding
+argument. To date, despite a considerable research effort, the only case where
+we know how to construct coding schemes that achieve secrecy capacity is when
+Eve's channel C_2 is an erasure channel, or a combinatorial variation thereof.
+  Polar codes were recently invented by Arikan; they approach the capacity of
+symmetric binary-input discrete memoryless channels with low encoding and
+decoding complexity. Herein, we use polar codes to construct a coding scheme
+that achieves the secrecy capacity of general wiretap channels. Our
+construction works for any instantiation of the wiretap channel model, as
+originally defined by Wyner, as long as both C_1 and C_2 are symmetric and
+binary-input. Moreover, we show how to modify our construction in order to
+achieve strong security, as defined by Maurer, while still operating at a rate
+that approaches the secrecy capacity. In this case, we cannot guarantee that
+the reliability condition will be satisfied unless the main channel C_1 is
+noiseless, although we believe it can be always satisfied in practice.

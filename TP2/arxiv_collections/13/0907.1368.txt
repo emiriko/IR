@@ -1,0 +1,19 @@
+Aircraft engines are designed to be used during several tens of years. Their
+maintenance is a challenging and costly task, for obvious security reasons. The
+goal is to ensure a proper operation of the engines, in all conditions, with a
+zero probability of failure, while taking into account aging. The fact that the
+same engine is sometimes used on several aircrafts has to be taken into account
+too. The maintenance can be improved if an efficient procedure for the
+prediction of failures is implemented. The primary source of information on the
+health of the engines comes from measurement during flights. Several variables
+such as the core speed, the oil pressure and quantity, the fan speed, etc. are
+measured, together with environmental variables such as the outside
+temperature, altitude, aircraft speed, etc. In this paper, we describe the
+design of a procedure aiming at visualizing successive data measured on
+aircraft engines. The data are multi-dimensional measurements on the engines,
+which are projected on a self-organizing map in order to allow us to follow the
+trajectories of these data over time. The trajectories consist in a succession
+of points on the map, each of them corresponding to the two-dimensional
+projection of the multi-dimensional vector of engine measurements. Analyzing
+the trajectories aims at visualizing any deviation from a normal behavior,
+making it possible to anticipate an operation failure.

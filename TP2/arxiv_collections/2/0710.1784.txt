@@ -1,0 +1,11 @@
+Commuting operations greatly simplify consistency in distributed systems.
+This paper focuses on designing for commutativity, a topic neglected
+previously. We show that the replicas of \emph{any} data type for which
+concurrent operations commute converges to a correct value, under some simple
+and standard assumptions. We also show that such a data type supports
+transactions with very low cost. We identify a number of approaches and
+techniques to ensure commutativity. We re-use some existing ideas
+(non-destructive updates coupled with invariant identification), but propose a
+much more efficient implementation. Furthermore, we propose a new technique,
+background consensus. We illustrate these ideas with a shared edit buffer data
+type.

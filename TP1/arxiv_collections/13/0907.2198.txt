@@ -1,0 +1,20 @@
+The Laser Interferometer Space Antenna (LISA) defines new demands on data
+analysis efforts in its all-sky gravitational wave survey, recording
+simultaneously thousands of galactic compact object binary foreground sources
+and tens to hundreds of background sources like binary black hole mergers and
+extreme mass ratio inspirals. We approach this problem with an adaptive and
+fully automatic Reversible Jump Markov Chain Monte Carlo sampler, able to
+sample from the joint posterior density function (as established by Bayes
+theorem) for a given mixture of signals "out of the box'', handling the total
+number of signals as an additional unknown parameter beside the unknown
+parameters of each individual source and the noise floor. We show in examples
+from the LISA Mock Data Challenge implementing the full response of LISA in its
+TDI description that this sampler is able to extract monochromatic Double White
+Dwarf signals out of colored instrumental noise and additional foreground and
+background noise successfully in a global fitting approach. We introduce 2
+examples with fixed number of signals (MCMC sampling), and 1 example with
+unknown number of signals (RJ-MCMC), the latter further promoting the idea
+behind an experimental adaptation of the model indicator proposal densities in
+the main sampling stage. We note that the experienced runtimes and degeneracies
+in parameter extraction limit the shown examples to the extraction of a low but
+realistic number of signals.

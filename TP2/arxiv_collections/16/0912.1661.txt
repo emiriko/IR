@@ -1,0 +1,17 @@
+Block diagonalization (BD) is an attractive technique that transforms the
+multi-user multiple-input multiple-output (MU-MIMO) channel into parallel
+single-user MIMO (SU-MIMO) channels with zero inter-user interference (IUI). In
+this paper, we combine the BD technique with two deterministic vector
+perturbation (VP) algorithms that reduce the transmit power in MU-MIMO systems
+with linear precoding. These techniques are the fixed-complexity sphere encoder
+(FSE) and the QR-decomposition with M-algorithm encoder (QRDM-E). In contrast
+to the conventional BD VP technique, which is based on the sphere encoder (SE),
+the proposed techniques have fixed complexity and a tradeoff between
+performance and complexity can be achieved by controlling the size of the set
+of candidates for the perturbation vector. Simulation results and analysis
+demonstrate the properness of the proposed techniques for the next generation
+mobile communications systems which are latency and computational complexity
+limited. In MU-MIMO system with 4 users each equipped with 2 receive antennas,
+simulation results show that the proposed BD-FSE and BD-QRDM-E outperforms the
+conventional BD-THP (Tomlinson Harashima precoding) by 5.5 and 7.4dB,
+respectively, at a target BER of 10^{-4}.

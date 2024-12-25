@@ -1,0 +1,21 @@
+Approximate Bayesian Computation is a family of likelihood-free inference
+techniques that are well-suited to models defined in terms of a stochastic
+generating mechanism. In a nutshell, Approximate Bayesian Computation proceeds
+by computing summary statistics s_obs from the data and simulating summary
+statistics for different values of the parameter theta. The posterior
+distribution is then approximated by an estimator of the conditional density
+g(theta|s_obs). In this paper, we derive the asymptotic bias and variance of
+the standard estimators of the posterior distribution which are based on
+rejection sampling and linear adjustment. Additionally, we introduce an
+original estimator of the posterior distribution based on quadratic adjustment
+and we show that its bias contains a fewer number of terms than the estimator
+with linear adjustment. Although we find that the estimators with adjustment
+are not universally superior to the estimator based on rejection sampling, we
+find that they can achieve better performance when there is a nearly
+homoscedastic relationship between the summary statistics and the parameter of
+interest. To make this relationship as homoscedastic as possible, we propose to
+use transformations of the summary statistics. In different examples borrowed
+from the population genetics and epidemiological literature, we show the
+potential of the methods with adjustment and of the transformations of the
+summary statistics. Supplemental materials containing the details of the proofs
+are available online.

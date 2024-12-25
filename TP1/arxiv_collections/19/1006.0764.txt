@@ -1,0 +1,19 @@
+Object orientation provides a flexible framework for the implementation of
+the convolution of arbitrary distributions of real-valued random variables.
+  We discuss an algorithm which is based on the discrete Fourier transformation
+(DFT) and its fast computability via the fast Fourier transformation (FFT). It
+directly applies to lattice-supported distributions. In the case of continuous
+distributions an additional discretization to a linear lattice is necessary and
+the resulting lattice-supported distributions are suitably smoothed after
+convolution.
+  We compare our algorithm to other approaches aiming at a similar generality
+as to accuracy and speed. In situations where the exact results are known,
+several checks confirm a high accuracy of the proposed algorithm which is also
+illustrated at approximations of non-central $\chi^2$-distributions.
+  By means of object orientation this default algorithm can be overloaded by
+more specific algorithms where possible, in particular where explicit
+convolution formulae are available.
+  Our focus is on R package distr which includes an implementation of this
+approach overloading operator "+" for convolution; based on this convolution,
+we define a whole arithmetics of mathematical operations acting on distribution
+objects, comprising, among others, operators "+", "-", "*", "/", and "^".

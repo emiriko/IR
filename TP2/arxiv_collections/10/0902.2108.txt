@@ -1,0 +1,16 @@
+We study a model of games that combines concurrency, imperfect information
+and stochastic aspects. Those are finite states games in which, at each round,
+the two players choose, simultaneously and independently, an action. Then a
+successor state is chosen accordingly to some fixed probability distribution
+depending on the previous state and on the pair of actions chosen by the
+players. Imperfect information is modeled as follows: both players have an
+equivalence relation over states and, instead of observing the exact state,
+they only know to which equivalence class it belongs. Therefore, if two partial
+plays are indistinguishable by some player, he should behave the same in both
+of them. We consider reachability (does the play eventually visit a final
+state?) and B\"uchi objective (does the play visit infinitely often a final
+state?). Our main contribution is to prove that the following problem is
+complete for 2-ExpTime: decide whether the first player has a strategy that
+ensures her to almost-surely win against any possible strategy of her oponent.
+We also characterise those strategies needed by the first player to
+almost-surely win.

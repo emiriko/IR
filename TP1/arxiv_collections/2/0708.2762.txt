@@ -1,0 +1,16 @@
+An FPGA based digital signal processing (DSP) system for biasing and reading
+out multiplexed bolometric detectors for mm-wavelength telescopes is presented.
+This readout system is being deployed for balloon-borne and ground based
+cosmology experiments with the primary goal of measuring the signature of
+inflation with the Cosmic Microwave Background Radiation. The system consists
+of analog superconducting electronics running at 250mK and 4K, coupled to
+digital room temperature backend electronics described here. The digital
+electronics perform the real time functionality with DSP algorithms implemented
+in firmware. A soft embedded processor provides all of the slow housekeeping
+control and communications. Each board in the system synthesizes
+multi-frequency combs of 8 to 32 carriers in the MHz band to bias the
+detectors. After the carriers have been modulated with the sky-signal by the
+detectors, the same boards digitize the comb directly. The carriers are mixed
+down to base-band and low pass filtered. The signal bandwidth of 0.050 Hz - 100
+Hz places extreme requirements on stability and requires powerful filtering
+techniques to recover the sky-signal from the MHz carriers.

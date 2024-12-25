@@ -1,0 +1,12 @@
+This paper studies the problem of learning clusters which are consistently
+present in different (continuously valued) representations of observed data.
+Our setup differs slightly from the standard approach of (co-) clustering as we
+use the fact that some form of `labeling' becomes available in this setup: a
+cluster is only interesting if it has a counterpart in the alternative
+representation. The contribution of this paper is twofold: (i) the problem
+setting is explored and an analysis in terms of the PAC-Bayesian theorem is
+presented, (ii) a practical kernel-based algorithm is derived exploiting the
+inherent relation to Canonical Correlation Analysis (CCA), as well as its
+extension to multiple views. A content based information retrieval (CBIR) case
+study is presented on the multi-lingual aligned Europal document dataset which
+supports the above findings.

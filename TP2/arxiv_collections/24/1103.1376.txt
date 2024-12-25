@@ -1,0 +1,15 @@
+The shearing sheet is a model dynamical system that is used to study the
+small-scale dynamics of astrophysical disks. Numerical simulations of particle
+trajectories in the shearing sheet usually employ the leapfrog integrator, but
+this integrator performs poorly because of velocity-dependent (Coriolis)
+forces. We describe two new integrators for this purpose; both are symplectic,
+time-reversible and second-order accurate, and can easily be generalized to
+higher orders. Moreover, both integrators are exact when there are no
+small-scale forces such as mutual gravitational forces between disk particles.
+In numerical experiments these integrators have errors that are often several
+orders of magnitude smaller than competing methods. The first of our new
+integrators (SEI) is well-suited for disks in which the typical inter-particle
+separation is large compared to the particles' Hill radii (e.g., planetary
+rings), and the second (SEKI) is designed for disks in which the particles are
+on bound orbits or the separation is smaller than the Hill radius (e.g.,
+irregular satellites of the giant planets).

@@ -1,0 +1,11 @@
+We introduce an algorithm that embeds a given 3-connected planar graph as a
+convex 3-polytope with integer coordinates. The size of the coordinates is
+bounded by $O(2^{7.55n})=O(188^{n})$. If the graph contains a triangle we can
+bound the integer coordinates by $O(2^{4.82n})$. If the graph contains a
+quadrilateral we can bound the integer coordinates by $O(2^{5.46n})$. The
+crucial part of the algorithm is to find a convex plane embedding whose edges
+can be weighted such that the sum of the weighted edges, seen as vectors,
+cancel at every point. It is well known that this can be guaranteed for the
+interior vertices by applying a technique of Tutte. We show how to extend
+Tutte's ideas to construct a plane embedding where the weighted vector sums
+cancel also on the vertices of the boundary face.

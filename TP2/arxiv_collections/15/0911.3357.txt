@@ -1,0 +1,24 @@
+Sensor networks potentially feature large numbers of nodes that can sense
+their environment over time, communicate with each other over a wireless
+network, and process information. They differ from data networks in that the
+network as a whole may be designed for a specific application. We study the
+theoretical foundations of such large scale sensor networks, addressing four
+fundamental issues- connectivity, capacity, clocks and function computation.
+  To begin with, a sensor network must be connected so that information can
+indeed be exchanged between nodes. The connectivity graph of an ad-hoc network
+is modeled as a random graph and the critical range for asymptotic connectivity
+is determined, as well as the critical number of neighbors that a node needs to
+connect to. Next, given connectivity, we address the issue of how much data can
+be transported over the sensor network. We present fundamental bounds on
+capacity under several models, as well as architectural implications for how
+wireless communication should be organized.
+  Temporal information is important both for the applications of sensor
+networks as well as their operation.We present fundamental bounds on the
+synchronizability of clocks in networks, and also present and analyze
+algorithms for clock synchronization. Finally we turn to the issue of gathering
+relevant information, that sensor networks are designed to do. One needs to
+study optimal strategies for in-network aggregation of data, in order to
+reliably compute a composite function of sensor measurements, as well as the
+complexity of doing so. We address the issue of how such computation can be
+performed efficiently in a sensor network and the algorithms for doing so, for
+some classes of functions.

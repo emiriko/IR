@@ -1,0 +1,12 @@
+We present a consistent self-contained and pedagogical review of the CMB
+Gibbs sampler, focusing on computational methods and code design. We provide an
+easy-to-use CMB Gibbs sampler named SLAVE developed in C++ using
+object-oriented design. While discussing why the need for a Gibbs sampler is
+evident and what the Gibbs sampler can be used for in a cosmological context,
+we review in detail the analytical expressions for the conditional probability
+densities and discuss the problems of galactic foreground removal and
+anisotropic noise. Having demonstrated that SLAVE is a working, usable CMB
+Gibbs sampler, we present the algorithm for white noise level estimation. We
+then give a short guide on operating SLAVE before introducing the
+post-processing utilities for obtaining the best-fit power spectrum using the
+Blackwell-Rao estimator.

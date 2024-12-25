@@ -1,0 +1,24 @@
+Many data analysis applications deal with large matrices and involve
+approximating the matrix using a small number of ``components.'' Typically,
+these components are linear combinations of the rows and columns of the matrix,
+and are thus difficult to interpret in terms of the original features of the
+input data. In this paper, we propose and study matrix approximations that are
+explicitly expressed in terms of a small number of columns and/or rows of the
+data matrix, and thereby more amenable to interpretation in terms of the
+original data. Our main algorithmic results are two randomized algorithms which
+take as input an $m \times n$ matrix $A$ and a rank parameter $k$. In our first
+algorithm, $C$ is chosen, and we let $A'=CC^+A$, where $C^+$ is the
+Moore-Penrose generalized inverse of $C$. In our second algorithm $C$, $U$, $R$
+are chosen, and we let $A'=CUR$. ($C$ and $R$ are matrices that consist of
+actual columns and rows, respectively, of $A$, and $U$ is a generalized inverse
+of their intersection.) For each algorithm, we show that with probability at
+least $1-\delta$: $$ ||A-A'||_F \leq (1+\epsilon) ||A-A_k||_F, $$ where $A_k$
+is the ``best'' rank-$k$ approximation provided by truncating the singular
+value decomposition (SVD) of $A$. The number of columns of $C$ and rows of $R$
+is a low-degree polynomial in $k$, $1/\epsilon$, and $\log(1/\delta)$. Our two
+algorithms are the first polynomial time algorithms for such low-rank matrix
+approximations that come with relative-error guarantees; previously, in some
+cases, it was not even known whether such matrix decompositions exist. Both of
+our algorithms are simple, they take time of the order needed to approximately
+compute the top $k$ singular vectors of $A$, and they use a novel, intuitive
+sampling method called ``subspace sampling.''

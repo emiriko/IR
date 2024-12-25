@@ -1,0 +1,20 @@
+We consider the problem of self-healing in networks that are reconfigurable
+in the sense that they can change their topology during an attack. Our goal is
+to maintain connectivity in these networks, even in the presence of repeated
+adversarial node deletion, by carefully adding edges after each attack. We
+present a new algorithm, DASH, that provably ensures that: 1) the network stays
+connected even if an adversary deletes up to all nodes in the network; and 2)
+no node ever increases its degree by more than 2 log n, where n is the number
+of nodes initially in the network. DASH is fully distributed; adds new edges
+only among neighbors of deleted nodes; and has average latency and bandwidth
+costs that are at most logarithmic in n. DASH has these properties irrespective
+of the topology of the initial network, and is thus orthogonal and
+complementary to traditional topology-based approaches to defending against
+attack.
+  We also prove lower-bounds showing that DASH is asymptotically optimal in
+terms of minimizing maximum degree increase over multiple attacks. Finally, we
+present empirical results on power-law graphs that show that DASH performs well
+in practice, and that it significantly outperforms naive algorithms in reducing
+maximum degree increase. We also present empirical results on performance of
+our algorithms and a new heuristic with regard to stretch (increase in shortest
+path lengths).

@@ -1,0 +1,12 @@
+Monte Carlo simulation using the standard single-spin flip algorithm often
+fails to sample over the entire configuration space at low temperatures for
+frustrated spin systems. A typical example is a class of spin-ice type Ising
+models. In this case, the difficulty can be avoided by introducing a
+global-flip algorithm, the loop algorithm. Similar difficulty is encountered in
+O(3) Heisenberg models in the presence of biquadratic interaction. The loop
+algorithm, however, is not straightforwardly applied to this case, since the
+system does not have a priori spin-anisotropy axis for constructing the loops.
+We propose an extension of the loop algorithm to the bilinear-biquadratic
+models. The efficiency is tested for three different ways to flip spins on a
+loop in Monte Carlo simulation. We show that the most efficient method depends
+on the strength of the biquadratic interaction.

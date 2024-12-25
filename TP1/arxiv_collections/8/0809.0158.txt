@@ -1,0 +1,14 @@
+Inference of the network structure (e.g., routing topology) and dynamics
+(e.g., link performance) is an essential component in many network design and
+management tasks. In this paper we propose a new, general framework for
+analyzing and designing routing topology and link performance inference
+algorithms using ideas and tools from phylogenetic inference in evolutionary
+biology. The framework is applicable to a variety of measurement techniques.
+Based on the framework we introduce and develop several polynomial-time
+distance-based inference algorithms with provable performance. We provide
+sufficient conditions for the correctness of the algorithms. We show that the
+algorithms are consistent (return correct topology and link performance with an
+increasing sample size) and robust (can tolerate a certain level of measurement
+errors). In addition, we establish certain optimality properties of the
+algorithms (i.e., they achieve the optimal $l_\infty$-radius) and demonstrate
+their effectiveness via model simulation.

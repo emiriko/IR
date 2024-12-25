@@ -1,0 +1,23 @@
+Counting is among the most fundamental operations in computing. For example,
+counting the pth frequency moment has been a very active area of research, in
+theoretical computer science, databases, and data mining. When p=1, the task
+(i.e., counting the sum) can be accomplished using a simple counter.
+  Compressed Counting (CC) is proposed for efficiently computing the pth
+frequency moment of a data stream signal A_t, where 0<p<=2. CC is applicable if
+the streaming data follow the Turnstile model, with the restriction that at the
+time t for the evaluation, A_t[i]>= 0, which includes the strict Turnstile
+model as a special case. For natural data streams encountered in practice, this
+restriction is minor.
+  The underly technique for CC is what we call skewed stable random
+projections, which captures the intuition that, when p=1 a simple counter
+suffices, and when p = 1+/\Delta with small \Delta, the sample complexity of a
+counter system should be low (continuously as a function of \Delta). We show at
+small \Delta the sample complexity (number of projections) k = O(1/\epsilon)
+instead of O(1/\epsilon^2).
+  Compressed Counting can serve a basic building block for other tasks in
+statistics and computing, for example, estimation entropies of data streams,
+parameter estimations using the method of moments and maximum likelihood.
+  Finally, another contribution is an algorithm for approximating the
+logarithmic norm, \sum_{i=1}^D\log A_t[i], and logarithmic distance. The
+logarithmic distance is useful in machine learning practice with heavy-tailed
+data.

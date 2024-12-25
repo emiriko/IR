@@ -1,0 +1,18 @@
+The search for sample-variable associations is an important problem in the
+exploratory analysis of high dimensional data. Biclustering methods search for
+sample-variable associations in the form of distinguished submatrices of the
+data matrix. (The rows and columns of a submatrix need not be contiguous.) In
+this paper we propose and evaluate a statistically motivated biclustering
+procedure (LAS) that finds large average submatrices within a given real-valued
+data matrix. The procedure operates in an iterative-residual fashion, and is
+driven by a Bonferroni-based significance score that effectively trades off
+between submatrix size and average value. We examine the performance and
+potential utility of LAS, and compare it with a number of existing methods,
+through an extensive three-part validation study using two gene expression
+datasets. The validation study examines quantitative properties of biclusters,
+biological and clinical assessments using auxiliary information, and
+classification of disease subtypes using bicluster membership. In addition, we
+carry out a simulation study to assess the effectiveness and noise sensitivity
+of the LAS search procedure. These results suggest that LAS is an effective
+exploratory tool for the discovery of biologically relevant structures in high
+dimensional data. Software is available at https://genome.unc.edu/las/.

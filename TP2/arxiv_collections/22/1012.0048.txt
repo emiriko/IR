@@ -1,0 +1,24 @@
+Purpose: Many planning methods for high dose rate (HDR) brachytherapy
+treatment planning require an iterative approach. A set of computational
+parameters are hypothesized that will give a dose plan that meets dosimetric
+criteria. A dose plan is computed using these parameters, and if any dosimetric
+criteria are not met, the process is iterated until a suitable dose plan is
+found. In this way, the dose distribution is controlled by abstract parameters.
+The purpose of this study is to improve HDR brachytherapy planning by
+developing a new approach that directly optimizes the dose distribution based
+on dosimetric criteria.
+  Method: We develop Inverse Planning by Integer Program (IPIP), an
+optimization model for computing HDR brachytherapy dose plans and a fast
+heuristic for it. We used our heuristic to compute dose plans for 20 anonymized
+prostate cancer patient image data sets from our clinic database. Dosimetry was
+evaluated and compared to dosimetric criteria.
+  Results: Dose plans computed from IPIP satisfied all given dosimetric
+criteria for the target and healthy tissue after a single iteration. The
+average target coverage was 95%. The average computation time for IPIP was 30.1
+seconds on a Intel(R) CoreTM2 Duo CPU 1.67 GHz processor with 3 Gib RAM.
+  Conclusion: IPIP is an HDR brachytherapy planning system that directly
+incorporates dosimetric criteria. We have demonstrated that IPIP has clinically
+acceptable performance for the prostate cases and dosimetric criteria used in
+this study, both in terms of dosimetry and runtime. Further study is required
+to determine if IPIP performs well for a more general group of patients and
+dosimetric criteria, including other cancer sites such as GYN.

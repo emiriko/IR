@@ -1,0 +1,7 @@
+Two methods to decompose block matrices analogous to Singular Matrix
+Decomposition are proposed, one yielding the so called economy decomposition,
+and other yielding the full decomposition. This method is devised to avoid
+handling matrices bigger than the biggest blocks, so it is particularly
+appropriate when a limitation on the size of matrices exists. The method is
+tested on a document-term matrix (17780x3204) divided in 4 blocks, the
+upper-left corner being 215x215.

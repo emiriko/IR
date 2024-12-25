@@ -1,0 +1,13 @@
+Extending previous analyses on function classes like linear functions, we
+analyze how the simple (1+1) evolutionary algorithm optimizes pseudo-Boolean
+functions that are strictly monotone. Contrary to what one would expect, not
+all of these functions are easy to optimize. The choice of the constant $c$ in
+the mutation probability $p(n) = c/n$ can make a decisive difference.
+  We show that if $c < 1$, then the (1+1) evolutionary algorithm finds the
+optimum of every such function in $\Theta(n \log n)$ iterations. For $c=1$, we
+can still prove an upper bound of $O(n^{3/2})$. However, for $c > 33$, we
+present a strictly monotone function such that the (1+1) evolutionary algorithm
+with overwhelming probability does not find the optimum within $2^{\Omega(n)}$
+iterations. This is the first time that we observe that a constant factor
+change of the mutation probability changes the run-time by more than constant
+factors.

@@ -1,0 +1,12 @@
+In this article we investigate consistency of selection in regression models
+via the popular Lasso method. Here we depart from the traditional linear
+regression assumption and consider approximations of the regression function
+$f$ with elements of a given dictionary of $M$ functions. The target for
+consistency is the index set of those functions from this dictionary that
+realize the most parsimonious approximation to $f$ among all linear
+combinations belonging to an $L_2$ ball centered at $f$ and of radius
+$r_{n,M}^2$. In this framework we show that a consistent estimate of this index
+set can be derived via $\ell_1$ penalized least squares, with a data dependent
+penalty and with tuning sequence $r_{n,M}>\sqrt{\log(Mn)/n}$, where $n$ is the
+sample size. Our results hold for any $1\leq M\leq n^{\gamma}$, for any
+$\gamma>0$.

@@ -1,0 +1,12 @@
+We present a method for the calculation of electronic structure of systems
+that contain tens of thousands of atoms. The method is based on the division of
+the system into mutually overlapping fragments and the representation of the
+single-particle Hamiltonian in the basis of eigenstates of these fragments. In
+practice, for the range of system size that we studied (up to tens of thousands
+of atoms), {the dominant part of the calculation scales} linearly with the size
+of the system when all the states within a fixed energy interval are required.
+The method is highly suitable for making good use of parallel computing
+architectures. We illustrate the method by applying it to diagonalize the
+single-particle Hamiltonian obtained using the density functional theory based
+charge patching method in the case of amorphous alkane and polythiophene
+polymers.

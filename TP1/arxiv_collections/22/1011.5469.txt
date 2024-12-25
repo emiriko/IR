@@ -1,0 +1,19 @@
+We present a multi-channel P2P Video-on-Demand (VoD) system using
+"plug-and-play" helpers. Helpers are heterogenous "micro-servers" with limited
+storage, bandwidth and number of users they can serve simultaneously. Our
+proposed system has the following salient features: (1) it minimizes the server
+load; (2) it is distributed, and requires little or no maintenance overhead and
+which can easily adapt to system dynamics; and (3) it is adaptable to varying
+supply and demand patterns across multiple video channels irrespective of video
+popularity. Our proposed solution jointly optimizes over helper-user topology,
+video storage allocation and bandwidth allocation. The combinatorial nature of
+the problem and the system demand for distributed algorithms makes the problem
+uniquely challenging. By utilizing Lagrangian decomposition and Markov chain
+approximation based arguments, we address this challenge by designing two
+distributed algorithms running in tandem: a primal-dual storage and bandwidth
+allocation algorithm and a "soft-worst-neighbor-choking" topology-building
+algorithm. Our scheme provably converges to a near-optimal solution, and is
+easy to implement in practice. Simulation results validate that the proposed
+scheme achieves minimum sever load under highly heterogeneous combinations of
+supply and demand patterns, and is robust to system dynamics of user/helper
+churn, user/helper asynchrony, and random delays in the network.

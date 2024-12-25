@@ -1,0 +1,9 @@
+This paper describes an algorithm for selecting parameter values (e.g.
+temperature values) at which to measure equilibrium properties with Parallel
+Tempering Monte Carlo simulation. Simple approaches to choosing parameter
+values can lead to poor equilibration of the simulation, especially for Ising
+spin systems that undergo $1^st$-order phase transitions. However, starting
+from an initial set of parameter values, the careful, iterative respacing of
+these values based on results with the previous set of values greatly improves
+equilibration. Example spin systems presented here appear in the context of
+Quantum Monte Carlo.

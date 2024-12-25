@@ -1,0 +1,11 @@
+In this paper, a fast algorithm for overcomplete sparse decomposition, called
+SL0, is proposed. The algorithm is essentially a method for obtaining sparse
+solutions of underdetermined systems of linear equations, and its applications
+include underdetermined Sparse Component Analysis (SCA), atomic decomposition
+on overcomplete dictionaries, compressed sensing, and decoding real field
+codes. Contrary to previous methods, which usually solve this problem by
+minimizing the L1 norm using Linear Programming (LP) techniques, our algorithm
+tries to directly minimize the L0 norm. It is experimentally shown that the
+proposed algorithm is about two to three orders of magnitude faster than the
+state-of-the-art interior-point LP solvers, while providing the same (or
+better) accuracy.

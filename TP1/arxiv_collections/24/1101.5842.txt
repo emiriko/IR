@@ -1,0 +1,15 @@
+We study synthesis of controllers for real-time systems, where the objective
+is to stay in a given safe set. The problem is solved by obtaining winning
+strategies in concurrent two-player \emph{timed automaton games} with safety
+objectives. To prevent a player from winning by blocking time, we restrict each
+player to strategies that ensure that the player cannot be responsible for
+causing a zeno run. We construct winning strategies for the controller which
+require access only to (1) the system clocks (thus, controllers which require
+their own internal infinitely precise clocks are not necessary), and (2) a
+linear (in the number of clocks) number of memory bits. Precisely, we show that
+a memory of size $\big(3\cdot|C|+1 + \lg(|C|+1)\big)$ bits suffices for winning
+controller strategies for safety objectives, where $C$ is the set of clocks of
+the timed automaton game, significantly improving the previous known
+exponential bound. We also settle the open question of whether \emph{region}
+strategies for controllers require memory for safety objectives by showing with
+an example that region strategies do require memory for safety objectives.

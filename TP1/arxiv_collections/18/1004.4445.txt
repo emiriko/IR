@@ -1,0 +1,11 @@
+Visual Cryptography is a special encryption technique to hide information in
+images, which divide secret image into multiple layers. Each layer holds some
+information. The receiver aligns the layers and the secret information is
+revealed by human vision without any complex computation. The proposed
+algorithm is for color image, that presents a system which takes four pictures
+as an input and generates three images which correspond to three of the four
+input pictures. The decoding requires only selecting some subset of these 3
+images, making transparencies of them, and stacking them on top of each other,
+so the forth picture is reconstructed by printing the three output images onto
+transparencies and stacking them together. The reconstructed image achieved in
+same size with original secret image.

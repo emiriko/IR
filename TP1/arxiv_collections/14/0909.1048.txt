@@ -1,0 +1,18 @@
+We study the kinetics for the search of an immobile target by randomly moving
+searchers that detect it only upon encounter. The searchers perform
+intermittent random walks on a one-dimensional lattice. Each searcher can step
+on a nearest neighbor site with probability "alpha", or go off lattice with
+probability "1 - \alpha" to move in a random direction until it lands back on
+the lattice at a fixed distance L away from the departure point. Considering
+"alpha" and L as optimization parameters, we seek to enhance the chances of
+successful detection by minimizing the probability P_N that the target remains
+undetected up to the maximal search time N. We show that even in this simple
+model a number of very efficient search strategies can lead to a decrease of
+P_N by orders of magnitude upon appropriate choices of "alpha" and L. We
+demonstrate that, in general, such optimal intermittent strategies are much
+more efficient than Brownian searches and are as efficient as search algorithms
+based on random walks with heavy-tailed Cauchy jump-length distributions. In
+addition, such intermittent strategies appear to be more advantageous than
+Levy-based ones in that they lead to more thorough exploration of visited
+regions in space and thus lend themselves to parallelization of the search
+processes.

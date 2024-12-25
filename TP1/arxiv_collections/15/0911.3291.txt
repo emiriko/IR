@@ -1,0 +1,19 @@
+Motivated by a concrete problem and with the goal of understanding the sense
+in which the complexity of streaming algorithms is related to the complexity of
+formal languages, we investigate the problem Dyck(s) of checking matching
+parentheses, with $s$ different types of parenthesis.
+  We present a one-pass randomized streaming algorithm for Dyck(2) with space
+$\Order(\sqrt{n}\log n)$, time per letter $\polylog (n)$, and one-sided error.
+We prove that this one-pass algorithm is optimal, up to a $\polylog n$ factor,
+even when two-sided error is allowed. For the lower bound, we prove a direct
+sum result on hard instances by following the "information cost" approach, but
+with a few twists. Indeed, we play a subtle game between public and private
+coins. This mixture between public and private coins results from a balancing
+act between the direct sum result and a combinatorial lower bound for the base
+case.
+  Surprisingly, the space requirement shrinks drastically if we have access to
+the input stream in reverse. We present a two-pass randomized streaming
+algorithm for Dyck(2) with space $\Order((\log n)^2)$, time $\polylog (n)$ and
+one-sided error, where the second pass is in the reverse direction. Both
+algorithms can be extended to Dyck(s) since this problem is reducible to
+Dyck(2) for a suitable notion of reduction in the streaming model.

@@ -1,0 +1,16 @@
+In dissipative ordinary differential equation systems different time scales
+cause anisotropic phase volume contraction along solution trajectories. Model
+reduction methods exploit this for simplifying chemical kinetics via a time
+scale separation into fast and slow modes. The aim is to approximate the system
+dynamics with a dimension-reduced model after eliminating the fast modes by
+enslaving them to the slow ones via computation of a slow attracting manifold.
+We present a novel method for computing approximations of such manifolds using
+trajectory-based optimization. We discuss Riemannian geometry concepts as a
+basis for suitable optimization criteria characterizing trajectories near slow
+attracting manifolds and thus provide insight into fundamental geometric
+properties of multiple time scale chemical kinetics. The optimization criteria
+correspond to a suitable mathematical formulation of "minimal relaxation" of
+chemical forces along reaction trajectories under given constraints. We present
+various geometrically motivated criteria and the results of their application
+to three test case reaction mechanisms serving as examples. We demonstrate that
+accurate numerical approximations of slow invariant manifolds can be obtained.

@@ -1,0 +1,18 @@
+Communication channel established from a display to a device's camera is
+known as visual channel, and it is helpful in securing key exchange protocol.
+In this paper, we study how visual channel can be exploited by a network
+terminal and mobile device to jointly verify information in an interactive
+session, and how such information can be jointly presented in a user-friendly
+manner, taking into account that the mobile device can only capture and display
+a small region, and the user may only want to authenticate selective
+regions-of-interests. Motivated by applications in Kiosk computing and
+multi-factor authentication, we consider three security models: (1) the mobile
+device is trusted, (2) at most one of the terminal or the mobile device is
+dishonest, and (3) both the terminal and device are dishonest but they do not
+collude or communicate. We give two protocols and investigate them under the
+abovementioned models. We point out a form of replay attack that renders some
+other straightforward implementations cumbersome to use. To enhance
+user-friendliness, we propose a solution using visual cues embedded into the 2D
+barcodes and incorporate the framework of "augmented reality" for easy
+verifications through visual inspection. We give a proof-of-concept
+implementation to show that our scheme is feasible in practice.

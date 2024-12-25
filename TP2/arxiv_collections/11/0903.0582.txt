@@ -1,0 +1,13 @@
+CLeFAPS, a fast and flexible pairwise structural alignment algorithm based on
+a rigid-body framework, namely CLePAPS, is proposed. Instead of allowing twists
+(or bends), the flexible in CLeFAPS means: (a) flexibilization of the
+algorithm's parameters through self-adapting with the input structures' size,
+(b) flexibilization of adding the aligned fragment pairs (AFPs) into an
+one-to-multi correspondence set instead of checking their position conflict,
+(c) flexible fragment may be found through an elongation procedure rooted in a
+vector-based score instead of a distance-based score. We perform a comparison
+between CLeFAPS and other popular algorithms including rigid-body and flexible
+on a closely-related protein benchmark (HOMSTRAD) and a distantly-related
+protein benchmark (SABmark) while the latter is also for the discrimination
+test, the result shows that CLeFAPS is competitive with or even outperforms
+other algorithms while the running time is only 1/150 to 1/50 of them.

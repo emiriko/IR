@@ -1,0 +1,16 @@
+DDR SDRAM is similar in function to the regular SDRAM but doubles the
+bandwidth of the memory by transferring data on both edges of the clock cycles.
+DDR SDRAM most commonly used in various embedded application like networking,
+image or video processing, Laptops ete. Now a days many applications needs more
+and more cheap and fast memory. Especially in the field of signal processing,
+requires significant amount of memory. The most used type of dynamic memory for
+that purpose is DDR SDRAM. For FPGA design the IC manufacturers are providing
+commercial memory controller IP cores working only on their products. Main
+disadvantage is the lack of memory access optimization for random memory access
+patterns. The data path part of those controllers can be used free of charge.
+This work propose an architecture of a DDR SDRAM controller, which takes
+advantage of those available and well tested data paths and can be used for any
+FPGA device or ASIC design.(5). In most of the SOC design, DDR SDRAM is
+commonly used. ARM processor is widely used in SOCs; so that we focused to
+implement AHB compatible DDR SDRAM controller suitable for ARM based SOC
+design.

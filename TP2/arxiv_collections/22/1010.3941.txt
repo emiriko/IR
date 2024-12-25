@@ -1,0 +1,16 @@
+Rate adaptation plays a key role in determining the performance of wireless
+LANs. In this paper, we introduce a semi-Markovian framework to analyze the
+performance of two of the most popular rate adaptation algorithms used in
+wireless LANs, namely Automatic Rate Fallback (ARF) and Adaptive Automatic Rate
+Fallback (AARF). Given our modeling assumptions, the analysis is exact and
+provides closed form expressions for the achievable throughput of ARF and AARF.
+We illustrate the benefit of our analysis by numerically comparing the
+throughput performance of ARF and AARF in two different channel regimes. The
+results show that neither of these algorithms consistently outperforms the
+other. We thus propose and analyze a new variant to AARF, called Persistent
+AARF (or PAARF), and show that it achieves a good compromise between the two
+algorithms, often performing close to the best algorithm in each of the studied
+regimes. The numerical results also shed light into the impact of MAC overhead
+on the performance of the three algorithms. In particular, they show that the
+more conservative strategies AARF and PAARF scale better as the bit rate
+increases.

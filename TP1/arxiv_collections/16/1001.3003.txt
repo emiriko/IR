@@ -1,0 +1,21 @@
+It is known that Heston's stochastic volatility model exhibits moment
+explosion, and that the critical moment $s_+$ can be obtained by solving
+(numerically) a simple equation. This yields a leading order expansion for the
+implied volatility at large strikes: $\sigma_{BS}( k,T)^{2}T\sim \Psi (s_+-1)
+\times k$ (Roger Lee's moment formula). Motivated by recent "tail-wing"
+refinements of this moment formula, we first derive a novel tail expansion for
+the Heston density, sharpening previous work of Dragulescu and Yakovenko
+[Quant. Finance 2, 6 (2002), 443--453], and then show the validity of a refined
+expansion of the type $\sigma_{BS}( k,T) ^{2}T=(
+\beta_{1}k^{1/2}+\beta_{2}+...)^{2}$, where all constants are explicitly known
+as functions of $s_+$, the Heston model parameters, spot vol and maturity $T$.
+In the case of the "zero-correlation" Heston model such an expansion was
+derived by Gulisashvili and Stein [Appl. Math. Optim. 61, 3 (2010), 287--315].
+Our methods and results may prove useful beyond the Heston model: the entire
+quantitative analysis is based on affine principles: at no point do we need
+knowledge of the (explicit, but cumbersome) closed form expression of the
+Fourier transform of $\log S_{T}$\ (equivalently: Mellin transform of $S_{T}$
+); what matters is that these transforms satisfy ordinary differential
+equations of Riccati type. Secondly, our analysis reveals a new parameter
+("critical slope"), defined in a model free manner, which drives the second and
+higher order terms in tail- and implied volatility expansions.

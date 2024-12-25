@@ -1,0 +1,10 @@
+This paper is concerned with the Einstein equations in axisymmetric vacuum
+spacetimes. We consider numerical evolution schemes that solve the constraint
+equations as well as elliptic gauge conditions at each time step. We examine
+two such schemes that have been proposed in the literature and show that some
+of their elliptic equations are indefinite, thus potentially admitting
+nonunique solutions and causing numerical solvers based on classical relaxation
+methods to fail. A new scheme is then presented that does not suffer from these
+problems. We use our numerical implementation to study the gravitational
+collapse of Brill waves. A highly prolate wave is shown to form a black hole
+rather than a naked singularity.

@@ -1,0 +1,15 @@
+The discovery of events in time series can have important implications, such
+as identifying microlensing events in astronomical surveys, or changes in a
+patient's electrocardiogram. Current methods for identifying events require a
+sliding window of a fixed size, which is not ideal for all applications and
+could overlook important events. In this work, we develop probability models
+for calculating the significance of an arbitrary-sized sliding window and use
+these probabilities to find areas of significance. Because a brute force search
+of all sliding windows and all window sizes would be computationally
+intractable, we introduce a method for quickly approximating the results. We
+apply our method to over 100,000 astronomical time series from the MACHO
+survey, in which 56 different sections of the sky are considered, each with one
+or more known events. Our method was able to recover 100% of these events in
+the top 1% of the results, essentially pruning 99% of the data. Interestingly,
+our method was able to identify events that do not pass traditional event
+discovery procedures.

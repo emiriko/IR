@@ -1,0 +1,19 @@
+Optimal prefix codes are studied for pairs of independent, integer-valued
+symbols emitted by a source with a geometric probability distribution of
+parameter $q$, $0{<}q{<}1$. By encoding pairs of symbols, it is possible to
+reduce the redundancy penalty of symbol-by-symbol encoding, while preserving
+the simplicity of the encoding and decoding procedures typical of Golomb codes
+and their variants. It is shown that optimal codes for these so-called
+two-dimensional geometric distributions are \emph{singular}, in the sense that
+a prefix code that is optimal for one value of the parameter $q$ cannot be
+optimal for any other value of $q$. This is in sharp contrast to the
+one-dimensional case, where codes are optimal for positive-length intervals of
+the parameter $q$. Thus, in the two-dimensional case, it is infeasible to give
+a compact characterization of optimal codes for all values of the parameter
+$q$, as was done in the one-dimensional case. Instead, optimal codes are
+characterized for a discrete sequence of values of $q$ that provide good
+coverage of the unit interval. Specifically, optimal prefix codes are described
+for $q=2^{-1/k}$ ($k\ge 1$), covering the range $q\ge 1/2$, and $q=2^{-k}$
+($k>1$), covering the range $q<1/2$. The described codes produce the expected
+reduction in redundancy with respect to the one-dimensional case, while
+maintaining low complexity coding operations.

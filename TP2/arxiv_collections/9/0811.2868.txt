@@ -1,0 +1,12 @@
+In this paper, we propose a method to address the problem of source
+estimation for Sparse Component Analysis (SCA) in the presence of additive
+noise. Our method is a generalization of a recently proposed method (SL0),
+which has the advantage of directly minimizing the L0-norm instead of L1-norm,
+while being very fast. SL0 is based on minimization of the smoothed L0-norm
+subject to As=x. In order to better estimate the source vector for noisy
+mixtures, we suggest then to remove the constraint As=x, by relaxing exact
+equality to an approximation (we call our method Smoothed L0-norm Denoising or
+SL0DN). The final result can then be obtained by minimization of a proper
+linear combination of the smoothed L0-norm and a cost function for the
+approximation. Experimental results emphasize on the significant enhancement of
+the modified method in noisy cases.

@@ -1,0 +1,18 @@
+We survey and unify recent results on the existence of accurate algorithms
+for evaluating multivariate polynomials, and more generally for accurate
+numerical linear algebra with structured matrices. By "accurate" we mean that
+the computed answer has relative error less than 1, i.e., has some correct
+leading digits. We also address efficiency, by which we mean algorithms that
+run in polynomial time in the size of the input. Our results will depend
+strongly on the model of arithmetic: Most of our results will use the so-called
+Traditional Model (TM). We give a set of necessary and sufficient conditions to
+decide whether a high accuracy algorithm exists in the TM, and describe
+progress toward a decision procedure that will take any problem and provide
+either a high accuracy algorithm or a proof that none exists. When no accurate
+algorithm exists in the TM, it is natural to extend the set of available
+accurate operations by a library of additional operations, such as $x+y+z$, dot
+products, or indeed any enumerable set which could then be used to build
+further accurate algorithms. We show how our accurate algorithms and decision
+procedure for finding them extend to this case. Finally, we address other
+models of arithmetic, and the relationship between (im)possibility in the TM
+and (in)efficient algorithms operating on numbers represented as bit strings.

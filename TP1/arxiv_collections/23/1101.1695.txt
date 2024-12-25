@@ -1,0 +1,25 @@
+In conventional molecular simulation, metastable structures often survive
+over considerable computational time, resulting in difficulties in simulating
+equilibrium states. In order to overcome this difficulty, here we propose a
+newly devised method, molecular Monte Carlo simulation of systems connected to
+three reservoirs: chemical potential, pressure, and temperature. Gibbs-Duhem
+equation thermodynamically limits the number of reservoirs to 2 for single
+component systems. However, in conventional simulations utilizing 2 or fewer
+reservoirs, the system tends to be trapped in metastable states. Even if the
+system is allowed to escape from such metastable states in conventional
+simulations, the fixed system size and/or the fixed number of particles result
+in creation of defects in ordered structures. This situation breaks global
+anisotropy of ordered structures and forces the periodicity of the structure to
+be commensurate to the system size. Here we connect the such three reservoirs
+to overcome these difficulties. A method of adjusting the three reservoirs and
+obtaining thermodynamically stable states is also designed, based on
+Gibbs-Duhem equation. Unlike the other conventional simulation techniques
+utilizing no more than 2 reservoirs, our method allows the system itself to
+simultaneously tune the system size and the number of particles to periodicity
+and anisotropy of ordered structures. Our method requires fewer efforts for
+preliminary simulations prior to production runs, compared with the other
+advanced simulation techniques such as multicanonical method. A free energy
+measurement method, suitable for the system with the three reservoirs, is also
+discussed, based on Euler equation of thermodynamics. This measurement method
+needs fewer computational efforts than other free energy measurement methods
+do.

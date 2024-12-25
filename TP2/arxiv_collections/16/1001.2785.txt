@@ -1,0 +1,21 @@
+Contrary to the sequential world, the processes involved in a distributed
+system do not necessarily know when a computation is globally finished. This
+paper investigates the problem of the detection of the termination of local
+computations. We define four types of termination detection: no detection,
+detection of the local termination, detection by a distributed observer,
+detection of the global termination. We give a complete characterisation
+(except in the local termination detection case where a partial one is given)
+for each of this termination detection and show that they define a strict
+hierarchy. These results emphasise the difference between computability of a
+distributed task and termination detection. Furthermore, these
+characterisations encompass all standard criteria that are usually formulated :
+topological restriction (tree, rings, or triangu- lated networks ...),
+topological knowledge (size, diameter ...), and local knowledge to distinguish
+nodes (identities, sense of direction). These results are now presented as
+corollaries of generalising theorems. As a very special and important case, the
+techniques are also applied to the election problem. Though given in the model
+of local computations, these results can give qualitative insight for similar
+results in other standard models. The necessary conditions involve graphs
+covering and quasi-covering; the sufficient conditions (constructive local
+computations) are based upon an enumeration algorithm of Mazurkiewicz and a
+stable properties detection algorithm of Szymanski, Shi and Prywes.

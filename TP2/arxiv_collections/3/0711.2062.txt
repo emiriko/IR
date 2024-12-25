@@ -1,0 +1,12 @@
+We study the predictive power of autoregressive moving average models when
+forecasting demand in two shared computational networks, PlanetLab and Tycoon.
+Demand in these networks is very volatile, and predictive techniques to plan
+usage in advance can improve the performance obtained drastically.
+  Our key finding is that a random walk predictor performs best for
+one-step-ahead forecasts, whereas ARIMA(1,1,0) and adaptive exponential
+smoothing models perform better for two and three-step-ahead forecasts. A Monte
+Carlo bootstrap test is proposed to evaluate the continuous prediction
+performance of different models with arbitrary confidence and statistical
+significance levels. Although the prediction results differ between the Tycoon
+and PlanetLab networks, we observe very similar overall statistical properties,
+such as volatility dynamics.

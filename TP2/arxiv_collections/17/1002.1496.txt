@@ -1,0 +1,21 @@
+In this paper we study algebraic branching programs (ABPs) with restrictions
+on the order and the number of reads of variables in the program. Given a
+permutation $\pi$ of $n$ variables, for a $\pi$-ordered ABP ($\pi$-OABP), for
+any directed path $p$ from source to sink, a variable can appear at most once
+on $p$, and the order in which variables appear on $p$ must respect $\pi$. An
+ABP $A$ is said to be of read $r$, if any variable appears at most $r$ times in
+$A$. Our main result pertains to the identity testing problem. Over any field
+$F$ and in the black-box model, i.e. given only query access to the polynomial,
+we have the following result: read $r$ $\pi$-OABP computable polynomials can be
+tested in $\DTIME[2^{O(r\log r \cdot \log^2 n \log\log n)}]$.
+  Our next set of results investigates the computational limitations of OABPs.
+It is shown that any OABP computing the determinant or permanent requires size
+$\Omega(2^n/n)$ and read $\Omega(2^n/n^2)$. We give a multilinear polynomial
+$p$ in $2n+1$ variables over some specifically selected field $G$, such that
+any OABP computing $p$ must read some variable at least $2^n$ times. We show
+that the elementary symmetric polynomial of degree $r$ in $n$ variables can be
+computed by a size $O(rn)$ read $r$ OABP, but not by a read $(r-1)$ OABP, for
+any $0 < 2r-1 \leq n$. Finally, we give an example of a polynomial $p$ and two
+variables orders $\pi \neq \pi'$, such that $p$ can be computed by a read-once
+$\pi$-OABP, but where any $\pi'$-OABP computing $p$ must read some variable at
+least $2^n$

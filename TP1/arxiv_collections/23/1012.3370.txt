@@ -1,0 +1,18 @@
+We present the current status of two new fully automated reduction and
+analysis pipelines, built for the Euler telescope and the CORALIE spectrograph.
+Both pipelines have been designed and built independently at the Universidad de
+Chile and Universidad Catolica by the two authors. Each pipeline has also been
+written on two different platforms, IDL and Python, and both can run fully
+automatically through full reduction and analysis of CORALIE datasets. The
+reduction goes through all standard steps from bias subtraction, flat-fielding,
+scattered light removal, optimal extraction and full wavelength calibration of
+the data using well exposed ThAr arc lamps. The reduced data are then
+cross-correlated with a binary template matched to the spectral type of each
+star and the cross-correlation functions are fit with a Gaussian to extract
+precision radial-velocities. For error analysis we are currently testing
+bootstrap, jackknifing and cross validation methods to properly determine
+uncertainties directly from the data. Our pipelines currently show long term
+stability at the 12-15m/s level, measured by observations of two known
+radial-velocity standard stars. In the near future we plan to get the stability
+down to the 5-6m/s level and also transfer these pipelines to other instruments
+like HARPS.

@@ -1,0 +1,21 @@
+Based on a recently developed notion of physical realizability for quantum
+linear stochastic systems, we formulate a quantum LQG optimal control problem
+for quantum linear stochastic systems where the controller itself may also be a
+quantum system and the plant output signal can be fully quantum. Such a control
+scheme is often referred to in the quantum control literature as "coherent
+feedback control.'' It distinguishes the present work from previous works on
+the quantum LQG problem where measurement is performed on the plant and the
+measurement signals are used as input to a fully classical controller with no
+quantum degrees of freedom. The difference in our formulation is the presence
+of additional non-linear and linear constraints on the coefficients of the
+sought after controller, rendering the problem as a type of constrained
+controller design problem. Due to the presence of these constraints our problem
+is inherently computationally hard and this also distinguishes it in an
+important way from the standard LQG problem. We propose a numerical procedure
+for solving this problem based on an alternating projections algorithm and, as
+initial demonstration of the feasibility of this approach, we provide fully
+quantum controller design examples in which numerical solutions to the problem
+were successfully obtained. For comparison, we also consider the case of
+classical linear controllers that use direct or indirect measurements, and show
+that there exists a fully quantum linear controller which offers an improvement
+in performance over the classical ones.

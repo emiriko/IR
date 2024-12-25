@@ -1,0 +1,20 @@
+We present the SDSS-XDQSO quasar targeting catalog for efficient flux-based
+quasar target selection down to the faint limit of the Sloan Digital Sky Survey
+(SDSS) catalog, even at medium redshifts (2.5 <~ z <~ 3) where the stellar
+contamination is significant. We build models of the distributions of stars and
+quasars in flux space down to the flux limit by applying the
+extreme-deconvolution method to estimate the underlying density. We convolve
+this density with the flux uncertainties when evaluating the probability that
+an object is a quasar. This approach results in a targeting algorithm that is
+more principled, more efficient, and faster than other similar methods. We
+apply the algorithm to derive low-redshift (z < 2.2), medium-redshift (2.2 <= z
+<= 3.5), and high-redshift (z > 3.5) quasar probabilities for all 160,904,060
+point sources with dereddened i-band magnitude between 17.75 and 22.45 mag in
+the 14,555 deg^2 of imaging from SDSS Data Release 8. The catalog can be used
+to define a uniformly selected and efficient low- or medium-redshift quasar
+survey, such as that needed for the SDSS-III's Baryon Oscillation Spectroscopic
+Survey project. We show that the XDQSO technique performs as well as the
+current best photometric quasar-selection technique at low redshift, and
+outperforms all other flux-based methods for selecting the medium-redshift
+quasars of our primary interest. We make code to reproduce the XDQSO quasar
+target selection publicly available.

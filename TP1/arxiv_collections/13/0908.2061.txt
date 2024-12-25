@@ -1,0 +1,15 @@
+We introduce a new distance-based phylogeny reconstruction technique which
+provably achieves, at sufficiently short branch lengths, a polylogarithmic
+sequence-length requirement -- improving significantly over previous polynomial
+bounds for distance-based methods. The technique is based on an averaging
+procedure that implicitly reconstructs ancestral sequences.
+  In the same token, we extend previous results on phase transitions in
+phylogeny reconstruction to general time-reversible models. More precisely, we
+show that in the so-called Kesten-Stigum zone (roughly, a region of the
+parameter space where ancestral sequences are well approximated by ``linear
+combinations'' of the observed sequences) sequences of length $\poly(\log n)$
+suffice for reconstruction when branch lengths are discretized. Here $n$ is the
+number of extant species.
+  Our results challenge, to some extent, the conventional wisdom that estimates
+of evolutionary distances alone carry significantly less information about
+phylogenies than full sequence datasets.

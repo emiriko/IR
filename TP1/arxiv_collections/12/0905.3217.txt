@@ -1,0 +1,17 @@
+The ubiquity of integrating detectors in imaging and other applications
+implies that a variety of real-world data are well modeled as Poisson random
+variables whose means are in turn proportional to an underlying vector-valued
+signal of interest. In this article, we first show how the so-called Skellam
+distribution arises from the fact that Haar wavelet and filterbank transform
+coefficients corresponding to measurements of this type are distributed as sums
+and differences of Poisson counts. We then provide two main theorems on Skellam
+shrinkage, one showing the near-optimality of shrinkage in the Bayesian setting
+and the other providing for unbiased risk estimation in a frequentist context.
+These results serve to yield new estimators in the Haar transform domain,
+including an unbiased risk estimate for shrinkage of Haar-Fisz
+variance-stabilized data, along with accompanying low-complexity algorithms for
+inference. We conclude with a simulation study demonstrating the efficacy of
+our Skellam shrinkage estimators both for the standard univariate wavelet test
+functions as well as a variety of test images taken from the image processing
+literature, confirming that they offer substantial performance improvements
+over existing alternatives.

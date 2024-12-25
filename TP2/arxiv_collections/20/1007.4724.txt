@@ -1,0 +1,19 @@
+Estimating link capacity in a wireless network is a complex task because the
+available capacity at a link is a function of not only the current arrival rate
+at that link, but also of the arrival rate at links which interfere with that
+link as well as of the nature of interference between these links. Models which
+accurately characterize this dependence are either too computationally complex
+to be useful or lack accuracy. Further, they have a high implementation
+overhead and make restrictive assumptions, which makes them inapplicable to
+real networks.
+  In this paper, we propose CapEst, a general, simple yet accurate,
+measurement-based approach to estimating link capacity in a wireless network.
+To be computationally light, CapEst allows inaccuracy in estimation; however,
+using measurements, it can correct this inaccuracy in an iterative fashion and
+converge to the correct estimate. Our evaluation shows that CapEst always
+converged to within 5% of the correct value in less than 18 iterations. CapEst
+is model-independent, hence, is applicable to any MAC/PHY layer and works with
+auto-rate adaptation. Moreover, it has a low implementation overhead, can be
+used with any application which requires an estimate of residual capacity on a
+wireless link and can be implemented completely at the network layer without
+any support from the underlying chipset.

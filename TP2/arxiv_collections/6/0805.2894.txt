@@ -1,0 +1,10 @@
+An explicit algorithm for calculating the optimized Euler angles for both
+qubit state transfer and gate engineering given two arbitary fixed Hamiltonians
+is presented. It is shown how the algorithm enables us to efficiently implement
+single qubit gates even if the control is severely restricted and the
+experimentally accessible Hamiltonians are far from orthogonal. It is further
+shown that using the optimized Euler angles can significantly improve the
+fidelity of quantum operations even for systems where the experimentally
+accessible Hamiltonians are nearly orthogonal. Unlike schemes such as composite
+pulses, the proposed scheme does not significantly increase the number of local
+operations or gate operation times.

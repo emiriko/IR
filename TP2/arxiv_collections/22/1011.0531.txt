@@ -1,0 +1,14 @@
+Alon and Krivelevich (SIAM J. Discrete Math. 15(2): 211-227 (2002)) show that
+if a graph is {\epsilon}-far from bipartite, then the subgraph induced by a
+random subset of O(1/{\epsilon}) vertices is bipartite with high probability.
+We conjecture that the induced subgraph is {\Omega}~({\epsilon})-far from
+bipartite with high probability. Gonen and Ron (RANDOM 2007) proved this
+conjecture in the case when the degrees of all vertices are at most
+O({\epsilon}n). We give a more general proof that works for any d-regular (or
+almost d-regular) graph for arbitrary degree d. Assuming this conjecture, we
+prove that bipartiteness is testable with one-sided error in time
+O(1/{\epsilon}^c), where c is a constant strictly smaller than two, improving
+upon the tester of Alon and Krivelevich. As it is known that non-adaptive
+testers for bipartiteness require {\Omega}(1/{\epsilon}^2) queries (Bogdanov
+and Trevisan, CCC 2004), our result shows, assuming the conjecture, that
+adaptivity helps in testing bipartiteness.

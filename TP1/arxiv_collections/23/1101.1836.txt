@@ -1,0 +1,11 @@
+This paper present an electrocardiogram (ECG) beat classification method
+based on waveform similarity and RR interval. The purpose of the method is to
+classify six types of heart beats (normal beat, atrial premature beat, paced
+beat, premature ventricular beat, left bundle branch block beat and right
+bundle branch block beat). The electrocardiogram signal is first denoised using
+wavelet transform based techniques. Heart beats of 128 samples data centered on
+the R peak are extracted from the ECG signal and thence reduced to 16 samples
+data to constitute a feature. RR intervals surrounding the beat are also
+exploited as feature. A database of annotated beats is built for the classifier
+for waveform comparison to unknown beats. Tested on 46 records in the MIT/BIH
+arrhythmia database, the method shows classification rate of 97.52%.

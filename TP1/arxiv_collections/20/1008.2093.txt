@@ -1,0 +1,11 @@
+Over the last years, novel low-complexity approaches to the equalization of
+MIMO channels have gained much attention. Thereby, methods based on lattice
+basis reduction are of special interest, as they achieve the optimum diversity
+order. In this paper, a tutorial overview on LRA equalization optimized
+according to the MMSE criterion is given. It is proven that applying the
+zero-forcing BLAST algorithm to a suitably augmented channel matrix (the
+inverse of the square root of the correlation matrix of the data symbols times
+the noise variance forms its lower part) results in the optimum solution. This
+fact is already widely used but lacks a formal proof. It turns out that it is
+more important to take the correlations of the data correctly into account than
+what type of lattice reduction actually is used.

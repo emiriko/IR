@@ -1,0 +1,19 @@
+We develop a new approach to robust adaptive beamforming in the presence of
+signal steering vector errors. Since the signal steering vector is known
+imprecisely, its presumed (prior) value is used to find a more accurate
+estimate of the actual steering vector, which then is used for obtaining the
+optimal beamforming weight vector. The objective for finding such an estimate
+of the actual signal steering vector is the maximization of the beamformer
+output power, while the constraints are the normalization condition and the
+requirement that the estimate of the steering vector does not converge to an
+interference steering vector. Our objective and constraints are free of any
+design parameters of non-unique choice. The resulting optimization problem is a
+non-convex quadratically constrained quadratic program, which is NP hard in
+general. However, for our problem we show that an efficient solution can be
+found using the semi-definite relaxation technique. Moreover, the strong
+duality holds for the proposed problem and can also be used for finding the
+optimal solution efficiently and at low complexity. In some special cases, the
+solution can be even found in closed-form. Our simulation results demonstrate
+the superiority of the proposed method over other previously developed robust
+adaptive beamforming methods for several frequently encountered types of signal
+steering vector errors.

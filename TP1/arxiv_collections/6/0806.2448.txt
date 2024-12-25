@@ -1,0 +1,10 @@
+We introduce an extension of Hoare logic for call-by-value higher-order
+functions with ML-like local reference generation. Local references may be
+generated dynamically and exported outside their scope, may store higher-order
+functions and may be used to construct complex mutable data structures. This
+primitive is captured logically using a predicate asserting reachability of a
+reference name from a possibly higher-order datum and quantifiers over hidden
+references. We explore the logic's descriptive and reasoning power with
+non-trivial programming examples combining higher-order procedures and
+dynamically generated local state. Axioms for reachability and local invariant
+play a central role for reasoning about the examples.

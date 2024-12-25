@@ -1,0 +1,13 @@
+We have developed an approximate signal recovery algorithm with low
+computational cost for compressed sensing on the basis of randomly constructed
+sparse measurement matrices. The law of large numbers and the central limit
+theorem suggest that the developed algorithm saturates the Donoho-Tanner weak
+threshold for the perfect recovery when the matrix becomes as dense as the
+signal size $N$ and the number of measurements $M$ tends to infinity keep
+$\alpha=M/N \sim O(1)$, which is supported by extensive numerical experiments.
+Even when the numbers of non-zero entries per column/row in the measurement
+matrices are limited to $O(1)$, numerical experiments indicate that the
+algorithm can still typically recover the original signal perfectly with an
+$O(N)$ computational cost per update as well if the density $\rho$ of non-zero
+entries of the signal is lower than a certain critical value $\rho_{\rm
+th}(\alpha)$ as $N,M \to \infty$.

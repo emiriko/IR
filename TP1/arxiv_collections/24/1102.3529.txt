@@ -1,0 +1,12 @@
+In this report we describe a tool framework for certifying properties of
+PLCs: CERTPLC. CERTPLC can handle PLC descriptions provided in the Sequential
+Function Chart (SFC) language of the IEC 61131-3 standard. It provides routines
+to certify properties of systems by delivering an independently checkable
+formal system description and proof (called certificate) for the desired
+properties. We focus on properties that can be described as inductive
+invariants. System descriptions and certificates are generated and handled
+using the COQ proof assistant. Our tool framework is used to provide supporting
+evidence for the safety of embedded systems in the industrial automation domain
+to third-party authorities. In this document we describe the tool framework:
+usage scenarios, the archi-tecture, semantics of PLCs and their realization in
+COQ, proof generation and the construction of certificates.

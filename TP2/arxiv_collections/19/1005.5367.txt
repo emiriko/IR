@@ -1,0 +1,14 @@
+In a virtualized infrastructure where physical resources are shared, a single
+physical server failure will terminate several virtual servers and crippling
+the virtual infrastructures which contained those virtual servers. In the worst
+case, more failures may cascade from overloading the remaining servers. To
+guarantee some level of reliability, each virtual infrastructure, at
+instantiation, should be augmented with backup virtual nodes and links that
+have sufficient capacities. This ensures that, when physical failures occur,
+sufficient computing resources are available and the virtual network topology
+is preserved. However, in doing so, the utilization of the physical
+infrastructure may be greatly reduced. This can be circumvented if backup
+resources are pooled and shared across multiple virtual infrastructures, and
+intelligently embedded in the physical infrastructure. These techniques can
+reduce the physical footprint of virtual backups while guaranteeing
+reliability.

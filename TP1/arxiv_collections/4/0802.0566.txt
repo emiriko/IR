@@ -1,0 +1,20 @@
+We study the efficiency of V-fold cross-validation (VFCV) for model selection
+from the non-asymptotic viewpoint, and suggest an improvement on it, which we
+call ``V-fold penalization''. Considering a particular (though simple)
+regression problem, we prove that VFCV with a bounded V is suboptimal for model
+selection, because it ``overpenalizes'' all the more that V is large. Hence,
+asymptotic optimality requires V to go to infinity. However, when the
+signal-to-noise ratio is low, it appears that overpenalizing is necessary, so
+that the optimal V is not always the larger one, despite of the variability
+issue. This is confirmed by some simulated data. In order to improve on the
+prediction performance of VFCV, we define a new model selection procedure,
+called ``V-fold penalization'' (penVF). It is a V-fold subsampling version of
+Efron's bootstrap penalties, so that it has the same computational cost as
+VFCV, while being more flexible. In a heteroscedastic regression framework,
+assuming the models to have a particular structure, we prove that penVF
+satisfies a non-asymptotic oracle inequality with a leading constant that tends
+to 1 when the sample size goes to infinity. In particular, this implies
+adaptivity to the smoothness of the regression function, even with a highly
+heteroscedastic noise. Moreover, it is easy to overpenalize with penVF,
+independently from the V parameter. A simulation study shows that this results
+in a significant improvement on VFCV in non-asymptotic situations.

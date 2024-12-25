@@ -1,0 +1,11 @@
+Craig interpolation has become a versatile algorithmic tool for improving
+software verification. Interpolants can, for instance, accelerate the
+convergence of fixpoint computations for infinite-state systems. They also help
+improve the refinement of iteratively computed lazy abstractions. Efficient
+interpolation procedures have been presented only for a few theories. In this
+paper, we introduce a complete interpolation method for the full range of
+quantifier-free Presburger arithmetic formulas. We propose a novel convex
+variable projection for integer inequalities and a technique to combine them
+with equalities. The derivation of the interpolant has complexity low-degree
+polynomial in the size of the refutation proof and is typically fast in
+practice.

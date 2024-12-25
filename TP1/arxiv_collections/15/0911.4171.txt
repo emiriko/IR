@@ -1,0 +1,19 @@
+Information-theoretic key agreement is impossible to achieve from scratch and
+must be based on some - ultimately physical - premise. In 2005, Barrett, Hardy,
+and Kent showed that unconditional security can be obtained in principle based
+on the impossibility of faster-than-light signaling; however, their protocol is
+inefficient and cannot tolerate any noise. While their key-distribution scheme
+uses quantum entanglement, its security only relies on the impossibility of
+superluminal signaling, rather than the correctness and completeness of quantum
+theory. In particular, the resulting security is device independent. Here we
+introduce a new protocol which is efficient in terms of both classical and
+quantum communication, and that can tolerate noise in the quantum channel. We
+prove that it offers device-independent security under the sole assumption that
+certain non-signaling conditions are satisfied. Our main insight is that the
+XOR of a number of bits that are partially secret according to the
+non-signaling conditions turns out to be highly secret. Note that similar
+statements have been well-known in classical contexts. Earlier results had
+indicated that amplification of such non-signaling-based privacy is impossible
+to achieve if the non-signaling condition only holds between events on Alice's
+and Bob's sides. Here, we show that the situation changes completely if such a
+separation is given within each of the laboratories.

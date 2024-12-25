@@ -1,0 +1,11 @@
+We propose an ion trap implementation of Grover's quantum search algorithm
+for an unstructured database of arbitrary length N. The experimental
+implementation is appealingly simple because the linear ion trap allows for a
+straightforward construction, in a single interaction step and without a
+multitude of Hadamard transforms, of the reflection operator, which is the
+engine of the Grover algorithm. Consequently, a dramatic reduction in the
+number of the required physical steps takes place, to just O(\sqrt{N}), the
+same as the number of the mathematical steps. The proposed setup allows for
+demonstration of both the original (probabilistic) Grover search and its
+deterministic variation, and is remarkably robust to imperfections in the
+register initialization.

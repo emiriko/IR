@@ -1,0 +1,15 @@
+Current mesh reduction techniques, while numerous, all primarily reduce mesh
+size by successive element deletion (e.g. edge collapses) with the goal of
+geometric and topological feature preservation. The choice of geometric error
+used to guide the reduction process is chosen independent of the function the
+end user aims to calculate, analyze, or adaptively refine. In this paper, we
+argue that such a decoupling of structure from function modeling is often
+unwise as small changes in geometry may cause large changes in the associated
+function. A stable approach to mesh decimation, therefore, ought to be guided
+primarily by an analysis of functional sensitivity, a property dependent on
+both the particular application and the equations used for computation (e.g.
+integrals, derivatives, or integral/partial differential equations). We present
+a methodology to elucidate the geometric sensitivity of functionals via two
+major functional discretization techniques: Galerkin finite element and
+discrete exterior calculus. A number of examples are given to illustrate the
+methodology and provide numerical examples to further substantiate our choices.

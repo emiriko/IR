@@ -1,0 +1,20 @@
+Intentional interference constitutes a major threat for communication
+networks operating over a shared medium where availability is imperative.
+Jamming attacks are often simple and cheap to implement. In particular, today's
+jammers can perform physical carrier sensing in order to disrupt communication
+more efficiently, specially in a network of simple wireless devices such as
+sensor nodes, which usually operate over a single frequency (or a limited
+frequency band) and which cannot benefit from the use of spread spectrum or
+other more advanced technologies. This article proposes the medium access (MAC)
+protocol \textsc{AntiJam} that is provably robust against a powerful reactive
+adversary who can jam a $(1-\epsilon)$-portion of the time steps, where
+$\epsilon$ is an arbitrary constant. The adversary uses carrier sensing to make
+informed decisions on when it is most harmful to disrupt communications;
+moreover, we allow the adversary to be adaptive and to have complete knowledge
+of the entire protocol history. Our MAC protocol is able to make efficient use
+of the non-jammed time periods and achieves an asymptotically optimal,
+$\Theta{(1)}$-competitive throughput in this harsh scenario. In addition,
+\textsc{AntiJam} features a low convergence time and has good fairness
+properties. Our simulation results validate our theoretical results and also
+show that our algorithm manages to guarantee constant throughput where the
+802.11 MAC protocol basically fails to deliver any packets.

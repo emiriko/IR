@@ -1,0 +1,21 @@
+Bipartite Correlation clustering is the problem of generating a set of
+disjoint bi-cliques on a set of nodes while minimizing the symmetric difference
+to a bipartite input graph. The number or size of the output clusters is not
+constrained in any way. The best known approximation algorithm for this problem
+gives a factor of 11. This result and all previous ones involve solving large
+linear or semi-definite programs which become prohibitive even for modestly
+sized tasks. In this paper we present an improved factor 4 approximation
+algorithm to this problem using a simple combinatorial algorithm which does not
+require solving large convex programs. The analysis extends a method developed
+by Ailon, Charikar and Alantha in 2008, where a randomized pivoting algorithm
+was analyzed for obtaining a 3-approximation algorithm for Correlation
+Clustering, which is the same problem on graphs (not bipartite). The analysis
+for Correlation Clustering there required defining events for structures
+containing 3 vertices and using the probability of these events to produce a
+feasible solution to a dual of a certain natural LP bounding the optimal cost.
+It is tempting here to use sets of 4 vertices, which are the smallest
+structures for which contradictions arise for Bipartite Correlation Clustering.
+This simple idea, however, appears to be evasive. We show that, by modifying
+the LP, we can analyze algorithms which take into consideration subgraph
+structures of unbounded size. We believe our techniques are interesting in
+their own right, and may be used for other problems as well.

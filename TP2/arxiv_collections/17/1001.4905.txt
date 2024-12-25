@@ -1,0 +1,9 @@
+In this talk we review the GOLEM approach to one-loop calculations and
+present an automated implementation of this technique. This method is based on
+Feynman diagrams and an advanced reduction of one-loop tensor integrals which
+avoids numerical instabilities. We have extended our one-loop integral library
+golem95 with an automated one-loop matrix element generator to compute the
+virtual corrections of the process $q\bar{q}\to b\bar{b}b\bar{b}$. The
+implementation of the virtual matrix element has been interfaced with
+tree-level Monte Carlo programs to provide the full result for the above
+process.

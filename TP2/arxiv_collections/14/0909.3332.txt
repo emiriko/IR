@@ -1,0 +1,23 @@
+The first purpose of this paper is to shed some new light on the old question
+of selecting the number of beams in intensity-modulated radiation therapy
+(IMRT). The second purpose is to illuminate the related issue of discrete
+static beam angles vs. rotational techniques, which has recently re-surfaced
+due to the advancement of volumetric arc therapy (VMAT). A specific objective
+is to find analytical expressions that allow one to address the points raised
+above. To make the problem mathematically tractable, it is assumed that the
+depth dose is flat and that the lateral dose profile can be approximated by
+polynomials, specifically Chebyshev polynomials of the first kind, of finite
+degree. The application of methods known from image reconstruction then allows
+one to answer the first question above as follows: The required number of beams
+is determined by the maximum degree of the polynomials used in the
+approximation of the beam profiles, which is a measure of the dose variability.
+There is nothing to be gained by using more beams. In realistic cases, in which
+the variability of the lateral dose profile is restricted in several ways, the
+required number of beams is of the order of 10 to 20. The consequence of
+delivering the beams with a `leaf sweep' technique during continuous rotation
+of the gantry, as in VMAT, is also derived in analytical form. The main effect
+is that the beams fan out, but the effect near the axis of rotation is small.
+This result can serve as a theoretical justification of VMAT. Overall the
+analytical derivations in this paper, albeit based on strong simplifications,
+provide new insights into, and a deeper understanding of, the beam angle
+problem in IMRT.

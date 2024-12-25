@@ -1,0 +1,21 @@
+We investigate opportunistic cooperation between unlicensed secondary users
+and legacy primary users in a cognitive radio network. Specifically, we
+consider a model of a cognitive network where a secondary user can
+cooperatively transmit with the primary user in order to improve the latter's
+effective transmission rate. In return, the secondary user gets more
+opportunities for transmitting its own data when the primary user is idle. This
+kind of interaction between the primary and secondary users is different from
+the traditional dynamic spectrum access model in which the secondary users try
+to avoid interfering with the primary users while seeking transmission
+opportunities on vacant primary channels. In our model, the secondary users
+need to balance the desire to cooperate more (to create more transmission
+opportunities) with the need for maintaining sufficient energy levels for their
+own transmissions. Such a model is applicable in the emerging area of cognitive
+femtocell networks. We formulate the problem of maximizing the secondary user
+throughput subject to a time average power constraint under these settings.
+This is a constrained Markov Decision Problem and conventional solution
+techniques based on dynamic programming require either extensive knowledge of
+the system dynamics or learning based approaches that suffer from large
+convergence times. However, using the technique of Lyapunov optimization, we
+design a novel greedy and online control algorithm that overcomes these
+challenges and is provably optimal.

@@ -1,0 +1,15 @@
+A major enterprise in compressed sensing and sparse approximation is the
+design and analysis of computationally tractable algorithms for recovering
+sparse, exact or approximate, solutions of underdetermined linear systems of
+equations. Many such algorithms have now been proven to have optimal-order
+uniform recovery guarantees using the ubiquitous Restricted Isometry Property
+(RIP). However, it is unclear when the RIP-based sufficient conditions on the
+algorithm are satisfied. We present a framework in which this task can be
+achieved; translating these conditions for Gaussian measurement matrices into
+requirements on the signal's sparsity level, length, and number of
+measurements. We illustrate this approach on three of the state-of-the-art
+greedy algorithms: CoSaMP, Subspace Pursuit (SP), and Iterative Hard
+Thresholding (IHT). Designed to allow a direct comparison of existing theory,
+our framework implies that, according to the best known bounds, IHT requires
+the fewest number of compressed sensing measurements and has the lowest per
+iteration computational cost of the three algorithms compared here.

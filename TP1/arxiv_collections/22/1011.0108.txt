@@ -1,0 +1,25 @@
+We study the problem of learning to rank from pairwise preferences, and solve
+a long-standing open problem that has led to development of many heuristics but
+no provable results for our particular problem. Given a set $V$ of $n$
+elements, we wish to linearly order them given pairwise preference labels. A
+pairwise preference label is obtained as a response, typically from a human, to
+the question "which if preferred, u or v?$ for two elements $u,v\in V$. We
+assume possible non-transitivity paradoxes which may arise naturally due to
+human mistakes or irrationality. The goal is to linearly order the elements
+from the most preferred to the least preferred, while disagreeing with as few
+pairwise preference labels as possible. Our performance is measured by two
+parameters: The loss and the query complexity (number of pairwise preference
+labels we obtain). This is a typical learning problem, with the exception that
+the space from which the pairwise preferences is drawn is finite, consisting of
+${n\choose 2}$ possibilities only. We present an active learning algorithm for
+this problem, with query bounds significantly beating general (non active)
+bounds for the same error guarantee, while almost achieving the information
+theoretical lower bound. Our main construct is a decomposition of the input
+s.t. (i) each block incurs high loss at optimum, and (ii) the optimal solution
+respecting the decomposition is not much worse than the true opt. The
+decomposition is done by adapting a recent result by Kenyon and Schudy for a
+related combinatorial optimization problem to the query efficient setting. We
+thus settle an open problem posed by learning-to-rank theoreticians and
+practitioners: What is a provably correct way to sample preference labels? To
+further show the power and practicality of our solution, we show how to use it
+in concert with an SVM relaxation.

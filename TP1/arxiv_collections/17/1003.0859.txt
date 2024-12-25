@@ -1,0 +1,8 @@
+Many mesh refinement simulations currently performed in numerical relativity
+counteract instabilities near the outer boundary of the simulation domain
+either by changes to the mesh refinement scheme or by changes to the gauge
+condition. We point out that the BSSN Gamma Driver gauge condition introduces a
+time step size limitation in a similar manner as a CFL condition, but which is
+independent of the spatial resolution. We give a didactic explanation of this
+issue, show why especially mesh refinement simulations suffer from it, and
+point to a simple remedy.

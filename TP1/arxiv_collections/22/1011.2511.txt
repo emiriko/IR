@@ -1,0 +1,13 @@
+Over the last decade there have been great strides made in developing
+techniques to compute functions privately. In particular, Differential Privacy
+gives strong promises about conclusions that can be drawn about an individual.
+In contrast, various syntactic methods for providing privacy (criteria such as
+kanonymity and l-diversity) have been criticized for still allowing private
+information of an individual to be inferred. In this report, we consider the
+ability of an attacker to use data meeting privacy definitions to build an
+accurate classifier. We demonstrate that even under Differential Privacy, such
+classifiers can be used to accurately infer "private" attributes in realistic
+data. We compare this to similar approaches for inferencebased attacks on other
+forms of anonymized data. We place these attacks on the same scale, and observe
+that the accuracy of inference of private attributes for Differentially Private
+data and l-diverse data can be quite similar.

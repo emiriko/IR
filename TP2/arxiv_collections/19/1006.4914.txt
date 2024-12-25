@@ -1,0 +1,21 @@
+In this paper, we consider Langevin processes with mechanical constraints.
+The latter are a fundamental tool in molecular dynamics simulation for sampling
+purposes and for the computation of free energy differences. The results of
+this paper can be divided into three parts. (i) We propose a simple
+discretization of the constrained Langevin process based on a standard
+splitting strategy. We show how to correct the scheme so that it samples {\em
+exactly} the canonical measure restricted on a submanifold, using a Metropolis
+rule in the spirit of the Generalized Hybrid Monte Carlo (GHMC) algorithm.
+Moreover, we obtain, in some limiting regime, a consistent discretization of
+the overdamped Langevin (Brownian) dynamics on a submanifold, also sampling
+exactly the correct canonical measure with constraints. The corresponding
+numerical methods can be used to sample (without any bias) a probability
+measure supported by a submanifold. (ii) For free energy computation using
+thermodynamic integration, we rigorously prove that the longtime average of the
+Lagrange multipliers of the constrained Langevin dynamics yields the gradient
+of a rigid version of the free energy associated with the constraints. A second
+order time discretization using the Lagrange multipliers is proposed. (iii) The
+Jarzynski-Crooks fluctuation relation is proved for Langevin processes with
+mechanical constraints evolving in time. An original numerical discretization
+without time-step error is proposed. Numerical illustrations are provided for
+(ii) and (iii).

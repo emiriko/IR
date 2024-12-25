@@ -1,0 +1,15 @@
+The weakest pre-expectation calculus has been proved to be a mature theory to
+analyze quantitative properties of probabilistic and nondeterministic programs.
+We present an automatic method for proving quantitative linear properties on
+any denumerable state space using iterative backwards fixed point calculation
+in the general framework of abstract interpretation. In order to accomplish
+this task we present the technique of random variable abstraction (RVA) and we
+also postulate a sufficient condition to achieve exact fixed point computation
+in the abstract domain. The feasibility of our approach is shown with two
+examples, one obtaining the expected running time of a probabilistic program,
+and the other the expected gain of a gambling strategy.
+  Our method works on general guarded probabilistic and nondeterministic
+transition systems instead of plain pGCL programs, allowing us to easily model
+a wide range of systems including distributed ones and unstructured programs.
+We present the operational and weakest precondition semantics for this programs
+and prove its equivalence.

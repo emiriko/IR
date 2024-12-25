@@ -1,0 +1,16 @@
+The most difficult aspect of the realistic modeling of granular materials is
+how to capture the real shape of the particles. Here we present a method to
+simulate granular materials with complex-shaped particles. The particle shape
+is represented by the classical concept of a Minkowski sum, which permits the
+representation of complex shapes without the need to define the object as a
+composite of spherical or convex particles. A well defined interaction force
+between these bodies is derived. The algorithm for identification of neighbor
+particles reduces force calculations to O(N), where $N$ is the number of
+particles. The algorithm is much more efficient, accurate and easier to
+implement than other models. We investigate the existence of a statistical
+equilibrium in granular systems with circular non-spherical particles in the
+collisional. regime. We also investigate the limit state of dissipative
+granular materials using biaxial test simulations. The results are consistent
+with the classical assumption of the statistical mechanics for non-dissipative
+systems, and the critical state theory of soils mechanics for dissipative
+granular materials.

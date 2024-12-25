@@ -1,0 +1,9 @@
+Learning the network structure of a large graph is computationally demanding,
+and dynamically monitoring the network over time for any changes in structure
+threatens to be more challenging still. This paper presents a two-stage method
+for anomaly detection in dynamic graphs: the first stage uses simple, conjugate
+Bayesian models for discrete time counting processes to track the pairwise
+links of all nodes in the graph to assess normality of behavior; the second
+stage applies standard network inference tools on a greatly reduced subset of
+potentially anomalous nodes. The utility of the method is demonstrated on
+simulated and real data sets.

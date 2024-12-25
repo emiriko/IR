@@ -1,0 +1,13 @@
+We prove that orthogonal constructor term rewrite systems and lambda-calculus
+with weak (i.e., no reduction is allowed under the scope of a
+lambda-abstraction) call-by-value reduction can simulate each other with a
+linear overhead. In particular, weak call-by-value beta-reduction can be
+simulated by an orthogonal constructor term rewrite system in the same number
+of reduction steps. Conversely, each reduction in a term rewrite system can be
+simulated by a constant number of beta-reduction steps. This is relevant to
+implicit computational complexity, because the number of beta steps to normal
+form is polynomially related to the actual cost (that is, as performed on a
+Turing machine) of normalization, under weak call-by-value reduction.
+Orthogonal constructor term rewrite systems and lambda-calculus are thus both
+polynomially related to Turing machines, taking as notion of cost their natural
+parameters.

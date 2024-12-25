@@ -1,0 +1,13 @@
+Given a time series of multicomponent measurements x(t), the usual objective
+of nonlinear blind source separation (BSS) is to find a "source" time series
+s(t), comprised of statistically independent combinations of the measured
+components. In this paper, the source time series is required to have a density
+function in (s,ds/dt)-space that is equal to the product of density functions
+of individual components. This formulation of the BSS problem has a solution
+that is unique, up to permutations and component-wise transformations.
+Separability is shown to impose constraints on certain locally invariant
+(scalar) functions of x, which are derived from local higher-order correlations
+of the data's velocity dx/dt. The data are separable if and only if they
+satisfy these constraints, and, if the constraints are satisfied, the sources
+can be explicitly constructed from the data. The method is illustrated by using
+it to separate two speech-like sounds recorded with a single microphone.

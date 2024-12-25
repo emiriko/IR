@@ -1,0 +1,15 @@
+The simplest, and most common, stochastic model for population processes,
+including those from biochemistry and cell biology, are continuous time Markov
+chains. Simulation of such models is often relatively straightforward as there
+are easily implementable methods for the generation of exact sample paths.
+However, when using ensemble averages to approximate expected values, the
+computational complexity can become prohibitive as the number of computations
+per path scales linearly with the number of jumps of the process. When such
+methods become computationally intractable, approximate methods, which
+introduce a bias, can become advantageous. In this paper, we provide a general
+framework for understanding the weak error, or bias, induced by different
+numerical approximation techniques in the current setting. The analysis takes
+into account both the natural scalings within a given system and the step-size
+of the numerical method. Examples are provided to demonstrate the main
+analytical results as well as the reduction in computational complexity
+achieved by the approximate methods.

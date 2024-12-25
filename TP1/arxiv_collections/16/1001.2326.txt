@@ -1,0 +1,9 @@
+We present a data storage scheme for sensor networks that achieves the
+targets of encryption and distributed storage simultaneously. We partition the
+data to be stored into numerous pieces such that at least a specific number of
+them have to be brought together to recreate the data. The procedure for
+creation of partitions does not use any encryption key and the pieces are
+implicitly secure. These pieces are then distributed over random sensors for
+storage. Capture or malfunction of one or more (less than a threshold number of
+sensors) does not compromise the data. The scheme provides protection against
+compromise of data in specific sensors due to physical capture or malfunction.

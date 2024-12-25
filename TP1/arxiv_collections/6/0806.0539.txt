@@ -1,0 +1,16 @@
+Importance sampling is a promising variance reduction technique for Monte
+Carlo simulation based derivative pricing. Existing importance sampling methods
+are based on a parametric choice of the proposal. This article proposes an
+algorithm that estimates the optimal proposal nonparametrically using a
+multivariate frequency polygon estimator. In contrast to parametric methods,
+nonparametric estimation allows for close approximation of the optimal
+proposal. Standard nonparametric importance sampling is inefficient for
+high-dimensional problems. We solve this issue by applying the procedure to a
+low-dimensional subspace, which is identified through principal component
+analysis and the concept of the effective dimension. The mean square error
+properties of the algorithm are investigated and its asymptotic optimality is
+shown. Quasi-Monte Carlo is used for further improvement of the method. It is
+easy to implement, particularly it does not require any analytical computation,
+and it is computationally very efficient. We demonstrate through path-dependent
+and multi-asset option pricing problems that the algorithm leads to significant
+efficiency gains compared to other algorithms in the literature.

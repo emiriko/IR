@@ -1,0 +1,8 @@
+This paper examines the impact of approximation steps that become necessary
+when particle filters are implemented on resource-constrained platforms. We
+consider particle filters that perform intermittent approximation, either by
+subsampling the particles or by generating a parametric approximation. For such
+algorithms, we derive time-uniform bounds on the weak-sense $L_p$ error and
+present associated exponential inequalities. We motivate the theoretical
+analysis by considering the leader node particle filter and present numerical
+experiments exploring its performance and the relationship to the error bounds.

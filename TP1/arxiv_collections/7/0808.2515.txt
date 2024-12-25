@@ -1,0 +1,10 @@
+We consider Linear Programming (LP) decoding of a fixed Low-Density
+Parity-Check (LDPC) code over the Binary Symmetric Channel (BSC). The LP
+decoder fails when it outputs a pseudo-codeword which is not a codeword. We
+design an efficient algorithm termed the Instanton Search Algorithm (ISA)
+which, given a random input, generates a set of flips called the BSC-instanton.
+We prove that: (a) the LP decoder fails for any set of flips with support
+vector including an instanton; (b) for any input, the algorithm outputs an
+instanton in the number of steps upper-bounded by twice the number of flips in
+the input. Repeated sufficient number of times, the ISA outcomes the number of
+unique instantons of different sizes.

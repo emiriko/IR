@@ -1,0 +1,15 @@
+We propose the new Top-Dog-Index to quantify the historic deviation of the
+supply data of many small branches for a commodity group from sales data. On
+the one hand, the common parametric assumptions on the customer demand
+distribution in the literature could not at all be supported in our real-world
+data set. On the other hand, a reasonably-looking non-parametric approach to
+estimate the demand distribution for the different branches directly from the
+sales distribution could only provide us with statistically weak and unreliable
+estimates for the future demand. Based on real-world sales data from our
+industry partner we provide evidence that our Top-Dog-Index is statistically
+robust. Using the Top-Dog-Index, we propose a heuristics to improve the
+branch-dependent proportion between supply and demand. Our approach cannot
+estimate the branch-dependent demand directly. It can, however, classify the
+branches into a given number of clusters according to an historic oversupply or
+undersupply. This classification of branches can iteratively be used to adapt
+the branch distribution of supply and demand in the future.

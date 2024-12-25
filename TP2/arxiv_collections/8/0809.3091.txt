@@ -1,0 +1,21 @@
+Recent mobile equipment (as well as the norm IEEE 802.21) now offers the
+possibility for users to switch from one technology to another (vertical
+handover). This allows flexibility in resource assignments and, consequently,
+increases the potential throughput allocated to each user. In this paper, we
+design a fully distributed algorithm based on trial and error mechanisms that
+exploits the benefits of vertical handover by finding fair and efficient
+assignment schemes. On the one hand, mobiles gradually update the fraction of
+data packets they send to each network based on the rewards they receive from
+the stations. On the other hand, network stations send rewards to each mobile
+that represent the impact each mobile has on the cell throughput. This reward
+function is closely related to the concept of marginal cost in the pricing
+literature. Both the station and the mobile algorithms are simple enough to be
+implemented in current standard equipment. Based on tools from evolutionary
+games, potential games and replicator dynamics, we analytically show the
+convergence of the algorithm to solutions that are efficient and fair in terms
+of throughput. Moreover, we show that after convergence, each user is connected
+to a single network cell which avoids costly repeated vertical handovers.
+Several simple heuristics based on this algorithm are proposed to achieve fast
+convergence. Indeed, for implementation purposes, the number of iterations
+should remain in the order of a few tens. We also compare, for different loads,
+the quality of their solutions.

@@ -1,0 +1,10 @@
+For oscillating time series, the prediction is often focused on the turning
+points. In order to predict the turning point magnitudes and times it is
+proposed to form the state space reconstruction only from the turning points
+and modify the local (nearest neighbor) model accordingly. The model on turning
+points gives optimal prediction at a lower dimensional state space than the
+optimal local model applied directly on the oscillating time series and is thus
+computationally more efficient. Monte Carlo simulations on different
+oscillating nonlinear systems showed that it gives better predictions of
+turning points and this is confirmed also for the time series of annual
+sunspots and total stress in a plastic deformation experiment.

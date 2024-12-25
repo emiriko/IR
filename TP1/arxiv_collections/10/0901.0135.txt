@@ -1,0 +1,20 @@
+In a dynamic social or biological environment, the interactions between the
+actors can undergo large and systematic changes. In this paper we propose a
+model-based approach to analyze what we will refer to as the dynamic tomography
+of such time-evolving networks. Our approach offers an intuitive but powerful
+tool to infer the semantic underpinnings of each actor, such as its social
+roles or biological functions, underlying the observed network topologies. Our
+model builds on earlier work on a mixed membership stochastic blockmodel for
+static networks, and the state-space model for tracking object trajectory. It
+overcomes a major limitation of many current network inference techniques,
+which assume that each actor plays a unique and invariant role that accounts
+for all its interactions with other actors; instead, our method models the role
+of each actor as a time-evolving mixed membership vector that allows actors to
+behave differently over time and carry out different roles/functions when
+interacting with different peers, which is closer to reality. We present an
+efficient algorithm for approximate inference and learning using our model; and
+we applied our model to analyze a social network between monks (i.e., the
+Sampson's network), a dynamic email communication network between the Enron
+employees, and a rewiring gene interaction network of fruit fly collected
+during its full life cycle. In all cases, our model reveals interesting
+patterns of the dynamic roles of the actors.

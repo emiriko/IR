@@ -1,0 +1,24 @@
+In the study of quantum computation, data is represented in terms of linear
+operators which form a generalized model of probability, and computations are
+most commonly described as products of unitary transformations, which are the
+transformations which preserve the quality of the data in a precise sense. This
+naturally leads to "unitary circuit models", which are models of computation in
+which unitary operators are expressed as a product of "elementary" unitary
+transformations. However, unitary transformations can also be effected as a
+composition of operations which are not all unitary themselves: the "one-way
+measurement model" is one such model of quantum computation.
+  In this thesis, we examine the relationship between representations of
+unitary operators and decompositions of those operators in the one-way
+measurement model. In particular, we consider different circumstances under
+which a procedure in the one-way measurement model can be described as
+simulating a unitary circuit, by considering the combinatorial structures which
+are common to unitary circuits and two simple constructions of one-way based
+procedures. These structures lead to a characterization of the one-way
+measurement patterns which arise from these constructions, which can then be
+related to efficiently testable properties of graphs. We also consider how
+these characterizations provide automatic techniques for obtaining complete
+measurement-based decompositions, from unitary transformations which are
+specified by operator expressions bearing a formal resemblance to path
+integrals. These techniques are presented as a possible means to devise new
+algorithms in the one-way measurement model, independently of algorithms in the
+unitary circuit model.

@@ -1,0 +1,11 @@
+We give a categorical semantics for a call-by-value linear lambda calculus.
+Such a lambda calculus was used by Selinger and Valiron as the backbone of a
+functional programming language for quantum computation. One feature of this
+lambda calculus is its linear type system, which includes a duplicability
+operator "!" as in linear logic. Another main feature is its call-by-value
+reduction strategy, together with a side-effect to model probabilistic
+measurements. The "!" operator gives rise to a comonad, as in the linear logic
+models of Seely, Bierman, and Benton. The side-effects give rise to a monad, as
+in Moggi's computational lambda calculus. It is this combination of a monad and
+a comonad that makes the present paper interesting. We show that our
+categorical semantics is sound and complete.

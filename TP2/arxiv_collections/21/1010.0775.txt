@@ -1,0 +1,11 @@
+In this paper we numerically solve the eigenvalue problem $\Delta u + \lambda
+u = 0$ on the fractal region defined by the Koch Snowflake, with zero-Dirichlet
+or zero-Neumann boundary conditions. The Laplacian with boundary conditions is
+approximated by a large symmetric matrix. The eigenvalues and eigenvectors of
+this matrix are computed by ARPACK. We impose the boundary conditions in a way
+that gives improved accuracy over the previous computations of Lapidus,
+Neuberger, Renka & Griffith. We extrapolate the results for grid spacing $h$ to
+the limit $h \rightarrow 0$ in order to estimate eigenvalues of the Laplacian
+and compare our results to those of Lapdus et al. We analyze the symmetry of
+the region to explain the multiplicity-two eigenvalues, and present a canonical
+choice of the two eigenfunctions that span each two-dimensional eigenspace.

@@ -1,0 +1,16 @@
+For the last several months the main focus of development in the ROOT I/O
+package has been code consolidation and performance improvements. Access to
+remote files is affected both by bandwidth and latency. We introduced a
+pre-fetch mechanism to minimize the number of transactions between client and
+server and hence reducing the effect of latency. We will review the
+implementation and how well it works in different conditions (gain of an order
+of magnitude for remote file access). We will also review new utilities,
+including a faster implementation of TTree cloning (gain of an order of
+magnitude), a generic mechanism for object references, and a new entry list
+mechanism tuned both for small and large number of selections. In addition to
+reducing the coupling with the core module and becoming its owns library
+(libRIO) (as part of the general restructuration of the ROOT libraries), the
+I/O package has been enhanced in the area of XML and SQL support, thread
+safety, schema evolution, TTreeFormula, and many other areas. We will also
+discuss various ways, ROOT will be able to benefit from multi-core architecture
+to improve I/O performances.

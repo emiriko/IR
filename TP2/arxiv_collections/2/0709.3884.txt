@@ -1,0 +1,15 @@
+A number of recent emerging applications call for studying data streams,
+potentially infinite flows of information updated in real-time. When multiple
+co-evolving data streams are observed, an important task is to determine how
+these streams depend on each other, accounting for dynamic dependence patterns
+without imposing any restrictive probabilistic law governing this dependence.
+In this paper we argue that flexible least squares (FLS), a penalized version
+of ordinary least squares that accommodates for time-varying regression
+coefficients, can be deployed successfully in this context. Our motivating
+application is statistical arbitrage, an investment strategy that exploits
+patterns detected in financial data streams. We demonstrate that FLS is
+algebraically equivalent to the well-known Kalman filter equations, and take
+advantage of this equivalence to gain a better understanding of FLS and suggest
+a more efficient algorithm. Promising experimental results obtained from a
+FLS-based algorithmic trading system for the S&P 500 Futures Index are
+reported.

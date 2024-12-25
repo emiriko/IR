@@ -1,0 +1,28 @@
+A general theory of resource-bounded measurability and measure is developed.
+Starting from any feasible probability measure $\nu$ on the Cantor space $\C$
+and any suitable complexity class $C \subseteq \C$, the theory identifies the
+subsets of $\C$ that are $\nu$-measurable in $C$ and assigns measures to these
+sets, thereby endowing $C$ with internal measure-theoretic structure. Classes
+to which the theory applies include various exponential time and space
+complexity classes, the class of all decidable languages, and the Cantor space
+itself, on which the resource-bounded theory is shown to agree with the
+classical theory.
+  The sets that are $\nu$-measurable in $C$ are shown to form an algebra
+relative to which $\nu$-measure is well-behaved. This algebra is also shown to
+be complete and closed under sufficiently uniform infinitary unions and
+intersections, and $\nu$-measure in $C$ is shown to have the appropriate
+additivity and monotone convergence properties with respect to such infinitary
+operations.
+  A generalization of the classical Kolmogorov zero-one law is proven, showing
+that when $\nu$ is any feasible coin-toss probability measure on $\C$, every
+set that is $\nu$-measurable in $C$ and (like most complexity classes)
+invariant under finite alterations must have $\nu$-measure 0 or $\nu$-measure 1
+in $C$.
+  The theory is presented here is based on resource-bounded martingale
+splitting operators, which are type-2 functionals, each of which maps $\N
+\times {\cal D}_\nu$ into ${\cal D}_\nu \times {\cal D}_\nu$, where ${\cal
+D}_\nu$ is the set of all $\nu$-martingales. This type-2 aspect of the theory
+appears to be essential for general $\nu$-measure in complexity classes $C$,
+but the sets of $\nu$-measure 0 or 1 in C are shown to be characterized by the
+success conditions for martingales (type-1 functions) that have been used in
+resource-bounded measure to date.

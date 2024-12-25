@@ -1,0 +1,17 @@
+In this paper we propose and analyze a distributed algorithm for achieving
+globally optimal decisions, either estimation or detection, through a
+self-synchronization mechanism among linearly coupled integrators initialized
+with local measurements. We model the interaction among the nodes as a directed
+graph with weights (possibly) dependent on the radio channels and we pose
+special attention to the effect of the propagation delay occurring in the
+exchange of data among sensors, as a function of the network geometry. We
+derive necessary and sufficient conditions for the proposed system to reach a
+consensus on globally optimal decision statistics. One of the major results
+proved in this work is that a consensus is reached with exponential convergence
+speed for any bounded delay condition if and only if the directed graph is
+quasi-strongly connected. We provide a closed form expression for the global
+consensus, showing that the effect of delays is, in general, the introduction
+of a bias in the final decision. Finally, we exploit our closed form expression
+to devise a double-step consensus mechanism able to provide an unbiased
+estimate with minimum extra complexity, without the need to know or estimate
+the channel parameters.

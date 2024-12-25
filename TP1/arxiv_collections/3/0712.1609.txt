@@ -1,0 +1,23 @@
+The paper studies the problem of distributed average consensus in sensor
+networks with quantized data and random link failures. To achieve consensus,
+dither (small noise) is added to the sensor states before quantization. When
+the quantizer range is unbounded (countable number of quantizer levels),
+stochastic approximation shows that consensus is asymptotically achieved with
+probability one and in mean square to a finite random variable. We show that
+the meansquared error (m.s.e.) can be made arbitrarily small by tuning the link
+weight sequence, at a cost of the convergence rate of the algorithm. To study
+dithered consensus with random links when the range of the quantizer is
+bounded, we establish uniform boundedness of the sample paths of the unbounded
+quantizer. This requires characterization of the statistical properties of the
+supremum taken over the sample paths of the state of the quantizer. This is
+accomplished by splitting the state vector of the quantizer in two components:
+one along the consensus subspace and the other along the subspace orthogonal to
+the consensus subspace. The proofs use maximal inequalities for submartingale
+and supermartingale sequences. From these, we derive probability bounds on the
+excursions of the two subsequences, from which probability bounds on the
+excursions of the quantizer state vector follow. The paper shows how to use
+these probability bounds to design the quantizer parameters and to explore
+tradeoffs among the number of quantizer levels, the size of the quantization
+steps, the desired probability of saturation, and the desired level of accuracy
+$\epsilon$ away from consensus. Finally, the paper illustrates the quantizer
+design with a numerical study.

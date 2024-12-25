@@ -1,0 +1,9 @@
+We develop a simulation-based method for the online updating of Gaussian
+process regression and classification models. Our method exploits sequential
+Monte Carlo to produce a fast sequential design algorithm for these models
+relative to the established MCMC alternative. The latter is less ideal for
+sequential design since it must be restarted and iterated to convergence with
+the inclusion of each new design point. We illustrate some attractive ensemble
+aspects of our SMC approach, and show how active learning heuristics may be
+implemented via particles to optimize a noisy function or to explore
+classification boundaries online.

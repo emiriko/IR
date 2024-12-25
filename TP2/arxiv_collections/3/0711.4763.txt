@@ -1,0 +1,12 @@
+A spectral integral method (IEM) for solving the two-body Schroedinger
+equation in configuration space is generalized to the calculation of the
+corresponding T-matrix. It is found that the desirable features of the IEM,
+such as the economy of mesh-points for a given required accuracy, are carried
+over also to the solution of the T-matrix. However the algorithm is
+considerably more complex, because the T-matrix is a function of two variables
+r and r', rather than only one variable r, and has a slope discontinuity at
+r=r'. For a simple exponential potential an accuracy of 7 significant figures
+is achieved, with the number N of Chebyshev support points in each partition
+equal to 17. For a potential with a large repulsive core, such as the potential
+between two He atoms, the accuracy decreases to 4 significant figures, but is
+restored to 7 if N is increased to 65.

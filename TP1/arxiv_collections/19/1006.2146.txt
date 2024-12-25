@@ -1,0 +1,18 @@
+ADER (Arbitrary DERivative in space and time) methods for the time-evolution
+of hyperbolic conservation laws have recently generated a fair bit of interest.
+The ADER time update can be carried out in a single step, which is desirable in
+many applications. However, prior papers have focused on the theory while
+downplaying implementation details. The purpose of the present paper is to make
+ADER schemes accessible by providing two useful formulations of the method as
+well as their implementation details on three-dimensional structured meshes. We
+therefore provide a detailed formulation of ADER schemes for conservation laws
+with non-stiff source terms in nodal as well as modal space along with useful
+implementation-related detail. We also provide details for the efficient use of
+ADER schemes in obtaining the numerical flux for conservation laws as well as
+electric fields for divergence-free magnetohydrodynamics. An efficient
+WENO-based strategy for obtaining zone-averaged magnetic fields from
+face-centered magnetic fields in MHD is also presented.
+  The schemes catalogued here have been implemented in the first author's
+RIEMANN code. The speed of ADER schemes is shown to be almost twice as fast as
+that of strong stability preserving Runge-Kutta time stepping schemes for all
+the orders of accuracy that we tested.

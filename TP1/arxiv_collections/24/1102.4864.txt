@@ -1,0 +1,21 @@
+In recent years research on credit risk modelling has mainly focused on
+default probabilities. Recovery rates are usually modelled independently, quite
+often they are even assumed constant. Then, however, the structural connection
+between recovery rates and default probabilities is lost and the tails of the
+loss distribution can be underestimated considerably. The problem of
+underestimating tail losses becomes even more severe, when calibration issues
+are taken into account. To demonstrate this we choose a Merton-type structural
+model as our reference system. Diffusion and jump-diffusion are considered as
+underlying processes. We run Monte Carlo simulations of this model and
+calibrate different recovery models to the simulation data. For simplicity, we
+take the default probabilities directly from the simulation data. We compare a
+reduced-form model for recoveries with a constant recovery approach. In
+addition, we consider a functional dependence between recovery rates and
+default probabilities. This dependence can be derived analytically for the
+diffusion case. We find that the constant recovery approach drastically and
+systematically underestimates the tail of the loss distribution. The
+reduced-form recovery model shows better results, when all simulation data is
+used for calibration. However, if we restrict the simulation data used for
+calibration, the results for the reduced-form model deteriorate. We find the
+most reliable and stable results, when we make use of the functional dependence
+between recovery rates and default probabilities.

@@ -1,0 +1,11 @@
+We provide a remedy for two concerns that have dogged the use of principal
+components in regression: (i) principal components are computed from the
+predictors alone and do not make apparent use of the response, and (ii)
+principal components are not invariant or equivariant under full rank linear
+transformation of the predictors. The development begins with principal fitted
+components [Cook, R. D. (2007). Fisher lecture: Dimension reduction in
+regression (with discussion). Statist. Sci. 22 1--26] and uses normal models
+for the inverse regression of the predictors on the response to gain reductive
+information for the forward regression of interest. This approach includes
+methodology for testing hypotheses about the number of components and about
+conditional independencies among the predictors.

@@ -1,0 +1,17 @@
+We introduce and publicly release a new code, ADAPTSMOOTH, which serves to
+smooth astronomical images in an adaptive fashion, in order to enhance the
+signal-to-noise ratio (S/N). The adaptive smoothing scheme allows to take full
+advantage of the spatially resolved photometric information contained in an
+image in that at any location the minimal smoothing is applied to reach the
+requested S/N. Support is given to match more images on the same smoothing
+length, such that proper estimates of local colours can be done, with a big
+potential impact on multi-wavelength studies of extended sources (galaxies,
+nebulae). Different modes to estimate local S/N are provided. In addition to
+classical arithmetic-mean averaging mode, the code can operate in median
+averaging mode, resulting in a significant enhancement of the final image
+quality and very accurate flux conservation. To this goal also other code
+options are implemented and discussed in this paper. Finally, we analyze in
+great detail the effect of the adaptive smoothing on galaxy photometry, in
+particular in terms of surface brightness (SB) profiles and aperture
+photometry: deviations in SB with respect to the original image can be limited
+to <0.01 mag, with flux difference in apertures of less than 0.001 mag.

@@ -1,0 +1,9 @@
+Implementations of two algorithms for the transverse Mercator projection are
+described; these achieve accuracies close to machine precision. One is based on
+the exact equations of Thompson and Lee and the other uses an extension of
+Krueger's series for the projection to higher order. The exact method provides
+an accuracy of 9 nm over the entire ellipsoid, while the errors in the series
+method are less than 5 nm within 3900 km of the central meridian. In each case,
+the meridian convergence and scale are also computed with similar accuracy. The
+speed of the series method is competitive with other less accurate algorithms
+and the exact method is about 5 times slower.

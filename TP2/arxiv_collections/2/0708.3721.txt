@@ -1,0 +1,13 @@
+Real number calculations on elementary functions are remarkably difficult to
+handle in mechanical proofs. In this paper, we show how these calculations can
+be performed within a theorem prover or proof assistant in a convenient and
+highly automated as well as interactive way. First, we formally establish upper
+and lower bounds for elementary functions. Then, based on these bounds, we
+develop a rational interval arithmetic where real number calculations take
+place in an algebraic setting. In order to reduce the dependency effect of
+interval arithmetic, we integrate two techniques: interval splitting and taylor
+series expansions. This pragmatic approach has been developed, and formally
+verified, in a theorem prover. The formal development also includes a set of
+customizable strategies to automate proofs involving explicit calculations over
+real numbers. Our ultimate goal is to provide guaranteed proofs of numerical
+properties with minimal human theorem-prover interaction.

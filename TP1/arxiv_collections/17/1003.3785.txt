@@ -1,0 +1,20 @@
+In this paper we present two algorithms for the computation of a diagonal
+form of a matrix over non-commutative Euclidean domain over a field with the
+help of Gr\"obner bases. This can be viewed as the pre-processing for the
+computation of Jacobson normal form and also used for the computation of Smith
+normal form in the commutative case. We propose a general framework for
+handling, among other, operator algebras with rational coefficients. We employ
+special "polynomial" strategy in Ore localizations of non-commutative
+$G$-algebras and show its merits. In particular, for a given matrix $M$ we
+provide an algorithm to compute $U,V$ and $D$ with fraction-free entries such
+that $UMV=D$ holds. The polynomial approach allows one to obtain more precise
+information, than the rational one e. g. about singularities of the system.
+  Our implementation of polynomial strategy shows very impressive performance,
+compared with methods, which directly use fractions. In particular, we
+experience quite moderate swell of coefficients and obtain uncomplicated
+transformation matrices. This shows that this method is well suitable for
+solving nontrivial practical problems. We present an implementation of
+algorithms in SINGULAR:PLURAL and compare it with other available systems. We
+leave questions on the algorithmic complexity of this algorithm open, but we
+stress the practical applicability of the proposed method to a bigger class of
+non-commutative algebras.

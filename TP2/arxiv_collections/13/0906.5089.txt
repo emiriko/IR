@@ -1,0 +1,19 @@
+We define, analyze, and give efficient algorithms for two kinds of distance
+measures for rooted and unrooted phylogenies. For rooted trees, our measures
+are based on the topologies the input trees induce on triplets; that is, on
+three-element subsets of the set of species. For unrooted trees, the measures
+are based on quartets (four-element subsets). Triplet and quartet-based
+distances provide a robust and fine-grained measure of the similarities between
+trees. The distinguishing feature of our distance measures relative to
+traditional quartet and triplet distances is their ability to deal cleanly with
+the presence of unresolved nodes, also called polytomies. For rooted trees,
+these are nodes with more than two children; for unrooted trees, they are nodes
+of degree greater than three.
+  Our first class of measures are parametric distances, where there is a
+parameter that weighs the difference between an unresolved triplet/quartet
+topology and a resolved one. Our second class of measures are based on
+Hausdorff distance. Each tree is viewed as a set of all possible ways in which
+the tree could be refined to eliminate unresolved nodes. The distance between
+the original (unresolved) trees is then taken to be the Hausdorff distance
+between the associated sets of fully resolved trees, where the distance between
+trees in the sets is the triplet or quartet distance, as appropriate.

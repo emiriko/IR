@@ -1,0 +1,15 @@
+We describe the processing of data from the Low Frequency Instrument (LFI)
+used in production of the Planck Early Release Compact Source Catalogue
+(ERCSC). In particular, we discuss the steps involved in reducing the data from
+telemetry packets to cleaned, calibrated, time-ordered data (TOD) and frequency
+maps. Data are continuously calibrated using the modulation of the temperature
+of the cosmic microwave background radiation induced by the motion of the
+spacecraft. Noise properties are estimated from TOD from which the sky signal
+has been removed using a generalized least square map-making algorithm.
+Measured 1/f noise knee-frequencies range from 100mHz at 30GHz to a few tens of
+mHz at 70GHz. A destriping code (Madam) is employed to combine radiometric data
+and pointing information into sky maps, minimizing the variance of correlated
+noise. Noise covariance matrices required to compute statistical uncertainties
+on LFI and Planck products are also produced. Main beams are estimated down to
+the approx -10dB level using Jupiter transits, which are also used for
+geometrical calibration of the focal plane.

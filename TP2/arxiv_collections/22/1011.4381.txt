@@ -1,0 +1,13 @@
+The adaptive Metropolis (AM) algorithm of Haario, Saksman and Tamminen
+[Bernoulli 7 (2001) 223-242] uses the estimated covariance of the target
+distribution in the proposal distribution. This paper introduces a new robust
+adaptive Metropolis algorithm estimating the shape of the target distribution
+and simultaneously coercing the acceptance rate. The adaptation rule is
+computationally simple adding no extra cost compared with the AM algorithm. The
+adaptation strategy can be seen as a multidimensional extension of the
+previously proposed method adapting the scale of the proposal distribution in
+order to attain a given acceptance rate. The empirical results show promising
+behaviour of the new algorithm in an example with Student target distribution
+having no finite second moment, where the AM covariance estimate is unstable.
+In the examples with finite second moments, the performance of the new approach
+seems to be competitive with the AM algorithm combined with scale adaptation.

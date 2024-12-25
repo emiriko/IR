@@ -1,0 +1,18 @@
+Let $\a$ be a real-valued random variable of mean zero and variance 1. Let
+$M_n(\a)$ denote the $n \times n$ random matrix whose entries are iid copies of
+$\a$ and $\sigma_n(M_n(\a))$ denote the least singular value of $M_n(\a)$.
+($\sigma_n(M_n(\a))^2$ is also usually interpreted as the least eigenvalue of
+the Wishart matrix $M_n M_n^{\ast}$.) We show that (under a finite moment
+assumption) the probability distribution $n \sigma_n(M_n(\a))^2$ is {\it
+universal} in the sense that it does not depend on the distribution of $\a$. In
+particular, it converges to the same limiting distribution as in the special
+case when $a$ is real gaussian. (The limiting distribution was computed
+explicitly in this case by Edelman.) We also proved a similar result for
+complex-valued random variables of mean zero, with real and imaginary parts
+having variance 1/2 and covariance zero. Similar results are also obtained for
+the joint distribution of the bottom $k$ singular values of $M_n(\a)$ for any
+fixed $k$ (or even for $k$ growing as a small power of $n$) and for rectangular
+matrices. Our approach is motivated by the general idea of "property testing"
+from combinatorics and theoretical computer science. This seems to be a new
+approach in the study of spectra of random matrices and combines tools from
+various areas of mathematics.

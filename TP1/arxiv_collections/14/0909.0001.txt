@@ -1,0 +1,17 @@
+We show that the class of antenna layouts for telescope arrays allowing cheap
+analysis hardware (with correlator cost scaling as N log N rather than N^2 with
+the number of antennas N) is encouragingly large, including not only previously
+discussed rectangular grids but also arbitrary hierarchies of such grids, with
+arbitrary rotations and shears at each level. We show that all correlations for
+such a 2D array with an n-level hierarchy can be efficiently computed via a
+Fast Fourier Transform in not 2 but 2n dimensions. This can allow major
+correlator cost reductions for science applications requiring exquisite
+sensitivity at widely separated angular scales, for example 21cm tomography
+(where short baselines are needed to probe the cosmological signal and long
+baselines are needed for point source removal), helping enable future 21cm
+experiments with thousands or millions of cheap dipole-like antennas. Such
+hierarchical grids combine the angular resolution advantage of traditional
+array layouts with the cost advantage of a rectangular Fast Fourier Transform
+Telescope. We also describe an algorithm for how a subclass of hierarchical
+arrays can efficiently use rotation synthesis to produce global sky maps with
+minimal noise and a well-characterized synthesized beam.

@@ -1,0 +1,15 @@
+The interleaving semantics is not compatible with both action refinement and
+durational actions. Since many true concurrency semantics are congruent w.r.t.
+action refinement, notably the causality and the maximality ones, this has
+challenged us to study the dense time behavior - where the actions are of
+arbitrary fixed duration - within the causality semantics of Da Costa.
+  We extend the causal transition systems with the clocks and the timed
+constraints, and thus we obtain an over class of timed automata where the
+actions need not to be atomic. We define a real time extension of the formal
+description technique CSP, called duration-CSP, by attributing the duration to
+actions. We give the operational timed causal semantics of duration-CSP as well
+as its denotational semantics over the class of timed causal transition
+systems. Afterwards, we prove that the two semantics are equivalent. Finally we
+extend the duration-CSP language with a refinement operator $\rho$ - that
+allows to replace an action with a process - and prove that it preserves the
+timed causal bisimulation.

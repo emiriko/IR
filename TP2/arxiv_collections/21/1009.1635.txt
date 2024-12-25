@@ -1,0 +1,21 @@
+The quest for quantum computers is motivated by their potential for solving
+problems that defy existing, classical, computers. The theory of computational
+complexity, one of the crown jewels of computer science, provides a rigorous
+framework for classifying the hardness of problems according to the
+computational resources, most notably time, needed to solve them. Its extension
+to quantum computers allows the relative power of quantum computers to be
+analyzed. This framework identifies families of problems which are likely hard
+for classical computers (``NP-complete'') and those which are likely hard for
+quantum computers (``QMA-complete'') by indirect methods. That is, they
+identify problems of comparable worst-case difficulty without directly
+determining the individual hardness of any given instance. Statistical
+mechanical methods can be used to complement this classification by directly
+extracting information about particular families of instances---typically those
+that involve optimization---by studying random ensembles of them. These pose
+unusual and interesting (quantum) statistical mechanical questions and the
+results shed light on the difficulty of problems for large classes of
+algorithms as well as providing a window on the contrast between typical and
+worst case complexity. In these lecture notes we present an introduction to
+this set of ideas with older work on classical satisfiability and recent work
+on quantum satisfiability as primary examples. We also touch on the connection
+of computational hardness with the physical notion of glassiness.

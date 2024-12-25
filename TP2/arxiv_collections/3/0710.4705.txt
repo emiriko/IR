@@ -1,0 +1,18 @@
+Field programmable gate arrays (FPGAs) provide designers with the ability to
+quickly create hardware circuits. Increases in FPGA configurable logic capacity
+and decreasing FPGA costs have enabled designers to more readily incorporate
+FPGAs in their designs. FPGA vendors have begun providing configurable soft
+processor cores that can be synthesized onto their FPGA products. While FPGAs
+with soft processor cores provide designers with increased flexibility, such
+processors typically have degraded performance and energy consumption compared
+to hard-core processors. Previously, we proposed warp processing, a technique
+capable of optimizing a software application by dynamically and transparently
+re-implementing critical software kernels as custom circuits in on-chip
+configurable logic. In this paper, we study the potential of a MicroBlaze
+soft-core based warp processing system to eliminate the performance and energy
+overhead of a soft-core processor compared to a hard-core processor. We
+demonstrate that the soft-core based warp processor achieves average speedups
+of 5.8 and energy reductions of 57% compared to the soft core alone. Our data
+shows that a soft-core based warp processor yields performance and energy
+consumption competitive with existing hard-core processors, thus expanding the
+usefulness of soft processor cores on FPGAs to a broader range of applications.

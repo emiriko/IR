@@ -1,0 +1,22 @@
+Generic quantum search algorithm searches for target entity in an unsorted
+database by repeatedly applying canonical Grover's quantum rotation transform
+to reach near the vicinity of the target entity represented by a basis state in
+the Hilbert space associated with the qubits. Thus, when qubits are measured,
+there is a high probability of finding the target entity. However, the number
+of times quantum rotation transform is to be applied for reaching near the
+vicinity of the target is a function of the number of target entities present
+in the unsorted database, which is generally unknown. A wrong estimate of the
+number of target entities can lead to overshooting or undershooting the
+targets, thus reducing the success probability. Some proposals have been made
+to overcome this limitation. These proposals either employ quantum counting to
+estimate the number of solutions or fixed point schemes. This paper proposes a
+new scheme for stopping the application of quantum rotation transformation on
+reaching near the targets by measurement and subsequent processing to estimate
+the distance of the state vector from the target states. It ensures a success
+probability, which is at least greater than half for all the ratios of the
+number of target entities to the total number of entities in a database, which
+are less than half. The search problem is trivial for remaining possible
+ratios. The proposed scheme is simpler than quantum counting and more efficient
+than the known fixed-point schemes. It has same order of computational
+complexity as canonical Grover's search algorithm but is slow by a factor of
+two and requires an additional ancilla qubit.

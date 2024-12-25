@@ -1,0 +1,19 @@
+I introduce a Markov chain Monte Carlo (MCMC) scheme in which sampling from a
+distribution with density pi(x) is done using updates operating on an
+"ensemble" of states. The current state x is first stochastically mapped to an
+ensemble, x^{(1)},...,x^{(K)}. This ensemble is then updated using MCMC updates
+that leave invariant a suitable ensemble density, rho(x^{(1)},...,x^{(K)}),
+defined in terms of pi(x^{(i)}) for i=1,...,K. Finally a single state is
+stochastically selected from the ensemble after these updates. Such ensemble
+MCMC updates can be useful when characteristics of pi and the ensemble permit
+pi(x^{(i)}) for all i in {1,...,K}, to be computed in less than K times the
+amount of computation time needed to compute pi(x) for a single x. One common
+situation of this type is when changes to some "fast" variables allow for quick
+re-computation of the density, whereas changes to other "slow" variables do
+not. Gaussian process regression models are an example of this sort of problem,
+with an overall scaling factor for covariances and the noise variance being
+fast variables. I show that ensemble MCMC for Gaussian process regression
+models can indeed substantially improve sampling performance. Finally, I
+discuss other possible applications of ensemble MCMC, and its relationship to
+the "multiple-try Metropolis" method of Liu, Liang, and Wong and the "multiset
+sampler" of Leman, Chen, and Lavine.

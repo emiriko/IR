@@ -1,0 +1,16 @@
+Learning object models from views in 3D visual object recognition is usually
+formulated either as a function approximation problem of a function describing
+the view-manifold of an object, or as that of learning a class-conditional
+density. This paper describes an alternative framework for learning in visual
+object recognition, that of learning the view-generalization function. Using
+the view-generalization function, an observer can perform Bayes-optimal 3D
+object recognition given one or more 2D training views directly, without the
+need for a separate model acquisition step. The paper shows that view
+generalization functions can be computationally practical by restating two
+widely-used methods, the eigenspace and linear combination of views approaches,
+in a view generalization framework. The paper relates the approach to recent
+methods for object recognition based on non-uniform blurring. The paper
+presents results both on simulated 3D ``paperclip'' objects and real-world
+images from the COIL-100 database showing that useful view-generalization
+functions can be realistically be learned from a comparatively small number of
+training examples.

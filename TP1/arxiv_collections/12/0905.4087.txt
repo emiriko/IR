@@ -1,0 +1,23 @@
+In this paper, we propose a systematic solution to the problem of cross-layer
+optimization for delay-sensitive media transmission over time-varying wireless
+channels as well as investigate the structures and properties of this solution,
+such that it can be easily implemented in various multimedia systems and
+applications. Specifically, we formulate this problem as a finite-horizon
+Markov decision process (MDP) by explicitly considering the users'
+heterogeneous multimedia traffic characteristics (e.g. delay deadlines,
+distortion impacts and dependencies etc.), time-varying network conditions as
+well as, importantly, their ability to adapt their cross-layer transmission
+strategies in response to these dynamics. Based on the heterogeneous
+characteristics of the media packets, we are able to express the transmission
+priorities between packets as a new type of directed acyclic graph (DAG). This
+DAG provides the necessary structure for determining the optimal cross-layer
+actions in each time slot: the root packet in the DAG will always be selected
+for transmission since it has the highest positive marginal utility; and the
+complexity of the proposed cross-layer solution is demonstrated to linearly
+increase w.r.t. the number of disconnected packet pairs in the DAG and
+exponentially increase w.r.t. the number of packets on which the current
+packets depend on. The simulation results demonstrate that the proposed
+solution significantly outperforms existing state-of-the-art cross-layer
+solutions. Moreover, we show that our solution provides the upper bound
+performance for the cross-layer optimization solutions with delayed feedback
+such as the well-known RaDiO framework.

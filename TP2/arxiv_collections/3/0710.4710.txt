@@ -1,0 +1,14 @@
+In this paper, a method is proposed for finding a pixel transformation
+function that maximizes backlight dimming while maintaining a pre-specified
+image distortion level for a liquid crystal display. This is achieved by
+finding a pixel transformation function, which maps the original image
+histogram to a new histogram with lower dynamic range. Next the contrast of the
+transformed image is enhanced so as to compensate for brightness loss that
+would arise from backlight dimming. The proposed approach relies on an accurate
+definition of the image distortion which takes into account both the pixel
+value differences and a model of the human visual system and is amenable to
+highly efficient hardware realization. Experimental results show that the
+histogram equalization for backlight scaling method results in about 45% power
+saving with an effective distortion rate of 5% and 65% power saving for a 20%
+distortion rate. This is significantly higher power savings compared to
+previously reported backlight dimming approaches.

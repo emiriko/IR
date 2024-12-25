@@ -1,0 +1,11 @@
+The paradigm of Tabled Logic Programming (TLP) is now supported by a number
+of Prolog systems, including XSB, YAP Prolog, B-Prolog, Mercury, ALS, and Ciao.
+The reasons for this are partly theoretical: tabling ensures termination and
+optimal known complexity for queries to a large class of programs. However the
+overriding reasons are practical. TLP allows sophisticated programs to be
+written concisely and efficiently, especially when mechanisms such as tabled
+negation and call and answer subsumption are supported. As a result TLP has now
+been used in a variety of applications from program analysis to querying over
+the semantic web. This paper provides a survey of TLP and its applications as
+implemented in XSB Prolog, along with discussion of how XSB supports tabling
+with dynamically changing code, and in a multi-threaded environment.

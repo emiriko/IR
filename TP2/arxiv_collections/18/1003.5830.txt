@@ -1,0 +1,16 @@
+We modify the freezing method introduced by Beyn & Thuemmler, 2004, for
+analyzing rigidly rotating spiral waves in excitable media. The proposed method
+is designed to stably determine the rotation frequency and the core radius of
+rotating spirals, as well as the approximate shape of spiral waves in unbounded
+domains. In particular, we introduce spiral wave boundary conditions based on
+geometric approximations of spiral wave solutions by Archimedean spirals and by
+involutes of circles. We further propose a simple implementation of boundary
+conditions for the case when the inhibitor is non-diffusive, a case which had
+previously caused spurious oscillations.
+  We then utilize the method to numerically analyze the large core limit. The
+proposed method allows us to investigate the case close to criticality where
+spiral waves acquire infinite core radius and zero rotation frequency, before
+they begin to develop into retracting fingers. We confirm the linear scaling
+regime of a drift bifurcation for the rotation frequency and the core radius of
+spiral wave solutions close to criticality. This regime is unattainable with
+conventional numerical methods.

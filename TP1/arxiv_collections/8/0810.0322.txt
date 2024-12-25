@@ -1,0 +1,21 @@
+We consider the tensorial diffusion equation, and address the discrete
+maximum-minimum principle of mixed finite element formulations. In particular,
+we address non-negative solutions (which is a special case of the
+maximum-minimum principle) of mixed finite element formulations. The discrete
+maximum-minimum principle is the discrete version of the maximum-minimum
+principle.
+  In this paper we present two non-negative mixed finite element formulations
+for tensorial diffusion equations based on constrained optimization techniques
+(in particular, quadratic programming). These proposed mixed formulations
+produce non-negative numerical solutions on arbitrary meshes for low-order
+(i.e., linear, bilinear and trilinear) finite elements. The first formulation
+is based on the Raviart-Thomas spaces, and is obtained by adding a non-negative
+constraint to the variational statement of the Raviart-Thomas formulation. The
+second non-negative formulation based on the variational multiscale
+formulation.
+  For the former formulation we comment on the affect of adding the
+non-negative constraint on the local mass balance property of the
+Raviart-Thomas formulation. We also study the performance of the active set
+strategy for solving the resulting constrained optimization problems. The
+overall performance of the proposed formulation is illustrated on three
+canonical test problems.

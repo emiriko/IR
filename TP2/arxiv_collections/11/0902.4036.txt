@@ -1,0 +1,14 @@
+We study quantum protocols among two distrustful parties. Under the sole
+assumption of correctness - guaranteeing that honest players obtain their
+correct outcomes - we show that every protocol implementing a non-trivial
+primitive necessarily leaks information to a dishonest player. This extends
+known impossibility results to all non-trivial primitives. We provide a
+framework for quantifying this leakage and argue that leakage is a good measure
+for the privacy provided to the players by a given protocol. Our framework also
+covers the case where the two players are helped by a trusted third party. We
+show that despite the help of a trusted third party, the players cannot amplify
+the cryptographic power of any primitive. All our results hold even against
+quantum honest-but-curious adversaries who honestly follow the protocol but
+purify their actions and apply a different measurement at the end of the
+protocol. As concrete examples, we establish lower bounds on the leakage of
+standard universal two-party primitives such as oblivious transfer.

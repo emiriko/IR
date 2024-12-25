@@ -1,0 +1,13 @@
+We present a very fast implementation of the Butler-Portugal algorithm for
+index canonicalization with respect to permutation symmetries. It is called
+xPerm, and has been written as a combination of a Mathematica package and a C
+subroutine. The latter performs the most demanding parts of the computations
+and can be linked from any other program or computer algebra system. We
+demonstrate with tests and timings the effectively polynomial performance of
+the Butler-Portugal algorithm with respect to the number of indices, though we
+also show a case in which it is exponential. Our implementation handles generic
+tensorial expressions with several dozen indices in hundredths of a second, or
+one hundred indices in a few seconds, clearly outperforming all other current
+canonicalizers. The code has been already under intensive testing for several
+years and has been essential in recent investigations in large-scale tensor
+computer algebra.

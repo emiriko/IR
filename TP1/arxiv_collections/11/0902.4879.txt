@@ -1,0 +1,18 @@
+In this article, we develop an algorithm for probabilistic and constrained
+projection pursuit. Our algorithm called ADIS (automated decomposition into
+sources) accepts arbitrary non-linear contrast functions and constraints from
+the user and performs non-square blind source separation (BSS). In the first
+stage, we estimate the latent dimensionality using a combination of bootstrap
+and cross validation techniques. In the second stage, we apply our
+state-of-the-art optimization algorithm to perform BSS. We validate the latent
+dimensionality estimation procedure via simulations on sources with different
+kurtosis excess properties. Our optimization algorithm is benchmarked via
+standard benchmarks from GAMS performance library. We develop two different
+algorithmic frameworks for improving the quality of local solution for BSS. Our
+algorithm also outputs extensive convergence diagnostics that validate the
+convergence to an optimal solution for each extracted component. The quality of
+extracted sources from ADIS is compared to other well known algorithms such as
+Fixed Point ICA (FPICA), efficient Fast ICA (EFICA), Joint Approximate
+Diagonalization (JADE) and others using the ICALAB toolbox for algorithm
+comparison. In several cases, ADIS outperforms these algorithms. Finally we
+apply our algorithm to a standard functional MRI data-set as a case study.

@@ -1,0 +1,21 @@
+Using repeated Laplace transform techniques, along with newly-developed
+accurate numerical inverse Laplace transform algorithms, we transform the
+coupled, integral-differential NLO singlet DGLAP equations first into coupled
+differential equations, then into coupled algebraic equations, which we can
+solve iteratively. After Laplace inverting the algebraic solution analytically,
+we numerically invert the solutions of the decoupled differential equations.
+Finally, we arrive at the decoupled NLO evolved solutions
+F_s(x,Q^2)=calF_s(F_{s0}(x),G_0(x)) and G(x,Q^2)=calG(F_{s0}(x),G_0(x)), where
+calF_s and calG are known functions - determined using the DGLAP splitting
+functions up to NLO in the strong coupling constant alpha_s(Q^2). The functions
+F_{s0}(x)=F_s(x,Q_0^2) and G_0(x)=G(x,Q_0^2) are the starting functions for the
+evolution at Q_0^2. This approach furnishes us with a new tool for readily
+obtaining, independently, the effects of the starting functions on either the
+evolved gluon or singlet structure functions, as a function of both Q^2 and
+Q_0^2. It is not necessary to evolve coupled integral-differential equations
+numerically on a two-dimensional grid, as is currently done. The same approach
+can be used for NLO non-singlet distributions where it is simpler, only
+requiring one Laplace transform. We make successful NLO numerical comparisons
+to two non-singlet distributions, using NLO quark distributions published by
+the MSTW collaboration, over a large range of x and Q^2. Our method is readily
+generalized to higher orders in the strong coupling constant alpha_s(Q^2).

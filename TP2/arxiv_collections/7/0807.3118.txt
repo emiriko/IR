@@ -1,0 +1,20 @@
+A family of permutations A \subset S_n is said to be intersecting if any two
+permutations in A agree at some point, i.e. for any \sigma, \pi \in A, there is
+some i such that \sigma(i)=\pi(i). Deza and Frankl showed that for such a
+family, |A| <= (n-1)!. Cameron and Ku showed that if equality holds then A =
+{\sigma \in S_{n}: \sigma(i)=j} for some i and j. They conjectured a
+`stability' version of this result, namely that there exists a constant c < 1
+such that if A \subset S_{n} is an intersecting family of size at least
+c(n-1)!, then there exist i and j such that every permutation in A maps i to j
+(we call such a family `centred'). They also made the stronger `Hilton-Milner'
+type conjecture that for n \geq 6, if A \subset S_{n} is a non-centred
+intersecting family, then A cannot be larger than the family C = {\sigma \in
+S_{n}: \sigma(1)=1, \sigma(i)=i \textrm{for some} i > 2} \cup {(12)}, which has
+size (1-1/e+o(1))(n-1)!.
+  We prove the stability conjecture, and also the Hilton-Milner type conjecture
+for n sufficiently large. Our proof makes use of the classical representation
+theory of S_{n}. One of our key tools will be an extremal result on
+cross-intersecting families of permutations, namely that for n \geq 4, if A,B
+\subset S_{n} are cross-intersecting, then |A||B| \leq ((n-1)!)^{2}. This was a
+conjecture of Leader; it was recently proved for n sufficiently large by
+Friedgut, Pilpel and the author.

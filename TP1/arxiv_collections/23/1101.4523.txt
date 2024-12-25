@@ -1,0 +1,19 @@
+In multi-class communication networks, traffic surges due to one class of
+users can significantly degrade the performance for other classes. During these
+transient periods, it is thus of crucial importance to implement priority
+mechanisms that conserve the quality of service experienced by the affected
+classes, while ensuring that the temporarily unstable class is not entirely
+neglected. In this paper, we examine the complex interaction occurring between
+several classes of traffic when classes obtain bandwidth proportionally to
+their incoming traffic.
+  We characterize the evolution of the network from the moment the initial
+surge takes place until the system reaches its equilibrium. Using an
+appropriate scaling, we show that the trajectories of the temporarily unstable
+class can be described by a differential equation, while those of the stable
+classes retain their stochastic nature. A stochastic averaging phenomenon
+occurs and the dynamics of the temporarily unstable and the stable classes
+continue to influence one another. We further proceed to characterize the
+obtained differential equations and the stability region under this scaling for
+monotone networks. We illustrate these result on several toy examples and we
+finally build a penalization rule using these results for a network integrating
+streaming and elastic traffic.

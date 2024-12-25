@@ -1,0 +1,10 @@
+An algorithm is presented for the computation of the topology of a
+non-reduced space curve defined as the intersection of two implicit algebraic
+surfaces. It computes a Piecewise Linear Structure (PLS) isotopic to the
+original space curve. The algorithm is designed to provide the exact result for
+all inputs. It's a symbolic-numeric algorithm based on subresultant
+computation. Simple algebraic criteria are given to certify the output of the
+algorithm. The algorithm uses only one projection of the non-reduced space
+curve augmented with adjacency information around some "particular points" of
+the space curve. The algorithm is implemented with the Mathemagix Computer
+Algebra System (CAS) using the SYNAPS library as a backend.

@@ -1,0 +1,22 @@
+We investigate how unified models should be built to be able to predict the
+matter-density bispectrum (and power spectrum) from very large to small scales
+and that are at the same time consistent with perturbation theory at low $k$
+and with halo models at high $k$. We use a Lagrangian framework to decompose
+the bispectrum into "3-halo", "2-halo", and "1-halo" contributions, related to
+"perturbative" and "non-perturbative" terms. We describe a simple
+implementation of this approach and present a detailed comparison with
+numerical simulations. We show that the 1-halo and 2-halo contributions contain
+counterterms that ensure their decay at low $k$, as required by physical
+constraints, and allow a better match to simulations. Contrary to the power
+spectrum, the standard 1-loop perturbation theory can be used for the
+perturbative 3-halo contribution because it does not grow too fast at high $k$.
+Moreover, it is much simpler and more accurate than two resummation schemes
+investigated in this paper. We obtain a good agreement with numerical
+simulations on both large and small scales, but the transition scales are
+poorly described by the simplest implementation. This cannot be amended by
+simple modifications to the halo parameters, but we show how it can be
+corrected for the power spectrum and the bispectrum through a simple
+interpolation scheme that is restricted to this intermediate regime. Then, we
+reach an accuracy on the order of 10% on mildly and highly nonlinear scales,
+while an accuracy on the order of 1% is obtained on larger weakly nonlinear
+scales. This also holds for the real-space two-point correlation function.

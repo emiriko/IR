@@ -1,0 +1,17 @@
+While the multiexponential nature of T2 decays measured in vivo is well
+known, characterizing T2 decays by a single time constant is still very useful
+when differentiating among structures and pathologies in MRI images. A novel,
+robust, fast and very simple method is presented for both estimating and
+displaying the average time constant for the T2 decay of each pixel from a
+multiecho MRI sequence. The average time constant is calculated from the
+average of the values measured from the T2 decay over many echoes. For a
+monoexponential decay, the normalized decay average varies monotonically with
+the time constant. Therefore, it is simple to map any normalized decay average
+to an average time constant. This method takes advantage of the robustness of
+the normalized decay average to both artifacts and multiexponential decays.
+Color intensity projections (CIPs) were used to display 32 echoes acquired at a
+10ms spacing as a single color image. The brightness of each pixel in each
+color image was determined by the intensity of the corresponding pixel in the
+earliest image and the hue was determined by the normalized decay average.
+Examples demonstrate the effectiveness of using CIPs to display the results of
+a multiecho sequence for a healthy subject and a multiple sclerosis patient.

@@ -1,0 +1,14 @@
+In distributed storage systems built using commodity hardware, it is
+necessary to have data redundancy in order to ensure system reliability. In
+such systems, it is also often desirable to be able to quickly repair storage
+nodes that fail. We consider a scheme--introduced by El Rouayheb and
+Ramchandran--which uses combinatorial block design in order to design storage
+systems that enable efficient (and exact) node repair. In this work, we
+investigate systems where node sizes may be much larger than replication
+degrees, and explicitly provide algorithms for constructing these storage
+designs. Our designs, which are related to projective geometries, are based on
+the construction of bipartite cage graphs (with girth 6) and the concept of
+mutually-orthogonal Latin squares. Via these constructions, we can guarantee
+that the resulting designs require the fewest number of storage nodes for the
+given parameters, and can further show that these systems can be easily
+expanded without need for frequent reconfiguration.

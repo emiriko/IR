@@ -1,0 +1,10 @@
+Monotonicity is a simple yet significant qualitative characteristic. We
+consider the problem of segmenting a sequence in up to K segments. We want
+segments to be as monotonic as possible and to alternate signs. We propose a
+quality metric for this problem using the l_inf norm, and we present an optimal
+linear time algorithm based on novel formalism. Moreover, given a
+precomputation in time O(n log n) consisting of a labeling of all extrema, we
+compute any optimal segmentation in constant time. We compare experimentally
+its performance to two piecewise linear segmentation heuristics (top-down and
+bottom-up). We show that our algorithm is faster and more accurate.
+Applications include pattern recognition and qualitative modeling.

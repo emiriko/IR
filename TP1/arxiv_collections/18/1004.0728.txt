@@ -1,0 +1,25 @@
+Modern large-scale date centres, such as those used for cloud computing
+service provision, are becoming ever-larger as the operators of those data
+centres seek to maximise the benefits from economies of scale. With these
+increases in size comes a growth in system complexity, which is usually
+problematic. There is an increased desire for automated "self-star"
+configuration, management, and failure-recovery of the data-centre
+infrastructure, but many traditional techniques scale much worse than linearly
+as the number of nodes to be managed increases. As the number of nodes in a
+median-sized data-centre looks set to increase by two or three orders of
+magnitude in coming decades, it seems reasonable to attempt to explore and
+understand the scaling properties of the data-centre middleware before such
+data-centres are constructed. In [1] we presented SPECI, a simulator that
+predicts aspects of large-scale data-centre middleware performance,
+concentrating on the influence of status changes such as policy updates or
+routine node failures. [...]. In [1] we used a first-approximation assumption
+that such subscriptions are distributed wholly at random across the data
+centre. In this present paper, we explore the effects of introducing more
+realistic constraints to the structure of the internal network of
+subscriptions. We contrast the original results [...] exploring the effects of
+making the data-centre's subscription network have a regular lattice-like
+structure, and also semi-random network structures resulting from parameterised
+network generation functions that create "small-world" and "scale-free"
+networks. We show that for distributed middleware topologies, the structure and
+distribution of tasks carried out in the data centre can significantly
+influence the performance overhead imposed by the middleware.

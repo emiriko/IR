@@ -1,0 +1,10 @@
+Improvement in time resolution sometimes introduces short-range random noises
+into temporal data sequences. These noises affect the results of power-spectrum
+analyses and the Detrended Fluctuation Analysis (DFA). The DFA is one of useful
+methods for analyzing long-range correlations in non-stationary sequences. The
+effects of noises are discussed based on artificial temporal sequences.
+Short-range noises prevent power-spectrum analyses from detecting long-range
+correlations. The DFA can extract long-range correlations from noisy time
+sequences. The DFA also gives the threshold time length, under which the noises
+dominate. For practical analyses, coarse-grained time sequences are shown to
+recover long-range correlations.

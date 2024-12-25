@@ -1,0 +1,25 @@
+We study a random sampling technique to approximate integrals
+$\int_{[0,1]^s}f(\mathbf{x})\,\mathrm{d}\mathbf{x}$ by averaging the function
+at some sampling points. We focus on cases where the integrand is smooth, which
+is a problem which occurs in statistics. The convergence rate of the
+approximation error depends on the smoothness of the function $f$ and the
+sampling technique. For instance, Monte Carlo (MC) sampling yields a
+convergence of the root mean square error (RMSE) of order $N^{-1/2}$ (where $N$
+is the number of samples) for functions $f$ with finite variance. Randomized
+QMC (RQMC), a combination of MC and quasi-Monte Carlo (QMC), achieves a RMSE of
+order $N^{-3/2+\varepsilon}$ under the stronger assumption that the integrand
+has bounded variation. A combination of RQMC with local antithetic sampling
+achieves a convergence of the RMSE of order $N^{-3/2-1/s+\varepsilon}$ (where
+$s\ge1$ is the dimension) for functions with mixed partial derivatives up to
+order two. Additional smoothness of the integrand does not improve the rate of
+convergence of these algorithms in general. On the other hand, it is known that
+without additional smoothness of the integrand it is not possible to improve
+the convergence rate. This paper introduces a new RQMC algorithm, for which we
+prove that it achieves a convergence of the root mean square error (RMSE) of
+order $N^{-\alpha-1/2+\varepsilon}$ provided the integrand satisfies the strong
+assumption that it has square integrable partial mixed derivatives up to order
+$\alpha>1$ in each variable. Known lower bounds on the RMSE show that this rate
+of convergence cannot be improved in general for integrands with this
+smoothness. We provide numerical examples for which the RMSE converges
+approximately with order $N^{-5/2}$ and $N^{-7/2}$, in accordance with the
+theoretical upper bound.

@@ -1,0 +1,13 @@
+We study scattering quantum walks on highly symmetric graphs and use the
+walks to solve search problems on these graphs. The particle making the walk
+resides on the edges of the graph, and at each time step scatters at the
+vertices. All of the vertices have the same scattering properties except for a
+subset of special vertices. The object of the search is to find a special
+vertex. A quantum circuit implementation of these walks is presented in which
+the set of special vertices is specified by a quantum oracle. We consider the
+complete graph, a complete bipartite graph, and an $M$-partite graph. In all
+cases, the dimension of the Hilbert space in which the time evolution of the
+walk takes place is small (between three and six), so the walks can be
+completely analyzed analytically. Such dimensional reduction is due to the fact
+that these graphs have large automorphism groups. We find the usual quadratic
+quantum speedups in all cases considered.

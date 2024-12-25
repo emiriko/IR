@@ -1,0 +1,23 @@
+Equivocation rate has been widely used as an information-theoretic measure of
+security after Shannon[10]. It simplifies problems by removing the effect of
+atypical behavior from the system. In [9], however, Merhav and Arikan
+considered the alternative of using guessing exponent to analyze the Shannon's
+cipher system. Because guessing exponent captures the atypical behavior, the
+strongest expressible notion of secrecy requires the more stringent condition
+that the size of the key, instead of its entropy rate, to be equal to the size
+of the message. The relationship between equivocation and guessing exponent are
+also investigated in [6][7] but it is unclear which is a better measure, and
+whether there is a unifying measure of security.
+  Instead of using equivocation rate or guessing exponent, we study the wiretap
+channel in [2] using the success exponent, defined as the exponent of a
+wiretapper successfully learn the secret after making an exponential number of
+guesses to a sequential verifier that gives yes/no answer to each guess. By
+extending the coding scheme in [2][5] and the converse proof in [4] with the
+new Overlap Lemma 5.2, we obtain a tradeoff between secrecy and reliability
+expressed in terms of lower bounds on the error and success exponents of
+authorized and respectively unauthorized decoding of the transmitted messages.
+  From this, we obtain an inner bound to the region of strongly achievable
+public, private and guessing rate triples for which the exponents are strictly
+positive. The closure of this region is equivalent to the closure of the region
+in Theorem 1 of [2] when we treat equivocation rate as the guessing rate.
+However, it is unclear if the inner bound is tight.

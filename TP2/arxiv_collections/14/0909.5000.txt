@@ -1,0 +1,16 @@
+Let $\XX$ be a compact, smooth, connected, Riemannian manifold without
+boundary, $G:\XX\times\XX\to \RR$ be a kernel. Analogous to a radial basis
+function network, an eignet is an expression of the form $\sum_{j=1}^M
+a_jG(\circ,y_j)$, where $a_j\in\RR$, $y_j\in\XX$, $1\le j\le M$. We describe a
+deterministic, universal algorithm for constructing an eignet for approximating
+functions in $L^p(\mu;\XX)$ for a general class of measures $\mu$ and kernels
+$G$. Our algorithm yields linear operators. Using the minimal separation
+amongst the centers $y_j$ as the cost of approximation, we give modulus of
+smoothness estimates for the degree of approximation by our eignets, and show
+by means of a converse theorem that these are the best possible for every
+\emph{individual function}. We also give estimates on the coefficients $a_j$ in
+terms of the norm of the eignet. Finally, we demonstrate that if any sequence
+of eignets satisfies the optimal estimates for the degree of approximation of a
+smooth function, measured in terms of the minimal separation, then the
+derivatives of the eignets also approximate the corresponding derivatives of
+the target function in an optimal manner.

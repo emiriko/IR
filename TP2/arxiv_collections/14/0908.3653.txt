@@ -1,0 +1,16 @@
+In this paper we examine how simple agents similar to Braitenberg vehicles
+can exhibit chaotic movement patterns. The agents are wall following robots as
+described by Steve Mesburger and Alfred Hubler in their paper "Chaos in Wall
+Following Robots". These agents uses a simple forward facing distance sensor,
+with a limited field of view "phi" for navigation. An agent drives forward at a
+constant velocity and uses the sensor to turn right when it is too close to an
+object and left when it is too far away.
+  For a flat wall the agent stays a fixed distance from the wall and travels
+along it, regardless of the sensor's capabilities. But, if the wall represents
+a periodic function, the agent drives on a periodic path when the sensor has a
+narrow field of view. The agent's trajectory transitions to chaos when the
+sensor's field of view is increased. Numerical experiments were performed with
+square, triangle, and sawtooth waves for the wall, to find this pattern. The
+bifurcations of the agents were analyzed, finding both border collision and
+period doubling bifurcations. Detailed experimental results will be reported
+separately.

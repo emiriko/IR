@@ -1,0 +1,23 @@
+In STOC'95 \cite{ADMSS95} Arya et al.\ showed that for any set of $n$ points
+in $\mathbb R^d$, a $(1+\epsilon)$-spanner with diameter at most 2
+(respectively, 3) and $O(n \log n)$ edges (resp., $O(n \log \log n)$ edges) can
+be built in $O(n \log n)$ time. Moreover, it was shown in \cite{ADMSS95,NS07}
+that for any $k \ge 4$, one can build in $O(n (\log n) 2^k \alpha_k(n))$ time a
+$(1+\epsilon)$-spanner with diameter at most $2k$ and $O(n 2^k \alpha_k(n))$
+edges. The function $\alpha_k$ is the inverse of a certain function at the
+$\lfloor k/2 \rfloor$th level of the primitive recursive hierarchy, where
+$\alpha_0(n) = \lceil n/2 \rceil, \alpha_1(n) = \left\lceil \sqrt{n}
+\right\rceil, \alpha_2(n) = \lceil \log{n} \rceil, \alpha_3(n) = \lceil
+\log\log{n} \rceil, \alpha_4(n) = \log^* n$, \ldots, etc. It is also known
+\cite{NS07} that if one allows quadratic time then these bounds can be
+improved. Specifically, for any $k \ge 4$, a $(1+\epsilon)$-spanner with
+diameter at most $k$ and $O(n k \alpha_k(n))$ edges can be constructed in
+$O(n^2)$ time \cite{NS07}.
+  A major open problem in this area is whether one can construct within time
+$O(n \log n + n k \alpha_k(n))$ a $(1+\epsilon)$-spanner with diameter at most
+$k$ and $O(n k \alpha_k(n))$ edges. In this paper we answer this question in
+the affirmative. Moreover, in fact, we provide a stronger result. Specifically,
+we show that for any $k \ge 4$, a $(1+\epsilon)$-spanner with diameter at most
+$k$ and $O(n \alpha_k(n))$ edges can be built in optimal time $O(n \log n)$.
+The tradeoff between the diameter and number of edges of our spanners is tight
+up to constant factors in the entire range of parameters.

@@ -1,0 +1,14 @@
+We study the decidability of termination for two CHR dialects which,
+similarly to the Datalog like languages, are defined by using a signature which
+does not allow function symbols (of arity >0). Both languages allow the use of
+the = built-in in the body of rules, thus are built on a host language that
+supports unification. However each imposes one further restriction. The first
+CHR dialect allows only range-restricted rules, that is, it does not allow the
+use of variables in the body or in the guard of a rule if they do not appear in
+the head. We show that the existence of an infinite computation is decidable
+for this dialect. The second dialect instead limits the number of atoms in the
+head of rules to one. We prove that in this case, the existence of a
+terminating computation is decidable. These results show that both dialects are
+strictly less expressive than Turing Machines. It is worth noting that the
+language (without function symbols) without these restrictions is as expressive
+as Turing Machines.

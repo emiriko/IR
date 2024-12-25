@@ -1,0 +1,18 @@
+Research in several fields now requires the analysis of data sets in which
+multiple high-dimensional types of data are available for a common set of
+objects. In particular, The Cancer Genome Atlas (TCGA) includes data from
+several diverse genomic technologies on the same cancerous tumor samples. In
+this paper we introduce Joint and Individual Variation Explained (JIVE), a
+general decomposition of variation for the integrated analysis of such data
+sets. The decomposition consists of three terms: a low-rank approximation
+capturing joint variation across data types, low-rank approximations for
+structured variation individual to each data type, and residual noise. JIVE
+quantifies the amount of joint variation between data types, reduces the
+dimensionality of the data and provides new directions for the visual
+exploration of joint and individual structures. The proposed method represents
+an extension of Principal Component Analysis and has clear advantages over
+popular two-block methods such as Canonical Correlation Analysis and Partial
+Least Squares. A JIVE analysis of gene expression and miRNA data on
+Glioblastoma Multiforme tumor samples reveals gene-miRNA associations and
+provides better characterization of tumor types. Data and software are
+available at https://genome.unc.edu/jive/

@@ -1,0 +1,12 @@
+Clustering is a concept used in a huge variety of applications. We review a
+conceptually very simple algorithm for hierarchical clustering called in the
+following the {\it mutual information clustering} (MIC) algorithm. It uses
+mutual information (MI) as a similarity measure and exploits its grouping
+property: The MI between three objects X, Y, and Z is equal to the sum of the
+MI between X and Y, plus the MI between Z and the combined object (XY). We use
+MIC both in the Shannon (probabilistic) version of information theory, where
+the "objects" are probability distributions represented by random samples, and
+in the Kolmogorov (algorithmic) version, where the "objects" are symbol
+sequences. We apply our method to the construction of phylogenetic trees from
+mitochondrial DNA sequences and we reconstruct the fetal ECG from the output of
+independent components analysis (ICA) applied to the ECG of a pregnant woman.

@@ -1,0 +1,15 @@
+By bootstrap percolation we mean the following deterministic process on a
+graph $G$. Given a set $A$ of vertices "infected" at time 0, new vertices are
+subsequently infected, at each time step, if they have at least
+$r\in\mathbb{N}$ previously infected neighbors. When the set $A$ is chosen at
+random, the main aim is to determine the critical probability $p_c(G,r)$ at
+which percolation (infection of the entire graph) becomes likely to occur. This
+bootstrap process has been extensively studied on the $d$-dimensional grid
+$[n]^d$: with $2\leq r\leq d$ fixed, it was proved by Cerf and Cirillo (for
+$d=r=3$), and by Cerf and Manzo (in general), that
+\[p_c([n]^d,r)=\Theta\biggl(\frac{1}{\log_{(r-1)}n}\biggr)^{d-r+1},\] where
+$\log_{(r)}$ is an $r$-times iterated logarithm. However, the exact threshold
+function is only known in the case $d=r=2$, where it was shown by Holroyd to be
+$(1+o(1))\frac{\pi^2}{18\log n}$. In this paper we shall determine the exact
+threshold in the crucial case $d=r=3$, and lay the groundwork for solving the
+problem for all fixed $d$ and $r$.

@@ -1,0 +1,25 @@
+I present a previously unpublished method for modeling multiple lens
+microlensing events that is based on the image centered ray shooting approach
+of Bennett and Rhie. It has been used to model all a wide variety of binary and
+triple lens systems, but it is designed to efficiently model high-magnification
+planetary microlensing events, because these are, by far, the most challenging
+events to model. It is designed to be efficient enough to handle microlensing
+events with more than two lens masses and lens orbital motion. This method uses
+a polar coordinate integration grid with a smaller grid spacing in the radial
+direction than in the angular direction, and it employs an integration scheme
+specifically designed to handle limb darkened sources. I present tests that
+show that these features achieve second order accuracy for the light curves of
+a number of high-magnification planetary events. They improve the precision of
+the calculations by a factor of >100 compared to first order integration
+schemes with the same grid spacing in both directions (for a fixed number of
+grid points). This method also includes a Metropolis algorithm chi^2
+minimization method that allows the jump function to vary in a way that allows
+quick convergence to chi^2 minima. Finally, I introduce a global parameter
+space search strategy that allows a blind search of parameter space for light
+curve models without requiring chi^2 minimization over a large grid of fixed
+parameters. Instead, the parameter space is explored on a grid of initial
+conditions for a set of chi^2 minimizations using the full parameter space.
+While this method may be faster than methods that find the chi^2 minima over a
+large grid of parameters, I argue that the main strength of this method is for
+events with the signals of multiple planets, where a much higher dimensional
+parameter space must be explored to find the correct light curve model.

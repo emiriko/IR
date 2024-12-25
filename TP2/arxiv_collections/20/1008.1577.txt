@@ -1,0 +1,19 @@
+Central to the gravitational wave detection problem is the challenge of
+separating features in the data produced by astrophysical sources from features
+produced by the detector. Matched filtering provides an optimal solution for
+Gaussian noise, but in practice, transient noise excursions or ``glitches''
+complicate the analysis. Detector diagnostics and coincidence tests can be used
+to veto many glitches which may otherwise be misinterpreted as gravitational
+wave signals. The glitches that remain can lead to long tails in the matched
+filter search statistics and drive up the detection threshold. Here we describe
+a Bayesian approach that incorporates a more realistic model for the instrument
+noise allowing for fluctuating noise levels that vary independently across
+frequency bands, and deterministic ``glitch fitting'' using wavelets as
+``glitch templates'', the number of which is determined by a trans-dimensional
+Markov chain Monte Carlo algorithm. We demonstrate the method's effectiveness
+on simulated data containing low amplitude gravitational wave signals from
+inspiraling binary black hole systems, and simulated non-stationary and
+non-Gaussian noise comprised of a Gaussian component with the standard
+LIGO/Virgo spectrum, and injected glitches of various amplitude, prevalence,
+and variety. Glitch fitting allows us to detect significantly weaker signals
+than standard techniques.

@@ -1,0 +1,11 @@
+Optimal dissemination schemes have previously been studied for peer-to-peer
+live streaming applications. Live streaming being a delay-sensitive
+application, fine tuning of dissemination parameters is crucial. In this
+report, we investigate optimal sizing of chunks, the units of data exchange,
+and probe sets, the number peers a given node probes before transmitting
+chunks. Chunk size can have significant impact on diffusion rate (chunk miss
+ratio), diffusion delay, and overhead. The size of the probe set can also
+affect these metrics, primarily through the choices available for chunk
+dissemination. We perform extensive simulations on the so-called random-peer,
+latest-useful dissemination scheme. Our results show that size does matter,
+with the optimal size being not too small in both cases.

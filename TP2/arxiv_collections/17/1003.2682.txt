@@ -1,0 +1,11 @@
+In \cite{Spi}, we developed a category of databases in which the schema of a
+database is represented as a simplicial set. Each simplex corresponds to a
+table in the database. There, our main concern was to find a categorical
+formulation of databases; the simplicial nature of the schemas was to some
+degree unexpected and unexploited.
+  In the present note, we show how to use this geometric formulation
+effectively on a computer. If we think of each simplex as a polygonal tile, we
+can imagine assembling custom databases by mixing and matching tiles. Queries
+on this database can be performed by drawing paths through the resulting tile
+formations, selecting records at the start-point of this path and retrieving
+corresponding records at its end-point.

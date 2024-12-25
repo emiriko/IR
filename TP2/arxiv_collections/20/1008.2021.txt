@@ -1,0 +1,8 @@
+This paper presents an efficient, combined formulation of two widely used
+abstraction methods for bit-level verification: counterexample-based
+abstraction (CBA) and proof-based abstraction (PBA). Unlike previous work, this
+new method is formulated as a single, incremental SAT-problem, interleaving CBA
+and PBA to develop the abstraction in a bottom-up fashion. It is argued that
+the new method is simpler conceptually and implementation-wise than previous
+approaches. As an added bonus, proof-logging is not required for the PBA part,
+which allows for a wider set of SAT-solvers to be used.

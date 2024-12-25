@@ -1,0 +1,17 @@
+The recently developed frequency extraction algorithm [G.R. Werner and J.R.
+Cary, J. Comp. Phys. 227, 5200 (2008)] that enables a simple FDTD algorithm to
+be transformed into an efficient eigenmode solver is applied to a realistic
+accelerator cavity modeled with embedded boundaries and Richardson
+extrapolation. Previously, the frequency extraction method was shown to be
+capable of distinguishing M degenerate modes by running M different simulations
+and to permit mode extraction with minimal post-processing effort that only
+requires solving a small eigenvalue problem. Realistic calculations for an
+accelerator cavity are presented in this work to establish the validity of the
+method for realistic modeling scenarios and to illustrate the complexities of
+the computational validation process. The method is found to be able to extract
+the frequencies with error that is less than a part in 10^5. The corrected
+experimental and computed values differ by about one parts in 10^$, which is
+accounted for (in largest part) by machining errors. The extraction of
+frequencies and modes from accelerator cavities provides engineers and
+physicists an understanding of potential cavity performance as it depends on
+shape without incurring manufacture and measurement costs.

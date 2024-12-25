@@ -1,0 +1,17 @@
+We describe a general analysis package for supernova (SN) light curves,
+called SNANA, that contains a simulation, light curve fitter, and cosmology
+fitter. The software is designed with the primary goal of using SNe Ia as
+distance indicators for the determination of cosmological parameters, but it
+can also be used to study efficiencies for analyses of SN rates, estimate
+contamination from non-Ia SNe, and optimize future surveys. Several SN models
+are available within the same software architecture, allowing technical
+features such as K-corrections to be consistently used among multiple models,
+and thus making it easier to make detailed comparisons between models. New and
+improved light-curve models can be easily added. The software works with
+arbitrary surveys and telescopes and has already been used by several
+collaborations, leading to more robust and easy-to-use code. This software is
+not intended as a final product release, but rather it is designed to undergo
+continual improvements from the community as more is learned about SNe. Below
+we give an overview of the SNANA capabilities, as well as some of its
+limitations. Interested users can find software downloads and more detailed
+information from the manuals at http://www.sdss.org/supernova/SNANA.html .

@@ -1,0 +1,10 @@
+We propose a new model-based computer-aided diagnosis (CAD) system for tumor
+detection and classification (cancerous v.s. benign) in breast images.
+Specifically, we show that (x-ray, ultrasound and MRI) images can be accurately
+modeled by two-dimensional autoregressive-moving average (ARMA) random fields.
+We derive a two-stage Yule-Walker Least-Squares estimates of the model
+parameters, which are subsequently used as the basis for statistical inference
+and biophysical interpretation of the breast image. We use a k-means classifier
+to segment the breast image into three regions: healthy tissue, benign tumor,
+and cancerous tumor. Our simulation results on ultrasound breast images
+illustrate the power of the proposed approach.

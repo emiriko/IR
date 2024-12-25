@@ -1,0 +1,17 @@
+We briefly review what a quantum computer is, what it promises to do for us,
+and why it is so hard to build one. Among the first applications anticipated to
+bear fruit is quantum simulation of quantum systems. While most quantum
+computation is an extension of classical digital computation, quantum
+simulation differs fundamentally in how the data is encoded in the quantum
+computer. To perform a quantum simulation, the Hilbert space of the system to
+be simulated is mapped directly onto the Hilbert space of the (logical) qubits
+in the quantum computer. This type of direct correspondence is how data is
+encoded in a classical analogue computer. There is no binary encoding, and
+increasing precision becomes exponentially costly: an extra bit of precision
+doubles the size of the computer. This has important consequences for both the
+precision and error correction requirements of quantum simulation, and
+significant open questions remain about its practicality. It also means that
+the quantum version of analogue computers, continuous variable quantum
+computers (CVQC) becomes an equally efficient architecture for quantum
+simulation. Lessons from past use of classical analogue computers can help us
+to build better quantum simulators in future.

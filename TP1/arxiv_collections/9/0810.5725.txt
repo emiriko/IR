@@ -1,0 +1,14 @@
+In spatial databases, incompatibilities often arise due to different choices
+of origin or unit of measurement (e.g., centimeters versus inches). By
+representing and querying the data in an affine-invariant manner, we can avoid
+these incompatibilities.
+  In practice, spatial (resp., spatio-temporal) data is often represented as a
+finite union of triangles (resp., moving triangles). As two arbitrary triangles
+are equal up to a unique affinity of the plane, they seem perfect candidates as
+basic units for an affine-invariant query language.
+  We propose a so-called "triangle logic", a query language that is
+affine-generic and has triangles as basic elements. We show that this language
+has the same expressive power as the affine-generic fragment of first-order
+logic over the reals on triangle databases. We illustrate that the proposed
+language is simple and intuitive. It can also serve as a first step towards a
+"moving-triangle logic" for spatio-temporal data.

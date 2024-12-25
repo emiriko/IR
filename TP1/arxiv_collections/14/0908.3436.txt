@@ -1,0 +1,16 @@
+We investigate the degree distribution resulting from graph generation models
+based on rank-based attachment. In rank-based attachment, all vertices are
+ranked according to a ranking scheme. The link probability of a given vertex is
+proportional to its rank raised to the power -a, for some a in (0,1). Through a
+rigorous analysis, we show that rank-based attachment models lead to graphs
+with a power law degree distribution with exponent 1+1/a whenever vertices are
+ranked according to their degree, their age, or a randomly chosen fitness
+value. We also investigate the case where the ranking is based on the initial
+rank of each vertex; the rank of existing vertices only changes to accommodate
+the new vertex. Here, we obtain a sharp threshold for power law behaviour. Only
+if initial ranks are biased towards lower ranks, or chosen uniformly at random,
+we obtain a power law degree distribution with exponent 1+1/a. This indicates
+that the power law degree distribution often observed in nature can be
+explained by a rank-based attachment scheme, based on a ranking scheme that can
+be derived from a number of different factors; the exponent of the power law
+can be seen as a measure of the strength of the attachment.

@@ -1,0 +1,15 @@
+If $S$ is an infinite sequence over a finite alphabet $\Sigma$ and $\beta$ is
+a probability measure on $\Sigma$, then the {\it dimension} of $ S$ with
+respect to $\beta$, written $\dim^\beta(S)$, is a constructive version of
+Billingsley dimension that coincides with the (constructive Hausdorff)
+dimension $\dim(S)$ when $\beta$ is the uniform probability measure. This paper
+shows that $\dim^\beta(S)$ and its dual $\Dim^\beta(S)$, the {\it strong
+dimension} of $S$ with respect to $\beta$, can be used in conjunction with
+randomness to measure the similarity of two probability measures $\alpha$ and
+$\beta$ on $\Sigma$. Specifically, we prove that the {\it divergence formula}
+$$\dim^\beta(R) = \Dim^\beta(R) =\CH(\alpha) / (\CH(\alpha) + \D(\alpha ||
+\beta))$$ holds whenever $\alpha$ and $\beta$ are computable, positive
+probability measures on $\Sigma$ and $R \in \Sigma^\infty$ is random with
+respect to $\alpha$. In this formula, $\CH(\alpha)$ is the Shannon entropy of
+$\alpha$, and $\D(\alpha||\beta)$ is the Kullback-Leibler divergence between
+$\alpha$ and $\beta$.

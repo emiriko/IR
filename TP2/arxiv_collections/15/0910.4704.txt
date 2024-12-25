@@ -1,0 +1,16 @@
+We present an analytical framework to assess the link layer throughput of
+multichannel Opportunistic Spectrum Access (OSA) ad hoc networks. Specifically,
+we focus on analyzing various combinations of collaborative spectrum sensing
+and Medium Access Control (MAC) protocol abstractions. We decompose
+collaborative spectrum sensing into layers, parametrize each layer, classify
+existing solutions, and propose a new protocol called Truncated Time Division
+Multiple Access (TTDMA) that supports efficient distribution of sensing results
+in "k out of N" fusion rule. In case of multichannel MAC protocols we evaluate
+two main approaches of control channel design with (i) dedicated and (ii)
+hopping channel. We propose to augment these protocols with options of handling
+secondary user (SU) connections preempted by primary user (PU) by (i)
+connection buffering until PU departure and (ii) connection switching to a
+vacant PU channel. By comparing and optimizing different design combinations we
+show that (i) it is generally better to buffer preempted SU connections than to
+switch them to PU vacant channels and (ii) TTDMA is a promising design option
+for collaborative spectrum sensing process when k does not change over time.

@@ -1,0 +1,12 @@
+The basic idea of fast Monte Carlo (MC) simulations is to perform
+particle-based MC simulations with the excluded-volume interactions modeled by
+"soft" repulsive potentials that allow particle overlapping. This gives much
+faster system relaxation and better sampling of the configurational space than
+conventional molecular simulations with "hard" repulsions that prevent particle
+overlapping. Here we present fast lattice MC (FLMC) simulations for confined
+homopolymers, where multiple occupancy of lattice sites is allowed with a
+proper Boltzmann weight and thus the evaluation of nearest-neighbor
+interactions can also be avoided. When compared with the corresponding lattice
+field theories based on the \emph{same} Hamiltonian, FLMC simulations further
+provide a powerful means for unambiguously and quantitatively revealing the
+correlation/fluctuation effects.

@@ -1,0 +1,20 @@
+In this paper we present two efficient implementations of the diffusion
+approximation to be employed in Monte Carlo computations of radiative transfer
+in dusty media of massive circumstellar disks. The aim is to improve the
+accuracy of the computed temperature structure and to decrease the computation
+time. The accuracy, efficiency and applicability of the methods in various
+corners of parameter space are investigated. The effects of using these methods
+on the vertical structure of the circumstellar disk as obtained from
+hydrostatic equilibrium computations are also addressed. Two methods are
+presented. First, an energy diffusion approximation is used to improve the
+accuracy of the temperature structure in highly obscured regions of the disk,
+where photon counts are low. Second, a modified random walk approximation is
+employed to decrease the computation time. This modified random walk ensures
+that the photons that end up in the high-density regions can quickly escape to
+the lower density regions, while the energy deposited by these photons in the
+disk is still computed accurately. A new radiative transfer code, MCMax, is
+presented in which both these diffusion approximations are implemented. These
+can be used simultaneously to increase both computational speed and decrease
+statistical noise. We conclude that the diffusion approximations allow for fast
+and accurate computations of the temperature structure, vertical disk structure
+and observables of very optically thick circumstellar disks.

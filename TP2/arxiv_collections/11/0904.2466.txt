@@ -1,0 +1,15 @@
+In this paper, we extend a previously developed recursive entropic
+segmentation scheme for applications to biological sequences. Instead of
+Bernoulli chains, we model the statistically stationary segments in a
+biological sequence as Markov chains, and define a generalized Jensen-Shannon
+divergence for distinguishing between two Markov chains. We then undertake a
+mean-field analysis, based on which we identify pitfalls associated with the
+recursive Jensen-Shannon segmentation scheme. Following this, we explain the
+need for segmentation optimization, and describe two local optimization schemes
+for improving the positions of domain walls discovered at each recursion stage.
+We also develop a new termination criterion for recursive Jensen-Shannon
+segmentation based on the strength of statistical fluctuations up to a minimum
+statistically reliable segment length, avoiding the need for unrealistic null
+and alternative segment models of the target sequence. Finally, we compare the
+extended scheme against the original scheme by recursively segmenting the
+Escherichia coli K-12 MG1655 genome.

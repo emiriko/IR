@@ -1,0 +1,10 @@
+In previous work, we presented a symbolic execution method which starts with
+a concrete model of the program but progressively abstracts away details only
+when these are known to be irrelevant using interpolation. In this paper, we
+extend the technique to handle unbounded loops. The central idea is to
+progressively discover the strongest invariants through a process of loop
+unrolling. The key feature of this technique, called the minimax algorithm, is
+intelligent backtracking which directs the search for the next invariant. We
+then present an analysis of the main differences between our symbolic execution
+method and mainstream techniques mainly based on abstract refinement (CEGAR).
+Finally, we evaluate our technique against available state-of-the-art systems.

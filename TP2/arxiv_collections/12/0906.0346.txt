@@ -1,0 +1,8 @@
+The detectors in mass spectrometers are precise enough to count ion events.
+In practice, the statistics of chemical noise are affected by large
+quantization errors and overdispersion because of amplification in the
+detector. The detector signal is modelled as X =floor(t N) where N represents
+integer-valued ion counts and t represents the gain parameter. When t <= 1, the
+gain parameter cannot be recovered without a priori information on N. When t >
+1 however, we introduce compatible lattices and derive an estimator for t that
+is optimal, independent of N and enables subsequent analyses of the ion counts.

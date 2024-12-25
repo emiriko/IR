@@ -1,0 +1,12 @@
+This paper deals with the reachability analysis of {P,A}-Time Petri nets
+({P,A}-TPN in short) in the context of strong semantics. It investigates the
+convexity of the union of state classes reached by different interleavings of
+the same set of transitions. In BB08, the authors have considered the T-TPN
+model and its Contracted State Class Graph (CSCG) and shown that this union is
+not necessarily convex. They have however established some sufficient
+conditions which ensure convexity. This paper shows that for the CSCG of
+{P,A}-TPN, this union is convex and can be computed without computing
+intermediate state classes. These results allow to improve the forward
+reachability analysis by agglomerating, in the same state class, all state
+classes reached by different interleavings of the same set of transitions
+(abstraction by convex-union).

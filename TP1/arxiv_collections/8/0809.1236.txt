@@ -1,0 +1,21 @@
+We show a new and constructive proof of the following language-theoretic
+result: for every context-free language L, there is a bounded context-free
+language L' included in L which has the same Parikh (commutative) image as L.
+Bounded languages, introduced by Ginsburg and Spanier, are subsets of regular
+languages of the form w1*w2*...wk* for some finite words w1,...,wk. In
+particular bounded subsets of context-free languages have nice structural and
+decidability properties. Our proof proceeds in two parts. First, using Newton's
+iterations on the language semiring, we construct a context-free subset Ls of L
+that can be represented as a sequence of substitutions on a linear language and
+has the same Parikh image as L. Second, we inductively construct a
+Parikh-equivalent bounded context-free subset of Ls.
+  We show two applications of this result in model checking: to
+underapproximate the reachable state space of multithreaded procedural programs
+and to underapproximate the reachable state space of recursive counter
+programs. The bounded language constructed above provides a decidable
+underapproximation for the original problems. By iterating the construction, we
+get a semi-algorithm for the original problems that constructs a sequence of
+underapproximations such that no two underapproximations of the sequence can be
+compared. This provides a progress guarantee: every word w in L is in some
+underapproximation of the sequence. In addition, we show that our approach
+subsumes context-bounded reachability for multithreaded programs.

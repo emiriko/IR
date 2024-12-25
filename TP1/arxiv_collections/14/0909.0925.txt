@@ -1,0 +1,20 @@
+Demographic models built from genetic data play important roles in
+illuminating prehistorical events and serving as null models in genome scans
+for selection. We introduce an inference method based on the joint frequency
+spectrum of genetic variants within and between populations. For candidate
+models we numerically compute the expected spectrum using a diffusion
+approximation to the one-locus two-allele Wright-Fisher process, involving up
+to three simultaneous populations. Our approach is a composite likelihood
+scheme, since linkage between neutral loci alters the variance but not the
+expectation of the frequency spectrum. We thus use bootstraps incorporating
+linkage to estimate uncertainties for parameters and significance values for
+hypothesis tests. Our method can also incorporate selection on single sites,
+predicting the joint distribution of selected alleles among populations
+experiencing a bevy of evolutionary forces, including expansions, contractions,
+migrations, and admixture. As applications, we model human expansion out of
+Africa and the settlement of the New World, using 5 Mb of noncoding DNA
+resequenced in 68 individuals from 4 populations (YRI, CHB, CEU, and MXL) by
+the Environmental Genome Project. We also combine our demographic model with a
+previously estimated distribution of selective effects among newly arising
+amino acid mutations to accurately predict the frequency spectrum of
+nonsynonymous variants across three continental populations (YRI, CHB, CEU).

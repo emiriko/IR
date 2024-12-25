@@ -1,0 +1,13 @@
+Let X_1, ..., X_n be a sequence of n classical random variables and consider
+a sample of r positions selected at random. Then, except with (exponentially in
+r) small probability, the min-entropy of the sample is not smaller than,
+roughly, a fraction r/n of the total min-entropy of all positions X_1, ...,
+X_n, which is optimal. Here, we show that this statement, originally proven by
+Vadhan [LNCS, vol. 2729, Springer, 2003] for the purely classical case, is
+still true if the min-entropy is measured relative to a quantum system. Because
+min-entropy quantifies the amount of randomness that can be extracted from a
+given random variable, our result can be used to prove the soundness of locally
+computable extractors in a context where side information might be
+quantum-mechanical. In particular, it implies that key agreement in the
+bounded-storage model (using a standard sample-and-hash protocol) is fully
+secure against quantum adversaries, thus solving a long-standing open problem.

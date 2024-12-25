@@ -1,0 +1,11 @@
+In Constructive Type Theory, recursive and corecursive definitions are
+subject to syntactic restrictions which guarantee termination for recursive
+functions and productivity for corecursive functions. However, many terminating
+and productive functions do not pass the syntactic tests. Bove proposed in her
+thesis an elegant reformulation of the method of accessibility predicates that
+widens the range of terminative recursive functions formalisable in
+Constructive Type Theory. In this paper, we pursue the same goal for productive
+corecursive functions. Notably, our method of formalisation of coinductive
+definitions of productive functions in Coq requires not only the use of ad-hoc
+predicates, but also a systematic algorithm that separates the inductive and
+coinductive parts of functions.

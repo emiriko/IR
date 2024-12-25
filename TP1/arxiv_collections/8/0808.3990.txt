@@ -1,0 +1,12 @@
+This paper proposes an adaptive variant of Random Early Detection (RED)
+gateway queue management for packet-switched networks via a discrete state
+analog of the non-stationary Master Equation i.e. Markov process. The
+computation of average queue size, which appeared in the original RED
+algorithm, is altered by introducing a probability $P(l,t)$, which defines the
+probability of having $l$ number of packets in the queue at the given time $t$,
+and depends upon the previous state of the queue. This brings the advantage of
+eliminating a free parameter: queue weight, completely. Computation of
+transition rates and probabilities are carried out on the fly, and determined
+by the algorithm automatically. Simulations with unstructured packets
+illustrate the method, the performance of the adaptive variant of RED
+algorithm, and the comparison with the standard RED.

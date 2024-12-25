@@ -1,0 +1,23 @@
+Each node in a wireless multi-hop network can adjust the power level at which
+it transmits and thus change the topology of the network to save energy by
+choosing the neighbors with which it directly communicates. Many previous
+algorithms for distributed topology control have assumed an ability at each
+node to deduce some location-based information such as the direction and the
+distance of its neighbor nodes with respect to itself. Such a deduction of
+location-based information, however, cannot be relied upon in real environments
+where the path loss exponents vary greatly leading to significant errors in
+distance estimates. Also, multipath effects may result in different signal
+paths with different loss characteristics, and none of these paths may be
+line-of-sight, making it difficult to estimate the direction of a neighboring
+node. In this paper, we present Step Topology Control (STC), a simple
+distributed topology control algorithm which reduces energy consumption while
+preserving the connectivity of a heterogeneous sensor network without use of
+any location-based information. We show that the STC algorithm achieves the
+same or better order of communication and computational complexity when
+compared to other known algorithms that also preserve connectivity without the
+use of location-based information. We also present a detailed simulation-based
+comparative analysis of the energy savings and interference reduction achieved
+by the algorithms. The results show that, in spite of not incurring a higher
+communication or computational complexity, the STC algorithm performs better
+than other algorithms in uniform wireless environments and especially better
+when path loss characteristics are non-uniform.

@@ -1,0 +1,19 @@
+The crisis that affected financial markets in the last years leaded market
+practitioners to revise well known basic concepts like the ones of discount
+factors and forward rates. A single yield curve is not sufficient any longer to
+describe the market of interest rate products. On the other hand, using
+different yield curves at the same time requires a reformulation of most of the
+basic assumptions made in interest rate models. In this paper we discuss market
+evidences that led to the introduction of a series of different yield curves.
+We then define a HJM framework based on a multi-curve approach, presenting also
+a bootstrapping algorithm used to fit these different yield curves to market
+prices of plain-vanilla contracts such as basic Interest Rate Swaps (IRS) and
+Forward Rate Agreements (FRA). We then show how our approach can be used in
+practice when pricing other interest rate products, such as forward starting
+IRS, plain-vanilla European Swaptions, Constant Maturity Swaps (CMS) and CMS
+spread options, with the final goal to investigate whether the market is
+actually using a multi-curve approach or not. We finally present some numerical
+examples for a simple formulation of the framework which embeds by construction
+the multi-curve structure; once the model is calibrated to market prices of
+plain-vanilla options, it can be used via a Monte Carlo simulation to price
+more complicated exotic options.

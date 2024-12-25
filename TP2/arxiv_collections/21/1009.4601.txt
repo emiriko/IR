@@ -1,0 +1,11 @@
+The PALS architecture reduces distributed, real-time asynchronous system
+design to the design of a synchronous system under reasonable requirements.
+Assuming logical synchrony leads to fewer system behaviors and provides a
+conceptually simpler paradigm for engineering purposes. One of the current
+limitations of the framework is that from a set of independent "synchronous
+machines", one must compose the entire synchronous system by hand, which is
+tedious and error-prone. We use Maude's meta-level to automatically generate a
+synchronous composition from user-provided component machines and a description
+of how the machines communicate with each other. We then use the new
+capabilities to verify the correctness of a distributed topology control
+protocol for wireless networks in the presence of nodes that may fail.

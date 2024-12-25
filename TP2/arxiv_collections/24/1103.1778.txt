@@ -1,0 +1,15 @@
+Sellar tumors are approximately 10-15% among all intracranial neoplasms. The
+most common sellar lesion is the pituitary adenoma. Manual segmentation is a
+time-consuming process that can be shortened by using adequate algorithms. In
+this contribution, we present a segmentation method for pituitary adenoma. The
+method is based on an algorithm we developed recently in previous work where
+the novel segmentation scheme was successfully used for segmentation of
+glioblastoma multiforme and provided an average Dice Similarity Coefficient
+(DSC) of 77%. This scheme is used for automatic adenoma segmentation. In our
+experimental evaluation, neurosurgeons with strong experiences in the treatment
+of pituitary adenoma performed manual slice-by-slice segmentation of 10
+magnetic resonance imaging (MRI) cases. Afterwards, the segmentations were
+compared with the segmentation results of the proposed method via the DSC. The
+average DSC for all data sets was 77.49% +/- 4.52%. Compared with a manual
+segmentation that took, on the average, 3.91 +/- 0.54 minutes, the overall
+segmentation in our implementation required less than 4 seconds.

@@ -1,0 +1,10 @@
+We present an approach to simulating quantum computation based on a classical
+model that directly imitates discrete quantum systems. Qubits are represented
+as harmonic functions in a 2D vector space. Multiplication of qubit
+representations of different frequencies results in exponential growth of the
+state space similar to the tensor-product composition of qubit spaces in
+quantum mechanics. Individual qubits remain accessible in a composite system,
+which is represented as a complex function of a single variable, though
+entanglement imposes a demand on resources that scales exponentially with the
+number of entangled qubits. We carry out a simulation of Shor's algorithm and
+discuss a simpler implementation in this classical model.

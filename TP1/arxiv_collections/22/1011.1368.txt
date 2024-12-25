@@ -1,0 +1,16 @@
+This paper addresses the question of automatic data extraction from the
+Wiktionary, which is a multilingual and multifunctional dictionary. Wiktionary
+is a collaborative project working on the same principles as the Wikipedia. The
+Wiktionary entry is a plain text from the text processing point of view.
+Wiktionary guidelines prescribe the entry layout and rules, which should be
+followed by editors of the dictionary. The presence of the structure of a
+Wiktionary article and formatting rules allows transforming the Wiktionary
+entry structure into tables and relations in a relational database schema,
+which is a part of a machine-readable dictionary (MRD). The paper describes how
+the flat text of the Wiktionary entry was extracted, converted, and stored in
+the specially designed relational database. The MRD contains the definitions,
+semantic relations, and translations extracted from the English and Russian
+Wiktionaries. The parser software is released under the open source license
+agreement (GPL), to facilitate its dissemination, modification and upgrades, to
+draw researchers and programmers into parsing other Wiktionaries, not only
+Russian and English.

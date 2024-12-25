@@ -1,0 +1,17 @@
+A Spectral Correlator is the main component of the real time signal
+processing for a Radio Telescope array. The correlation of signals received at
+each element with every other element of the array is a classic case of an
+application requiring a complete graph connectivity between its data sources,
+as well as a very large number of simple operations to carry out the
+correlation. Datarates can be extremely large in order to achieve high
+sensitivities required for the detection of weak celestial signals. Hence,
+correlators are prime targets for HPC implementations. In this paper, we
+present the design and implementation of a massively parallel software spectral
+Correlator for a 44 element array. The correlator handles ~735 MB/s of incoming
+data from the 44 spatially distributed sources, and concurrently sustains a
+computational load of ~100 Gflops. We first describe how we partition the large
+incoming data stream into grouped datasets suited for transport over high speed
+serial networks, as well as ideal for processing on commodity multicore
+processors. An OpenMP based software correlator optimized for operation on
+multicore SMP systems and implemented on a set of Harpertown class dual
+processor machines is then presented.

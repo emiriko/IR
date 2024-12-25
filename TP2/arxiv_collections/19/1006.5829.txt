@@ -1,0 +1,21 @@
+Most cognitive architectures rely on discrete representation, both in space
+(e.g., objects) and in time (e.g., events). However, a robot interaction with
+the world is inherently continuous, both in space and in time. The segmentation
+of the stream of perceptual inputs a robot receives into discrete and
+meaningful events poses as a challenge in bridging the gap between internal
+cognitive representations, and the external world. Event Segmentation Theory,
+recently proposed in the context of cognitive systems research, sustains that
+humans segment time into events based on matching perceptual input with
+predictions. In this work we propose a framework for online event segmentation,
+targeting robots endowed with active perception. Moreover, sensory processing
+systems have an intrinsic latency, resulting from many factors such as sampling
+rate, and computational processing, and which is seldom accounted for. This
+framework is founded on the theory of dynamical systems synchronization, where
+the system considered includes both the robot and the world coupled (strong
+anticipation). An adaption rule is used to perform simultaneous system
+identification and synchronization, and anticipating synchronization is
+employed to predict the short-term system evolution. This prediction allows for
+an appropriate control of the robot actuation. Event boundaries are detected
+once synchronization is lost (sudden increase of the prediction error). An
+experimental proof of concept of the proposed framework is presented, together
+with some preliminary results corroborating the approach.

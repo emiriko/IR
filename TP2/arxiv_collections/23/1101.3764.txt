@@ -1,0 +1,25 @@
+In recent work, Benjamin Schumacher and Michael~D. Westmoreland investigate a
+version of quantum mechanics which they call "modal quantum theory" but which
+we prefer to call "discrete quantum theory". This theory is obtained by
+instantiating the mathematical framework of Hilbert spaces with a finite field
+instead of the field of complex numbers. This instantiation collapses much the
+structure of actual quantum mechanics but retains several of its distinguishing
+characteristics including the notions of superposition, interference, and
+entanglement. Furthermore, discrete quantum theory excludes local hidden
+variable models, has a no-cloning theorem, and can express natural counterparts
+of quantum information protocols such as superdense coding and teleportation.
+Our first result is to distill a model of discrete quantum computing from this
+quantum theory. The model is expressed using a monadic metalanguage built on
+top of a universal reversible language for finite computations, and hence is
+directly implementable in a language like Haskell. In addition to
+superpositions and invertible linear maps, the model includes conventional
+programming constructs including pairs, sums, higher-order functions, and
+recursion. Our second result is to relate this programming model to relational
+programming, e.g., a pure version of Prolog over finite relations. Surprisingly
+discrete quantum computing is identical to conventional logic programming
+except for a small twist that is responsible for all the ``quantum-ness.'' The
+twist occurs when merging sets of answers computed by several alternatives: the
+answers are combined using an "exclusive" version of logical disjunction. In
+other words, the two branches of a choice junction exhibit an "interference"
+effect: an answer is produced from the junction if it occurs in one or the
+other branch but not both.

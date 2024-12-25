@@ -1,0 +1,11 @@
+This paper presents a super-resolution method based on gradient-based
+adaptive interpolation. In this method, in addition to considering the distance
+between the interpolated pixel and the neighboring valid pixel, the
+interpolation coefficients take the local gradient of the original image into
+account. The smaller the local gradient of a pixel is, the more influence it
+should have on the interpolated pixel. And the interpolated high resolution
+image is finally deblurred by the application of wiener filter. Experimental
+results show that our proposed method not only substantially improves the
+subjective and objective quality of restored images, especially enhances edges,
+but also is robust to the registration error and has low computational
+complexity.

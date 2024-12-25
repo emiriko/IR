@@ -1,0 +1,10 @@
+Visibly pushdown transducers form a subclass of pushdown transducers that
+(strictly) extends finite state transducers with a stack. Like visibly pushdown
+automata, the input symbols determine the stack operations. In this paper, we
+prove that functionality is decidable in PSpace for visibly pushdown
+transducers. The proof is done via a pumping argument: if a word with two
+outputs has a sufficiently large nesting depth, there exists a nested word with
+two outputs whose nesting depth is strictly smaller. The proof uses technics of
+word combinatorics. As a consequence of decidability of functionality, we also
+show that equivalence of functional visibly pushdown transducers is
+Exptime-Complete.

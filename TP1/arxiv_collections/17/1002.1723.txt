@@ -1,0 +1,22 @@
+We present new computations of approximately length-minimizing polygons with
+fixed thickness. These curves model the centerlines of "tight" knotted tubes
+with minimal length and fixed circular cross-section. Our curves approximately
+minimize the ropelength (or quotient of length and thickness) for polygons in
+their knot types. While previous authors have minimized ropelength for polygons
+using simulated annealing, the new idea in our code is to minimize length over
+the set of polygons of thickness at least one using a version of constrained
+gradient descent.
+  We rewrite the problem in terms of minimizing the length of the polygon
+subject to an infinite family of differentiable constraint functions. We prove
+that the polyhedral cone of variations of a polygon of thickness one which do
+not decrease thickness to first order is finitely generated, and give an
+explicit set of generators. Using this cone we give a first-order minimization
+procedure and a Karush-Kuhn-Tucker criterion for polygonal ropelength
+criticality.
+  Our main numerical contribution is a set of 379 almost-critical prime knots
+and links, covering all prime knots with no more than 10 crossings and all
+prime links with no more than 9 crossings. For links, these are the first
+published ropelength figures, and for knots they improve on existing figures.
+We give new maps of the self-contacts of these knots and links, and discover
+some highly symmetric tight knots with particularly simple looking self-contact
+maps.

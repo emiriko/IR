@@ -1,0 +1,18 @@
+HiggsBounds is a computer code that tests theoretical predictions of models
+with arbitrary Higgs sectors against the exclusion bounds obtained from the
+Higgs searches at LEP and the Tevatron. The included experimental information
+comprises exclusion bounds at 95% C.L. on topological cross sections. In order
+to determine which search topology has the highest exclusion power, the program
+also includes, for each topology, information from the experiments on the
+expected exclusion bound, which would have been observed in case of a pure
+background distribution. Using the predictions of the desired model provided by
+the user as input, HiggsBounds determines the most sensitive channel and tests
+whether the considered parameter point is excluded at the 95% C.L. HiggsBounds
+is available as a Fortran 77 and Fortran 90 code. The code can be invoked as a
+command line version, a subroutine version and an online version. Examples of
+exclusion bounds obtained with HiggsBounds are discussed for the Standard
+Model, for a model with a fourth generation of quarks and leptons and for the
+Minimal Supersymmetric Standard Model with and without CP-violation. The
+experimental information on the exclusion bounds currently implemented in
+HiggsBounds will be updated as new results from the Higgs searches become
+available.

@@ -1,0 +1,13 @@
+Image segmentation has been a very active research topic in image analysis
+area. Currently, most of the image segmentation algorithms are designed based
+on the idea that images are partitioned into a set of regions preserving
+homogeneous intra-regions and inhomogeneous inter-regions. However, human
+visual intuition does not always follow this pattern. A new image segmentation
+method named Visual-Hint Boundary to Segment (VHBS) is introduced, which is
+more consistent with human perceptions. VHBS abides by two visual hint rules
+based on human perceptions: (i) the global scale boundaries tend to be the real
+boundaries of the objects; (ii) two adjacent regions with quite different
+colors or textures tend to result in the real boundaries between them. It has
+been demonstrated by experiments that, compared with traditional image
+segmentation method, VHBS has better performance and also preserves higher
+computational efficiency.

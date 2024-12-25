@@ -1,0 +1,12 @@
+The evolution of the web server contents and the emergence of new kinds of
+intrusions make necessary the adaptation of the intrusion detection systems
+(IDS). Nowadays, the adaptation of the IDS requires manual -- tedious and
+unreactive -- actions from system administrators. In this paper, we present a
+self-adaptive intrusion detection system which relies on a set of local
+model-based diagnosers. The redundancy of diagnoses is exploited, online, by a
+meta-diagnoser to check the consistency of computed partial diagnoses, and to
+trigger the adaptation of defective diagnoser models (or signatures) in case of
+inconsistency. This system is applied to the intrusion detection from a stream
+of HTTP requests. Our results show that our system 1) detects intrusion
+occurrences sensitively and precisely, 2) accurately self-adapts diagnoser
+model, thus improving its detection accuracy.

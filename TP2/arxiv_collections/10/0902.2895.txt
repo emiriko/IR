@@ -1,0 +1,23 @@
+The behavior of non-local thermal-equilibrium (NLTE) plasmas plays a central
+role in many fields of modern-day physics, such as laser-produced plasmas,
+astrophysics, inertial or magnetic confinement fusion devices, or X-ray
+sources. The proper description of these media in stationary cases requires to
+solve linear systems of thousands or more rate equations. A possible
+simplification for this arduous numerical task may lie in some type of
+statistical average, such as configuration or superconfiguration average.
+However to assess the validity of this procedure and to handle cases where
+isolated lines play an important role, it may be important to deal with
+detailed levels systems. This involves matrices with sometimes billions of
+elements, which are rather sparse but still involve thousands of diagonals. We
+propose here a numerical algorithm based on the LU decomposition for such
+linear systems. This method turns out to be orders of magnitude faster than the
+traditional Gauss elimination. And at variance with alternate methods based on
+conjugate gradients or minimization, no convergence or accuracy issues have
+been faced. Some examples are discussed in connection with the krypton and
+tungsten cases discussed at the last NLTE meeting. Furthermore, to assess the
+validity of configuration average, several criteria are discussed. While a
+criterion based on detailed balance is relevant in cases not too far from LTE
+but insufficient otherwise, an alternate criterion based on the use of a
+fictive configuration temperature is proposed and successfully tested. It
+appears that detailed calculations are sometimes necessary, which supports the
+search for an efficient solver as the one proposed here.

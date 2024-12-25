@@ -1,0 +1,20 @@
+This paper extends the work of Gottlob, Lee, and Valiant (PODS 2009)[GLV],
+and considers worst-case bounds for the size of the result Q(D) of a
+conjunctive query Q to a database D given an arbitrary set of functional
+dependencies. The bounds in [GLV] are based on a "coloring" of the query
+variables. In order to extend the previous bounds to the setting of arbitrary
+functional dependencies, we leverage tools from information theory to formalize
+the original intuition that each color used represents some possible entropy of
+that variable, and bound the maximum possible size increase via a linear
+program that seeks to maximize how much more entropy is in the result of the
+query than the input. This new view allows us to precisely characterize the
+entropy structure of worst-case instances for conjunctive queries with simple
+functional dependencies (keys), providing new insights into the results of
+[GLV]. We extend these results to the case of general functional dependencies,
+providing upper and lower bounds on the worst-case size increase. We identify
+the fundamental connection between the gap in these bounds and a central open
+question in information theory.
+  Finally, we show that, while both the upper and lower bounds are given by
+exponentially large linear programs, one can distinguish in polynomial time
+whether the result of a query with an arbitrary set of functional dependencies
+can be any larger than the input database.

@@ -1,0 +1,9 @@
+In this short paper, the authors report a new computational approach in the
+context of Density Functional Theory (DFT). It is shown how it is possible to
+speed up the self-consistent cycle (iteration) characterizing one of the most
+well-known DFT implementations: FLAPW. Generating the Hamiltonian and overlap
+matrices and solving the associated generalized eigenproblems $Ax = \lambda Bx$
+constitute the two most time-consuming fractions of each iteration. Two
+promising directions, implementing the new methodology, are presented that will
+ultimately improve the performance of the generalized eigensolver and save
+computational time.

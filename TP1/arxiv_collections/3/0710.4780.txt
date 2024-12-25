@@ -1,0 +1,19 @@
+Extensible Markup Language (XML) is a simple, very flexible text format
+derived from SGML. Originally designed to meet the challenges of large-scale
+electronic publishing, XML is also playing an increasingly important role in
+the exchange of a wide variety of data on the Web and elsewhere. XPath language
+is the result of an effort to provide address parts of an XML document. In
+support of this primary purpose, it becomes in a query language against an XML
+document. In this paper we present a proposal for the implementation of the
+XPath language in logic programming. With this aim we will describe the
+representation of XML documents by means of a logic program. Rules and facts
+can be used for representing the document schema and the XML document itself.
+In particular, we will present how to index XML documents in logic programs:
+rules are supposed to be stored in main memory, however facts are stored in
+secondary memory by using two kind of indexes: one for each XML tag, and other
+for each group of terminal items. In addition, we will study how to query by
+means of the XPath language against a logic program representing an XML
+document. It evolves the specialization of the logic program with regard to the
+XPath expression. Finally, we will also explain how to combine the indexing and
+the top-down evaluation of the logic program. To appear in Theory and Practice
+of Logic Programming (TPLP)"

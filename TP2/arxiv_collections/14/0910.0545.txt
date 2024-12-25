@@ -1,0 +1,13 @@
+Let $(B_t)_{0\leq t\leq T}$ be either a Bernoulli random walk or a Brownian
+motion with drift, and let $M_t:=\max\{B_s: 0\leq s\leq t\}$, $0\leq t\leq T$.
+This paper solves the general optimal prediction problem \sup_{0\leq\tau\leq
+T}\sE[f(M_T-B_\tau)], where the supremum is over all stopping times $\tau$
+adapted to the natural filtration of $(B_t)$, and $f$ is a nonincreasing convex
+function. The optimal stopping time $\tau^*$ is shown to be of "bang-bang"
+type: $\tau^*\equiv 0$ if the drift of the underlying process $(B_t)$ is
+negative, and $\tau^*\equiv T$ is the drift is positive. This result
+generalizes recent findings by S. Yam, S. Yung and W. Zhou [{\em J. Appl.
+Probab.} {\bf 46} (2009), 651--668] and J. Du Toit and G. Peskir [{\em Ann.
+Appl. Probab.} {\bf 19} (2009), 983--1014], and provides additional
+mathematical justification for the dictum in finance that one should sell bad
+stocks immediately, but keep good ones as long as possible.

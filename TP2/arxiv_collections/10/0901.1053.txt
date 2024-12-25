@@ -1,0 +1,11 @@
+In this paper we propose an explicit two-level conservative scheme based on a
+TE/TM like splitting of the field components in time. Its dispersion properties
+are adjusted to accelerator problems. It is simpler and faster than the
+implicit version [1]. It does not have dispersion in the longitudinal direction
+and the dispersion properties in the transversal plane are improved. The
+explicit character of the new scheme allows a uniformly stable conformal method
+without iterations and the scheme can be parallelized easily. It assures energy
+and charge conservation. A version of this explicit scheme for rotationally
+symmetric structures is free from the progressive time step reducing for higher
+order azimuthal modes as it takes place for Yee's explicit method used in the
+most popular electrodynamics codes.

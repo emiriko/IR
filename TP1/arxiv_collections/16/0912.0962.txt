@@ -1,0 +1,19 @@
+Base station cooperation improves the sum-rates that can be achieved in
+cellular systems. Conventional cooperation techniques require sharing large
+amounts of information over finite-capacity backhaul links and assume that base
+stations have full channel state information (CSI) of all the active users in
+the system. In this paper, a new limited feedback strategy is proposed for
+multicell beamforming where cooperation is restricted to sharing only the CSI
+of active users among base stations. The system setup considered is a linear
+array of cells based on the Wyner model. Each cell contains single-antenna
+users and multi-antenna base stations. Closed-form expressions for the
+beamforming vectors that approximately maximize the sum-rates in a multicell
+system are first presented, assuming full CSI at the transmitter. For the more
+practical case of a finite-bandwidth feedback link, CSI of the desired and
+interfering channels is quantized at the receiver before being fed back to the
+base station. An upper bound on the mean loss in sum rate due to random vector
+quantization is derived. A new feedback-bit allocation strategy, to partition
+the available bits between the desired and interfering channels, is developed
+to approximately minimize the mean loss in sum-rate due to quantization. The
+proposed feedback-bit partitioning algorithm is shown, using simulations, to
+yield sum-rates close to the those obtained using full CSI at base stations.

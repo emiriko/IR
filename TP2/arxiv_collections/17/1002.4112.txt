@@ -1,0 +1,18 @@
+The derivation of statistical properties for Partial Least Squares regression
+can be a challenging task. The reason is that the construction of latent
+components from the predictor variables also depends on the response variable.
+While this typically leads to good performance and interpretable models in
+practice, it makes the statistical analysis more involved. In this work, we
+study the intrinsic complexity of Partial Least Squares Regression. Our
+contribution is an unbiased estimate of its Degrees of Freedom. It is defined
+as the trace of the first derivative of the fitted values, seen as a function
+of the response. We establish two equivalent representations that rely on the
+close connection of Partial Least Squares to matrix decompositions and Krylov
+subspace techniques. We show that the Degrees of Freedom depend on the
+collinearity of the predictor variables: The lower the collinearity is, the
+higher the Degrees of Freedom are. In particular, they are typically higher
+than the naive approach that defines the Degrees of Freedom as the number of
+components. Further, we illustrate how the Degrees of Freedom approach can be
+used for the comparison of different regression methods. In the experimental
+section, we show that our Degrees of Freedom estimate in combination with
+information criteria is useful for model selection.

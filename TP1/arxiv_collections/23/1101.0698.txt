@@ -1,0 +1,14 @@
+Activation Codes are used in many different digital services and known by
+many different names including voucher, e-coupon and discount code. In this
+paper we focus on a specific class of ACs that are short, human-readable,
+fixed-length and represent value. Even though this class of codes is
+extensively used there are no general guidelines for the design of Activation
+Code schemes. We discuss different methods that are used in practice and
+propose BEPAC, a new Activation Code scheme that provides both authenticity and
+confidentiality. The small message space of activation codes introduces some
+problems that are illustrated by an adaptive chosen-plaintext attack (CPA-2) on
+a general 3-round Feis- tel network of size 2^(2n) . This attack recovers the
+complete permutation from at most 2^(n+2) plaintext-ciphertext pairs. For this
+reason, BEPAC is designed in such a way that authenticity and confidentiality
+are in- dependent properties, i.e. loss of confidentiality does not imply loss
+of authenticity.

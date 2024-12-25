@@ -1,0 +1,11 @@
+Concurrent ML's events and event combinators facilitate modular concurrent
+programming with first-class synchronization abstractions. A standard
+implementation of these abstractions relies on fairly complex manipulations of
+first-class continuations in the underlying language. In this paper, we present
+a lightweight implementation of these abstractions in Concurrent Haskell, a
+language that already provides first-order message passing. At the heart of our
+implementation is a new distributed synchronization protocol. In contrast with
+several previous translations of event abstractions in concurrent languages, we
+remain faithful to the standard semantics for events and event combinators; for
+example, we retain the symmetry of $\mathtt{choose}$ for expressing selective
+communication.

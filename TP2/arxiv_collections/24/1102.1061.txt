@@ -1,0 +1,12 @@
+A class of models is presented, in the form of continuation monads
+polymorphic for first-order individuals, that is sound and complete for minimal
+intuitionistic predicate logic. The proofs of soundness and completeness are
+constructive and the computational content of their composition is, in
+particular, a $\beta$-normalisation-by-evaluation program for simply typed
+lambda calculus with sum types. Although the inspiration comes from Danvy's
+type-directed partial evaluator for the same lambda calculus, the there
+essential use of delimited control operators (i.e. computational effects) is
+avoided. The role of polymorphism is crucial -- dropping it allows one to
+obtain a notion of model complete for classical predicate logic. The connection
+between ours and Kripke models is made through a strengthening of the
+Double-negation Shift schema.

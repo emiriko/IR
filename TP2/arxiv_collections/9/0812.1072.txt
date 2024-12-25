@@ -1,0 +1,20 @@
+We use a Potts model community detection algorithm to accurately and
+quantitatively evaluate the hierarchical or multiresolution structure of a
+graph. Our multiresolution algorithm calculates correlations among multiple
+copies ("replicas") of the same graph over a range of resolutions. Significant
+multiresolution structures are identified by strongly correlated replicas. The
+average normalized mutual information, the variation of information, and other
+measures in principle give a quantitative estimate of the "best" resolutions
+and indicate the relative strength of the structures in the graph. Because the
+method is based on information comparisons, it can in principle be used with
+any community detection model that can examine multiple resolutions. Our
+approach may be extended to other optimization problems. As a local measure,
+our Potts model avoids the "resolution limit" that affects other popular
+models. With this model, our community detection algorithm has an accuracy that
+ranks among the best of currently available methods. Using it, we can examine
+graphs over 40 million nodes and more than one billion edges. We further report
+that the multiresolution variant of our algorithm can solve systems of at least
+200000 nodes and 10 million edges on a single processor with exceptionally high
+accuracy. For typical cases, we find a super-linear scaling, O(L^{1.3}) for
+community detection and O(L^{1.3} log N) for the multiresolution algorithm
+where L is the number of edges and N is the number of nodes in the system.

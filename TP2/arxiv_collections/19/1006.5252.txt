@@ -1,0 +1,10 @@
+In this paper, we describe a low-rank matrix completion method based on
+matrix decomposition. An incomplete matrix is decomposed into submatrices which
+are filled with a proposed trimming step and then are recombined to form a
+low-rank completed matrix. The divide-and-conquer approach can significantly
+reduce computation complexity and storage requirement. Moreover, the proposed
+decomposition method can be naturally incorporated into any existing matrix
+completion methods to attain further gain. Unlike most existing approaches, the
+proposed method is not based on norm minimization nor SVD decomposition. This
+makes it possible to be applied beyond real domain and can be used in arbitrary
+fields including finite fields.

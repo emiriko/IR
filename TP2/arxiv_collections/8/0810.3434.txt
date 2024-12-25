@@ -1,0 +1,25 @@
+We derive a numerical method for Darcy flow, hence also for Poisson's
+equation in mixed (first order) form, based on discrete exterior calculus
+(DEC). Exterior calculus is a generalization of vector calculus to smooth
+manifolds and DEC is one of its discretizations on simplicial complexes such as
+triangle and tetrahedral meshes. DEC is a coordinate invariant discretization,
+in that it does not depend on the embedding of the simplices or the whole mesh.
+We start by rewriting the governing equations of Darcy flow using the language
+of exterior calculus. This yields a formulation in terms of flux differential
+form and pressure. The numerical method is then derived by using the framework
+provided by DEC for discretizing differential forms and operators that act on
+forms. We also develop a discretization for spatially dependent Hodge star that
+varies with the permeability of the medium. This also allows us to address
+discontinuous permeability. The matrix representation for our discrete
+non-homogeneous Hodge star is diagonal, with positive diagonal entries. The
+resulting linear system of equations for flux and pressure are saddle type,
+with a diagonal matrix as the top left block. The performance of the proposed
+numerical method is illustrated on many standard test problems. These include
+patch tests in two and three dimensions, comparison with analytically known
+solution in two dimensions, layered medium with alternating permeability
+values, and a test with a change in permeability along the flow direction. We
+also show numerical evidence of convergence of the flux and the pressure. A
+convergence experiment is also included for Darcy flow on a surface. A short
+introduction to the relevant parts of smooth and discrete exterior calculus is
+included in this paper. We also include a discussion of the boundary condition
+in terms of exterior calculus.

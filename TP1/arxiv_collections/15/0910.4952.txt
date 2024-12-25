@@ -1,0 +1,11 @@
+Leader election between n parties is known to be impossible classically. This
+work gives a simple algorithm that does it, based on the weak coin flipping
+protocol with arbitrarily small bias derived by Mochon in 2007, and recently
+published and simplified in Aharonov et al in 2016. A protocol with linear
+number of coin flipping rounds is quite simple to achieve; We further provide
+an improvement to logarithmic number of coin flipping rounds. This is a much
+improved journal version of a preprint posted in 2009: many typos are
+corrected, proofs are more rigorous and accurate, and the analysis of
+complexity is significantly tightened which gives a stronger result in terms of
+efficiency; The first protocol with linear number of rounds, was achieved
+independently also by Aharon and Silman in 2010.

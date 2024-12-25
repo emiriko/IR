@@ -1,0 +1,14 @@
+Designing a Business Card Reader (BCR) for mobile devices is a challenge to
+the researchers because of huge deformation in acquired images, multiplicity in
+nature of the business cards and most importantly the computational constraints
+of the mobile devices. This paper presents a text extraction method designed in
+our work towards developing a BCR for mobile devices. At first, the background
+of a camera captured image is eliminated at a coarse level. Then, various rule
+based techniques are applied on the Connected Components (CC) to filter out the
+noises and picture regions. The CCs identified as text are then binarized using
+an adaptive but light-weight binarization technique. Experiments show that the
+text extraction accuracy is around 98% for a wide range of resolutions with
+varying computation time and memory requirements. The optimum performance is
+achieved for the images of resolution 1024x768 pixels with text extraction
+accuracy of 98.54% and, space and time requirements as 1.1 MB and 0.16 seconds
+respectively.

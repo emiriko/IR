@@ -1,0 +1,15 @@
+A permutation graph is an intersection graph of segments lying between two
+parallel lines. A Seidel complementation of a finite graph at one of it vertex
+$v$ consists to complement the edges between the neighborhood and the
+non-neighborhood of $v$. Two graphs are Seidel complement equivalent if one can
+be obtained from the other by a successive application of Seidel
+complementation.
+  In this paper we introduce the new concept of Seidel complementation and
+Seidel minor, we then show that this operation preserves cographs and the
+structure of modular decomposition. The main contribution of this paper is to
+provide a new and succinct characterization of permutation graphs i.e. A graph
+is a permutation graph \Iff it does not contain the following graphs: $C_5$,
+$C_7$, $XF_{6}^{2}$, $XF_{5}^{2n+3}$, $C_{2n}, n\geqslant6$ and their
+complement as Seidel minor. In addition we provide a $O(n+m)$-time algorithm to
+output one of the forbidden Seidel minor if the graph is not a permutation
+graph.

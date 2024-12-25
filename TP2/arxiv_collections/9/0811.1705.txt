@@ -1,0 +1,16 @@
+Regression splines are smooth, flexible, and parsimonious nonparametric
+function estimators. They are known to be sensitive to knot number and
+placement, but if assumptions such as monotonicity or convexity may be imposed
+on the regression function, the shape-restricted regression splines are robust
+to knot choices. Monotone regression splines were introduced by Ramsay
+[Statist. Sci. 3 (1998) 425--461], but were limited to quadratic and lower
+order. In this paper an algorithm for the cubic monotone case is proposed, and
+the method is extended to convex constraints and variants such as
+increasing-concave. The restricted versions have smaller squared error loss
+than the unrestricted splines, although they have the same convergence rates.
+The relatively small degrees of freedom of the model and the insensitivity of
+the fits to the knot choices allow for practical inference methods; the
+computational efficiency allows for back-fitting of additive models. Tests of
+constant versus increasing and linear versus convex regression function, when
+implemented with shape-restricted regression splines, have higher power than
+the standard version using ordinary shape-restricted regression.

@@ -1,0 +1,9 @@
+Besides the well-known effect of autocorrelations in time series of Monte
+Carlo simulation data resulting from the underlying Markov process, using the
+same data pool for computing various estimates entails additional cross
+correlations. This effect, if not properly taken into account, leads to
+systematically wrong error estimates for combined quantities. Using a
+straightforward recipe of data analysis employing the jackknife or similar
+resampling techniques, such problems can be avoided. In addition, a covariance
+analysis allows for the formulation of optimal estimators with often
+significantly reduced variance as compared to more conventional averages.

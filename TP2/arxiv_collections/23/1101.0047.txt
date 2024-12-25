@@ -1,0 +1,18 @@
+Similar to variable selection in the linear regression model, selecting
+significant components in the popular additive regression model is of great
+interest. However, such components are unknown smooth functions of independent
+variables, which are unobservable. As such, some approximation is needed. In
+this paper, we suggest a combination of penalized regression spline
+approximation and group variable selection, called the lasso-type spline method
+(LSM), to handle this component selection problem with a diverging number of
+strongly correlated variables in each group. It is shown that the proposed
+method can select significant components and estimate nonparametric additive
+function components simultaneously with an optimal convergence rate
+simultaneously. To make the LSM stable in computation and able to adapt its
+estimators to the level of smoothness of the component functions, weighted
+power spline bases and projected weighted power spline bases are proposed.
+Their performance is examined by simulation studies across two set-ups with
+independent predictors and correlated predictors, respectively, and appears
+superior to the performance of competing methods. The proposed method is
+extended to a partial linear regression model analysis with real data, and
+gives reliable results.

@@ -1,0 +1,13 @@
+The operational semantics of interactive systems is usually described by
+labeled transition systems. Abstract semantics (that is defined in terms of
+bisimilarity) is characterized by the final morphism in some category of
+coalgebras. Since the behaviour of interactive systems is for many reasons
+infinite, symbolic semantics were introduced as a mean to define smaller,
+possibly finite, transition systems, by employing symbolic actions and avoiding
+some sources of infiniteness. Unfortunately, symbolic bisimilarity has a
+different shape with respect to ordinary bisimilarity, and thus the standard
+coalgebraic characterization does not work. In this paper, we introduce its
+coalgebraic models. We will use as motivating examples two asynchronous
+formalisms: open Petri nets and asynchronous pi-calculus. Indeed, as we have
+shown in a previous paper, asynchronous bisimilarity can be seen as an instance
+of symbolic bisimilarity.

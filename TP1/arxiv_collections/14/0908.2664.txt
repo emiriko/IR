@@ -1,0 +1,15 @@
+We present a new framework to detect various types of variable objects within
+massive astronomical time-series data. Assuming that the dominant population of
+objects is non-variable, we find outliers from this population by using a
+non-parametric Bayesian clustering algorithm based on an infinite
+GaussianMixtureModel (GMM) and the Dirichlet Process. The algorithm extracts
+information from a given dataset, which is described by six variability
+indices. The GMM uses those variability indices to recover clusters that are
+described by six-dimensional multivariate Gaussian distributions, allowing our
+approach to consider the sampling pattern of time-series data, systematic
+biases, the number of data points for each light curve, and photometric
+quality. Using the Northern Sky Variability Survey data, we test our approach
+and prove that the infinite GMM is useful at detecting variable objects, while
+providing statistical inference estimation that suppresses false detection. The
+proposed approach will be effective in the exploration of future surveys such
+as GAIA, Pan-Starrs, and LSST, which will produce massive time-series data.

@@ -1,0 +1,14 @@
+In our preceding paper, we have proposed an algorithm for obtaining
+finite-norm solutions of higher-order linear ordinary differential equations of
+the Fuchsian type [\sum_m p_m (x) (d/dx)^m] f(x) = 0 (where p_m is a polynomial
+with rational-number-valued coefficients), by using only the four arithmetical
+operations on integers, and we proved its validity. For any nonnegative integer
+k, it is guaranteed mathematically that this method can produce all the
+solutions satisfying \int |f(x)|^2 (x^2+1)^k dx < \infty, under some
+conditions. We materialize this algorithm in practical procedures. An
+interger-type quasi-orthogonalization used there can suppress the explosion of
+calculations. Moreover, we give an upper limit of the errors. We also give some
+results of numerical experiments and compare them with the corresponding exact
+analytical solutions, which show that the proposed algorithm is successful in
+yielding solutions with high accuracy (using only arithmetical operations on
+integers).

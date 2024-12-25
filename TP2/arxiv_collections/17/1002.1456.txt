@@ -1,0 +1,17 @@
+Iterated regret minimization has been introduced recently by J.Y. Halpern and
+R. Pass in classical strategic games. For many games of interest, this new
+solution concept provides solutions that are judged more reasonable than
+solutions offered by traditional game concepts -- such as Nash equilibrium --.
+Although computing iterated regret on explicit matrix game is conceptually and
+computationally easy, nothing is known about computing the iterated regret on
+games whose matrices are defined implicitly using game tree, game DAG or, more
+generally game graphs. In this paper, we investigate iterated regret
+minimization for infinite duration two-player quantitative non-zero sum games
+played on graphs.
+  We consider reachability objectives that are not necessarily antagonist.
+Edges are weighted by integers -- one for each player --, and the payoffs are
+defined by the sum of the weights along the paths. Depending on the class of
+graphs, we give either polynomial or pseudo-polynomial time algorithms to
+compute a strategy that minimizes the regret for a fixed player. We finally
+give algorithms to compute the strategies of the two players that minimize the
+iterated regret for trees, and for graphs with strictly positive weights only.

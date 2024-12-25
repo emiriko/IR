@@ -1,0 +1,23 @@
+The paper considers gossip distributed estimation of a (static) distributed
+random field (a.k.a., large scale unknown parameter vector) observed by
+sparsely interconnected sensors, each of which only observes a small fraction
+of the field. We consider linear distributed estimators whose structure
+combines the information \emph{flow} among sensors (the \emph{consensus} term
+resulting from the local gossiping exchange among sensors when they are able to
+communicate) and the information \emph{gathering} measured by the sensors (the
+\emph{sensing} or \emph{innovations} term.) This leads to mixed time scale
+algorithms--one time scale associated with the consensus and the other with the
+innovations. The paper establishes a distributed observability condition
+(global observability plus mean connectedness) under which the distributed
+estimates are consistent and asymptotically normal. We introduce the
+distributed notion equivalent to the (centralized) Fisher information rate,
+which is a bound on the mean square error reduction rate of any distributed
+estimator; we show that under the appropriate modeling and structural network
+communication conditions (gossip protocol) the distributed gossip estimator
+attains this distributed Fisher information rate, asymptotically achieving the
+performance of the optimal centralized estimator. Finally, we study the
+behavior of the distributed gossip estimator when the measurements fade (noise
+variance grows) with time; in particular, we consider the maximum rate at which
+the noise variance can grow and still the distributed estimator being
+consistent, by showing that, as long as the centralized estimator is
+consistent, the distributed estimator remains consistent.

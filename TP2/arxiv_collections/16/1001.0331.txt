@@ -1,0 +1,20 @@
+Kepler seeks to detect sequences of transits of Earth-size exoplanets
+orbiting Solar-like stars. Such transit signals are on the order of 100 ppm.
+The high photometric precision demanded by Kepler requires detailed knowledge
+of how the Kepler pixels respond to starlight during a nominal observation.
+This information is provided by the Kepler pixel response function (PRF),
+defined as the composite of Kepler's optical point spread function, integrated
+spacecraft pointing jitter during a nominal cadence and other systematic
+effects. To provide sub-pixel resolution, the PRF is represented as a
+piecewise-continuous polynomial on a sub-pixel mesh. This continuous
+representation allows the prediction of a star's flux value on any pixel given
+the star's pixel position. The advantages and difficulties of this polynomial
+representation are discussed, including characterization of spatial variation
+in the PRF and the smoothing of discontinuities between sub-pixel polynomial
+patches. On-orbit super-resolution measurements of the PRF across the Kepler
+field of view are described. Two uses of the PRF are presented: the selection
+of pixels for each star that maximizes the photometric signal to noise ratio
+for that star, and PRF-fitted centroids which provide robust and accurate
+stellar positions on the CCD, primarily used for attitude and plate scale
+tracking. Good knowledge of the PRF has been a critical component for the
+successful collection of high-precision photometry by Kepler.

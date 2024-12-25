@@ -1,0 +1,11 @@
+We perform formal verification of quantum circuits by integrating several
+techniques specialized to particular classes of circuits. Our verification
+methodology is based on the new notion of a reversible miter that allows one to
+leverage existing techniques for circuit simplification of quantum circuits.
+For reversible circuits which arise as runtime bottlenecks of key quantum
+algorithms, we develop several verification techniques and empirically compare
+them.
+  We also combine existing quantum verification tools with the use of
+SAT-solvers. Experiments with circuits for Shor's number-factoring algorithm,
+containing thousands of gates, show improvements in efficiency by 3-4 orders of
+magnitude.

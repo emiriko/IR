@@ -1,0 +1,20 @@
+We describe a photon-conserving radiative transfer algorithm, using a
+spatially-adaptive ray tracing scheme, and its parallel implementation into the
+adaptive mesh refinement (AMR) cosmological hydrodynamics code, Enzo. By
+coupling the solver with the energy equation and non-equilibrium chemistry
+network, our radiation hydrodynamics framework can be utilised to study a broad
+range of astrophysical problems, such as stellar and black hole (BH) feedback.
+Inaccuracies can arise from large timesteps and poor sampling, therefore we
+devised an adaptive time-stepping scheme and a fast approximation of the
+optically-thin radiation field with multiple sources. We test the method with
+several radiative transfer and radiation hydrodynamics tests that are given in
+Iliev et al. (2006, 2009). We further test our method with more dynamical
+situations, for example, the propagation of an ionisation front through a
+Rayleigh-Taylor instability, time-varying luminosities, and collimated
+radiation. The test suite also includes an expanding H II region in a
+magnetised medium, utilising the newly implemented magnetohydrodynamics module
+in Enzo. This method linearly scales with the number of point sources and
+number of grid cells. Our implementation is scalable to 512 processors on
+distributed memory machines and can include radiation pressure and secondary
+ionisations from X-ray radiation. It is included in the newest public release
+of Enzo.

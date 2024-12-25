@@ -1,0 +1,11 @@
+We study the use of the multilevel Monte Carlo technique in the context of
+the calculation of Greeks. The pathwise sensitivity analysis differentiates the
+path evolution and reduces the payoff's smoothness. This leads to new
+challenges: the inapplicability of pathwise sensitivities to non-Lipschitz
+payoffs often makes the use of naive algorithms impossible. These challenges
+can be addressed in three different ways: payoff smoothing using conditional
+expectations of the payoff before maturity; approximating the previous
+technique with path splitting for the final timestep; using of a hybrid
+combination of pathwise sensitivity and the Likelihood Ratio Method. We
+investigate the strengths and weaknesses of these alternatives in different
+multilevel Monte Carlo settings.

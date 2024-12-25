@@ -1,0 +1,13 @@
+Peer-to-peer content distribution systems have been enjoying great
+popularity, and are now gaining momentum as a means of disseminating video
+streams over the Internet. In many of these protocols, including the popular
+BitTorrent, content is split into mostly fixed-size pieces, allowing a client
+to download data from many peers simultaneously. This makes piece size
+potentially critical for performance. However, previous research efforts have
+largely overlooked this parameter, opting to focus on others instead. This
+paper presents the results of real experiments with varying piece sizes on a
+controlled BitTorrent testbed. We demonstrate that this parameter is indeed
+critical, as it determines the degree of parallelism in the system, and we
+investigate optimal piece sizes for distributing small and large content. We
+also pinpoint a related design trade-off, and explain how BitTorrent's choice
+of dividing pieces into subpieces attempts to address it.

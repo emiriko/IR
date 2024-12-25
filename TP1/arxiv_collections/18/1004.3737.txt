@@ -1,0 +1,11 @@
+We construct a strong extractor against quantum storage that works for every
+min-entropy $k$, has logarithmic seed length, and outputs $\Omega(k)$ bits,
+provided that the quantum adversary has at most $\beta k$ qubits of memory, for
+any $\beta < \half$. The construction works by first condensing the source
+(with minimal entropy-loss) and then applying an extractor that works well
+against quantum adversaries when the source is close to uniform.
+  We also obtain an improved construction of a strong quantum-proof extractor
+in the high min-entropy regime. Specifically, we construct an extractor that
+uses a logarithmic seed length and extracts $\Omega(n)$ bits from any source
+over $\B^n$, provided that the min-entropy of the source conditioned on the
+quantum adversary's state is at least $(1-\beta) n$, for any $\beta < \half$.

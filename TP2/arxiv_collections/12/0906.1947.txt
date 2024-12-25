@@ -1,0 +1,13 @@
+We define and explore the concept of ideal stabilization. The program is
+ideally stabilizing if its every state is legitimate. Ideal stabilization
+allows the specification designer to prescribe with arbitrary degree of
+precision not only the fault-free program behavior but also its recovery
+operation. Specifications may or may not mention all possible states. We
+identify approaches to designing ideal stabilization to both kinds of
+specifications. For the first kind, we state the necessary condition for an
+ideally stabilizing solution. On the basis of this condition we prove that
+there is no ideally stabilizing solution to the leader election problem. We
+illustrate the utility of the concept by providing examples of well-known
+programs and proving them ideally stabilizing. Specifically, we prove ideal
+stabilization of the conflict manager, the alternator, the propagation of
+information with feedback and the alternating bit protocol.

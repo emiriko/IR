@@ -1,0 +1,10 @@
+Under the emerging network coding paradigm, intermediate nodes in the network
+are allowed not only to store and forward packets but also to process and mix
+different data flows. We propose a low-complexity cryptographic scheme that
+exploits the inherent security provided by random linear network coding and
+offers the advantage of reduced overhead in comparison to traditional
+end-to-end encryption of the entire data. Confidentiality is achieved by
+protecting (or "locking") the source coefficients required to decode the
+encoded data, without preventing intermediate nodes from running their standard
+network coding operations. Our scheme can be easily combined with existing
+techniques that counter active attacks.

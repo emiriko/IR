@@ -1,0 +1,24 @@
+The evolution of the Internet during the last years, has lead to a dramatic
+increase of the size of its graph at the Autonomous System (AS) level. Soon -
+if not already - its size will make the latter impractical for use from the
+research community, e.g. for protocol testing. Reproducing a smaller size,
+snapshot of the AS graph is thus important. However, the first step towards
+this direction is to obtain the ability to faithfully reproduce the full AS
+topology. The objective of our work, is to create a generator able to
+accurately emulate and reproduce the distinctive properties of the Internet
+graph. Our approach is based on (a) the identification of the jellyfish-like
+structure [1] of the Internet and (b) the consideration of the peer-to-peer and
+customer-provider relations between ASs. We are the first to exploit the
+distinctive structure of the Internet graph together with utilizing the
+information provided by the AS relationships in order to create a tool with the
+aforementioned capabilities. Comparing our generator with the existing ones in
+the literature, the main difference is found on the fact that our tool does not
+try to satisfy specific metrics, but tries to remain faithful to the conceptual
+model of the Internet structure. In addition, our approach can lead to (i) the
+identification of important attributes and patterns in the Internet AS
+topology, as well as, (ii) the extraction of valuable information on the
+various relationships between ASs and their effect on the formulation of the
+Internet structure. We implement our graph generator and we evaluate it using
+the largest and most recent available dataset for the AS topology. Our
+evaluations, clearly show the ability of our tool to capture the structural
+properties of the Internet topology at the AS level with high accuracy.

@@ -1,0 +1,21 @@
+We have built a reliable and robust system that takes as input an
+astronomical image, and returns as output the pointing, scale, and orientation
+of that image (the astrometric calibration or WCS information). The system
+requires no first guess, and works with the information in the image pixels
+alone; that is, the problem is a generalization of the "lost in space" problem
+in which nothing--not even the image scale--is known. After robust source
+detection is performed in the input image, asterisms (sets of four or five
+stars) are geometrically hashed and compared to pre-indexed hashes to generate
+hypotheses about the astrometric calibration. A hypothesis is only accepted as
+true if it passes a Bayesian decision theory test against a background
+hypothesis. With indices built from the USNO-B Catalog and designed for
+uniformity of coverage and redundancy, the success rate is 99.9% for
+contemporary near-ultraviolet and visual imaging survey data, with no false
+positives. The failure rate is consistent with the incompleteness of the USNO-B
+Catalog; augmentation with indices built from the 2MASS Catalog brings the
+completeness to 100% with no false positives. We are using this system to
+generate consistent and standards-compliant meta-data for digital and digitized
+imaging from plate repositories, automated observatories, individual scientific
+investigators, and hobbyists. This is the first step in a program of making it
+possible to trust calibration meta-data for astronomical data of arbitrary
+provenance.

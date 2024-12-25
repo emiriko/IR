@@ -1,0 +1,20 @@
+Classical density functional theory (DFT) of fluids is a valuable tool to
+analyze inhomogeneous fluids. However, few numerical solution algorithms for
+three-dimensional systems exist. Here we present an efficient numerical scheme
+for fluids of charged, hard spheres that uses $\mathcal{O}(N\log N)$ operations
+and $\mathcal{O}(N)$ memory, where $N$ is the number of grid points. This
+system-size scaling is significant because of the very large $N$ required for
+three-dimensional systems. The algorithm uses fast Fourier transforms (FFT) to
+evaluate the convolutions of the DFT Euler-Lagrange equations and Picard
+(iterative substitution) iteration with line search to solve the equations. The
+pros and cons of this FFT/Picard technique are compared to those of alternative
+solution methods that use real-space integration of the convolutions instead of
+FFTs and Newton iteration instead of Picard. For the hard-sphere DFT we use
+Fundamental Measure Theory. For the electrostatic DFT we present two
+algorithms. One is for the \textquotedblleft bulk-fluid\textquotedblright
+functional of Rosenfeld [Y. Rosenfeld. \textit{J. Chem. Phys.} 98, 8126 (1993)]
+that uses $\mathcal{O}(N\log N)$ operations. The other is for the
+\textquotedblleft reference fluid density\textquotedblright (RFD) functional
+[D. Gillespie et al., J. Phys.: Condens. Matter 14, 12129 (2002)]. This
+functional is significantly more accurate than the bulk-fluid functional, but
+the RFD algorithm requires $\mathcal{O}(N^{2})$ operations.

@@ -1,0 +1,22 @@
+If we follow an asexually reproducing population through time, then the
+amount of time that has passed since the most recent common ancestor (MRCA) of
+all current individuals lived will change as time progresses. The resulting
+"MRCA age" process has been studied previously when the population has a
+constant large size and evolves via the diffusion limit of standard
+Wright--Fisher dynamics. For any population model, the sample paths of the MRCA
+age process are made up of periods of linear upward drift with slope +1
+punctuated by downward jumps. We build other Markov processes that have such
+paths from Poisson point processes on $\mathbb{R}_{++}\times\mathbb{R}_{++}$
+with intensity measures of the form $\lambda\otimes\mu$ where $\lambda$ is
+Lebesgue measure, and $\mu$ (the "family lifetime measure") is an arbitrary,
+absolutely continuous measure satisfying $\mu((0,\infty))=\infty$ and
+$\mu((x,\infty))<\infty$ for all $x>0$. Special cases of this construction
+describe the time evolution of the MRCA age in $(1+\beta)$-stable continuous
+state branching processes conditioned on nonextinction--a particular case of
+which, $\beta=1$, is Feller's continuous state branching process conditioned on
+nonextinction. As well as the continuous time process, we also consider the
+discrete time Markov chain that records the value of the continuous process
+just before and after its successive jumps. We find transition probabilities
+for both the continuous and discrete time processes, determine when these
+processes are transient and recurrent and compute stationary distributions when
+they exist.

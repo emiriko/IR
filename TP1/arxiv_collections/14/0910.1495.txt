@@ -1,0 +1,15 @@
+The Shannon entropy is a widely used summary statistic, for example, network
+traffic measurement, anomaly detection, neural computations, spike trains, etc.
+This study focuses on estimating Shannon entropy of data streams. It is known
+that Shannon entropy can be approximated by Reenyi entropy or Tsallis entropy,
+which are both functions of the p-th frequency moments and approach Shannon
+entropy as p->1.
+  Compressed Counting (CC) is a new method for approximating the p-th frequency
+moments of data streams. Our contributions include:
+  1) We prove that Renyi entropy is (much) better than Tsallis entropy for
+approximating Shannon entropy.
+  2) We propose the optimal quantile estimator for CC, which considerably
+improves the previous estimators.
+  3) Our experiments demonstrate that CC is indeed highly effective
+approximating the moments and entropies. We also demonstrate the crucial
+importance of utilizing the variance-bias trade-off.

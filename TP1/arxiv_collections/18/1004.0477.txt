@@ -1,0 +1,19 @@
+In recent years we have witnessed a move of the major industrial automation
+providers into the wireless domain. While most of these companies already offer
+wireless products for measurement and monitoring purposes, the ultimate goal is
+to be able to close feedback loops over wireless networks interconnecting
+sensors, computation devices, and actuators. In this paper we present a
+decentralized event-triggered implementation, over sensor/actuator networks, of
+centralized nonlinear controllers. Event-triggered control has been recently
+proposed as an alternative to the more traditional periodic execution of
+control tasks. In a typical event-triggered implementation, the control signals
+are kept constant until the violation of a condition on the state of the plant
+triggers the re-computation of the control signals. The possibility of reducing
+the number of re-computations, and thus of transmissions, while guaranteeing
+desired levels of performance makes event-triggered control very appealing in
+the context of sensor/actuator networks. In these systems the communication
+network is a shared resource and event-triggered implementations of control
+laws offer a flexible way to reduce network utilization. Moreover reducing the
+number of times that a feedback control law is executed implies a reduction in
+transmissions and thus a reduction in energy expenditures of battery powered
+wireless sensor nodes.

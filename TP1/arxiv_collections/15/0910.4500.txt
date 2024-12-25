@@ -1,0 +1,15 @@
+Until is a notoriously difficult temporal operator as it is both existential
+and universal at the same time: A until B holds at the current time instant w
+iff either B holds at w or there exists a time instant w' in the future at
+which B holds and such that A holds in all the time instants between the
+current one and w'. This "ambivalent" nature poses a significant challenge when
+attempting to give deduction rules for until. In this paper, in contrast, we
+make explicit this duality of until to provide well-behaved natural deduction
+rules for linear-time logics by introducing a new temporal operator that allows
+us to formalize the "history" of until, i.e., the "internal" universal
+quantification over the time instants between the current one and w'. This
+approach provides the basis for formalizing deduction systems for temporal
+logics endowed with the until operator. For concreteness, we give here a
+labeled natural deduction system for a linear-time logic endowed with the new
+operator and show that, via a proper translation, such a system is also sound
+and complete with respect to the linear temporal logic LTL with until.

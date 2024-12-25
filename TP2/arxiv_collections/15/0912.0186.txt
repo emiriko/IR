@@ -1,0 +1,13 @@
+A front end ASIC (BiCMOS-SiGe 0.35 \mum) has been developed within the
+framework of the MIMAC detector project, which aims at directional detection of
+non-baryonic Dark Matter. This search strategy requires 3D reconstruction of
+low energy (a few keV) tracks with a gaseous \muTPC. The development of this
+front end ASIC is a key point of the project, allowing the 3D track
+reconstruction. Each ASIC monitors 16 strips of pixels with charge
+preamplifiers and their time over threshold is provided in real time by current
+discriminators via two serializing LVDS links working at 320 MHz. The charge is
+summed over the 16 strips and provided via a shaper. These specifications have
+been chosen in order to build an auto triggered electronics. An acquisition
+board and the related software were developed in order to validate this
+methodology on a prototype chamber. The prototype detector presents an anode
+where 2 x 96 strips of pixels are monitored.

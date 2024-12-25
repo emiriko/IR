@@ -1,0 +1,13 @@
+Damping is defined through various terms such as energy loss per cycle (for
+cyclic tests), logarithmic decrement (for vibration tests), complex modulus,
+rise-time or spectrum ratio (for wave propagation analysis), etc. For numerical
+modeling purposes, another type of damping is frequently used : it is called
+Rayleigh damping. It is a very convenient way of accounting for damping in
+numerical models, although the physical or rheological meaning of this approach
+is not clear. A rheological model is proposed to be related to classical
+Rayleigh damping : it is a generalized Maxwell model with three parameters. For
+moderate damping (<25%), this model perfectly coincide with Rayleigh damping
+approach since internal friction has the same expression in both cases and
+dispersive phenomena are negligible. This is illustrated by finite element
+(Rayleigh damping) and analytical (generalized Maxwell model) results in a
+simple one-dimensional case.

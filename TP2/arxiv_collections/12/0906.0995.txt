@@ -1,0 +1,24 @@
+The development of fast and accurate methods of photometric redshift
+estimation is a vital step towards being able to fully utilize the data of
+next-generation surveys within precision cosmology. In this paper we apply a
+specific approach to spectral connectivity analysis (SCA; Lee & Wasserman 2009)
+called diffusion map. SCA is a class of non-linear techniques for transforming
+observed data (e.g., photometric colours for each galaxy, where the data lie on
+a complex subset of p-dimensional space) to a simpler, more natural coordinate
+system wherein we apply regression to make redshift predictions. As SCA relies
+upon eigen-decomposition, our training set size is limited to ~ 10,000
+galaxies; we use the Nystrom extension to quickly estimate diffusion
+coordinates for objects not in the training set. We apply our method to 350,738
+SDSS main sample galaxies, 29,816 SDSS luminous red galaxies, and 5,223
+galaxies from DEEP2 with CFHTLS ugriz photometry. For all three datasets, we
+achieve prediction accuracies on par with previous analyses, and find that use
+of the Nystrom extension leads to a negligible loss of prediction accuracy
+relative to that achieved with the training sets. As in some previous analyses
+(e.g., Collister & Lahav 2004, Ball et al. 2008), we observe that our
+predictions are generally too high (low) in the low (high) redshift regimes. We
+demonstrate that this is a manifestation of attenuation bias, wherein
+measurement error (i.e., uncertainty in diffusion coordinates due to
+uncertainty in the measured fluxes/magnitudes) reduces the slope of the
+best-fit regression line. Mitigation of this bias is necessary if we are to use
+photometric redshift estimates produced by computationally efficient empirical
+methods in precision cosmology.

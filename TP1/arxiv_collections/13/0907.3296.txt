@@ -1,0 +1,20 @@
+Time-frequency analysis, such as the Gabor transform, plays an important role
+in many signal processing applications. The redundancy of such representations
+is often directly related to the computational load of any algorithm operating
+in the transform domain. To reduce complexity, it may be desirable to increase
+the time and frequency sampling intervals beyond the point where the transform
+is invertible, at the cost of an inevitable recovery error. In this paper we
+initiate the study of recovery procedures for non-invertible Gabor
+representations. We propose using fixed analysis and synthesis windows, chosen
+e.g. according to implementation constraints, and to process the Gabor
+coefficients prior to synthesis in order to shape the reconstructed signal. We
+develop three methods to tackle this problem. The first follows from the
+consistency requirement, namely that the recovered signal has the same Gabor
+representation as the input signal. The second, is based on the minimization of
+a worst-case error criterion. Last, we develop a recovery technique based on
+the assumption that the input signal lies in some subspace of $L_2$. We show
+that for each of the criteria, the manipulation of the transform coefficients
+amounts to a 2D twisted convolution operation, which we show how to perform
+using a filter-bank. When the under-sampling factor is an integer, the
+processing reduces to standard 2D convolution. We provide simulation results to
+demonstrate the advantages and weaknesses of each of the algorithms.

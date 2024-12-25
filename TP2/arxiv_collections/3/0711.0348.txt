@@ -1,0 +1,9 @@
+This paper proposes an environment to support high-level database programming
+in a declarative programming language. In order to ensure safe database
+updates, all access and update operations related to the database are generated
+from high-level descriptions in the entity- relationship (ER) model. We propose
+a representation of ER diagrams in the declarative language Curry so that they
+can be constructed by various tools and then translated into this
+representation. Furthermore, we have implemented a compiler from this
+representation into a Curry program that provides access and update operations
+based on a high-level API for database programming.

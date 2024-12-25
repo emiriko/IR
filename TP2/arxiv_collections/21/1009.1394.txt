@@ -1,0 +1,13 @@
+Cosmological parameter uncertainties are often stated assuming a particular
+model, neglecting the model uncertainty, even when Bayesian model selection is
+unable to identify a conclusive best model. Bayesian model averaging is a
+method for assessing parameter uncertainties in situations where there is also
+uncertainty in the underlying model. We apply model averaging to the estimation
+of the parameters associated with the primordial power spectra of curvature and
+tensor perturbations. We use CosmoNest and MultiNest to compute the model
+Evidences and posteriors, using cosmic microwave data from WMAP, ACBAR,
+BOOMERanG and CBI, plus large-scale structure data from the SDSS DR7. We find
+that the model-averaged 95% credible interval for the spectral index using all
+of the data is 0.940 < n_s < 1.000, where n_s is specified at a pivot scale
+0.015 Mpc^{-1}. For the tensors model averaging can tighten the credible upper
+limit, depending on prior assumptions.

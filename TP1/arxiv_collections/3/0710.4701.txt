@@ -1,0 +1,13 @@
+This paper presents a scheme for efficient channel usage between simulator
+and accelerator where the accelerator models some RTL sub-blocks in the
+accelerator-based hardware/software co-simulation while the simulator runs
+transaction-level model of the remaining part of the whole chip being verified.
+With conventional simulation accelerator, evaluations of simulator and
+accelerator alternate at every valid simulation time, which results in poor
+simulation performance due to startup overhead of simulator-accelerator channel
+access. The startup overhead can be reduced by merging multiple transactions on
+the channel into a single burst traffic. We propose a predictive packetizing
+scheme for reducing channel traffic by merging as many transactions into a
+burst traffic as possible based on 'prediction and rollback.' Under ideal
+condition with 100% prediction accuracy, the proposed method shows a
+performance gain of 1500% compared to the conventional one.

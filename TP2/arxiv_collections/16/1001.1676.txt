@@ -1,0 +1,14 @@
+Reliable population of the condition databases is critical for the correct
+operation of the online selection as well as of the offline reconstruction and
+analysis of data. We will describe here the system put in place in the CMS
+experiment to populate the database and make condition data promptly available
+both online for the high-level trigger and offline for reconstruction. The
+system, designed for high flexibility to cope with very different data sources,
+uses POOL-ORA technology in order to store data in an object format that best
+matches the object oriented paradigm for \texttt{C++} programming language used
+in the CMS offline software. In order to ensure consistency among the various
+subdetectors, a dedicated package, PopCon (Populator of Condition Objects), is
+used to store data online. The data are then automatically streamed to the
+offline database hence immediately accessible offline worldwide. This mechanism
+was intensively used during 2008 in the test-runs with cosmic rays. The
+experience of this first months of operation will be discussed in detail.

@@ -1,0 +1,12 @@
+We introduce a new protocol for prediction with expert advice in which each
+expert evaluates the learner's and his own performance using a loss function
+that may change over time and may be different from the loss functions used by
+the other experts. The learner's goal is to perform better or not much worse
+than each expert, as evaluated by that expert, for all experts simultaneously.
+If the loss functions used by the experts are all proper scoring rules and all
+mixable, we show that the defensive forecasting algorithm enjoys the same
+performance guarantee as that attainable by the Aggregating Algorithm in the
+standard setting and known to be optimal. This result is also applied to the
+case of "specialist" (or "sleeping") experts. In this case, the defensive
+forecasting algorithm reduces to a simple modification of the Aggregating
+Algorithm.

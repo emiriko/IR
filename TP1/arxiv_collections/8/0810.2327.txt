@@ -1,0 +1,23 @@
+Every sufficiently rich set of measurements on a fixed quantum system defines
+a statistical norm on the states of that system via the optimal bias that can
+be achieved in distinguishing the states using measurements from that set
+(assuming equal priors). The Holevo-Helstrom theorem says that for the set of
+all measurements this norm is the trace norm. For finite dimension any norm is
+lower and upper bounded by constant (though dimension dependent) multiples of
+the trace norm, so we set ourselves the task of computing or bounding the best
+possible "constants of domination" for the norms corresponding to various
+restricted sets of measurements, thereby determining the worst case and best
+case performance of these sets relative to the set of all measurements.
+  We look at the case where the allowed set consists of a single measurement,
+namely the uniformly random continuous POVM and its approximations by 2-designs
+and 4-designs respectively. Here we find asymptotically tight bounds for the
+constants of domination.
+  Furthermore, we analyse the multipartite setting with any LOCC measurement
+allowed. In the case of two parties, we show that the lower domination constant
+is the same as that of a tensor product of local uniformly random POVMs (up to
+a constant). This answers in the affirmative an open question about the
+(near-)optimality of bipartite data hiding: The bias that can be achieved by
+LOCC in discriminating two orthogonal states of a d x d bipartite system is
+Omega(1/d), which is known to be tight. Finally, we use our analysis to derive
+certainty relations (in the sense of Sanchez-Ruiz) for any such measurements
+and to lower bound the locally accessible information for bipartite systems.

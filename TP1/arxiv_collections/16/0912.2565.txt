@@ -1,0 +1,17 @@
+In this paper we study polynomial identity testing of sums of $k$ read-once
+algebraic branching programs ($\Sigma_k$-RO-ABPs), generalizing the work in
+(Shpilka and Volkovich 2008,2009), who considered sums of $k$ read-once
+formulas ($\Sigma_k$-RO-formulas). We show that $\Sigma_k$-RO-ABPs are strictly
+more powerful than $\Sigma_k$-RO-formulas, for any $k \leq \lfloor n/2\rfloor$,
+where $n$ is the number of variables. We obtain the following results:
+  1) Given free access to the RO-ABPs in the sum, we get a deterministic
+algorithm that runs in time $O(k^2n^7s) + n^{O(k)}$, where $s$ bounds the size
+of any largest RO-ABP given on the input. This implies we have a deterministic
+polynomial time algorithm for testing whether the sum of a constant number of
+RO-ABPs computes the zero polynomial.
+  2) Given black-box access to the RO-ABPs computing the individual polynomials
+in the sum, we get a deterministic algorithm that runs in time $k^2n^{O(\log
+n)} + n^{O(k)}$.
+  3) Finally, given only black-box access to the polynomial computed by the sum
+of the $k$ RO-ABPs, we obtain an $n^{O(k + \log n)}$ time deterministic
+algorithm.

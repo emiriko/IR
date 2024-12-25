@@ -1,0 +1,17 @@
+Intrusion Detection Systems (ids)provide an important layer of security for
+computer systems and networks, and are becoming more and more necessary as
+reliance on Internet services increases and systems with sensitive data are
+more commonly open to Internet access. An ids responsibility is to detect
+suspicious or unacceptable system and network activity and to alert a systems
+administrator to this activity. The majority of ids use a set of signatures
+that define what suspicious traffic is, and Snort is one popular and actively
+developing open-source ids that uses such a set of signatures known as Snort
+rules. Our aim is to identify a way in which Snort could be developed further
+by generalising rules to identify novel attacks. In particular, we attempted to
+relax and vary the conditions and parameters of current Snort rules, using a
+similar approach to classic rule learning operators such as generalisation and
+specialisation. We demonstrate the effectiveness of our approach through
+experiments with standard datasets and show that we are able to detect
+previously undeleted variants of various attacks. We conclude by discussing the
+general effectiveness and appropriateness of generalisation in Snort based ids
+rule processing.

@@ -1,0 +1,10 @@
+This work originates from a heart's images tracking which is to generate an
+apparent continuous motion, observable through intensity variation from one
+starting image to an ending one both supposed segmented. Given two images p0
+and p1, we calculate an evolution process p(t, \cdot) which transports p0 to p1
+by using the optimal extended optical flow. In this paper we propose an
+algorithm based on a fixed point formulation and a time-space least squares
+formulation of the mass conservation equation for computing the optimal mass
+transport problem. The strategy is implemented in a 2D case and numerical
+results are presented with a first order Lagrange finite element, showing the
+efficiency of the proposed strategy.

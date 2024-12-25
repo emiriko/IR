@@ -1,0 +1,20 @@
+A fast trigger system is being designed as a potential upgrade to VERITAS, or
+as the basis for a future array of imaging atmospheric-Cherenkov telescopes
+such as AGIS. The scientific goal is a reduction of the energy threshold by a
+factor of 2 over the current threshold of VERITAS of around 130 GeV. The
+trigger is being designed to suppress both accidentals from the night-sky
+background and cosmic rays. The trigger uses field-programmable gate arrays
+(FPGAs) so that it is adaptable to different observing modes and special
+physics triggers, e.g. pulsars. The trigger consists of three levels: The level
+1 (L1.5) trigger operating on each telescope camera samples the discriminated
+pixels at a rate of 400 MHz and searches for nearest-neighbor coincidences. In
+L1.5, the received discriminated signals are delay-compensated with an accuracy
+of 0.078 ns, facilitating a short coincidence time-window between any nearest
+neighbor of 5 ns. The hit pixels are then sent to a second trigger level (L2)
+that parameterizes the image shape and transmits this information along with a
+GPS time stamp to the array-level trigger (L3) at a rate of 10 MHz via a fiber
+optic link. The FPGA-based event analysis on L3 searches for coincident
+time-stamps from multiple telescopes and carries out a comparison of the image
+parameters against a look-up table at a rate of 10 kHz. A test of the
+single-telescope trigger was carried out in spring 2009 on one VERITAS
+telescope.

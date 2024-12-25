@@ -1,0 +1,16 @@
+We consider the models Y_{i,n}=\int_0^{i/n}
+\sigma(s)dW_s+\tau(i/n)\epsilon_{i,n}, and \tilde
+Y_{i,n}=\sigma(i/n)W_{i/n}+\tau(i/n)\epsilon_{i,n}, i=1,...,n, where W_t
+denotes a standard Brownian motion and \epsilon_{i,n} are centered i.i.d.
+random variables with E(\epsilon_{i,n}^2)=1 and finite fourth moment.
+Furthermore, \sigma and \tau are unknown deterministic functions and W_t and
+(\epsilon_{1,n},...,\epsilon_{n,n}) are assumed to be independent processes.
+Based on a spectral decomposition of the covariance structures we derive series
+estimators for \sigma^2 and \tau^2 and investigate their rate of convergence of
+the MISE in dependence of their smoothness. To this end specific basis
+functions and their corresponding Sobolev ellipsoids are introduced and we show
+that our estimators are optimal in minimax sense. Our work is motivated by
+microstructure noise models. Our major finding is that the microstructure noise
+\epsilon_{i,n} introduces an additionally degree of ill-posedness of 1/2;
+irrespectively of the tail behavior of \epsilon_{i,n}. The method is
+illustrated by a small numerical study.

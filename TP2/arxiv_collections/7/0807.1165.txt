@@ -1,0 +1,22 @@
+We consider two-player games played in real time on game structures with
+clocks and parity objectives. The games are concurrent in that at each turn,
+both players independently propose a time delay and an action, and the action
+with the shorter delay is chosen. To prevent a player from winning by blocking
+time, we restrict each player to strategies that ensure that the player cannot
+be responsible for causing a zeno run. First, we present an efficient reduction
+of these games to turn-based (i.e., nonconcurrent) finite-state (i.e., untimed)
+parity games. The states of the resulting game are pairs of clock regions of
+the original game. Our reduction improves the best known complexity for solving
+timed parity games. Moreover, the rich class of algorithms for classical parity
+games can now be applied to timed parity games.
+  Second, we consider two restricted classes of strategies for the player that
+represents the controller in a real-time synthesis problem, namely,
+limit-robust and bounded-robust strategies. Using a limit-robust strategy, the
+controller cannot choose an exact real-valued time delay but must allow for
+some nonzero jitter in each of its actions. If there is a given lower bound on
+the jitter, then the strategy is bounded-robust. We show that exact strategies
+are more powerful than limit-robust strategies, which are more powerful than
+bounded-robust strategies for any bound. For both kinds of robust strategies,
+we present efficient reductions to standard timed automaton games. These
+reductions provide algorithms for the synthesis of robust real-time
+controllers.

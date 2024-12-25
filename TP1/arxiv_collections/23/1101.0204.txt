@@ -1,0 +1,23 @@
+Transmit power control in wireless networks has long been recognized as an
+effective mechanism to mitigate co-channel interference. Due to the highly
+non-convex nature, optimal power control is known to be difficult to achieve if
+a system utility is to be maximized. To date, there does not yet exist a
+distributed power control algorithm that maximizes any form of system utility,
+despite the importance of distributed implementation for the wireless
+infrastructureless networks such as ad hoc and sensor networks. This paper
+fills this gap by developing a Gibbs Sampling based Asynchronous distributed
+power control algorithm (referred to as GLAD). The proposed algorithm quickly
+converges to the global optimal solution regardless of the concavity,
+continuity, differentiability and monotonicity of the utility function. Same as
+other existing distributed power control algorithms, GLAD requires extensive
+message passing among all users in the network, which leads to high signaling
+overhead and high processing complexity. To address this issue, this paper
+further proposes a variant of the GLAD algorithm, referred to as I-GLAD, where
+the prefix "I" stands for infrequent message passing. The convergence of I-GLAD
+can be proved regardless of the reduction in the message passing rate. To
+further reduce the processing complexity at each transmitter, we develop an
+enhanced version of I-GLAD, referred to as NI-GLAD, where only the control
+messages from the neighboring links are processed. Our simulation results show
+that I-GLAD approximately converges to the global optimal solution regardless
+of the type of the system utility function. Meanwhile, the optimality of the
+solution obtained by NI-GLAD depends on the selection of the neighborhood size.

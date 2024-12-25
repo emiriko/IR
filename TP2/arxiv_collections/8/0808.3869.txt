@@ -1,0 +1,15 @@
+We investigate the performance of the recently proposed stationary
+Fokker-Planck sampling method considering a combinatorial optimization problem
+from statistical physics. The algorithmic procedure relies upon the numerical
+solution of a linear second order differential equation that depends on a
+diffusion-like parameter D. We apply it to the problem of finding ground states
+of 2d Ising spin glasses for the +-J-Model. We consider square lattices with
+side length up to L=24 with two different types of boundary conditions and
+compare the results to those obtained by exact methods.
+  A particular value of D is found that yields an optimal performance of the
+algorithm. We compare this optimal value of D to a percolation transition,
+which occurs when studying the connected clusters of spins flipped by the
+algorithm. Nevertheless, even for moderate lattice sizes, the algorithm has
+more and more problems to find the exact ground states. This means that the
+approach, at least in its standard form, seems to be inferior to other
+approaches like parallel tempering.

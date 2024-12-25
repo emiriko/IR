@@ -1,0 +1,18 @@
+A boundary element implementation of the regularised Stokeslet method of
+Cortez is applied to cilia and flagella-driven flows in biology.
+Previously-published approaches implicitly combine the force discretisation and
+the numerical quadrature used to evaluate boundary integrals. By contrast, a
+boundary element method can be implemented by discretising the force using
+basis functions, and calculating integrals using accurate numerical or analytic
+integration. This substantially weakens the coupling of the mesh size for the
+force and the regularisation parameter, and greatly reduces the number of
+degrees of freedom required. When modelling a cilium or flagellum as a
+one-dimensional filament, the regularisation parameter can be considered a
+proxy for the body radius, as opposed to being a parameter used to minimise
+numerical errors. Modelling a patch of cilia, it is found that: (1) For a fixed
+number of cilia, reducing cilia spacing reduces transport. (2) For fixed patch
+dimension, increasing cilia number increases the transport, up to a plateau at
+$9\times 9$ cilia. Modelling a choanoflagellate cell it is found that the
+presence of a lorica structure significantly affects transport and flow outside
+the lorica, but does not significantly alter the force experienced by the
+flagellum.

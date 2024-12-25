@@ -1,0 +1,12 @@
+Many communication channels with discrete input have non-uniform capacity
+achieving probability mass functions (PMF). By parsing a stream of independent
+and equiprobable bits according to a full prefix-free code, a modu-lator can
+generate dyadic PMFs at the channel input. In this work, we show that for
+discrete memoryless channels and for memoryless discrete noiseless channels,
+searching for good dyadic input PMFs is equivalent to minimizing the
+Kullback-Leibler distance between a dyadic PMF and a weighted version of the
+capacity achieving PMF. We define a new algorithm called Geometric Huffman
+Coding (GHC) and prove that GHC finds the optimal dyadic PMF in O(m \log m)
+steps where m is the number of input symbols of the considered channel.
+Furthermore, we prove that by generating dyadic PMFs of blocks of consecutive
+input symbols, GHC achieves capacity when the block length goes to infinity.

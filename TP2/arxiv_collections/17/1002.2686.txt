@@ -1,0 +1,11 @@
+A Data Warehouse stores integrated information as materialized views over
+data from one or more remote sources. These materialized views must be
+maintained in response to actual relation updates in the remote sources. The
+data warehouse view maintenance techniques are classified into four major
+categories self maintainable recomputation, not self maintainable
+recomputation, self maintainable incremental maintenance, and not self
+maintainable incremental maintenance. This paper provides a comprehensive
+comparison of the techniques in these four categories in terms of the data
+warehouse space usage and number of rows accessed in order to propagate an
+update from a remote data source to a target materialized view in the data
+warehouse.

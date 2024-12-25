@@ -1,0 +1,14 @@
+As the penetration of intermittent energy sources grows substantially, loads
+will be required to play an increasingly important role in compensating the
+fast time-scale fluctuations in generated power. Recent numerical modeling of
+thermostatically controlled loads (TCLs) has demonstrated that such load
+following is feasible, but analytical models that satisfactorily quantify the
+aggregate power consumption of a group of TCLs are desired to enable controller
+design. We develop such a model for the aggregate power response of a
+homogeneous population of TCLs to uniform variation of all TCL setpoints. A
+linearized model of the response is derived, and a linear quadratic regulator
+(LQR) has been designed. Using the TCL setpoint as the control input, the LQR
+enables aggregate power to track reference signals that exhibit step, ramp and
+sinusoidal variations. Although much of the work assumes a homogeneous
+population of TCLs with deterministic dynamics, we also propose a method for
+probing the dynamics of systems where load characteristics are not well known.

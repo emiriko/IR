@@ -1,0 +1,16 @@
+We propose an approach on model checking information flow for imperative
+language with procedures. We characterize our model with pushdown system, which
+has a stack of unbounded length that naturally models the execution of
+procedural programs. Because the type-based static analysis is sometimes too
+conservative and rejects safe program as ill-typed, we take a semantic-based
+approach by self-composing symbolic pushdown system and specifying
+noninterference with LTL formula. Then we verify this LTL-expressed property
+via model checker Moped. Except for overcoming the conservative characteristic
+of type-based approach, our motivation also includes the insufficient state of
+arts on precise information flow analysis under inter-procedural setting. To
+remedy the inefficiency of model checking compared with type system, we propose
+both compact form and contracted form of self-composition. According to our
+experimental results, they can greatly increase the efficiency of realistic
+verification. Our method provides flexibility on separating program abstraction
+from noninterference verification, thus could be expected to use on different
+programming languages.

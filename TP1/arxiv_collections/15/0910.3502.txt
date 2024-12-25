@@ -1,0 +1,8 @@
+In dealing with thermal transport in composite systems, high contrast
+materials pose a special problem for numerical simulation: the time scale or
+step size in the high conductivity material must be much smaller than in the
+low conductivity material. In the limit that the higher conductivity inclusion
+can be treated as having an infinite conductivity, we show how a standard
+random walk algorithm can be alterred to improve speed while still preserving
+the second law of thermodynamics. We demonstrate the principle in a 1D system,
+and then apply it to 3D composites with spherical inclusions.

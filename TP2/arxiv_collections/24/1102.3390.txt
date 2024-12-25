@@ -1,0 +1,18 @@
+Linear Programming (LP) decoding is emerging as an attractive alternative to
+decode Low-Density Parity-Check (LDPC) codes. However, the earliest LP decoders
+proposed for binary and nonbinary LDPC codes are not suitable for use at
+moderate and large code lengths. To overcome this problem, Vontobel et al.
+developed an iterative Low-Complexity LP (LCLP) decoding algorithm for binary
+LDPC codes. The variable and check node calculations of binary LCLP decoding
+algorithm are related to those of binary Belief Propagation (BP). The present
+authors generalized this work to derive an iterative LCLP decoding algorithm
+for nonbinary linear codes. Contrary to binary LCLP, the variable and check
+node calculations of this algorithm are in general different from that of
+nonbinary BP. The overall complexity of nonbinary LCLP decoding is linear in
+block length; however the complexity of its check node calculations is
+exponential in the check node degree. In this paper, we propose a modified BCJR
+algorithm for efficient check node processing in the nonbinary LCLP decoding
+algorithm. The proposed algorithm has complexity linear in the check node
+degree. We also introduce an alternative state metric to improve the run time
+of the proposed algorithm. Simulation results are presented for $(504, 252)$
+and $(1008, 504)$ nonbinary LDPC codes over $\mathbb{Z}_4$.

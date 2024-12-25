@@ -1,0 +1,19 @@
+Formal verification using the model checking paradigm has to deal with two
+aspects: The system models are structured, often as products of components, and
+the specification logic has to be expressive enough to allow the formalization
+of reachability properties. The present paper is a study on what can be
+achieved for infinite transition systems under these premises. As models we
+consider products of infinite transition systems with different synchronization
+constraints. We introduce finitely synchronized transition systems, i.e.
+product systems which contain only finitely many (parameterized) synchronized
+transitions, and show that the decidability of FO(R), first-order logic
+extended by reachability predicates, of the product system can be reduced to
+the decidability of FO(R) of the components. This result is optimal in the
+following sense: (1) If we allow semifinite synchronization, i.e. just in one
+component infinitely many transitions are synchronized, the FO(R)-theory of the
+product system is in general undecidable. (2) We cannot extend the expressive
+power of the logic under consideration. Already a weak extension of first-order
+logic with transitive closure, where we restrict the transitive closure
+operators to arity one and nesting depth two, is undecidable for an
+asynchronous (and hence finitely synchronized) product, namely for the infinite
+grid.

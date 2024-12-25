@@ -1,0 +1,15 @@
+In transport calculations for molecular junctions based on density functional
+theory the choice of exchange and correlation functional may dramatically
+affect the results. In particular local and semi-local functionals tend to
+over-delocalize the molecular levels thus artificially increasing their
+broadening. In addition the same molecular levels are usually misplaced with
+respect to the Fermi level of the electrodes. These shortfalls are reminiscent
+of the inability of local functionals to describe Mott-Hubbard insulators, but
+they can be corrected with a simple and computationally undemanding
+self-interaction correction scheme. We apply such a scheme, as implemented in
+our transport code Smeagol, to a variety of phenyl-based molecular junctions
+attached to gold electrodes. In general the corrections reduce the current,
+since the resonant Kohn-Sham states of the molecule are shifted away from the
+contact Fermi level. In contrast, when the junction is already described as
+insulating by local exchange and correlation potentials, the corrections are
+minimal and the I-V is only weakly modified.

@@ -1,0 +1,11 @@
+This paper is to create a practical steganographic implementation for 4-bit
+images.The proposed technique converts 4 bit image into 4 shaded Gray Scale
+image. This image will be act as reference image to hide the text. Using this
+grey scale reference image any text can be hidden. Single character of a text
+can be represented by 8-bit. The 8-bit character can be split into 4X2 bit
+information. If the reference image and the data file are transmitted through
+network separately, we can achieve the effect of Steganography. Here the image
+is not at all distorted because said image is only used for referencing. Any
+huge mount of text material can be hidden using a very small image. Decipher
+the text is not possible intercepting the image or data file separately. So, it
+is more secure.

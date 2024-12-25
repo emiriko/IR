@@ -1,0 +1,22 @@
+This paper describes how to make the problem of binary classification
+amenable to quantum computing. A formulation is employed in which the binary
+classifier is constructed as a thresholded linear superposition of a set of
+weak classifiers. The weights in the superposition are optimized in a learning
+process that strives to minimize the training error as well as the number of
+weak classifiers used. No efficient solution to this problem is known. To bring
+it into a format that allows the application of adiabatic quantum computing
+(AQC), we first show that the bit-precision with which the weights need to be
+represented only grows logarithmically with the ratio of the number of training
+examples to the number of weak classifiers. This allows to effectively
+formulate the training process as a binary optimization problem. Solving it
+with heuristic solvers such as tabu search, we find that the resulting
+classifier outperforms a widely used state-of-the-art method, AdaBoost, on a
+variety of benchmark problems. Moreover, we discovered the interesting fact
+that bit-constrained learning machines often exhibit lower generalization error
+rates. Changing the loss function that measures the training error from 0-1
+loss to least squares maps the training to quadratic unconstrained binary
+optimization. This corresponds to the format required by D-Wave's
+implementation of AQC. Simulations with heuristic solvers again yield results
+better than those obtained with boosting approaches. Since the resulting
+quadratic binary program is NP-hard, additional gains can be expected from
+applying the actual quantum processor.

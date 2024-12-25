@@ -1,0 +1,10 @@
+Compressive sampling offers a new paradigm for acquiring signals that are
+compressible with respect to an orthonormal basis. The major algorithmic
+challenge in compressive sampling is to approximate a compressible signal from
+noisy samples. This paper describes a new iterative recovery algorithm called
+CoSaMP that delivers the same guarantees as the best optimization-based
+approaches. Moreover, this algorithm offers rigorous bounds on computational
+cost and storage. It is likely to be extremely efficient for practical problems
+because it requires only matrix-vector multiplies with the sampling matrix. For
+many cases of interest, the running time is just O(N*log^2(N)), where N is the
+length of the signal.

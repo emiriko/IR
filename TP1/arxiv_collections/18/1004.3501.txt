@@ -1,0 +1,16 @@
+Molecular-dynamics algorithms for systems of particles interacting through
+discrete or "hard" potentials are fundamentally different to the methods for
+continuous or "soft" potential systems. Although many software packages have
+been developed for continuous potential systems, software for discrete
+potential systems based on event-driven algorithms are relatively scarce and
+specialized. We present DynamO, a general event-driven simulation package which
+displays the optimal O(N) asymptotic scaling of the computational cost with the
+number of particles N, rather than the O(N log(N)) scaling found in most
+standard algorithms. DynamO provides reference implementations of the best
+available event-driven algorithms. These techniques allow the rapid simulation
+of both complex and large (>10^6 particles) systems for long times. The
+performance of the program is benchmarked for elastic hard sphere systems,
+homogeneous cooling and sheared inelastic hard spheres, and equilibrium
+Lennard-Jones fluids. This software and its documentation are distributed under
+the GNU General Public license and can be freely downloaded from
+http://marcusbannerman.co.uk/dynamo .

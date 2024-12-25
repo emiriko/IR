@@ -1,0 +1,13 @@
+Let $\Phi_n$ be an i.i.d. sequence of Lipschitz mappings of $\R^d$. We study
+the Markov chain $\{X_n^x\}_{n=0}^\infty$ on $\R^d$ defined by the recursion
+$X_n^x = \Phi_n(X^x_{n-1})$, $n\in\N$, $X_0^x=x\in\R^d$. We assume that
+$\Phi_n(x)=\Phi(A_n x,B_n(x))$ for a fixed continuous function $\Phi:\R^d\times
+\R^d\to\R^d$, commuting with dilations and i.i.d random pairs $(A_n,B_n)$,
+where $A_n\in {End}(\R^d)$ and $B_n$ is a continuous mapping of $\R^d$.
+Moreover, $B_n$ is $\alpha$-regularly varying and $A_n$ has a faster decay at
+infinity than $B_n$. We prove that the stationary measure $\nu$ of the Markov
+chain $\{X_n^x\}$ is $\alpha$-regularly varying. Using this result we show
+that, if $\alpha<2$, the partial sums $S_n^x=\sum_{k=1}^n X_k^x$, appropriately
+normalized, converge to an $\alpha$-stable random variable. In particular, we
+obtain new results concerning the random coefficient autoregressive process
+$X_n = A_n X_{n-1}+B_n$.

@@ -1,0 +1,21 @@
+This paper describes a methodology for detecting anomalies from sequentially
+observed and potentially noisy data. The proposed approach consists of two main
+elements: (1) {\em filtering}, or assigning a belief or likelihood to each
+successive measurement based upon our ability to predict it from previous noisy
+observations, and (2) {\em hedging}, or flagging potential anomalies by
+comparing the current belief against a time-varying and data-adaptive
+threshold. The threshold is adjusted based on the available feedback from an
+end user. Our algorithms, which combine universal prediction with recent work
+on online convex programming, do not require computing posterior distributions
+given all current observations and involve simple primal-dual parameter
+updates. At the heart of the proposed approach lie exponential-family models
+which can be used in a wide variety of contexts and applications, and which
+yield methods that achieve sublinear per-round regret against both static and
+slowly varying product distributions with marginals drawn from the same
+exponential family. Moreover, the regret against static distributions coincides
+with the minimax value of the corresponding online strongly convex game. We
+also prove bounds on the number of mistakes made during the hedging step
+relative to the best offline choice of the threshold with access to all
+estimated beliefs and feedback signals. We validate the theory on synthetic
+data drawn from a time-varying distribution over binary vectors of high
+dimensionality, as well as on the Enron email dataset.

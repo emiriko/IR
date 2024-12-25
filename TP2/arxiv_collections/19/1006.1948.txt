@@ -1,0 +1,12 @@
+Multiple rotation-based transformation (MRBT) was introduced recently for
+mitigating the apriori-knowledge independent component analysis (AK-ICA) attack
+on rotation-based transformation (RBT), which is used for privacy-preserving
+data clustering. MRBT is shown to mitigate the AK-ICA attack but at the expense
+of data utility by not enabling conventional clustering. In this paper, we
+extend the MRBT scheme and introduce an augmented rotation-based transformation
+(ARBT) scheme that utilizes linearity of transformation and that both mitigates
+the AK-ICA attack and enables conventional clustering on data subsets
+transformed using the MRBT. In order to demonstrate the computational
+feasibility aspect of ARBT along with RBT and MRBT, we develop a toolkit and
+use it to empirically compare the different schemes of privacy-preserving data
+clustering based on data transformation in terms of their overhead and privacy.

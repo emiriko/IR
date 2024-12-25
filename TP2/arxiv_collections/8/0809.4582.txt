@@ -1,0 +1,19 @@
+In this paper, a Gaifman-Shapiro-style module architecture is tailored to the
+case of Smodels programs under the stable model semantics. The composition of
+Smodels program modules is suitably limited by module conditions which ensure
+the compatibility of the module system with stable models. Hence the semantics
+of an entire Smodels program depends directly on stable models assigned to its
+modules. This result is formalized as a module theorem which truly strengthens
+Lifschitz and Turner's splitting-set theorem for the class of Smodels programs.
+To streamline generalizations in the future, the module theorem is first proved
+for normal programs and then extended to cover Smodels programs using a
+translation from the latter class of programs to the former class. Moreover,
+the respective notion of module-level equivalence, namely modular equivalence,
+is shown to be a proper congruence relation: it is preserved under
+substitutions of modules that are modularly equivalent. Principles for program
+decomposition are also addressed. The strongly connected components of the
+respective dependency graph can be exploited in order to extract a module
+structure when there is no explicit a priori knowledge about the modules of a
+program. The paper includes a practical demonstration of tools that have been
+developed for automated (de)composition of Smodels programs.
+  To appear in Theory and Practice of Logic Programming.

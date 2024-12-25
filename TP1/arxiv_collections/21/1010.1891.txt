@@ -1,0 +1,15 @@
+GPS-derived ZTD (Zenith Tropospheric Delay) plays a key role in near
+real-time weather forecasting, especially in improving the precision of
+Numerical Weather Prediction (NWP) models. The ZTD is usually estimated using
+the first-order Gauss-Markov process with a fairly large correlation, and under
+the assumption that all the GPS measurements, carrier phases or pseudo-ranges,
+have the same accuracy. However, these assumptions are unrealistic. This paper
+aims to investigate the impact of several stochastic modeling methods on
+GPS-derived ZTD estimations using Australian IGS data. The results show that
+the accuracy of GPS-derived ZTD can be improved using a suitable stochastic
+model for the GPS measurements. The stochastic model using satellite elevation
+angle-based cosine function is better than other investigated stochastic
+models. It is noted that, when different stochastic modeling strategies are
+used, the variations in estimated ZTD can reach as much as 1cm. This
+improvement of ZTD estimation is certainly critical for reliable NWP and other
+tropospheric delay corrections.

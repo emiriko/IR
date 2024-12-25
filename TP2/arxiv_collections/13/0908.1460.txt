@@ -1,0 +1,16 @@
+We describe a new algorithm for the integration of self-gravitating fluid
+systems using SPH method. We split the Hamiltonian of a self-gravitating fluid
+system to the gravitational potential and others (kinetic and internal
+energies) and use different time-steps for their integrations. The time
+integration is done in the way similar to that used in the mixed variable or
+multiple stepsize symplectic schemes. We performed three test calculations. One
+was the spherical collapse and the other was an explosion. We also performed a
+realistic test, in which the initial model was taken from a simulation of
+merging galaxies. In all test calculations, we found that the number of
+time-steps for gravitational interaction were reduced by nearly an order of
+magnitude when we adopted our integration method. In the case of the realistic
+test, in which the dark matter potential dominates the total system, the total
+calculation time was significantly reduced. Simulation results were almost the
+same with those of simulations with the ordinary individual time-step method.
+Our new method achieves good performance without sacrificing the accuracy of
+the time integration.

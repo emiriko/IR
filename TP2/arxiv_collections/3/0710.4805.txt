@@ -1,0 +1,16 @@
+The idea of design domain specific Mother Model of IP block family as a base
+of modeling of system integration is presented here. A common reconfigurable
+Mother Model for ten different standardized digital OFDM transmitters has been
+developed. By means of a set of parameters, the mother model can be
+reconfigured to any of the ten selected standards. So far the applicability of
+the proposed reconfiguration and analog-digital co-modeling methods have been
+proved by modeling the function of the digital parts of three, 802.11a, ADSL
+and DRM, transmitters in an RF system simulator. The model is intended to be
+used as signal source template in RF system simulations. The concept is not
+restricted to signal sources, it can be applied to any IP block development.
+The idea of the Mother Model will be applied in other design domains to prove
+that in certain application areas, OFDM transceivers in this case, the design
+process can progress simultaneously in different design domains - mixed signal,
+system and RTL-architectural - without the need of high-level synthesis. Only
+the Mother Models of three design domains are needed to be formally proved to
+function as specified.

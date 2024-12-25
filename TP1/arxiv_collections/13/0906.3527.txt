@@ -1,0 +1,22 @@
+In this paper we introduce "hybrid" Max 2-CSP formulas consisting of "simple
+clauses", namely conjunctions and disjunctions of pairs of variables, and
+general 2-variable clauses, which can be any integer-valued functions of pairs
+of boolean variables. This allows an algorithm to use both efficient reductions
+specific to AND and OR clauses, and other powerful reductions that require the
+general CSP setting. We use new reductions introduced here, and recent
+reductions such as "clause-learning" and "2-reductions" generalized to our
+setting's mixture of simple and general clauses.
+  Parametrizing an instance by the fraction p of non-simple clauses, we give an
+exact (exponential-time) algorithm that is the fastest known polynomial-space
+algorithm for p=0 (which includes the well-studied Max 2-Sat problem but also
+instances with arbitrary mixtures of AND and OR clauses); the only efficient
+algorithm for mixtures of AND, OR, and general integer-valued clauses; and tied
+for fastest for general Max 2-CSP (p=1). Since a pure 2-Sat input instance may
+be transformed to a general CSP instance in the course of being solved, the
+algorithm's efficiency and generality go hand in hand.
+  Our algorithm analysis and optimization are a variation on the familiar
+measure-and-conquer approach, resulting in an optimizing mathematical program
+that is convex not merely quasi-convex, and thus can be solved efficiently and
+with a certificate of optimality. We produce a family of running-time
+upper-bound formulas, each optimized for instances with a particular value of p
+but valid for all instances.

@@ -1,0 +1,15 @@
+Let EMBED(k,d) be the following algorithmic problem: Given a finite
+simplicial complex K of dimension at most k, does there exist a (piecewise
+linear) embedding of K into R^d? Known results easily imply polynomiality of
+EMBED(k,2) (k=1,2; the case k=1, d=2 is graph planarity) and of EMBED(k,2k) for
+all k>2 (even if k is not considered fixed).
+  We observe that the celebrated result of Novikov on the algorithmic
+unsolvability of recognizing the 5-sphere implies that EMBED(d,d) and
+EMBED(d-1,d) are undecidable for each d>4. Our main result is NP-hardness of
+EMBED(2,4) and, more generally, of EMBED(k,d) for all k,d with d>3 and d\geq k
+\geq (2d-2)/3. These dimensions fall outside the so-called metastable range of
+a theorem of Haefliger and Weber, which characterizes embeddability using the
+deleted product obstruction. Our reductions are based on examples, due to
+Segal, Spie\.z, Freedman, Krushkal, Teichner, and Skopenkov, showing that
+outside the metastable range the deleted product obstruction is not sufficient
+to characterize embeddability.

@@ -1,0 +1,15 @@
+We develop analytical models for estimating the energy spent by stations
+(STAs) in infrastructure WLANs when performing TCP controlled file downloads.
+We focus on the energy spent in radio communication when the STAs are in the
+Continuously Active Mode (CAM), or in the static Power Save Mode (PSM). Our
+approach is to develop accurate models for obtaining the fraction of times the
+STA radios spend in idling, receiving and transmitting. We discuss two traffic
+models for each mode of operation: (i) each STA performs one large file
+download, and (ii) the STAs perform short file transfers. We evaluate the rate
+of STA energy expenditure with long file downloads, and show that static PSM is
+worse than just using CAM. For short file downloads we compute the number of
+file downloads that can be completed with given battery capacity, and show that
+PSM performs better than CAM for this case. We provide a validation of our
+analytical models using the NS-2 simulator. In contrast to earlier work on
+analytical modeling of PSM, our models that capture the details of the
+interactions between the 802.11 MAC in PSM and certain aspects of TCP.

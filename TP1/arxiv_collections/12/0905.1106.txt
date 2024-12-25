@@ -1,0 +1,18 @@
+Aligning protein-protein interaction (PPI) networks of different species has
+drawn a considerable interest recently. This problem is important to
+investigate evolutionary conserved pathways or protein complexes across
+species, and to help in the identification of functional orthologs through the
+detection of conserved interactions. It is however a difficult combinatorial
+problem, for which only heuristic methods have been proposed so far. We
+reformulate the PPI alignment as a graph matching problem, and investigate how
+state-of-the-art graph matching algorithms can be used for that purpose. We
+differentiate between two alignment problems, depending on whether strict
+constraints on protein matches are given, based on sequence similarity, or
+whether the goal is instead to find an optimal compromise between sequence
+similarity and interaction conservation in the alignment. We propose new
+methods for both cases, and assess their performance on the alignment of the
+yeast and fly PPI networks. The new methods consistently outperform
+state-of-the-art algorithms, retrieving in particular 78% more conserved
+interactions than IsoRank for a given level of sequence similarity.
+Availability:http://cbio.ensmp.fr/proj/graphm\_ppi/, additional data and codes
+are available upon request. Contact: jean-philippe.vert@mines-paristech.fr

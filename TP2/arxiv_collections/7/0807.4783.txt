@@ -1,0 +1,17 @@
+Here an image restoration on the basis of pixel simultaneous detection
+probabilities (PSDP) is proposed. These probabilities can be precisely
+determined by means of correlations measurement [NIMA 586 (2008) 314-326]. The
+proposed image restoration is based on the solution of matrix equation.
+Non-zero elements of Toeplitz block matrix with ones on the main diagonal, is
+determined using PSDP. The number of non zero descending diagonals depends on
+the detector construction and is not always smaller than 8. To solve the matrix
+equation, the Gaussian elimination algorithm is used. The proposed restoration
+algorithm is studied by means of the simulated images (with and without
+additive noise using PSDP for General Electric Senographe 2000D mammography
+device detector) and a small area (160x160 pixels) of real images acquired by
+the above mentioned device. The estimation errors of PSDP and the additive
+noise magnitude permits to restore images with the precision better than 3% for
+the above mentioned detector. The additive noise in the real image is present
+after restoration and almost has the same magnitude. In the restored small area
+(16x16 mm) of real images, the pixel responses are not correlated. The spatial
+resolution improvement is also analyzed by the image of an absorber edge.

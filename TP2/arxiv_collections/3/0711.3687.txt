@@ -1,0 +1,12 @@
+We consider data consisting of photon counts of diffracted x-ray radiation as
+a function of the angle of diffraction. The problem is to determine the
+positions, powers and shapes of the relevant peaks. An additional difficulty is
+that the power of the peaks is to be measured from a baseline which itself must
+be identified. Most methods of de-noising data of this kind do not explicitly
+take into account the modality of the final estimate. The residual-based
+procedure we propose uses the so-called taut string method, which minimizes the
+number of peaks subject to a tube constraint on the integrated data. The
+baseline is identified by combining the result of the taut string with an
+estimate of the first derivative of the baseline obtained using a weighted
+smoothing spline. Finally, each individual peak is expressed as the finite sum
+of kernels chosen from a parametric family.

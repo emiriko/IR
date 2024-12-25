@@ -1,0 +1,15 @@
+The well known algorithm of Volker Strassen for matrix multiplication can
+only be used for $(m2^k \times m2^k)$ matrices. For arbitrary $(n \times n)$
+matrices one has to add zero rows and columns to the given matrices to use
+Strassen's algorithm. Strassen gave a strategy of how to set $m$ and $k$ for
+arbitrary $n$ to ensure $n\leq m2^k$. In this paper we study the number $d$ of
+additional zero rows and columns and the influence on the number of flops used
+by the algorithm in the worst case ($d=n/16$), best case ($d=1$) and in the
+average case ($d\approx n/48$). The aim of this work is to give a detailed
+analysis of the number of additional zero rows and columns and the additional
+work caused by Strassen's bad parameters. Strassen used the parameters $m$ and
+$k$ to show that his matrix multiplication algorithm needs less than
+$4.7n^{\log_2 7}$ flops. We can show in this paper, that these parameters cause
+an additional work of approx. 20 % in the worst case in comparison to the
+optimal strategy for the worst case. This is the main reason for the search for
+better parameters.

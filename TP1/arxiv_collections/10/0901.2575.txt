@@ -1,0 +1,17 @@
+We present a filtering technique that can be applied to individual baselines
+of wide-bandwidth, wide-field interferometric data to geometrically select
+regions on the celestial sphere that contain primary calibration sources. The
+technique relies on the Fourier transformation of wide-band frequency spectra
+from a given baseline to obtain one-dimensional "delay images", and then the
+transformation of a time-series of delay images to obtain two-dimensional
+"delay/delay-rate images." Source selection is possible in these images given
+appropriate combinations of baseline, bandwidth, integration time and source
+location. Strong and persistent radio frequency interference (RFI) limits the
+effectiveness of this source selection owing to the removal of data by RFI
+excision algorithms. A one-dimensional, complex CLEAN algorithm has been
+developed to compensate for RFI-excision effects. This approach allows CLEANed,
+source-isolated data to be used to isolate bandpass and primary beam gain
+functions. These techniques are applied to data from the Precision Array for
+Probing the Epoch of Reionization (PAPER) as a demonstration of their value in
+calibrating a new generation of low-frequency radio interferometers with wide
+relative bandwidths and large fields-of-view.

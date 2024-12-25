@@ -1,0 +1,14 @@
+Online learning has become increasingly popular on handling massive data. The
+sequential nature of online learning, however, requires a centralized learner
+to store data and update parameters. In this paper, we consider online learning
+with {\em distributed} data sources. The autonomous learners update local
+parameters based on local data sources and periodically exchange information
+with a small subset of neighbors in a communication network. We derive the
+regret bound for strongly convex functions that generalizes the work by Ram et
+al. (2010) for convex functions. Most importantly, we show that our algorithm
+has \emph{intrinsic} privacy-preserving properties, and we prove the sufficient
+and necessary conditions for privacy preservation in the network. These
+conditions imply that for networks with greater-than-one connectivity, a
+malicious learner cannot reconstruct the subgradients (and sensitive raw data)
+of other learners, which makes our algorithm appealing in privacy sensitive
+applications.

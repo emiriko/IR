@@ -1,0 +1,22 @@
+For the lambda-calculus with letrec we develop an optimisation, which is
+based on the contraction of a certain class of 'future' (also: virtual)
+redexes.
+  In the implementation of functional programming languages it is common
+practice to perform beta-reductions at compile time whenever possible in order
+to produce code that requires fewer reductions at run time. This is, however,
+in principle limited to redexes and created redexes that are 'visible' (in the
+sense that they can be contracted without the need for unsharing), and cannot
+generally be extended to redexes that are concealed by sharing constructs such
+as letrec. In the case of recursion, concealed redexes become visible only
+after unwindings during evaluation, and then have to be contracted time and
+again.
+  We observe that in some cases such redexes exhibit a certain form of
+repetitive behaviour at run time. We describe an analysis for identifying
+binders that give rise to such repetitive reduction patterns, and eliminate
+them by a sort of predictive contraction. Thereby these binders are lifted out
+of recursive positions or eliminated altogether, as a result alleviating the
+amount of beta-reductions required for each recursive iteration.
+  Both our analysis and simplification are suitable to be integrated into
+existing compilers for functional programming languages as an additional
+optimisation phase. With this work we hope to contribute to increasing the
+efficiency of executing programs written in such languages.

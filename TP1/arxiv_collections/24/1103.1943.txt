@@ -1,0 +1,26 @@
+We consider the compressed sensing problem, where the object $x_0 \in \bR^N$
+is to be recovered from incomplete measurements $y = Ax_0 + z$; here the
+sensing matrix $A$ is an $n \times N$ random matrix with iid Gaussian entries
+and $n < N$. A popular method of sparsity-promoting reconstruction is
+$\ell^1$-penalized least-squares reconstruction (aka LASSO, Basis Pursuit).
+  It is currently popular to consider the strict sparsity model, where the
+object $x_0$ is nonzero in only a small fraction of entries. In this paper, we
+instead consider the much more broadly applicable $\ell_p$-sparsity model,
+where $x_0$ is sparse in the sense of having $\ell_p$ norm bounded by $\xi
+\cdot N^{1/p}$ for some fixed $0 < p \leq 1$ and $\xi > 0$.
+  We study an asymptotic regime in which $n$ and $N$ both tend to infinity with
+limiting ratio $n/N = \delta \in (0,1)$, both in the noisy ($z \neq 0$) and
+noiseless ($z=0$) cases. Under weak assumptions on $x_0$, we are able to
+precisely evaluate the worst-case asymptotic minimax mean-squared
+reconstruction error (AMSE) for $\ell^1$ penalized least-squares: min over
+penalization parameters, max over $\ell_p$-sparse objects $x_0$. We exhibit the
+asymptotically least-favorable object (hardest sparse signal to recover) and
+the maximin penalization.
+  Our explicit formulas unexpectedly involve quantities appearing classically
+in statistical decision theory. Occurring in the present setting, they reflect
+a deeper connection between penalized $\ell^1$ minimization and scalar soft
+thresholding. This connection, which follows from earlier work of the authors
+and collaborators on the AMP iterative thresholding algorithm, is carefully
+explained.
+  Our approach also gives precise results under weak-$\ell_p$ ball coefficient
+constraints, as we show here.

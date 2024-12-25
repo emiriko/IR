@@ -1,0 +1,23 @@
+Pricing exotic multi-asset path-dependent options requires extensive Monte
+Carlo simulations. In the recent years the interest to the Quasi-monte Carlo
+technique has been renewed and several results have been proposed in order to
+improve its efficiency with the notion of effective dimension. To this aim,
+Imai and Tan introduced a general variance reduction technique in order to
+minimize the nominal dimension of the Monte Carlo method. Taking into account
+these advantages, we investigate this approach in detail in order to make it
+faster from the computational point of view. Indeed, we realize the linear
+transformation decomposition relying on a fast ad hoc QR decomposition that
+considerably reduces the computational burden. This setting makes the linear
+transformation method even more convenient from the computational point of
+view. We implement a high-dimensional (2500) Quasi-Monte Carlo simulation
+combined with the linear transformation in order to price Asian basket options
+with same set of parameters published by Imai and Tan. For the simulation of
+the high-dimensional random sample, we use a 50-dimensional scrambled Sobol
+sequence for the first 50 components, determined by the linear transformation
+method, and pad the remaining ones out by the Latin Hypercube Sampling. The aim
+of this numerical setting is to investigate the accuracy of the estimation by
+giving a higher convergence rate only to those components selected by the
+linear transformation technique. We launch our simulation experiment also using
+the standard Cholesky and the principal component decomposition methods with
+pseudo-random and Latin Hypercube sampling generators. Finally, we compare our
+results and computational times, with those presented in Imai and Tan.

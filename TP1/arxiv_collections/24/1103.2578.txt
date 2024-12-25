@@ -1,0 +1,10 @@
+If $X$ is a graph with adjacency matrix $A$, then we define $H(t)$ to be the
+operator $\exp(itA)$. The Schur (or entrywise) product $H(t)\circ H(-t)$ is a
+doubly stochastic matrix and, because of work related to quantum computing, we
+are concerned the \textsl{average mixing matrix}. This can be defined as the
+limit of $C^{-1} \int_0^C H(t)\circ H(-t)\dt$ as $C\to\infty$. We establish
+some of the basic properties of this matrix, showing that it is positive
+semidefinite and that its entries are always rational. We find that for paths
+and cycles this matrix takes on a surprisingly simple form, thus for the path
+it is a linear combination of $I$, $J$ (the all-ones matrix), and a permutation
+matrix.

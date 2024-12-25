@@ -1,0 +1,18 @@
+The Geant4 toolkit offers a rich variety of electromagnetic physics models;
+so far the evaluation of this Geant4 domain has been mostly focused on its
+physics functionality, while the features of its design and their impact on
+simulation accuracy, computational performance and facilities for verification
+and validation have not been the object of comparable attention yet, despite
+the critical role they play in many experimental applications. A new project is
+in progress to study the application of new design concepts and software
+techniques in Geant4 electromagnetic physics, and to evaluate how they can
+improve on the current simulation capabilities. The application of a
+policy-based class design is investigated as a means to achieve the objective
+of granular decomposition of processes; this design technique offers various
+advantages in terms of flexibility of configuration and computational
+performance. The current Geant4 physics models have been re-implemented
+according to the new design as a pilot project. The main features of the new
+design and first results of performance improvement and testing simplification
+are presented; they are relevant to many Geant4 applications, where
+computational speed and the containment of resources invested in simulation
+production and quality assurance play a critical role.

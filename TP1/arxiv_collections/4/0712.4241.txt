@@ -1,0 +1,10 @@
+We present and analyze a quantum key distribution protocol based on sending
+entangled N-qubit states instead of single-qubit ones as in the trail-blazing
+scheme by Bennett and Brassard (BB84). Since the qubits are sent individually,
+an eavesdropper is limited to accessing them one by one. In an intercept-resend
+attack, this fundamental restriction allows one to make the eavesdropper's
+information on the transmitted key vanish if even one of the qubits is not
+intercepted. The implied upper bound 1/(2N) for Eve's information is further
+shown not to be the lowest since in the case N = 2, the information can be
+reduced to less than 30% of that in BB84. In general, the protocol is at least
+as secure as BB84.

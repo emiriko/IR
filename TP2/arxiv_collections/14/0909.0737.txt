@@ -1,0 +1,23 @@
+Background: Hidden Markov models are widely employed by numerous
+bioinformatics programs used today. Applications range widely from comparative
+gene prediction to time-series analyses of micro-array data. The parameters of
+the underlying models need to be adjusted for specific data sets, for example
+the genome of a particular species, in order to maximize the prediction
+accuracy. Computationally efficient algorithms for parameter training are thus
+key to maximizing the usability of a wide range of bioinformatics applications.
+  Results: We introduce two computationally efficient training algorithms, one
+for Viterbi training and one for stochastic expectation maximization (EM)
+training, which render the memory requirements independent of the sequence
+length. Unlike the existing algorithms for Viterbi and stochastic EM training
+which require a two-step procedure, our two new algorithms require only one
+step and scan the input sequence in only one direction. We also implement these
+two new algorithms and the already published linear-memory algorithm for EM
+training into the hidden Markov model compiler HMM-Converter and examine their
+respective practical merits for three small example models.
+  Conclusions: Bioinformatics applications employing hidden Markov models can
+use the two algorithms in order to make Viterbi training and stochastic EM
+training more computationally efficient. Using these algorithms, parameter
+training can thus be attempted for more complex models and longer training
+sequences. The two new algorithms have the added advantage of being easier to
+implement than the corresponding default algorithms for Viterbi training and
+stochastic EM training.

@@ -1,0 +1,14 @@
+We analyze the stability of standard, buffered, slotted-Aloha systems.
+Specifically, we consider a set of $N$ users, each equipped with an infinite
+buffer. Packets arrive into user $i$'s buffer according to some stationary
+ergodic Markovian process of intensity $\lambda_i$. At the beginning of each
+slot, if user $i$ has packets in its buffer, it attempts to transmit a packet
+with fixed probability $p_i$ over a shared resource / channel. The transmission
+is successful only when no other user attempts to use the channel. The
+stability of such systems has been open since their very first analysis in 1979
+by Tsybakov and Mikhailov. In this paper, we propose an approximate stability
+condition, that is provably exact when the number of users $N$ grows large. We
+provide theoretical evidence and numerical experiments to explain why the
+proposed approximate stability condition is extremely accurate even for systems
+with a restricted number of users (even two or three). We finally extend the
+results to the case of more efficient CSMA systems.

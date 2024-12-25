@@ -1,0 +1,18 @@
+The first part of the article describes our approach for solution of this
+problem by means of Augmented Reality. The merging of the real world model and
+digital objects allows streamline the work with the model and speed up the
+whole production phase significantly. The main advantage of augmented reality
+is the possibility of direct manipulation with the scene using a portable
+digital camera. Also adding digital objects into the scene could be done using
+identification markers placed on the surface of the model. Therefore it is not
+necessary to work with special input devices and lose the contact with the real
+world model. Adjustments are done directly on the model. The key problem of
+outlined solution is the ability of identification of an object within the
+camera picture and its replacement with the digital object. The second part of
+the article is focused especially on the identification of exact position and
+orientation of the marker within the picture. The identification marker is
+generalized into the triple of points which represents a general plane in
+space. There is discussed the space identification of these points and the
+description of representation of their position and orientation be means of
+transformation matrix. This matrix is used for rendering of the graphical
+objects (e. g. in OpenGL and Direct3D).

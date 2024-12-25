@@ -1,0 +1,10 @@
+Domain decomposition methods are widely used to solve sparse linear systems
+from scientific problems, but they are not suited to solve sparse linear
+systems extracted from integrated circuits. The reason is that the sparse
+linear system of integrated circuits may be non-diagonal-dominant, and domain
+decomposition method might be unconvergent for these non-diagonal-dominant
+matrices. In this paper, we propose a mini-step strategy to do the circuit
+transient analysis. Different from the traditional large-step approach, this
+strategy is able to generate diagonal-dominant sparse linear systems. As a
+result, preconditioned domain decomposition methods can be used to simulate the
+large integrated circuits on the supercomputers and clouds.

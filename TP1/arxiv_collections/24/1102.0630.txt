@@ -1,0 +1,24 @@
+A method for estimating the axis of reflectional symmetry of an image
+$f(x,y)$ on the unit disc $D=\{(x,y):x^2+y^2\leq1\}$ is proposed, given that
+noisy data of $f(x,y)$ are observed on a discrete grid of edge width $\Delta$.
+Our estimation procedure is based on minimizing over $\beta\in[0,\pi)$ the
+$L_2$ distance between empirical versions of $f$ and $\tau_{\beta}f$, the image
+of $f$ after reflection at the axis along $(\cos\beta,\sin\beta)$. Here, $f$
+and $\tau_{\beta}f$ are estimated using truncated radial series of the Zernike
+type. The inherent symmetry properties of the Zernike functions result in a
+particularly simple estimation procedure for $\beta$. It is shown that the
+estimate $\hat{\beta}$ converges at the parametric rate $\Delta^{-1}$ for
+images $f$ of bounded variation. Further, we establish asymptotic normality of
+$\hat{\beta}$ if $f$ is Lipschitz continuous. The method is applied to
+calibrating the point spread function (PSF) for the deconvolution of images
+from confocal microscopy. For various reasons the PSF characterizing the
+problem may not be rotationally invariant but rather only reflection symmetric
+with respect to two orthogonal axes. For an image of a bead acquired by a
+confocal laser scanning microscope (Leica TCS), these axes are estimated and
+corresponding confidence intervals are constructed. They turn out to be close
+to the coordinate axes of the imaging device. As cause for deviation from
+rotational invariance, this indicates some slight misalignment of the optical
+system or anisotropy of the immersion medium rather than some irregular shape
+of the bead. In an extensive simulation study, we show that using a symmetrized
+version of the observed PSF significantly improves the subsequent
+reconstruction process of the target image.

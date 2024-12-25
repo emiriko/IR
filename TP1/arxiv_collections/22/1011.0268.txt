@@ -1,0 +1,9 @@
+In this paper, we present an approach for fault-tolerant synthesis by
+combining predefined patterns for fault-tolerance with algorithmic game
+solving. A non-fault-tolerant system, together with the relevant fault
+hypothesis and fault-tolerant mechanism templates in a pool are translated into
+a distributed game, and we perform an incomplete search of strategies to cope
+with undecidability. The result of the game is translated back to executable
+code concretizing fault-tolerant mechanisms using constraint solving. The
+overall approach is implemented to a prototype tool chain and is illustrated
+using examples.

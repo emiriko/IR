@@ -1,0 +1,9 @@
+This paper tackles the problem of image deconvolution with joint estimation
+of PSF parameters and hyperparameters. Within a Bayesian framework, the
+solution is inferred via a global a posteriori law for unknown parameters and
+object. The estimate is chosen as the posterior mean, numerically calculated by
+means of a Monte-Carlo Markov chain algorithm. The estimates are efficiently
+computed in the Fourier domain and the effectiveness of the method is shown on
+simulated examples. Results show precise estimates for PSF parameters and
+hyperparameters as well as precise image estimates including restoration of
+high-frequencies and spatial details, within a global and coherent approach.

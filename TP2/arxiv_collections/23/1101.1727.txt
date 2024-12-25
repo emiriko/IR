@@ -1,0 +1,18 @@
+The class of omega-regular languages provides a robust specification language
+in verification. Every omega-regular condition can be decomposed into a safety
+part and a liveness part. The liveness part ensures that something good happens
+"eventually". Finitary liveness was proposed by Alur and Henzinger as a
+stronger formulation of liveness. It requires that there exists an unknown,
+fixed bound b such that something good happens within b transitions. In this
+work we consider automata with finitary acceptance conditions defined by
+finitary Buchi, parity and Streett languages. We study languages expressible by
+such automata: we give their topological complexity and present a
+regular-expression characterization. We compare the expressive power of
+finitary automata and give optimal algorithms for classical decisions
+questions. We show that the finitary languages are Sigma 2-complete; we present
+a complete picture of the expressive power of various classes of automata with
+finitary and infinitary acceptance conditions; we show that the languages
+defined by finitary parity automata exactly characterize the star-free fragment
+of omega B-regular languages; and we show that emptiness is NLOGSPACE-complete
+and universality as well as language inclusion are PSPACE-complete for finitary
+parity and Streett automata.

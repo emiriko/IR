@@ -1,0 +1,12 @@
+In the area of networks, a common method to enforce a security policy
+expressed in a high-level language is based on an ad-hoc and manual rewriting
+process. We argue that it is possible to build a formal link between concrete
+and abstract terms, which can be dynamically computed from the environment
+data. In order to progressively introduce configuration data and then simplify
+the proof obligations, we use the B refinement process. We present a case study
+modeling a network monitor. This program, described by refinement following the
+layers of the TCP/IP suite protocol, has to warn for all observed events which
+do not respect the security policy. To design this model, we use the event-B
+method because it is suitable for modeling network concepts. This work has been
+done within the framework of the POTESTAT project, based on the research of
+network testing methods from a high-level security policy.

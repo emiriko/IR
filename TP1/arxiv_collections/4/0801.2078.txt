@@ -1,0 +1,14 @@
+The simulation of quantum systems is a task for which quantum computers are
+believed to give an exponential speedup as compared to classical ones. While
+ground states of one-dimensional systems can be efficiently approximated using
+Matrix Product States (MPS), their time evolution can encode quantum
+computations, so that simulating the latter should be hard classically.
+However, one might believe that for systems with high enough symmetry, and thus
+insufficient parameters to encode a quantum computation, efficient classical
+simulation is possible. We discuss supporting evidence to the contrary: We
+provide a rigorous proof of the observation that a time independent local
+Hamiltonian can yield a linear increase of the entropy when acting on a product
+state in a translational invariant framework. This criterion has to be met by
+any classical simulation method, which in particular implies that every global
+approximation of the evolution requires exponential resources for any MPS based
+method.

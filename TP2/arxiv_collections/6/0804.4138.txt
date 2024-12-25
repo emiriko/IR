@@ -1,0 +1,11 @@
+We conclude a sequence of work by giving near-optimal sketching and streaming
+algorithms for estimating Shannon entropy in the most general streaming model,
+with arbitrary insertions and deletions. This improves on prior results that
+obtain suboptimal space bounds in the general model, and near-optimal bounds in
+the insertion-only model without sketching. Our high-level approach is simple:
+we give algorithms to estimate Renyi and Tsallis entropy, and use them to
+extrapolate an estimate of Shannon entropy. The accuracy of our estimates is
+proven using approximation theory arguments and extremal properties of
+Chebyshev polynomials, a technique which may be useful for other problems. Our
+work also yields the best-known and near-optimal additive approximations for
+entropy, and hence also for conditional entropy and mutual information.

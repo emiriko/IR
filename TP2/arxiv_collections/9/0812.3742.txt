@@ -1,0 +1,21 @@
+Recent attention in quickest change detection in the multi-sensor setting has
+been on the case where the densities of the observations change at the same
+instant at all the sensors due to the disruption. In this work, a more general
+scenario is considered where the change propagates across the sensors, and its
+propagation can be modeled as a Markov process. A centralized, Bayesian version
+of this problem, with a fusion center that has perfect information about the
+observations and a priori knowledge of the statistics of the change process, is
+considered. The problem of minimizing the average detection delay subject to
+false alarm constraints is formulated as a partially observable Markov decision
+process (POMDP). Insights into the structure of the optimal stopping rule are
+presented. In the limiting case of rare disruptions, we show that the structure
+of the optimal test reduces to thresholding the a posteriori probability of the
+hypothesis that no change has happened. We establish the asymptotic optimality
+(in the vanishing false alarm probability regime) of this threshold test under
+a certain condition on the Kullback-Leibler (K-L) divergence between the post-
+and the pre-change densities. In the special case of near-instantaneous change
+propagation across the sensors, this condition reduces to the mild condition
+that the K-L divergence be positive. Numerical studies show that this low
+complexity threshold test results in a substantial improvement in performance
+over naive tests such as a single-sensor test or a test that wrongly assumes
+that the change propagates instantaneously.

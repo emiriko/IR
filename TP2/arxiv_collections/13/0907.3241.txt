@@ -1,0 +1,13 @@
+One of the crucial tasks in many inference problems is the extraction of
+sparse information out of a given number of high-dimensional measurements. In
+machine learning, this is frequently achieved using, as a penality term, the
+$L_p$ norm of the model parameters, with $p\leq 1$ for efficient dilution. Here
+we propose a statistical-mechanics analysis of the problem in the setting of
+perceptron memorization and generalization. Using a replica approach, we are
+able to evaluate the relative performance of naive dilution (obtained by
+learning without dilution, following by applying a threshold to the model
+parameters), $L_1$ dilution (which is frequently used in convex optimization)
+and $L_0$ dilution (which is optimal but computationally hard to implement).
+Whereas both $L_p$ diluted approaches clearly outperform the naive approach, we
+find a small region where $L_0$ works almost perfectly and strongly outperforms
+the simpler to implement $L_1$ dilution.

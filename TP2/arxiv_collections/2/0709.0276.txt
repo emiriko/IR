@@ -1,0 +1,14 @@
+We introduce a variation of the dissipative particle dynamics (DPD)
+thermostat that allows for controlling transport properties of molecular
+fluids. The standard DPD thermostat acts only on a relative velocity along the
+interatomic axis. Our extension includes the damping of the perpendicular
+components of the relative velocity, yet keeping the advantages of conserving
+Galilei invariance and within our error bar also hydrodynamics. This leads to a
+second friction parameter for tuning the transport properties of the system.
+Numerical simulations of a simple Lennard-Jones fluid and liquid water
+demonstrate a very sensitive behaviour of the transport properties, e.g.,
+viscosity, on the strength of the new friction parameter. We envisage that the
+new thermostat will be very useful for the coarse-grained and adaptive
+resolution simulations of soft matter, where the diffusion constants and
+viscosity of the coarse-grained models are typically too high/low,
+respectively, compared to all-atom simulations.

@@ -1,0 +1,20 @@
+Grammar convergence is a method that helps discovering relationships between
+different grammars of the same language or different language versions. The key
+element of the method is the operational, transformation-based representation
+of those relationships. Given input grammars for convergence, they are
+transformed until they are structurally equal. The transformations are composed
+from primitive operators; properties of these operators and the composed chains
+provide quantitative and qualitative insight into the relationships between the
+grammars at hand. We describe a refined method for grammar convergence, and we
+use it in a major study, where we recover the relationships between all the
+grammars that occur in the different versions of the Java Language
+Specification (JLS). The relationships are represented as grammar
+transformation chains that capture all accidental or intended differences
+between the JLS grammars. This method is mechanized and driven by nominal and
+structural differences between pairs of grammars that are subject to
+asymmetric, binary convergence steps. We present the underlying operator suite
+for grammar transformation in detail, and we illustrate the suite with many
+examples of transformations on the JLS grammars. We also describe the
+extraction effort, which was needed to make the JLS grammars amenable to
+automated processing. We include substantial metadata about the convergence
+process for the JLS so that the effort becomes reproducible and transparent.

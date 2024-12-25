@@ -1,0 +1,17 @@
+Numerical computations of stationary states of fast-rotating Bose-Einstein
+condensates require high spatial resolution due to the presence of a large
+number of quantized vortices. In this paper we propose a low-order finite
+element method with mesh adaptivity by metric control, as an alternative
+approach to the commonly used high order (finite difference or spectral)
+approximation methods. The mesh adaptivity is used with two different numerical
+algorithms to compute stationary vortex states: an imaginary time propagation
+method and a Sobolev gradient descent method. We first address the basic issue
+of the choice of the variable used to compute new metrics for the mesh
+adaptivity and show that simultaneously refinement using the real and imaginary
+part of the solution is successful. Mesh refinement using only the modulus of
+the solution as adaptivity variable fails for complicated test cases. Then we
+suggest an optimized algorithm for adapting the mesh during the evolution of
+the solution towards the equilibrium state. Considerable computational time
+saving is obtained compared to uniform mesh computations. The new method is
+applied to compute difficult cases relevant for physical experiments (large
+nonlinear interaction constant and high rotation rates).

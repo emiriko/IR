@@ -1,0 +1,14 @@
+The design of error-correcting codes used in modern communications relies on
+information theory to quantify the capacity of a noisy channel to send
+information [1]. This capacity can be expressed using the mutual information
+between input and output for a single use of the channel: although correlations
+between subsequent input bits are used to correct errors, they cannot increase
+the capacity. For quantum channels, it has been an open question whether
+entangled input states can increase the capacity to send classical information
+[2]. The additivity conjecture [3,4] states that entanglement does not help,
+making practical computations of the capacity possible. While additivity is
+widely believed to be true, there is no proof. Here we show that additivity is
+false, by constructing a random counter-example. Our results show that the most
+basic question of classical capacity of a quantum channel remains open, with
+further work needed to determine in which other situations entanglement can
+boost capacity.

@@ -1,0 +1,16 @@
+Stochastic Langevin molecular dynamics for nuclei is derived from the
+Ehrenfest Hamiltonian system (also called quantum classical molecular dynamics)
+in a Kac-Zwanzig setting, with the initial data for the electrons
+stochastically perturbed from the ground state and the ratio, $M$, of nuclei
+and electron mass tending to infinity. The Ehrenfest nuclei dynamics is
+approximated by the Langevin dynamics with accuracy $o(M^{-1/2})$ on bounded
+time intervals and by $o(1)$ on unbounded time intervals, which makes the small
+$\mathcal{O}(M^{-1/2})$ friction and $o(M^{-1/2})$ diffusion terms visible. The
+initial electron probability distribution is a Gibbs density at low temperture,
+derived by a stability and consistency argument: starting with any equilibrium
+measure of the Ehrenfest Hamiltonian system, the initial electron distribution
+is sampled from the equilibrium measure conditioned on the nuclei positions,
+which after long time leads to the nuclei positions in a Gibbs distribution
+(i.e. asymptotic stability); by consistency the original equilibrium measure is
+then a Gibbs measure.The diffusion and friction coefficients in the Langevin
+equation satisfy the Einstein's fluctuation-dissipation relation.

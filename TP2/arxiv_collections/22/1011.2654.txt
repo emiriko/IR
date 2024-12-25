@@ -1,0 +1,12 @@
+A bottleneck for computational lithography and optical metrology are long
+computational times for near field simulations. For design, optimization, and
+inverse scatterometry usually the same basic layout has to be simulated
+multiple times for different values of geometrical parameters. The reduced
+basis method allows to split up the solution process of a parameterized model
+into an expensive offline and a cheap online part. After constructing the
+reduced basis offline, the reduced model can be solved online very fast in the
+order of seconds or below. Error estimators assure the reliability of the
+reduced basis solution and are used for self adaptive construction of the
+reduced system. We explain the idea of reduced basis and use the finite element
+solver JCMsuite constructing the reduced basis system. We present a 3D
+optimization application from optical proximity correction (OPC).

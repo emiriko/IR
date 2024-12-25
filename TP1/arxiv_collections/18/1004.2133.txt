@@ -1,0 +1,22 @@
+Given a stable L\'{e}vy process $X=(X_t)_{0\le t\le T}$ of index
+$\alpha\in(1,2)$ with no negative jumps, and letting $S_t=\sup_{0\le s\le
+t}X_s$ denote its running supremum for $t\in [0,T]$, we consider the optimal
+prediction problem \[V=\inf_{0\le\tau\le T}\mathsf{E}(S_T-X_{\tau})^p,\] where
+the infimum is taken over all stopping times $\tau$ of $X$, and the error
+parameter $p\in(1,\alpha)$ is given and fixed. Reducing the optimal prediction
+problem to a fractional free-boundary problem of Riemann--Liouville type, and
+finding an explicit solution to the latter, we show that there exists
+$\alpha_*\in(1,2)$ (equal to 1.57 approximately) and a strictly increasing
+function $p_*:(\alpha_*,2)\rightarrow(1,2)$ satisfying $p_*(\alpha_*+)=1$,
+$p_*(2-)=2$ and $p_*(\alpha)<\alpha$ for $\alpha\in(\alpha_*,2)$ such that for
+every $\alpha\in (\alpha_*,2)$ and $p\in(1,p_*(\alpha))$ the following stopping
+time is optimal \[\tau_*=\inf\{t\in[0,T]:S_t-X_t\ge z_*(T-t)^{1/\alpha}\},\]
+where $z_*\in(0,\infty)$ is the unique root to a transcendental equation (with
+parameters $\alpha$ and $p$). Moreover, if either $\alpha\in(1,\alpha_*)$ or
+$p\in(p_*(\alpha),\alpha)$ then it is not optimal to stop at $t\in[0,T)$ when
+$S_t-X_t$ is sufficiently large. The existence of the breakdown points
+$\alpha_*$ and $p_*(\alpha)$ stands in sharp contrast with the Brownian motion
+case (formally corresponding to $\alpha=2$), and the phenomenon itself may be
+attributed to the interplay between the jump structure (admitting a transition
+from lighter to heavier tails) and the individual preferences (represented by
+the error parameter $p$).

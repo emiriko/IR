@@ -1,0 +1,10 @@
+Dependencies between types in object-oriented software can be viewed as
+directed graphs, with types as nodes and dependencies as edges. The in-degree
+and out-degree distributions of such graphs have quite different forms, with
+the former resembling a power-law distribution and the latter an exponential
+distribution. This effect appears to be independent of application or type
+relationship. A simple generative model is proposed to explore the proposition
+that the difference arises because the programmer is aware of the out-degree of
+a type but not of its in-degree. The model reproduces the two distributions,
+and compares reasonably well to those observed in 14 different type
+relationships across 12 different Java applications.

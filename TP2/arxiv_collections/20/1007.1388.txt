@@ -1,0 +1,15 @@
+Sustaining a large fraction of single GPU performance in parallel
+computations is considered to be the major problem of GPU-based clusters. In
+this article, this topic is addressed in the context of a lattice Boltzmann
+flow solver that is integrated in the WaLBerla software framework. We propose a
+multi-GPU implementation using a block-structured MPI parallelization, suitable
+for load balancing and heterogeneous computations on CPUs and GPUs. The
+overhead required for multi-GPU simulations is discussed in detail and it is
+demonstrated that the kernel performance can be sustained to a large extent.
+With our GPU implementation, we achieve nearly perfect weak scalability on
+InfiniBand clusters. However, in strong scaling scenarios multi-GPUs make less
+efficient use of the hardware than IBM BG/P and x86 clusters. Hence, a cost
+analysis must determine the best course of action for a particular simulation
+task. Additionally, weak scaling results of heterogeneous simulations conducted
+on CPUs and GPUs simultaneously are presented using clusters equipped with
+varying node configurations.

@@ -1,0 +1,14 @@
+RooStats is a project to create advanced statistical tools required for the
+analysis of LHC data, with emphasis on discoveries, confidence intervals, and
+combined measurements. The idea is to provide the major statistical techniques
+as a set of C++ classes with coherent interfaces, so that can be used on
+arbitrary model and datasets in a common way. The classes are built on top of
+the RooFit package, which provides functionality for easily creating
+probability models, for analysis combinations and for digital publications of
+the results. We will present in detail the design and the implementation of the
+different statistical methods of RooStats. We will describe the various classes
+for interval estimation and for hypothesis test depending on different
+statistical techniques such as those based on the likelihood function, or on
+frequentists or bayesian statistics. These methods can be applied in complex
+problems, including cases with multiple parameters of interest and various
+nuisance parameters.

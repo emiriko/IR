@@ -1,0 +1,18 @@
+A large amount of transaction data containing associations between
+individuals and sensitive information flows everyday into data stores. Examples
+include web queries, credit card transactions, medical exam records, transit
+database records. The serial release of these data to partner institutions or
+data analysis centers is a common situation. In this paper we show that, in
+most domains, correlations among sensitive values associated to the same
+individuals in different releases can be easily mined, and used to violate
+users' privacy by adversaries observing multiple data releases. We provide a
+formal model for privacy attacks based on this sequential background knowledge,
+as well as on background knowledge on the probability distribution of sensitive
+values over different individuals. We show how sequential background knowledge
+can be actually obtained by an adversary, and used to identify with high
+confidence the sensitive values associated with an individual. A defense
+algorithm based on Jensen-Shannon divergence is proposed, and extensive
+experiments show the superiority of the proposed technique with respect to
+other applicable solutions. To the best of our knowledge, this is the first
+work that systematically investigates the role of sequential background
+knowledge in serial release of transaction data.

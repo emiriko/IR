@@ -1,0 +1,16 @@
+In this paper we mainly employ the Zeilberger algorithm to study congruences
+for sums of terms involving products of three binomial coefficients. Let $p>3$
+be a prime. We prove that
+$$\sum_{k=0}^{p-1}\frac{\binom{2k}k^2\binom{2k}{k+d}}{64^k}\equiv 0\pmod{p^2}$$
+for all $d\in\{0,\ldots,p-1\}$ with $d\equiv (p+1)/2\pmod2$. If $p\equiv
+1\pmod4$ and $p=x^2+y^2$ with $x\equiv 1\pmod4$ and $y\equiv 0\pmod2$, then we
+show $$\sum_{k=0}^{p-1}\frac{\binom{2k}k^2\binom{2k}{k+1}}{(-8)^k}\equiv
+2p-2x^2\pmod{p^2}\ \ \mbox{and}\ \
+\sum_{k=0}^{p-1}\frac{\binom{2k}k\binom{2k}{k+1}^2}{(-8)^k}\equiv-2p\pmod{p^2}$$
+by means of determining $x$ mod $p^2$ via
+$$(-1)^{(p-1)/4}\,x\equiv\sum_{k=0}^{(p-1)/2}\frac{k+1}{8^k}\binom{2k}k^2\equiv\sum_{k=0}^{(p-1)/2}\frac{2k+1}{(-16)^k}\binom{2k}k^2\pmod{p^2}.$$
+We also solve the remaining open cases of Rodriguez-Villegas' conjectural
+congruences on $$\sum_{k=0}^{p-1}\frac{\binom{2k}k^2\binom{3k}k}{108^k},\ \
+\sum_{k=0}^{p-1}\frac{\binom{2k}k^2\binom{4k}{2k}}{256^k}, \ \
+\sum_{k=0}^{p-1}\frac{\binom{2k}{k}\binom{3k}k\binom{6k}{3k}}{12^{3k}}$$ modulo
+$p^2$.

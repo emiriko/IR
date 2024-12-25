@@ -1,0 +1,19 @@
+Nowadays we are faced with an increasing popularity of social software
+including wikis, blogs, micro-blogs and online social networks such as Facebook
+and MySpace. Unfortunately, the mostly used social services are centralized and
+personal information is stored at a single vendor. This results in potential
+privacy problems as users do not have much control over how their private data
+is disseminated. To overcome this limitation, some recent approaches envisioned
+replacing the single authority centralization of services by a peer-to-peer
+trust-based approach where users can decide with whom they want to share their
+private data. In this peer-to-peer collaboration it is very difficult to ensure
+that after data is shared with other peers, these peers will not misbehave and
+violate data privacy. In this paper we propose a mechanism that addresses the
+issue of data privacy violation due to data disclosure to malicious peers. In
+our approach trust values between users are adjusted according to their
+previous activities on the shared data. Users share their private data by
+specifying some obligations the receivers must follow. We log modifications
+done by users on the shared data as well as the obligations that must be
+followed when data is shared. By a log-auditing mechanism we detect users that
+misbehaved and we adjust their associated trust values by using any existing
+decentralized trust model.

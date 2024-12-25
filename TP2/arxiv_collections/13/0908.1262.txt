@@ -1,0 +1,14 @@
+Using the Deutsch-Jozsa algorithm, we will develop a method for solving a
+class of problems in which we need to determine parts of an array and then
+apply a specified function to each independent part. Since present quantum
+computers are not robust enough for code writing and execution, we will build a
+model of a vector quantum computer that implements the Deutsch-Jozsa algorithm
+from a machine language view using the APL2 programming language. The core of
+the method is an operator (DJBOX) which allows evaluation of an arbitrary
+function f by the Deutsch-Jozsa algorithm. Two key functions of the method are
+GET_PARTITION and CALC_WITH_PARTITIONS. The GET_PARTITION function determines
+parts of an array based on the function f. The CALC_WITH_PARTITIONS function
+determines parts of an array based on the function f and then applies another
+function to each independent part. We will imagine the method is implemented on
+the above vector quantum computer. We will show that the method can be
+successfully executed.

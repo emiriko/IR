@@ -1,0 +1,20 @@
+Environmental research increasingly uses high-dimensional remote sensing and
+numerical model output to help fill space-time gaps between traditional
+observations. Such output is often a noisy proxy for the process of interest.
+Thus one needs to separate and assess the signal and noise (often called
+discrepancy) in the proxy given complicated spatio-temporal dependencies. Here
+I extend a popular two-likelihood hierarchical model using a more flexible
+representation for the discrepancy. I employ the little-used Markov random
+field approximation to a thin plate spline, which can capture small-scale
+discrepancy in a computationally efficient manner while better modeling smooth
+processes than standard conditional auto-regressive models. The increased
+flexibility reduces identifiability, but the lack of identifiability is
+inherent in the scientific context. I model particulate matter air pollution
+using satellite aerosol and atmospheric model output proxies. The estimated
+discrepancies occur at a variety of spatial scales, with small-scale
+discrepancy particularly important. The examples indicate little predictive
+improvement over modeling the observations alone. Similarly, in simulations
+with an informative proxy, the presence of discrepancy and resulting
+identifiability issues prevent improvement in prediction. The results highlight
+but do not resolve the critical question of how best to use proxy information
+while minimizing the potential for proxy-induced error.

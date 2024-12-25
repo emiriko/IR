@@ -1,0 +1,11 @@
+For every graph $H$, there exists a polynomial-time algorithm deciding if a
+planar input graph $G$ can be contracted to~$H$. However, the degree of the
+polynomial depends on the size of $H$. In this paper, we identify a class of
+graphs $\cal C$ such that for every $H \in \cal C$, there exists an algorithm
+deciding in time $f(|V(H)|) \cdot |V(G)|^{\bigO{1}}$ whether a planar graph $G$
+can be contracted to~$H$. (The function $f(\cdot)$ does not depend on $G$.) The
+class $\cal C$ is the closure of planar triangulated graphs under taking of
+contractions. In fact, we prove that a graph $H \in \cal C$ if and only if
+there exists a constant $c_H$ such that if the tree-width of a graph is at
+least $c_H$, it contains $H$ as a contraction. We also provide a
+characterization of $\cal C$ in terms of minimal forbidden contractions.

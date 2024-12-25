@@ -1,0 +1,7 @@
+A challenge for programming language research is to design and implement
+multi-threaded low-level languages providing static guarantees for memory
+safety and freedom from data races. Towards this goal, we present a concurrent
+language employing safe region-based memory management and hierarchical locking
+of regions. Both regions and locks are treated uniformly, and the language
+supports ownership transfer, early deallocation of regions and early release of
+locks in a safe manner.

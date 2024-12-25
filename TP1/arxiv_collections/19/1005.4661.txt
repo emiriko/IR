@@ -1,0 +1,15 @@
+This article introduces yet another representation of rotations in 3-space.
+The rotations form a 3-dimensional projective space, which fact has not been
+exploited in Computer Science. We use the four affine patches of this
+projective space to parametrize the rotations. This affine patch representation
+is more compact than quaternions (which require 4 components for calculations),
+encompasses the entire rotation group without singularities (unlike the Euler
+angles and rotation vector approaches), and requires only ratios of linear or
+quadratic polynomials for basic computations (unlike the Euler angles and
+rotation vector approaches which require transcendental functions).
+  As an example, we derive the differential equation for the integration of
+angular velocity using this affine patch representation of rotations. We remark
+that the complexity of this equation is the same as the corresponding
+quaternion equation, but has advantages over the quaternion approach e.g.
+renormalization to unit length is not required, and state space has no dead
+directions.

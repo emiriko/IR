@@ -1,0 +1,11 @@
+The minimal deterministic finite automaton is generally used to determine
+regular languages equality. Antimirov and Mosses proposed a rewrite system for
+deciding regular expressions equivalence of which Almeida et al. presented an
+improved variant. Hopcroft and Karp proposed an almost linear algorithm for
+testing the equivalence of two deterministic finite automata that avoids
+minimisation. In this paper we improve the best-case running time, present an
+extension of this algorithm to non-deterministic finite automata, and establish
+a relationship between this algorithm and the one proposed in Almeida et al. We
+also present some experimental comparative results. All these algorithms are
+closely related with the recent coalgebraic approach to automata proposed by
+Rutten.

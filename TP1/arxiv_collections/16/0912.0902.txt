@@ -1,0 +1,24 @@
+Typically, point forecasting methods are compared and assessed by means of an
+error measure or scoring function, such as the absolute error or the squared
+error. The individual scores are then averaged over forecast cases, to result
+in a summary measure of the predictive performance, such as the mean absolute
+error or the (root) mean squared error. I demonstrate that this common practice
+can lead to grossly misguided inferences, unless the scoring function and the
+forecasting task are carefully matched.
+  Effective point forecasting requires that the scoring function be specified
+ex ante, or that the forecaster receives a directive in the form of a
+statistical functional, such as the mean or a quantile of the predictive
+distribution. If the scoring function is specified ex ante, the forecaster can
+issue the optimal point forecast, namely, the Bayes rule. If the forecaster
+receives a directive in the form of a functional, it is critical that the
+scoring function be consistent for it, in the sense that the expected score is
+minimized when following the directive.
+  A functional is elicitable if there exists a scoring function that is
+strictly consistent for it. Expectations, ratios of expectations and quantiles
+are elicitable. For example, a scoring function is consistent for the mean
+functional if and only if it is a Bregman function. It is consistent for a
+quantile if and only if it is generalized piecewise linear. Similar
+characterizations apply to ratios of expectations and to expectiles. Weighted
+scoring functions are consistent for functionals that adapt to the weighting in
+peculiar ways. Not all functionals are elicitable; for instance, conditional
+value-at-risk is not, despite its popularity in quantitative finance.

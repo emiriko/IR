@@ -1,0 +1,13 @@
+The most successful unfolding rules used nowadays in the partial evaluation
+of logic programs are based on well quasi orders (wqo) applied over (covering)
+ancestors, i.e., a subsequence of the atoms selected during a derivation.
+Ancestor (sub)sequences are used to increase the specialization power of
+unfolding while still guaranteeing termination and also to reduce the number of
+atoms for which the wqo has to be checked. Unfortunately, maintaining the
+structure of the ancestor relation during unfolding introduces significant
+overhead. We propose an efficient, practical local unfolding rule based on the
+notion of covering ancestors which can be used in combination with a wqo and
+allows a stack-based implementation without losing any opportunities for
+specialization. Using our technique, certain non-leftmost unfoldings are
+allowed as long as local unfolding is performed, i.e., we cover depth-first
+strategies.

@@ -1,0 +1,12 @@
+We introduce the notion of "non-malleability" of a quantum state encryption
+scheme (in dimension d): in addition to the requirement that an adversary
+cannot learn information about the state, here we demand that no controlled
+modification of the encrypted state can be effected.
+  We show that such a scheme is equivalent to a "unitary 2-design" [Dankert et
+al.], as opposed to normal encryption which is a unitary 1-design. Our other
+main results include a new proof of the lower bound of (d^2-1)^2+1 on the
+number of unitaries in a 2-design [Gross et al.], which lends itself to a
+generalization to approximate 2-design.
+  Furthermore, while in prime power dimension there is a unitary 2-design with
+=< d^5 elements, we show that there are always approximate 2-designs with
+O(epsilon^{-2} d^4 log d) elements.

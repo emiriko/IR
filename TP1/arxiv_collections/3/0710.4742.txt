@@ -1,0 +1,10 @@
+In this paper, we present power emulation, a novel design paradigm that
+utilizes hardware acceleration for the purpose of fast power estimation. Power
+emulation is based on the observation that the functions necessary for power
+estimation (power model evaluation, aggregation, etc.) can be implemented as
+hardware circuits. Therefore, we can enhance any given design with "power
+estimation hardware", map it to a prototyping platform, and exercise it with
+any given test stimuli to obtain power consumption estimates. Our empirical
+studies with industrial designs reveal that power emulation can achieve
+significant speedups (10X to 500X) over state-of-the-art commercial
+register-transfer level (RTL) power estimation tools.

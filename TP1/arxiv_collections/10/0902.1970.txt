@@ -1,0 +1,14 @@
+Conformal predictors, introduced by Vovk et al. (2005), serve to build
+prediction intervals by exploiting a notion of conformity of the new data point
+with previously observed data. In the present paper, we propose a novel method
+for constructing prediction intervals for the response variable in multivariate
+linear models. The main emphasis is on sparse linear models, where only few of
+the covariates have significant influence on the response variable even if
+their number is very large. Our approach is based on combining the principle of
+conformal prediction with the $\ell_1$ penalized least squares estimator
+(LASSO). The resulting confidence set depends on a parameter $\epsilon>0$ and
+has a coverage probability larger than or equal to $1-\epsilon$. The numerical
+experiments reported in the paper show that the length of the confidence set is
+small. Furthermore, as a by-product of the proposed approach, we provide a
+data-driven procedure for choosing the LASSO penalty. The selection power of
+the method is illustrated on simulated data.

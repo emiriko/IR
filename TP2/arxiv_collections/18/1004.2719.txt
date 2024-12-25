@@ -1,0 +1,17 @@
+Missing web pages, URIs that return the 404 "Page Not Found" error or the
+HTTP response code 200 but dereference unexpected content, are ubiquitous in
+today's browsing experience. We use Internet search engines to relocate such
+missing pages and provide means that help automate the rediscovery process. We
+propose querying web pages' titles against search engines. We investigate the
+retrieval performance of titles and compare them to lexical signatures which
+are derived from the pages' content. Since titles naturally represent the
+content of a document they intuitively change over time. We measure the edit
+distance between current titles and titles of copies of the same pages obtained
+from the Internet Archive and display their evolution. We further investigate
+the correlation between title changes and content modifications of a web page
+over time. Lastly we provide a predictive model for the quality of any given
+web page title in terms of its discovery performance. Our results show that
+titles return more than 60% URIs top ranked and further relevant content
+returned in the top 10 results. We show that titles decay slowly but are far
+more stable than the pages' content. We further distill stop titles than can
+help identify insufficiently performing search engine queries.

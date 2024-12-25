@@ -1,0 +1,13 @@
+To extract physics results from the recorded data, the LHC experiments are
+using Grid computing infrastructure. The event data processing on the Grid
+requires scalable access to non-event data (detector conditions, calibrations,
+etc.) stored in relational databases. The database-resident data are critical
+for the event data reconstruction processing steps and often required for
+physics analysis. This paper reviews LHC experience with database technologies
+for the Grid computing. List of topics includes: database integration with Grid
+computing models of the LHC experiments; choice of database technologies;
+examples of database interfaces; distributed database applications (data
+complexity, update frequency, data volumes and access patterns); scalability of
+database access in the Grid computing environment of the LHC experiments. The
+review describes areas in which substantial progress was made and remaining
+open issues.

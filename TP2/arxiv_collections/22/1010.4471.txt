@@ -1,0 +1,22 @@
+Longitudinal imaging studies have moved to the forefront of medical research
+due to their ability to characterize spatio-temporal features of biological
+structures across the lifespan. Credible models of the correlations in
+longitudinal imaging require two or more pattern components. Valid inference
+requires enough flexibility of the correlation model to allow reasonable
+fidelity to the true pattern. On the other hand, the existence of computable
+estimates demands a parsimonious parameterization of the correlation structure.
+For many one-dimensional spatial or temporal arrays, the linear exponent
+autoregressive (LEAR) correlation structure meets these two opposing goals in
+one model. The LEAR structure is a flexible two-parameter correlation model
+that applies in situations in which the within-subject correlation decreases
+exponentially in time or space. It allows for an attenuation or acceleration of
+the exponential decay rate imposed by the commonly used continuous-time AR(1)
+structure. Here we propose the Kronecker product LEAR correlation structure for
+multivariate repeated measures data in which the correlation between
+measurements for a given subject is induced by two factors. We also provide a
+scientifically informed approach to assessing the adequacy of a Kronecker
+product LEAR model and a general unstructured Kronecker product model. The
+approach provides useful guidance for high dimension, low sample size data that
+preclude using standard likelihood based tests. Longitudinal medical imaging
+data of caudate morphology in schizophrenia illustrates the appeal of the
+Kronecker product LEAR correlation structure.

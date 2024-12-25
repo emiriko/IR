@@ -1,0 +1,12 @@
+This paper is a continuation of our earlier work \cite{NRxx} in which a
+numerical moment method with arbitrary order of moments was presented. However,
+the computation may break down during the calculation of the structure of a
+shock wave with Mach number $M_0 \geqslant 3$. In this paper, we concentrate on
+the regularization of the moment systems. First, we apply the Maxwell iteration
+to the infinite moment system and determine the magnitude of each moment with
+respect to the Knudsen number. After that, we obtain the approximation of high
+order moments and close the moment systems by dropping some high-order terms.
+Linearization is then performed to obtain a very simple regularization term,
+thus it is very convenient for numerical implementation. To validate the new
+regularization, the shock structure of low order systems is computed with
+different number of moments and different shock Mach numbers.

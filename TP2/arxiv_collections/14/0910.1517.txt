@@ -1,0 +1,16 @@
+The new era of software signal processing has a large impact on radio
+astronomy instrumentation. Our design and implementation of a 32 antennae, 33
+MHz, dual polarization, fully real-time software backend for the GMRT, using
+only off-the-shelf components, is an example of this. We have built a
+correlator and a beamformer, using PCI-based ADC cards and a Linux cluster of
+48 nodes with dual gigabit inter-node connectivity for real-time data transfer
+requirements. The highly optimized compute pipeline uses cache efficient,
+multi-threaded parallel code, with the aid of vectorized processing. This
+backend allows flexibility in final time and frequency resolutions, and the
+ability to implement algorithms for radio frequency interference rejection. Our
+approach has allowed relatively rapid development of a fairly sophisticated and
+flexible backend receiver system for the GMRT, which will greatly enhance the
+productivity of the telescope. In this paper we describe some of the first
+lights using this software processing pipeline. We believe this is the first
+instance of such a real-time observatory backend for an intermediate sized
+array like the GMRT.

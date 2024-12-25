@@ -1,0 +1,10 @@
+Suppose Alice and Bob receive strings of unbiased independent but noisy bits
+from some random source. They wish to use their respective strings to extract a
+common sequence of random bits with high probability but without communicating.
+How many such bits can they extract? The trivial strategy of outputting the
+first $k$ bits yields an agreement probability of $(1 - \eps)^k <
+2^{-1.44k\eps}$, where $\eps$ is the amount of noise. We show that no strategy
+can achieve agreement probability better than $2^{-k\eps/(1 - \eps)}$.
+  On the other hand, we show that when $k \geq 10 + 2 (1 - \eps) / \eps$, there
+exists a strategy which achieves an agreement probability of $0.1
+(k\eps)^{-1/2} \cdot 2^{-k\eps/(1 - \eps)}$.

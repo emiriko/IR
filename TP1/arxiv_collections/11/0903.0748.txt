@@ -1,0 +1,19 @@
+We present the design and evaluation of a quantum carry-lookahead adder
+(QCLA) using measurement-based quantum computation (MBQC), called MBQCLA. QCLA
+was originally designed for an abstract, concurrent architecture supporting
+long-distance communication, but most realistic architectures heavily constrain
+communication distances. The quantum carry-lookahead adder is faster than a
+quantum ripple-carry adder; QCLA has logarithmic depth while ripple adders have
+linear depth. MBQCLA utilizes MBQC's ability to transfer quantum states in unit
+time to accelerate addition. MBQCLA breaks the latency limit of addition
+circuits in nearest neighbor-only architectures : compared to the $\Theta(n)$
+limit on circuit depth for linear nearest-neighbor architectures, it can reach
+$\Theta(log n)$ depth. MBQCLA is an order of magnitude faster than a
+ripple-carry adder when adding registers longer than 100 qubits, but requires a
+cluster state that is an order of magnitude larger. The cluster state resources
+can be classified as computation and communication; for the unoptimized form,
+$\approx$ 88 % of the resources are used for communication. Hand optimization
+of horizontal communication costs results in a $\approx$ 12% reduction in
+spatial resources for the in-place MBQCLA circuit. For comparison, a graph
+state quantum carry-lookahead adder (GSQCLA) uses only $\approx$ 9 % of the
+spatial resources of the MBQCLA.

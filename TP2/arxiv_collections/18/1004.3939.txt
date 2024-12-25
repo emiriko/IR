@@ -1,0 +1,9 @@
+In this paper we outline initial concepts for an immune inspired algorithm to
+evaluate price time series data. The proposed solution evolves a short term
+pool of trackers dynamically through a process of proliferation and mutation,
+with each member attempting to map to trends in price movements. Successful
+trackers feed into a long term memory pool that can generalise across repeating
+trend patterns. Tests are performed to examine the algorithm's ability to
+successfully identify trends in a small data set. The influence of the long
+term memory pool is then examined. We find the algorithm is able to identify
+price trends presented successfully and efficiently.

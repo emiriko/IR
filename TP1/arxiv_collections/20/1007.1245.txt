@@ -1,0 +1,11 @@
+I present a review of Smoothed Particle Hydrodynamics (SPH), with the aim of
+providing a mathematically rigorous, clear derivation of the algorithms from
+first principles. The method of discretising a continuous field into particles
+using a smoothing kernel is considered, and also the errors associated with
+this approach. A fully conservative form of SPH is then derived from the
+Lagrangian, demonstrating the explicit conservation of mass, linear and angular
+momenta and energy/entropy. The method is then extended to self-consistently
+include spatially varying smoothing lengths, (self) gravity and various forms
+of artificial viscosity, required for the correct treatment of shocks. Finally
+two common methods of time integration are discussed, the Runge-Kutta-Fehlberg
+and leapfrog integrators, along with an overview of time-stepping criteria.

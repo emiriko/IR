@@ -1,0 +1,12 @@
+We present an efficient low-rank updating algorithm for updating the trial
+wavefunctions used in Quantum Monte Carlo (QMC) simulations. The algorithm is
+based on low-rank updating of the Slater determinants. In particular, the
+computational complexity of the algorithm is O(kN) during the k-th step
+compared with traditional algorithms that require O(N^2) computations, where N
+is the system size. For single determinant trial wavefunctions the new
+algorithm is faster than the traditional O(N^2) Sherman-Morrison algorithm for
+up to O(N) updates. For multideterminant configuration-interaction type trial
+wavefunctions of M+1 determinants, the new algorithm is significantly more
+efficient, saving both O(MN^2) work and O(MN^2) storage. The algorithm enables
+more accurate and significantly more efficient QMC calculations using
+configuration interaction type wavefunctions.

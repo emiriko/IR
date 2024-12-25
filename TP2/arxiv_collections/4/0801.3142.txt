@@ -1,0 +1,18 @@
+The conformal formulation of the Einstein constraint equations is first
+reviewed, and we then consider the design, analysis, and implementation of
+adaptive multilevel finite element-type numerical methods for the resulting
+coupled nonlinear elliptic system. We derive weak formulations of the coupled
+constraints, and review some new developments in the solution theory for the
+constraints in the cases of constant mean extrinsic curvature (CMC) data,
+near-CMC data, and arbitrarily prescribed mean extrinsic curvature data. We
+then outline some recent results on a priori and a posteriori error estimates
+for a broad class of Galerkin-type approximation methods for this system which
+includes techniques such as finite element, wavelet, and spectral methods. We
+then use these estimates to construct an adaptive finite element method (AFEM)
+for solving this system numerically, and outline some new convergence and
+optimality results. We then describe in some detail an implementation of the
+methods using the FETK software package, which is an adaptive multilevel finite
+element code designed to solve nonlinear elliptic and parabolic systems on
+Riemannian manifolds. We finish by describing a simplex mesh generation
+algorithm for compact binary objects, and then look at a detailed example
+showing the use of FETK for numerical solution of the constraints.

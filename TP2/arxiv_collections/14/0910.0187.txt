@@ -1,0 +1,7 @@
+One of the most common basic techniques for improving the performance of web
+applications is caching frequently accessed data in fast data stores,
+colloquially known as cache daemons. In this paper we present a cache daemon
+suitable for storing complex data while maintaining fine-grained control over
+data storage, retrieval and expiry. Data manipulation in this cache daemon is
+performed via standard SQL statements so we call it SQLcached. It is a
+practical, usable solution already implemented in several large web sites.

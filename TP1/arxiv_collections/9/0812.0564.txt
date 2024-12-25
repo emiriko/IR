@@ -1,0 +1,24 @@
+Provenance is information about the origin, derivation, ownership, or history
+of an object. It has recently been studied extensively in scientific databases
+and other settings due to its importance in helping scientists judge data
+validity, quality and integrity. However, most models of provenance have been
+stated as ad hoc definitions motivated by informal concepts such as "comes
+from", "influences", "produces", or "depends on". These models lack clear
+formalizations describing in what sense the definitions capture these intuitive
+concepts. This makes it difficult to compare approaches, evaluate their
+effectiveness, or argue about their validity.
+  We introduce provenance traces, a general form of provenance for the nested
+relational calculus (NRC), a core database query language. Provenance traces
+can be thought of as concrete data structures representing the operational
+semantics derivation of a computation; they are related to the traces that have
+been used in self-adjusting computation, but differ in important respects. We
+define a tracing operational semantics for NRC queries that produces both an
+ordinary result and a trace of the execution. We show that three pre-existing
+forms of provenance for the NRC can be extracted from provenance traces.
+Moreover, traces satisfy two semantic guarantees: consistency, meaning that the
+traces describe what actually happened during execution, and fidelity, meaning
+that the traces "explain" how the expression would behave if the input were
+changed. These guarantees are much stronger than those contemplated for
+previous approaches to provenance; thus, provenance traces provide a general
+semantic foundation for comparing and unifying models of provenance in
+databases.

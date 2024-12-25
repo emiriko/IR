@@ -1,0 +1,19 @@
+We propose a new coarse-grained model for the description of liquid-vapor
+phase separation of colloid-polymer mixtures. The hard-sphere repulsion between
+colloids and between colloids and polymers, which is used in the well-known
+Asakura-Oosawa (AO) model, is replaced by Weeks-Chandler-Anderson potentials.
+Similarly, a soft potential of height comparable to thermal energy is used for
+the polymer-polymer interaction, rather than treating polymers as ideal gas
+particles. It is shown by grand-canonical Monte Carlo simulations that this
+model leads to a coexistence curve that almost coincides with that of the AO
+model and the Ising critical behavior of static quantities is reproduced. Then
+the main advantage of the model is exploited - its suitability for Molecular
+Dynamics simulations - to study the dynamics of mean square displacements of
+the particles, transport coefficients such as the self-diffusion and
+interdiffusion coefficients, and dynamic structure factors. While the
+self-diffusion of polymers increases slightly when the critical point is
+approached, the self-diffusion of colloids decreases and at criticality the
+colloid self-diffusion coefficient is about a factor of 10 smaller than that of
+the polymers. Critical slowing down of interdiffusion is observed, which is
+qualitatively similar to symmetric binary Lennard-Jones mixtures, for which no
+dynamic asymmetry of self-diffusion coefficients occurs.

@@ -1,0 +1,24 @@
+The optimal reconstruction of cosmic metric perturbations and other signals
+requires knowledge of their power spectra and other parameters. If these are
+not known a priori, they have to be measured simultaneously from the same data
+used for the signal reconstruction. We formulate the general problem of signal
+inference in the presence of unknown parameters within the framework of
+information field theory. We develop a generic parameter uncertainty
+renormalized estimation (PURE) technique and address the problem of
+reconstructing Gaussian signals with unknown power-spectrum with five different
+approaches: (i) separate maximum-a-posteriori power spectrum measurement and
+subsequent reconstruction, (ii) maximum-a-posteriori power reconstruction with
+marginalized power-spectrum, (iii) maximizing the joint posterior of signal and
+spectrum, (iv) guessing the spectrum from the variance in the Wiener filter
+map, and (v) renormalization flow analysis of the field theoretical problem
+providing the PURE filter. In all cases, the reconstruction can be described or
+approximated as Wiener filter operations with assumed signal spectra derived
+from the data according to the same recipe, but with differing coefficients.
+All of these filters, except the renormalized one, exhibit a perception
+threshold in case of a Jeffreys prior for the unknown spectrum. Data modes,
+with variance below this threshold do not affect the signal reconstruction at
+all. Filter (iv) seems to be similar to the so called Karhune-Loeve and
+Feldman-Kaiser-Peacock estimators for galaxy power spectra used in cosmology,
+which therefore should also exhibit a marginal perception threshold if
+correctly implemented. We present statistical performance tests and show that
+the PURE filter is superior to the others.

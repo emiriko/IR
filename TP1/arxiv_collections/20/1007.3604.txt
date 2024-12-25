@@ -1,0 +1,24 @@
+We study the problem of maximizing a monotone submodular set function subject
+to linear packing constraints. An instance of this problem consists of a matrix
+$A \in [0,1]^{m \times n}$, a vector $b \in [1,\infty)^m$, and a monotone
+submodular set function $f: 2^{[n]} \rightarrow \bbR_+$. The objective is to
+find a set $S$ that maximizes $f(S)$ subject to $A x_{S} \leq b$, where $x_S$
+stands for the characteristic vector of the set $S$. A well-studied special
+case of this problem is when $f$ is linear. This special case captures the
+class of packing integer programs.
+  Our main contribution is an efficient combinatorial algorithm that achieves
+an approximation ratio of $\Omega(1 / m^{1/W})$, where $W = \min\{b_i / A_{ij}
+: A_{ij} > 0\}$ is the width of the packing constraints. This result matches
+the best known performance guarantee for the linear case. One immediate
+corollary of this result is that the algorithm under consideration achieves
+constant factor approximation when the number of constraints is constant or
+when the width of the constraints is sufficiently large. This motivates us to
+study the large width setting, trying to determine its exact approximability.
+We develop an algorithm that has an approximation ratio of $(1 - \epsilon)(1 -
+1/e)$ when $W = \Omega(\ln m / \epsilon^2)$. This result essentially matches
+the theoretical lower bound of $1 - 1/e$. We also study the special setting in
+which the matrix $A$ is binary and $k$-column sparse. A $k$-column sparse
+matrix has at most $k$ non-zero entries in each of its column. We design a fast
+combinatorial algorithm that achieves an approximation ratio of $\Omega(1 /
+(Wk^{1/W}))$, that is, its performance guarantee only depends on the sparsity
+and width parameters.

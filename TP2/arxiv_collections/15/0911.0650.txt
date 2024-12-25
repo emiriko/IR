@@ -1,0 +1,19 @@
+We theorize that phylogenetic profiles provide a quantitative method that can
+relate the structural and functional properties of proteins, as well as their
+evolutionary relationships. A key feature of phylogenetic profiles is the
+interoperable data format (e.g. alignment information, physiochemical
+information, genomic information, etc). Indeed, we have previously demonstrated
+Position Specific Scoring Matrices (PSSMs) are an informative M-dimension which
+can be scored from quantitative measure of embedded or unmodified sequence
+alignments. Moreover, the information obtained from these alignments is
+informative, even in the twilight zone of sequence similarity (<25%
+identity)(1-5). Although powerful, our previous embedding strategy suffered
+from contaminating alignments(embedded AND unmodified) and computational
+expense. Herein, we describe the logic and algorithmic process for a heuristic
+embedding strategy (Adaptive GDDA-BLAST, Ada-BLAST). Ada-BLAST on average up to
+~19-fold faster and has similar sensitivity to our previous method. Further, we
+provide data demonstrating the benefits of embedded alignment measurements for
+isolating secondary structural elements and the classifying
+transmembrane-domain structure/function. We theorize that sequence-embedding is
+one of multiple ways that low-identity alignments can be measured and
+incorporated into high-performance PSSM-based phylogenetic profiles.

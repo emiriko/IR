@@ -1,0 +1,15 @@
+Dynamic Contrast-enhanced Magnetic Resonance Imaging (DCE-MRI) is an
+important tool for detecting subtle kinetic changes in cancerous tissue.
+Quantitative analysis of DCE-MRI typically involves the convolution of an
+arterial input function (AIF) with a nonlinear pharmacokinetic model of the
+contrast agent concentration. Parameters of the kinetic model are biologically
+meaningful, but the optimization of the non-linear model has significant
+computational issues. In practice, convergence of the optimization algorithm is
+not guaranteed and the accuracy of the model fitting may be compromised. To
+overcome this problems, this paper proposes a semi-parametric penalized spline
+smoothing approach, with which the AIF is convolved with a set of B-splines to
+produce a design matrix using locally adaptive smoothing parameters based on
+Bayesian penalized spline models (P-splines). It has been shown that kinetic
+parameter estimation can be obtained from the resulting deconvolved response
+function, which also includes the onset of contrast enhancement. Detailed
+validation of the method, both with simulated and in vivo data, is provided.

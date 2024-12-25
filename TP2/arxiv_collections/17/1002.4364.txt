@@ -1,0 +1,15 @@
+Higher order Delaunay triangulations are a generalization of the Delaunay
+triangulation which provides a class of well-shaped triangulations, over which
+extra criteria can be optimized. A triangulation is order-$k$ Delaunay if the
+circumcircle of each triangle of the triangulation contains at most $k$ points.
+In this paper we study lower and upper bounds on the number of higher order
+Delaunay triangulations, as well as their expected number for randomly
+distributed points. We show that arbitrarily large point sets can have a single
+higher order Delaunay triangulation, even for large orders, whereas for first
+order Delaunay triangulations, the maximum number is $2^{n-3}$. Next we show
+that uniformly distributed points have an expected number of at least
+$2^{\rho_1 n(1+o(1))}$ first order Delaunay triangulations, where $\rho_1$ is
+an analytically defined constant ($\rho_1 \approx 0.525785$), and for $k > 1$,
+the expected number of order-$k$ Delaunay triangulations (which are not
+order-$i$ for any $i < k$) is at least $2^{\rho_k n(1+o(1))}$, where $\rho_k$
+can be calculated numerically.

@@ -1,0 +1,15 @@
+Computer simulations of first-order phase transitions using standard toroidal
+boundary conditions are generally hampered by exponential slowing down. This is
+partly due to interface formation, and partly due to shape transitions. The
+latter occur when droplets become large such that they self-interact through
+the periodic boundaries. On a spherical simulation topology, however, shape
+transitions are absent. By using an appropriate bias function, we expect that
+exponential slowing down can be largely eliminated. In this work, these ideas
+are applied to the two-dimensional Widom-Rowlinson mixture confined to the
+surface of a sphere. Indeed, on the sphere, we find that the number of Monte
+Carlo steps needed to sample a first-order phase transition does not increase
+exponentially with system size, but rather as a power law $\tau \propto
+V^\alpha$, with $\alpha \approx 2.5$, and $V$ the system area. This is
+remarkably close to a random walk for which $\alpha$ equals 2. The benefit of
+this improved scaling behavior for biased sampling methods, such as the
+Wang-Landau algorithm, is investigated in detail.

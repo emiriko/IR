@@ -1,0 +1,14 @@
+I revisit the infinite-size variant of the Density Matrix Renormalization
+Group (iDMRG) algorithm for obtaining a fixed-point translationally invariant
+matrix product wavefunction in the context of one-dimensional quantum systems.
+A crucial ingredient of this algorithm is an efficient transformation for
+obtaining the matrix elements of the wavefunction as the lattice size is
+increased, and I introduce here a versatile transformation that is demonstrated
+to be much more effective than previous versions. The resulting algorithm has a
+surprisingly close relationship to Vidal's Time Evolving Block Decimation for
+infinite systems, but allows much faster convergence. Access to a
+translationally invariant matrix product state allows the calculation of
+correlation functions based on the transfer matrix, which directly gives the
+spectrum of all correlation lengths. I also show some advantages of the Matrix
+Product Operator (MPO) technique for constructing expectation values of higher
+moments, such as the exact variance $<(H-E)^2>$.

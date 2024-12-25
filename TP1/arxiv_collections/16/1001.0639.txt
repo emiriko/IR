@@ -1,0 +1,23 @@
+A mobile robot represented by a point moving in the plane has to explore an
+unknown terrain with obstacles. Both the terrain and the obstacles are modeled
+as arbitrary polygons. We consider two scenarios: the unlimited vision, when
+the robot situated at a point p of the terrain explores (sees) all points q of
+the terrain for which the segment pq belongs to the terrain, and the limited
+vision, when we require additionally that the distance between p and q be at
+most 1. All points of the terrain (except obstacles) have to be explored and
+the performance of an exploration algorithm is measured by the length of the
+trajectory of the robot. For unlimited vision we show an exploration algorithm
+with complexity O(P + D?k), where P is the total perimeter of the terrain
+(including perimeters of obstacles), D is the diameter of the convex hull of
+the terrain, and k is the number of obstacles. We do not assume knowledge of
+these parameters. We also prove a matching lower bound showing that the above
+complexity is optimal, even if the terrain is known to the robot. For limited
+vision we show exploration algorithms with complexity O(P + A + ?Ak), where A
+is the area of the terrain (excluding obstacles). Our algorithms work either
+for arbitrary terrains, if one of the parameters A or k is known, or for c-fat
+terrains, where c is any constant (unknown to the robot) and no additional
+knowledge is assumed. (A terrain T with obstacles is c-fat if R/r ? c, where R
+is the radius of the smallest disc containing T and r is the radius of the
+largest disc contained in T .) We also prove a matching lower bound ?(P + A +
+?Ak) on the complexity of exploration for limited vision, even if the terrain
+is known to the robot.

@@ -1,0 +1,14 @@
+Consideration of the primal and dual problems together leads to important new
+insights into the characteristics of boosting algorithms. In this work, we
+propose a general framework that can be used to design new boosting algorithms.
+A wide variety of machine learning problems essentially minimize a regularized
+risk functional. We show that the proposed boosting framework, termed CGBoost,
+can accommodate various loss functions and different regularizers in a
+totally-corrective optimization fashion. We show that, by solving the primal
+rather than the dual, a large body of totally-corrective boosting algorithms
+can actually be efficiently solved and no sophisticated convex optimization
+solvers are needed. We also demonstrate that some boosting algorithms like
+AdaBoost can be interpreted in our framework--even their optimization is not
+totally corrective. We empirically show that various boosting algorithms based
+on the proposed framework perform similarly on the UCIrvine machine learning
+datasets [1] that we have used in the experiments.

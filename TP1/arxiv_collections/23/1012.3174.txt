@@ -1,0 +1,10 @@
+We study quantum algorithms for testing bipartiteness and expansion of
+bounded-degree graphs. We give quantum algorithms that solve these problems in
+time O(N^(1/3)), beating the Omega(sqrt(N)) classical lower bound. For testing
+expansion, we also prove an Omega(N^(1/4)) quantum query lower bound, thus
+ruling out the possibility of an exponential quantum speedup. Our quantum
+algorithms follow from a combination of classical property testing techniques
+due to Goldreich and Ron, derandomization, and the quantum algorithm for
+element distinctness. The quantum lower bound is obtained by the polynomial
+method, using novel algebraic techniques and combinatorial analysis to
+accommodate the graph structure.

@@ -1,0 +1,10 @@
+Genome-wide association studies generate very large datasets that require
+scalable analysis algorithms. In this report we describe the GEDI software
+package, which implements efficient algorithms for performing several common
+tasks in the analysis of population genotype data, including genotype error
+detection and correction, imputation of both randomly missing and untyped
+genotypes, and genotype phasing. Experimental results show that GEDI achieves
+high accuracy with a runtime scaling linearly with the number of markers and
+samples. The open source C++ code of GEDI, released under the GNU General
+Public License, is available for download at
+http://dna.engr.uconn.edu/software/GEDI/

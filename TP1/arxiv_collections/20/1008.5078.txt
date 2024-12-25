@@ -1,0 +1,10 @@
+It is well known that text compression can be achieved by predicting the next
+symbol in the stream of text data based on the history seen up to the current
+symbol. The better the prediction the more skewed the conditional probability
+distribution of the next symbol and the shorter the codeword that needs to be
+assigned to represent this next symbol. What about the opposite direction ?
+suppose we have a black box that can compress text stream. Can it be used to
+predict the next symbol in the stream ? We introduce a criterion based on the
+length of the compressed data and use it to predict the next symbol. We examine
+empirically the prediction error rate and its dependency on some compression
+parameters.

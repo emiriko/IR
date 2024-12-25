@@ -1,0 +1,18 @@
+Cyclic liftings are proposed to lower the error floor of low-density
+parity-check (LDPC) codes. The liftings are designed to eliminate dominant
+trapping sets of the base code by removing the short cycles which form the
+trapping sets. We derive a necessary and sufficient condition for the cyclic
+permutations assigned to the edges of a cycle $c$ of length $\ell(c)$ in the
+base graph such that the inverse image of $c$ in the lifted graph consists of
+only cycles of length strictly larger than $\ell(c)$. The proposed method is
+universal in the sense that it can be applied to any LDPC code over any channel
+and for any iterative decoding algorithm. It also preserves important
+properties of the base code such as degree distributions, encoder and decoder
+structure, and in some cases, the code rate. The proposed method is applied to
+both structured and random codes over the binary symmetric channel (BSC). The
+error floor improves consistently by increasing the lifting degree, and the
+results show significant improvements in the error floor compared to the base
+code, a random code of the same degree distribution and block length, and a
+random lifting of the same degree. Similar improvements are also observed when
+the codes designed for the BSC are applied to the additive white Gaussian noise
+(AWGN) channel.

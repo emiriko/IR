@@ -1,0 +1,11 @@
+In prediction problems with more predictors than observations, it can
+sometimes be helpful to use a joint probability model, $\pi(Y,X)$, rather than
+a purely conditional model, $\pi(Y \mid X)$, where $Y$ is a scalar response
+variable and $X$ is a vector of predictors. This approach is motivated by the
+fact that in many situations the marginal predictor distribution $\pi(X)$ can
+provide useful information about the parameter values governing the conditional
+regression. However, under very mild misspecification, this marginal
+distribution can also lead conditional inferences astray. Here, we explore
+these ideas in the context of linear factor models, to understand how they play
+out in a familiar setting. The resulting Bayesian model performs well across a
+wide range of covariance structures, on real and simulated data.

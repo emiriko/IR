@@ -1,0 +1,12 @@
+Some type-based approaches to termination use sized types: an ordinal bound
+for the size of a data structure is stored in its type. A recursive function
+over a sized type is accepted if it is visible in the type system that
+recursive calls occur just at a smaller size. This approach is only sound if
+the type of the recursive function is admissible, i.e., depends on the size
+index in a certain way. To explore the space of admissible functions in the
+presence of higher-kinded data types and impredicative polymorphism, a
+semantics is developed where sized types are interpreted as functions from
+ordinals into sets of strongly normalizing terms. It is shown that upper
+semi-continuity of such functions is a sufficient semantic criterion for
+admissibility. To provide a syntactical criterion, a calculus for
+semi-continuous functions is developed.

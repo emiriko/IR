@@ -1,0 +1,14 @@
+Motivation: Prediction of ligands for proteins of known 3D structure is
+important to understand structure-function relationship, predict molecular
+function, or design new drugs. Results: We explore a new approach for ligand
+prediction in which binding pockets are represented by atom clouds. Each target
+pocket is compared to an ensemble of pockets of known ligands. Pockets are
+aligned in 3D space with further use of convolution kernels between clouds of
+points. Performance of the new method for ligand prediction is compared to
+those of other available measures and to docking programs. We discuss two
+criteria to compare the quality of similarity measures: area under ROC curve
+(AUC) and classification based scores. We show that the latter is better suited
+to evaluate the methods with respect to ligand prediction. Our results on
+existing and new benchmarks indicate that the new method outperforms other
+approaches, including docking. Availability: The new method is available at
+http://cbio.ensmp.fr/paris/ Contact: mikhail.zaslavskiy@mines-paristech.fr

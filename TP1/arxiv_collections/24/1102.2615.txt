@@ -1,0 +1,11 @@
+In this paper we provide rigorous proof for the convergence of an iterative
+voting-based image segmentation algorithm called Active Masks. Active Masks
+(AM) was proposed to solve the challenging task of delineating punctate
+patterns of cells from fluorescence microscope images. Each iteration of AM
+consists of a linear convolution composed with a nonlinear thresholding; what
+makes this process special in our case is the presence of additive terms whose
+role is to "skew" the voting when prior information is available. In real-world
+implementation, the AM algorithm always converges to a fixed point. We study
+the behavior of AM rigorously and present a proof of this convergence. The key
+idea is to formulate AM as a generalized (parallel) majority cellular
+automaton, adapting proof techniques from discrete dynamical systems.

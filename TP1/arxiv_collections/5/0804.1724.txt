@@ -1,0 +1,18 @@
+A wireless system with multiple channels is considered, where each channel
+has several transmission states. A user learns about the instantaneous state of
+an available channel by transmitting a control packet in it. Since probing all
+channels consumes significant energy and time, a user needs to determine what
+and how much information it needs to acquire about the instantaneous states of
+the available channels so that it can maximize its transmission rate. This
+motivates the study of the trade-off between the cost of information
+acquisition and its value towards improving the transmission rate.
+  A simple model is presented for studying this information acquisition and
+exploitation trade-off when the channels are multi-state, with different
+distributions and information acquisition costs. The objective is to maximize a
+utility function which depends on both the cost and value of information.
+Solution techniques are presented for computing near-optimal policies with
+succinct representation in polynomial time. These policies provably achieve at
+least a fixed constant factor of the optimal utility on any problem instance,
+and in addition, have natural characterizations. The techniques are based on
+exploiting the structure of the optimal policy, and use of Lagrangean
+relaxations which simplify the space of approximately optimal solutions.

@@ -1,0 +1,17 @@
+The Feynman integral is one of the most accurate methods for calculating
+density operator dynamics in open quantum systems. However, the number of time
+steps that can realistically be used is always limited, therefore one often
+obtains an approximation of the density operator at a sparse grid of points in
+time. Instead of relying only on \textit{ad hoc} interpolation methods such as
+splines to estimate the system density operator in between these points, I
+propose a method that uses physical information to assist with this
+interpolation. This method is tested on a physically significant system, on
+which its use allows important qualitative features of the density operator
+dynamics to be captured with as little as 2 time steps in the Feynman integral.
+This method allows for an enormous reduction in the amount of memory and CPU
+time required for approximating density operator dynamics within a desired
+accuracy. Since this method does not change the way the Feynman integral itself
+is calculated, the value of the density operator approximation at the points in
+time used to discretize the Feynamn integral will be the same whether or not
+this method is used, but its approximation in between these points in time is
+considerably improved by this method.

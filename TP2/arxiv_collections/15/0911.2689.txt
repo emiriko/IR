@@ -1,0 +1,22 @@
+We describe a new algorithm for the "perfect" extraction of one-dimensional
+spectra from two-dimensional (2D) digital images of optical fiber
+spectrographs, based on accurate 2D forward modeling of the raw pixel data. The
+algorithm is correct for arbitrarily complicated 2D point-spread functions
+(PSFs), as compared to the traditional optimal extraction algorithm, which is
+only correct for a limited class of separable PSFs. The algorithm results in
+statistically independent extracted samples in the 1D spectrum, and preserves
+the full native resolution of the 2D spectrograph without degradation. Both the
+statistical errors and the 1D resolution of the extracted spectrum are
+accurately determined, allowing a correct chi-squared comparison of any model
+spectrum with the data. Using a model PSF similar to that found in the red
+channel of the Sloan Digital Sky Survey spectrograph, we compare the
+performance of our algorithm to that of cross-section based optimal extraction,
+and also demonstrate that our method allows coaddition and foreground
+estimation to be carried out as an integral part of the extraction step. This
+work demonstrates the feasibility of current- and next-generation multi-fiber
+spectrographs for faint galaxy surveys even in the presence of strong night-sky
+foregrounds. We describe the handling of subtleties arising from fiber-to-fiber
+crosstalk, discuss some of the likely challenges in deploying our method to the
+analysis of a full-scale survey, and note that our algorithm could be
+generalized into an optimal method for the rectification and combination of
+astronomical imaging data.

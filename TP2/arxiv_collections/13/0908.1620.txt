@@ -1,0 +1,17 @@
+A clear protocol for synthesis of sequential reversible circuits from any
+particular gate library has been provided. Using that protocol, reversible
+circuits for SR latch, D latch, JK latch and T latch are designed from NCT gate
+library. All the circuits have been optimized with the help of existing local
+optimization algorithms (e.g. template matching, moving rule and deletion
+rule). It has been shown that the present proposals have lower gate
+complexities, lower number of garbage bits, lower quantum cost and lower number
+of feedback loops compared to the earlier proposals. For a fair comparison, the
+optimized sequential circuits have been compared with the earlier proposals for
+the same after converting the earlier proposed circuits into equivalent NCT
+circuits. Further, we have shown that the advantage in gate count obtained in
+some of the earlier proposals by introduction of New gates is an artifact and
+if it is allowed then every reversible circuit block can be reduced to a single
+gate. In this context, some important conceptual issues related to the
+designing and optimization of sequential reversible circuits have been
+addressed. A protocol for minimization of quantum cost of reversible circuit
+has also been proposed here.

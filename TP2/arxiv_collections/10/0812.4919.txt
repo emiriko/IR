@@ -1,0 +1,8 @@
+In the k-Apex problem the task is to find at most k vertices whose deletion
+makes the given graph planar. The graphs for which there exists a solution form
+a minor closed class of graphs, hence by the deep results of Robertson and
+Seymour, there is an O(n^3) time algorithm for every fixed value of k. However,
+the proof is extremely complicated and the constants hidden by the big-O
+notation are huge. Here we give a much simpler algorithm for this problem with
+quadratic running time, by iteratively reducing the input graph and then
+applying techniques for graphs of bounded treewidth.

@@ -1,0 +1,24 @@
+High radiation dose in CT scans increases a lifetime risk of cancer and has
+become a major clinical concern. Recently, iterative reconstruction algorithms
+with Total Variation (TV) regularization have been developed to reconstruct CT
+images from highly undersampled data acquired at low mAs levels in order to
+reduce the imaging dose. Nonetheless, TV regularization may lead to
+over-smoothed images and lost edge information. To solve this problem, in this
+work we develop an iterative CT reconstruction algorithm with edge-preserving
+TV regularization to reconstruct CT images from highly undersampled data
+obtained at low mAs levels. The CT image is reconstructed by minimizing an
+energy consisting of an edge-preserving TV norm and a data fidelity term posed
+by the x-ray projections. The edge-preserving TV term is proposed to
+preferentially perform smoothing only on non-edge part of the image in order to
+avoid over-smoothing, which is realized by introducing a penalty weight to the
+original total variation norm. Our iterative algorithm is implemented on GPU to
+improve its speed. We test our reconstruction algorithm on a digital NCAT
+phantom, a physical chest phantom, and a Catphan phantom. Reconstruction
+results from a conventional FBP algorithm and a TV regularization method
+without edge preserving penalty are also presented for comparison purpose. The
+experimental results illustrate that both TV-based algorithm and our
+edge-preserving TV algorithm outperform the conventional FBP algorithm in
+suppressing the streaking artifacts and image noise under the low dose context.
+Our edge-preserving algorithm is superior to the TV-based algorithm in that it
+can preserve more information of fine structures and therefore maintain
+acceptable spatial resolution.

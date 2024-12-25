@@ -1,0 +1,16 @@
+We introduce a new stochastic model for the variations of asset prices at the
+tick-by-tick level in dimension 1 (for a single asset) and 2 (for a pair of
+assets). The construction is based on marked point processes and relies on
+linear self and mutually exciting stochastic intensities as introduced by
+Hawkes. We associate a counting process with the positive and negative jumps of
+an asset price. By coupling suitably the stochastic intensities of upward and
+downward changes of prices for several assets simultaneously, we can reproduce
+microstructure noise (i.e. strong microscopic mean reversion at the level of
+seconds to a few minutes) and the Epps effect (i.e. the decorrelation of the
+increments in microscopic scales) while preserving a standard Brownian
+diffusion behaviour on large scales. More effectively, we obtain analytical
+closed-form formulae for the mean signature plot and the correlation of two
+price increments that enable to track across scales the effect of the
+mean-reversion up to the diffusive limit of the model. We show that the
+theoretical results are consistent with empirical fits on futures Euro-Bund and
+Euro-Bobl in several situations.

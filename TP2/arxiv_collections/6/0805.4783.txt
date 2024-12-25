@@ -1,0 +1,10 @@
+An extension to the P3M algorithm for electrostatic interactions is
+presented, that allows to efficiently compute dipolar interactions in periodic
+boundary conditions. Theoretical estimates for the root-mean square error of
+the forces, torques and the energy are derived. The applicability of the
+estimates is tested and confirmed in several numerical examples. A comparison
+of the computational performance of the new algorithm to state-of-the-art
+dipolar Ewald summation methods shows a performance crossover from the Ewald
+method to the dipolar P3M method for as few as 300 dipolar particles. In larger
+systems, the new algorithm represents a substantial improvement in performance
+with respect to the dipolar standard Ewald method.

@@ -1,0 +1,13 @@
+The SPARQL query language is a recent W3C standard for processing RDF data, a
+format that has been developed to encode information in a machine-readable way.
+We investigate the foundations of SPARQL query optimization and (a) provide
+novel complexity results for the SPARQL evaluation problem, showing that the
+main source of complexity is operator OPTIONAL alone; (b) propose a
+comprehensive set of algebraic query rewriting rules; (c) present a framework
+for constraint-based SPARQL optimization based upon the well-known chase
+procedure for Conjunctive Query minimization. In this line, we develop two
+novel termination conditions for the chase. They subsume the strongest
+conditions known so far and do not increase the complexity of the recognition
+problem, thus making a larger class of both Conjunctive and SPARQL queries
+amenable to constraint-based optimization. Our results are of immediate
+practical interest and might empower any SPARQL query optimizer.

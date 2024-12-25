@@ -1,0 +1,11 @@
+In this paper, we survey five different computational modeling methods. For
+comparison, we use the activation cycle of G-proteins that regulate cellular
+signaling events downstream of G-protein-coupled receptors (GPCRs) as a driving
+example. Starting from an existing Ordinary Differential Equations (ODEs)
+model, we implement the G-protein cycle in the stochastic Pi-calculus using
+SPiM, as Petri-nets using Cell Illustrator, in the Kappa Language using
+Cellucidate, and in Bio-PEPA using the Bio-PEPA eclipse plug in. We also
+provide a high-level notation to abstract away from communication primitives
+that may be unfamiliar to the average biologist, and we show how to translate
+high-level programs into stochastic Pi-calculus processes and chemical
+reactions.

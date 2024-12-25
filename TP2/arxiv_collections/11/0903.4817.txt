@@ -1,0 +1,14 @@
+For a variety of regularized optimization problems in machine learning,
+algorithms computing the entire solution path have been developed recently.
+Most of these methods are quadratic programs that are parameterized by a single
+parameter, as for example the Support Vector Machine (SVM). Solution path
+algorithms do not only compute the solution for one particular value of the
+regularization parameter but the entire path of solutions, making the selection
+of an optimal parameter much easier.
+  It has been assumed that these piecewise linear solution paths have only
+linear complexity, i.e. linearly many bends. We prove that for the support
+vector machine this complexity can be exponential in the number of training
+points in the worst case. More strongly, we construct a single instance of n
+input points in d dimensions for an SVM such that at least \Theta(2^{n/2}) =
+\Theta(2^d) many distinct subsets of support vectors occur as the
+regularization parameter changes.

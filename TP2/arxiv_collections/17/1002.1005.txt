@@ -1,0 +1,18 @@
+Agile development processes and component-based software architectures are
+two software engineering approaches that contribute to enable the rapid
+building and evolution of applications. Nevertheless, few approaches have
+proposed a framework to combine agile and component-based development, allowing
+an application to be tested throughout the entire development cycle. To address
+this problematic, we have built CALICO, a model-based framework that allows
+applications to be safely developed in an iterative and incremental manner. The
+CALICO approach relies on the synchronization of a model view, which specifies
+the application properties, and a runtime view, which contains the application
+in its execution context. Tests on the application specifications that require
+values only known at runtime, are automatically integrated by CALICO into the
+running application, and the captured needed values are reified at execution
+time to resume the tests and inform the architect of potential problems. Any
+modification at the model level that does not introduce new errors is
+automatically propagated to the running system, allowing the safe evolution of
+the application. In this paper, we illustrate the CALICO development process
+with a concrete example and provide information on the current implementation
+of our framework.

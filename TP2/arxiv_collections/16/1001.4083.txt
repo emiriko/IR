@@ -1,0 +1,10 @@
+In the literature surrounding Bayesian penalized regression, the two primary
+choices of prior distribution on the regression coefficients are zero-mean
+Gaussian and Laplace. While both have been compared numerically and
+theoretically, there remains little guidance on which to use in real-life
+situations. We propose two viable solutions to this problem in the form of
+prior distributions which combine and compromise between Laplace and Gaussian
+priors, respectively. Through cross-validation the prior which optimizes
+prediction performance is automatically selected. We then demonstrate the
+improved performance of these new prior distributions relative to Laplace and
+Gaussian priors in both a simulated and experimental environment.

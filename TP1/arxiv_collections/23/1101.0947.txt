@@ -1,0 +1,16 @@
+Large-scale statistical analysis of data sets associated with genome
+sequences plays an important role in modern biology. A key component of such
+statistical analyses is the computation of $p$-values and confidence bounds for
+statistics defined on the genome. Currently such computation is commonly
+achieved through ad hoc simulation measures. The method of randomization, which
+is at the heart of these simulation procedures, can significantly affect the
+resulting statistical conclusions. Most simulation schemes introduce a variety
+of hidden assumptions regarding the nature of the randomness in the data,
+resulting in a failure to capture biologically meaningful relationships. To
+address the need for a method of assessing the significance of observations
+within large scale genomic studies, where there often exists a complex
+dependency structure between observations, we propose a unified solution built
+upon a data subsampling approach. We propose a piecewise stationary model for
+genome sequences and show that the subsampling approach gives correct answers
+under this model. We illustrate the method on three simulation studies and two
+real data examples.

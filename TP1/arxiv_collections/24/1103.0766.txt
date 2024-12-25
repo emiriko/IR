@@ -1,0 +1,23 @@
+We investigate which bipartite quantum states admit a symmetric extension and
+apply the results in the analysis of noise thresholds in quantum key
+distribution protocols with two-way postprocessing.
+  We find that states that admit a symmetric extension can be decomposed into a
+convex combination of states that admit a_pure_ symmetric extension. For a
+state to have a pure symmetric extension, its nonzero eigenvalues must be equal
+to the nonzero eigenvalues of one of the subsystems. While this does not fully
+characterize the set of states with a pure symmetric extension in all
+dimensions, it is a full characterization for two qubits. A conjectured formula
+characterizing two-qubit states with a (mixed or pure) symmetric extension is
+presented. Proofs are given for some special classes. For multi-qubit
+Bell-diagonal states, the symmetric extension is simplified using the
+symmetries of the states and formulated as a semidefinite program.
+  Quantum key distribution with two-way advantage distillation steps is then
+analyzed. For the commonly used repetition code advantage distillation, the
+failure to distill a secret key beyond the currently known noise thresholds is
+explained by a failure to break a symmetric extension. More general linear
+advantage distillation schemes are analyzed, but for those schemes analyzed, we
+find that they tolerate strictly less noise than repetition code advantage
+distillation before they fail to break a symmetric extension. The results
+suggest that no other linear advantage distillation scheme can reach the noise
+threshold of 27.6 % for the six-state protocol which is achieved by repetition
+code advantage distillation.

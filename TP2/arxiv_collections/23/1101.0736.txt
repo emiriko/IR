@@ -1,0 +1,13 @@
+This paper is devoted to the parametric estimation of a shift together with
+the nonparametric estimation of a regression function in a semiparametric
+regression model. We implement a very efficient and easy to handle
+Robbins-Monro procedure. On the one hand, we propose a stochastic algorithm
+similar to that of Robbins-Monro in order to estimate the shift parameter. A
+preliminary evaluation of the regression function is not necessary to estimate
+the shift parameter. On the other hand, we make use of a recursive
+Nadaraya-Watson estimator for the estimation of the regression function. This
+kernel estimator takes into account the previous estimation of the shift
+parameter. We establish the almost sure convergence for both Robbins-Monro and
+Nadaraya--Watson estimators. The asymptotic normality of our estimates is also
+provided. Finally, we illustrate our semiparametric estimation procedure on
+simulated and real data.

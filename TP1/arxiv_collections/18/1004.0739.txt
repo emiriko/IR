@@ -1,0 +1,26 @@
+Often one has a preference order among the different systems that satisfy a
+given specification. Under a probabilistic assumption about the possible
+inputs, such a preference order is naturally expressed by a weighted automaton,
+which assigns to each word a value, such that a system is preferred if it
+generates a higher expected value. We solve the following optimal-synthesis
+problem: given an omega-regular specification, a Markov chain that describes
+the distribution of inputs, and a weighted automaton that measures how well a
+system satisfies the given specification under the given input assumption,
+synthesize a system that optimizes the measured value.
+  For safety specifications and measures given by mean-payoff automata, the
+optimal-synthesis problem amounts to finding a strategy in a Markov decision
+process (MDP) that is optimal for a long-run average reward objective, which
+can be done in polynomial time. For general omega-regular specifications, the
+solution rests on a new, polynomial-time algorithm for computing optimal
+strategies in MDPs with mean-payoff parity objectives.
+  Our algorithm generates optimal strategies consisting of two memoryless
+strategies and a counter. This counter is in general not bounded. To obtain a
+finite-state system, we show how to construct an \epsilon-optimal strategy with
+a bounded counter for any \epsilon>0. We also show how to decide in polynomial
+time if we can construct an optimal finite-state system (i.e., a system without
+a counter) for a given specification.
+  We have implemented our approach in a tool that takes qualitative and
+quantitative specifications and automatically constructs a system that
+satisfies the qualitative specification and optimizes the quantitative
+specification, if such a system exists. We present experimental results showing
+optimal systems that were generated in this way.

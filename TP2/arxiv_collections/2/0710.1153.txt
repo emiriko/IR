@@ -1,0 +1,9 @@
+In a previous work Baillot and Terui introduced Dual light affine logic
+(DLAL) as a variant of Light linear logic suitable for guaranteeing complexity
+properties on lambda calculus terms: all typable terms can be evaluated in
+polynomial time by beta reduction and all Ptime functions can be represented.
+In the present work we address the problem of typing lambda-terms in
+second-order DLAL. For that we give a procedure which, starting with a term
+typed in system F, determines whether it is typable in DLAL and outputs a
+concrete typing if there exists any. We show that our procedure can be run in
+time polynomial in the size of the original Church typed system F term.

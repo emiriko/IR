@@ -1,0 +1,17 @@
+In generalized linear regression problems with an abundant number of
+features, lasso-type regularization which imposes an $\ell^1$-constraint on the
+regression coefficients has become a widely established technique. Deficiencies
+of the lasso in certain scenarios, notably strongly correlated design, were
+unmasked when Zou and Hastie [J. Roy. Statist. Soc. Ser. B 67 (2005) 301--320]
+introduced the elastic net. In this paper we propose to extend the elastic net
+by admitting general nonnegative quadratic constraints as a second form of
+regularization. The generalized ridge-type constraint will typically make use
+of the known association structure of features, for example, by using temporal-
+or spatial closeness. We study properties of the resulting "structured elastic
+net" regression estimation procedure, including basic asymptotics and the issue
+of model selection consistency. In this vein, we provide an analog to the
+so-called "irrepresentable condition" which holds for the lasso. Moreover, we
+outline algorithmic solutions for the structured elastic net within the
+generalized linear model family. The rationale and the performance of our
+approach is illustrated by means of simulated and real world data, with a focus
+on signal regression.

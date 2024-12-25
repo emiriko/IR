@@ -1,0 +1,14 @@
+This paper is motivated by the analysis of gene expression sets, especially
+by finding differentially expressed gene sets between two phenotypes. Gene
+$\log_2$ expression levels are highly correlated and, very likely, have
+approximately normal distribution. Therefore, it seems reasonable to use
+two-sample Hotelling's test for such data. We discover some unexpected
+properties of the test making it different from the majority of tests
+previously used for such data. It appears that the Hotelling's test does not
+always reach maximal power when all marginal distributions are differentially
+expressed. For highly correlated data its maximal power is attained when about
+a half of marginal distributions are essentially different. For the case when
+the correlation coefficient is greater than 0.5 this test is more powerful if
+only one marginal distribution is shifted, omparing to the case when all
+marginal distributions are equally shifted. Moreover, when the correlation
+coefficient increases the power of Hotelling's test increases as well.

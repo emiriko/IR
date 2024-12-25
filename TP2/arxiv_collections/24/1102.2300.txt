@@ -1,0 +1,18 @@
+We give a new algorithm for Unique Games which is based on purely {\em
+spectral} techniques, in contrast to previous work in the area, which relies
+heavily on semidefinite programming (SDP). Given a highly satisfiable instance
+of Unique Games, our algorithm is able to recover a good assignment. The
+approximation guarantee depends only on the completeness of the game, and not
+on the alphabet size, while the running time depends on spectral properties of
+the {\em Label-Extended} graph associated with the instance of Unique Games.
+  We further show that on input the integrality gap instance of Khot and
+Vishnoi, our algorithm runs in quasi-polynomial time and decides that the
+instance if highly unsatisfiable. Notably, when run on this instance, the
+standard SDP relaxation of Unique Games {\em fails}. As a special case, we also
+re-derive a polynomial time algorithm for Unique Games on expander constraint
+graphs.
+  The main ingredient of our algorithm is a technique to effectively use the
+full spectrum of the underlying graph instead of just the second eigenvalue,
+which is of independent interest. The question of how to take advantage of the
+full spectrum of a graph in the design of algorithms has been often studied,
+but no significant progress was made prior to this work.

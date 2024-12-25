@@ -1,0 +1,19 @@
+A well-balanced scheme for a gravitational hydrodynamic system is defined as
+a scheme which could precisely preserve a hydrostatic isothermal solution. In
+this paper, we will construct a well-balanced gas-kinetic
+symplecticity-preserving BGK (SP-BGK) scheme. In order to develop such a
+scheme, we model the gravitational potential as a piecewise step function with
+a potential jump at the cell interface. At the same time, the Liouville's
+theorem and symplecticity preserving property of a Hamiltonian flow have been
+used in the description of particles penetration, reflection, and deformation
+through a potential barrier. The use of the symplecticity preserving property
+for a Hamiltonian flow is crucial in the evaluation of the high-order moments
+of a gas distribution function when crossing through a potential jump. As far
+as we know, the SP-BGK method is the first shock capturing Navier-Stokes flow
+solver with well-balanced property for a gravitational hydrodynamic system. A
+few theorems will be proved for this scheme, which include the necessity to use
+an exact Maxwellian for keeping the hydrostatic state, the total mass and
+energy (the sum of kinetic, thermal, and gravitational ones) conservation, and
+the well-balanced property to keep a hydrostatic state during particle
+transport and collision processes. Many numerical examples will be presented to
+validate the SP-BGK scheme.

@@ -1,0 +1,7 @@
+Let P be any pure type system, we are going to show how we can extend P into
+a PTS P' which will be used as a proof system whose formulas express properties
+about sets of terms of P. We will show that P' is strongly normalizable if and
+only if P is. Given a term t in P and a formula F in P', P' is expressive
+enough to construct a formula "t ||- F" that is interpreted as "t is a realizer
+of F". We then prove the following adequacy theorem: if F is provable then by
+projecting its proof back to a term t in P we obtain a proof that "t ||- F".

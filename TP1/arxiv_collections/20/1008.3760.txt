@@ -1,0 +1,20 @@
+We report a globally-optimal approach to robotic path planning under
+uncertainty, based on the theory of quantitative measures of formal languages.
+A significant generalization to the language-measure-theoretic path planning
+algorithm $\nustar$ is presented that explicitly accounts for average dynamic
+uncertainties and estimation errors in plan execution. The notion of the
+navigation automaton is generalized to include probabilistic uncontrollable
+transitions, which account for uncertainties by modeling and planning for
+probabilistic deviations from the computed policy in the course of execution.
+The planning problem is solved by casting it in the form of a performance
+maximization problem for probabilistic finite state automata. In essence we
+solve the following optimization problem: Compute the navigation policy which
+maximizes the probability of reaching the goal, while simultaneously minimizing
+the probability of hitting an obstacle. Key novelties of the proposed approach
+include the modeling of uncertainties using the concept of uncontrollable
+transitions, and the solution of the ensuing optimization problem using a
+highly efficient search-free combinatorial approach to maximize quantitative
+measures of probabilistic regular languages. Applicability of the algorithm in
+various models of robot navigation has been shown with experimental validation
+on a two-wheeled mobile robotic platform (SEGWAY RMP 200) in a laboratory
+environment.

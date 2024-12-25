@@ -1,0 +1,24 @@
+We consider the generic problem of performing sequential Bayesian inference
+in a state-space model with observation process y, state process x and fixed
+parameter theta. An idealized approach would be to apply the iterated batch
+importance sampling (IBIS) algorithm of Chopin (2002). This is a sequential
+Monte Carlo algorithm in the theta-dimension, that samples values of theta,
+reweights iteratively these values using the likelihood increments
+p(y_t|y_1:t-1, theta), and rejuvenates the theta-particles through a resampling
+step and a MCMC update step. In state-space models these likelihood increments
+are intractable in most cases, but they may be unbiasedly estimated by a
+particle filter in the x-dimension, for any fixed theta. This motivates the
+SMC^2 algorithm proposed in this article: a sequential Monte Carlo algorithm,
+defined in the theta-dimension, which propagates and resamples many particle
+filters in the x-dimension. The filters in the x-dimension are an example of
+the random weight particle filter as in Fearnhead et al. (2010). On the other
+hand, the particle Markov chain Monte Carlo (PMCMC) framework developed in
+Andrieu et al. (2010) allows us to design appropriate MCMC rejuvenation steps.
+Thus, the theta-particles target the correct posterior distribution at each
+iteration t, despite the intractability of the likelihood increments. We
+explore the applicability of our algorithm in both sequential and
+non-sequential applications and consider various degrees of freedom, as for
+example increasing dynamically the number of x-particles. We contrast our
+approach to various competing methods, both conceptually and empirically
+through a detailed simulation study, included here and in a supplement, and
+based on particularly challenging examples.

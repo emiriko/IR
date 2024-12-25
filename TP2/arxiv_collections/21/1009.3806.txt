@@ -1,0 +1,11 @@
+Logic programming provides a very high-level view of programming, which comes
+at the cost of some execution efficiency. Improving performance of logic
+programs is thus one of the holy grails of Prolog system implementations and a
+wide range of approaches have historically been taken towards this goal.
+Designing computational models that both exploit the available parallelism in a
+given application and that try hard to reduce the explored search space has
+been an ongoing line of research for many years. These goals in particular have
+motivated the design of several computational models, one of which is the
+Extended Andorra Model (EAM). In this paper, we present a preliminary
+specification and implementation of the EAM with Implicit Control, the WAM2EAM,
+which supplies regular WAM instructions with an EAM-centered interpretation.

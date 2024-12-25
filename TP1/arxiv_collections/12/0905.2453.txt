@@ -1,0 +1,13 @@
+Gravitational lensing calculation using a direct inverse ray-shooting
+approach is a computationally expensive way to determine magnification maps,
+caustic patterns, and light-curves (e.g. as a function of source profile and
+size). However, as an easily parallelisable calculation, gravitational
+ray-shooting can be accelerated using programmable graphics processing units
+(GPUs). We present our implementation of inverse ray-shooting for the NVIDIA
+G80 generation of graphics processors using the NVIDIA Compute Unified Device
+Architecture (CUDA) software development kit. We also extend our code to
+multiple-GPU systems, including a 4-GPU NVIDIA S1070 Tesla unit. We achieve
+sustained processing performance of 182 Gflop/s on a single GPU, and 1.28
+Tflop/s using the Tesla unit. We demonstrate that billion-lens microlensing
+simulations can be run on a single computer with a Tesla unit in timescales of
+order a day without the use of a hierarchical tree code.

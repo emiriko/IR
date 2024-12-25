@@ -1,0 +1,15 @@
+Radiative transfer and radiation hydrodynamics use the relativistic Boltzmann
+equation to describe the kinetics of photons. It is difficult to solve the
+six-dimensional time-dependent transfer equation unless the problem is highly
+symmetric or in equilibrium. When the radiation field is smooth, it is natural
+to take angular moments of the transfer equation to reduce the degrees of
+freedom. However, low order moment equations contain terms that depend on
+higher order moments. To close the system of moment equations, approximations
+are made to truncate this hierarchy. Popular closures used in astrophysics
+include flux limited diffusion and the M1 closure, which are rather ad hoc and
+do not necessarily capture the correct physics. In this paper, we propose a new
+class of closures for radiative transfer and radiation hydrodynamics. We start
+from a different perspective and highlight the consistency of a fully
+relativistic formalism. We present a generic framework to approximate radiative
+transfer based on relativistic Grad's moment method. We then derive a 14-field
+method that minimizes unphysical photon self-interaction.

@@ -1,0 +1,17 @@
+The k-nearest-neighbour procedure is a well-known deterministic method used
+in supervised classification. This paper proposes a reassessment of this
+approach as a statistical technique derived from a proper probabilistic model;
+in particular, we modify the assessment made in a previous analysis of this
+method undertaken by Holmes and Adams (2002,2003), and evaluated by Manocha and
+Girolami (2007), where the underlying probabilistic model is not completely
+well-defined. Once a clear probabilistic basis for the k-nearest-neighbour
+procedure is established, we derive computational tools for conducting Bayesian
+inference on the parameters of the corresponding model. In particular, we
+assess the difficulties inherent to pseudo-likelihood and to path sampling
+approximations of an intractable normalising constant, and propose a perfect
+sampling strategy to implement a correct MCMC sampler associated with our
+model. If perfect sampling is not available, we suggest using a Gibbs sampling
+approximation. Illustrations of the performance of the corresponding Bayesian
+classifier are provided for several benchmark datasets, demonstrating in
+particular the limitations of the pseudo-likelihood approximation in this
+set-up.

@@ -1,0 +1,17 @@
+This paper studies the straight skeleton of polyhedra in three dimensions. We
+first address voxel-based polyhedra (polycubes), formed as the union of a
+collection of cubical (axis-aligned) voxels. We analyze the ways in which the
+skeleton may intersect each voxel of the polyhedron, and show that the skeleton
+may be constructed by a simple voxel-sweeping algorithm taking constant time
+per voxel. In addition, we describe a more complex algorithm for straight
+skeletons of voxel-based polyhedra, which takes time proportional to the area
+of the surfaces of the straight skeleton rather than the volume of the
+polyhedron. We also consider more general polyhedra with axis-parallel edges
+and faces, and show that any n-vertex polyhedron of this type has a straight
+skeleton with O(n^2) features. We provide algorithms for constructing the
+straight skeleton, with running time O(min(n^2 log n, k log^{O(1)} n)) where k
+is the output complexity. Next, we discuss the straight skeleton of a general
+nonconvex polyhedron. We show that it has an ambiguity issue, and suggest a
+consistent method to resolve it. We prove that the straight skeleton of a
+general polyhedron has a superquadratic complexity in the worst case. Finally,
+we report on an implementation of a simple algorithm for the general case.

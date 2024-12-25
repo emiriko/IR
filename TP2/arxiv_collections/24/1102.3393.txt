@@ -1,0 +1,19 @@
+We study frequency allocation in wireless networks. A wireless network is
+modeled by an undirected graph, with vertices corresponding to cells. In each
+vertex we have a certain number of requests, and each of those requests must be
+assigned a different frequency. Edges represent conflicts between cells,
+meaning that frequencies in adjacent vertices must be different as well. The
+objective is to minimize the total number of used frequencies.
+  The offline version of the problem is known to be NP-hard. In the incremental
+version, requests for frequencies arrive over time and the algorithm is
+required to assign a frequency to a request as soon as it arrives. Competitive
+incremental algorithms have been studied for several classes of graphs. For
+paths, the optimal (asymptotic) ratio is known to be 4/3, while for
+hexagonal-cell graphs it is between 1.5 and 1.9126. For k-colorable graphs, the
+ratio of (k+1)/2 can be achieved.
+  In this paper, we prove nearly tight bounds on the asymptotic competitive
+ratio for bipartite graphs, showing that it is between 1.428 and 1.433. This
+improves the previous lower bound of 4/3 and upper bound of 1.5. Our proofs are
+based on reducing the incremental problem to a purely combinatorial
+(equivalent) problem of constructing set families with certain intersection
+properties.

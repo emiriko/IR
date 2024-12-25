@@ -1,0 +1,18 @@
+We present and discuss the characteristics and performances, both in term of
+computational speed and precision, of a numerical code which numerically
+integrates the equation of motions of N 'particles' interacting via Newtonian
+gravitation and move in an external galactic smooth field. The force evaluation
+on every particle is done by mean of direct summation of the contribution of
+all the other system's particle, avoiding truncation error. The time
+integration is done with second-order and sixth-order symplectic schemes. The
+code, NBSymple, has been parallelized twice, by mean of the Computer Unified
+Device Architecture to make the all-pair force evaluation as fast as possible
+on high-performance Graphic Processing Units NVIDIA TESLA C 1060, while the
+O(N) computations are distributed on various CPUs by mean of OpenMP Application
+Program. The code works both in single precision floating point arithmetics or
+in double precision. The use of single precision allows the use at best of the
+GPU performances but, of course, limits the precision of simulation in some
+critical situations. We find a good compromise in using a software
+reconstruction of double precision for those variables that are most critical
+for the overall precision of the code. The code is available on the web site
+astrowww.phys.uniroma1.it/dolcetta/nbsymple.html

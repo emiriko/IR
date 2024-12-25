@@ -1,0 +1,13 @@
+We propose improved versions of the standard diffusion Monte Carlo (DMC) and
+the lattice regularized diffusion Monte Carlo (LRDMC) algorithms. For the DMC
+method, we refine a scheme recently devised to treat non-local pseudopotential
+in a variational way. We show that such scheme --when applied to large enough
+systems-- maintains its effectiveness only at correspondingly small enough
+time-steps, and we present two simple upgrades of the method which guarantee
+the variational property in a size-consistent manner. For the LRDMC method,
+which is size-consistent and variational by construction, we enhance the
+computational efficiency by introducing (i) an improved definition of the
+effective lattice Hamiltonian which remains size-consistent and entails a small
+lattice-space error with a known leading term, and (ii) a new randomization
+method for the positions of the lattice knots which requires a single
+lattice-space.

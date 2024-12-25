@@ -1,0 +1,12 @@
+The Metropolis-Adjusted Langevin Algorithm (MALA), originally introduced to
+sample exactly the invariant measure of certain stochastic differential
+equations (SDE) on infinitely long time intervals, can also be used to
+approximate pathwise the solution of these SDEs on finite time intervals.
+However, when applied to an SDE with a nonglobally Lipschitz drift coefficient,
+the algorithm may not have a spectral gap even when the SDE does. This paper
+reconciles MALA's lack of a spectral gap with its ergodicity to the invariant
+measure of the SDE and finite time accuracy. In particular, the paper shows
+that its convergence to equilibrium happens at exponential rate up to terms
+exponentially small in time-stepsize. This quantification relies on MALA's
+ability to exactly preserve the SDE's invariant measure and accurately
+represent the SDE's transition probability on finite time intervals.

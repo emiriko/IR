@@ -1,0 +1,27 @@
+The Small-Set Expansion Hypothesis (Raghavendra, Steurer, STOC 2010) is a
+natural hardness assumption concerning the problem of approximating the edge
+expansion of small sets in graphs. This hardness assumption is closely
+connected to the Unique Games Conjecture (Khot, STOC 2002). In particular, the
+Small-Set Expansion Hypothesis implies the Unique Games Conjecture
+(Raghavendra, Steurer, STOC 2010).
+  Our main result is that the Small-Set Expansion Hypothesis is in fact
+equivalent to a variant of the Unique Games Conjecture. More precisely, the
+hypothesis is equivalent to the Unique Games Conjecture restricted to instance
+with a fairly mild condition on the expansion of small sets. Alongside, we
+obtain the first strong hardness of approximation results for the Balanced
+Separator and Minimum Linear Arrangement problems. Before, no such hardness was
+known for these problems even assuming the Unique Games Conjecture.
+  These results not only establish the Small-Set Expansion Hypothesis as a
+natural unifying hypothesis that implies the Unique Games Conjecture, all its
+consequences and, in addition, hardness results for other problems like
+Balanced Separator and Minimum Linear Arrangement, but our results also show
+that the Small-Set Expansion Hypothesis problem lies at the combinatorial heart
+of the Unique Games Conjecture.
+  The key technical ingredient is a new way of exploiting the structure of the
+Unique Games instances obtained from the Small-Set Expansion Hypothesis via
+(Raghavendra, Steurer, 2010). This additional structure allows us to modify
+standard reductions in a way that essentially destroys their local-gadget
+nature. Using this modification, we can argue about the expansion in the graphs
+produced by the reduction without relying on expansion properties of the
+underlying Unique Games instance (which would be impossible for a local-gadget
+reduction).

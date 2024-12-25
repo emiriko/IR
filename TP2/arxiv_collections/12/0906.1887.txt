@@ -1,0 +1,22 @@
+Modern graphics processing units (GPUs) are inexpensive commodity hardware
+that offer Tflop/s theoretical computing capacity. GPUs are well suited to many
+compute-intensive tasks including digital signal processing.
+  We describe the implementation and performance of a GPU-based digital
+correlator for radio astronomy. The correlator is implemented using the NVIDIA
+CUDA development environment. We evaluate three design options on two
+generations of NVIDIA hardware. The different designs utilize the internal
+registers, shared memory and multiprocessors in different ways. We find that
+optimal performance is achieved with the design that minimizes global memory
+reads on recent generations of hardware.
+  The GPU-based correlator outperforms a single-threaded CPU equivalent by a
+factor of 60 for a 32 antenna array, and runs on commodity PC hardware. The
+extra compute capability provided by the GPU maximises the correlation
+capability of a PC while retaining the fast development time associated with
+using standard hardware, networking and programming languages. In this way, a
+GPU-based correlation system represents a middle ground in design space between
+high performance, custom built hardware and pure CPU-based software
+correlation.
+  The correlator was deployed at the Murchison Widefield Array 32 antenna
+prototype system where it ran in real-time for extended periods. We briefly
+describe the data capture, streaming and correlation system for the prototype
+array.

@@ -1,0 +1,17 @@
+Differential quantities, including normals, curvatures, principal directions,
+and associated matrices, play a fundamental role in geometric processing and
+physics-based modeling. Computing these differential quantities consistently on
+surface meshes is important and challenging, and some existing methods often
+produce inconsistent results and require ad hoc fixes. In this paper, we show
+that the computation of the gradient and Hessian of a height function provides
+the foundation for consistently computing the differential quantities. We
+derive simple, explicit formulas for the transformations between the first- and
+second-order differential quantities (i.e., normal vector and principal
+curvature tensor) of a smooth surface and the first- and second-order
+derivatives (i.e., gradient and Hessian) of its corresponding height function.
+We then investigate a general, flexible numerical framework to estimate the
+derivatives of the height function based on local polynomial fittings
+formulated as weighted least squares approximations. We also propose an
+iterative fitting scheme to improve accuracy. This framework generalizes
+polynomial fitting and addresses some of its accuracy and stability issues, as
+demonstrated by our theoretical analysis as well as experimental results.

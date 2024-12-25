@@ -1,0 +1,19 @@
+We study the numerical solution of the non-relativistic Schr\"{o}dinger
+equation for two-electron atoms in ground and excited S-states using
+pseudospectral (PS) methods of calculation. The calculation achieves
+convergence rates for the energy, Cauchy error in the wavefunction, and
+variance in local energy that are exponentially fast for all practical
+purposes. The method requires three separate subdomains to handle the
+wavefunction's cusp-like behavior near the two-particle coalescences. The use
+of three subdomains is essential to maintaining exponential convergence. A
+comparison of several different treatments of the cusps and the semi-infinite
+domain suggest that the simplest prescription is sufficient. For many purposes
+it proves unnecessary to handle the logarithmic behavior near the
+three-particle coalescence in a special way. The PS method has many virtues: no
+explicit assumptions need be made about the asymptotic behavior of the
+wavefunction near cusps or at large distances, the local energy is exactly
+equal to the calculated global energy at all collocation points, local errors
+go down everywhere with increasing resolution, the effective basis using
+Chebyshev polynomials is complete and simple, and the method is easily
+extensible to other bound states. This study serves as a proof-of-principle of
+the method for more general two- and possibly three-electron applications.

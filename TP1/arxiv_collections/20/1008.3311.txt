@@ -1,0 +1,20 @@
+Irreversible logic circuits dissipate heat for every bit of information that
+is lost. Information is lost when the input vector cannot be recovered from its
+corresponding output vector. Reversible logic circuit naturally takes care of
+heating because it implements only the functions that have one-to-one mapping
+between its input and output vectors. Therefore reversible logic design becomes
+one of the promising research directions in low power dissipating circuit
+design in the past few years and has found its application in low power CMOS
+design, digital signal processing and nanotechnology. This paper presents the
+efficient approaches for designing reversible fast adders that implement carry
+look-ahead and carry-skip logic. The proposed 16-bit high speed reversible
+adder will include IG gates for the realization of its basic building block.
+The IG gate is universal in the sense that it can be used to synthesize any
+arbitrary Boolean-functions. The IG gate is parity preserving, that is, the
+parity of the inputs matches the parity of the outputs. It allows any fault
+that affects no more than a single signal readily detectable at the circuit's
+primary outputs. Therefore, the proposed high speed adders will have the
+inherent opportunity of detecting errors in its output side. It has also been
+demonstrated that the proposed design offers less hardware complexity and is
+efficient in terms of gate count, garbage outputs and constant inputs than the
+existing counterparts.

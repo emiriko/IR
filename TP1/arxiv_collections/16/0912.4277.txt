@@ -1,0 +1,24 @@
+We demonstrate that the output of a cosmological N-body simulation can, to
+remarkable accuracy, be scaled to represent the growth of large-scale structure
+in a cosmology with parameters similar to but different from those originally
+assumed. Our algorithm involves three steps: a reassignment of length, mass and
+velocity units, a relabelling of the time axis, and a rescaling of the
+amplitudes of individual large-scale fluctuation modes. We test it using two
+matched pairs of simulations. Within each pair, one simulation assumes
+parameters consistent with analyses of the first-year WMAP data. The other has
+lower matter and baryon densities and a 15% lower fluctuation amplitude,
+consistent with analyses of the three-year WMAP data. The pairs differ by a
+factor of a thousand in mass resolution, enabling performance tests on both
+linear and nonlinear scales. Our scaling reproduces the mass power spectra of
+the target cosmology to better than 0.5% on large scales (k < 0.1 h/Mpc) both
+in real and in redshift space. In particular, the BAO features of the original
+cosmology are removed and are correctly replaced by those of the target
+cosmology. Errors are still below 3% for k < 1 h/Mpc. Power spectra of the dark
+halo distribution are even more precisely reproduced, with errors below 1% on
+all scales tested. A halo-by-halo comparison shows that centre-of-mass
+positions and velocities are reproduced to better than 90 kpc/h and 5%,
+respectively. Halo masses, concentrations and spins are also reproduced at
+about the 10% level, although with small biases. Halo assembly histories are
+accurately reproduced, leading to central galaxy magnitudes with errors of
+about 0.25 magnitudes and a bias of about 0.13 magnitudes for a representative
+semi-analytic model.

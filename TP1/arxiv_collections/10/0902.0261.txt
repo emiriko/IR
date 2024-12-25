@@ -1,0 +1,17 @@
+We discuss the computational complexity of context-free languages,
+concentrating on two well-known structural properties---immunity and
+pseudorandomness. An infinite language is REG-immune (resp., CFL-immune) if it
+contains no infinite subset that is a regular (resp., context-free) language.
+We prove that (i) there is a context-free REG-immune language outside REG/n and
+(ii) there is a REG-bi-immune language that can be computed deterministically
+using logarithmic space. We also show that (iii) there is a CFL-simple set,
+where a CFL-simple language is an infinite context-free language whose
+complement is CFL-immune. Similar to the REG-immunity, a REG-primeimmune
+language has no polynomially dense subsets that are also regular. We further
+prove that (iv) there is a context-free language that is REG/n-bi-primeimmune.
+Concerning pseudorandomness of context-free languages, we show that (v) CFL
+contains REG/n-pseudorandom languages. Finally, we prove that (vi) against
+REG/n, there exists an almost 1-1 pseudorandom generator computable in
+nondeterministic pushdown automata equipped with a write-only output tape and
+(vii) against REG, there is no almost 1-1 weakly pseudorandom generator
+computable deterministically in linear time by a single-tape Turing machine.

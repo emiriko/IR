@@ -1,0 +1,23 @@
+We focus the use of \emph{row sampling} for approximating matrix algorithms.
+We give applications to matrix multipication; sparse matrix reconstruction;
+and, \math{\ell_2} regression. For a matrix \math{\matA\in\R^{m\times d}} which
+represents \math{m} points in \math{d\ll m} dimensions, all of these tasks can
+be achieved in \math{O(md^2)} via the singular value decomposition (SVD). For
+appropriate row-sampling probabilities (which typically depend on the norms of
+the rows of the \math{m\times d} left singular matrix of \math{\matA} (the
+\emph{leverage scores}), we give row-sampling algorithms with linear (up to
+polylog factors) dependence on the stable rank of \math{\matA}. This result is
+achieved through the application of non-commutative Bernstein bounds.
+  We then give, to our knowledge, the first algorithms for computing
+approximations to the appropriate row-sampling probabilities without going
+through the SVD of \math{\matA}. Thus, these are the first \math{o(md^2)}
+algorithms for row-sampling based approximations to the matrix algorithms which
+use leverage scores as the sampling probabilities. The techniques we use to
+approximate sampling according to the leverage scores uses some powerful recent
+results in the theory of random projections for embedding, and may be of some
+independent interest. We confess that one may perform all these matrix tasks
+more efficiently using these same random projection methods, however the
+resulting algorithms are in terms of a small number of linear combinations of
+all the rows. In many applications, the actual rows of \math{\matA} have some
+physical meaning and so methods based on a small number of the actual rows are
+of interest.

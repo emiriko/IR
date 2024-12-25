@@ -1,0 +1,12 @@
+We introduce a new and efficient numerical method for multicriterion optimal
+control and single criterion optimal control under integral constraints. The
+approach is based on extending the state space to include information on a
+"budget" remaining to satisfy each constraint; the augmented
+Hamilton-Jacobi-Bellman PDE is then solved numerically. The efficiency of our
+approach hinges on the causality in that PDE, i.e., the monotonicity of
+characteristic curves in one of the newly added dimensions. A semi-Lagrangian
+"marching" method is used to approximate the discontinuous viscosity solution
+efficiently. We compare this to a recently introduced "weighted sum" based
+algorithm for the same problem. We illustrate our method using examples from
+flight path planning and robotic navigation in the presence of friendly and
+adversarial observers.

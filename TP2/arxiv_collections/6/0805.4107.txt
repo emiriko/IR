@@ -1,0 +1,12 @@
+We introduce a decentralized replication strategy for peer-to-peer file
+exchange based on exhaustive exploration of the neighborhood of any node in the
+network. The replication scheme lets the replicas evenly populate the network
+mesh, while regulating the total number of replicas at the same time. This is
+achieved by self adaptation to entering or leaving of nodes. Exhaustive
+exploration is achieved by a spiral walk algorithm that generates a number of
+messages linearly proportional to the number of visited nodes. It requires a
+dedicated topology (a triangular mesh on a closed surface). We introduce
+protocols for node connection and departure that maintain the triangular mesh
+at low computational and bandwidth cost. Search efficiency is increased using a
+mechanism based on dynamically allocated super peers. We conclude with a
+discussion on experimental validation results.

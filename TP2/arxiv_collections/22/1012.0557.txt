@@ -1,0 +1,14 @@
+Lov\'asz Local Lemma (LLL) is a probabilistic tool that allows us to prove
+the existence of combinatorial objects in the cases when standard probabilistic
+argument does not work (there are many partly independent conditions).
+  LLL can be also used to prove the consistency of an infinite set of
+conditions, using standard compactness argument (if an infinite set of
+conditions is inconsistent, then some finite part of it is inconsistent, too,
+which contradicts LLL). In this way we show that objects satisfying all the
+conditions do exist (though the probability of this event equals~$0$). However,
+if we are interested in finding a computable solution that satisfies all the
+constraints, compactness arguments do not work anymore.
+  Moser and Tardos recently gave a nice constructive proof of LLL. Lance
+Fortnow asked whether one can apply Moser--Tardos technique to prove the
+existence of a computable solution. We show that this is indeed possible (under
+almost the same conditions as used in the non-constructive version).

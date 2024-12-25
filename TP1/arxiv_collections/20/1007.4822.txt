@@ -1,0 +1,25 @@
+The even discrete torus is the graph T_{L,d} on vertex set {0,...,L-1}^d (L
+even) with two vertices adjacent if they differ by 1 (mod L) on one coordinate.
+The hard-core measure with activity x on T_{L,d} is the distribution pi_x on
+the independent sets (sets of vertices spanning no edges) of T_{L,d} in which a
+set I is chosen with probability proportional to x^|I|. This distribution
+occurs in problems from statistical physics and communication networks.
+  We study Glauber dynamics, a single-site update Markov chain on the set of
+independent sets of T_{L,d} whose stationary distribution is pi_x. We show that
+for x > cd^{-1/4}log^{3/4}d (and d large) the convergence to stationarity is
+exponentially slow in L^{d-1}. This improves a result of Borgs et al., who had
+shown slow mixing for x > c^d.
+  Our proof, which extends to r-local chains (chains which alter the state of
+at most a proportion r of the vertices in each step) for suitable r, follows
+the conductance argument of Borgs et al., adding to it some combinatorial
+enumeration methods that are modifications of those used by Galvin and Kahn to
+show that the hard-core model with parameter x on the integer lattice Z^d
+exhibits phase coexistence for x > cd^{-1/4}log^{3/4}d.
+  The graph T_{L,d} is bipartite, with partition classes E (the vertices the
+sum of whose coordinates is even) and O. Our result can be expressed
+combinatorially as the statement that for each sufficiently large x, there is
+an r(x)>0 such that if I is an independent set chosen according to pi_x, then
+the probability that ||I \cap E|-|I \cap O|| is at most r(x)L^d is
+exponentially small in L^{d-1}. In particular, for all eps>0 the probability
+that a uniformly chosen independent set from T_{L,d} satisfies ||I \cap E|-|I
+\cap O|| \leq (.25 - eps)L^d is exponentially small in L^{d-1}.

@@ -1,0 +1,18 @@
+The intention of this paper is to estimate a Bayesian distribution-free chain
+ladder (DFCL) model using approximate Bayesian computation (ABC) methodology.
+We demonstrate how to estimate quantities of interest in claims reserving and
+compare the estimates to those obtained from classical and credibility
+approaches. In this context, a novel numerical procedure utilising Markov chain
+Monte Carlo (MCMC), ABC and a Bayesian bootstrap procedure was developed in a
+truly distribution-free setting. The ABC methodology arises because we work in
+a distribution-free setting in which we make no parametric assumptions, meaning
+we can not evaluate the likelihood point-wise or in this case simulate directly
+from the likelihood model. The use of a bootstrap procedure allows us to
+generate samples from the intractable likelihood without the requirement of
+distributional assumptions, this is crucial to the ABC framework. The developed
+methodology is used to obtain the empirical distribution of the DFCL model
+parameters and the predictive distribution of the outstanding loss liabilities
+conditional on the observed claims. We then estimate predictive Bayesian
+capital estimates, the Value at Risk (VaR) and the mean square error of
+prediction (MSEP). The latter is compared with the classical bootstrap and
+credibility methods.

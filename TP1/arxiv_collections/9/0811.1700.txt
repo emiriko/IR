@@ -1,0 +1,16 @@
+We consider the problem of testing the significance of features in
+high-dimensional settings. In particular, we test for differentially-expressed
+genes in a microarray experiment. We wish to identify genes that are associated
+with some type of outcome, such as survival time or cancer type. We propose a
+new procedure, called Lassoed Principal Components (LPC), that builds upon
+existing methods and can provide a sizable improvement. For instance, in the
+case of two-class data, a standard (albeit simple) approach might be to compute
+a two-sample $t$-statistic for each gene. The LPC method involves projecting
+these conventional gene scores onto the eigenvectors of the gene expression
+data covariance matrix and then applying an $L_1$ penalty in order to de-noise
+the resulting projections. We present a theoretical framework under which LPC
+is the logical choice for identifying significant genes, and we show that LPC
+can provide a marked reduction in false discovery rates over the conventional
+methods on both real and simulated data. Moreover, this flexible procedure can
+be applied to a variety of types of data and can be used to improve many
+existing methods for the identification of significant features.

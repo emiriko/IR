@@ -1,0 +1,7 @@
+In this paper we present a tool that performs CUDA accelerated LTL Model
+Checking. The tool exploits parallel algorithm MAP adjusted to the NVIDIA CUDA
+architecture in order to efficiently detect the presence of accepting cycles in
+a directed graph. Accepting cycle detection is the core algorithmic procedure
+in automata-based LTL Model Checking. We demonstrate that the tool outperforms
+non-accelerated version of the algorithm and we discuss where the limits of the
+tool are and what we intend to do in the future to avoid them.

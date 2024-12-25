@@ -1,0 +1,7 @@
+This paper presents a realization for the reliable and fast startup of
+distributed systems written in Erlang. The traditional startup provided by the
+Erlang/OTP library is sequential, parallelization usually requires unsafe and
+ad-hoc solutions. The proposed method calls only for slight modifications in
+the Erlang/OTP stdlib by applying a system dependency graph. It makes the
+startup safe, quick, and it is equally easy to use in newly developed and
+legacy systems.

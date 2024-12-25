@@ -1,0 +1,13 @@
+In this paper, we introduce Continuation Passing C (CPC), a programming
+language for concurrent systems in which native and cooperative threads are
+unified and presented to the programmer as a single abstraction. The CPC
+compiler uses a compilation technique, based on the CPS transform, that yields
+efficient code and an extremely lightweight representation for contexts. We
+provide a proof of the correctness of our compilation scheme. We show in
+particular that lambda-lifting, a common compilation technique for functional
+languages, is also correct in an imperative language like C, under some
+conditions enforced by the CPC compiler. The current CPC compiler is mature
+enough to write substantial programs such as Hekate, a highly concurrent
+BitTorrent seeder. Our benchmark results show that CPC is as efficient, while
+using significantly less space, as the most efficient thread libraries
+available.

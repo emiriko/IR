@@ -1,0 +1,18 @@
+A new computer haptics algorithm to be used in general interactive
+manipulations of deformable virtual objects is presented. In multimodal
+interactive simulations, haptic feedback computation often comes from contact
+forces. Subsequently, the fidelity of haptic rendering depends significantly on
+contact space modeling. Contact and friction laws between deformable models are
+often simplified in up to date methods. They do not allow a "realistic"
+rendering of the subtleties of contact space physical phenomena (such as slip
+and stick effects due to friction or mechanical coupling between contacts). In
+this paper, we use Signorini's contact law and Coulomb's friction law as a
+computer haptics basis. Real-time performance is made possible thanks to a
+linearization of the behavior in the contact space, formulated as the so-called
+Delassus operator, and iteratively solved by a Gauss-Seidel type algorithm.
+Dynamic deformation uses corotational global formulation to obtain the Delassus
+operator in which the mass and stiffness ratio are dissociated from the
+simulation time step. This last point is crucial to keep stable haptic
+feedback. This global approach has been packaged, implemented, and tested.
+Stable and realistic 6D haptic feedback is demonstrated through a clipping task
+experiment.

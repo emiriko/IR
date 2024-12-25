@@ -1,0 +1,10 @@
+Hybrid Monte Carlo simulations that implement the fermion action using
+multiple terms are commonly used. By the nature of their formulation they
+involve multiple integration time scales in the evolution of the system through
+simulation time. These different scales are usually dealt with by the
+Sexton-Weingarten nested leapfrog integrator. In this scheme the choice of time
+scales is somewhat restricted as each time step must be an exact multiple of
+the next smallest scale in the sequence. A novel generalisation of the nested
+leapfrog integrator is introduced which allows for far greater flexibility in
+the choice of time scales, as each scale now must only be an exact multiple of
+the smallest step size.

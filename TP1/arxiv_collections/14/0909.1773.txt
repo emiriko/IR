@@ -1,0 +1,12 @@
+Analytical processing on XML repositories is usually enabled by designing
+complex data transformations that shred the documents into a common data
+warehousing schema. This can be very time-consuming and costly, especially if
+the underlying XML data has a lot of variety in structure, and only a subset of
+attributes constitutes meaningful dimensions and facts. Today, there is no tool
+to explore an XML data set, discover interesting attributes, dimensions and
+facts, and rapidly prototype an OLAP solution.
+  In this paper, we propose a system, called SEDA that enables users to start
+with simple keyword-style querying, and interactively refine the query based on
+result summaries. SEDA then maps query results onto a set of known, or newly
+created, facts and dimensions, and derives a star schema and its instantiation
+to be fed into an off-the-shelf OLAP tool, for further analysis.

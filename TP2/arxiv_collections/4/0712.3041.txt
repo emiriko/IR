@@ -1,0 +1,21 @@
+QMA (Quantum Merlin-Arthur) is the quantum analogue of the class NP. There
+are a few QMA-complete problems, most notably the ``Local Hamiltonian'' problem
+introduced by Kitaev. In this dissertation we show some new QMA-complete
+problems.
+  The first one is ``Consistency of Local Density Matrices'': given several
+density matrices describing different (constant-size) subsets of an n-qubit
+system, decide whether these are consistent with a single global state. This
+problem was first suggested by Aharonov. We show that it is QMA-complete, via
+an oracle reduction from Local Hamiltonian. This uses algorithms for convex
+optimization with a membership oracle, due to Yudin and Nemirovskii.
+  Next we show that two problems from quantum chemistry, ``Fermionic Local
+Hamiltonian'' and ``N-representability,'' are QMA-complete. These problems
+arise in calculating the ground state energies of molecular systems.
+N-representability is a key component in recently developed numerical methods
+using the contracted Schrodinger equation. Although these problems have been
+studied since the 1960's, it is only recently that the theory of quantum
+computation has allowed us to properly characterize their complexity.
+  Finally, we study some special cases of the Consistency problem, pertaining
+to 1-dimensional and ``stoquastic'' systems. We also give an alternative proof
+of a result due to Jaynes: whenever local density matrices are consistent, they
+are consistent with a Gibbs state.

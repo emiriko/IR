@@ -1,0 +1,23 @@
+The Minority Game (MG), the Majority Game (MAJG) and the Dollar Game ($G) are
+important and closely-related versions of market-entry games designed to model
+different features of real-world financial markets. In a variant of these
+games, agents measure the performance of their available strategies over a
+fixed-length rolling window of prior time-steps. These are the so-called Time
+Horizon MG/MAJG/$G (THMG, THMAJG, TH$G). Their probabilistic dynamics may be
+completely characterized in Markov-chain formulation. Games of both the
+standard and TH variants generate time-series that may be understood as arising
+from a stochastically perturbed determinism because a coin toss is used to
+break ties. The average over the binomially-distributed coin-tosses yields the
+underlying determinism. In order to quantify the degree of this determinism and
+of higher-order perturbations, we decompose the sign of the time-series they
+generate (analogous to a market price time series) into a superposition of
+weighted Hamiltonian cycles on graphs (exactly in the TH variants and
+approximately in the standard versions). The cycle decomposition also provides
+a ``dissection'' of the internal dynamics of the games and a quantitative
+measure of the degree of determinism. We discuss how the outperformance of
+strategies relative to agents in the THMG (the ``illusion of control'') and the
+reverse in the THMAJG and TH$G (i.e., genuine control) may be understood on a
+cycle-by-cycle basis. The decomposition offers as well a new metric for
+comparing different game dynamics to real-world financial time-series and a
+method for generating predictors. We apply the cycle predictor a real-world
+market, with significantly positive returns for the latter.

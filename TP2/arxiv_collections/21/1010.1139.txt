@@ -1,0 +1,10 @@
+The paper proposes and studies temporal logics for attributed words, that is,
+data words with a (finite) set of (attribute,value)-pairs at each position. It
+considers a basic logic which is a semantical fragment of the logic
+$LTL^\downarrow_1$ of Demri and Lazic with operators for navigation into the
+future and the past. By reduction to the emptiness problem for data automata it
+is shown that this basic logic is decidable. Whereas the basic logic only
+allows navigation to positions where a fixed data value occurs, extensions are
+studied that also allow navigation to positions with different data values.
+Besides some undecidable results it is shown that the extension by a certain
+UNTIL-operator with an inequality target condition remains decidable.

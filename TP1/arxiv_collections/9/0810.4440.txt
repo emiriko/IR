@@ -1,0 +1,11 @@
+We present a scheme to convert self-stabilizing algorithms that use
+randomization during and following convergence to self-stabilizing algorithms
+that use randomization only during convergence. We thus reduce the number of
+random bits from an infinite number to a bounded number. The scheme is
+applicable to the cases in which there exits a local predicate for each node,
+such that global consistency is implied by the union of the local predicates.
+We demonstrate our scheme over the token circulation algorithm of Herman and
+the recent constant time Byzantine self-stabilizing clock synchronization
+algorithm by Ben-Or, Dolev and Hoch. The application of our scheme results in
+the first constant time Byzantine self-stabilizing clock synchronization
+algorithm that uses a bounded number of random bits.

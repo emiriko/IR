@@ -1,0 +1,14 @@
+Here we develop an approach to predict power grid weak points, and
+specifically to efficiently identify the most probable failure modes in static
+load distribution for a given power network. This approach is applied to two
+examples: Guam's power system and also the IEEE RTS-96 system, both modeled
+within the static Direct Current power flow model. Our algorithm is a power
+network adaption of the worst configuration heuristics, originally developed to
+study low probability events in physics and failures in error-correction. One
+finding is that, if the normal operational mode of the grid is sufficiently
+healthy, the failure modes, also called instantons, are sufficiently sparse,
+i.e. the failures are caused by load fluctuations at only a few buses. The
+technique is useful for discovering weak links which are saturated at the
+instantons. It can also identify generators working at the capacity and
+generators under capacity, thus providing predictive capability for improving
+the reliability of any power network.

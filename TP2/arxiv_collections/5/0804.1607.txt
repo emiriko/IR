@@ -1,0 +1,16 @@
+We consider a network of sensors deployed to sense a spatio-temporal field
+and estimate a parameter of interest. We are interested in the case where the
+temporal process sensed by each sensor can be modeled as a state-space process
+that is perturbed by random noise and parametrized by an unknown parameter. To
+estimate the unknown parameter from the measurements that the sensors
+sequentially collect, we propose a distributed and recursive estimation
+algorithm, which we refer to as the incremental recursive prediction error
+algorithm. This algorithm has the distributed property of incremental gradient
+algorithms and the on-line property of recursive prediction error algorithms.
+We study the convergence behavior of the algorithm and provide sufficient
+conditions for its convergence. Our convergence result is rather general and
+contains as special cases the known convergence results for the incremental
+versions of the least-mean square algorithm. Finally, we use the algorithm
+developed in this paper to identify the source of a gas-leak (diffusing source)
+in a closed warehouse and also report numerical simulations to verify
+convergence.

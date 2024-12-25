@@ -1,0 +1,14 @@
+Least mean square-partial parallel interference cancelation (LMS-PPIC) is a
+partial interference cancelation using adaptive multistage structure in which
+the normalized least mean square (NLMS) adaptive algorithm is engaged to obtain
+the cancelation weights. The performance of the NLMS algorithm is mostly
+dependent to its step-size. A fixed and non-optimized step-size causes the
+propagation of error from one stage to the next one. When all user channels are
+balanced, the unit magnitude is the principal property of the cancelation
+weight elements. Based on this fact and using a set of NLMS algorithms with
+different step-sizes, the parallel LMS-PPIC (PLMS-PPIC) method is proposed. In
+each iteration of the algorithm, the parameter estimate of the NLMS algorithm
+is chosen to match the elements' magnitudes of the cancelation weight estimate
+with unity. Simulation results are given to compare the performance of our
+method with the LMS-PPIC algorithm in three cases: balanced channel, unbalanced
+channel and time varying channel.

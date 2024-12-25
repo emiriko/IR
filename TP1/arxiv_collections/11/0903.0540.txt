@@ -1,0 +1,11 @@
+In this thesis, we study the three-loop QCD form factors. After an
+introduction and a discussion of the physics motivation, we generate the quark
+form factor using Qgraf. We then show how to bring the Feynman integrals into a
+unique form by using various trivial symmetries such as shifts in loop momenta.
+We then try (and fail) to reduce it to master integrals using the Laporta
+algorithm. After a discussion of our implementation of the Laporta algorithm
+(called "Solve") we perform an extensive classification of all the integrals
+into irreducible, reducible and loop-by-loop integrable topologies. We devise
+methods to deal with each of these cases. We show that our reduction code fails
+to reduce only a small set of 11 topologies. We finally give some partial
+results, and in the appendix we collect some already known master integrals.

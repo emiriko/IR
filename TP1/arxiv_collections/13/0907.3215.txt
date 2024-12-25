@@ -1,0 +1,12 @@
+In this paper, we propose a computational framework for 3D volume
+reconstruction from 2D histological slices using registration algorithms in
+feature space. To improve the quality of reconstructed 3D volume, first,
+intensity variations in images are corrected by an intensity standardization
+process which maps image intensity scale to a standard scale where similar
+intensities correspond to similar tissues. Second, a subvolume approach is
+proposed for 3D reconstruction by dividing standardized slices into groups.
+Third, in order to improve the quality of the reconstruction process, an
+automatic best reference slice selection algorithm is developed based on an
+iterative assessment of image entropy and mean square error of the registration
+process. Finally, we demonstrate that the choice of the reference slice has a
+significant impact on registration quality and subsequent 3D reconstruction.

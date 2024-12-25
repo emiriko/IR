@@ -1,0 +1,17 @@
+We discuss several tests for whether a given set of independent and
+identically distributed (i.i.d.) draws does not come from a specified
+probability density function. The most commonly used are Kolmogorov-Smirnov
+tests, particularly Kuiper's variant, which focus on discrepancies between the
+cumulative distribution function for the specified probability density and the
+empirical cumulative distribution function for the given set of i.i.d. draws.
+Unfortunately, variations in the probability density function often get
+smoothed over in the cumulative distribution function, making it difficult to
+detect discrepancies in regions where the probability density is small in
+comparison with its values in surrounding regions. We discuss tests without
+this deficiency, complementing the classical methods. The tests of the present
+paper are based on the plain fact that it is unlikely to draw a random number
+whose probability is small, provided that the draw is taken from the same
+distribution used in calculating the probability (thus, if we draw a random
+number whose probability is small, then we can be confident that we did not
+draw the number from the same distribution used in calculating the
+probability).

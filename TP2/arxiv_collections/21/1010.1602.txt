@@ -1,0 +1,11 @@
+The focus of this paper is on reducing the complexity in verification by
+exploiting modularity at various levels: in specification, in verification, and
+structurally. For specifications, we use the modular language CSP-OZ-DC, which
+allows us to decouple verification tasks concerning data from those concerning
+durations. At the verification level, we exploit modularity in theorem proving
+for rich data structures and use this for invariant checking. At the structural
+level, we analyze possibilities for modular verification of systems consisting
+of various components which interact.We illustrate these ideas by automatically
+verifying safety properties of a case study from the European Train Control
+System standard, which extends previous examples by comprising a complex track
+topology with lists of track segments and trains with different routes.

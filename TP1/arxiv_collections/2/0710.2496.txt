@@ -1,0 +1,14 @@
+We consider univariate regression estimation from an individual (non-random)
+sequence $(x_1,y_1),(x_2,y_2), ... \in \real \times \real$, which is stable in
+the sense that for each interval $A \subseteq \real$, (i) the limiting relative
+frequency of $A$ under $x_1, x_2, ...$ is governed by an unknown probability
+distribution $\mu$, and (ii) the limiting average of those $y_i$ with $x_i \in
+A$ is governed by an unknown regression function $m(\cdot)$.
+  A computationally simple scheme for estimating $m(\cdot)$ is exhibited, and
+is shown to be $L_2$ consistent for stable sequences $\{(x_i,y_i)\}$ such that
+$\{y_i\}$ is bounded and there is a known upper bound for the variation of
+$m(\cdot)$ on intervals of the form $(-i,i]$, $i \geq 1$. Complementing this
+positive result, it is shown that there is no consistent estimation scheme for
+the family of stable sequences whose regression functions have finite
+variation, even under the restriction that $x_i \in [0,1]$ and $y_i$ is
+binary-valued.

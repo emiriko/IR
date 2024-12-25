@@ -1,0 +1,19 @@
+The oracle chooses a function out of a known set of functions and gives to
+the player a black box that, given an argument, evaluates the function. The
+player should find out a certain character of the function through function
+evaluation. This is the typical problem addressed by the quantum algorithms. In
+former theoretical work, we showed that a quantum algorithm requires the number
+of function evaluations of a classical algorithm that knows in advance 50% of
+the information that specifies the solution of the problem. Here we check that
+this 50% rule holds for the main quantum algorithms. In the structured
+problems, a classical algorithm with the advanced information, to identify the
+missing information should perform one function evaluation. The speed up is
+exponential since a classical algorithm without advanced information should
+perform an exponential number of function evaluations. In unstructured database
+search, a classical algorithm that knows in advance 50% of the n bits of the
+database location, to identify the n/2 missing bits should perform Order(2
+power n/2) function evaluations. The speed up is quadratic since a classical
+algorithm without advanced information should perform Order(2 power n) function
+evaluations. The 50% rule identifies the problems solvable with a quantum sped
+up in an entirely classical way, in fact by comparing two classical algorithms,
+with and without the advanced information.

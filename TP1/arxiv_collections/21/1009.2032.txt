@@ -1,0 +1,15 @@
+This paper presents and implements an iterative feedback design algorithm for
+stabilisation of discrete-time switched systems under arbitrary switching
+regimes. The algorithm seeks state feedback gains so that the closed-loop
+switching system admits a common quadratic Lyapunov function (CQLF) and hence
+is uniformly globally exponentially stable. Although the feedback design
+problem considered can be solved directly via linear matrix inequalities
+(LMIs), direct application of LMIs for feedback design does not provide
+information on closed-loop system structure. In contrast, the feedback matrices
+computed by the proposed algorithm assign closed-loop structure approximating
+that required to satisfy Lie-algebraic conditions that guarantee existence of a
+CQLF. The main contribution of the paper is to provide, for single-input
+systems, a numerical implementation of the algorithm based on iterative
+approximate common eigenvector assignment, and to establish cases where such
+algorithm is guaranteed to succeed. We include pseudocode and a few numerical
+examples to illustrate advantages and limitations of the proposed technique.

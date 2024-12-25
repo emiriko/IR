@@ -1,0 +1,8 @@
+In this paper we address the problem of protecting elliptic curve scalar
+multiplication implementations against side-channel analysis by using the
+atomicity principle. First of all we reexamine classical assumptions made by
+scalar multiplication designers and we point out that some of them are not
+relevant in the context of embedded devices. We then describe the
+state-of-the-art of atomic scalar multiplication and propose an atomic pattern
+improvement method. Compared to the most efficient atomic scalar multiplication
+published so far, our technique shows an average improvement of up to 10.6%.

@@ -1,0 +1,11 @@
+Power dissipation during test is a major challenge in testing integrated
+circuits. Dynamic power has been the dominant part of power dissipation in CMOS
+circuits, however, in future technologies the static portion of power
+dissipation will outreach the dynamic portion. This paper proposes an efficient
+technique to reduce both dynamic and static power dissipation in scan
+structures. Scan cell outputs which are not on the critical path(s) are
+multiplexed to fixed values during scan mode. These constant values and primary
+inputs are selected such that the transitions occurred on non-multiplexed scan
+cells are suppressed and the leakage current during scan mode is decreased. A
+method for finding these vectors is also proposed. Effectiveness of this
+technique is proved by experiments performed on ISCAS89 benchmark circuits.

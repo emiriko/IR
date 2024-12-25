@@ -1,0 +1,7 @@
+The paper introduces a new technique for compressing Binary Decision Diagrams
+in those cases where random access is not required. Using this technique,
+compression and decompression can be done in linear time in the size of the BDD
+and compression will in many cases reduce the size of the BDD to 1-2 bits per
+node. Empirical results for our compression technique are presented, including
+comparisons with previously introduced techniques, showing that the new
+technique dominate on all tested instances.

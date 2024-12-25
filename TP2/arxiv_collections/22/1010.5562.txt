@@ -1,0 +1,17 @@
+We develop the pruned continuous Haar transform and the fast continuous
+Fourier series, two fast and efficient algorithms for rectilinear polygons.
+Rectilinear polygons are used in VLSI processes to describe design and mask
+layouts of integrated circuits. The Fourier representation is at the heart of
+many of these processes and the Haar transform is expected to play a major role
+in techniques envisioned to speed up VLSI design. To ensure correct printing of
+the constantly shrinking transistors and simultaneously handle their
+increasingly large number, ever more computationally intensive techniques are
+needed. Therefore, efficient algorithms for the Haar and Fourier transforms are
+vital. We derive the complexity of both algorithms and compare it to that of
+discrete transforms traditionally used in VLSI. We find a significant reduction
+in complexity when the number of vertices of the polygons is small, as is the
+case in VLSI layouts. This analysis is completed by an implementation and a
+benchmark of the continuous algorithms and their discrete counterpart. We show
+that on tested VLSI layouts the pruned continuous Haar transform is 5 to 25
+times faster, while the fast continuous Fourier series is 1.5 to 3 times
+faster.

@@ -1,0 +1,12 @@
+The VISTA Data Flow System comprises nightly pipeline and archiving of near
+infrared data from UKIRT-WFCAM and VISTA. This includes multi-epoch data which
+can be used to find moving and variable objects. We have developed a new model
+for archiving these data which gives the user an extremely flexible and
+reliable data set that is easy to query through an SQL interface. We have
+introduced several new database tables into our schema for deep/synoptic
+datasets. We have also developed a set of curation procedures, which give
+additional quality control and automation. We discuss the methods used and show
+some example data. Our design is particularly effective on correlated
+data-sets, where the observations in different filters are synchronised. It is
+scalable to large VISTA datasets which will be observed in the next few years
+and to future surveys such as Pan-STARRS and LSST.

@@ -1,0 +1,12 @@
+In response to the challenges of data mining, discriminant analysis continues
+to evolve as a vital branch of statistics. Our recently introduced method of
+vertex discriminant analysis (VDA) is ideally suited to handle multiple
+categories and an excess of predictors over training cases. The current paper
+explores an elaboration of VDA that conducts classification and variable
+selection simultaneously. Adding lasso ($\ell_1$-norm) and Euclidean penalties
+to the VDA loss function eliminates unnecessary predictors. Lasso penalties
+apply to each predictor coefficient separately; Euclidean penalties group the
+collective coefficients of a single predictor. With these penalties in place,
+cyclic coordinate descent accelerates estimation of all coefficients. Our tests
+on simulated and benchmark real data demonstrate the virtues of penalized VDA
+in model building and prediction in high-dimensional settings.

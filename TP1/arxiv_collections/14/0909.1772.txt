@@ -1,0 +1,17 @@
+In database query processing, actual run-time conditions (e.g., actual
+selectivities and actual available memory) very often differ from compile-time
+expectations of run-time conditions (e.g., estimated predicate selectivities
+and anticipated memory availability). Robustness of query processing can be
+defined as the ability to handle unexpected conditions. Robustness of query
+execution, specifically, can be defined as the ability to process a specific
+plan efficiently in an unexpected condition. We focus on query execution
+(run-time), ignoring query optimization (compile-time), in order to complement
+existing research and to explore untapped potential for improved robustness in
+database query processing.
+  One of our initial steps has been to devise diagrams or maps that show how
+well plans perform in the face of varying run-time conditions and how
+gracefully a system's query architecture, operators, and their implementation
+degrade in the face of adverse conditions. In this paper, we show several kinds
+of diagrams with data from three real systems and report on what we have
+learned both about these visualization techniques and about the three database
+systems

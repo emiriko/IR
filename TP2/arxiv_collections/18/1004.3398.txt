@@ -1,0 +1,21 @@
+We study the control complexity of fallback voting. Like manipulation and
+bribery, electoral control describes ways of changing the outcome of an
+election; unlike manipulation or bribery attempts, control actions---such as
+adding/deleting/partitioning either candidates or voters---modify the
+participative structure of an election. Via such actions one can try to either
+make a favorite candidate win ("constructive control") or prevent a despised
+candidate from winning ("destructive control"). Computational complexity can be
+used to protect elections from control attempts, i.e., proving an election
+system resistant to some type of control shows that the success of the
+corresponding control action, though not impossible, is computationally
+prohibitive. We show that fallback voting, an election system combining
+approval with majority voting, is resistant to each of the common types of
+candidate control and to each common type of constructive control. Among
+natural election systems with a polynomial-time winner problem, only plurality
+and sincere-strategy preference-based approval voting (SP-AV) were previously
+known to be fully resistant to candidate control, and only Copeland voting and
+SP-AV were previously known to be fully resistant to constructive control.
+However, plurality has fewer resistances to voter control, Copeland voting has
+fewer resistances to destructive control, and SP-AV (which like fallback voting
+has 19 out of 22 proven control resistances) is arguably less natural a system
+than fallback voting.

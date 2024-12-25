@@ -1,0 +1,7 @@
+Cumulant expansion is used to derive accurate closed-form approximation for
+Monthly Sum Options in case of constant volatility model. Payoff of Monthly Sum
+Option is based on sum of $N$ caped (and probably floored) returns. It is
+noticed, that $1/\sqrt{N}$ can be used as a small parameter in Edgeworth
+expansion. First two leading terms of this expansion are calculated here. It is
+shown that the suggest closed-form approximation is in a good agreement with
+numerical results for typical mode parameters.

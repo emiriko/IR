@@ -1,0 +1,10 @@
+In this work we present the first passive attack over the SASI lightweight
+authentication protocol with modular rotations. This can be used to fully
+recover the secret $ID$ of the RFID tag, which is the value the protocol is
+designed to conceal. The attack is described initially for recovering $\lfloor
+log_2(96) \rfloor=6$ bits of the secret value $ID$, a result that by itself
+allows to mount traceability attacks on any given tag. However, the proposed
+scheme can be extended to obtain any amount of bits of the secret $ID$,
+provided a sufficiently large number of successful consecutive sessions are
+eavesdropped. We also present results on the attack's efficiency, and some
+ideas to secure this version of the SASI protocol.

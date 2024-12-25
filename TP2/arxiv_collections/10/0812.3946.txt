@@ -1,0 +1,22 @@
+Arc-annotated sequences are useful for representing structural information of
+RNAs and have been extensively used for comparing RNA structures in both terms
+of sequence and structural similarities. Among the many paradigms referring to
+arc-annotated sequences and RNA structures comparison (see
+\cite{IGMA_BliDenDul08} for more details), the most important one is the
+general edit distance. The problem of computing an edit distance between two
+non-crossing arc-annotated sequences was introduced in \cite{Evans99}. The
+introduced model uses edit operations that involve either single letters or
+pairs of letters (never considered separately) and is solvable in
+polynomial-time \cite{ZhangShasha:1989}. To account for other possible RNA
+structural evolutionary events, new edit operations, allowing to consider
+either silmutaneously or separately letters of a pair were introduced in
+\cite{jiangli}; unfortunately at the cost of computational tractability. It has
+been proved that comparing two RNA secondary structures using a full set of
+biologically relevant edit operations is {\sf\bf NP}-complete. Nevertheless, in
+\cite{DBLP:conf/spire/GuignonCH05}, the authors have used a strong
+combinatorial restriction in order to compare two RNA stem-loops with a full
+set of biologically relevant edit operations; which have allowed them to design
+a polynomial-time and space algorithm for comparing general secondary RNA
+structures. In this paper we will prove theoretically that comparing two RNA
+structures using a full set of biologically relevant edit operations cannot be
+done without strong combinatorial restrictions.

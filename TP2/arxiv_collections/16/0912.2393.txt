@@ -1,0 +1,24 @@
+We present the new open-source spherically-symmetric general-relativistic
+(GR) hydrodynamics code GR1D. It is based on the Eulerian formulation of GR
+hydrodynamics (GRHD) put forth by Romero-Ibanez-Gourgoulhon and employs
+radial-gauge, polar-slicing coordinates in which the 3+1 equations simplify
+substantially. We discretize the GRHD equations with a finite-volume scheme,
+employing piecewise-parabolic reconstruction and an approximate Riemann solver.
+GR1D is intended for the simulation of stellar collapse to neutron stars and
+black holes and will also serve as a testbed for modeling technology to be
+incorporated in multi-D GR codes. Its GRHD part is coupled to various
+finite-temperature microphysical equations of state in tabulated form that we
+make available with GR1D. An approximate deleptonization scheme for the
+collapse phase and a neutrino-leakage/heating scheme for the postbounce epoch
+are included and described. We also derive the equations for effective rotation
+in 1D and implement them in GR1D. We present an array of standard test
+calculations and also show how simple analytic equations of state in
+combination with presupernova models from stellar evolutionary calculations can
+be used to study qualitative aspects of black hole formation in failing
+rotating core-collapse supernovae. In addition, we present a simulation with
+microphysical EOS and neutrino leakage/heating of a failing core-collapse
+supernova and black hole formation in a presupernova model of a 40 solar mass
+zero-age main-sequence star. We find good agreement on the time of black hole
+formation (within 20%) and last stable protoneutron star mass (within 10%) with
+predictions from simulations with full Boltzmann neutrino radiation
+hydrodynamics.

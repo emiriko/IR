@@ -1,0 +1,18 @@
+Finding the distribution of vibro-acoustic energy in complex built-up
+structures in the mid-to-high frequency regime is a difficult task. In
+particular, structures with large variation of local wavelengths and/or
+characteristic scales pose a challenge referred to as the mid-frequency
+problem. Standard numerical methods such as the finite element method (FEM)
+scale with the local wavelength and quickly become too large even for modern
+computer architectures. High frequency techniques, such as statistical energy
+analysis (SEA), often miss important information such as dominant resonance
+behaviour due to stiff or small scale parts of the structure. Hybrid methods
+circumvent this problem by coupling FEM/BEM and SEA models in a given built-up
+structure. In the approach adopted here, the whole system is split into a
+number of subsystems which are treated by either FEM or SEA depending on the
+local wavelength. Subsystems with relative long wavelengths are modelled using
+FEM. Making a diffuse field assumption for the wave fields in the short wave
+length components, the coupling between subsystems can be reduced to a weighted
+random field correlation function. The approach presented results in an
+SEA-like set of linear equations which can be solved for the mean energies in
+the short wavelength subsystems.

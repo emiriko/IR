@@ -1,0 +1,13 @@
+A new method is proposed for integrating the equations of motion of an
+elastic filament. In the standard finite-difference and finite-element
+formulations the continuum equations of motion are discretized in space and
+time, but it is then difficult to ensure that the Hamiltonian structure of the
+exact equations is preserved. Here we discretize the Hamiltonian itself,
+expressed as a line integral over the contour of the filament. This discrete
+representation of the continuum filament can then be integrated by one of the
+explicit symplectic integrators frequently used in molecular dynamics. The
+model systematically approximates the continuum partial differential equations,
+but has the same level of computational complexity as molecular dynamics and is
+constraint free. Numerical tests show that the algorithm is much more stable
+than a finite-difference formulation and can be used for high aspect ratio
+filaments, such as actin.

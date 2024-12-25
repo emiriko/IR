@@ -1,0 +1,17 @@
+Diffusion Tensor Imaging (DTI) allows estimating the position, orientation
+and dimension of bundles of nerve pathways. This non-invasive imaging technique
+takes advantage of the diffusion of water molecules and determines the
+diffusion coefficients for every voxel of the data set. The identification of
+the diffusion coefficients and the derivation of information about fiber
+bundles is of major interest for planning and performing neurosurgical
+interventions. To minimize the risk of neural deficits during brain surgery as
+tumor resection (e.g. glioma), the segmentation and integration of the results
+in the operating room is of prime importance. In this contribution, a robust
+and efficient graph-based approach for segmentating tubular fiber bundles in
+the human brain is presented. To define a cost function, the fractional
+anisotropy (FA) is used, derived from the DTI data, but this value may differ
+from patient to patient. Besides manually definining seed regions describing
+the structure of interest, additionally a manual definition of the cost
+function by the user is necessary. To improve the approach the contribution
+introduces a solution for automatically determining the cost function by using
+different 3D masks for each individual data set.

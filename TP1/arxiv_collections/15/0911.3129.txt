@@ -1,0 +1,15 @@
+In this paper we improve traditional steepest descent methods for the direct
+minimization of the Gross-Pitaevskii (GP) energy with rotation at two levels.
+We first define a new inner product to equip the Sobolev space $H^1$ and derive
+the corresponding gradient. Secondly, for the treatment of the mass
+conservation constraint, we use a projection method that avoids more
+complicated approaches based on modified energy functionals or traditional
+normalization methods. The descent method with these two new ingredients is
+studied theoretically in a Hilbert space setting and we give a proof of the
+global existence and convergence in the asymptotic limit to a minimizer of the
+GP energy. The new method is implemented in both finite difference and finite
+element two-dimensional settings and used to compute various complex
+configurations with vortices of rotating Bose-Einstein condensates. The new
+Sobolev gradient method shows better numerical performances compared to
+classical $L^2$ or $H^1$ gradient methods, especially when high rotation rates
+are considered.

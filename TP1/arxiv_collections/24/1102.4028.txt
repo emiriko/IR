@@ -1,0 +1,14 @@
+Embedded density functional theory (e-DFT) is used to describe the electronic
+structure of strongly interacting molecular subsystems. We present a general
+implementation of the Exact Embedding (EE) method [J. Chem. Phys. 133, 084103
+(2010)] to calculate the large contributions of the non-additive kinetic
+potential (NAKP) in such applications. Potential energy curves are computed for
+the dissociation of Li+-Be, CH3-CF3, and hydrogen-bonded water clusters, and
+e-DFT results obtained using the EE method are compared with those obtained
+using approximate kinetic energy functionals. In all cases, the EE method
+preserves excellent agreement with reference Kohn-Sham calculations, whereas
+the approximate functionals lead to qualitative failures in the calculated
+energies and equilibrium structures. We also demonstrate an accurate pairwise
+approximation to the NAKP that allows for efficient parallelization of the EE
+method in large systems; benchmark calculations on molecular crystals reveal
+ideal, size-independent scaling of wall-clock time with increasing system size.

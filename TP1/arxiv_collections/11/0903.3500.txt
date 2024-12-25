@@ -1,0 +1,22 @@
+Aims: We show the use of principal component analysis (PCA) and Fourier
+decomposition (FD) method as tools for variable star diagnostics and compare
+their relative performance in studying the changes in the light curve
+structures of pulsating Cepheids and in the classification of variable stars.
+Methods: We have calculated the Fourier parameters of 17,606 light curves of a
+variety of variables, e.g., RR Lyraes, Cepheids, Mira Variables and extrinsic
+variables for our analysis. We have also performed PCA on the same database of
+light curves. The inputs to the PCA are the 100 values of the magnitudes for
+each of these 17,606 light curves in the database interpolated between phase 0
+to 1. Unlike some previous studies, Fourier coefficients are not used as input
+to the PCA. Results: We show that in general, the first few principal
+components (PCs) are enough to reconstruct the original light curves compared
+to FD method where 2 to 3 times more number of parameters are required to
+satisfactorily reconstruct the light curves. The computation of required number
+of Fourier parameters on the average needs 20 times more CPU time than the
+computation of required number of PCs. Therefore, PCA does have some advantage
+over the FD method in analysing the variable stars in a larger database.
+However in some cases, particularly in finding the resonances in Fundamental
+mode (FU) Cepheids, the PCA results show no distinct advantages over the FD
+method. We also demonstrate that the PCA technique can be used to classify
+variables into different variability classes in an automated, unsupervised way,
+a feature that has immense potential for larger databases of the future.

@@ -1,0 +1,17 @@
+Individual-level health data are often not publicly available due to
+confidentiality; masked data are released instead. Therefore, it is important
+to evaluate the utility of using the masked data in statistical analyses such
+as regression. In this paper we propose a data masking method which is based on
+spatial smoothing techniques. The proposed method allows for selecting both the
+form and the degree of masking, thus resulting in a large degree of
+flexibility. We investigate the utility of the masked data sets in terms of the
+mean square error (MSE) of regression parameter estimates when fitting a
+Generalized Linear Model (GLM) to the masked data. We also show that
+incorporating prior knowledge on the spatial pattern of the exposure into the
+data masking may reduce the bias and MSE of the parameter estimates. By
+evaluating both utility and disclosure risk as functions of the form and the
+degree of masking, our method produces a risk-utility profile which can
+facilitate the selection of masking parameters. We apply the method to a study
+of racial disparities in mortality rates using data on more than 4 million
+Medicare enrollees residing in 2095 zip codes in the Northeast region of the
+United States.

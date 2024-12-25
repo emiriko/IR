@@ -1,0 +1,25 @@
+It is known that a high-dimensional sparse vector x* in R^n can be recovered
+from low-dimensional measurements y= A^{m*n} x* (m<n) . In this paper, we
+investigate the recovering ability of l_p-minimization (0<=p<=1) as p varies,
+where l_p-minimization returns a vector with the least l_p ``norm'' among all
+the vectors x satisfying Ax=y. Besides analyzing the performance of strong
+recovery where l_p-minimization needs to recover all the sparse vectors up to
+certain sparsity, we also for the first time analyze the performance of
+``weak'' recovery of l_p-minimization (0<=p<1) where the aim is to recover all
+the sparse vectors on one support with fixed sign pattern. When m/n goes to 1,
+we provide sharp thresholds of the sparsity ratio that differentiates the
+success and failure via l_p-minimization. For strong recovery, the threshold
+strictly decreases from 0.5 to 0.239 as p increases from 0 to 1. Surprisingly,
+for weak recovery, the threshold is 2/3 for all p in [0,1), while the threshold
+is 1 for l_1-minimization. We also explicitly demonstrate that l_p-minimization
+(p<1) can return a denser solution than l_1-minimization. For any m/n<1, we
+provide bounds of sparsity ratio for strong recovery and weak recovery
+respectively below which l_p-minimization succeeds with overwhelming
+probability. Our bound of strong recovery improves on the existing bounds when
+m/n is large. Regarding the recovery threshold, l_p-minimization has a higher
+threshold with smaller p for strong recovery; the threshold is the same for all
+p for sectional recovery; and l_1-minimization can outperform l_p-minimization
+for weak recovery. These are in contrast to traditional wisdom that
+l_p-minimization has better sparse recovery ability than l_1-minimization since
+it is closer to l_0-minimization. We provide an intuitive explanation to our
+findings and use numerical examples to illustrate the theoretical predictions.

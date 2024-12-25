@@ -1,0 +1,16 @@
+We study Voronoi diagrams for distance functions that add together two convex
+functions, each taking as its argument the difference between Cartesian
+coordinates of two planar points. When the functions do not grow too quickly,
+then the Voronoi diagram has linear complexity and can be constructed in
+near-linear randomized expected time. Additionally, the level sets of the
+distances from the sites form a family of pseudocircles in the plane, all cells
+in the Voronoi diagram are connected, and the set of bisectors separating any
+one cell in the diagram from each of the others forms an arrangement of
+pseudolines in the plane. We apply these results to the smoothed distance or
+biotope transform metric, a geometric analogue of the Jaccard distance whose
+Voronoi diagrams can be used to determine the dilation of a star network with a
+given hub. For sufficiently closely spaced points in the plane, the Voronoi
+diagram of smoothed distance has linear complexity and can be computed
+efficiently. We also experiment with a variant of Lloyd's algorithm, adapted to
+smoothed distance, to find uniformly spaced point samples with exponentially
+decreasing density around a given point.

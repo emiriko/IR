@@ -1,0 +1,13 @@
+Adding rewriting to a proof assistant based on the Curry-Howard isomorphism,
+such as Coq, may greatly improve usability of the tool. Unfortunately adding an
+arbitrary set of rewrite rules may render the underlying formal system
+undecidable and inconsistent. While ways to ensure termination and confluence,
+and hence decidability of type-checking, have already been studied to some
+extent, logical consistency has got little attention so far. In this paper we
+show that consistency is a consequence of canonicity, which in turn follows
+from the assumption that all functions defined by rewrite rules are complete.
+We provide a sound and terminating, but necessarily incomplete algorithm to
+verify this property. The algorithm accepts all definitions that follow
+dependent pattern matching schemes presented by Coquand and studied by McBride
+in his PhD thesis. It also accepts many definitions by rewriting, containing
+rules which depart from standard pattern matching.

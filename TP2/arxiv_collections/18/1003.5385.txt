@@ -1,0 +1,12 @@
+Type-flaw attacks upon security protocols wherein agents are led to
+misinterpret message types have been reported frequently in the literature.
+Preventing them is crucial for protocol security and verification. Heather et
+al. proved that tagging every message field with it's type prevents all
+type-flaw attacks under a free message algebra and perfect encryption system.
+In this paper, we prove that type-flaw attacks can be prevented with the same
+technique even under the ACUN algebraic properties of XOR which is commonly
+used in "real-world" protocols such as SSL 3.0. Our proof method is general and
+can be easily extended to other monoidal operators that possess properties such
+as Inverse and Idempotence as well. We also discuss how tagging could be used
+to prevent type-flaw attacks under other properties such as associativity of
+pairing, commutative encryption, prefix property and homomorphic encryption.

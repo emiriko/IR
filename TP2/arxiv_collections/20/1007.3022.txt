@@ -1,0 +1,20 @@
+Anomalous transport is usually described either by models of continuous time
+random walks (CTRW) or, otherwise by fractional Fokker-Planck equations (FFPE).
+The asymptotic relation between properly scaled CTRW and fractional diffusion
+process has been worked out via various approaches widely discussed in
+literature. Here, we focus on a correspondence between CTRWs and time and space
+fractional diffusion equation stemming from two different methods aimed to
+accurately approximate anomalous diffusion processes. One of them is the Monte
+Carlo simulation of uncoupled CTRW with a L\'evy $\alpha$-stable distribution
+of jumps in space and a one-parameter Mittag-Leffler distribution of waiting
+times. The other is based on a discretized form of a subordinated Langevin
+equation in which the physical time defined via the number of subsequent steps
+of motion is itself a random variable. Both approaches are tested for their
+numerical performance and verified with known analytical solutions for the
+Green function of a space-time fractional diffusion equation. The comparison
+demonstrates trade off between precision of constructed solutions and
+computational costs. The method based on the subordinated Langevin equation
+leads to a higher accuracy of results, while the CTRW framework with a
+Mittag-Leffler distribution of waiting times provides efficiently an
+approximate fundamental solution to the FFPE and converges to the probability
+density function of the subordinated process in a long-time limit.

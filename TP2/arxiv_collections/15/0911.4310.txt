@@ -1,0 +1,13 @@
+Given an experimental set-up and a fixed number of measurements, how should
+one take data in order to optimally reconstruct the state of a quantum system?
+The problem of optimal experiment design (OED) for quantum state tomography was
+first broached by Kosut et al. [arXiv:quant-ph/0411093v1]. Here we provide
+efficient numerical algorithms for finding the optimal design, and analytic
+results for the case of 'minimal tomography'. We also introduce the average
+OED, which is independent of the state to be reconstructed, and the optimal
+design for tomography (ODT), which minimizes tomographic bias. We find that
+these two designs are generally similar. Monte-Carlo simulations confirm the
+utility of our results for qubits. Finally, we adapt our approach to deal with
+constrained techniques such as maximum likelihood estimation. We find that
+these are less amenable to optimization than cruder reconstruction methods,
+such as linear inversion.

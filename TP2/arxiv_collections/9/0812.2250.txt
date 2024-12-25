@@ -1,0 +1,14 @@
+We deal with randomness-quantifiers and concentrate on their ability do
+discern the hallmark of chaos in time-series used in connection with pseudo
+random number generators (PRNG). Workers in the field are motivated to use
+chaotic maps for generating PRNGs because of the simplicity of their
+implementation. Although there exist very efficient general-purpose benchmarks
+for testing PRNGs, we feel that the analysis provided here sheds additional
+didactic light on the importance of the main statistical characteristics of a
+chaotic map, namely, i) its invariant measure and ii) the mixing constant. This
+is of help in answering two questions that arise in applications, that is, (1)
+which is the best PRNG among the available ones? and (2) If a given PRNG turns
+out not to be good enough and a randomization procedure must still be applied
+to it, which is the best applicable randomization procedure?. Our answer
+provides a comparative analysis of several quantifiers advanced in the extant
+literature.

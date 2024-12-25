@@ -1,0 +1,15 @@
+We model a Kohn-Sham potential with a discontinuity at integer particle
+numbers derived from the GLLB approximation of Gritsenko et al. We evaluate the
+Kohn-Sham gap and the discontinuity to obtain the quasiparticle gap. This
+allows us to compare the Kohn-Sham gaps to those obtained by accurate many-body
+perturbation theory based optimized potential methods. In addition, the
+resulting quasiparticle band gap is compared to experimental gaps. In the GLLB
+model potential, the exchange-correlation hole is modeled using a GGA energy
+density and the response of the hole to density variations is evaluated by
+using the common-denominator approximation and homogeneous electron gas based
+assumptions. In our modification, we have chosen the PBEsol potential as the
+GGA to model the exchange hole, and add a consistent correlation potential. The
+method is implemented in the GPAW code, which allows efficient parallelization
+to study large systems. A fair agreement for Kohn-Sham and the quasiparticle
+band gaps with semiconductors and other band gap materials is obtained with a
+potential which is as fast as GGA to calculate.

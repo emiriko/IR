@@ -1,0 +1,15 @@
+We present and compare different numerical schemes for the integration of the
+variational equations of autonomous Hamiltonian systems whose kinetic energy is
+quadratic in the generalized momenta and whose potential is a function of the
+generalized positions. We apply these techniques to Hamiltonian systems of
+various degrees of freedom, and investigate their efficiency in accurately
+reproducing well-known properties of chaos indicators like the Lyapunov
+Characteristic Exponents (LCEs) and the Generalized Alignment Indices (GALIs).
+We find that the best numerical performance is exhibited by the
+\textit{`tangent map (TM) method'}, a scheme based on symplectic integration
+techniques which proves to be optimal in speed and accuracy. According to this
+method, a symplectic integrator is used to approximate the solution of the
+Hamilton's equations of motion by the repeated action of a symplectic map $S$,
+while the corresponding tangent map $TS$, is used for the integration of the
+variational equations. A simple and systematic technique to construct $TS$ is
+also presented.

@@ -1,0 +1,16 @@
+The problem of multi-agent learning and adaptation has attracted a great deal
+of attention in recent years. It has been suggested that the dynamics of multi
+agent learning can be studied using replicator equations from population
+biology. Most existing studies so far have been limited to discrete strategy
+spaces with a small number of available actions. In many cases, however, the
+choices available to agents are better characterized by continuous spectra.
+This paper suggests a generalization of the replicator framework that allows to
+study the adaptive dynamics of Q-learning agents with continuous strategy
+spaces. Instead of probability vectors, agents strategies are now characterized
+by probability measures over continuous variables. As a result, the ordinary
+differential equations for the discrete case are replaced by a system of
+coupled integral--differential replicator equations that describe the mutual
+evolution of individual agent strategies. We derive a set of functional
+equations describing the steady state of the replicator dynamics, examine their
+solutions for several two-player games, and confirm our analytical results
+using simulations.

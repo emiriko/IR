@@ -1,0 +1,20 @@
+This paper focuses on exploring the sparsity of the inverse covariance matrix
+$\bSigma^{-1}$, or the precision matrix. We form blocks of parameters based on
+each off-diagonal band of the Cholesky factor from its modified Cholesky
+decomposition, and penalize each block of parameters using the $L_2$-norm
+instead of individual elements. We develop a one-step estimator, and prove an
+oracle property which consists of a notion of block sign-consistency and
+asymptotic normality. In particular, provided the initial estimator of the
+Cholesky factor is good enough and the true Cholesky has finite number of
+non-zero off-diagonal bands, oracle property holds for the one-step estimator
+even if $p_n \gg n$, and can even be as large as $\log p_n = o(n)$, where the
+data $\y$ has mean zero and tail probability $P(|y_j| > x) \leq K\exp(-Cx^d)$,
+$d > 0$, and $p_n$ is the number of variables. We also prove an operator norm
+convergence result, showing the cost of dimensionality is just $\log p_n$. The
+advantage of this method over banding by Bickel and Levina (2008) or nested
+LASSO by Levina \emph{et al.} (2007) is that it allows for elimination of
+weaker signals that precede stronger ones in the Cholesky factor. A method for
+obtaining an initial estimator for the Cholesky factor is discussed, and a
+gradient projection algorithm is developed for calculating the one-step
+estimate. Simulation results are in favor of the newly proposed method and a
+set of real data is analyzed using the new procedure and the banding method.

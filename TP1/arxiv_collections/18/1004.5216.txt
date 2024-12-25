@@ -1,0 +1,13 @@
+In this paper we design non-uniform bit-wise puncturing distributions for
+irregular non-binary LDPC (NB-LDPC) codes. The puncturing distributions are
+optimized by minimizing the decoding threshold of the punctured LDPC code, the
+threshold being computed with a Monte-Carlo implementation of Density
+Evolution. First, we show that Density Evolution computed with Monte-Carlo
+simulations provides accurate (very close) and precise (small variance)
+estimates of NB-LDPC code ensemble thresholds. Based on the proposed method, we
+analyze several puncturing distributions for regular and semi-regular codes,
+obtained either by clustering punctured bits, or spreading them over the
+symbol-nodes of the Tanner graph. Finally, optimized puncturing distributions
+for non-binary LDPC codes with small maximum degree are presented, which
+exhibit a gap between 0.2 and 0.5 dB to the channel capacity, for punctured
+rates varying from 0.5 to 0.9.

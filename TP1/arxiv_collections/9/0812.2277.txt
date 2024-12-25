@@ -1,0 +1,12 @@
+We present a novel polynomial time approximation scheme for two-strategy
+anonymous games, in which the players' utility functions, although potentially
+different, do not differentiate among the identities of the other players. Our
+algorithm computes an $eps$-approximate Nash equilibrium of an $n$-player
+2-strategy anonymous game in time $poly(n) (1/eps)^{O(1/eps^2)}$, which
+significantly improves upon the running time $n^{O(1/eps^2)}$ required by the
+algorithm of Daskalakis & Papadimitriou, 2007. The improved running time is
+based on a new structural understanding of approximate Nash equilibria: We show
+that, for any $eps$, there exists an $eps$-approximate Nash equilibrium in
+which either only $O(1/eps^3)$ players randomize, or all players who randomize
+use the same mixed strategy. To show this result we employ tools from the
+literature on Stein's Method.

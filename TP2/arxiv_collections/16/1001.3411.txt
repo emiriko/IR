@@ -1,0 +1,22 @@
+Modern N-body cosmological simulations contain billions ($10^9$) of dark
+matter particles. These simulations require hundreds to thousands of gigabytes
+of memory, and employ hundreds to tens of thousands of processing cores on many
+compute nodes. In order to study the distribution of dark matter in a
+cosmological simulation, the dark matter halos must be identified using a halo
+finder, which establishes the halo membership of every particle in the
+simulation. The resources required for halo finding are similar to the
+requirements for the simulation itself. In particular, simulations have become
+too extensive to use commonly-employed halo finders, such that the
+computational requirements to identify halos must now be spread across multiple
+nodes and cores. Here we present a scalable-parallel halo finding method called
+Parallel HOP for large-scale cosmological simulation data. Based on the halo
+finder HOP, it utilizes MPI and domain decomposition to distribute the halo
+finding workload across multiple compute nodes, enabling analysis of much
+larger datasets than is possible with the strictly serial or previous parallel
+implementations of HOP. We provide a reference implementation of this method as
+a part of the toolkit yt, an analysis toolkit for Adaptive Mesh Refinement
+(AMR) data that includes complementary analysis modules. Additionally, we
+discuss a suite of benchmarks that demonstrate that this method scales well up
+to several hundred tasks and datasets in excess of $2000^3$ particles. The
+Parallel HOP method and our implementation can be readily applied to any kind
+of N-body simulation data and is therefore widely applicable.

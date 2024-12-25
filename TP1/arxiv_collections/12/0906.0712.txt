@@ -1,0 +1,17 @@
+IAC-pop is a code designed to solve the star formation history (SFH) of a
+complex stellar population system, like a galaxy, from the analysis of the
+color-magnitude diagram (CMD). It uses a genetic algorithm to minimize a chi2
+merit function comparing the star distributions in the observed CMD and the CMD
+of a synthetic stellar population. A parametrization of the CMDs is used, which
+is the main input of the code. In fact, the code can be applied to any problem
+in which a similar parametrization of an experimental set of data and models
+can be made. The method internal consistency and robustness against several
+error sources, including observational effects, data sampling and stellar
+evolution library differences, are tested. It is found that the best stability
+of the solution and the best way to estimate errors is obtained by several runs
+of IAC-pop with varying the input data parametrization. The routine MinnIAC is
+used to control this process. IAC-pop is offered for free use and can be
+downloaded from the site http://iac-star.iac.es/iac-pop. The routine MInnIAC is
+also offered under request, but support can not be provided for its use. The
+only requirement for the use of IAC-pop and MinnIAC is referencing this paper
+and crediting as indicated in the site.

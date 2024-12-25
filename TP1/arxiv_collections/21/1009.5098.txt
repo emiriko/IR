@@ -1,0 +1,12 @@
+Reversible circuits find applications in many areas of Computer Science
+including Quantum Computation. This paper examines the testability of an
+important subclass of reversible logic circuits that are composed of k-wire
+controlled NOT (k-CNOT with k >/- 1) gates. A reversible k-CNOT gate can be
+implemented using an irreversible k-input AND gate and an EXOR gate. A
+reversible k-CNOT circuit where each k-CNOT gate is realized using irreversible
+k-input AND and EXOR gate, has been considered. One of the most commonly used
+Single Bridging Fault model (both wired-AND and wired-OR) has been assumed to
+be type of fault for such circuits. It has been shown that an (n+p)-input
+AND-EXOR based reversible logic circuit with p observable outputs, can be
+tested for single bridging faults (SBF) using (3n + \lefthalfcap log2p
+\righthalfcap + 2) tests.

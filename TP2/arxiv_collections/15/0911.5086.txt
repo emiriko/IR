@@ -1,0 +1,27 @@
+Given a set $\Sigma$ of spheres in $\mathbb{E}^d$, with $d\ge{}3$ and $d$
+odd, having a fixed number of $m$ distinct radii $\rho_1,\rho_2,...,\rho_m$, we
+show that the worst-case combinatorial complexity of the convex hull
+$CH_d(\Sigma)$ of $\Sigma$ is
+$\Theta(\sum_{1\le{}i\ne{}j\le{}m}n_in_j^{\lfloor\frac{d}{2}\rfloor})$, where
+$n_i$ is the number of spheres in $\Sigma$ with radius $\rho_i$.
+  To prove the lower bound, we construct a set of $\Theta(n_1+n_2)$ spheres in
+$\mathbb{E}^d$, with $d\ge{}3$ odd, where $n_i$ spheres have radius $\rho_i$,
+$i=1,2$, and $\rho_2\ne\rho_1$, such that their convex hull has combinatorial
+complexity
+$\Omega(n_1n_2^{\lfloor\frac{d}{2}\rfloor}+n_2n_1^{\lfloor\frac{d}{2}\rfloor})$.
+Our construction is then generalized to the case where the spheres have
+$m\ge{}3$ distinct radii.
+  For the upper bound, we reduce the sphere convex hull problem to the problem
+of computing the worst-case combinatorial complexity of the convex hull of a
+set of $m$ $d$-dimensional convex polytopes lying on $m$ parallel hyperplanes
+in $\mathbb{E}^{d+1}$, where $d\ge{}3$ odd, a problem which is of independent
+interest. More precisely, we show that the worst-case combinatorial complexity
+of the convex hull of a set $\{\mathcal{P}_1,\mathcal{P}_2,...,\mathcal{P}_m\}$
+of $m$ $d$-dimensional convex polytopes lying on $m$ parallel hyperplanes of
+$\mathbb{E}^{d+1}$ is
+$O(\sum_{1\le{}i\ne{}j\le{}m}n_in_j^{\lfloor\frac{d}{2}\rfloor})$, where $n_i$
+is the number of vertices of $\mathcal{P}_i$.
+  We end with algorithmic considerations, and we show how our tight bounds for
+the parallel polytope convex hull problem, yield tight bounds on the
+combinatorial complexity of the Minkowski sum of two convex polytopes in
+$\mathbb{E}^d$.

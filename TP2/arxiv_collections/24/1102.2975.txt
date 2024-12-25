@@ -1,0 +1,13 @@
+We consider decentralized restless multi-armed bandit problems with unknown
+dynamics and multiple players. The reward state of each arm transits according
+to an unknown Markovian rule when it is played and evolves according to an
+arbitrary unknown random process when it is passive. Players activating the
+same arm at the same time collide and suffer from reward loss. The objective is
+to maximize the long-term reward by designing a decentralized arm selection
+policy to address unknown reward models and collisions among players. A
+decentralized policy is constructed that achieves a regret with logarithmic
+order when an arbitrary nontrivial bound on certain system parameters is known.
+When no knowledge about the system is available, we extend the policy to
+achieve a regret arbitrarily close to the logarithmic order. The result finds
+applications in communication networks, financial investment, and industrial
+engineering.

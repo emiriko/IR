@@ -1,0 +1,12 @@
+We present and analyze a protocol for quantum steganography where the sender
+(Alice) encodes her steganographic information into the error syndromes of the
+perfect (five-qubit) quantum error-correcting code, and sends it to the
+receiver (Bob) over a depolarizing channel. Alice and Bob share a classical
+secret key, and hide quantum information in such a way that to an eavesdropper
+(Eve) without access to the secret key, the quantum message looks like an
+innocent codeword with a typical sequence of quantum errors. We calculate the
+average rate of key consumption, and show how the protocol improves in
+performance as information is spread over multiple codeword blocks. Alice and
+Bob utilize different encodings to optimize the average number of
+steganographic bits that they can send to each other while matching the error
+statistics of the depolarizing channel.

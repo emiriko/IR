@@ -1,0 +1,17 @@
+Model-based safety analysis approaches aim at finding critical failure
+combinations by analysis of models of the whole system (i.e. software,
+hardware, failure modes and environment). The advantage of these methods
+compared to traditional approaches is that the analysis of the whole system
+gives more precise results. Only few model-based approaches have been applied
+to answer quantitative questions in safety analysis, often limited to analysis
+of specific failure propagation models, limited types of failure modes or
+without system dynamics and behavior, as direct quantitative analysis is uses
+large amounts of computing resources. New achievements in the domain of
+(probabilistic) model-checking now allow for overcoming this problem.
+  This paper shows how functional models based on synchronous parallel
+semantics, which can be used for system design, implementation and qualitative
+safety analysis, can be directly re-used for (model-based) quantitative safety
+analysis. Accurate modeling of different types of probabilistic failure
+occurrence is shown as well as accurate interpretation of the results of the
+analysis. This allows for reliable and expressive assessment of the safety of a
+system in early design stages.

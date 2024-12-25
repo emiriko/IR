@@ -1,0 +1,15 @@
+This study focuses on an alignment-free sequence comparison method: the
+number of words of length k shared between two sequences, also known as the D_2
+statistic. The advantages of the use of this statistic over alignment-based
+methods are firstly that it does not assume that homologous segments are
+contiguous, and secondly that the algorithm is computationally extremely fast,
+the runtime being proportional to the size of the sequence under scrutiny.
+Existing applications of the D_2 statistic include the clustering of related
+sequences in large EST databases such as the STACK database. Such applications
+have typically relied on heuristics without any statistical basis. Rigorous
+statistical characterisations of the distribution of D_2 have subsequently been
+undertaken, but have focussed on the distribution's asymptotic behaviour,
+leaving the distribution of D_2 uncharacterised for most practical cases. The
+work presented here bridges these two worlds to give usable approximations of
+the distribution of D_2 for ranges of parameters most frequently encountered in
+the study of biological sequences.

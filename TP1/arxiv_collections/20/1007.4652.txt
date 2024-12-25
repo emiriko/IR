@@ -1,0 +1,25 @@
+Consider $N\times N$ hermitian or symmetric random matrices $H$ with
+independent entries, where the distribution of the $(i,j)$ matrix element is
+given by the probability measure $\nu_{ij}$ with zero expectation and with
+variance $\sigma_{ij}^2$. We assume that the variances satisfy the
+normalization condition $\sum_{i} \sigma^2_{ij} = 1$ for all $j$ and that there
+is a positive constant $c$ such that $c\le N \sigma_{ij}^2 \le c^{-1}$. We
+further assume that the probability distributions $\nu_{ij}$ have a uniform
+subexponential decay. We prove that the Stieltjes transform of the empirical
+eigenvalue distribution of $H$ is given by the Wigner semicircle law uniformly
+up to the edges of the spectrum with an error of order $ (N \eta)^{-1}$ where
+$\eta$ is the imaginary part of the spectral parameter in the Stieltjes
+transform. There are three corollaries to this strong local semicircle law: (1)
+Rigidity of eigenvalues: If $\gamma_j =\gamma_{j,N}$ denotes the {\it classical
+location} of the $j$-th eigenvalue under the semicircle law ordered in
+increasing order, then the $j$-th eigenvalue $\lambda_j$ is close to $\gamma_j$
+in the sense that for any $\xi>1$ there is a constant $L$ such that \[\mathbb P
+\Big (\exists \, j : \; |\lambda_j-\gamma_j| \ge (\log N)^L \Big [ \min \big
+(\, j, N-j+1 \, \big) \Big ]^{-1/3} N^{-2/3} \Big) \le C\exp{\big[-c(\log
+N)^{\xi} \big]} \] for $N$ large enough. (2) The proof of the {\it Dyson's
+conjecture} \cite{Dy} which states that the time scale of the Dyson Brownian
+motion to reach local equilibrium is of order $N^{-1}$. (3) The edge
+universality holds in the sense that the probability distributions of the
+largest (and the smallest) eigenvalues of two generalized Wigner ensembles are
+the same in the large $N$ limit provided that the second moments of the two
+ensembles are identical.

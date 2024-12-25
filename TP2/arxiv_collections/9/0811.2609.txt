@@ -1,0 +1,22 @@
+We study combinatorial group testing schemes for learning $d$-sparse Boolean
+vectors using highly unreliable disjunctive measurements. We consider an
+adversarial noise model that only limits the number of false observations, and
+show that any noise-resilient scheme in this model can only approximately
+reconstruct the sparse vector. On the positive side, we take this barrier to
+our advantage and show that approximate reconstruction (within a satisfactory
+degree of approximation) allows us to break the information theoretic lower
+bound of $\tilde{\Omega}(d^2 \log n)$ that is known for exact reconstruction of
+$d$-sparse vectors of length $n$ via non-adaptive measurements, by a
+multiplicative factor $\tilde{\Omega}(d)$.
+  Specifically, we give simple randomized constructions of non-adaptive
+measurement schemes, with $m=O(d \log n)$ measurements, that allow efficient
+reconstruction of $d$-sparse vectors up to $O(d)$ false positives even in the
+presence of $\delta m$ false positives and $O(m/d)$ false negatives within the
+measurement outcomes, for any constant $\delta < 1$. We show that, information
+theoretically, none of these parameters can be substantially improved without
+dramatically affecting the others. Furthermore, we obtain several explicit
+constructions, in particular one matching the randomized trade-off but using $m
+= O(d^{1+o(1)} \log n)$ measurements. We also obtain explicit constructions
+that allow fast reconstruction in time $\poly(m)$, which would be sublinear in
+$n$ for sufficiently sparse vectors. The main tool used in our construction is
+the list-decoding view of randomness condensers and extractors.

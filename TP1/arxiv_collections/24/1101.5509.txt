@@ -1,0 +1,21 @@
+Privacy-preserving techniques for distributed computation have been proposed
+recently as a promising framework in collaborative inter-domain network
+monitoring. Several different approaches exist to solve such class of problems,
+e.g., Homomorphic Encryption (HE) and Secure Multiparty Computation (SMC) based
+on Shamir's Secret Sharing algorithm (SSS). Such techniques are complete from a
+computation-theoretic perspective: given a set of private inputs, it is
+possible to perform arbitrary computation tasks without revealing any of the
+intermediate results. In fact, HE and SSS can operate also on secret inputs
+and/or provide secret outputs. However, they are computationally expensive and
+do not scale well in the number of players and/or in the rate of computation
+tasks. In this paper we advocate the use of "elementary" (as opposite to
+"complete") Secure Multiparty Computation (E-SMC) procedures for traffic
+monitoring. E-SMC supports only simple computations with private input and
+public output, i.e., it can not handle secret input nor secret (intermediate)
+output. Such a simplification brings a dramatic reduction in complexity and
+enables massive-scale implementation with acceptable delay and overhead.
+Notwithstanding its simplicity, we claim that an E-SMC scheme is sufficient to
+perform a great variety of computation tasks of practical relevance to
+collaborative network monitoring, including, e.g., anonymous publishing and set
+operations. This is achieved by combining a E-SMC scheme with data structures
+like Bloom Filters and bitmap strings.

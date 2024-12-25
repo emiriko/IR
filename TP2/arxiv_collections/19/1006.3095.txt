@@ -1,0 +1,21 @@
+We present a tree-tensor-network-based method to study strongly correlated
+systems with nonlocal interactions in higher dimensions. Although the
+momentum-space and quantum-chemistry versions of the density matrix
+renormalization group (DMRG) method have long been applied to such systems, the
+spatial topology of DMRG-based methods allows efficient optimizations to be
+carried out with respect to one spatial dimension only. Extending the
+matrix-product-state picture, we formulate a more general approach by allowing
+the local sites to be coupled to more than two neighboring auxiliary subspaces.
+Following Shi. et. al. [Phys. Rev. A, 74, 022320 (2006)], we treat a tree-like
+network ansatz with arbitrary coordination number z, where the z=2 case
+corresponds to the one-dimensional scheme. For this ansatz, the long-range
+correlation deviates from the mean-field value polynomially with distance, in
+contrast to the matrix-product ansatz, which deviates exponentially. The
+computational cost of the tree-tensor-network method is significantly smaller
+than that of previous DMRG-based attempts, which renormalize several blocks
+into a single block. In addition, we investigate the effect of unitary
+transformations on the local basis states and present a method for optimizing
+such transformations. For the 1-d interacting spinless fermion model, the
+optimized transformation interpolates smoothly between real space and momentum
+space. Calculations carried out on small quantum chemical systems support our
+approach.

@@ -1,0 +1,18 @@
+The fractal or Hausdorff dimension is a measure of roughness (or smoothness)
+for time series and spatial data. The graph of a smooth, differentiable surface
+indexed in $\mathbb{R}^d$ has topological and fractal dimension $d$. If the
+surface is nondifferentiable and rough, the fractal dimension takes values
+between the topological dimension, $d$, and $d+1$. We review and assess
+estimators of fractal dimension by their large sample behavior under infill
+asymptotics, in extensive finite sample simulation studies, and in a data
+example on arctic sea-ice profiles. For time series or line transect data,
+box-count, Hall--Wood, semi-periodogram, discrete cosine transform and wavelet
+estimators are studied along with variation estimators with power indices 2
+(variogram) and 1 (madogram), all implemented in the R package fractaldim.
+Considering both efficiency and robustness, we recommend the use of the
+madogram estimator, which can be interpreted as a statistically more efficient
+version of the Hall--Wood estimator. For two-dimensional lattice data, we
+propose robust transect estimators that use the median of variation estimates
+along rows and columns. Generally, the link between power variations of index
+$p>0$ for stochastic processes, and the Hausdorff dimension of their sample
+paths, appears to be particularly robust and inclusive when $p=1$.

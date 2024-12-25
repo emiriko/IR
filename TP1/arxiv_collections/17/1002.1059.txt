@@ -1,0 +1,19 @@
+This paper describes a new algorithm for hyperspectral image unmixing. Most
+of the unmixing algorithms proposed in the literature do not take into account
+the possible spatial correlations between the pixels. In this work, a Bayesian
+model is introduced to exploit these correlations. The image to be unmixed is
+assumed to be partitioned into regions (or classes) where the statistical
+properties of the abundance coefficients are homogeneous. A Markov random field
+is then proposed to model the spatial dependency of the pixels within any
+class. Conditionally upon a given class, each pixel is modeled by using the
+classical linear mixing model with additive white Gaussian noise. This strategy
+is investigated the well known linear mixing model. For this model, the
+posterior distributions of the unknown parameters and hyperparameters allow
+ones to infer the parameters of interest. These parameters include the
+abundances for each pixel, the means and variances of the abundances for each
+class, as well as a classification map indicating the classes of all pixels in
+the image. To overcome the complexity of the posterior distribution of
+interest, we consider Markov chain Monte Carlo methods that generate samples
+distributed according to the posterior of interest. The generated samples are
+then used for parameter and hyperparameter estimation. The accuracy of the
+proposed algorithms is illustrated on synthetic and real data.

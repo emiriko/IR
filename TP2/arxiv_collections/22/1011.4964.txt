@@ -1,0 +1,24 @@
+Subhalo abundance matching (SHAM) is a technique for populating simulated
+dark matter distributions with galaxies, assuming a monotonic relation between
+a galaxy's stellar mass or luminosity and the mass of its parent dark matter
+halo or subhalo. We examine the accuracy of SHAM in two cosmological SPH
+simulations, one of which includes momentum-driven winds. The SPH simulations
+indeed show a nearly monotonic relation between stellar mass and halo mass
+provided that, for satellite galaxies, we use the mass of the subhalo at the
+epoch when it became a satellite. In each simulation, the median relation for
+central and satellite galaxies is nearly identical, though a somewhat larger
+fraction of satellites are outliers. SHAM-assigned masses (at z=0-2),
+luminosities (R-band at z=0), or star formation rates (at z=2) have a 68%
+scatter of 0.09-0.15 dex relative to the true simulation values. When we apply
+SHAM to the subhalo population of collisionless N-body simulation with the same
+initial conditions as the SPH runs, we find generally good agreement for the
+halo occupation distributions and halo radial profiles of galaxy samples
+defined by thresholds in stellar mass. However, because a small fraction of SPH
+galaxies suffer severe stellar mass loss after becoming satellites, SHAM
+slightly overpopulates high mass halos; this effect is more significant for the
+wind simulation, which produces galaxies that are less massive and more
+fragile. SHAM recovers the two-point correlation function of the SPH galaxies
+in the no-wind simulation to better than 10% at scales 0.1 < r < 10 Mpc/h. For
+the wind simulation, agreement is better than 15% at r > 2 Mpc/h, but
+overpopulation of massive halos increases the correlation function by a factor
+of ~2.5 on small scales.

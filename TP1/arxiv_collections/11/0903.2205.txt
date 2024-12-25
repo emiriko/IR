@@ -1,0 +1,9 @@
+The use of non-deterministic functions is a distinctive feature of modern
+functional logic languages. The semantics commonly adopted is call-time choice,
+a notion that at the operational level is related to the sharing mechanism of
+lazy evaluation in functional languages. However, there are situations where
+run-time choice, closer to ordinary rewriting, is more appropriate. In this
+paper we propose an extension of existing call-time choice based languages, to
+provide support for run-time choice in localized parts of a program. The
+extension is remarkably simple at three relevant levels: syntax, formal
+operational calculi and implementation, which is based on the system Toy.

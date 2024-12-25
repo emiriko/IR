@@ -1,0 +1,20 @@
+The threshold degree of a Boolean function f:{0,1}^n->{-1,+1} is the least
+degree of a real polynomial p such that f(x)=sgn p(x). We construct two
+halfspaces on {0,1}^n whose intersection has threshold degree Theta(sqrt n), an
+exponential improvement on previous lower bounds. This solves an open problem
+due to Klivans (2002) and rules out the use of perceptron-based techniques for
+PAC learning the intersection of two halfspaces, a central unresolved challenge
+in computational learning. We also prove that the intersection of two majority
+functions has threshold degree Omega(log n), which is tight and settles a
+conjecture of O'Donnell and Servedio (2003).
+  Our proof consists of two parts. First, we show that for any nonconstant
+Boolean functions f and g, the intersection f(x)^g(y) has threshold degree O(d)
+if and only if ||f-F||_infty + ||g-G||_infty < 1 for some rational functions F,
+G of degree O(d). Second, we settle the least degree required for approximating
+a halfspace and a majority function to any given accuracy by rational
+functions.
+  Our technique further allows us to make progress on Aaronson's challenge
+(2008) and contribute strong direct product theorems for polynomial
+representations of composed Boolean functions of the form F(f_1,...,f_n). In
+particular, we give an improved lower bound on the approximate degree of the
+AND-OR tree.

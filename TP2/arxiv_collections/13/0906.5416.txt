@@ -1,0 +1,9 @@
+The Non-Identity Check problem asks whether a given a quantum circuit is far
+away from the identity or not. It is well known that this problem is
+QMA-Complete \cite{JWB05}. In this note, it is shown that the Non-Identity
+Check problem remains QMA-Complete for circuits of short depth. Specifically,
+we prove that for constant depth quantum circuit in which each gate is given to
+at least $\Omega(\log n)$ bits of precision, the Non-Identity Check problem is
+QMA-Complete. It also follows that the hardness of the problem remains for
+polylogarithmic depth circuit consisting of only gates from any universal gate
+set and for logarithmic depth circuit using some specific universal gate set.

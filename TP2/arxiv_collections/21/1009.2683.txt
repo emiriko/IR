@@ -1,0 +1,12 @@
+We present a method to control the detection events in quantum key
+distribution systems that use gated single-photon detectors. We employ bright
+pulses as faked states, timed to arrive at the avalanche photodiodes outside
+the activation time. The attack can remain unnoticed, since the faked states do
+not increase the error rate per se. This allows for an intercept-resend attack,
+where an eavesdropper transfers her detection events to the legitimate receiver
+without causing any errors. As a side effect, afterpulses, originating from
+accumulated charge carriers in the detectors, increase the error rate. We have
+experimentally tested detectors of the system id3110 (Clavis2) from ID
+Quantique. We identify the parameter regime in which the attack is feasible
+despite the side effect. Furthermore, we outline how simple modifications in
+the implementation can make the device immune to this attack.

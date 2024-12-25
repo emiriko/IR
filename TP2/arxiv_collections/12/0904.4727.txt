@@ -1,0 +1,18 @@
+This paper studies the stable model semantics of logic programs with
+(abstract) constraint atoms and their properties. We introduce a succinct
+abstract representation of these constraint atoms in which a constraint atom is
+represented compactly. We show two applications. First, under this
+representation of constraint atoms, we generalize the Gelfond-Lifschitz
+transformation and apply it to define stable models (also called answer sets)
+for logic programs with arbitrary constraint atoms. The resulting semantics
+turns out to coincide with the one defined by Son et al., which is based on a
+fixpoint approach. One advantage of our approach is that it can be applied, in
+a natural way, to define stable models for disjunctive logic programs with
+constraint atoms, which may appear in the disjunctive head as well as in the
+body of a rule. As a result, our approach to the stable model semantics for
+logic programs with constraint atoms generalizes a number of previous
+approaches. Second, we show that our abstract representation of constraint
+atoms provides a means to characterize dependencies of atoms in a program with
+constraint atoms, so that some standard characterizations and properties
+relying on these dependencies in the past for logic programs with ordinary
+atoms can be extended to logic programs with constraint atoms.

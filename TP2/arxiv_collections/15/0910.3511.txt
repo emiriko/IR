@@ -1,0 +1,17 @@
+We define stealth Man-in-the-Middle adversaries, and analyse their ability to
+launch denial and degradation of service (DoS) attacks on secure channels. We
+show realistic attacks, disrupting TCP communication over secure VPNs using
+IPsec. We present:
+  First amplifying DoS attack on IPsec, when deployed without anti-replay
+window.
+  First amplifying attack on IPsec, when deployed with a `small' anti-replay
+window, and analysis of `sufficient' window size.
+  First amplifying attack on IPsec, when deployed with `sufficient' window
+size. This attack (as the previous) is realistic: attacker needs only to
+duplicate and speed-up few packets.
+  We also suggest a solution designed to prevent the presented attacks, and to
+provide secure channel immune to degradation and other DoS attacks. Our
+solution involves changes (only) to the two gateway machines running IPsec.
+  In addition to their practical importance, our results also raise the
+challenge of formally defining secure channels immune to DoS and degradation
+attacks, and providing provably-secure implementations.

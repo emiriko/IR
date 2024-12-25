@@ -1,0 +1,18 @@
+The traditional architecture for a DBMS engine has the recovery, concurrency
+control and access method code tightly bound together in a storage engine for
+records. We propose a different approach, where the storage engine is factored
+into two layers (each of which might have multiple heterogeneous instances). A
+Transactional Component (TC) works at a logical level only: it knows about
+transactions and their "logical" concurrency control and undo/redo recovery,
+but it does not know about page layout, B-trees etc. A Data Component (DC)
+knows about the physical storage structure. It supports a record oriented
+interface that provides atomic operations, but it does not know about
+transactions. Providing atomic record operations may itself involve DC-local
+concurrency control and recovery, which can be implemented using system
+transactions. The interaction of the mechanisms in TC and DC leads to
+multi-level redo (unlike the repeat history paradigm for redo in integrated
+engines). This refactoring of the system architecture could allow easier
+deployment of application-specific physical structures and may also be helpful
+to exploit multi-core hardware. Particularly promising is its potential to
+enable flexible transactions in cloud database deployments. We describe the
+necessary principles for unbundled recovery, and discuss implementation issues.

@@ -1,0 +1,19 @@
+Zeckendorf proved that every positive integer has a unique representation as
+a sum of non-consecutive Fibonacci numbers. Once this has been shown, it's
+natural to ask how many summands are needed. Using a continued fraction
+approach, Lekkerkerker proved that the average number of such summands needed
+for integers in $[F_n, F_{n+1})$ is $n / (\varphi^2 + 1) + O(1)$, where
+$\varphi = \frac{1+\sqrt{5}}2$ is the golden mean. Surprisingly, no one appears
+to have investigated the distribution of the number of summands; our main
+result is that this converges to a Gaussian as $n\to\infty$. Moreover, such a
+result holds not just for the Fibonacci numbers but many other problems, such
+as linear recurrence relation with non-negative integer coefficients (which is
+a generalization of base $B$ expansions of numbers) and far-difference
+representations.
+  In general the proofs involve adopting a combinatorial viewpoint and
+analyzing the resulting generating functions through partial fraction
+expansions and differentiating identities. The resulting arguments become quite
+technical; the purpose of this paper is to concentrate on the special and most
+interesting case of the Fibonacci numbers, where the obstructions vanish and
+the proofs follow from some combinatorics and Stirling's formula; see [MW] for
+proofs in the general case.

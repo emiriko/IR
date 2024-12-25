@@ -1,0 +1,18 @@
+We show how to automatically construct a system that satisfies a given
+logical specification and has an optimal average behavior with respect to a
+specification with ratio costs.
+  When synthesizing a system from a logical specification, it is often the case
+that several different systems satisfy the specification. In this case, it is
+usually not easy for the user to state formally which system she prefers. Prior
+work proposed to rank the correct systems by adding a quantitative aspect to
+the specification. A desired preference relation can be expressed with (i) a
+quantitative language, which is a function assigning a value to every possible
+behavior of a system, and (ii) an environment model defining the desired
+optimization criteria of the system, e.g., worst-case or average-case optimal.
+  In this paper, we show how to synthesize a system that is optimal for (i) a
+quantitative language given by an automaton with a ratio cost function, and
+(ii) an environment model given by a labeled Markov decision process. The
+objective of the system is to minimize the expected (ratio) costs. The solution
+is based on a reduction to Markov Decision Processes with ratio cost functions
+which do not require that the costs in the denominator are strictly positive.
+We find an optimal strategy for these using a fractional linear program.

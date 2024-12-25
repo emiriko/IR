@@ -1,0 +1,13 @@
+We describe a method for lossless quantum compression if the output of the
+information source is not known. We compute the best possible compression rate,
+minimizing the expected base length of the output quantum bit string (the base
+length of a quantum string is the maximal length in the superposition). This
+complements work by Schumacher and Westmoreland who calculated the
+corresponding rate for minimizing the output's average length.
+  Our compressed code words are prefix-free indeterminate-length quantum bit
+strings which can be concatenated in the case of multiple sources. Therefore,
+we generalize the known theory of prefix-free quantum codes to the case of
+strings with indeterminate length. Moreover, we describe a communication model
+which allows the lossless transmission of the compressed code words. The
+benefit of compression is then the reduction of transmission errors in the
+presence of noise.

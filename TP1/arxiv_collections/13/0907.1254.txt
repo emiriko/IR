@@ -1,0 +1,10 @@
+The Adaptive Multiple Importance Sampling (AMIS) algorithm is aimed at an
+optimal recycling of past simulations in an iterated importance sampling
+scheme. The difference with earlier adaptive importance sampling
+implementations like Population Monte Carlo is that the importance weights of
+all simulated values, past as well as present, are recomputed at each
+iteration, following the technique of the deterministic multiple mixture
+estimator of Owen and Zhou (2000). Although the convergence properties of the
+algorithm cannot be fully investigated, we demonstrate through a challenging
+banana shape target distribution and a population genetics example that the
+improvement brought by this technique is substantial.

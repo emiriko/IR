@@ -1,0 +1,12 @@
+We call a CNF formula linear if any two clauses have at most one variable in
+common. Let m(k) be the largest integer m such that any linear k-CNF formula
+with <= m clauses is satisfiable. We show that 4^k / (4e^2k^3) <= m(k) < ln(2)
+k^4 4^k. More generally, a (k,d)-CSP is a constraint satisfaction problem in
+conjunctive normal form where each variable can take on one of d values, and
+each constraint contains k variables and forbids exacty one of the d^k possible
+assignments to these variables. Call a (k,d)-CSP l-disjoint if no two distinct
+constraints have l or more variables in common. Let m_l(k,d) denote the largest
+integer m such that any l-disjoint (k,d)-CSP with at most m constraints is
+satisfiable. We show that 1/k (d^k/(ed^(l-1)k))^(1+1/(l-1))<= m_l(k,d) < c
+(k^2/l ln(d) d^k)^(1+1/(l-1)). for some constant c. This means for constant l,
+upper and lower bound differ only in a polynomial factor in d and k.

@@ -1,0 +1,20 @@
+We provide a complete description of the giant component of the
+Erd\H{o}s-R\'enyi random graph $G(n,p)$ as soon as it emerges from the scaling
+window, i.e., for $p = (1+\epsilon)/n$ where $\epsilon^3 n \to \infty$ and
+$\epsilon=o(1)$.
+  Our description is particularly simple for $\epsilon = o(n^{-1/4})$, where
+the giant component $C_1$ is contiguous with the following model (i.e., every
+graph property that holds with high probability for this model also holds
+w.h.p. for $C_1$). Let $Z$ be normal with mean $\frac23 \epsilon^3 n$ and
+variance $\epsilon^3 n$, and let $K$ be a random 3-regular graph on $2\lfloor
+Z\rfloor$ vertices. Replace each edge of $K$ by a path, where the path lengths
+are i.i.d. geometric with mean $1/\epsilon$. Finally, attach an independent
+Poisson($1-\epsilon$)-Galton-Watson tree to each vertex.
+  A similar picture is obtained for larger $\epsilon=o(1)$, in which case the
+random 3-regular graph is replaced by a random graph with $N_k$ vertices of
+degree $k$ for $k\geq 3$, where $N_k$ has mean and variance of order
+$\epsilon^k n$.
+  This description enables us to determine fundamental characteristics of the
+supercritical random graph. Namely, we can infer the asymptotics of the
+diameter of the giant component for any rate of decay of $\epsilon$, as well as
+the mixing time of the random walk on $C_1$.

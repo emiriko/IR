@@ -1,0 +1,25 @@
+Evolutionary dynamics have been traditionally studied in the context of
+homogeneous populations, mainly described my the Moran process. Recently, this
+approach has been generalized in \cite{LHN} by arranging individuals on the
+nodes of a network. Undirected networks seem to have a smoother behavior than
+directed ones, and thus it is more challenging to find suppressors/amplifiers
+of selection. In this paper we present the first class of undirected graphs
+which act as suppressors of selection, by achieving a fixation probability that
+is at most one half of that of the complete graph, as the number of vertices
+increases. Moreover, we provide some generic upper and lower bounds for the
+fixation probability of general undirected graphs. As our main contribution, we
+introduce the natural alternative of the model proposed in \cite{LHN}, where
+all individuals interact simultaneously and the result is a compromise between
+aggressive and non-aggressive individuals. That is, the behavior of the
+individuals in our new model and in the model of \cite{LHN} can be interpreted
+as an "aggregation" vs. an "all-or-nothing" strategy, respectively. We prove
+that our new model of mutual influences admits a \emph{potential function},
+which guarantees the convergence of the system for any graph topology and any
+initial fitness vector of the individuals. Furthermore, we prove fast
+convergence to the stable state for the case of the complete graph, as well as
+we provide almost tight bounds on the limit fitness of the individuals. Apart
+from being important on its own, this new evolutionary model appears to be
+useful also in the abstract modeling of control mechanisms over invading
+populations in networks. We demonstrate this by introducing and analyzing two
+alternative control approaches, for which we bound the time needed to stabilize
+to the "healthy" state of the system.

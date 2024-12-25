@@ -1,0 +1,21 @@
+We develop the idea of using Monte Carlo sampling of random portfolios to
+solve portfolio investment problems. In this first paper we explore the need
+for more general optimization tools, and consider the means by which
+constrained random portfolios may be generated. A practical scheme for the
+long-only fully-invested problem is developed and tested for the classic QP
+application. The advantage of Monte Carlo methods is that they may be extended
+to risk functions that are more complicated functions of the return
+distribution, and that the underlying return distribution may be computed
+without the classical Gaussian limitations. The optimization of quadratic
+risk-return functions, VaR, CVaR, may be handled in a similar manner to
+variability ratios such as Sortino and Omega, or mathematical constructions
+such as expected utility and its behavioural finance extensions.
+Robustification is also possible. Grid computing technology is an excellent
+platform for the development of such computations due to the intrinsically
+parallel nature of the computation, coupled to the requirement to transmit only
+small packets of data over the grid. We give some examples deploying
+GridMathematica, in which various investor risk preferences are optimized with
+differing multivariate distributions. Good comparisons with established results
+in Mean-Variance and CVaR optimization are obtained when ``edge-vertex-biased''
+sampling methods are employed to create random portfolios. We also give an
+application to Omega optimization.

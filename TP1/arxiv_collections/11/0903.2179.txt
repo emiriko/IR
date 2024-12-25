@@ -1,0 +1,17 @@
+A non-local box is an abstract device into which Alice and Bob input bits x
+and y respectively and receive outputs a and b respectively, where a, b are
+uniformly distributed and the parity of a+b equals xy. Such boxes have been
+central to the study of quantum or generalized non-locality as well as the
+simulation of non-signaling distributions. In this paper, we start by studying
+how many non-local boxes Alice and Bob need in order to compute a Boolean
+function f. We provide tight upper and lower bounds in terms of the
+communication complexity of the function both in the deterministic and
+randomized case. We then proceed to show that the study of non-local box
+complexity has interesting applications for classical computation as well. In
+particular, we look at secure function evaluation, and study the question posed
+by Beimel and Malkin of how many Oblivious Transfer calls Alice and Bob need in
+order to securely compute a function f. We show that this question is related
+to the non-local box complexity of the function and conclude by greatly
+improving their bounds. Finally, another consequence of our results is that
+traceless two-outcome measurements on maximally entangled states can be
+simulated with 3 non-local boxes, while no finite bound was previously known.

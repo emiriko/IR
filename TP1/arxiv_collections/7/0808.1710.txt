@@ -1,0 +1,19 @@
+Statistical arbitrage strategies, such as pairs trading and its
+generalizations, rely on the construction of mean-reverting spreads enjoying a
+certain degree of predictability. Gaussian linear state-space processes have
+recently been proposed as a model for such spreads under the assumption that
+the observed process is a noisy realization of some hidden states. Real-time
+estimation of the unobserved spread process can reveal temporary market
+inefficiencies which can then be exploited to generate excess returns. Building
+on previous work, we embrace the state-space framework for modeling spread
+processes and extend this methodology along three different directions. First,
+we introduce time-dependency in the model parameters, which allows for quick
+adaptation to changes in the data generating process. Second, we provide an
+on-line estimation algorithm that can be constantly run in real-time. Being
+computationally fast, the algorithm is particularly suitable for building
+aggressive trading strategies based on high-frequency data and may be used as a
+monitoring device for mean-reversion. Finally, our framework naturally provides
+informative uncertainty measures of all the estimated parameters. Experimental
+results based on Monte Carlo simulations and historical equity data are
+discussed, including a co-integration relationship involving two
+exchange-traded funds.

@@ -1,0 +1,11 @@
+The pivot algorithm for self-avoiding walks has been implemented in a manner
+which is dramatically faster than previous implementations, enabling extremely
+long walks to be efficiently simulated. We explicitly describe the data
+structures and algorithms used, and provide a heuristic argument that the mean
+time per attempted pivot for $N$-step self-avoiding walks is $O(1)$ for the
+square and simple cubic lattices. Numerical experiments conducted for
+self-avoiding walks with up to 268 million steps are consistent with $o(\log
+N)$ behavior for the square lattice and $O(\log N)$ behavior for the simple
+cubic lattice. Our method can be adapted to other models of polymers with
+short-range interactions, on the lattice or in the continuum, and hence
+promises to be widely useful.

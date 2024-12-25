@@ -1,0 +1,10 @@
+A simulated annealing based algorithm is presented for the determination of
+optimal ship routes through the minimization of a cost function. This cost
+function is a weighted sum of the time of voyage and the voyage comfort (safety
+is taken into account too). The latter is dependent on both the wind speed and
+direction and the wave height and direction. The algorithm first discretizes an
+initial route and optimizes it by considering small deviations which are
+accepted by utilizing the simulated annealing technique. Using calculus of
+variations we prove a key theorem which dramatically accelerates the
+convergence of the algorithm. Finally both simulated and real experiments are
+presented.

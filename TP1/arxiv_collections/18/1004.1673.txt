@@ -1,0 +1,13 @@
+Specifying QoS properties can limit the selection of some good web services
+that the user will have considered; this is because the algorithm used strictly
+ensures that there is a match between QoS properties of the consumer with that
+of the available services. This is to say that, a situation may arise that some
+services might not have all that the user specifies but are rated high in those
+they have. With some tradeoffs specified in form of weight, these services will
+be made available to the user for consideration. This assertion is from the
+fact that, the user's requirements for the specified QoS properties are of
+varying degree i.e. he will always prefer one ahead of the other. This can be
+captured in form of weight i.e. the one preferred most will have the highest
+weight. If a consumer specifies light weight for those QoS properties that a
+web service is deficient in and high weight for those it has, this will
+minimize the difference between them. Hence the service can be returned.

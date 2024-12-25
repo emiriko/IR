@@ -1,0 +1,25 @@
+In multivariate regression, a $K$-dimensional response vector is regressed
+upon a common set of $p$ covariates, with a matrix $B^*\in\mathbb{R}^{p\times
+K}$ of regression coefficients. We study the behavior of the multivariate group
+Lasso, in which block regularization based on the $\ell_1/\ell_2$ norm is used
+for support union recovery, or recovery of the set of $s$ rows for which $B^*$
+is nonzero. Under high-dimensional scaling, we show that the multivariate group
+Lasso exhibits a threshold for the recovery of the exact row pattern with high
+probability over the random design and noise that is specified by the sample
+complexity parameter $\theta(n,p,s):=n/[2\psi(B^*)\log(p-s)]$. Here $n$ is the
+sample size, and $\psi(B^*)$ is a sparsity-overlap function measuring a
+combination of the sparsities and overlaps of the $K$-regression coefficient
+vectors that constitute the model. We prove that the multivariate group Lasso
+succeeds for problem sequences $(n,p,s)$ such that $\theta(n,p,s)$ exceeds a
+critical level $\theta_u$, and fails for sequences such that $\theta(n,p,s)$
+lies below a critical level $\theta_{\ell}$. For the special case of the
+standard Gaussian ensemble, we show that $\theta_{\ell}=\theta_u$ so that the
+characterization is sharp. The sparsity-overlap function $\psi(B^*)$ reveals
+that, if the design is uncorrelated on the active rows, $\ell_1/\ell_2$
+regularization for multivariate regression never harms performance relative to
+an ordinary Lasso approach and can yield substantial improvements in sample
+complexity (up to a factor of $K$) when the coefficient vectors are suitably
+orthogonal. For more general designs, it is possible for the ordinary Lasso to
+outperform the multivariate group Lasso. We complement our analysis with
+simulations that demonstrate the sharpness of our theoretical results, even for
+relatively small problems.

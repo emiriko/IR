@@ -1,0 +1,23 @@
+This paper addresses some numerical and theoretical aspects of dual Schur
+domain decomposition methods for linear first-order transient partial
+differential equations. In this work, we consider the trapezoidal family of
+schemes for integrating the ordinary differential equations (ODEs) for each
+subdomain and present four different coupling methods, corresponding to
+different algebraic constraints, for enforcing kinematic continuity on the
+interface between the subdomains.
+  Method 1 (d-continuity) is based on the conventional approach using
+continuity of the primary variable and we show that this method is unstable for
+a lot of commonly used time integrators including the mid-point rule. To
+alleviate this difficulty, we propose a new Method 2 (Modified d-continuity)
+and prove its stability for coupling all time integrators in the trapezoidal
+family (except the forward Euler). Method 3 (v-continuity) is based on
+enforcing the continuity of the time derivative of the primary variable.
+However, this constraint introduces a drift in the primary variable on the
+interface. We present Method 4 (Baumgarte stabilized) which uses Baumgarte
+stabilization to limit this drift and we derive bounds for the stabilization
+parameter to ensure stability.
+  Our stability analysis is based on the ``energy'' method, and one of the main
+contributions of this paper is the extension of the energy method (which was
+previously introduced in the context of numerical methods for ODEs) to assess
+the stability of numerical formulations for index-2 differential-algebraic
+equations (DAEs).

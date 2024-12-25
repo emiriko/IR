@@ -1,0 +1,8 @@
+We present a proxy signature scheme using bilinear pairings that provides
+effective proxy revocation. The scheme uses a binding-blinding technique to
+avoid secure channel requirements in the key issuance stage. With this
+technique, the signer receives a partial private key from a trusted authority
+and unblinds it to get his private key, in turn, overcomes the key escrow
+problem which is a constraint in most of the pairing-based proxy signature
+schemes. The scheme fulfills the necessary security requirements of proxy
+signature and resists other possible threats.

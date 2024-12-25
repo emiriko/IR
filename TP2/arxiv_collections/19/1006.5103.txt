@@ -1,0 +1,16 @@
+We study time-bounded reachability in continuous-time Markov decision
+processes for time-abstract scheduler classes. Such reachability problems play
+a paramount role in dependability analysis and the modelling of manufacturing
+and queueing systems. Consequently, their analysis has been studied
+intensively, and techniques for the approximation of optimal control are well
+understood. From a mathematical point of view, however, the question of
+approximation is secondary compared to the fundamental question whether or not
+optimal control exists.
+  We demonstrate the existence of optimal schedulers for the time-abstract
+scheduler classes for all CTMDPs. Our proof is constructive: We show how to
+compute optimal time-abstract strategies with finite memory. It turns out that
+these optimal schedulers have an amazingly simple structure - they converge to
+an easy-to-compute memoryless scheduling policy after a finite number of steps.
+  Finally, we show that our argument can easily be lifted to Markov games: We
+show that both players have a likewise simple optimal strategy in these more
+general structures.

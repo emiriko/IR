@@ -1,0 +1,19 @@
+We describe the photometric calibration and stellar classification methods
+used to produce the Kepler Input Catalog (KIC). The KIC is a catalog containing
+photometric and physical data for sources in the Kepler Mission field of view;
+it is used by the mission to select optimal targets. We derived atmospheric
+extinction corrections from hourly observations of secondary standard fields
+within the Kepler field of view. Repeatability of absolute photometry for stars
+brighter than magnitude 15 is typically 2%. We estimated stellar parameters
+Teff, log(g), log (Z), E_{B-V} using Bayesian posterior probability
+maximization to match observed colors to Castelli stellar atmosphere models. We
+applied Bayesian priors describing the distribution of solar-neighborhood stars
+in the color-magnitude diagram (CMD), in log (Z)$, and in height above the
+galactic plane. Comparisons with samples of stars classified by other means
+indicate that in most regions of the CMD, our classifications are reliable
+within about +/- 200 K and +/- 0.4 dex in log (g). It is difficult to assess
+the reliability of our log(Z) estimates, but there is reason to suspect that it
+is poor, particularly at extreme Teff. Of great importance for the Kepler
+Mission, for Teff <= 5400 K, the distinction between main-sequence stars and
+giants has proved to be reliable with better than 98% confidence. The KIC is
+available through the MAST data archive.

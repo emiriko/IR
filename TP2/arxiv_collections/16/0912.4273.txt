@@ -1,0 +1,16 @@
+We present an improved version of the SimpleX method for radiative transfer
+on an unstructured Delaunay grid. The grid samples the medium through which
+photons are transported in an optimal way for fast radiative transfer
+calculations. In this paper we study the detailed working of SimpleX in test
+problems and show improvements over the previous version of the method. We have
+applied a direction conserving transport scheme that correctly transports
+photons in the optically thin regime, a regime where the original SimpleX
+algorithm lost its accuracy. In addition, a scheme of dynamic grid updates is
+employed to ensure correct photon transport when the optical depth changes
+during a simulation. For the application to large data sets, the method is
+parallellised for distributed memory machines using MPI. To test the new
+method, we have performed standard tests for cosmological radiative transfer.
+We show excellent correspondence with both the analytical solution (when
+available) and to the results of other codes compared to the former version of
+SimpleX, without sacrificing the benefits of the high computational speed of
+the method.

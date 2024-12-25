@@ -1,0 +1,20 @@
+In this paper we extend a popular non-cooperative network creation game (NCG)
+to allow for disconnected equilibrium networks. There are n players, each is a
+vertex in a graph, and a strategy is a subset of players to build edges to. For
+each edge a player must pay a cost \alpha, and the individual cost for a player
+represents a trade-off between edge costs and shortest path lengths to all
+other players. We extend the model to a penalized game (PCG), for which we
+reduce the penalty counted towards the individual cost for a pair of
+disconnected players to a finite value \beta. Our analysis concentrates on
+existence, structure, and cost of disconnected Nash and strong equilibria.
+Although the PCG is not a potential game, pure Nash equilibria always and pure
+strong equilibria very often exist. We provide tight conditions under which
+disconnected Nash (strong) equilibria can evolve. Components of these
+equilibria must be Nash (strong) equilibria of a smaller NCG. However, in
+contrast to the NCG, for almost all parameter values no tree is a stable
+component. Finally, we present a detailed characterization of the price of
+anarchy that reveals cases in which the price of anarchy is \Theta(n) and thus
+several orders of magnitude larger than in the NCG. Perhaps surprisingly, the
+strong price of anarchy increases to at most 4. This indicates that global
+communication and coordination can be extremely valuable to overcome socially
+inferior topologies in distributed selfish network design.

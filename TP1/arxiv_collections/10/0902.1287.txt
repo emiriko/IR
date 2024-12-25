@@ -1,0 +1,13 @@
+Gravitational wave emission from extreme mass ratio binaries (EMRBs) should
+be detectable by the joint NASA-ESA LISA project, spurring interest in
+analytical and numerical methods for investigating EMRBs. We describe a
+discontinuous Galerkin (dG) method for solving the distributionally forced 1+1
+wave equations which arise when modeling EMRBs via the perturbation theory of
+Schwarzschild blackholes. Despite the presence of jump discontinuities in the
+relevant polar and axial gravitational "master functions", our dG method
+achieves global spectral accuracy, provided that we know the instantaneous
+position, velocity, and acceleration of the small particle. Here these
+variables are known, since we assume that the particle follows a timelike
+geodesic of the Schwarzschild geometry. We document the results of several
+numerical experiments testing our method, and in our concluding section discuss
+the possible inclusion of gravitational self-force effects.

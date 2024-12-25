@@ -1,0 +1,12 @@
+The approach to reasoning about structural operational semantics style
+specifications supported by the Abella system is discussed. This approach uses
+lambda tree syntax to treat object language binding and encodes binding related
+properties in generic judgments. Further, object language specifications are
+embedded directly into the reasoning framework through recursive definitions.
+The treatment of binding via generic judgments implicitly enforces distinctness
+and atomicity in the names used for bound variables. These properties must,
+however, be made explicit in reasoning tasks. This objective can be achieved by
+allowing recursive definitions to also specify generic properties of atomic
+predicates. The utility of these various logical features in the Abella system
+is demonstrated through actual reasoning tasks. Brief comparisons with a few
+other logic based approaches are also made.

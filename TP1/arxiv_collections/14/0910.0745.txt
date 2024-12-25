@@ -1,0 +1,23 @@
+In a novel approach to the multiple testing problem, Efron (2004; 2007)
+formulated estimators of the distribution of test statistics or nominal
+p-values under a null distribution suitable for modeling the data of thousands
+of unaffected genes, non-associated single-nucleotide polymorphisms, or other
+biological features. Estimators of the null distribution can improve not only
+the empirical Bayes procedure for which it was originally intended, but also
+many other multiple comparison procedures. Such estimators serve as the
+groundwork for the proposed multiple comparison procedure based on a recent
+frequentist method of minimizing posterior expected loss, exemplified with a
+non-additive loss function designed for genomic screening rather than for
+validation.
+  The merit of estimating the null distribution is examined from the vantage
+point of conditional inference in the remainder of the paper. In a simulation
+study of genome-scale multiple testing, conditioning the observed confidence
+level on the estimated null distribution as an approximate ancillary statistic
+markedly improved conditional inference. To enable researchers to determine
+whether to rely on a particular estimated null distribution for inference or
+decision making, an information-theoretic score is provided that quantifies the
+benefit of conditioning. As the sum of the degree of ancillarity and the degree
+of inferential relevance, the score reflects the balance conditioning would
+strike between the two conflicting terms.
+  Applications to gene expression microarray data illustrate the methods
+introduced.

@@ -1,0 +1,14 @@
+Although computationally aligning sequence is a crucial step in the vast
+majority of comparative genomics studies our understanding of alignment biases
+still needs to be improved. To infer true structural or homologous regions
+computational alignments need further evaluation. It has been shown that the
+accuracy of aligned positions can drop substantially in particular around gaps.
+Here we focus on re-evaluation of score-based alignments with affine gap
+penalty costs. We exploit their relationships with pair hidden Markov models
+and develop efficient algorithms by which to identify gaps which are
+significant in terms of length and multiplicity. We evaluate our statistics
+with respect to the well-established structural alignments from SABmark and
+find that indel reliability substantially increases with their significance in
+particular in worst-case twilight zone alignments. This points out that our
+statistics can reliably complement other methods which mostly focus on the
+reliability of match positions.

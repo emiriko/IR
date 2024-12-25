@@ -1,0 +1,14 @@
+In this paper we introduce a novel consensus mech- anism where agents of a
+network are able to share logical values, or Booleans, representing their local
+opinions on e.g. the presence of an intruder or of a fire within an indoor
+environment. We first formulate the logical consensus problem, and then we
+review relevant results in the literature on cellular automata and convergence
+of finite-state iteration maps. Under suitable joint conditions on the
+visibility of agents and their communication capability, we provide an
+algorithm for generating a logical linear consensus system that is globally
+stable. The solution is optimal in terms of the number of messages to be
+exchanged and the time needed to reach a consensus. Moreover, to cope with
+possible sensor failure, we propose a second design approach that produces
+robust logical nonlinear consensus systems tolerating a given maximum number of
+faults. Finally, we show applicability of the agreement mechanism to a case
+study consisting of a distributed Intrusion Detection System (IDS).

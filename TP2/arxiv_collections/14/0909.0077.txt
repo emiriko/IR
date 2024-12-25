@@ -1,0 +1,23 @@
+The problem of quantifying the difference between evolutions of an open
+quantum system (in particular, between the actual evolution of an open system
+and the ideal target operation on the corresponding closed system) is important
+in quantum control, especially in control of quantum information processing.
+Motivated by this problem, we develop a measure for evaluating the distance
+between unitary evolution operators of a composite quantum system that consists
+of a sub-system of interest (e.g., a quantum information processor) and
+environment. The main characteristic of this measure is the invariance with
+respect to the effect of the evolution operator on the environment, which
+follows from an equivalence relation that exists between unitary operators
+acting on the composite system, when the effect on only the sub-system of
+interest is considered. The invariance to the environment's transformation
+makes it possible to quantitatively compare the evolution of an open quantum
+system and its closed counterpart. The distance measure also determines the
+fidelity bounds of a general quantum channel (a completely positive and
+trace-preserving map acting on the sub-system of interest) with respect to a
+unitary target transformation. This measure is also independent of the initial
+state of the system and straightforward to numerically calculate. As an
+example, the measure is used in numerical simulations to evaluate fidelities of
+optimally controlled quantum gate operations (for one- and two-qubit systems),
+in the presence of a decohering environment. This example illustrates the
+utility of this measure for optimal control of quantum operations in the
+realistic case of open-system dynamics.

@@ -1,0 +1,10 @@
+We introduce a numerical method for reconstructing a multidimensional surface
+using the gradient of the surface measured at some values of the coordinates.
+The method consists of defining a multidimensional spline function and
+minimizing the deviation between its derivatives and the measured gradient.
+Unlike a multidimensional integration along some path, the present method
+results in a continuous, smooth surface, furthermore, it also applies to input
+data that are non-equidistant and not aligned on a rectangular grid. Function
+values, first and second derivatives and integrals are easy to calculate. The
+proper estimation of the statistical and systematical errors is also
+incorporated in the method.

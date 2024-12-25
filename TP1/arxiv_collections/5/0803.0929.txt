@@ -1,0 +1,14 @@
+We present a nearly-linear time algorithm that produces high-quality
+sparsifiers of weighted graphs. Given as input a weighted graph $G=(V,E,w)$ and
+a parameter $\epsilon>0$, we produce a weighted subgraph
+$H=(V,\tilde{E},\tilde{w})$ of $G$ such that $|\tilde{E}|=O(n\log
+n/\epsilon^2)$ and for all vectors $x\in\R^V$ $(1-\epsilon)\sum_{uv\in
+E}(x(u)-x(v))^2w_{uv}\le \sum_{uv\in\tilde{E}}(x(u)-x(v))^2\tilde{w}_{uv} \le
+(1+\epsilon)\sum_{uv\in E}(x(u)-x(v))^2w_{uv}. (*)$
+  This improves upon the sparsifiers constructed by Spielman and Teng, which
+had $O(n\log^c n)$ edges for some large constant $c$, and upon those of
+Bencz\'ur and Karger, which only satisfied (*) for $x\in\{0,1\}^V$.
+  A key ingredient in our algorithm is a subroutine of independent interest: a
+nearly-linear time algorithm that builds a data structure from which we can
+query the approximate effective resistance between any two vertices in a graph
+in $O(\log n)$ time.

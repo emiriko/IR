@@ -1,0 +1,9 @@
+This paper introduces a simple Markov process inspired by the problem of
+quasicrystal growth. It acts over two-letter words by randomly performing
+\emph{flips}, a local transformation which exchanges two consecutive different
+letters. More precisely, only the flips which do not increase the number of
+pairs of consecutive identical letters are allowed. Fixed-points of such a
+process thus perfectly alternate different letters. We show that the expected
+number of flips to converge towards a fixed-point is bounded by $O(n^3)$ in the
+worst-case and by $O(n^{5/2}\ln{n})$ in the average-case, where $n$ denotes the
+length of the initial word.

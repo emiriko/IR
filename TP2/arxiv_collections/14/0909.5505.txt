@@ -1,0 +1,15 @@
+The combination of continuum Many-Body Quantum physics and Monte Carlo
+methods provide a powerful and well established approach to first principles
+calculations for large systems. Replacing the exact solution of the problem
+with a statistical estimate requires a measure of the random error in the
+estimate for it to be useful. Such a measure of confidence is usually provided
+by assuming the Central Limit Theorem to hold true. In what follows it is
+demonstrated that, for the most popular implementation of the Variational Monte
+Carlo method, the Central Limit Theorem has limited validity, or is invalid and
+must be replaced by a Generalised Central Limit Theorem. Estimates of the total
+energy and the variance of the local energy are examined in detail, and shown
+to exhibit uncontrolled statistical errors through an explicit derivation of
+the distribution of the random error. Several examples are given of estimated
+quantities for which the Central Limit Theorem is not valid. The approach used
+is generally applicable to characterising the random error of estimates, and to
+Quantum Monte Carlo methods beyond Variational Monte Carlo.

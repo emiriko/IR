@@ -1,0 +1,10 @@
+Consider a group G such that there is no homomorphism f:G to {+1,-1}. In that
+case, how close can we come to such a homomorphism? We show that if f has zero
+expectation, then the probability that f(xy) = f(x) f(y), where x, y are chosen
+uniformly and independently from G, is at most 1/2(1+1/sqrt{d}), where d is the
+dimension of G's smallest nontrivial irreducible representation. For the
+alternating group A_n, for instance, d=n-1. On the other hand, A_n contains a
+subgroup isomorphic to S_{n-2}, whose parity function we can extend to obtain
+an f for which this probability is 1/2(1+1/{n \choose 2}). Thus the extent to
+which f can be "more homomorphic" than a random function from A_n to {+1,-1}
+lies between O(n^{-1/2}) and Omega(n^{-2}).

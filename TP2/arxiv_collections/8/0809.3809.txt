@@ -1,0 +1,13 @@
+There is significant interest in rapid protein simulations because of the
+time-scale limitations of all-atom methods. Exploiting the low cost and great
+availability of computer memory, we report a Monte Carlo technique for
+incorporating fully flexible atomistic protein components (e.g., peptide
+planes) into protein models without compromising sampling speed or statistical
+rigor. Building on existing approximate methods (e.g., Rosetta), the technique
+uses pre-generated statistical libraries of all-atom components which are
+swapped with the corresponding protein components during a simulation. The
+simple model we study consists of the three all-atom backbone residues -- Ala,
+Gly, and Pro -- with structure-based (Go-like) interactions. For the five
+different proteins considered in this study, LBMC can generate at least 30
+statistically independent configurations in about a month of single CPU time.
+Minimal additional cost is required to add residue-specific interactions.

@@ -1,0 +1,19 @@
+A new delivery option for cancer centers equipped with linear accelerators
+fitted with multi-leaf collimators (MLC) -- i.e. centers which can perform
+intensity modulated radiation therapy (IMRT) -- is rotational delivery. In
+rotational delivery, the beam is on while the gantry is rotating and the MLC
+leaves are moving, thus treating the patient more efficiently (regarding time)
+than in IMRT. A consideration that should be examined when evaluating this new
+type of delivery method is the tradeoff between treatment plan quality and
+delivery time: what do we sacrifice in terms of plan quality by guaranteeing a
+2 minute delivery, for example? In this paper we examine this question by
+studying a simplified 2D phantom where leaf and gantry motion are directly
+included in the optimization model. We formulate the model as a linear mixed
+integer program. Because of the difficulty in solving to optimality, we employ
+additional models which allow us to trap the true optimal solution between
+upper and lower bounds. The lower bound solutions reveal which beam directions
+are most useful for treatment (i.e. where the gantry should slow down), and
+this information is used to produce deliverable solutions close to the lower
+bound solutions. For the phantom cases studied, we show that when time is not
+an issue, IMRT solutions are optimal, but when allowable treatment time is
+constrained sufficiently, rotational delivery is the preferred choice.

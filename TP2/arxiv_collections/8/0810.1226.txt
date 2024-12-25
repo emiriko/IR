@@ -1,0 +1,24 @@
+Two important aspects of the Internet, namely the properties of its topology
+and the characteristics of its data traffic, have attracted growing attention
+of the physics community. My thesis has considered problems of both aspects.
+First I studied the stochastic behavior of TCP, the primary algorithm governing
+traffic in the current Internet, in an elementary network scenario consisting
+of a standalone infinite-sized buffer and an access link. The effect of the
+fast recovery and fast retransmission (FR/FR) algorithms is also considered. I
+showed that my model can be extended further to involve the effect of link
+propagation delay, characteristic of WAN. I continued my thesis with the
+investigation of finite-sized semi-bottleneck buffers, where packets can be
+dropped not only at the link, but also at the buffer. I demonstrated that the
+behavior of the system depends only on a certain combination of the parameters.
+Moreover, an analytic formula was derived that gives the ratio of packet loss
+rate at the buffer to the total packet loss rate. This formula makes it
+possible to treat buffer-losses as if they were link-losses. Finally, I studied
+computer networks from a structural perspective. I demonstrated through fluid
+simulations that the distribution of resources, specifically the link
+bandwidth, has a serious impact on the global performance of the network. Then
+I analyzed the distribution of edge betweenness in a growing scale-free tree
+under the condition that a local property, the in-degree of the "younger" node
+of an arbitrary edge, is known in order to find an optimum distribution of link
+capacity. The derived formula is exact even for finite-sized networks. I also
+calculated the conditional expectation of edge betweenness, rescaled for
+infinite networks.

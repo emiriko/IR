@@ -1,0 +1,23 @@
+We consider one-round games between a classical verifier and two provers. One
+of the main questions in this area is the \emph{parallel repetition question}:
+If the game is played $\ell$ times in parallel, does the maximum winning
+probability decay exponentially in $\ell$? In the classical setting, this
+question was answered in the affirmative by Raz. More recently the question
+arose whether the decay is of the form $(1-\Theta(\eps))^\ell$ where $1-\eps$
+is the value of the game and $\ell$ is the number of repetitions. This question
+is known as the \emph{strong parallel repetition question} and was motivated by
+its connections to the unique games conjecture. It was resolved by Raz who
+showed that strong parallel repetition does \emph{not} hold, even in the very
+special case of games known as XOR games.
+  This opens the question whether strong parallel repetition holds in the case
+when the provers share entanglement. Evidence for this is provided by the
+behavior of XOR games, which have strong (in fact \emph{perfect}) parallel
+repetition, and by the recently proved strong parallel repetition of linear
+unique games. A similar question was open for games with so-called
+non-signaling provers. Here the best known parallel repetition theorem is due
+to Holenstein, and is of the form $(1-\Theta(\eps^2))^\ell$.
+  We show that strong parallel repetition holds neither with entangled provers
+nor with non-signaling provers. In particular we obtain that Holenstein's bound
+is tight. Along the way we also provide a tight characterization of the
+asymptotic behavior of the entangled value under parallel repetition of unique
+games in terms of a semidefinite program.

@@ -1,0 +1,19 @@
+In computational biology, gene expression datasets are characterized by very
+few individual samples compared to a large number of measurements per sample.
+Thus, it is appealing to merge these datasets in order to increase the number
+of observations and diversify the data, allowing a more reliable selection of
+genes relevant to the biological problem. Besides, the increased size of a
+merged dataset facilitates its re-splitting into training and validation sets.
+This necessitates the introduction of the dataset as a random effect. In this
+context, extending a work of Lee et al. (2003), a method is proposed to select
+relevant variables among tens of thousands in a probit mixed regression model,
+considered as part of a larger hierarchical Bayesian model. Latent variables
+are used to identify subsets of selected variables and the grouping (or
+blocking) technique of Liu (1994) is combined with a Metropolis-within-Gibbs
+algorithm (Robert and Casella 2004). The method is applied to a merged dataset
+made of three individual gene expression datasets, in which tens of thousands
+of measurements are available for each of several hundred human breast cancer
+samples. Even for this large dataset comprised of around 20000 predictors, the
+method is shown to be efficient and feasible. As an illustration, it is used to
+select the most important genes that characterize the estrogen receptor status
+of patients with breast cancer.

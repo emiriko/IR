@@ -1,0 +1,20 @@
+Static wireless networks are by now quite well understood mathematically
+through the random geometric graph model. By contrast, there are relatively few
+rigorous results on the practically important case of mobile networks, in which
+the nodes move over time; moreover, these results often make unrealistic
+assumptions about node mobility such as the ability to make very large jumps.
+In this paper we consider a realistic model for mobile wireless networks which
+we call mobile geometric graphs, and which is a natural extension of the random
+geometric graph model. We study two fundamental questions in this model:
+detection (the time until a given "target" point - which may be either fixed or
+moving - is detected by the network), and percolation (the time until a given
+node is able to communicate with the giant component of the network). For
+detection, we show that the probability that the detection time exceeds t is
+\exp(-\Theta(t/\log t)) in two dimensions, and \exp(-\Theta(t)) in three or
+more dimensions, under reasonable assumptions about the motion of the target.
+For percolation, we show that the probability that the percolation time exceeds
+t is \exp(-\Omega(t^\frac{d}{d+2})) in all dimensions d\geq 2. We also give a
+sample application of this result by showing that the time required to
+broadcast a message through a mobile network with n nodes above the threshold
+density for existence of a giant component is O(\log^{1+2/d} n) with high
+probability.

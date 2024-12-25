@@ -1,0 +1,19 @@
+Given a tournament T=(V,A), a subset X of $V$ is an interval of T provided
+that for every a, b in X and x\in V-X, (a,x) in A if and only if (b,x) in A.
+For example, $\emptyset$, {x}(x in V) and V are intervals of T, called trivial
+intervals. A tournament, all the intervals of which are trivial, is
+indecomposable; otherwise, it is decomposable. A critical tournament is an
+indecomposable tournament T of cardinality $\geq 5$ such that for any vertex x
+of T, the tournament T-x is decomposable. The critical tournaments are of odd
+cardinality and for all $n \geq 2$ there are exactly three critical tournaments
+on 2n+1 vertices denoted by $T_{2n+1}$, $U_{2n+1}$ and $W_{2n+1}$. The
+tournaments $T_{5}$, $U_{5}$ and $W_{5}$ are the unique indecomposable
+tournaments on 5 vertices. We say that a tournament T embeds into a tournament
+T' when T is isomorphic to a subtournament of T'. A diamond is a tournament on
+4 vertices admitting only one interval of cardinality 3. We prove the following
+theorem: if a diamond and $T_{5}$ embed into an indecomposable tournament T,
+then $W_{5}$ and $U_{5}$ embed into T. To conclude, we prove the following:
+given an indecomposable tournament T, with $\mid\!V(T)\!\mid \geq 7$, T is
+critical if and only if the indecomposable subtournaments on 7 vertices of T
+are isomorphic to one and only one of the tournaments $T_{7}$, $U_{7}$ and
+$W_{7}$.

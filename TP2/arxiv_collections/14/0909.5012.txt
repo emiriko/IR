@@ -1,0 +1,10 @@
+IRPF90 is a Fortran programming environment which helps the development of
+large Fortran codes. In Fortran programs, the programmer has to focus on the
+order of the instructions: before using a variable, the programmer has to be
+sure that it has already been computed in all possible situations. For large
+codes, it is common source of error. In IRPF90 most of the order of
+instructions is handled by the pre-processor, and an automatic mechanism
+guarantees that every entity is built before being used. This mechanism relies
+on the {needs/needed by} relations between the entities, which are built
+automatically. Codes written with IRPF90 execute often faster than Fortran
+programs, are faster to write and easier to maintain.

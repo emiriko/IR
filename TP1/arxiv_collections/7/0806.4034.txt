@@ -1,0 +1,8 @@
+We study shedding in the setting of data linkage dynamics, a simple model of
+computation that bears on the use of dynamic data structures in programming.
+Shedding is complementary to garbage collection. With shedding, each time a
+link to a data object is updated by a program, it is determined whether or not
+the link will possibly be used once again by the program, and if not the link
+is automatically removed. Thus, everything is made garbage as soon as it can be
+viewed as garbage. By that, the effectiveness of garbage collection becomes
+maximal.

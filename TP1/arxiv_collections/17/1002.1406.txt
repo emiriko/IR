@@ -1,0 +1,13 @@
+To reduce computational complexity and delay in randomized network coded
+content distribution (and for some other practical reasons), coding is not
+performed simultaneously over all content blocks but over much smaller subsets
+known as generations. A penalty is throughput reduction. We model coding over
+generations as the coupon collector's brotherhood problem. This model enables
+us to theoretically compute the expected number of coded packets needed for
+successful decoding of the entire content, as well as a bound on the
+probability of decoding failure, and further, to quantify the tradeoff between
+computational complexity and throughput. Interestingly, with a moderate
+increase in the generation size, throughput quickly approaches link capacity.
+As an additional contribution, we derive new results for the generalized
+collector's brotherhood problem which can also be used for further study of
+many other aspects of coding over generations.

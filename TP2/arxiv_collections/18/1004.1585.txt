@@ -1,0 +1,26 @@
+We developed a multiscale approach (MultiSCAAL) that integrates the potential
+of mean force (PMF) obtained from all-atomistic molecular dynamics simulations
+with a knowledge-based energy function for coarse-grained molecular simulations
+in better exploring the energy landscape of a small protein under chemical
+interference such as chemical denaturation. An excessive amount of water
+molecules in all-atomistic molecular dynamics simulations often negatively
+impacts the sampling efficiency of some advanced sampling techniques such as
+the replica exchange method and it makes the investigation of chemical
+interferences on protein dynamics difficult. Thus, there is a need to develop
+an effective strategy that focuses on sampling structural changes in protein
+conformations rather than solvent molecule fluctuations. In this work, we
+address this issue by devising a multiscale simulation scheme (MultiSCAAL) that
+bridges the gap between all-atomistic molecular dynamics simulation and
+coarse-grained molecular simulation. The two key features of this scheme are
+the Boltzmann inversion and a protein atomistic reconstruction method we
+previously developed (SCAAL). Using MultiSCAAL, we were able to enhance the
+sampling efficiency of proteins solvated by explicit water molecules. Our
+method has been tested on the folding energy landscape of a small protein
+Trp-cage with explicit solvent under 8M urea using both the all-atomistic
+replica exchange molecular dynamics (AA-REMD) and MultiSCAAL. We compared
+computational analyses on ensemble conformations of Trp-cage with its available
+experimental NOE distances. The analysis demonstrated that conformations
+explored by MultiSCAAL better agree with the ones probed in the experiments
+because it can effectively capture the changes in side chain orientations that
+can flip out of the hydrophobic pocket in the presence of urea and water
+molecules.

@@ -1,0 +1,16 @@
+Colloidal solutions posses a wide range of time and length scales, so that it
+is unfeasible to keep track of all of them within a single simulation. As a
+consequence some form of coarse-graining must be applied. In this work we use
+the Multi-Particle Collision Dynamics scheme. We describe a particular
+implementation of no-slip boundary conditions upon a solid surface, capable of
+providing correct force s on the solid bypassing the calculation of the
+velocity profile or the stre ss tensor in the fluid near the surface. As an
+application we measure the friction on a spherical particle, when it is placed
+in a bulk fluid and when it is confined in a slit. We show that the
+implementation of the no-slip boundary conditions leads to an enhanced Ensko g
+friction, which can be understood analytically. Because of the long-range
+nature of hydrodynamic interactions, the Stokes friction obtained from the
+simulations is sensitive of the simulation box size. We address this topic for
+the slit geometry, showing that that the dependence on the system size differs
+very much from what is expected in a 3D system, where periodic boundary
+conditions are used in all directions.

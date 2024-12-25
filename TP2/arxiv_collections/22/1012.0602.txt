@@ -1,0 +1,17 @@
+We present a mathematical connection between channel coding and compressed
+sensing. In particular, we link, on the one hand, \emph{channel coding linear
+programming decoding (CC-LPD)}, which is a well-known relaxation o
+maximum-likelihood channel decoding for binary linear codes, and, on the other
+hand, \emph{compressed sensing linear programming decoding (CS-LPD)}, also
+known as basis pursuit, which is a widely used linear programming relaxation
+for the problem of finding the sparsest solution of an under-determined system
+of linear equations. More specifically, we establis a tight connection between
+CS-LPD based on a zero-one measurement matrix over the reals and CC-LPD of the
+binary linear channel code that is obtained by viewing this measurement matrix
+as a binary parity-check matrix. This connection allows the translation of
+performance guarantees from one setup to the other. The main message of this
+paper is that parity-check matrices of "good" channel codes can be used as
+provably "good" measurement matrices under basis pursuit. In particular, we
+provide the first deterministic construction of compressed sensing measurement
+matrices with an order-optimal number of rows using high-girth low-density
+parity-check (LDPC) codes constructed by Gallager.

@@ -1,0 +1,14 @@
+Least squares approximation is a technique to find an approximate solution to
+a system of linear equations that has no exact solution. In a typical setting,
+one lets $n$ be the number of constraints and $d$ be the number of variables,
+with $n \gg d$. Then, existing exact methods find a solution vector in
+$O(nd^2)$ time. We present two randomized algorithms that provide very accurate
+relative-error approximations to the optimal value and the solution vector of a
+least squares approximation problem more rapidly than existing exact
+algorithms. Both of our algorithms preprocess the data with the Randomized
+Hadamard Transform. One then uniformly randomly samples constraints and solves
+the smaller problem on those constraints, and the other performs a sparse
+random projection and solves the smaller problem on those projected
+coordinates. In both cases, solving the smaller problem provides relative-error
+approximations, and, if $n$ is sufficiently larger than $d$, the approximate
+solution can be computed in $O(nd \log d)$ time.

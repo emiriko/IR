@@ -1,0 +1,15 @@
+In this paper, it is demonstrated that the DNA-based algorithm [Ho et al.
+2005] for solving an instance of the clique problem to any a graph G = (V, E)
+with n vertices and p edges and its complementary graph G1 = (V, E1) with n
+vertices and m = (((n*(n-1))/2)-p) edges can be implemented by Hadamard gates,
+NOT gates, CNOT gates, CCNOT gates, Grover's operators, and quantum
+measurements on a quantum computer. It is also demonstrated that if Grovers
+algorithm is employed to accomplish the readout step in the DNA-based
+algorithm, the quantum implementation of the DNA-based algorithm is equivalent
+to the oracle work (in the language of Grover's algorithm), that is, the target
+state labeling preceding Grover,s searching steps. It is shown that one oracle
+work can be completed with O((2 * n) * (n + 1) * (n + 2) / 3) NOT gates, one
+CNOT gate and O((4 * m) + (((2 * n) * (n + 1) * (n + 14)) / 6)) CCNOT gates.
+This is to say that for the quantum implementation of the DNA-based algorithm
+[Ho et al. 2005] a faster labeling of the target state is attained, which also
+implies a speedy solution to an instance of the clique problem.

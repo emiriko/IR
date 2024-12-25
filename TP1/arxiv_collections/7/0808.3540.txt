@@ -1,0 +1,14 @@
+We have extended the Falkon lightweight task execution framework to make
+loosely coupled programming on petascale systems a practical and useful
+programming model. This work studies and measures the performance factors
+involved in applying this approach to enable the use of petascale systems by a
+broader user community, and with greater ease. Our work enables the execution
+of highly parallel computations composed of loosely coupled serial jobs with no
+modifications to the respective applications. This approach allows a new-and
+potentially far larger-class of applications to leverage petascale systems,
+such as the IBM Blue Gene/P supercomputer. We present the challenges of I/O
+performance encountered in making this model practical, and show results using
+both microbenchmarks and real applications from two domains: economic energy
+modeling and molecular dynamics. Our benchmarks show that we can scale up to
+160K processor-cores with high efficiency, and can achieve sustained execution
+rates of thousands of tasks per second.

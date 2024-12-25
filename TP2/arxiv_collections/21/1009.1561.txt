@@ -1,0 +1,17 @@
+As an alternative to either directly assimilating radiances or the naive use
+of retrieved profiles (of temperature, humidity, aerosols, and chemical
+species), a strategy is described that makes use of the so-called averaging
+kernel (AK) and other information from the retrieval process. This AK approach
+has the potential to improve the use of remotely sensed observations of the
+atmosphere. First, we show how to use the AK and the retrieval noise covariance
+to transform the retrieved quantities into observations that are unbiased and
+have uncorrelated errors, and to eliminate both the smoothing inherent in the
+retrieval process and the effect of the prior. Since the effect of the prior is
+removed, any prior, including the forecast from the data assimilation cycle can
+be used. Then we show how to transform this result into EOF space, when a
+truncated EOF series has been used in the retrieval process. This provides a
+degree of data compression and eliminates those transformed variables that have
+very small information content. In both approaches a vertical interpolation
+from the dynamical model coordinate to the radiative transfer coordinate is
+required. We define an algorithm using the EOF representation to optimize this
+vertical interpolation

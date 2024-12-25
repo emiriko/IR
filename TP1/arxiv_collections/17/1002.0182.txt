@@ -1,0 +1,16 @@
+Quantization of compressed sensing measurements is typically justified by the
+robust recovery results of Cand\`es, Romberg and Tao, and of Donoho. These
+results guarantee that if a uniform quantizer of step size $\delta$ is used to
+quantize $m$ measurements $y = \Phi x$ of a $k$-sparse signal $x \in \R^N$,
+where $\Phi$ satisfies the restricted isometry property, then the approximate
+recovery $x^#$ via $\ell_1$-minimization is within $O(\delta)$ of $x$. The
+simplest and commonly assumed approach is to quantize each measurement
+independently. In this paper, we show that if instead an $r$th order
+$\Sigma\Delta$ quantization scheme with the same output alphabet is used to
+quantize $y$, then there is an alternative recovery method via Sobolev dual
+frames which guarantees a reduction of the approximation error by a factor of
+$(m/k)^{(r-1/2)\alpha}$ for any $0 < \alpha < 1$, if $m \gtrsim_r k (\log
+N)^{1/(1-\alpha)}$. The result holds with high probability on the initial draw
+of the measurement matrix $\Phi$ from the Gaussian distribution, and uniformly
+for all $k$-sparse signals $x$ that satisfy a mild size condition on their
+supports.

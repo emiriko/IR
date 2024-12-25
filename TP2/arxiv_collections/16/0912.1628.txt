@@ -1,0 +1,7 @@
+We consider the problem of recursively reconstructing time sequences of
+sparse signals (with unknown and time-varying sparsity patterns) from a limited
+number of linear incoherent measurements with additive noise. The idea of our
+proposed solution, KF CS-residual (KF-CS) is to replace compressed sensing (CS)
+on the observation by CS on the Kalman filtered (KF) observation residual
+computed using the previous estimate of the support. KF-CS error stability over
+time is studied. Simulation comparisons with CS and LS-CS are shown.

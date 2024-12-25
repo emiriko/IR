@@ -1,0 +1,9 @@
+Modern graphics hardware is designed for highly parallel numerical tasks and
+provides significant cost and performance benefits. Graphics hardware vendors
+are now making available development tools to support general purpose high
+performance computing. Nvidia's CUDA platform, in particular, offers direct
+access to graphics hardware through a programming language similar to C. Using
+the CUDA platform we have implemented a Wilson-Dirac operator which runs at an
+effective 68 Gflops on the Tesla C870. The recently released GeForce GTX 280
+runs this same code at 92 Gflops, and we expect further improvement pending
+code optimization.

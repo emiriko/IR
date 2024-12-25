@@ -1,0 +1,11 @@
+We present a numerical approximation technique for the analysis of
+continuous-time Markov chains that describe networks of biochemical reactions
+and play an important role in the stochastic modeling of biological systems.
+Our approach is based on the construction of a stochastic hybrid model in which
+certain discrete random variables of the original Markov chain are approximated
+by continuous deterministic variables. We compute the solution of the
+stochastic hybrid model using a numerical algorithm that discretizes time and
+in each step performs a mutual update of the transient probability distribution
+of the discrete stochastic variables and the values of the continuous
+deterministic variables. We implemented the algorithm and we demonstrate its
+usefulness and efficiency on several case studies from systems biology.

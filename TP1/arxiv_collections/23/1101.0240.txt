@@ -1,0 +1,12 @@
+We introduce a stochastic process with Wishart marginals: the generalised
+Wishart process (GWP). It is a collection of positive semi-definite random
+matrices indexed by any arbitrary dependent variable. We use it to model
+dynamic (e.g. time varying) covariance matrices. Unlike existing models, it can
+capture a diverse class of covariance structures, it can easily handle missing
+data, the dependent variable can readily include covariates other than time,
+and it scales well with dimension; there is no need for free parameters, and
+optional parameters are easy to interpret. We describe how to construct the
+GWP, introduce general procedures for inference and predictions, and show that
+it outperforms its main competitor, multivariate GARCH, even on financial data
+that especially suits GARCH. We also show how to predict the mean of a
+multivariate process while accounting for dynamic correlations.

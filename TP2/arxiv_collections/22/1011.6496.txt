@@ -1,0 +1,13 @@
+It is important to enable reasoning about the meaning and possible effects of
+updates to ensure that the updated system operates correctly. A formal,
+mathematical model of dynamic update should be developed, in order to
+understand by both users and implementors of update technology what design
+choices can be considered. In this paper, we define a formal calculus
+$update\pi$, a variant extension of higher-order $\pi$ calculus, to model
+dynamic updates of component-based software, which is language and technology
+independent. The calculus focuses on following main concepts: proper
+granularity of update, timing of dynamic update, state transformation between
+versions, update failure check and recovery. We describe a series of rule on
+safe component updates to model some general processes of dynamic update and
+discuss its reduction semantics coincides with a labelled transition system
+semantics that illustrate the expressive power of these calculi.

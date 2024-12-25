@@ -1,0 +1,14 @@
+We develop the XFaster Cosmic Microwave Background (CMB) temperature and
+polarization anisotropy power spectrum and likelihood technique for the Planck
+CMB satellite mission. We give an overview of this estimator and its current
+implementation and present the results of applying this algorithm to simulated
+Planck data. We show that it can accurately extract the power spectrum of
+Planck data for the high-l multipoles range. We compare the XFaster
+approximation for the likelihood to other high-l likelihood approximations such
+as Gaussian and Offset Lognormal and a low-l pixel-based likelihood. We show
+that the XFaster likelihood is not only accurate at high-l, but also performs
+well at moderately low multipoles. We also present results for cosmological
+parameter Markov Chain Monte Carlo estimation with the XFaster likelihood. As
+long as the low-l polarization and temperature power are properly accounted
+for, e.g., by adding an adequate low-l likelihood ingredient, the input
+parameters are recovered to a high level of accuracy.

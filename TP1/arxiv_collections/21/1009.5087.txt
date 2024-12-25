@@ -1,0 +1,19 @@
+Message Sequence Charts (MSCs) are an appealing visual formalism mainly used
+in the early stages of system design to capture the system requirements.
+However, if we move towards an implementation, an executable specifications
+related in some fashion to the MSC-based requirements must be obtained. The
+MSCs can be used effectively to specify the bus protocol in the way where
+high-level transition systems is used to capture the control flow of the system
+components of the protocol and MSCs to describe the non-atomic component
+interactions. This system of specification is amenable to formal verification.
+In this paper, we present the way how we can specify the bus protocols using
+MSCs and how these specifications can be translated into program of
+verification tool (we have used Symbolic Model Verifier (SMV)) for the use of
+formal verification. We have contributed to the following tasks in this
+respect. Firstly, the way to specify the protocol using MSC has been presented.
+Secondly, a translator that translates the specifications (described in a
+textual input file) into SMV programs has been constructed. Finally, we have
+presented the verification result of the AMBA bus protocol using the SMV
+program found through the translation process. The SMV program found through
+the translation process can be used in order to automatically verify various
+properties of any bus protocol specified.

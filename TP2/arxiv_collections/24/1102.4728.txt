@@ -1,0 +1,13 @@
+We propose a dynamic spectrum access scheme where secondary users recommend
+"good" channels to each other and access accordingly. We formulate the problem
+as an average reward based Markov decision process. We show the existence of
+the optimal stationary spectrum access policy, and explore its structure
+properties in two asymptotic cases. Since the action space of the Markov
+decision process is continuous, it is difficult to find the optimal policy by
+simply discretizing the action space and use the policy iteration, value
+iteration, or Q-learning methods. Instead, we propose a new algorithm based on
+the Model Reference Adaptive Search method, and prove its convergence to the
+optimal policy. Numerical results show that the proposed algorithms achieve up
+to 18% and 100% performance improvement than the static channel recommendation
+scheme in homogeneous and heterogeneous channel environments, respectively, and
+is more robust to channel dynamics.

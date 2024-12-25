@@ -1,0 +1,12 @@
+Nowadays the sector decomposition technique, which can isolate divergences
+from parametric representations of integrals, becomes a quite useful tool for
+numerical evaluations of the Feynman loop integrals. It is used to verify the
+analytical results of multi-loop integrals in the Euclidean region, or in some
+cases practically used in the physical region by combining with other methods
+handling the threshold. In an intermediate stage of the sector decomposition
+for the multi-loop integrals, one often has to handle enormously large
+expressions containing tons of terms. The symbolic manipulation system FORM is
+originally designed to treat such huge expressions and has a strong advantage
+for it. In this talk, the implementation of the sector decomposition algorithm
+on FORM is discussed. A number of concrete examples including cases of
+multi-loop diagrams are also shown.

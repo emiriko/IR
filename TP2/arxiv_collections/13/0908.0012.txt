@@ -1,0 +1,16 @@
+Parallel tempering, also known as replica exchange Monte Carlo, is studied in
+the context of two simple free energy landscapes. The first is a double well
+potential defined by two macrostates separated by a barrier. The second is a
+`golf course' potential defined by microstates having two possible energies
+with exponentially more high energy states than low energy states. The
+equilibration time for replica exchange is analyzed for both systems. For the
+double well system, parallel tempering with a number of replicas that scales as
+the square root of the barrier height yields exponential speedup of the
+equilibration time. On the other hand, replica exchange yields only marginal
+speed-up for the golf course system. For the double well system, the free
+energy difference between the two wells has a large effect on the equilibration
+time. Nearly degenerate wells equilibrate much more slowly than strongly
+asymmetric wells. It is proposed that this difference in equilibration time may
+lead to a bias in measuring overlaps in spin glasses. These examples illustrate
+the strengths and weaknesses of replica exchange and may serve as a guide for
+understanding and improving the method in various applications.

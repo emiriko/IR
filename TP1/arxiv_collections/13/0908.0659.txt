@@ -1,0 +1,11 @@
+A common approach in computational science is to use a set of of highly
+precise but expensive calculations to parameterize a model that allows less
+precise, but more rapid calculations on larger scale systems. Least-squares
+fitting on a model that underfits the data is generally used for this purpose.
+For arbitrarily precise data free from statistic noise, e.g. ab initio
+calculations, we argue that it is more appropriate to begin with a ensemble of
+models that overfit the data. Within a Bayesian framework, a most likely model
+can be defined that incorporates physical knowledge, provides error estimates
+for systems not included in the fit, and reproduces the original data exactly.
+We apply this approach to obtain a cluster expansion model for the Ca[Zr,Ti]O3
+solid solution.

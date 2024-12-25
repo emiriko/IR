@@ -1,0 +1,12 @@
+We study numerically the Coulomb interacting two-particle stationary states
+of the Schr\"odinger equation, where the particles are confined in a
+two-dimensional infinite square well. Inside the domain the particles are
+subjected to a steeply increasing isotropic harmonic potential, resembling that
+in a nucleus. For these circumstances we have developed a fully discretized
+finite difference method of the Numerov-type that approximates the
+four-dimensional Laplace operator, and thus the whole Schr\"odinger equation,
+with a local truncation error of $\mathcal{O}(h^6)$, with $h$ being the uniform
+step size. The method is built on a 89-point central difference scheme in the
+four-dimensional grid. As expected from the general theorem by Keller [Num.\
+Math. \textbf{7}, 412 (1965)], the error of eigenvalues so obtained are found
+to be the same order of magnitude which we have proved analytically as well.

@@ -1,0 +1,8 @@
+For a static array A of n ordered objects, a range minimum query asks for the
+position of the minimum between two specified array indices. We show how to
+preprocess A into a scheme of size 2n+o(n) bits that allows to answer range
+minimum queries on A in constant time. This space is asymptotically optimal in
+the important setting where access to A is not permitted after the
+preprocessing step. Our scheme can be computed in linear time, using only n +
+o(n) additional bits at construction time. In interesting by-product is that we
+also improve on LCA-computation in BPS- or DFUDS-encoded trees.

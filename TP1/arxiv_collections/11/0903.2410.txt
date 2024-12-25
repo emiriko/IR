@@ -1,0 +1,11 @@
+Predicative analysis of recursion schema is a method to characterize
+complexity classes like the class FPTIME of polynomial time computable
+functions. This analysis comes from the works of Bellantoni and Cook, and
+Leivant by data tiering. Here, we refine predicative analysis by using a
+ramified Ackermann's construction of a non-primitive recursive function. We
+obtain a hierarchy of functions which characterizes exactly functions, which
+are computed in O(n^k) time over register machine model of computation. For
+this, we introduce a strict ramification principle. Then, we show how to
+diagonalize in order to obtain an exponential function and to jump outside
+deterministic polynomial time. Lastly, we suggest a dependent typed
+lambda-calculus to represent this construction.

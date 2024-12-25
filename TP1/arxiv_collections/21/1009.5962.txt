@@ -1,0 +1,7 @@
+The goal of the work is to implement molecular phylogenetic calculations
+using the Grid paradigm by means of the MrBayes software using Directed Acyclic
+Graphs (DAG) jobs. In this method, a set of jobs depends on the input or the
+output of other jobs. Once the runs have been successfully done, all the
+results can be collected by a specific Perl script inside the defined DAG job.
+For testing this methodology, we calculate the evolution of papillomavirus with
+121 sequences.

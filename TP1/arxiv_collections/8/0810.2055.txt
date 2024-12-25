@@ -1,0 +1,13 @@
+We compare Evolutionary Algorithms with Minima Hopping for global
+optimization in the field of cluster structure prediction. We introduce a new
+{\em average offspring} recombination operator and compare it with previously
+used operators. Minima Hopping is improved with a {\em softening} method and a
+stronger feedback mechanism. Test systems are atomic clusters with
+Lennard-Jones interaction as well as silicon and gold clusters described by
+force fields. The improved Minima Hopping is found to be well-suited to all
+these homoatomic problems. The evolutionary algorithm is more efficient for
+systems with compact and symmetric ground states, including LJ$_{150}$, but it
+fails for systems with very complex energy landscapes and asymmetric ground
+states, such as LJ$_{75}$ and silicon clusters with more than 30 atoms. Both
+successes and failures of the evolutionary algorithm suggest ways for its
+improvement.

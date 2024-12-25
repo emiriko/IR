@@ -1,0 +1,18 @@
+Jet vetoes are essential in many Higgs and new-physics analyses at the LHC
+and Tevatron. The signals are typically characterized by a specific number of
+hard jets, leptons, or photons, while the backgrounds often have additional
+jets. In such cases vetoing undesired additional jets is an effective way to
+discriminate signals and background. Given an inclusive event sample with N or
+more jets, the veto to have only N energetic jets defines an "exclusive" N-jet
+cross section. This strongly restricts the phase space of the underlying
+inclusive N-jet cross section and causes large double logarithms in
+perturbation theory that must be summed to obtain theory predictions. Jet
+vetoes are typically implemented using jet algorithms. This yields complicated
+phase-space restrictions and one often relies on parton-shower Monte Carlos,
+which are limited to leading-logarithmic accuracy. We introduce a global event
+shape "N-jettiness", tau_N, which is defined for events with N signal jets and
+vanishes in the limit of exactly N infinitely narrow jets. Requiring tau_N << 1
+constrains radiation between the N signal jets and vetoes additional undesired
+jets. This provides an inclusive method to veto jets and to define an exclusive
+N-jet cross section that can be well-controlled theoretically. N-jettiness
+yields a factorization formula with inclusive jet and beam functions.

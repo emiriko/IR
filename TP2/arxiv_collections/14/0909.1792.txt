@@ -1,0 +1,16 @@
+Distributed live streaming has brought a lot of interest in the past few
+years. In the homogeneous case (all nodes having the same capacity), many
+algorithms have been proposed, which have been proven almost optimal or
+optimal. On the other hand, the performance of heterogeneous systems is not
+completely understood yet. In this paper, we investigate the impact of
+heterogeneity on the achievable delay of chunk-based live streaming systems. We
+propose several models for taking the atomicity of a chunk into account. For
+all these models, when considering the transmission of a single chunk,
+heterogeneity is indeed a ``blessing'', in the sense that the achievable delay
+is always faster than an equivalent homogeneous system. But for a stream of
+chunks, we show that it can be a ``curse'': there is systems where the
+achievable delay can be arbitrary greater compared to equivalent homogeneous
+systems. However, if the system is slightly bandwidth-overprovisioned, optimal
+single chunk diffusion schemes can be adapted to a stream of chunks, leading to
+near-optimal, faster than homogeneous systems, heterogeneous live streaming
+systems.

@@ -1,0 +1,16 @@
+The number of bug reports in complex software increases dramatically. Now
+bugs are triaged manually, bug triage or assignment is a labor-intensive and
+time-consuming task. Without knowledge about the structure of the software,
+testers often specify the component of a new bug wrongly. Meanwhile, it is
+difficult for triagers to determine the component of the bug only by its
+description. We dig out the components of 28,829 bugs in Eclipse bug project
+have been specified wrongly and modified at least once. It results in these
+bugs have to be reassigned and delays the process of bug fixing. The average
+time of fixing wrongly-specified bugs is longer than that of
+correctly-specified ones. In order to solve the problem automatically, we use
+historical fixed bug reports as training corpus and build classifiers based on
+support vector machines and Na\"ive Bayes to predict the component of a new
+bug. The best prediction accuracy reaches up to 81.21% on our validation corpus
+of Eclipse project. Averagely our predictive model can save about 54.3 days for
+triagers and developers to repair a bug. Keywords: bug reports; bug triage;
+text classification; predictive model

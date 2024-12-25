@@ -1,0 +1,19 @@
+In this paper we present two algorithms for the multiplication of sparse
+Laurent polynomials and Poisson series (the latter being algebraic structures
+commonly arising in Celestial Mechanics from the application of perturbation
+theories). Both algorithms first employ the Kronecker substitution technique to
+reduce multivariate multiplication to univariate multiplication, and then use
+the schoolbook method to perform the univariate multiplication. The first
+algorithm, suitable for moderately-sparse multiplication, uses the exponents of
+the monomials resulting from the univariate multiplication as trivial hash
+values in a one dimensional lookup array of coefficients. The second algorithm,
+suitable for highly-sparse multiplication, uses a cache-optimised hash table
+which stores the coefficient-exponent pairs resulting from the multiplication
+using the exponents as keys. Both algorithms have been implemented with
+attention to modern computer hardware architectures. Particular care has been
+devoted to the efficient exploitation of contemporary memory hierarchies
+through cache-blocking techniques and cache-friendly term ordering. The first
+algorithm has been parallelised for shared-memory multicore architectures,
+whereas the second algorithm is in the process of being parallelised. We
+present benchmarks comparing our algorithms to the routines of other computer
+algebra systems, both in sequential and parallel mode.

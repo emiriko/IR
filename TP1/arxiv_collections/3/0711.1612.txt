@@ -1,0 +1,17 @@
+It is now well understood that (1) it is possible to reconstruct sparse
+signals exactly from what appear to be highly incomplete sets of linear
+measurements and (2) that this can be done by constrained L1 minimization. In
+this paper, we study a novel method for sparse signal recovery that in many
+situations outperforms L1 minimization in the sense that substantially fewer
+measurements are needed for exact recovery. The algorithm consists of solving a
+sequence of weighted L1-minimization problems where the weights used for the
+next iteration are computed from the value of the current solution. We present
+a series of experiments demonstrating the remarkable performance and broad
+applicability of this algorithm in the areas of sparse signal recovery,
+statistical estimation, error correction and image processing. Interestingly,
+superior gains are also achieved when our method is applied to recover signals
+with assumed near-sparsity in overcomplete representations--not by reweighting
+the L1 norm of the coefficient sequence as is common, but by reweighting the L1
+norm of the transformed object. An immediate consequence is the possibility of
+highly efficient data acquisition protocols by improving on a technique known
+as compressed sensing.

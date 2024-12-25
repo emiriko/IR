@@ -1,0 +1,22 @@
+The dynamics of a qubit in a structured environment is investigated
+theoretically. One point of view of the model is the spin-boson model with a
+Lorentz shaped spectral density. An alternative view is a qubit coupled to
+harmonic oscillator (HO), which in turn coupled to a Ohmic environment. Two
+different methods are applied and compared for this problem. One is a
+perturbation method based on a unitary transformation. Since the transformed
+hamiltonian is of rotating wave approximation (RWA) form, we call it the
+transformed rotating wave approximation (TRWA) method. And the other one is the
+numerically exact method of the quasi-adiabatic propagator path-integral
+(QUAPI) method. TRWA method can be applied from the first point of view. And
+the QUAPI method can applied from both points of views. We find that from the
+1st point of view QUAPI only works well for large $\Gamma$. Since the memory
+time is too long for the practical evaluation of QUAPI when $\Gamma$ is small.
+We call this treatment as QUAPI1. And from the 2nd point of view, QUAPI works
+well for small $\Gamma$, since the non-adiabatic effect become more important
+as $\Gamma$ increases, one need smaller time-step and more steps to obtain
+accurate result which also quickly runs out the computational resources. This
+treatment is called QUAPI2. We find that the TRWA method works well for the
+whole parameter range of $\Gamma$ and show good agreement with QUAPI1 and
+QUAPI2. On the other hand, we find that the decoherence of the qubit can be
+reduced with increasing coupling between HO and bath. This result may be
+relevant to the design of quantum computer.

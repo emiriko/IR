@@ -1,0 +1,23 @@
+Background: The computation of the statistical properties of motif
+occurrences has an obviously relevant practical application: for example,
+patterns that are significantly over- or under-represented in the genome are
+interesting candidates for biological roles. However, the problem is
+computationally hard; as a result, virtually all the existing pipelines use
+fast but approximate scoring functions, in spite of the fact that they have
+been shown to systematically produce incorrect results. A few interesting exact
+approaches are known, but they are very slow and hence not practical in the
+case of realistic sequences. Results: We give an exact solution, solely based
+on deterministic finite-state automata (DFAs), to the problem of finding not
+only the p-value, but the whole relevant part of the Markovian probability
+distribution function of a motif in a biological sequence. In particular, the
+time complexity of the algorithm in the most interesting regimes is far better
+than that of Nuel (2006), which was the fastest similar exact algorithm known
+to date; in many cases, even approximate methods are outperformed. Conclusions:
+DFAs are a standard tool of computer science for the study of patterns, but so
+far they have been sparingly used in the study of biological motifs. Previous
+works do propose algorithms involving automata, but there they are used
+respectively as a first step to build a Finite Markov Chain Imbedding (FMCI),
+or to write a generating function: whereas we only rely on the concept of DFA
+to perform the calculations. This innovative approach can realistically be used
+for exact statistical studies of very long genomes and protein sequences, as we
+illustrate with some examples on the scale of the human genome.

@@ -1,0 +1,11 @@
+We present an XML-based simulation authoring environment. The proposed
+description language allows to describe mathematical objects such as systems of
+ordinary differential equations, partial differential equations in two
+dimensions, or simple curves and surfaces. It also allows to describe the
+parameters on which these objects depend. This language is independent of the
+target software and allows to ensure the perennity of author's work, as well as
+collaborative work and content reuse. The actual implementation of XMLlab
+allows to run the generated simulations within the open source mathematical
+software Scilab, either locally when Scilab is installed on the client
+machines, or on thin clients running a simple web browser, when XMLlab and
+Scilab are installed on a distant server running a standard HTTP server.

@@ -1,0 +1,9 @@
+We consider the enciphering of a data stream while being compressed by a LZ
+algorithm. This has to be compared to the classical encryption after
+compression methods used in security protocols. Actually, most cryptanalysis
+techniques exploit patterns found in the plaintext to crack the cipher;
+compression techniques reduce these attacks. Our scheme is based on a LZ
+compression in which a Vernam cipher has been added. We make some security
+remarks by trying to measure its randomness with statistical tests. Such a
+scheme could be employed to increase the speed of security protocols and to
+decrease the computing power for mobile devices.

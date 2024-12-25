@@ -1,0 +1,12 @@
+Numerical integration of stochastic differential equations is commonly used
+in many branches of science. In this paper we present how to accelerate this
+kind of numerical calculations with popular NVIDIA Graphics Processing Units
+using the CUDA programming environment. We address general aspects of numerical
+programming on stream processors and illustrate them by two examples: the noisy
+phase dynamics in a Josephson junction and the noisy Kuramoto model. In
+presented cases the measured speedup can be as high as 675x compared to a
+typical CPU, which corresponds to several billion integration steps per second.
+This means that calculations which took weeks can now be completed in less than
+one hour. This brings stochastic simulation to a completely new level, opening
+for research a whole new range of problems which can now be solved
+interactively.

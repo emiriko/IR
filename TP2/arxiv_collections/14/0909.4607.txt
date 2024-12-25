@@ -1,0 +1,14 @@
+Recent breakthroughs in quantum query complexity have shown that any formula
+of size n can be evaluated with O(sqrt(n)log(n)/log log(n)) many quantum
+queries in the bounded-error setting [FGG08, ACRSZ07, RS08b, Rei09]. In
+particular, this gives an upper bound on the approximate polynomial degree of
+formulas of the same magnitude, as approximate polynomial degree is a lower
+bound on quantum query complexity [BBCMW01].
+  These results essentially answer in the affirmative a conjecture of O'Donnell
+and Servedio [O'DS03] that the sign degree--the minimal degree of a polynomial
+that agrees in sign with a function on the Boolean cube--of every formula of
+size n is O(sqrt(n)).
+  In this note, we show that sign degree is super-multiplicative under function
+composition. Combining this result with the above mentioned upper bounds on the
+quantum query complexity of formulas allows the removal of logarithmic factors
+to show that the sign degree of every size n formula is at most sqrt(n).

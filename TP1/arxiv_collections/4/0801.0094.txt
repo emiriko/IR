@@ -1,0 +1,12 @@
+Quantum computers (QCs) must implement quantum error correcting codes (QECCs)
+to protect their logical qubits from errors, and modeling the effectiveness of
+QECCs on QCs is an important problem for evaluating the QC architecture. The
+previously developed Monte Carlo (MC) error models may take days or weeks of
+execution to produce an accurate result due to their random sampling approach.
+We present an alternative analytical error model that generates, over the
+course of executing the quantum program, a probability tree of the QC's error
+states. By calculating the fidelity of the quantum program directly, this error
+model has the potential for enormous speedups over the MC model when applied to
+small yet useful problem sizes. We observe a speedup on the order of 1,000X
+when accuracy is required, and we evaluate the scaling properties of this new
+analytical error model.

@@ -1,0 +1,17 @@
+We present a substantial extension of our constraint-based approach for
+development of orbital-free (OF) kinetic-energy (KE) density functionals
+intended for the calculation of quantum-mechanical forces in multi-scale
+molecular dynamics simulations. Suitability for realistic system simulations
+requires that the OF-KE functional yield accurate forces on the nuclei yet be
+relatively simple. We therefore require that the functionals be based on DFT
+constraints, local, dependent upon a small number of parameters fitted to a
+training set of limited size, and applicable beyond the scope of the training
+set. Our previous "modified conjoint" generalized-gradient-type functionals
+were constrained to producing a positive-definite Pauli potential. Though
+distinctly better than several published GGA-type functionals in that they gave
+semi-quantitative agreement with Born-Oppenheimer forces from full Kohn-Sham
+results, those modified conjoint functionals suffer from unphysical
+singularities at the nuclei. Here we show how to remove such singularities by
+introducing higher-order density derivatives. We give a simple illustration of
+such a functional used for the dissociation energy as a function of bond length
+for selected molecules.

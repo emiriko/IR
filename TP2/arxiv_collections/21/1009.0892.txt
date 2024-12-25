@@ -1,0 +1,20 @@
+Accurately detecting pedestrians in images plays a critically important role
+in many computer vision applications. Extraction of effective features is the
+key to this task. Promising features should be discriminative, robust to
+various variations and easy to compute. In this work, we present novel
+features, termed dense center-symmetric local binary patterns (CS-LBP) and
+pyramid center-symmetric local binary/ternary patterns (CS-LBP/LTP), for
+pedestrian detection. The standard LBP proposed by Ojala et al. \cite{c4}
+mainly captures the texture information. The proposed CS-LBP feature, in
+contrast, captures the gradient information and some texture information.
+Moreover, the proposed dense CS-LBP and the pyramid CS-LBP/LTP are easy to
+implement and computationally efficient, which is desirable for real-time
+applications. Experiments on the INRIA pedestrian dataset show that the dense
+CS-LBP feature with linear supporct vector machines (SVMs) is comparable with
+the histograms of oriented gradients (HOG) feature with linear SVMs, and the
+pyramid CS-LBP/LTP features outperform both HOG features with linear SVMs and
+the start-of-the-art pyramid HOG (PHOG) feature with the histogram intersection
+kernel SVMs. We also demonstrate that the combination of our pyramid CS-LBP
+feature and the PHOG feature could significantly improve the detection
+performance-producing state-of-the-art accuracy on the INRIA pedestrian
+dataset.

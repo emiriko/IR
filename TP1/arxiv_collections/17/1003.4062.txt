@@ -1,0 +1,19 @@
+The cache replacement algorithm plays an important role in the overall
+performance of Proxy-Server system. In this paper we have proposed VoD cache
+memory replacement algorithm for a multimedia server system. We propose a Rank
+based cache replacement policy to manage the cache space in individual proxy
+server cache. Proposed replacement strategy incorporates in a simple way the
+most important characteristics of the video and its accesses such as its size,
+access frequency, recentness of the last access and the cost incurred while
+transferring the requested video from the server to the proxy. We compare our
+algorithm with some popular cache replacement algorithm using simulation. The
+video objects are ranked based on the access trend by considering the factors
+such as size, frequency and cost. Many studies have demonstrated that
+Zipf's-like law can govern many features of the VoD and is used to describe the
+popularity of the video. In this paper, we have designed a model, which ranks
+the video on the basis of its popularity using the Zipf-like law. The video
+with higher ranking is named "hot", while the video with lower ranking is named
+"cold". The result show that the proposed rank based algorithm improves cache
+hit ratio, cache byte ratio and average request latencies compared to other
+algorithms. Our experimental results indicate that Rank based cache replacement
+algorithm outperforms LRU, LFU and Greedy Dual.

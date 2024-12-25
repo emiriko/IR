@@ -1,0 +1,19 @@
+Multiplicative noise (also known as speckle noise) models are central to the
+study of coherent imaging systems, such as synthetic aperture radar and sonar,
+and ultrasound and laser imaging. These models introduce two additional layers
+of difficulties with respect to the standard Gaussian additive noise scenario:
+(1) the noise is multiplied by (rather than added to) the original image; (2)
+the noise is not Gaussian, with Rayleigh and Gamma being commonly used
+densities. These two features of multiplicative noise models preclude the
+direct application of most state-of-the-art algorithms, which are designed for
+solving unconstrained optimization problems where the objective has two terms:
+a quadratic data term (log-likelihood), reflecting the additive and Gaussian
+nature of the noise, plus a convex (possibly nonsmooth) regularizer (e.g., a
+total variation or wavelet-based regularizer/prior). In this paper, we address
+these difficulties by: (1) converting the multiplicative model into an additive
+one by taking logarithms, as proposed by some other authors; (2) using variable
+splitting to obtain an equivalent constrained problem; and (3) dealing with
+this optimization problem using the augmented Lagrangian framework. A set of
+experiments shows that the proposed method, which we name MIDAL (multiplicative
+image denoising by augmented Lagrangian), yields state-of-the-art results both
+in terms of speed and denoising performance.

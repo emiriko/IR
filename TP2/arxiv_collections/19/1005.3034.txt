@@ -1,0 +1,20 @@
+Consider a path of non-degenerate eigenstates of unitary operators or
+Hamiltonians with minimum eigenvalue gap G. The eigenpath traversal problem is
+to transform one or more copies of the initial to the final eigenstate.
+Solutions to this problem have applications ranging from quantum physics
+simulation to optimization. For Hamiltonians, the conventional way of doing
+this is by applying the adiabatic theorem. We give ``digital'' methods for
+performing the transformation that require no assumption on path continuity or
+differentiability other than the absence of large jumps. Given sufficient
+information about eigenvalues and overlaps between states on the path, the
+transformation can be accomplished with complexity O(L/G log(L/e)), where L is
+the angular length of the path and e is a specified bound on the error of the
+output state. We show that the required information can be obtained in a first
+set of transformations, whose complexity per state transformed has an
+additional factor that depends logarithmically on a maximum angular velocity
+along the path. This velocity is averaged over constant angular distances and
+does not require continuity. Our methods have substantially better behavior
+than conventional adiabatic algorithms, with fewer conditions on the path. They
+also improve on the previously best digital methods and demonstrate that path
+length and the gap are the primary parameters that determine the complexity of
+state transformation along a path.

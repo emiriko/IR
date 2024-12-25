@@ -1,0 +1,12 @@
+Feedback control laws have been traditionally implemented in a periodic
+fashion on digital hardware. Although periodicity simplifies the analysis of
+the mismatch between the control design and its digital implementation, it also
+leads to conservative usage of resources such as CPU utilization in the case of
+embedded control. We present a novel technique that abandons the periodicity
+assumption by using the current state of the plant to decide the next time
+instant in which the state should be measured, the control law computed, and
+the actuators updated. This technique, termed self-triggered control, is
+developed for two classes of nonlinear control systems, namely, state-dependent
+homogeneous systems and polynomial systems. The wide applicability of the
+proposed results is illustrated in two well known physical examples: a jet
+engine compressor and the rigid body.

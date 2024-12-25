@@ -1,0 +1,8 @@
+We present a novel approach to detect refactoring opportunities by measuring
+the participation of references between types in instances of patterns
+representing design flaws. This technique is validated using an experiment
+where we analyse a set of 95 open-source Java programs for instances of four
+patterns representing modularisation problems. It turns out that our algorithm
+can detect high impact refactorings opportunities - a small number of
+references such that the removal of those references removes the majority of
+patterns from the program.

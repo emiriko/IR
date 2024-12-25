@@ -1,0 +1,13 @@
+The simulation of deterministic pushdown automata defined over a one-letter
+alphabet by finite state automata is investigated from a descriptional
+complexity point of view. We show that each unary deterministic pushdown
+automaton of size s can be simulated by a deterministic finite automaton with a
+number of states that is exponential in s. We prove that this simulation is
+tight. Furthermore, its cost cannot be reduced even if it is performed by a
+two-way nondeterministic automaton. We also prove that there are unary
+languages for which deterministic pushdown automata cannot be exponentially
+more succinct than finite automata. In order to state this result, we
+investigate the conversion of deterministic pushdown automata into context-free
+grammars. We prove that in the unary case the number of variables in the
+resulting grammar is strictly smaller than the number of variables needed in
+the case of nonunary alphabets.

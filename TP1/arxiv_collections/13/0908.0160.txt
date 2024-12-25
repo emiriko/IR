@@ -1,0 +1,19 @@
+Byzantine agreement algorithms typically assume implicit initial state
+consistency and synchronization among the correct nodes and then operate in
+coordinated rounds of information exchange to reach agreement based on the
+input values. The implicit initial assumptions enable correct nodes to infer
+about the progression of the algorithm at other nodes from their local state.
+This paper considers a more severe fault model than permanent Byzantine
+failures, one in which the system can in addition be subject to severe
+transient failures that can temporarily throw the system out of its assumption
+boundaries. When the system eventually returns to behave according to the
+presumed assumptions it may be in an arbitrary state in which any
+synchronization among the nodes might be lost, and each node may be at an
+arbitrary state. We present a self-stabilizing Byzantine agreement algorithm
+that reaches agreement among the correct nodes in an optimal ration of faulty
+to correct, by using only the assumption of eventually bounded message
+transmission delay. In the process of solving the problem, two additional
+important and challenging building blocks were developed: a unique
+self-stabilizing protocol for assigning consistent relative times to protocol
+initialization and a Reliable Broadcast primitive that progresses at the speed
+of actual message delivery time.

@@ -1,0 +1,16 @@
+In this paper we discuss recent applications of the Smoothed Particle
+Hydrodynamics (SPH) method to the simulation of supersonic turbulence in the
+interstellar medium, as well as giving an update on recent algorithmic
+developments in solving the equations of magnetohydrodynamics (MHD) in SPH.
+Using high resolution calculations (up to 134 million particles), we find
+excellent agreement with grid-based results on a range of measures including
+the power spectrum slope in both the velocity field and the density-weighted
+velocity rho^(1/3) v, the latter showing a Kolmogorov-like k^-5/3 scaling as
+proposed by Kritsuk et al. (2007). We also find good agreement on the
+statistics of the Probability Distribution Function (PDF) and structure
+functions, independently confirming the scaling found by Schmidt, Federrath &
+Klessen (2008). On Smoothed Particle Magnetohydrodynamics (SPMHD) we have
+recently wasted a great deal of time and effort investigating the vector
+potential as an alternative to the Euler potentials formulation, in the end
+concluding that using the vector potential has even more severe problems than
+the standard (B-field based) SPMHD approach.

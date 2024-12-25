@@ -1,0 +1,12 @@
+The problem of statistical learning is to construct an accurate predictor of
+a random variable as a function of a correlated random variable on the basis of
+an i.i.d. training sample from their joint distribution. Allowable predictors
+are constrained to lie in some specified class, and the goal is to approach
+asymptotically the performance of the best predictor in the class. We consider
+two settings in which the learning agent only has access to rate-limited
+descriptions of the training data, and present information-theoretic bounds on
+the predictor performance achievable in the presence of these communication
+constraints. Our proofs do not assume any separation structure between
+compression and learning and rely on a new class of operational criteria
+specifically tailored to joint design of encoders and learning algorithms in
+rate-constrained settings.

@@ -1,0 +1,19 @@
+A typical procedure to integrate numerically the time dependent
+Schr\"o\-din\-ger equation involves two stages. In the first one carries out a
+space discretization of the continuous problem. This results in the linear
+system of differential equations $i du/dt = H u$, where $H$ is a real symmetric
+matrix, whose solution with initial value $u(0) = u_0 \in \mathbb{C}^N$ is
+given by $u(t) = \e^{-i t H} u_0$. Usually, this exponential matrix is
+expensive to evaluate, so that time stepping methods to construct
+approximations to $u$ from time $t_n$ to $t_{n+1}$ are considered in the second
+phase of the procedure. Among them, schemes involving multiplications of the
+matrix $H$ with vectors, such as Lanczos and Chebyshev methods, are
+particularly efficient.
+  In this work we consider a particular class of splitting methods which also
+involves only products $Hu$. We carry out an error analysis of these
+integrators and propose a strategy which allows us to construct different
+splitting symplectic methods of different order (even of order zero) possessing
+a large stability interval that can be adapted to different space regularity
+conditions and different accuracy ranges of the spatial discretization. The
+validity of the procedure and the performance of the resulting schemes are
+illustrated on several numerical examples.

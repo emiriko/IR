@@ -1,0 +1,19 @@
+We examine the problem of allocating a given total storage budget in a
+distributed storage system for maximum reliability. A source has a single data
+object that is to be coded and stored over a set of storage nodes; it is
+allowed to store any amount of coded data in each node, as long as the total
+amount of storage used does not exceed the given budget. A data collector
+subsequently attempts to recover the original data object by accessing only the
+data stored in a random subset of the nodes. By using an appropriate code,
+successful recovery can be achieved whenever the total amount of data accessed
+is at least the size of the original data object. The goal is to find an
+optimal storage allocation that maximizes the probability of successful
+recovery. This optimization problem is challenging in general because of its
+combinatorial nature, despite its simple formulation. We study several
+variations of the problem, assuming different allocation models and access
+models. The optimal allocation and the optimal symmetric allocation (in which
+all nonempty nodes store the same amount of data) are determined for a variety
+of cases. Our results indicate that the optimal allocations often have
+nonintuitive structure and are difficult to specify. We also show that
+depending on the circumstances, coding may or may not be beneficial for
+reliable storage.

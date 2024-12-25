@@ -1,0 +1,14 @@
+We develop a simulation tool to support policy-decisions about healthcare for
+chronic diseases in defined populations. Incident disease-cases are generated
+in-silico from an age-sex characterised general population using standard
+epidemiological approaches. A novel disease-treatment model then simulates
+continuous life courses for each patient using discrete event simulation.
+Ideally, the discrete event simulation model would be inferred from complete
+longitudinal healthcare data via a likelihood or Bayesian approach. Such data
+is seldom available for relevant populations, therefore an innovative approach
+to evidence synthesis is required. We propose a novel entropy-based approach to
+fit survival densities. This method provides a fully flexible way to
+incorporate the available information, which can be derived from arbitrary
+sources. Discrete event simulation then takes place on the fitted model using a
+competing hazards framework. The output is then used to help evaluate the
+potential impacts of policy options for a given population.

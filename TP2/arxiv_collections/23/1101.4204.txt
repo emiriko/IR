@@ -1,0 +1,12 @@
+We propose deterministic timed automata (DTA) as a model-independent language
+for specifying performance and dependability measures over continuous-time
+stochastic processes. Technically, these measures are defined as limit
+frequencies of locations (control states) of a DTA that observes computations
+of a given stochastic process. Then, we study the properties of DTA measures
+over semi-Markov processes in greater detail. We show that DTA measures over
+semi-Markov processes are well-defined with probability one, and there are only
+finitely many values that can be assumed by these measures with positive
+probability. We also give an algorithm which approximates these values and the
+associated probabilities up to an arbitrarily small given precision. Thus, we
+obtain a general and effective framework for analysing DTA measures over
+semi-Markov processes.

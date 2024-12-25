@@ -1,0 +1,13 @@
+A great variety of static analyses that compute safety properties of
+single-thread programs have now been developed. This paper presents a
+systematic method to extend a class of such static analyses, so that they
+handle programs with multiple POSIX-style threads. Starting from a pragmatic
+operational semantics, we build a denotational semantics that expresses
+reasoning a la assume-guarantee. The final algorithm is then derived by
+abstract interpretation. It analyses each thread in turn, propagating
+interferences between threads, in addition to other semantic information. The
+combinatorial explosion, ensued from the explicit consideration of all
+interleavings, is thus avoided. The worst case complexity is only increased by
+a factor n compared to the single-thread case, where n is the number of
+instructions in the program. We have implemented prototype tools, demonstrating
+the practicality of the approach.

@@ -1,0 +1,12 @@
+We develop a general framework for the specification and implementation of
+systems whose executions are words, or partial orders, over an infinite
+alphabet. As a model of an implementation, we introduce class register
+automata, a one-way automata model over words with multiple data values. Our
+model combines register automata and class memory automata. It has natural
+interpretations. In particular, it captures communicating automata with an
+unbounded number of processes, whose semantics can be described as a set of
+(dynamic) message sequence charts. On the specification side, we provide a
+local existential monadic second-order logic that does not impose any
+restriction on the number of variables. We study the realizability problem and
+show that every formula from that logic can be effectively, and in elementary
+time, translated into an equivalent class register automaton.

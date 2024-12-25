@@ -1,0 +1,15 @@
+The user-level brokers in grids consider individual application QoS
+requirements and minimize their cost without considering demands from other
+users. This results in contention for resources and sub-optimal schedules.
+Meta-scheduling in grids aims to address this scheduling problem, which is NP
+hard due to its combinatorial nature. Thus, many heuristic-based solutions
+using Genetic Algorithm (GA) have been proposed, apart from traditional
+algorithms such as Greedy and FCFS.
+  We propose a Linear Programming/Integer Programming model (LP/IP) for
+scheduling these applications to multiple resources. We also propose a novel
+algorithm LPGA (Linear programming driven Genetic Algorithm) which combines the
+capabilities of LP and GA. The aim of this algorithm is to obtain the best
+metaschedule for utility grids which minimize combined cost of all users in a
+coordinated manner. Simulation results show that our proposed integrated
+algorithm offers the best schedule having the minimum processing cost with
+negligible time overhead.

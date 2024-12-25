@@ -1,0 +1,12 @@
+The paper proposes a method for measuring available bandwidth, based on
+testing network packets of various sizes (Variable Packet Size method, VPS).
+The boundaries of applicability of the model have been found, which are based
+on the accuracy of measurements of packet delays, also we have derived a
+formula of measuring the upper limit of bandwidth. The computer simulation has
+been performed and relationship between the measurement error of available
+bandwidth and the number of measurements has been found. Experimental
+verification with the use of RIPE Test Box measuring system has shown that the
+suggested method has advantages over existing measurement techniques. Pathload
+utility has been chosen as an alternative technique of measurement, and to
+ensure reliable results statistics by SNMP agent has been withdrawn directly
+from the router.

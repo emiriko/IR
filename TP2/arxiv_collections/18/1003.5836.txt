@@ -1,0 +1,15 @@
+In this article we model a Global Navigation Satellite System (GNSS) in a
+Schwarzschild space-time, as a first approximation of the relativistic geometry
+around the Earth. The closed time-like and scattering light-like geodesics are
+obtained analytically, describing respectively trajectories of satellites and
+electromagnetic signals. We implement an algorithm to calculate Schwarzschild
+coordinates of a GNSS user who receives proper times sent by four satellites,
+knowing their orbital parameters; the inverse procedure is implemented to check
+for consistency. The constellation of satellites therefore realizes a
+geocentric inertial reference system with no \emph{a priori} realization of a
+terrestrial reference frame. We show that the calculation is very fast and
+could be implemented in a real GNSS, as an alternative to usual post-Newtonian
+corrections. Effects of non-gravitational perturbations on positioning errors
+are assessed, and methods to reduce them are sketched. In particular,
+inter-links between satellites could greatly enhance stability and accuracy of
+the positioning system.

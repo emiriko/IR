@@ -1,0 +1,13 @@
+In this paper, we propose a new parallel algorithm which could work naturally
+on the parallel computer with arbitrary number of processors. This algorithm is
+named Virtual Transmission Method (VTM). Its physical backgroud is the lossless
+transmission line and microwave network. The basic idea of VTM is to insert
+lossless transmission lines into the sparse linear system to achieve
+distributed computing.
+  VTM is proved to be convergent to solve SPD linear system. Preconditioning
+method and performance model are presented. Numerical experiments show that VTM
+is efficient, accurate and stable.
+  Accompanied with VTM, we bring in a new technique to partition the symmetric
+linear system, which is named Generalized Node & Branch Tearing (GNBT). It is
+based on Kirchhoff's Current Law from circuit theory. We proved that GNBT is
+feasible to partition any SPD linear system.

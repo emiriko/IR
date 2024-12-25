@@ -1,0 +1,23 @@
+This project aims to create 3d model of the natural world and model changes
+in it instantaneously. A framework for modeling instantaneous changes natural
+scenes in real time using Lagrangian Particle Framework and a fluid-particle
+grid approach is presented. This project is presented in the form of a
+proof-based system where we show that the design is very much possible but
+currently we only have selective scripts that accomplish the given job, a
+complete software however is still under work. This research can be divided
+into 3 distinct sections: the first one discusses a multi-camera rig that can
+measure ego-motion accurately up to 88%, how this device becomes the backbone
+of our framework, and some improvements devised to optimize a know framework
+for depth maps and 3d structure estimation from a single still image called
+make3d. The second part discusses the fluid-particle framework to model natural
+scenes, presents some algorithms that we are using to accomplish this task and
+we show how an application of our framework can extend make3d to model natural
+scenes in real time. This part of the research constructs a bridge between
+computer vision and computer graphics so that now ideas, answers and intuitions
+that arose in the domain of computer graphics can now be applied to computer
+vision and natural modeling. The final part of this research improves upon what
+might become the first general purpose vision system using deep belief
+architectures and provides another framework to improve the lower bound on
+training images for boosting by using a variation of Restricted Boltzmann
+machines (RBM). We also discuss other applications that might arise from our
+work in these areas.

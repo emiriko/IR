@@ -1,0 +1,11 @@
+This work shows that the cryptanalysis of the shrinking generator requires
+fewer intercepted bits than what indicated by the linear complexity. Indeed,
+whereas the linear complexity of shrunken sequences is between $A \cdot
+2^(S-2)$ and $A \cdot 2^(S-1)$, we claim that the initial states of both
+component registers are easily computed with less than $A \cdot S$ shrunken
+bits. Such a result is proven thanks to the definition of shrunken sequences as
+interleaved sequences. Consequently, it is conjectured that this statement can
+be extended to all interleaved sequences. Furthermore, this paper confirms that
+certain bits of the interleaved sequences have a greater strategic importance
+than others, which may be considered as a proof of weakness of interleaved
+generators.

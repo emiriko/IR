@@ -1,0 +1,9 @@
+Nominal unification calculates substitutions that make terms involving
+binders equal modulo alpha-equivalence. Although nominal unification can be
+seen as equivalent to Miller's higher-order pattern unification, it has
+properties, such as the use of first-order terms with names (as opposed to
+alpha-equivalence classes) and that no new names need to be generated during
+unification, which set it clearly apart from higher-order pattern unification.
+The purpose of this paper is to simplify a clunky proof from the original paper
+on nominal unification and to give an overview over some results about nominal
+unification.

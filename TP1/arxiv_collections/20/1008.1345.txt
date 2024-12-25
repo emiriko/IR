@@ -1,0 +1,18 @@
+For consistency (even oracle properties) of estimation and model prediction,
+almost all existing methods of variable/feature selection critically depend on
+sparsity of models. However, for ``large $p$ and small $n$" models sparsity
+assumption is hard to check and particularly, when this assumption is violated,
+the consistency of all existing estimations is usually impossible because
+working models selected by existing methods such as the LASSO and the Dantzig
+selector are usually biased. To attack this problem, we in this paper propose
+adaptive post-Dantzig estimation and model prediction. Here the adaptability
+means that the consistency based on the newly proposed method is adaptive to
+non-sparsity of model, choice of shrinkage tuning parameter and dimension of
+predictor vector. The idea is that after a sub-model as a working model is
+determined by the Dantzig selector, we construct a globally unbiased sub-model
+by choosing suitable instrumental variables and nonparametric adjustment. The
+new estimation of the parameters in the sub-model can be of the asymptotic
+normality. The consistent estimator, together with the selected sub-model and
+adjusted model, improves model predictions. Simulation studies show that the
+new approach has the significant improvement of estimation and prediction
+accuracies over the Gaussian Dantzig selector and other classical methods have.

@@ -1,0 +1,18 @@
+While there are many approaches for automatically proving termination of term
+rewrite systems, up to now there exist only few techniques to disprove their
+termination automatically. Almost all of these techniques try to find loops,
+where the existence of a loop implies non-termination of the rewrite system.
+However, most programming languages use specific evaluation strategies, whereas
+loop detection techniques usually do not take strategies into account. So even
+if a rewrite system has a loop, it may still be terminating under certain
+strategies.
+  Therefore, our goal is to develop decision procedures which can determine
+whether a given loop is also a loop under the respective evaluation strategy.
+In earlier work, such procedures were presented for the strategies of
+innermost, outermost, and context-sensitive evaluation. In the current paper,
+we build upon this work and develop such decision procedures for important
+strategies like leftmost-innermost, leftmost-outermost,
+(max-)parallel-innermost, (max-)parallel-outermost, and forbidden patterns
+(which generalize innermost, outermost, and context-sensitive strategies). In
+this way, we obtain the first approach to disprove termination under these
+strategies automatically.

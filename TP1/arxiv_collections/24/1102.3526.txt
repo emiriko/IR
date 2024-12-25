@@ -1,0 +1,21 @@
+We consider rate R = k/n causal linear codes that map a sequence of
+k-dimensional binary vectors {b_t} to a sequence of n-dimensional binary
+vectors {c_t}, such that each c_t is a function of {b_1,b_2,...,b_t}. Such a
+code is called anytime reliable, for a particular binary-input memoryless
+channel, if at each time, probability of making an error about a source bit
+that was sent d time instants ago decays exponentially in d. Anytime reliable
+codes are useful in interactive communication problems and, in particular, can
+be used to stabilize unstable plants across noisy channels. Schulman proved the
+existence of such codes which, due to their structure, he called tree codes;
+however, to date, no explicit constructions and tractable decoding algorithms
+have been devised. In this paper, we show the existence of anytime reliable
+"linear" codes with "high probability", i.e., suitably chosen random linear
+causal codes are anytime reliable with high probability. The key is to consider
+time-invariant codes (i.e., ones with Toeplitz generator and parity check
+matrices) which obviates the need to union bound over all times. For the binary
+erasure channel we give a simple ML decoding algorithm whose average complexity
+is constant per time iteration and for which the probability that complexity at
+a given time t exceeds KC^3 decays exponentially in C. We show the efficacy of
+the method by simulating the stabilization of an unstable plant across a BEC,
+and remark on the tradeoffs between the utilization of the communication
+resources and the control performance.

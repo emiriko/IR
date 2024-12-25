@@ -1,0 +1,21 @@
+The Turaev-Viro invariant for a closed 3-manifold is defined as the
+contraction of a certain tensor network. The tensors correspond to tetrahedra
+in a triangulation of the manifold, with values determined by a fixed spherical
+category. For a manifold with boundary, the tensor network has free indices
+that can be associated to qudits, and its contraction gives the coefficients of
+a quantum error-correcting code. The code has local stabilizers determined by
+Levin and Wen. For example, applied to the genus-one handlebody using the Z_2
+category, this construction yields the well-known toric code.
+  For other categories, such as the Fibonacci category, the construction
+realizes a non-abelian anyon model over a discrete lattice. By studying braid
+group representations acting on equivalence classes of colored ribbon graphs
+embedded in a punctured sphere, we identify the anyons, and give a simple
+recipe for mapping fusion basis states of the doubled category to ribbon
+graphs. We explain how suitable initial states can be prepared efficiently, how
+to implement braids, by successively changing the triangulation using a fixed
+five-qudit local unitary gate, and how to measure the topological charge.
+Combined with known universality results for anyonic systems, this provides a
+large family of schemes for quantum computation based on local deformations of
+stabilizer codes. These schemes may serve as a starting point for developing
+fault-tolerance schemes using continuous stabilizer measurements and active
+error-correction.

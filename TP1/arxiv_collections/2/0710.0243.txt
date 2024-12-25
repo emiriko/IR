@@ -1,0 +1,9 @@
+In this paper, we use belief-propagation techniques to develop fast
+algorithms for image inpainting. Unlike traditional gradient-based approaches,
+which may require many iterations to converge, our techniques achieve
+competitive results after only a few iterations. On the other hand, while
+belief-propagation techniques are often unable to deal with high-order models
+due to the explosion in the size of messages, we avoid this problem by
+approximating our high-order prior model using a Gaussian mixture. By using
+such an approximation, we are able to inpaint images quickly while at the same
+time retaining good visual results.

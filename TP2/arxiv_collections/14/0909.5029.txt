@@ -1,0 +1,16 @@
+We consider the question of implementability of a social choice function in a
+classical setting where the preferences of finitely many selfish individuals
+with private information have to be aggregated towards a social choice. This is
+one of the central questions in mechanism design. If the concept of weak
+implementation is considered, the Revelation Principle states that one can
+restrict attention to truthful implementations and direct revelation
+mechanisms, which implies that implementability of a social choice function is
+easy to check. For the concept of strong implementation, however, the
+Revelation Principle becomes invalid, and the complexity of deciding whether a
+given social choice function is strongly implementable has been open so far. In
+this paper, we show by using methods from polyhedral theory that strong
+implementability of a social choice function can be decided in polynomial space
+and that each of the payments needed for strong implementation can always be
+chosen to be of polynomial encoding length. Moreover, we show that strong
+implementability of a social choice function involving only a single selfish
+individual can be decided in polynomial time via linear programming.

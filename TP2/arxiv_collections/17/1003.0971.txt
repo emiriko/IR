@@ -1,0 +1,13 @@
+For sampling multiple pathways in a rugged energy landscape, we propose a
+novel action-based path sampling method using the Onsager-Machlup action
+functional. Inspired by the Fourier-path integral simulation of a quantum
+mechanical system, a path in Cartesian space is transformed into that in
+Fourier space, and an overdamped Langevin equation is derived for the Fourier
+components to achieve a canonical ensemble of the path at a finite temperature.
+To avoid "path trapping" around an initially guessed path, the path sampling
+method is further combined with a powerful sampling technique, the replica
+exchange method. The principle and algorithm of our method is numerically
+demonstrated for a model two-dimensional system with a bifurcated potential
+landscape. The results are compared with those of conventional transition path
+sampling and the equilibrium theory, and the error due to path discretization
+is also discussed.

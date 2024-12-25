@@ -1,0 +1,14 @@
+A technique for on-line estimation of spot volatility for high-frequency data
+is developed. The algorithm works directly on the transaction data and updates
+the volatility estimate immediately after the occurrence of a new transaction.
+Furthermore, a nonlinear market microstructure noise model is proposed that
+reproduces several stylized facts of high-frequency data. A computationally
+efficient particle filter is used that allows for the approximation of the
+unknown efficient prices and, in combination with a recursive EM algorithm, for
+the estimation of the volatility curve. We neither assume that the transaction
+times are equidistant nor do we use interpolated prices. We also make a
+distinction between volatility per time unit and volatility per transaction and
+provide estimators for both. More precisely we use a model with random time
+change where spot volatility is decomposed into spot volatility per transaction
+times the trading intensity - thus highlighting the influence of trading
+intensity on volatility.

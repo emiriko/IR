@@ -1,0 +1,20 @@
+Despite the tremendous success of BitTorrent, its swarming system suffers
+from a fundamental limitation: lower or no availability of unpopular contents.
+Recently, Menasche et al. has shown that bundling is a promising solution to
+mitigate this availability problem; it improves the availability and reduces
+download times for unpopular contents by combining multiple files into a single
+swarm. There also have been studies on bundling strategies and performance
+issues in bundled swarms. In spite of the recent surge of interest in the
+benefits of and strategies for bundling, there are still little empirical
+grounding for understanding, describing, and modeling it. This is the first
+empirical study that measures and analyzes how prevalent contents bundling is
+in BitTorrent and how peers access the bundled contents, in comparison to the
+other non-bundled (i.e., single-filed) ones. To our surprise, we found that
+around 70% of BitTorrent swarms contain multiple files, which indicate that
+bundling has become widespread for contents sharing. We also show that the
+amount of bytes shared in bundled swarms is estimated to be around 85% out of
+all the BitTorrent contents logged in our datasets. Inspired from our findings,
+we raise and discuss three important research questions in the field of file
+sharing systems as well as future contents-oriented networking: i) bundling
+strategies, ii) bundling-aware sharing systems in BitTorrent, and iii)
+implications on content-oriented networking.

@@ -1,0 +1,12 @@
+Despite the conventional wisdom that proactive security is superior to
+reactive security, we show that reactive security can be competitive with
+proactive security as long as the reactive defender learns from past attacks
+instead of myopically overreacting to the last attack. Our game-theoretic model
+follows common practice in the security literature by making worst-case
+assumptions about the attacker: we grant the attacker complete knowledge of the
+defender's strategy and do not require the attacker to act rationally. In this
+model, we bound the competitive ratio between a reactive defense algorithm
+(which is inspired by online learning theory) and the best fixed proactive
+defense. Additionally, we show that, unlike proactive defenses, this reactive
+strategy is robust to a lack of information about the attacker's incentives and
+knowledge.

@@ -1,0 +1,17 @@
+We study the succinctness of the complement and intersection of regular
+expressions. In particular, we show that when constructing a regular expression
+defining the complement of a given regular expression, a double exponential
+size increase cannot be avoided. Similarly, when constructing a regular
+expression defining the intersection of a fixed and an arbitrary number of
+regular expressions, an exponential and double exponential size increase,
+respectively, can in worst-case not be avoided. All mentioned lower bounds
+improve the existing ones by one exponential and are tight in the sense that
+the target expression can be constructed in the corresponding time class, i.e.,
+exponential or double exponential time. As a by-product, we generalize a
+theorem by Ehrenfeucht and Zeiger stating that there is a class of DFAs which
+are exponentially more succinct than regular expressions, to a fixed
+four-letter alphabet. When the given regular expressions are one-unambiguous,
+as for instance required by the XML Schema specification, the complement can be
+computed in polynomial time whereas the bounds concerning intersection continue
+to hold. For the subclass of single-occurrence regular expressions, we prove a
+tight exponential lower bound for intersection.

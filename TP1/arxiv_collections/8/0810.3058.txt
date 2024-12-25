@@ -1,0 +1,14 @@
+The current work is focusing on the implementation of a robust watermarking
+algorithm for digital images, which is based on an innovative spread spectrum
+analysis algorithm for watermark embedding and on a content-based image
+retrieval technique for watermark detection. The highly robust watermark
+algorithms are applying "detectable watermarks" for which a detection mechanism
+checks if the watermark exists or no (a Boolean decision) based on a
+watermarking key. The problem is that the detection of a watermark in a digital
+image library containing thousands of images means that the watermark detection
+algorithm is necessary to apply all the keys to the digital images. This
+application is non-efficient for very large image databases. On the other hand
+"readable" watermarks may prove weaker but easier to detect as only the
+detection mechanism is required. The proposed watermarking algorithm combine's
+the advantages of both "detectable" and "readable" watermarks. The result is a
+fast and robust watermarking algorithm.

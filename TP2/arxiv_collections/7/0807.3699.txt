@@ -1,0 +1,11 @@
+A representation of finite fields that has proved useful when implementing
+finite field arithmetic in hardware is based on an isomorphism between subrings
+and fields. In this paper, we present an unified formulation for multiplication
+in cyclotomic rings and cyclotomic fields in that most arithmetic operations
+are done on vectors. From this formulation we can generate optimized algorithms
+for multiplication. For example, one of the proposed algorithms requires
+approximately half the number of coordinate-level multiplications at the
+expense of extra coordinate-level additions. Our method is then applied to the
+finite fields GF(q^m) to further reduce the number of operations. We then
+present optimized algorithms for multiplication in finite fields with type-I
+and type-II optimal normal bases.

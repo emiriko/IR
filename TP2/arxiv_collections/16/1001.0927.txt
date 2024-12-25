@@ -1,0 +1,11 @@
+Vector quantization(VQ) is a lossy data compression technique from signal
+processing for which simple competitive learning is one standard method to
+quantize patterns from the input space. Extending competitive learning VQ to
+the domain of graphs results in competitive learning for quantizing input
+graphs. In this contribution, we propose an accelerated version of competitive
+learning graph quantization (GQ) without trading computational time against
+solution quality. For this, we lift graphs locally to vectors in order to avoid
+unnecessary calculations of intractable graph distances. In doing so, the
+accelerated version of competitive learning GQ gradually turns locally into a
+competitive learning VQ with increasing number of iterations. Empirical results
+show a significant speedup by maintaining a comparable solution quality.

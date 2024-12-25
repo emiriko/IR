@@ -1,0 +1,12 @@
+We consider the numerical integration of the Gross-Pitaevskii equation with a
+potential trap given by a time-dependent harmonic potential or a small
+perturbation thereof. Splitting methods are frequently used with Fourier
+techniques since the system can be split into the kinetic and remaining part,
+and each part can be solved efficiently using Fast Fourier Transforms. To split
+the system into the quantum harmonic oscillator problem and the remaining part
+allows to get higher accuracies in many cases, but it requires to change
+between Hermite basis functions and the coordinate space, and this is not
+efficient for time-dependent frequencies or strong nonlinearities. We show how
+to build new methods which combine the advantages of using Fourier methods
+while solving the timedependent harmonic oscillator exactly (or with a high
+accuracy by using a Magnus integrator and an appropriate decomposition).

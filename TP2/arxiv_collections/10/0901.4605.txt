@@ -1,0 +1,17 @@
+A Bayesian approach to variable selection which is based on the expected
+Kullback-Leibler divergence between the full model and its projection onto a
+submodel has recently been suggested in the literature. Here we extend this
+idea by considering projections onto subspaces defined via some form of $L_1$
+constraint on the parameter in the full model. This leads to Bayesian model
+selection approaches related to the lasso. In the posterior distribution of the
+projection there is positive probability that some components are exactly zero
+and the posterior distribution on the model space induced by the projection
+allows exploration of model uncertainty. We also consider use of the approach
+in structured variable selection problems such as ANOVA models where it is
+desired to incorporate main effects in the presence of interactions. Here we
+make use of projections related to the non-negative garotte which are able to
+respect the hierarchical constraints. We also prove a consistency result
+concerning the posterior distribution on the model induced by the projection,
+and show that for some projections related to the adaptive lasso and
+non-negative garotte the posterior distribution concentrates on the true model
+asymptotically.

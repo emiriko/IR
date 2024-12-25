@@ -1,0 +1,12 @@
+Differential privacy is a definition of "privacy'" for algorithms that
+analyze and publish information about statistical databases. It is often
+claimed that differential privacy provides guarantees against adversaries with
+arbitrary side information. In this paper, we provide a precise formulation of
+these guarantees in terms of the inferences drawn by a Bayesian adversary. We
+show that this formulation is satisfied by both "vanilla" differential privacy
+as well as a relaxation known as (epsilon,delta)-differential privacy. Our
+formulation follows the ideas originally due to Dwork and McSherry [Dwork
+2006]. This paper is, to our knowledge, the first place such a formulation
+appears explicitly. The analysis of the relaxed definition is new to this
+paper, and provides some concrete guidance for setting parameters when using
+(epsilon,delta)-differential privacy.

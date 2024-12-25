@@ -1,0 +1,8 @@
+We consider the problem of finding a desired item out of $N$ items arranged
+on the sites of a two-dimensional lattice of size $\sqrt{N} \times \sqrt{N}$.
+The previous quantum walk based algorithms take $O(\sqrt{N}\log N)$ steps to
+solve this problem, and it is an open question whether the performance can be
+improved. We present a new algorithm which solves the problem in $O(\sqrt{N\log
+N})$ steps, thus giving an $O(\sqrt{\log N})$ improvement over the known
+algorithms. The improvement is achieved by controlling the quantum walk on the
+lattice using an ancilla qubit.

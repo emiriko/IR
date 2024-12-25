@@ -1,0 +1,21 @@
+In comparative genomic, the first step of sequence analysis is usually to
+decompose two or more genomes into syntenic blocks that are segments of
+homologous chromosomes. For the reliable recovery of syntenic blocks, noise and
+ambiguities in the genomic maps need to be removed first. Maximal Strip
+Recovery (MSR) is an optimization problem proposed by Zheng, Zhu, and Sankoff
+for reliably recovering syntenic blocks from genomic maps in the midst of noise
+and ambiguities. Given $d$ genomic maps as sequences of gene markers, the
+objective of \msr{d} is to find $d$ subsequences, one subsequence of each
+genomic map, such that the total length of syntenic blocks in these
+subsequences is maximized. For any constant $d \ge 2$, a polynomial-time
+2d-approximation for \msr{d} was previously known. In this paper, we show that
+for any $d \ge 2$, \msr{d} is APX-hard, even for the most basic version of the
+problem in which all gene markers are distinct and appear in positive
+orientation in each genomic map. Moreover, we provide the first explicit lower
+bounds on approximating \msr{d} for all $d \ge 2$. In particular, we show that
+\msr{d} is NP-hard to approximate within $\Omega(d/\log d)$. From the other
+direction, we show that the previous 2d-approximation for \msr{d} can be
+optimized into a polynomial-time algorithm even if $d$ is not a constant but is
+part of the input. We then extend our inapproximability results to several
+related problems including \cmsr{d}, \gapmsr{\delta}{d}, and
+\gapcmsr{\delta}{d}.

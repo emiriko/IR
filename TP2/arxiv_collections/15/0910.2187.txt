@@ -1,0 +1,17 @@
+Sufficiently accurate finite state models, also called symbolic models or
+discrete abstractions, allow one to apply fully automated methods, originally
+developed for purely discrete systems, to formally reason about continuous and
+hybrid systems, and to design finite state controllers that provably enforce
+predefined specifications. We present a novel algorithm to compute such finite
+state models for nonlinear discrete-time and sampled systems which depends on
+quantizing the state space using polyhedral cells, embedding these cells into
+suitable supersets whose attainable sets are convex, and over-approximating
+attainable sets by intersections of supporting half-spaces. We prove a novel
+recursive description of these half-spaces and propose an iterative procedure
+to compute them efficiently. We also provide new sufficient conditions for the
+convexity of attainable sets which imply the existence of the aforementioned
+embeddings of quantizer cells. Our method yields highly accurate abstractions
+and applies to nonlinear systems under mild assumptions, which reduce to
+sufficient smoothness in the case of sampled systems. Its practicability in the
+design of discrete controllers for nonlinear continuous plants under state and
+control constraints is demonstrated by an example.

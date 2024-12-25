@@ -1,0 +1,23 @@
+Problems related to network coding for acyclic, instantaneous networks (where
+the edges of the acyclic graph representing the network are assumed to have
+zero-delay) have been extensively dealt with in the recent past. The most
+prominent of these problems include (a) the existence of network codes that
+achieve maximum rate of transmission, (b) efficient network code constructions,
+and (c) field size issues. In practice, however, networks have transmission
+delays. In network coding theory, such networks with transmission delays are
+generally abstracted by assuming that their edges have integer delays. Note
+that using enough memory at the nodes of an acyclic network with integer delays
+can effectively simulate instantaneous behavior, which is probably why only
+acyclic instantaneous networks have been primarily focused on thus far. In this
+work, we elaborate on issues ((a), (b) and (c) above) related to network coding
+for acyclic networks with integer delays, which have till now mostly been
+overlooked. We show that the delays associated with the edges of the network
+cannot be ignored, and in fact turn out to be advantageous, disadvantageous or
+immaterial, depending on the topology of the network and the problem considered
+i.e., (a), (b) or (c). In the process, we also show that for a single source
+multicast problem in acyclic networks (instantaneous and with delays), the
+network coding operations at each node can simply be limited to storing old
+symbols and coding them over a binary field. Therefore, operations over
+elements of larger fields are unnecessary in the network, the trade-off being
+that enough memory exists at the nodes and at the sinks, and that the sinks
+have more processing power.

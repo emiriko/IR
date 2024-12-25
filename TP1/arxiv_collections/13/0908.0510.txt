@@ -1,0 +1,20 @@
+A grid-free variant of the Direct Simulation Monte Carlo (DSMC) method is
+proposed, named the Isotropic DSMC (I-DSMC) method, that is suitable for
+simulating dense fluid flows at molecular scales. The I-DSMC algorithm
+eliminates all grid artifacts from the traditional DSMC algorithm; it is
+Galilean invariant and microscopically isotropic. The stochastic collision
+rules in I-DSMC are modified to yield a non-ideal structure factor that gives
+consistent compressibility, as first proposed in [Phys. Rev. Lett. 101:075902
+(2008)]. The resulting Stochastic Hard Sphere Dynamics (SHSD) fluid is
+empirically shown to be thermodynamically identical to a deterministic
+Hamiltonian system of penetrable spheres interacting with a linear core pair
+potential, well-described by the hypernetted chain (HNC) approximation. We
+apply a stochastic Enskog kinetic theory for the SHSD fluid to obtain estimates
+for the transport coefficients that are in excellent agreement with particle
+simulations over a wide range of densities and collision rates. The fluctuating
+hydrodynamic behavior of the SHSD fluid is verified by comparing its dynamic
+structure factor against theory based on the Landau-Lifshitz Navier-Stokes
+equations. We also study the Brownian motion of a nano-particle suspended in an
+SHSD fluid and find a long-time power-law tail in its velocity autocorrelation
+function consistent with hydrodynamic theory and molecular dynamics
+calculations.

@@ -1,0 +1,13 @@
+CIF is a language designed for two purposes, namely as a specification
+language for hybrid systems and as an interchange format for allowing model
+transformations between other languages for hybrid systems. To facilitate the
+top-down development of a hybrid system and also to be able to express models
+more succinctly in the CIF formalism, we need a mechanism for stepwise
+refinement. In this paper, we add the notion of hierarchy to a subset of the
+CIF language, which we call hCIF. The semantic domain of the CIF formalism is a
+hybrid transition system, constructed using structural operational semantics.
+The goal of this paper is to present a semantics for hierarchy in such a way
+that only the SOS rules for atomic entities in hCIF are redesigned in
+comparison to CIF. Furthermore, to be able to reuse existing tools like
+simulators of the CIF language, a procedure to eliminate hierarchy from an
+automaton is given.

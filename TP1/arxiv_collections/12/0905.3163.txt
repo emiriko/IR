@@ -1,0 +1,23 @@
+Sommerfeld paradox (turbulence paradox) roughly says that mathematically the
+Couette linear shear flow is linearly stable for all values of the Reynolds
+number, but experimentally transition from the linear shear to turbulence
+occurs under perturbations of any size when the Reynolds number is large
+enough. In [Li, Lin 2011], we offered a resolution of this paradox. The aim of
+this paper is to provide a numerical implementation of the resolution. The main
+idea of the resolution is that even though the linear shear is linearly stable,
+slow orbits (also called quasi-steady states) in arbitrarily small
+neighborhoods of the linear shear can be linearly unstable. The key is that in
+infinite dimensions, smallness in one norm does not mean smallness in all
+norms. Our study here focuses upon a sequence of 2D oscillatory shears which
+are the Couette linear shear plus small amplitude and high frequency sinusoidal
+shear perturbations. In the fluid velocity variable, the sequence approaches
+the Couette linear shear (e.g. in $L^2$ norm of velocity), thus it can be
+viewed as Couette linear shear plus small noises; while in the fluid vorticity
+variable, the sequence does not approaches the Couette linear shear (e.g. in
+$H^1$ norm of velocity). Unlike the Couette linear shear, the sequence of
+oscillatory shears has inviscid linear instability; furthermore, with the
+sequence of oscillatory shears as potentials, the Orr-Sommerfeld operator has
+unstable eigenvalues when the Reynolds number is large enough, this should lead
+to transient nonlinear growth which manifests as transient turbulence as
+observed in experiments. The main result of this paper verifies this transient
+growth.

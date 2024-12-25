@@ -1,0 +1,13 @@
+Our article addresses the problem of flexibly estimating a multivariate
+density while also attempting to estimate its marginals correctly. We do so by
+proposing two new estimators that try to capture the best features of mixture
+of normals and copula estimators while avoiding some of their weaknesses. The
+first estimator we propose is a mixture of normals copula model that is a
+flexible alternative to parametric copula models such as the normal and t
+copula. The second is a marginally adapted mixture of normals estimator that
+improves on the standard mixture of normals by using information contained in
+univariate estimates of the marginal densities. We show empirically that copula
+based approaches can behave much better or much worse than estimators based on
+mixture of normals depending on the properties of the data. We provide fast and
+reliable implementations of the estimators and illustrate the methodology on
+simulated and real data.

@@ -1,0 +1,20 @@
+We study the information-theoretic limits of exactly recovering the support
+of a sparse signal using noisy projections defined by various classes of
+measurement matrices. Our analysis is high-dimensional in nature, in which the
+number of observations $n$, the ambient signal dimension $p$, and the signal
+sparsity $k$ are all allowed to tend to infinity in a general manner. This
+paper makes two novel contributions. First, we provide sharper necessary
+conditions for exact support recovery using general (non-Gaussian) dense
+measurement matrices. Combined with previously known sufficient conditions,
+this result yields sharp characterizations of when the optimal decoder can
+recover a signal for various scalings of the sparsity $k$ and sample size $n$,
+including the important special case of linear sparsity ($k = \Theta(p)$) using
+a linear scaling of observations ($n = \Theta(p)$). Our second contribution is
+to prove necessary conditions on the number of observations $n$ required for
+asymptotically reliable recovery using a class of $\gamma$-sparsified
+measurement matrices, where the measurement sparsity $\gamma(n, p, k) \in
+(0,1]$ corresponds to the fraction of non-zero entries per row. Our analysis
+allows general scaling of the quadruplet $(n, p, k, \gamma)$, and reveals three
+different regimes, corresponding to whether measurement sparsity has no effect,
+a minor effect, or a dramatic effect on the information-theoretic limits of the
+subset recovery problem.

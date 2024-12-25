@@ -1,0 +1,11 @@
+Given an undirected graph and $0\le\epsilon\le1$, a set of nodes is called
+$\epsilon$-near clique if all but an $\epsilon$ fraction of the pairs of nodes
+in the set have a link between them. In this paper we present a fast
+synchronous network algorithm that uses small messages and finds a near-clique.
+Specifically, we present a constant-time algorithm that finds, with constant
+probability of success, a linear size $\epsilon$-near clique if there exists an
+$\epsilon^3$-near clique of linear size in the graph. The algorithm uses
+messages of $O(\log n)$ bits. The failure probability can be reduced to
+$n^{-\Omega(1)}$ in $O(\log n)$ time, and the algorithm also works if the graph
+contains a clique of size $\Omega(n/\log^{\alpha}\log n)$ for some $\alpha \in
+(0,1)$.

@@ -1,0 +1,9 @@
+When augmented with the longest common prefix (LCP) array and some other
+structures, the suffix array can solve many string processing problems in
+optimal time and space. A compressed representation of the LCP array is also
+one of the main building blocks in many compressed suffix tree proposals. In
+this paper, we describe a new compressed LCP representation: the sampled LCP
+array. We show that when used with a compressed suffix array (CSA), the sampled
+LCP array often offers better time/space trade-offs than the existing
+alternatives. We also show how to construct the compressed representations of
+the LCP array directly from a CSA.

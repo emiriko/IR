@@ -1,0 +1,11 @@
+We discuss quantum algorithms, based on the Bernstein-Vazirani algorithm, for
+finding which variables a Boolean function depends on. There are 2^n possible
+linear Boolean functions of n variables; given a linear Boolean function, the
+Bernstein-Vazirani quantum algorithm can deterministically identify which one
+of these Boolean functions we are given using just one single function query.
+The same quantum algorithm can also be used to learn which input variables
+other types of Boolean functions depend on, with a success probability that
+depends on the form of the Boolean function that is tested, but does not depend
+on the total number of input variables. We also outline a procedure to futher
+amplify the success probability, based on another quantum algorithm, the Grover
+search.

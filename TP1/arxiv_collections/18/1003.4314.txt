@@ -1,0 +1,25 @@
+Memetic Algorithms are known to be a powerful technique in solving hard
+optimization problems. To design a memetic algorithm one needs to make a host
+of decisions; selecting a population size is one of the most important among
+them. Most algorithms in the literature fix the population size to a certain
+constant value. This reduces the algorithm's quality since the optimal
+population size varies for different instances, local search procedures and
+running times. In this paper we propose an adjustable population size. It is
+calculated as a function of the running time of the whole algorithm and the
+average running time of the local search for the given instance. Note that in
+many applications the running time of a heuristic should be limited and
+therefore we use this limit as a parameter of the algorithm. The average
+running time of the local search procedure is obtained during the algorithm's
+run. Some coefficients which are independent with respect to the instance or
+the local search are to be tuned before the algorithm run; we provide a
+procedure to find these coefficients. The proposed approach was used to develop
+a memetic algorithm for the Multidimensional Assignment Problem (MAP or s-AP in
+the case of s dimensions) which is an extension of the well-known assignment
+problem. MAP is NP-hard and has a host of applications. We show that using
+adjustable population size makes the algorithm flexible to perform well for
+instances of very different sizes and types and for different running times and
+local searches. This allows us to select the most efficient local search for
+every instance type. The results of computational experiments for several
+instance families and sizes prove that the proposed algorithm performs
+efficiently for a wide range of the running times and clearly outperforms the
+state-of-the art 3-AP memetic algorithm being given the same time.

@@ -1,0 +1,14 @@
+Desharnais, Gupta, Jagadeesan and Panangaden introduced a family of
+behavioural pseudometrics for probabilistic transition systems. These
+pseudometrics are a quantitative analogue of probabilistic bisimilarity.
+Distance zero captures probabilistic bisimilarity. Each pseudometric has a
+discount factor, a real number in the interval (0, 1]. The smaller the discount
+factor, the more the future is discounted. If the discount factor is one, then
+the future is not discounted at all. Desharnais et al. showed that the
+behavioural distances can be calculated up to any desired degree of accuracy if
+the discount factor is smaller than one. In this paper, we show that the
+distances can also be approximated if the future is not discounted. A key
+ingredient of our algorithm is Tarski's decision procedure for the first order
+theory over real closed fields. By exploiting the Kantorovich-Rubinstein
+duality theorem we can restrict to the existential fragment for which more
+efficient decision procedures exist.

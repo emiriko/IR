@@ -1,0 +1,15 @@
+We study a percolation problem on a substrate formed by two-dimensional XY
+spin configurations, using Monte Carlo methods. For a given spin configuration
+we construct percolation clusters by randomly choosing a direction $x$ in the
+spin vector space, and then placing a percolation bond between nearest-neighbor
+sites $i$ and $j$ with probability $p_{ij} = \max (0,1-e^{-2K s^x_i s^x_j})$,
+where $K > 0$ governs the percolation process. A line of percolation thresholds
+$K_{\rm c} (J)$ is found in the low-temperature range $J \geq J_{\rm c}$, where
+$J > 0$ is the XY coupling strength. Analysis of the correlation function $g_p
+(r)$, defined as the probability that two sites separated by a distance $r$
+belong to the same percolation cluster, yields algebraic decay for $K \geq
+K_{\rm c}(J)$, and the associated critical exponent depends on $J$ and $K$.
+Along the threshold line $K_{\rm c}(J)$, the scaling dimension for $g_p$ is,
+within numerical uncertainties, equal to $1/8$. On this basis, we conjecture
+that the percolation transition along the $K_{\rm c} (J)$ line is of the
+Berezinskii-Kosterlitz-Thouless type.

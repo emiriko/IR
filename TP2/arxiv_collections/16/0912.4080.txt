@@ -1,0 +1,28 @@
+This paper discusses the application of known techniques, knowledge and
+technology in a novel way for encryption. Two distinct and separate methods are
+presented.
+  Method 1: Alter the symbol set of the language by adding additional redundant
+symbols for frequent symbols. This will reduce the high frequency of more
+commonly used symbols. Hence, frequency analysis upon ciphertext will not be
+possible. Hence, decryption will be possible.
+  Method 2: Computers use binary base 2. Most encryption systems use ciphering
+to convert data to ciphertext. The author presents the theory and several
+possible implementations of a method for computers analogous to speaking
+another language. This is done by using a binary base other than base 2. Ex.
+Fibonacci, Phi or Prime.
+  In addition, steganography may be used for creating alternate binary bases.
+  This kind of encryption significantly increases the complexity of decryption.
+First the binary base must be known. Only then, can decryption begin.
+  This kind of encryption also breaks the transitivity of
+plaintext-codebook-binary; the correlation of letters-ASCII-base2. With this
+transitivity broken, decryption is logically impossible. Coupled with
+encrypting the plaintext, binary encryption makes decryption uncrackable. It
+may produce false positives--information theoretic secure, and requires much
+more computing power to resolve than is currently used in brute force
+decryption. Hence, the assertion that these combination of methods are
+computationally secure--impervious to brute force.
+  The proposed system has a drawback. It is not as compressed as a base2.
+(Similar to adding random padding to the encryption.) However, this is
+acceptable, since the goal is very strong encryption:
+  Both methods are not decryptable by method uncrackable - by conventional,
+statistical means.

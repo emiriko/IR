@@ -1,0 +1,21 @@
+Much research has been devoted to the problem of restoring Poissonian images,
+namely for medical and astronomical applications. However, the restoration of
+these images using state-of-the-art regularizers (such as those based on
+multiscale representations or total variation) is still an active research
+area, since the associated optimization problems are quite challenging. In this
+paper, we propose an approach to deconvolving Poissonian images, which is based
+on an alternating direction optimization method. The standard regularization
+(or maximum a posteriori) restoration criterion, which combines the Poisson
+log-likelihood with a (non-smooth) convex regularizer (log-prior), leads to
+hard optimization problems: the log-likelihood is non-quadratic and
+non-separable, the regularizer is non-smooth, and there is a non-negativity
+constraint. Using standard convex analysis tools, we present sufficient
+conditions for existence and uniqueness of solutions of these optimization
+problems, for several types of regularizers: total-variation, frame-based
+analysis, and frame-based synthesis. We attack these problems with an instance
+of the alternating direction method of multipliers (ADMM), which belongs to the
+family of augmented Lagrangian algorithms. We study sufficient conditions for
+convergence and show that these are satisfied, either under total-variation or
+frame-based (analysis and synthesis) regularization. The resulting algorithms
+are shown to outperform alternative state-of-the-art methods, both in terms of
+speed and restoration accuracy.

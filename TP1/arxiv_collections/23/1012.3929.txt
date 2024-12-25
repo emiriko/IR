@@ -1,0 +1,9 @@
+Mixed finite element methods solve a PDE using two or more variables. The
+theory of Discrete Exterior Calculus explains why the degrees of freedom
+associated to the different variables should be stored on both primal and dual
+domain meshes with a discrete Hodge star used to transfer information between
+the meshes. We show through analysis and examples that the choice of discrete
+Hodge star is essential to the numerical stability of the method. Additionally,
+we define interpolation functions and discrete Hodge stars on dual meshes which
+can be used to create previously unconsidered mixed methods. Examples from
+magnetostatics and Darcy flow are examined in detail.

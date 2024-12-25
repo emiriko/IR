@@ -1,0 +1,14 @@
+We consider the problem of utility optimal scheduling in general
+\emph{processing networks} with random arrivals and network conditions. These
+are generalizations of traditional data networks where commodities in one or
+more queues can be combined to produce new commodities that are delivered to
+other parts of the network. This can be used to model problems such as
+in-network data fusion, stream processing, and grid computing. Scheduling
+actions are complicated by the \emph{underflow problem} that arises when some
+queues with required components go empty. In this paper, we develop the
+Perturbed Max-Weight algorithm (PMW) to achieve optimal utility. The idea of
+PMW is to perturb the weights used by the usual Max-Weight algorithm to
+``push'' queue levels towards non-zero values (avoiding underflows). We show
+that when the perturbations are carefully chosen, PMW is able to achieve a
+utility that is within $O(1/V)$ of the optimal value for any $V\geq1$, while
+ensuring an average network backlog of $O(V)$.

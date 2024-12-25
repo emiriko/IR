@@ -1,0 +1,11 @@
+A polynomial identity testing algorithm must determine whether a given input
+polynomial is identically equal to 0. We give a deterministic black-box
+identity testing algorithm for univariate polynomials of the form $\sum_{j=0}^t
+c_j X^{\alpha_j} (a + b X)^{\beta_j}$. From our algorithm we derive an
+exponential lower bound for representations of polynomials such as
+$\prod_{i=1}^{2^n} (X^i-1)$ under this form. It has been conjectured that these
+polynomials are hard to compute by general arithmetic circuits. Our result
+shows that the "hardness from derandomization" approach to lower bounds is
+feasible for a restricted class of arithmetic circuits. The proof is based on
+techniques from algebraic number theory, and more precisely on properties of
+the height function of algebraic numbers.

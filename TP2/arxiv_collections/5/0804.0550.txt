@@ -1,0 +1,21 @@
+We exploit the common mathematical structure of the numerical renormalization
+group and the density matrix renormalization group, namely, matrix product
+states, to implement an efficient numerical treatment of a two-lead,
+multi-level Anderson impurity model. By adopting a star-like geometry, where
+each species (spin and lead) of conduction electrons is described by its own
+Wilson chain, instead of using a single Wilson chain for all species together,
+we achieve a very significant reduction in the numerical resources required to
+obtain reliable results. We illustrate the power of this approach by
+calculating ground state properties of a four-level quantum dot coupled to two
+leads. The success of this proof-of-principle calculation suggests that the
+star geometry constitutes a promising strategy for future calculations the
+ground state properties of multi-band, multi-level quantum impurity models.
+Moreover, we show that it is possible to find an "optimal" chain basis,
+obtained via a unitary transformation (acting only on the index distinguishing
+different Wilson chains), in which degrees of freedom on different Wilson
+chains become effectively decoupled from each other further out on the Wilson
+chains. This basis turns out to also diagonalize the model's chain-to-chain
+scattering matrix. We demonstrate this for a spinless two-lead model,
+presenting DMRG-results for the mutual information between two sites located
+far apart on different Wilson chains, and NRG results with respect to the
+scattering matrix.

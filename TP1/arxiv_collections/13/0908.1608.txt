@@ -1,0 +1,13 @@
+In this paper, we give polynomial-time algorithms that can take a graph G
+with a given combinatorial embedding on an orientable surface S of genus g and
+produce a planar drawing of G in R^2, with a bounding face defined by a
+polygonal schema P for S. Our drawings are planar, but they allow for multiple
+copies of vertices and edges on P's boundary, which is a common way of
+visualizing higher-genus graphs in the plane. Our drawings can be defined with
+respect to either a canonical polygonal schema or a polygonal cutset schema,
+which provides an interesting tradeoff, since canonical schemas have fewer
+sides, and have a nice topological structure, but they can have many more
+repeated vertices and edges than general polygonal cutsets. As a side note, we
+show that it is NP-complete to determine whether a given graph embedded in a
+genus-g surface has a set of 2g fundamental cycles with vertex-disjoint
+interiors, which would be desirable from a graph-drawing perspective.

@@ -1,0 +1,12 @@
+We develop, analyze and experiment with a new tool, called MADMX, which
+extracts frequent motifs, possibly including don't care characters, from
+biological sequences. We introduce density, a simple and flexible measure for
+bounding the number of don't cares in a motif, defined as the ratio of solid
+(i.e., different from don't care) characters to the total length of the motif.
+By extracting only maximal dense motifs, MADMX reduces the output size and
+improves performance, while enhancing the quality of the discoveries. The
+efficiency of our approach relies on a newly defined combining operation,
+dubbed fusion, which allows for the construction of maximal dense motifs in a
+bottom-up fashion, while avoiding the generation of nonmaximal ones. We provide
+experimental evidence of the efficiency and the quality of the motifs returned
+by MADMX

@@ -1,0 +1,20 @@
+Search auctions have become a dominant source of revenue generation on the
+Internet. Such auctions have typically used per-click bidding and pricing. We
+propose the use of hybrid auctions where an advertiser can make a
+per-impression as well as a per-click bid, and the auctioneer then chooses one
+of the two as the pricing mechanism. We assume that the advertiser and the
+auctioneer both have separate beliefs (called priors) on the click-probability
+of an advertisement. We first prove that the hybrid auction is truthful,
+assuming that the advertisers are risk-neutral. We then show that this auction
+is superior to the existing per-click auction in multiple ways: 1) It takes
+into account the risk characteristics of the advertisers. 2) For obscure
+keywords, the auctioneer is unlikely to have a very sharp prior on the
+click-probabilities. In such situations, the hybrid auction can result in
+significantly higher revenue. 3) An advertiser who believes that its
+click-probability is much higher than the auctioneer's estimate can use
+per-impression bids to correct the auctioneer's prior without incurring any
+extra cost. 4) The hybrid auction can allow the advertiser and auctioneer to
+implement complex dynamic programming strategies. As Internet commerce matures,
+we need more sophisticated pricing models to exploit all the information held
+by each of the participants. We believe that hybrid auctions could be an
+important step in this direction.

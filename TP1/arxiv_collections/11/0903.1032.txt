@@ -1,0 +1,15 @@
+Local reasoning about programs exploits the natural local behaviour common in
+programs by focussing on the footprint - that part of the resource accessed by
+the program. We address the problem of formally characterising and analysing
+the footprint notion for abstract local functions introduced by Calcagno, O
+Hearn and Yang. With our definition, we prove that the footprints are the only
+essential elements required for a complete specification of a local function.
+We formalise the notion of small specifications in local reasoning and show
+that for well-founded resource models, a smallest specification always exists
+that only includes the footprints, and also present results for the
+non-well-founded case. Finally, we use this theory of footprints to investigate
+the conditions under which the footprints correspond to the smallest safe
+states. We present a new model of RAM in which, unlike the standard model, the
+footprints of every program correspond to the smallest safe states, and we also
+identify a general condition on the primitive commands of a programming
+language which guarantees this property for arbitrary models.

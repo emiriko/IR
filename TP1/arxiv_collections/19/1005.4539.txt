@@ -1,0 +1,18 @@
+This paper presents an average case denoising performance analysis for the
+Subspace Pursuit (SP), the CoSaMP and the IHT algorithms. This analysis
+considers the recovery of a noisy signal, with the assumptions that (i) it is
+corrupted by an additive random white Gaussian noise; and (ii) it has a
+K-sparse representation with respect to a known dictionary D. The proposed
+analysis is based on the Restricted-Isometry-Property (RIP), establishing a
+near-oracle performance guarantee for each of these algorithms. The results for
+the three algorithms differ in the bounds' constants and in the cardinality
+requirement (the upper bound on $K$ for which the claim is true).
+  Similar RIP-based analysis was carried out previously for the Dantzig
+Selector (DS) and the Basis Pursuit (BP). Past work also considered a
+mutual-coherence-based analysis of the denoising performance of the DS, BP, the
+Orthogonal Matching Pursuit (OMP) and the thresholding algorithms. This work
+differs from the above as it addresses a different set of algorithms. Also,
+despite the fact that SP, CoSaMP, and IHT are greedy-like methods, the
+performance guarantees developed in this work resemble those obtained for the
+relaxation-based methods (DS and BP), suggesting that the performance is
+independent of the sparse representation entries contrast and magnitude.

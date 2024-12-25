@@ -1,0 +1,16 @@
+We present a detailed description of an architecture for fault-tolerant
+quantum computation, which is based on the cluster model of encoded qubits. In
+this cluster-based architecture, concatenated computation is implemented in a
+quite different way from the usual circuit-based architecture where physical
+gates are recursively replaced by logical gates with error-correction gadgets.
+Instead, some relevant cluster states, say fundamental clusters, are
+recursively constructed through verification and postselection in advance for
+the higher-level one-way computation, which namely provides error-precorrection
+of gate operations. A suitable code such as the Steane seven-qubit code is
+adopted for transversal operations. This concatenated construction of verified
+fundamental clusters has a simple transversal structure of logical errors, and
+achieves a high noise threshold ~ 3 % for computation by using appropriate
+verification procedures. Since the postselection is localized within each
+fundamental cluster with the help of deterministic bare controlled-Z gates
+without verification, divergence of resources is restrained, which reconciles
+postselection with scalability.

@@ -1,0 +1,19 @@
+One of the main drawbacks while implementing the interaction between a plant
+and a supervisor, synthesised by the supervisory control theory of
+\citeauthor{RW:1987}, is the inexact synchronisation. \citeauthor{balemiphdt}
+was the first to consider this problem, and the solutions given in his PhD
+thesis were in the domain of automata theory. Our goal is to address the issue
+of inexact synchronisation in a process algebra setting, because we get
+concepts like modularity and abstraction for free, which are useful to further
+analyze the synthesised system. In this paper, we propose four methods to check
+a closed loop system in an asynchronous setting such that it is branching
+bisimilar to the modified (asynchronous) closed loop system. We modify a given
+closed loop system by introducing buffers either in the plant models, the
+supervisor models, or the output channels of both supervisor and plant models,
+or in the input channels of both supervisor and plant models. A notion of
+desynchronisable closed loop system is introduced, which is a class of
+synchronous closed loop systems such that they are branching bisimilar to their
+corresponding asynchronous versions. Finally we study different case studies in
+an asynchronous setting and then try to summarise the observations (or
+conditions) which will be helpful in order to formulate a theory of
+desynchronisable closed loop systems.

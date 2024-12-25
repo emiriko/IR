@@ -1,0 +1,9 @@
+Previous work shows request tracing systems help understand and debug the
+performance problems of multi-tier services. However, for large-scale data
+centers, more than hundreds of thousands of service instances provide online
+service at the same time. Previous work such as white-box or black box tracing
+systems will produce large amount of log data, which would be correlated into
+large quantities of causal paths for performance debugging. In this paper, we
+propose an innovative algorithm to eliminate valueless logs of multitiers
+services. Our experiment shows our method filters 84% valueless causal paths
+and is promising to be used in large-scale data centers.

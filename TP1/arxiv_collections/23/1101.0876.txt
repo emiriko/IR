@@ -1,0 +1,11 @@
+We implemented a GPU based parallel code to perform Monte Carlo simulations
+of the two dimensional q-state Potts model. The algorithm is based on a
+checkerboard update scheme and assigns independent random numbers generators to
+each thread. The implementation allows to simulate systems up to ~10^9 spins
+with an average time per spin flip of 0.147ns on the fastest GPU card tested,
+representing a speedup up to 155x, compared with an optimized serial code
+running on a high-end CPU. The possibility of performing high speed simulations
+at large enough system sizes allowed us to provide a positive numerical
+evidence about the existence of metastability on very large systems based on
+Binder's criterion, namely, on the existence or not of specific heat
+singularities at spinodal temperatures different of the transition one.

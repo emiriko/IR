@@ -1,0 +1,20 @@
+The description of realistic strongly correlated systems has recently
+advanced through the combination of density functional theory in the local
+density approximation (LDA) and dynamical mean field theory (DMFT). This
+LDA+DMFT method is able to treat both strongly correlated insulators and
+metals. Several interfaces between LDA and DMFT have been used, such as (N-th
+order) Linear Muffin Tin Orbitals or Maximally localized Wannier Functions.
+Such schemes are however either complex in use or additional simplifications
+are often performed (i.e., the atomic sphere approximation). We present an
+alternative implementation of LDA+DMFT, which keeps the precision of the
+Wannier implementation, but which is lighter. It relies on the projection of
+localized orbitals onto a restricted set of Kohn-Sham states to define the
+correlated subspace. The method is implemented within the Projector Augmented
+Wave (PAW) and within the Mixed Basis Pseudopotential (MBPP) frameworks. This
+opens the way to electronic structure calculations within LDA+DMFT for more
+complex structures with the precision of an all-electron method. We present an
+application to two correlated systems, namely SrVO3 and beta-NiS (a
+charge-transfer material), including ligand states in the basis-set. The
+results are compared to calculations done with Maximally Localized Wannier
+functions, and the physical features appearing in the orbitally resolved
+spectral functions are discussed.

@@ -1,0 +1,11 @@
+The relationships between various equivalences on configuration structures,
+including interleaving bisimulation (IB), step bisimulation (SB) and hereditary
+history-preserving (HH) bisimulation, have been investigated by van Glabbeek
+and Goltz (and later Fecher). Since HH bisimulation may be characterised by the
+use of reverse as well as forward transitions, it is of interest to investigate
+forms of IB and SB where both forward and reverse transitions are allowed. We
+give various characterisations of reverse SB, showing that forward steps do not
+add extra power. We strengthen Bednarczyk's result that, in the absence of
+auto-concurrency, reverse IB is as strong as HH bisimulation, by showing that
+we need only exclude auto-concurrent events at the same depth in the
+configuration.

@@ -1,0 +1,18 @@
+A single queue incorporating a retransmission protocol is investigated,
+assuming that the sequence of per effort success probabilities in the Automatic
+Retransmission reQuest (ARQ) chain is a priori defined and no channel state
+information at the transmitter is available. A Markov Decision Problem with an
+average cost criterion is formulated where the possible actions are to either
+continue the retransmission process of an erroneous packet at the next time
+slot or to drop the packet and move on to the next packet awaiting for
+transmission. The cost per slot is a linear combination of the current queue
+length and a penalty term in case dropping is chosen as action. The
+investigation seeks policies that provide the best possible average packet
+delay-dropping trade-off for Quality of Service guarantees. An optimal
+deterministic stationary policy is shown to exist, several structural
+properties of which are obtained. Based on that, a class of suboptimal
+<L,K>-policies is introduced. These suggest that it is almost optimal to use a
+K-truncated ARQ protocol as long as the queue length is lower than L, else send
+all packets in one shot. The work concludes with an evaluation of the optimal
+delay-dropping tradeoff using dynamic programming and a comparison between the
+optimal and suboptimal policies.

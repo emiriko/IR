@@ -1,0 +1,15 @@
+We describe a new approach to fit the polyhedron describing a 3D building
+model to the point cloud of a Digital Elevation Model (DEM). We introduce a new
+kinetic framework that hides to its user the combinatorial complexity of
+determining or maintaining the polyhedron topology, allowing the design of a
+simple variational optimization. This new kinetic framework allows the
+manipulation of a bounded polyhedron with simple faces by specifying the target
+plane equations of each of its faces. It proceeds by evolving continuously from
+the polyhedron defined by its initial topology and its initial plane equations
+to a polyhedron that is as topologically close as possible to the initial
+polyhedron but with the new plane equations. This kinetic framework handles
+internally the necessary topological changes that may be required to keep the
+faces simple and the polyhedron bounded. For each intermediate configurations
+where the polyhedron looses the simplicity of its faces or its boundedness, the
+simplest topological modification that is able to reestablish the simplicity
+and the boundedness is performed.

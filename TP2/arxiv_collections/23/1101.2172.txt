@@ -1,0 +1,17 @@
+The Saratoga transfer protocol was developed by Surrey Satellite Technology
+Ltd (SSTL) for its Disaster Monitoring Constellation (DMC) satellites. In over
+seven years of operation, Saratoga has provided efficient delivery of
+remote-sensing Earth observation imagery, across private wireless links, from
+these seven low-orbit satellites to ground stations, using the Internet
+Protocol (IP). Saratoga is designed to cope with high bandwidth-delay products,
+constrained acknowledgement channels, and high loss while streaming or
+delivering extremely large files. An implementation of this protocol has now
+been developed at the Australian Commonwealth Scientific and Industrial
+Research Organisation (CSIRO) for wider use and testing. This is intended to
+prototype delivery of data across dedicated astronomy radio telescope networks
+on the ground, where networked sensors in Very Long Baseline Interferometer
+(VLBI) instruments generate large amounts of data for processing and can send
+that data across private IP- and Ethernet-based links at very high rates. We
+describe this new Saratoga implementation, its features and focus on high
+throughput and link utilization, and lessons learned in developing this
+protocol for sensor-network applications.

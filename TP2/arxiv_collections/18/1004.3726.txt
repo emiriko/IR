@@ -1,0 +1,15 @@
+Our purpose is to model the dependence between two random variables, taking
+into account a priori knowledge on these variables. For example, in many
+applications (oceanography, finance...), there exists an order relation between
+the two variables; when one takes high values, the other cannot take low
+values, but the contrary is possible. The dependence for the high values of the
+two variables is, therefore, not symmetric.
+  However a minimal dependence also exists: low values of one variable are
+associated with low values of the other variable. The dependence can also be
+extreme for the maxima or the minima of the two variables. In this paper, we
+construct step by step asymmetric copulas with asymptotic minimal dependence,
+and with or without asymptotic maximal dependence, using mixture variables to
+get at first asymmetric dependence and then minimal dependence. We fit these
+models to a real dataset of sea states and compare them using Likelihood Ratio
+Tests when they are nested, and BIC- criterion (Bayesian Information criterion)
+otherwise.

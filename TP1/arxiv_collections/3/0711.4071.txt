@@ -1,0 +1,14 @@
+This paper specifies an observational semantics and gives an original
+presentation of the Byrd box model. The approach accounts for the semantics of
+Prolog tracers independently of a particular Prolog implementation. Prolog
+traces are, in general, considered as rather obscure and difficult to use. The
+proposed formal presentation of its trace constitutes a simple and pedagogical
+approach for teaching Prolog or for implementing Prolog tracers. It is a form
+of declarative specification for the tracers. The trace model introduced here
+is only one example to illustrate general problems relating to tracers and
+observing processes. Observing processes know, from observed processes, only
+their traces. The issue is then to be able to reconstitute, by the sole
+analysis of the trace, part of the behaviour of the observed process, and if
+possible, without any loss of information. As a matter of fact, our approach
+highlights qualities of the Prolog resolution box model which made its success,
+but also its insufficiencies.

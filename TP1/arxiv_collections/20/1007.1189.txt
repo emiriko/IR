@@ -1,0 +1,11 @@
+This paper presents a simple local medium access control protocol, called
+\textsc{Jade}, for multi-hop wireless networks with a single channel that is
+provably robust against adaptive adversarial jamming. The wireless network is
+modeled as a unit disk graph on a set of nodes distributed arbitrarily in the
+plane. In addition to these nodes, there are adversarial jammers that know the
+protocol and its entire history and that are allowed to jam the wireless
+channel at any node for an arbitrary $(1-\epsilon)$-fraction of the time steps,
+where $0<\epsilon<1$ is an arbitrary constant. We assume that the nodes cannot
+distinguish between jammed transmissions and collisions of regular messages.
+Nevertheless, we show that \textsc{Jade} achieves an asymptotically optimal
+throughput if there is a sufficiently dense distribution of nodes.

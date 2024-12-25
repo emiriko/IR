@@ -1,0 +1,20 @@
+We analyze the phenomenon of collusion for the purpose of boosting the
+pagerank of a node in an interlinked environment. We investigate the optimal
+attack pattern for a group of nodes (attackers) attempting to improve the
+ranking of a specific node (the victim). We consider attacks where the
+attackers can only manipulate their own outgoing links. We show that the
+optimal attacks in this scenario are uncoordinated, i.e. the attackers link
+directly to the victim and no one else. nodes do not link to each other. We
+also discuss optimal attack patterns for a group that wants to hide itself by
+not pointing directly to the victim. In these disguised attacks, the attackers
+link to nodes $l$ hops away from the victim. We show that an optimal disguised
+attack exists and how it can be computed. The optimal disguised attack also
+allows us to find optimal link farm configurations. A link farm can be
+considered a special case of our approach: the target page of the link farm is
+the victim and the other nodes in the link farm are the attackers for the
+purpose of improving the rank of the victim. The target page can however
+control its own outgoing links for the purpose of improving its own rank, which
+can be modeled as an optimal disguised attack of 1-hop on itself. Our results
+are unique in the literature as we show optimality not only in the pagerank
+score, but also in the rank based on the pagerank score. We further validate
+our results with experiments on a variety of random graph models.

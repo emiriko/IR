@@ -1,0 +1,15 @@
+An $r$-graph $G$ is a pair $(V,E)$ such that $V$ is a set and $E$ is a family
+of $r$-element subsets of $V$. The \emph{independence number} $\alpha(G)$ of
+$G$ is the size of a largest subset $I$ of $V$ such that no member of $E$ is a
+subset of $I$. The \emph{transversal number} $\tau(G)$ of $G$ is the size of a
+smallest subset $T$ of $V$ that intersects each member of $E$. $G$ is said to
+be \emph{connected} if for every distinct $v$ and $w$ in $V$ there exists a
+\emph{path} from $v$ to $w$ (that is, a sequence $e_1, \dots, e_p$ of members
+of $E$ such that $v \in e_1$, $w \in e_p$, and if $p \geq 2$, then for each $i
+\in \{1, \dots, p-1\}$, $e_i$ intersects $e_{i+1}$). The \emph{degree} of a
+member $v$ of $V$ is the number of members of $E$ that contain $v$. The maximum
+of the degrees of the members of $V$ is denoted by $\Delta(G)$. We show that
+for any $1 \leq k < n$, if $G = (V,E)$ is a connected $r$-graph, $|V| = n$, and
+$\Delta(G) = k$, then \[\alpha(G) \leq n - \left \lceil \frac{n-1}{k(r-1)}
+\right \rceil, \quad \tau(G) \geq \left \lceil \frac{n-1}{k(r-1)} \right
+\rceil,\] and these bounds are sharp. The two bounds are equivalent.

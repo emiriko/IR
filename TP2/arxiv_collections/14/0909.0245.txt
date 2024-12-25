@@ -1,0 +1,14 @@
+The intent of the H.264 AVC project was to create a standard capable of
+providing good video quality at substantially lower bit rates than previous
+standards without increasing the complexity of design so much that it would be
+impractical or excessively expensive to implement. An additional goal was to
+provide enough flexibility to allow the standard to be applied to a wide
+variety of applications. To achieve better coding efficiency, H.264 AVC uses
+several techniques such as inter mode and intra mode prediction with variable
+size motion compensation, which adopts Rate Distortion Optimization (RDO). This
+increases the computational complexity of the encoder especially for devices
+with lower processing capabilities such as mobile and other handheld devices.
+In this paper, we propose an algorithm to reduce the number of mode and sub
+mode evaluations in inter mode prediction. Experimental results show that this
+fast intra mode selection algorithm can lessen about 75 percent encoding time
+with little loss of bit rate and visual quality.

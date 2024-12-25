@@ -1,0 +1,18 @@
+Simple games cover voting systems in which a single alternative, such as a
+bill or an amendment, is pitted against the status quo. A simple game or a
+yes-no voting system is a set of rules that specifies exactly which collections
+of ``yea'' votes yield passage of the issue at hand. A collection of ``yea''
+voters forms a winning coalition.
+  We are interested on performing a complexity analysis of problems on such
+games depending on the game representation. We consider four natural explicit
+representations, winning, loosing, minimal winning, and maximal loosing. We
+first analyze the computational complexity of obtaining a particular
+representation of a simple game from a different one. We show that some cases
+this transformation can be done in polynomial time while the others require
+exponential time. The second question is classifying the complexity for testing
+whether a game is simple or weighted. We show that for the four types of
+representation both problem can be solved in polynomial time. Finally, we
+provide results on the complexity of testing whether a simple game or a
+weighted game is of a special type. In this way, we analyze strongness,
+properness, decisiveness and homogeneity, which are desirable properties to be
+fulfilled for a simple game.

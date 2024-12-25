@@ -1,0 +1,23 @@
+Understanding the organization of reaction fluxes in cellular metabolism from
+the stoichiometry and the topology of the underlying biochemical network is a
+central issue in systems biology. In this task, it is important to devise
+reasonable approximation schemes that rely on the stoichiometric data only,
+because full-scale kinetic approaches are computationally affordable only for
+small networks (e.g. red blood cells, about 50 reactions). Methods commonly
+employed are based on finding the stationary flux configurations that satisfy
+mass-balance conditions for metabolites, often coupling them to local
+optimization rules (e.g. maximization of biomass production) to reduce the size
+of the solution space to a single point. Such methods have been widely applied
+and have proven able to reproduce experimental findings for relatively simple
+organisms in specific conditions. Here we define and study a constraint-based
+model of cellular metabolism where neither mass balance nor flux stationarity
+are postulated, and where the relevant flux configurations optimize the global
+growth of the system. In the case of E. coli, steady flux states are recovered
+as solutions, though mass-balance conditions are violated for some metabolites,
+implying a non-zero net production of the latter. Such solutions furthermore
+turn out to provide the correct statistics of fluxes for the bacterium E. coli
+in different environments and compare well with the available experimental
+evidence on individual fluxes. Conserved metabolic pools play a key role in
+determining growth rate and flux variability. Finally, we are able to connect
+phenomenological gene essentiality with `frozen' fluxes (i.e. fluxes with
+smaller allowed variability) in E. coli metabolism.

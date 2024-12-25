@@ -1,0 +1,22 @@
+The current trend of multicore architectures on shared memory systems
+underscores the need of parallelism. While there are some programming model to
+express parallelism, thread programming model has become a standard to support
+these system such as OpenMP, and POSIX threads. MPI (Message Passing Interface)
+which remains the dominant model used in high-performance computing today faces
+this challenge.
+  Previous version of MPI which is MPI-1 has no shared memory concept, and
+Current MPI version 2 which is MPI-2 has a limited support for shared memory
+systems. In this research, MPI-2 version of MPI will be compared with OpenMP to
+see how well does MPI perform on multicore / SMP (Symmetric Multiprocessor)
+machines.
+  Comparison between OpenMP for thread programming model and MPI for message
+passing programming model will be conducted on multicore shared memory machine
+architectures to see who has a better performance in terms of speed and
+throughput. Application used to assess the scalability of the evaluated
+parallel programming solutions is matrix multiplication with customizable
+matrix dimension.
+  Many research done on a large scale parallel computing which using high scale
+benchmark such as NSA Parallel Benchmark (NPB) for their testing standarization
+[1]. This research will be conducted on a small scale parallel computing that
+emphasize more on the performance evaluation between MPI and OpenMPI parallel
+programming model using self created benchmark.

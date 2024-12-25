@@ -1,0 +1,21 @@
+Software obfuscation or obscuring a software is an approach to defeat the
+practice of reverse engineering a software for using its functionality
+illegally in the development of another software. Java applications are more
+amenable to reverse engineering and re-engineering attacks through methods such
+as decompilation because Java class files store the program in a semi complied
+form called 'byte' codes. The existing obfuscation systems obfuscate the Java
+class files. Obfuscated source code produce obfuscated byte codes and hence two
+level obfuscation (source code and byte code level) of the program makes it
+more resilient to reverse engineering attacks. But source code obfuscation is
+much more difficult due to richer set of programming constructs and the scope
+of the different variables used in the program and only very little progress
+has been made on this front. Hence programmers resort to adhoc manual ways of
+obscuring their program which makes it difficult for its maintenance and
+usability. To address this issue partially, we developed a user friendly tool
+JDATATRANS to obfuscate Java source code by obscuring the array usages. Using
+various array restructuring techniques such as 'array splitting', 'array
+folding' and 'array flattening', in addition to constant hiding, our system
+obfuscate the input Java source code and produce an obfuscated Java source code
+that is functionally equivalent to the input program. We also perform a number
+of experiments to measure the potency, resilience and cost incurred by our
+tool.

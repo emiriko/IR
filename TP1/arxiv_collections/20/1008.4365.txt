@@ -1,0 +1,20 @@
+Each day, anti-virus companies receive tens of thousands samples of
+potentially harmful executables. Many of the malicious samples are variations
+of previously encountered malware, created by their authors to evade
+pattern-based detection. Dealing with these large amounts of data requires
+robust, automatic detection approaches. This paper studies malware
+classification based on call graph clustering. By representing malware samples
+as call graphs, it is possible to abstract certain variations away, and enable
+the detection of structural similarities between samples. The ability to
+cluster similar samples together will make more generic detection techniques
+possible, thereby targeting the commonalities of the samples within a cluster.
+To compare call graphs mutually, we compute pairwise graph similarity scores
+via graph matchings which approximately minimize the graph edit distance. Next,
+to facilitate the discovery of similar malware samples, we employ several
+clustering algorithms, including k-medoids and DBSCAN. Clustering experiments
+are conducted on a collection of real malware samples, and the results are
+evaluated against manual classifications provided by human malware analysts.
+Experiments show that it is indeed possible to accurately detect malware
+families via call graph clustering. We anticipate that in the future, call
+graphs can be used to analyse the emergence of new malware families, and
+ultimately to automate implementation of generic detection schemes.

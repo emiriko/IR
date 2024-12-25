@@ -1,0 +1,14 @@
+This project "Software Oriented Data Monitoring System" deals with real time
+monitoring of patients' parameters like body temperature, heart rate etc. The
+parameters are checked at regular intervals and Short Messaging Service (SMS)
+is sent to concerned doctor regarding the measured values. If the obtained
+parameters are above or below critical values, an alert SMS is also sent to the
+concerned doctor. This system is very much useful in hospitals, which saves the
+valuable time of the doctor who otherwise will have to monitor the patients
+throughout the day. Here the analog data from the sensors is first converted
+into digital form and is fed to the parallel port of the computer. This data
+obtained is converted into useful parameters, which is monitored and checked
+for safe limits. Appropriate SMS is sent to the doctor depending on whether the
+request is from an alert or routine signal. This is possible by interfacing a
+mobile phone (Siemens c35i) to the serial port of the computer. The SMS is sent
+from the computer using proper AT commands.

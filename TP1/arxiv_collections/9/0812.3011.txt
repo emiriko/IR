@@ -1,0 +1,20 @@
+The large-scale properties of chemical reaction systems, such as the
+metabolism, can be studied with graph-based methods. To do this, one needs to
+reduce the information -- lists of chemical reactions -- available in
+databases. Even for the simplest type of graph representation, this reduction
+can be done in several ways. We investigate different simple network
+representations by testing how well they encode information about one
+biologically important network structure -- network modularity (the propensity
+for edges to be cluster into dense groups that are sparsely connected between
+each other). To reach this goal, we design a model of reaction-systems where
+network modularity can be controlled and measure how well the reduction to
+simple graphs capture the modular structure of the model reaction system. We
+find that the network types that best capture the modular structure of the
+reaction system are substrate-product networks (where substrates are linked to
+products of a reaction) and substance networks (with edges between all
+substances participating in a reaction). Furthermore, we argue that the
+proposed model for reaction systems with tunable clustering is a general
+framework for studies of how reaction-systems are affected by modularity. To
+this end, we investigate statistical properties of the model and find, among
+other things, that it recreate correlations between degree and mass of the
+molecules.

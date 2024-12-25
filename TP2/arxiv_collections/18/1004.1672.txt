@@ -1,0 +1,15 @@
+We present a new parameterized algorithm for the {feedback vertex set}
+problem ({\sc fvs}) on undirected graphs. We approach the problem by
+considering a variation of it, the {disjoint feedback vertex set} problem ({\sc
+disjoint-fvs}), which finds a feedback vertex set of size $k$ that has no
+overlap with a given feedback vertex set $F$ of the graph $G$. We develop an
+improved kernelization algorithm for {\sc disjoint-fvs} and show that {\sc
+disjoint-fvs} can be solved in polynomial time when all vertices in $G
+\setminus F$ have degrees upper bounded by three. We then propose a new
+branch-and-search process on {\sc disjoint-fvs}, and introduce a new
+branch-and-search measure. The process effectively reduces a given graph to a
+graph on which {\sc disjoint-fvs} becomes polynomial-time solvable, and the new
+measure more accurately evaluates the efficiency of the process. These
+algorithmic and combinatorial studies enable us to develop an
+$O^*(3.83^k)$-time parameterized algorithm for the general {\sc fvs} problem,
+improving all previous algorithms for the problem.

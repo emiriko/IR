@@ -1,0 +1,8 @@
+The simulation of a protein's folding process is often done via stochastic
+local search, which requires a procedure to apply structural changes onto a
+given conformation. Here, we introduce a constraint-based approach to enumerate
+lattice protein structures according to k-local moves in arbitrary lattices.
+Our declarative description is much more flexible for extensions than standard
+operational formulations. It enables a generic calculation of k-local neighbors
+in backbone-only and side chain models. We exemplify the procedure using a
+simple hierarchical folding scheme.

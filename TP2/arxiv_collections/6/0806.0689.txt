@@ -1,0 +1,20 @@
+In block-matching motion estimation (BMME), the search patterns have a
+significant impact on the algorithm's performance, both the search speed and
+the search quality. The search pattern should be designed to fit the motion
+vector probability (MVP) distribution characteristics of the real-world
+sequences. In this paper, we build a directional model of MVP distribution to
+describe the directional-center-biased characteristic of the MVP distribution
+and the directional characteristics of the conditional MVP distribution more
+exactly based on the detailed statistical data of motion vectors of eighteen
+popular sequences. Three directional search patterns are firstly designed by
+utilizing the directional characteristics and they are the smallest search
+patterns among the popular ones. A new algorithm is proposed using the
+horizontal cross search pattern as the initial step and the horizontal/vertical
+diamond search pattern as the subsequent step for the fast BMME, which is
+called the directional cross diamond search (DCDS) algorithm. The DCDS
+algorithm can obtain the motion vector with fewer search points than CDS, DS or
+HEXBS while maintaining the similar or even better search quality. The gain on
+speedup of DCDS over CDS or DS can be up to 54.9%. The simulation results show
+that DCDS is efficient, effective and robust, and it can always give the faster
+search speed on different sequences than other fast block-matching algorithm in
+common use.

@@ -1,0 +1,13 @@
+The kinetics of collective rearrangements in solution, such as protein
+folding and nanocrystal phase transitions, often involve free energy barriers
+that are both long and rough. Applying methods of transition path sampling to
+harvest simulated trajectories that exemplify such processes is typically made
+difficult by a very low acceptance rate for newly generated trajectories. We
+address this problem by introducing a new generation algorithm based on the
+linear short-time behavior of small disturbances in phase space. Using this
+``precision shooting'' technique, arbitrarily small disturbances can be
+propagated in time, and any desired acceptance ratio of shooting moves can be
+obtained. We demonstrate the method for a simple but computationally
+problematic isomerization process in a dense liquid of soft spheres. We also
+discuss its applicability to barrier crossing events involving metastable
+intermediate states.

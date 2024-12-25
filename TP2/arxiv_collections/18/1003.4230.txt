@@ -1,0 +1,15 @@
+We present a new technique to fit color-magnitude diagrams of open clusters
+based on the Cross-Entropy global optimization algorithm. The method uses
+theoretical isochrones available in the literature and maximizes a weighted
+likelihood function based on distances measured in the color-magnitude space.
+The weights are obtained through a non parametric technique that takes into
+account the star distance to the observed center of the cluster, observed
+magnitude uncertainties, the stellar density profile of the cluster among
+others. The parameters determined simultaneously are distance, reddening, age
+and metallicity. The method takes binary fraction into account and uses a
+Monte-Carlo approach to obtain uncertainties on the determined parameters for
+the cluster by running the fitting algorithm many times with a re-sampled data
+set through a bootstrapping procedure. We present results for 9 well studied
+open clusters, based on 15 distinct data sets, and show that the results are
+consistent with previous studies. The method is shown to be reliable and free
+of the subjectivity of most previous visual isochrone fitting techniques.

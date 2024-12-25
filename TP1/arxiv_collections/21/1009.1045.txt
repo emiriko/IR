@@ -1,0 +1,19 @@
+The path integral molecular dynamics (PIMD) method provides a convenient way
+to compute the quantum mechanical structural and thermodynamic properties of
+condensed phase systems at the expense of introducing an additional set of
+high-frequency normal modes on top of the physical vibrations of the system.
+Efficiently sampling such a wide range of frequencies provides a considerable
+thermostatting challenge. Here we introduce a simple stochastic path integral
+Langevin equation (PILE) thermostat which exploits an analytic knowledge of the
+free path integral normal mode frequencies. We also apply a recently-developed
+colored-noise thermostat based on a generalized Langevin equation (GLE), which
+automatically achieves a similar, frequency-optimized sampling. The sampling
+efficiencies of these thermostats are compared with that of the more
+conventional Nos\'e-Hoover chain (NHC) thermostat for a number of physically
+relevant properties of the liquid water and hydrogen-in-palladium systems. In
+nearly every case, the new PILE thermostat is found to perform just as well as
+the NHC thermostat while allowing for a computationally more efficient
+implementation. The GLE thermostat also proves to be very robust delivering a
+near-optimum sampling efficiency in all of the cases considered. We suspect
+that these simple stochastic thermostats will therefore find useful application
+in many future PIMD simulations.

@@ -1,0 +1,22 @@
+Many database applications perform complex data retrieval and update tasks.
+Nested queries, and queries that invoke user-defined functions, which are
+written using a mix of procedural and SQL constructs, are often used in such
+applications. A straight-forward evaluation of such queries involves repeated
+execution of parameterized sub-queries or blocks containing queries and
+procedural code.
+  An important problem that arises while optimizing nested queries as well as
+queries with joins, aggregates and set operations is the problem of finding an
+optimal sort order from a factorial number of possible sort orders. We show
+that even a special case of this problem is NP-Hard, and present practical
+heuristics that are effective and easy to incorporate in existing query
+optimizers.
+  We also consider iterative execution of queries and updates inside complex
+procedural blocks such as user-defined functions and stored procedures.
+Parameter batching is an important means of improving performance as it enables
+set-orientated processing. The key challenge to parameter batching lies in
+rewriting a given procedure/function to process a batch of parameter values. We
+propose a solution, based on program analysis and rewrite rules, to automate
+the generation of batched forms of procedures and replace iterative database
+calls within imperative loops with a single call to the batched form.
+  We present experimental results for the proposed techniques, and the results
+show significant gains in performance.

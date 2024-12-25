@@ -1,0 +1,16 @@
+Decoding of linear space-time block codes (STBCs) with sphere-decoding (SD)
+is well known. A fast-version of the SD known as fast sphere decoding (FSD) has
+been recently studied by Biglieri, Hong and Viterbo. Viewing a linear STBC as a
+vector space spanned by its defining weight matrices over the real number
+field, we define a quadratic form (QF), called the Hurwitz-Radon QF (HRQF), on
+this vector space and give a QF interpretation of the FSD complexity of a
+linear STBC. It is shown that the FSD complexity is only a function of the
+weight matrices defining the code and their ordering, and not of the channel
+realization (even though the equivalent channel when SD is used depends on the
+channel realization) or the number of receive antennas. It is also shown that
+the FSD complexity is completely captured into a single matrix obtained from
+the HRQF. Moreover, for a given set of weight matrices, an algorithm to obtain
+a best ordering of them leading to the least FSD complexity is presented. The
+well known classes of low FSD complexity codes (multi-group decodable codes,
+fast decodable codes and fast group decodable codes) are presented in the
+framework of HRQF.

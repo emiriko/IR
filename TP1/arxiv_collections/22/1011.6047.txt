@@ -1,0 +1,19 @@
+Concurrency has been rapidly gaining importance in general-purpose computing,
+caused by the recent turn towards multicore processing architectures. As a
+result, an increasing number of developers have to learn to write concurrent
+programs, a task that is known to be hard even for the expert. Language
+designers are therefore working on languages that promise to make concurrent
+programming "easier" than using traditional thread libraries. However, the
+claim that a new language is more usable than another cannot be supported by
+purely theoretical considerations, but calls for empirical studies. In this
+paper, we present the design of a study to compare concurrent programming
+languages with respect to comprehending and debugging existing programs and
+writing correct new programs. A critical challenge for such a study is avoiding
+the bias that might be introduced during the training phase and when
+interpreting participants' solutions. We address these issues by the use of
+self-study material and an evaluation scheme that exposes any subjective
+decisions of the corrector, or eliminates them altogether. We apply our design
+to a comparison of two object-oriented languages for concurrency, multithreaded
+Java and SCOOP (Simple Concurrent Object-Oriented Programming), in an academic
+setting. We obtain results in favor of SCOOP even though the study participants
+had previous training in Java Threads.

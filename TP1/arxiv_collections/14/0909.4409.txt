@@ -1,0 +1,14 @@
+Clustering large spatial databases is an important problem, which tries to
+find the densely populated regions in a spatial area to be used in data mining,
+knowledge discovery, or efficient information retrieval. However most
+algorithms have ignored the fact that physical obstacles such as rivers, lakes,
+and highways exist in the real world and could thus affect the result of the
+clustering. In this paper, we propose CPO, an efficient clustering technique to
+solve the problem of clustering in the presence of obstacles. The proposed
+algorithm divides the spatial area into rectangular cells. Each cell is
+associated with statistical information used to label the cell as dense or
+non-dense. It also labels each cell as obstructed (i.e. intersects any
+obstacle) or nonobstructed. For each obstructed cell, the algorithm finds a
+number of non-obstructed sub-cells. Then it finds the dense regions of
+non-obstructed cells or sub-cells by a breadthfirst search as the required
+clusters with a center to each region.

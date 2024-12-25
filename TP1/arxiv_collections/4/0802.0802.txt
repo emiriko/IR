@@ -1,0 +1,21 @@
+We propose skewed stable random projections for approximating the pth
+frequency moments of dynamic data streams (0<p<=2), which has been frequently
+studied in theoretical computer science and database communities. Our method
+significantly (or even infinitely when p->1) improves previous methods based on
+(symmetric) stable random projections.
+  Our proposed method is applicable to data streams that are (a) insertion only
+(the cash-register model); or (b) always non-negative (the strict Turnstile
+model), or (c) eventually non-negative at check points. This is only a minor
+restriction for practical applications.
+  Our method works particularly well when p = 1+/- \Delta and \Delta is small,
+which is a practically important scenario. For example, \Delta may be the decay
+rate or interest rate, which are usually small. Of course, when \Delta = 0, one
+can compute the 1th frequent moment (i.e., the sum) essentially error-free
+using a simple couter. Our method may be viewed as a ``genearlized counter'' in
+that it can count the total value in the future, taking in account of the
+effect of decaying or interest accruement.
+  In a summary, our contributions are two-fold. (A) This is the first propsal
+of skewed stable random projections. (B) Based on first principle, we develop
+various statistical estimators for skewed stable distributions, including their
+variances and error (tail) probability bounds, and consequently the sample
+complexity bounds.

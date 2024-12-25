@@ -1,0 +1,23 @@
+In this paper, we introduce the concept of dual universality of hash
+functions and present its applications to quantum cryptography. We begin by
+establishing the one-to-one correspondence between a linear function family
+{\cal F} and a code family {\cal C}, and thereby defining \varepsilon-almost
+dual universal_2 hash functions, as a generalization of the conventional
+universal_2 hash functions. Then we show that this generalized (and thus
+broader) class of hash functions is in fact sufficient for the security of
+quantum cryptography. This result can be explained in two different formalisms.
+First, by noting its relation to the \delta-biased family introduced by Dodis
+and Smith, we demonstrate that Renner's two-universal hashing lemma is
+generalized to our class of hash functions. Next, we prove that the proof
+technique by Shor and Preskill can be applied to quantum key distribution (QKD)
+systems that use our generalized class of hash functions for privacy
+amplification. While Shor-Preskill formalism requires an implementer of a QKD
+system to explicitly construct a linear code of the Calderbank-Shor-Steane
+type, this result removes the existing difficulty of the construction a linear
+code of CSS code by replacing it by the combination of an ordinary classical
+error correcting code and our proposed hash function. We also show that a
+similar result applies to the quantum wire-tap channel. Finally we compare our
+results in the two formalisms and show that, in typical QKD scenarios, the
+Shor-Preskill--type argument gives better security bounds in terms of the trace
+distance and Holevo information, than the method based on the \delta-biased
+family.

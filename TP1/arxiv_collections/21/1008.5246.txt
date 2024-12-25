@@ -1,0 +1,10 @@
+We present a simulation methodology for Bayesian estimation of rate
+parameters in Markov jump processes arising for example in stochastic kinetic
+models. To handle the problem of missing components and measurement errors in
+observed data, we embed the Markov jump process into the framework of a general
+state space model. We do not use diffusion approximations. Markov chain Monte
+Carlo and particle filter type algorithms are introduced, which allow sampling
+from the posterior distribution of the rate parameters and the Markov jump
+process also in data-poor scenarios. The algorithms are illustrated by applying
+them to rate estimation in a model for prokaryotic auto-regulation and in the
+stochastic Oregonator, respectively.

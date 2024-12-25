@@ -1,0 +1,9 @@
+A method of deriving quadrature rules has been developed which gives nodes
+and weights for a Gaussian-type rule which integrates functions of the form:
+f(x,y,t) = a(x,y,t)/((x-t)^2+y^2) + b(x,y,t)/([(x-t)^2+y^2]^{1/2}) +
+c(x,y,t)\log[(x-t)^2+y^2]^{1/2} + d(x,y,t), without having to explicitly
+analyze the singularities of $f(x,y,t)$ or separate it into its components. The
+method extends previous work on a similar technique for the evaluation of
+Cauchy principal value or Hadamard finite part integrals, in the case when
+$y\equiv0$. The method is tested by evaluating standard reference integrals and
+its error is found to be comparable to machine precision in the best case.

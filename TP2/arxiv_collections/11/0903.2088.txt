@@ -1,0 +1,10 @@
+We present authorized quantum computation, where only a user with a
+non-cloneable quantum authorization key can perform a unitary operation created
+by an authenticated programmer. The security of our authorized quantum
+computation is based on the quantum computational complexity problem of forging
+the keys from an obfuscated quantum gate sequence. Under the assumption of the
+existence of a \textit{sufficiently-random gate shuffling algorithm}, the
+problem is shown to be in the NQP (Non-deterministic Quantum Polynomial)-hard
+class by reducing it to a NQP-Complete problem, the exact non-identity check
+problem. Therefore, our authorized quantum computation can be computationally
+secure against attacks using quantum computers.

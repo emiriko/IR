@@ -1,0 +1,8 @@
+Finding feasible points for which the proof succeeds is a critical issue in
+safe Branch and Bound algorithms which handle continuous problems. In this
+paper, we introduce a new strategy to compute very accurate approximations of
+feasible points. This strategy takes advantage of the Newton method for
+under-constrained systems of equations and inequalities. More precisely, it
+exploits the optimal solution of a linear relaxation of the problem to compute
+efficiently a promising upper bound. First experiments on the Coconuts
+benchmarks demonstrate that this approach is very effective.

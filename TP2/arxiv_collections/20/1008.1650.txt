@@ -1,0 +1,10 @@
+It is known that an ordinal is the order type of the lexicographic ordering
+of a regular language if and only if it is less than omega^omega. We design a
+polynomial time algorithm that constructs, for each well-ordered regular
+language L with respect to the lexicographic ordering, given by a deterministic
+finite automaton, the Cantor Normal Form of its order type. It follows that
+there is a polynomial time algorithm to decide whether two deterministic finite
+automata accepting well-ordered regular languages accept isomorphic languages.
+We also give estimates on the size of the smallest automaton representing an
+ordinal less than omega^omega, together with an algorithm that translates each
+such ordinal to an automaton.

@@ -1,0 +1,12 @@
+A method for tuning parameters in Monte Carlo generators is described and
+applied to a specific case. The method works in the following way: each
+observable is generated several times using different values of the parameters
+to be tuned. The output is then approximated by some analytic form to describe
+the dependence of the observables on the parameters. This approximation is used
+to find the values of the parameter that give the best description of the
+experimental data. This results in significantly faster fitting compared to an
+approach in which the generator is called iteratively. As an application, we
+employ this method to fit the parameters of the unintegrated gluon density used
+in the CASCADE Monte Carlo generator, using inclusive deep inelastic data
+measured by the H1 Collaboration. We discuss the results of the fit, its
+limitations, and its strong points.

@@ -1,0 +1,22 @@
+The proprietary nature of existing Content Delivery Networks (CDNs) means
+they are closed and do not naturally cooperate. A CDN is expected to provide
+high performance Internet content delivery through global coverage, which might
+be an obstacle for new CDN providers, as well as affecting commercial viability
+of existing ones. Finding ways for distinct CDNs to coordinate and cooperate
+with other CDNs is necessary to achieve better overall service, as perceived by
+end-users, at lower cost. In this paper, we present an architecture to support
+peering arrangements between CDNs, based on a Virtual Organization (VO) model.
+Our approach promotes peering among providers, while upholding user perceived
+performance. This is achieved through proper policy management of negotiated
+Service Level Agreements (SLAs) between peers. We also present a Quality of
+Service (QoS)-driven performance modeling approach for peering CDNs in order to
+predict the user perceived performance. We show that peering between CDNs
+upholds user perceived performance by satisfying the target QoS. The
+methodology presented in this paper provides CDNs a way to dynamically
+distribute user requests to other peers according to different
+request-redirection policies. The model-based approach helps an overloaded CDN
+to return to a normal state by offloading excess requests to the peers. It also
+assists in making concrete QoS guarantee for a CDN provider. Our approach
+endeavors to achieve scalability and resource sharing among CDNs through
+effective peering in a user transparent manner, thus evolving past the current
+landscape where non-cooperative and distinct CDNs exist.

@@ -1,0 +1,18 @@
+Distributed storage infrastructures require the use of data redundancy to
+achieve high data reliability. Unfortunately, the use of redundancy introduces
+storage and communication overheads, which can either reduce the overall
+storage capacity of the system or increase its costs. To mitigate the storage
+and communication overhead, different redundancy schemes have been proposed.
+However, due to the great variety of underlaying storage infrastructures and
+the different application needs, optimizing these redundancy schemes for each
+storage infrastructure is cumbersome. The lack of rules to determine the
+optimal level of redundancy for each storage configuration leads developers in
+industry to often choose simpler redundancy schemes, which are usually not the
+optimal ones. In this paper we analyze the cost of different redundancy schemes
+and derive a set of rules to determine which redundancy scheme minimizes the
+storage and the communication costs for a given system configuration.
+Additionally, we use simulation to show that theoretically-optimal schemes may
+not be viable in a realistic setting where nodes can go off-line and repairs
+may be delayed. In these cases, we identify which are the trade-offs between
+the storage and communication overheads of the redundancy scheme and its data
+reliability.

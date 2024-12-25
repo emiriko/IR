@@ -1,0 +1,15 @@
+In recent decades a lot of research has been done on the numerical solution
+of the time-dependent Schr\"odinger equation. On the one hand, some of the
+proposed numerical methods do not need any kind of matrix inversion, but source
+terms cannot be easily implemented into this schemes; on the other, some
+methods involving matrix inversion can implement source terms in a natural way,
+but are not easy to implement into some computational software programs widely
+used by non-experts in programming (e.g. Mathematica). We present a simple
+method to solve the time-dependent Schr\"odinger equation by using a standard
+Crank-Nicholson method together with a Cayley's form for the finite-difference
+representation of evolution operator. Here, such standard numerical scheme has
+been simplified by inverting analytically the matrix of the evolution operator
+in position representation. The analytical inversion of the N x N matrix let us
+easily and fully implement the numerical method, with or without source terms,
+into Mathematica or even into any numerical computing language or computational
+software used for scientific computing.

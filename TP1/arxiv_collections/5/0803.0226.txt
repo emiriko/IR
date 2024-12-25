@@ -1,0 +1,18 @@
+In this paper, we present a successful implementation of a subtraction-noise
+projection method into a simple, simulated data analysis pipeline of a
+gravitational-wave search. We investigate the problem to reveal a weak
+stochastic background signal which is covered by a strong foreground of
+compact-binary coalescences. The foreground which is estimated by matched
+filters, has to be subtracted from the data. Even an optimal analysis of
+foreground signals will leave subtraction noise due to estimation errors of
+template parameters which may corrupt the measurement of the background signal.
+The subtraction noise can be removed by a noise projection. We apply our
+analysis pipeline to the proposed future-generation space-borne Big Bang
+Observer (BBO) mission which seeks for a stochastic background of primordial
+GWs in the frequency range $\sim 0.1-1 $Hz covered by a foreground of
+black-hole and neutron-star binaries. Our analysis is based on a simulation
+code which provides a dynamical model of a time-delay interferometer (TDI)
+network. It generates the data as time series and incorporates the analysis
+pipeline together with the noise projection. Our results confirm previous ad
+hoc predictions which say that BBO will be sensitive to backgrounds with
+fractional energy densities below $\Omega=10^{-16}$

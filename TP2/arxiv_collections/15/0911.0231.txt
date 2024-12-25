@@ -1,0 +1,21 @@
+It is an amazing fact that remarkably complex behaviors could emerge from a
+large collection of very rudimentary dynamical agents through very simple local
+interactions. However, it still remains elusive on how to design these local
+interactions among agents so as to achieve certain desired collective
+behaviors. This paper aims to tackle this challenge and proposes a
+divide-and-conquer approach to guarantee specified global behaviors through
+local coordination and control design for multi-agent systems. The basic idea
+is to decompose the requested global specification into subtasks for each
+individual agent. It should be noted that the decomposition is not arbitrary.
+The global specification should be decomposed in such a way that the fulfilment
+of these subtasks by each individual agent will imply the satisfaction of the
+global specification as a team. First, it is shown by a counterexample that not
+all specifications can be decomposed in this sense. Then, a natural follow-up
+question is what the necessary and sufficient condition should be for the
+proposed decomposability of a global specification. The main part of the paper
+is set to answer this question. The case of two cooperative agents is
+investigated first, and a necessary and sufficient condition is presented and
+proven. Later on, the result is generalized to the case of arbitrary finite
+number of agents, and a hierarchical algorithm is proposed, which is shown to
+be a sufficient condition. Finally, a cooperative control scenario for a team
+of three robots is developed to illustrate the task decomposition procedure.

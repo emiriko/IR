@@ -1,0 +1,11 @@
+Network intrusion detection sensors are usually built around low level models
+of network traffic. This means that their output is of a similarly low level
+and as a consequence, is difficult to analyze. Intrusion alert correlation is
+the task of automating some of this analysis by grouping related alerts
+together. Attack graphs provide an intuitive model for such analysis.
+Unfortunately alert flooding attacks can still cause a loss of service on
+sensors, and when performing attack graph correlation, there can be a large
+number of extraneous alerts included in the output graph. This obscures the
+fine structure of genuine attacks and makes them more difficult for human
+operators to discern. This paper explores modified correlation algorithms which
+attempt to minimize the impact of this attack.

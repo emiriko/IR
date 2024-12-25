@@ -1,0 +1,11 @@
+In this note, we describe a method for reconstructing matrix product states
+from a small number of efficiently-implementable measurements. Our method is
+exponentially faster than standard tomography, and it can also be used to
+certify that the unknown state is an MPS. The basic idea is to use local
+unitary operations to measure in the Schmidt basis, giving direct access to the
+MPS representation. This compares favorably with recently and independently
+proposed methods that recover the MPS tensors by performing a variational
+minimization, which is computationally intractable in certain cases. Our method
+also has the advantage of recovering any MPS, while other approaches were
+limited to special classes of states that exclude important examples such as
+GHZ and W states.

@@ -1,0 +1,11 @@
+We present an extension of our GPGCD method, an iterative method for
+calculating approximate greatest common divisor (GCD) of univariate
+polynomials, to multiple polynomial inputs. For a given pair of polynomials and
+a degree, our algorithm finds a pair of polynomials which has a GCD of the
+given degree and whose coefficients are perturbed from those in the original
+inputs, making the perturbations as small as possible, along with the GCD. In
+our GPGCD method, the problem of approximate GCD is transferred to a
+constrained minimization problem, then solved with the so-called modified
+Newton method, which is a generalization of the gradient-projection method, by
+searching the solution iteratively. In this paper, we extend our method to
+accept more than two polynomials with the real coefficients as an input.

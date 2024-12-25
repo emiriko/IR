@@ -1,0 +1,19 @@
+Control and bribery are settings in which an external agent seeks to
+influence the outcome of an election. Faliszewski et al. [FHHR07] proved that
+Llull voting (which is here denoted by Copeland^1) and a variant (here denoted
+by Copeland^0) of Copeland voting are computationally resistant to many, yet
+not all, types of constructive control and that they also provide broad
+resistance to bribery. We study a parameterized version of Copeland voting,
+denoted by Copeland^alpha where the parameter alpha is a rational number
+between 0 and 1 that specifies how ties are valued in the pairwise comparisons
+of candidates in Copeland elections. We establish resistance or vulnerability
+results, in every previously studied control scenario, for Copeland^alpha, for
+each rational alpha, 0 <alpha < 1. In particular, we prove that Copeland^0.5,
+the system commonly referred to as ``Copeland voting,'' provides full
+resistance to constructive control. Among the systems with a polynomial-time
+winner problem, this is the first natural election system proven to have full
+resistance to constructive control. Results on bribery and fixed-parameter
+tractability of bounded-case control proven for Copeland^0 and Copeland^1 in
+[FHHR07] are extended to Copeland^alpha for each rational alpha, 0 < alpha < 1;
+we also give results in more flexible models such as microbribery and extended
+control.

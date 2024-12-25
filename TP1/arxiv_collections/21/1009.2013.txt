@@ -1,0 +1,16 @@
+Asymptotics-based configuration-interaction (CI) methods [G. Friesecke and B.
+D. Goddard, Multiscale Model. Simul. 7, 1876 (2009)] are a class of CI methods
+for atoms which reproduce, at fixed finite subspace dimension, the exact
+Schr\"odinger eigenstates in the limit of fixed electron number and large
+nuclear charge. Here we develop, implement, and apply to 3d transition metal
+atoms an efficient and accurate algorithm for asymptotics-based CI.
+  Efficiency gains come from exact (symbolic) decomposition of the CI space
+into irreducible symmetry subspaces at essentially linear computational cost in
+the number of radial subshells with fixed angular momentum, use of reduced
+density matrices in order to avoid having to store wavefunctions, and use of
+Slater-type orbitals (STO's). The required Coulomb integrals for STO's are
+evaluated in closed form, with the help of Hankel matrices, Fourier analysis,
+and residue calculus.
+  Applications to 3d transition metal atoms are in good agreement with
+experimental data. In particular we reproduce the anomalous magnetic moment and
+orbital filling of Chromium in the otherwise regular series Ca, Sc, Ti, V, Cr.

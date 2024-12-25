@@ -1,0 +1,8 @@
+We want to compute the cumulative distribution function of a one-dimensional
+Poisson stochastic integral $I(\krnl) = \displaystyle \int_0^T \krnl(s) N(ds)$,
+where $N$ is a Poisson random measure with control measure $n$ and $\krnl$ is a
+suitable kernel function. We do so by combining a Kolmogorov-Feller equation
+with a finite-difference scheme. We provide the rate of convergence of our
+numerical scheme and illustrate our method on a number of examples. The
+software used to implement the procedure is available on demand and we
+demonstrate its use in the paper.

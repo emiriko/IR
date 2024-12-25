@@ -1,0 +1,25 @@
+In this manuscript, we consider the problems of channel assignment in
+wireless networks and data migration in heterogeneous storage systems. We show
+that a soft edge coloring approach to both problems gives rigorous
+approximation guarantees. In the channel assignment problem arising in wireless
+networks a pair of edges incident to a vertex are said to be conflicting if the
+channels assigned to them are the same. Our goal is to assign channels (color
+edges) so that the number of conflicts is minimized. The problem is NP-hard by
+a reduction from Edge coloring and we present two combinatorial algorithms for
+this case. The first algorithm is based on a distributed greedy method and
+gives a solution with at most $2(1-\frac{1}{k})|E|$ more conflicts than the
+optimal solution.The approximation ratio if the second algorithm is $1 +
+\frac{|V|}{|E|}$, which gives a ($1 + o(1)$)-factor for dense graphs and is the
+best possible unless P = NP. We also consider the data migration problem in
+heterogeneous storage systems. In such systems, data layouts may need to be
+reconfigured over time for load balancing or in the event of system
+failure/upgrades. It is critical to migrate data to their target locations as
+quickly as possible to obtain the best performance of the system. Most of the
+previous results on data migration assume that each storage node can perform
+only one data transfer at a time. However, storage devices tend to have
+heterogeneous capabilities as devices may be added over time due to storage
+demand increase. We develop algorithms to minimize the data migration time. We
+show that it is possible to find an optimal migration schedule when all $c_v$'s
+are even. Furthermore, though the problem is NP-hard in general, we give an
+efficient soft edge coloring algorithm that offers a rigorous $(1 +
+o(1))$-approximation guarantee.

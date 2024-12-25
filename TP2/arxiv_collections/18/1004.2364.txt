@@ -1,0 +1,25 @@
+In (k, n) visual secret sharing (VSS) scheme, secret image can be visually
+reconstructed when k or more participants printing theirs shares on
+transparencies and stack them together. No secret is revealed with fewer than k
+shares. The alignment of the transparencies is important to the visual quality
+of the reconstructed secret image. In VSS scheme, each pixel of the original
+secret image is expanded to m sub-pixels in a share image. If a share image is
+printed on paper with the same size as the original secret image, the alignment
+or the registration of the sub-pixels, which is only m times smaller than that
+in the original secret, could be troublesome. Liu et al. [4] has noticed this
+alignment problem and observed that some information of the secret image may
+still be revealed even when the shares are not precisely registered in the
+horizontal direction. Yang et al. [9] introduced a general approach to
+construct a misalignment tolerant (k, n)-VSS scheme using big and small blocks
+for the situation where the original secret image has a certain degree of
+redundancy in shape accuracy. In this paper, we propose a (2, n)-VSS scheme
+that allows a relative shift between the shares in the horizontal direction and
+vertical direction. When the shares are perfectly aligned, the contrast of the
+reconstructed image is equal to that of traditional VSS shceme. When there is a
+shift, average contrast in the reconstructed image is higher than that of the
+traditional VSS scheme, and the scheme can still work in the cases where very
+little shape redundancy presents in the image. The trade-off is that our method
+involves a larger pixel expansion. The basic building block of our scheme is
+duplication and concatenation of certain rows or columns of the basic matrices.
+This seemingly simple but very powerful construction principle can be easily
+used to create more general (k, n)-VSS schemes.

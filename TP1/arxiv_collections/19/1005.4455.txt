@@ -1,0 +1,26 @@
+A recent paper of Arnold, Falk, and Winther [Bull AMS, 47 (2010)] showed that
+a large class of mixed finite element methods can be formulated naturally on
+Hilbert complexes, where using a Galerkin-like approach, one solves a
+variational problem on a finite-dimensional subcomplex. In a seemingly
+unrelated research direction, Dziuk [Lect Notes in Math, vol 1357 (1988)]
+analyzed a class of nodal finite elements for the Laplace-Beltrami equation on
+smooth 2-surfaces approximated by a piecewise-linear triangulation; Demlow
+later extended this analysis [SIAM J Numer Anal, 47 (2009)] to 3-surfaces, as
+well as to higher-order surface approximation. In this article, we bring these
+lines of research together, first developing a framework for the analysis of
+variational crimes in abstract Hilbert complexes, and then applying this
+abstract framework to the setting of finite element exterior calculus on
+hypersurfaces. Our framework extends the work of Arnold, Falk, and Winther to
+problems that violate their subcomplex assumption, allowing for the extension
+of finite element exterior calculus to approximate domains, most notably the
+Hodge-de Rham complex on approximate manifolds. As an application of the
+latter, we recover Dziuk's and Demlow's a priori estimates for 2- and
+3-surfaces, demonstrating that surface finite element methods can be analyzed
+completely within this abstract framework. Moreover, our results generalize
+these earlier estimates dramatically, extending them from nodal finite elements
+for Laplace-Beltrami to mixed finite elements for the Hodge Laplacian, and from
+2- and 3-dimensional hypersurfaces to those of arbitrary dimension. By
+developing this analytical framework using a combination of general tools from
+differential geometry and functional analysis, we are led to a more geometric
+analysis of surface finite element methods, whereby the main results become
+more transparent.

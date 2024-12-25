@@ -1,0 +1,21 @@
+The paper describes the new computers architecture, the main features of
+which has been claimed in the Russian Federation patent 2312388 and in the US
+patent application 11/991331. This architecture is intended to effective
+support of the General Purpose Parallel Computing (GPPC), the essence of which
+is extremely frequent switching of threads between states of activity and
+states of viewed in the paper the algorithmic latency. To emphasize the same
+impact of the architectural latency and the algorithmic latency upon GPPC, is
+introduced the new notion of the generalized latency and is defined its
+quantitative measure - the Generalized Latency Tolerance (GLT). It is shown
+that a well suited for GPPC implementation architecture should have high level
+of GLT and is described such architecture, which is called the Virtual-Threaded
+Machine. This architecture originates a processor virtualization in the
+direction of activities virtualization, which is orthogonal to the well-known
+direction of memory virtualization. The key elements of the architecture are 1)
+the distributed fine grain representation of the architectural register file,
+which elements are hardware swapped through levels of a microarchitectural
+memory, 2) the prioritized fine grain direct hardware multiprogramming, 3) the
+access controlled virtual addressing and 4) the hardware driven semaphores. The
+composition of these features lets to introduce new styles of operating system
+(OS) programming, which is free of interruptions, and of applied programming
+with a very rare using the OS services.

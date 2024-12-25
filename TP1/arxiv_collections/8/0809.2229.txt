@@ -1,0 +1,9 @@
+In the prediction of oscillating time series, the interest is in the turning
+points of successive oscillations rather than the samples themselves. For this
+purpose a scheme has been proposed; the state space reconstruction is limited
+to the turning points and the local (nearest neighbor) model is modified in
+order to predict the turning point magnitudes and times. This approach is
+extended here using a local dynamic regression model on both turning point
+magnitudes and times. Simulations on oscillating nonlinear systems show that
+the proposed approach gives better predictions of turning points than the
+standard local model applied to all the samples of the oscillating time series.

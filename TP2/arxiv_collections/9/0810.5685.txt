@@ -1,0 +1,12 @@
+Given a "black box" function to evaluate an unknown rational polynomial f in
+Q[x] at points modulo a prime p, we exhibit algorithms to compute the
+representation of the polynomial in the sparsest shifted power basis. That is,
+we determine the sparsity t, the shift s (a rational), the exponents 0 <= e1 <
+e2 < ... < et, and the coefficients c1,...,ct in Q\{0} such that f(x) =
+c1(x-s)^e1+c2(x-s)^e2+...+ct(x-s)^et. The computed sparsity t is absolutely
+minimal over any shifted power basis. The novelty of our algorithm is that the
+complexity is polynomial in the (sparse) representation size, and in particular
+is logarithmic in deg(f). Our method combines previous celebrated results on
+sparse interpolation and computing sparsest shifts, and provides a way to
+handle polynomials with extremely high degree which are, in some sense, sparse
+in information.

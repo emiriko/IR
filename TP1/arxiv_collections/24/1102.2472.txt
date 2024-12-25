@@ -1,0 +1,21 @@
+We report on the performance of an analog application-specific integrated
+circuit (ASIC) developed aiming for the front-end electronics of the X-ray
+CCDcamera system onboard the next X-ray astronomical satellite, ASTRO-H. It has
+four identical channels that simultaneously process the CCD signals.
+Distinctive capability of analog-to-digital conversion enables us to construct
+a CCD camera body that outputs only digital signals. As the result of the
+front-end electronics test, it works properly with low input noise of =<30 uV
+at the pixel rate below 100 kHz. The power consumption is sufficiently low of
+about 150 mW/chip. The input signal range of 720 mV covers the effective energy
+range of the typical X-ray photon counting CCD (up to 20 keV). The integrated
+non-linearity is 0.2% that is similar as those of the conventional CCDs in
+orbit. We also performed a radiation tolerance test against the total ionizing
+dose (TID) effect and the single event effect. The irradiation test using 60Co
+and proton beam showed that the ASIC has the sufficient tolerance against TID
+up to 200 krad, which absolutely exceeds the expected amount of dose during the
+period of operating in a low-inclination low-earth orbit. The irradiation of Fe
+ions with the fluence of 5.2x10^8 Ion/cm2 resulted in no single event latchup
+(SEL), although there were some possible single event upsets. The threshold
+against SEL is higher than 1.68 MeV cm^2/mg, which is sufficiently high enough
+that the SEL event should not be one of major causes of instrument downtime in
+orbit.

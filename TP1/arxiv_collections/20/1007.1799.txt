@@ -1,0 +1,16 @@
+We consider discrete denoising of two-dimensional data with characteristics
+that may be varying abruptly between regions.
+  Using a quadtree decomposition technique and space-filling curves, we extend
+the recently developed S-DUDE (Shifting Discrete Universal DEnoiser), which was
+tailored to one-dimensional data, to the two-dimensional case. Our scheme
+competes with a genie that has access, in addition to the noisy data, also to
+the underlying noiseless data, and can employ $m$ different two-dimensional
+sliding window denoisers along $m$ distinct regions obtained by a quadtree
+decomposition with $m$ leaves, in a way that minimizes the overall loss. We
+show that, regardless of what the underlying noiseless data may be, the
+two-dimensional S-DUDE performs essentially as well as this genie, provided
+that the number of distinct regions satisfies $m=o(n)$, where $n$ is the total
+size of the data. The resulting algorithm complexity is still linear in both
+$n$ and $m$, as in the one-dimensional case. Our experimental results show that
+the two-dimensional S-DUDE can be effective when the characteristics of the
+underlying clean image vary across different regions in the data.

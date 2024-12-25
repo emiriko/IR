@@ -1,0 +1,13 @@
+Understanding transport capacity in intermittently connected mobile networks
+(ICMN) is crucial since different applications have different interactivity and
+bandwidth requirements. One practical issue is how to transform an
+application's messages into packets suitable for transport over an ICMN. In
+this paper, we propose a new Markovian model for random temporal graphs and
+show, both analytically and by replaying a real life trace obtained in a
+rollerblading tour, that the size of the messages sent over an ICMN has a
+decisive impact on their delivery ratio. A given message could therefore be
+broken down into smaller packets to increase reliability. However, we also show
+that this gain in reliability only appears under tight constraints on the
+maximum delay tolerated. Mobile application designers should therefore balance
+message size against both application requirements and network topology
+dynamics to improve performance.

@@ -1,0 +1,7 @@
+It is well known that the static caching algorithm that keeps the most
+frequently requested documents in the cache is optimal in case when documents
+are of the same size and requests are independent and equally distributed.
+However, it is hard to develop explicit and provably optimal caching algorithms
+when requests are statistically correlated. In this paper, we show that keeping
+the most frequently requested documents in the cache is still optimal for large
+cache sizes even if the requests are strongly correlated.

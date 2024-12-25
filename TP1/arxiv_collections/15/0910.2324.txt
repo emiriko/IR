@@ -1,0 +1,19 @@
+Matrix languages, including MATLAB and Octave, are established standards for
+applications in science and engineering. They provide interactive programming
+environments that are easy to use due to their scripting languages with matrix
+data types. Current implementations of matrix languages do not fully utilise
+high-performance, special-purpose chip architectures such as the IBM PowerXCell
+processor (Cell), which is currently used in the fastest computer in the world.
+  We present a new framework that extends Octave to harness the computational
+power of the Cell. With this framework the programmer is relieved of the burden
+of introducing explicit notions of parallelism. Instead the programmer uses a
+new matrix data-type to execute matrix operations in parallel on the
+synergistic processing elements (SPEs) of the Cell. We employ lazy evaluation
+semantics for our new matrix data-type to obtain execution traces of matrix
+operations. Traces are converted to data dependence graphs; operations in the
+data dependence graph are lowered (split into sub-matrices), scheduled and
+executed on the SPEs. Thereby we exploit (1) data parallelism, (2) instruction
+level parallelism, (3) pipeline parallelism and (4) task parallelism of matrix
+language programs. We conducted extensive experiments to show the validity of
+our approach. Our Cell-based implementation achieves speedups of up to a factor
+of 12 over code run on recent Intel Core2 Quad processors.

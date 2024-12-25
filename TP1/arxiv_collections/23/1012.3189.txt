@@ -1,0 +1,24 @@
+We study the stochastic versions of a broad class of combinatorial problems
+where the weights of the elements in the input dataset are uncertain. The class
+of problems that we study includes shortest paths, minimum weight spanning
+trees, and minimum weight matchings, and other combinatorial problems like
+knapsack. We observe that the expected value is inadequate in capturing
+different types of {\em risk-averse} or {\em risk-prone} behaviors, and instead
+we consider a more general objective which is to maximize the {\em expected
+utility} of the solution for some given utility function, rather than the
+expected weight (expected weight becomes a special case). Under the assumption
+that there is a pseudopolynomial time algorithm for the {\em exact} version of
+the problem (This is true for the problems mentioned above), we can obtain the
+following approximation results for several important classes of utility
+functions: (1) If the utility function $\uti$ is continuous, upper-bounded by a
+constant and $\lim_{x\rightarrow+\infty}\uti(x)=0$, we show that we can obtain
+a polynomial time approximation algorithm with an {\em additive error}
+$\epsilon$ for any constant $\epsilon>0$. (2) If the utility function $\uti$ is
+a concave increasing function, we can obtain a polynomial time approximation
+scheme (PTAS). (3) If the utility function $\uti$ is increasing and has a
+bounded derivative, we can obtain a polynomial time approximation scheme. Our
+results recover or generalize several prior results on stochastic shortest
+path, stochastic spanning tree, and stochastic knapsack. Our algorithm for
+utility maximization makes use of the separability of exponential utility and a
+technique to decompose a general utility function into exponential utility
+functions, which may be useful in other stochastic optimization problems.

@@ -1,0 +1,25 @@
+The two parameter Poisson-Dirichlet Process (PDP), a generalisation of the
+Dirichlet Process, is increasingly being used for probabilistic modelling in
+discrete areas such as language technology, bioinformatics, and image analysis.
+There is a rich literature about the PDP and its derivative distributions such
+as the Chinese Restaurant Process (CRP). This article reviews some of the basic
+theory and then the major results needed for Bayesian modelling of discrete
+problems including details of priors, posteriors and computation.
+  The PDP allows one to build distributions over countable partitions. The PDP
+has two other remarkable properties: first it is partially conjugate to itself,
+which allows one to build hierarchies of PDPs, and second using a marginalised
+relative the CRP, one gets fragmentation and clustering properties that lets
+one layer partitions to build trees. This article presents the basic theory for
+understanding the notion of partitions and distributions over them, the PDP and
+the CRP, and the important properties of conjugacy, fragmentation and
+clustering, as well as some key related properties such as consistency and
+convergence. This article also presents a Bayesian interpretation of the
+Poisson-Dirichlet process based on an improper and infinite dimensional
+Dirichlet distribution. This means we can understand the process as just
+another Dirichlet and thus all its sampling properties emerge naturally.
+  The theory of PDPs is usually presented for continuous distributions (more
+generally referred to as non-atomic distributions), however, when applied to
+discrete distributions its remarkable conjugacy property emerges. This context
+and basic results are also presented, as well as techniques for computing the
+second order Stirling numbers that occur in the posteriors for discrete
+distributions.

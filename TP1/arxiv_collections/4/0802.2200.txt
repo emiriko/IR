@@ -1,0 +1,21 @@
+In order to investigate the rheological properties of viscoelastic fluids by
+mesoscopic hydrodynamics methods, we develop a multi-particle collision
+dynamics (MPC) model for a fluid of harmonic dumbbells. The algorithm consists
+of alternating streaming and collision steps. The advantage of the harmonic
+interactions is that the integration of the equations of motion in the
+streaming step can be performed analytically. Therefore, the algorithm is
+computationally as efficient as the original MPC algorithm for Newtonian
+fluids. The collision step is the same as in the original MPC method. All
+particles are confined between two solid walls moving oppositely, so that both
+steady and oscillatory shear flows can be investigated. Attractive wall
+potentials are applied to obtain a nearly uniform density everywhere in the
+simulation box. We find that both in steady and oscillatory shear flow, a
+boundary layer develops near the wall, with a higher velocity gradient than in
+the bulk. The thickness of this layer is proportional to the average dumbbell
+size. We determine the zero-shear viscosities as a function of the spring
+constant of the dumbbells and the mean free path. For very high shear rates, a
+very weak ``shear thickening'' behavior is observed. Moreover, storage and loss
+moduli are calculated in oscillatory shear, which show that the viscoelastic
+properties at low and moderate frequencies are consistent with a Maxwell fluid
+behavior. We compare our results with a kinetic theory of dumbbells in
+solution, and generally find good agreement.

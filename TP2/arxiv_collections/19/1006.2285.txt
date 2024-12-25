@@ -1,0 +1,18 @@
+Finite Element mesh generation remains an important issue for patient
+specific biomechanical modeling. While some techniques make automatic mesh
+generation possible, in most cases, manual mesh generation is preferred for
+better control over the sub-domain representation, element type, layout and
+refinement that it provides. Yet, this option is time consuming and not suited
+for intraoperative situations where model generation and computation time is
+critical. To overcome this problem we propose a fast and automatic mesh
+generation technique based on the elastic registration of a generic mesh to the
+specific target organ in conjunction with element regularity and quality
+correction. This Mesh-Match-and-Repair (MMRep) approach combines control over
+the mesh structure along with fast and robust meshing capabilities, even in
+situations where only partial organ geometry is available. The technique was
+successfully tested on a database of 5 pre-operatively acquired complete femora
+CT scans, 5 femoral heads partially digitized at intraoperative stage, and 50
+CT volumes of patients' heads. The MMRep algorithm succeeded in all 60 cases,
+yielding for each patient a hex-dominant, Atlas based, Finite Element mesh with
+submillimetric surface representation accuracy, directly exploitable within a
+commercial FE software.

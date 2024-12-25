@@ -1,0 +1,21 @@
+An Artificial Neural Network-based error compensation method is proposed for
+improving the accuracy of resolver-based 16-bit encoders by compensating for
+their respective systematic error profiles. The error compensation procedure,
+for a particular encoder, involves obtaining its error profile by calibrating
+it on a precision rotary table, training the neural network by using a part of
+this data and then determining the corrected encoder angle by subtracting the
+ANN-predicted error from the measured value of the encoder angle. Since it is
+not guaranteed that all the resolvers will have exactly similar error profiles
+because of the inherent differences in their construction on a micro scale, the
+ANN has been trained on one error profile at a time and the corresponding
+weight file is then used only for compensating the systematic error of this
+particular encoder. The systematic nature of the error profile for each of the
+encoders has also been validated by repeated calibration of the encoders over a
+period of time and it was found that the error profiles of a particular encoder
+recorded at different epochs show near reproducible behavior. The ANN-based
+error compensation procedure has been implemented for 4 encoders by training
+the ANN with their respective error profiles and the results indicate that the
+accuracy of encoders can be improved by nearly an order of magnitude from
+quoted values of ~6 arc-min to ~0.65 arc-min when their corresponding
+ANN-generated weight files are used for determining the corrected encoder
+angle.

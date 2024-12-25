@@ -1,0 +1,15 @@
+We introduce a powerful semi-numeric modeling tool, 21cmFAST, designed to
+efficiently simulate the cosmological 21-cm signal. Our code generates 3D
+realizations of evolved density, ionization, peculiar velocity, and spin
+temperature fields, which it then combines to compute the 21-cm brightness
+temperature. Although the physical processes are treated with approximate
+methods, we compare our results to a state-of-the-art large-scale hydrodynamic
+simulation, and find good agreement on scales pertinent to the upcoming
+observations (>~ 1 Mpc). The power spectra from 21cmFAST agree with those
+generated from the numerical simulation to within 10s of percent, down to the
+Nyquist frequency. We show results from a 1 Gpc simulation which tracks the
+cosmic 21-cm signal down from z=250, highlighting the various interesting
+epochs. Depending on the desired resolution, 21cmFAST can compute a redshift
+realization on a single processor in just a few minutes. Our code is fast,
+efficient, customizable and publicly available, making it a useful tool for
+21-cm parameter studies.

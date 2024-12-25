@@ -1,0 +1,7 @@
+The bottleneck of micromagnetic simulations is the computation of the
+long-ranged magnetostatic fields. This can be tackled on regular N-node grids
+with Fast Fourier Transforms in time N logN, whereas the geometrically more
+versatile finite element methods (FEM) are bounded to N^4/3 in the best case.
+We report the implementation of a Non-uniform Fast Fourier Transform algorithm
+which brings a N logN convergence to FEM, with no loss of accuracy in the
+results.

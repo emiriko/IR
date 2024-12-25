@@ -1,0 +1,10 @@
+We demonstrate that it is possible to filter an image with an elliptic window
+of varying size, elongation and orientation with a fixed computational cost per
+pixel. Our method involves the application of a suitable global pre-integrator
+followed by a pointwise-adaptive localization mesh. We present the basic theory
+for the 1D case using a B-spline formalism and then appropriately extend it to
+2D using radially-uniform box splines. The size and ellipticity of these
+radially-uniform box splines is adaptively controlled. Moreover, they converge
+to Gaussians as the order increases. Finally, we present a fast and practical
+directional filtering algorithm that has the capability of adapting to the
+local image features.

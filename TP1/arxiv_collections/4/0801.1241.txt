@@ -1,0 +1,12 @@
+We address the problem of decoding sparse quantum error correction codes. For
+Pauli channels, this task can be accomplished by a version of the belief
+propagation algorithm used for decoding sparse classical codes. Quantum codes
+pose two new challenges however. Firstly, their Tanner graph unavoidably
+contain small loops which typically undermines the performance of belief
+propagation. Secondly, sparse quantum codes are by definition highly
+degenerate. The standard belief propagation algorithm does not exploit this
+feature, but rather it is impaired by it. We propose heuristic methods to
+improve belief propagation decoding, specifically targeted at these two
+problems. While our results exhibit a clear improvement due to the proposed
+heuristic methods, they also indicate that the main source of errors in the
+quantum coding scheme remains in the decoding.

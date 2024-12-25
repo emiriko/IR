@@ -1,0 +1,16 @@
+We study ways to expedite Yates's algorithm for computing the zeta and
+Moebius transforms of a function defined on the subset lattice. We develop a
+trimmed variant of Moebius inversion that proceeds point by point, finishing
+the calculation at a subset before considering its supersets. For an
+$n$-element universe $U$ and a family $\scr F$ of its subsets, trimmed Moebius
+inversion allows us to compute the number of packings, coverings, and
+partitions of $U$ with $k$ sets from $\scr F$ in time within a polynomial
+factor (in $n$) of the number of supersets of the members of $\scr F$. Relying
+on an intersection theorem of Chung et al. (1986) to bound the sizes of set
+families, we apply these ideas to well-studied combinatorial optimisation
+problems on graphs of maximum degree $\Delta$. In particular, we show how to
+compute the Domatic Number in time within a polynomial factor of
+$(2^{\Delta+1-2)^{n/(\Delta+1)$ and the Chromatic Number in time within a
+polynomial factor of $(2^{\Delta+1-\Delta-1)^{n/(\Delta+1)$. For any constant
+$\Delta$, these bounds are $O\bigl((2-\epsilon)^n\bigr)$ for $\epsilon>0$
+independent of the number of vertices $n$.

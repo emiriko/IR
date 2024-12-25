@@ -1,0 +1,9 @@
+This paper presents implementation details and empirical results for a hybrid
+message passing and shared memory paralleliziation of the adaptive integral
+method (AIM). AIM is implemented on a (near) petaflop supercomputing cluster of
+quad-core processors and its accuracy, complexity, and scalability are
+investigated by solving benchmark scattering problems. The timing and speedup
+results on up to 1024 processors show that the hybrid MPI/OpenMP
+parallelization of AIM exhibits better strong scalability (fixed problem size
+speedup) than pure MPI parallelization of it when multiple cores are used on
+each processor.

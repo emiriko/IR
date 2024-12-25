@@ -1,0 +1,16 @@
+In this article we introduce the concept and the first implementation of a
+lightweight client-server-framework as middleware for distributed computing. On
+the client side an installation without administrative rights or privileged
+ports can turn any computer into a worker node. Only a Java runtime environment
+and the JAR files comprising the workflow client are needed. To connect all
+clients to the engine one open server port is sufficient. The engine submits
+data to the clients and orchestrates their work by workflow descriptions from a
+central database. Clients request new task descriptions periodically, thus the
+system is robust against network failures. In the basic set-up, data up- and
+downloads are handled via HTTP communication with the server. The performance
+of the modular system could additionally be improved using dedicated file
+servers or distributed network file systems.
+  We demonstrate the design features of the proposed engine in real-world
+applications from mechanical engineering. We have used this system on a compute
+cluster in design-of-experiment studies, parameter optimisations and robustness
+validations of finite element structures.

@@ -1,0 +1,15 @@
+An X-ray detector will be presented that is the combination of a segmented
+ionization chamber featuring one-dimensional spatial resolution integrated with
+an intelligent ADC front-end, multi DSP processing and embedded PC platform.
+This detector is optimized to fan beam geometry with an active area of 192 mm
+(horizontal) and a vertical acceptance of 6 mm. Spatial resolution is obtained
+by subdividing the anode into readout strips, having pitch of 150 micrometers,
+which are connected to 20 custom made integrating VLSI chips (each capable of
+64-channel read-out and multiplexing) and read out by 14 bits 10 MHz ADCs and
+fast adaptive PGAs into DSP boards. A bandwidth reaching 3.2Gbit/s of raw data,
+generated from the real time sampling of the 1280 micro strips, is cascaded
+processed with FPGA and DSP to allow data compression resulting in several days
+of uninterrupted acquisition capability. Fast acquisition rates reaching 10 kHz
+are allowed due to the MicroCAT structure utilized not only as a shielding grid
+in ionization chamber mode but also to provide active electron amplification in
+the gas.

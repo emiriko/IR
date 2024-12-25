@@ -1,0 +1,16 @@
+ATLAS event data processing requires access to non-event data (detector
+conditions, calibrations, etc.) stored in relational databases. The
+database-resident data are crucial for the event data reconstruction processing
+steps and often required for user analysis. A main focus of ATLAS database
+operations is on the worldwide distribution of the Conditions DB data, which
+are necessary for every ATLAS data processing job. Since Conditions DB access
+is critical for operations with real data, we have developed the system where a
+different technology can be used as a redundant backup. Redundant database
+operations infrastructure fully satisfies the requirements of ATLAS
+reprocessing, which has been proven on a scale of one billion database queries
+during two reprocessing campaigns of 0.5 PB of single-beam and cosmics data on
+the Grid. To collect experience and provide input for a best choice of
+technologies, several promising options for efficient database access in user
+analysis were evaluated successfully. We present ATLAS experience with scalable
+database access technologies and describe our approach for prevention of
+database access bottlenecks in a Grid computing environment.

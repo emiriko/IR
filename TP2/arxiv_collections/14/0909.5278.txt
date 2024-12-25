@@ -1,0 +1,11 @@
+Potential maximal cliques and minimal separators are combinatorial objects
+which were introduced and studied in the realm of minimal triangulations
+problems including Minimum Fill-in and Treewidth. We discover unexpected
+applications of these notions to the field of moderate exponential algorithms.
+In particular, we show that given an n-vertex graph G together with its set of
+potential maximal cliques Pi_G, and an integer t, it is possible in time |Pi_G|
+* n^(O(t)) to find a maximum induced subgraph of treewidth t in G; and for a
+given graph F of treewidth t, to decide if G contains an induced subgraph
+isomorphic to F. Combined with an improved algorithm enumerating all potential
+maximal cliques in time O(1.734601^n), this yields that both problems are
+solvable in time 1.734601^n * n^(O(t)).

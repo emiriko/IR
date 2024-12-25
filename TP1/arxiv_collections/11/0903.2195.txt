@@ -1,0 +1,18 @@
+We present an efficient sampling method for computing a partition function
+and accelerating configuration sampling. The method performs a random walk in
+the $\lambda$ space, with $\lambda$ being any thermodynamic variable that
+characterizes a canonical ensemble such as the reciprocal temperature $\beta$
+or any variable that the Hamiltonian explicitly depends on. The partition
+function is determined by minimizing the difference of the thermal conjugates
+of $\lambda$ (the energy in the case of $\lambda=\beta$), defined as the
+difference between the value from the dynamically updated derivatives of the
+partition function and the value directly measured from simulation.
+Higher-order derivatives of the partition function are included to enhance the
+Brownian motion in the $\lambda$ space. The method is much less sensitive to
+the system size, and the size of $\lambda$ window than other methods. On the
+two dimensional Ising model, it is shown that the method asymptotically
+converges the partition function, and the error of the logarithm of the
+partition function is much smaller than the algorithm using the Wang-Landau
+recursive scheme. The method is also applied to off-lattice model proteins, the
+$AB$ models, in which cases many low energy states are found in different
+models.

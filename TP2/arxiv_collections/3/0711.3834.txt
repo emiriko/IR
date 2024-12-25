@@ -1,0 +1,18 @@
+An exact and general expression for the analytic wavelet transform of a
+real-valued signal is constructed, resolving the time-dependent effects of
+non-negligible amplitude and frequency modulation. The analytic signal is first
+locally represented as a modulated oscillation, demodulated by its own
+instantaneous frequency, and then Taylor-expanded at each point in time. The
+terms in this expansion, called the instantaneous modulation functions, are
+time-varying functions which quantify, at increasingly higher orders, the local
+departures of the signal from a uniform sinusoidal oscillation. Closed-form
+expressions for these functions are found in terms of Bell polynomials and
+derivatives of the signal's instantaneous frequency and bandwidth. The analytic
+wavelet transform is shown to depend upon the interaction between the signal's
+instantaneous modulation functions and frequency-domain derivatives of the
+wavelet, inducing a hierarchy of departures of the transform away from a
+perfect representation of the signal. The form of these deviation terms
+suggests a set of conditions for matching the wavelet properties to suit the
+variability of the signal, in which case our expressions simplify considerably.
+One may then quantify the time-varying bias associated with signal estimation
+via wavelet ridge analysis, and choose wavelets to minimize this bias.

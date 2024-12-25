@@ -1,0 +1,20 @@
+One of the longstanding issues in numerical relativity is to enable a
+simulation taking account of microphysical processes (e.g., weak interactions
+and neutrino cooling). We develop an approximate and explicit scheme in the
+fully general relativistic framework as a first implementation of the
+microphysics toward a more realistic and sophisticated modeling. In this paper,
+we describe in detail a method for implementation of a realistic equation of
+state, the electron capture and the neutrino cooling in a multidimensional,
+fully general relativistic code. The procedure is based on the so-called
+neutrino leakage scheme. To check the validity of the code, we perform a two
+dimensional (2D) simulation of spherical stellar core collapse. Until the
+convective activities set in, our results approximately agree, or at least are
+consistent, with those in the previous so-called state-of-the-art simulations.
+In particular, the radial profiles of thermodynamical quantities and the time
+evolution of the neutrino luminosities agree quantitatively. The convection is
+driven by negative gradients of the entropy per baryon and the electron
+fraction as in the previous 2D Newtonian simulations. We clarify which gradient
+is more responsible for the convection. Gravitational waves from the convection
+are also calculated. We find that the characteristic frequencies of the
+gravitational-wave spectra are distributed for higher frequencies than those in
+Newtonian simulations due to the general relativistic effects.

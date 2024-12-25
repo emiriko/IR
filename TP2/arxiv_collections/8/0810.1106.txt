@@ -1,0 +1,9 @@
+We perceive programs as single-pass instruction sequences. A single-pass
+instruction sequence under execution is considered to produce a behaviour to be
+controlled by some execution environment. Threads as considered in basic thread
+algebra model such behaviours. We show that all regular threads, i.e. threads
+that can only be in a finite number of states, can be produced by single-pass
+instruction sequences without jump instructions if use can be made of Boolean
+registers. We also show that, in the case where goto instructions are used
+instead of jump instructions, a bound to the number of labels restricts the
+expressiveness.

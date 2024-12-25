@@ -1,0 +1,16 @@
+This paper gives a geometric description of functional spaces related to
+Domain Decomposition techniques for computing solutions of Laplace and
+Helmholtz equations. Understanding the geometric structure of these spaces
+leads to algorithms for solving the equations. It leads also to a new
+interpretation of classical algorithms, enhancing convergence. The algorithms
+are given and convergence is proved. Numerical tests are given.
+  This is done by building tools enabling geometric interpretations of the
+operators related to Domain Decomposition technique. The Despres operators,
+expressing conservation of energy for Helmholtz equation, are defined on the
+fictitious boundary and their spectral properties proved.It turns to be the key
+for proving convergence of the given algorithm for Helmholtz equation in a
+non-dissipating cavity.
+  Using these tools, one can prove that the Domain Decomposition setting for
+the Helmholtz equation leads to an ill-posed problem. Nevertheless, one can
+prove that if a solution exists, it is unique. And that the algorithm do
+converge to the solution.

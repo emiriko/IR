@@ -1,0 +1,16 @@
+The Ising model at inverse temperature $\beta$ and zero external field can be
+obtained via the Fortuin-Kasteleyn (FK) random-cluster model with $q=2$ and
+density of open edges $p=1-e^{-\beta}$ by assigning spin +1 or -1 to each
+vertex in such a way that (1) all the vertices in the same FK cluster get the
+same spin and (2) +1 and -1 have equal probability. We generalize the above
+procedure by assigning spin +1 with probability $r$ and -1 with probability
+$1-r$, with $r \in [0,1]$, while keeping condition (1). For fixed $\beta$, this
+generates a dependent (spin) percolation model with parameter $r$. We show
+that, on the triangular lattice and for $\beta<\beta_c$, this model has a
+percolation phase transition at $r=1/2$, corresponding to the Ising model. This
+sheds some light on the conjecture that the high temperature Ising model on the
+triangular lattice is in the percolation universality class and that its
+scaling limit can be described in terms of SLE$_6$. We also prove uniqueness of
+the infinite +1 cluster for $r>1/2$, sharpness of the percolation phase
+transition (by showing exponential decay of the cluster size distribution for
+$r<1/2$), and continuity of the percolation function for all $r \in [0,1]$.

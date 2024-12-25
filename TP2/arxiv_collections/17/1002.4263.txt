@@ -1,0 +1,18 @@
+We consider Gaussian multiple-input multiple-output (MIMO) channels with
+discrete input alphabets. We propose a non-diagonal precoder based on the
+X-Codes in \cite{Xcodes_paper} to increase the mutual information. The MIMO
+channel is transformed into a set of parallel subchannels using Singular Value
+Decomposition (SVD) and X-Codes are then used to pair the subchannels. X-Codes
+are fully characterized by the pairings and a $2\times 2$ real rotation matrix
+for each pair (parameterized with a single angle). This precoding structure
+enables us to express the total mutual information as a sum of the mutual
+information of all the pairs. The problem of finding the optimal precoder with
+the above structure, which maximizes the total mutual information, is solved by
+{\em i}) optimizing the rotation angle and the power allocation within each
+pair and {\em ii}) finding the optimal pairing and power allocation among the
+pairs. It is shown that the mutual information achieved with the proposed
+pairing scheme is very close to that achieved with the optimal precoder by Cruz
+{\em et al.}, and is significantly better than Mercury/waterfilling strategy by
+Lozano {\em et al.}. Our approach greatly simplifies both the precoder
+optimization and the detection complexity, making it suitable for practical
+applications.

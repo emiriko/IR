@@ -1,0 +1,24 @@
+In a distributed system with {\it attacks} and {\it defenses,} both {\it
+attackers} and {\it defenders} are self-interested entities. We assume a {\it
+reward-sharing} scheme among {\it interdependent} defenders; each defender
+wishes to (locally) maximize her own total {\it fair share} to the attackers
+extinguished due to her involvement (and possibly due to those of others). What
+is the {\em maximum} amount of protection achievable by a number of such
+defenders against a number of attackers while the system is in a {\it Nash
+equilibrium}? As a measure of system protection, we adopt the {\it
+Defense-Ratio} \cite{MPPS05a}, which provides the expected (inverse) proportion
+of attackers caught by the defenders. In a {\it Defense-Optimal} Nash
+equilibrium, the Defense-Ratio is optimized.
+  We discover that the possibility of optimizing the Defense-Ratio (in a Nash
+equilibrium) depends in a subtle way on how the number of defenders compares to
+two natural graph-theoretic thresholds we identify. In this vein, we obtain,
+through a combinatorial analysis of Nash equilibria, a collection of trade-off
+results:
+  - When the number of defenders is either sufficiently small or sufficiently
+large, there are cases where the Defense-Ratio can be optimized. The
+optimization problem is computationally tractable for a large number of
+defenders; the problem becomes ${\cal NP}$-complete for a small number of
+defenders and the intractability is inherited from a previously unconsidered
+combinatorial problem in {\em Fractional Graph Theory}.
+  - Perhaps paradoxically, there is a middle range of values for the number of
+defenders where optimizing the Defense-Ratio is never possible.

@@ -1,0 +1,11 @@
+Suppose one has access to oracles generating samples from two unknown
+probability distributions P and Q on some N-element set. How many samples does
+one need to test whether the two distributions are close or far from each other
+in the L_1-norm ? This and related questions have been extensively studied
+during the last years in the field of property testing. In the present paper we
+study quantum algorithms for testing properties of distributions. It is shown
+that the L_1-distance between P and Q can be estimated with a constant
+precision using approximately N^{1/2} queries in the quantum settings, whereas
+classical computers need \Omega(N) queries. We also describe quantum algorithms
+for testing Uniformity and Orthogonality with query complexity O(N^{1/3}). The
+classical query complexity of these problems is known to be \Omega(N^{1/2}).

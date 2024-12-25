@@ -1,0 +1,20 @@
+The task management is a critical component for the computational grids. The
+aim is to assign tasks on nodes according to a global scheduling policy and a
+view of local resources of nodes. A peer-to-peer approach for the task
+management involves a better scalability for the grid and a higher fault
+tolerance. But some mechanisms have to be proposed to avoid the computation of
+replicated tasks that can reduce the efficiency and increase the load of nodes.
+In the same way, these mechanisms have to limit the number of exchanged
+messages to avoid the overload of the network.
+  In a previous paper, we have proposed two methods for the task management
+called active and passive. These methods are based on a random walk: they are
+fully distributed and fault tolerant. Each node owns a local tasks states set
+updated thanks to a random walk and each node is in charge of the local
+assignment. Here, we propose three methods to improve the efficiency of the
+active method. These new methods are based on a circulating word. The nodes
+local tasks states sets are updated thanks to periodical diffusions along trees
+built from the circulating word. Particularly, we show that these methods
+increase the efficiency of the active method: they produce less replicated
+tasks. These three methods are also fully distributed and fault tolerant. On
+the other way, the circulating word can be exploited for other applications
+like the resources management or the nodes synchronization.

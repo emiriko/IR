@@ -1,0 +1,22 @@
+New efficient and accurate numerical methods are proposed to compute ground
+states and dynamics of dipolar Bose-Einstein condensates (BECs) described by a
+three-dimensional (3D) Gross-Pitaevskii equation (GPE) with a dipolar
+interaction potential. Due to the high singularity in the dipolar interaction
+potential, it brings significant difficulties in mathematical analysis and
+numerical simulations of dipolar BECs. In this paper, by decoupling the
+two-body dipolar interaction potential into short-range (or local) and
+long-range interactions (or repulsive and attractive interactions), the GPE for
+dipolar BECs is reformulated as a Gross-Pitaevskii-Poisson type system. Based
+on this new mathematical formulation, we prove rigorously existence and
+uniqueness as well as nonexistence of the ground states, and discuss the
+existence of global weak solution and finite time blowup of the dynamics in
+different parameter regimes of dipolar BECs. In addition, a backward Euler sine
+pseudospectral method is presented for computing the ground states and a
+time-splitting sine pseudospectral method is proposed for computing the
+dynamics of dipolar BECs. Due to the adaption of new mathematical formulation,
+our new numerical methods avoid evaluating integrals with high singularity and
+thus they are more efficient and accurate than those numerical methods
+currently used in the literatures for solving the problem.
+  Extensive numerical examples in 3D are reported to demonstrate the efficiency
+and accuracy of our new numerical methods for computing the ground states and
+dynamics of dipolar BECs.

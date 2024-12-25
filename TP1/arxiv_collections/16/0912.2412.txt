@@ -1,0 +1,11 @@
+We propose a novel technique to assess functional brain connectivity in
+EEG/MEG signals. Our method, called Sparsely-Connected Sources Analysis (SCSA),
+can overcome the problem of volume conduction by modeling neural data
+innovatively with the following ingredients: (a) the EEG is assumed to be a
+linear mixture of correlated sources following a multivariate autoregressive
+(MVAR) model, (b) the demixing is estimated jointly with the source MVAR
+parameters, (c) overfitting is avoided by using the Group Lasso penalty. This
+approach allows to extract the appropriate level cross-talk between the
+extracted sources and in this manner we obtain a sparse data-driven model of
+functional connectivity. We demonstrate the usefulness of SCSA with simulated
+data, and compare to a number of existing algorithms with excellent results.

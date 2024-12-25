@@ -1,0 +1,14 @@
+We give an O(sqrt n log n)-query quantum algorithm for evaluating size-n
+AND-OR formulas. Its running time is poly-logarithmically greater after
+efficient preprocessing. Unlike previous approaches, the algorithm is based on
+a quantum walk on a graph that is not a tree. Instead, the algorithm is based
+on a hybrid of direct-sum span program composition, which generates tree-like
+graphs, and a novel tensor-product span program composition method, which
+generates graphs with vertices corresponding to minimal zero-certificates.
+  For comparison, by the general adversary bound, the quantum query complexity
+for evaluating a size-n read-once AND-OR formula is at least Omega(sqrt n), and
+at most O(sqrt{n} log n / log log n). However, this algorithm is not
+necessarily time efficient; the number of elementary quantum gates applied
+between input queries could be much larger. Ambainis et al. have given a
+quantum algorithm that uses sqrt{n} 2^{O(sqrt{log n})} queries, with a
+poly-logarithmically greater running time.

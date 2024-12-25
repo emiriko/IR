@@ -1,0 +1,14 @@
+Adiabatic quantum optimization has attracted a lot of attention because small
+scale simulations gave hope that it would allow to solve NP-complete problems
+efficiently. Later, negative results proved the existence of specifically
+designed hard instances where adiabatic optimization requires exponential time.
+In spite of this, there was still hope that this would not happen for random
+instances of NP-complete problems. This is an important issue since random
+instances are a good model for hard instances that can not be solved by current
+classical solvers, for which an efficient quantum algorithm would therefore be
+desirable. Here, we will show that because of a phenomenon similar to Anderson
+localization, an exponentially small eigenvalue gap appears in the spectrum of
+the adiabatic Hamiltonian for large random instances, very close to the end of
+the algorithm. This implies that unfortunately, adiabatic quantum optimization
+also fails for these instances by getting stuck in a local minimum, unless the
+computation is exponentially long.

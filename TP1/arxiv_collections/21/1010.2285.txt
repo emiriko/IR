@@ -1,0 +1,20 @@
+We study the intrinsic limitations of sequential convex optimization through
+the lens of feedback information theory. In the oracle model of optimization,
+an algorithm queries an {\em oracle} for noisy information about the unknown
+objective function, and the goal is to (approximately) minimize every function
+in a given class using as few queries as possible. We show that, in order for a
+function to be optimized, the algorithm must be able to accumulate enough
+information about the objective. This, in turn, puts limits on the speed of
+optimization under specific assumptions on the oracle and the type of feedback.
+Our techniques are akin to the ones used in statistical literature to obtain
+minimax lower bounds on the risks of estimation procedures; the notable
+difference is that, unlike in the case of i.i.d. data, a sequential
+optimization algorithm can gather observations in a {\em controlled} manner, so
+that the amount of information at each step is allowed to change in time. In
+particular, we show that optimization algorithms often obey the law of
+diminishing returns: the signal-to-noise ratio drops as the optimization
+algorithm approaches the optimum. To underscore the generality of the tools, we
+use our approach to derive fundamental lower bounds for a certain active
+learning problem. Overall, the present work connects the intuitive notions of
+information in optimization, experimental design, estimation, and active
+learning to the quantitative notion of Shannon information.

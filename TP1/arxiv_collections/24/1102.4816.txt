@@ -1,0 +1,11 @@
+In the series of our earlier papers on the subject, we proposed a novel
+statistical hypothesis testing method for detection of objects in noisy images.
+The method uses results from percolation theory and random graph theory. We
+developed algorithms that allowed to detect objects of unknown shapes in the
+presence of nonparametric noise of unknown level and of unknown distribution.
+No boundary shape constraints were imposed on the objects, only a weak bulk
+condition for the object's interior was required. Our algorithms have linear
+complexity and exponential accuracy. In the present paper, we describe an
+implementation of our nonparametric hypothesis testing method. We provide a
+program that can be used for statistical experiments in image processing. This
+program is written in the statistical programming language R.

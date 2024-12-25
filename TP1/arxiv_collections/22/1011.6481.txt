@@ -1,0 +1,8 @@
+We present an algorithm to find an {\it Euclidean Shortest Path} from a
+source vertex $s$ to a sink vertex $t$ in the presence of obstacles in $\Re^2$.
+Our algorithm takes $O(T+m(\lg{m})(\lg{n}))$ time and $O(n)$ space. Here,
+$O(T)$ is the time to triangulate the polygonal region, $m$ is the number of
+obstacles, and $n$ is the number of vertices. This bound is close to the known
+lower bound of $O(n+m\lg{m})$ time and $O(n)$ space. Our approach involve
+progressing shortest path wavefront as in continuous Dijkstra-type method, and
+confining its expansion to regions of interest.

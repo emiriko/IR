@@ -1,0 +1,19 @@
+We present a bijection between some quadrangular dissections of an hexagon
+and unrooted binary trees, with interesting consequences for enumeration, mesh
+compression and graph sampling. Our bijection yields an efficient uniform
+random sampler for 3-connected planar graphs, which turns out to be determinant
+for the quadratic complexity of the current best known uniform random sampler
+for labelled planar graphs [{\bf Fusy, Analysis of Algorithms 2005}]. It also
+provides an encoding for the set $\mathcal{P}(n)$ of $n$-edge 3-connected
+planar graphs that matches the entropy bound
+$\frac1n\log_2|\mathcal{P}(n)|=2+o(1)$ bits per edge (bpe). This solves a
+theoretical problem recently raised in mesh compression, as these graphs
+abstract the combinatorial part of meshes with spherical topology. We also
+achieve the {optimal parametric rate} $\frac1n\log_2|\mathcal{P}(n,i,j)|$ bpe
+for graphs of $\mathcal{P}(n)$ with $i$ vertices and $j$ faces, matching in
+particular the optimal rate for triangulations. Our encoding relies on a linear
+time algorithm to compute an orientation associated to the minimal Schnyder
+wood of a 3-connected planar map. This algorithm is of independent interest,
+and it is for instance a key ingredient in a recent straight line drawing
+algorithm for 3-connected planar graphs [\bf Bonichon et al., Graph Drawing
+2005].

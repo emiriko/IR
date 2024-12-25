@@ -1,0 +1,9 @@
+The forecasting problem for a stationary and ergodic binary time series
+$\{X_n\}_{n=0}^{\infty}$ is to estimate the probability that $X_{n+1}=1$ based
+on the observations $X_i$, $0\le i\le n$ without prior knowledge of the
+distribution of the process $\{X_n\}$. It is known that this is not possible if
+one estimates at all values of $n$. We present a simple procedure which will
+attempt to make such a prediction infinitely often at carefully selected
+stopping times chosen by the algorithm. We show that the proposed procedure is
+consistent under certain conditions, and we estimate the growth rate of the
+stopping times.

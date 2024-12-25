@@ -1,0 +1,13 @@
+The Discrete Fourier Transform (DFT) underpins the solution to many inverse
+problems commonly possessing missing or un-measured frequency information. This
+incomplete coverage of Fourier space always produces systematic artefacts
+called Ghosts. In this paper, a fast and exact method for de-convolving cyclic
+artefacts caused by missing slices of the DFT is presented. The slices
+discussed here originate from the exact partitioning of DFT space, under the
+projective Discrete Radon Transform, called the Discrete Fourier Slice Theorem.
+The method has a computational complexity of O(n log2 n) (where n = N^2) and is
+constructed from a new Finite Ghost theory. This theory is also shown to unify
+several aspects of work done on Ghosts over the past three decades. The paper
+concludes with a significant application to fast, exact, non-iterative image
+reconstruction from sets of discrete slices obtained for a limited range of
+projection angles.

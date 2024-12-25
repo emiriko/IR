@@ -1,0 +1,17 @@
+We describe a new approach to data modeling, called the concept-oriented
+model (COM), and a novel concept-oriented query language (COQL). The model is
+based on three principles: duality principle postulates that any element is a
+couple consisting of one identity and one entity, inclusion principle
+postulates that any element has a super-element, and order principle assumes
+that any element has a number of greater elements within a partially ordered
+set. Concept-oriented query language is based on a new data modeling construct,
+called concept, inclusion relation between concepts, and concept partial
+ordering in which greater concepts are represented by their field types. It is
+demonstrated how COM and COQL can be used to solve three general data modeling
+tasks: logical navigation, multidimensional analysis and inference. Logical
+navigation is based on two operations of projection and de-projection.
+Multidimensional analysis uses product operation for producing a cube from
+level concepts chosen along the chosen dimension paths. Inference is defined as
+a two-step procedure where input constraints are first propagated downwards
+using de-projection and then the constrained result is propagated upwards using
+projection.

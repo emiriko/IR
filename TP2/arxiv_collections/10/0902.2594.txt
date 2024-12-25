@@ -1,0 +1,13 @@
+In this work, we present MHDEnzo, the extension of the cosmological code Enzo
+to include the effects magnetic fields through the ideal MHD approximation. We
+use a higher order Godunov Riemann solver for the computation of interface
+fluxes. We use two constrained transport methods to compute the electric field
+from those interface fluxes, which simultaneously advances the induction
+equation and maintains the divergence of the magnetic field. A third order
+divergence free reconstruction technique is used to interpolate the magnetic
+fields in the block structured AMR framework already extant in Enzo. This
+reconstruction also preserves the divergence of the magnetic field to machine
+precision. We use operator splitting to include gravity and cosmological
+expansion. We then present a series of cosmological and non cosmological tests
+problems to demonstrate the quality of solution resulting from this combination
+of solvers.

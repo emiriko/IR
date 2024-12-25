@@ -1,0 +1,24 @@
+Context: T Tauri stars have X-ray luminosities ranging from L_X = 10^28-10^32
+erg/s. These luminosities are similar to UV luminosities (L_UV 10^30-10^31
+erg/s) and therefore X-rays are expected to affect the physics and chemistry of
+the upper layers of their surrounding protoplanetary disks.
+  Aim: The effects and importance of X-rays on the chemical and hydrostatic
+structure of protoplanetary disks are investigated, species tracing X-ray
+irradiation (for L_X >= 10^29 erg/s) are identified and predictions for [OI],
+[CII] and [NII] fine structure line fluxes are provided.
+  Methods: We have implemented X-ray physics and chemistry into the
+chemo-physical disk code ProDiMo. We include Coulomb heating and H2 ionization
+as heating processes and primary and secondary ionization due to X-rays in the
+chemistry.
+  Results: X-rays heat up the gas causing it to expand in the optically thin
+surface layers. Neutral molecular species are not much affected in their
+abundance and spatial distribution, but charged species such as N+, OH+, H2O+
+and H3O+ show enhanced abundances in the disk surface.
+  Conclusions: Coulomb heating by X-rays changes the vertical structure of the
+disk, yielding temperatures of ~ 8000 K out to distances of 50 AU. The chemical
+structure is altered by the high electron abundance in the gas in the disk
+surface, causing an efficient ion-molecule chemistry. The products of this,
+OH+, H2O+ and H3O+, are of great interest for observations of low-mass young
+stellar objects with the Herschel Space Observatory. [OI] (at 63 and 145 mic)
+and [CII] (at 158 mic) fine structure emission are only affected for L_X >
+10^30 erg/s.

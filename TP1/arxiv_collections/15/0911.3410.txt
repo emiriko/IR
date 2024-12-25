@@ -1,0 +1,18 @@
+We assess the validity of a single step Godunov scheme for the solution of
+the magneto-hydrodynamics equations in more than one dimension. The scheme is
+second-order accurate and the temporal discretization is based on the
+dimensionally unsplit Corner Transport Upwind (CTU) method of Colella. The
+proposed scheme employs a cell-centered representation of the primary fluid
+variables (including magnetic field) and conserves mass, momentum, magnetic
+induction and energy. A variant of the scheme, which breaks momentum and energy
+conservation, is also considered. Divergence errors are transported out of the
+domain and damped using the mixed hyperbolic/parabolic divergence cleaning
+technique by Dedner et al. (J. Comput. Phys., 175, 2002). The strength and
+accuracy of the scheme are verified by a direct comparison with the eight-wave
+formulation (also employing a cell-centered representation) and with the
+popular constrained transport method, where magnetic field components retain a
+staggered collocation inside the computational cell. Results obtained from two-
+and three-dimensional test problems indicate that the newly proposed scheme is
+robust, accurate and competitive with recent implementations of the constrained
+transport method while being considerably easier to implement in existing hydro
+codes.

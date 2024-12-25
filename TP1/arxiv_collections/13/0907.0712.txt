@@ -1,0 +1,13 @@
+Given a set of variables and the correlations among them, we develop a method
+for finding clustering among the variables. The method takes advantage of
+information implicit in higher-order (not just pairwise) correlations. The idea
+is to define a Potts model whose energy is based on the correlations. Each
+state of this model is a partition of the variables and a Monte Carlo method is
+used to identify states of lowest energy, those most consistent with the
+correlations. A set of the 100 or so lowest such partitions is then used to
+construct a stochastic dynamics (using the adjacency matrix of each partition)
+whose observable representation gives the clustering. Three examples are
+studied. For two of them the 3$^\mathrm{rd}$ order correlations are significant
+for getting the clusters right. The last of these is a toy model of a
+biological system in which the joint action of several genes or proteins is
+necessary to accomplish a given process.

@@ -1,0 +1,11 @@
+We describe a parallel algorithm for solving the time-independent 3d
+Schrodinger equation using the finite difference time domain (FDTD) method. We
+introduce an optimized parallelization scheme that reduces communication
+overhead between computational nodes. We demonstrate that the compute time, t,
+scales inversely with the number of computational nodes as t ~ N_nodes^(-0.95
++/- 0.04). This makes it possible to solve the 3d Schrodinger equation on
+extremely large spatial lattices using a small computing cluster. In addition,
+we present a new method for precisely determining the energy eigenvalues and
+wavefunctions of quantum states based on a symmetry constraint on the FDTD
+initial condition. Finally, we discuss the usage of multi-resolution techniques
+in order to speed up convergence on extremely large lattices.

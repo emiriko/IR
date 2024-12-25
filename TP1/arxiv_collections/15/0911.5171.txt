@@ -1,0 +1,12 @@
+We are looking for a mathematical model of monophonic sounds with independent
+time and phase dimensions. With such a model we can resynthesise a sound with
+arbitrarily modulated frequency and progress of the timbre. We propose such a
+model and show that it exactly fulfils some natural properties, like a kind of
+time-invariance, robustness against non-harmonic frequencies, envelope
+preservation, and inclusion of plain resampling as a special case. The
+resulting algorithm is efficient and allows to process data in a streaming
+manner with phase and shape modulation at sample rate, what we demonstrate with
+an implementation in the functional language Haskell. It allows a wide range of
+applications, namely pitch shifting and time scaling, creative FM synthesis
+effects, compression of monophonic sounds, generating loops for sampled sounds,
+synthesise sounds similar to wavetable synthesis, or making ultrasound audible.

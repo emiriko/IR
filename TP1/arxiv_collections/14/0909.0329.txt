@@ -1,0 +1,11 @@
+In some studies requiring predictive and CPU-time consuming numerical models,
+the sampling design of the model input variables has to be chosen with caution.
+For this purpose, Latin hypercube sampling has a long history and has shown its
+robustness capabilities. In this paper we propose and discuss a new algorithm
+to build a Latin hypercube sample (LHS) taking into account inequality
+constraints between the sampled variables. This technique, called constrained
+Latin hypercube sampling (cLHS), consists in doing permutations on an initial
+LHS to honor the desired monotonic constraints. The relevance of this approach
+is shown on a real example concerning the numerical welding simulation, where
+the inequality constraints are caused by the physical decreasing of some
+material properties in function of the temperature.

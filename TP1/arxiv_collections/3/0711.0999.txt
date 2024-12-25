@@ -1,0 +1,14 @@
+Dynamical mean-field theory is generalized to solve the nonequilibrium
+Keldysh boundary problem: a system is started in equilibrium at a temperature
+T=0.1, a uniform electric field is turned on at t=0, and the system is
+monitored as it approaches the steady state. The focus here is on the Bloch
+oscillations of the current and how they decay after their initial appearance
+near t=0. The system is evolved out to the longest time allowed by our
+computational resources--in most cases we are unable to reach the steady state.
+The strongly correlated material is modeled by the spinless Falicov-Kimball
+model at half-filling on a hypercubic lattice in d=oo dimensions, which has a
+Mott-like metal-insulator transition at U=sqrt{2}. The computational algorithm
+employed is highly efficient, parallelizes well, and scales to thousands of
+processors. For strong fields, we find beats develop with a period of 2 pi/U,
+while for strong interactions, the Bloch oscillations are sharply damped and
+become quite irregular in time.

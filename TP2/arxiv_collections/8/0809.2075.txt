@@ -1,0 +1,12 @@
+In this paper, we show a connection between a certain online low-congestion
+routing problem and an online prediction of graph labeling. More specifically,
+we prove that if there exists a routing scheme that guarantees a congestion of
+$\alpha$ on any edge, there exists an online prediction algorithm with mistake
+bound $\alpha$ times the cut size, which is the size of the cut induced by the
+label partitioning of graph vertices. With previous known bound of $O(\log n)$
+for $\alpha$ for the routing problem on trees with $n$ vertices, we obtain an
+improved prediction algorithm for graphs with high effective resistance.
+  In contrast to previous approaches that move the graph problem into problems
+in vector space using graph Laplacian and rely on the analysis of the
+perceptron algorithm, our proof are purely combinatorial. Further more, our
+approach directly generalizes to the case where labels are not binary.

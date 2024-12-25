@@ -1,0 +1,24 @@
+(Abridged) We test how accurately the smoothed particle hydrodynamics (SPH)
+numerical technique can follow spherically-symmetric Bondi accretion. Using the
+3D SPH code GADGET-3, we perform simulations of gas accretion onto a central
+supermassive black hole (SMBH) of mass 10^8 M_sun within the radial range of
+0.1 - 200 pc. We carry out simulations without and with radiative heating by a
+central X-ray corona and radiative cooling. For an adiabatic case, the radial
+profiles of hydrodynamical properties match the Bondi solution, except near the
+inner and outer radius of the computational domain. We find that adiabatic
+Bondi accretion can be reproduced for durations of a few dynamical times at the
+Bondi radius, and for longer times if the outer radius is increased. With
+radiative heating and cooling included, the spherically accreting gas takes a
+longer time to reach a steady-state than the adiabatic Bondi accretion runs,
+and in some cases does not reach a steady-state even within several hundred
+dynamical times. We find that artificial viscosity in the GADGET code causes
+excessive heating near the inner radius, making the thermal properties of the
+gas inconsistent with a physical solution. This overheating occurs typically
+only in the supersonic part of the flow, so that it does not affect the mass
+accretion rate. We see that increasing the X-ray luminosity produces a lower
+central mass inflow rate, implying that feedback due to radiative heating is
+operational in our simulations. With a sufficiently high X-ray luminosity, the
+inflowing gas is radiatively heated up, and an outflow develops. We conclude
+that the SPH simulations can capture the gas dynamics needed to study radiative
+feedback provided artificial viscosity alters only highly supersonic part of
+the inflow.

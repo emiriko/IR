@@ -1,0 +1,18 @@
+This article extends the idea of solving parity games by strategy iteration
+to non-deterministic strategies: In a non-deterministic strategy a player
+restricts himself to some non-empty subset of possible actions at a given node,
+instead of limiting himself to exactly one action. We show that a
+strategy-improvement algorithm by by Bjoerklund, Sandberg, and Vorobyov can
+easily be adapted to the more general setting of non-deterministic strategies.
+Further, we show that applying the heuristic of "all profitable switches" leads
+to choosing a "locally optimal" successor strategy in the setting of
+non-deterministic strategies, thereby obtaining an easy proof of an algorithm
+by Schewe. In contrast to the algorithm by Bjoerklund et al., we present our
+algorithm directly for parity games which allows us to compare it to the
+algorithm by Jurdzinski and Voege: We show that the valuations used in both
+algorithm coincide on parity game arenas in which one player can "surrender".
+Thus, our algorithm can also be seen as a generalization of the one by
+Jurdzinski and Voege to non-deterministic strategies. Finally, using
+non-deterministic strategies allows us to show that the number of improvement
+steps is bound from above by O(1.724^n). For strategy-improvement algorithms,
+this bound was previously only known to be attainable by using randomization.

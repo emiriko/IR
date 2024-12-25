@@ -1,0 +1,16 @@
+Appel and McAllester's "step-indexed" logical relations have proven to be a
+simple and effective technique for reasoning about programs in languages with
+semantically interesting types, such as general recursive types and general
+reference types. However, proofs using step-indexed models typically involve
+tedious, error-prone, and proof-obscuring step-index arithmetic, so it is
+important to develop clean, high-level, equational proof principles that avoid
+mention of step indices. In this paper, we show how to reason about binary
+step-indexed logical relations in an abstract and elegant way. Specifically, we
+define a logic LSLR, which is inspired by Plotkin and Abadi's logic for
+parametricity, but also supports recursively defined relations by means of the
+modal "later" operator from Appel, Melli\`es, Richards, and Vouillon's "very
+modal model" paper. We encode in LSLR a logical relation for reasoning
+relationally about programs in call-by-value System F extended with general
+recursive types. Using this logical relation, we derive a set of useful rules
+with which we can prove contextual equivalence and approximation results
+without counting steps.

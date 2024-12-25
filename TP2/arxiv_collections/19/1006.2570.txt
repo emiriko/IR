@@ -1,0 +1,14 @@
+Motivated by algorithmic problems from combinatorial group theory we study
+computational properties of integers equipped with binary operations +, -, z =
+x 2^y, z = x 2^{-y} (the former two are partial) and predicates < and =. Notice
+that in this case very large numbers, which are obtained as n towers of
+exponentiation in the base 2 can be realized as n applications of the operation
+x2^y, so working with such numbers given in the usual binary expansions
+requires super exponential space. We define a new compressed representation for
+integers by power circuits (a particular type of straight-line programs) which
+is unique and easily computable, and show that the operations above can be
+performed in polynomial time if the numbers are presented by power circuits. We
+mention several applications of this technique to algorithmic problems, in
+particular, we prove that the quantifier-free theories of various exponential
+algebras are decidable in polynomial time, as well as the word problems in some
+"hard to crack" one-relator groups.

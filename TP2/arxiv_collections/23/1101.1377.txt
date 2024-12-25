@@ -1,0 +1,18 @@
+It has been estimated that about 30% of the genes in the human genome are
+regulated by microRNAs (miRNAs). These are short RNA sequences that can
+down-regulate the levels of mRNAs or proteins in animals and plants. Genes
+regulated by miRNAs are called targets. Typically, methods for target
+prediction are based solely on sequence data and on the structure information.
+In this paper we propose a Bayesian graphical modeling approach that infers the
+miRNA regulatory network by integrating expression levels of miRNAs with their
+potential mRNA targets and, via the prior probability model, with their
+sequence/structure information. We use a directed graphical model with a
+particular structure adapted to our data based on biological considerations. We
+then achieve network inference using stochastic search methods for variable
+selection that allow us to explore the huge model space via MCMC. A
+time-dependent coefficients model is also implemented. We consider experimental
+data from a study on a very well-known developmental toxicant causing neural
+tube defects, hyperthermia. Some of the pairs of target gene and miRNA we
+identify seem very plausible and warrant future investigation. Our proposed
+method is general and can be easily applied to other types of network inference
+by integrating multiple data sources.

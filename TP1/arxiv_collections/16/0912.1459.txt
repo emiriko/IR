@@ -1,0 +1,12 @@
+To treat the electronic structure of large molecules by electron propagator
+methods we developed a parallel computer program called P-RICD$\Sigma$. The
+program exploits the sparsity of the two-electron integral matrix by using
+Cholesky decomposition techniques. The advantage of these techniques is that
+the error introduced is controlled only by one parameter which can be chosen as
+small as needed. We verify the tolerance of electron propagator methods to the
+Cholesky decomposition threshold and demonstrate the power of the
+P-RICD$\Sigma$ program for a representative example (C60). All decomposition
+schemes addressed in the literature are investigated. Even with moderate
+thresholds the maximal error encountered in the calculated electron affinities
+and ionization potentials amount to a few meV only, and the error becomes
+negligible for small thresholds.

@@ -1,0 +1,21 @@
+The eXtensible Markup Language (XML) provides a powerful and flexible means
+of encoding and exchanging data. As it turns out, its main advantage as an
+encoding format (namely, its requirement that all open and close markup tags
+are present and properly balanced) yield also one of its main disadvantages:
+verbosity. XML-conscious compression techniques seek to overcome this drawback.
+Many of these techniques first separate XML structure from the document
+content, and then compress each independently. Further compression gains can be
+realized by identifying and compressing together document content that is
+highly similar, thereby amortizing the storage costs of auxiliary information
+required by the chosen compression algorithm. Additionally, the proper choice
+of compression algorithm is an important factor not only for the achievable
+compression gain, but also for access performance. Hence, choosing a
+compression configuration that optimizes compression gain requires one to
+determine (1) a partitioning strategy for document content, and (2) the best
+available compression algorithm to apply to each set within this partition. In
+this paper, we show that finding an optimal compression configuration with
+respect to compression gain is an NP-hard optimization problem. This problem
+remains intractable even if one considers a single compression algorithm for
+all content. We also describe an approximation algorithm for selecting a
+partitioning strategy for document content based on the branch-and-bound
+paradigm.

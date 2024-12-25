@@ -1,0 +1,17 @@
+As the amount of personal information stored at remote service providers
+increases, so does the danger of data theft. When connections to remote
+services are made in the clear and authenticated sessions are kept using HTTP
+cookies, data theft becomes extremely easy to achieve. In this paper, we study
+the architecture of the world's largest service provider, i.e., Google. First,
+with the exception of a few services that can only be accessed over HTTPS
+(e.g., Gmail), we find that many Google services are still vulnerable to simple
+session hijacking. Next, we present the Historiographer, a novel attack that
+reconstructs the web search history of Google users, i.e., Google's Web
+History, even though such a service is supposedly protected from session
+hijacking by a stricter access control policy. The Historiographer uses a
+reconstruction technique inferring search history from the personalized
+suggestions fed by the Google search engine. We validate our technique through
+experiments conducted over real network traffic and discuss possible
+countermeasures. Our attacks are general and not only specific to Google, and
+highlight privacy concerns of mixed architectures using both secure and
+insecure connections.

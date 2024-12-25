@@ -1,0 +1,18 @@
+The dual-kinetic-balance (DKB) finite basis set method for solving the Dirac
+equation for hydrogen-like ions [V. M. Shabaev et al., Phys. Rev. Lett. 93,
+130405 (2004)] is extended to problems with a non-local spherically-symmetric
+Dirac-Hartree-Fock potential. We implement the DKB method using B-spline basis
+sets and compare its performance with the widely-employed approach of Notre
+Dame (ND) group [W.R. Johnson and J. Sapirstein, Phys. Rev. Lett. 57, 1126
+(1986)]. We compare the performance of the ND and DKB methods by computing
+various properties of Cs atom: energies, hyperfine integrals, the
+parity-non-conserving amplitude of the $6s_{1/2}-7s_{1/2}$ transition, and the
+second-order many-body correction to the removal energy of the valence
+electrons. We find that for a comparable size of the basis set the accuracy of
+both methods is similar for matrix elements accumulated far from the nuclear
+region. However, for atomic properties determined by small distances, the DKB
+method outperforms the ND approach. In addition, we present a strategy for
+optimizing the size of the basis sets by choosing progressively smaller number
+of basis functions for increasingly higher partial waves. This strategy
+exploits suppression of contributions of high partial waves to typical
+many-body correlation corrections.

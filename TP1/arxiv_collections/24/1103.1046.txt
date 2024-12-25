@@ -1,0 +1,18 @@
+Here we introduce a new design framework for synthetic biology that exploits
+the advantages of Bayesian model selection. We will argue that the difference
+between inference and design is that in the former we try to reconstruct the
+system that has given rise to the data that we observe, while in the latter, we
+seek to construct the system that produces the data that we would like to
+observe, i.e. the desired behavior. Our approach allows us to exploit methods
+from Bayesian statistics, including efficient exploration of models spaces and
+high-dimensional parameter spaces, and the ability to rank models with respect
+to their ability to generate certain types of data. Bayesian model selection
+furthermore automatically strikes a balance between complexity and (predictive
+or explanatory) performance of mathematical models. In order to deal with the
+complexities of molecular systems we employ an approximate Bayesian computation
+scheme which only requires us to simulate from different competing models in
+order to arrive at rational criteria for choosing between them. We illustrate
+the advantages resulting from combining the design and modeling (or in-silico
+prototyping) stages currently seen as separate in synthetic biology by
+reference to deterministic and stochastic model systems exhibiting adaptive and
+switch-like behavior, as well as bacterial two-component signaling systems.

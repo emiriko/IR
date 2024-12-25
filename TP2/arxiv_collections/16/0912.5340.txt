@@ -1,0 +1,20 @@
+In this paper, we propose causality as a unified framework to explain query
+answers and non-answers, thus generalizing and extending several previously
+proposed approaches of provenance and missing query result explanations.
+  We develop our framework starting from the well-studied definition of actual
+causes by Halpern and Pearl. After identifying some undesirable characteristics
+of the original definition, we propose functional causes as a refined
+definition of causality with several desirable properties. These properties
+allow us to apply our notion of causality in a database context and apply it
+uniformly to define the causes of query results and their individual
+contributions in several ways: (i) we can model both provenance as well as
+non-answers, (ii) we can define explanations as either data in the input
+relations or relational operations in a query plan, and (iii) we can give
+graded degrees of responsibility to individual causes, thus allowing us to rank
+causes. In particular, our approach allows us to explain contributions to
+relational aggregate functions and to rank causes according to their respective
+responsibilities. We give complexity results and describe polynomial algorithms
+for evaluating causality in tractable cases. Throughout the paper, we
+illustrate the applicability of our framework with several examples.
+  Overall, we develop in this paper the theoretical foundations of causality
+theory in a database context.

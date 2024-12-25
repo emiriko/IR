@@ -1,0 +1,15 @@
+A novel tool for tsunami wave modelling is presented. This tool has the
+potential of being used for operational purposes: indeed, the numerical code
+\VOLNA is able to handle the complete life-cycle of a tsunami (generation,
+propagation and run-up along the coast). The algorithm works on unstructured
+triangular meshes and thus can be run in arbitrary complex domains. This paper
+contains the detailed description of the finite volume scheme implemented in
+the code. The numerical treatment of the wet/dry transition is explained. This
+point is crucial for accurate run-up/run-down computations. Most existing
+tsunami codes use semi-empirical techniques at this stage, which are not always
+sufficient for tsunami hazard mitigation. Indeed the decision to evacuate
+inhabitants is based on inundation maps which are produced with this type of
+numerical tools. We present several realistic test cases that partially
+validate our algorithm. Comparisons with analytical solutions and experimental
+data are performed. Finally the main conclusions are outlined and the
+perspectives for future research presented.

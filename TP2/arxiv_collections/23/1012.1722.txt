@@ -1,0 +1,19 @@
+The aim of the new generation of radio synthesis arrays such as LOFAR and SKA
+is to achieve much higher sensitivity, resolution and frequency coverage than
+what is available now, especially at low frequencies. To accomplish this goal,
+the accuracy of the calibration techniques used is of considerable importance.
+Moreover, since these telescopes produce huge amounts of data, speed of
+convergence of calibration is a major bottleneck. The errors in calibration are
+due to system noise (sky and instrumental) as well as the estimation errors
+introduced by the calibration technique itself, which we call solver noise. We
+define solver noise as the distance between the optimal solution (the true
+value of the unknowns, uncorrupted by the system noise) and the solution
+obtained by calibration. We present the Space Alternating Generalized
+Expectation Maximization (SAGE) calibration technique, which is a modification
+of the Expectation Maximization algorithm, and compare its performance with the
+traditional Least Squares calibration based on the level of solver noise
+introduced by each technique. For this purpose, we develop statistical methods
+that use the calibrated solutions to estimate the level of solver noise. The
+SAGE calibration algorithm yields very promising results both in terms of
+accuracy and speed of convergence. The comparison approaches we adopt introduce
+a new framework for assessing the performance of different calibration schemes.

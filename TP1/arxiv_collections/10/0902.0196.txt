@@ -1,0 +1,17 @@
+This paper develops the theory behind the bispectrum, a concept that is well
+established in statistical signal processing but not, until recently, extended
+to computer vision as a source of frequency-domain invariants. Recent papers on
+using the bispectrum in vision show good results when the bispectrum is applied
+to spherical harmonic models of three-dimensional (3-D) shapes, in particular
+by improving discrimination over previously-proposed magnitude invariants, and
+also by allowing detection of neutral pose in human activity detection. The
+bispectrum has also been formulated for vector spherical harmonics, which have
+been used in medical imaging for 3-D anatomical modeling. In a paper published
+in this journal, Smach {\it et al.} use duality theory to establish the
+completeness of second-order invariants which, as shown here, are the same as
+the bispectrum. This paper unifies earlier works of various researchers by
+deriving the bispectrum formula for all compact groups. It also provides a
+constructive algorithm for recovering functions from their bispectral values on
+SO(3). The main theoretical result shows that the bispectrum serves as a
+complete source of invariants for homogeneous spaces of compact groups,
+including such important domains as the sphere $S^2$.

@@ -1,0 +1,14 @@
+It was shown in [WST08] that cryptographic primitives can be implemented
+based on the assumption that quantum storage of qubits is noisy. In this work
+we analyze a protocol for the universal task of oblivious transfer that can be
+implemented using quantum-key-distribution (QKD) hardware in the practical
+setting where honest participants are unable to perform noise-free operations.
+We derive trade-offs between the amount of storage noise, the amount of noise
+in the operations performed by the honest participants and the security of
+oblivious transfer which are greatly improved compared to the results in
+[WST08]. As an example, we show that for the case of depolarizing noise in
+storage we can obtain secure oblivious transfer as long as the quantum
+bit-error rate of the channel does not exceed 11% and the noise on the channel
+is strictly less than the quantum storage noise. This is optimal for the
+protocol considered. Finally, we show that our analysis easily carries over to
+quantum protocols for secure identification.

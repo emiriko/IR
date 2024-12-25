@@ -1,0 +1,11 @@
+We applied our previously developed library-based Monte Carlo (LBMC) to
+equilibrium sampling of several implicitly solvated all-atom peptides. LBMC can
+perform equilibrium sampling of molecules using the pre-calculated statistical
+libraries of molecular-fragment configurations and energies. For this study, we
+employed residue-based fragments distributed according to the Boltzmann factor
+of the OPLS-AA forcefield describing the individual fragments. Two solvent
+models were employed: a simple uniform dielectric and the Generalized
+Born/Surface Area (GBSA) model. The efficiency of LBMC was compared to standard
+Langevin dynamics (LD) using three different statistical tools. The statistical
+analyses indicate that LBMC is more than 100 times faster than LD not only for
+the simple solvent model but also for GBSA.

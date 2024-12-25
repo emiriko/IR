@@ -1,0 +1,17 @@
+Extending a given language with new dedicated features is a general and quite
+used approach to make the programming language more adapted to problems. Being
+closer to the application, this leads to less programming flaws and easier
+maintenance. But of course one would still like to perform program analysis on
+these kinds of extended languages, in particular type checking and inference.
+In this case one has to make the typing of the extended features compatible
+with the ones in the starting language.
+  The Tom programming language is a typical example of such a situation as it
+consists of an extension of Java that adds pattern matching, more particularly
+associative pattern matching, and reduction strategies.
+  This paper presents a type system with subtyping for Tom, that is compatible
+with Java's type system, and that performs both type checking and type
+inference. We propose an algorithm that checks if all patterns of a Tom program
+are well-typed. In addition, we propose an algorithm based on equality and
+subtyping constraints that infers types of variables occurring in a pattern.
+Both algorithms are exemplified and the proposed type system is showed to be
+sound and complete.

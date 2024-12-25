@@ -1,0 +1,16 @@
+Based on multiple simulation trajectories, which started from dispersively
+selected initial conformations, the weighted ensemble dynamics method is
+designed to robustly and systematically explore the hierarchical structure of
+complex conformational space through the spectral analysis of the
+variance-covariance matrix of trajectory-mapped vectors. Non-degenerate ground
+state of the matrix directly predicts the ergodicity of simulation data. The
+ground state could be adopted as statistical weights of trajectories to
+correctly reconstruct the equilibrium properties, even though each trajectory
+only explores part of the conformational space. Otherwise, the degree of
+degeneracy simply gives the number of meta-stable states of the system under
+the time scale of individual trajectory. Manipulation on the eigenvectors leads
+to the classification of trajectories into non-transition ones within the
+states and transition ones between them. The transition states may also be
+predicted without a priori knowledge of the system. We demonstrate the
+application of the general method both to the system with a one-dimensional
+glassy potential and with the one of alanine dipeptide in explicit solvent.

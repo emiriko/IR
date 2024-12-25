@@ -1,0 +1,13 @@
+A mode of a multiset $S$ is an element $a \in S$ of maximum multiplicity;
+that is, $a$ occurs at least as frequently as any other element in $S$. Given a
+list $A[1:n]$ of $n$ items, we consider the problem of constructing a data
+structure that efficiently answers range mode queries on $A$. Each query
+consists of an input pair of indices $(i, j)$ for which a mode of $A[i:j]$ must
+be returned. We present an $O(n^{2-2\epsilon})$-space static data structure
+that supports range mode queries in $O(n^\epsilon)$ time in the worst case, for
+any fixed $\epsilon \in [0,1/2]$. When $\epsilon = 1/2$, this corresponds to
+the first linear-space data structure to guarantee $O(\sqrt{n})$ query time. We
+then describe three additional linear-space data structures that provide
+$O(k)$, $O(m)$, and $O(|j-i|)$ query time, respectively, where $k$ denotes the
+number of distinct elements in $A$ and $m$ denotes the frequency of the mode of
+$A$. Finally, we examine generalizing our data structures to higher dimensions.

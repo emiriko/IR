@@ -1,0 +1,10 @@
+This paper deals with public-key steganography in the presence of a passive
+warden. The aim is to hide secret messages within cover-documents without
+making the warden suspicious, and without any preliminar secret key sharing.
+Whereas a practical attempt has been already done to provide a solution to this
+problem, it suffers of poor flexibility (since embedding and decoding steps
+highly depend on cover-signals statistics) and of little capacity compared to
+recent data hiding techniques. Using the same framework, this paper explores
+the use of trellis-coded quantization techniques (TCQ and turbo TCQ) to design
+a more efficient public-key scheme. Experiments on audio signals show great
+improvements considering Cachin's security criterion.

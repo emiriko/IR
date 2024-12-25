@@ -1,0 +1,17 @@
+Communication systems are usually designed by assuming perfect channel state
+information (CSI). However, in many practical scenarios, only a noisy estimate
+of the channel is available, which may strongly differ from the true channel.
+This imperfect CSI scenario is addressed by introducing the notion of
+estimation-induced outage (EIO) capacity. We derive a single-letter
+characterization of the maximal EIO rate and prove an associated coding theorem
+and its strong converse for discrete memoryless channels (DMCs). The
+transmitter and the receiver rely on the channel estimate and the statistics of
+the estimate to construct codes that guarantee reliable communication with a
+certain outage probability. This ensures that in the non-outage case the
+transmission meets the target rate with small error probability, irrespective
+of the quality of the channel estimate. Applications of the EIO capacity to a
+single-antenna (non-ergodic) Ricean fading channel are considered. The EIO
+capacity for this case is compared to the EIO rates of a communication system
+in which the receiver decodes by using a mismatched ML decoder. The effects of
+rate-limited feedback to provide the transmitter with quantized CSI are also
+investigated.

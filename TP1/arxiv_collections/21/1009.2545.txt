@@ -1,0 +1,14 @@
+Cryptanalysis is an important branch in the study of cryptography, including
+both the classical cryptography and the quantum one. In this paper we analyze
+the security of two three-party quantum key distribution protocols (QKDPs)
+proposed recently, and point out that they are susceptible to a simple and
+effective attack, i.e. the dense-coding attack. It is shown that the
+eavesdropper Eve can totally obtain the session key by sending entangled qubits
+as the fake signal to Alice and performing collective measurements after
+Alice's encoding. The attack process is just like a dense-coding communication
+between Eve and Alice, where a special measurement basis is employed.
+Furthermore, this attack does not introduce any errors to the transmitted
+information and consequently will not be discovered by Alice and Bob. The
+attack strategy is described in detail and a proof for its correctness is
+given. At last, the root of this insecurity and a possible way to improve these
+protocols are discussed.

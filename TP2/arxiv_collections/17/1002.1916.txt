@@ -1,0 +1,19 @@
+Secure multi-party computation is a central problem in modern cryptography.
+An important sub-class of this are problems of the following form: Alice and
+Bob desire to produce sample(s) of a pair of jointly distributed random
+variables. Each party must learn nothing more about the other party's output
+than what its own output reveals. To aid in this, they have available a set up
+- correlated random variables whose distribution is different from the desired
+distribution - as well as unlimited noiseless communication. In this paper we
+present an upperbound on how efficiently a given set up can be used to produce
+samples from a desired distribution.
+  The key tool we develop is a generalization of the concept of common
+information of two dependent random variables [Gacs-Korner, 1973]. Our
+generalization - a three-dimensional region - remedies some of the limitations
+of the original definition which captured only a limited form of dependence. It
+also includes as a special case Wyner's common information [Wyner, 1975]. To
+derive the cryptographic bounds, we rely on a monotonicity property of this
+region: the region of the "views" of Alice and Bob engaged in any protocol can
+only monotonically expand and not shrink. Thus, by comparing the regions for
+the target random variables and the given random variables, we obtain our
+upperbound.

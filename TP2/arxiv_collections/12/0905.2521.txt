@@ -1,0 +1,16 @@
+This work addresses computing techniques for dose calculations in treatment
+planning with proton and ion beams, based on an efficient kernel-convolution
+method referred to as grid-dose spreading (GDS) and accurate
+heterogeneity-correction method referred to as Gaussian beam splitting. The
+original GDS algorithm suffered from distortion of dose distribution for beams
+tilted with respect to the dose-grid axes. Use of intermediate grids normal to
+the beam field has solved the beam-tilting distortion. Interplay of arrangement
+between beams and grids was found as another intrinsic source of artifact.
+Inclusion of rectangular-kernel convolution in beam transport, to share the
+beam contribution among the nearest grids in a regulatory manner, has solved
+the interplay problem. This algorithmic framework was applied to a tilted
+proton pencil beam and a broad carbon-ion beam. In these cases, while the
+elementary pencil beams individually split into several tens, the calculation
+time increased only by several times with the GDS algorithm. The GDS and
+beam-splitting methods will complementarily enable accurate and efficient dose
+calculations for radiotherapy with protons and ions.

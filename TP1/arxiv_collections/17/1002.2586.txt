@@ -1,0 +1,16 @@
+The fundamental principle underlying compressed sensing is that a signal,
+which is sparse under some basis representation, can be recovered from a small
+number of linear measurements. However, prior knowledge of the sparsity basis
+is essential for the recovery process. This work introduces the concept of
+blind compressed sensing, which avoids the need to know the sparsity basis in
+both the sampling and the recovery process. We suggest three possible
+constraints on the sparsity basis that can be added to the problem in order to
+make its solution unique. For each constraint we prove conditions for
+uniqueness, and suggest a simple method to retrieve the solution. Under the
+uniqueness conditions, and as long as the signals are sparse enough, we
+demonstrate through simulations that without knowing the sparsity basis our
+methods can achieve results similar to those of standard compressed sensing,
+which relay on prior knowledge of the sparsity basis. This offers a general
+sampling and reconstruction system that fits all sparse signals, regardless of
+the sparsity basis, under the conditions and constraints presented in this
+work.

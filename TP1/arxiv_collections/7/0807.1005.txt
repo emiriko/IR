@@ -1,0 +1,15 @@
+Bayesian model averaging, model selection and its approximations such as BIC
+are generally statistically consistent, but sometimes achieve slower rates og
+convergence than other methods such as AIC and leave-one-out cross-validation.
+On the other hand, these other methods can br inconsistent. We identify the
+"catch-up phenomenon" as a novel explanation for the slow convergence of
+Bayesian methods. Based on this analysis we define the switch distribution, a
+modification of the Bayesian marginal distribution. We show that, under broad
+conditions,model selection and prediction based on the switch distribution is
+both consistent and achieves optimal convergence rates, thereby resolving the
+AIC-BIC dilemma. The method is practical; we give an efficient implementation.
+The switch distribution has a data compression interpretation, and can thus be
+viewed as a "prequential" or MDL method; yet it is different from the MDL
+methods that are usually considered in the literature. We compare the switch
+distribution to Bayes factor model selection and leave-one-out
+cross-validation.

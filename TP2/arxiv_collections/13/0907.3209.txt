@@ -1,0 +1,15 @@
+In this paper, we propose three novel and important methods for the
+registration of histological images for 3D reconstruction. First, possible
+intensity variations and nonstandardness in images are corrected by an
+intensity standardization process which maps the image scale into a standard
+scale where the similar intensities correspond to similar tissues meaning.
+Second, 2D histological images are mapped into a feature space where continuous
+variables are used as high confidence image features for accurate registration.
+Third, we propose an automatic best reference slice selection algorithm that
+improves reconstruction quality based on both image entropy and mean square
+error of the registration process. We demonstrate that the choice of reference
+slice has a significant impact on registration error, standardization, feature
+space and entropy information. After 2D histological slices are registered
+through an affine transformation with respect to an automatically chosen
+reference, the 3D volume is reconstructed by co-registering 2D slices
+elastically.

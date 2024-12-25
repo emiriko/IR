@@ -1,0 +1,15 @@
+Given a square matrix B=(b_{ij}) with real entries, the optimal assignment
+problem is to find a bijection s between the rows and the columns maximising
+the sum of the b_{is(i)}. In discrete optimal control and in the theory of
+discrete event systems, one often encounters the problem of solving the
+equation Bf=g for a given vector g, where the same symbol B denotes the
+corresponding max-plus linear operator, (Bf)_i:=max_j (b_{ij}+f_j). The matrix
+B is said to be strongly regular when there exists a vector g such that the
+equation Bf=g has a unique solution f. A result of Butkovic and Hevery shows
+that B is strongly regular if and only if the associated optimal assignment
+problem has a unique solution. We establish here an extension of this result
+which applies to max-plus linear operators over a countable state space. The
+proofs use the theory developed in a previous work in which we characterised
+the unique solvability of equations involving Moreau conjugacies over an
+infinite state space, in terms of the minimality of certain coverings of the
+state space by generalised subdifferentials.

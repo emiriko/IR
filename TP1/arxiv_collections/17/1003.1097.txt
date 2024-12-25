@@ -1,0 +1,12 @@
+The paper describes an extension of the Liga algorithm for structure solution
+from atomic pair distribution function (PDF), to handle periodic crystal
+structures with multiple elements in the unit cell. The procedure is performed
+in 2 separate steps - at first the Liga algorithm is used to find unit cell
+sites consistent with pair distances extracted from the experimental PDF. In
+the second step the assignment of atom species over cell sites is solved by
+minimizing the overlap of their empirical atomic radii. The procedure has been
+demonstrated on synchrotron x-ray PDF data from 16 test samples. The structure
+solution was successful for 14 samples including cases with enlarged super
+cells. The algorithm success rate and the reasons for failed cases are
+discussed together with enhancements that should improve its convergence and
+usability.

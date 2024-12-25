@@ -1,0 +1,18 @@
+A major problem in exploiting microscopic systems for developing a new
+technology based on the principles of Quantum Information is the influence of
+noise which tends to work against the quantum features of such systems. It
+becomes then crucial to understand how noise affects the evolution of quantum
+circuits: several techniques have been proposed among which stochastic
+differential equations (SDEs) can represent a very convenient tool. We show how
+SDEs naturally map any Markovian noise into a linear operator, which we will
+call a noise gate, acting on the wave function describing the state of the
+circuit, and we will discuss some examples. We shall see that these gates can
+be manipulated like any standard quantum gate, thus simplifying in certain
+circumstances the task of computing the overall effect of the noise at each
+stage of the protocol. This approach yields equivalent results to those derived
+from the Lindblad equation; yet, as we show, it represents a handy and fast
+tool for performing computations, and moreover, it allows for fast numerical
+simulations and generalizations to non Markovian noise. In detail we review the
+depolarizing channel and the generalized amplitude damping channel in terms of
+this noise gate formalism and show how these techniques can be applied to any
+quantum circuit.

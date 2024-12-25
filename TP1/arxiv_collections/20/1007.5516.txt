@@ -1,0 +1,15 @@
+Variable selection is a difficult problem that is particularly challenging in
+the analysis of high-dimensional genomic data. Here, we introduce the CAR
+score, a novel and highly effective criterion for variable ranking in linear
+regression based on Mahalanobis-decorrelation of the explanatory variables. The
+CAR score provides a canonical ordering that encourages grouping of correlated
+predictors and down-weights antagonistic variables. It decomposes the
+proportion of variance explained and it is an intermediate between marginal
+correlation and the standardized regression coefficient. As a population
+quantity, any preferred inference scheme can be applied for its estimation.
+Using simulations we demonstrate that variable selection by CAR scores is very
+effective and yields prediction errors and true and false positive rates that
+compare favorably with modern regression techniques such as elastic net and
+boosting. We illustrate our approach by analyzing data concerned with diabetes
+progression and with the effect of aging on gene expression in the human brain.
+The R package "care" implementing CAR score regression is available from CRAN.

@@ -1,0 +1,10 @@
+The graph-theoretic Ramsey numbers are notoriously difficult to calculate. In
+fact, for the two-color Ramsey numbers $R(m,n)$ with $m,n\geq 3$, only nine are
+currently known. We present a quantum algorithm for the computation of the
+Ramsey numbers $R(m,n)$. We show how the computation of $R(m,n)$ can be mapped
+to a combinatorial optimization problem whose solution can be found using
+adiabatic quantum evolution. We numerically simulate this adiabatic quantum
+algorithm and show that it correctly determines the Ramsey numbers R(3,3) and
+R(2,s) for $5\leq s\leq 7$. We then discuss the algorithm's experimental
+implementation, and close by showing that Ramsey number computation belongs to
+the quantum complexity class QMA.

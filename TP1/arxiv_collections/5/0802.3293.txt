@@ -1,0 +1,12 @@
+We introduce a family of novel ranking algorithms called ERank which run in
+linear/near linear time and build on explicitly modeling a network as uncertain
+evidence. The model uses Probabilistic Argumentation Systems (PAS) which are a
+combination of probability theory and propositional logic, and also a special
+case of Dempster-Shafer Theory of Evidence. ERank rapidly generates approximate
+results for the NP-complete problem involved enabling the use of the technique
+in large networks. We use a previously introduced PAS model for citation
+networks generalizing it for all networks. We propose a statistical test to be
+used for comparing the performances of different ranking algorithms based on a
+clustering validity test. Our experimentation using this test on a real-world
+network shows ERank to have the best performance in comparison to well-known
+algorithms including PageRank, closeness, and betweenness.

@@ -1,0 +1,17 @@
+We present and study linear programming based detectors for two-dimensional
+intersymbol interference channels. Interesting instances of two-dimensional
+intersymbol interference channels are magnetic storage, optical storage and
+Wyner's cellular network model.
+  We show that the optimal maximum a posteriori detection in such channels
+lends itself to a natural linear programming based sub-optimal detector. We
+call this the Pairwise linear program detector. Our experiments show that the
+Pairwise linear program detector performs poorly. We then propose two methods
+to strengthen our detector. These detectors are based on systematically
+enhancing the Pairwise linear program. The first one, the Block linear program
+detector adds higher order potential functions in an {\em exhaustive} manner,
+as constraints, to the Pairwise linear program detector. We show by experiments
+that the Block linear program detector has performance close to the optimal
+detector. We then develop another detector by
+  {\em adaptively} adding frustrated cycles to the Pairwise linear program
+detector. Empirically, this detector also has performance close to the optimal
+one and turns out to be less complex then the Block linear program detector.

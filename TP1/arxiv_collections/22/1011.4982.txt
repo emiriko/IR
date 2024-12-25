@@ -1,0 +1,13 @@
+We analyze the performance of a microwave chip mount that uses wirebonds to
+connect the chip and mount grounds. A simple impedance ladder model predicts
+that transmission crosstalk between two feedlines falls off exponentially with
+distance at low frequencies, but rises to near unity above a resonance
+frequency set by the chip to ground capacitance. Using SPICE simulations and
+experimental measurements of a scale model, the basic predictions of the ladder
+model were verified. In particular, by decreasing the capacitance between the
+chip and box grounds, the resonance frequency increased and transmission
+decreased. This model then influenced the design of a new mount that improved
+the isolation to -65 dB at 6 GHz, even though the chip dimensions were
+increased to 1 cm by 1 cm, 3 times as large as our previous devices. We
+measured a coplanar resonator in this mount as preparation for larger qubit
+chips, and were able to identify cavity, slotline, and resonator modes.

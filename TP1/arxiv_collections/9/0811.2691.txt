@@ -1,0 +1,11 @@
+The value-at-risk of a delta-gamma approximated derivatives portfolio can be
+computed by numerical integration of the characteristic function. However,
+while the choice of parameters in any numerical integration scheme is
+paramount, in practice it often relies on ad hoc procedures of trial and error.
+For normal and multivariate $t$-distributed risk factors, we show how to
+calculate the necessary parameters for one particular integration scheme as a
+function of the data (the distribution of risk factors, and delta and gamma)
+\emph{in order to satisfy a given error tolerance}. This allows for
+implementation in a fully automated risk management system. We also demonstrate
+in simulations that the method is significantly faster than the Monte Carlo
+method, for a given error tolerance.

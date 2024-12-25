@@ -1,0 +1,25 @@
+Context. For accurately measuring intensities and determining magnetic field
+strengths of small-scale solar (magnetic) structure, knowledge of and
+compensation for the point spread function is crucial. For images recorded with
+the Swedish 1-meter Solar Telescope, restoration with Multi-Frame Blind
+Deconvolution and Joint Phase Diverse Speckle methods lead to remarkable
+improvements in image quality but granulation contrasts that are too low,
+indicating additional stray light. Aims. We propose a method to compensate for
+stray light from high-order atmospheric aberrations not included in MFBD and
+JPDS processing. Methods. To compensate for uncorrected aberrations, a
+reformulation of the image restoration process is proposed that allows the
+average effect of hundreds of high-order modes to be compensated for by relying
+on Kolmogorov statistics for these modes. The applicability of the method
+requires simultaneous measurements of Fried's parameter r0. The method is
+tested with simulations as well as real data and extended to include
+compensation for conventional stray light. Results. We find that only part of
+the reduction of granulation contrast in SST images is due to uncompensated
+high-order aberrations. The remainder is still unaccounted for and attributed
+to stray light from the atmosphere, the telescope with its re-imaging system
+and to various high-altitude seeing effects. Conclusions. We conclude that
+statistical compensation of high-order modes is a viable method to reduce the
+loss of contrast occurring when a limited number of aberrations is explicitly
+compensated for with MFBD and JPDS processing. We show that good such
+compensation is possible with only 10 recorded frames. The main limitation of
+the method is that already MFBD and JPDS processing introduces high-order
+compensation that, if not taken into account, can lead to over-compensation.

@@ -1,0 +1,9 @@
+This paper describes an approach to creating textual syntax for Do-
+main-Specific Languages (DSL). We consider target meta-model to be the main
+artifact and hence to be developed first. The key idea is to represent analysis
+of textual syntax as a sequence of transformations. This is made by explicit
+opera- tions on abstract syntax trees (ATS), for which a simple language is
+proposed. Text-to-model transformation is divided into two parts: text-to-AST
+(developed by openArchitectureWare [1]) and AST-to-model (proposed by this
+paper). Our approach simplifies semantic analysis and helps to generate as much
+as possi- ble.

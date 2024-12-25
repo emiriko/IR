@@ -1,0 +1,22 @@
+Models for noncoherent error control in random linear network coding (RLNC)
+and store and forward (SAF) have been recently proposed. In this paper, we
+model different types of random network communications as the transmission of
+flats of matroids. This novel framework encompasses RLNC and SAF and allows us
+to introduce a novel protocol, referred to as random affine network coding
+(RANC), based on affine combinations of packets. Although the models previously
+proposed for RLNC and SAF only consider error control, using our framework, we
+first evaluate and compare the performance of different network protocols in
+the error-free case. We define and determine the rate, average delay, and
+throughput of such protocols, and we also investigate the possibilities of
+partial decoding before the entire message is received. We thus show that RANC
+outperforms RLNC in terms of data rate and throughput thanks to a more
+efficient encoding of messages into packets. Second, we model the possible
+alterations of a message by the network as an operator channel, which
+generalizes the channels proposed for RLNC and SAF. Error control is thus
+reduced to a coding-theoretic problem on flats of a matroid, where two distinct
+metrics can be used for error correction. We study the maximum cardinality of
+codes on flats in general, and codes for error correction in RANC in
+particular. We finally design a class of nearly optimal codes for RANC based on
+rank metric codes for which we propose a low-complexity decoding algorithm. The
+gain of RANC over RLNC is thus preserved with no additional cost in terms of
+complexity.

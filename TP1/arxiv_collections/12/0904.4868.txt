@@ -1,0 +1,13 @@
+Although much research has been devoted to the problem of restoring
+Poissonian images, namely in the fields of medical and astronomical imaging,
+applying the state of the art regularizers (such as those based on wavelets or
+total variation) to this class of images is still an open research front. This
+paper proposes a new image deconvolution approach for images with Poisson
+statistical models, with the following building blocks: (a) a standard
+regularization/MAP criterion, combining the Poisson log-likelihood with a
+regularizer (log-prior) is adopted; (b) the resulting optimization problem
+(which is difficult, since it involves a non-quadratic and non-separable term
+plus a non-smooth term) is transformed into an equivalent constrained problem,
+via a variable splitting procedure; (c) this constrained problem is addressed
+using an augmented Lagrangian framework. The effectiveness of the resulting
+algorithm is illustrated in comparison with current state-of-the-art methods.

@@ -1,0 +1,12 @@
+A set of key properties for an ideal dissipation scheme in gyrokinetic
+simulations is proposed, and implementation of a model collision operator
+satisfying these properties is described. This operator is based on the exact
+linearized test-particle collision operator, with approximations to the
+field-particle terms that preserve conservation laws and an H-Theorem. It
+includes energy diffusion, pitch-angle scattering, and finite Larmor radius
+effects corresponding to classical (real-space) diffusion. The numerical
+implementation in the continuum gyrokinetic code GS2 is fully implicit and
+guarantees exact satisfaction of conservation properties. Numerical results are
+presented showing that the correct physics is captured over the entire range of
+collisionalities, from the collisionless to the strongly collisional regimes,
+without recourse to artificial dissipation.

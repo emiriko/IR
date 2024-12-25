@@ -1,0 +1,16 @@
+We analyze the Allan Variance estimator as the combination of Discrete-Time
+linear filters. We apply this analysis to the different variants of the Allan
+variance: the Overlapping Allan Variance, the Modified Allan variance, the
+Hadamard Variance and the Overlapping Hadamard variance. Based on this analysis
+we present a new method to compute a new estimator of the Allan Variance and
+its variants in the frequency domain. We show that the proposed frequency
+domain equations are equivalent to extending the data by periodization in the
+time domain. Like the Total Variance \cite{totvar}, which is based on extending
+the data manually in the time domain, our frequency domain variances estimators
+have better statistics than the estimators of the classical variances in the
+time domain. We demonstrate that the previous well-know equation that relates
+the Allan Variance to the Power Spectrum Density (PSD) of continuous-time
+signals is not valid for real world discrete-time measurements and we propose a
+new equation that relates the Allan Variance to the PSD of the discrete-time
+signals and that allows to compute the Allan variance and its different
+variants in the frequency domain .

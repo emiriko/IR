@@ -1,0 +1,13 @@
+We investigate the recently proposed label-propagation algorithm (LPA) for
+identifying network communities. We reformulate the LPA as an equivalent
+optimization problem, giving an objective function whose maxima correspond to
+community solutions. By considering properties of the objective function, we
+identify conceptual and practical drawbacks of the label propagation approach,
+most importantly the disparity between increasing the value of the objective
+function and improving the quality of communities found. To address the
+drawbacks, we modify the objective function in the optimization problem,
+producing a variety of algorithms that propagate labels subject to constraints;
+of particular interest is a variant that maximizes the modularity measure of
+community quality. Performance properties and implementation details of the
+proposed algorithms are discussed. Bipartite as well as unipartite networks are
+considered.

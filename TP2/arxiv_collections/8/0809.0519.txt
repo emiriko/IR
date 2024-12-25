@@ -1,0 +1,18 @@
+Coalitional voting games appear in different forms in multi-agent systems,
+social choice and threshold logic. In this paper, the complexity of comparison
+of influence between players in coalitional voting games is characterized. The
+possible representations of simple games considered are simple games
+represented by winning coalitions, minimal winning coalitions, weighted voting
+game or a multiple weighted voting game. The influence of players is gauged
+from the viewpoint of basic player types, desirability relations and classical
+power indices such as Shapley-Shubik index, Banzhaf index, Holler index,
+Deegan-Packel index and Chow parameters. Among other results, it is shown that
+for a simple game represented by minimal winning coalitions, although it is
+easy to verify whether a player has zero or one voting power, computing the
+Banzhaf value of the player is #P-complete. Moreover, it is proved that
+multiple weighted voting games are the only representations for which it is
+NP-hard to verify whether the game is linear or not. For a simple game with a
+set W^m of minimal winning coalitions and n players, a O(n.|W^m|+(n^2)log(n))
+algorithm is presented which returns `no' if the game is non-linear and returns
+the strict desirability ordering otherwise. The complexity of transforming
+simple games into compact representations is also examined.

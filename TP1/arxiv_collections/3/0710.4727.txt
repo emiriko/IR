@@ -1,0 +1,11 @@
+We present a complete top-down design of a low-power multi-channel clock
+recovery circuit based on gated current-controlled oscillators. The flow
+includes several tools and methods used to specify block constraints, to design
+and verify the topology down to the transistor level, as well as to achieve a
+power consumption as low as 5mW/Gbit/s. Statistical simulation is used to
+estimate the achievable bit error rate in presence of phase and frequency
+errors and to prove the feasibility of the concept. VHDL modeling provides
+extensive verification of the topology. Thermal noise modeling based on
+well-known concepts delivers design parameters for the device sizing and
+biasing. We present two practical examples of possible design improvements
+analyzed and implemented with this methodology.

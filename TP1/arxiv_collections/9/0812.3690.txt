@@ -1,0 +1,21 @@
+Despite the tremendous advances made by the ab initio theory of electronic
+structure of atoms and molecules, its applications are still not possible for
+very large systems. Therefore, semi-empirical model Hamiltonians based on the
+zero-differential overlap (ZDO) approach such as the Pariser-Parr-Pople, CNDO,
+INDO, etc. provide attractive, and computationally tractable, alternatives to
+the ab initio treatment of large systems. In this paper we describe a Fortran
+90 computer program developed by us, that uses CNDO/2 and INDO methods to solve
+Hartree-Fock(HF) equation for molecular systems. The INDO method can be used
+for the molecules containing the first-row atoms, while the CNDO/2 method is
+applicable to those containing both the first-, and the second-row, atoms. We
+have paid particular attention to computational efficiency while developing the
+code, and, therefore, it allows us to perform calculations on large molecules
+such as C_60 on small computers within a matter of seconds. Besides being able
+to compute the molecular orbitals and total energies, our code is also able to
+compute properties such as the electric dipole moment, Mulliken population
+analysis, and linear optical absorption spectrum of the system. We also
+demonstrate how the program can be used to compute the total energy per unit
+cell of a polymer. The applications presented in this paper include small
+organic and inorganic molecules, fullerene C_60, and model polymeric systems,
+viz., chains containing alternating boron and nitrogen atoms (BN chain), and
+carbon atoms (C chain).

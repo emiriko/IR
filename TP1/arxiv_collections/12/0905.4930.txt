@@ -1,0 +1,18 @@
+he segment minimization problem consists of finding the smallest set of
+integer matrices that sum to a given intensity matrix, such that each summand
+has only one non-zero value, and the non-zeroes in each row are consecutive.
+This has direct applications in intensity-modulated radiation therapy, an
+effective form of cancer treatment. We develop three approximation algorithms
+for matrices with arbitrarily many rows. Our first two algorithms improve the
+approximation factor from the previous best of $1+\log_2 h $ to (roughly) $3/2
+\cdot (1+\log_3 h)$ and $11/6\cdot(1+\log_4{h})$, respectively, where $h$ is
+the largest entry in the intensity matrix. We illustrate the limitations of the
+specific approach used to obtain these two algorithms by proving a lower bound
+of $\frac{(2b-2)}{b}\cdot\log_b{h} + \frac{1}{b}$ on the approximation
+guarantee. Our third algorithm improves the approximation factor from $2 \cdot
+(\log D+1)$ to $24/13 \cdot (\log D+1)$, where $D$ is (roughly) the largest
+difference between consecutive elements of a row of the intensity matrix.
+Finally, experimentation with these algorithms shows that they perform well
+with respect to the optimum and outperform other approximation algorithms on
+77% of the 122 test cases we consider, which include both real world and
+synthetic data.

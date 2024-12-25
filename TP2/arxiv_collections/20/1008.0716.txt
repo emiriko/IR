@@ -1,0 +1,19 @@
+Cross-lingual adaptation, a special case of domain adaptation, refers to the
+transfer of classification knowledge between two languages. In this article we
+describe an extension of Structural Correspondence Learning (SCL), a recently
+proposed algorithm for domain adaptation, for cross-lingual adaptation. The
+proposed method uses unlabeled documents from both languages, along with a word
+translation oracle, to induce cross-lingual feature correspondences. From these
+correspondences a cross-lingual representation is created that enables the
+transfer of classification knowledge from the source to the target language.
+The main advantages of this approach over other approaches are its resource
+efficiency and task specificity.
+  We conduct experiments in the area of cross-language topic and sentiment
+classification involving English as source language and German, French, and
+Japanese as target languages. The results show a significant improvement of the
+proposed method over a machine translation baseline, reducing the relative
+error due to cross-lingual adaptation by an average of 30% (topic
+classification) and 59% (sentiment classification). We further report on
+empirical analyses that reveal insights into the use of unlabeled data, the
+sensitivity with respect to important hyperparameters, and the nature of the
+induced cross-lingual correspondences.

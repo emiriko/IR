@@ -1,0 +1,15 @@
+Among the existing models for compressible fluids, the one by Kataoka and
+Tsutahara (KT model, Phys. Rev. E 69, 056702, 2004) has a simple and rigorous
+theoretical background. The drawback of this KT model is that it can cause
+numerical instability if the local Mach number exceeds 1. The precise mechanism
+of this instability has not yet been clarified. In this paper, we derive
+entropy functions whose local equilibria are suitable to recover the Euler-like
+equations in the framework of the lattice Boltzmann method for the KT model.
+Numerical examples are also given, which are consistent with the above
+theoretical arguments, and show that the entropy condition is not fully
+guaranteed in KT model. The negative entropy may be the inherent cause for the
+non-physical oscillations in the vicinity of the shock. In contrast to these
+Karlin's microscopic entropy approach, the corresponding subsidiary entropy
+condition in the LBM calculation could also be deduced explicitly from the
+macroscopic version, which provides some insights on the numerical instability
+of the lattice Boltzmann model for shock calculation.

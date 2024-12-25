@@ -1,0 +1,17 @@
+We present a comprehensive study of semiclassical phase-space propagation in
+the Wigner representation, emphasizing numerical applications, in particular as
+an initial-value representation. Two semiclassical approximation schemes are
+discussed: The propagator of the Wigner function based on van Vleck's
+approximation replaces the Liouville propagator by a quantum spot with an
+oscillatory pattern reflecting the interference between pairs of classical
+trajectories. Employing phase-space path integration instead, caustics in the
+quantum spot are resolved in terms of Airy functions. We apply both to two
+benchmark models of nonlinear molecular potentials, the Morse oscillator and
+the quartic double well, to test them in standard tasks such as computing
+autocorrelation functions and propagating coherent states. The performance of
+semiclassical Wigner propagation is very good even in the presence of marked
+quantum effects, e.g., in coherent tunneling and in propagating Schr\"odinger
+cat states, and of classical chaos in four-dimensional phase space. We suggest
+options for an effective numerical implementation of our method and for
+integrating it in Monte-Carlo--Metropolis algorithms suitable for
+high-dimensional systems.

@@ -1,0 +1,14 @@
+Many exponential speedups that have been achieved in quantum computing are
+obtained via hidden subgroup problems (HSPs). We show that the HSP over
+Weyl-Heisenberg groups can be solved efficiently on a quantum computer. These
+groups are well-known in physics and play an important role in the theory of
+quantum error-correcting codes. Our algorithm is based on non-commutative
+Fourier analysis of coset states which are quantum states that arise from a
+given black-box function. We use Clebsch-Gordan decompositions to combine and
+reduce tensor products of irreducible representations. Furthermore, we use a
+new technique of changing labels of irreducible representations to obtain
+low-dimensional irreducible representations in the decomposition process. A
+feature of the presented algorithm is that in each iteration of the algorithm
+the quantum computer operates on two coset states simultaneously. This is an
+improvement over the previously best known quantum algorithm for these groups
+which required four coset states.

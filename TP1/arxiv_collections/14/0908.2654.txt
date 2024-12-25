@@ -1,0 +1,10 @@
+We describe an extension of the cosmological hydrodynamics code ENZO to
+include the self-consistent transport of ionizing radiation modeled in the
+flux-limited diffusion approximation. A novel feature of our algorithm is a
+coupled implicit solution of radiation transport, ionization kinetics, and gas
+photoheating, making the timestepping for this portion of the calculation
+resolution independent. The implicit system is coupled to the explicit
+cosmological hydrodynamics through operator splitting and solved with scalable
+multigrid methods. We summarize the numerical method, present a verification
+test on cosmological Stromgren spheres, and then apply it to the problem of
+cosmological hydrogen reionization.

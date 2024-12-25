@@ -1,0 +1,8 @@
+We propose a new algorithm MARINLINGA for reverse line graph computation,
+i.e., constructing the original graph from a given line graph. Based on the
+completely new and simpler principle of link relabeling and endnode
+recognition, MARINLINGA does not rely on Whitney's theorem while all previous
+algorithms do. MARINLINGA has a worst case complexity of O(N^2), where N
+denotes the number of nodes of the line graph. We demonstrate that MARINLINGA
+is more time-efficient compared to Roussopoulos's algorithm, which is
+well-known for its efficiency.

@@ -1,0 +1,8 @@
+We investigate the global scheduling of sporadic, implicit deadline,
+real-time task systems on multiprocessor platforms. We provide a task model
+which integrates job parallelism. We prove that the time-complexity of the
+feasibility problem of these systems is linear relatively to the number of
+(sporadic) tasks for a fixed number of processors. We propose a scheduling
+algorithm theoretically optimal (i.e., preemptions and migrations neglected).
+Moreover, we provide an exact feasibility utilization bound. Lastly, we propose
+a technique to limit the number of migrations and preemptions.

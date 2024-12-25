@@ -1,0 +1,16 @@
+In this paper, we address the accuracy of the results for the overdetermined
+full rank linear least squares problem. We recall theoretical results obtained
+in Arioli, Baboulin and Gratton, SIMAX 29(2):413--433, 2007, on conditioning of
+the least squares solution and the components of the solution when the matrix
+perturbations are measured in Frobenius or spectral norms. Then we define
+computable estimates for these condition numbers and we interpret them in terms
+of statistical quantities. In particular, we show that, in the classical linear
+statistical model, the ratio of the variance of one component of the solution
+by the variance of the right-hand side is exactly the condition number of this
+solution component when perturbations on the right-hand side are considered. We
+also provide fragment codes using LAPACK routines to compute the
+variance-covariance matrix and the least squares conditioning and we give the
+corresponding computational cost. Finally we present a small historical
+numerical example that was used by Laplace in Theorie Analytique des
+Probabilites, 1820, for computing the mass of Jupiter and experiments from the
+space industry with real physical data.

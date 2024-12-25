@@ -1,0 +1,8 @@
+Processor and system architectures that feature multiple memory controllers
+are prone to show bottlenecks and erratic performance numbers on codes with
+regular access patterns. Although such effects are well known in the form of
+cache thrashing and aliasing conflicts, they become more severe when memory
+access is involved. Using the new Sun UltraSPARC T2 processor as a prototypical
+multi-core design, we analyze performance patterns in low-level and application
+benchmarks and show ways to circumvent bottlenecks by careful data layout and
+padding.

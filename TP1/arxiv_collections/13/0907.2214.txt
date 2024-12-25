@@ -1,0 +1,11 @@
+In this paper we proposed quasi-Newton and limited memory quasi-Newton
+methods for objective functions defined on Grassmannians or a product of
+Grassmannians. Specifically we defined BFGS and L-BFGS updates in local and
+global coordinates on Grassmannians or a product of these. We proved that, when
+local coordinates are used, our BFGS updates on Grassmannians share the same
+optimality property as the usual BFGS updates on Euclidean spaces. When applied
+to the best multilinear rank approximation problem for general and symmetric
+tensors, our approach yields fast, robust, and accurate algorithms that exploit
+the special Grassmannian structure of the respective problems, and which work
+on tensors of large dimensions and arbitrarily high order. Extensive numerical
+experiments are included to substantiate our claims.

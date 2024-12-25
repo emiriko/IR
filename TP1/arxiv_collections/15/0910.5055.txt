@@ -1,0 +1,11 @@
+The DMRG method is very effective at finding ground states of 1D quantum
+systems in practice, but it is a heuristic method, and there is no known proof
+for when it works. In this paper we describe an efficient classical algorithm
+which provably finds a good approximation of the ground state of 1D systems
+under well defined conditions. More precisely, our algorithm finds a Matrix
+Product State of bond dimension $D$ whose energy approximates the minimal
+energy such states can achieve. The running time is exponential in D, and so
+the algorithm can be considered tractable even for D which is logarithmic in
+the size of the chain. The result also implies trivially that the ground state
+of any local commuting Hamiltonian in 1D can be approximated efficiently; we
+improve this to an exact algorithm.

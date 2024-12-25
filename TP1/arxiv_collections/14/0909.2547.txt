@@ -1,0 +1,8 @@
+Deletion from open-address hash table is not so easy as deletion from chained
+hash table, because in open-address table we can't simply mark a slot
+containing deleted key as empty. Search for keys may become incorrect. The
+classical method to implement deletion is to mark slots in hash table by three
+values: "free", "busy", "deleted". That method is easy to implement, but there
+are some disadvantages. In this article we consider alternative method of
+deletion keys, where we avoid using the mark "deleted". The article contains
+the implementation of the method in Java.

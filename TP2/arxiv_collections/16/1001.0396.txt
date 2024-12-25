@@ -1,0 +1,15 @@
+At present there are two vastly different ab initio approaches to the
+description of the the many-body dynamics: the Density Functional Theory (DFT)
+and the functional integral (path integral) approaches. On one hand, if
+implemented exactly, the DFT approach can allow in principle the exact
+evaluation of arbitrary one-body observable. However, when applied to Large
+Amplitude Collective Motion (LACM) this approach needs to be extended in order
+to accommodate the phenomenon of surface-hoping, when adiabaticity is strongly
+violated and the description of a system using a single (generalized) Slater
+determinant is not valid anymore. The functional integral approach on the other
+hand does not appear to have such restrictions, but its implementation does not
+appear to be straightforward endeavor. However, within a functional integral
+approach one seems to be able to evaluate in principle any kind of observables,
+such as the fragment mass and energy distributions in nuclear fission. These
+two radically approaches can likely be brought brought together by formulating
+a stochastic time-dependent DFT approach to many-body dynamics.

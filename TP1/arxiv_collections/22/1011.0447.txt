@@ -1,0 +1,16 @@
+In this paper we investigate to which extent a very simple and natural
+"reachability as deducibility" approach, originated in the research in formal
+methods in security, is applicable to the automated verification of large
+classes of infinite state and parameterized systems. The approach is based on
+modeling the reachability between (parameterized) states as deducibility
+between suitable encodings of states by formulas of first-order predicate
+logic. The verification of a safety property is reduced to a pure logical
+problem of finding a countermodel for a first-order formula. The later task is
+delegated then to the generic automated finite model building procedures. In
+this paper we first establish the relative completeness of the finite
+countermodel finding method (FCM) for a class of parameterized linear arrays of
+finite automata. The method is shown to be at least as powerful as known
+methods based on monotonic abstraction and symbolic backward reachability.
+Further, we extend the relative completeness of the approach and show that it
+can solve all safety verification problems which can be solved by the
+traditional regular model checking.

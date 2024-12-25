@@ -1,0 +1,21 @@
+Association rule mining aims to explore large transaction databases for
+association rules. Classical Association Rule Mining (ARM) model assumes that
+all items have the same significance without taking their weight into account.
+It also ignores the difference between the transactions and importance of each
+and every itemsets. But, the Weighted Association Rule Mining (WARM) does not
+work on databases with only binary attributes. It makes use of the importance
+of each itemset and transaction. WARM requires each item to be given weight to
+reflect their importance to the user. The weights may correspond to special
+promotions on some products, or the profitability of different items. This
+research work first focused on a weight assignment based on a directed graph
+where nodes denote items and links represent association rules. A generalized
+version of HITS is applied to the graph to rank the items, where all nodes and
+links are allowed to have weights. This research then uses enhanced HITS
+algorithm by developing an online eigenvector calculation method that can
+compute the results of mutual reinforcement voting in case of frequent updates.
+For Example in Share Market Shares price may go down or up. So we need to
+carefully watch the market and our association rule mining has to produce the
+items that have undergone frequent changes. These are done by estimating the
+upper bound of perturbation and postponing of the updates whenever possible.
+Next we prove that enhanced algorithm is more efficient than the original HITS
+under the context of dynamic data.

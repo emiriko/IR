@@ -1,0 +1,10 @@
+We present an algorithm for finding ground states of two dimensional spin
+glass systems based on ideas from matrix product states in quantum information
+theory. The algorithm works directly at zero temperature and defines an
+approximate "boundary Hamiltonian" whose accuracy depends on a parameter $k$.
+We test the algorithm against exact methods on random field and random bond
+Ising models, and we find that accurate results require a $k$ which scales
+roughly polynomially with the system size. The algorithm also performs well
+when tested on small systems with arbitrary interactions, where no fast, exact
+algorithms exist. The time required is significantly less than Monte Carlo
+schemes.

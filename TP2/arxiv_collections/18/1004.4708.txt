@@ -1,0 +1,11 @@
+In this paper, we describe efficient MapReduce simulations of parallel
+algorithms specified in the BSP and PRAM models. We also provide some
+applications of these simulation results to problems in parallel computational
+geometry for the MapReduce framework, which result in efficient MapReduce
+algorithms for sorting, 1-dimensional all nearest-neighbors, 2-dimensional
+convex hulls, 3-dimensional convex hulls, and fixed-dimensional linear
+programming. For the case when reducers can have a buffer size of
+$B=O(n^\epsilon)$, for a small constant $\epsilon>0$, all of our MapReduce
+algorithms for these applications run in a constant number of rounds and have a
+linear-sized message complexity, with high probability, while guaranteeing with
+high probability that all reducer lists are of size $O(B)$.

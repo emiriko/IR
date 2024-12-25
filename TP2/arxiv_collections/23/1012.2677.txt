@@ -1,0 +1,17 @@
+Efficient implementations of the classical molecular dynamics (MD) method for
+Lennard-Jones particle systems are considered. Not only general algorithms but
+also techniques that are efficient for some specific CPU architectures are also
+explained. A simple spatial-decomposition-based strategy is adopted for
+parallelization. By utilizing the developed code, benchmark simulations are
+performed on a HITACHI SR16000/J2 system consisting of IBM POWER6 processors
+which are 4.7 GHz at the National Institute for Fusion Science (NIFS) and an
+SGI Altix ICE 8400EX system consisting of Intel Xeon processors which are 2.93
+GHz at the Institute for Solid State Physics (ISSP), the University of Tokyo.
+The parallelization efficiency of the largest run, consisting of 4.1 billion
+particles with 8192 MPI processes, is about 73% relative to that of the
+smallest run with 128 MPI processes at NIFS, and it is about 66% relative to
+that of the smallest run with 4 MPI processes at ISSP. The factors causing the
+parallel overhead are investigated. It is found that fluctuations of the
+execution time of each process degrade the parallel efficiency. These
+fluctuations may be due to the interference of the operating system, which is
+known as OS Jitter.

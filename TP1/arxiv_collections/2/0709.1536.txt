@@ -1,0 +1,11 @@
+The log returns of financial time series are usually modeled by means of the
+stationary GARCH(1,1) stochastic process or its generalizations which can not
+properly describe the nonstationary deterministic components of the original
+series. We analyze the influence of deterministic trends on the GARCH(1,1)
+parameters using Monte Carlo simulations. The statistical ensembles contain
+numerically generated time series composed by GARCH(1,1) noise superposed on
+deterministic trends. The GARCH(1,1) parameters characteristic for financial
+time series longer than one year are not affected by the detrending errors. We
+also show that if the ARCH coefficient is greater than the GARCH coefficient,
+then the estimated GARCH(1,1) parameters depend on the number of monotonic
+parts of the trend and on the ratio between the trend and the noise amplitudes.

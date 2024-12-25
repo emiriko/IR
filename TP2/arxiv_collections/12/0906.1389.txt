@@ -1,0 +1,22 @@
+Let $L$ be a finite distributive lattice and $\mu : L \to {\mathbb R}^{+}$ a
+log-supermodular function. For functions $k: L \to {\mathbb R}^{+}$ let
+$$E_{\mu} (k; q) \defeq \sum_{x\in L} k(x) \mu (x) q^{{\mathrm rank}(x)} \in
+{\mathbb R}^{+}[q].$$ We prove for any pair $g,h: L\to {\mathbb R}^{+}$ of
+monotonely increasing functions, that $$E_{\mu} (g; q)\cdot E_{\mu} (h; q) \ll
+  E_{\mu} (1; q)\cdot E_{\mu} (gh; q), $$ where ``$ \ll $'' denotes
+coefficientwise inequality of real polynomials. The FKG inequality of Fortuin,
+Kasteleyn and Ginibre (1971) is the real number inequality obtained by
+specializing to $q=1$.
+  The polynomial FKG inequality has applications to $f$-vectors of joins and
+intersections of simplicial complexes, to Betti numbers of intersections of
+certain Schubert varieties, and to the following kind of correlation inequality
+for power series weighted by Young tableaux. Let $Y$ be the set of all integer
+partitions. Given functions $k, \mu: Y \rarr \R^+$, and parameters $0\le s\le
+t$, define the formal power series $$F_{\mu}(k ; z) \defeq \sum_{\la\in Y}
+k(\la) \mu(\la) (f_{\la})^t \frac{z^{|\la|}}{(|\la| !)^s} \in \R^+ [[z]], $$
+%\sum_{\la\in Y} k(\la) \mu(\la) (f_{\la})^t \frac{z^{|\la|}}{|\la| !} \in \R^+
+[[z]],$$ where $f_{\la}$ is the number of standard Young tableaux of shape
+$\la$. Assume that $\mu: Y\rarr \R^+$ is log-supermodular, and that $g, h: Y
+\rarr \R^+$ are monotonely increasing with respect to containment order of
+partition shapes. Then $$F_{\mu}(g;z) \cdot F_{\mu}(h;z) \ll F_{\mu}(1;z) \cdot
+F_{\mu}(gh;z). $$

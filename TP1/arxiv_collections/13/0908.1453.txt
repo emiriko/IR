@@ -1,0 +1,23 @@
+Learning is the important property of Back Propagation Network (BPN) and
+finding the suitable weights and thresholds during training in order to improve
+training time as well as achieve high accuracy. Currently, data pre-processing
+such as dimension reduction input values and pre-training are the contributing
+factors in developing efficient techniques for reducing training time with high
+accuracy and initialization of the weights is the important issue which is
+random and creates paradox, and leads to low accuracy with high training time.
+One good data preprocessing technique for accelerating BPN classification is
+dimension reduction technique but it has problem of missing data. In this
+paper, we study current pre-training techniques and new preprocessing technique
+called Potential Weight Linear Analysis (PWLA) which combines normalization,
+dimension reduction input values and pre-training. In PWLA, the first data
+preprocessing is performed for generating normalized input values and then
+applying them by pre-training technique in order to obtain the potential
+weights. After these phases, dimension of input values matrix will be reduced
+by using real potential weights. For experiment results XOR problem and three
+datasets, which are SPECT Heart, SPECTF Heart and Liver disorders (BUPA) will
+be evaluated. Our results, however, will show that the new technique of PWLA
+will change BPN to new Supervised Multi Layer Feed Forward Neural Network
+(SMFFNN) model with high accuracy in one epoch without training cycle. Also
+PWLA will be able to have power of non linear supervised and unsupervised
+dimension reduction property for applying by other supervised multi layer feed
+forward neural network model in future work.

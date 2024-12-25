@@ -1,0 +1,18 @@
+This article concerns numerical simulations of the dynamics of particles
+immersed in a continuum solvent. As prototypical systems, we consider colloidal
+dispersions of spherical particles and solutions of uncharged polymers. After a
+brief explanation of the concept of hydrodynamic interactions, we give a
+general overview over the various simulation methods that have been developed
+to cope with the resulting computational problems. We then focus on the
+approach we have developed, which couples a system of particles to a lattice
+Boltzmann model representing the solvent degrees of freedom. The standard D3Q19
+lattice Boltzmann model is derived and explained in depth, followed by a
+detailed discussion of complementary methods for the coupling of solvent and
+solute. Colloidal dispersions are best described in terms of extended particles
+with appropriate boundary conditions at the surfaces, while particles with
+internal degrees of freedom are easier to simulate as an arrangement of mass
+points with frictional coupling to the solvent. In both cases, particular care
+has been taken to simulate thermal fluctuations in a consistent way. The
+usefulness of this methodology is illustrated by studies from our own research,
+where the dynamics of colloidal and polymeric systems has been investigated in
+both equilibrium and nonequilibrium situations.

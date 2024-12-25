@@ -1,0 +1,16 @@
+We present a linear scaling formulation for the solution of the all-electron
+Coulomb problem in crystalline solids. The resulting method is systematically
+improvable and well suited to large-scale quantum mechanical calculations in
+which the Coulomb potential and energy of a continuous electronic density and
+singular nuclear density are required. Linear scaling is achieved by
+introducing smooth, strictly local neutralizing densities to render nuclear
+interactions strictly local, and solving the remaining neutral Poisson problem
+for the electrons in real space. While the formulation includes singular
+nuclear potentials without smearing approximations, the required Poisson
+solution is in Sobolev space $H^1$, as required for convergence in the energy
+norm. We employ enriched finite elements, with enrichments from isolated atom
+solutions, for an efficient solution of the resulting Poisson problem in the
+interacting solid. We demonstrate the accuracy and convergence of the approach
+by direct comparison to standard Ewald sums for a lattice of point charges, and
+demonstrate the accuracy in all-electron quantum mechanical calculations with
+an application to crystalline diamond.

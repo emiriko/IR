@@ -1,0 +1,8 @@
+This paper addresses the problem of finding the nearest neighbor (or one of
+the R-nearest neighbors) of a query object q in a database of n objects. In
+contrast with most existing approaches, we can only access the ``hidden'' space
+in which the objects live through a similarity oracle. The oracle, given two
+reference objects and a query object, returns the reference object closest to
+the query object. The oracle attempts to model the behavior of human users,
+capable of making statements about similarity, but not of assigning meaningful
+numerical values to distances between objects.

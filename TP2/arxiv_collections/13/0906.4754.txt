@@ -1,0 +1,15 @@
+This paper addresses the problem of separating spectral sources which are
+linearly mixed with unknown proportions. The main difficulty of the problem is
+to ensure the full additivity (sum-to-one) of the mixing coefficients and
+non-negativity of sources and mixing coefficients. A Bayesian estimation
+approach based on Gamma priors was recently proposed to handle the
+non-negativity constraints in a linear mixture model. However, incorporating
+the full additivity constraint requires further developments. This paper
+studies a new hierarchical Bayesian model appropriate to the non-negativity and
+sum-to-one constraints associated to the regressors and regression coefficients
+of linear mixtures. The estimation of the unknown parameters of this model is
+performed using samples generated using an appropriate Gibbs sampler. The
+performance of the proposed algorithm is evaluated through simulation results
+conducted on synthetic mixture models. The proposed approach is also applied to
+the processing of multicomponent chemical mixtures resulting from Raman
+spectroscopy.

@@ -1,0 +1,10 @@
+We introduce four algorithms for packet transport in complex networks. These
+algorithms use deterministic rules which depend, in different ways, on the
+degree of the node, the number of packets posted down each edge, the mean
+delivery time of packets sent down each edge to each destination and the time
+since an edge last transmitted a packet. On scale-free networks all our
+algorithms are considerably more efficient and can handle a larger load than
+the random walk algorithm. We consider in detail various attributes of our
+algorithms, for instance we show that an algorithm that bases its decisions on
+the mean delivery time jams unless it incorporates information about the degree
+of the destination node.

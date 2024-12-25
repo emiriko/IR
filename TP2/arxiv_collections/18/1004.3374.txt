@@ -1,0 +1,14 @@
+For scientific computations on a digital computer the set of real number is
+usually approximated by a finite set F of "floating-point" numbers. We compare
+the numerical accuracy possible with difference choices of F having
+approximately the same range and requiring the same word length. In particular,
+we compare different choices of base (or radix) in the usual floating-point
+systems. The emphasis is on the choice of F, not on the details of the number
+representation or the arithmetic, but both rounded and truncated arithmetic are
+considered. Theoretical results are given, and some simulations of typical
+floating-point computations (forming sums, solving systems of linear equations,
+finding eigenvalues) are described. If the leading fraction bit of a normalized
+base 2 number is not stored explicitly (saving a bit), and the criterion is to
+minimize the mean square roundoff error, then base 2 is best. If unnormalized
+numbers are allowed, so the first bit must be stored explicitly, then base 4
+(or sometimes base 8) is the best of the usual systems.

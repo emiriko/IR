@@ -1,0 +1,14 @@
+Frequent episode discovery is a popular framework for pattern discovery in
+event streams. An episode is a partially ordered set of nodes with each node
+associated with an event type. Efficient (and separate) algorithms exist for
+episode discovery when the associated partial order is total (serial episode)
+and trivial (parallel episode). In this paper, we propose efficient algorithms
+for discovering frequent episodes with general partial orders. These algorithms
+can be easily specialized to discover serial or parallel episodes. Also, the
+algorithms are flexible enough to be specialized for mining in the space of
+certain interesting subclasses of partial orders. We point out that there is an
+inherent combinatorial explosion in frequent partial order mining and most
+importantly, frequency alone is not a sufficient measure of interestingness. We
+propose a new interestingness measure for general partial order episodes and a
+discovery method based on this measure, for filtering out uninteresting partial
+orders. Simulations demonstrate the effectiveness of our algorithms.

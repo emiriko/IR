@@ -1,0 +1,24 @@
+We investigate the building of unified models that can predict the
+matter-density power spectrum and the two-point correlation function from very
+large to small scales, being consistent with perturbation theory at low $k$ and
+with halo models at high $k$. We use a Lagrangian framework to re-interpret the
+halo model and to decompose the power spectrum into "2-halo" and "1-halo"
+contributions, related to "perturbative" and "non-perturbative" terms. We
+describe a simple implementation of this model and present a detailed
+comparison with numerical simulations, from $k \sim 0.02$ up to $100
+h$Mpc$^{-1}$, and from $x \sim 0.02$ up to $150 h^{-1}$Mpc. We show that the
+1-halo contribution contains a counterterm that ensures a $k^2$ tail at low $k$
+and is important not to spoil the predictions on the scales probed by baryon
+acoustic oscillations, $k \sim 0.02$ to $0.3 h$Mpc$^{-1}$. On the other hand,
+we show that standard perturbation theory is inadequate for the 2-halo
+contribution, because higher order terms grow too fast at high $k$, so that
+resummation schemes must be used. We describe a simple implementation, based on
+a 1-loop "direct steepest-descent" resummation for the 2-halo contribution that
+allows fast numerical computations, and we check that we obtain a good match to
+simulations at low and high $k$. Our simple implementation already fares better
+than standard 1-loop perturbation theory on large scales and simple fits to the
+power spectrum at high $k$, with a typical accuracy of 1% on large scales and
+10% on small scales. We obtain similar results for the two-point correlation
+function. However, there remains room for improvement on the transition scale
+between the 2-halo and 1-halo contributions, which may be the most difficult
+regime to describe.

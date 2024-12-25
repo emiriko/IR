@@ -1,0 +1,13 @@
+The stabilizer formalism is a scheme, generalizing well-known techniques
+developed by Gottesman [quant-ph/9705052] in the case of qubits, to efficiently
+simulate a class of transformations ("stabilizer circuits", which include the
+quantum Fourier transform and highly entangling operations) on standard basis
+states of d-dimensional qudits. To determine the state of a simulated system,
+existing treatments involve the computation of cumulative phase factors which
+involve quadratic dependencies. We present a simple formalism in which Pauli
+operators are represented using displacement operators in discrete phase space,
+expressing the evolution of the state via linear transformations modulo D <=
+2d. We thus obtain a simple proof that simulating stabilizer circuits on n
+qudits, involving any constant number of measurement rounds, is complete for
+the complexity class coMod_{d}L and may be simulated by O(log(n)^2)-depth
+boolean circuits for any constant d >= 2.

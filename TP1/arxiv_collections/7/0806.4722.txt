@@ -1,0 +1,13 @@
+A malleable coding scheme considers not only compression efficiency but also
+the ease of alteration, thus encouraging some form of recycling of an old
+compressed version in the formation of a new one. Malleability cost is the
+difficulty of synchronizing compressed versions, and malleable codes are of
+particular interest when representing information and modifying the
+representation are both expensive. We examine the trade-off between compression
+efficiency and malleability cost under a malleability metric defined with
+respect to a string edit distance. This problem introduces a metric topology to
+the compressed domain. We characterize the achievable rates and malleability as
+the solution of a subgraph isomorphism problem. This can be used to argue that
+allowing conditional entropy of the edited message given the original message
+to grow linearly with block length creates an exponential increase in code
+length.

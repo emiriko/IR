@@ -1,0 +1,16 @@
+Segmentation is often an essential intermediate step in image analysis. A
+volume segmentation characterizes the underlying volume image in terms of
+geometric information--segments, faces between segments, curves in which
+several faces meet--as well as a topology on these objects. Existing algorithms
+encode this information in designated data structures, but require that these
+data structures fit entirely in Random Access Memory (RAM). Today, 3D images
+with several billion voxels are acquired, e.g. in structural neurobiology.
+Since these large volumes can no longer be processed with existing methods, we
+present a new algorithm which performs geometry and topology extraction with a
+runtime linear in the number of voxels and log-linear in the number of faces
+and curves. The parallelizable algorithm proceeds in a block-wise fashion and
+constructs a consistent representation of the entire volume image on the hard
+drive, making the structure of very large volume segmentations accessible to
+image analysis. The parallelized C++ source code, free command line tools and
+MATLAB mex files are avilable from
+http://hci.iwr.uni-heidelberg.de/software.php

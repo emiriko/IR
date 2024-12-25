@@ -1,0 +1,21 @@
+We initiate the study of property testing of submodularity on the boolean
+hypercube. Submodular functions come up in a variety of applications in
+combinatorial optimization. For a vast range of algorithms, the existence of an
+oracle to a submodular function is assumed. But how does one check if this
+oracle indeed represents a submodular function?
+  Consider a function f:{0,1}^n \rightarrow R. The distance to submodularity is
+the minimum fraction of values of $f$ that need to be modified to make f
+submodular. If this distance is more than epsilon > 0, then we say that f is
+epsilon-far from being submodular. The aim is to have an efficient procedure
+that, given input f that is epsilon-far from being submodular, certifies that f
+is not submodular. We analyze a very natural tester for this problem, and prove
+that it runs in subexponential time. This gives the first non-trivial tester
+for submodularity. On the other hand, we prove an interesting lower bound (that
+is, unfortunately, quite far from the upper bound) suggesting that this tester
+cannot be very efficient in terms of epsilon. This involves non-trivial
+examples of functions which are far from submodular and yet do not exhibit too
+many local violations.
+  We also provide some constructions indicating the difficulty in designing a
+tester for submodularity. We construct a partial function defined on
+exponentially many points that cannot be extended to a submodular function, but
+any strict subset of these values can be extended to a submodular function.

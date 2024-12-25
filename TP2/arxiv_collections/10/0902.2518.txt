@@ -1,0 +1,13 @@
+We study the numerical solution of nonlinear partially observed optimal
+stopping problems. The system state is taken to be a multi-dimensional
+diffusion and drives the drift of the observation process, which is another
+multi-dimensional diffusion with correlated noise. Such models where the
+controller is not fully aware of her environment are of interest in applied
+probability and financial mathematics. We propose a new approximate numerical
+algorithm based on the particle filtering and regression Monte Carlo methods.
+The algorithm maintains a continuous state-space and yields an integrated
+approach to the filtering and control sub-problems. Our approach is entirely
+simulation-based and therefore allows for a robust implementation with respect
+to model specification. We carry out the error analysis of our scheme and
+illustrate with several computational examples. An extension to discretely
+observed stochastic volatility models is also considered.

@@ -1,0 +1,14 @@
+We study the problem of optimal estimation and control of linear systems
+using quantized measurements, with a focus on applications over sensor
+networks. We show that the state conditioned on a causal quantization of the
+measurements can be expressed as the sum of a Gaussian random vector and a
+certain truncated Gaussian vector. This structure bears close resemblance to
+the full information Kalman filter and so allows us to effectively combine the
+Kalman structure with a particle filter to recursively compute the state
+estimate. We call the resulting filter the Kalman like particle filter (KLPF)
+and observe that it delivers close to optimal performance using far fewer
+particles than that of a particle filter directly applied to the original
+problem. We show that the conditional state density follows a, so called,
+generalized closed skew-normal (GCSN) distribution. We further show that for
+such systems the classical separation property between control and estimation
+holds and that the certainty equivalent control law is LQG optimal.

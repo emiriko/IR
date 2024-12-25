@@ -1,0 +1,16 @@
+Measures of the direction and strength of the interdependence between two
+time series are evaluated and modified in order to reduce the bias in the
+estimation of the measures, so that they give zero values when there is no
+causal effect. For this, point shuffling is employed as used in the frame of
+surrogate data. This correction is not specific to a particular measure and it
+is implemented here on measures based on state space reconstruction and
+information measures. The performance of the causality measures and their
+modifications is evaluated on simulated uncoupled and coupled dynamical systems
+and for different settings of embedding dimension, time series length and noise
+level. The corrected measures, and particularly the suggested corrected
+transfer entropy, turn out to stabilize at the zero level in the absence of
+causal effect and detect correctly the direction of information flow when it is
+present. The measures are also evaluated on electroencephalograms (EEG) for the
+detection of the information flow in the brain of an epileptic patient. The
+performance of the measures on EEG is interpreted, in view of the results from
+the simulation study.

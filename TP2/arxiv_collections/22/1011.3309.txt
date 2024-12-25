@@ -1,0 +1,16 @@
+Boundary distance (BD) plotting is a technique for making orientation
+invariant comparisons of the spatial distribution of biochemical markers within
+and across cells/nuclei. Marker expression is aggregated over points with the
+same distance from the boundary. We present a suite of tools for improved data
+analysis and statistical inference using BD plotting. BD is computed using the
+Euclidean distance transform after presmoothing and oversampling of nuclear
+boundaries. Marker distribution profiles are averaged using smoothing with
+linearly decreasing bandwidth. Average expression curves are scaled and
+registered by x-axis dilation to compensate for uneven lighting and errors in
+nuclear boundary marking. Penalized discriminant analysis is used to
+characterize the quality of separation between average marker distributions. An
+adaptive piecewise linear model is used to compare expression gradients in
+intra, peri and extra nuclear zones. The techniques are illustrated by the
+following: (a) a two sample problem involving a pair of voltage gated calcium
+channels (Cav1.2 and AB70) marked in different cells; (b) a paired sample
+problem of calcium channels (Y1F4 and RyR1) marked in the same cell.

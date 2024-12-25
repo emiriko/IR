@@ -1,0 +1,17 @@
+Sprouts is a two-player topological game, invented in 1967 in the University
+of Cambridge by John Conway and Michael Paterson. The game starts with p spots,
+and ends in at most 3p-1 moves. The first player who cannot play loses.
+  The complexity of the p-spot game is very high, so that the best hand-checked
+proof only shows who the winner is for the 7-spot game, and the best previous
+computer analysis reached p=11.
+  We have written a computer program, using mainly two new ideas. The nimber
+(also known as Sprague-Grundy number) allows us to compute separately
+independent subgames; and when the exploration of a part of the game tree seems
+to be too difficult, we can manually force the program to search elsewhere.
+Thanks to these improvements, we reached up to p=32. The outcome of the 33-spot
+game is still unknown, but the biggest computed value is the 47-spot game ! All
+the computed values support the Sprouts conjecture: the first player has a
+winning strategy if and only if p is 3, 4 or 5 modulo 6.
+  We have also used a check algorithm to reduce the number of positions needed
+to prove which player is the winner. It is now possible to hand-check all the
+games until p=11 in a reasonable amount of time.

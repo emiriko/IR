@@ -1,0 +1,17 @@
+Peer-to-peer swarming is one of the \emph{de facto} solutions for distributed
+content dissemination in today's Internet. By leveraging resources provided by
+clients, swarming systems reduce the load on and costs to publishers. However,
+there is a limit to how much cost savings can be gained from swarming; for
+example, for unpopular content peers will always depend on the publisher in
+order to complete their downloads. In this paper, we investigate this
+dependence. For this purpose, we propose a new metric, namely \emph{swarm
+self-sustainability}. A swarm is referred to as self-sustaining if all its
+blocks are collectively held by peers; the self-sustainability of a swarm is
+the fraction of time in which the swarm is self-sustaining. We pose the
+following question: how does the self-sustainability of a swarm vary as a
+function of content popularity, the service capacity of the users, and the size
+of the file? We present a model to answer the posed question. We then propose
+efficient solution methods to compute self-sustainability. The accuracy of our
+estimates is validated against simulation. Finally, we also provide closed-form
+expressions for the fraction of time that a given number of blocks is
+collectively held by peers.

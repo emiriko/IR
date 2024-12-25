@@ -1,0 +1,8 @@
+We describe a quantum algorithm that solves combinatorial optimization
+problems by quantum simulation of a classical simulated annealing process. Our
+algorithm exploits quantum walks and the quantum Zeno effect induced by
+evolution randomization. It requires order $1/\sqrt{\delta}$ steps to find an
+optimal solution with bounded error probability, where $\delta$ is the minimum
+spectral gap of the stochastic matrices used in the classical annealing
+process. This is a quadratic improvement over the order $1/\delta$ steps
+required by the latter.

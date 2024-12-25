@@ -1,0 +1,10 @@
+In this paper, a model of a pair of Dubins vehicles is considered. The
+vehicles move from an initial position and orientation to final position and
+orientation. A long the motion, the two vehicles are not allowed to collide
+however the two vehicles cant to far each other. The optimal control of the
+vehicle is found using the Pontryagins Maximum Principle (PMP). This PMP leads
+to a Hamiltonian system consisting of a system of differential equation and its
+adjoint. The originally differential equation has initial and final condition
+but the adjoint system doesn't have one. The classical difficulty is solved
+numerically by the greatest gradient descent method. Some simulation results
+are presented in this paper.

@@ -1,0 +1,17 @@
+Fractional Brownian motion is a Gaussian process x(t) with zero mean and
+two-time correlations <x(t)x(s)> ~ t^{2H} + s^{2H} - |t-s|^{2H}, where H, with
+0<H<1 is called the Hurst exponent. For H = 1/2, x(t) is a Brownian motion,
+while for H unequal 1/2, x(t) is a non-Markovian process. Here we study x(t) in
+presence of an absorbing boundary at the origin and focus on the probability
+density P(x,t) for the process to arrive at x at time t, starting near the
+origin at time 0, given that it has never crossed the origin. It has a scaling
+form P(x,t) ~ R(x/t^H)/t^H. Our objective is to compute the scaling function
+R(y), which up to now was only known for the Markov case H=1/2. We develop a
+systematic perturbation theory around this limit, setting H = 1/2 + epsilon, to
+calculate the scaling function R(y) to first order in epsilon. We find that
+R(y) behaves as R(y) ~ y^phi as y -> 0 (near the absorbing boundary), while
+R(y) ~ y^gamma exp(-y^2/2) as y -> oo, with phi = 1 - 4 epsilon + O(epsilon^2)
+and gamma = 1 - 2 epsilon + O(epsilon^2). Our epsilon-expansion result confirms
+the scaling relation phi = (1-H)/H proposed in Ref. [28]. We verify our
+findings via numerical simulations for H = 2/3. The tools developed here are
+versatile, powerful, and adaptable to different situations.

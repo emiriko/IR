@@ -1,0 +1,18 @@
+We present the living application, a method to autonomously manage
+applications on the grid. During its execution on the grid, the living
+application makes choices on the resources to use in order to complete its
+tasks. These choices can be based on the internal state, or on autonomously
+acquired knowledge from external sensors. By giving limited user capabilities
+to a living application, the living application is able to port itself from one
+resource topology to another. The application performs these actions at
+run-time without depending on users or external workflow tools. We demonstrate
+this new concept in a special case of a living application: the living
+simulation. Today, many simulations require a wide range of numerical solvers
+and run most efficiently if specialized nodes are matched to the solvers. The
+idea of the living simulation is that it decides itself which grid machines to
+use based on the numerical solver currently in use. In this paper we apply the
+living simulation to modelling the collision between two galaxies in a test
+setup with two specialized computers. This simulation switces at run-time
+between a GPU-enabled computer in the Netherlands and a GRAPE-enabled machine
+that resides in the United States, using an oct-tree N-body code whenever it
+runs in the Netherlands and a direct N-body solver in the United States.

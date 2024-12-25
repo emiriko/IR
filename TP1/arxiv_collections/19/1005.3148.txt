@@ -1,0 +1,18 @@
+In the current Internet, there is no clean way for affected parties to react
+to poor forwarding performance: when a domain violates its Service Level
+Agreement (SLA) with a contractual partner, the partner must resort to ad-hoc
+probing-based monitoring to determine the existence and extent of the
+violation. Instead, we propose a new, systematic approach to the problem of
+forwarding-performance verification. Our mechanism relies on voluntary
+reporting, allowing each domain to disclose its loss and delay performance to
+its neighbors; it does not disclose any information regarding the participating
+domains' topology or routing policies beyond what is already publicly
+available. Most importantly, it enables verifiable performance measurements,
+i.e., domains cannot abuse it to significantly exaggerate their performance.
+Finally, our mechanism is tunable, allowing each participating domain to
+determine how many resources to devote to it independently (i.e., without any
+inter-domain coordination), exposing a controllable trade-off between
+performance-verification quality and resource consumption. Our mechanism comes
+at the cost of deploying modest functionality at the participating domains'
+border routers; we show that it requires reasonable processing and memory
+resources within modern network capabilities.

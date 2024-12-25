@@ -1,0 +1,9 @@
+For a $m\times n$ matrix $B=(b_{ij})_{m\times n}$ with nonnegative entries
+$b_{ij}$ and any $k\times l-$submatrix $B_{ij}$ of $B$, let $a_{B_{ij}}$ and
+$g_{B_{ij}}$ denote the arithmetic mean and geometric mean of elements of
+$B_{ij}$ respectively. It is proved that if $k$ is an integer in $(\frac{m}{2},
+m]$ and $l$ is an integer in $(\frac{n}{2}, n]$ respectively, then
+$$\Big(\prod_{i=k,j=l\atop B_{ij}\subset B}a_{B_{ij}}\Big)^{\frac{1}{C_m^k\cdot
+C_n^l}} \geq\frac{1}{C_m^k\cdot C_n^l}\Big(\sum_{i=k,j=l\atop B_{ij}\subset
+B}g_{B_{ij}}\Big),$$ with equality if and only if $b_{ij}$ is a constant for
+every $i,j$.

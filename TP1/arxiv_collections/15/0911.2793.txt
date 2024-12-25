@@ -1,0 +1,15 @@
+Coulomb interactions are present in a wide variety of all-atom force fields.
+Spherical truncations of these interactions permit fast simulations but are
+problematic due to their incorrect thermodynamics. Herein we demonstrate that
+simple analytical corrections for the thermodynamics of uniform truncated
+systems are possible. In particular results for the SPC/E water model treated
+with spherically-truncated Coulomb interactions suggested by local molecular
+field theory [Proc. Nat. Acad. Sci. USA 105, 19136 (2008)] are presented. We
+extend results developed by Chandler [J. Chem. Phys. 65, 2925 (1976)] so that
+we may treat the thermodynamics of mixtures of flexible charged and uncharged
+molecules simulated with spherical truncations. We show that the energy and
+pressure of spherically-truncated bulk SPC/E water are easily corrected using
+exact second-moment-like conditions on long-ranged structure. Furthermore,
+applying the pressure correction as an external pressure removes the density
+errors observed by other research groups in NPT simulations of
+spherically-truncated bulk species.

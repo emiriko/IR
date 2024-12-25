@@ -1,0 +1,6 @@
+A CRDT is a data type whose operations commute when they are concurrent.
+Replicas of a CRDT eventually converge without any complex concurrency control.
+As an existence proof, we exhibit a non-trivial CRDT: a shared edit buffer
+called Treedoc. We outline the design, implementation and performance of
+Treedoc. We discuss how the CRDT concept can be generalised, and its
+limitations.

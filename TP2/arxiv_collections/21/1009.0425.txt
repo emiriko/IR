@@ -1,0 +1,20 @@
+This paper considers a relay-assisted bidirectional cellular network where
+the base station (BS) communicates with each mobile station (MS) using OFDMA
+for both uplink and downlink. The goal is to improve the overall system
+performance by exploring the full potential of the network in various
+dimensions including user, subcarrier, relay, and bidirectional traffic. In
+this work, we first introduce a novel three-time-slot time-division duplexing
+(TDD) transmission protocol. This protocol unifies direct transmission, one-way
+relaying and network-coded two-way relaying between the BS and each MS. Using
+the proposed three-time-slot TDD protocol, we then propose an optimization
+framework for resource allocation to achieve the following gains: cooperative
+diversity (via relay selection), network coding gain (via bidirectional
+transmission mode selection), and multiuser diversity (via subcarrier
+assignment). We formulate the problem as a combinatorial optimization problem,
+which is NP-complete. To make it more tractable, we adopt a graph-based
+approach. We first establish the equivalence between the original problem and a
+maximum weighted clique problem in graph theory. A metaheuristic algorithm
+based on any colony optimization (ACO) is then employed to find the solution in
+polynomial time. Simulation results demonstrate that the proposed protocol
+together with the ACO algorithm significantly enhances the system total
+throughput.

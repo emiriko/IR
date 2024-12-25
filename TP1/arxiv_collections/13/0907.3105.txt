@@ -1,0 +1,22 @@
+The separation of emissions from different astrophysical processes is an
+important step towards the understanding of observational data. This topic of
+component separation is of particular importance in the observation of the
+relic Cosmic Microwave Background Radiation, as performed by the WMAP satellite
+and the more recent Planck mission, launched May 14th, 2009 from Kourou and
+currently taking data. When performing any sort of component separation, some
+assumptions about the components must be used. One assumption that many
+techniques typically use is knowledge of the frequency scaling of one or more
+components. This assumption may be broken in the presence of calibration
+errors. Here we compare, in the context of imperfect calibration, the recovery
+of a clean map of emission of the Cosmic Microwave Background from
+observational data with two methods: FastICA (which makes no assumption of the
+frequency scaling of the components), and an `Internal Linear Combination'
+(ILC), which explicitly extracts a component with a given frequency scaling. We
+find that even in the presence of small calibration errors with a Planck-style
+mission, the ILC method can lead to inaccurate CMB reconstruction in the high
+signal-to-noise regime, because of partial cancellation of the CMB emission in
+the recovered map. While there is no indication that the failure of the ILC
+will translate to other foreground cleaning or component separation techniques,
+we propose that all methods which assume knowledge of the frequency scaling of
+one or more components be careful to estimate the effects of calibration
+errors.

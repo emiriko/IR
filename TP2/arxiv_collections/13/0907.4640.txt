@@ -1,0 +1,15 @@
+We present natural semantics for acyclic as well as cyclic call-by-need
+lambda calculi, which are proved equivalent to the reduction semantics given by
+Ariola and Felleisen. The natural semantics are big-step and use global heaps,
+where evaluation is suspended and memorized. The reduction semantics are
+small-step and evaluation is suspended and memorized locally in let-bindings.
+Thus two styles of formalization describe the call-by-need strategy from
+different angles.
+  The natural semantics for the acyclic calculus is revised from the previous
+presentation by Maraist et al. and its adequacy is ascribed to its
+correspondence with the reduction semantics, which has been proved equivalent
+to call-by-name by Ariola and Felleisen. The natural semantics for the cyclic
+calculus is inspired by that of Launchbury and Sestoft and we state its
+adequacy using a denotational semantics in the style of Launchbury; adequacy of
+the reduction semantics for the cyclic calculus is in turn ascribed to its
+correspondence with the natural semantics.

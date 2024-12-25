@@ -1,0 +1,12 @@
+We present a new algorithm which allows for direct numerically exact
+solutions within dynamical mean-field theory (DMFT). It is based on the
+established Hirsch-Fye quantum Monte Carlo (HF-QMC) method. However, the DMFT
+impurity model is solved not at fixed imaginary-time discretization Delta_tau,
+but for a range of discretization grids; by extrapolation, unbiased Green
+functions are obtained in each DMFT iteration. In contrast to conventional
+HF-QMC, the multigrid algorithm converges to the exact DMFT fixed points. It
+extends the useful range of Delta_tau, is precise and reliable even in the
+immediate vicinity of phase transitions and is more efficient, also in
+comparison to continuous-time methods. Using this algorithm, we show that the
+spectral weight transfer at the Mott transition has been overestimated in a
+recent density matrix renormalization group study.

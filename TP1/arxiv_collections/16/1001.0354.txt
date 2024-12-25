@@ -1,0 +1,23 @@
+In this paper we give a quantum statistical interpretation for the bracket
+polynomial state sum <K> and for the Jones polynomial. We use this quantum
+mechanical interpretation to give a new quantum algorithm for computing the
+Jones polynomial. This algorithm is useful for its conceptual simplicity, and
+it applies to all values of the polynomial variable that lie on the unit circle
+in the complex plane. Letting C(K) denote the Hilbert space for this model,
+there is a natural unitary transformation U from C(K) to itself such that <K> =
+<F|U|F> where |F> is a sum over basis states for C(K). The quantum algorithm
+arises directly from this formula via the Hadamard Test. We then show that the
+framework for our quantum model for the bracket polynomial is a natural setting
+for Khovanov homology. The Hilbert space C(K) of our model has basis in
+one-to-one correspondence with the enhanced states of the bracket state
+summmation and is isomorphic with the chain complex for Khovanov homology with
+coefficients in the complex numbers. We show that for the Khovanov boundary
+operator d defined on C(K) we have the relationship dU + Ud = 0. Consequently,
+the unitary operator U acts on the Khovanov homology, and we therefore obtain a
+direct relationship between Khovanov homology and this quantum algorithm for
+the Jones polynomial. The formula for the Jones polynomial as a graded Euler
+characteristic is now expressed in terms of the eigenvalues of U and the Euler
+characteristics of the eigenspaces of U in the homology. The quantum algorithm
+given here is inefficient, and so it remains an open problem to determine
+better quantum algorithms that involve both the Jones polynomial and the
+Khovanov homology.

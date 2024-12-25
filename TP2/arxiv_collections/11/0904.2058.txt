@@ -1,0 +1,16 @@
+We study the problem of polynomial identity testing (PIT) for depth 2
+arithmetic circuits over matrix algebra. We show that identity testing of depth
+3 (Sigma-Pi-Sigma) arithmetic circuits over a field F is polynomial time
+equivalent to identity testing of depth 2 (Pi-Sigma) arithmetic circuits over
+U_2(F), the algebra of upper-triangular 2 x 2 matrices with entries from F.
+Such a connection is a bit surprising since we also show that, as computational
+models, Pi-Sigma circuits over U_2(F) are strictly `weaker' than Sigma-Pi-Sigma
+circuits over F.
+  The equivalence further shows that PIT of depth 3 arithmetic circuits reduces
+to PIT of width-2 planar commutative Algebraic Branching Programs (ABP). Thus,
+identity testing for commutative ABPs is interesting even in the case of
+width-2.
+  Further, we give a deterministic polynomial time identity testing algorithm
+for a Pi-Sigma circuit over any constant dimensional commutative algebra over
+F. While over commutative algebras of polynomial dimension, identity testing is
+at least as hard as that of Sigma-Pi-Sigma circuits over F.

@@ -1,0 +1,12 @@
+Several old and recent classes of picture grammars, that variously extend
+context-free string grammars in two dimensions, are based on rules that rewrite
+arrays of pixels. Such grammars can be unified and extended using a tiling
+based approach, whereby the right part of a rule is formalized by means of a
+finite set of permitted tiles. We focus on a simple type of tiling,named
+regional, and define the corresponding regional tile grammars. They include
+both Siromoney's (or Matz's) Kolam grammars and their generalization by Prusa,
+as well as Drewes's grid grammars. Regionally defined pictures can be
+recognized with polynomial-time complexity by an algorithm extending the CKY
+one for strings. Regional tile grammars and languages are strictly included
+into our previous tile grammars and languages, and are incomparable with
+Giammarresi-Restivo tiling systems (or Wang systems).

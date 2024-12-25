@@ -1,0 +1,10 @@
+We formulate a spectral graph-partitioning algorithm that uses the two
+leading eigenvectors of the matrix corresponding to a selected quality function
+to split a network into three communities in a single step. In so doing, we
+extend the recursive bipartitioning methods developed by Newman [Proc. Nat.
+Acad. Sci. 103, 8577 (2006); Phys. Rev. E 74, 036104 (2006)] to allow one to
+consider the best available two-way and three-way divisions at each recursive
+step. We illustrate the method using simple "bucket brigade" examples and then
+apply the algorithm to examine the community structures of the coauthorship
+graph of network scientists and of U. S. Congressional networks inferred from
+roll-call voting similarities.

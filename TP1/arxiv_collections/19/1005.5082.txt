@@ -1,0 +1,15 @@
+In this short report, we discuss how coordinate-wise descent algorithms can
+be used to solve minimum variance portfolio (MVP) problems in which the
+portfolio weights are constrained by $l_{q}$ norms, where $1\leq q \leq 2$. A
+portfolio which weights are regularised by such norms is called a sparse
+portfolio (Brodie et al.), since these constraints facilitate sparsity (zero
+components) of the weight vector. We first consider a case when the portfolio
+weights are regularised by a weighted $l_{1}$ and squared $l_{2}$ norm. Then
+two benchmark data sets (Fama and French 48 industries and 100 size and BM
+ratio portfolios) are used to examine performances of the sparse portfolios.
+When the sample size is not relatively large to the number of assets, sparse
+portfolios tend to have lower out-of-sample portfolio variances, turnover
+rates, active assets, short-sale positions, but higher Sharpe ratios than the
+unregularised MVP. We then show some possible extensions; particularly we
+derive an efficient algorithm for solving an MVP problem in which assets are
+allowed to be chosen grouply.

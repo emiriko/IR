@@ -1,0 +1,20 @@
+A Session Initiation Protocol (SIP) server may be overloaded by
+emergency-induced call volume, ``American Idol'' style flash crowd effects or
+denial of service attacks. The SIP server overload problem is interesting
+especially because the costs of serving or rejecting a SIP session can be
+similar. For this reason, the built-in SIP overload control mechanism based on
+generating rejection messages cannot prevent the server from entering
+congestion collapse under heavy load. The SIP overload problem calls for a
+pushback control solution in which the potentially overloaded receiving server
+may notify its upstream sending servers to have them send only the amount of
+load within the receiving server's processing capacity. The pushback framework
+can be achieved by either a rate-based feedback or a window-based feedback. The
+centerpiece of the feedback mechanism is the algorithm used to generate load
+regulation information. We propose three new window-based feedback algorithms
+and evaluate them together with two existing rate-based feedback algorithms. We
+compare the different algorithms in terms of the number of tuning parameters
+and performance under both steady and variable load. Furthermore, we identify
+two categories of fairness requirements for SIP overload control, namely,
+user-centric and provider-centric fairness. With the introduction of a new
+double-feed SIP overload control architecture, we show how the algorithms can
+meet those fairness criteria.

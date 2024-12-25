@@ -1,0 +1,14 @@
+The paper is organized as a self-contained literate Prolog program that
+implements elements of an executable finite set theory with focus on
+combinatorial generation and arithmetic encodings. The complete Prolog code is
+available at http://logic.csci.unt.edu/tarau/research/2008/pHFS.zip . First,
+ranking and unranking functions for some "mathematically elegant" data types in
+the universe of Hereditarily Finite Sets with Urelements are provided,
+resulting in arithmetic encodings for powersets, hypergraphs, ordinals and
+choice functions. After implementing a digraph representation of Hereditarily
+Finite Sets we define {\em decoration functions} that can recover well-founded
+sets from encodings of their associated acyclic digraphs. We conclude with an
+encoding of arbitrary digraphs and discuss a concept of duality induced by the
+set membership relation. In the process, we uncover the surprising possibility
+of internally sharing isomorphic objects, independently of their language level
+types and meanings.

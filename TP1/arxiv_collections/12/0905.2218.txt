@@ -1,0 +1,11 @@
+We present and discuss a variance-reduced stochastic particle method for
+simulating the relaxation-time model of the Boltzmann transport equation. The
+present paper focuses on the dilute gas case, although the method is expected
+to directly extend to all fields (carriers) for which the relaxation-time
+approximation is reasonable. The variance reduction, achieved by simulating
+only the deviation from equilibrium, results in a significant computational
+efficiency advantage compared to traditional stochastic particle methods in the
+limit of small deviation from equilibrium. More specifically, the proposed
+method can efficiently simulate arbitrarily small deviations from equilibrium
+at a computational cost that is independent of the deviation from equilibrium,
+which is in sharp contrast to traditional particle methods.

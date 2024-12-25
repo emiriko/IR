@@ -1,0 +1,12 @@
+We investigate the problem of autonomous agents processing pieces of
+information that may be corrupted (tainted). Agents have the option of
+contacting a central database for a reliable check of the status of the
+message, but this procedure is costly and therefore should be used with
+parsimony. Agents have to evaluate the risk of being infected, and decide if
+and when communicating partners are affordable. Trustability is implemented as
+a personal (one-to-one) record of past contacts among agents, and as a
+mean-field monitoring of the level of message corruption. Moreover, this
+information is slowly forgotten in time, so that at the end everybody is
+checked against the database. We explore the behavior of a homogeneous system
+in the case of a fixed pool of spreaders of corrupted messages, and in the case
+of spontaneous appearance of corrupted messages.

@@ -1,0 +1,13 @@
+Fitting model parameters to experimental data is a common yet often
+challenging task, especially if the model contains many parameters. Typically,
+algorithms get lost in regions of parameter space in which the model is
+unresponsive to changes in parameters, and one is left to make adjustments by
+hand. We explain this difficulty by interpreting the fitting process as a
+generalized interpretation procedure. By considering the manifold of all model
+predictions in data space, we find that cross sections have a hierarchy of
+widths and are typically very narrow. Algorithms become stuck as they move near
+the boundaries. We observe that the model manifold, in addition to being
+tightly bounded, has low extrinsic curvature, leading to the use of geodesics
+in the fitting process. We improve the convergence of the Levenberg-Marquardt
+algorithm by adding the geodesic acceleration to the usual Levenberg-Marquardt
+step.

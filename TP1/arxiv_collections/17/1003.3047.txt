@@ -1,0 +1,26 @@
+The last decade has seen a revival of interest in pebble games in the context
+of proof complexity. Pebbling has proven a useful tool for studying
+resolution-based proof systems when comparing the strength of different
+subsystems, showing bounds on proof space, and establishing size-space
+trade-offs. The typical approach has been to encode the pebble game played on a
+graph as a CNF formula and then argue that proofs of this formula must inherit
+(various aspects of) the pebbling properties of the underlying graph.
+Unfortunately, the reductions used here are not tight. To simulate resolution
+proofs by pebblings, the full strength of nondeterministic black-white pebbling
+is needed, whereas resolution is only known to be able to simulate
+deterministic black pebbling. To obtain strong results, one therefore needs to
+find specific graph families which either have essentially the same properties
+for black and black-white pebbling (not at all true in general) or which admit
+simulations of black-white pebblings in resolution. This paper contributes to
+both these approaches. First, we design a restricted form of black-white
+pebbling that can be simulated in resolution and show that there are graph
+families for which such restricted pebblings can be asymptotically better than
+black pebblings. This proves that, perhaps somewhat unexpectedly, resolution
+can strictly beat black-only pebbling, and in particular that the space lower
+bounds on pebbling formulas in [Ben-Sasson and Nordstrom 2008] are tight.
+Second, we present a versatile parametrized graph family with essentially the
+same properties for black and black-white pebbling, which gives sharp
+simultaneous trade-offs for black and black-white pebbling for various
+parameter settings. Both of our contributions have been instrumental in
+obtaining the time-space trade-off results for resolution-based proof systems
+in [Ben-Sasson and Nordstrom 2009].

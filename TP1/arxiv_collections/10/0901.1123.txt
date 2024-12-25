@@ -1,0 +1,13 @@
+-Residue Number System (RNS) is a valuable tool for fast and parallel
+arithmetic. It has a wide application in digital signal processing, fault
+tolerant systems, etc. In this work, we introduce the 3-moduli set {2^n,
+2^{2n}-1, 2^{2n}+1} and propose its residue to binary converter using the
+Chinese Remainder Theorem. We present its simple hardware implementation that
+mainly includes one Carry Save Adder (CSA) and a Modular Adder (MA). We compare
+the performance and area utilization of our reverse converter to the reverse
+converters of the moduli sets {2^n-1, 2^n, 2^n+1, 2^{2n}+1} and {2^n-1, 2^n,
+2^n+1, 2^n-2^{(n+1)/2}+1, 2^n+2^{(n+1)/2}+1} that have the same dynamic range
+and we demonstrate that our architecture is better in terms of performance and
+area utilization. Also, we show that our reverse converter is faster than the
+reverse converter of {2^n-1, 2^n, 2^n+1} for dynamic ranges like 8-bit, 16-bit,
+32-bit and 64-bit however it requires more area.

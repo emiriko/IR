@@ -1,0 +1,8 @@
+We accelerate the computation of spherical harmonic transforms, using what is
+known as the butterfly scheme. This provides a convenient alternative to the
+approach taken in the second paper from this series on "Fast algorithms for
+spherical harmonic expansions." The requisite precomputations become manageable
+when organized as a "depth-first traversal" of the program's control-flow
+graph, rather than as the perhaps more natural "breadth-first traversal" that
+processes one-by-one each level of the multilevel procedure. We illustrate the
+results via several numerical examples.

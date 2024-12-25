@@ -1,0 +1,10 @@
+A fast algorithm for the approximate multiplication of matrices with decay is
+introduced; the Sparse Approximate Matrix Multiply (SpAMM) reduces complexity
+in the product space, a different approach from current methods that economize
+within the matrix space through truncation or rank reduction. Matrix truncation
+(element dropping) is compared to SpAMM for quantum chemical matrices with
+approximate exponential and algebraic decay. For matched errors in the
+electronic total energy, SpAMM is found to require fewer to far fewer floating
+point operations relative to dropping. The challenges and opportunities
+afforded by this new approach are discussed, including the potential for high
+performance implementations.

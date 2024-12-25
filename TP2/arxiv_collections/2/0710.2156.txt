@@ -1,0 +1,12 @@
+Increasingly, business projects are ephemeral. New Business Intelligence
+tools must support ad-lib data sources and quick perusal. Meanwhile, tag clouds
+are a popular community-driven visualization technique. Hence, we investigate
+tag-cloud views with support for OLAP operations such as roll-ups, slices,
+dices, clustering, and drill-downs. As a case study, we implemented an
+application where users can upload data and immediately navigate through its ad
+hoc dimensions. To support social networking, views can be easily shared and
+embedded in other Web sites. Algorithmically, our tag-cloud views are
+approximate range top-k queries over spontaneous data cubes. We present
+experimental evidence that iceberg cuboids provide adequate online
+approximations. We benchmark several browser-oblivious tag-cloud layout
+optimizations.

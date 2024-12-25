@@ -1,0 +1,21 @@
+The deformation of an initially spherical capsule, freely suspended in simple
+shear flow, can be computed analytically in the limit of small deformations [D.
+Barthes-Biesel, J. M. Rallison, The Time-Dependent Deformation of a Capsule
+Freely Suspended in a Linear Shear Flow, J. Fluid Mech. 113 (1981) 251-267].
+Those analytic approximations are used to study the influence of the mesh
+tessellation method, the spatial resolution, and the discrete delta function of
+the immersed boundary method on the numerical results obtained by a coupled
+immersed boundary lattice Boltzmann finite element method. For the description
+of the capsule membrane, a finite element method and the Skalak constitutive
+model [R. Skalak et al., Strain Energy Function of Red Blood Cell Membranes,
+Biophys. J. 13 (1973) 245-264] have been employed. Our primary goal is the
+investigation of the presented model for small resolutions to provide a sound
+basis for efficient but accurate simulations of multiple deformable particles
+immersed in a fluid. We come to the conclusion that details of the membrane
+mesh, as tessellation method and resolution, play only a minor role. The
+hydrodynamic resolution, i.e., the width of the discrete delta function, can
+significantly influence the accuracy of the simulations. The discretization of
+the delta function introduces an artificial length scale, which effectively
+changes the radius and the deformability of the capsule. We discuss
+possibilities of reducing the computing time of simulations of deformable
+objects immersed in a fluid while maintaining high accuracy.

@@ -1,0 +1,25 @@
+Let $P=(P_1, P_2, \ldots, P_n)$, $P_i \in \field{R}$ for all $i$, be a signal
+and let $C$ be a constant. In this work our goal is to find a function
+$F:[n]\rightarrow \field{R}$ which optimizes the following objective function:
+  $$ \min_{F} \sum_{i=1}^n (P_i-F_i)^2 + C\times |\{i:F_i \neq F_{i+1} \} | $$
+  The above optimization problem reduces to solving the following recurrence,
+which can be done efficiently using dynamic programming in $O(n^2)$ time:
+  $$ OPT_i = \min_{0 \leq j \leq i-1} [ OPT_j + \sum_{k=j+1}^i (P_k -
+(\sum_{m=j+1}^i P_m)/(i-j) )^2 ]+ C $$
+  The above recurrence arises naturally in applications where we wish to
+approximate the original signal $P$ with another signal $F$ which consists
+ideally of few piecewise constant segments. Such applications include database
+(e.g., histogram construction), speech recognition, biology (e.g., denoising
+aCGH data) applications and many more.
+  In this work we present two new techniques for optimizing dynamic programming
+that can handle cost functions not treated by other standard methods. The basis
+of our first algorithm is the definition of a constant-shifted variant of the
+objective function that can be efficiently approximated using state of the art
+methods for range searching. Our technique approximates the optimal value of
+our objective function within additive $\epsilon$ error and runs in
+$\tilde{O}(n^{1.5} \log{(\frac{U}{\epsilon}))}$ time, where $U = \max_i f_i$.
+The second algorithm we provide solves a similar recurrence within a factor of
+$\epsilon$ and runs in $O(n \log^2n / \epsilon)$. The new technique introduced
+by our algorithm is the decomposition of the initial problem into a small
+(logarithmic) number of Monge optimization subproblems which we can speed up
+using existing techniques.

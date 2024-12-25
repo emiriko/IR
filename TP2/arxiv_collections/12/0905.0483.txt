@@ -1,0 +1,16 @@
+The observations in many applications consist of counts of discrete events,
+such as photons hitting a dector, which cannot be effectively modeled using an
+additive bounded or Gaussian noise model, and instead require a Poisson noise
+model. As a result, accurate reconstruction of a spatially or temporally
+distributed phenomenon (f) from Poisson data (y) cannot be accomplished by
+minimizing a conventional l2-l1 objective function. The problem addressed in
+this paper is the estimation of f from y in an inverse problem setting, where
+(a) the number of unknowns may potentially be larger than the number of
+observations and (b) f admits a sparse approximation in some basis. The
+optimization formulation considered in this paper uses a negative Poisson
+log-likelihood objective function with nonnegativity constraints (since Poisson
+intensities are naturally nonnegative). This paper describes computational
+methods for solving the constrained sparse Poisson inverse problem. In
+particular, the proposed approach incorporates key ideas of using quadratic
+separable approximations to the objective function at each iteration and
+computationally efficient partition-based multiscale estimation methods.

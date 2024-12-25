@@ -1,0 +1,7 @@
+We consider pseudo-random number generators suitable for vector processors.
+In particular, we describe vectorised implementations of the Box-Muller and
+Polar methods, and show that they give good performance on the Fujitsu VP2200.
+We also consider some other popular methods, e.g. the Ratio method of Kinderman
+and Monahan (1977) (as improved by Leva (1992)), and the method of Von Neumann
+and Forsythe, and show why they are unlikely to be competitive with the Polar
+method on vector processors.

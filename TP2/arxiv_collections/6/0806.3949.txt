@@ -1,0 +1,13 @@
+The Quick Medical Reference (QMR) is a compendium of statistical knowledge
+connecting diseases to findings (symptoms). The information in QMR can be
+represented as a Bayesian network. The inference problem (or, in more medical
+language, giving a diagnosis) for the QMR is to, given some findings, find the
+probability of each disease. Rejection sampling and likelihood weighted
+sampling (a.k.a. likelihood weighting) are two simple algorithms for making
+approximate inferences from an arbitrary Bayesian net (and from the QMR
+Bayesian net in particular). Heretofore, the samples for these two algorithms
+have been obtained with a conventional "classical computer". In this paper, we
+will show that two analogous algorithms exist for the QMR Bayesian net, where
+the samples are obtained with a quantum computer. We expect that these two
+algorithms, implemented on a quantum computer, can also be used to make
+inferences (and predictions) with other Bayesian nets.

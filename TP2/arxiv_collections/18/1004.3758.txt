@@ -1,0 +1,24 @@
+This paper describes a flexible and tractable bottom-up dynamic correlation
+modelling framework with a consistent stochastic recovery specification. The
+stochastic recovery specification only models the first two moments of the spot
+recovery rate as its higher moments have almost no contribution to the loss
+distribution and CDO tranche pricing. Observing that only the joint
+distribution of default indicators is needed to build the portfolio loss
+distribution, we propose a generic class of default indicator copulas to model
+CDO tranches, which can be easily calibrated to index tranche prices across
+multiple maturities. This correlation modelling framework has the unique
+advantage that the joint distribution of default time and other dynamic
+properties of the model can be changed separately from the loss distribution
+and tranche prices. After calibrating the model to index tranche prices,
+existing top-down methods can be applied to the common factor process to
+construct very flexible systemic dynamics without changing the already
+calibrated tranche prices. This modelling framework therefore combines the best
+features of the bottom-up and top-down models: it is fully consistent with all
+the single name market information and it admits very rich and flexible spread
+dynamics. Numerical results from a non-parametric implementation of this
+modelling framework are also presented. The non-parametric implementation
+achieved fast and accurate calibration to the index tranches across multiple
+maturities even under extreme market conditions. A conditional Markov chain
+method is also proposed to construct the systemic dynamics, which supports an
+efficient lattice pricing method for dynamic spread instruments. We also showed
+how to price tranche options as an example of this fast lattice method.

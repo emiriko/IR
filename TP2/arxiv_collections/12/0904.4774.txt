@@ -1,0 +1,18 @@
+This article treats the problem of learning a dictionary providing sparse
+representations for a given signal class, via $\ell_1$-minimisation. The
+problem can also be seen as factorising a $\ddim \times \nsig$ matrix $Y=(y_1
+>... y_\nsig), y_n\in \R^\ddim$ of training signals into a $\ddim \times
+\natoms$ dictionary matrix $\dico$ and a $\natoms \times \nsig$ coefficient
+matrix $\X=(x_1... x_\nsig), x_n \in \R^\natoms$, which is sparse. The exact
+question studied here is when a dictionary coefficient pair $(\dico,\X)$ can be
+recovered as local minimum of a (nonconvex) $\ell_1$-criterion with input
+$Y=\dico \X$. First, for general dictionaries and coefficient matrices,
+algebraic conditions ensuring local identifiability are derived, which are then
+specialised to the case when the dictionary is a basis. Finally, assuming a
+random Bernoulli-Gaussian sparse model on the coefficient matrix, it is shown
+that sufficiently incoherent bases are locally identifiable with high
+probability. The perhaps surprising result is that the typically sufficient
+number of training samples $\nsig$ grows up to a logarithmic factor only
+linearly with the signal dimension, i.e. $\nsig \approx C \natoms \log
+\natoms$, in contrast to previous approaches requiring combinatorially many
+samples.

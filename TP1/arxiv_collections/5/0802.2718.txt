@@ -1,0 +1,23 @@
+We develop and test spectral Galerkin schemes to solve the coupled
+Orr-Sommerfeld (OS) and induction equations for parallel, incompressible MHD in
+free-surface and fixed-boundary geometries. The schemes' discrete bases consist
+of Legendre internal shape functions, supplemented with nodal shape functions
+for the weak imposition of the stress and insulating boundary conditions. The
+orthogonality properties of the basis polynomials solve the matrix-coefficient
+growth problem, and eigenvalue-eigenfunction pairs can be computed stably at
+spectral orders at least as large as p = 3,000 with p-independent roundoff
+error. Accuracy is limited instead by roundoff sensitivity due to non-normality
+of the stability operators at large hydrodynamic and/or magnetic Reynolds
+numbers (Re, Rm > 4E4). In problems with Hartmann velocity and magnetic-field
+profiles we employ suitable Gauss quadrature rules to evaluate the associated
+exponentially weighted sesquilinear forms without error. An alternative
+approach, which involves approximating the forms by means of
+Legendre-Gauss-Lobatto (LGL) quadrature at the 2p - 1 precision level, is found
+to yield equal eigenvalues within roundoff error. As a consistency check, we
+compare modal growth rates to energy growth rates in nonlinear simulations and
+record relative discrepancy smaller than $ 1E-5 $ for the least stable mode in
+free-surface flow at Re = 3E4. Moreover, we confirm that the computed normal
+modes satisfy an energy conservation law for free-surface MHD with error
+smaller than 1E-6. The critical Reynolds number in free-surface MHD is found to
+be sensitive to the magnetic Prandtl number Pm, even at the Pm = O(1E-5) regime
+of liquid metals.

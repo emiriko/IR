@@ -1,0 +1,17 @@
+Network tomography aims at inferring internal network characteristics based
+on measurements at the edge of the network. In loss tomography, in particular,
+the characteristic of interest is the loss rate of individual links and
+multicast and/or unicast end-to-end probes are typically used. Independently,
+recent advances in network coding have shown that there are advantages from
+allowing intermediate nodes to process and combine, in addition to just
+forward, packets. In this paper, we study the problem of loss tomography in
+networks with network coding capabilities. We design a framework for estimating
+link loss rates, which leverages network coding capabilities, and we show that
+it improves several aspects of tomography including the identifiability of
+links, the trade-off between estimation accuracy and bandwidth efficiency, and
+the complexity of probe path selection. We discuss the cases of inferring link
+loss rates in a tree topology and in a general topology. In the latter case,
+the benefits of our approach are even more pronounced compared to standard
+techniques, but we also face novel challenges, such as dealing with cycles and
+multiple paths between sources and receivers. Overall, this work makes the
+connection between active network tomography and network coding.

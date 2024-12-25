@@ -1,0 +1,21 @@
+The parametric deformations of quasienergies and eigenvectors of unitary
+operators are applied to the design of quantum adiabatic algorithms. The
+conventional, standard adiabatic quantum computation proceeds along
+eigenenergies of parameter-dependent Hamiltonians. By contrast, discrete
+adiabatic computation utilizes adiabatic passage along the quasienergies of
+parameter-dependent unitary operators. For example, such computation can be
+realized by a concatenation of parameterized quantum circuits, with an
+adiabatic though inevitably discrete change of the parameter. A design
+principle of adiabatic passage along quasienergy is recently proposed: Cheon's
+quasienergy and eigenspace anholonomies on unitary operators is available to
+realize anholonomic adiabatic algorithms [Tanaka and Miyamoto, Phys. Rev. Lett.
+98, 160407 (2007)], which compose a nontrivial family of discrete adiabatic
+algorithms. It is straightforward to port a standard adiabatic algorithm to an
+anholonomic adiabatic one, except an introduction of a parameter |v>, which is
+available to adjust the gaps of the quasienergies to control the running time
+steps. In Grover's database search problem, the costs to prepare |v> for the
+qualitatively different, i.e., power or exponential, running time steps are
+shown to be qualitatively different. Curiously, in establishing the equivalence
+between the standard quantum computation based on the circuit model and the
+anholonomic adiabatic quantum computation model, it is shown that the cost for
+|v> to enlarge the gaps of the eigenvalue is qualitatively negligible.

@@ -1,0 +1,20 @@
+We propose a first-order augmented Lagrangian algorithm (FAL) for solving the
+basis pursuit problem. FAL computes a solution to this problem by inexactly
+solving a sequence of L1-regularized least squares sub-problems. These
+sub-problems are solved using an infinite memory proximal gradient algorithm
+wherein each update reduces to "shrinkage" or constrained "shrinkage". We show
+that FAL converges to an optimal solution of the basis pursuit problem whenever
+the solution is unique, which is the case with very high probability for
+compressed sensing problems. We construct a parameter sequence such that the
+corresponding FAL iterates are eps-feasible and eps-optimal for all eps>0
+within O(log(1/eps)) FAL iterations. Moreover, FAL requires at most O(1/eps)
+matrix-vector multiplications of the form Ax or A^Ty to compute an
+eps-feasible, eps-optimal solution. We show that FAL can be easily extended to
+solve the basis pursuit denoising problem when there is a non-trivial level of
+noise on the measurements. We report the results of numerical experiments
+comparing FAL with the state-of-the-art algorithms for both noisy and noiseless
+compressed sensing problems. A striking property of FAL that we observed in the
+numerical experiments with randomly generated instances when there is no
+measurement noise was that FAL always correctly identifies the support of the
+target signal without any thresholding or post-processing, for moderately small
+error tolerance values.

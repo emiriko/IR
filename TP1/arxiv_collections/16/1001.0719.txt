@@ -1,0 +1,12 @@
+In arXiv:0911.2150, Rutger van Haasteren seeks to criticize the nested
+sampling algorithm for Bayesian data analysis in general and its MultiNest
+implementation in particular. He introduces a new method for evidence
+evaluation based on the idea of Voronoi tessellation and requiring samples from
+the posterior distribution obtained through MCMC based methods. He compares its
+accuracy and efficiency with MultiNest, concluding that it outperforms
+MultiNest in several cases. This comparison is completely unfair since the
+proposed method can not perform the complete Bayesian data analysis including
+posterior exploration and evidence evaluation on its own while MultiNest allows
+one to perform Bayesian data analysis end to end. Furthermore, their criticism
+of nested sampling (and in turn MultiNest) is based on a few conceptual
+misunderstandings of the algorithm. Here we seek to set the record straight.

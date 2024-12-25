@@ -1,0 +1,13 @@
+Let $\R$ be a real closed field, $ {\mathcal Q} \subset
+\R[Y_1,...,Y_\ell,X_1,...,X_k], $ with $ \deg_{Y}(Q) \leq 2, \deg_{X}(Q) \leq
+d, Q \in {\mathcal Q}, #({\mathcal Q})=m$, and $ {\mathcal P} \subset
+\R[X_1,...,X_k] $ with $\deg_{X}(P) \leq d, P \in {\mathcal P}, #({\mathcal
+P})=s$. Let $S \subset \R^{\ell+k}$ be a semi-algebraic set defined by a
+Boolean formula without negations, with atoms $P=0, P \geq 0, P \leq 0, P \in
+{\mathcal P} \cup {\mathcal Q}$. We describe an algorithm for computing the the
+Betti numbers of $S$. The complexity of the algorithm is bounded by $(\ell s m
+d)^{2^{O(m+k)}}$. The complexity of the algorithm interpolates between the
+doubly exponential time bounds for the known algorithms in the general case,
+and the polynomial complexity in case of semi-algebraic sets defined by few
+quadratic inequalities known previously. Moreover, for fixed $m$ and $k$ this
+algorithm has polynomial time complexity in the remaining parameters.

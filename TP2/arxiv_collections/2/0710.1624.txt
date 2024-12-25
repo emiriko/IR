@@ -1,0 +1,17 @@
+We analyze the long time behavior of a quantum computer running a quantum
+error correction (QEC) code in the presence of a correlated environment.
+Starting from a Hamiltonian formulation of realistic noise models, and assuming
+that QEC is indeed possible, we find formal expressions for the probability of
+a faulty path and the residual decoherence encoded in the reduced density
+matrix. Systems with non-zero gate times (``long gates'') are included in our
+analysis by using an upper bound on the noise. In order to introduce the local
+error probability for a qubit, we assume that propagation of signals through
+the environment is slower than the QEC period (hypercube assumption). This
+allows an explicit calculation in the case of a generalized spin-boson model
+and a quantum frustration model. The key result is a dimensional criterion: If
+the correlations decay sufficiently fast, the system evolves toward a
+stochastic error model for which the threshold theorem of fault-tolerant
+quantum computation has been proven. On the other hand, if the correlations
+decay slowly, the traditional proof of this threshold theorem does not hold.
+This dimensional criterion bears many similarities to criteria that occur in
+the theory of quantum phase transitions.

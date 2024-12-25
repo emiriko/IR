@@ -1,0 +1,18 @@
+Assuming that the stock price $Z=(Z_t)_{0\leq t\leq T}$ follows a geometric
+Brownian motion with drift $\mu\in\mathbb{R}$ and volatility $\sigma>0$, and
+letting $M_t=\max_{0\leq s\leq t}Z_s$ for $t\in[0,T]$, we consider the optimal
+prediction problems \[V_1=\inf_{0\leq\tau\leq
+T}\mathsf{E}\biggl(\frac{M_T}{Z_{\tau}}\biggr)\quadand\quad
+V_2=\sup_{0\leq\tau\leq T}\mathsf{E}\biggl(\frac{Z_{\tau}}{M_T}\biggr),\] where
+the infimum and supremum are taken over all stopping times $\tau$ of $Z$. We
+show that the following strategy is optimal in the first problem: if $\mu\leq0$
+stop immediately; if $\mu\in (0,\sigma^2)$ stop as soon as $M_t/Z_t$ hits a
+specified function of time; and if $\mu\geq\sigma^2$ wait until the final time
+$T$. By contrast we show that the following strategy is optimal in the second
+problem: if $\mu\leq\sigma^2/2$ stop immediately, and if $\mu>\sigma^2/2$ wait
+until the final time $T$. Both solutions support and reinforce the widely held
+financial view that ``one should sell bad stocks and keep good ones.'' The
+method of proof makes use of parabolic free-boundary problems and local
+time--space calculus techniques. The resulting inequalities are unusual and
+interesting in their own right as they involve the future and as such have a
+predictive element.

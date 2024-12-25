@@ -1,0 +1,18 @@
+For the investigation of higher order Feynman integrals, potentially with
+tensor structure, it is highly desirable to have numerical methods and
+automated tools for dedicated, but sufficiently 'simple' numerical approaches.
+We elaborate two algorithms for this purpose which may be applied in the
+Euclidean kinematical region and in d=4-2*epsilon dimensions. One method uses
+Mellin-Barnes representations for the Feynman parameter representation of
+multi-loop Feynman integrals with arbitrary tensor rank. Our Mathematica
+package AMBRE has been extended for that purpose, and together with the
+packages MB (M. Czakon) or MBresolve (A. V. Smirnov and V. A. Smirnov) one may
+perform automatically a numerical evaluation of planar tensor Feynman
+integrals. Alternatively, one may apply sector decomposition to planar and
+non-planar multi-loop epsilon-expanded Feynman integrals with arbitrary tensor
+rank. We automatized the preparations of Feynman integrals for an immediate
+application of the package sector_decomposition (C. Bogner and S. Weinzierl) so
+that one has to give only a proper definition of propagators and numerators.
+The efficiency of the two implementations, based on Mellin-Barnes
+representations and sector decompositions, is compared. The computational
+packages are publicly available.

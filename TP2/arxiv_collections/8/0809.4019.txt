@@ -1,0 +1,16 @@
+This work studies the throughput scaling laws of ad hoc wireless networks in
+the limit of a large number of nodes. A random connections model is assumed in
+which the channel connections between the nodes are drawn independently from a
+common distribution. Transmitting nodes are subject to an on-off strategy, and
+receiving nodes employ conventional single-user decoding. The following results
+are proven:
+  1) For a class of connection models with finite mean and variance, the
+throughput scaling is upper-bounded by $O(n^{1/3})$ for single-hop schemes, and
+$O(n^{1/2})$ for two-hop (and multihop) schemes.
+  2) The $\Theta (n^{1/2})$ throughput scaling is achievable for a specific
+connection model by a two-hop opportunistic relaying scheme, which employs
+full, but only local channel state information (CSI) at the receivers, and
+partial CSI at the transmitters.
+  3) By relaxing the constraints of finite mean and variance of the connection
+model, linear throughput scaling $\Theta (n)$ is achievable with Pareto-type
+fading models.

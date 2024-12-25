@@ -1,0 +1,8 @@
+The linear-algebraic lambda-calculus and the algebraic lambda-calculus are
+untyped lambda-calculi extended with arbitrary linear combinations of terms.
+The former presents the axioms of linear algebra in the form of a rewrite
+system, while the latter uses equalities. When given by rewrites, algebraic
+lambda-calculi are not confluent unless further restrictions are added. We
+provide a type system for the linear-algebraic lambda-calculus enforcing strong
+normalisation, which gives back confluence. The type system allows an abstract
+interpretation in System F.

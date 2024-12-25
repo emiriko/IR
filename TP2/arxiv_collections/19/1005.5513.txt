@@ -1,0 +1,18 @@
+The problems of random projections and sparse reconstruction have much in
+common and individually received much attention. Surprisingly, until now they
+progressed in parallel and remained mostly separate. Here, we employ new tools
+from probability in Banach spaces that were successfully used in the context of
+sparse reconstruction to advance on an open problem in random pojection. In
+particular, we generalize and use an intricate result by Rudelson and Vershynin
+for sparse reconstruction which uses Dudley's theorem for bounding Gaussian
+processes. Our main result states that any set of $N = \exp(\tilde{O}(n))$ real
+vectors in $n$ dimensional space can be linearly mapped to a space of dimension
+$k=O(\log N\polylog(n))$, while (1) preserving the pairwise distances among the
+vectors to within any constant distortion and (2) being able to apply the
+transformation in time $O(n\log n)$ on each vector. This improves on the best
+known $N = \exp(\tilde{O}(n^{1/2}))$ achieved by Ailon and Liberty and $N =
+\exp(\tilde{O}(n^{1/3}))$ by Ailon and Chazelle.
+  The dependence in the distortion constant however is believed to be
+suboptimal and subject to further investigation. For constant distortion, this
+settles the open question posed by these authors up to a $\polylog(n)$ factor
+while considerably simplifying their constructions.

@@ -1,0 +1,21 @@
+Hierarchical modeling of abundance in space or time using closed-population
+mark-recapture under heterogeneity (model M$_{h}$) presents two challenges: (i)
+finding a flexible likelihood in which abundance appears as an explicit
+parameter and (ii) fitting the hierarchical model for abundance. The first
+challenge arises because abundance not only indexes the population size, it
+also determines the dimension of the capture probabilities in heterogeneity
+models. A common approach is to use data augmentation to include these capture
+probabilities directly into the likelihood and fit the model using Bayesian
+inference via Markov chain Monte Carlo (MCMC). Two such examples of this
+approach are (i) explicit trans-dimensional MCMC, and (ii) superpopulation data
+augmentation. The superpopulation approach has the advantage of simple
+specification that is easily implemented in BUGS and related software. However,
+it reparameterizes the model so that abundance is no longer included, except as
+a derived quantity. This is a drawback when hierarchical models for abundance,
+or related parameters, are desired. Here, we analytically compare the two
+approaches and show that they are more closely related than might appear
+superficially. We exploit this relationship to specify the model in a way that
+allows us to include abundance as a parameter and that facilitates hierarchical
+modeling using readily available software such as BUGS. We use this approach to
+model trends in grizzly bear abundance in Yellowstone National Park from
+1986-1998.

@@ -1,0 +1,10 @@
+We define two extensions of the typed linear lambda-calculus that yield
+minimal Turing-complete systems. The extensions are based on unbounded
+recursion in one case, and bounded recursion with minimisation in the other. We
+show that both approaches are compatible with linearity and typeability
+constraints. Both extensions of the typed linear lambda-calculus are minimal,
+in the sense that taking out any of the components breaks the universality of
+the system. We discuss implementation techniques that exploit the linearity of
+the calculi. Finally, we apply the results to languages with fixpoint
+operators: we give a compilation of the programming language PCF into a linear
+lambda-calculus with linear unbounded recursion.

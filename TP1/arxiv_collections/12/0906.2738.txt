@@ -1,0 +1,12 @@
+We present new data structures for approximately counting the number of
+points in orthogonal range.
+  There is a deterministic linear space data structure that supports updates in
+O(1) time and approximates the number of elements in a 1-D range up to an
+additive term $k^{1/c}$ in $O(\log \log U\cdot\log \log n)$ time, where $k$ is
+the number of elements in the answer, $U$ is the size of the universe and $c$
+is an arbitrary fixed constant. We can estimate the number of points in a
+two-dimensional orthogonal range up to an additive term $ k^{\rho}$ in $O(\log
+\log U+ (1/\rho)\log\log n)$ time for any $\rho>0$. We can estimate the number
+of points in a three-dimensional orthogonal range up to an additive term
+$k^{\rho}$ in $O(\log \log U + (\log\log n)^3+ (3^v)\log\log n)$ time for
+$v=\log \frac{1}{\rho}/\log {3/2}+2$.

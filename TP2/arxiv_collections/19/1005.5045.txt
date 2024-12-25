@@ -1,0 +1,16 @@
+Web Operating Systems can be seen as an extension of traditional Operating
+Systems where the addresses used to manage files and execute programs (via the
+basic load/execution mechanism) are extended from local filesystem path-names
+to URLs. A first consequence is that, similarly as in traditional web
+technologies, executing a program at a given URL, can be done in two
+modalities: either the execution is performed client-side at the invoking
+machine (and relative URL addressing in the executed program set to refer to
+the invoked URL) or it is performed server-side at the machine addressed by the
+invoked URL (as, e.g., for a web service). Moreover in this context, user
+identification for access to programs and files and workflow-based composition
+of service programs is naturally based on token/session-like mechanisms. We
+propose a middleware based on client-server protocols and on a set primitives,
+for managing files/resources and executing programs (in the form of
+client-side/server-side components/services) in Web Operating Systems. We
+formally define the semantics of such middleware via a process algebraic
+approach.

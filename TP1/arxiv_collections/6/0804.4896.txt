@@ -1,0 +1,19 @@
+Web Service orchestrations are compositions of different Web Services to form
+a new service. The services called during the orchestration guarantee a given
+performance to the orchestrater, usually in the form of contracts. These
+contracts can be used by the orchestrater to deduce the contract it can offer
+to its own clients, by performing contract composition. An implicit assumption
+in contract based QoS management is: "the better the component services
+perform, the better the orchestration's performance will be". Thus, contract
+based QoS management for Web services orchestrations implicitly assumes
+monotony. In some orchestrations, however, monotony can be violated, i.e., the
+performance of the orchestration improves when the performance of a component
+service degrades. This is highly undesirable since it can render the process of
+contract composition inconsistent. In this paper we define monotony for
+orchestrations modelled by Colored Occurrence Nets (CO-nets) and we
+characterize the classes of monotonic orchestrations. We show that few
+orchestrations are indeed monotonic, mostly since latency can be traded for
+quality of data. We also propose a sound refinement of monotony, called
+conditional monotony, which forbids this kind of cheating and show that
+conditional monotony is widely satisfied by orchestrations. This finding leads
+to reconsidering the way SLAs should be formulated.

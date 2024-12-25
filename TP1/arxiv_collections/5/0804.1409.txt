@@ -1,0 +1,19 @@
+Web usage mining is a type of web mining, which exploits data mining
+techniques to discover valuable information from navigation behavior of World
+Wide Web users. As in classical data mining, data preparation and pattern
+discovery are the main issues in web usage mining. The first phase of web usage
+mining is the data processing phase, which includes the session reconstruction
+operation from server logs. Session reconstruction success directly affects the
+quality of the frequent patterns discovered in the next phase. In reactive web
+usage mining techniques, the source data is web server logs and the topology of
+the web pages served by the web server domain. Other kinds of information
+collected during the interactive browsing of web site by user, such as cookies
+or web logs containing similar information, are not used. The next phase of web
+usage mining is discovering frequent user navigation patterns. In this phase,
+pattern discovery methods are applied on the reconstructed sessions obtained in
+the first phase in order to discover frequent user patterns. In this paper, we
+propose a frequent web usage pattern discovery method that can be applied after
+session reconstruction phase. In order to compare accuracy performance of
+session reconstruction phase and pattern discovery phase, we have used an agent
+simulator, which models behavior of web users and generates web user navigation
+as well as the log data kept by the web server.

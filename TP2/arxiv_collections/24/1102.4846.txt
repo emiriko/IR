@@ -1,0 +1,14 @@
+We present an implementation of the calculation of the production of W^+W^+
+plus two jets at hadron colliders, at next-to-leading order (NLO) in QCD, in
+the POWHEG framework, which is a method that allows the interfacing of NLO
+calculations to shower Monte Carlo programs. This is the first 2 -> 4 process
+to be described to NLO accuracy within a shower Monte Carlo framework. The
+implementation was built within the POWHEGBOX package. We discuss a few
+technical improvements that were needed in the POWHEGBOX to deal with the
+computer intensive nature of the NLO calculation, and argue that further
+improvements are possible, so that the method can match the complexity that is
+reached today in NLO calculations. We have interfaced our POWHEG implementation
+with PYTHIA and HERWIG, and present some phenomenological results, discussing
+similarities and differences between the pure NLO and the POWHEG+PYTHIA
+calculation both for inclusive and more exclusive distributions. We have made
+the relevant code available at the POWHEGBOX web site.

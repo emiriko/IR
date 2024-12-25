@@ -1,0 +1,9 @@
+Feature selection is an indispensable preprocessing step when mining huge
+datasets that can significantly improve the overall system performance.
+Therefore in this paper we focus on a hybrid approach of feature selection.
+This method falls into two phases. The filter phase select the features with
+highest information gain and guides the initialization of search process for
+wrapper phase whose output the final feature subset. The final feature subsets
+are passed through the Knearest neighbor classifier for classification of
+attacks. The effectiveness of this algorithm is demonstrated on DARPA KDDCUP99
+cyber attack dataset.

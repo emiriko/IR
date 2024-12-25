@@ -1,0 +1,16 @@
+Motivated by authentication, intrusion and spam detection applications we
+consider single-class classification (SCC) as a two-person game between the
+learner and an adversary. In this game the learner has a sample from a target
+distribution and the goal is to construct a classifier capable of
+distinguishing observations from the target distribution from observations
+emitted from an unknown other distribution. The ideal SCC classifier must
+guarantee a given tolerance for the false-positive error (false alarm rate)
+while minimizing the false negative error (intruder pass rate). Viewing SCC as
+a two-person zero-sum game we identify both deterministic and randomized
+optimal classification strategies for different game variants. We demonstrate
+that randomized classification can provide a significant advantage. In the
+deterministic setting we show how to reduce SCC to two-class classification
+where in the two-class problem the other class is a synthetically generated
+distribution. We provide an efficient and practical algorithm for constructing
+and solving the two class problem. The algorithm distinguishes low density
+regions of the target distribution and is shown to be consistent.

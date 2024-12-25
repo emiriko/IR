@@ -1,0 +1,18 @@
+The discovery of Autonomous Systems (ASes) interconnections and the inference
+of their commercial Type-of-Relationships (ToR) has been extensively studied
+during the last few years. The main motivation is to accurately calculate
+AS-level paths and to provide better topological view of the Internet. An
+inherent problem in current algorithms is their extensive use of heuristics.
+Such heuristics incur unbounded errors which are spread over all inferred
+relationships. We propose a near-deterministic algorithm for solving the ToR
+inference problem. Our algorithm uses as input the Internet core, which is a
+dense sub-graph of top-level ASes. We test several methods for creating such a
+core and demonstrate the robustness of the algorithm to the core's size and
+density, the inference period, and errors in the core.
+  We evaluate our algorithm using AS-level paths collected from RouteViews BGP
+paths and DIMES traceroute measurements. Our proposed algorithm
+deterministically infers over 95% of the approximately 58,000 AS topology
+links. The inference becomes stable when using a week worth of data and as
+little as 20 ASes in the core. The algorithm infers 2-3 times more peer-to-peer
+relationships in edges discovered only by DIMES than in RouteViews edges,
+validating the DIMES promise to discover periphery AS edges.

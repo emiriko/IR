@@ -1,0 +1,14 @@
+This paper presents a novel approach for augmenting proof-based verification
+with performance-style analysis of the kind employed in state-of-the-art model
+checking tools for probabilistic systems. Quantitative safety properties
+usually specified as probabilistic system invariants and modeled in proof-based
+environments are evaluated using bounded model checking techniques.
+  Our specific contributions include the statement of a theorem that is central
+to model checking safety properties of proof-based systems, the establishment
+of a procedure; and its full implementation in a prototype system (YAGA) which
+readily transforms a probabilistic model specified in a proof-based environment
+to its equivalent verifiable PRISM model equipped with reward structures. The
+reward structures capture the exact interpretation of the probabilistic
+invariants and can reveal succinct information about the model during
+experimental investigations. Finally, we demonstrate the novelty of the
+technique on a probabilistic library case study.

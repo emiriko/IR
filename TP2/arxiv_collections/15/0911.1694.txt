@@ -1,0 +1,18 @@
+The optimization of large portfolios displays an inherent instability to
+estimation error. This poses a fundamental problem, because solutions that are
+not stable under sample fluctuations may look optimal for a given sample, but
+are, in effect, very far from optimal with respect to the average risk. In this
+paper, we approach the problem from the point of view of statistical learning
+theory. The occurrence of the instability is intimately related to over-fitting
+which can be avoided using known regularization methods. We show how
+regularized portfolio optimization with the expected shortfall as a risk
+measure is related to support vector regression. The budget constraint dictates
+a modification. We present the resulting optimization problem and discuss the
+solution. The L2 norm of the weight vector is used as a regularizer, which
+corresponds to a diversification "pressure". This means that diversification,
+besides counteracting downward fluctuations in some assets by upward
+fluctuations in others, is also crucial because it improves the stability of
+the solution. The approach we provide here allows for the simultaneous
+treatment of optimization and diversification in one framework that enables the
+investor to trade-off between the two, depending on the size of the available
+data set.

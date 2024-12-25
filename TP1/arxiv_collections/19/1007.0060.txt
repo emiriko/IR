@@ -1,0 +1,9 @@
+In this paper, we analyze four authentication protocols of Bindu et al.,
+Goriparthi et al., Wang et al. and H\"olbl et al.. After investigation, we
+reveal several weaknesses of these schemes. First, Bindu et al.'s protocol
+suffers from an insider impersonation attack if a malicious user obtains a lost
+smart card. Second, both Goriparthi et al.'s and Wang et al.'s protocols cannot
+withstand a DoS attack in the password change phase, i.e. an attacker can
+involve the phase to make user's password never be used in subsequent
+authentications. Third, H\"olbl et al.'s protocol is vulnerable to an insider
+attack since a legal but malevolent user can deduce KGC's secret key.

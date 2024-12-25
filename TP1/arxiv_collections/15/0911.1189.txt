@@ -1,0 +1,15 @@
+The global sensitivity analysis of a complex numerical model often calls for
+the estimation of variance-based importance measures, named Sobol' indices.
+Metamodel-based techniques have been developed in order to replace the cpu
+time-expensive computer code with an inexpensive mathematical function, which
+predicts the computer code output. The common metamodel-based sensitivity
+analysis methods are well-suited for computer codes with scalar outputs.
+However, in the environmental domain, as in many areas of application, the
+numerical model outputs are often spatial maps, which may also vary with time.
+In this paper, we introduce an innovative method to obtain a spatial map of
+Sobol' indices with a minimal number of numerical model computations. It is
+based upon the functional decomposition of the spatial output onto a wavelet
+basis and the metamodeling of the wavelet coefficients by the Gaussian process.
+An analytical example is presented to clarify the various steps of our
+methodology. This technique is then applied to a real hydrogeological case: for
+each model input variable, a spatial map of Sobol' indices is thus obtained.

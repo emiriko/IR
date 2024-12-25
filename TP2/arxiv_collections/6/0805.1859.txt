@@ -1,0 +1,14 @@
+A phylogenetic network is a directed acyclic graph that visualises an
+evolutionary history containing so-called reticulations such as recombinations,
+hybridisations or lateral gene transfers. Here we consider the construction of
+a simplest possible phylogenetic network consistent with an input set T, where
+T contains at least one phylogenetic tree on three leaves (a triplet) for each
+combination of three taxa. To quantify the complexity of a network we consider
+both the total number of reticulations and the number of reticulations per
+biconnected component, called the level of the network. We give polynomial-time
+algorithms for constructing a level-1 respectively a level-2 network that
+contains a minimum number of reticulations and is consistent with T (if such a
+network exists). In addition, we show that if T is precisely equal to the set
+of triplets consistent with some network, then we can construct such a network
+with smallest possible level in time O(|T|^(k+1)), if k is a fixed upper bound
+on the level of the network.

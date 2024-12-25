@@ -1,0 +1,18 @@
+This paper presents a general stochastic model developed for a class of
+cooperative wireless relay networks, in which imperfect knowledge of the
+channel state information at the destination node is assumed. The framework
+incorporates multiple relay nodes operating under general known non-linear
+processing functions. When a non-linear relay function is considered, the
+likelihood function is generally intractable resulting in the maximum
+likelihood and the maximum a posteriori detectors not admitting closed form
+solutions. We illustrate our methodology to overcome this intractability under
+the example of a popular optimal non-linear relay function choice and
+demonstrate how our algorithms are capable of solving the previously
+intractable detection problem. Overcoming this intractability involves
+development of specialised Bayesian models. We develop three novel algorithms
+to perform detection for this Bayesian model, these include a Markov chain
+Monte Carlo Approximate Bayesian Computation (MCMC-ABC) approach; an Auxiliary
+Variable MCMC (MCMC-AV) approach; and a Suboptimal Exhaustive Search Zero
+Forcing (SES-ZF) approach. Finally, numerical examples comparing the symbol
+error rate (SER) performance versus signal to noise ratio (SNR) of the three
+detection algorithms are studied in simulated examples.

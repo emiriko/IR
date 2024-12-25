@@ -1,0 +1,12 @@
+A common computational problem in multiple change-point models is to recover
+the segmentations with $1$ to $K_{max}$ change-points of minimal cost with
+respect to some loss function. Here we present an algorithm to prune the set of
+candidate change-points which is based on a functional representation of the
+cost of segmentations. We study the worst case complexity of the algorithm when
+there is a unidimensional parameter per segment and demonstrate that it is at
+worst equivalent to the complexity of the segment neighbourhood algorithm:
+$\mathcal{O}(K_{max} n^2)$. For a particular loss function we demonstrate that
+pruning is on average efficient even if there are no change-points in the
+signal. Finally, we empirically study the performance of the algorithm in the
+case of the quadratic loss and show that it is faster than the segment
+neighbourhood algorithm.

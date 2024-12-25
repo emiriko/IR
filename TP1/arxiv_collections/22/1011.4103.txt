@@ -1,0 +1,10 @@
+Let E_n={x_i=1, x_i+x_j=x_k, x_i*x_j=x_k: i,j,k \in {1,...,n}}. We prove: (1)
+there is an algorithm that for every computable function f:N-->N returns a
+positive integer m(f), for which a second algorithm accepts on the input f and
+any integer n>=m(f), and returns a system S \subseteq E_n such that S is
+consistent over the integers and each integer tuple (x_1,...,x_n) that solves S
+satisfies x_1=f(n), (2) there is an algorithm that for every computable
+function f:N-->N returns a positive integer w(f), for which a second algorithm
+accepts on the input f and any integer n>=w(f), and returns a system S
+\subseteq E_n such that S is consistent over N and each tuple (x_1,...,x_n) of
+non-negative integers that solves S satisfies x_1=f(n).

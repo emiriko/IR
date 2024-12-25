@@ -1,0 +1,24 @@
+Gene regulation is a complex process involving the role of several genomic
+elements which work in concert to drive spatio-temporal expression. The
+experimental characterization of gene regulatory elements is a very complex and
+resource-intensive process. One of the major goals in computational biology is
+the \textit{in-silico} annotation of previously uncharacterized elements using
+results from the subset of known, previously annotated, regulatory elements.
+  The recent results of the ENCODE project (\emph{http://encode.nih.gov})
+presented in-depth analysis of such functional (regulatory) non-coding elements
+for 1% of the human genome. It is hoped that the results obtained on this
+subset can be scaled to the rest of the genome. This is an extremely important
+effort which will enable faster dissection of other functional elements in key
+biological processes such as disease progression and organ development
+(\cite{Kleinjan2005},\cite{Lieb2006}. The computational annotation of these
+hitherto uncharacterized regions would require an identification of features
+that have good predictive value.
+  In this work, we study transcriptional regulation as a problem in
+heterogeneous data integration, across sequence, expression and interactome
+level attributes. Using the example of the \textit{Gata2} gene and its recently
+discovered urogenital enhancers \cite{Khandekar2004} as a case study, we
+examine the predictive value of various high throughput functional genomic
+assays (from projects like ENCODE and SymAtlas) in characterizing these
+enhancers and their regulatory role. Observing results from the application of
+modern statistical learning methodologies for each of these data modalities, we
+propose a set of features that are most discriminatory to find these enhancers.

@@ -1,0 +1,16 @@
+The aim of this paper is to devise a turbulence model for the particle method
+Smoothed Particle Hydrodynamics (SPH) which makes few assumptions, conserves
+linear and angular momentum, satisfies a discrete version of Kelvin's
+circulation theorem, and is computationally efficient. These aims are achieved.
+Furthermore, the results from the model are in good agreement with the
+experimental and computational results of Clercx and Heijst for two dimensional
+turbulence inside a box with no-slip walls. The model is based on a Lagrangian
+similar to that used for the Lagrangian averaged Navier Stokes (LANS)
+turbulence model, but with a different smoothed velocity. The smoothed velocity
+preserves the shape of the spectrum of the unsmoothed velocity, but reduces the
+magnitude for short length scales by an amount which depends on a parameter
+$\epsilon$. We call this the SPH-$\epsilon$ model. The effectiveness of the
+model is indicated by the fact that the second order velocity correlation
+function calculated using the smoothed velocity and a coarse resolution, is in
+good agreement with a calculation using a resolution which is finer by a factor
+2, and therefore requires 8 times as much work to integrate to the same time.

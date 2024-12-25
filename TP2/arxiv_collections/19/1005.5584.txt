@@ -1,0 +1,26 @@
+The hardcore model is a model of lattice gas systems which has received much
+attention in statistical physics, probability theory and theoretical computer
+science. It is the probability distribution over independent sets $I$ of a
+graph weighted proportionally to $\lambda^{|I|}$ with fugacity parameter
+$\lambda$. We prove that at the uniqueness threshold of the hardcore model on
+the $d$-regular tree, approximating the partition function becomes
+computationally hard on graphs of maximum degree $d$.
+  Specifically, we show that unless NP$=$RP there is no polynomial time
+approximation scheme for the partition function (the sum of such weighted
+independent sets) on graphs of maximum degree $d$ for fugacity $\lambda_c(d) <
+\lambda < \lambda_c(d) + \epsilon(d)$ where $\lambda_c =
+\frac{(d-1)^{d-1}}{(d-2)^d}$ is the uniqueness threshold on the $d$-regular
+tree and $\epsilon(d)>0$. Weitz produced an FPTAS for approximating the
+partition function when $0<\lambda < \lambda_c(d)$ so this result demonstrates
+that the computational threshold exactly coincides with the statistical physics
+phase transition thus confirming the main conjecture of [28]. We further
+analyze the special case of $\lambda=1, d=6$ and show there is no polynomial
+time algorithm for approximately counting independent sets on graphs of maximum
+degree $d= 6$ which is optimal.
+  Our proof is based on specially constructed random bi-partite graphs which
+act as gadgets in a reduction to MAX-CUT. Building on the second moment method
+analysis of [28] and combined with an analysis of the reconstruction problem on
+the tree our proof establishes a strong version of 'replica' method heuristics
+developed by theoretical physicists. The result establishes the first rigorous
+correspondence between the hardness of approximate counting and sampling with
+statistical physics phase transitions.

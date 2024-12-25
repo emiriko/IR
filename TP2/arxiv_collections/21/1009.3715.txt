@@ -1,0 +1,13 @@
+In recent years, there has been an explosive growth in the popularity of
+online social networks such as Facebook. In a new twist, third party developers
+are now able to create their own web applications which plug into Facebook and
+work with Facebook's "social" data, enabling the entire Facebook user base of
+more than 400 million active users to use such applications. These client
+applications can contain subtle errors that can be hard to debug if they misuse
+the Facebook API. In this paper we present an experience report on applying
+Microsoft's new code contract system for the .NET framework to the Facebook
+API.We wrote contracts for several classes in the Facebook API wrapper which
+allows Microsoft .NET developers to implement Facebook applications. We
+evaluated the usefulness of these contracts during implementation of a new
+Facebook application. Our experience indicates that having code contracts
+provides a better and quicker software development experience.

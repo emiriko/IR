@@ -1,0 +1,8 @@
+The estimation of the correlation between time series is often hampered by
+the asynchronicity of the signals. Cumulating data within a time window
+suppresses this source of noise but weakens the statistics. We present a method
+to estimate correlations without applying long time windows. We decompose the
+correlations of data cumulated over a long window using decay of lagged
+correlations as calculated from short window data. This increases the accuracy
+of the estimated correlation significantly and decreases the necessary efforts
+of calculations both in real and computer experiments.

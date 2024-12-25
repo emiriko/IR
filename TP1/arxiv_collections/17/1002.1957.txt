@@ -1,0 +1,16 @@
+We describe and compare several post-correlation radio frequency interference
+classification methods. As data sizes of observations grow with new and
+improved telescopes, the need for completely automated, robust methods for
+radio frequency interference mitigation is pressing. We investigated several
+classification methods and find that, for the data sets we used, the most
+accurate among them is the SumThreshold method. This is a new method formed
+from a combination of existing techniques, including a new way of thresholding.
+This iterative method estimates the astronomical signal by carrying out a
+surface fit in the time-frequency plane. With a theoretical accuracy of 95%
+recognition and an approximately 0.1% false probability rate in simple
+simulated cases, the method is in practice as good as the human eye in finding
+RFI. In addition it is fast, robust, does not need a data model before it can
+be executed and works in almost all configurations with its default parameters.
+The method has been compared using simulated data with several other mitigation
+techniques, including one based upon the singular value decomposition of the
+time-frequency matrix, and has shown better results than the rest.

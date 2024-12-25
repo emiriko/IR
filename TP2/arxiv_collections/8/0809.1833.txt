@@ -1,0 +1,8 @@
+We consider the problem of sparse signal recovery from a small number of
+random projections (measurements). This is a well known NP-hard to solve
+combinatorial optimization problem. A frequently used approach is based on
+greedy iterative procedures, such as the Matching Pursuit (MP) algorithm. Here,
+we discuss a fast GPU implementation of the MP algorithm, based on the recently
+released NVIDIA CUDA API and CUBLAS library. The results show that the GPU
+version is substantially faster (up to 31 times) than the highly optimized CPU
+version based on CBLAS (GNU Scientific Library).

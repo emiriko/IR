@@ -1,0 +1,16 @@
+This paper concerns underdetermined linear instantaneous and convolutive
+blind source separation (BSS), i.e., the case when the number of observed mixed
+signals is lower than the number of sources.We propose partial BSS methods,
+which separate supposedly nonstationary sources of interest (while keeping
+residual components for the other, supposedly stationary, "noise" sources).
+These methods are based on the general differential BSS concept that we
+introduced before. In the instantaneous case, the approach proposed in this
+paper consists of a differential extension of the FastICA method (which does
+not apply to underdetermined mixtures). In the convolutive case, we extend our
+recent time-domain fast fixed-point C-FICA algorithm to underdetermined
+mixtures. Both proposed approaches thus keep the attractive features of the
+FastICA and C-FICA methods. Our approaches are based on differential sphering
+processes, followed by the optimization of the differential nonnormalized
+kurtosis that we introduce in this paper. Experimental tests show that these
+differential algorithms are much more robust to noise sources than the standard
+FastICA and C-FICA algorithms.

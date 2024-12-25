@@ -1,0 +1,14 @@
+The real-time reconstruction of the plasma magnetic equilibrium in a Tokamak
+is a key point to access high performance regimes. Indeed, the shape of the
+plasma current density profile is a direct output of the reconstruction and has
+a leading effect for reaching a steady-state high performance regime of
+operation. In this paper we present the methodology followed to identify
+numerically the plasma current density in a Tokamak and its equilibrium. In
+order to meet the real-time requirements a C++ software has been developed
+using the combination of a finite element method, a nonlinear fixed point
+algorithm associated to a least square optimization procedure. The experimental
+measurements that enable the identification are the magnetics on the vacuum
+vessel, the interferometric and polarimetric measurements on several chords and
+the motional Stark effect. Details are given about the validation of the
+reconstruction on the JET tokamak, either by comparison with 'off-line'
+equilibrium codes or real time software computing global quantities.

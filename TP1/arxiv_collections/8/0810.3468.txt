@@ -1,0 +1,9 @@
+We report the design and implementation of a call-graph profiler for GNU
+Octave, a numerical computing platform. GNU Octave simplifies matrix
+computation for use in modeling or simulation. Our work provides a call-graph
+profiler, which is an improvement on the flat profiler. We elaborate design
+constraints of building a profiler for numerical computation, and benchmark the
+profiler by comparing it to the rudimentary timer start-stop (tic-toc)
+measurements, for a similar set of programs. The profiler code provides clean
+interfaces to internals of GNU Octave, for other (newer) profiling tools on GNU
+Octave.

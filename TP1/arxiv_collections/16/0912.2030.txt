@@ -1,0 +1,15 @@
+We present results from combining a grid-based radiative transfer code with a
+Smoothed Particle Hydrodynamics code to produce a flexible system for modelling
+radiation hydrodynamics. We use a benchmark model of a circumstellar disc to
+determine a robust method for constructing a gridded density distribution from
+SPH particles. The benchmark disc is then used to determine the accuracy of the
+radiative transfer results. We find that the SED and the temperature
+distribution within the disc are sensitive to the representation of the disc
+inner edge, which depends critically on both the grid and SPH resolution. The
+code is then used to model a circumstellar disc around a T-Tauri star. As the
+disc adjusts towards equilibrium vertical motions in the disc are induced
+resulting in scale height enhancements which intercept radiation from the
+central star. Vertical transport of radiation enables these perturbations to
+influence the mid-plane temperature of the disc. The vertical motions decay
+over time and the disc ultimately reaches a state of simultaneous hydrostatic
+and radiative equilibrium.

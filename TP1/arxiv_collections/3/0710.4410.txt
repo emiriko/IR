@@ -1,0 +1,17 @@
+We give a new algorithm for performing the distinct-degree factorization of a
+polynomial P(x) over GF(2), using a multi-level blocking strategy. The coarsest
+level of blocking replaces GCD computations by multiplications, as suggested by
+Pollard (1975), von zur Gathen and Shoup (1992), and others. The novelty of our
+approach is that a finer level of blocking replaces multiplications by
+squarings, which speeds up the computation in GF(2)[x]/P(x) of certain interval
+polynomials when P(x) is sparse. As an application we give a fast algorithm to
+search for all irreducible trinomials x^r + x^s + 1 of degree r over GF(2),
+while producing a certificate that can be checked in less time than the full
+search. Naive algorithms cost O(r^2) per trinomial, thus O(r^3) to search over
+all trinomials of given degree r. Under a plausible assumption about the
+distribution of factors of trinomials, the new algorithm has complexity O(r^2
+(log r)^{3/2}(log log r)^{1/2}) for the search over all trinomials of degree r.
+Our implementation achieves a speedup of greater than a factor of 560 over the
+naive algorithm in the case r = 24036583 (a Mersenne exponent). Using our
+program, we have found two new primitive trinomials of degree 24036583 over
+GF(2) (the previous record degree was 6972593).

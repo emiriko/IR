@@ -1,0 +1,13 @@
+We focus on a particular form of network coding, reverse carpooling, in a
+wireless network where the potentially coded transmitted messages are to be
+decoded immediately upon reception. The network is fixed and known, and the
+system performance is measured in terms of the number of wireless broadcasts
+required to meet multiple unicast demands. Motivated by the structure of the
+coding scheme, we formulate the problem as a linear program by introducing a
+flow variable for each triple of connected nodes. This allows us to have a
+formulation polynomial in the number of nodes. Using dual decomposition and
+projected subgradient method, we present a decentralized algorithm to obtain
+optimal routing schemes in presence of coding opportunities. We show that the
+primal sub-problem can be expressed as a shortest path problem on an
+\emph{edge-graph}, and the proposed algorithm requires each node to exchange
+information only with its neighbors.

@@ -1,0 +1,13 @@
+Traditional spatial queries return, for a given query object $q$, all
+database objects that satisfy a given predicate, such as epsilon range and
+$k$-nearest neighbors. This paper defines and studies {\em inverse} spatial
+queries, which, given a subset of database objects $Q$ and a query predicate,
+return all objects which, if used as query objects with the predicate, contain
+$Q$ in their result. We first show a straightforward solution for answering
+inverse spatial queries for any query predicate. Then, we propose a
+filter-and-refinement framework that can be used to improve efficiency. We show
+how to apply this framework on a variety of inverse queries, using appropriate
+space pruning strategies. In particular, we propose solutions for inverse
+epsilon range queries, inverse $k$-nearest neighbor queries, and inverse
+skyline queries. Our experiments show that our framework is significantly more
+efficient than naive approaches.

@@ -1,0 +1,15 @@
+The Local Search algorithm (or Hill Climbing, or Iterative Improvement) is
+one of the simplest heuristics to solve the Satisfiability and
+Max-Satisfiability problems. It is a part of many satisfiability and
+max-satisfiability solvers, where it is used to find a good starting point for
+a more sophisticated heuristics, and to improve a candidate solution. In this
+paper we give an analysis of Local Search on random planted 3-CNF formulas. We
+show that if there is k<7/6 such that the clause-to-variable ratio is less than
+k ln(n) (n is the number of variables in a CNF) then Local Search whp does not
+find a satisfying assignment, and if there is k>7/6 such that the
+clause-to-variable ratio is greater than k ln(n)$ then the local search whp
+finds a satisfying assignment. As a byproduct we also show that for any
+constant r there is g such that Local Search applied to a random (not
+necessarily planted) 3-CNF with clause-to-variable ratio r produces an
+assignment that satisfies at least gn clauses less than the maximal number of
+satisfiable clauses.

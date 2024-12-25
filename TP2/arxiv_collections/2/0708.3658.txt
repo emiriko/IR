@@ -1,0 +1,13 @@
+We present a class of numerical algorithms which adapt a quantum error
+correction scheme to a channel model. Given an encoding and a channel model, it
+was previously shown that the quantum operation that maximizes the average
+entanglement fidelity may be calculated by a semidefinite program (SDP), which
+is a convex optimization. While optimal, this recovery operation is
+computationally difficult for long codes. Furthermore, the optimal recovery
+operation has no structure beyond the completely positive trace preserving
+(CPTP) constraint. We derive methods to generate structured channel-adapted
+error recovery operations. Specifically, each recovery operation begins with a
+projective error syndrome measurement. The algorithms to compute the structured
+recovery operations are more scalable than the SDP and yield recovery
+operations with an intuitive physical form. Using Lagrange duality, we derive
+performance bounds to certify near-optimality.

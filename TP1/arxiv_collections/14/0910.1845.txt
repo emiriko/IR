@@ -1,0 +1,8 @@
+The study deals with the parallelization of 2D and 3D finite element based
+Navier-Stokes codes using direct solvers. Development of sparse direct solvers
+using multifrontal solvers has significantly reduced the computational time of
+direct solution methods. Although limited by its stringent memory requirements,
+multifrontal solvers can be computationally efficient. First the performance of
+MUltifrontal Massively Parallel Solver (MUMPS) is evaluated for both 2D and 3D
+codes in terms of memory requirements and CPU times. The scalability of both
+Newton and modified Newton algorithms is tested.

@@ -1,0 +1,10 @@
+Cody & Waite argument reduction technique works perfectly for reasonably
+large arguments but as the input grows there are no bit left to approximate the
+constant with enough accuracy. Under mild assumptions, we show that the result
+computed with a fused-multiply-add provides a fully accurate result for many
+possible values of the input with a constant almost accurate to the full
+working precision. We also present an algorithm for a fully accurate second
+reduction step to reach double full accuracy (all the significand bits of two
+numbers are significant) even in the worst cases of argument reduction. Our
+work recalls the common algorithms and presents proofs of correctness. All the
+proofs are formally verified using the Coq automatic proof checker.

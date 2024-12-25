@@ -1,0 +1,20 @@
+Internet voting will probably be one of the most significant achievements of
+the future information society. It will have an enormous impact on the election
+process making it fast, reliable and inexpensive. Nonetheless, so far remote
+voting is considered to be very difficult, as one has to take into account
+susceptibility of the voter's PC to various cyber-attacks. As a result, most
+the research effort is put into developing protocols and machines for poll-site
+electronic voting. Although these solutions yield promising results, they
+cannot be directly adopted to Internet voting because of secure platform
+problem. However, the cryptographic components they utilize may be very useful.
+This paper presents a scheme based on combination of mixnets and homomorphic
+encryption borrowed from robust poll-site voting, along with techniques
+recommended for remote voting -- code sheets and test ballots. The protocol
+tries to minimize the trust put in voter's PC by making the voter responsible
+for manual encryption of his vote. To achieve this, the voter obtains a paper
+ballot that allows him to scramble the vote by performing simple operations
+(lookup in a table). Creation of paper ballots, as well as decryption of votes,
+is performed by a group of cooperating trusted servers. As a result, the scheme
+is characterized by strong asymmetry -- all computations are carried out on the
+server side. In consequence it does not require any additional hardware on the
+voter's side, and offers distributed trust, receipt-freeness and verifiability.

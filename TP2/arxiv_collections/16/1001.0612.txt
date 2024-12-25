@@ -1,0 +1,21 @@
+In the so called lightbulb process, on days $r=1,..., n$, out of $n$
+lightbulbs, all initially off, exactly $r$ bulbs, selected uniformly and
+independent of the past, have their status changed from off to on, or vice
+versa. With $X$ the number of bulbs on at the terminal time $n$, an even
+integer, and $\mu=n/2, \sigma^2=Var(X)$, we have $$ \sup_{z \in \mathbb{R}}
+|P(\frac{X-\mu}{\sigma} \le z)-P(Z \le z)| \le \frac{n}{2\sigma^2}
+\bar{\Delta}_0 + 1.64 \frac{n}{\sigma^3}+ \frac{2}{\sigma} $$ where $Z$ is a
+standard normal random variable, and $$ \bar{\Delta}_0 = 1/2\sqrt{n}} +
+\frac{1}{2n} + 1/3 e^{-n/2} \qmq {for $n \ge 6$,} $$ yielding a bound of order
+$O(n^{-1/2})$ as $n \to \infty$. A similar, though slightly larger bound holds
+for $n$ odd. The results are shown using a version of Stein's method for
+bounded, monotone size bias couplings. The argument for even $n$ depends on the
+construction of a variable $X^s$ on the same space as $X$ that has the $X$-size
+bias distribution, that is, that satisfies \beas E [X g(X)] =\mu E[g(X^s)]
+\quad for all bounded continuous $g$, \enas and for which there exists a $B \ge
+0$, in this case B=2, such that $X \le X^s \le X+B$ almost surely. The argument
+for $n$ odd is similar to that for $n$ even, but one first couples $X$ closely
+to $V$, a symmetrized version of $X$, for which a size bias coupling of $V$ to
+$V^s$ can proceed as in the even case. In both the even and odd cases, the
+crucial calculation of the variance of a conditional expectation requires
+detailed information on the spectral decomposition of the lightbulb chain.

@@ -1,0 +1,13 @@
+We introduce a controlled form of recursion in XQuery, inflationary fixed
+points, familiar in the context of relational databases. This imposes
+restrictions on the expressible types of recursion, but we show that
+inflationary fixed points nevertheless are sufficiently versatile to capture a
+wide range of interesting use cases, including the semantics of Regular XPath
+and its core transitive closure construct.
+  While the optimization of general user-defined recursive functions in XQuery
+appears elusive, we will describe how inflationary fixed points can be
+efficiently evaluated, provided that the recursive XQuery expressions exhibit a
+distributivity property. We show how distributivity can be assessed both,
+syntactically and algebraically, and provide experimental evidence that XQuery
+processors can substantially benefit during inflationary fixed point
+evaluation.

@@ -1,0 +1,17 @@
+Gravitational Wave (GW) burst detection algorithms typically rely on the
+hypothesis that the burst signal is "locally stationary", that is it changes
+slowly with frequency. Under this assumption, the signal can be decomposed into
+a small number of wavelets with constant frequency. This justifies the use of a
+family of sine-Gaussian templates in the Omega pipeline, one of the algorithms
+used in LIGO-Virgo burst searches. However there are plausible scenarios where
+the burst frequency evolves rapidly, such as in the merger phase of a binary
+black hole and/or neutron star coalescence. In those cases, the local
+stationarity of sine-Gaussians induces performance losses, due to the mismatch
+between the template and the actual signal. We propose an extension of the
+Omega pipeline based on chirplet-like templates. Chirplets incorporate an
+additional parameter, the chirp rate, to control the frequency variation. In
+this paper, we show that the Omega pipeline can easily be extended to include a
+chirplet template bank. We illustrate the method on a simulated data set, with
+a family of phenomenological binary black-hole coalescence waveforms embedded
+into Gaussian LIGO/Virgo-like noise. Chirplet-like templates result in an
+enhancement of the measured signal-to-noise ratio.

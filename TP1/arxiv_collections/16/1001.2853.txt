@@ -1,0 +1,20 @@
+We investigate the possibility to extract information contained in seismic
+waveforms propagating in fluid-filled porous media by developing and using a
+full waveform inversion procedure valid for layered structures. To reach this
+objective, we first solve the forward problem by implementing the Biot theory
+in a reflectivity-type simulation program. We then study the sensitivity of the
+seismic response of stratified media to the poroelastic parameters. Our
+numerical tests indicate that the porosity and consolidation parameter are the
+most sensitive parameters in forward and inverse modeling, whereas the
+permeability has only a very limited influence on the seismic response. Next,
+the analytical expressions of the sensitivity operators are introduced in a
+generalized least-square inversion algorithm based on an iterative modeling of
+the seismic waveforms. The application of this inversion procedure to synthetic
+data shows that the porosity as well as the fluid and solid parameters can be
+correctly reconstructed as long as the other parameters are well known.
+However, the strong seismic coupling between some of the model parameters makes
+it difficult to fully characterize the medium by a multi-parameter inversion
+scheme. One solution to circumvent this difficulty is to combine several model
+parameters according to rock physics laws to invert for composite parameters.
+Another possibility is to invert the seismic data for the perturbations of the
+medium properties, such as those resulting from a gas injection.

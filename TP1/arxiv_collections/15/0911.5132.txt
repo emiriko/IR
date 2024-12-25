@@ -1,0 +1,13 @@
+We present a simulation protocol that allows for efficient sampling of the
+degrees of freedom of a solute in explicit solvent. The protocol involves using
+a non-equilibrium umbrella sampling method, in this case the recently developed
+adaptively biased molecular dynamics method, to compute an approximate free
+energy for the slow modes of the solute in explicit solvent. This approximate
+free energy is then used to set up a Hamiltonian replica exchange scheme that
+samples both from biased and unbiased distributions. The final accurate free
+energy is recovered via the WHAM technique applied to all the replicas, and
+equilibrium properties of the solute are computed from the unbiased trajectory.
+We illustrate the approach by applying it to the study of the puckering
+landscapes of the methyl glycosides of $\alpha$-L-iduronic acid and its C5
+epimer $\beta$-D-glucuronic acid in water. Big savings in computational
+resources are gained in comparison to the standard parallel tempering method.

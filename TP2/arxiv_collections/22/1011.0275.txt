@@ -1,0 +1,14 @@
+Let W be a Wishart random matrix of size d^2 times d^2, considered as a block
+matrix with d times d blocks. Let Y be the matrix obtained by transposing each
+block of W. We prove that the empirical eigenvalue distribution of Y approaches
+a non-centered semicircular distribution when d tends to infinity. We also show
+the convergence of extreme eigenvalues towards the edge of the expected
+spectrum. The proofs are based on the moments method.
+  This matrix model is relevant to Quantum Information Theory and corresponds
+to the partial transposition of a random induced state. A natural question is:
+"When does a random state have a positive partial transpose (PPT)?". We answer
+this question and exhibit a strong threshold when the parameter from the
+Wishart distribution equals 4. When d gets large, a random state on C^d tensor
+C^d obtained after partial tracing a random pure state over some ancilla of
+dimension alpha.d^2 is typically PPT when alpha>4 and typically non-PPT when
+alpha<4.

@@ -1,0 +1,12 @@
+Implementing a component-based system in a distributed way so that it ensures
+some global constraints is a challenging problem. We consider here abstract
+specifications consisting of a composition of components and a controller given
+in the form of a set of interactions and a priority order amongst them. In the
+context of distributed systems, such a controller must be executed in a
+distributed fashion while still respecting the global constraints imposed by
+interactions and priorities.
+  We present in this paper an implementation of an algorithm that allows a
+distributed execution of systems with (binary) interactions and priorities. We
+also present a comprehensive simulation analysis that shows how sensitive to
+changes our algorithm is, in particular changes related to the degree of
+conflict in the system.

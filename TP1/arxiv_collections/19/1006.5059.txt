@@ -1,0 +1,19 @@
+Vertical search engines focus on specific slices of content, such as the Web
+of a single country or the document collection of a large corporation. Despite
+this, like general open web search engines, they are expensive to maintain,
+expensive to operate, and hard to design. Because of this, predicting the
+response time of a vertical search engine is usually done empirically through
+experimentation, requiring a costly setup. An alternative is to develop a model
+of the search engine for predicting performance. However, this alternative is
+of interest only if its predictions are accurate. In this paper we propose a
+methodology for analyzing the performance of vertical search engines. Applying
+the proposed methodology, we present a capacity planning model based on a
+queueing network for search engines with a scale typically suitable for the
+needs of large corporations. The model is simple and yet reasonably accurate
+and, in contrast to previous work, considers the imbalance in query service
+times among homogeneous index servers. We discuss how we tune up the model and
+how we apply it to predict the impact on the query response time when
+parameters such as CPU and disk capacities are changed. This allows a manager
+of a vertical search engine to determine a priori whether a new configuration
+of the system might keep the query response under specified performance
+constraints.

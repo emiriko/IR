@@ -1,0 +1,13 @@
+Most machine learning tools work with a single table where each row is an
+instance and each column is an attribute. Each cell of the table contains an
+attribute value for an instance. This representation prevents one important
+form of learning, which is, classification based on groups of correlated
+records, such as multiple exams of a single patient, internet customer
+preferences, weather forecast or prediction of sea conditions for a given day.
+To some extent, relational learning methods, such as inductive logic
+programming, can capture this correlation through the use of intensional
+predicates added to the background knowledge. In this work, we propose SPPAM,
+an algorithm that aggregates past observations in one single record. We show
+that applying SPPAM to the original correlated data, before the learning task,
+can produce classifiers that are better than the ones trained using all
+records.

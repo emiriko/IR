@@ -1,0 +1,16 @@
+We argue that predicate languages and their Tarskian structures have an
+important place for the study of concurrency. The argument in our paper is
+based on an example: we show that two seemingly dissimilar algorithms have a
+common set of high-level properties, which reveals their affinity. The
+algorithms are a variant of Lamport's Bakery Algorithm and the Ricart and
+Agrawala algorithm. They seem different because one uses shared memory and the
+other message passing for communication. Yet it is intuitively obvious that
+they are in some sense very similar, and they belong to the same "family of
+Bakery Algorithms". The aim of this paper is to express in a formal way this
+intuition that classifies the two algorithms together. For this aim of
+expressing the abstract high level properties that are shared by the two
+algorithms we use predicate languages and their Taskian structures. We find a
+set of properties expressed in quantification language which are satisfied by
+every Tarskian system execution that models a run by either one of the
+protocols, and which is strong enough to ensure that the mutual exclusion
+property holds in these runs.

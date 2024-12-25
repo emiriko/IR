@@ -1,0 +1,20 @@
+I present a critical review of techniques for estimating confidence intervals
+on binomial population proportions inferred from success counts in
+small-to-intermediate samples. Population proportions arise frequently as
+quantities of interest in astronomical research; for instance, in studies
+aiming to constrain the bar fraction, AGN fraction, SMBH fraction, merger
+fraction, or red sequence fraction from counts of galaxies exhibiting distinct
+morphological features or stellar populations. However, two of the most
+widely-used techniques for estimating binomial confidence intervals--the
+'normal approximation' and the Clopper & Pearson approach--are liable to
+misrepresent the degree of statistical uncertainty present under sampling
+conditions routinely encountered in astronomical surveys, leading to an
+ineffective use of the experimental data (and, worse, an inefficient use of the
+resources expended in obtaining that data). Hence, I provide here an overview
+of the fundamentals of binomial statistics with two principal aims: (i) to
+reveal the ease with which (Bayesian) binomial confidence intervals with more
+satisfactory behaviour may be estimated from the quantiles of the beta
+distribution using modern mathematical software packages (e.g. R, matlab,
+mathematica, IDL, python); and (ii) to demonstrate convincingly the major flaws
+of both the 'normal approximation' and the Clopper & Pearson approach for error
+estimation.

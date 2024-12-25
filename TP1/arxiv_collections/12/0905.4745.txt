@@ -1,0 +1,10 @@
+We introduce a randomized algorithm for computing the minimal-norm solution
+to an underdetermined system of linear equations. Given an arbitrary full-rank
+m x n matrix A with m<n, any m x 1 vector b, and any positive real number
+epsilon less than 1, the procedure computes an n x 1 vector x approximating to
+relative precision epsilon or better the n x 1 vector p of minimal Euclidean
+norm satisfying Ap=b. The algorithm typically requires O(mn
+log(sqrt(n)/epsilon) + m**3) floating-point operations, generally less than the
+O(m**2 n) required by the classical schemes based on QR-decompositions or
+bidiagonalization. We present several numerical examples illustrating the
+performance of the algorithm.

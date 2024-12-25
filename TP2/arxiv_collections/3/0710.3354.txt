@@ -1,0 +1,17 @@
+Exact-exchange energy density and energy density of a semilocal density
+functional approximation are two key ingredients for modeling the static
+correlation, a strongly nonlocal functional of the density, through a local
+hybrid functional. Because energy densities are not uniquely defined, the
+conventional (Slater) exact-exchange energy density
+$e_\mathrm{x}^\mathrm{ex(conv)}$ is not necessarily well-suited for local
+mixing with a given semilocal approximation. We show how to transform
+$e_\mathrm{x}^\mathrm{ex(conv)}$ in order to make it compatible with an
+arbitrary semilocal density functional, taking the nonempirical
+meta-generalized gradient approximation of Tao, Perdew, Staroverov, and
+Scuseria (TPSS) as an example. Our additive gauge transformation function
+integrates to zero, satisfies exact constraints, and is most important where
+the density is dominated by a single orbital shape. We show that, as expected,
+the difference between semilocal and exact-exchange energy densities becomes
+more negative under bond stretching in He$_2^{+}$ and related systems. Our
+construction of $e_\mathrm{x}^\mathrm{ex(conv)}$ by a
+resolution-of-the-identity method requires uncontracted basis functions.

@@ -1,0 +1,13 @@
+We consider the problem of estimating the support of a vector $\beta^* \in
+\mathbb{R}^{p}$ based on observations contaminated by noise. A significant body
+of work has studied behavior of $\ell_1$-relaxations when applied to
+measurement matrices drawn from standard dense ensembles (e.g., Gaussian,
+Bernoulli). In this paper, we analyze \emph{sparsified} measurement ensembles,
+and consider the trade-off between measurement sparsity, as measured by the
+fraction $\gamma$ of non-zero entries, and the statistical efficiency, as
+measured by the minimal number of observations $n$ required for exact support
+recovery with probability converging to one. Our main result is to prove that
+it is possible to let $\gamma \to 0$ at some rate, yielding measurement
+matrices with a vanishing fraction of non-zeros per row while retaining the
+same statistical efficiency as dense ensembles. A variety of simulation results
+confirm the sharpness of our theoretical predictions.

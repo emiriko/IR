@@ -1,0 +1,23 @@
+Sparse coding algorithms are about finding a linear basis in which signals
+can be represented by a small number of active (non-zero) coefficients. Such
+coding has many applications in science and engineering and is believed to play
+an important role in neural information processing. However, due to the
+computational complexity of the task, only approximate solutions provide the
+required efficiency (in terms of time). As new results show, under particular
+conditions there exist efficient solutions by minimizing the magnitude of the
+coefficients (`$l_1$-norm') instead of minimizing the size of the active subset
+of features (`$l_0$-norm'). Straightforward neural implementation of these
+solutions is not likely, as they require \emph{a priori} knowledge of the
+number of active features. Furthermore, these methods utilize iterative
+re-evaluation of the reconstruction error, which in turn implies that final
+sparse forms (featuring `population sparseness') can only be reached through
+the formation of a series of non-sparse representations, which is in contrast
+with the overall sparse functioning of the neural systems (`lifetime
+sparseness'). In this article we present a novel algorithm which integrates our
+previous `$l_0$-norm' model on spike based probabilistic optimization for
+sparse coding with ideas coming from novel `$l_1$-norm' solutions.
+  The resulting algorithm allows neurally plausible implementation and does not
+require an exactly defined sparseness level thus it is suitable for
+representing natural stimuli with a varying number of features. We also
+demonstrate that the combined method significantly extends the domain where
+optimal solutions can be found by `$l_1$-norm' based algorithms.

@@ -1,0 +1,13 @@
+In this paper, we study convex optimization methods for computing the trace
+norm regularized least squares estimate in multivariate linear regression. The
+so-called factor estimation and selection (FES) method, recently proposed by
+Yuan et al. [22], conducts parameter estimation and factor selection
+simultaneously and have been shown to enjoy nice properties in both large and
+finite samples. To compute the estimates, however, can be very challenging in
+practice because of the high dimensionality and the trace norm constraint. In
+this paper, we explore a variant of Nesterov's smooth method [20] and interior
+point methods for computing the penalized least squares estimate. The
+performance of these methods is then compared using a set of randomly generated
+instances. We show that the variant of Nesterov's smooth method [20] generally
+outperforms the interior point method implemented in SDPT3 version 4.0 (beta)
+[19] substantially . Moreover, the former method is much more memory efficient.

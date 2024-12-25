@@ -1,0 +1,24 @@
+Context consistency checking, the checking of specified constraint on
+properties of contexts, is essential to context-aware applications. In order to
+delineate and adapt to dynamic changes in the pervasive computing environment,
+context-aware applications often need to specify and check behavioral
+consistency constraints over the contexts. This problem is challenging mainly
+due to the distributed and asynchronous nature of pervasive computing
+environments. Specifically, the critical issue in checking behavioral
+constraints is the temporal ordering of contextual activities. The contextual
+activities usually involve multiple context collecting devices, which are
+fully-decentralized and interact in an asynchronous manner. However, existing
+context consistency checking schemes do not work in asynchronous environments,
+since they implicitly assume the availability of a global clock or relay on
+synchronized interactions.
+  To this end, we propose the Ordering Global Activity (OGA) algorithm, which
+detects the ordering of the global activities based on predicate detection in
+asynchronous environments. The essence of our approach is the message causality
+and its on-the-fly coding as logic vector clocks in asynchronous environments.
+We implement the Middleware Infrastructure for Predicate detection in
+Asynchronous environments (MIPA), over which the OGA algorithm is implemented
+and evaluated. The evaluation results show the impact of asynchrony on the
+checking of behavioral consistency constraints, which justifies the primary
+motivation of our work. They also show that OGA can achieve accurate checking
+of behavioral consistency constraints in dynamic pervasive computing
+environments.

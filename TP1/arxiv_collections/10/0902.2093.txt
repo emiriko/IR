@@ -1,0 +1,18 @@
+Many experiments in quantum information aim at creating multi-partite
+entangled states. Quantifying the amount of entanglement that was actually
+generated can, in principle, be accomplished using full-state tomography. This
+method requires the determination of a parameter set that is growing
+exponentially with the number of qubits and becomes infeasible even for
+moderate numbers of particles. Non-trivial bounds on experimentally prepared
+entanglement can however be obtained from partial information on the density
+matrix. The fundamental question that needs to be addressed in this context is
+then formulated as: What is the entanglement content of the least entangled
+quantum state that is compatible with the available measurement data?
+  We formulate the problem mathematically employing methods from the theory of
+semi-definite programming and then address this problem for the case, where the
+goal of the experiment is the creation of graph states. The observables that we
+consider are the generators of the stabilizer group, thus the number of
+measurement settings grows only linearly in the number of qubits. We provide
+analytical solutions as well as numerical methods that may be applied directly
+to experiments, and compare the obtained bounds with results from full-state
+tomography for simulated data.

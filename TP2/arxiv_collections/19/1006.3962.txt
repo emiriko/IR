@@ -1,0 +1,10 @@
+We present two new adaptive quadrature routines. Both routines differ from
+previously published algorithms in many aspects, most significantly in how they
+represent the integrand, how they treat non-numerical values of the integrand,
+how they deal with improper divergent integrals and how they estimate the
+integration error. The main focus of these improvements is to increase the
+reliability of the algorithms without significantly impacting their efficiency.
+Both algorithms are implemented in Matlab and tested using both the "families"
+suggested by Lyness and Kaganove and the battery test used by Gander and
+Gautschi and Kahaner. They are shown to be more reliable, albeit in some cases
+less efficient, than other commonly-used adaptive integrators.

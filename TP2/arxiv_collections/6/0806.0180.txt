@@ -1,0 +1,11 @@
+A scheme is proposed to improve the performance of the ensemble-based Kalman
+Filters during the initial spin-up period. By applying the no-cost ensemble
+Kalman Smoother, this scheme allows the model solutions for the ensemble to be
+"running in place" with the true dynamics, provided by a few observations.
+  Results of this scheme are investigated with the Local Ensemble Transform
+Kalman Filter (LETKF) implemented in a Quasi-geostrophic model, whose original
+framework requires a very long spin-up time when initialized from a cold start.
+Results show that it is possible to spin up the LETKF and have a fast
+convergence to the optimal level of error. The extra computation is only
+required during the initial spin-up since this scheme resumes to the original
+LETKF after the "running in place" is achieved.

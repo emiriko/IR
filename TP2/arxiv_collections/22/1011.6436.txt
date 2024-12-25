@@ -1,0 +1,15 @@
+This paper introduces a new theory of multiparty session types based on
+symmetric sum types, by which we can type non-deterministic orchestration
+choice behaviours. While the original branching type in session types can
+represent a choice made by a single participant and accepted by others
+determining how the session proceeds, the symmetric sum type represents a
+choice made by agreement among all the participants of a session. Such
+behaviour can be found in many practical systems, including collaborative
+workflow in healthcare systems for clinical practice guidelines (CPGs).
+Processes using the symmetric sums can be embedded into the original branching
+types using conductor processes. We show that this type-driven embedding
+preserves typability, satisfies semantic soundness and completeness, and meets
+the encodability criteria adapted to the typed setting. The theory leads to an
+efficient implementation of a prototypical tool for CPGs which automatically
+translates the original CPG specifications from a representation called the
+Process Matrix to symmetric sum types, type checks programs and executes them.

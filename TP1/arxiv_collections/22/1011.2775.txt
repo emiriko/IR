@@ -1,0 +1,8 @@
+We present an adaptive multigrid Dirac solver developed for Wilson clover
+fermions which offers order-of-magnitude reductions in solution time compared
+to conventional Krylov solvers. The solver incorporates even-odd
+preconditioning and mixed precision to solve the Dirac equation to double
+precision accuracy and shows only a mild increase in time to solution for
+decreasing quark mass. We show actual time to solution on production lattices
+in comparison to conventional Krylov solvers and will also discuss the setup
+process and its relative cost to the total solution time.

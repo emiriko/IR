@@ -1,0 +1,18 @@
+Previous work has shown that there are two major complexity barriers in the
+synthesis of fault-tolerant distributed programs: (1) generation of fault-span,
+the set of states reachable in the presence of faults, and (2) resolving
+deadlock states, from where the program has no outgoing transitions. Of these,
+the former closely resembles with model checking and, hence, techniques for
+efficient verification are directly applicable to it. Hence, we focus on
+expediting the latter with the use of multi-core technology.
+  We present two approaches for parallelization by considering different design
+choices. The first approach is based on the computation of equivalence classes
+of program transitions (called group computation) that are needed due to the
+issue of distribution (i.e., inability of processes to atomically read and
+write all program variables). We show that in most cases the speedup of this
+approach is close to the ideal speedup and in some cases it is superlinear. The
+second approach uses traditional technique of partitioning deadlock states
+among multiple threads. However, our experiments show that the speedup for this
+approach is small. Consequently, our analysis demonstrates that a simple
+approach of parallelizing the group computation is likely to be the effective
+method for using multi-core computing in the context of deadlock resolution.

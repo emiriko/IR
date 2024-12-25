@@ -1,0 +1,10 @@
+The main goal of our work is to formally prove the correctness of the key
+commands of the SCHUR software, an interactive program for calculating with
+characters of Lie groups and symmetric functions. The core of the computations
+relies on enumeration and manipulation of combinatorial structures. As a first
+"proof of concept", we present a formal proof of the conjugate function,
+written in C. This function computes the conjugate of an integer partition. To
+formally prove this program, we use the Frama-C software. It allows us to
+annotate C functions and to generate proof obligations, which are proved using
+several automated theorem provers. In this paper, we also draw on methodology,
+discussing on how to formally prove this kind of program.

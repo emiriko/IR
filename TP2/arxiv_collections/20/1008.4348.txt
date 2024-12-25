@@ -1,0 +1,22 @@
+Spectrum sensing, which aims at detecting spectrum holes, is the precondition
+for the implementation of cognitive radio (CR). Collaborative spectrum sensing
+among the cognitive radio nodes is expected to improve the ability of checking
+complete spectrum usage. Due to hardware limitations, each cognitive radio node
+can only sense a relatively narrow band of radio spectrum. Consequently, the
+available channel sensing information is far from being sufficient for
+precisely recognizing the wide range of unoccupied channels. Aiming at breaking
+this bottleneck, we propose to apply matrix completion and joint sparsity
+recovery to reduce sensing and transmitting requirements and improve sensing
+results. Specifically, equipped with a frequency selective filter, each
+cognitive radio node senses linear combinations of multiple channel information
+and reports them to the fusion center, where occupied channels are then decoded
+from the reports by using novel matrix completion and joint sparsity recovery
+algorithms. As a result, the number of reports sent from the CRs to the fusion
+center is significantly reduced. We propose two decoding approaches, one based
+on matrix completion and the other based on joint sparsity recovery, both of
+which allow exact recovery from incomplete reports. The numerical results
+validate the effectiveness and robustness of our approaches. In particular, in
+small-scale networks, the matrix completion approach achieves exact channel
+detection with a number of samples no more than 50% of the number of channels
+in the network, while joint sparsity recovery achieves similar performance in
+large-scale networks.

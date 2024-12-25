@@ -1,0 +1,12 @@
+Finding the sparsest solution $\alpha$ for an under-determined linear system
+of equations $D\alpha=s$ is of interest in many applications. This problem is
+known to be NP-hard. Recent work studied conditions on the support size of
+$\alpha$ that allow its recovery using L1-minimization, via the Basis Pursuit
+algorithm. These conditions are often relying on a scalar property of $D$
+called the mutual-coherence. In this work we introduce an alternative set of
+features of an arbitrarily given $D$, called the "capacity sets". We show how
+those could be used to analyze the performance of the basis pursuit, leading to
+improved bounds and predictions of performance. Both theoretical and numerical
+methods are presented, all using the capacity values, and shown to lead to
+improved assessments of the basis pursuit success in finding the sparest
+solution of $D\alpha=s$.

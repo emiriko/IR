@@ -1,0 +1,17 @@
+We propose a Dynamical Boolean Network (DBN), which is a Virtual Boolean
+Network (VBN) whose set of states is fixed but whose transition matrix can
+change from one discrete time step to another. The transition matrix $T_{k}$ of
+our DBN for time step $k$ is of the form $Q^{-1}TQ$, where $T$ is a transition
+matrix (of a VBN) defined at time step $k$ in the course of the construction of
+our DBN and $Q$ is the matrix representation of some randomly chosen
+permutation $P$ of the states of our DBN. For each of several classes of such
+permutations, we carried out a number of simulations of a DBN with two nodes;
+each of our simulations consisted of 1,000 trials of 10,000 time steps each. In
+one of our simulations, only six of the 16 possible single-node transition
+rules for a VBN with two nodes were visited a total of 300,000 times (over all
+1,000 trials). In that simulation, linearity appears to play a significant role
+in that three of those six single-node transition rules are transition rules of
+a Linear Virtual Boolean Network (LVBN); the other three are the negations of
+the first three. We also discuss the notions of a Probabilistic Boolean Network
+and a Hidden Markov Model--in both cases, in the context of using an arbitrary
+(though not necessarily one-to-one) function to label the states of a VBN.

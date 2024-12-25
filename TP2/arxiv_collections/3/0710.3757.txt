@@ -1,0 +1,5 @@
+Consider a stationary real-valued time series $\{X_n\}_{n=0}^{\infty}$ with a
+priori unknown distribution. The goal is to estimate the conditional
+expectation $E(X_{n+1}|X_0,..., X_n)$ based on the observations $(X_0,...,
+X_n)$ in a pointwise consistent way. It is well known that this is not possible
+at all values of $n$. We will estimate it along stopping times.

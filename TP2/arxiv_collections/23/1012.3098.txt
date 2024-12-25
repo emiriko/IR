@@ -1,0 +1,18 @@
+The interplay between mutation and selection plays a fundamental role in the
+behaviour of evolutionary algorithms (EAs). However, this interplay is still
+not completely understood. This paper presents a rigorous runtime analysis of a
+non-elitist population-based EA that uses the linear ranking selection
+mechanism. The analysis focuses on how the balance between parameter $\eta$,
+controlling the selection pressure in linear ranking, and parameter $\chi$
+controlling the bit-wise mutation rate, impacts the runtime of the algorithm.
+The results point out situations where a correct balance between selection
+pressure and mutation rate is essential for finding the optimal solution in
+polynomial time. In particular, it is shown that there exist fitness functions
+which can only be solved in polynomial time if the ratio between parameters
+$\eta$ and $\chi$ is within a narrow critical interval, and where a small
+change in this ratio can increase the runtime exponentially. Furthermore, it is
+shown quantitatively how the appropriate parameter choice depends on the
+characteristics of the fitness function. In addition to the original results on
+the runtime of EAs, this paper also introduces a very useful analytical tool,
+i.e., multi-type branching processes, to the runtime analysis of non-elitist
+population-based EAs.

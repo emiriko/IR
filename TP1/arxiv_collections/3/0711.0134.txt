@@ -1,0 +1,9 @@
+Calorimeter-assisted track finding algorithm takes advantage of the finely
+segmented electromagnetic calorimeter proposed for the SiD detector concept by
+looking for "MIP stubs" produced by charged particles in the calorimeter, and
+using them as seeds for pattern recognition in the tracker. The algorithm
+allows for efficient reconstruction of tracks that cannot be found using seeds
+provided by the vertex detector, even if standalone pattern recognition in the
+outer tracker is difficult. The algorithm has been implemented as a package in
+the org.lcsim framework. Current status of the package and its performance in
+non-prompt tracks reconstruction are described.

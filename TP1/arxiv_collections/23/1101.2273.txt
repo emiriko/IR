@@ -1,0 +1,22 @@
+This paper addresses the problem of detecting possible intruders in a group
+of autonomous robots, which coexist in a shared environment and interact with
+each other according to a set of "social behaviors", or common rules. Such
+rules specify what actions each robot is allowed to perform in the pursuit of
+its individual goals: rules are distributed, i.e. they can evaluated based only
+on the state of the individual robot, and on information that can be sensed
+directly or through communication with immediate neighbors. We consider
+intruders as robots which misbehave, i.e. do not follow the rules, because of
+either spontaneous failures or malicious reprogramming. Our goal is to detect
+intruders by observing the congruence of their behavior with the social rules
+as applied to the current state of the overall system. Moreover, in accordance
+with the fully distributed nature of the problem, the detection itself must be
+peformed by individual robots, based only on local information. The paper
+introduces a formalism that allows to model uniformly a large variety of
+possible robot societies. The main contribution consists in the proposal of an
+Intrusion Detection System, i.e. a protocol that, under suitabkle conditions,
+allows individual robots to detect possible misbehaving robots in their
+vicinity, and trigger possible further actions to secure the society. It is
+worth noting that the generality of the protocol formalism makes so that local
+monitors can be automatically generated once the cooperation rules and the
+robot dynamics are specified. The effectiveness of the proposed technique is
+shown through application to examples of automated robotic systems.

@@ -1,0 +1,9 @@
+The performance of the Hybrid Monte Carlo algorithm is determined by the
+speed of sparse matrix-vector multiplication within the context of
+preconditioned conjugate gradient iteration. We study these operations as
+implemented for the fermion matrix of the Hubbard model in d+1 space-time
+dimensions, and report a performance comparison between a 2.66 GHz Intel Xeon
+E5430 CPU and an NVIDIA Tesla C1060 GPU using double-precision arithmetic. We
+find speedup factors ranging between 30-350 for d = 1, and in excess of 40 for
+d = 3. We argue that such speedups are of considerable impact for large-scale
+simulational studies of quantum many-body systems.

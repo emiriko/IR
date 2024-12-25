@@ -1,0 +1,14 @@
+A Bayesian Survival Analysis method is motivated and developed for analysing
+sequences of scores made by a batsman in test or first class cricket. In
+particular, we expect the presence of an effect whereby the distribution of
+scores has more probability near zero than a geometric distribution, due to the
+fact that batting is more difficult when the batsman is new at the crease. A
+Metropolis-Hastings algorithm is found to be efficient at estimating the
+proposed parameters, allowing us to quantify exactly how large this
+early-innings effect is, and how long a batsman needs to be at the crease in
+order to ``get their eye in''. Applying this model to several modern players
+shows that a batsman is typically only playing at about half of their potential
+ability when they first arrive at the crease, and gets their eye in
+surprisingly quickly. Additionally, some players are more ``robust'' (have a
+smaller early-innings effect) than others, which may have implications for
+selection policy.

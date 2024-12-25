@@ -1,0 +1,17 @@
+A fourth-order Runge-Kutta in the interaction picture (RK4IP) method is
+presented for solving the coupled nonlinear Schrodinger equation (CNLSE) that
+governs the light propagation in optical fibers with randomly varying
+birefringence. The computational error of RK4IP is caused by the fourth-order
+Runge-Kutta algorithm, better than the split-step approximation limited by the
+step size. As a result, the step size of RK4IP can have the same order of
+magnitude as the dispersion length and/or the nonlinear length of the fiber,
+provided the birefringence effect is small. For communication fibers with
+random birefringence, the step size of RK4IP can be orders of magnitude larger
+than the correlation length and the beating length of the fibers, depending on
+the interaction between linear and nonlinear effects. Our approach can be
+applied to the fibers having the general form of local birefringence and treat
+the Kerr nonlinearity without approximation. For the systems with realistic
+parameters, the RK4IP results are consistent with those using Manakov-PMD
+approximation. However, increased interaction between the linear and nonlinear
+terms in CNLSE leads to increased discrepancy between RK4IP and Manakov-PMD
+approximation.

@@ -1,0 +1,12 @@
+We consider an extension of logic programs, called \omega-programs, that can
+be used to define predicates over infinite lists. \omega-programs allow us to
+specify properties of the infinite behavior of reactive systems and, in
+general, properties of infinite sequences of events. The semantics of
+\omega-programs is an extension of the perfect model semantics. We present
+variants of the familiar unfold/fold rules which can be used for transforming
+\omega-programs. We show that these new rules are correct, that is, their
+application preserves the perfect model semantics. Then we outline a general
+methodology based on program transformation for verifying properties of
+\omega-programs. We demonstrate the power of our transformation-based
+verification methodology by proving some properties of Buechi automata and
+\omega-regular languages.

@@ -1,0 +1,11 @@
+The goal of this short note is to present a refined analysis of the modified
+Basis Pursuit ($\ell_1$-minimization) approach to signal recovery in Compressed
+Sensing with partially known support, as introduced by Vaswani and Lu. The
+problem is to recover a signal $x \in \mathbb R^p$ using an observation vector
+$y=Ax$, where $A \in \mathbb R^{n\times p}$ and in the highly underdetermined
+setting $n\ll p$. Based on an initial and possibly erroneous guess $T$ of the
+signal's support ${\rm supp}(x)$, the Modified Basis Pursuit method of Vaswani
+and Lu consists of minimizing the $\ell_1$ norm of the estimate over the
+indices indexed by $T^c$ only. We prove exact recovery essentially under a
+Restricted Isometry Property assumption of order 2 times the cardinal of $T^c
+\cap {\rm supp}(x)$, i.e. the number of missed components.

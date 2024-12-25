@@ -1,0 +1,23 @@
+A traditionally desired goal when designing auction mechanisms is incentive
+compatibility, i.e., ensuring that bidders fare best by truthfully reporting
+their preferences. A complementary goal, which has, thus far, received
+significantly less attention, is to preserve privacy, i.e., to ensure that
+bidders reveal no more information than necessary. We further investigate and
+generalize the approximate privacy model for two-party communication recently
+introduced by Feigenbaum et al.[8]. We explore the privacy properties of a
+natural class of communication protocols that we refer to as "dissection
+protocols". Dissection protocols include, among others, the bisection auction
+in [9,10] and the bisection protocol for the millionaires problem in [8].
+Informally, in a dissection protocol the communicating parties are restricted
+to answering simple questions of the form "Is your input between the values
+\alpha and \beta (under a predefined order over the possible inputs)?".
+  We prove that for a large class of functions, called tiling functions, which
+include the 2nd-price Vickrey auction, there always exists a dissection
+protocol that provides a constant average-case privacy approximation ratio for
+uniform or "almost uniform" probability distributions over inputs. To establish
+this result we present an interesting connection between the approximate
+privacy framework and basic concepts in computational geometry. We show that
+such a good privacy approximation ratio for tiling functions does not, in
+general, exist in the worst case. We also discuss extensions of the basic setup
+to more than two parties and to non-tiling functions, and provide calculations
+of privacy approximation ratios for two functions of interest.

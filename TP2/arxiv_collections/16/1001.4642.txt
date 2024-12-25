@@ -1,0 +1,19 @@
+The Planck Low Frequency Instrument (LFI) is an array of 22
+pseudo-correlation radiometers on-board the Planck satellite to measure
+temperature and polarization anisotropies in the Cosmic Microwave Background
+(CMB) in three frequency bands (30, 44 and 70 GHz). To calibrate and verify the
+performances of the LFI, a software suite named LIFE has been developed. Its
+aims are to provide a common platform to use for analyzing the results of the
+tests performed on the single components of the instrument (RCAs, Radiometric
+Chain Assemblies) and on the integrated Radiometric Array Assembly (RAA).
+Moreover, its analysis tools are designed to be used during the flight as well
+to produce periodic reports on the status of the instrument. The LIFE suite has
+been developed using a multi-layered, cross-platform approach. It implements a
+number of analysis modules written in RSI IDL, each accessing the data through
+a portable and heavily optimized library of functions written in C and C++. One
+of the most important features of LIFE is its ability to run the same data
+analysis codes both using ground test data and real flight data as input. The
+LIFE software suite has been successfully used during the RCA/RAA tests and the
+Planck Integrated System Tests. Moreover, the software has also passed the
+verification for its in-flight use during the System Operations Verification
+Tests, held in October 2008.

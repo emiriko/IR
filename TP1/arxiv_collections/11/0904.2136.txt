@@ -1,0 +1,15 @@
+This paper presents a computational model for the cooperation of constraint
+domains and an implementation for a particular case of practical importance.
+The computational model supports declarative programming with lazy and possibly
+higher-order functions, predicates, and the cooperation of different constraint
+domains equipped with their respective solvers, relying on a so-called
+Constraint Functional Logic Programming (CFLP) scheme. The implementation has
+been developed on top of the CFLP system TOY, supporting the cooperation of the
+three domains H, R and FD, which supply equality and disequality constraints
+over symbolic terms, arithmetic constraints over the real numbers, and finite
+domain constraints over the integers, respectively. The computational model has
+been proved sound and complete w.r.t. the declarative semantics provided by the
+$CFLP$ scheme, while the implemented system has been tested with a set of
+benchmarks and shown to behave quite efficiently in comparison to the closest
+related approach we are aware of.
+  To appear in Theory and Practice of Logic Programming (TPLP)

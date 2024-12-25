@@ -1,0 +1,16 @@
+We continue an analysis, started in [10], of some issues related to the
+incompressible Euler or Navier-Stokes (NS) equations on a d-dimensional torus
+T^d. More specifically, we consider the quadratic term in these equations; this
+arises from the bilinear map (v, w) -> v . D w, where v, w : T^d -> R^d are two
+velocity fields. We derive upper and lower bounds for the constants in some
+inequalities related to the above bilinear map; these bounds hold, in
+particular, for the sharp constants G_{n d} = G_n in the Kato inequality | < v
+. D w | w >_n | <= G_n || v ||_n || w ||^2_n, where n in (d/2 + 1, + infinity)
+and v, w are in the Sobolev spaces H^n, H^(n+1) of zero mean, divergence free
+vector fields of orders n and n+1, respectively. As examples, the numerical
+values of our upper and lower bounds are reported for d=3 and some values of n.
+When combined with the results of [10] on another inequality, the results of
+the present paper can be employed to set up fully quantitative error estimates
+for the approximate solutions of the Euler/NS equations, or to derive
+quantitative bounds on the time of existence of the exact solutions with
+specified initial data; a sketch of this program is given.

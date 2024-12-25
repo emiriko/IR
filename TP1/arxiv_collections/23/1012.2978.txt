@@ -1,0 +1,22 @@
+Analyzing future weak lensing data sets from KIDS, DES, LSST, Euclid, WFIRST
+requires precise predictions for the weak lensing measures. In this paper we
+present a weak lensing prediction code based on the Coyote Universe emulator.
+The Coyote Universe emulator predicts the (non-linear) power spectrum of
+density fluctuations (P_delta) to high accuracy for k \in [0.002;3.4] h/Mpc
+within the redshift interval z \in [0;1], outside this regime we extend P_delta
+using a modified Halofit code. This pipeline is used to calculate various
+second-order cosmic shear statistics, e.g., shear power spectrum, shear-shear
+correlation function, ring statistics and COSEBIs (Complete Orthogonal Set of
+EB-mode Integrals), and we examine how the upper limit in k (and z) to which
+P_delta is known, impacts on these statistics. For example, we find that
+k_max~8 h/Mpc causes a bias in the shear power spectrum at l~4000 that is
+comparable to the statistical errors (intrinsic shape-noise and cosmic
+variance) of a DES-like survey, whereas for LSST-like errors k_max~15 h/Mpc is
+needed to limit the bias at l~4000. For the most recently developed
+second-order shear statistics, the COSEBIs, we find that 9 modes can be
+calculated accurately knowing P_delta to k_max=10 h/Mpc. The COSEBIs allow for
+an EB-mode decomposition using a shear-shear correlation function measured over
+a finite range, thereby avoiding any EB-mode mixing due to finite survey size.
+We perform a detailed study in a 5-dimensional parameter space in order to
+examine whether all cosmological information is captured by these 9 modes with
+the result that already 7-8 modes are sufficient.

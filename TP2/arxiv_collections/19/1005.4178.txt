@@ -1,0 +1,19 @@
+Regenerating codes are a class of distributed storage codes that optimally
+trade the bandwidth needed for repair of a failed node with the amount of data
+stored per node of the network. Minimum Storage Regenerating (MSR) codes
+minimize first, the amount of data stored per node, and then the repair
+bandwidth, while Minimum Bandwidth Regenerating (MBR) codes carry out the
+minimization in the reverse order. An [n, k, d] regenerating code permits the
+data to be recovered by connecting to any k of the n nodes in the network,
+while requiring that repair of a failed node be made possible by connecting
+(using links of lesser capacity) to any d nodes. Previous, explicit and general
+constructions of exact-regenerating codes have been confined to the case n=d+1.
+In this paper, we present optimal, explicit constructions of MBR codes for all
+feasible values of [n, k, d] and MSR codes for all [n, k, d >= 2k-2], using a
+product-matrix framework. The particular product-matrix nature of the
+constructions is shown to significantly simplify system operation. To the best
+of our knowledge, these are the first constructions of exact-regenerating codes
+that allow the number n of nodes in the distributed storage network, to be
+chosen independent of the other parameters. The paper also contains a simpler
+description, in the product-matrix framework, of a previously constructed MSR
+code in which the parameter d satisfies [n=d+1, k, d >= 2k-1].

@@ -1,0 +1,22 @@
+A (q,k,t)-design matrix is an m x n matrix whose pattern of zeros/non-zeros
+satisfies the following design-like condition: each row has at most q
+non-zeros, each column has at least k non-zeros and the supports of every two
+columns intersect in at most t rows. We prove that the rank of any
+(q,k,t)-design matrix over a field of characteristic zero (or sufficiently
+large finite characteristic) is at least n - (qtn/2k)^2 . Using this result we
+derive the following applications:
+  (1) Impossibility results for 2-query LCCs over the complex numbers: A
+2-query locally correctable code (LCC) is an error correcting code in which
+every codeword coordinate can be recovered, probabilistically, by reading at
+most two other code positions. Such codes have numerous applications and
+constructions (with exponential encoding length) are known over finite fields
+of small characteristic. We show that infinite families of such linear 2-query
+LCCs do not exist over the complex numbers.
+  (2) Generalization of results in combinatorial geometry: We prove a
+quantitative analog of the Sylvester-Gallai theorem: Let $v_1,...,v_m$ be a set
+of points in $\C^d$ such that for every $i \in [m]$ there exists at least
+$\delta m$ values of $j \in [m]$ such that the line through $v_i,v_j$ contains
+a third point in the set. We show that the dimension of $\{v_1,...,v_m \}$ is
+at most $O(1/\delta^2)$. Our results generalize to the high dimensional case
+(replacing lines with planes, etc.) and to the case where the points are
+colored (as in the Motzkin-Rabin Theorem).

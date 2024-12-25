@@ -1,0 +1,16 @@
+This paper presents a novel framework for track fitting which is usable in a
+wide range of experiments, independent of the specific event topology, detector
+setup, or magnetic field arrangement. This goal is achieved through a
+completely modular design. Fitting algorithms are implemented as
+interchangeable modules. At present, the framework contains a validated Kalman
+filter. Track parameterizations and the routines required to extrapolate the
+track parameters and their covariance matrices through the experiment are also
+implemented as interchangeable modules. Different track parameterizations and
+extrapolation routines can be used simultaneously for fitting of the same
+physical track. Representations of detector hits are the third modular
+ingredient to the framework. The hit dimensionality and orientation of planar
+tracking detectors are not restricted. Tracking information from detectors
+which do not measure the passage of particles in a fixed physical detector
+plane, e.g. drift chambers or TPCs, is used without any simplifications. The
+concept is implemented in a light-weight C++ library called GENFIT, which is
+available as free software.

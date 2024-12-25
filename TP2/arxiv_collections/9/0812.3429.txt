@@ -1,0 +1,20 @@
+We define a new model of quantum learning that we call Predictive Quantum
+(PQ). This is a quantum analogue of PAC, where during the testing phase the
+student is only required to answer a polynomial number of testing queries.
+  We demonstrate a relational concept class that is efficiently learnable in
+PQ, while in any "reasonable" classical model exponential amount of training
+data would be required. This is the first unconditional separation between
+quantum and classical learning.
+  We show that our separation is the best possible in several ways; in
+particular, there is no analogous result for a functional class, as well as for
+several weaker versions of quantum learning. In order to demonstrate tightness
+of our separation we consider a special case of one-way communication that we
+call single-input mode, where Bob receives no input. Somewhat surprisingly,
+this setting becomes nontrivial when relational communication tasks are
+considered. In particular, any problem with two-sided input can be transformed
+into a single-input relational problem of equal classical one-way cost. We show
+that the situation is different in the quantum case, where the same
+transformation can make the communication complexity exponentially larger. This
+happens if and only if the original problem has exponential gap between quantum
+and classical one-way communication costs. We believe that these auxiliary
+results might be of independent interest.

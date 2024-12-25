@@ -1,0 +1,10 @@
+In this paper we show that set-intersection is harder than distance oracle on
+sparse graphs. Given a collection of total size n which consists of m sets
+drawn from universe U, the set-intersection problem is to build a data
+structure which can answer whether two sets have any intersection. A distance
+oracle is a data structure which can answer distance queries on a given graph.
+We show that if one can build distance oracle for sparse graph G=(V,E), which
+requires s(|V|,|E|) space and answers a (2-\epsilon,c)-approximate distance
+query in time t(|V|,|E|) where (2-\epsilon) is a multiplicative error and c is
+a constant additive error, then, set-intersection can be solved in t(m+|U|,n)
+time using s(m+|U|,n) space.

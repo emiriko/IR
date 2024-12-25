@@ -1,0 +1,14 @@
+The Similarity Renormalization Group (SRG) is a continuous series of unitary
+transformations that can be implemented as a flow equation. When the relative
+kinetic energy ($\Trel$) is used in the SRG generator, nuclear structure
+calculations have shown greatly improved convergence with basis size because of
+the decoupling of high-energy and low-energy physics. However this generator
+can sometimes be problematic. A test case is provided by a study of initial
+interactions from chiral effective field theories with large cutoffs, which can
+lead to spurious deep bound states. We would like the SRG to decouple these
+from the physical shallow bound states. However, with $\Trel$ the high- and
+low-energy bound states are not decoupled in the usual sense. Replacing $\Trel$
+by the momentum-space diagonal of the Hamiltonian ($H_d$) in the SRG generator
+does produce decoupling, such that the shallow states are in the low-momentum
+region and the deep bound states are at higher momentum. The flow toward
+universal low-momentum interactions is also restored.

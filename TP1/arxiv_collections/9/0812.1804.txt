@@ -1,0 +1,9 @@
+Given a positive definite covariance matrix $\widehat \Sigma$, we strive to
+construct an optimal \emph{approximate} factor analysis model $HH^\top +D$,
+with $H$ having a prescribed number of columns and $D>0$ diagonal. The
+optimality criterion we minimize is the I-divergence between the corresponding
+normal laws. Lifting the problem into a properly chosen larger space enables us
+to derive an alternating minimization algorithm \`a la Csisz\'ar-Tusn\'ady for
+the construction of the best approximation. The convergence properties of the
+algorithm are studied, with special attention given to the case where $D$ is
+singular.

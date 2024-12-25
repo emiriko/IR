@@ -1,0 +1,24 @@
+The present operation of the ground-based network of gravitational-wave laser
+interferometers in "enhanced" configuration brings the search for gravitational
+waves into a regime where detection is highly plausible. The development of
+techniques that allow us to discriminate a signal of astrophysical origin from
+instrumental artefacts in the interferometer data and to extract the full range
+of information are some of the primary goals of the current work. Here we
+report the details of a Bayesian approach to the problem of inference for
+gravitational wave observations using a network of instruments, for the
+computation of the Bayes factor between two hypotheses and the evaluation of
+the marginalised posterior density functions of the unknown model parameters.
+The numerical algorithm to tackle the notoriously difficult problem of the
+evaluation of large multi-dimensional integrals is based on a technique known
+as Nested Sampling, which provides an attractive alternative to more
+traditional Markov-chain Monte Carlo (MCMC) methods. We discuss the details of
+the implementation of this algorithm and its performance against a Gaussian
+model of the background noise, considering the specific case of the signal
+produced by the in-spiral of binary systems of black holes and/or neutron
+stars, although the method is completely general and can be applied to other
+classes of sources. We also demonstrate the utility of this approach by
+introducing a new coherence test to distinguish between the presence of a
+coherent signal of astrophysical origin in the data of multiple instruments and
+the presence of incoherent accidental artefacts, and the effects on the
+estimation of the source parameters as a function of the number of instruments
+in the network.

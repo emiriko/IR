@@ -1,0 +1,13 @@
+For stochastic differential equations (SDEs) with a superlinearly growing and
+globally one-sided Lipschitz continuous drift coefficient, the classical
+explicit Euler scheme fails to converge strongly to the exact solution.
+Recently, an explicit strongly convergent numerical scheme, called the tamed
+Euler method, is proposed in [Hutzenthaler, Jentzen & Kloeden, Ann. Appl.
+Probab., 22 (2012), pp. 1611-1641.] for such SDEs. Motivated by their work, we
+here introduce a tamed version of the Milstein scheme for SDEs with commutative
+noise. The proposed method is also explicit and easily implementable, but
+achieves higher strong convergence order than the tamed Euler method does. In
+recovering the strong convergence order one of the new method, new difficulties
+arise and kind of a bootstrap argument is developed to overcome them. Finally,
+an illustrative example confirms the computational efficiency of the tamed
+Milstein method compared to the tamed Euler method.

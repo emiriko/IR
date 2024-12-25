@@ -1,0 +1,14 @@
+We study the problem of tracking an object moving through a network of
+wireless sensors. In order to conserve energy, the sensors may be put into a
+sleep mode with a timer that determines their sleep duration. It is assumed
+that an asleep sensor cannot be communicated with or woken up, and hence the
+sleep duration needs to be determined at the time the sensor goes to sleep
+based on all the information available to the sensor. Having sleeping sensors
+in the network could result in degraded tracking performance, therefore, there
+is a tradeoff between energy usage and tracking performance. We design sleeping
+policies that attempt to optimize this tradeoff and characterize their
+performance. As an extension to our previous work in this area [1], we consider
+generalized models for object movement, object sensing, and tracking cost. For
+discrete state spaces and continuous Gaussian observations, we derive a lower
+bound on the optimal energy-tracking tradeoff. It is shown that in the low
+tracking error regime, the generated policies approach the derived lower bound.

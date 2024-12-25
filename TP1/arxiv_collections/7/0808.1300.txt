@@ -1,0 +1,12 @@
+A new analytically and numerically manageable model collision operator is
+developed specifically for turbulence simulations. The like-particle collision
+operator includes both pitch-angle scattering and energy diffusion and
+satisfies the physical constraints required for collision operators: it
+conserves particles, momentum and energy, obeys Boltzmann's H-theorem
+(collisions cannot decrease entropy), vanishes on a Maxwellian, and efficiently
+dissipates small-scale structure in the velocity space. The process of
+transforming this collision operator into the gyroaveraged form for use in
+gyrokinetic simulations is detailed. The gyroaveraged model operator is shown
+to have more suitable behavior at small scales in phase space than previously
+suggested models. A model operator for electron-ion collisions is also
+presented.

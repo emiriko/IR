@@ -1,0 +1,14 @@
+Motivated by a question in origami, we consider sets of points in the complex
+plane constructed in the following way. Let $L_\alpha(p)$ be the line in the
+complex plane through $p$ with angle $\alpha$ (with respect to the real axis).
+Given a fixed collection $U$ of angles, let $\RU$ be the points that can be
+obtained by starting with $0$ and $1$, and then recursively adding intersection
+points of the form $L_\alpha(p) \cap L_\beta(q)$, where $p, q$ have been
+constructed already, and $\alpha, \beta$ are distinct angles in $U$.
+  Our main result is that if $U$ is a group with at least three elements, then
+$\RU$ is a subring of the complex plane, i.e., it is closed under complex
+addition and multiplication. This enables us to answer a specific question
+about origami folds: if $n \ge 3$ and the allowable angles are the $n$ equally
+spaced angles $k\pi/n$, $0 \le k < n$, then $\RU$ is the ring $\Z[\zeta_n]$ if
+$n$ is prime, and the ring $\Z[1/n,\zeta_{n}]$ if $n$ is not prime, where
+$\zeta_n := \exp(2\pi i/n)$ is a primitive $n$-th root of unity.

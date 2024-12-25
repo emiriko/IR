@@ -1,0 +1,17 @@
+Interval temporal logics (ITLs) are logics for reasoning about temporal
+statements expressed over intervals, i.e., periods of time. The most famous ITL
+studied so far is Halpern and Shoham's HS, which is the logic of the thirteen
+Allen's interval relations. Unfortunately, HS and most of its fragments have an
+undecidable satisfiability problem. This discouraged the research in this area
+until recently, when a number non-trivial decidable ITLs have been discovered.
+  This paper is a contribution towards the complete classification of all
+different fragments of HS. We consider different combinations of the interval
+relations Begins, After, Later and their inverses Abar, Bbar, and Lbar. We know
+from previous works that the combination ABBbarAbar is decidable only when
+finite domains are considered (and undecidable elsewhere), and that ABBbar is
+decidable over the natural numbers. We extend these results by showing that
+decidability of ABBar can be further extended to capture the language
+ABBbarLbar, which lays in between ABBar and ABBbarAbar, and that turns out to
+be maximal w.r.t decidability over strongly discrete linear orders (e.g. finite
+orders, the naturals, the integers). We also prove that the proposed decision
+procedure is optimal with respect to the complexity class.

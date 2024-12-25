@@ -1,0 +1,15 @@
+Parameter sweeping is a widely used algorithmic technique in computational
+science. It is specially suited for high-throughput computing since the jobs
+evaluating the parameter space are loosely coupled or independent.
+  A tool that integrates the modeling of a parameter study with the control of
+jobs in a distributed architecture is presented. The main task is to facilitate
+the creation and deletion of job templates, which are the elements describing
+the jobs to be run. Extra functionality relies upon the GridWay Metascheduler,
+acting as the middleware layer for job submission and control. It supports
+interesting features like multi-dimensional sweeping space, wildcarding of
+parameters, functional evaluation of ranges, value-skipping and job template
+automatic indexation.
+  The use of this tool increases the reliability of the parameter sweep study
+thanks to the systematic bookkeping of job templates and respective job
+statuses. Furthermore, it simplifies the porting of the target application to
+the grid reducing the required amount of time and effort.

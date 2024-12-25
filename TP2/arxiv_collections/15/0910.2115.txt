@@ -1,0 +1,16 @@
+In 2006, Peris-Lopez et al. [1, 2, 3] initiated the design of
+ultralightweight RFID protocols -with the UMAP family of protocols- involving
+only simple bitwise logical or arithmetic operations such as bitwise XOR, OR,
+AND, and addition. This combination of operations was revealed later to be
+insufficient for security. Then, Chien et al. proposed the SASI protocol [4]
+with the aim of offering better security, by adding the bitwise rotation to the
+set of supported operations. The SASI protocol represented a milestone in the
+design of ultralightweight protocols, although certain attacks have been
+published against this scheme [5, 6, 7]. In 2008, a new protocol, named
+Gossamer [8], was proposed that can be considered a further development of both
+the UMAP family and SASI. Although no attacks have been published against
+Gossamer, Lee et al. [9] have recently published an alternative scheme that is
+highly reminiscent of SASI. In this paper, we show that Lee et al.'s scheme
+fails short of many of its security objectives, being vulnerable to several
+important attacks like traceability, full disclosure, cloning and
+desynchronization.

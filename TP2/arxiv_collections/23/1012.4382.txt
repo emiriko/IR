@@ -1,0 +1,19 @@
+Excitonic models of light-harvesting complexes, where the vibrational degrees
+of freedom are treated as a bath, are commonly used to describe the motion of
+the electronic excitation through a molecule. Recent experiments point toward
+the possibility of memory effects in this process and require to consider time
+non-local propagation techniques. The hierarchical equations of motion (HEOM)
+were proposed by Ishizaki and Fleming to describe the site-dependent
+reorganization dynamics of protein environments (J. Chem. Phys., 130, p.
+234111, 2009), which plays a significant role in photosynthetic electronic
+energy transfer. HEOM are often used as a reference for other approximate
+methods, but have been implemented only for small systems due to their adverse
+computational scaling with the system size. Here, we show that HEOM are also
+solvable for larger systems, since the underlying algorithm is ideally suited
+for the usage of graphics processing units (GPU). The tremendous reduction in
+computational time due to the GPU allows us to perform a systematic study of
+the energy-transfer efficiency in the Fenna-Matthews-Olson (FMO)
+light-harvesting complex at physiological temperature under full consideration
+of memory-effects. We find that approximative methods differ qualitatively and
+quantitatively from the HEOM results and discuss the importance of finite
+temperature to achieve high energy-transfer efficiencies.

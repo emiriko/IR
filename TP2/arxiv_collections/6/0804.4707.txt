@@ -1,0 +1,13 @@
+In this paper we analyze the appearance of a Hamilton cycle in the following
+random process. The process starts with an empty graph on n labeled vertices.
+At each round we are presented with K=K(n) edges, chosen uniformly at random
+from the missing ones, and are asked to add one of them to the current graph.
+The goal is to create a Hamilton cycle as soon as possible.
+  We show that this problem has three regimes, depending on the value of K. For
+K=o(\log n), the threshold for Hamiltonicity is (1+o(1))n\log n /(2K), i.e.,
+typically we can construct a Hamilton cycle K times faster that in the usual
+random graph process. When K=\omega(\log n) we can essentially waste almost no
+edges, and create a Hamilton cycle in n+o(n) rounds with high probability.
+Finally, in the intermediate regime where K=\Theta(\log n), the threshold has
+order n and we obtain upper and lower bounds that differ by a multiplicative
+factor of 3.

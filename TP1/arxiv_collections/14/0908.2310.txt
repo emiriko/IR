@@ -1,0 +1,14 @@
+We propose a novel and efficient method, that we shall call TopRank in the
+following paper, for detecting change-points in high-dimensional data. This
+issue is of growing concern to the network security community since network
+anomalies such as Denial of Service (DoS) attacks lead to changes in Internet
+traffic. Our method consists of a data reduction stage based on record
+filtering, followed by a nonparametric change-point detection test based on
+$U$-statistics. Using this approach, we can address massive data streams and
+perform anomaly detection and localization on the fly. We show how it applies
+to some real Internet traffic provided by France-T\'el\'ecom (a French Internet
+service provider) in the framework of the ANR-RNRT OSCAR project. This approach
+is very attractive since it benefits from a low computational load and is able
+to detect and localize several types of network anomalies. We also assess the
+performance of the TopRank algorithm using synthetic data and compare it with
+alternative approaches based on random aggregation.

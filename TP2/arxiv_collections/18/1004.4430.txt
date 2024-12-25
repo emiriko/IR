@@ -1,0 +1,24 @@
+Access to astronomical data through archives and VO is essential but does not
+solve all problems. Availability of appropriate software for analyzing the data
+is often equally important for the efficiency with which a researcher can
+publish results. A number of legacy systems (e.g. IRAF, MIDAS, Starlink, AIPS,
+Gipsy), as well as others now coming online are available but have very
+different user interfaces and may no longer be fully supported. Users may need
+multiple systems or stand-alone packages to complete the full analysis which
+introduces significant overhead. The OPTICON Network on `Future Astronomical
+Software Environments' and the USVAO have discussed these issues and have
+outlined a general architectural concept that solves many of the current
+problems in accessing software packages. It foresees a layered structure with
+clear separation of astronomical code and IT infrastructure. By relying on
+modern IT concepts for messaging and distributed execution, it provides full
+scalability from desktops to clusters of computers. A generic parameter passing
+mechanism and common interfaces will offer easy access to a wide range of
+astronomical software, including legacy packages, through a single scripting
+language such as Python. A prototype based upon a proposed standard
+architecture is being developed as a proof-of-concept. It will be followed by
+definition of standard interfaces as well as a reference implementation which
+can be evaluated by the user community. For the long-term success of such an
+environment, stable interface specifications and adoption by major astronomical
+institutions as well as a reasonable level of support for the infrastructure
+are mandatory. Development and maintenance of astronomical packages would
+follow an open-source, Internet concept.

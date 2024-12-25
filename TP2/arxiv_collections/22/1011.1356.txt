@@ -1,0 +1,18 @@
+Parameter estimation in diffusion processes from discrete observations up to
+a first-hitting time is clearly of practical relevance, but does not seem to
+have been studied so far. In neuroscience, many models for the membrane
+potential evolution involve the presence of an upper threshold. Data are
+modeled as discretely observed diffusions which are killed when the threshold
+is reached. Statistical inference is often based on the misspecified likelihood
+ignoring the presence of the threshold causing severe bias, e.g. the bias
+incurred in the drift parameters of the Ornstein-Uhlenbeck model for biological
+relevant parameters can be up to 25-100%. We calculate or approximate the
+likelihood function of the killed process. When estimating from a single
+trajectory, considerable bias may still be present, and the distribution of the
+estimates can be heavily skewed and with a huge variance. Parametric bootstrap
+is effective in correcting the bias. Standard asymptotic results do not apply,
+but consistency and asymptotic normality may be recovered when multiple
+trajectories are observed, if the mean first-passage time through the threshold
+is finite. Numerical examples illustrate the results and an experimental data
+set of intracellular recordings of the membrane potential of a motoneuron is
+analyzed.

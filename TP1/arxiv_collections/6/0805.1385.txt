@@ -1,0 +1,24 @@
+Razborov and Rudich have shown that so-called "natural proofs" are not useful
+for separating P from NP unless hard pseudorandom number generators do not
+exist. This famous result is widely regarded as a serious barrier to proving
+strong lower bounds in circuit complexity theory.
+  By definition, a natural combinatorial property satisfies two conditions,
+constructivity and largeness. Our main result is that if the largeness
+condition is weakened slightly, then not only does the Razborov-Rudich proof
+break down, but such "almost-natural" (and useful) properties provably exist.
+Specifically, under the same pseudorandomness assumption that Razborov and
+Rudich make, a simple, explicit property that we call "discrimination" suffices
+to separate P/poly from NP; discrimination is nearly linear-time computable and
+almost large, having density 2^{-q(n)} where q is a quasi-polynomial function.
+For those who hope to separate P from NP using random function properties in
+some sense, discrimination is interesting, because it is constructive, yet may
+be thought of as a minor alteration of a property of a random function.
+  The proof relies heavily on the self-defeating character of natural proofs.
+Our proof technique also yields an unconditional result, namely that there
+exist almost-large and useful properties that are constructive, if we are
+allowed to call non-uniform low-complexity classes "constructive." We note,
+though, that this unconditional result can also be proved by a more
+conventional counting argument.
+  Finally, we give an alternative proof, communicated to us by Salil Vadhan at
+FOCS 2008, of one of our theorems, and we make some speculative remarks on the
+future prospects for proving strong circuit lower bounds.

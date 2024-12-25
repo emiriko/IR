@@ -1,0 +1,15 @@
+This paper considers the problem of efficiently transmitting quantum states
+through a network. It has been known for some time that without additional
+assumptions it is impossible to achieve this task perfectly in general --
+indeed, it is impossible even for the simple butterfly network. As additional
+resource we allow free classical communication between any pair of network
+nodes. It is shown that perfect quantum network coding is achievable in this
+model whenever classical network coding is possible over the same network when
+replacing all quantum capacities by classical capacities. More precisely, it is
+proved that perfect quantum network coding using free classical communication
+is possible over a network with $k$ source-target pairs if there exists a
+classical linear (or even vector linear) coding scheme over a finite ring. Our
+proof is constructive in that we give explicit quantum coding operations for
+each network node. This paper also gives an upper bound on the number of
+classical communication required in terms of $k$, the maximal fan-in of any
+network node, and the size of the network.

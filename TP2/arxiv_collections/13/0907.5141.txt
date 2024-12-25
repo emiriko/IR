@@ -1,0 +1,13 @@
+This paper introduces a modeling framework for distributed regression with
+agents/experts observing attribute-distributed data (heterogeneous data). Under
+this model, a new algorithm, the iterative covariance optimization algorithm
+(ICOA), is designed to reshape the covariance matrix of the training residuals
+of individual agents so that the linear combination of the individual
+estimators minimizes the ensemble training error. Moreover, a scheme (Minimax
+Protection) is designed to provide a trade-off between the number of data
+instances transmitted among the agents and the performance of the ensemble
+estimator without undermining the convergence of the algorithm. This scheme
+also provides an upper bound (with high probability) on the test error of the
+ensemble estimator. The efficacy of ICOA combined with Minimax Protection and
+the comparison between the upper bound and actual performance are both
+demonstrated by simulations.

@@ -1,0 +1,15 @@
+In this work we address the subspace recovery problem. Given a set of data
+samples (vectors) approximately drawn from a union of multiple subspaces, our
+goal is to segment the samples into their respective subspaces and correct the
+possible errors as well. To this end, we propose a novel method termed Low-Rank
+Representation (LRR), which seeks the lowest-rank representation among all the
+candidates that can represent the data samples as linear combinations of the
+bases in a given dictionary. It is shown that LRR well solves the subspace
+recovery problem: when the data is clean, we prove that LRR exactly captures
+the true subspace structures; for the data contaminated by outliers, we prove
+that under certain conditions LRR can exactly recover the row space of the
+original data and detect the outlier as well; for the data corrupted by
+arbitrary errors, LRR can also approximately recover the row space with
+theoretical guarantees. Since the subspace membership is provably determined by
+the row space, these further imply that LRR can perform robust subspace
+segmentation and error correction, in an efficient way.

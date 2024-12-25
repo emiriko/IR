@@ -1,0 +1,13 @@
+We introduce a new notion of graph sparsificaiton based on spectral
+similarity of graph Laplacians: spectral sparsification requires that the
+Laplacian quadratic form of the sparsifier approximate that of the original.
+This is equivalent to saying that the Laplacian of the sparsifier is a good
+preconditioner for the Laplacian of the original. We prove that every graph has
+a spectral sparsifier of nearly linear size. Moreover, we present an algorithm
+that produces spectral sparsifiers in time $\softO{m}$, where $m$ is the number
+of edges in the original graph. This construction is a key component of a
+nearly-linear time algorithm for solving linear equations in
+diagonally-dominant matrcies. Our sparsification algorithm makes use of a
+nearly-linear time algorithm for graph partitioning that satisfies a strong
+guarantee: if the partition it outputs is very unbalanced, then the larger part
+is contained in a subgraph of high conductance.

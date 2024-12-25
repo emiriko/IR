@@ -1,0 +1,14 @@
+MPFIT is a port to IDL of the non-linear least squares fitting program
+MINPACK-1. MPFIT inherits the robustness of the original FORTRAN version of
+MINPACK-1, but is optimized for performance and convenience in IDL. In addition
+to the main fitting engine, MPFIT, several specialized functions are provided
+to fit 1-D curves and 2-D images; 1-D and 2-D peaks; and interactive fitting
+from the IDL command line. Several constraints can be applied to model
+parameters, including fixed constraints, simple bounding constraints, and
+"tying" the value to another parameter. Several data weighting methods are
+allowed, and the parameter covariance matrix is computed. Extensive diagnostic
+capabilities are available during the fit, via a call-back subroutine, and
+after the fit is complete. Several different forms of documentation are
+provided, including a tutorial, reference pages, and frequently asked
+questions. The package has been translated to C and Python as well. The full
+IDL and C packages can be found at http://purl.com/net/mpfit

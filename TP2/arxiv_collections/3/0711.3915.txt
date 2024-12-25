@@ -1,0 +1,17 @@
+The paper studies average consensus with random topologies (intermittent
+links)
+  \emph{and} noisy channels. Consensus with noise in the network links leads to
+the bias-variance dilemma--running consensus for long reduces the bias of the
+final average estimate but increases its variance. We present two different
+compromises to this tradeoff: the $\mathcal{A-ND}$ algorithm modifies
+conventional consensus by forcing the weights to satisfy a \emph{persistence}
+condition (slowly decaying to zero); and the $\mathcal{A-NC}$ algorithm where
+the weights are constant but consensus is run for a fixed number of iterations
+$\hat{\imath}$, then it is restarted and rerun for a total of $\hat{p}$ runs,
+and at the end averages the final states of the $\hat{p}$ runs (Monte Carlo
+averaging). We use controlled Markov processes and stochastic approximation
+arguments to prove almost sure convergence of $\mathcal{A-ND}$ to the desired
+average (asymptotic unbiasedness) and compute explicitly the m.s.e. (variance)
+of the consensus limit. We show that $\mathcal{A-ND}$ represents the best of
+both worlds--low bias and low variance--at the cost of a slow convergence rate;
+rescaling the weights...

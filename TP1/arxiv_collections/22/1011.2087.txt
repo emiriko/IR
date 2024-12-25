@@ -1,0 +1,18 @@
+Mass spectrometry provides a high-throughput way to identify proteins in
+biological samples. In a typical experiment, proteins in a sample are first
+broken into their constituent peptides. The resulting mixture of peptides is
+then subjected to mass spectrometry, which generates thousands of spectra, each
+characteristic of its generating peptide. Here we consider the problem of
+inferring, from these spectra, which proteins and peptides are present in the
+sample. We develop a statistical approach to the problem, based on a nested
+mixture model. In contrast to commonly used two-stage approaches, this model
+provides a one-stage solution that simultaneously identifies which proteins are
+present, and which peptides are correctly identified. In this way our model
+incorporates the evidence feedback between proteins and their constituent
+peptides. Using simulated data and a yeast data set, we compare and contrast
+our method with existing widely used approaches (PeptideProphet/ProteinProphet)
+and with a recently published new approach, HSM. For peptide identification,
+our single-stage approach yields consistently more accurate results. For
+protein identification the methods have similar accuracy in most settings,
+although we exhibit some scenarios in which the existing methods perform
+poorly.

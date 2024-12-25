@@ -1,0 +1,12 @@
+In the Square Kilometre Array (SKA) telescope [1], [2], the noise temperature
+of the first LNA must be reduced in order to reduce the necessary active area
+and the total system costs. Cooling the LNA locally would significantly
+decrease the noise figure but also the necessary power since not the whole
+system has to be cooled. For optimal thermal isolation, an LNA chip which only
+needs 6 bondwires has been chosen, 4 Ground and 2 signal wires. Biasing occurs
+on-chip. If the bondwires are 1.5mm long, the total heat conduction of the 6
+bondwires is 31 mW, which is added to the power consumption of the LNA (30 mW).
+With a power of 61 mW to cool, the Peltier element can achieve a -T of 60K.
+With this system, a noise reduction of 30% has been measured with 0.5W of
+electrical power. For 15% noise reduction, only 35mW of electrical power was
+needed.

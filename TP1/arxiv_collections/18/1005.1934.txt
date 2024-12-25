@@ -1,0 +1,21 @@
+Probabilistic databases play a crucial role in the management and
+understanding of uncertain data. However, incorporating probabilities into the
+semantics of incomplete databases has posed many challenges, forcing systems to
+sacrifice modeling power, scalability, or restrict the class of relational
+algebra formula under which they are closed. We propose an alternative approach
+where the underlying relational database always represents a single world, and
+an external factor graph encodes a distribution over possible worlds; Markov
+chain Monte Carlo (MCMC) inference is then used to recover this uncertainty to
+a desired level of fidelity. Our approach allows the efficient evaluation of
+arbitrary queries over probabilistic databases with arbitrary dependencies
+expressed by graphical models with structure that changes during inference.
+MCMC sampling provides efficiency by hypothesizing {\em modifications} to
+possible worlds rather than generating entire worlds from scratch. Queries are
+then run over the portions of the world that change, avoiding the onerous cost
+of running full queries over each sampled world. A significant innovation of
+this work is the connection between MCMC sampling and materialized view
+maintenance techniques: we find empirically that using view maintenance
+techniques is several orders of magnitude faster than naively querying each
+sampled world. We also demonstrate our system's ability to answer relational
+queries with aggregation, and demonstrate additional scalability through the
+use of parallelization.

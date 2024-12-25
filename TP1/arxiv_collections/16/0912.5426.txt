@@ -1,0 +1,15 @@
+The existing solutions to privacy preserving publication can be classified
+into the theoretical and heuristic categories. The former guarantees provably
+low information loss, whereas the latter incurs gigantic loss in the worst
+case, but is shown empirically to perform well on many real inputs. While
+numerous heuristic algorithms have been developed to satisfy advanced privacy
+principles such as l-diversity, t-closeness, etc., the theoretical category is
+currently limited to k-anonymity which is the earliest principle known to have
+severe vulnerability to privacy attacks. Motivated by this, we present the
+first theoretical study on l-diversity, a popular principle that is widely
+adopted in the literature. First, we show that optimal l-diverse generalization
+is NP-hard even when there are only 3 distinct sensitive values in the
+microdata. Then, an (l*d)-approximation algorithm is developed, where d is the
+dimensionality of the underlying dataset. This is the first known algorithm
+with a non-trivial bound on information loss. Extensive experiments with real
+datasets validate the effectiveness and efficiency of proposed solution.

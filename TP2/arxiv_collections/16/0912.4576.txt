@@ -1,0 +1,21 @@
+Pariser-Parr-Pople (P-P-P) model Hamiltonian has been used extensively over
+the years to perform calculations of electronic structure and optical
+properties of $\pi$-conjugated systems successfully. In spite of tremendous
+successes of \emph{ab initio} theory of electronic structure of large systems,
+the P-P-P model continues to be a popular one because of a recent resurgence in
+interest in the physics of $\pi$-conjugated polymers, fullerenes and other
+carbon based materials. In this paper, we describe a Fortran 90 computer
+program developed by us, which uses P-P-P model Hamiltonian to not only solve
+Hartree-Fock (HF) equation for closed- and open-shell systems, but also for
+performing correlation calculations at the level of single configuration
+interactions (SCI) for molecular systems. Moreover, the code is capable of
+computing linear optical absorption spectrum at various levels, such as, tight
+binding (TB) Hueckel model, HF, SCI, and also of calculating the band structure
+using the Hueckel model. The code also allows the user to solve the HF equation
+in the presence of finite external electric field, thus, permitting
+calculations of quantities such as static polarizabilities and
+electro-absorption spectra. We demonstrate the capabilities of our code by
+performing calculations of various properties on conjugated systems such as
+$trans$-polyacetylene ($t$-PA), poly-\emph{para}-phenylene (PPP),
+poly-\emph{para}-phenylene-vinylene (PPV), \textit{oligo}-acenes, and graphene
+nanodisks.

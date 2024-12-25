@@ -1,0 +1,21 @@
+Bayesian solution of an inverse problem for indirect measurement $M = AU +
+{\mathcal{E}}$ is considered, where $U$ is a function on a domain of $R^d$.
+Here $A$ is a smoothing linear operator and $ {\mathcal{E}}$ is Gaussian white
+noise. The data is a realization $m_k$ of the random variable $M_k = P_kA U+P_k
+{\mathcal{E}}$, where $P_k$ is a linear, finite dimensional operator related to
+measurement device. To allow computerized inversion, the unknown is discretized
+as $U_n=T_nU$, where $T_n$ is a finite dimensional projection, leading to the
+computational measurement model $M_{kn}=P_k A U_n + P_k {\mathcal{E}}$. Bayes
+formula gives then the posterior distribution $\pi_{kn}(u_n |
+m_{kn})\sim\pi_n(u_n) \exp(-{1/2}\|m_{kn} - P_kA u_n\|_2^2)$ in $R^d$, and the
+mean $U^{CM}_{kn}:=\int u_n \pi_{kn}(u_n | m_k) du_n$ is considered as the
+reconstruction of $U$. We discuss a systematic way of choosing prior
+distributions $\prior_n$ for all $n\geq n_0>0$ by achieving them as projections
+of a distribution in a infinite-dimensional limit case. Such choice of prior
+distributions is {\em discretization-invariant} in the sense that $\prior_n$
+represent the same {\em a priori} information for all $n$ and that the mean
+$U^{CM}_{kn}$ converges to a limit estimate as $k,n\to\infty$. Gaussian
+smoothness priors and wavelet-based Besov space priors are shown to be
+discretization invariant. In particular, Bayesian inversion in dimension two
+with $B^1_{11}$ prior is related to penalizing the $\ell^1$ norm of the wavelet
+coefficients of $U$.

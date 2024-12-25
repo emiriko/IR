@@ -1,0 +1,24 @@
+Molecular dynamics simulations of ionic solutions depend sensitively on the
+force fields employed for the ions. To resolve the fine differences between
+ions of the same valence and roughly similar size and in particular to
+correctly describe ion-specific effects, it is clear that accurate force fields
+are necessary. In the past, optimization strategies for ionic force fields
+either considered single-ion properties (such as the solvation free energy at
+infinite dilution or the ion-water structure) or ion-pair properties (in the
+form of ion-ion distribution functions). In this paper we investigate
+strategies to optimize ionic force fields based on single-ion and ion-pair
+properties simultaneously. To that end, we simulate five different salt
+solutions, namely CsCl, KCl, NaI, KF, and CsI, at finite ion concentration. The
+force fields of these ions are systematically varied under the constraint that
+the single-ion solvation free energy matches the experimental value, which
+reduces the two-dimensional $\{\sigma,\epsilon\}$ parameter space of the
+Lennard Jones interaction to a one dimensional line for each ion. From the
+finite-concentration simulations, the pair-potential is extracted and the
+osmotic coefficient is calculated, which is compared to experimental data. We
+find a strong dependence of the osmotic coefficient on the force field, which
+is remarkable as the single-ion solvation free energy and the ion-water
+structure remain invariant under the parameter variation. Optimization of the
+force field is achieved for the cations Cs$^+$ and K$^+$, while for the anions
+I$^-$ and F$^-$ the experimental osmotic coefficient cannot be reached. This
+suggests that in the long run, additional parameters might have to be
+introduced into the modeling, for example by modified mixing rules.

@@ -1,0 +1,12 @@
+The authors' ATR programming formalism is a version of call-by-value PCF
+under a complexity-theoretically motivated type system. ATR programs run in
+type-2 polynomial-time and all standard type-2 basic feasible functionals are
+ATR-definable (ATR types are confined to levels 0, 1, and 2). A limitation of
+the original version of ATR is that the only directly expressible recursions
+are tail-recursions. Here we extend ATR so that a broad range of affine
+recursions are directly expressible. In particular, the revised ATR can fairly
+naturally express the classic insertion- and selection-sort algorithms, thus
+overcoming a sticking point of most prior implicit-complexity-based formalisms.
+The paper's main work is in refining the original time-complexity semantics for
+ATR to show that these new recursion schemes do not lead out of the realm of
+feasibility.

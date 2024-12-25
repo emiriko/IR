@@ -1,0 +1,27 @@
+The work presented in this thesis seeks to improve programmer productivity in
+the following ways:
+  - by reducing the amount of code that has to be written to construct an
+application;
+  - by increasing the reliability of the code written; and
+  - by improving the programmer's understanding of the persistent environment
+in which applications are constructed. Two programming techniques that may be
+used to pursue these goals in a persistent environment are type-safe linguistic
+reflection and hyper-programming. The first provides a mechanism by which the
+programmer can write generators that, when executed, produce new program
+representations. This allows the specification of programs that are highly
+generic yet depend in non-trivial ways on the types of the data on which they
+operate. Genericity promotes software reuse which in turn reduces the amount of
+new code that has to be written. Hyper-programming allows a source program to
+contain links to data items in the persistent store. This improves program
+reliability by allowing certain program checking to be performed earlier than
+is otherwise possible. It also reduces the amount of code written by permitting
+direct links to data in the place of textual descriptions. Both techniques
+contribute to the understanding of the persistent environment through
+supporting the implementation of store browsing tools and allowing source
+representations to be associated with all executable programs in the persistent
+store. This thesis describes in detail the structure of type-safe linguistic
+reflection and hyper-programming, their benefits in the persistent context, and
+a suite of programming tools that support reflective programming and
+hyper-programming. These tools may be used in conjunction to allow reflection
+over hyper-program representations. The implementation of the tools is
+described.

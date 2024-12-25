@@ -1,0 +1,17 @@
+Several Markovian process calculi have been proposed in the literature, which
+differ from each other for various aspects. With regard to the action
+representation, we distinguish between integrated-time Markovian process
+calculi, in which every action has an exponentially distributed duration
+associated with it, and orthogonal-time Markovian process calculi, in which
+action execution is separated from time passing. Similar to deterministically
+timed process calculi, we show that these two options are not irreconcilable by
+exhibiting three mappings from an integrated-time Markovian process calculus to
+an orthogonal-time Markovian process calculus that preserve the behavioral
+equivalence of process terms under different interpretations of action
+execution: eagerness, laziness, and maximal progress. The mappings are limited
+to classes of process terms of the integrated-time Markovian process calculus
+with restrictions on parallel composition and do not involve the full
+capability of the orthogonal-time Markovian process calculus of expressing
+nondeterministic choices, thus elucidating the only two important differences
+between the two calculi: their synchronization disciplines and their ways of
+solving choices.

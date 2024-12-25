@@ -1,0 +1,15 @@
+A solution to a 3-satisfiability (3-SAT) formula can be expanded into a
+cluster, all other solutions of which are reachable from this one through a
+sequence of single-spin flips. Some variables in the solution cluster are
+frozen to the same spin values by one of two different mechanisms: frozen-core
+formation and long-range frustrations. While frozen cores are identified by a
+local whitening algorithm, long-range frustrations are very difficult to trace,
+and they make an entropic belief-propagation (BP) algorithm fail to converge.
+For BP to reach a fixed point the spin values of a tiny fraction of variables
+(chosen according to the whitening algorithm) are externally fixed during the
+iteration. From the calculated entropy values, we infer that, for a large
+random 3-SAT formula with constraint density close to the satisfiability
+threshold, the solutions obtained by the survey-propagation or the walksat
+algorithm belong neither to the most dominating clusters of the formula nor to
+the most abundant clusters. This work indicates that a single solution cluster
+of a random 3-SAT formula may have further community structures.

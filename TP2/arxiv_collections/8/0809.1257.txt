@@ -1,0 +1,10 @@
+This paper proposes a novel Nyquist-rate analog-to-digital (A/D) conversion
+algorithm which achieves exponential accuracy in the bit-rate despite using
+imperfect components. The proposed algorithm is based on a robust
+implementation of a beta-encoder where the value of the base beta is equal to
+golden mean. It was previously shown that beta-encoders can be implemented in
+such a way that their exponential accuracy is robust against threshold offsets
+in the quantizer element. This paper extends this result by allowing for
+imperfect analog multipliers with imprecise gain values as well. A formal
+computational model for algorithmic encoders and a general test bed for
+evaluating their robustness is also proposed.

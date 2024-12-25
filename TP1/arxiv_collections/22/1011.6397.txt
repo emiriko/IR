@@ -1,0 +1,12 @@
+The Johnson-Lindenstrauss lemma is a fundamental result in probability with
+several applications in the design and analysis of algorithms in high
+dimensional geometry. Most known constructions of linear embeddings that
+satisfy the Johnson-Lindenstrauss property involve randomness. We address the
+question of explicitly constructing such embedding families and provide a
+construction with an almost optimal use of randomness: we use
+O(log(n/delta)log(log(n/delta)/epsilon)) random bits for embedding n dimensions
+to O(log(1/delta)/epsilon^2) dimensions with error probability at most delta,
+and distortion at most epsilon.
+  In particular, for delta = 1/poly(n) and fixed epsilon, we use O(log n loglog
+n) random bits. Previous constructions required at least O(log^2 n) random bits
+to get polynomially small error.

@@ -1,0 +1,24 @@
+This paper develops a matrix-variate adaptive Markov chain Monte Carlo (MCMC)
+methodology for Bayesian Cointegrated Vector Auto Regressions (CVAR). We
+replace the popular approach to sampling Bayesian CVAR models, involving griddy
+Gibbs, with an automated efficient alternative, based on the Adaptive
+Metropolis algorithm of Roberts and Rosenthal, (2009). Developing the adaptive
+MCMC framework for Bayesian CVAR models allows for efficient estimation of
+posterior parameters in significantly higher dimensional CVAR series than
+previously possible with existing griddy Gibbs samplers. For a n-dimensional
+CVAR series, the matrix-variate posterior is in dimension $3n^2 + n$, with
+significant correlation present between the blocks of matrix random variables.
+We also treat the rank of the CVAR model as a random variable and perform joint
+inference on the rank and model parameters. This is achieved with a Bayesian
+posterior distribution defined over both the rank and the CVAR model
+parameters, and inference is made via Bayes Factor analysis of rank.
+Practically the adaptive sampler also aids in the development of automated
+Bayesian cointegration models for algorithmic trading systems considering
+instruments made up of several assets, such as currency baskets. Previously the
+literature on financial applications of CVAR trading models typically only
+considers pairs trading (n=2) due to the computational cost of the griddy
+Gibbs. We are able to extend under our adaptive framework to $n >> 2$ and
+demonstrate an example with n = 10, resulting in a posterior distribution with
+parameters up to dimension 310. By also considering the rank as a random
+quantity we can ensure our resulting trading models are able to adjust to
+potentially time varying market conditions in a coherent statistical framework.

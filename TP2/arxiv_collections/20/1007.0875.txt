@@ -1,0 +1,19 @@
+In this contribution, an algorithm for evaluating the capacity-achieving
+input covariance matrices for frequency selective Rayleigh MIMO channels is
+proposed. In contrast with the flat fading Rayleigh case, no closed-form
+expressions for the eigenvectors of the optimum input covariance matrix are
+available. Classically, both the eigenvectors and eigenvalues are computed
+numerically and the corresponding optimization algorithms remain
+computationally very demanding. In this paper, it is proposed to optimize
+(w.r.t. the input covariance matrix) a large system approximation of the
+average mutual information derived by Moustakas and Simon. The validity of this
+asymptotic approximation is clarified thanks to Gaussian large random matrices
+methods. It is shown that the approximation is a strictly concave function of
+the input covariance matrix and that the average mutual information evaluated
+at the argmax of the approximation is equal to the capacity of the channel up
+to a O(1/t) term, where t is the number of transmit antennas. An algorithm
+based on an iterative waterfilling scheme is proposed to maximize the average
+mutual information approximation, and its convergence studied. Numerical
+simulation results show that, even for a moderate number of transmit and
+receive antennas, the new approach provides the same results as direct
+maximization approaches of the average mutual information.

@@ -1,0 +1,12 @@
+For decoding non-binary low-density parity check (LDPC) codes,
+logarithm-domain sum-product (Log-SP) algorithms were proposed for reducing
+quantization effects of SP algorithm in conjunction with FFT. Since FFT is not
+applicable in the logarithm domain, the computations required at check nodes in
+the Log-SP algorithms are computationally intensive. What is worth, check nodes
+usually have higher degree than variable nodes. As a result, most of the time
+for decoding is used for check node computations, which leads to a bottleneck
+effect. In this paper, we propose a Log-SP algorithm in the Fourier domain.
+With this algorithm, the role of variable nodes and check nodes are switched.
+The intensive computations are spread over lower-degree variable nodes, which
+can be efficiently calculated in parallel. Furthermore, we develop a fast
+calculation method for the estimated bits and syndromes in the Fourier domain.

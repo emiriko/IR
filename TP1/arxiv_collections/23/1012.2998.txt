@@ -1,0 +1,14 @@
+We initiate the study of probabilistic parallel programs with dynamic process
+creation and synchronisation. To this end, we introduce probabilistic
+split-join systems (pSJSs), a model for parallel programs, generalising both
+probabilistic pushdown systems (a model for sequential probabilistic procedural
+programs which is equivalent to recursive Markov chains) and stochastic
+branching processes (a classical mathematical model with applications in
+various areas such as biology, physics, and language processing). Our pSJS
+model allows for a possibly recursive spawning of parallel processes; the
+spawned processes can synchronise and return values. We study the basic
+performance measures of pSJSs, especially the distribution and expectation of
+space, work and time. Our results extend and improve previously known results
+on the subsumed models. We also show how to do performance analysis in
+practice, and present two case studies illustrating the modelling power of
+pSJSs.

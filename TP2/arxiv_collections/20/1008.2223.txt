@@ -1,0 +1,15 @@
+A TPM (trusted platform module) is a chip present mostly on newer
+motherboards, and its primary function is to create, store and work with
+cryptographic keys. This dedicated chip can serve to authenticate other devices
+or to protect encryption keys used by various software applications. Among
+other features, it comes with a True Random Number Generator (TRNG) that can be
+used for cryptographic purposes. This random number generator consists of a
+state machine that mixes unpredictable data with the output of a one way hash
+function. According the specification it can be a good source of unpredictable
+random numbers even without having to require a genuine source of hardware
+entropy. However the specification recommends collecting entropy from any
+internal sources available such as clock jitter or thermal noise in the chip
+itself, a feature that was implemented by most manufacturers. This paper will
+benchmark the random number generator of several TPM chips from two
+perspectives: the quality of the random bit sequences generated, as well as the
+output bit rate.

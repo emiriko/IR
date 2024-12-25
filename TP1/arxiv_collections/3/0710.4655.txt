@@ -1,0 +1,18 @@
+This paper proposes a diagnosis scheme aimed at reducing diagnosis time of
+distributed small embedded SRAMs (e-SRAMs). This scheme improves the one
+proposed in [A parallel built-in self-diagnostic method for embedded memory
+buffers, A parallel built-in self-diagnostic method for embedded memory
+arrays]. The improvements are mainly two-fold. On one hand, the diagnosis of
+time-consuming Data Retention Faults (DRFs), which is neglected by the
+diagnosis architecture in [A parallel built-in self-diagnostic method for
+embedded memory buffers, A parallel built-in self-diagnostic method for
+embedded memory arrays], is now considered and performed via a DFT technique
+referred to as the "No Write Recovery Test Mode (NWRTM)". On the other hand, a
+pair comprising a Serial to Parallel Converter (SPC) and a Parallel to Serial
+Converter (PSC) is utilized to replace the bi-directional serial interface, to
+avoid the problems of serial fault masking and defect rate dependent diagnosis.
+Results from our evaluations show that the proposed diagnosis scheme achieves
+an increased diagnosis coverage and reduces diagnosis time compared to those
+obtained in [A parallel built-in self-diagnostic method for embedded memory
+buffers, A parallel built-in self-diagnostic method for embedded memory
+arrays], with neglectable extra area cost.

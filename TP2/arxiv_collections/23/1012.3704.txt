@@ -1,0 +1,19 @@
+We develop a timeout based extension of propositional linear temporal logic
+(which we call TLTL) to specify timing properties of timeout based models of
+real time systems. TLTL formulas explicitly refer to a running global clock
+together with static timing variables as well as a dynamic variable abstracting
+the timeout behavior. We extend LTL with the capability to express timeout
+constraints. From the expressiveness view point, TLTL is not comparable with
+important known clock based real-time logics including TPTL, XCTL, and MTL,
+i.e., TLTL can specify certain properties, which cannot be specified in these
+logics (also vice-versa). We define a corresponding timeout tableau for
+satisfiability checking of the TLTL formulas. Also a model checking algorithm
+over timeout Kripke structure is presented. Further we prove that the validity
+checking for such an extended logic remains PSPACE-complete even in the
+presence of timeout constraints and infinite state models. Under discrete time
+semantics, with bounded timeout increments, the model-checking problem that if
+a TLTL-formula holds in a timeout Kripke structure is also PSPACE complete. We
+further prove that when TLTL is interpreted over discrete time, it can be
+embedded in the monadic second order logic with time, and when TLTL is
+interpreted over dense time without the condition of non-zenoness, the
+resulting logic becomes $\Sigma_1^1$-complete.

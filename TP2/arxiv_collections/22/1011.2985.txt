@@ -1,0 +1,18 @@
+The aim of the study was to compare the epidemic spread on static and dynamic
+small-world networks. The network was constructed as a 2-dimensional
+Watts-Strogatz model (500x500 square lattice with additional shortcuts), and
+the dynamics involved rewiring shortcuts in every time step of the epidemic
+spread. The model of the epidemic is SIR with latency time of 3 time steps. The
+behaviour of the epidemic was checked over the range of shortcut probability
+per underlying bond 0-0.5. The quantity of interest was percolation threshold
+for the epidemic spread, for which numerical results were checked against an
+approximate analytical model. We find a significant lowering of percolation
+thresholds for the dynamic network in the parameter range given. The result
+shows that the behaviour of the epidemic on dynamic network is that of a static
+small world with the number of shortcuts increased by 20.7 +/- 1.4%, while the
+overall qualitative behaviour stays the same. We derive corrections to the
+analytical model which account for the effect. For both dynamic and static
+small-world we observe suppression of the average epidemic size dependence on
+network size in comparison with finite-size scaling known for regular lattice.
+We also study the effect of dynamics for several rewiring rates relative to
+latency time of the disease.

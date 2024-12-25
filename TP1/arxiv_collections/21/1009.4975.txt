@@ -1,0 +1,16 @@
+We present an improved method for topology optimization with both adaptive
+mesh refinement and derefinement. Since the total volume fraction in topology
+optimization is usually modest, after a few initial iterations the domain of
+computation is largely void. Hence, it is inefficient to have many small
+elements, in such regions, that contribute significantly to the overall
+computational cost but contribute little to the accuracy of computation and
+design. At the same time, we want high spatial resolution for accurate
+three-dimensional designs to avoid postprocessing or interpretation as much as
+possible. Dynamic adaptive mesh refinement (AMR) offers the possibility to
+balance these two requirements. We discuss requirements on AMR for topology
+optimization and the algorithmic features to implement them. The numerical
+design problems demonstrate (1) that our AMR strategy for topology optimization
+leads to designs that are equivalent to optimal designs on uniform meshes, (2)
+how AMR strategies that do not satisfy the postulated requirements may lead to
+suboptimal designs, and (3) that our AMR strategy significantly reduces the
+time to compute optimal designs.

@@ -1,0 +1,18 @@
+A set $X$ of vertices of an acyclic digraph $D$ is convex if $X\neq
+\emptyset$ and there is no directed path between vertices of $X$ which contains
+a vertex not in $X$. A set $X$ is connected if $X\neq \emptyset$ and the
+underlying undirected graph of the subgraph of $D$ induced by $X$ is connected.
+Connected convex sets and convex sets of acyclic digraphs are of interest in
+the area of modern embedded processor technology. We construct an algorithm
+$\cal A$ for enumeration of all connected convex sets of an acyclic digraph $D$
+of order $n$. The time complexity of $\cal A$ is $O(n\cdot cc(D))$, where
+$cc(D)$ is the number of connected convex sets in $D$. We also give an optimal
+algorithm for enumeration of all (not just connected) convex sets of an acyclic
+digraph $D$ of order $n$. In computational experiments we demonstrate that our
+algorithms outperform the best algorithms in the literature.
+  Using the same approach as for $\cal A$, we design an algorithm for
+generating all connected sets of a connected undirected graph $G$. The
+complexity of the algorithm is $O(n\cdot c(G)),$ where $n$ is the order of $G$
+and $c(G)$ is the number of connected sets of $G.$ The previously reported
+algorithm for connected set enumeration is of running time $O(mn\cdot c(G))$,
+where $m$ is the number of edges in $G.$

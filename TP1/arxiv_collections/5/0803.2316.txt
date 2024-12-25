@@ -1,0 +1,14 @@
+The three-input TOFFOLI gate is the workhorse of circuit synthesis for
+classical logic operations on quantum data, e.g., reversible arithmetic
+circuits. In physical implementations, however, TOFFOLI gates are decomposed
+into six CNOT gates and several one-qubit gates. Though this decomposition has
+been known for at least 10 years, we provide here the first demonstration of
+its CNOT-optimality.
+  We study three-qubit circuits which contain less than six CNOT gates and
+implement a block-diagonal operator, then show that they implicitly describe
+the cosine-sine decomposition of a related operator. Leveraging the canonicity
+of such decompositions to limit one-qubit gates appearing in respective
+circuits, we prove that the n-qubit analogue of the TOFFOLI requires at least
+2n CNOT gates. Additionally, our results offer a complete classification of
+three-qubit diagonal operators by their CNOT-cost, which holds even if ancilla
+qubits are available.

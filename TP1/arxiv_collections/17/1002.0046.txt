@@ -1,0 +1,12 @@
+This paper addresses the uniform random generation of words from a
+context-free language (over an alphabet of size $k$), while constraining every
+letter to a targeted frequency of occurrence. Our approach consists in a
+multidimensional extension of Boltzmann samplers \cite{Duchon2004}. We show
+that, under mostly \emph{strong-connectivity} hypotheses, our samplers return a
+word of size in $[(1-\varepsilon)n, (1+\varepsilon)n]$ and exact frequency in
+$\mathcal{O}(n^{1+k/2})$ expected time. Moreover, if we accept tolerance
+intervals of width in $\Omega(\sqrt{n})$ for the number of occurrences of each
+letters, our samplers perform an approximate-size generation of words in
+expected $\mathcal{O}(n)$ time. We illustrate these techniques on the
+generation of Tetris tessellations with uniform statistics in the different
+types of tetraminoes.

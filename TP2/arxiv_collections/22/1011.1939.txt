@@ -1,0 +1,15 @@
+We propose distributed algorithms to automatically deploy a team of mobile
+robots to partition and provide coverage of a non-convex environment. To handle
+arbitrary non-convex environments, we represent them as graphs. Our
+partitioning and coverage algorithm requires only short-range, unreliable
+pairwise "gossip" communication. The algorithm has two components: (1) a motion
+protocol to ensure that neighboring robots communicate at least sporadically,
+and (2) a pairwise partitioning rule to update territory ownership when two
+robots communicate. By studying an appropriate dynamical system on the space of
+partitions of the graph vertices, we prove that territory ownership converges
+to a pairwise-optimal partition in finite time. This new equilibrium set
+represents improved performance over common Lloyd-type algorithms.
+Additionally, we detail how our algorithm scales well for large teams in large
+environments and how the computation can run in anytime with limited resources.
+Finally, we report on large-scale simulations in complex environments and
+hardware experiments using the Player/Stage robot control system.

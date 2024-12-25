@@ -1,0 +1,15 @@
+Extended Kalman Filter (EKF) has been a popular approach to localization a
+mobile robot. However, the performance of the EKF and the quality of the
+estimation depends on the correct a priori knowledge of process and measurement
+noise covariance matrices (Qk and Rk, respectively). Imprecise knowledge of
+these statistics can cause significant degradation in performance. This paper
+proposed the development of an Adaptive Neuro- Fuzzy Extended Kalman Filtering
+(ANFEKF) for localization of robot. The Adaptive Neuro-Fuzzy attempts to
+estimate the elements of Qk and Rk matrices of the EKF algorithm, at each
+sampling instant when measurement update step is carried out. The ANFIS
+supervises the performance of the EKF with the aim of reducing the mismatch
+between the theoretical and actual covariance of the innovation sequences. The
+free parameters of ANFIS are trained using the steepest gradient descent (SD)
+to minimize the differences of the actual value of the covariance of the
+residual with its theoretical value as much possible. The simulation results
+show the effectiveness of the proposed algorithm.

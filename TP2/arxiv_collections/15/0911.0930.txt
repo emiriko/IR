@@ -1,0 +1,12 @@
+Inference problems with incomplete observations often aim at estimating
+population properties of unobserved quantities. One simple way to accomplish
+this estimation is to impute the unobserved quantities of interest at the
+individual level and then take an empirical average of the imputed values. We
+show that this simple imputation estimator can provide partial protection
+against model misspecification. We illustrate imputation estimators' robustness
+to model specification on three examples: mixture model-based clustering,
+estimation of genotype frequencies in population genetics, and estimation of
+Markovian evolutionary distances. In the final example, using a representative
+model misspecification, we demonstrate that in non-degenerate cases, the
+imputation estimator dominates the plug-in estimate asymptotically. We conclude
+by outlining a Bayesian implementation of the imputation-based estimation.

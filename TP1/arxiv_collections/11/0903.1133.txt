@@ -1,0 +1,21 @@
+Recently, several claims have been made that certain fundamental problems of
+distributed computing, including Leader Election and Distributed Consensus,
+begin to admit feasible and efficient solutions when the model of distributed
+computation is extended so as to apply quantum processing. This has been
+achieved in one of two distinct ways: (1) by initializing the system in a
+quantum entangled state, and/or (2) by applying quantum communication channels.
+In this paper, we explain why some of these prior claims are misleading, in the
+sense that they rely on changes to the model unrelated to quantum processing.
+On the positive side, we consider the aforementioned quantum extensions when
+applied to Linial's well-established LOCAL model of distributed computing.
+  For both types of extensions, we put forward valid proof-of-concept examples
+of distributed problems whose round complexity is in fact reduced through
+genuinely quantum effects, in contexts which do not depend on the anonymity of
+nodes.
+  Finally, we show that even the quantum variants of the LOCAL model have
+non-trivial limitations, captured by a very simple (purely probabilistic)
+notion which we call "physical locality" (PLOCAL). While this is strictly
+weaker than the "computational locality" of the classical LOCAL model, it
+nevertheless implies that for many distributed combinatorial optimization
+problems, such as Maximal Independent Set, the best currently known lower time
+bounds cannot be broken by applying quantum processing, in any conceivable way.

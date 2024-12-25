@@ -1,0 +1,17 @@
+We give the first algorithm that is both query-efficient and time-efficient
+for testing whether an unknown function $f: \{0,1\}^n \to \{0,1\}$ is an
+$s$-sparse GF(2) polynomial versus $\eps$-far from every such polynomial. Our
+algorithm makes $\poly(s,1/\eps)$ black-box queries to $f$ and runs in time $n
+\cdot \poly(s,1/\eps)$. The only previous algorithm for this testing problem
+\cite{DLM+:07} used poly$(s,1/\eps)$ queries, but had running time exponential
+in $s$ and super-polynomial in $1/\eps$.
+  Our approach significantly extends the ``testing by implicit learning''
+methodology of \cite{DLM+:07}. The learning component of that earlier work was
+a brute-force exhaustive search over a concept class to find a hypothesis
+consistent with a sample of random examples. In this work, the learning
+component is a sophisticated exact learning algorithm for sparse GF(2)
+polynomials due to Schapire and Sellie \cite{SchapireSellie:96}. A crucial
+element of this work, which enables us to simulate the membership queries
+required by \cite{SchapireSellie:96}, is an analysis establishing new
+properties of how sparse GF(2) polynomials simplify under certain restrictions
+of ``low-influence'' sets of variables.

@@ -1,0 +1,20 @@
+The recent fabrication of graphene nanoribbon (GNR) field-effect transistors
+poses a challenge for first-principles modeling of carbon nanoelectronics due
+to many thousand atoms present in the device. The state of the art quantum
+transport algorithms, based on the nonequilibrium Green function formalism
+combined with the density functional theory (NEGF-DFT), were originally
+developed to calculate self-consistent electron density in equilibrium and at
+finite bias voltage (as a prerequisite to obtain conductance or current-voltage
+characteristics, respectively) for small molecules attached to metallic
+electrodes where only a few hundred atoms are typically simulated. Here we
+introduce combination of two numerically efficient algorithms which make it
+possible to extend the NEGF-DFT framework to device simulations involving large
+number of atoms. We illustrate fusion of these two algorithms into the
+NEGF-DFT-type code by computing charge transfer, charge redistribution and
+conductance in zigzag-GNR/variable-width-armchair-GNR/zigzag-GNR two-terminal
+device covered with a gate electrode made of graphene layer as well. The total
+number of carbon and edge-passivating hydrogen atoms within the simulated
+central region of this device is ~7000. Our self-consistent modeling of the
+gate voltage effect suggests that rather large gate voltage might be required
+to shift the band gap of the proposed AGNR interconnect and switch the
+transport from insulating into the regime of a single open conducting channel.

@@ -1,0 +1,9 @@
+We present an efficient implementation of the van der Waals density
+functional of Dion et al [Phys. Rev. Lett. 92, 246401 (2004)], which expresses
+the nonlocal correlation energy as a double spacial integral. We factorize the
+integration kernel and use fast Fourier transforms to evaluate the
+selfconsistent potential, total energy, and atomic forces, in N log(N)
+operations. The resulting overhead in total computational cost, over semilocal
+functionals, is very moderate for medium and large systems. We apply the method
+to calculate the binding energies and the barriers for relative translation and
+rotation in double-wall carbon nanotubes.

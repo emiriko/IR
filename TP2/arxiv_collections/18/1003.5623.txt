@@ -1,0 +1,15 @@
+This paper introduces and motivates the use of hybrid robust feature
+extraction technique for spoken language identification (LID) system. The
+speech recognizers use a parametric form of a signal to get the most important
+distinguishable features of speech signal for recognition task. In this paper
+Mel-frequency cepstral coefficients (MFCC), Perceptual linear prediction
+coefficients (PLP) along with two hybrid features are used for language
+Identification. Two hybrid features, Bark Frequency Cepstral Coefficients
+(BFCC) and Revised Perceptual Linear Prediction Coefficients (RPLP) were
+obtained from combination of MFCC and PLP. Two different classifiers, Vector
+Quantization (VQ) with Dynamic Time Warping (DTW) and Gaussian Mixture Model
+(GMM) were used for classification. The experiment shows better identification
+rate using hybrid feature extraction techniques compared to conventional
+feature extraction methods.BFCC has shown better performance than MFCC with
+both classifiers. RPLP along with GMM has shown best identification performance
+among all feature extraction techniques.

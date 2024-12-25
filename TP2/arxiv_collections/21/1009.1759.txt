@@ -1,0 +1,9 @@
+This paper investigates compression of data encrypted with block ciphers,
+such as the Advanced Encryption Standard (AES). It is shown that such data can
+be feasibly compressed without knowledge of the secret key. Block ciphers
+operating in various chaining modes are considered and it is shown how
+compression can be achieved without compromising security of the encryption
+scheme. Further, it is shown that there exists a fundamental limitation to the
+practical compressibility of block ciphers when no chaining is used between
+blocks. Some performance results for practical code constructions used to
+compress binary sources are presented.

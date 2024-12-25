@@ -1,0 +1,18 @@
+In this paper we consider a model for the spread of a stochastic SIR
+(Susceptible $\to$ Infectious $\to$ Recovered) epidemic on a network of
+individuals described by a random intersection graph. Individuals belong to a
+random number of cliques, each of random size, and infection can be transmitted
+between two individuals if and only if there is a clique they both belong to.
+Both the clique sizes and the number of cliques an individual belongs to follow
+mixed Poisson distributions. An infinite-type branching process approximation
+(with type being given by the length of an individual's infectious period) for
+the early stages of an epidemic is developed and made fully rigorous by proving
+an associated limit theorem as the population size tends to infinity. This
+leads to a threshold parameter $R_*$, so that in a large population an epidemic
+with few initial infectives can give rise to a large outbreak if and only if
+$R_*>1$. A functional equation for the survival probability of the
+approximating infinite-type branching process is determined; if $R_*\le1$, this
+equation has no nonzero solution, while if $R_*>1$, it is shown to have
+precisely one nonzero solution. A law of large numbers for the size of such a
+large outbreak is proved by exploiting a single-type branching process that
+approximates the size of the susceptibility set of a typical individual.

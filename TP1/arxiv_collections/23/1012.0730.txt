@@ -1,0 +1,22 @@
+We compare the three-dimensional gas temperature distributions obtained by a
+dedicated radiative transfer and photoionisation code, MOCASSIN, against those
+obtained by the recently-developed Smooth Particle Hydrodynamics (SPH) plus
+ionisation code iVINE for snapshots of an hydrodynamical simulation of a
+turbulent interstellar medium (ISM) irradiated by a nearby O star. Our tests
+demonstrate that the global ionisation properties of the region are correctly
+reproduced by iVINE, hence validating further application of this code to the
+study of feedback in star forming regions. However we highlight potentially
+important discrepancies in the detailed temperature distribution. In particular
+we show that in the case of highly inhomogenous density distributions the
+commonly employed on-the-spot (OTS) approximation yields unrealistically sharp
+shadow regions which can affect the dynamical evolution of the system. We
+implement a simple strategy to include the effects of the diffuse field in
+future calculations, which makes use of physically motivated temperature
+calibrations of the diffuse-field dominated regions and can be readily applied
+to similar codes. We find that while the global qualitative behaviour of the
+system is captured by simulations with the OTS approximation, the inclusion of
+the diffuse field in iVINE (called DiVINE) results in a stronger confinement of
+the cold gas, leading to denser and less coherent structures. This in turn
+leads to earlier triggering of star formation. We confirm that turbulence is
+being driven in simulations that include the diffuse field, but the efficiency
+is slightly lower than in simulations that use the OTS approximation.

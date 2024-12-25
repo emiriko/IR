@@ -1,0 +1,19 @@
+Research in many areas of modern physics such as, e.g., indirect searches for
+dark matter and particle acceleration in SNR shocks, rely heavily on studies of
+cosmic rays (CRs) and associated diffuse emissions (radio, microwave, X-rays,
+gamma rays). While very detailed numerical models of CR propagation exist, a
+quantitative statistical analysis of such models has been so far hampered by
+the large computational effort that those models require. Although statistical
+analyses have been carried out before using semi-analytical models (where the
+computation is much faster), the evaluation of the results obtained from such
+models is difficult, as they necessarily suffer from many simplifying
+assumptions, The main objective of this paper is to present a working method
+for a full Bayesian parameter estimation for a numerical CR propagation model.
+For this study, we use the GALPROP code, the most advanced of its kind, that
+uses astrophysical information, nuclear and particle data as input to
+self-consistently predict CRs, gamma rays, synchrotron and other observables.
+We demonstrate that a full Bayesian analysis is possible using nested sampling
+and Markov Chain Monte Carlo methods (implemented in the SuperBayeS code)
+despite the heavy computational demands of a numerical propagation code. The
+best-fit values of parameters found in this analysis are in agreement with
+previous, significantly simpler, studies also based on GALPROP.

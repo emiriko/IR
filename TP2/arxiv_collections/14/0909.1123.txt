@@ -1,0 +1,16 @@
+Recent literature provides many computational and modeling approaches for
+covariance matrices estimation in a penalized Gaussian graphical models but
+relatively little study has been carried out on the choice of the tuning
+parameter. This paper tries to fill this gap by focusing on the problem of
+shrinkage parameter selection when estimating sparse precision matrices using
+the penalized likelihood approach. Previous approaches typically used K-fold
+cross-validation in this regard. In this paper, we first derived the
+generalized approximate cross-validation for tuning parameter selection which
+is not only a more computationally efficient alternative, but also achieves
+smaller error rate for model fitting compared to leave-one-out
+cross-validation. For consistency in the selection of nonzero entries in the
+precision matrix, we employ a Bayesian information criterion which provably can
+identify the nonzero conditional correlations in the Gaussian model. Our
+simulations demonstrate the general superiority of the two proposed selectors
+in comparison with leave-one-out cross-validation, ten-fold cross-validation
+and Akaike information criterion.

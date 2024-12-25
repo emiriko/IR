@@ -1,0 +1,21 @@
+Takens' Embedding Theorem remarkably established that concatenating M
+previous outputs of a dynamical system into a vector (called a delay coordinate
+map) can be a one-to-one mapping of a low-dimensional attractor from the system
+state space. However, Takens' theorem is fragile in the sense that even small
+imperfections can induce arbitrarily large errors in this attractor
+representation. We extend Takens' result to establish deterministic, explicit
+and non-asymptotic sufficient conditions for a delay coordinate map to form a
+stable embedding in the restricted case of linear dynamical systems and
+observation functions. Our work is inspired by the field of Compressive Sensing
+(CS), where results guarantee that low-dimensional signal families can be
+robustly reconstructed if they are stably embedded by a measurement operator.
+However, in contrast to typical CS results, i) our sufficient conditions are
+independent of the size of the ambient state space, and ii) some system and
+measurement pairs have fundamental limits on the conditioning of the embedding
+(i.e., how close it is to an isometry), meaning that further measurements
+beyond some point add no further significant value. We use several simple
+simulations to explore the conditions of the main results, including the
+tightness of the bounds and the convergence speed of the stable embedding. We
+also present an example task of estimating the attractor dimension from
+time-series data to highlight the value of stable embeddings over traditional
+Takens' embeddings.

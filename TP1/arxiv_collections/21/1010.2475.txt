@@ -1,0 +1,18 @@
+In this paper we introduce simplified, combinatorially exact formulas that
+arise in the vortex interaction model found in (Nagem, et al., SIAM J. Appl.
+Dyn. Syst. 2009). These combinatorial formulas allow for the efficient
+implementation and development of a new multi-moment vortex method (MMVM) using
+a Hermite expansion to simulate 2D vorticity. The method naturally allows the
+particles to deform and become highly anisotropic as they evolve without the
+added cost of computing the non-local Biot-Savart integral. We present three
+examples using MMVM. We first focus our attention on the implementation of a
+single particle, large number of Hermite moments case, in the context of
+quadrupole perturbations of the Lamb-Oseen vortex. At smaller perturbation
+values, we show the method captures the shear diffusion mechanism and the rapid
+relaxation (on $Re^{1/3}$ time scale) to an axisymmetric state. We then present
+two more examples of the full multi-moment vortex method and discuss the
+results in the context of classic vortex methods. We perform spatial
+convergence studies of the single-particle method and show that the method
+exhibits exponential convergence. Lastly, we numerically investigate the
+spatial accuracy improvement from the inclusion of higher Hermite moments in
+the full MMVM.

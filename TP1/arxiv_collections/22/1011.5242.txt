@@ -1,0 +1,22 @@
+We present three voting protocols with unconditional privacy and correctness,
+without assuming any bound on the number of corrupt participants. All protocols
+have polynomial complexity and require private channels and a simultaneous
+broadcast channel. Unlike previously proposed protocols in this model, the
+protocols that we present deterministically output the exact tally. Our first
+protocol is a basic voting scheme which allows voters to interact in order to
+compute the tally. Privacy of the ballot is unconditional in the sense that
+regardless of the behavior of the dishonest participants nothing can be learned
+through the protocol that could not be learned in an ideal realisation.
+Unfortunately, a single dishonest participant can make the protocol abort, in
+which case the dishonest participants can nevertheless learn the outcome of the
+tally. Our second protocol introduces voting authorities which improves the
+communication complexity by limiting interaction to be only between voters and
+authorities and among the authorities themselves; the simultaneous broadcast is
+also limited to the authorities. In the second protocol, as long as a single
+authority is honest, the privacy is unconditional, however, a single corrupt
+authority or a single corrupt voter can cause the protocol to abort. Our final
+protocol provides a safeguard against corrupt voters by enabling a verification
+technique to allow the authorities to revoke incorrect votes without aborting
+the protocol. Finally, we discuss the implementation of a simultaneous
+broadcast channel with the use of temporary computational assumptions, yielding
+versions of our protocols that achieve everlasting security.

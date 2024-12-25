@@ -1,0 +1,14 @@
+We present a new algorithm for estimating the star discrepancy of arbitrary
+point sets. Similar to the algorithm for discrepancy approximation of Winker
+and Fang [SIAM J. Numer. Anal. 34 (1997), 2028--2042] it is based on the
+optimization algorithm threshold accepting. Our improvements include, amongst
+others, a non-uniform sampling strategy which is more suited for
+higher-dimensional inputs, and rounding steps which transform axis-parallel
+boxes, on which the discrepancy is to be tested, into \emph{critical test
+boxes}. These critical test boxes provably yield higher discrepancy values, and
+contain the box that exhibits the maximum value of the local discrepancy. We
+provide comprehensive experiments to test the new algorithm. Our randomized
+algorithm computes the exact discrepancy frequently in all cases where this can
+be checked (i.e., where the exact discrepancy of the point set can be computed
+in feasible time). Most importantly, in higher dimension the new method behaves
+clearly better than all previously known methods.

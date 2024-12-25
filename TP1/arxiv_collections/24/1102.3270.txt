@@ -1,0 +1,13 @@
+We introduce a model of the Relentless Congestion Control proposed by Matt
+Mathis. Relentless Congestion Control (RCC) is a modification of the AIMD
+(Additive Increase Multiplicative Decrease) congestion control which consists
+in decreasing the TCP congestion window by the number of lost segments instead
+of halving it. Despite some on-going discussions at the ICCRG IRTF-group, this
+congestion control has, to the best of our knowledge, never been modeled. In
+this paper, we provide an analytical model of this novel congestion control and
+propose an implementation of RCC for the commonly-used network simulator ns-2.
+We also improve RCC with the addition of a loss retransmission detection scheme
+(based on SACK+) to prevent RTO caused by a loss of a retransmission and called
+this new version RCC+. The proposed models describe both the original RCC
+algorithm and RCC+ improvement and would allow to better assess the impact of
+this new congestion control scheme over the network traffic.

@@ -1,0 +1,20 @@
+Up to now, it is not possible to obtain analytical solutions for complex
+molecular association processes (e.g. Molecule recognition in Signaling or
+catalysis). Instead Brownian Dynamics (BD) simulations are commonly used to
+estimate the rate of diffusional association, e.g. to be later used in
+mesoscopic simulations. Meanwhile a portfolio of diffusional association (DA)
+methods have been developed that exploit BD.
+  However, DA methods do not clearly distinguish between modeling, simulation,
+and experiment settings. This hampers to classify and compare the existing
+methods with respect to, for instance model assumptions, simulation
+approximations or specific optimization strategies for steering the computation
+of trajectories.
+  To address this deficiency we propose FADA (Flexible Architecture for
+Diffusional Association) - an architecture that allows the flexible definition
+of the experiment comprising a formal description of the model in SpacePi,
+different simulators, as well as validation and analysis methods. Based on the
+NAM (Northrup-Allison-McCammon) method, which forms the basis of many existing
+DA methods, we illustrate the structure and functioning of FADA. A discussion
+of future validation experiments illuminates how the FADA can be exploited in
+order to estimate reaction rates and how validation techniques may be applied
+to validate additional features of the model.

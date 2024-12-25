@@ -1,0 +1,20 @@
+The Voronoi diagram of a finite set of objects is a fundamental geometric
+structure that subdivides the embedding space into regions, each region
+consisting of the points that are closer to a given object than to the others.
+We may define many variants of Voronoi diagrams depending on the class of
+objects, the distance functions and the embedding space. In this paper, we
+investigate a framework for defining and building Voronoi diagrams for a broad
+class of distance functions called Bregman divergences. Bregman divergences
+include not only the traditional (squared) Euclidean distance but also various
+divergence measures based on entropic functions. Accordingly, Bregman Voronoi
+diagrams allow to define information-theoretic Voronoi diagrams in statistical
+parametric spaces based on the relative entropy of distributions. We define
+several types of Bregman diagrams, establish correspondences between those
+diagrams (using the Legendre transformation), and show how to compute them
+efficiently. We also introduce extensions of these diagrams, e.g. k-order and
+k-bag Bregman Voronoi diagrams, and introduce Bregman triangulations of a set
+of points and their connexion with Bregman Voronoi diagrams. We show that these
+triangulations capture many of the properties of the celebrated Delaunay
+triangulation. Finally, we give some applications of Bregman Voronoi diagrams
+which are of interest in the context of computational geometry and machine
+learning.

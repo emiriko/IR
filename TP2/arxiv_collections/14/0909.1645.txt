@@ -1,0 +1,15 @@
+We study observation-based strategies for partially-observable Markov
+decision processes (POMDPs) with omega-regular objectives. An observation-based
+strategy relies on partial information about the history of a play, namely, on
+the past sequence of observations. We consider the qualitative analysis
+problem: given a POMDP with an omega-regular objective, whether there is an
+observation-based strategy to achieve the objective with probability~1
+(almost-sure winning), or with positive probability (positive winning). Our
+main results are twofold. First, we present a complete picture of the
+computational complexity of the qualitative analysis of POMDP s with parity
+objectives (a canonical form to express omega-regular objectives) and its
+subclasses. Our contribution consists in establishing several upper and lower
+bounds that were not known in literature. Second, we present optimal bounds
+(matching upper and lower bounds) on the memory required by pure and randomized
+observation-based strategies for the qualitative analysis of POMDP s with
+parity objectives and its subclasses.

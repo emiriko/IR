@@ -1,0 +1,22 @@
+In this paper, we propose a general cross-layer optimization framework in
+which we explicitly consider both the heterogeneous and dynamically changing
+characteristics of delay-sensitive applications and the underlying time-varying
+network conditions. We consider both the independently decodable data units
+(DUs, e.g. packets) and the interdependent DUs whose dependencies are captured
+by a directed acyclic graph (DAG). We first formulate the cross-layer design as
+a non-linear constrained optimization problem by assuming complete knowledge of
+the application characteristics and the underlying network conditions. The
+constrained cross-layer optimization is decomposed into several cross-layer
+optimization subproblems for each DU and two master problems. The proposed
+decomposition method determines the necessary message exchanges between layers
+for achieving the optimal cross-layer solution. However, the attributes (e.g.
+distortion impact, delay deadline etc) of future DUs as well as the network
+conditions are often unknown in the considered real-time applications. The
+impact of current cross-layer actions on the future DUs can be characterized by
+a state-value function in the Markov decision process (MDP) framework. Based on
+the dynamic programming solution to the MDP, we develop a low-complexity
+cross-layer optimization algorithm using online learning for each DU
+transmission. This online algorithm can be implemented in real-time in order to
+cope with unknown source characteristics, network dynamics and resource
+constraints. Our numerical results demonstrate the efficiency of the proposed
+online algorithm.

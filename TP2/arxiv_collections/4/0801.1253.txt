@@ -1,0 +1,14 @@
+We give a new characterization of elementary and deterministic polynomial
+time computation in linear logic through the proofs-as-programs correspondence.
+Girard's seminal results, concerning elementary and light linear logic, achieve
+this characterization by enforcing a stratification principle on proofs, using
+the notion of depth in proof nets. Here, we propose a more general form of
+stratification, based on inducing levels in proof nets by means of indexes,
+which allows us to extend Girard's systems while keeping the same complexity
+properties. In particular, it turns out that Girard's systems can be recovered
+by forcing depth and level to coincide. A consequence of the higher flexibility
+of levels with respect to depth is the absence of boxes for handling the
+paragraph modality. We use this fact to propose a variant of our polytime
+system in which the paragraph modality is only allowed on atoms, and which may
+thus serve as a basis for developing lambda-calculus type assignment systems
+with more efficient typing algorithms than existing ones.

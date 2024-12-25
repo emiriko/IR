@@ -1,0 +1,24 @@
+Interaction of a drug or chemical with a biological system can result in a
+gene-expression profile or signature characteristic of the event. Using a
+suitably robust algorithm these signatures can potentially be used to connect
+molecules with similar pharmacological or toxicological properties. The
+Connectivity Map was a novel concept and innovative tool first introduced by
+Lamb et al to connect small molecules, genes, and diseases using genomic
+signatures [Lamb et al (2006), Science 313, 1929-1935]. However, the
+Connectivity Map had some limitations, particularly there was no effective
+safeguard against false connections if the observed connections were considered
+on an individual-by-individual basis. Further when several connections to the
+same small-molecule compound were viewed as a set, the implicit null hypothesis
+tested was not the most relevant one for the discovery of real connections.
+Here we propose a simple and robust method for constructing the reference
+gene-expression profiles and a new connection scoring scheme, which importantly
+allows the valuation of statistical significance of all the connections
+observed. We tested the new method with the two example gene-signatures (HDAC
+inhibitors and Estrogens) used by Lamb et al and also a new gene signature of
+immunosuppressive drugs. Our testing with this new method shows that it
+achieves a higher level of specificity and sensitivity than the original
+method. For example, our method successfully identified raloxifene and
+tamoxifen as having significant anti-estrogen effects, while Lamb et al's
+Connectivity Map failed to identify these. With these properties our new method
+has potential use in drug development for the recognition of pharmacological
+and toxicological properties in new drug candidates.

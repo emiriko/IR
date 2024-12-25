@@ -1,0 +1,11 @@
+The shallow shelf approximation is a better ``sliding law'' for ice sheet
+modeling than those sliding laws in which basal velocity is a function of
+driving stress. The shallow shelf approximation as formulated by \emph{Schoof}
+[2006a] is well-suited to this use. Our new thermomechanically coupled sliding
+scheme is based on a plasticity assumption about the strength of the saturated
+till underlying the ice sheet in which the till yield stress is given by a
+Mohr-Coulomb formula using a modeled pore water pressure. Using this scheme,
+our prognostic whole ice sheet model has convincing ice streams. Driving stress
+is balanced in part by membrane stresses, the model is computable at high
+spatial resolution in parallel, it is stable with respect to parameter changes,
+and it produces surface velocities seen in actual ice streams.

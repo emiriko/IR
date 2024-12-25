@@ -1,0 +1,8 @@
+Commutativity has the same inherent limitations as compatibility. Then, it is
+worth conceiving simple concurrency control techniques. We propose a restricted
+form of commutativity which increases parallelism without incurring a higher
+overhead than compatibility. Advantages of our proposition are: (1)
+commutativity of operations is determined at compile-time, (2) run-time
+checking is as efficient as for compatibility, (3) neither commutativity
+relations, (4) nor inverse operations, need to be specified, and (5) log space
+utilization is reduced.

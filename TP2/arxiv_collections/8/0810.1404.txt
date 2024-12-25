@@ -1,0 +1,17 @@
+We consider the use of a running measure of power spectrum disorder to
+distinguish between the normal sinus rhythm of the heart and two forms of
+cardiac arrhythmia: atrial fibrillation and atrial flutter. This spectral
+entropy measure is motivated by characteristic differences in the spectra of
+beat timings during the three rhythms. We plot patient data derived from
+ten-beat windows on a "disorder map" and identify rhythm-defining ranges in the
+level and variance of spectral entropy values. Employing the spectral entropy
+within an automatic arrhythmia detection algorithm enables the classification
+of periods of atrial fibrillation from the time series of patients' beats. When
+the algorithm is set to identify abnormal rhythms within 6 s it agrees with
+85.7% of the annotations of professional rhythm assessors; for a response time
+of 30 s this becomes 89.5%, and with 60 s it is 90.3%. The algorithm provides a
+rapid way to detect atrial fibrillation, demonstrating usable response times as
+low as 6 s. Measures of disorder in the frequency domain have practical
+significance in a range of biological signals: the techniques described in this
+paper have potential application for the rapid identification of disorder in
+other rhythmic signals.

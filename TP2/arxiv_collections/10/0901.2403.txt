@@ -1,0 +1,23 @@
+The ACES (Atomic Clock Ensemble in Space) mission is an ESA - CNES project
+with the aim of setting up onboard the International Space Station (ISS)
+several highly stable atomic clocks with a microwave communication link (MWL).
+The specifications of the MWL are to perform ground to space time and frequency
+comparisons with a stability of 0.3 ps at one ISS pass and 7 ps at one day.
+  The raw measurements of the ACES MWL need to be related to the scientific
+products considering all terms greater than 0.1 ps when maximized. In fact, the
+mission aims at extracting physical variables (scientific products) from the
+code and phase measurements on ground and in space and auxiliary data.
+  To this purpose we have developed the complete model of the time transfer at
+the required 0.1 ps level. We have then developed in parallel two softwares, a
+program to simulate the raw MWL measurements and an algorithm which provides
+the scientific products from the raw measurements. We provide some details on
+the software and the tests, considering different cases and realistic situation
+using real ISS orbitography data and MWL measurement noise from the MWL
+engineering model.
+  The phase ambiguity removal of carrier phase measurements is performed by the
+algorithm and its success strongly depends on the noise of the observables. We
+have investigated the statistics of cycle slips which appear during this
+operation using experimental data obtained from the tests of the MWL
+engineering model. We present two novel methods which allow the reduction of
+the cycle slip probabilities by a factor greater than 5 compared to the
+standard method.

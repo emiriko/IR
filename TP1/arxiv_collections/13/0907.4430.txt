@@ -1,0 +1,24 @@
+Generally ``exact'' Quantum Monte Carlo computations for the ground state of
+many Bosons make use of importance sampling. The importance sampling is based,
+either on a guiding function or on an initial variational wave function. Here
+we investigate the need of importance sampling in the case of Path Integral
+Ground State (PIGS) Monte Carlo. PIGS is based on a discrete imaginary time
+evolution of an initial wave function with a non zero overlap with the ground
+state, that gives rise to a discrete path which is sampled via a Metropolis
+like algorithm. In principle the exact ground state is reached in the limit of
+an infinite imaginary time evolution, but actual computations are based on
+finite time evolutions and the question is whether such computations give
+unbiased exact results. We have studied bulk liquid and solid 4He with PIGS by
+considering as initial wave function a constant, i.e. the ground state of an
+ideal Bose gas. This implies that the evolution toward the ground state is
+driven only by the imaginary time propagator, i.e. there is no importance
+sampling. For both the phases we obtain results converging to those obtained by
+considering the best available variational wave function (the Shadow wave
+function) as initial wave function. Moreover we obtain the same results even by
+considering wave functions with the wrong correlations, for instance a wave
+function of a strongly localized Einstein crystal for the liquid phase. This
+convergence is true not only for diagonal properties such as the energy, the
+radial distribution function and the static structure factor, but also for
+off-diagonal ones, such as the one--body density matrix. From this analysis we
+conclude that zero temperature PIGS calculations can be as unbiased as those of
+finite temperature Path Integral Monte Carlo.

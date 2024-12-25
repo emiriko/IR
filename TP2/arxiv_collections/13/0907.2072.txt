@@ -1,0 +1,15 @@
+Propositional bounded model checking has been applied successfully to verify
+embedded software but is limited by the increasing propositional formula size
+and the loss of structure during the translation. These limitations can be
+reduced by encoding word-level information in theories richer than
+propositional logic and using SMT solvers for the generated verification
+conditions. Here, we investigate the application of different SMT solvers to
+the verification of embedded software written in ANSI-C. We have extended the
+encodings from previous SMT-based bounded model checkers to provide more
+accurate support for finite variables, bit-vector operations, arrays,
+structures, unions and pointers. We have integrated the CVC3, Boolector, and Z3
+solvers with the CBMC front-end and evaluated them using both standard software
+model checking benchmarks and typical embedded applications from
+telecommunications, control systems and medical devices. The experiments show
+that our approach can analyze larger problems and substantially reduce the
+verification time.

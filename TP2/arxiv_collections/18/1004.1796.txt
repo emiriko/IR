@@ -1,0 +1,18 @@
+This paper illustrates the Principal Direction Divisive Partitioning (PDDP)
+algorithm and describes its drawbacks and introduces a combinatorial framework
+of the Principal Direction Divisive Partitioning (PDDP) algorithm, then
+describes the simplified version of the EM algorithm called the spherical
+Gaussian EM (sGEM) algorithm and Information Bottleneck method (IB) is a
+technique for finding accuracy, complexity and time space. The PDDP algorithm
+recursively splits the data samples into two sub clusters using the hyper plane
+normal to the principal direction derived from the covariance matrix, which is
+the central logic of the algorithm. However, the PDDP algorithm can yield poor
+results, especially when clusters are not well separated from one another. To
+improve the quality of the clustering results problem, it is resolved by
+reallocating new cluster membership using the IB algorithm with different
+settings. IB Method gives accuracy but time consumption is more. Furthermore,
+based on the theoretical background of the sGEM algorithm and sequential
+Information Bottleneck method(sIB), it can be obvious to extend the framework
+to cover the problem of estimating the number of clusters using the Bayesian
+Information Criterion. Experimental results are given to show the effectiveness
+of the proposed algorithm with comparison to the existing algorithm.

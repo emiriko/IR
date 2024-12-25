@@ -1,0 +1,15 @@
+We consider Hermitian and symmetric random band matrices $H$ in $d \geq 1$
+dimensions. The matrix elements $H_{xy}$, indexed by $x,y \in \Lambda \subset
+\Z^d$, are independent and their variances satisfy $\sigma_{xy}^2:=\E
+\abs{H_{xy}}^2 = W^{-d} f((x - y)/W)$ for some probability density $f$. We
+assume that the law of each matrix element $H_{xy}$ is symmetric and exhibits
+subexponential decay. We prove that the time evolution of a quantum particle
+subject to the Hamiltonian $H$ is diffusive on time scales $t\ll W^{d/3}$. We
+also show that the localization length of the eigenvectors of $H$ is larger
+than a factor $W^{d/6}$ times the band width $W$. All results are uniform in
+the size $\abs{\Lambda}$ of the matrix. This extends our recent result
+\cite{erdosknowles} to general band matrices. As another consequence of our
+proof we show that, for a larger class of random matrices satisfying
+$\sum_x\sigma_{xy}^2=1$ for all $y$, the largest eigenvalue of $H$ is bounded
+with high probability by $2 + M^{-2/3 + \epsilon}$ for any $\epsilon > 0$,
+where $M \deq 1 / (\max_{x,y} \sigma_{xy}^2)$.

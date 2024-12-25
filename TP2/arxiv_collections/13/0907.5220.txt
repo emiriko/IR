@@ -1,0 +1,23 @@
+I extend the usual linear-theory formula for large-scale clustering in
+redshift-space to include gravitational redshift. The extra contribution to the
+standard galaxy power spectrum is suppressed by k_c^{-2}, where k_c=c k/a H (k
+is the wavevector, a the expansion factor, and H=\dot{a}/a), and is thus
+effectively limited to the few largest-scale modes and very difficult to
+detect; however, a correlation, \propto k_c^{-1}, is generated between the real
+and imaginary parts of the Fourier space density fields of two different types
+of galaxy, which would otherwise be zero, i.e., the cross-power spectrum has an
+imaginary part: P_{ab}(k,\mu)/P(k)=(b_a+f\mu^2)(b_b+f\mu^2)
+-i(3\Omega_m/2)(\mu/k_c)(b_a-b_b)+\mathcal{O}(k_c^{-2}), where P(k) is the
+real-space mass-density power spectrum, b_i are the galaxy biases, \mu is the
+cosine of the angle between the wavevector and line of sight, and f=dlnD/dlna
+(D is the linear growth factor). The total signal-to-noise of measurements of
+this effect is not dominated by the largest scales -- it converges at k~0.05
+h/Mpc. This gravitational redshift result is pedagogically interesting, but
+naive in that it is gauge dependent and there are other effects of similar form
+and size, related to the transformation between observable and proper
+coordinates. I include these effects, which add other contributions to the
+coefficient of \mu/k_c, and add a \mu^3/k_c term, but don't qualitatively
+change the picture. The leading source of noise in the measurement is galaxy
+shot-noise, not sample variance, so developments that allow higher S/N surveys
+can make this measurement powerful, although it would otherwise be only
+marginally detectable in a JDEM-scale survey.

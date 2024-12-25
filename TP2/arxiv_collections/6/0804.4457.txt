@@ -1,0 +1,16 @@
+Many artificial intelligence (AI) problems naturally map to NP-hard
+optimization problems. This has the interesting consequence that enabling
+human-level capability in machines often requires systems that can handle
+formally intractable problems. This issue can sometimes (but possibly not
+always) be resolved by building special-purpose heuristic algorithms, tailored
+to the problem in question. Because of the continued difficulties in automating
+certain tasks that are natural for humans, there remains a strong motivation
+for AI researchers to investigate and apply new algorithms and techniques to
+hard AI problems. Recently a novel class of relevant algorithms that require
+quantum mechanical hardware have been proposed. These algorithms, referred to
+as quantum adiabatic algorithms, represent a new approach to designing both
+complete and heuristic solvers for NP-hard optimization problems. In this work
+we describe how to formulate image recognition, which is a canonical NP-hard AI
+problem, as a Quadratic Unconstrained Binary Optimization (QUBO) problem. The
+QUBO format corresponds to the input format required for D-Wave superconducting
+adiabatic quantum computing (AQC) processors.

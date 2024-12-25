@@ -1,0 +1,10 @@
+This technical note supplies an affirmative answer to a question raised in a
+recent pre-print [arXiv:0910.1879] in the context of a "matrix recovery"
+problem. Assume one samples m Hermitian matrices X_1, ..., X_m with replacement
+from a finite collection. The deviation of the sum X_1+...+X_m from its
+expected value in terms of the operator norm can be estimated by an "operator
+Chernoff-bound" due to Ahlswede and Winter. The question arose whether the
+bounds obtained this way continue to hold if the matrices are sampled without
+replacement. We remark that a positive answer is implied by a classical
+argument by Hoeffding. Some consequences for the matrix recovery problem are
+sketched.

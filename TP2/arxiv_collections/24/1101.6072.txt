@@ -1,0 +1,19 @@
+The sensitivity of the Large Area Telescope (LAT) aboard the Fermi Gamma-ray
+Space Telescope allows detection of thousands of new gamma-ray sources and
+detailed characterization of the spectra and variability of bright sources.
+Unsurprisingly, this increased capability leads to increased complexity in data
+analysis. Likelihood methods are ideal for connecting models with data, but the
+computational cost of folding the model input through the multi-scale
+instrument response function is appreciable. Both interactive analysis and
+large projects---such as analysis of the full gamma-ray sky---can be
+prohibitive or impossible, reducing the scope of the science possible with the
+LAT. To improve on this situation, we have developed pointlike, a software
+package for fast maximum likelihood analysis of LAT data. It is interactive by
+design and its rapid evaluation of the likelihood facilitates exploratory and
+large-scale, all-sky analysis. We detail its implementation and validate its
+performance on simulated data. We demonstrate its capability for interactive
+analysis and present several all-sky analyses. These include a search for new
+gamma-ray sources and the selection of LAT sources with pulsar-like
+characteristics for targeted radio pulsation searches. We conclude by
+developing sensitive periodicity tests incorporating spectral information
+obtained from pointlike.

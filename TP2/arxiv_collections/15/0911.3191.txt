@@ -1,0 +1,14 @@
+Modern graphics hardware is designed for highly parallel numerical tasks and
+promises significant cost and performance benefits for many scientific
+applications. One such application is lattice quantum chromodyamics (lattice
+QCD), where the main computational challenge is to efficiently solve the
+discretized Dirac equation in the presence of an SU(3) gauge field. Using
+NVIDIA's CUDA platform we have implemented a Wilson-Dirac sparse matrix-vector
+product that performs at up to 40 Gflops, 135 Gflops and 212 Gflops for double,
+single and half precision respectively on NVIDIA's GeForce GTX 280 GPU. We have
+developed a new mixed precision approach for Krylov solvers using reliable
+updates which allows for full double precision accuracy while using only single
+or half precision arithmetic for the bulk of the computation. The resulting
+BiCGstab and CG solvers run in excess of 100 Gflops and, in terms of iterations
+until convergence, perform better than the usual defect-correction approach for
+mixed precision.

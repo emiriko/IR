@@ -1,0 +1,20 @@
+We consider the following \emph{model repair problem}: given a finite Kripke
+structure $M$ and a specification formula $\eta$ in some modal or temporal
+logic, determine if $M$ contains a substructure $M'$ (with the same initial
+state) that satisfies $\eta$. Thus, $M$ can be ``repaired'' to satisfy the
+specification $\eta$ by deleting some transitions.
+  We map an instance $(M, \eta)$ of model repair to a boolean formula
+$\repfor(M,\eta)$ such that $(M, \eta)$ has a solution iff $\repfor(M,\eta)$ is
+satisfiable. Furthermore, a satisfying assignment determines which transitions
+must be removed from $M$ to generate a model $M'$ of $\eta$. Thus, we can use
+any SAT solver to repair Kripke structures. Furthermore, using a complete SAT
+solver yields a complete algorithm: it always finds a repair if one exists.
+  We extend our method to repair finite-state shared memory concurrent
+programs, to solve the discrete event supervisory control problem
+\cite{RW87,RW89}, to check for the existence of symmettric solutions
+\cite{ES93}, and to accomodate any boolean constraint on the existence of
+states and transitions in the repaired model.
+  Finally, we show that model repair is NP-complete for CTL, and logics with
+polynomial model checking algorithms to which CTL can be reduced in polynomial
+time. A notable example of such a logic is Alternating-Time Temporal Logic
+(ATL).

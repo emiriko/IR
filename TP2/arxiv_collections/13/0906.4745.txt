@@ -1,0 +1,16 @@
+A computational method is presented which efficiently segments digital
+grayscale images by directly applying the Q-state Ising (or Potts) model. Since
+the Potts model was first proposed in 1952, physicists have studied lattice
+models to gain deep insights into magnetism and other disordered systems. For
+some time, researchers have realized that digital images may be modeled in much
+the same way as these physical systems (i.e., as a square lattice of numerical
+values). A major drawback in using Potts model methods for image segmentation
+is that, with conventional methods, it processes in exponential time. Advances
+have been made via certain approximations to reduce the segmentation process to
+power-law time. However, in many applications (such as for sonar imagery),
+real-time processing requires much greater efficiency. This article contains a
+description of an energy minimization technique that applies four Potts
+(Q-Ising) models directly to the image and processes in linear time. The result
+is analogous to partitioning the system into regions of four classes of
+magnetism. This direct Potts segmentation technique is demonstrated on
+photographic, medical, and acoustic images.

@@ -1,0 +1,19 @@
+In this paper we develop further a method for detecting unstable periodic
+orbits (UPOs) by stabilising transformations, where the strategy is to
+transform the system of interest in such a way that the orbits become stable.
+The main difficulty of using this method is that the number of transformations,
+which were used in the past, becomes overwhelming as we move to higher
+dimensions (Davidchack and Lai 1999; Schmelcher et al. 1997, 1998). We have
+recently proposed a set of stabilising transformations which is constructed
+from a small set of already found UPOs (Crofts and Davidchack 2006). The main
+benefit of using the proposed set is that its cardinality depends on the
+dimension of the unstable manifold at the UPO rather than the dimension of the
+system. In a typical situation the dimension of the unstable manifold is much
+smaller than the dimension of the system so the number of transformations is
+much smaller. Here we extend this approach to high-dimensional systems of ODEs
+and apply it to the model example of a chaotic spatially extended system -- the
+Kuramoto-Sivashinsky equation. A comparison is made between the performance of
+this new method against the competing methods of Newton-Armijo (NA) and
+Levernberg-Marquardt (LM). In the latter case, we take advantage of the fact
+that the LM algorithm is able to solve under-determined systems of equations,
+thus eliminating the need for any additional constraints.

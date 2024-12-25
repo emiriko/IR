@@ -1,0 +1,14 @@
+Voice over IP (VoIP) is unquestionably the most popular real-time service in
+IP networks today. Recent studies have shown that it is also a suitable carrier
+for information hiding. Hidden communication may pose security concerns as it
+can lead to confidential information leakage. In VoIP, RTP (Real-time Transport
+Protocol) in particular, which provides the means for the successful transport
+of voice packets through IP networks, is suitable for steganographic purposes.
+It is characterised by a high packet rate compared to other protocols used in
+IP telephony, resulting in a potentially high steganographic bandwidth. The
+modification of an RTP packet stream provides many opportunities for hidden
+communication as the packets may be delayed, reordered or intentionally lost.
+In this paper, to enable the detection of steganographic exchanges in VoIP, we
+examined real RTP traffic traces to answer the questions, what do the "normal"
+delays in RTP packet streams look like? and, is it possible to detect the use
+of known RTP steganographic methods based on this knowledge?

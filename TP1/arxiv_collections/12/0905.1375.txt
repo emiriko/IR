@@ -1,0 +1,14 @@
+We study a fingerprinting game in which the collusion channel is unknown. The
+encoder embeds fingerprints into a host sequence and provides the decoder with
+the capability to trace back pirated copies to the colluders.
+  Fingerprinting capacity has recently been derived as the limit value of a
+sequence of maxmin games with mutual information as the payoff function.
+However, these games generally do not admit saddle-point solutions and are very
+hard to solve numerically. Here under the so-called Boneh-Shaw marking
+assumption, we reformulate the capacity as the value of a single two-person
+zero-sum game, and show that it is achieved by a saddle-point solution.
+  If the maximal coalition size is $k$ and the fingerprint alphabet is binary,
+we derive equations that can numerically solve the capacity game for arbitrary
+$k$. We also provide tight upper and lower bounds on the capacity. Finally, we
+discuss the asymptotic behavior of the fingerprinting game for large $k$ and
+practical implementation issues.

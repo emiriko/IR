@@ -1,0 +1,9 @@
+We present a case study of formal verification of full-wave rectifier for
+analog and mixed signal designs. We have used the Checkmate tool from CMU [1],
+which is a public domain formal verification tool for hybrid systems. Due to
+the restriction imposed by Checkmate it necessitates to make the changes in the
+Checkmate implementation to implement the complex and non-linear system.
+Full-wave rectifier has been implemented by using the Checkmate custom blocks
+and the Simulink blocks from MATLAB from Math works. After establishing the
+required changes in the Checkmate implementation we are able to efficiently
+verify the safety properties of the full-wave rectifier.

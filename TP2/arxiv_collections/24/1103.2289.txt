@@ -1,0 +1,22 @@
+We consider distributed algorithms for data aggregation and function
+computation in sensor networks. The algorithms perform pairwise computations
+along edges of an underlying communication graph. A token is associated with
+each sensor node, which acts as a transmission permit. Nodes with active tokens
+have transmission permits; they generate messages at a constant rate and send
+each message to a randomly selected neighbor. By using different strategies to
+control the transmission permits we can obtain tradeoffs between message and
+time complexity. Gossip corresponds to the case when all nodes have permits all
+the time. We study algorithms where permits are revoked after transmission and
+restored upon reception. Examples of such algorithms include Simple-Random
+Walk(SRW), Coalescent-Random-Walk(CRW) and Controlled Flooding(CFLD) and their
+hybrid variants. SRW has a single node permit, which is passed on in the
+network. CRW, initially initially has a permit for each node but these permits
+are revoked gradually. The final result for SRW and CRW resides at a single(or
+few) random node(s) making a direct comparison with GOSSIP difficult. A hybrid
+two-phase algorithm switching from CRW to CFLD at a suitable pre-determined
+time can be employed to achieve consensus. We show that such hybrid variants
+achieve significant gains in both message and time complexity. The per-node
+message complexity for n-node graphs, such as 2D mesh, torii, and Random
+geometric graphs, scales as $O(polylog(n))$ and the corresponding time
+complexity scales as O(n). The reduced per-node message complexity leads to
+reduced energy utilization in sensor networks.

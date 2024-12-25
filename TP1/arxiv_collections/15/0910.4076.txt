@@ -1,0 +1,21 @@
+We consider an infinite dimensional diffusion on $T^{\mathbb Z^d}$, where $T$
+is the circle, defined by an infinitesimal generator of the form
+$L=\sum_{i\in\mathbb Z^d}\left(\frac{a_i(\eta)}{2}\partial^2_i
++b_i(\eta)\partial_i\right)$, with $\eta\in T^{\mathbb Z^d}$, where the
+coefficients $a_i,b_i$ are of finite range, bounded with uniformly bounded
+second order partial derivatives and the ellipticity assumption
+$\inf_{i,\eta}a_i(\eta)>0$ is satisfied. We prove that whenever $\nu$ is an
+invariant Gibbs measure for this diffusion satisfying the logarithmic Sobolev
+inequality, then the dynamics is exponentially ergodic in the uniform norm, and
+hence $\nu$ is the unique invariant measure. As an application of this result,
+we prove that if $A=\sum_{i\in\mathbb Z^d}c_i(\eta)\partial_i$, and $c_i$
+satisfy the condition $\sum_{i\in\mathbb Z^d} \int c_i^2d\nu<\infty$, then
+there is an $\epsilon_c>0$, such that for every $\epsilon\in
+(-\epsilon_c,\epsilon_c)$, the infinite dimensional diffusion with generator
+$L_\epsilon=L+\epsilon A$, has a unique invariant measure $\nu_\epsilon$ having
+a Radon-Nikodym derivative $g_\epsilon$ with respect to $\nu$, which admits the
+analytic expansion $g_\epsilon=\sum_{k=0}^\infty \epsilon^k f_k$, where $f_k\in
+L_2[\nu]$ are defined through $f_0=1$, $\int f_kd\nu=0$ and the recurrence
+equations $L^*f_{k+1}=A^*f_k$. We give an example where through this expansion
+we are able to quantify the effect on the invariant measure of a perturbation
+triggering interaction on independent diffusions.

@@ -1,0 +1,12 @@
+A partial monoid $P$ is a set with a partial multiplication $\times$ (and
+total identity $1_P$) which satisfies some associativity axiom. The partial
+monoid $P$ may be embedded in a free monoid $P^*$ and the product $\star$ is
+simulated by a string rewriting system on $P^*$ that consists in evaluating the
+concatenation of two letters as a product in $P$, when it is defined, and a
+letter $1_P$ as the empty word $\epsilon$. In this paper we study the profound
+relations between confluence for such a system and associativity of the
+multiplication. Moreover we develop a reduction strategy to ensure confluence
+and which allows us to define a multiplication on normal forms associative up
+to a given congruence of $P^*$. Finally we show that this operation is
+associative if, and only if, the rewriting system under consideration is
+confluent.

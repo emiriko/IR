@@ -1,0 +1,6 @@
+This report presents the implementation of a protein sequence comparison
+algorithm specifically designed for speeding up time consuming part on parallel
+hardware such as SSE instructions, multicore architectures or graphic boards.
+Three programs have been developed: PLAST-P, TPLAST-N and PLAST-X. They provide
+equivalent results compared to the NCBI BLAST family programs (BLAST-P,
+TBLAST-N and BLAST-X) with a speed-up factor ranging from 5 to 10.

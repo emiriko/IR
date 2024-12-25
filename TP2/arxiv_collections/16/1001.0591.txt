@@ -1,0 +1,22 @@
+Starting with a similarity function between objects, it is possible to define
+a distance metric on pairs of objects, and more generally on probability
+distributions over them. These distance metrics have a deep basis in functional
+analysis, measure theory and geometric measure theory, and have a rich
+structure that includes an isometric embedding into a (possibly infinite
+dimensional) Hilbert space. They have recently been applied to numerous
+problems in machine learning and shape analysis.
+  In this paper, we provide the first algorithmic analysis of these distance
+metrics. Our main contributions are as follows: (i) We present fast
+approximation algorithms for computing the kernel distance between two point
+sets P and Q that runs in near-linear time in the size of (P cup Q) (note that
+an explicit calculation would take quadratic time). (ii) We present
+polynomial-time algorithms for approximately minimizing the kernel distance
+under rigid transformation; they run in time O(n + poly(1/epsilon, log n)).
+(iii) We provide several general techniques for reducing complex objects to
+convenient sparse representations (specifically to point sets or sets of points
+sets) which approximately preserve the kernel distance. In particular, this
+allows us to reduce problems of computing the kernel distance between various
+types of objects such as curves, surfaces, and distributions to computing the
+kernel distance between point sets. These take advantage of the reproducing
+kernel Hilbert space and a new relation linking binary range spaces to
+continuous range spaces with bounded fat-shattering dimension.

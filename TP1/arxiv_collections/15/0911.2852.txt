@@ -1,0 +1,18 @@
+We present an Evolutionary Placement Algorithm (EPA) for the rapid assignment
+of sequence fragments (short reads) to branches of a given phylogenetic tree
+under the Maximum Likelihood (ML) model. The accuracy of the algorithm is
+evaluated on several real-world data sets and compared to placement by
+pair-wise sequence comparison, using edit distances and BLAST.
+  We test two versions of the placement algorithm, one slow and more accurate
+where branch length optimization is conducted for each short read insertion and
+a faster version where the branch lengths are approximated at the insertion
+position. For the slow version, additional heuristic techniques are explored
+that almost yield the same run time as the fast version, with only a small loss
+of accuracy. When those additional heuristics are employed the run time of the
+more accurate algorithm is comparable to that of a simple BLAST search for data
+sets with a high number of short query sequences. Moreover, the accuracy of the
+Evolutionary Placement Algorithm is significantly higher, in particular when
+the taxon sampling of the reference topology is sparse or inadequate. Our
+algorithm, which has been integrated into RAxML, therefore provides an equally
+fast but more accurate alternative to BLAST for phylogeny-aware analysis of
+short-read sequence data.

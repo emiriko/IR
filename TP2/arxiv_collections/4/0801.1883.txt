@@ -1,0 +1,10 @@
+We introduce a novel online Bayesian method for the identification of a
+family of noisy recurrent neural networks (RNNs). We develop Bayesian active
+learning technique in order to optimize the interrogating stimuli given past
+experiences. In particular, we consider the unknown parameters as stochastic
+variables and use the D-optimality principle, also known as `\emph{infomax
+method}', to choose optimal stimuli. We apply a greedy technique to maximize
+the information gain concerning network parameters at each time step. We also
+derive the D-optimal estimation of the additive noise that perturbs the
+dynamical system of the RNN. Our analytical results are approximation-free. The
+analytic derivation gives rise to attractive quadratic update rules.

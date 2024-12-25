@@ -1,0 +1,13 @@
+We propose a novel approach to quasiparticle GW calculations which does not
+require the computation of unoccupied electronic states. In our approach the
+screened Coulomb interaction is evaluated by solving self-consistent
+linear-response Sternheimer equations, and the noninteracting Green's function
+is evaluated by solving inhomogeneous linear systems. The frequency-dependence
+of the screened Coulomb interaction is explicitly taken into account. In order
+to avoid the singularities of the screened Coulomb interaction the calculations
+are performed along the imaginary axis, and the results are analytically
+continued to the real axis through Pade' approximants. As a proof of concept we
+implemented the proposed methodology within the empirical pseudopotential
+formalism and we validated our implementation using silicon as a test case. We
+examine the advantages and limitations of our method and describe promising
+future directions.

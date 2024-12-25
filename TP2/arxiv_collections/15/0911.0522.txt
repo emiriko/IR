@@ -1,0 +1,12 @@
+The Adaptive Metropolis (AM) algorithm is based on the symmetric random-walk
+Metropolis algorithm. The proposal distribution has the following
+time-dependent covariance matrix at step $n+1$ \[
+  S_n = Cov(X_1,...,X_n) + \epsilon I, \] that is, the sample covariance matrix
+of the history of the chain plus a (small) constant $\epsilon>0$ multiple of
+the identity matrix $I$. The lower bound on the eigenvalues of $S_n$ induced by
+the factor $\epsilon I$ is theoretically convenient, but practically
+cumbersome, as a good value for the parameter $\epsilon$ may not always be easy
+to choose. This article considers variants of the AM algorithm that do not
+explicitly bound the eigenvalues of $S_n$ away from zero. The behaviour of
+$S_n$ is studied in detail, indicating that the eigenvalues of $S_n$ do not
+tend to collapse to zero in general.

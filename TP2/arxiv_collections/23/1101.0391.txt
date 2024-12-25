@@ -1,0 +1,14 @@
+We propose a Bayesian inference approach for a class of latent Markov models.
+These models are widely used for the analysis of longitudinal categorical data,
+when the interest is in studying the evolution of an individual unobservable
+characteristic. We consider, in particular, the basic latent Markov, which does
+not account for individual covariates, and its version that includes such
+covariates in the measurement model. The proposed inferential approach is based
+on a system of priors formulated on a transformation of the initial and
+transition probabilities of the latent Markov chain. This system of priors is
+equivalent to one based on Dirichlet distributions. In order to draw samples
+from the joint posterior distribution of the parameters and the number of
+latent states, we implement a reversible jump algorithm which alternates moves
+of Metropolis-Hastings type with moves of split/combine and birth/death types.
+The proposed approach is illustrated through two applications based on
+longitudinal datasets.

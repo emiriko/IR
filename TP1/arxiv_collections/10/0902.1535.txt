@@ -1,0 +1,23 @@
+(Abridged) We present an implementation of stellar evolution and chemical
+feedback for smoothed particle hydrodynamics (SPH) simulations. We consider the
+timed release of individual elements by both massive (Type II supernovae and
+stellar winds) and intermediate mass stars (Type Ia supernovae and asymptotic
+giant branch stars). We illustrate the results of our method using a suite of
+cosmological simulations that include new prescriptions for radiative cooling,
+star formation, and galactic winds. Radiative cooling is implemented
+element-by-element, in the presence of an ionizing radiation background, and we
+track all 11 elements that contribute significantly to the radiative cooling.
+We contrast two reasonable definitions of the metallicity of a resolution
+element and find that while they agree for high metallicities, there are large
+differences at low metallicities. We argue the discrepancy is indicative of the
+lack of metal mixing caused by the fact that metals are stuck to particles. We
+argue that since this is a (numerical) sampling problem, solving it using a
+poorly constrained physical process such as diffusion could have undesired
+consequences. We demonstrate that the two metallicity definitions result in
+redshift z = 0 stellar masses that can differ by up to a factor of two, because
+of the sensitivity of the cooling rates to the elemental abundances. We find
+that by z = 0 most of the metals are locked up in stars. The gaseous metals are
+distributed over a very wide range of gas densities and temperatures. The
+shock-heated warm-hot intergalactic medium has a relatively high metallicity of
+~ 10^-1 Z_sun that evolves only weakly and is therefore an important reservoir
+of metals.

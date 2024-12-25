@@ -1,0 +1,21 @@
+We consider the problem of learning a structured multi-task regression, where
+the output consists of multiple responses that are related by a graph and the
+correlated response variables are dependent on the common inputs in a sparse
+but synergistic manner. Previous methods such as l1/l2-regularized multi-task
+regression assume that all of the output variables are equally related to the
+inputs, although in many real-world problems, outputs are related in a complex
+manner. In this paper, we propose graph-guided fused lasso (GFlasso) for
+structured multi-task regression that exploits the graph structure over the
+output variables. We introduce a novel penalty function based on fusion penalty
+to encourage highly correlated outputs to share a common set of relevant
+inputs. In addition, we propose a simple yet efficient proximal-gradient method
+for optimizing GFlasso that can also be applied to any optimization problems
+with a convex smooth loss and the general class of fusion penalty defined on
+arbitrary graph structures. By exploiting the structure of the non-smooth
+''fusion penalty'', our method achieves a faster convergence rate than the
+standard first-order method, sub-gradient method, and is significantly more
+scalable than the widely adopted second-order cone-programming and
+quadratic-programming formulations. In addition, we provide an analysis of the
+consistency property of the GFlasso model. Experimental results not only
+demonstrate the superiority of GFlasso over the standard lasso but also show
+the efficiency and scalability of our proximal-gradient method.

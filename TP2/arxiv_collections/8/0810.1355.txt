@@ -1,0 +1,24 @@
+A large body of work has been devoted to defining and identifying clusters or
+communities in social and information networks. We explore from a novel
+perspective several questions related to identifying meaningful communities in
+large social and information networks, and we come to several striking
+conclusions. We employ approximation algorithms for the graph partitioning
+problem to characterize as a function of size the statistical and structural
+properties of partitions of graphs that could plausibly be interpreted as
+communities. In particular, we define the network community profile plot, which
+characterizes the "best" possible community--according to the conductance
+measure--over a wide range of size scales. We study over 100 large real-world
+social and information networks. Our results suggest a significantly more
+refined picture of community structure in large networks than has been
+appreciated previously. In particular, we observe tight communities that are
+barely connected to the rest of the network at very small size scales; and
+communities of larger size scales gradually "blend into" the expander-like core
+of the network and thus become less "community-like." This behavior is not
+explained, even at a qualitative level, by any of the commonly-used network
+generation models. Moreover, it is exactly the opposite of what one would
+expect based on intuition from expander graphs, low-dimensional or
+manifold-like graphs, and from small social networks that have served as
+testbeds of community detection algorithms. We have found that a generative
+graph model, in which new edges are added via an iterative "forest fire"
+burning process, is able to produce graphs exhibiting a network community
+profile plot similar to what we observe in our network datasets.

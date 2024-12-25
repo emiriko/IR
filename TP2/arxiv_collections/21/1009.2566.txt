@@ -1,0 +1,15 @@
+This paper introduces an approach to Reinforcement Learning Algorithm by
+comparing their immediate rewards using a variation of Q-Learning algorithm.
+Unlike the conventional Q-Learning, the proposed algorithm compares current
+reward with immediate reward of past move and work accordingly. Relative reward
+based Q-learning is an approach towards interactive learning. Q-Learning is a
+model free reinforcement learning method that used to learn the agents. It is
+observed that under normal circumstances algorithm take more episodes to reach
+optimal Q-value due to its normal reward or sometime negative reward. In this
+new form of algorithm agents select only those actions which have a higher
+immediate reward signal in comparison to previous one. The contribution of this
+article is the presentation of new Q-Learning Algorithm in order to maximize
+the performance of algorithm and reduce the number of episode required to reach
+optimal Q-value. Effectiveness of proposed algorithm is simulated in a 20 x20
+Grid world deterministic environment and the result for the two forms of
+Q-Learning Algorithms is given.

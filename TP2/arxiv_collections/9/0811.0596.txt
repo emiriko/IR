@@ -1,0 +1,15 @@
+We achieve a quantum speed-up of fully polynomial randomized approximation
+schemes (FPRAS) for estimating partition functions that combine simulated
+annealing with the Monte-Carlo Markov Chain method and use non-adaptive cooling
+schedules. The improvement in time complexity is twofold: a quadratic reduction
+with respect to the spectral gap of the underlying Markov chains and a
+quadratic reduction with respect to the parameter characterizing the desired
+accuracy of the estimate output by the FPRAS. Both reductions are intimately
+related and cannot be achieved separately.
+  First, we use Grover's fixed point search, quantum walks and phase estimation
+to efficiently prepare approximate coherent encodings of stationary
+distributions of the Markov chains. The speed-up we obtain in this way is due
+to the quadratic relation between the spectral and phase gaps of classical and
+quantum walks. Second, we generalize the method of quantum counting, showing
+how to estimate expected values of quantum observables. Using this method
+instead of classical sampling, we obtain the speed-up with respect to accuracy.

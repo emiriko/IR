@@ -1,0 +1,17 @@
+The EM procedure is a principal tool for parameter estimation in the hidden
+Markov models. However, applications replace EM by Viterbi extraction, or
+training (VT). VT is computationally less intensive, more stable and has more
+of an intuitive appeal, but VT estimation is biased and does not satisfy the
+following fixed point property. Hypothetically, given an infinitely large
+sample and initialized to the true parameters, VT will generally move away from
+the initial values. We propose adjusted Viterbi training (VA), a new method to
+restore the fixed point property and thus alleviate the overall imprecision of
+the VT estimators, while preserving the computational advantages of the
+baseline VT algorithm. Simulations elsewhere have shown that VA appreciably
+improves the precision of estimation in both the special case of mixture models
+and more general HMMs. However, being entirely analytic, the VA correction
+relies on infinite Viterbi alignments and associated limiting probability
+distributions. While explicit in the mixture case, the existence of these
+limiting measures is not obvious for more general HMMs. This paper proves that
+under certain mild conditions, the required limiting distributions for general
+HMMs do exist.

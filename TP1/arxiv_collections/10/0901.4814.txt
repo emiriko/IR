@@ -1,0 +1,9 @@
+This paper presents a recursive secret sharing technique that distributes k-1
+secrets of length b each into n shares such that each share is effectively of
+length (n/(k-1))*b and any k pieces suffice for reconstructing all the k-1
+secrets. Since n/(k-1) is near the optimal factor of n/k, and can be chosen to
+be close to 1, the proposed technique is space efficient. Furthermore, each
+share is information theoretically secure, i.e. it does not depend on any
+unproven assumption of computational intractability. Such a recursive technique
+has potential applications in secure and reliable storage of information on the
+Web and in sensor networks.

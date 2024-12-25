@@ -1,0 +1,16 @@
+In operational networks, nodes are connected via multiple links for load
+sharing and redundancy. This is done to make sure that a failure of a link does
+not disconnect or isolate some parts of the network. However, link failures
+have an effect on routing, as the routers find alternate paths for the traffic
+originally flowing through the link which has failed. This effect is severe in
+case of failure of a critical link in the network, such as backbone links or
+the links carrying higher traffic loads. When routing is done using the Open
+Shortest Path First (OSPF) routing protocol, the original weight selection for
+the normal state topology may not be as efficient for the failure state. In
+this paper, we investigate the single link failure issue with an objective to
+find a weight setting which results in efficient routing in normal and failure
+states. We engineer Tabu Search Iterative heuristic using two different
+implementation strategies to solve the OSPF weight setting problem for link
+failure scenarios. We evaluate these heuristics and show through experimental
+results that both heuristics efficiently handle weight setting for the failure
+state. A comparison of both strategies is also presented.

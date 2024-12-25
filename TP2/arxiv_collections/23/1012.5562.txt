@@ -1,0 +1,11 @@
+We introduce a modified version of the well-known dependency pair framework
+that is suitable for the termination analysis of rewriting under forbidden
+pattern restrictions. By attaching contexts to dependency pairs that represent
+the calling contexts of the corresponding recursive function calls, it is
+possible to incorporate the forbidden pattern restrictions in the (adapted)
+notion of dependency pair chains, thus yielding a sound and complete approach
+to termination analysis. Building upon this contextual dependency pair
+framework we introduce a dependency pair processor that simplifies problems by
+analyzing the contextual information of the dependency pairs. Moreover, we show
+how this processor can be used to synthesize forbidden patterns suitable for a
+given term rewriting system on-the-fly during the termination analysis.

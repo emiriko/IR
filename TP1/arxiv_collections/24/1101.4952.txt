@@ -1,0 +1,23 @@
+We present a general method to analyze reverberation mapping data that
+provides both estimates for the black hole mass and for the geometry and
+dynamics of the broad line region (BLR) in active galactic nuclei (AGN). Our
+method directly infers the spatial and velocity distribution of the BLR from
+the data, allowing us to easily derive a velocity-resolved transfer function
+and allowing for a self-consistent estimate of the black hole mass without a
+virial coefficient. We obtain estimates and reasonable uncertainties of the BLR
+model parameters by implementing a Markov Chain Monte Carlo algorithm using the
+formalism of Bayesian probability theory. We use Gaussian Processes to
+interpolate the the continuum light curve data and create mock light curves
+that can be fitted to the data. We test our method by creating simulated
+reverberation mapping data-sets with known true parameter values and by trying
+to recover these parameter values using our models. We are able to recover the
+parameters with realistic uncertainties that depend upon the variability of the
+AGN and the quality of the reverberation mapping campaign. With a geometry
+model we can recover the mean radius of the BLR to within ~0.1dex random
+uncertainty for simulated data with an integrated line flux uncertainty of
+1.5%, while with a dynamical model we can recover the black hole mass and the
+mean radius to within ~0.05dex random uncertainty, for simulated data with a
+line profile average signal to noise ratio of 4 per spectral pixel. These
+uncertainties do not include modeling errors, which are likely to be present in
+the analysis of real data, and should therefore be considered as lower limits
+to the accuracy of the method.

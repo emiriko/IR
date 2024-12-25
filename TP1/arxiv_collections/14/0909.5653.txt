@@ -1,0 +1,11 @@
+The performance of two pivoting algorithms, due to Lemke and Cottle and
+Dantzig, is studied on linear complementarity problems (LCPs) that arise from
+infinite games, such as parity, average-reward, and discounted games. The
+algorithms have not been previously studied in the context of infinite games,
+and they offer alternatives to the classical strategy-improvement algorithms.
+The two algorithms are described purely in terms of discounted games, thus
+bypassing the reduction from the games to LCPs, and hence facilitating a better
+understanding of the algorithms when applied to games. A family of parity games
+is given, on which both algorithms run in exponential time, indicating that in
+the worst case they perform no better for parity, average-reward, or discounted
+games than they do for general P-matrix LCPs.

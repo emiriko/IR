@@ -1,0 +1,17 @@
+The method of surrogates is widely used in the field of nonlinear data
+analysis for testing for weak nonlinearities. The two most commonly used
+algorithms for generating surrogates are the amplitude adjusted Fourier
+transform (AAFT) and the iterated amplitude adjusted Fourier transfom (IAAFT)
+algorithm. Both the AAFT and IAAFT algorithm conserve the amplitude
+distribution in real space and reproduce the power spectrum (PS) of the
+original data set very accurately. The basic assumption in both algorithms is
+that higher-order correlations can be wiped out using a Fourier phase
+randomization procedure. In both cases, however, the randomness of the Fourier
+phases is only imposed before the (first) Fourier back tranformation. Until
+now, it has not been studied how the subsequent remapping and iteration steps
+may affect the randomness of the phases. Using the Lorenz system as an example,
+we show that both algorithms may create surrogate realizations containing
+Fourier phase correlations. We present two new iterative surrogate data
+generating methods being able to control the randomization of Fourier phases at
+every iteration step. The resulting surrogate realizations which are truly
+linear by construction display all properties needed for surrogate data.

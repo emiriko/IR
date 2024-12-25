@@ -1,0 +1,20 @@
+The Space multi-band Variable Object Monitor (SVOM) is a proposed Chinese
+astronomical satellite, dedicated to the detection, localization and
+measurement of the gamma-ray bursts (GRBs) on the cosmological scale. An
+efficient algorithm is developed for the purpose of onboard star extraction
+from the CCD images obtained with the Visible Telescope (VT) on board SVOM. The
+CCD pixel coordinates of the reference stars will be used to refine the
+astronomical position of the satellite, which will facilitate trigger rapid
+ground-based follow-up obsevations of the GRBs. In this algorithm, the image is
+divided into a number of grid cells and the "global" pixel-value maximum within
+each cell is taken as the first-guess position of a "bright" star. The correct
+center postion of a star is then computed using a simple iterative method.
+Applying two additional strategies, i.e., scanning the image only by even (or
+odd) lines or in a black-white chess board mode, are proposed to further reduce
+the time to extract the stars. To examine the efficiency of the above
+aglorithms, we applied them to the experimental images obtained with a
+ground-based telescope. We find that the accuracy of the astronomical
+positioning achieved by our method is comparable to that derived by using the
+conventional star-extraction method, while the former needs CPU time about 25
+times less than the latter. This will significantly improve the performance of
+the SVOM VT mission.

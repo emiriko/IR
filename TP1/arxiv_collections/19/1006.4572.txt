@@ -1,0 +1,10 @@
+We propose a framework for deployment and subsequent autonomic management of
+component-based distributed applications. An initial deployment goal is
+specified using a declarative constraint language, expressing constraints over
+aspects such as component-host mappings and component interconnection topology.
+A constraint solver is used to find a configuration that satisfies the goal,
+and the configuration is deployed automatically. The deployed application is
+instrumented to allow subsequent autonomic management. If, during execution,
+the manager detects that the original goal is no longer being met, the
+satisfy/deploy process can be repeated automatically in order to generate a
+revised deployment that does meet the goal.

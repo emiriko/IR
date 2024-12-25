@@ -1,0 +1,15 @@
+Admission control is a key component in multimedia servers, which will allow
+the resources to be used by the client only when they are available. A problem
+faced by numerous content serving machines is overload, when there are too many
+clients who need to be served, the server tends to slow down. An admission
+control algorithm for a multimedia server is responsible for determining if a
+new request can be accepted without violating the QoS requirements of the
+existing requests in the system. By caching and streaming only the data in the
+interval between two successive requests on the same object, the following
+request can be serviced directly from the buffer cache without disk operations
+and within the deadline of the request. An admission control strategy based on
+Popularity-aware interval caching for Prefix [3] scheme extends the interval
+caching by considering different popularity of multimedia objects. The method
+of Prefix caching with multicast transmission of popular objects utilizes the
+hard disk and network bandwidth efficiently and increases the number of
+requests being served.

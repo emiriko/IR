@@ -1,0 +1,17 @@
+We present a state-of-the-art primordial recombination code, HyRec, including
+all the physical effects that have been shown to significantly affect
+recombination. The computation of helium recombination includes simple analytic
+treatments of hydrogen continuum opacity in the He I 2 1P - 1 1S line, the He
+I] 2 3P - 1 1S line, and treats feedback between these lines within the
+on-the-spot approximation. Hydrogen recombination is computed using the
+effective multilevel atom method, virtually accounting for an infinite number
+of excited states. We account for two-photon transitions from 2s and higher
+levels as well as frequency diffusion in Lyman-alpha with a full radiative
+transfer calculation. We present a new method to evolve the radiation field
+simultaneously with the level populations and the free electron fraction. These
+computations are sped up by taking advantage of the particular sparseness
+pattern of the equations describing the radiative transfer. The computation
+time for a full recombination history is ~2 seconds. This makes our code well
+suited for inclusion in Monte Carlo Markov chains for cosmological parameter
+estimation from upcoming high-precision cosmic microwave background anisotropy
+measurements.

@@ -1,0 +1,19 @@
+XML database query languages have been studied extensively, but XML database
+updates have received relatively little attention, and pose many challenges to
+language design. We are developing an XML update language called Flux, which
+stands for FunctionaL Updates for XML, drawing upon ideas from functional
+programming languages. In prior work, we have introduced a core language for
+Flux with a clear operational semantics and a sound, decidable static type
+system based on regular expression types.
+  Our initial proposal had several limitations. First, it lacked support for
+recursive types or update procedures. Second, although a high-level source
+language can easily be translated to the core language, it is difficult to
+propagate meaningful type errors from the core language back to the source.
+Third, certain updates are well-formed yet contain path errors, or ``dead''
+subexpressions which never do any useful work. It would be useful to detect
+path errors, since they often represent errors or optimization opportunities.
+  In this paper, we address all three limitations. Specifically, we present an
+improved, sound type system that handles recursion. We also formalize a source
+update language and give a translation to the core language that preserves and
+reflects typability. We also develop a path-error analysis (a form of dead-code
+analysis) for updates.

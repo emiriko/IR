@@ -1,0 +1,21 @@
+It is well known that links in CSMA wireless networks are prone to
+starvation. Prior works focused almost exclusively on equilibrium starvation.
+In this paper, we show that links in CSMA wireless networks are also
+susceptible to temporal starvation. Specifically, although some links have good
+equilibrium throughputs and do not suffer from equilibrium starvation, they can
+still have no throughput for extended periods from time to time. Given its
+impact on quality of service, it is important to understand and characterize
+temporal starvation. To this end, we develop a "trap theory" to analyze
+temporal throughput fluctuation. The trap theory serves two functions. First,
+it allows us to derive new mathematical results that shed light on the
+transient behavior of CSMA networks. For example, we show that the duration of
+a trap, during which some links receive no throughput, is insensitive to the
+distributions of the backoff countdown and transmission time (packet duration)
+in the CSMA protocol. Second, we can develop analytical tools for computing the
+"degrees of starvation" for CSMA networks to aid network design. For example,
+given a CSMA network, we can determine whether it suffers from starvation, and
+if so, which links will starve. Furthermore, the likelihood and durations of
+temporal starvation can also be computed. We believe that the ability to
+identify and characterize temporal starvation as established in this paper will
+serve as an important first step toward the design of effective remedies for
+it.

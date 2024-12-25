@@ -1,0 +1,5 @@
+Let X[0..n-1] and Y[0..m-1] be two sorted arrays, and define the mxn matrix A
+by A[j][i]=X[i]+Y[j]. Frederickson and Johnson gave an efficient algorithm for
+selecting the k-th smallest element from A. We show how to make this algorithm
+IO-efficient. Our cache-oblivious algorithm performs O((m+n)/B) IOs, where B is
+the block size of memory transfers.

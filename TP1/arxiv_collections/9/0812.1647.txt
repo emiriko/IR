@@ -1,0 +1,15 @@
+In this work, we present a new method for generating a threshold structure.
+This kind of structure can be advantageously used in various halftoning
+algorithms such as clustered-dot or dispersed-dot dithering, error diffusion
+with threshold modulation, etc. The proposed method is based on rectifiable
+polyominoes -- a non-periodic hierarchical structure, which tiles the Euclidean
+plane with no gaps. Each polyomino contains a fixed number of discrete
+threshold values. Thanks to its inherent non-periodic nature combined with
+off-line optimization of threshold values, our polyomino-based threshold
+structure shows blue-noise spectral properties. The halftone images produced
+with this threshold structure have high visual quality. Although the proposed
+method is general, and can be applied on any polyomino tiling, we consider one
+particular case: tiling with G-hexominoes. We compare our polyomino-based
+threshold structure with the best known state-of-the-art methods for generation
+threshold matrices, and conclude considerable improvement achieved with our
+method.

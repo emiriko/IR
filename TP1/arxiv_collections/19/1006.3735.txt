@@ -1,0 +1,25 @@
+In this paper we study a model of geometry of vision due to Petitot, Citti
+and Sarti. One of the main features of this model is that the primary visual
+cortex V1 lifts an image from $R^2$ to the bundle of directions of the plane.
+Neurons are grouped into orientation columns, each of them corresponding to a
+point of this bundle.
+  In this model a corrupted image is reconstructed by minimizing the energy
+necessary for the activation of the orientation columns corresponding to
+regions in which the image is corrupted. The minimization process intrinsically
+defines an hypoelliptic heat equation on the bundle of directions of the plane.
+  In the original model, directions are considered both with and without
+orientation, giving rise respectively to a problem on the group of
+rototranslations of the plane SE(2) or on the projective tangent bundle of the
+plane $PTR^2$.
+  We provide a mathematical proof of several important facts for this model. We
+first prove that the model is mathematically consistent only if directions are
+considered without orientation. We then prove that the convolution of a
+$L^2(R^2,R)$ function (e.g. an image) with a 2-D Gaussian is generically a
+Morse function. This fact is important since the lift of Morse functions to
+$PTR^2$ is defined on a smooth manifold. We then provide the explicit
+expression of the hypoelliptic heat kernel on $PTR^2$ in terms of Mathieu
+functions.
+  Finally, we present the main ideas of an algorithm which allows to perform
+image reconstruction on real non-academic images. A very interesting point is
+that this algorithm is massively parallelizable and needs no information on
+where the image is corrupted.

@@ -1,0 +1,17 @@
+This paper is the documentation for a numerical code for quantum transport
+called KNIT. The KNIT library implements a generalization of the well known
+recursive Green function technique for a large class of multi-terminal
+mesoscopic systems with arbitrary geometries, topology and dimension. The
+systems are described by tight-biding Hamiltonians (with arbitrary internal
+degree of freedom like spin, electron/hole grading, orbitals...) and the
+calculation done within the non equilibrium Green function formalism
+(equivalent to the Landauer-Buttiker Scattering approach). KNIT can (and has)
+been applied to many different physical systems including quantum Hall effect,
+topological insulators, graphene ribbons, hybrid superconducting systems and
+ferromagnetic multilayers. KNIT main functionality is written in C++ and
+wrapped into Python, providing a simple and flexible interface for the user.
+Usual "input files" of numerical codes are replaced by small python scripts
+where the user builds the system and then computes whatever observable
+(conductance, noise, local density of states...) is needed. KNIT code can be
+obtained freely at the following url:
+http://inac.cea.fr/Pisp/xavier.waintal/KNIT.php

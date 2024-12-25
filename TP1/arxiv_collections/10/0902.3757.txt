@@ -1,0 +1,10 @@
+We show that any distribution on {-1,1}^n that is k-wise independent fools
+any halfspace h with error \eps for k = O(\log^2(1/\eps) /\eps^2). Up to
+logarithmic factors, our result matches a lower bound by Benjamini,
+Gurel-Gurevich, and Peled (2007) showing that k = \Omega(1/(\eps^2 \cdot
+\log(1/\eps))). Using standard constructions of k-wise independent
+distributions, we obtain the first explicit pseudorandom generators G: {-1,1}^s
+--> {-1,1}^n that fool halfspaces. Specifically, we fool halfspaces with error
+eps and seed length s = k \log n = O(\log n \cdot \log^2(1/\eps) /\eps^2).
+  Our approach combines classical tools from real approximation theory with
+structural results on halfspaces by Servedio (Computational Complexity 2007).

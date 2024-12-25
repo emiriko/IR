@@ -1,0 +1,14 @@
+The paper questions the robustness of average case time complexity of the
+fast and popular quicksort algorithm. Among the six standard probability
+distributions examined in the paper, only continuous uniform, exponential and
+standard normal are supporting it whereas the others are supporting the worst
+case complexity measure. To the question -why are we getting the worst case
+complexity measure each time the average case measure is discredited? -- one
+logical answer is average case complexity under the universal distribution
+equals worst case complexity. This answer, which is hard to challenge, however
+gives no idea as to which of the standard probability distributions come under
+the umbrella of universality. The morale is that average case complexity
+measures, in cases where they are different from those in worst case, should be
+deemed as robust provided only they get the support from at least the standard
+probability distributions, both discrete and continuous. Regretfully, this is
+not the case with quicksort.

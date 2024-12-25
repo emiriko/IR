@@ -1,0 +1,4 @@
+We describe a new algorithm for computing exp(f) where f is a power series in
+C[[x]]. If M(n) denotes the cost of multiplying polynomials of degree n, the
+new algorithm costs (2.1666... + o(1)) M(n) to compute exp(f) to order n. This
+improves on the previous best result, namely (2.333... + o(1)) M(n).

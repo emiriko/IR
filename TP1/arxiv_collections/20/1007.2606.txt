@@ -1,0 +1,24 @@
+Numerical methods for solving the ideal magnetohydrodynamic (MHD) equations
+in more than one space dimension must either confront the challenge of
+controlling errors in the discrete divergence of the magnetic field, or else be
+faced with nonlinear numerical instabilities. One approach for controlling the
+discrete divergence is through a so-called constrained transport method, which
+is based on first predicting a magnetic field through a standard finite volume
+solver, and then correcting this field through the appropriate use of a
+magnetic vector potential. In this work we develop a constrained transport
+method for the 3D ideal MHD equations that is based on a high-resolution wave
+propagation scheme. Our proposed scheme is the 3D extension of the 2D scheme
+developed by Rossmanith [SIAM J. Sci. Comp. 28, 1766 (2006)], and is based on
+the high-resolution wave propagation method of Langseth and LeVeque [J. Comp.
+Phys. 165, 126 (2000)]. In particular, in our extension we take great care to
+maintain the three most important properties of the 2D scheme: (1) all
+quantities, including all components of the magnetic field and magnetic
+potential, are treated as cell-centered; (2) we develop a high-resolution wave
+propagation scheme for evolving the magnetic potential; and (3) we develop a
+wave limiting approach that is applied during the vector potential evolution,
+which controls unphysical oscillations in the magnetic field. One of the key
+numerical difficulties that is novel to 3D is that the transport equation that
+must be solved for the magnetic vector potential is only weakly hyperbolic. In
+presenting our numerical algorithm we describe how to numerically handle this
+problem of weak hyperbolicity, as well as how to choose an appropriate gauge
+condition. The resulting scheme is applied to several numerical test cases.

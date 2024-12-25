@@ -1,0 +1,14 @@
+High linear voltage references circuitry are designed and implemented in TSMC
+0.18$\mu$m CMOS technology. Previous research has proposed the use of MOS
+transistors operating in the weak inversion region to replace the bipolar
+devices in conventional PTAT(proportional to absolute temperature) circuits.
+However such solutions often have linearity problem in high temperature region
+due to the current leaking devices in modern deep sub micron and nano-scale
+CMOS technology. The proposed circuit utilized temperature complementation
+technique on two voltage references, PTAT and IOAT (independent of absolute
+temperature) references, to enhance the linearity and produce a more stable
+IOAT voltage reference. Base on the simulation results, the R-squares of both
+circuitries are better than 0.999 in a considerable wider temperature range
+from -55 degrees C to 170 degrees C. Thus, a fully integrated temperature
+sensor with wider temperature range is designed and easily to integrate to
+modern system-on-chip designs with minimal efforts.

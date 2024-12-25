@@ -1,0 +1,15 @@
+A random access memory, or RAM, is a device that, when interrogated, returns
+the content of a memory location in a memory array. A quantum RAM, or qRAM,
+allows one to access superpositions of memory sites, which may contain either
+quantum or classical information. RAMs and qRAMs with n-bit addresses can
+access 2^n memory sites. Any design for a RAM or qRAM then requires O(2^n)
+two-bit logic gates. At first sight this requirement might seem to make large
+scale quantum versions of such devices impractical, due to the difficulty of
+constructing and operating coherent devices with large numbers of quantum logic
+gates. Here we analyze two different RAM architectures (the conventional fanout
+and the "bucket brigade") and propose some proof-of-principle implementations
+which show that in principle only O(n) two-qubit physical interactions need
+take place during each qRAM call. That is, although a qRAM needs O(2^n) quantum
+logic gates, only O(n) need to be activated during a memory call. The resulting
+decrease in resources could give rise to the construction of large qRAMs that
+could operate without the need for extensive quantum error correction.

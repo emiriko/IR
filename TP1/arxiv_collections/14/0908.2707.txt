@@ -1,0 +1,13 @@
+The existence of a (p-)optimal propositional proof system is a major open
+question in (proof) complexity; many people conjecture that such systems do not
+exist. Krajicek and Pudlak (1989) show that this question is equivalent to the
+existence of an algorithm that is optimal on all propositional tautologies.
+Monroe (2009) recently gave a conjecture implying that such algorithm does not
+exist.
+  We show that in the presence of errors such optimal algorithms do exist. The
+concept is motivated by the notion of heuristic algorithms. Namely, we allow
+the algorithm to claim a small number of false "theorems" (according to any
+samplable distribution on non-tautologies) and err with bounded probability on
+other inputs.
+  Our result can also be viewed as the existence of an optimal proof system in
+a class of proof systems obtained by generalizing automatizable proof systems.

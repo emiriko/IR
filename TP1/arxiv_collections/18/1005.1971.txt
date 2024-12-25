@@ -1,0 +1,8 @@
+We present a path algorithm for the generalized lasso problem. This problem
+penalizes the $\ell_1$ norm of a matrix D times the coefficient vector, and has
+a wide range of applications, dictated by the choice of D. Our algorithm is
+based on solving the dual of the generalized lasso, which greatly facilitates
+computation of the path. For $D=I$ (the usual lasso), we draw a connection
+between our approach and the well-known LARS algorithm. For an arbitrary D, we
+derive an unbiased estimate of the degrees of freedom of the generalized lasso
+fit. This estimate turns out to be quite intuitive in many applications.

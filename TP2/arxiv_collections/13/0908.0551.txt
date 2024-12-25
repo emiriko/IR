@@ -1,0 +1,18 @@
+The Encrypted File System (EFS) pushes encryption services into the file
+system itself. EFS supports secure storage at the system level through a
+standard UNIX file system interface to encrypted files. User can associate a
+cryptographic key with the directories they wish to protect. Files in these
+directories (as well as their pathname components) are transparently encrypted
+and decrypted with the specified key without further user intervention; clear
+text is never stored on a disk or sent to a remote file server. EFS can use any
+available file system for its underlying storage without modifications,
+including remote file servers such as NFS. System management functions, such as
+file backup, work in a normal manner and without knowledge of the key.
+Performance is an important factor to users since encryption can be time
+consuming. This paper describes the design and implementation of EFS in user
+space using faster cryptographic algorithms on UNIX Operating system.
+Implementing EFS in user space makes it portable and flexible; Kernel size will
+also not increase resulting in more reliable & efficient Operating System.
+Encryption techniques for file system level encryption are described, and
+general issues of cryptographic system interfaces to support routine secure
+computing are discussed.

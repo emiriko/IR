@@ -1,0 +1,8 @@
+We consider representations of algebraic tori $T_n(F_q)$ over finite fields.
+We make use of normal elliptic bases to show that, for infinitely many
+squarefree integers $n$ and infinitely many values of $q$, we can encode $m$
+torus elements, to a small fixed overhead and to $m$ $\phi(n)$-tuples of $F_q$
+elements, in quasi-linear time in $\log q$.
+  This improves upon previously known algorithms, which all have a
+quasi-quadratic complexity. As a result, the cost of the encoding phase is now
+negligible in Diffie-Hellman cryptographic schemes.

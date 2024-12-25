@@ -1,0 +1,17 @@
+We propose a universal approach for analysis and fast simulations of stiff
+stochastic biochemical kinetics networks, which rests on elimination of fast
+chemical species without a loss of information about mesoscopic, non-Poissonian
+fluctuations of the slow ones. Our approach, which is similar to the
+Born-Oppenheimer approximation in quantum mechanics, follows from the
+stochastic path integral representation of the full counting statistics of
+reaction events (also known as the cumulant generating function). In
+applications with a small number of chemical reactions, this approach produces
+analytical expressions for moments of chemical fluxes between slow variables.
+This allows for a low-dimensional, interpretable representation of the
+biochemical system, that can be used for coarse-grained numerical simulation
+schemes with a small computational complexity and yet high accuracy. As an
+example, we consider a chain of biochemical reactions, derive its
+coarse-grained description, and show that the Gillespie simulations of the
+original stiff system, the coarse-grained simulations, and the full analytical
+treatment are in an agreement, but the coarse-grained simulations are three
+orders of magnitude faster than the Gillespie analogue.

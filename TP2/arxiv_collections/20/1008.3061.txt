@@ -1,0 +1,15 @@
+Let f(x) be a monic polynomial in Z[x] with no rational roots but with roots
+in Q_p for all p, or equivalently, with roots mod n for all n. It is known that
+f(x) cannot be irreducible but can be a product of two or more irreducible
+polynomials, and that if f(x) is a product of m>1 irreducible polynomials, then
+its Galois group must be "m-coverable", i.e. a union of conjugates of m proper
+subgroups, whose total intersection is trivial. We are thus led to a variant of
+the inverse Galois problem: given an m-coverable finite group G, find a Galois
+realization of G over the rationals Q by a polynomial f(x) in Z[x] which is a
+product of m nonlinear irreducible factors (in Q[x]) such that f(x) has a root
+in Q_p for all p. The minimal value m=2 is of special interest. It is known
+that the symmetric group S_n is 2-coverable if and only if 2<n<7, and the
+alternating group A_n is 2-coverable if and only if 3<n<9. In this paper we
+solve the above variant of the inverse Galois problem for the 2-coverable
+symmetric and alternating groups, and exhibit an explicit polynomial for each
+group, with the help of the software packages MAGMA, PARI and GAP.

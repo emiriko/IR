@@ -1,0 +1,11 @@
+In this paper, we present a protocol for computing the principal eigenvector
+of a collection of data matrices belonging to multiple semi-honest parties with
+privacy constraints. Our proposed protocol is based on secure multi-party
+computation with a semi-honest arbitrator who deals with data encrypted by the
+other parties using an additive homomorphic cryptosystem. We augment the
+protocol with randomization and obfuscation to make it difficult for any party
+to estimate properties of the data belonging to other parties from the
+intermediate steps. The previous approaches towards this problem were based on
+expensive QR decomposition of correlation matrices, we present an efficient
+algorithm using the power iteration method. We analyze the protocol for
+correctness, security, and efficiency.

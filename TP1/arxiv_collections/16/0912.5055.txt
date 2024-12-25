@@ -1,0 +1,15 @@
+We investigate the performance of rateless codes for single-server streaming
+to diverse users, assuming that diversity in users is present not only because
+they have different channel conditions, but also because they demand different
+amounts of information and have different decoding capabilities. The LT
+encoding scheme is employed. While some users accept output symbols of all
+degrees and decode using belief propagation, others only collect degree- 1
+output symbols and run no decoding algorithm. We propose several performance
+measures, and optimize the performance of the rateless code used at the server
+through the design of the code degree distribution. Optimization problems are
+formulated for the asymptotic regime and solved as linear programming problems.
+Optimized performance shows great improvement in total bandwidth consumption
+over using the conventional ideal soliton distribution, or simply sending
+separately encoded streams to different types of user nodes. Simulation
+experiments confirm the usability of the optimization results obtained for the
+asymptotic regime as a guideline for finite-length code design.

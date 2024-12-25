@@ -1,0 +1,16 @@
+We present a new framework for radiation hydrodynamics simulations. Gas
+dynamics is modelled by the Smoothed Particle Hydrodynamics (SPH) method,
+whereas radiation transfer is simulated via a time-dependent Monte-Carlo
+approach that traces photon packets. As a first step in the development of the
+method, in this paper we consider the momentum transfer between radiation field
+and gas, which is important for systems where radiation pressure is high. There
+is no fundamental limitations on the number of radiation sources, geometry or
+the optical depth of the problems that can be studied with the method. However,
+as expected for any Monte-Carlo transfer scheme, stochastic noise presents a
+serious limitation. We present a number of tests that show that the errors of
+the method can be estimated accurately by considering Poisson noise
+fluctuations in the number of photon packets that SPH particles interact with
+per dynamical time. It is found that for a reasonable accuracy the momentum
+carried by photon packets must be much smaller than a typical momentum of SPH
+particles. We discuss numerical limitations of the code, and future steps that
+can be taken to improve performance and applicability of the method.

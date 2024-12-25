@@ -1,0 +1,16 @@
+The Category Game is a multi-agent model that accounts for the emergence of
+shared categorization patterns in a population of interacting individuals. In
+the framework of the model, linguistic categories appear as long lived
+consensus states that are constantly reshaped and re-negotiated by the
+communicating individuals. It is therefore crucial to investigate the long time
+behavior to gain a clear understanding of the dynamics. However, it turns out
+that the evolution of the emerging category system is so slow, already for
+small populations, that such an analysis has remained so far impossible. Here,
+we introduce a fast no-rejection algorithm for the Category Game that
+disentangles the physical simulation time from the CPU time, thus opening the
+way for thorough analysis of the model. We verify that the new algorithm is
+equivalent to the old one in terms of the emerging phenomenology and we
+quantify the CPU performances of the two algorithms, pointing out the neat
+advantages offered by the no-rejection one. This technical advance has already
+opened the way to new investigations of the model, thus helping to shed light
+on the fundamental issue of categorization.

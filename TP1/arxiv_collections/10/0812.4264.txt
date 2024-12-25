@@ -1,0 +1,11 @@
+We present a theoretical algorithm which, given any finite presentation of a
+group as input, will terminate with answer yes if and only if the group is
+large. We then implement a practical version of this algorithm using Magma and
+apply it to a range of presentations. Our main focus is on 2-generator
+1-relator presentations where we have a complete picture of largeness if the
+relator has exponent sum zero in one generator and word length at most 12, as
+well as when the relator is in the commutator subgroup and has word length at
+most 18. Indeed all but a tiny number of presentations define large groups.
+Finally we look at fundamental groups of closed hyperbolic 3-manifolds, where
+the algorithm readily determines that a quarter of the groups in the Snappea
+closed census are large.

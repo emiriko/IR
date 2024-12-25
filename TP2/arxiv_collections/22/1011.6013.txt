@@ -1,0 +1,15 @@
+Although quantum computers have the potential to efficiently solve certain
+problems considered difficult by known classical approaches, the design of a
+quantum circuit remains computationally difficult. It is known that the optimal
+gate design problem is equivalent to the solution of an associated optimal
+control problem, the solution to which is also computationally intensive.
+Hence, in this article, we introduce the application of a class of numerical
+methods (termed the max-plus curse of dimensionality free techniques) that
+determine the optimal control thereby synthesizing the desired unitary gate.
+The application of this technique to quantum systems has a growth in complexity
+that depends on the cardinality of the control set approximation rather than
+the much larger growth with respect to spatial dimensions in approaches based
+on gridding of the space, used in previous literature. This technique is
+demonstrated by obtaining an approximate solution for the gate synthesis on
+$SU(4)$- a problem that is computationally intractable by grid based
+approaches.

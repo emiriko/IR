@@ -1,0 +1,12 @@
+We consider approximating data structures with collections of the items that
+they contain. For examples, lists, binary trees, tuples, etc, can be
+approximated by sets or multisets of the items within them. Such approximations
+can be used to provide partial correctness properties of logic programs. For
+example, one might wish to specify than whenever the atom $sort(t,s)$ is proved
+then the two lists $t$ and $s$ contain the same multiset of items (that is, $s$
+is a permutation of $t$). If sorting removes duplicates, then one would like to
+infer that the sets of items underlying $t$ and $s$ are the same. Such results
+could be useful to have if they can be determined statically and automatically.
+We present a scheme by which such collection analysis can be structured and
+automated. Central to this scheme is the use of linear logic as a omputational
+logic underlying the logic of Horn clauses.

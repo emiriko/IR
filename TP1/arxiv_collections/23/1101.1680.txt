@@ -1,0 +1,16 @@
+A token ring is an arrangement of N processors that take turns engaging in an
+activity which must be controlled. A token confers the right to engage in the
+controlled activity. Processors communicate with neighbors in the ring to
+obtain and release a token. The communication mechanism investigated in this
+paper is the safe register abstraction, which may arbitrarily corrupt a value
+that a processor reads when the operation reading a register is concurrent with
+an write operation on that register by a neighboring processor. The main
+results are simple protocols for quasi-atomic communication, constructed from
+safe registers. A quasi-atomic register behaves atomically except that a
+special undefined value may be returned in the case of concurrent read and
+write operations. Under certain conditions that constrain the number of writes
+and registers, quasi-atomic protocols are adequate substitutes for atomic
+protocols. The paper demonstrates how quasi-atomic protocols can be used to
+implement a self-stabilizing token ring, either by using two safe registers
+between neighboring processors or by using O(lg N) safe registers between
+neighbors, which lowers read complexity.

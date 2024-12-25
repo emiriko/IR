@@ -1,0 +1,16 @@
+As an alternative to parsimony analyses, stochastic models have been proposed
+(Lewis, 2001), (Nylander, et al., 2004) for morphological characters, so that
+maximum likelihood or Bayesian analyses may be used for phylogenetic inference.
+A key feature of these models is that they account for ascertainment bias, in
+that only varying, or parsimony-informative characters are observed. However,
+statistical consistency of such model-based inference requires that the model
+parameters be identifiable from the joint distribution they entail, and this
+issue has not been addressed.
+  Here we prove that parameters for several such models, with finite state
+spaces of arbitrary size, are identifiable, provided the tree has at least 8
+leaves. If the tree topology is already known, then 7 leaves suffice for
+identifiability of the numerical parameters. The method of proof involves first
+inferring a full distribution of both parsimony-informative and non-informative
+pattern joint probabilities from the parsimony-informative ones, using
+phylogenetic invariants. The failure of identifiability of the tree parameter
+for 4-taxon trees is also investigated.

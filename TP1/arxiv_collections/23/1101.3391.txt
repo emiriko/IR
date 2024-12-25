@@ -1,0 +1,24 @@
+The efficient repair of cellular DNA is essential for the maintenance and
+inheritance of genomic information. In order to cope with the high frequency of
+spontaneous and induced DNA damage, a multitude of repair mechanisms have
+evolved. These are enabled by a wide range of protein factors specifically
+recognizing different types of lesions and finally restoring the normal DNA
+sequence. This work focuses on the repair factor XPC (xeroderma pigmentosum
+complementation group C), which identifies bulky DNA lesions and initiates
+their removal via the nucleotide excision repair pathway. The binding of XPC to
+damaged DNA can be visualized in living cells by following the accumulation of
+a fluorescent XPC fusion at lesions induced by laser microirradiation in a
+fluorescence microscope. In this work, an automated image processing pipeline
+is presented which allows to identify and quantify the accumulation reaction
+without any user interaction. The image processing pipeline comprises a
+preprocessing stage where the image stack data is filtered and the nucleus of
+interest is segmented. Afterwards, the images are registered to each other in
+order to account for movements of the cell, and then a bounding box enclosing
+the XPC-specific signal is automatically determined. Finally, the
+time-dependent relocation of XPC is evaluated by analyzing the intensity change
+within this box. Comparison of the automated processing results with the manual
+evaluation yields qualitatively similar results. However, the automated
+analysis provides more accurate, reproducible data with smaller standard
+errors. The image processing pipeline presented in this work allows for an
+efficient analysis of large amounts of experimental data with no user
+interaction required.

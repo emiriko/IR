@@ -1,0 +1,16 @@
+We investigate data compression schemes for proposed all-sky
+diffraction-limited visible/NIR sky surveys aimed at the dark energy problem.
+We show that lossy square-root compression to 1 bit of noise per pixel,
+followed by standard lossless compression algorithms, reduces the images to
+2.5-4 bits per pixel, depending primarily upon the level of cosmic-ray
+contamination of the images. Compression to this level adds noise equivalent to
+<10% penalty in observing time. We derive an analytic correction to flux biases
+inherent to the square-root compression scheme. Numerical tests on simple
+galaxy models confirm that galaxy fluxes and shapes are measured with
+systematic biases <~10^{-4} induced by the compression scheme, well below the
+requirements of supernova and weak gravitational lensing dark-energy
+experiments. An accompanying paper (Vanderveld 2009) bounds the shape biases
+using realistic simulated images of the high-Galactic-latitude sky. The
+square-root preprocessing step has advantages over simple (linear) decimation
+when there are many bright objects or cosmic rays in the field, or when the
+background level will vary.

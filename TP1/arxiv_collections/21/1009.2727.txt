@@ -1,0 +1,24 @@
+Modeling of laser-plasma wakefield accelerators in an optimal frame of
+reference \cite{VayPRL07} is shown to produce orders of magnitude speed-up of
+calculations from first principles. Obtaining these speedups requires
+mitigation of a high-frequency instability that otherwise limits effectiveness
+in addition to solutions for handling data input and output in a
+relativistically boosted frame of reference. The observed high-frequency
+instability is mitigated using methods including an electromagnetic solver with
+tunable coefficients, its extension to accomodate Perfectly Matched Layers and
+Friedman's damping algorithms, as well as an efficient large bandwidth digital
+filter. It is shown that choosing the frame of the wake as the frame of
+reference allows for higher levels of filtering and damping than is possible in
+other frames for the same accuracy. Detailed testing also revealed
+serendipitously the existence of a singular time step at which the instability
+level is minimized, independently of numerical dispersion, thus indicating that
+the observed instability may not be due primarily to Numerical Cerenkov as has
+been conjectured. The techniques developed for Cerenkov mitigation prove
+nonetheless to be very efficient at controlling the instability. Using these
+techniques, agreement at the percentage level is demonstrated between
+simulations using different frames of reference, with speedups reaching two
+orders of magnitude for a 0.1 GeV class stages. The method then allows direct
+and efficient full-scale modeling of deeply depleted laser-plasma stages of 10
+GeV-1 TeV for the first time, verifying the scaling of plasma accelerators to
+very high energies. Over 4, 5 and 6 orders of magnitude speedup is achieved for
+the modeling of 10 GeV, 100 GeV and 1 TeV class stages, respectively.

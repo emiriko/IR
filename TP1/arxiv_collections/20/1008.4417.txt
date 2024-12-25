@@ -1,0 +1,16 @@
+Effective modeling and numerical spectral-based propagation schemes are
+proposed for addressing the challenges in time-dependent quantum simulations of
+systems ranging from atoms, molecules, and nanostructures to emerging
+nanoelectronic devices. While time-dependent Hamiltonian problems can be
+formally solved by propagating the solutions along tiny simulation time steps,
+a direct numerical treatment is often considered too computationally demanding.
+In this paper, however, we propose to go beyond these limitations by
+introducing high-performance numerical propagation schemes to compute the
+solution of the time-ordered evolution operator. In addition to the direct
+Hamiltonian diagonalizations that can be efficiently performed using the new
+eigenvalue solver FEAST, we have designed a Gaussian propagation scheme and a
+basis transformed propagation scheme (BTPS) which allow to reduce considerably
+the simulation times needed by time intervals. It is outlined that BTPS offers
+the best computational efficiency allowing new perspectives in time-dependent
+simulations. Finally, these numerical schemes are applied to study the AC
+response of a (5,5) carbon nanotube within a 3D real-space mesh framework.

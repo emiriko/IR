@@ -1,0 +1,22 @@
+This paper considers the noncooperative maximization of mutual information in
+the Gaussian interference channel in a fully distributed fashion via game
+theory. This problem has been studied in a number of papers during the past
+decade for the case of frequency-selective channels. A variety of conditions
+guaranteeing the uniqueness of the Nash Equilibrium (NE) and convergence of
+many different distributed algorithms have been derived. In this paper we
+provide a unified view of the state-of-the-art results, showing that most of
+the techniques proposed in the literature to study the game, even though
+apparently different, can be unified using our recent interpretation of the
+waterfilling operator as a projection onto a proper polyhedral set. Based on
+this interpretation, we then provide a mathematical framework, useful to derive
+a unified set of sufficient conditions guaranteeing the uniqueness of the NE
+and the global convergence of waterfilling based asynchronous distributed
+algorithms.
+  The proposed mathematical framework is also instrumental to study the
+extension of the game to the more general MIMO case, for which only few results
+are available in the current literature. The resulting algorithm is, similarly
+to the frequency-selective case, an iterative asynchronous MIMO waterfilling
+algorithm. The proof of convergence hinges again on the interpretation of the
+MIMO waterfilling as a matrix projection, which is the natural generalization
+of our results obtained for the waterfilling mapping in the frequency-selective
+case.

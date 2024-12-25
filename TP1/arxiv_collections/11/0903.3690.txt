@@ -1,0 +1,8 @@
+The computation of triangular decompositions are based on two fundamental
+operations: polynomial GCDs modulo regular chains and regularity test modulo
+saturated ideals. We propose new algorithms for these core operations relying
+on modular methods and fast polynomial arithmetic. Our strategies take also
+advantage of the context in which these operations are performed. We report on
+extensive experimentation, comparing our code to pre-existing Maple
+implementations, as well as more optimized Magma functions. In most cases, our
+new code outperforms the other packages by several orders of magnitude.

@@ -1,0 +1,9 @@
+Recent advances in adaptive Markov chain Monte Carlo (AMCMC) include the need
+for regional adaptation in situations when the optimal transition kernel is
+different across different regions of the sample space. Motivated by these
+findings, we propose a mixture-based approach to determine the partition needed
+for regional AMCMC. The mixture model is fitted using an online EM algorithm
+(see Andrieu and Moulines, 2006) which allows us to bypass simultaneously the
+heavy computational load and to implement the regional adaptive algorithm with
+online recursion (RAPTOR). The method is tried on simulated as well as real
+data examples.

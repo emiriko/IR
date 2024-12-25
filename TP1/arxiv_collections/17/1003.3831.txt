@@ -1,0 +1,17 @@
+We present a novel method to significantly speed up cosmological parameter
+sampling. The method relies on constructing an interpolation of the
+CMB-log-likelihood based on sparse grids, which is used as a shortcut for the
+likelihood-evaluation. We obtain excellent results over a large region in
+parameter space, comprising about 25 log-likelihoods around the peak, and we
+reproduce the one-dimensional projections of the likelihood almost perfectly.
+In speed and accuracy, our technique is competitive to existing approaches to
+accelerate parameter estimation based on polynomial interpolation or neural
+networks, while having some advantages over them. In our method, there is no
+danger of creating unphysical wiggles as it can be the case for polynomial fits
+of a high degree. Furthermore, we do not require a long training time as for
+neural networks, but the construction of the interpolation is determined by the
+time it takes to evaluate the likelihood at the sampling points, which can be
+parallelised to an arbitrary degree. Our approach is completely general, and it
+can adaptively exploit the properties of the underlying function. We can thus
+apply it to any problem where an accurate interpolation of a function is
+needed.

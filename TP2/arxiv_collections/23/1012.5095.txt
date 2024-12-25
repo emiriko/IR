@@ -1,0 +1,20 @@
+Removing noise from piecewise constant (PWC) signals, is a challenging signal
+processing problem arising in many practical contexts. For example, in
+exploration geosciences, noisy drill hole records need separating into
+stratigraphic zones, and in biophysics, jumps between molecular dwell states
+need extracting from noisy fluorescence microscopy signals. Many PWC denoising
+methods exist, including total variation regularization, mean shift clustering,
+stepwise jump placement, running medians, convex clustering shrinkage and
+bilateral filtering; conventional linear signal processing methods are
+fundamentally unsuited however. This paper shows that most of these methods are
+associated with a special case of a generalized functional, minimized to
+achieve PWC denoising. The minimizer can be obtained by diverse solver
+algorithms, including stepwise jump placement, convex programming, finite
+differences, iterated running medians, least angle regression, regularization
+path following, and coordinate descent. We introduce novel PWC denoising
+methods, which, for example, combine global mean shift clustering with local
+total variation smoothing. Head-to-head comparisons between these methods are
+performed on synthetic data, revealing that our new methods have a useful role
+to play. Finally, overlaps between the methods of this paper and others such as
+wavelet shrinkage, hidden Markov models, and piecewise smooth filtering are
+touched on.

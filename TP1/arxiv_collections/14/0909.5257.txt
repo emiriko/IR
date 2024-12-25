@@ -1,0 +1,13 @@
+We use a graphics processing unit (GPU) for fast calculations of helicity
+amplitudes of quark and gluon scattering processes in massless QCD. New HEGET
+({\bf H}ELAS {\bf E}valuation with {\bf G}PU {\bf E}nhanced {\bf T}echnology)
+codes for gluon self-interactions are introduced, and a C++ program to convert
+the MadGraph generated FORTRAN codes into HEGET codes in CUDA (a C-platform for
+general purpose computing on GPU) is created. Because of the proliferation of
+the number of Feynman diagrams and the number of independent color amplitudes,
+the maximum number of final state jets we can evaluate on a GPU is limited to 4
+for pure gluon processes ($gg\to 4g$), or 5 for processes with one or more
+quark lines such as $q\bar{q}\to 5g$ and $qq\to qq+3g$. Compared with the usual
+CPU-based programs, we obtain 60-100 times better performance on the GPU,
+except for 5-jet production processes and the $gg\to 4g$ processes for which
+the GPU gain over the CPU is about 20.

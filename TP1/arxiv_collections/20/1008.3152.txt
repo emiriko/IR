@@ -1,0 +1,14 @@
+Radio transients are sporadic signals and their detection requires that the
+backends of radio telescopes be equipped with the appropriate hardware and
+software to undertake this. Observational programs to detect transients can be
+dedicated or they can piggy-back on observations made by other programs. It is
+the single-dish single-transient (non-periodical) mode which is considered in
+this paper. Because neither the width of a transient nor the time of its
+arrival is known, a sequential analysis in the form of a cumulative sum (cusum)
+algorithm is proposed here. Computer simulations and real observation data
+processing are included to demonstrate the performance of the cusum. The use of
+the Hough transform is here proposed for the purpose of non-coherent
+de-dispersion. It is possible that the detected transients could be radio
+frequency interferences (RFI) and a procedure is proposed here which can
+distinguish between celestial signals and man-made RFI. This procedure is based
+on an analysis of the statistical properties of the signals.

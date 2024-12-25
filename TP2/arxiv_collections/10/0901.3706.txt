@@ -1,0 +1,20 @@
+We present an algorithm for decomposing a symmetric tensor, of dimension n
+and order d as a sum of rank-1 symmetric tensors, extending the algorithm of
+Sylvester devised in 1886 for binary forms. We recall the correspondence
+between the decomposition of a homogeneous polynomial in n variables of total
+degree d as a sum of powers of linear forms (Waring's problem), incidence
+properties on secant varieties of the Veronese Variety and the representation
+of linear forms as a linear combination of evaluations at distinct points. Then
+we reformulate Sylvester's approach from the dual point of view. Exploiting
+this duality, we propose necessary and sufficient conditions for the existence
+of such a decomposition of a given rank, using the properties of Hankel (and
+quasi-Hankel) matrices, derived from multivariate polynomials and normal form
+computations. This leads to the resolution of polynomial equations of small
+degree in non-generic cases. We propose a new algorithm for symmetric tensor
+decomposition, based on this characterization and on linear algebra
+computations with these Hankel matrices. The impact of this contribution is
+two-fold. First it permits an efficient computation of the decomposition of any
+tensor of sub-generic rank, as opposed to widely used iterative algorithms with
+unproved global convergence (e.g. Alternate Least Squares or gradient
+descents). Second, it gives tools for understanding uniqueness conditions, and
+for detecting the rank.

@@ -1,0 +1,13 @@
+Suppose Alice has a coin with heads probability $q$ and Bob has one with
+heads probability $p>q$.
+  Now each of them will toss their coin $n$ times, and Alice will win iff she
+gets more heads than Bob does. Evidently the game favors Bob, but for the given
+$p,q$, what is the choice of $n$ that maximizes Alice's chances of winning? The
+problem of determining the optimal $N$ first appeared in \cite{wa}. We show
+that there is an essentially unique value $N(q,p)$ of $n$ that maximizes the
+probability $f(n)$ that the weak coin will win, and it satisfies
+$\frac{1}{2(p-q)}-\frac12\le N(q,p)\le \frac{\max{(1-p,q)}}{p-q}$. The analysis
+uses the multivariate form of Zeilberger's algorithm to find an indicator
+function $J_n(q,p)$ such that $J>0$ iff $n<N(q,p)$ followed by a close study of
+this function, which is a linear combination of two Legendre polynomials. An
+integration-based algorithm is given for computing $N(q,p)$.

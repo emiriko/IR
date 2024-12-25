@@ -1,0 +1,15 @@
+Excitonic effects in optical spectra and electron-hole pair excitations are
+described by solutions of the Bethe-Salpeter equation (BSE) that accounts for
+the Coulomb interaction of excited electron-hole pairs. Although for the
+computation of excitonic optical spectra in an extended frequency range
+efficient methods are available, the determination and analysis of individual
+exciton states still requires the diagonalization of the electron-hole
+Hamiltonian $\hat{H}$. We present a numerically efficient approach for the
+calculation of exciton states with quadratically scaling complexity, which
+significantly diminishes the computational costs compared to the commonly used
+cubically scaling direct-diagonalization schemes. The accuracy and performance
+of this approach is demonstrated by solving the BSE numerically for the
+Wannier-Mott two-band model in {\bf k} space and the semiconductors MgO and
+InN. For the convergence with respect to the $\vk$-point sampling a general
+trend is identified, which can be used to extrapolate converged results for the
+binding energies of the lowest bound states.

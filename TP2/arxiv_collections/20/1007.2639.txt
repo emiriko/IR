@@ -1,0 +1,12 @@
+Given a (directed) graph G=(V,A), a subset X of V is an interval of G
+provided that for any a, b\in X and x\in V-X, (a,x)\in A if and only if
+(b,x)\in A and (x,a)\in A if and only if (x,b)\in A. For example, \emptyset,
+\{x\} (x \in V) and V are intervals of G, called trivial intervals. A graph,
+all the intervals of which are trivial, is indecomposable; otherwise, it is
+decomposable. A vertex x of an indecomposable graph is critical if G-x is
+decomposable. In 1993, J.H. Schmerl and W.T. Trotter characterized the
+indecomposable graphs, all the vertices of which are critical, called critical
+graphs. In this article, we characterize the indecomposable graphs which admit
+a single non critical vertex, that we call (-1)-critical graphs.} This gives an
+answer to a question asked by Y. Boudabbous and P. Ille in a recent article
+studying the critical vertices in an indecomposable graph.

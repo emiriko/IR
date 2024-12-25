@@ -1,0 +1,23 @@
+The PLATO satellite mission project is a next generation ESA Cosmic Vision
+satellite project dedicated to the detection of exo-planets and to
+asteroseismology of their host-stars using ultra-high precision photometry. The
+main goal of the PLATO mission is to provide a full statistical analysis of
+exo-planetary systems around stars that are bright and close enough for
+detailed follow-up studies. Many aspects concerning the design trade-off of a
+space-based instrument and its performance can best be tackled through
+realistic simulations of the expected observations. The complex interplay of
+various noise sources in the course of the observations made such simulations
+an indispensable part of the assessment study of the PLATO Payload Consortium.
+We created an end-to-end CCD simulation software-tool, dubbed PLATOSim, which
+simulates photometric time-series of CCD images by including realistic models
+of the CCD and its electronics, the telescope optics, the stellar field, the
+pointing uncertainty of the satellite (or Attitude Control System [ACS]
+jitter), and all important natural noise sources. The main questions that were
+addressed with this simulator were the noise properties of different
+photometric algorithms, the selection of the optical design, the allowable
+jitter amplitude, and the expected noise budget of light-curves as a function
+of the stellar magnitude for different parameter conditions. The results of our
+simulations showed that the proposed multi-telescope concept of PLATO can
+fulfil the defined scientific goal of measuring more than 20000 cool dwarfs
+brighter than mV =11 with a precision better than 27 ppm/h which is essential
+for the study of earth-like exo-planetary systems using the transit method.

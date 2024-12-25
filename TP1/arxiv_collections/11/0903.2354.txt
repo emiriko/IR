@@ -1,0 +1,20 @@
+In this paper we extend our numerical method for simulating terrestrial
+planet formation from Leinhardt and Richardson (2005) to include dynamical
+friction from the unresolved debris component. In the previous work we
+implemented a rubble pile planetesimal collision model into direct N-body
+simulations of terrestrial planet formation. The new collision model treated
+both accretion and erosion of planetesimals but did not include dynamical
+friction from debris particles smaller than the resolution limit for the
+simulation. By extending our numerical model to include dynamical friction from
+the unresolved debris, we can simulate the dynamical effect of debris produced
+during collisions and can also investigate the effect of initial debris mass on
+terrestrial planet formation. We find that significant initial debris mass, 10%
+or more of the total disk mass, changes the mode of planetesimal growth.
+Specifically, planetesimals in this situation do not go through a runaway
+growth phase. Instead they grow concurrently, similar to oligarchic growth. In
+addition to including the dynamical friction from the unresolved debris, we
+have implemented particle tracking as a proxy for monitoring compositional
+mixing. Although there is much less mixing due to collisions and gravitational
+scattering when dynamical friction of the background debris is included, there
+is significant inward migration of the largest protoplanets in the most extreme
+initial conditions.

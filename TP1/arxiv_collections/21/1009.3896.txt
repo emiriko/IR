@@ -1,0 +1,8 @@
+We establish an excess risk bound of O(H R_n^2 + R_n \sqrt{H L*}) for
+empirical risk minimization with an H-smooth loss function and a hypothesis
+class with Rademacher complexity R_n, where L* is the best risk achievable by
+the hypothesis class. For typical hypothesis classes where R_n = \sqrt{R/n},
+this translates to a learning rate of O(RH/n) in the separable (L*=0) case and
+O(RH/n + \sqrt{L^* RH/n}) more generally. We also provide similar guarantees
+for online and stochastic convex optimization with a smooth non-negative
+objective.

@@ -1,0 +1,9 @@
+We introduce an alternative formulation of the exact stochastic simulation
+algorithm (SSA) for sampling trajectories of the chemical master equation for a
+well-stirred system of coupled chemical reactions. Our formulation is based on
+factored-out, partial reaction propensities. This novel exact SSA, called the
+partial propensity direct method (PDM), is highly efficient and has a
+computational cost that scales at most linearly with the number of chemical
+species, irrespective of the degree of coupling of the reaction network. In
+addition, we propose a sorting variant, SPDM, which is especially efficient for
+multiscale reaction networks.

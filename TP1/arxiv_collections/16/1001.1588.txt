@@ -1,0 +1,8 @@
+We propose a new type of the Ensemble Kalman Filter (EnKF), which uses the
+Fast Fourier Transform (FFT) for covariance estimation from a very small
+ensemble with automatic tapering, and for a fast computation of the analysis
+ensemble by convolution, avoiding the need to solve a sparse system with the
+tapered matrix. The FFT EnKF is combined with the morphing EnKF to enable the
+correction of position errors, in addition to amplitude errors, and
+demonstrated on WRF-Fire, the Weather Research Forecasting (WRF) model coupled
+with a fire spread model implemented by the level set method.

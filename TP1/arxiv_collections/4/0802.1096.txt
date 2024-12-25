@@ -1,0 +1,22 @@
+Let $K$ denote a field and let $V$ denote a vector space over $K$ with finite
+positive dimension. We consider a pair of linear transformations $A:V \to V$
+and $A^*:V \to V$ that satisfy the following conditions: (i) each of $A,A^*$ is
+diagonalizable; (ii) there exists an ordering $\{V_i\}_{i=0}^d$ of the
+eigenspaces of $A$ such that $A^* V_i \subseteq V_{i-1} + V_i + V_{i+1}$ for $0
+\leq i \leq d$, where $V_{-1}=0$ and $V_{d+1}=0$; (iii) there exists an
+ordering $\{V^*_i\}_{i=0}^\delta$ of the eigenspaces of $A^*$ such that $A
+V^*_i \subseteq V^*_{i-1} + V^*_i + V^*_{i+1}$ for $0 \leq i \leq \delta$,
+where $V^*_{-1}=0$ and $V^*_{\delta+1}=0$; (iv)there is no subspace $W$ of $V$
+such that $AW \subseteq W$, $A^* W \subseteq W$, $W \neq 0$, $W \neq V$. We
+call such a pair a tridiagonal pair on $V$. It is known that $d=\delta$ and for
+$0 \leq i \leq d$ the dimensions of $V_i, V_{d-i}, V^*_i, V^*_{d-i}$ coincide.
+In this paper we show that the following (i)--(iv) hold provided that $K$ is
+algebraically closed: (i) Each of $V_0$, $V^*_0$, $V_d$, $V^*_d$ has dimension
+1. (ii) There exists a nondegenerate symmetric bilinear form $(,)$ on $V$ such
+that $(Au,v)=(u,Av)$ and $(A^*u,v)=(u,A^*v)$ for all $u,v \in V$. (iii) There
+exists a unique anti-automorphism of $End(V)$ that fixes each of $A,A^*$. (iv)
+The pair $A,A^*$ is determined up to isomorphism by the data
+$(\{\th_i\}_{i=0}^d; \{\th^*_i\}_{i=0}^d; \{\zeta_i\}_{i=0}^d)$, where $\th_i$
+(resp. $\th^*_i$) is the eigenvalue of $A$ (resp. $A^*$) on $V_i$ (resp.
+$V^*_i$), and $\{\zeta_i\}_{i=0}^d$ is the split sequence of $A,A^*$
+corresponding to $\{\th_i\}_{i=0}^d$ and $\{\th^*_i\}_{i=0}^d$.

@@ -1,0 +1,14 @@
+Clustering real world data often faced with curse of dimensionality, where
+real world data often consist of many dimensions. Multidimensional data
+clustering evaluation can be done through a density-based approach. Density
+approaches based on the paradigm introduced by DBSCAN clustering. In this
+approach, density of each object neighbours with MinPoints will be calculated.
+Cluster change will occur in accordance with changes in density of each object
+neighbours. The neighbours of each object typically determined using a distance
+function, for example the Euclidean distance. In this paper SUBCLU, FIRES and
+INSCY methods will be applied to clustering 6x1595 dimension synthetic
+datasets. IO Entropy, F1 Measure, coverage, accurate and time consumption used
+as evaluation performance parameters. Evaluation results showed SUBCLU method
+requires considerable time to process subspace clustering; however, its value
+coverage is better. Meanwhile INSCY method is better for accuracy comparing
+with two other methods, although consequence time calculation was longer.

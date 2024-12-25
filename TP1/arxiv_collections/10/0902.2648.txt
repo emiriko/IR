@@ -1,0 +1,22 @@
+We consider the problem of representing, in a compressed format, a bit-vector
+$S$ of $m$ bits with $n$ 1s, supporting the following operations, where $b \in
+\{0, 1 \}$: $rank_b(S,i)$ returns the number of occurrences of bit $b$ in the
+prefix $S[1..i]$; $select_b(S,i)$ returns the position of the $i$th occurrence
+of bit $b$ in $S$. Such a data structure is called \emph{fully indexable
+dictionary (FID)} [Raman et al.,2007], and is at least as powerful as
+predecessor data structures. Our focus is on space-efficient FIDs on the
+\textsc{ram} model with word size $\Theta(\lg m)$ and constant time for all
+operations, so that the time cost is independent of the input size. Given the
+bitstring $S$ to be encoded, having length $m$ and containing $n$ ones, the
+minimal amount of information that needs to be stored is $B(n,m) = \lceil \log
+{{m}\choose{n}} \rceil$. The state of the art in building a FID for $S$ is
+given in [Patrascu,2008] using $B(m,n)+O(m / ((\log m/ t) ^t)) + O(m^{3/4}) $
+bits, to support the operations in $O(t)$ time. Here, we propose a parametric
+data structure exhibiting a time/space trade-off such that, for any real
+constants $0 < \delta \leq 1/2$, $0 < \eps \leq 1$, and integer $s > 0$, it
+uses \[ B(n,m) + O(n^{1+\delta} + n (\frac{m}{n^s})^\eps) \] bits and performs
+all the operations in time $O(s\delta^{-1} + \eps^{-1})$. The improvement is
+twofold: our redundancy can be lowered parametrically and, fixing $s = O(1)$,
+we get a constant-time FID whose space is $B(n,m) + O(m^\eps/\poly{n})$ bits,
+for sufficiently large $m$. This is a significant improvement compared to the
+previous bounds for the general case.

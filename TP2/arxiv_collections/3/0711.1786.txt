@@ -1,0 +1,12 @@
+The domain of numerical simulation is a place where the parallelization of
+numerical code is common. The definition of a numerical context means the
+configuration of resources such as memory, processor load and communication
+graph, with an evolving feature: the resources availability. A feature is often
+missing: the adaptability. It is not predictable and the adaptable aspect is
+essential. Without calling into question these implementations of these codes,
+we create an adaptive use of these implementations. Because the execution has
+to be driven by the availability of main resources, the components of a numeric
+computation have to react when their context changes. This paper offers a new
+architecture, a mobile computing architecture, based on mobile agents and
+JavaSpace. At the end of this paper, we apply our architecture to several case
+studies and obtain our first results.

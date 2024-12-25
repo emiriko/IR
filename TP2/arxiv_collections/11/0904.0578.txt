@@ -1,0 +1,9 @@
+This paper describes a resolution based Description Logic reasoning system
+called DLog. DLog transforms Description Logic axioms into a Prolog program and
+uses the standard Prolog execution for efficiently answering instance retrieval
+queries. From the Description Logic point of view, DLog is an ABox reasoning
+engine for the full SHIQ language. The DLog approach makes it possible to store
+the individuals in a database instead of memory, which results in better
+scalability and helps using description logic ontologies directly on top of
+existing information sources.
+  To appear in Theory and Practice of Logic Programming (TPLP).

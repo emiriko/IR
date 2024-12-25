@@ -1,0 +1,12 @@
+The Telex system is designed for sharing mutable data in a distributed
+environment, particularly for collaborative applications. Users operate on
+their local, persistent replica of shared documents; they can work disconnected
+and suffer no network latency. The Telex approach to detect and correct
+conflicts is application independent, based on an action-constraint graph (ACG)
+that summarises the concurrency semantics of applications. The ACG is stored
+efficiently in a multilog structure that eliminates contention and is optimised
+for locality. Telex supports multiple applications and multi-document updates.
+The Telex system clearly separates system logic (which includes replication,
+views, undo, security, consistency, conflicts, and commitment) from application
+logic. An example application is a shared calendar for managing multi-user
+meetings; the system detects meeting conflicts and resolves them consistently.

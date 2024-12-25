@@ -1,0 +1,16 @@
+We describe a new algorithm for including the dynamical effects of ionizing
+radiation in SPH simulations, and we present several examples of how the
+algorithm can be applied to problems in star formation. We use the HEALPix
+software to tessellate the sky and to solve the equation of ionization
+equilibrium along a ray towards each of the resulting tesserae. We exploit the
+hierarchical nature of HEALPix to make the algorithm adaptive, so that fine
+angular resolution is invoked only where it is needed, and the computational
+cost is kept low. We present simulations of (i) the spherically symmetric
+expansion of an HII region inside a uniform-density, non--self-gravitating
+cloud; (ii) the spherically symmetric expansion of an HII region inside a
+uniform-density, self-gravitating cloud; (iii) the expansion of an off-centre
+HII region inside a uniform-density, non--self-gravitating cloud, resulting in
+rocket acceleration and dispersal of the cloud; and (iv) radiatively driven
+compression and ablation of a core overrun by an HII region. The new algorithm
+provides the means to explore and evaluate the role of ionizing radiation in
+regulating the efficiency and statistics of star formation.

@@ -1,0 +1,8 @@
+Self-stabilizing systems have the ability to converge to a correct behavior
+when started in any configuration. Most of the work done so far in the
+self-stabilization area assumed either communication via shared memory or via
+FIFO channels. This paper is the first to lay the bases for the design of
+self-stabilizing message passing algorithms over unreliable non-FIFO channels.
+We propose a fault-send-deliver optimal stabilizing data-link layer that
+emulates a reliable FIFO communication channel over unreliable capacity bounded
+non-FIFO channels.

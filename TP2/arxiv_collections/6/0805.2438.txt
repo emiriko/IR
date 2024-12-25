@@ -1,0 +1,8 @@
+Reasoning about real number expressions in a proof assistant is challenging.
+Several problems in theorem proving can be solved by using exact real number
+computation. I have implemented a library for reasoning and computing with
+complete metric spaces in the Coq proof assistant and used this library to
+build a constructive real number implementation including elementary real
+number functions and proofs of correctness. Using this library, I have created
+a tactic that automatically proves strict inequalities over closed elementary
+real number expressions by computation.

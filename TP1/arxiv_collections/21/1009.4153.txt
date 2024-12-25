@@ -1,0 +1,17 @@
+Motivated by applications in online advertising, we consider a class of
+maximization problems where the objective is a function of the sequence of
+actions as well as the running duration of each action. For these problems, we
+introduce the concepts of \emph{sequence-submodularity} and
+\emph{sequence-monotonicity} which extend the notions of submodularity and
+monotonicity from functions defined over sets to functions defined over
+sequences. We establish that if the objective function is sequence-submodular
+and sequence-non-decreasing, then there exists a greedy algorithm that achieves
+$1-1/e$ of the optimal solution. We apply our algorithm and analysis to two
+applications in online advertising: online ad allocation and query rewriting.
+We first show that both problems can be formulated as maximizing non-decreasing
+sequence-submodular functions. We then apply our framework to these two
+problems, leading to simple greedy approaches with guaranteed performances. In
+particular, for online ad allocation problem the performance of our algorithm
+is $1-1/e$, which matches the best known existing performance, and for query
+rewriting problem the performance of our algorithm is $1- 1/e^{1-1/e}$ which
+improves upon the best known existing performance in the literature.

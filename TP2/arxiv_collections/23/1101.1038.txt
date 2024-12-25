@@ -1,0 +1,17 @@
+Operational semantics has established itself as a flexible but rigorous means
+to describe the meaning of programming languages. Oftentimes, it is felt
+necessary to keep a semantics small, for example to facilitate its use for
+model checking by avoiding state space explosion. However, omitting many
+details in a semantics typically makes results valid for a limited core
+language only, leaving a wide gap towards any real implementation. In this
+paper we present a full-fledged semantics of the concurrent object-oriented
+programming language SCOOP (Simple Concurrent Object-Oriented Programming). The
+semantics has been found detailed enough to guide an implementation of the
+SCOOP compiler and runtime system, and to detect and correct a variety of
+errors and ambiguities in the original informal specification and prototype
+implementation. In our formal specification, we use abstract data types with
+preconditions and axioms to describe the state, and introduce a number of
+special run-time operations to model the runtime system with our inference
+rules. This approach allows us to make our large formal specification
+manageable, providing a first step towards reference documents for specifying
+object-oriented languages based on operational semantics.

@@ -1,0 +1,17 @@
+The operating system's role in a computer system is to manage the various
+resources. One of these resources is the Central Processing Unit. It is managed
+by a component of the operating system called the CPU scheduler. Schedulers are
+optimized for typical workloads expected to run on the platform. However, a
+single scheduler may not be appropriate for all workloads. That is, a scheduler
+may schedule a workload such that the completion time is minimized, but when
+another type of workload is run on the platform, scheduling and therefore
+completion time will not be optimal; a different scheduling algorithm, or a
+different set of parameters, may work better. Several approaches to solving
+this problem have been proposed. The objective of this survey is to summarize
+the approaches based on data mining, which are available in the literature. In
+addition to solutions that can be directly utilized for solving this problem,
+we are interested in data mining research in related areas that have potential
+for use in operating system scheduling. We also explain general technical
+issues involved in scheduling in modern computers, including parallel
+scheduling issues related to multi-core CPUs. We propose a taxonomy that
+classifies the scheduling approaches we discuss into different categories.

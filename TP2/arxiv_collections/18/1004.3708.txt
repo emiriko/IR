@@ -1,0 +1,19 @@
+Inter-subject parcellation of functional Magnetic Resonance Imaging (fMRI)
+data based on a standard General Linear Model (GLM)and spectral clustering was
+recently proposed as a means to alleviate the issues associated with spatial
+normalization in fMRI. However, for all its appeal, a GLM-based parcellation
+approach introduces its own biases, in the form of a priori knowledge about the
+shape of Hemodynamic Response Function (HRF) and task-related signal changes,
+or about the subject behaviour during the task. In this paper, we introduce a
+data-driven version of the spectral clustering parcellation, based on
+Independent Component Analysis (ICA) and Partial Least Squares (PLS) instead of
+the GLM. First, a number of independent components are automatically selected.
+Seed voxels are then obtained from the associated ICA maps and we compute the
+PLS latent variables between the fMRI signal of the seed voxels (which covers
+regional variations of the HRF) and the principal components of the signal
+across all voxels. Finally, we parcellate all subjects data with a spectral
+clustering of the PLS latent variables. We present results of the application
+of the proposed method on both single-subject and multi-subject fMRI datasets.
+Preliminary experimental results, evaluated with intra-parcel variance of GLM
+t-values and PLS derived t-values, indicate that this data-driven approach
+offers improvement in terms of parcellation accuracy over GLM based techniques.

@@ -1,0 +1,20 @@
+In many integer factoring algorithms, one produces a sequence of integers
+(created in a pseudo-random way), and wishes to rapidly determine a subsequence
+whose product is a square (which we call a square product). In his lecture at
+the 1994 International Congress of Mathematicians, Pomerance observed that the
+following problem encapsulates all of the key issues: Select integers a_1, a_2,
+>... at random from the interval [1,x], until some (non-empty) subsequence has
+product equal to a square. Find good estimate for the expected stopping time of
+this process. A good solution to this problem should help one to determine the
+optimal choice of parameters for one's factoring algorithm, and therefore this
+is a central question.
+  Pomerance (1994), using an idea of Schroeppel (1985), showed that with
+probability 1-o(1) the first subsequence whose product equals a square occurs
+after at least J_0^{1-o(1)} integers have been selected, but no more than J_0,
+for an appropriate (explicitly determined) J_0=J_0(x). Herein we determine this
+expected stopping time up to a constant factor, tightening Pomerance's interval
+to $$[ (\pi/4)(e^{-\gamma} - o(1))J_0, (e^{-\gamma} + o(1)) J_0],$$ where
+$\gamma = 0.577...$ is the Euler-Mascheroni constant. We will also confirm the
+well established belief that, typically, none of the integers in the square
+product have large prime factors. We believe the upper of the two bounds to be
+asymptotically sharp.

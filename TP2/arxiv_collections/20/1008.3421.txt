@@ -1,0 +1,15 @@
+We consider a utility maximization problem over partially observable Markov
+ON/OFF channels. In this network instantaneous channel states are never known,
+and at most one user is selected for service in every slot according to the
+partial channel information provided by past observations. Solving the utility
+maximization problem directly is difficult because it involves solving
+partially observable Markov decision processes. Instead, we construct an
+approximate solution by optimizing the network utility only over a good
+constrained network capacity region rendered by stationary policies. Using a
+novel frame-based Lyapunov drift argument, we design a policy of admission
+control and user selection that stabilizes the network with utility that can be
+made arbitrarily close to the optimal in the constrained region. Equivalently,
+we are dealing with a high-dimensional restless bandit problem with a general
+functional objective over Markov ON/OFF restless bandits. Thus the network
+control algorithm developed in this paper serves as a new approximation
+methodology to attack such complex restless bandit problems.

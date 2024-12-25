@@ -1,0 +1,20 @@
+The goal of this paper is to quantitatively describe some statistical
+properties of higher-dimensional determinantal point processes with a primary
+focus on the nearest-neighbor distribution functions. Toward this end, we
+express these functions as determinants of $N\times N$ matrices and then
+extrapolate to $N\to\infty$. This formulation allows for a quick and accurate
+numerical evaluation of these quantities for point processes in Euclidean
+spaces of dimension $d$. We also implement an algorithm due to Hough \emph{et.
+al.} \cite{hough2006dpa} for generating configurations of determinantal point
+processes in arbitrary Euclidean spaces, and we utilize this algorithm in
+conjunction with the aforementioned numerical results to characterize the
+statistical properties of what we call the Fermi-sphere point process for $d =
+1$ to 4. This homogeneous, isotropic determinantal point process, discussed
+also in a companion paper \cite{ToScZa08}, is the high-dimensional
+generalization of the distribution of eigenvalues on the unit circle of a
+random matrix from the circular unitary ensemble (CUE). In addition to the
+nearest-neighbor probability distribution, we are able to calculate Voronoi
+cells and nearest-neighbor extrema statistics for the Fermi-sphere point
+process and discuss these as the dimension $d$ is varied. The results in this
+paper accompany and complement analytical properties of higher-dimensional
+determinantal point processes developed in \cite{ToScZa08}.

@@ -1,0 +1,16 @@
+We present a new cluster detection algorithm designed for finding
+high-redshift clusters using optical/infrared imaging data. The algorithm has
+two main characteristics. First, it utilises each galaxy's full redshift
+probability function, instead of an estimate of the photometric redshift based
+on the peak of the probability function and an associated Gaussian error.
+Second, it identifies cluster candidates through cross-checking the results of
+two substantially different selection techniques (the name 2TecX representing
+the cross-check of the two techniques). These are adaptations of the Voronoi
+Tesselations and Friends-Of-Friends methods. Monte-Carlo simulations of mock
+catalogues show that cross-checking the cluster candidates found by the two
+techniques significantly reduces the detection of spurious sources.
+Furthermore, we examine the selection effects and relative strengths and
+weaknesses of either method. The simulations also allow us to fine-tune the
+algorithm's parameters, and define completeness and mass limit as a function of
+redshift. We demonstrate that the algorithm isolates high-redshift clusters at
+a high level of efficiency and low contamination.

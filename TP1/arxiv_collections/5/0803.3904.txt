@@ -1,0 +1,19 @@
+Multi-sample microarray experiments have become a standard experimental
+method for studying biological systems. A frequent goal in such studies is to
+unravel the regulatory relationships between genes. During the last few years,
+regression models have been proposed for the de novo discovery of cis-acting
+regulatory sequences using gene expression data. However, when applied to
+multi-sample experiments, existing regression based methods model each
+individual sample separately. To better capture the dynamic relationships in
+multi-sample microarray experiments, we propose a flexible method for the joint
+modeling of promoter sequence and multivariate expression data. In higher order
+eukaryotic genomes expression regulation usually involves combinatorial
+interaction between several transcription factors. Experiments have shown that
+spacing between transcription factor binding sites can significantly affect
+their strength in activating gene expression. We propose an adaptive model
+building procedure to capture such spacing dependent cis-acting regulatory
+modules. We apply our methods to the analysis of microarray time-course
+experiments in yeast and in Arabidopsis. These experiments exhibit very
+different dynamic temporal relationships. For both data sets, we have found all
+of the well-known cis-acting regulatory elements in the related context, as
+well as being able to predict novel elements.

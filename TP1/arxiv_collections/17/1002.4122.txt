@@ -1,0 +1,23 @@
+We present a new multi-phase sub-resolution model for star formation and
+feedback in SPH numerical simulations of galaxy formation. Our model, called
+MUPPI (MUlti-Phase Particle Integrator), describes each gas particle as a
+multi-phase system, with cold and hot gas phases, coexisting in pressure
+equilibrium, and a stellar component. Cooling of the hot tenuous gas phase
+feeds the cold gas phase. Stars are formed out of molecular gas with a given
+efficiency, which scales with the dynamical time of the cold phase. Our
+prescription for star formation is not based on imposing the Schmidt-Kennicutt
+relation, which is instead naturally produced by MUPPI. Energy from supernova
+explosions is deposited partly into the hot phase of the gas particles, and
+partly to that of neighboring particles. Mass and energy flows among the
+different phases of each particle are described by a set of ordinary
+differential equations which we explicitly integrate for each gas particle,
+instead of relying on equilibrium solutions. This system of equations also
+includes the response of the multi-phase structure to energy changes associated
+to the thermodynamics of the gas. We apply our model to two isolated disk
+galaxy simulations and two spherical cooling flows. MUPPI is able to reproduce
+the Schmidt-Kennicutt relation for disc galaxies. It also reproduces the basic
+properties of the inter-stellar medium in disc galaxies, the surface densities
+of cold and molecular gas, of stars and of star formation rate, the vertical
+velocity dispersion of cold clouds and the flows connected to the galactic
+fountains. Quite remarkably, MUPPI also provides efficient stellar feedback
+without the need to include a scheme of kinetic energy feedback. [abridged]

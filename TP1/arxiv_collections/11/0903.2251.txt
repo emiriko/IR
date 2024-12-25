@@ -1,0 +1,11 @@
+The safety of our day-to-day life depends crucially on the correct
+functioning of embedded software systems which control the functioning of more
+and more technical devices. Many of these software systems are time-critical.
+Hence, computations performed need not only to be correct, but must also be
+issued in a timely fashion. Worst case execution time (WCET) analysis is
+concerned with computing tight upper bounds for the execution time of a system
+in order to provide formal guarantees for the proper timing behaviour of a
+system. Central for this is to compute safe and tight bounds for loops and
+recursion depths. In this paper, we highlight the TuBound approach to this
+challenge at whose heart is a constraint logic based approach for loop
+analysis.

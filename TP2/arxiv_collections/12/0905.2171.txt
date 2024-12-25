@@ -1,0 +1,17 @@
+Dimension reduction and variable selection are performed routinely in
+case-control studies, but the literature on the theoretical aspects of the
+resulting estimates is scarce. We bring our contribution to this literature by
+studying estimators obtained via L1 penalized likelihood optimization. We show
+that the optimizers of the L1 penalized retrospective likelihood coincide with
+the optimizers of the L1 penalized prospective likelihood. This extends the
+results of Prentice and Pyke (1979), obtained for non-regularized likelihoods.
+We establish both the sup-norm consistency of the odds ratio, after model
+selection, and the consistency of subset selection of our estimators. The
+novelty of our theoretical results consists in the study of these properties
+under the case-control sampling scheme. Our results hold for selection
+performed over a large collection of candidate variables, with cardinality
+allowed to depend and be greater than the sample size. We complement our
+theoretical results with a novel approach of determining data driven tuning
+parameters, based on the bisection method. The resulting procedure offers
+significant computational savings when compared with grid search based methods.
+All our numerical experiments support strongly our theoretical findings.

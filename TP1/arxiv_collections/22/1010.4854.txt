@@ -1,0 +1,15 @@
+There has been substantial progress recently in understanding toy problems of
+purely implicit signaling. These are problems where the source and the channel
+are implicit -- the message is generated endogenously by the system, and the
+plant itself is used as a channel. In this paper, we explore how implicit and
+explicit communication can be used synergistically to reduce control costs. The
+setting is an extension of Witsenhausen's counterexample where a rate-limited
+external channel connects the two controllers. Using a semi-deterministic
+version of the problem, we arrive at a binning-based strategy that can
+outperform the best known strategies by an arbitrarily large factor. We also
+show that our binning-based strategy attains within a constant factor of the
+optimal cost for an asymptotically infinite-length version of the problem
+uniformly over all problem parameters and all rates on the external channel.
+For the scalar case, although our results yield approximate optimality for each
+fixed rate, we are unable to prove approximately-optimality uniformly over all
+rates.

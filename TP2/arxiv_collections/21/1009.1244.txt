@@ -1,0 +1,17 @@
+In this paper we describe an adaptive and multi-scale algorithm for the
+parsimonious fit of the corneal surface data that allows to adapt the number of
+functions used in the reconstruction to the conditions of each cornea. The
+method implements also a dynamical selection of the parameters and the
+management of noise. It can be used for the real-time reconstruction of both
+altimetric data and corneal power maps from the data collected by keratoscopes,
+such as the Placido rings based topographers, decisive for an early detection
+of corneal diseases such as keratoconus.
+  Numerical experiments show that the algorithm exhibits a steady exponential
+error decay, independently of the level of aberration of the cornea. The
+complexity of each anisotropic gaussian basis functions in the functional
+representation is the same, but their parameters vary to fit the current scale.
+This scale is determined only by the residual errors and not by the number of
+the iteration. Finally, the position and clustering of their centers, as well
+as the size of the shape parameters, provides an additional spatial information
+about the regions of higher irregularity. These results are compared with the
+standard approximation procedures based on the Zernike polynomials expansions.

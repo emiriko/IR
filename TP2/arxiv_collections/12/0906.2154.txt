@@ -1,0 +1,19 @@
+Computability logic (CoL) (see http://www.cis.upenn.edu/~giorgi/cl.html) is a
+recently introduced semantical platform and ambitious program for redeveloping
+logic as a formal theory of computability, as opposed to the formal theory of
+truth that logic has more traditionally been. Its expressions represent
+interactive computational tasks seen as games played by a machine against the
+environment, and "truth" is understood as existence of an algorithmic winning
+strategy. With logical operators standing for operations on games, the
+formalism of CoL is open-ended, and has already undergone series of extensions.
+This article extends the expressive power of CoL in a qualitatively new way,
+generalizing formulas (to which the earlier languages of CoL were limited) to
+circuit-style structures termed cirquents. The latter, unlike formulas, are
+able to account for subgame/subtask sharing between different parts of the
+overall game/task. Among the many advantages offered by this ability is that it
+allows us to capture, refine and generalize the well known
+independence-friendly logic which, after the present leap forward, naturally
+becomes a conservative fragment of CoL, just as classical logic had been known
+to be a conservative fragment of the formula-based version of CoL. Technically,
+this paper is self-contained, and can be read without any prior familiarity
+with CoL.

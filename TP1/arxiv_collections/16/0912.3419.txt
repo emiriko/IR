@@ -1,0 +1,19 @@
+This paper introduces a new mathematical framework, which is used to derive
+joint uplink/downlink achievable rate regions for multi-user spatial
+multiplexing between one base station and multiple terminals. The framework
+consists of two models: the first one is a simple transmission model for uplink
+and downlink, which is capable to give a lower bound on the capacity for the
+case that the transmission is subject to imperfect CSI. A detailed model for
+concrete channel estimation and feedback schemes provides parameter input to
+the former model and covers the most important aspects such as pilot design
+optimization, linear channel estimation, feedback delay, and feedback
+quantization. We apply this framework to determine optimal pilot densities and
+CSI feedback quantity, given that a weighted sum of uplink and downlink
+throughput is to be maximized for a certain user velocity. We show that for low
+speed, and if downlink throughput is of particular importance, a significant
+portion of the uplink should be invested into CSI feedback. At higher velocity,
+however, downlink performance becomes mainly affected by CSI feedback delay,
+and hence CSI feedback brings little gain considering the inherent sacrifice of
+uplink capacity. We further show that for high velocities, it becomes
+beneficial to use no CSI feedback at all, but apply random beamforming in the
+downlink and operate in time-division duplex.

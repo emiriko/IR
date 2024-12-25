@@ -1,0 +1,11 @@
+In the theory of compressed sensing, restricted isometry analysis has become
+a standard tool for studying how efficiently a measurement matrix acquires
+information about sparse and compressible signals. Many recovery algorithms are
+known to succeed when the restricted isometry constants of the sampling matrix
+are small. Many potential applications of compressed sensing involve a
+data-acquisition process that proceeds by convolution with a random pulse
+followed by (nonrandom) subsampling. At present, the theoretical analysis of
+this measurement technique is lacking. This paper demonstrates that the $s$th
+order restricted isometry constant is small when the number $m$ of samples
+satisfies $m \gtrsim (s \log n)^{3/2}$, where $n$ is the length of the pulse.
+This bound improves on previous estimates, which exhibit quadratic scaling.

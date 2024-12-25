@@ -1,0 +1,15 @@
+The need to federate repositories emerges in two distinctive scenarios. In
+one scenario, scalability-related problems in the operation of a repository
+reach a point beyond which continued service requires parallelization and hence
+federation of the repository infrastructure. In the other scenario, multiple
+distributed repositories manage collections of interest to certain communities
+or applications, and federation is an approach to present a unified perspective
+across these repositories. The high-level, 3-Tier aDORe federation architecture
+can be used as a guideline to federate repositories in both cases. This paper
+describes the architecture, consisting of core interfaces for federated
+repositories in Tier-1, two shared infrastructure components in Tier-2, and a
+single-point of access to the federation in Tier-3. The paper also illustrates
+two large-scale deployments of the aDORe federation architecture: the aDORe
+Archive repository (over 100,000,000 digital objects) at the Los Alamos
+National Laboratory and the Ghent University Image Repository federation
+(multiple terabytes of image files).

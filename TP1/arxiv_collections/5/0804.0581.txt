@@ -1,0 +1,17 @@
+Recently, a framework for the approximation of the entire set of
+$\epsilon$-efficient solutions (denote by $E_\epsilon$) of a multi-objective
+optimization problem with stochastic search algorithms has been proposed. It
+was proven that such an algorithm produces -- under mild assumptions on the
+process to generate new candidate solutions --a sequence of archives which
+converges to $E_{\epsilon}$ in the limit and in the probabilistic sense. The
+result, though satisfactory for most discrete MOPs, is at least from the
+practical viewpoint not sufficient for continuous models: in this case, the set
+of approximate solutions typically forms an $n$-dimensional object, where $n$
+denotes the dimension of the parameter space, and thus, it may come to
+perfomance problems since in practise one has to cope with a finite archive.
+Here we focus on obtaining finite and tight approximations of $E_\epsilon$, the
+latter measured by the Hausdorff distance. We propose and investigate a novel
+archiving strategy theoretically and empirically. For this, we analyze the
+convergence behavior of the algorithm, yielding bounds on the obtained
+approximation quality as well as on the cardinality of the resulting
+approximation, and present some numerical results.

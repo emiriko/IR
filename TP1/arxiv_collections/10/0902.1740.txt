@@ -1,0 +1,11 @@
+Astronomical data generally consists of 2 or more high-resolution axes, e.g.,
+X,Y position on the sky or wavelength and position-along-one-axis (long-slit
+spectrometer). Analyzing these multi-dimension observations requires combining
+3D source models (including velocity effects), instrument models, and
+multi-dimensional data comparison and fitting. A prototype of such a
+"Beyond-XSPEC" (Noble & Nowak, 2008) system is presented here using Chandra
+imag- ing and dispersed HETG grating data. Techniques used include: Monte Carlo
+event generation, chi-squared comparison, conjugate gradient fitting adapted to
+the Monte Carlo characteristics, and informative visualizations at each step.
+These simple baby steps of progress only scratch the surface of the
+computational potential that is available these days for astronomical analysis.

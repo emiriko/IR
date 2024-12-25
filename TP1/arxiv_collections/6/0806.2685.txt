@@ -1,0 +1,24 @@
+Statistically meaningful comparison/combination of peptide identification
+results from various search methods is impeded by the lack of a universal
+statistical standard. Providing an E-value calibration protocol, we
+demonstrated earlier the feasibility of translating either the score or
+heuristic E-value reported by any method into the textbook-defined E-value,
+which may serve as the universal statistical standard. This protocol, although
+robust, may lose spectrum-specific statistics and might require a new
+calibration when changes in experimental setup occur. To mitigate these issues,
+we developed a new MS/MS search tool, RAId_aPS, that is able to provide
+spectrum-specific E-values for additive scoring functions. Given a selection of
+scoring functions out of RAId score, K-score, Hyperscore and XCorr, RAId_aPS
+generates the corresponding score histograms of all possible peptides using
+dynamic programming. Using these score histograms to assign E-values enables a
+calibration-free protocol for accurate significance assignment for each scoring
+function. RAId_aPS features four different modes: (i) compute the total number
+of possible peptides for a given molecular mass range, (ii) generate the score
+histogram given a MS/MS spectrum and a scoring function, (iii) reassign
+E-values for a list of candidate peptides given a MS/MS spectrum and the
+scoring functions chosen, and (iv) perform database searches using selected
+scoring functions. In modes (iii) and (iv), RAId_aPS is also capable of
+combining results from different scoring functions using spectrum-specific
+statistics. The web link is
+http://www.ncbi.nlm.nih.gov/CBBresearch/Yu/raid_aps/index.html. Relevant
+binaries for Linux, Windows, and Mac OS X are available from the same page.

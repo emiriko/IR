@@ -1,0 +1,15 @@
+Let $m$ and $n>0$ be integers. Suppose that $p$ is a prime dividing $m-4$ but
+not dividing $m$. We show that $\nu_p(\sum_{k=0}^{n-1}\frac{\binom{2k}k}{m^k})$
+and $\nu_p(\sum_{k=0}^{n-1}\binom{n-1}{k}(-1)^k\frac{\binom{2k}k}{m^k})$ are at
+least $\nu_p(n)$, where $\nu_p(x)$ denotes the $p$-adic valuation of $x$.
+Furthermore, if $p>3$ then
+$$n^{-1}\sum_{k=0}^{n-1}\frac{\bi{2k}k}{m^k}=\frac{\binom{2n-1}{n-1}}{4^{n-1}}
+(mod p^{\nu_p(m-4)})$$ and
+$$n^{-1}\sum_{k=0}^{n-1}\binom{n-1}{k}(-1)^k\frac{\binom{2k}k}{m^k}=\frac{C_{n-1}}{4^{n-1}}
+(mod p^{\nu_p(m-4)}),$$ where $C_k$ denotes the Catalan number
+$\binom{2k}{k}/(k+1)$.
+  This implies several conjectures of Guo and Zeng [GZ]. We also raise two
+conjectures, and prove that $n>1$ is a prime if and only if
+$$\sum_{k=0}^{n-1}multinomial{(n-1)k}{k,...,k}=0 (mod n),$$ where
+$multinomial{k_1+...+k_{n-1}}{k_1,...,k_{n-1}}$ denotes the multinomial
+coefficient $(k_1+...+k_{n-1})!/(k_1!... k_{n-1}!)$.

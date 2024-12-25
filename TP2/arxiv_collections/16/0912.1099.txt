@@ -1,0 +1,13 @@
+A new algorithm for automatic detection of prominences on the solar limb in
+304 A EUV images is presented, and results of its application to SOHO/EIT data
+discussed. The detection is based on the method of moments combined with a
+classifier analysis aimed at discriminating between limb prominences, active
+regions, and the quiet corona. This classifier analysis is based on a Support
+Vector Machine (SVM). Using a set of 12 moments of the radial intensity
+profiles, the algorithm performs well in discriminating between the above three
+categories of limb structures, with a misclassification rate of 7%. Pixels
+detected as belonging to a prominence are then used as starting point to
+reconstruct the whole prominence by morphological image processing techniques.
+It is planned that a catalogue of limb prominences identified in SOHO and
+STEREO data using this method will be made publicly available to the scientific
+community.

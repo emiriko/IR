@@ -1,0 +1,17 @@
+In this article we compare the mean-square stability properties of the
+Theta-Maruyama and Theta-Milstein method that are used to solve stochastic
+differential equations. For the linear stability analysis, we propose an
+extension of the standard geometric Brownian motion as a test equation and
+consider a scalar linear test equation with several multiplicative noise terms.
+This test equation allows to begin investigating the influence of
+multi-dimensional noise on the stability behaviour of the methods while the
+analysis is still tractable. Our findings include: (i) the stability condition
+for the Theta-Milstein method and thus, for some choices of Theta, the
+conditions on the step-size, are much more restrictive than those for the
+Theta-Maruyama method; (ii) the precise stability region of the Theta-Milstein
+method explicitly depends on the noise terms. Further, we investigate the
+effect of introducing partially implicitness in the diffusion approximation
+terms of Milstein-type methods, thus obtaining the possibility to control the
+stability properties of these methods with a further method parameter Sigma.
+Numerical examples illustrate the results and provide a comparison of the
+stability behaviour of the different methods.

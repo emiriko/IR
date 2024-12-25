@@ -1,0 +1,23 @@
+We present SEREN, a new hybrid Smoothed Particle Hydrodynamics and N-body
+code designed to simulate astrophysical processes such as star and planet
+formation. It is written in Fortran 95/2003 and has been parallelised using
+OpenMP. SEREN is designed in a flexible, modular style, thereby allowing a
+large number of options to be selected or disabled easily and without
+compromising performance. SEREN uses the conservative `grad-h' formulation of
+SPH, but can easily be configured to use traditional SPH or Godunov SPH.
+Thermal physics is treated either with a barotropic equation of state, or by
+solving the energy equation and modelling the transport of cooling radiation. A
+Barnes-Hut tree is used to obtain neighbour lists and compute gravitational
+accelerations efficiently, and an hierarchical time-stepping scheme is used to
+reduce the number of computations per timestep. Dense gravitationally bound
+objects are replaced by sink particles, to allow the simulation to be evolved
+longer, and to facilitate the identification of protostars and the compilation
+of stellar and binary properties. At the termination of a hydrodynamical
+simulation, SEREN has the option of switching to a pure N-body simulation,
+using a 4th-order Hermite integrator, and following the ballistic evolution of
+the sink particles (e.g. to determine the final binary statistics once a star
+cluster has relaxed). We describe in detail all the algorithms implemented in
+SEREN and we present the results of a suite of tests designed to demonstrate
+the fidelity of SEREN and its performance and scalability. Further information
+and additional tests of SEREN can be found at the web-page
+http://www.astro.group.shef.ac.uk/seren.

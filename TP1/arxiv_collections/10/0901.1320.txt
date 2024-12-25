@@ -1,0 +1,23 @@
+This paper develops mathematical models describing the evolutionary dynamics
+of both asexually and sexually reproducing populations of diploid unicellular
+organisms. We consider two forms of genome organization. In one case, we assume
+that the genome consists of two multi-gene chromosomes, while in the second
+case we assume that each gene defines a separate chromosome. If the organism
+has $ l $ homologous pairs that lack a functional copy of the given gene, then
+the fitness of the organism is $ \kappa_l $. The $ \kappa_l $ are assumed to be
+monotonically decreasing, so that $ \kappa_0 = 1 > \kappa_1 > \kappa_2 > ... >
+\kappa_{\infty} = 0 $. For nearly all of the reproduction strategies we
+consider, we find, in the limit of large $ N $, that the mean fitness at
+mutation-selection balance is $ \max\{2 e^{-\mu} - 1, 0\} $, where $ N $ is the
+number of genes in the haploid set of the genome, $ \epsilon $ is the
+probability that a given DNA template strand of a given gene produces a mutated
+daughter during replication, and $ \mu = N \epsilon $. The only exception is
+the sexual reproduction pathway for the multi-chromosomed genome. Assuming a
+multiplicative fitness landscape where $ \kappa_l = \alpha^{l} $ for $ \alpha
+\in (0, 1) $, this strategy is found to have a mean fitness that exceeds the
+mean fitness of all of the other strategies. Furthermore, while the other
+reproduction strategies experience a total loss of viability due to the steady
+accumulation of deleterious mutations once $ \mu $ exceeds $ \ln 2 $, no such
+transition occurs in the sexual pathway. The results of this paper demonstrate
+a selective advantage for sexual reproduction with fewer and much less
+restrictive assumptions than previous work.

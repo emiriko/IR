@@ -1,0 +1,14 @@
+In cellular Orthogonal Frequency Division Multiplexing (OFDM) networks,
+Co-Channel Interference (CCI) leads to severe degradation in the BER
+performance. To solve this problem, Maximum-Likelihood Estimation (MLE) CCI
+cancellation scheme has been proposed in the literature. MLE CCI cancellation
+scheme generates weighted replicas of the transmitted signals and selects
+replica with the smallest Euclidean distance from the received signal. When the
+received power of the desired and interference signals are nearly the same, the
+BER performance is degraded. In this paper, we propose an improved MLE CCI
+canceler with closed-loop Power Control (PC) scheme capable of detecting and
+combating against the equal received power situation at the Mobile Station (MS)
+receiver by using the newly introduced parameter Power Ratio (PR). At cell edge
+where Signal to Interferer Ratio (SIR) is considered to have average value
+between -5 and 10 dB, computer simulations show that the proposed closed-loop
+PC scheme has a gain of 7 dB at 28 km/h and about 2 dB at 120 km/h.

@@ -1,0 +1,22 @@
+The planar rigidity problem asks, given a set of m pairwise distances among a
+set P of n unknown points, whether it is possible to reconstruct P, up to a
+finite set of possibilities (modulo rigid motions of the plane). The celebrated
+Maxwell-Laman Theorem from Rigidity Theory says that, generically, the rigidity
+problem has a combinatorial answer: the underlying combinatorial structure must
+contain a spanning minimally-rigid graph (Laman graph). In the case where the
+system is not rigid, its inclusion-wise maximal rigid substructures (rigid
+components) are also combinatorially characterized via the Maxwell-Laman
+theorem, and may be found efficiently.
+  Physicists have used planar combinatorial rigidity has been used to study the
+phase transition between liquid and solid in network glasses. The approach has
+been to generate a graph via a stochastic process and then experimentally
+analyze its rigidity properties. Of particular interest is the size of the
+largest rigid components.
+  In this paper, we study the emergence of rigid components in an Erdos-Renyi
+random graph G(n,p), using the parameterization p=c/n for a fixed constant c>0.
+Our first result is that for all c>0, almost surely all rigid components have
+size 2, 3 or Omega(n). We also show that for c>4, almost surely the largest
+rigid components have size at least n/10.
+  While the G(n,p) model is simpler than those appearing in the physics
+literature, these results are the first of this type where the distribution is
+over all graphs on n vertices and the expected number of edges is O(n).

@@ -1,0 +1,11 @@
+We give a new characterization of $\mathsf{NL}$ as the class of languages
+whose members have certificates that can be verified with small error in
+polynomial time by finite state machines that use a constant number of random
+bits, as opposed to its conventional description in terms of deterministic
+logarithmic-space verifiers. It turns out that allowing two-way interaction
+with the prover does not change the class of verifiable languages, and that no
+polynomially bounded amount of randomness is useful for constant-memory
+computers when used as language recognizers, or public-coin verifiers. A
+corollary of our main result is that the class of outcome problems
+corresponding to O(log n)-space bounded games of incomplete information where
+the universal player is allowed a constant number of moves equals NL.

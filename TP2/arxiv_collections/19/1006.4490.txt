@@ -1,0 +1,15 @@
+Network latency and packet loss are considered to be an important requirement
+for realistic evaluation of Peer-to-Peer protocols. Dedicated clusters, such as
+Grid'5000, do not provide the variety of network latency and packet loss rates
+that can be found in the Internet. However, compared to the experiments
+performed on testbeds such as PlanetLab, the experiments performed on dedicated
+clusters are reproducible, as the computational resources are not shared. In
+this paper, we perform experiments to study the impact of network latency and
+packet loss on the time required to download a file using BitTorrent. In our
+experiments, we observe a less than 15% increase on the time required to
+download a file when we increase the round-trip time between any two peers,
+from 0 ms to 400 ms, and the packet loss rate, from 0% to 5%. Our main
+conclusion is that the underlying network latency and packet loss have a
+marginal impact on the time required to download a file using BitTorrent.
+Hence, dedicated clusters such as Grid'5000 can be safely used to perform
+realistic and reproducible BitTorrent experiments.

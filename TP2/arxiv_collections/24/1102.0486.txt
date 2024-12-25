@@ -1,0 +1,12 @@
+The goal of any cryptographic system is the exchange of information among the
+intended users without any leakage of information to others who may have
+unauthorized access to it. A common secret key could be created over a public
+channel accessible to any opponent. Neural networks can be used to generate
+common secret key. In case of neural cryptography, both the communicating
+networks receive an identical input vector, generate an output bit and are
+trained based on the output bit. The two networks and their weight vectors
+exhibit a novel phenomenon, where the networks synchronize to a state with
+identical time-dependent weights. The generated secret key over a public
+channel is used for encrypting and decrypting the information being sent on the
+channel. This secret key is distributed to the other vendor efficiently by
+using an agent based approach.

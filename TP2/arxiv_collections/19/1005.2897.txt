@@ -1,0 +1,17 @@
+We examine the relationship between the algebraic lambda-calculus, a fragment
+of the differential lambda-calculus and the linear-algebraic lambda-calculus, a
+candidate lambda-calculus for quantum computation. Both calculi are algebraic:
+each one is equipped with an additive and a scalar-multiplicative structure,
+and their set of terms is closed under linear combinations. However, the two
+languages were built using different approaches: the former is a call-by-name
+language whereas the latter is call-by-value; the former considers algebraic
+equalities whereas the latter approaches them through rewrite rules. In this
+paper, we analyse how these different approaches relate to one another. To this
+end, we propose four canonical languages based on each of the possible choices:
+call-by-name versus call-by-value, algebraic equality versus algebraic
+rewriting. We show that the various languages simulate one another. Due to
+subtle interaction between beta-reduction and algebraic rewriting, to make the
+languages consistent some additional hypotheses such as confluence or
+normalisation might be required. We carefully devise the required properties
+for each proof, making them general enough to be valid for any sub-language
+satisfying the corresponding properties.

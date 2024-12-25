@@ -1,0 +1,14 @@
+A collaborative object represents a data type (such as a text document)
+designed to be shared by a group of dispersed users. The Operational
+Transformation (OT) is a coordination approach used for supporting optimistic
+replication for these objects. It allows the users to concurrently update the
+shared data and exchange their updates in any order since the convergence of
+all replicas, i.e. the fact that all users view the same data, is ensured in
+all cases. However, designing algorithms for achieving convergence with the OT
+approach is a critical and challenging issue. In this paper, we propose a
+formal compositional method for specifying complex collaborative objects. The
+most important feature of our method is that designing an OT algorithm for the
+composed collaborative object can be done by reusing the OT algorithms of
+component collaborative objects. By using our method, we can start from correct
+small collaborative objects which are relatively easy to handle and
+incrementally combine them to build more complex collaborative objects.

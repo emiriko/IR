@@ -1,0 +1,21 @@
+Quantum key distribution (QKD) relies on quantum and classical procedures in
+order to achieve the growing of a secret random string -the key- known only to
+the two parties executing the protocol. Limited intrinsic efficiency of the
+protocol, imperfect devices and eavesdropping produce errors and information
+leakage from which the set of measured signals -the raw key- must be stripped
+in order to distill a final, information theoretically secure, key. The key
+distillation process is a classical one in which basis reconciliation, error
+correction and privacy amplification protocols are applied to the raw key. This
+cleaning process is known as information reconciliation and must be done in a
+fast and efficient way to avoid cramping the performance of the QKD system.
+Brassard and Salvail proposed a very simple and elegant protocol to reconcile
+keys in the secret-key agreement context, known as Cascade, that has become the
+de-facto standard for all QKD practical implementations. However, it is highly
+interactive, requiring many communications between the legitimate parties and
+its efficiency is not optimal, imposing an early limit to the maximum tolerable
+error rate. In this paper we describe a low-density parity-check reconciliation
+protocol that improves significantly on these problems. The protocol exhibits
+better efficiency and limits the number of uses of the communications channel.
+It is also able to adapt to different error rates while remaining efficient,
+thus reaching longer distances or higher secure key rate for a given QKD
+system.

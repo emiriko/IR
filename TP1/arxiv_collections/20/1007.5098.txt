@@ -1,0 +1,10 @@
+Minimum mean squared error (MMSE) estimators of signals from samples
+corrupted by jitter (timing noise) and additive noise are nonlinear, even when
+the signal prior and additive noise have normal distributions. This paper
+develops a stochastic algorithm based on Gibbs sampling and slice sampling to
+approximate the optimal MMSE estimator in this Bayesian formulation.
+Simulations demonstrate that this nonlinear algorithm can improve significantly
+upon the linear MMSE estimator, as well as the EM algorithm approximation to
+the maximum likelihood (ML) estimator used in classical estimation. Effective
+off-chip post-processing to mitigate jitter enables greater jitter to be
+tolerated, potentially reducing on-chip ADC power consumption.

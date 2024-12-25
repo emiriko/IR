@@ -1,0 +1,13 @@
+SARAH is a Mathematica package for studying supersymmetric models. It
+calculates for a given model the masses, tadpole equations and all vertices at
+tree-level. Those information can be used by \SARAH to write model files for
+CalcHep/CompHep or FeynArts/FormCalc. In addition, the second version of SARAH
+can derive the renormalization group equations for the gauge couplings,
+parameters of the superpotential and soft-breaking parameters at one and
+two-loop level. Furthermore, it calculates the one-loop self energies and the
+one-loop corrections to the tadpoles. SARAH can handle all N=1 SUSY models
+whose gauge sector is a direct product of SU(N) and U(1) gauge groups. The
+particle content of the model can be an arbitrary number of chiral superfields
+transforming as any irreducible representation with respect to the gauge
+groups. To implement a new model, the user has just to define the gauge sector,
+the particle, the superpotential and the field rotations to mass eigenstates.

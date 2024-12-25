@@ -1,0 +1,13 @@
+In this article, we present a simple technique for boosting the order of
+accuracy of finite difference schemes for time dependent partial differential
+equations by optimally selecting the time step used to advance the numerical
+solution and adding defect correction terms in a non-iterative manner. The
+power of the technique is its ability to extract as much accuracy as possible
+from existing finite difference schemes with minimal additional effort. Through
+straightforward numerical analysis arguments, we explain the origin of the
+boost in accuracy and estimate the computational cost of the resulting
+numerical method. We demonstrate the utility of optimal time step (OTS)
+selection combined with non-iterative defect correction (NIDC) on several
+different types of finite difference schemes for a wide array of classical
+linear and semilinear PDEs in one and more space dimensions on both regular and
+irregular domains.

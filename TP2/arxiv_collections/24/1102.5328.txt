@@ -1,0 +1,12 @@
+Tuning numerical libraries has become more difficult over time, as systems
+get more sophisticated. In particular, modern multicore machines make the
+behaviour of algorithms hard to forecast and model. In this paper, we tackle
+the issue of tuning a dense QR factorization on multicore architectures. We
+show that it is hard to rely on a model, which motivates us to design a fully
+empirical approach. We exhibit few strong empirical properties that enable us
+to efficiently prune the search space. Our method is automatic, fast and
+reliable. The tuning process is indeed fully performed at install time in less
+than one and ten minutes on five out of seven platforms. We achieve an average
+performance varying from 97% to 100% of the optimum performance depending on
+the platform. This work is a basis for autotuning the PLASMA library and
+enabling easy performance portability across hardware systems.

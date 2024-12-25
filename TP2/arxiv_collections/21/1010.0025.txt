@@ -1,0 +1,14 @@
+We present a hybrid approach for GW/Bethe-Salpeter Equation (BSE)
+calculations of core excitation spectra, including x-ray absorption (XAS),
+electron energy loss spectra (EELS), and non-resonant inelastic x-ray
+scattering (NRIXS). The method is based on {\it ab initio} wavefunctions from
+the plane-wave pseudopotential code ABINIT; atomic core-level states and
+projector augmented wave (PAW) transition matrix elements; the NIST core-level
+BSE solver; and a many-pole GW self-energy model to account for final-state
+broadening and self-energy shifts. Multiplet effects are also accounted for.
+The approach is implemented using an interface dubbed OCEAN (Obtaining Core
+Excitations using ABINIT and NBSE). To demonstrate the utility of the code we
+present results for the K-edges in LiF as probed by XAS and NRIXS, the K-edges
+of KCl as probed by XAS, the Ti L_2,3-edge in SrTiO_3 as probed by XAS, and the
+Mg L_2,3-edge in MgO as probed by XAS. We compare the results to experiments
+and results obtained using other theoretical approaches.

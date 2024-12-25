@@ -1,0 +1,16 @@
+A quantum shift register circuit acts on a set of input qubits and memory
+qubits, outputs a set of output qubits and updated memory qubits, and feeds the
+memory back into the device for the next cycle (similar to the operation of a
+classical shift register). Such a device finds application as an encoding and
+decoding circuit for a particular type of quantum error-correcting code, called
+a quantum convolutional code. Building on the Ollivier-Tillich and
+Grassl-Roetteler encoding algorithms for quantum convolutional codes, I present
+a method to determine a quantum shift register encoding circuit for a quantum
+convolutional code. I also determine a formula for the amount of memory that a
+CSS quantum convolutional code requires. I then detail primitive quantum shift
+register circuits that realize all of the finite- and infinite-depth
+transformations in the shift-invariant Clifford group (the class of
+transformations important for encoding and decoding quantum convolutional
+codes). The memory formula for a CSS quantum convolutional code then
+immediately leads to a formula for the memory required by a CSS
+entanglement-assisted quantum convolutional code.

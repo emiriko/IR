@@ -1,0 +1,15 @@
+A natural optimization model that formulates many online resource allocation
+and revenue management problems is the online linear program (LP) in which the
+constraint matrix is revealed column by column along with the corresponding
+objective coefficient. In such a model, a decision variable has to be set each
+time a column is revealed without observing the future inputs and the goal is
+to maximize the overall objective function. In this paper, we provide a
+near-optimal algorithm for this general class of online problems under the
+assumption of random order of arrival and some mild conditions on the size of
+the LP right-hand-side input. Specifically, our learning-based algorithm works
+by dynamically updating a threshold price vector at geometric time intervals,
+where the dual prices learned from the revealed columns in the previous period
+are used to determine the sequential decisions in the current period. Due to
+the feature of dynamic learning, the competitiveness of our algorithm improves
+over the past study of the same problem. We also present a worst-case example
+showing that the performance of our algorithm is near-optimal.

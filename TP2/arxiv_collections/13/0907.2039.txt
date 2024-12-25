@@ -1,0 +1,12 @@
+Model-driven design of software for safety-critical applications often relies
+on mathematically grounded techniques such as the B method. Such techniques
+consist in the successive applications of refinements to derive a concrete
+implementation from an abstract specification. Refinement theory defines
+verification conditions to guarantee that such operations preserve the intended
+behaviour of the abstract specifications. One of these conditions requires
+however that concrete operations have exactly the same signatures as their
+abstract counterpart, which is not always a practical requirement. This paper
+shows how changes of signatures can be achieved while still staying within the
+bounds of refinement theory. This makes it possible to take advantage of the
+mathematical guarantees and tool support provided for the current
+refinement-based techniques, such as the B method.

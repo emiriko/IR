@@ -1,0 +1,16 @@
+Global sensitivity analysis of complex numerical models can be performed by
+calculating variance-based importance measures of the input variables, such as
+the Sobol indices. However, these techniques, requiring a large number of model
+evaluations, are often unacceptable for time expensive computer codes. A well
+known and widely used decision consists in replacing the computer code by a
+metamodel, predicting the model responses with a negligible computation time
+and rending straightforward the estimation of Sobol indices. In this paper, we
+discuss about the Gaussian process model which gives analytical expressions of
+Sobol indices. Two approaches are studied to compute the Sobol indices: the
+first based on the predictor of the Gaussian process model and the second based
+on the global stochastic process model. Comparisons between the two estimates,
+made on analytical examples, show the superiority of the second approach in
+terms of convergence and robustness. Moreover, the second approach allows to
+integrate the modeling error of the Gaussian process model by directly giving
+some confidence intervals on the Sobol indices. These techniques are finally
+applied to a real case of hydrogeological modeling.

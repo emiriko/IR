@@ -1,0 +1,10 @@
+Private handshaking allows pairs of users to determine which (secret) groups
+they are both a member of. Group membership is kept secret to everybody else.
+Private handshaking is a more private form of secret handshaking, because it
+does not allow the group administrator to trace users. We extend the original
+definition of a handshaking protocol to allow and test for membership of
+multiple groups simultaneously. We present simple and efficient protocols for
+both the single group and multiple group membership case.
+  Private handshaking is a useful tool for mutual authentication, demanded by
+many pervasive applications (including RFID) for privacy. Our implementations
+are efficient enough to support such usually resource constrained scenarios.

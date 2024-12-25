@@ -1,0 +1,19 @@
+Let $X_1,X_2,...$ be a sequence of random variables satisfying the
+distributional recursion $X_1=0$ and $X_n= X_{n-I_n}+1$ for $n=2,3,...$, where
+$I_n$ is a random variable with values in $\{1,...,n-1\}$ which is independent
+of $X_2,...,X_{n-1}$. The random variable $X_n$ can be interpreted as the
+absorption time of a suitable death Markov chain with state space ${\mathbb
+N}:=\{1,2,...\}$ and absorbing state 1, conditioned that the chain starts in
+the initial state $n$.
+  This paper focuses on the asymptotics of $X_n$ as $n$ tends to infinity under
+the particular but important assumption that the distribution of $I_n$
+satisfies ${\mathbb P}\{I_n=k\}=p_k/(p_1+...+p_{n-1})$ for some given
+probability distribution $p_k={\mathbb P}\{\xi=k\}$, $k\in{\mathbb N}$.
+Depending on the tail behaviour of the distribution of $\xi$, several scalings
+for $X_n$ and corresponding limiting distributions come into play, among them
+stable distributions and distributions of exponential integrals of
+subordinators. The methods used in this paper are mainly probabilistic. The key
+tool is a coupling technique which relates the distribution of $X_n$ to a
+random walk, which explains, for example, the appearance of the Mittag-Leffler
+distribution in this context. The results are applied to describe the
+asymptotics of the number of collisions for certain beta-coalescent processes.

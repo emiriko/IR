@@ -1,0 +1,14 @@
+We propose a mixed finite element method for the motion of a strongly
+viscous, ideal, and isentropic gas. At the boundary we impose a Navier-slip
+condition such that the velocity equation can be posed in mixed form with the
+vorticity as an auxiliary variable. In this formulation we design a finite
+element method, where the velocity and vorticity is approximated with the div-
+and curl- conforming Nedelec elements, respectively, of the first order and
+first kind. The mixed scheme is coupled to a standard piecewise constant upwind
+discontinuous Galerkin discretization of the continuity equation. For the time
+discretization, implicit Euler time stepping is used. Our main result is that
+the numerical solution converges to a weak solution as the discretization
+parameters go to zero. The convergence analysis is inspired by the continuous
+analysis of Feireisl and Lions for the compressible Navier-Stokes equations.
+Tools used in the analysis include an equation for the effective viscous flux
+and various renormalizations of the density scheme.

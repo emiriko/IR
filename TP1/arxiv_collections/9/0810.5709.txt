@@ -1,0 +1,10 @@
+Flexible boundary condition methods couple an isolated defect to bulk through
+the bulk lattice Green's function. The inversion of the force-constant matrix
+for the lattice Green's function requires Fourier techniques to project out the
+singular subspace, corresponding to uniform displacements and forces for the
+infinite lattice. Three different techniques--relative displacement, elastic
+Green's function, and discontinuity correction--have different computational
+complexity for a specified numerical error. We calculate the convergence rates
+for elastically isotropic and anisotropic cases and compare them to analytic
+results. Our results confirm that the discontinuity correction is the most
+computationally efficient method to compute the lattice Green's function.

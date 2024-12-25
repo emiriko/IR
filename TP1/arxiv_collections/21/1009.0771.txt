@@ -1,0 +1,14 @@
+We prove that the family of embezzlement states defined by van Dam and Hayden
+[vanDamHayden2002] is universal for both quantum and classical entangled
+two-prover non-local games with an arbitrary number of rounds. More precisely,
+we show that for each $\epsilon>0$ and each strategy for a k-round two-prover
+non-local game which uses a bipartite shared state on 2m qubits and makes the
+provers win with probability $\omega$, there exists a strategy for the same
+game which uses an embezzlement state on $2m + 2m/\epsilon$ qubits and makes
+the provers win with probability $\omega-\sqrt{2\epsilon}$. Since the value of
+a game can be defined as the limit of the value of a maximal 2m-qubit strategy
+as m goes to infinity, our result implies that the classes QMIP*_{c,s}[2,k] and
+MIP*_{c,s}[2,k] remain invariant if we allow the provers to share only
+embezzlement states, for any completeness value c in [0,1] and any soundness
+value s < c. Finally we notice that the circuits applied by each prover may be
+put into a very simple universal form.

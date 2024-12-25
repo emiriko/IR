@@ -1,0 +1,9 @@
+The forward estimation problem for stationary and ergodic time series
+$\{X_n\}_{n=0}^{\infty}$ taking values from a finite alphabet ${\cal X}$ is to
+estimate the probability that $X_{n+1}=x$ based on the observations $X_i$,
+$0\le i\le n$ without prior knowledge of the distribution of the process
+$\{X_n\}$. We present a simple procedure $g_n$ which is evaluated on the data
+segment $(X_0,...,X_n)$ and for which, ${\rm error}(n) = |g_{n}(x)-P(X_{n+1}=x
+|X_0,...,X_n)|\to 0$ almost surely for a subclass of all stationary and ergodic
+time series, while for the full class the Cesaro average of the error tends to
+zero almost surely and moreover, the error tends to zero in probability.

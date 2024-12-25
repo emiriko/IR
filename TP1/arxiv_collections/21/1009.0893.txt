@@ -1,0 +1,25 @@
+Continuous-time linear birth-death-immigration (BDI) processes are frequently
+used in ecology and epidemiology to model stochastic dynamics of the population
+of interest. In clinical settings, multiple birth-death processes can describe
+disease trajectories of individual patients, allowing for estimation of the
+effects of individual covariates on the birth and death rates of the process.
+Such estimation is usually accomplished by analyzing patient data collected at
+unevenly spaced time points, referred to as panel data in the biostatistics
+literature. Fitting linear BDI processes to panel data is a nontrivial
+optimization problem because birth and death rates can be functions of many
+parameters related to the covariates of interest. We propose a novel
+expectation--maximization (EM) algorithm for fitting linear BDI models with
+covariates to panel data. We derive a closed-form expression for the joint
+generating function of some of the BDI process statistics and use this
+generating function to reduce the E-step of the EM algorithm, as well as
+calculation of the Fisher information, to one-dimensional integration. This
+analytical technique yields a computationally efficient and robust optimization
+algorithm that we implemented in an open-source R package. We apply our method
+to DNA fingerprinting of Mycobacterium tuberculosis, the causative agent of
+tuberculosis, to study intrapatient time evolution of IS6110 copy number, a
+genetic marker frequently used during estimation of epidemiological clusters of
+Mycobacterium tuberculosis infections. Our analysis reveals previously
+undocumented differences in IS6110 birth-death rates among three major lineages
+of Mycobacterium tuberculosis, which has important implications for
+epidemiologists that use IS6110 for DNA fingerprinting of Mycobacterium
+tuberculosis.

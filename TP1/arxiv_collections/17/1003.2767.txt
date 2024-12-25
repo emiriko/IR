@@ -1,0 +1,13 @@
+We study two-player security games which can be viewed as sequences of
+nonzero-sum matrix games played by an Attacker and a Defender. The evolution of
+the game is based on a stochastic fictitious play process. Players do not have
+access to each other's payoff matrix. Each has to observe the other's actions
+up to present and plays the action generated based on the best response to
+these observations. However, when the game is played over a communication
+network, there are several practical issues that need to be taken into account:
+First, the players may make random decision errors from time to time. Second,
+the players' observations of each other's previous actions may be incorrect.
+The players will try to compensate for these errors based on the information
+they have. We examine convergence property of the game in such scenarios, and
+establish convergence to the equilibrium point under some mild assumptions when
+both players are restricted to two actions.

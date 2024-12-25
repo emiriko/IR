@@ -1,0 +1,19 @@
+In this paper, we develop efficient randomized algorithms for estimating
+probabilistic robustness margin and constructing robustness degradation curve
+for uncertain dynamic systems. One remarkable feature of these algorithms is
+their universal applicability to robustness analysis problems with arbitrary
+robustness requirements and uncertainty bounding set. In contrast to existing
+probabilistic methods, our approach does not depend on the feasibility of
+computing deterministic robustness margin. We have developed efficient methods
+such as probabilistic comparison, probabilistic bisection and backward
+iteration to facilitate the computation. In particular, confidence interval for
+binomial random variables has been frequently used in the estimation of
+probabilistic robustness margin and in the accuracy evaluation of estimating
+robustness degradation function. Motivated by the importance of fast computing
+of binomial confidence interval in the context of probabilistic robustness
+analysis, we have derived an explicit formula for constructing the confidence
+interval of binomial parameter with guaranteed coverage probability. The
+formula overcomes the limitation of normal approximation which is asymptotic in
+nature and thus inevitably introduce unknown errors in applications. Moreover,
+the formula is extremely simple and very tight in comparison with classic
+Clopper-Pearson's approach.

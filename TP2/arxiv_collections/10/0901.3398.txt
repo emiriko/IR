@@ -1,0 +1,12 @@
+BSLP is a two-dimensional dynamic model of interacting portfolio-level loss
+and spread (more exactly, loss intensity) processes. The model is similar to
+the top-down HJM-like frameworks developed by Schonbucher (2005) and
+Sidenius-Peterbarg-Andersen (SPA) (2005), however is constructed as a
+Markovian, short-rate intensity model. This property of the model enables fast
+lattice methods for pricing various portfolio credit derivatives such as
+tranche options, forward-starting tranches, leveraged super-senior tranches
+etc. A non-parametric model specification is used to achieve nearly perfect
+calibration to liquid tranche quotes across strikes and maturities. A
+non-dynamic version of the model obtained in the zero volatility limit of
+stochastic intensity is useful on its own as an arbitrage-free interpolation
+model to price non-standard index tranches off the standard ones.

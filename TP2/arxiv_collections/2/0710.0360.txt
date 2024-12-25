@@ -1,0 +1,16 @@
+We investigate the following question: if a polynomial can be evaluated at
+rational points by a polynomial-time boolean algorithm, does it have a
+polynomial-size arithmetic circuit? We argue that this question is certainly
+difficult. Answering it negatively would indeed imply that the constant-free
+versions of the algebraic complexity classes VP and VNP defined by Valiant are
+different. Answering this question positively would imply a transfer theorem
+from boolean to algebraic complexity. Our proof method relies on Lagrange
+interpolation and on recent results connecting the (boolean) counting hierarchy
+to algebraic complexity classes. As a byproduct we obtain two additional
+results: (i) The constant-free, degree-unbounded version of Valiant's
+hypothesis that VP and VNP differ implies the degree-bounded version. This
+result was previously known to hold for fields of positive characteristic only.
+(ii) If exponential sums of easy to compute polynomials can be computed
+efficiently, then the same is true of exponential products. We point out an
+application of this result to the P=NP problem in the Blum-Shub-Smale model of
+computation over the field of complex numbers.

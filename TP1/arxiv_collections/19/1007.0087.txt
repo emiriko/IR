@@ -1,0 +1,16 @@
+This paper addresses an interesting security problem in wireless ad hoc
+networks: the Dynamic Group Key Agreement key establishment. For secure group
+communication in an Ad hoc network, a group key shared by all group members is
+required. This group key should be updated when there are membership changes
+(when the new member joins or current member leaves) in the group. In this
+paper, We propose a novel, secure, scalable and efficient Region-Based Group
+Key Agreement protocol (RBGKA) for ad-hoc networks. This is implemented by a
+two-level structure and a new scheme of group key update. The idea is to divide
+the group into subgroups, each maintaining its subgroup keys using Group
+Diffie-Hellman (GDH) Protocol and links with other subgroups in a Tree
+structure using Tree-based Group Diffie-Hellman (TGDH) protocol. By introducing
+region-based approach, messages and key updates will be limited within subgroup
+and outer group; hence computation load is distributed among many hosts. Both
+theoretical analysis and experimental results show that this Region-based key
+agreement protocol performs better for the key establishment problem in ad-hoc
+network in terms of memory cost, computation cost and communication cost.

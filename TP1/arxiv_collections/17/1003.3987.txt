@@ -1,0 +1,20 @@
+Many computerized methods for RNA-RNA interaction structure prediction have
+been developed. Recently, $O(N^6)$ time and $O(N^4)$ space dynamic programming
+algorithms have become available that compute the partition function of RNA-RNA
+interaction complexes. However, few of these methods incorporate the knowledge
+concerning related sequences, thus relevant evolutionary information is often
+neglected from the structure determination. Therefore, it is of considerable
+practical interest to introduce a method taking into consideration both
+thermodynamic stability and sequence covariation. We present the \emph{a
+priori} folding algorithm \texttt{ripalign}, whose input consists of two
+(given) multiple sequence alignments (MSA). \texttt{ripalign} outputs (1) the
+partition function, (2) base-pairing probabilities, (3) hybrid probabilities
+and (4) a set of Boltzmann-sampled suboptimal structures consisting of
+canonical joint structures that are compatible to the alignments. Compared to
+the single sequence-pair folding algorithm \texttt{rip}, \texttt{ripalign}
+requires negligible additional memory resource. Furthermore, we incorporate
+possible structure constraints as input parameters into our algorithm. The
+algorithm described here is implemented in C as part of the \texttt{rip}
+package. The supplemental material, source code and input/output files can
+freely be downloaded from \url{http://www.combinatorics.cn/cbpc/ripalign.html}.
+\section{Contact} Christian Reidys \texttt{duck@santafe.edu}

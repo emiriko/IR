@@ -1,0 +1,15 @@
+When comparing 2D shapes, a key issue is their normalization. Translation and
+scale are easily taken care of by removing the mean and normalizing the energy.
+However, defining and computing the orientation of a 2D shape is not so simple.
+In fact, although for elongated shapes the principal axis can be used to define
+one of two possible orientations, there is no such tool for general shapes. As
+we show in the paper, previous approaches fail to compute the orientation of
+even noiseless observations of simple shapes. We address this problem. In the
+paper, we show how to uniquely define the orientation of an arbitrary 2D shape,
+in terms of what we call its Principal Moments. We show that a small subset of
+these moments suffice to represent the underlying 2D shape and propose a new
+method to efficiently compute the shape orientation: Principal Moment Analysis.
+Finally, we discuss how this method can further be applied to normalize
+grey-level images. Besides the theoretical proof of correctness, we describe
+experiments demonstrating robustness to noise and illustrating the method with
+real images.

@@ -1,0 +1,21 @@
+We argue that relationships between Web pages are functions of the user's
+intent. We identify a class of Web tasks - information-gathering - that can be
+facilitated by a search engine that provides links to pages which are related
+to the page the user is currently viewing. We define three kinds of intentional
+relationships that correspond to whether the user is a) seeking sources of
+information, b) reading pages which provide information, or c) surfing through
+pages as part of an extended information-gathering process. We show that these
+three relationships can be productively mined using a combination of textual
+and link information and provide three scoring mechanisms that correspond to
+them: {\em SeekRel}, {\em FactRel} and {\em SurfRel}. These scoring mechanisms
+incorporate both textual and link information. We build a set of capacitated
+subnetworks - each corresponding to a particular keyword - that mirror the
+interconnection structure of the World Wide Web. The scores are computed by
+computing flows on these subnetworks. The capacities of the links are derived
+from the {\em hub} and {\em authority} values of the nodes they connect,
+following the work of Kleinberg (1998) on assigning authority to pages in
+hyperlinked environments. We evaluated our scoring mechanism by running
+experiments on four data sets taken from the Web. We present user evaluations
+of the relevance of the top results returned by our scoring mechanisms and
+compare those to the top results returned by Google's Similar Pages feature,
+and the {\em Companion} algorithm proposed by Dean and Henzinger (1999).

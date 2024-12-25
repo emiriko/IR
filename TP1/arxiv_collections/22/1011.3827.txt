@@ -1,0 +1,16 @@
+We describe a physics simulation software framework, MAGE, that is based on
+the GEANT4 simulation toolkit. MAGE is used to simulate the response of
+ultra-low radioactive background radiation detectors to ionizing radiation,
+specifically the MAJORANA and GERDA neutrinoless double-beta decay experiments.
+MAJORANA and GERDA use high-purity germanium detectors to search for the
+neutrinoless double-beta decay of 76Ge, and MAGE is jointly developed between
+these two collaborations. The MAGE framework contains the geometry models of
+common objects, prototypes, test stands, and the actual experiments. It also
+implements customized event generators, GEANT4 physics lists, and output
+formats. All of these features are available as class libraries that are
+typically compiled into a single executable. The user selects the particular
+experimental setup implementation at run-time via macros. The combination of
+all these common classes into one framework reduces duplication of efforts,
+eases comparison between simulated data and experiment, and simplifies the
+addition of new detectors to be simulated. This paper focuses on the software
+framework, custom event generators, and physics lists.

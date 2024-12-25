@@ -1,0 +1,11 @@
+C++QED is a framework for simulating open quantum dynamics in general.
+Historically, it has in the first place been developed for problems in
+moving-particle cavity QED, but since then has been applied in other fields as
+well. It is known to be able to simulate full Master equation up to several
+thousand, and quantum trajectories up to several hundred thousand dimensions.
+The basic idea of the framework is to allow users to build arbitrarily complex
+interacting quantum systems from elementary free subsystems and interactions
+between them, and simulate their time evolution with a number of available
+time-evolution drivers. Apart from providing a number of elements out of the
+box, there are several tools which facilitate the implementation of new
+elements. These are being added continuously, on demand.

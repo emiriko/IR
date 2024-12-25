@@ -1,0 +1,12 @@
+This paper proposes a form of MPC in which the control variables are moved
+asynchronously. This contrasts with most MIMO control schemes, which assume
+that all variables are updated simultaneously. MPC outperforms other control
+strategies through its ability to deal with constraints. This requires on-line
+optimization, hence computational complexity can become an issue when applying
+MPC to complex systems with fast response times. The multiplexed MPC scheme
+described in this paper solves the MPC problem for each subsystem sequentially,
+and updates subsystem controls as soon as the solution is available, thus
+distributing the control moves over a complete update cycle. The resulting
+computational speed-up allows faster response to disturbances, which may result
+in improved performance, despite finding sub-optimal solutions to the original
+problem.

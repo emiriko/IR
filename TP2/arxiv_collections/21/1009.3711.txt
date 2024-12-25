@@ -1,0 +1,23 @@
+Web applications suffer from cross-site scripting (XSS) attacks that
+resulting from incomplete or incorrect input sanitization. Learning the
+structure of attack vectors could enrich the variety of manifestations in
+generated XSS attacks. In this study, we focus on generating more threatening
+XSS attacks for the state-of-the-art detection approaches that can find
+potential XSS vulnerabilities in Web applications, and propose a mechanism for
+structural learning of attack vectors with the aim of generating mutated XSS
+attacks in a fully automatic way. Mutated XSS attack generation depends on the
+analysis of attack vectors and the structural learning mechanism. For the
+kernel of the learning mechanism, we use a Hidden Markov model (HMM) as the
+structure of the attack vector model to capture the implicit manner of the
+attack vector, and this manner is benefited from the syntax meanings that are
+labeled by the proposed tokenizing mechanism. Bayes theorem is used to
+determine the number of hidden states in the model for generalizing the
+structure model. The paper has the contributions as following: (1)
+automatically learn the structure of attack vectors from practical data
+analysis to modeling a structure model of attack vectors, (2) mimic the manners
+and the elements of attack vectors to extend the ability of testing tool for
+identifying XSS vulnerabilities, (3) be helpful to verify the flaws of
+blacklist sanitization procedures of Web applications. We evaluated the
+proposed mechanism by Burp Intruder with a dataset collected from public XSS
+archives. The results show that mutated XSS attack generation can identify
+potential vulnerabilities.

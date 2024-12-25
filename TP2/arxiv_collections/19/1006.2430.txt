@@ -1,0 +1,17 @@
+An algorithm to compute the six distances between particles of a planar
+Four-Body central configuration is presented according to the following schema.
+An orthocentric tetrahedron is computed as a function of given masses. Each
+mass is placed at the corresponding vertex of the tetrahedron. The center of
+mass (and orthocenter) of the tetrahedron is at the origin of coordinates. The
+tetrahedron is orientated in a particular position function of the masses: with
+one of the particles placed on axis 3. The tetrahedron is rotated by two angles
+(to be tuned variables) around the center of mass until a direction orthogonal
+to the plane of configuration coincides with axis 3. The four coordinates of
+the vertices of the tetrahedron along this direction are identified with the
+weighted directed areas of the central configuration. The central configuration
+corresponding to these weighted directed areas is computed giving rise to four
+masses and corresponding distances. The given masses are compared with the
+computed ones. The two angles of the rotation are tuned until the given masses
+coincide with the computed. The corresponding distances of this last
+computation determine the central configuration. The case with two equal masses
+also is considered.

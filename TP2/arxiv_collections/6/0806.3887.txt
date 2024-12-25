@@ -1,0 +1,9 @@
+In the previous paper, we have conceptualized the localization and the
+organization of seeded region growing by pixels aggregation (SRGPA) but we do
+not give the issue when there is a collision between two distinct regions
+during the growing process. In this paper, we propose two implementations to
+manage two classical growing processes: one without a boundary region region to
+divide the other regions and another with. Unfortunately, as noticed by Mehnert
+and Jakway (1997), this partition depends on the seeded region initialisation
+order (SRIO). We propose a growing process, invariant about SRIO such as the
+boundary region is the set of ambiguous pixels.

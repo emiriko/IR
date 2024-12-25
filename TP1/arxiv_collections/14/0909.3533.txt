@@ -1,0 +1,22 @@
+A frequently encountered problem in peer review systems is to facilitate
+pairwise comparisons of a given set of proposals by as few as referees as
+possible. In [8], it was shown that, if each referee is assigned to review k
+proposals then ceil{n(n-1)/k(k-1)} referees are necessary and ceil{n(2n-k)/k^2}
+referees are sufficient to cover all n(n-1)/2 pairs of n proposals. While the
+upper bound remains within a factor of 2 of the lower bound, it becomes
+relatively large for small values of k and the ratio of the upper bound to the
+lower bound is not less than 3/2 when 2 <= k <= n/2. In this paper, we show
+that, if sqrt(n) <= k <= n/2 then the upper and lower bounds can be made closer
+in that their ratio never exceeds 3/2. This is accomplished by a new method
+that assigns proposals to referees using a particular family of balanced
+incomplete block designs. Specifically, the new method uses ceil{n(n+k)/k^2}
+referees when n/k is a prime power, n divides k^2, and sqrt(n) <= k <= n/2.
+Comparing this new upper bound to the one given in [8] shows that the new upper
+bound approaches the lower bound as k tends to sqrt(n) whereas the upper bound
+in [8] approaches the lower bound as k tends to n. Therefore, the new method
+given here when combined together with the one in [8] provides an assignment
+whose upper bound referee complexity always remains within a factor of 3/2 of
+the lower bound when sqrt(n) <= k <= n, thereby improving upon the assignment
+described in [8]. Furthermore, the new method provides a minimal covering,
+i.e., it uses the minimum number of referees possible when k = sqrt(n) and k is
+a prime power.

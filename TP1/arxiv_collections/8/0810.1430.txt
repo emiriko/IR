@@ -1,0 +1,14 @@
+We consider the design of cognitive Medium Access Control (MAC) protocols
+enabling an unlicensed (secondary) transmitter-receiver pair to communicate
+over the idle periods of a set of licensed channels, i.e., the primary network.
+The objective is to maximize data throughput while maintaining the
+synchronization between secondary users and avoiding interference with licensed
+(primary) users. No statistical information about the primary traffic is
+assumed to be available a-priori to the secondary user. We investigate two
+distinct sensing scenarios. In the first, the secondary transmitter is capable
+of sensing all the primary channels, whereas it senses one channel only in the
+second scenario. In both cases, we propose MAC protocols that efficiently learn
+the statistics of the primary traffic online. Our simulation results
+demonstrate that the proposed blind protocols asymptotically achieve the
+throughput obtained when prior knowledge of primary traffic statistics is
+available.

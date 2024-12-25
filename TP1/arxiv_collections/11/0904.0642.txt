@@ -1,0 +1,8 @@
+We document Fortran MPI checkerboard code for Markov Chain Monte Carlo
+simulations of pure SU(3) lattice gauge theory with the Wilson action on a
+D-dimensional double-layered torus. This includes the usual torus with periodic
+boundary conditions as an optional case. We use Cabibbo-Marinari heatbath
+checkerboard updating. Parallelization on sublattices is implemented in all D
+directions and can be restricted to less than D directions. The parallelization
+techniques of this paper can be used for any model with interactions of link
+variables defined on plaquettes.

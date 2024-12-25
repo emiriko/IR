@@ -1,0 +1,18 @@
+Human blood flow is a multi-scale problem: in first approximation, blood is a
+dense suspension of plasma and deformable red cells. Physiological vessel
+diameters range from about one to thousands of cell radii. Current
+computational models either involve a homogeneous fluid and cannot track
+particulate effects or describe a relatively small number of cells with high
+resolution, but are incapable to reach relevant time and length scales. Our
+approach is to simplify much further than existing particulate models. We
+combine well established methods from other areas of physics in order to find
+the essential ingredients for a minimalist description that still recovers
+hemorheology. These ingredients are a lattice Boltzmann method describing rigid
+particle suspensions to account for hydrodynamic long range interactions
+and---in order to describe the more complex short-range behavior of
+cells---anisotropic model potentials known from molecular dynamics simulations.
+Paying detailedness, we achieve an efficient and scalable implementation which
+is crucial for our ultimate goal: establishing a link between the collective
+behavior of millions of cells and the macroscopic properties of blood in
+realistic flow situations. In this paper we present our model and demonstrate
+its applicability to conditions typical for the microvasculature.

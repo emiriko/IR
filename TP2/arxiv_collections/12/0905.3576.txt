@@ -1,0 +1,21 @@
+We develop an asynchronous event-driven First-Passage Kinetic Monte Carlo
+(FPKMC) algorithm for continuous time and space systems involving multiple
+diffusing and reacting species of spherical particles in two and three
+dimensions. The FPKMC algorithm presented here is based on the method
+introduced in [Phys. Rev. Lett., 97:230602, 2006] and is implemented in a
+robust and flexible framework. Unlike standard KMC algorithms such as the
+n-fold algorithm, FPKMC is most efficient at low densities where it replaces
+the many small hops needed for reactants to find each other with large
+first-passage hops sampled from exact time-dependent Green's functions, without
+sacrificing accuracy. We describe in detail the key components of the
+algorithm, including the event-loop and the sampling of first-passage
+probability distributions, and demonstrate the accuracy of the new method. We
+apply the FPKMC algorithm to the challenging problem of simulation of long-term
+irradiation of metals, relevant to the performance and aging of nuclear
+materials in current and future nuclear power plants. The problem of radiation
+damage spans many decades of time-scales, from picosecond spikes caused by
+primary cascades, to years of slow damage annealing and microstructure
+evolution. Our implementation of the FPKMC algorithm has been able to simulate
+the irradiation of a metal sample for durations that are orders of magnitude
+longer than any previous simulations using the standard Object KMC or more
+recent asynchronous algorithms.

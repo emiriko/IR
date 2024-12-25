@@ -1,0 +1,20 @@
+For a discrete memoryless channel with non-causal state information available
+only at the encoder, it is well-known that Gelfand-Pinsker coding achieves its
+capacity. In this paper, we analyze Gelfand-Pinsker coding scheme and capacity
+to bring out further understandings. We show that Gelfand-Pinsker capacity is
+equal to the interference-free capacity. Thus the capacity of a channel with
+non-causal state information available only at the encoder is the same as if
+the state information is also available at the decoder. Furthermore, the
+capacity-achieving conditional input distributions in these two cases are the
+same. This lets us connect the studied channel with state to the multiple
+access channel (MAC) with correlated sources and show that under certain
+conditions, the receiver can decode both the message and the state information.
+This dual decoding can be obtained in particular if the state sequences come
+from a known codebook with rate satisfying a simple constraint. In such a case,
+we can modify Gelfand-Pinsker coding by pre-building multiple codebooks of
+input sequences $X^n$, each codebook is for a given state sequence $S^n$, upon
+generating the auxiliary $U^n$ sequences. The modified Gelfand-Pinsker coding
+scheme achieves the capacity of the MAC with degraded message set and still
+allows for decoding of just the message at any state information rate. We then
+revisit dirty-paper coding for the Gaussian channel to verify our analysis and
+modified coding scheme.

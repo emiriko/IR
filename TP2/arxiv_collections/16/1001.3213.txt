@@ -1,0 +1,9 @@
+Financial institutions have massive computations to carry out overnight which
+are very demanding in terms of the consumed CPU. The challenge is to price many
+different products on a cluster-like architecture. We have used the Premia
+software to valuate the financial derivatives. In this work, we explain how
+Premia can be embedded into Nsp, a scientific software like Matlab, to provide
+a powerful tool to valuate a whole portfolio. Finally, we have integrated an
+MPI toolbox into Nsp to enable to use Premia to solve a bunch of pricing
+problems on a cluster. This unified framework can then be used to test
+different parallel architectures.

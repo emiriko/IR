@@ -1,0 +1,18 @@
+We use a discrete-time proportional hazards model of time to involuntary
+employment termination. This model enables us to examine both the continuous
+effect of the age of an employee and whether that effect has varied over time,
+generalizing earlier work [Kadane and Woodworth J. Bus. Econom. Statist. 22
+(2004) 182--193]. We model the log hazard surface (over age and time) as a
+thin-plate spline, a Bayesian smoothness-prior implementation of penalized
+likelihood methods of surface-fitting [Wahba (1990) Spline Models for
+Observational Data. SIAM]. The nonlinear component of the surface has only two
+parameters, smoothness and anisotropy. The first, a scale parameter, governs
+the overall smoothness of the surface, and the second, anisotropy, controls the
+relative smoothness over time and over age. For any fixed value of the
+anisotropy parameter, the prior is equivalent to a Gaussian process with linear
+drift over the time--age plane with easily computed eigenvectors and
+eigenvalues that depend only on the configuration of data in the time--age
+plane and the anisotropy parameter. This model has application to legal cases
+in which a company is charged with disproportionately disadvantaging older
+workers when deciding whom to terminate. We illustrate the application of the
+modeling approach using data from an actual discrimination case.

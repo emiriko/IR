@@ -1,0 +1,17 @@
+Motivation :Reconstructing the topology of a gene regulatory network is one
+of the key tasks in systems biology. Despite of the wide variety of proposed
+methods, very little work has been dedicated to the assessment of their
+stability properties. Here we present a methodical comparison of the
+performance of a novel method (RegnANN) for gene network inference based on
+multilayer perceptrons with three reference algorithms (ARACNE, CLR, KELLER),
+focussing our analysis on the prediction variability induced by both the
+network intrinsic structure and the available data.
+  Results: The extensive evaluation on both synthetic data and a selection of
+gene modules of "Escherichia coli" indicates that all the algorithms suffer of
+instability and variability issues with regards to the reconstruction of the
+topology of the network. This instability makes objectively very hard the task
+of establishing which method performs best. Nevertheless, RegnANN shows MCC
+scores that compare very favorably with all the other inference methods tested.
+  Availability: The software for the RegnANN inference algorithm is distributed
+under GPL3 and it is available at the corresponding author home page
+(http://mpba.fbk.eu/grimaldi/regnann-supmat)

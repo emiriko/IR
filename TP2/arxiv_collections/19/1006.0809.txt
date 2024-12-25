@@ -1,0 +1,19 @@
+Analysing Web graphs has applications in determining page ranks, fighting Web
+spam, detecting communities and mirror sites, and more. This study is however
+hampered by the necessity of storing a major part of huge graphs in the
+external memory, which prevents efficient random access to edge (hyperlink)
+lists. A number of algorithms involving compression techniques have thus been
+presented, to represent Web graphs succinctly but also providing random access.
+Those techniques are usually based on differential encodings of the adjacency
+lists, finding repeating nodes or node regions in the successive lists, more
+general grammar-based transformations or 2-dimensional representations of the
+binary matrix of the graph. In this paper we present two Web graph compression
+algorithms. The first can be seen as engineering of the Boldi and Vigna (2004)
+method. We extend the notion of similarity between link lists, and use a more
+compact encoding of residuals. The algorithm works on blocks of varying size
+(in the number of input lines) and sacrifices access time for better
+compression ratio, achieving more succinct graph representation than other
+algorithms reported in the literature. The second algorithm works on blocks of
+the same size, in the number of input lines, and its key mechanism is merging
+the block into a single ordered list. This method achieves much more attractive
+space-time tradeoffs.

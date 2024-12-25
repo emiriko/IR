@@ -1,0 +1,8 @@
+We investigate a method to solve a class of Schr{\"o}dinger equation
+eigenvalue problems numerically to very high precision $P$ (from thousands to a
+million of decimals). The memory requirement, and the number of high precision
+algebraic operations, of the method scale essentially linearly with $P$ when
+only eigenvalues are computed. However, since the algorithms for multiplying
+high precision numbers scale at a rate between $P^{1.6}$ and $P\,\log
+P\,\log\log P$, the time requirement of our method increases somewhat faster
+than $P^2$.

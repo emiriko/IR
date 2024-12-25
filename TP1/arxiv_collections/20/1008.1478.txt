@@ -1,0 +1,21 @@
+In their famous paper Kohn and Sham formulated a formally exact
+density-functional theory (DFT) for the ground-state energy and density of a
+system of $N$ interacting electrons, albeit limited at the time by certain
+troubling representability questions. As no practical exact form of the
+exchange-correlation (xc) energy functional was known, the xc-functional had to
+be approximated, ideally by a local or semilocal functional. Nowadays however
+the realization that Nature is not always so nearsighted has driven us up
+Perdew's Jacob's ladder to find increasingly nonlocal density/wavefunction
+hybrid functionals. Time-dependent (TD-) DFT is a younger development which
+allows DFT concepts to be used to describe the temporal evolution of the
+density in the presence of a perturbing field. Linear response (LR) theory then
+allows spectra and other information about excited states to be extracted from
+TD-DFT. Once again the exact TD-DFT xc-functional must be approximated in
+practical calculations and this has historically been done using the TD-DFT
+adiabatic approximation (AA) which is to TD-DFT very much like what the local
+density approximation (LDA) is to conventional ground-state DFT. While some of
+the recent advances in TD-DFT focus on what can be done within the AA, others
+explore ways around the AA. After giving an overview of DFT, TD-DFT, and
+LR-TD-DFT, this article will focus on many-body corrections to LR-TD-DFT as one
+way to building hybrid density-functional/wavefunction methodology for
+incorporating aspects of nonlocality in time not present in the AA.

@@ -1,0 +1,11 @@
+This paper introduces the \emph{RoboCast} communication abstraction. The
+RoboCast allows a swarm of non oblivious, anonymous robots that are only
+endowed with visibility sensors and do not share a common coordinate system, to
+asynchronously exchange information. We propose a generic framework that covers
+a large class of asynchronous communication algorithms and show how our
+framework can be used to implement fundamental building blocks in robot
+networks such as gathering or stigmergy. In more details, we propose a RoboCast
+algorithm that allows robots to broadcast their local coordinate systems to
+each others. Our algorithm is further refined with a local collision avoidance
+scheme. Then, using the RoboCast primitive, we propose algorithms for
+deterministic asynchronous gathering and binary information exchange.

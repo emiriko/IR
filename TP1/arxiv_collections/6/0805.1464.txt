@@ -1,0 +1,17 @@
+In deduction modulo, a theory is not represented by a set of axioms but by a
+congruence on propositions modulo which the inference rules of standard
+deductive systems---such as for instance natural deduction---are applied.
+Therefore, the reasoning that is intrinsic of the theory does not appear in the
+length of proofs. In general, the congruence is defined through a rewrite
+system over terms and propositions. We define a rigorous framework to study
+proof lengths in deduction modulo, where the congruence must be computed in
+polynomial time. We show that even very simple rewrite systems lead to
+arbitrary proof-length speed-ups in deduction modulo, compared to using axioms.
+As higher-order logic can be encoded as a first-order theory in deduction
+modulo, we also study how to reinterpret, thanks to deduction modulo, the
+speed-ups between higher-order and first-order arithmetics that were stated by
+G\"odel. We define a first-order rewrite system with a congruence decidable in
+polynomial time such that proofs of higher-order arithmetic can be linearly
+translated into first-order arithmetic modulo that system. We also present the
+whole higher-order arithmetic as a first-order system without resorting to any
+axiom, where proofs have the same length as in the axiomatic presentation.

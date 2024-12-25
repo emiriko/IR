@@ -1,0 +1,16 @@
+Most of the statistical tests currently used to detect differentially
+expressed genes are based on asymptotic results, and perform poorly for low
+expression tags. Another problem is the common use of a single canonical cutoff
+for the significance level (p-value) of all the tags, without taking into
+consideration the type II error and the highly variable character of the sample
+size of the tags.
+  This work reports the development of two significance tests for the
+comparison of digital expression profiles, based on frequentist and Bayesian
+points of view, respectively. Both tests are exact, and do not use any
+asymptotic considerations, thus producing more correct results for low
+frequency tags than the chi-square test. The frequentist test uses a
+tag-customized critical level which minimizes a linear combination of type I
+and type II errors. A comparison of the Bayesian and the frequentist tests
+revealed that they are linked by a Beta distribution function. These tests can
+be used alone or in conjunction, and represent an improvement over the
+currently available methods for comparing digital profiles.

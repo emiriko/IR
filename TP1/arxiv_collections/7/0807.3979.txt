@@ -1,0 +1,15 @@
+Program transformation is an appealing technique which allows to improve
+run-time efficiency, space-consumption and more generally to optimize a given
+program. Essentially it consists of a sequence of syntactic program
+manipulations which preserves some kind of semantic equivalence. One of the
+basic operations which is used by most program transformation systems is
+unfolding which consists in the replacement of a procedure call by its
+definition. While there is a large body of literature on transformation and
+unfolding of sequential programs, very few papers have addressed this issue for
+concurrent languages and, to the best of our knowledge, no other has considered
+unfolding of CHR programs.
+  This paper defines a correct unfolding system for CHR programs. We define an
+unfolding rule, show its correctness and discuss some conditions which can be
+used to delete an unfolded rule while preserving the program meaning. We prove
+that confluence and termination properties are preserved by the above
+transformations.

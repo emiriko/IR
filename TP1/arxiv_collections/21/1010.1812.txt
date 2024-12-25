@@ -1,0 +1,12 @@
+Electing leader is a vital issue not only in distributed computing but also
+in communication network [1, 2, 3, 4, 5], centralized mutual exclusion
+algorithm [6, 7], centralized control IPC, etc. A leader is required to make
+synchronization between different processes. And different election algorithms
+are used to elect a coordinator among the available processes in the system
+such a way that there will be only one coordinator at any time. Bully election
+algorithm is one of the classical and well-known approaches in coordinator
+election process. This paper will present a modified version of bully election
+algorithm using a new concept called election commission. This approach will
+not only reduce redundant elections but also minimize total number of elections
+and hence it will minimize message passing, network traffic, and complexity of
+the existing system.

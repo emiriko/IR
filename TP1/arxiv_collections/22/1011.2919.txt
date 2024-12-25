@@ -1,0 +1,12 @@
+The recently-discovered polar codes are widely seen as a major breakthrough
+in coding theory. These codes achieve the capacity of many important channels
+under successive cancellation decoding. Motivated by the rapid progress in the
+theory of polar codes, we propose a family of architectures for efficient
+hardware implementation of successive cancellation decoders. We show that such
+decoders can be implemented with O(n) processing elements and O(n) memory
+elements, while providing constant throughput. We also propose a technique for
+overlapping the decoding of several consecutive codewords, thereby achieving a
+significant speed-up factor. We furthermore show that successive cancellation
+decoding can be implemented in the logarithmic domain, thereby eliminating the
+multiplication and division operations and greatly reducing the complexity of
+each processing element.

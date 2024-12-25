@@ -1,0 +1,12 @@
+This paper proposes an adaptive morphological dilation image coding with
+context weights prediction. The new dilation method is not to use fixed models,
+but to decide whether a coefficient needs to be dilated or not according to the
+coefficient's predicted significance degree. It includes two key dilation
+technologies: 1) controlling dilation process with context weights to reduce
+the output of insignificant coefficients, and 2) using variable-length group
+test coding with context weights to adjust the coding order and cost as few
+bits as possible to present the events with large probability. Moreover, we
+also propose a novel context weight strategy to predict coefficient's
+significance degree more accurately, which serves for two dilation
+technologies. Experimental results show that our proposed method outperforms
+the state of the art image coding algorithms available today.

@@ -1,0 +1,24 @@
+The density functional approach in the Kohn-Sham approximation is widely used
+to study properties of many-electron systems. Due to the nonlinearity of the
+Kohn-Sham equations, the general self-consistence searching method involves
+iterations with alternate solving of the Poisson and Schr\"{o}dinger equations.
+One of problems of such an approach is that the charge distribution renewed by
+means of the Schr\"{o}dinger equation solution does not conform to boundary
+conditions of Poisson equation for Coulomb potential. The resulting instability
+or even divergence of iterations manifests itself most appreciably in the case
+of infinitely extended systems. The published attempts to deal with this
+problem are reduced in fact to abandoning the original iterative method and
+replacing it with some approximate calculation scheme, which is usually
+semi-empirical and does not permit to evaluate the extent of deviation from the
+exact solution. In this work, we realize the iterative scheme of solving the
+Kohn-Sham equations for extended systems with inhomogeneous electron gas, which
+is based on eliminating the long-range character of Coulomb interaction as the
+cause of tight coupling between charge distribution and boundary conditions.
+The suggested algorithm is employed to calculate energy spectrum,
+self-consistent potential, and electrostatic capacitance of the semi-infinite
+degenerate electron gas bounded by infinitely high barrier, as well as the work
+function and surface energy of simple metals in the jellium model. The
+difference between self-consistent Hartree solutions and those taking into
+account the exchange-correlation interaction is analyzed. The case study of the
+metal-semiconductor tunnel contact shows this method being applied to an
+infinitely extended system where the steady-state current can flow.

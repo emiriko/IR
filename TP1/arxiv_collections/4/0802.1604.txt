@@ -1,0 +1,18 @@
+We consider the problem of computing Nash Equilibria of action-graph games
+(AGGs). AGGs, introduced by Bhat and Leyton-Brown, is a succinct representation
+of games that encapsulates both "local" dependencies as in graphical games, and
+partial indifference to other agents' identities as in anonymous games, which
+occur in many natural settings. This is achieved by specifying a graph on the
+set of actions, so that the payoff of an agent for selecting a strategy depends
+only on the number of agents playing each of the neighboring strategies in the
+action graph. We present a Polynomial Time Approximation Scheme for computing
+mixed Nash equilibria of AGGs with constant treewidth and a constant number of
+agent types (and an arbitrary number of strategies), together with hardness
+results for the cases when either the treewidth or the number of agent types is
+unconstrained. In particular, we show that even if the action graph is a tree,
+but the number of agent-types is unconstrained, it is NP-complete to decide the
+existence of a pure-strategy Nash equilibrium and PPAD-complete to compute a
+mixed Nash equilibrium (even an approximate one); similarly for symmetric AGGs
+(all agents belong to a single type), if we allow arbitrary treewidth. These
+hardness results suggest that, in some sense, our PTAS is as strong of a
+positive result as one can expect.

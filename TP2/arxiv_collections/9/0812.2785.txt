@@ -1,0 +1,11 @@
+Neural networks are powerful tools for classification and regression in
+static environments. This paper describes a technique for creating an ensemble
+of neural networks that adapts dynamically to changing conditions. The model
+separates the input space into four regions and each network is given a weight
+in each region based on its performance on samples from that region. The
+ensemble adapts dynamically by constantly adjusting these weights based on the
+current performance of the networks. The data set used is a collection of
+financial indicators with the goal of predicting the future platinum price. An
+ensemble with no weightings does not improve on the naive estimate of no weekly
+change; our weighting algorithm gives an average percentage error of 63% for
+twenty weeks of prediction.

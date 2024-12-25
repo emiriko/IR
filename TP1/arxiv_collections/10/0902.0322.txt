@@ -1,0 +1,18 @@
+Most behavioral detectors of malware remain specific to a given language and
+platform, mostly PE executables for Windows. The objective of this paper is to
+define a generic approach for behavioral detection based on two layers
+respectively responsible for abstraction and detection. The first abstraction
+layer remains specific to a platform and a language. This first layer
+interprets the collected instructions, API calls and arguments and classifies
+these operations as well as the involved objects according to their purpose in
+the malware lifecycle. The second detection layer remains generic and is
+totally interoperable between the different abstraction components. This layer
+relies on parallel automata parsing attribute-grammars where semantic rules are
+used for object typing (object classification) and object binding (data-flow).
+To feed detection and to experiment with our approach we have developed two
+different abstraction components: one processing system call traces from native
+code and one processing the VBScript interpreted language. The different
+experimentations have provided promising detection rates, in particular for
+script files (89%), with almost none false positives. In the case of process
+traces, the detection rate remains significant (51%) but could be increased by
+more sophisticated collection tools.

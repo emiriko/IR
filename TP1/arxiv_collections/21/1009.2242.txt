@@ -1,0 +1,22 @@
+Quantum convolutional codes, like their classical counterparts, promise to
+offer higher error correction performance than block codes of equivalent
+encoding complexity, and are expected to find important applications in
+reliable quantum communication where a continuous stream of qubits is
+transmitted. Grassl and Roetteler devised an algorithm to encode a quantum
+convolutional code with a "pearl-necklace encoder." Despite their theoretical
+significance as a neat way of representing quantum convolutional codes, they
+are not well-suited to practical realization. In fact, there is no
+straightforward way to implement any given pearl-necklace structure. This paper
+closes the gap between theoretical representation and practical implementation.
+In our previous work, we presented an efficient algorithm for finding a
+minimal-memory realization of a pearl-necklace encoder for
+Calderbank-Shor-Steane (CSS) convolutional codes. This work extends our
+previous work and presents an algorithm for turning a pearl-necklace encoder
+for a general (non-CSS) quantum convolutional code into a realizable quantum
+convolutional encoder. We show that a minimal-memory realization depends on the
+commutativity relations between the gate strings in the pearl-necklace encoder.
+We find a realization by means of a weighted graph which details the
+non-commutative paths through the pearl-necklace. The weight of the longest
+path in this graph is equal to the minimal amount of memory needed to implement
+the encoder. The algorithm has a polynomial-time complexity in the number of
+gate strings in the pearl-necklace encoder.

@@ -1,0 +1,12 @@
+In this paper we consider the problem of tracking the state of a quantum
+system via a continuous measurement. If the system Hamiltonian is known
+precisely, this merely requires integrating the appropriate stochastic master
+equation. However, even a small error in the assumed Hamiltonian can render
+this approach useless. The natural answer to this problem is to include the
+parameters of the Hamiltonian as part of the estimation problem, and the full
+Bayesian solution to this task provides a state-estimate that is robust against
+uncertainties. However, this approach requires considerable computational
+overhead. Here we consider a single qubit in which the Hamiltonian contains a
+single unknown parameter. We show that classical frequency estimation
+techniques greatly reduce the computational overhead associated with Bayesian
+estimation and provide accurate estimates for the qubit frequency

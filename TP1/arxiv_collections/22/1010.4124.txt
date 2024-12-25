@@ -1,0 +1,22 @@
+A two-dimensional lattice Boltzmann model with 19 discrete velocities for
+compressible Euler equations is proposed (D2V19-LBM). The fifth-order Weighted
+Essentially Non-Oscillatory (5th-WENO) finite difference scheme is employed to
+calculate the convection term of the lattice Boltzmann equation. The validity
+of the model is verified by comparing simulation results of the Sod shock tube
+with its corresponding analytical solutions. The velocity and density gradient
+effects on the Kelvin-Helmholtz instability (KHI) are investigated using the
+proposed model. Sharp density contours are obtained in our simulations. It is
+found that, the linear growth rate $\gamma$ for the KHI decreases with
+increasing the width of velocity transition layer ${D_{v}}$ but increases with
+increasing the width of density transition layer ${D_{\rho}}$. After the
+initial transient period and before the vortex has been well formed, the linear
+growth rates, $\gamma_v$ and $\gamma_{\rho}$, vary with ${D_{v}}$ and
+${D_{\rho}}$ approximately in the following way, $\ln\gamma_{v}=a-bD_{v}$ and
+$\gamma_{\rho}=c+e\ln D_{\rho} ({D_{\rho}}<{D_{\rho}^{E}})$, where $a$, $b$,
+$c$ and $e$ are fitting parameters and ${D_{\rho}^{E}}$ is the effective
+interaction width of density transition layer. When ${D_{\rho}}>{D_{\rho}^{E}}$
+the linear growth rate $\gamma_{\rho}$ does not vary significantly any more.
+One can use the hybrid effects of velocity and density transition layers to
+stabilize the KHI. Our numerical simulation results are in general agreement
+with the analytical results [L. F. Wang, \emph{et al.}, Phys. Plasma
+\textbf{17}, 042103 (2010)].

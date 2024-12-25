@@ -1,0 +1,17 @@
+Targeting at the development of an accurate and efficient dose calculation
+engine for online adaptive radiotherapy, we have implemented a finite size
+pencil beam (FSPB) algorithm with a 3D-density correction method on GPU. This
+new GPU-based dose engine is built on our previously published ultrafast FSPB
+computational framework [Gu et al. Phys. Med. Biol. 54 6287-97, 2009].
+Dosimetric evaluations against Monte Carlo dose calculations are conducted on
+10 IMRT treatment plans (5 head-and-neck cases and 5 lung cases). For all
+cases, there is improvement with the 3D-density correction over the
+conventional FSPB algorithm and for most cases the improvement is significant.
+Regarding the efficiency, because of the appropriate arrangement of memory
+access and the usage of GPU intrinsic functions, the dose calculation for an
+IMRT plan can be accomplished well within 1 second (except for one case) with
+this new GPU-based FSPB algorithm. Compared to the previous GPU-based FSPB
+algorithm without 3D-density correction, this new algorithm, though slightly
+sacrificing the computational efficiency (~5-15% lower), has significantly
+improved the dose calculation accuracy, making it more suitable for online IMRT
+replanning.

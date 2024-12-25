@@ -1,0 +1,15 @@
+In our previous work [1], a divide-and-conquer approach was proposed for
+cooperative tasking among multi-agent systems. The basic idea is to decompose a
+requested global specification into subtasks for individual agents such that
+the fulfillment of these subtasks by each individual agent leads to the
+satisfaction of the global specification as a team. It was shown that not all
+tasks can be decomposed. Furthermore, a necessary and sufficient condition was
+proposed for the decomposability of a task automaton between two cooperative
+agents. The current paper continues the results in [1] and proposes necessary
+and sufficient conditions for task decomposability with respect to arbitrary
+finite number of agents. It is further shown that the fulfillment of local
+specifications can guarantee the satisfaction of the global specification. This
+work provides hints for the designers on how to rule out the indecomposable
+task automata and enforce the decomposability conditions. The result therefore
+may pave the way towards a new perspective for decentralized cooperative
+control of multi-agent systems.

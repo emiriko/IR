@@ -1,0 +1,14 @@
+The purpose of this work is simulation of magnetised plasmas in the ITER
+project framework. In this context, Vlasov-Poisson like models are used to
+simulate core turbulence in the tokamak in a toroidal geometry. This leads to
+heavy simulation because a 6D dimensional problem has to be solved, 3D in space
+and 3D in velocity. The model is reduced to a 5D gyrokinetic model, taking
+advantage of the particular motion of particles due to the presence of a strong
+magnetic field. However, accurate schemes, parallel algorithms need to be
+designed to bear these simulations. This paper describes a Hermite formulation
+of the conservative PSM scheme which is very generic and allows to implement
+different semi-Lagrangian schemes. We also test and propose numerical limiters
+which should improve the robustness of the simulations by diminishing spurious
+oscillations. We only consider here the 4D drift-kinetic model which is the
+backbone of the 5D gyrokinetic models and relevant to build a robust and
+accurate numerical method.

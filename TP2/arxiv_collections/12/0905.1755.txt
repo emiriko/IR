@@ -1,0 +1,16 @@
+Group based anonymization is the most widely studied approach for privacy
+preserving data publishing. This includes k-anonymity, l-diversity, and
+t-closeness, to name a few. The goal of this paper is to raise a fundamental
+issue on the privacy exposure of the current group based approach. This has
+been overlooked in the past. The group based anonymization approach basically
+hides each individual record behind a group to preserve data privacy. If not
+properly anonymized, patterns can actually be derived from the published data
+and be used by the adversary to breach individual privacy. For example, from
+the medical records released, if patterns such as people from certain countries
+rarely suffer from some disease can be derived, then the information can be
+used to imply linkage of other people in an anonymized group with this disease
+with higher likelihood. We call the derived patterns from the published data
+the foreground knowledge. This is in contrast to the background knowledge that
+the adversary may obtain from other channels as studied in some previous work.
+Finally, we show by experiments that the attack is realistic in the privacy
+benchmark dataset under the traditional group based anonymization approach.

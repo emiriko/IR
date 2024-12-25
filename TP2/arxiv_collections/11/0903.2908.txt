@@ -1,0 +1,20 @@
+The solution space of a K-satisfiability (K-SAT) formula is a collection of
+solution clusters, each of which contains all the solutions that are mutually
+reachable through a sequence of single-spin flips. Knowledge of the statistical
+property of solution clusters is valuable for a complete understanding of the
+solution space structure and the computational complexity of the random K-SAT
+problem. This paper explores single solution clusters of random 3- and 4-SAT
+formulas through unbiased and biased random walk processes and the
+replica-symmetric cavity method of statistical physics. We find that the giant
+connected component of the solution space has already formed many different
+communities when the constraint density of the formula is still lower than the
+solution space clustering transition point. Solutions of the same community are
+more similar with each other and more densely connected with each other than
+with the other solutions. The entropy density of a solution community is
+calculated using belief propagation and is found to be different for different
+communities of the same cluster. When the constraint density is beyond the
+clustering transition point, the same behavior is observed for the solution
+clusters reached by several stochastic search algorithms. Taking together, the
+results of this work suggests a refined picture on the evolution of the
+solution space structure of the random K-SAT problem; they may also be helpful
+for designing new heuristic algorithms.

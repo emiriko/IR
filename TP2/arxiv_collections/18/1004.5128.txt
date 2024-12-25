@@ -1,0 +1,14 @@
+Numerical solutions to fractional differential equations can be extremely
+computationally intensive due to the effect of non-local derivatives in which
+all previous time points contribute to the current iteration. In finite
+difference methods this has been approximated using the 'short memory effect'
+where it is assumed that previous events prior to some certain time point are
+insignificant and thus not calculated. Here we present an adaptive time method
+for smooth functions that is computationally efficient and results in smaller
+errors during numerical simulations. Sampled points along the system's history
+at progressively longer intervals are assumed to reflect the values of
+neighboring time points. By including progressively fewer points as a function
+of time, a temporally 'weighted' history is computed that includes
+contributions from the entire past of the system, resulting in increased
+accuracy, but with fewer points actually calculated, which ensures
+computational efficiency.

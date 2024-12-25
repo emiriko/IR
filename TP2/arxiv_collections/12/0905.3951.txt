@@ -1,0 +1,15 @@
+The increasing use of model-based tools enables further use of formal
+verification techniques in the context of distributed real-time systems. To
+avoid state explosion, it is necessary to construct verification models that
+focus on the aspects under consideration.
+  In this paper, we discuss how we construct a verification model for timing
+analysis in distributed real-time systems. We (1) give observations concerning
+restrictions of timed automata to model these systems, (2) formulate
+mathematical representations on how to perform model-to-model transformation to
+derive verification models from system models, and (3) propose some theoretical
+criteria how to reduce the model size. The latter is in particular important,
+as for the verification of complex systems, an efficient model reflecting the
+properties of the system under consideration is equally important to the
+verification algorithm itself. Finally, we present an extension of the
+model-based development tool FTOS, designed to develop fault-tolerant systems,
+to demonstrate %the benefits of our approach.

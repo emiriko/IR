@@ -1,0 +1,11 @@
+Querying over disjunctive ASP with functions is a highly undecidable task in
+general. In this paper we focus on disjunctive logic programs with stratified
+negation and functions under the stable model semantics (ASP^{fs}). We show
+that query answering in this setting is decidable, if the query is finitely
+recursive (ASP^{fs}_{fr}). Our proof yields also an effective method for query
+evaluation. It is done by extending the magic set technique to ASP^{fs}_{fr}.
+We show that the magic-set rewritten program is query equivalent to the
+original one (under both brave and cautious reasoning). Moreover, we prove that
+the rewritten program is also finitely ground, implying that it is decidable.
+Importantly, finitely ground programs are evaluable using existing ASP solvers,
+making the class of ASP^{fs}_{fr} queries usable in practice.

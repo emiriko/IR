@@ -1,0 +1,13 @@
+Our article is concerned with adaptive sampling schemes for Bayesian
+inference that update the proposal densities using previous iterates. We
+introduce a copula based proposal density which is made more efficient by
+combining it with antithetic variable sampling. We compare the copula based
+proposal to an adaptive proposal density based on a multivariate mixture of
+normals and an adaptive random walk Metropolis proposal. We also introduce a
+refinement of the random walk proposal which performs better for multimodal
+target distributions. We compare the sampling schemes using challenging but
+realistic models and priors applied to real data examples. The results show
+that for the examples studied, the adaptive independent \MH{} proposals are
+much more efficient than the adaptive random walk proposals and that in general
+the copula based proposal has the best acceptance rates and lowest
+inefficiencies.

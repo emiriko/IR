@@ -1,0 +1,26 @@
+Least squares deconvolution (LSD) is a powerful method of extracting
+high-precision average line profiles from the stellar intensity and
+polarization spectra. Despite its common usage, the LSD method is poorly
+documented and has never been tested using realistic synthetic spectra. In this
+study we revisit the key assumptions of the LSD technique, clarify its
+numerical implementation, discuss possible improvements and give
+recommendations how to make LSD results understandable and reproducible. We
+also address the problem of interpretation of the moments and shapes of the LSD
+profiles in terms of physical parameters. We have developed an improved,
+multiprofile version of LSD and have extended the deconvolution procedure to
+linear polarization analysis taking into account anomalous Zeeman splitting of
+spectral lines. This code is applied to the theoretical Stokes parameter
+spectra. We test various methods of interpreting the mean profiles,
+investigating how coarse approximations of the multiline technique translate
+into errors of the derived parameters. We find that, generally, the Stokes
+parameter LSD profiles do not behave as a real spectral line with respect to
+the variation of magnetic field and elemental abundance. This problem is
+especially prominent for the Stokes I variation with abundance and Stokes Q
+variation with magnetic field. At the same time, the Stokes V LSD spectra
+closely resemble profile of a properly chosen synthetic line for the magnetic
+field strength up to 1 kG. We conclude that the usual method of interpreting
+the LSD profiles by assuming that they are equivalent to a real spectral line
+gives satisfactory results only in a limited parameter range and thus should be
+applied with caution. A more trustworthy approach is to abandon the single-line
+approximation of the average profiles and apply LSD consistently to
+observations and synthetic spectra.

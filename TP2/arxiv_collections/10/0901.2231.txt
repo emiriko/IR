@@ -1,0 +1,13 @@
+Until recently, the use of Bayesian inference in population genetics was
+limited to a few cases because for many realistic population genetic models the
+likelihood function cannot be calculated analytically . The situation changed
+with the advent of likelihood-free inference algorithms, often subsumed under
+the term Approximate Bayesian Computation (ABC). A key innovation was the use
+of a post-sampling regression adjustment, allowing larger tolerance values and
+as such shifting computation time to realistic orders of magnitude (see
+Beaumont et al., 2002). Here we propose a reformulation of the regression
+adjustment in terms of a General Linear Model (GLM). This allows the
+integration into the framework of Bayesian statistics and the use of its
+methods, including model selection via Bayes factors. We then apply the
+proposed methodology to the question of population subdivision among western
+chimpanzees Pan troglodytes verus.

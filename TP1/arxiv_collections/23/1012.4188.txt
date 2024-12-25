@@ -1,0 +1,20 @@
+This paper introduces a class of k-nearest neighbor ($k$-NN) estimators
+called bipartite plug-in (BPI) estimators for estimating integrals of
+non-linear functions of a probability density, such as Shannon entropy and
+R\'enyi entropy. The density is assumed to be smooth, have bounded support, and
+be uniformly bounded from below on this set. Unlike previous $k$-NN estimators
+of non-linear density functionals, the proposed estimator uses data-splitting
+and boundary correction to achieve lower mean square error. Specifically, we
+assume that $T$ i.i.d. samples ${X}_i \in \mathbb{R}^d$ from the density are
+split into two pieces of cardinality $M$ and $N$ respectively, with $M$ samples
+used for computing a k-nearest-neighbor density estimate and the remaining $N$
+samples used for empirical estimation of the integral of the density
+functional. By studying the statistical properties of k-NN balls, explicit
+rates for the bias and variance of the BPI estimator are derived in terms of
+the sample size, the dimension of the samples and the underlying probability
+distribution. Based on these results, it is possible to specify optimal choice
+of tuning parameters $M/T$, $k$ for maximizing the rate of decrease of the mean
+square error (MSE). The resultant optimized BPI estimator converges faster and
+achieves lower mean squared error than previous $k$-NN entropy estimators. In
+addition, a central limit theorem is established for the BPI estimator that
+allows us to specify tight asymptotic confidence intervals.

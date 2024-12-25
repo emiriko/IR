@@ -1,0 +1,15 @@
+This paper shows that in suitable markets, even with out-of-equilibrium trade
+allowed, a simple price update rule leads to rapid convergence toward the
+equilibrium. In particular, this paper considers a Fisher market repeated over
+an unbounded number of time steps, with the addition of finite sized warehouses
+to enable non-equilibrium trade. The main result is that suitable tatonnement
+style price updates lead to convergence in a significant subset of markets
+satisfying the Weak Gross Substitutes property. Throughout this process the
+warehouse are always able to store or meet demand imbalances (the needed
+capacity depends on the initial imbalances). Finally, our price update rule is
+robust in a variety of regards: 1. The updates for each good depend only on
+information about that good (its current price, its excess demand since its
+last update) and occur asynchronously from updates to other prices. 2. The
+process is resilient to error in the excess demand data. 3. Likewise, the
+process is resilient to discreteness, i.e. a limit to divisibility, both of
+goods and money.

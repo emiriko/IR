@@ -1,0 +1,14 @@
+For a wide variety of regularization methods, algorithms computing the entire
+solution path have been developed recently. Solution path algorithms do not
+only compute the solution for one particular value of the regularization
+parameter but the entire path of solutions, making the selection of an optimal
+parameter much easier. Most of the currently used algorithms are not robust in
+the sense that they cannot deal with general or degenerate input. Here we
+present a new robust, generic method for parametric quadratic programming. Our
+algorithm directly applies to nearly all machine learning applications, where
+so far every application required its own different algorithm.
+  We illustrate the usefulness of our method by applying it to a very low rank
+problem which could not be solved by existing path tracking methods, namely to
+compute part-worth values in choice based conjoint analysis, a popular
+technique from market research to estimate consumers preferences on a class of
+parameterized options.

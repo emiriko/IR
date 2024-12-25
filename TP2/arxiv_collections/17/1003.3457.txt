@@ -1,0 +1,21 @@
+Many steganographic techniques were proposed for hiding secret message inside
+images, the simplest of them being the LSB data hiding. In this paper, we
+suggest a novel data hiding technique in an HTML Web page and also propose some
+simple techniques to extend the embedding technique to source codes written in
+any programming language (both case insensitive like HTML, Pascal and case
+sensitive languages like C, C++, Java). We basically try to exploit the
+case-redundancy in case-insensitive language, while we try hiding data with
+minimal changes in the source code (almost not raising suspicion). HTML Tags
+are case insensitive and hence an alphabet in lowercase and one in uppercase
+present inside an HTML tag are interpreted in the same manner by the browser,
+i.e., change in case in a web page is imperceptible to the browser. We first
+exploit this redundancy and use it to embed secret data inside an web page,
+with no changes visible to the user of the web page, so that he can not even
+suspect about the data hiding. The embedded data can be recovered by viewing
+the source of the HTML page. This technique can easily be extended to embed
+secret message inside any piece of source-code where the standard interpreter
+of that language is case-insensitive. For case-sensitive programming languages
+we do minimal changes in the source code (e.g., add an extra character in the
+token identified by the lexical analyzer) without violating the lexical and
+syntactic notation for that language) and try to make the change almost
+imperceptible.

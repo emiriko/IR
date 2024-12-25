@@ -1,0 +1,12 @@
+We consider budget constrained combinatorial auctions where bidder $i$ has a
+private value $v_i$, a budget $b_i$, and is interested in all the items in
+$S_i$. The value to agent $i$ of a set of items $R$ is $|R \cap S_i| \cdot
+v_i$. Such auctions capture adword auctions, where advertisers offer a bid for
+ads in response to an advertiser-dependent set of adwords, and advertisers have
+budgets. It is known that even of all items are identical and all budgets are
+public it is not possible to be truthful and efficient. Our main result is a
+novel auction that runs in polynomial time, is incentive compatible, and
+ensures Pareto-optimality for such auctions when the valuations are private and
+the budgets are public knowledge. This extends the result of Dobzinski et al.
+(FOCS 2008) for auctions of multiple {\sl identical} items and public budgets
+to single-valued {\sl combinatorial} auctions with public budgets.

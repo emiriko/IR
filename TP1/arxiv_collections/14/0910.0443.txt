@@ -1,0 +1,16 @@
+Stackelberg Pricing Games is a two-level combinatorial pricing problem
+studied in the Economics, Operation Research, and Computer Science communities.
+In this paper, we consider the decade-old shortest path version of this problem
+which is the first and most studied problem in this family.
+  The game is played on a graph (representing a network) consisting of {\em
+fixed cost} edges and {\em pricable} or {\em variable cost} edges. The fixed
+cost edges already have some fixed price (representing the competitor's
+prices). Our task is to choose prices for the variable cost edges. After that,
+a client will buy the cheapest path from a node $s$ to a node $t$, using any
+combination of fixed cost and variable cost edges. The goal is to maximize the
+revenue on variable cost edges.
+  In this paper, we show that the problem is hard to approximate within
+$2-\epsilon$, improving the previous \APX-hardness result by Joret [to appear
+in {\em Networks}]. Our technique combines the existing ideas with a new
+insight into the price structure and its relation to the hardness of the
+instances.

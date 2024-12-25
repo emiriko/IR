@@ -1,0 +1,13 @@
+PGA, short for ProGram Algebra, describes sequential programs as finite or
+infinite (repeating) sequences of instructions. The semigroup C of finite
+instruction sequences was introduced as an equally expressive alternative to
+PGA. PGA instructions are executed from left to right; most C instructions come
+in a left-to-right as well as a right-to-left flavor. This thesis builds on C
+by introducing an alternative semigroup Cg which employs label and goto
+instructions instead of relative jump instructions as control structures. Cg
+can be translated to C and vice versa (and is thus equally expressive). It is
+shown that restricting the instruction sets of C and Cg to contain only
+finitely many distinct jump, goto or label instructions in either or both
+directions reduces their expressiveness. Instruction sets with an infinite
+number of these instructions in both directions (not necessarily all such
+instructions) do not suffer a loss of expressiveness.

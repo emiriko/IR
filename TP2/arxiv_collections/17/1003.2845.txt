@@ -1,0 +1,15 @@
+There is a great need for accurate and efficient computational approaches
+that can account for both the discrete and stochastic nature of chemical
+interactions as well as spatial inhomogeneities and diffusion. This is
+particularly true in biology and nanoscale materials science, where the common
+assumptions of deterministic dynamics and well-mixed reaction volumes often
+break down. In this article, we present a spatial version of the
+partitioned-leaping algorithm (PLA), a multiscale accelerated-stochastic
+simulation approach built upon the tau-leaping framework of Gillespie. We pay
+special attention to the details of the implementation, particularly as it
+pertains to the time step calculation procedure. We point out conceptual errors
+that have been made in this regard in prior implementations of spatial
+tau-leaping and illustrate the manifestation of these errors through practical
+examples. Finally, we discuss the fundamental difficulties associated with
+incorporating efficient exact-stochastic techniques, such as the next-subvolume
+method, into a spatial-leaping framework and suggest possible solutions.

@@ -1,0 +1,16 @@
+Security protocols often use randomization to achieve probabilistic
+non-determinism. This non-determinism, in turn, is used in obfuscating the
+dependence of observable values on secret data. Since the correctness of
+security protocols is very important, formal analysis of security protocols has
+been widely studied in literature. Randomized security protocols have also been
+analyzed using formal techniques such as process-calculi and probabilistic
+model checking. In this paper, we consider the problem of validating
+implementations of randomized protocols. Unlike previous approaches which treat
+the protocol as a white-box, our approach tries to verify an implementation
+provided as a black box. Our goal is to infer the secrecy guarantees provided
+by a security protocol through statistical techniques. We learn the
+probabilistic dependency of the observable outputs on secret inputs using
+Bayesian network. This is then used to approximate the leakage of secret. In
+order to evaluate the accuracy of our statistical approach, we compare our
+technique with the probabilistic model checking technique on two examples:
+crowds protocol and dining crypotgrapher's protocol.

@@ -1,0 +1,22 @@
+Sparse representations have emerged as a powerful tool in signal and
+information processing, culminated by the success of new acquisition and
+processing techniques such as Compressed Sensing (CS). Fusion frames are very
+rich new signal representation methods that use collections of subspaces
+instead of vectors to represent signals. This work combines these exciting
+fields to introduce a new sparsity model for fusion frames. Signals that are
+sparse under the new model can be compressively sampled and uniquely
+reconstructed in ways similar to sparse signals using standard CS. The
+combination provides a promising new set of mathematical tools and signal
+models useful in a variety of applications. With the new model, a sparse signal
+has energy in very few of the subspaces of the fusion frame, although it does
+not need to be sparse within each of the subspaces it occupies. This sparsity
+model is captured using a mixed l1/l2 norm for fusion frames.
+  A signal sparse in a fusion frame can be sampled using very few random
+projections and exactly reconstructed using a convex optimization that
+minimizes this mixed l1/l2 norm. The provided sampling conditions generalize
+coherence and RIP conditions used in standard CS theory. It is demonstrated
+that they are sufficient to guarantee sparse recovery of any signal sparse in
+our model. Moreover, a probabilistic analysis is provided using a stochastic
+model on the sparse signal that shows that under very mild conditions the
+probability of recovery failure decays exponentially with increasing dimension
+of the subspaces.

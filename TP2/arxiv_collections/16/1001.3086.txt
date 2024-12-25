@@ -1,0 +1,16 @@
+I formulate a general finite element method (FEM) for self-gravitating
+stellar systems. I split the configuration space to finite elements, and
+express the potential and density functions over each element in terms of their
+nodal values and suitable interpolating functions. General expressions are then
+introduced for the Hamiltonian and phase space distribution functions of the
+stars that visit a given element. Using the weighted residual form of Poisson's
+equation, I derive the Galerkin projection of the perturbed collisionless
+Boltzmann equation, and assemble the global evolutionary equations of nodal
+distribution functions. The FEM is highly adaptable to all kinds of potential
+and density profiles, and it can deal with density clumps and initially
+non-axisymmetric systems. I use ring elements of non-uniform widths, choose
+linear and quadratic interpolation functions in the radial direction, and apply
+the FEM to the stability analysis of the cutout Mestel disc. I also integrate
+the forced evolutionary equations and investigate the disturbances of a stable
+stellar disc due to the gravitational field of a distant satellite galaxy. The
+performance of the FEM and its prospects are discussed.

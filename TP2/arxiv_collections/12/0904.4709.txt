@@ -1,0 +1,18 @@
+The construction and analysis of an abstract reachability tree (ART) are the
+basis for a successful method for software verification. The ART represents
+unwindings of the control-flow graph of the program. Traditionally, a
+transition of the ART represents a single block of the program, and therefore,
+we call this approach single-block encoding (SBE). SBE may result in a huge
+number of program paths to be explored, which constitutes a fundamental source
+of inefficiency. We propose a generalization of the approach, in which
+transitions of the ART represent larger portions of the program; we call this
+approach large-block encoding (LBE). LBE may reduce the number of paths to be
+explored up to exponentially. Within this framework, we also investigate
+symbolic representations: for representing abstract states, in addition to
+conjunctions as used in SBE, we investigate the use of arbitrary Boolean
+formulas; for computing abstract-successor states, in addition to Cartesian
+predicate abstraction as used in SBE, we investigate the use of Boolean
+predicate abstraction. The new encoding leverages the efficiency of
+state-of-the-art SMT solvers, which can symbolically compute abstract
+large-block successors. Our experiments on benchmark C programs show that the
+large-block encoding outperforms the single-block encoding.

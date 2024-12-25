@@ -1,0 +1,22 @@
+The Support Vector Machine (SVM) is a popular classification paradigm in
+machine learning and has achieved great success in real applications. However,
+the standard SVM can not select variables automatically and therefore its
+solution typically utilizes all the input variables without discrimination.
+This makes it difficult to identify important predictor variables, which is
+often one of the primary goals in data analysis. In this paper, we propose two
+novel types of regularization in the context of the multicategory SVM (MSVM)
+for simultaneous classification and variable selection. The MSVM generally
+requires estimation of multiple discriminating functions and applies the argmax
+rule for prediction. For each individual variable, we propose to characterize
+its importance by the supnorm of its coefficient vector associated with
+different functions, and then minimize the MSVM hinge loss function subject to
+a penalty on the sum of supnorms. To further improve the supnorm penalty, we
+propose the adaptive regularization, which allows different weights imposed on
+different variables according to their relative importance. Both types of
+regularization automate variable selection in the process of building
+classifiers, and lead to sparse multi-classifiers with enhanced
+interpretability and improved accuracy, especially for high dimensional low
+sample size data. One big advantage of the supnorm penalty is its easy
+implementation via standard linear programming. Several simulated examples and
+one real gene data analysis demonstrate the outstanding performance of the
+adaptive supnorm penalty in various data settings.

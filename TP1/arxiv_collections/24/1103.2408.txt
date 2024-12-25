@@ -1,0 +1,12 @@
+Spinnaker is an experimental datastore that is designed to run on a large
+cluster of commodity servers in a single datacenter. It features key-based
+range partitioning, 3-way replication, and a transactional get-put API with the
+option to choose either strong or timeline consistency on reads. This paper
+describes Spinnaker's Paxos-based replication protocol. The use of Paxos
+ensures that a data partition in Spinnaker will be available for reads and
+writes as long a majority of its replicas are alive. Unlike traditional
+master-slave replication, this is true regardless of the failure sequence that
+occurs. We show that Paxos replication can be competitive with alternatives
+that provide weaker consistency guarantees. Compared to an eventually
+consistent datastore, we show that Spinnaker can be as fast or even faster on
+reads and only 5% to 10% slower on writes.

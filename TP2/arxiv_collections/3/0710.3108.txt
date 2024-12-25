@@ -1,0 +1,10 @@
+The software tool GRworkbench is an ongoing project in visual, numerical
+General Relativity at The Australian National University. Recently, the
+numerical differential geometric engine of GRworkbench has been rewritten using
+functional programming techniques. By allowing functions to be directly
+represented as program variables in C++ code, the functional framework enables
+the mathematical formalism of Differential Geometry to be more closely
+reflected in GRworkbench . The powerful technique of `automatic
+differentiation' has replaced numerical differentiation of the metric
+components, resulting in more accurate derivatives and an order-of-magnitude
+performance increase for operations relying on differentiation.

@@ -1,0 +1,15 @@
+The Schr\"odinger equation defines the dynamics of quantum particles which
+has been an area of unabated interest in physics. We demonstrate how simple
+transformations of the Schr\"odinger equation leads to a coupled linear system,
+whereby each diagonal block is a high frequency Helmholtz problem. Based on
+this model, we derive indefinite Helmholtz model problems with strongly varying
+wavenumbers. We employ the iterative approach for their solution. In
+particular, we develop a preconditioner that has its spectrum restricted to a
+quadrant (of the complex plane) thereby making it easily invertible by
+multigrid methods with standard components. This multigrid preconditioner is
+used in conjuction with suitable Krylov-subspace methods for solving the
+indefinite Helmholtz model problems. The aim of this study is to report the
+feasbility of this preconditioner for the model problems. We compare this idea
+with the other prevalent preconditioning ideas, and discuss its merits. Results
+of numerical experiments are presented, which complement the proposed ideas,
+and show that this preconditioner may be used in an automatic setting.

@@ -1,0 +1,10 @@
+Equilibrium systems evolve according to Detailed Balance (DB). This principe
+guided development of the Monte-Carlo sampling techniques, of which
+Metropolis-Hastings (MH) algorithm is the famous representative. It is also
+known that DB is sufficient but not necessary. We construct irreversible
+deformation of a given reversible algorithm capable of dramatic improvement of
+sampling from known distribution. Our transformation modifies transition rates
+keeping the structure of transitions intact. To illustrate the general scheme
+we design an Irreversible version of Metropolis-Hastings (IMH) and test it on
+example of a spin cluster. Standard MH for the model suffers from the critical
+slowdown, while IMH is free from critical slowdown.

@@ -1,0 +1,18 @@
+In signal detection problems, one is usually faced with the task of searching
+a parameter space for peaks in the likelihood function which indicate the
+presence of a signal. Random searches have proven to be very efficient as well
+as easy to implement, compared e.g. to searches along regular grids in
+parameter space. Knowledge of the parameterised shape of the signal searched
+for adds structure to the parameter space, i.e., there are usually regions
+requiring to be densely searched while in other regions a coarser search is
+sufficient. On the other hand, prior information identifies the regions in
+which a search will actually be promising or may likely be in vain. Defining
+specific figures of merit allows one to combine both template metric and prior
+distribution and devise optimal sampling schemes over the parameter space. We
+show an example related to the gravitational wave signal from a binary inspiral
+event. Here the template metric and prior information are particularly
+contradictory, since signals from low-mass systems tolerate the least mismatch
+in parameter space while high-mass systems are far more likely, as they imply a
+greater signal-to-noise ratio (SNR) and hence are detectable to greater
+distances. The derived sampling strategy is implemented in a Markov chain Monte
+Carlo (MCMC) algorithm where it improves convergence.

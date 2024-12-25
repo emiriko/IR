@@ -1,0 +1,21 @@
+Modeling of respiratory motion is important for a more accurate understanding
+and accounting of its effect on dose to cancers in the thorax and abdomen by
+radiotherapy. We have developed a model of respiration-induced organ motion in
+the thorax, without the commonly adopted assumption of repeatable breath
+cycles. The model describes the motion of a volume of interest within the
+patient, based on a reference 3-dimensional image (at end-expiration), and the
+diaphragm positions at different time points. The input data are
+respiration-correlated CT images of patients treated for nonsmall cell lung
+cancer, consisting of 3D images, including the diaphragm positions, at 10
+phases of the respiratory cycle. A deformable image registration algorithm
+calculates the deformation field that maps each 3D image to the reference 3D
+image. A principle component analysis is performed to parameterize the 3D
+deformation field in terms of the diaphragm motion. We show that the first two
+principal components are adequate to accurately and completely describe the
+organ motion in the data of 4 patients. Artifacts in the RCCT images that
+commonly occur at the mid-respiration states are reduced in the model-generated
+images. Further validation of the model is demonstrated in the successful
+application of the parameterized 3D deformation field to RCCT data of the same
+patient but acquired several days later. We have developed a method for
+predicting respiration-induced organ motion in patients that has potential for
+improving the accuracy of dose calculation in radiotherapy.

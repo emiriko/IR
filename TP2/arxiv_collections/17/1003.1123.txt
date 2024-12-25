@@ -1,0 +1,17 @@
+Langevin Dynamics, Monte Carlo, and all-atom Molecular Dynamics simulations
+in implicit solvent, widely used to access the microscopic transitions in
+biomolecules, require a reliable source of random numbers. Here we present the
+two main approaches for implementation of random number generators (RNGs) on a
+GPU, which enable one to generate random numbers on the fly. In the
+one-RNG-per-thread approach, inherent in CPU-based calculations, one RNG
+produces a stream of random numbers in each thread of execution, whereas the
+one-RNG-for-all-threads approach builds on the ability of different threads to
+communicate, thus, sharing random seeds across the entire GPU device. We
+exemplify the use of these approaches through the development of Ran2, Hybrid
+Taus, and Lagged Fibonacci algorithms fully implemented on the GPU. As an
+application-based test of randomness, we carry out LD simulations of N
+independent harmonic oscillators coupled to a stochastic thermostat. This model
+allows us to assess statistical quality of random numbers by comparing the
+simulation output with the exact results that would be obtained with truly
+random numbers. We also profile the performance of these generators in terms of
+the computational time, memory usage, and the speedup factor (CPU/GPU time).

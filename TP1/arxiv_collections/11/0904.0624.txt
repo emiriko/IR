@@ -1,0 +1,23 @@
+We provide a new dynamic approach to scenario generation for the purposes of
+risk management in the banking industry. We connect ideas from conventional
+techniques -- like historical and Monte Carlo simulation -- and we come up with
+a hybrid method that shares the advantages of standard procedures but
+eliminates several of their drawbacks. Instead of considering the static
+problem of constructing one or ten day ahead distributions for vectors of risk
+factors, we embed the problem into a dynamic framework, where any time horizon
+can be consistently simulated. Additionally, we use standard models from
+mathematical finance for each risk factor, whence bridging the worlds of
+trading and risk management.
+  Our approach is based on stochastic differential equations (SDEs), like the
+HJM-equation or the Black-Scholes equation, governing the time evolution of
+risk factors, on an empirical calibration method to the market for the chosen
+SDEs, and on an Euler scheme (or high-order schemes) for the numerical
+evaluation of the respective SDEs. The empirical calibration procedure
+presented in this paper can be seen as the SDE-counterpart of the so called
+Filtered Historical Simulation method; the behavior of volatility stems in our
+case out of the assumptions on the underlying SDEs. Furthermore, we are able to
+easily incorporate "middle-size" and "large-size" events within our framework
+always making a precise distinction between the information obtained from the
+market and the one coming from the necessary a-priori intuition of the risk
+manager.
+  Results of one concrete implementation are provided.

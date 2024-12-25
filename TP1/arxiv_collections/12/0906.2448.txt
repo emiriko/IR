@@ -1,0 +1,17 @@
+Logconcave functions represent the current frontier of efficient algorithms
+for sampling, optimization and integration in R^n. Efficient sampling
+algorithms to sample according to a probability density (to which the other two
+problems can be reduced) relies on good isoperimetry which is known to hold for
+arbitrary logconcave densities. In this paper, we extend this frontier in two
+ways: first, we characterize convexity-like conditions that imply good
+isoperimetry, i.e., what condition on function values along every line
+guarantees good isoperimetry? The answer turns out to be the set of
+(1/(n-1))-harmonic concave functions in R^n; we also prove that this is the
+best possible characterization along every line, of functions having good
+isoperimetry. Next, we give the first efficient algorithm for sampling
+according to such functions with complexity depending on a smoothness
+parameter. Further, noting that the multivariate Cauchy density is an important
+distribution in this class, we exploit certain properties of the Cauchy density
+to give an efficient sampling algorithm based on random walks with a mixing
+time that matches the current best bounds known for sampling logconcave
+functions.

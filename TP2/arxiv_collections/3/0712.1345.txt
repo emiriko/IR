@@ -1,0 +1,23 @@
+Computability logic (CL) (see http://www.cis.upenn.edu/~giorgi/cl.html) is a
+semantical platform and research program for redeveloping logic as a formal
+theory of computability, as opposed to the formal theory of truth which it has
+more traditionally been. Formulas in CL stand for (interactive) computational
+problems, understood as games between a machine and its environment; logical
+operators represent operations on such entities; and "truth" is understood as
+existence of an effective solution, i.e., of an algorithmic winning strategy.
+  The formalism of CL is open-ended, and may undergo series of extensions as
+the study of the subject advances. The main groups of operators on which CL has
+been focused so far are the parallel, choice, branching, and blind operators.
+The present paper introduces a new important group of operators, called
+sequential. The latter come in the form of sequential conjunction and
+disjunction, sequential quantifiers, and sequential recurrences. As the name
+may suggest, the algorithmic intuitions associated with this group are those of
+sequential computations, as opposed to the intuitions of parallel computations
+associated with the parallel group of operations: playing a sequential
+combination of games means playing its components in a sequential fashion, one
+after one.
+  The main technical result of the present paper is a sound and complete
+axiomatization of the propositional fragment of computability logic whose
+vocabulary, together with negation, includes all three -- parallel, choice and
+sequential -- sorts of conjunction and disjunction. An extension of this result
+to the first-order level is also outlined.

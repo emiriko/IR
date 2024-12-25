@@ -1,0 +1,17 @@
+We consider solutions to the equation f = h^r for polynomials f and h and
+integer r > 1. Given a polynomial f in the lacunary (also called sparse or
+super-sparse) representation, we first show how to determine if f can be
+written as h^r and, if so, to find such an r. This is a Monte Carlo randomized
+algorithm whose cost is polynomial in the number of non-zero terms of f and in
+log(deg f), i.e., polynomial in the size of the lacunary representation, and it
+works over GF(q)[x] (for large characteristic) as well as Q[x]. We also give
+two deterministic algorithms to compute the perfect root h given f and r. The
+first is output-sensitive (based on the sparsity of h) and works only over
+Q[x]. A sparsity-sensitive Newton iteration forms the basis for the second
+approach to computing h, which is extremely efficient and works over both
+GF(q)[x] (for large characteristic) and Q[x], but depends on a number-theoretic
+conjecture. Work of Erdos, Schinzel, Zannier, and others suggests that both of
+these algorithms are unconditionally polynomial-time in the lacunary size of
+the input polynomial f. Finally, we demonstrate the efficiency of the
+randomized detection algorithm and the latter perfect root computation
+algorithm with an implementation in the C++ library NTL.

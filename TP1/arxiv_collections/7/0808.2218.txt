@@ -1,0 +1,11 @@
+Elastic systems that are spatially heterogeneous in their mechanical response
+pose special challenges for molecular simulations. Standard methods for
+sampling thermal fluctuations of a system's size and shape proceed through a
+series of homogeneous deformations, whose magnitudes can be severely restricted
+by its stiffest parts. Here we present a Monte Carlo algorithm designed to
+circumvent this difficulty, which can be prohibitive in many systems of modern
+interest. By deforming randomly selected subvolumes alone, it naturally
+distributes the amplitude of spontaneous elastic fluctuations according to
+intrinsic heterogeneity. We describe in detail implementations of such "slice
+moves" that are consistent with detailed balance. Their practical application
+is illustrated for a random network of cross-linked polymers.

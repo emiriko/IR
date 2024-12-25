@@ -1,0 +1,16 @@
+Any two-party cryptographic primitive can be implemented using quantum
+communication under the assumption that it is difficult to store a large number
+of quantum states perfectly. However, achieving reliable quantum communication
+over long distances remains a difficult problem. Here, we consider a large
+network of nodes with only neighboring quantum links. We exploit properties of
+this cloud of nodes to enable any two nodes to achieve security even if they
+are not directly connected. Our results are based on techniques from classical
+cryptography and do not resort to technologically difficult procedures like
+entanglement swapping. More precisely, we show that oblivious transfer can be
+achieved in such a network if and only if there exists a path in the network
+between the sender and the receiver along which all nodes are honest. Finally,
+we show that useful notions of security can still be achieved when we relax the
+assumption of an honest path. For example, we show that we can combine our
+protocol for oblivious transfer with computational assumptions such that we
+obtain security if either there exists an honest path, or, as a backup, at
+least the adversary cannot solve a computational problem.

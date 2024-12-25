@@ -1,0 +1,19 @@
+We determine necessary conditions on the structure of symbol error rate (SER)
+optimal quantizers for limited feedback beamforming in wireless networks with
+one transmitter-receiver pair and R parallel amplify-and-forward relays. We
+call a quantizer codebook "small" if its cardinality is less than R, and
+"large" otherwise. A "d-codebook" depends on the power constraints and can be
+optimized accordingly, while an "i-codebook" remains fixed. It was previously
+shown that any i-codebook that contains the single-relay selection (SRS)
+codebook achieves the full-diversity order, R. We prove the following:
+  Every full-diversity i-codebook contains the SRS codebook, and thus is
+necessarily large. In general, as the power constraints grow to infinity, the
+limit of an optimal large d-codebook contains an SRS codebook, provided that it
+exists. For small codebooks, the maximal diversity is equal to the codebook
+cardinality. Every diversity-optimal small i-codebook is an orthogonal
+multiple-relay selection (OMRS) codebook. Moreover, the limit of an optimal
+small d-codebook is an OMRS codebook.
+  We observe that SRS is nothing but a special case of OMRS for codebooks with
+cardinality equal to R. As a result, we call OMRS as "the universal necessary
+condition" for codebook optimality. Finally, we confirm our analytical findings
+through simulations.

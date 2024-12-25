@@ -1,0 +1,15 @@
+We introduce a method for solving a self consistent electronic calculation
+within localized atomic orbitals, that allows us to converge to the complete
+basis set (CBS) limit in a stable, controlled, and systematic way. We compare
+our results with the ones obtained with a standard quantum chemistry package
+for the simple benzene molecule. We find perfect agreement for small basis set
+and show that, within our scheme, it is possible to work with a very large
+basis in an efficient and stable way. Therefore we can avoid to introduce any
+extrapolation to reach the CBS limit. In our study we have also carried out
+variational Monte Carlo (VMC) and lattice regularized diffusion Monte Carlo
+(LRDMC) with a standard many-body wave function (WF) defined by the product of
+a Slater determinant and a Jastrow factor. Once the Jastrow factor is optimized
+by keeping fixed the Slater determinant provided by our new scheme, we obtain a
+very good description of the atomization energy of the benzene molecule only
+when the basis of atomic orbitals is large enough and close to the CBS limit,
+yielding the lowest variational energies.

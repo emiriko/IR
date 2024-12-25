@@ -1,0 +1,10 @@
+A subject's heart beat can be nearly invisible in a spectrum, when that
+spectrum is generated using conventional methods of Fourier analysis. The
+phenomenon has been observed in records of both electrocardiography type and
+seismocardiography type. The mechanisms of nonlinear physics responsible for
+these complexities involve the phenomenon of amplitude modulation. Fortunately,
+there is a simple remedy to prevent loss of valuable frequency domain
+information. Instead of operating on the raw signal, one simply rectifies that
+signal before performing the fast Fourier transform (FFT) calculation.
+Alternatively, nearly equivalent spectra can be obtained by operating on the
+signal with the Teager-Kaiser operator before doing the FFT.

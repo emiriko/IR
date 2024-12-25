@@ -1,0 +1,15 @@
+The worthwhile-to-move incremental principle is a mechanism where, at each
+step, the agent, before moving and after exploration around the current state,
+compares intermediate advantages and costs to change to advantages and costs to
+stay. These advantages and costs to change include goal-setting, psychological,
+cognitive, learning and inertia aspects. Acceptables moves are such that
+advantages to move than to stay are higher than some fraction of costs to move
+than to stay, with, as a result, a limitation of the intermediate sacrifices to
+reach the goal. When the agent is more goal-oriented and improves enough at
+each step, the process ends in a permanent routine, a rest point where the
+agent prefers to stay than to change, in spite of some possible residual
+frustration to have missed his goal. In case of high local costs to move this
+approach leads to a cognitive proof of Ekeland epsilon-variational principle.
+The as if hypothesis (as if agents would optimize) is revisited, leading to the
+introduction of a new class of optimization algorithm with inertia, the local
+search and proximal algorithms.

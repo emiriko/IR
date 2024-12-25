@@ -1,0 +1,21 @@
+We give an overview of the Hidden Subgroup Problem (HSP) as of July 2010,
+including new results discovered since the survey of arXiv:quant-ph/0411037v1.
+We recall how the problem provides a framework for efficient quantum algorithms
+and present the standard methods based on coset sampling. We study the Dihedral
+and Symmetric HSPs and how they relate to hard problems on lattices and graphs.
+Finally, we conclude with the known solutions and techniques, describe
+connections with efficient algorithms as well as miscellaneous variants of HSP.
+  We also bring various contributions to the topic. We show that in theory, we
+can solve HSP over a given group inductively: the base case is solving HSP over
+its simple factor groups and the inductive step is building efficient oracles
+over a normal subgroup N and over the factor group G/N. We apply this analysis
+to the Dedekindian HSP to get an alternative abelian HSP algorithm based on a
+change of the underlying group. We also propose a quotient reduction by the
+normal group obtained via Weak Fourier Sampling. We compute the exact
+expression of Strong Fourier Sampling over the dihedral group, showing how the
+previous reduction is natural and matches the standard one. We also give a
+reduction of rigid graph isomorphism problem to HSP over the alternating group.
+For this group and other simple groups, we propose maximal subgroup reduction
+as a possible approach. We also analyse Regev's algorithm for the
+poly(n)-uniqueSVP, prove how the degree of the polynomial is related to the
+oracle complexity used and we suggest several variants.

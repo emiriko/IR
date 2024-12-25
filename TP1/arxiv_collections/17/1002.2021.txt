@@ -1,0 +1,13 @@
+We introduce a numerical method for solving Grad's moment equations or
+regularized moment equations for arbitrary order of moments. In our algorithm,
+we do not need explicitly the moment equations. As an instead, we directly
+start from the Boltzmann equation and perform Grad's moment method \cite{Grad}
+and the regularization technique \cite{Struchtrup2003} numerically. We define a
+conservative projection operator and propose a fast implementation which makes
+it convenient to add up two distributions and provides more efficient flux
+calculations compared with the classic method using explicit expressions of
+flux functions. For the collision term, the BGK model is adopted so that the
+production step can be done trivially based on the Hermite expansion. Extensive
+numerical examples for one- and two-dimensional problems are presented.
+Convergence in moments can be validated by the numerical results for different
+number of moments.

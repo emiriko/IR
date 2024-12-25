@@ -1,0 +1,11 @@
+The Bernstein-Sato polynomial (or global b-function) is an important
+invariant in singularity theory, which can be computed using symbolic methods
+in the theory of D-modules. After surveying algorithms for computing the global
+b-function, we develop a new method to compute the local b-function for a
+single polynomial. We then develop algorithms that compute generalized
+Bernstein-Sato polynomials of Budur-Mustata-Saito and Shibuta for an arbitrary
+polynomial ideal. These lead to computations of log canonical thresholds,
+jumping coefficients, and multiplier ideals. Our algorithm for multiplier
+ideals simplifies that of Shibuta and shares a common subroutine with our local
+b-function algorithm. The algorithms we present have been implemented in the
+D-modules package of the computer algebra system Macaulay2.

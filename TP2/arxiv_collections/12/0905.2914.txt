@@ -1,0 +1,20 @@
+The formation and motion of lattice defects such as cracks, dislocations, or
+grain boundaries, occurs when the lattice configuration loses stability, that
+is, when an eigenvalue of the Hessian of the lattice energy functional becomes
+negative. When the atomistic energy is approximated by a hybrid energy that
+couples atomistic and continuum models, the accuracy of the approximation can
+only be guaranteed near deformations where both the atomistic energy as well as
+the hybrid energy are stable. We propose, therefore, that it is essential for
+the evaluation of the predictive capability of atomistic-to-continuum coupling
+methods near instabilities that a theoretical analysis be performed, at least
+for some representative model problems, that determines whether the hybrid
+energies remain stable {\em up to the onset of instability of the atomistic
+energy}. We formulate a one-dimensional model problem with nearest and
+next-nearest neighbor interactions and use rigorous analysis, asymptotic
+methods, and numerical experiments to obtain such sharp stability estimates for
+the basic conservative quasicontinuum (QC) approximations. Our results show
+that the consistent quasi-nonlocal QC approximation correctly reproduces the
+stability of the atomistic system, whereas the inconsistent energy-based QC
+approximation incorrectly predicts instability at a significantly reduced
+applied load that we describe by an analytic criterion in terms of the
+derivatives of the atomistic potential.

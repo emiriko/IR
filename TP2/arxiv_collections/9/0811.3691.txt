@@ -1,0 +1,19 @@
+Classic algorithms for sequential pattern discovery, return all frequent
+sequences present in a database, but, in general, only a few ones are
+interesting for the user. Languages based on regular expressions (RE) have been
+proposed to restrict frequent sequences to the ones that satisfy user-specified
+constraints. Although the support of a sequence is computed as the number of
+data-sequences satisfying a pattern with respect to the total number of
+data-sequences in the database, once regular expressions come into play, new
+approaches to the concept of support are needed. For example, users may be
+interested in computing the support of the RE as a whole, in addition to the
+one of a particular pattern. Also, when the items are frequently updated, the
+traditional way of counting support in sequential pattern mining may lead to
+incorrect (or, at least incomplete), conclusions. The problem gets more
+involved if we are interested in categorical sequential patterns. In light of
+the above, in this paper we propose to revise the classic notion of support in
+sequential pattern mining, introducing the concept of temporal support of
+regular expressions, intuitively defined as the number of sequences satisfying
+a target pattern, out of the total number of sequences that could have possibly
+matched such pattern, where the pattern is defined as a RE over complex items
+(i.e., not only item identifiers, but also attributes and functions).

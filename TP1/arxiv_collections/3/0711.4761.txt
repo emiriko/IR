@@ -1,0 +1,13 @@
+A practical algorithm for many-electron systems based on the path-integral
+renormalization group (PIRG) method is proposed in the real-space
+finite-difference (RSFD) approach. The PIRG method, developed for investigating
+strongly correlated electron systems, has been successfully applied to some
+models such as Hubbard models. However, to apply this method to more realistic
+systems of electrons with long-range Coulomb interactions within the RSFD
+formalism, the one-body Green's function, which requires large computational
+resources, is to be replaced with an alternative. For the same reason, an
+efficient algorithm for computing the Fock matrix is needed. The newly proposed
+algorithm is free of the one-body Green's function and enables us to compute
+the Fock matrix efficiently. Our result shows a significant reduction in CPU
+time and the possibility of using the present algorithm as a practical
+numerical tool.

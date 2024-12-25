@@ -1,0 +1,9 @@
+The Liouville space spin relaxation theory equations are reformulated in such
+a way as to avoid the computationally expensive Hamiltonian diagonalization
+step, replacing it by numerical evaluation of the integrals in the generalized
+cumulant expansion. The resulting algorithm is particularly useful in the cases
+where the static part of the Ha-miltonian is dominated by interactions other
+than Zeeman (e.g. in quadrupolar reson-ance, low-field EPR and Spin Chemistry).
+When used together with state space re-striction tools, the algorithm reported
+is capable of computing full relaxation supero-perators for NMR systems with
+more than 15 spins.

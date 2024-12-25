@@ -1,0 +1,16 @@
+We introduce a new class of Sequential Monte Carlo (SMC) methods, which we
+call free energy SMC. This class is inspired by free energy methods, which
+originate from Physics, and where one samples from a biased distribution such
+that a given function $\xi(\theta)$ of the state $\theta$ is forced to be
+uniformly distributed over a given interval. From an initial sequence of
+distributions $(\pi_t)$ of interest, and a particular choice of $\xi(\theta)$,
+a free energy SMC sampler computes sequentially a sequence of biased
+distributions $(\tilde{\pi}_{t})$ with the following properties: (a) the
+marginal distribution of $\xi(\theta)$ with respect to $\tilde{\pi}_{t}$ is
+approximatively uniform over a specified interval, and (b) $\tilde{\pi}_{t}$
+and $\pi_{t}$ have the same conditional distribution with respect to $\xi$. We
+apply our methodology to mixture posterior distributions, which are highly
+multimodal. In the mixture context, forcing certain hyper-parameters to higher
+values greatly faciliates mode swapping, and makes it possible to recover a
+symetric output. We illustrate our approach with univariate and bivariate
+Gaussian mixtures and two real-world datasets.

@@ -1,0 +1,14 @@
+A parallel algorithm for solving a series of matrix equations with a constant
+tridiagonal matrix and different right-hand sides is proposed and studied. The
+process of solving the problem is represented in two steps. The first
+preliminary step is fixing some rows of the inverse matrix of SLAEs. The second
+step consists in calculating solutions for all right-hand sides. For reducing
+the communication interactions, based on the formulated and proved main
+parallel sweep theorem, we propose an original algorithm for calculating share
+components of the solution vector. Theoretical estimates validating the
+efficiency of the approach for both the common- and distributed-memory
+supercomputers are obtained. Direct and iterative methods of solving a 2D
+Poisson equation, which include procedures of tridiagonal matrix inversion, are
+realized using the mpi technology. Results of computational experiments on a
+multicomputer demonstrate a high efficiency and scalability of the parallel
+sweep algorithm.

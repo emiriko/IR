@@ -1,0 +1,11 @@
+We study the geometric structure of the set of solutions of random
+$\epsilon$-1-in-k SAT problem. For $l\geq 1$, two satisfying assignments $A$
+and $B$ are $l$-connected if there exists a sequence of satisfying assignments
+connecting them by changing at most $l$ bits at a time.
+  We first prove that w.h.p. two assignments of a random $\epsilon$-1-in-$k$
+SAT instance are $O(\log n)$-connected, conditional on being satisfying
+assignments. Also, there exists $\epsilon_{0}\in (0,\frac{1}{k-2})$ such that
+w.h.p. no two satisfying assignments at distance at least $\epsilon_{0}\cdot n$
+form a "hole" in the set of assignments. We believe that this is true for all
+$\epsilon >0$, and thus satisfying assignments of a random 1-in-$k$ SAT
+instance form a single cluster.

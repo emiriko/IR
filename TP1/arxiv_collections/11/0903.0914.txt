@@ -1,0 +1,18 @@
+Dynamically Adaptive Systems (DAS) are systems that modify their behavior and
+structure in response to changes in their surrounding environment. Critical
+mission systems increasingly incorporate adaptation and response to the
+environment; examples include disaster relief and space exploration systems.
+These systems can be decomposed in two parts: the adaptation policy that
+specifies how the system must react according to the environmental changes and
+the set of possible variants to reconfigure the system. A major challenge for
+testing these systems is the combinatorial explosions of variants and
+envi-ronment conditions to which the system must react. In this paper we focus
+on testing the adaption policy and propose a strategy for the selection of
+envi-ronmental variations that can reveal faults in the policy. Artificial
+Shaking Table Testing (ASTT) is a strategy inspired by shaking table testing
+(STT), a technique widely used in civil engineering to evaluate building's
+structural re-sistance to seismic events. ASTT makes use of artificial
+earthquakes that simu-late violent changes in the environmental conditions and
+stresses the system adaptation capability. We model the generation of
+artificial earthquakes as a search problem in which the goal is to optimize
+different types of envi-ronmental variations.

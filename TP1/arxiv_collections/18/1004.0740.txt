@@ -1,0 +1,20 @@
+A BBGKY-like hierarchy is derived from the non-equilibrium Redfield equation.
+Two further approximations are introduced and each can be used to truncate and
+solve the hierarchy. In the first approximation such a truncation is performed
+by replacing two-particle Green's functions (GFs) in the hierarchy by their
+values at equilibrium. The second method is developed based on the cluster
+expansion, which constructs two-particle GFs from one-particle GFs and neglects
+the correlation part. A non-equilibrium Wick's Theorem is proved to provide a
+basis for this non-equilibrium cluster expansion. Using those two
+approximations, our method of solving the Redfield equation, for instance, of
+an N-site chain of interacting spinless fermions, involves an eigenvalue
+problem with dimension $2^{N}$ and a linear system with dimension $N^2$ in the
+first case, and a nonlinear equation with dimension $N^2$ in the second case,
+which can be solved iteratively via a sequence of $N^2$ linear systems. Other
+currently available direct methods correspond to a linear system or an
+eigenvalue system with dimension $4^N$ plus an eigenvalue system with dimension
+$2^N$. As a test of the methods, for small systems with size N=4, results are
+found to be consistent with results made available by other direct methods.
+Although not discussed here, extending both methods to their next levels is
+straightforward. This indicates a promising potential for this BBGKY-like
+approach of non-equilibrium kinetic equations.

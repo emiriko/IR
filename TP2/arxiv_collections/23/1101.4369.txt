@@ -1,0 +1,18 @@
+We present algorithmic, complexity and implementation results for the problem
+of isolating the real roots of a univariate polynomial in $B_{\alpha} \in
+L[y]$, where $L=\QQ(\alpha)$ is a simple algebraic extension of the rational
+numbers. We consider two approaches for tackling the problem. In the first
+approach using resultant computations we perform a reduction to a polynomial
+with integer coefficients. We compute separation bounds for the roots, and
+using them we deduce that we can isolate the real roots of $B_{\alpha}$ in
+$\sOB(N^{10})$, where $N$ is an upper bound on all the quantities (degree and
+bitsize) of the input polynomials. In the second approach we isolate the real
+roots working directly on the polynomial of the input. We compute improved
+separation bounds for real roots and we prove that they are optimal, under mild
+assumptions. For isolating the roots we consider a modified Sturm's algorithm,
+and a modified version of \func{descartes}' algorithm introduced by Sagraloff.
+For the former we prove a complexity bound of $\sOB(N^8)$ and for the latter a
+bound of $\sOB(N^{7})$. We implemented the algorithms in \func{C} as part of
+the core library of \mathematica and we illustrate their efficiency over
+various data sets. Finally, we present complexity results for the general case
+of the first approach, where the coefficients belong to multiple extensions.

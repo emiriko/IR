@@ -1,0 +1,13 @@
+We survey some results on linear-time algorithms for systolic arrays. In
+particular, we show how the greatest common divisor (GCD) of two polynomials of
+degree n over a finite field can be computed in time O(n) on a linear systolic
+array of O(n) cells; similarly for the GCD of two n-bit binary numbers. We show
+how n * n Toeplitz systems of linear equations can be solved in time O(n) on a
+linear array of O(n) cells, each of which has constant memory size (independent
+of n). Finally, we outline how a two-dimensional square array of O(n)* O(n)
+cells can be used to solve (to working accuracy) the eigenvalue problem for a
+symmetric real n* n matrix in time O(nS(n)). Here S(n) is a slowly growing
+function of n; for practical purposes S(n) can be regarded as a constant. In
+addition to their theoretical interest, these results have potential
+applications in the areas of error-correcting codes, symbolic and algebraic
+computations, signal processing and image processing.

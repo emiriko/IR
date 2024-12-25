@@ -1,0 +1,10 @@
+This work is devoted to the study of the problem of user-level capture and
+restoration of running computations in heterogeneous environments. Support for
+those operations has traditionally been offered through ready-made solutions
+for specific applications, which are difficult to tailor or adapt to different
+needs. We believe that a more promising approach would be to build specific
+solutions as needed, over a more general framework for capture and restoration.
+In this work, in order to explore the basic mechanisms a language should
+provide to support the implementation of different policies, we extend the Lua
+programming language with an API that allows the programmer to reify the
+internal structures of execution into fine-grained language values.

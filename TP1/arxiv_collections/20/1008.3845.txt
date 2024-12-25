@@ -1,0 +1,13 @@
+In this paper, we present a stabilized mixed formulation for unsteady
+Brinkman equation. The formulation is systematically derived based on the
+variational multiscale formalism and the method of horizontal lines. The
+derivation does not need the assumption that the fine-scale variables do not
+depend on the time, which is the case with the conventional derivation of
+multiscale stabilized formulations for transient mixed problems. An expression
+for the stabilization parameter is obtained in terms of a bubble function, and
+appropriate bubble functions for various finite elements are also presented.
+Under the proposed formulation, equal-order interpolation for the velocity and
+pressure (which is computationally the most convenient) is stable.
+Representative numerical results are presented to illustrate the performance of
+the proposed formulation. Spatial and temporal convergence studies are also
+performed, and the proposed formulation performed well.

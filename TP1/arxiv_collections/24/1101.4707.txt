@@ -1,0 +1,24 @@
+The characterization and mitigation of decoherence in natural and artificial
+two-level systems (qubits) is fundamental to quantum information science and
+its applications. Decoherence of a quantum superposition state arises from the
+interaction between the constituent system and the uncontrolled degrees of
+freedom in its environment. Within the standard Bloch-Redfield picture of
+two-level system dynamics, qubit decoherence is characterized by two rates: a
+longitudinal relaxation rate Gamma1 due to the exchange of energy with the
+environment, and a transverse relaxation rate Gamma2 = Gamma1/2 + Gamma_phi
+which contains the pure dephasing rate Gamma_phi. Irreversible energy
+relaxation can only be mitigated by reducing the amount of environmental noise,
+reducing the qubit's internal sensitivity to that noise, or through multi-qubit
+encoding and error correction protocols (which already presume ultra-low error
+rates). In contrast, dephasing is in principle reversible and can be refocused
+dynamically through the application of coherent control pulse methods. In this
+work we demonstrate how dynamical-decoupling techniques can moderate the
+dephasing effects of low-frequency noise on a superconducting qubit with
+energy-relaxation time T1 = 1/Gamma1 = 12 us. Using the CPMG sequence with up
+to 200 pi-pulses, we demonstrate a 50-fold improvement in the transverse
+relaxation time T2 over its baseline value. We observe relaxation-limited times
+T2(CPMG) = 23 us = 2 T1 resulting from CPMG-mediated Gaussian pure-dephasing
+times in apparent excess of 100 us. We leverage the filtering property of this
+sequence in conjunction with Rabi and energy relaxation measurements to
+facilitate the spectroscopy and reconstruction of the environmental noise power
+spectral density.

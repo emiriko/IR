@@ -1,0 +1,13 @@
+Let $G$ be a finite directed graph, $\beta(G)$ the minimum size of a subset
+$X$ of edges such that the graph $G' = (V,E \smallsetminus X)$ is directed
+acyclic and $\gamma(G)$ the number of pairs of nonadjacent vertices in the
+undirected graph obtained from $G$ by replacing each directed edge with an
+undirected edge. Chudnovsky, Seymour and Sullivan \cite{CSS07} proved that if
+$G$ is triangle-free, then $\beta(G) \leq \gamma(G)$. They conjectured a
+sharper bound (so called the "CSS conjecture") that $\beta(G) \leq
+\dfrac{\gamma(G)}{2}$. Nathanson and Sullivan verified this conjecture for the
+directed Cayley graph $\Cay(\bbZ/N\bbZ, E_A)$ whose vertex set is the additive
+group $\bbZ/N\bbZ$ and whose edge set $E_A$ is determined by $E_A = {(x,x+a) :
+x \in \bbZ/N\bbZ, a \in A}$ when $N$ is prime in \cite{NS07} by introducing
+"height". In this work, we extend the definition of height and the proof of CSS
+conjecture for $\Cay(\bbZ/N\bbZ, E_A)$ to any positive integer $N$.

@@ -1,0 +1,17 @@
+We construct two families of deterministic sensing matrices where the columns
+are obtained by exponentiating codewords in the quaternary Delsarte-Goethals
+code $DG(m,r)$. This method of construction results in sensing matrices with
+low coherence and spectral norm. The first family, which we call
+Delsarte-Goethals frames, are $2^m$ - dimensional tight frames with redundancy
+$2^{rm}$. The second family, which we call Delsarte-Goethals sieves, are
+obtained by subsampling the column vectors in a Delsarte-Goethals frame.
+Different rows of a Delsarte-Goethals sieve may not be orthogonal, and we
+present an effective algorithm for identifying all pairs of non-orthogonal
+rows. The pairs turn out to be duplicate measurements and eliminating them
+leads to a tight frame. Experimental results suggest that all $DG(m,r)$ sieves
+with $m\leq 15$ and $r\geq2$ are tight-frames; there are no duplicate rows. For
+both families of sensing matrices, we measure accuracy of reconstruction
+(statistical 0-1 loss) and complexity (average reconstruction time) as a
+function of the sparsity level $k$. Our results show that DG frames and sieves
+outperform random Gaussian matrices in terms of noiseless and noisy signal
+recovery using the LASSO.

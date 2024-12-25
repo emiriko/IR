@@ -1,0 +1,19 @@
+This paper presents the first in-depth analysis on the energy efficiency of
+LT codes with Non Coherent M-ary Frequency Shift Keying (NC-MFSK), known as
+green modulation [1], in a proactive Wireless Sensor Network (WSN) over
+Rayleigh flat-fading channels with path-loss. We describe the proactive system
+model according to a pre-determined time-based process utilized in practical
+sensor nodes. The present analysis is based on realistic parameters including
+the effect of channel bandwidth used in the IEEE 802.15.4 standard, and the
+active mode duration. A comprehensive analysis, supported by some simulation
+studies on the probability mass function of the LT code rate and coding gain,
+shows that among uncoded NC-MFSK and various classical channel coding schemes,
+the optimized LT coded NC-MFSK is the most energy-efficient scheme for distance
+$d$ greater than the pre-determined threshold level $d_T$, where the
+optimization is performed over coding and modulation parameters. In addition,
+although uncoded NC-MFSK outperforms coded schemes for $d < d_T$, the energy
+gap between LT coded and uncoded NC-MFSK is negligible for $d < d_T$ compared
+to the other coded schemes. These results come from the flexibility of the LT
+code to adjust its rate to suit instantaneous channel conditions, and suggest
+that LT codes are beneficial in practical low-power WSNs with dynamic position
+sensor nodes.

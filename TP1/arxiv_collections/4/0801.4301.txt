@@ -1,0 +1,21 @@
+The G-protein coupled receptor (GPCR) superfamily is currently the largest
+class of therapeutic targets. \textit{In silico} prediction of interactions
+between GPCRs and small molecules is therefore a crucial step in the drug
+discovery process, which remains a daunting task due to the difficulty to
+characterize the 3D structure of most GPCRs, and to the limited amount of known
+ligands for some members of the superfamily. Chemogenomics, which attempts to
+characterize interactions between all members of a target class and all small
+molecules simultaneously, has recently been proposed as an interesting
+alternative to traditional docking or ligand-based virtual screening
+strategies. We propose new methods for in silico chemogenomics and validate
+them on the virtual screening of GPCRs. The methods represent an extension of a
+recently proposed machine learning strategy, based on support vector machines
+(SVM), which provides a flexible framework to incorporate various information
+sources on the biological space of targets and on the chemical space of small
+molecules. We investigate the use of 2D and 3D descriptors for small molecules,
+and test a variety of descriptors for GPCRs. We show fo instance that
+incorporating information about the known hierarchical classification of the
+target family and about key residues in their inferred binding pockets
+significantly improves the prediction accuracy of our model. In particular we
+are able to predict ligands of orphan GPCRs with an estimated accuracy of
+78.1%.

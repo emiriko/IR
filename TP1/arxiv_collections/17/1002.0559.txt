@@ -1,0 +1,21 @@
+The inability to resolve deep node relationships of highly divergent/rapidly
+evolving protein families is a major factor that stymies evolutionary studies.
+In this manuscript, we propose a Multiple Sequence Alignment (MSA) independent
+method to infer evolutionary relationships. We previously demonstrated that
+phylogenetic profiles built using position specific scoring matrices (PSSMs)
+are capable of constructing informative evolutionary histories(1;2). In this
+manuscript, we theorize that PSSMs derived specifically from the query
+sequences used to construct the phylogenetic tree will improve this method for
+the study of rapidly evolving proteins. To test this theory, we performed
+phylogenetic analyses of a benchmark protein superfamily (reverse
+transcriptases (RT)) as well as simulated datasets. When we compare the results
+obtained from our method, PHYlogenetic ReconstructioN (PHYRN), with other MSA
+dependent methods, we observe that PHYRN provides a 4- to 100-fold increase in
+accurate measurements at deep nodes. As phylogenetic profiles are used as the
+information source, rather than MSA, we propose PHYRN as a paradigm shift in
+studying evolution when MSA approaches fail. Perhaps most importantly, due to
+the improvements in our computational approach and the availability of vast
+amount of sequencing data, PHYRN is scalable to thousands of sequences. Taken
+together with PHYRNs adaptability to any protein family, this method can serve
+as a tool for resolving ambiguities in evolutionary studies of rapidly
+evolving/highly divergent protein families.

@@ -1,0 +1,9 @@
+In analogy to Neuberger's double-pass algorithm for the Conjugate Gradient
+inversion with multi-shifts we introduce a double-pass variant for
+BiCGstab(ell). One possible application is the overlap operator of QCD at
+non-zero chemical potential, where the kernel of the sign function is
+non-Hermitian. The sign function can be replaced by a partial fraction
+expansion, requiring multi-shift inversions. We compare the performance of the
+new method with other available algorithms, namely partial fraction expansions
+with restarted FOM inversions and the Krylov-Ritz method using nested Krylov
+subspaces.

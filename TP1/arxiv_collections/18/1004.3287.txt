@@ -1,0 +1,23 @@
+Digital co-addition of astronomical images is a common technique for
+increasing signal-to-noise and image depth. A modification of this simple
+technique has been applied to the detection of minor bodies in the Solar
+System: first stationary objects are removed through the subtraction of a
+high-SN template image, then the sky motion of the Solar System bodies of
+interest is predicted and compensated for by shifting pixels in software prior
+to the co-addition step. This "shift-and-stack" approach has been applied with
+great success in directed surveys for minor Solar System bodies. In these
+surveys, the shifts have been parameterized in a variety of ways. However,
+these parameterizations have not been optimized and in most cases cannot be
+effectively applied to data sets with long observation arcs due to objects'
+real trajectories diverging from linear tracks on the sky. This paper presents
+two novel probabilistic approaches for determining a near-optimum set of
+shift-vectors to apply to any image set given a desired region of orbital space
+to search. The first method is designed for short observational arcs, and the
+second for observational arcs long enough to require non-linear shift-vectors.
+Using these techniques and other optimizations, we derive optimized grids for
+previous surveys that have used "shift-and-stack" approaches to illustrate the
+improvements that can be made with our method, and at the same time derive new
+limits on the range of orbital parameters these surveys searched. We conclude
+with a simulation of a future applications for this approach with LSST, and
+show that combining multiple nights of data from such next-generation
+facilities is within the realm of computational feasibility.

@@ -1,0 +1,23 @@
+The equation governing the streaming of a quantity down its gradient
+superficially looks similar to the simple constant velocity advection equation.
+In fact, it is the same as an advection equation if there are no local extrema
+in the computational domain or at the boundary. However, in general when there
+are local extrema in the computational domain it is a non-trivial nonlinear
+equation. The standard upwind time evolution with a CFL-limited time step
+results in spurious oscillations at the grid scale. These oscillations, which
+originate at the extrema, propagate throughout the computational domain and are
+undamped even at late times. These oscillations arise because of unphysically
+large fluxes leaving (entering) the maxima (minima) with the standard
+CFL-limited explicit methods. Regularization of the equation shows that it is
+diffusive at the extrema; because of this, an explicit method for the
+regularized equation with $\Delta t \propto \Delta x^2$ behaves fine. We show
+that the implicit methods show stable and converging results with $\Delta t
+\propto \Delta x$; however, surprisingly, even implicit methods are not stable
+with large enough timesteps. In addition to these subtleties in the numerical
+implementation, the solutions to the streaming equation are quite novel:
+non-differentiable solutions emerge from initially smooth profiles; the
+solutions show transport over large length scales, e.g., in form of tails. The
+fluid model for cosmic rays interacting with a thermal plasma (valid at space
+scales much larger than the cosmic ray Larmor radius) is similar to the
+equation for streaming of a quantity down its gradient, so our method will find
+applications in fluid modeling of cosmic rays.

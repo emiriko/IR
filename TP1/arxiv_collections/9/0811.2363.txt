@@ -1,0 +1,21 @@
+We derive formulas for the Coulomb matrix within the full-potential
+linearized augmented-plane-wave (FLAPW) method. The Coulomb matrix is a central
+ingredient in implementations of many-body perturbation theory, such as the
+Hartree-Fock and GW approximations for the electronic self-energy or the
+random-phase approximation for the dielectric function. It is represented in
+the mixed product basis, which combines numerical muffin-tin functions and
+interstitial plane waves that are here expanded with the Rayleigh formula. The
+resulting algorithm is very efficient in terms of both computational cost and
+accuracy and is superior to an implementation with the Fourier transform of the
+step function. In order to allow an analytic treatment of the divergence at k=0
+in reciprocal space, we expand the Coulomb matrix analytically around this
+point without resorting to a projection onto plane waves. We then apply a basis
+transformation that diagonalizes the Coulomb matrix and confines the divergence
+to a single eigenvalue. At the same time, response matrices like the dielectric
+function separate into head, wings, and body with the same mathematical
+properties as in a plane-wave basis. As an illustration we apply the formulas
+to electron-energy-loss spectra for nickel at different k vectors including
+k=0. The convergence of the spectra towards the result at k=0 is clearly seen.
+Our treatment also allows to include transitions from core states that give
+rise to a shallow peak at high energies and lead to good agreement with
+experiment.

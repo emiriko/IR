@@ -1,0 +1,23 @@
+We study and provide efficient algorithms for multi-objective model checking
+problems for Markov Decision Processes (MDPs). Given an MDP, M, and given
+multiple linear-time (\omega -regular or LTL) properties \varphi\_i, and
+probabilities r\_i \epsilon [0,1], i=1,...,k, we ask whether there exists a
+strategy \sigma for the controller such that, for all i, the probability that a
+trajectory of M controlled by \sigma satisfies \varphi\_i is at least r\_i. We
+provide an algorithm that decides whether there exists such a strategy and if
+so produces it, and which runs in time polynomial in the size of the MDP. Such
+a strategy may require the use of both randomization and memory. We also
+consider more general multi-objective \omega -regular queries, which we
+motivate with an application to assume-guarantee compositional reasoning for
+probabilistic systems.
+  Note that there can be trade-offs between different properties: satisfying
+property \varphi\_1 with high probability may necessitate satisfying \varphi\_2
+with low probability. Viewing this as a multi-objective optimization problem,
+we want information about the "trade-off curve" or Pareto curve for maximizing
+the probabilities of different properties. We show that one can compute an
+approximate Pareto curve with respect to a set of \omega -regular properties in
+time polynomial in the size of the MDP.
+  Our quantitative upper bounds use LP methods. We also study qualitative
+multi-objective model checking problems, and we show that these can be analysed
+by purely graph-theoretic methods, even though the strategies may still require
+both randomization and memory.

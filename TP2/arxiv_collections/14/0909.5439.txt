@@ -1,0 +1,23 @@
+Photometric data of galaxies covering the rest-frame wavelength range from
+far-UV to far-IR make it possible to derive galaxy properties with a high
+reliability by fitting the attenuated stellar emission and the related dust
+emission at the same time. For this purpose we wrote the code CIGALE (Code
+Investigating GALaxy Emission) that uses model spectra composed of the Maraston
+(or PEGASE) stellar population models, synthetic attenuation functions based on
+a modified Calzetti law, spectral line templates, the Dale & Helou dust
+emission models, and optional spectral templates of obscured AGN. Depending on
+the input redshifts, filter fluxes are computed for the model set and compared
+to the galaxy photometry by carrying out a Bayesian-like analysis. CIGALE was
+tested by analysing 39 nearby galaxies selected from SINGS. The reliability of
+the different model parameters was evaluated by studying the resulting
+expectation values and their standard deviations in relation to the input model
+grid. Moreover, the influence of the filter set and the quality of photometric
+data on the code results was estimated. For up to 17 filters between 0.15 and
+160 mum, we find robust results for the mass, star formation rate, effective
+age of the stellar population at 4000 A, bolometric luminosity, luminosity
+absorbed by dust, and attenuation in the far-UV. A study of the mutual
+relations between the reliable properties confirms the dependence of star
+formation activity on morphology in the local Universe and indicates a
+significant drop in this activity at about 10^11 M_sol towards higher total
+stellar masses. The dustiest sample galaxies are present in the same mass
+range. [abridged]

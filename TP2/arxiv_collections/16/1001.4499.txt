@@ -1,0 +1,9 @@
+Hidden Markov models are traditionally decoded by the Viterbi algorithm which
+finds the highest probability state path in the model. In recent years, several
+limitations of the Viterbi decoding have been demonstrated, and new algorithms
+have been developed to address them
+\citep{Kall2005,Brejova2007,Gross2007,Brown2010}.
+  In this paper, we propose a new efficient highest expected reward decoding
+algorithm (HERD) that allows for uncertainty in boundaries of individual
+sequence features. We demonstrate usefulness of our approach on jumping HMMs
+for recombination detection in viral genomes.

@@ -1,0 +1,13 @@
+We introduce the CoRoT detrend algorithm (CDA) for detrending CoRoT stellar
+light curves. The algorithm CDA has the capability to remove random jumps and
+systematic trends encountered in typical CoRoT data in a fully automatic
+fashion. Since enormous jumps in flux can destroy the information content of a
+light curve, such an algorithm is essential. From a study of 1030 light curves
+in the CoRoT IRa01 field, we developed three simple assumptions which upon CDA
+is based. We describe the algorithm analytically and provide some examples of
+how it works. We demonstrate the functionality of the algorithm in the cases of
+CoRoT0102702789, CoRoT0102874481, CoRoT0102741994, and CoRoT0102729260. Using
+CDA in the specific case of CoRoT0102729260, we detect a candidate exoplanet
+around the host star of spectral type G5, which remains undetected in the raw
+light curve, and estimate the planetary parameters to be Rp=6.27Re and P=1.6986
+days.

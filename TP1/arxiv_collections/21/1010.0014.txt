@@ -1,0 +1,9 @@
+In this paper modified variants of the sparse Fourier transform algorithms
+from [14] are presented which improve on the approximation error bounds of the
+original algorithms. In addition, simple methods for extending the improved
+sparse Fourier transforms to higher dimensional settings are developed. As a
+consequence, approximate Fourier transforms are obtained which will identify a
+near-optimal k-term Fourier series for any given input function, $f : [0, 2 pi]
+-> C, in O(k^2 \cdot D^4)$ time (neglecting logarithmic factors). Faster
+randomized Fourier algorithm variants with runtime complexities that scale
+linearly in the sparsity parameter k are also presented.

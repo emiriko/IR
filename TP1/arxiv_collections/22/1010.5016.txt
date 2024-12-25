@@ -1,0 +1,25 @@
+The study of the interplay between the testability of properties of Boolean
+functions and the invariances acting on their domain which preserve the
+property was initiated by Kaufman and Sudan (STOC 2008). Invariance with
+respect to F_2-linear transformations is arguably the most common symmetry
+exhibited by natural properties of Boolean functions on the hypercube. Hence,
+an important goal in Property Testing is to describe necessary and sufficient
+conditions for the testability of linear-invariant properties. This direction
+was explicitly proposed for investigation in a recent survey of Sudan.
+  We obtain the following results:
+  1. We show that every linear-invariant property that can be characterized by
+forbidding induced solutions to a (possibly infinite) set of linear equations
+can be tested with one-sided error.
+  2. We show that every linear-invariant property that can be tested with
+one-sided error can be characterized by forbidding induced solutions to a
+(possibly infinite) set of systems of linear equations.
+  We conjecture that our result from item (1) can be extended to cover systems
+of linear equations. We further show that the validity of this conjecture would
+have the following implications:
+  1. It would imply that every linear-invariant property that is closed under
+restrictions to linear subspaces is testable with one-sided error. Such a
+result would unify several previous results on testing Boolean functions, such
+as the testability of low-degree polynomials and of Fourier dimensionality.
+  2. It would imply that a linear-invariant property P is testable with
+one-sided error if and only if P is closed under restrictions to linear
+subspaces, thus resolving Sudan's problem.

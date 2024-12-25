@@ -1,0 +1,14 @@
+Artificial immune systems, more specifically the negative selection
+algorithm, have previously been applied to intrusion detection. The aim of this
+research is to develop an intrusion detection system based on a novel concept
+in immunology, the Danger Theory. Dendritic Cells (DCs) are antigen presenting
+cells and key to the activation of the human signals from the host tissue and
+correlate these signals with proteins know as antigens. In algorithmic terms,
+individual DCs perform multi-sensor data fusion based on time-windows. The
+whole population of DCs asynchronously correlates the fused signals with a
+secondary data stream. The behaviour of human DCs is abstracted to form the DC
+Algorithm (DCA), which is implemented using an immune inspired framework,
+libtissue. This system is used to detect context switching for a basic machine
+learning dataset and to detect outgoing portscans in real-time. Experimental
+results show a significant difference between an outgoing portscan and normal
+traffic.

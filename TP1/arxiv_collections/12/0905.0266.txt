@@ -1,0 +1,14 @@
+In this paper we analyse Belief Propagation over a Gaussian model in a
+dynamic environment. Recently, this has been proposed as a method to average
+local measurement values by a distributed protocol ("Consensus Propagation",
+Moallemi & Van Roy, 2006), where the average is available for read-out at every
+single node. In the case that the underlying network is constant but the values
+to be averaged fluctuate ("dynamic data"), convergence and accuracy are
+determined by the spectral properties of an associated Ruelle-Perron-Frobenius
+operator. For Gaussian models on Erdos-Renyi graphs, numerical computation
+points to a spectral gap remaining in the large-size limit, implying
+exceptionally good scalability. In a model where the underlying network also
+fluctuates ("dynamic network"), averaging is more effective than in the dynamic
+data case. Altogether, this implies very good performance of these methods in
+very large systems, and opens a new field of statistical physics of large (and
+dynamic) information systems.

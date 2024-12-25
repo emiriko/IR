@@ -1,0 +1,16 @@
+Ye showed recently that the simplex method with Dantzig pivoting rule, as
+well as Howard's policy iteration algorithm, solve discounted Markov decision
+processes (MDPs), with a constant discount factor, in strongly polynomial time.
+More precisely, Ye showed that both algorithms terminate after at most
+$O(\frac{mn}{1-\gamma}\log(\frac{n}{1-\gamma}))$ iterations, where $n$ is the
+number of states, $m$ is the total number of actions in the MDP, and
+$0<\gamma<1$ is the discount factor. We improve Ye's analysis in two respects.
+First, we improve the bound given by Ye and show that Howard's policy iteration
+algorithm actually terminates after at most
+$O(\frac{m}{1-\gamma}\log(\frac{n}{1-\gamma}))$ iterations. Second, and more
+importantly, we show that the same bound applies to the number of iterations
+performed by the strategy iteration (or strategy improvement) algorithm, a
+generalization of Howard's policy iteration algorithm used for solving 2-player
+turn-based stochastic games with discounted zero-sum rewards. This provides the
+first strongly polynomial algorithm for solving these games, resolving a long
+standing open problem.

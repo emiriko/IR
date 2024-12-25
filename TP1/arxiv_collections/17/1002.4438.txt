@@ -1,0 +1,24 @@
+The development of cancer is largely driven by the gain or loss of subsets of
+the genome, promoting uncontrolled growth or disabling defenses against it.
+Identifying genomic regions whose DNA copy number deviates from the normal is
+therefore central to understanding cancer evolution. Array-based comparative
+genomic hybridization (aCGH) is a high-throughput technique for identifying DNA
+gain or loss by quantifying total amounts of DNA matching defined probes
+relative to healthy diploid control samples. Due to the high level of noise in
+microarray data, however, interpretation of aCGH output is a difficult and
+error-prone task.
+  In this work, we tackle the computational task of inferring the DNA copy
+number per genomic position from noisy aCGH data. We propose CGHTRIMMER, a
+novel segmentation method that uses a fast dynamic programming algorithm to
+solve for a least-squares objective function for copy number assignment.
+CGHTRIMMER consistently achieves superior precision and recall to leading
+competitors on benchmarks of synthetic data and real data from the Coriell cell
+lines. In addition, it finds several novel markers not recorded in the
+benchmarks but plausibly supported in the oncology literature. Furthermore,
+CGHTRIMMER achieves superior results with run-times from 1 to 3 orders of
+magnitude faster than its state-of-art competitors.
+  CGHTRIMMER provides a new alternative for the problem of aCGH discretization
+that provides superior detection of fine-scale regions of gain or loss yet is
+fast enough to process very large data sets in seconds. It thus meets an
+important need for methods capable of handling the vast amounts of data being
+accumulated in high-throughput studies of tumor genetics.

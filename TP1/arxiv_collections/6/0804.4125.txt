@@ -1,0 +1,15 @@
+Brownian Dynamics algorithms are widely used for simulating soft-matter and
+biochemical systems. In recent times, their application has been extended to
+the simulation of coarse-grained models of cellular networks in simple
+organisms. In these models, components move by diffusion, and can react with
+one another upon contact. However, when reactions are incorporated into a
+Brownian Dynamics algorithm, attention must be paid to avoid violations of the
+detailed-balance rule, and therefore introducing systematic errors in the
+simulation. We present a Brownian Dynamics algorithm for reaction-diffusion
+systems that rigorously obeys detailed balance for equilibrium reactions. By
+comparing the simulation results to exact analytical results for a bimolecular
+reaction, we show that the algorithm correctly reproduces both equilibrium and
+dynamical quantities. We apply our scheme to a ``push-pull'' network in which
+two antagonistic enzymes covalently modify a substrate. Our results highlight
+that the diffusive behaviour of the reacting species can reduce the gain of the
+response curve of this network.

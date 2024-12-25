@@ -1,0 +1,13 @@
+This paper discusses the problem of placing weighted items in a circular
+container in two-dimensional space. This problem is of great practical
+significance in various mechanical engineering domains, such as the design of
+communication satellites. Two constructive heuristics are proposed, one for
+packing circular items and the other for packing rectangular items. These work
+by first optimizing object placement order, and then optimizing object
+positioning. Based on these heuristics, an ant colony optimization (ACO)
+algorithm is described to search first for optimal positioning order, and then
+for the optimal layout. We describe the results of numerical experiments, in
+which we test two versions of our ACO algorithm alongside local search methods
+previously described in the literature. Our results show that the constructive
+heuristic-based ACO performs better than existing methods on larger problem
+instances.

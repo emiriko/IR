@@ -1,0 +1,19 @@
+The problem of reconstruction of digital images from their degraded
+measurements is regarded as a problem of central importance in various fields
+of engineering and imaging sciences. In such cases, the degradation is
+typically caused by the resolution limitations of an imaging device in use
+and/or by the destructive influence of measurement noise. Specifically, when
+the noise obeys a Poisson probability law, standard approaches to the problem
+of image reconstruction are based on using fixed-point algorithms which follow
+the methodology first proposed by Richardson and Lucy. The practice of using
+these methods, however, shows that their convergence properties tend to
+deteriorate at relatively high noise levels. Accordingly, in the present paper,
+a novel method for de-noising and/or de-blurring of digital images corrupted by
+Poisson noise is introduced. The proposed method is derived under the
+assumption that the image of interest can be sparsely represented in the domain
+of a linear transform. Consequently, a shrinkage-based iterative procedure is
+proposed, which guarantees the solution to converge to the global maximizer of
+an associated maximum-a-posteriori criterion. It is shown in a series of both
+computer-simulated and real-life experiments that the proposed method
+outperforms a number of existing alternatives in terms of stability, precision,
+and computational efficiency.

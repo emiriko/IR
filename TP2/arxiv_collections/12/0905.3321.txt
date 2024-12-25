@@ -1,0 +1,13 @@
+This paper studies an approximation method for the log-likelihood function of
+a nonlinear diffusion process using the bridge of the diffusion. The main
+result (Theorem \refthm:approx) shows that this approximation converges
+uniformly to the unknown likelihood function and can therefore be used
+efficiently with any algorithm for sampling from the law of the bridge. We also
+introduce an expected maximum likelihood (EML) algorithm for inferring the
+parameters of discretely observed diffusion processes. The approach is
+applicable to a subclass of nonlinear SDEs with constant volatility and drift
+that is linear in the model parameters. In this setting, globally optimal
+parameters are obtained in a single step by solving a linear system. Simulation
+studies to test the EML algorithm show that it performs well when compared with
+algorithms based on the exact maximum likelihood as well as closed-form
+likelihood expansions.

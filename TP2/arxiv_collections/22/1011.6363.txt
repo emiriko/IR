@@ -1,0 +1,25 @@
+Characterization of the frequency response of coherent radiometric receivers
+is a key element in estimating the flux of astrophysical emissions, since the
+measured signal depends on the convolution of the source spectral emission with
+the instrument band shape.
+  Laboratory Radio Frequency (RF) measurements of the instrument bandpass often
+require complex test setups and are subject to a number of systematic effects
+driven by thermal issues and impedance matching, particularly if cryogenic
+operation is involved.
+  In this paper we present an approach to modeling radiometers bandpasses by
+integrating simulations and RF measurements of individual components. This
+method is based on QUCS (Quasi Universal Circuit Simulator), an open-source
+circuit simulator, which gives the flexibility of choosing among the available
+devices, implementing new analytical software models or using measured
+S-parameters. Therefore an independent estimate of the instrument bandpass is
+achieved using standard individual component measurements and validated
+analytical simulations.
+  In order to automate the process of preparing input data, running simulations
+and exporting results we developed the Python package python-qucs and released
+it under GNU Public License.
+  We discuss, as working cases, bandpass response modeling of the COFE and
+Planck Low Frequency Instrument (LFI) radiometers and compare results obtained
+with QUCS and with a commercial circuit simulator software. The main purpose of
+bandpass modeling in COFE is to optimize component matching, while in LFI they
+represent the best estimation of frequency response, since end-to-end
+measurements were strongly affected by systematic effects.

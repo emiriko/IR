@@ -1,0 +1,20 @@
+The widespread adoption of on-board volumetric imaging in cancer radiotherapy
+has stimulated research efforts to develop online adaptive radiotherapy
+techniques to handle the inter-fraction variation of the patient's geometry.
+Such efforts face major technical challenges to perform treatment planning in
+real-time. To overcome this challenge, we are developing a supercomputing
+online re-planning environment (SCORE) at the University of California San
+Diego (UCSD). As part of the SCORE project, this paper presents our work on the
+implementation of an intensity modulated radiation therapy (IMRT) optimization
+algorithm on graphics processing units (GPUs). We adopt a penalty-based
+quadratic optimization model, which is solved by using a gradient projection
+method with Armijo's line search rule. Our optimization algorithm has been
+implemented in CUDA for parallel GPU computing as well as in C for serial CPU
+computing for comparison purpose. A prostate IMRT case with various beamlet and
+voxel sizes was used to evaluate our implementation. On an NVIDIA Tesla C1060
+GPU card, we have achieved speedup factors of 20-40 without losing accuracy,
+compared to the results from an Intel Xeon 2.27 GHz CPU. For a specific 9-field
+prostate IMRT case with 5x5 mm^2 beamlet size and 2.5x2.5x2.5 mm^3 voxel size,
+our GPU implementation takes only 2.8 seconds to generate an optimal IMRT plan.
+Our work has therefore solved a major problem in developing online re-planning
+technologies for adaptive radiotherapy.

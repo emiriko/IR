@@ -1,0 +1,11 @@
+GAMER is a GPU-accelerated Adaptive-MEsh-Refinement code for astrophysical
+simulations. In this work, two further extensions of the code are reported.
+First, we have implemented the MUSCL-Hancock method with the Roe's Riemann
+solver for the hydrodynamic evolution, by which the accuracy, overall
+performance and the GPU versus CPU speed-up factor are improved. Second, we
+have implemented the out-of-core computation, which utilizes the large storage
+space of multiple hard disks as the additional run-time virtual memory and
+permits an extremely large problem to be solved in a relatively small-size GPU
+cluster. The communication overhead associated with the data transfer between
+the parallel hard disks and the main memory is carefully reduced by overlapping
+it with the CPU/GPU computations.

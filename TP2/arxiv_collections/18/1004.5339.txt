@@ -1,0 +1,16 @@
+Debugging of ontologies is an important prerequisite for their wide-spread
+application, especially in areas that rely upon everyday users to create and
+maintain knowledge bases, as in the case of the Semantic Web. Recent approaches
+use diagnosis methods to identify causes of inconsistent or incoherent
+ontologies. However, in most debugging scenarios these methods return many
+alternative diagnoses, thus placing the burden of fault localization on the
+user. This paper demonstrates how the target diagnosis can be identified by
+performing a sequence of observations, that is, by querying an oracle about
+entailments of the target ontology. We exploit a-priori probabilities of
+typical user errors to formulate information-theoretic concepts for query
+selection. Our evaluation showed that the proposed method significantly reduces
+the number of required queries compared to myopic strategies. We experimented
+with different probability distributions of user errors and different qualities
+of the a-priori probabilities. Our measurements showed the advantageousness of
+information-theoretic approach to query selection even in cases where only a
+rough estimate of the priors is available.

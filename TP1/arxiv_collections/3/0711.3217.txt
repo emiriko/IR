@@ -1,0 +1,8 @@
+This article describes the design, testing and production of the ATLAS Region
+of Interest Builder (RoIB). This device acts as an interface between the Level
+1 trigger and the high level trigger (HLT) farm for the ATLAS LHC detector. It
+distributes all of the level 1 data for a subset of events to a small number of
+(16 or less) individual commodity processors. These processors in turn provide
+this information to the HLT. This allows the HLT to use the level 1 information
+to narrow data requests to areas of the detector where level 1 has identified
+interesting objects.

@@ -1,0 +1,14 @@
+Courcelle's famous theorem from 1990 states that any property of graphs
+definable in monadic second-order logic (MSO) can be decided in linear time on
+any class of graphs of bounded treewidth, or in other words, MSO is
+fixed-parameter tractable in linear time on any such class of graphs. From a
+logical perspective, Courcelle's theorem establishes a sufficient condition, or
+an upper bound, for tractability of MSO-model checking.
+  Whereas such upper bounds on the complexity of logics have received
+significant attention in the literature, almost nothing is known about
+corresponding lower bounds. In this paper we establish a strong lower bound for
+the complexity of monadic second-order logic. In particular, we show that if C
+is any class of graphs which is closed under taking subgraphs and whose
+treewidth is not bounded by a polylogarithmic function (in fact, $\log^c n$ for
+some small c suffices) then MSO-model checking is intractable on C (under a
+suitable assumption from complexity theory).

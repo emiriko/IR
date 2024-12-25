@@ -1,0 +1,9 @@
+The quantum many-body problem can be rephrased as a variational determination
+of the two-body reduced density matrix, subject to a set of N-representability
+constraints. The mathematical problem has the form of a semidefinite program.
+We adapt a standard primal-dual interior point algorithm in order to exploit
+the specific structure of the physical problem. In particular the matrix-vector
+product can be calculated very efficiently. We have applied the proposed
+algorithm to a pairing-type Hamiltonian and studied the computational aspects
+of the method. The standard N-representability conditions perform very well for
+this problem.

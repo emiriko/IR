@@ -1,0 +1,18 @@
+Linear systems with large differences between coefficients ("discontinuous
+coefficients") arise in many cases in which partial differential
+equations(PDEs) model physical phenomena involving heterogeneous media. The
+standard approach to solving such problems is to use domain decomposition
+techniques, with domain boundaries conforming to the boundaries between the
+different media. This approach can be difficult to implement when the geometry
+of the domain boundaries is complicated or the grid is unstructured. This work
+examines the simple preconditioning technique of scaling the equations by
+dividing each equation by the Lp-norm of its coefficients. This preconditioning
+is called geometric scaling (GS). It has long been known that diagonal scaling
+can be useful in improving convergence, but there is no study on the general
+usefulness of this approach for discontinuous coefficients. GS was tested on
+several nonsymmetric linear systems with discontinuous coefficients derived
+from convection-diffusion elliptic PDEs with small to moderate convection
+terms. It is shown that GS improved the convergence properties of restarted
+GMRES and Bi-CGSTAB, with and without the ILUT preconditioner. GS was also
+shown to improve the distribution of the eigenvalues by reducing their
+concentration around the origin very significantly.

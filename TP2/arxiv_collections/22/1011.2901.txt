@@ -1,0 +1,20 @@
+Neuroimaging produces data that are continuous in one or more dimensions.
+This calls for an inference framework that can handle data that approximate
+functions of space, for example, anatomical images, time--frequency maps and
+distributed source reconstructions of electromagnetic recordings over time.
+Statistical parametric mapping (SPM) is the standard framework for whole-brain
+inference in neuroimaging: SPM uses random field theory to furnish $p$-values
+that are adjusted to control family-wise error or false discovery rates, when
+making topological inferences over large volumes of space. Random field theory
+regards data as realizations of a continuous process in one or more dimensions.
+This contrasts with classical approaches like the Bonferroni correction, which
+consider images as collections of discrete samples with no continuity
+properties (i.e., the probabilistic behavior at one point in the image does not
+depend on other points). Here, we illustrate how random field theory can be
+applied to data that vary as a function of time, space or frequency. We
+emphasize how topological inference of this sort is invariant to the geometry
+of the manifolds on which data are sampled. This is particularly useful in
+electromagnetic studies that often deal with very smooth data on scalp or
+cortical meshes. This application illustrates the versatility and simplicity of
+random field theory and the seminal contributions of Keith Worsley
+(1951--2009), a key architect of topological inference.

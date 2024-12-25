@@ -1,0 +1,19 @@
+High-volume, high-speed data streams may overwhelm the capabilities of stream
+processing systems; techniques such as data prioritization, avoidance of
+unnecessary processing and on-demand result production may be necessary to
+reduce processing requirements. However, the dynamic nature of data streams, in
+terms of both rate and content, makes the application of such techniques
+challenging. Such techniques have been addressed in the context of static and
+centralized query optimization; however, they have not been fully addressed for
+data stream management systems. In this work, we present a comprehensive
+framework that supports prioritization, avoidance of unnecessary work, and
+on-demand result production over distributed, unreliable, bursty, disordered
+data sources, typical of many data streams. We propose a form of inter-operator
+feedback, which flows against the stream direction, to communicate the
+information needed to enable execution of these techniques. This feedback
+leverages punctuations to describe the subsets of interest. We identify
+potential sources of feedback information, characterize new types of
+punctuation to support feedback, and describe the roles of producers,
+exploiters, and relayers of feedback that query operators may implement. We
+present initial experimental observations using the NiagaraST data-stream
+system.

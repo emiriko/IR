@@ -1,0 +1,11 @@
+The Eclipse Graphical Modeling (GMF) Framework provides the major approach
+for implementing visual languages on top of the Eclipse platform. GMF relies on
+a family of modeling languages to describe different aspects of the visual
+language and its implementation in an editor. GMF uses a model-driven approach
+to map the different GMF models to Java code. The framework, as it stands,
+provides very little support for evolution. In particular, there is no support
+for propagating changes from say the domain model (i.e., the abstract syntax of
+the visual language) to other models. We analyze the resulting co-evolution
+challenge, and we provide a transformation-based solution, say GMF model
+adapters, that serve the propagation of abstract-syntax changes based on the
+interpretation of difference models.

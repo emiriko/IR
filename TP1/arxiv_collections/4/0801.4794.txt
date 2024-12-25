@@ -1,0 +1,13 @@
+Consider a class $\mH$ of binary functions $h: X\to\{-1, +1\}$ on a finite
+interval $X=[0, B]\subset \Real$. Define the {\em sample width} of $h$ on a
+finite subset (a sample) $S\subset X$ as $\w_S(h) \equiv \min_{x\in S}
+|\w_h(x)|$, where $\w_h(x) = h(x) \max\{a\geq 0: h(z)=h(x), x-a\leq z\leq
+x+a\}$. Let $\mathbb{S}_\ell$ be the space of all samples in $X$ of cardinality
+$\ell$ and consider sets of wide samples, i.e., {\em hypersets} which are
+defined as $A_{\beta, h} = \{S\in \mathbb{S}_\ell: \w_{S}(h) \geq \beta\}$.
+Through an application of the Sauer-Shelah result on the density of sets an
+upper estimate is obtained on the growth function (or trace) of the class
+$\{A_{\beta, h}: h\in\mH\}$, $\beta>0$, i.e., on the number of possible
+dichotomies obtained by intersecting all hypersets with a fixed collection of
+samples $S\in\mathbb{S}_\ell$ of cardinality $m$. The estimate is
+$2\sum_{i=0}^{2\lfloor B/(2\beta)\rfloor}{m-\ell\choose i}$.

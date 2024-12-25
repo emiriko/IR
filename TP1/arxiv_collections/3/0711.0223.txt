@@ -1,0 +1,8 @@
+A recently introduced Importance Sampling strategy based on a least squares
+optimization is applied to the Monte Carlo simulation of Libor Market Models.
+Such Least Squares Importance Sampling (LSIS) allows the automatic optimization
+of the sampling distribution within a trial class by means of a quick
+presimulation algorithm of straightforward implementation. With several
+numerical examples we show that LSIS can be extremely effective in reducing the
+variance of Monte Carlo estimators often resulting, especially when combined
+with stratified sampling, in computational speed-ups of orders of magnitude.

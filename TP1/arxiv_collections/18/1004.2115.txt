@@ -1,0 +1,11 @@
+Given a digraph $G = (VG,AG)$, an \emph{even factor} $M \subseteq AG$ is a
+subset of arcs that decomposes into a collection of node-disjoint paths and
+even cycles. Even factors in digraphs were introduced by Geleen and Cunningham
+and generalize path matchings in undirected graphs. Finding an even factor of
+maximum cardinality in a general digraph is known to be NP-hard but for the
+class of \emph{odd-cycle symmetric} digraphs the problem is polynomially
+solvable. So far, the only combinatorial algorithm known for this task is due
+to Pap; it has the running time of $O(n^4)$ (hereinafter $n$ stands for the
+number of nodes in $G$). In this paper we present a novel \emph{sparse
+recovery} technique and devise an $O(n^3 \log n)$-time algorithm for finding a
+maximum cardinality even factor in an odd-cycle symmetric digraph.

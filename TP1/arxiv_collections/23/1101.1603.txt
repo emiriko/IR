@@ -1,0 +1,9 @@
+This paper introduces current watermarking techniques available from the
+literatures. Requirements for medical watermarking will be discussed. We then
+propose a watermarking scheme that can recover the original image from the
+watermarked one. The purpose is to verify the integrity and authenticity of
+DICOM images. We used ultrasound (US) images in our experiment. SHA-256 of the
+whole image is embedded in the least significant bits of the RONI (Region of
+Non-Interest). If the image has not been altered, the watermark will be
+extracted and the original image will be recovered. SHA-256 of the recovered
+image will be compared with the extracted watermark for authentication.

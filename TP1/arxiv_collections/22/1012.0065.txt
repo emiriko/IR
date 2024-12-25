@@ -1,0 +1,21 @@
+We present a combinatorial characterization of the Bethe entropy function of
+a factor graph, such a characterization being in contrast to the original,
+analytical, definition of this function. We achieve this combinatorial
+characterization by counting valid configurations in finite graph covers of the
+factor graph. Analogously, we give a combinatorial characterization of the
+Bethe partition function, whose original definition was also of an analytical
+nature. As we point out, our approach has similarities to the replica method,
+but also stark differences. The above findings are a natural backdrop for
+introducing a decoder for graph-based codes that we will call symbolwise
+graph-cover decoding, a decoder that extends our earlier work on blockwise
+graph-cover decoding. Both graph-cover decoders are theoretical tools that help
+towards a better understanding of message-passing iterative decoding, namely
+blockwise graph-cover decoding links max-product (min-sum) algorithm decoding
+with linear programming decoding, and symbolwise graph-cover decoding links
+sum-product algorithm decoding with Bethe free energy function minimization at
+temperature one. In contrast to the Gibbs entropy function, which is a concave
+function, the Bethe entropy function is in general not concave everywhere. In
+particular, we show that every code picked from an ensemble of regular
+low-density parity-check codes with minimum Hamming distance growing (with high
+probability) linearly with the block length has a Bethe entropy function that
+is convex in certain regions of its domain.

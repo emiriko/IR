@@ -1,0 +1,9 @@
+Tensors are multi-way arrays, and the Candecomp/Parafac (CP) tensor
+factorization has found application in many different domains. The CP model is
+typically fit using a least squares objective function, which is a maximum
+likelihood estimate under the assumption of i.i.d. Gaussian noise. We
+demonstrate that this loss function can actually be highly sensitive to
+non-Gaussian noise. Therefore, we propose a loss function based on the 1-norm
+because it can accommodate both Gaussian and grossly non-Gaussian
+perturbations. We also present an alternating majorization-minimization
+algorithm for fitting a CP model using our proposed loss function.

@@ -1,0 +1,14 @@
+This work presents a new plasma cooling curve that is calculated using the
+SPEX package. We compare our cooling rates to those in previous works, and
+implement the new cooling function in the grid-adaptive framework `AMRVAC'.
+Contributions to the cooling rate by the individual elements are given, to
+allow for the creation of cooling curves tailored to specific abundance
+requirements. In some situations, it is important to be able to include
+radiative losses in the hydrodynamics. The enhanced compression ratio can
+trigger instabilities (such as the Vishniac thin-shell instability) that would
+otherwise be absent. For gas with temperatures below 10,000 K, the cooling time
+becomes very long and does not affect the gas on the timescales that are
+generally of interest for hydrodynamical simulations of circumstellar plasmas.
+However, above this temperature, a significant fraction of the elements is
+ionised, and the cooling rate increases by a factor 1000 relative to lower
+temperature plasmas.

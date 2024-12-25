@@ -1,0 +1,19 @@
+This paper describes a compound Poisson-based random effects structure for
+modeling zero-inflated data. Data with large proportion of zeros are found in
+many fields of applied statistics, for example in ecology when trying to model
+and predict species counts (discrete data) or abundance distributions
+(continuous data). Standard methods for modeling such data include mixture and
+two-part conditional models. Conversely to these methods, the stochastic models
+proposed here behave coherently with regards to a change of scale, since they
+mimic the harvesting of a marked Poisson process in the modeling steps. Random
+effects are used to account for inhomogeneity. In this paper, model design and
+inference both rely on conditional thinking to understand the links between
+various layers of quantities : parameters, latent variables including random
+effects and zero-inflated observations. The potential of these parsimonious
+hierarchical models for zero-inflated data is exemplified using two marine
+macroinvertebrate abundance datasets from a large scale scientific bottom-trawl
+survey. The EM algorithm with a Monte Carlo step based on importance sampling
+is checked for this model structure on a simulated dataset : it proves to work
+well for parameter estimation but parameter values matter when re-assessing the
+actual coverage level of the confidence regions far from the asymptotic
+conditions.

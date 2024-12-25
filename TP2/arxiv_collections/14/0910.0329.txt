@@ -1,0 +1,15 @@
+Monte Carlo simulation is the most accurate method for absorbed dose
+calculations in radiotherapy. Its efficiency still requires improvement for
+routine clinical applications, especially for online adaptive radiotherapy. In
+this paper, we report our recent development on a GPU-based Monte Carlo dose
+calculation code for coupled electron-photon transport. We have implemented the
+Dose Planning Method (DPM) Monte Carlo dose calculation package (Sempau et al,
+Phys. Med. Biol., 45(2000)2263-2291) on GPU architecture under CUDA platform.
+The implementation has been tested with respect to the original sequential DPM
+code on CPU in phantoms with water-lung-water or water-bone-water slab
+geometry. A 20 MeV mono-energetic electron point source or a 6 MV photon point
+source is used in our validation. The results demonstrate adequate accuracy of
+our GPU implementation for both electron and photon beams in radiotherapy
+energy range. Speed up factors of about 5.0 ~ 6.6 times have been observed,
+using an NVIDIA Tesla C1060 GPU card against a 2.27GHz Intel Xeon CPU
+processor.

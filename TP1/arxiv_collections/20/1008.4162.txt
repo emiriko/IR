@@ -1,0 +1,9 @@
+We present an algorithm that prepares thermal Gibbs states of one dimensional
+quantum systems on a quantum computer without any memory overhead, and in a
+time significantly shorter than other known alternatives. Specifically, the
+time complexity is dominated by the quantity $N^{\|h\|/ T}$, where $N$ is the
+size of the system, $\|h\|$ is a bound on the operator norm of the local terms
+of the Hamiltonian (coupling energy), and $T$ is the temperature. Given other
+results on the complexity of thermalization, this overall scaling is likely
+optimal. For higher dimensions, our algorithm lowers the known scaling of the
+time complexity with the dimension of the system by one.

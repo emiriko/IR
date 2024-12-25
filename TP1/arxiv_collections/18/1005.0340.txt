@@ -1,0 +1,15 @@
+This paper presents a method for automated healing as part of off-line
+automated troubleshooting. The method combines statistical learning with
+constraint optimization. The automated healing aims at locally optimizing radio
+resource management (RRM) or system parameters of cells with poor performance
+in an iterative manner. The statistical learning processes the data using
+Logistic Regression (LR) to extract closed form (functional) relations between
+Key Performance Indicators (KPIs) and Radio Resource Management (RRM)
+parameters. These functional relations are then processed by an optimization
+engine which proposes new parameter values. The advantage of the proposed
+formulation is the small number of iterations required by the automated healing
+method to converge, making it suitable for off-line implementation. The
+proposed method is applied to heal an Inter-Cell Interference Coordination
+(ICIC) process in a 3G Long Term Evolution (LTE) network which is based on
+soft-frequency reuse scheme. Numerical simulations illustrate the benefits of
+the proposed approach.

@@ -1,0 +1,18 @@
+We consider the problem of finding one or more desired items out of an
+unsorted database. Patel has shown that if the database permits quantum
+queries, then mere digitization is sufficient for efficient search for one
+desired item. The algorithm, called factorized quantum search algorithm,
+presented by him can locate the desired item in an unsorted database using
+$O(log_{4}N)$ queries to factorized oracles. But the algorithm requires that
+all the property values must be distinct from each other. In this paper, we
+discuss how to make a database satisfy the requirements, and present a quantum
+search engine based on the algorithm. Our goal is achieved by introducing
+auxiliary files for the property values that are not distinct, and converting
+every complex query request into a sequence of calls to factorized quantum
+search algorithm. The query complexity of our algorithm is $O(P*Q*M*log_{4}N)$,
+where P is the number of the potential simple query requests in the complex
+query request, Q is the maximum number of calls to the factorized quantum
+search algorithm of the simple queries, M is the number of the auxiliary files
+for the property on which our algorithm are searching for desired items. This
+implies that to manage an unsorted database on an actual quantum computer is
+possible and efficient.

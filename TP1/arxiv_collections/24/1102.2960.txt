@@ -1,0 +1,12 @@
+Complementation of finite automata on infinite words is not only a
+fundamental problem in automata theory, but also serves as a cornerstone for
+solving numerous decision problems in mathematical logic, model-checking,
+program analysis and verification. For Streett complementation, a significant
+gap exists between the current lower bound $2^{\Omega(n\lg nk)}$ and upper
+bound $2^{O(nk\lg nk)}$, where $n$ is the state size, $k$ is the number of
+Streett pairs, and $k$ can be as large as $2^{n}$. Determining the complexity
+of Streett complementation has been an open question since the late '80s. In
+this paper show a complementation construction with upper bound $2^{O(n \lg
+n+nk \lg k)}$ for $k = O(n)$ and $2^{O(n^{2} \lg n)}$ for $k = \omega(n)$,
+which matches well the lower bound obtained in \cite{CZ11a}. We also obtain a
+tight upper bound $2^{O(n \lg n)}$ for parity complementation.

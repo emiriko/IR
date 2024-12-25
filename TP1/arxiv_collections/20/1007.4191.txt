@@ -1,0 +1,6 @@
+We give a space-optimal algorithm with update time
+O(log^2(1/eps)loglog(1/eps)) for (1+eps)-approximating the pth frequency
+moment, 0 < p < 2, of a length-n vector updated in a data stream. This provides
+a nearly exponential improvement in the update time complexity over the
+previous space-optimal algorithm of [Kane-Nelson-Woodruff, SODA 2010], which
+had update time Omega(1/eps^2).

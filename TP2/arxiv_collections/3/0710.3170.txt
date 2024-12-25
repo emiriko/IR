@@ -1,0 +1,14 @@
+An efficient method is introduced in this paper to find the intrinsic mode
+function (IMF) components of time series data. This method is faster and more
+predictable than the Empirical Mode Decomposition (EMD) method devised by the
+author of Hilbert Huang Transform (HHT). The approach is to transforms the
+original data function into a piecewise linear sawtooth function (or triangle
+wave function), then directly constructs the upper envelope by connecting the
+maxima and construct lower envelope by connecting minima with straight line
+segments in the sawtooth space, the IMF is calculated as the difference between
+the sawtooth function and the mean of the upper and lower envelopes. The
+results found in the sawtooth space are reversely transformed into the original
+data space as the required IMF and envelopes mean. This decomposition method
+process the data in one pass to obtain a unique IMF component without the time
+consuming repetitive sifting process of EMD method. An alternative
+decomposition method with sawtooth function expansion is also presented.

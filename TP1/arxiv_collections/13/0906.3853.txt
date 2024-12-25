@@ -1,0 +1,10 @@
+In general, the representation of combinatorial objects is decisive for the
+feasibility of several enumerative tasks. In this work, we show how a (unique)
+string representation for (complete) initially-connected deterministic automata
+(ICDFAs) with n states over an alphabet of k symbols can be used for counting,
+exact enumeration, sampling and optimal coding, not only the set of ICDFAs but,
+to some extent, the set of regular languages. An exact generation algorithm can
+be used to partition the set of ICDFAs in order to parallelize the counting of
+minimal automata (and thus of regular languages). We present also a uniform
+random generator for ICDFAs that uses a table of pre-calculated values. Based
+on the same table it is also possible to obtain an optimal coding for ICDFAs.

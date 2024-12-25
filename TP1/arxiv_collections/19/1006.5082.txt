@@ -1,0 +1,10 @@
+{\sc Cinderella} is a software solution for the quantitative comparison of
+time series in the frequency domain. It assigns probabilities to coincident
+peaks in the DFT amplidude spectra of the datasets under consideration. Two
+different modes are available. In conditional mode, {\sc Cinderella} examines
+target and comparison datasets on the assumption that the latter contain
+artifacts only, returning the conditional probability of a target signal,
+although there is a coincident signal in the comparison data within the
+frequency resolution. In composed mode, the probability of coincident signal
+components in both target and comparison data is evaluated. {\sc Cinderella}
+permits to examine multiple target and comparison datasets at once.

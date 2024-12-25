@@ -1,0 +1,24 @@
+The large number of spectral variables in most data sets encountered in
+spectral chemometrics often renders the prediction of a dependent variable
+uneasy. The number of variables hopefully can be reduced, by using either
+projection techniques or selection methods; the latter allow for the
+interpretation of the selected variables. Since the optimal approach of testing
+all possible subsets of variables with the prediction model is intractable, an
+incremental selection approach using a nonparametric statistics is a good
+option, as it avoids the computationally intensive use of the model itself. It
+has two drawbacks however: the number of groups of variables to test is still
+huge, and colinearities can make the results unstable. To overcome these
+limitations, this paper presents a method to select groups of spectral
+variables. It consists in a forward-backward procedure applied to the
+coefficients of a B-Spline representation of the spectra. The criterion used in
+the forward-backward procedure is the mutual information, allowing to find
+nonlinear dependencies between variables, on the contrary of the generally used
+correlation. The spline representation is used to get interpretability of the
+results, as groups of consecutive spectral variables will be selected. The
+experiments conducted on NIR spectra from fescue grass and diesel fuels show
+that the method provides clearly identified groups of selected variables,
+making interpretation easy, while keeping a low computational load. The
+prediction performances obtained using the selected coefficients are higher
+than those obtained by the same method applied directly to the original
+variables and similar to those obtained using traditional models, although
+using significantly less spectral variables.

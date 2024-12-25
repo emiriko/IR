@@ -1,0 +1,16 @@
+With the recent advances in DNA sequencing, it is now possible to have
+complete genomes of individuals sequenced and assembled. This rich and focused
+genotype information can be used to do different population-wide studies, now
+first time directly on whole genome level. We propose a way to index population
+genotype information together with the complete genome sequence, so that one
+can use the index to efficiently align a given sequence to the genome with all
+plausible genotype recombinations taken into account. This is achieved through
+converting a multiple alignment of individual genomes into a finite automaton
+recognizing all strings that can be read from the alignment by switching the
+sequence at any time. The finite automaton is indexed with an extension of
+Burrows-Wheeler transform to allow pattern search inside the plausible
+recombinant sequences. The size of the index stays limited, because of the high
+similarity of individual genomes. The index finds applications in variation
+calling and in primer design. On a variation calling experiment, we found about
+1.0% of matches to novel recombinants just with exact matching, and up to 2.4%
+with approximate matching.

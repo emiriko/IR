@@ -1,0 +1,13 @@
+A number of problems in a variety of fields are characterised by target
+distributions with a multimodal structure in which the presence of several
+isolated local maxima dramatically reduces the efficiency of Markov Chain Monte
+Carlo sampling algorithms. Several solutions, such as simulated tempering or
+the use of parallel chains, have been proposed to facilitate the exploration of
+the relevant parameter space. They provide effective strategies in the cases in
+which the dimension of the parameter space is small and/or the computational
+costs are not a limiting factor. These approaches fail however in the case of
+high-dimensional spaces where the multimodal structure is induced by
+degeneracies between regions of the parameter space. In this paper we present a
+fully Markovian way to efficiently sample this kind of distribution based on
+the general Delayed Rejection scheme with an arbitrary number of steps, and
+provide details for an efficient numerical implementation of the algorithm.

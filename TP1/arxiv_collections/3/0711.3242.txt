@@ -1,0 +1,13 @@
+In this paper, we generalize the notions of centroids and barycenters to the
+broad class of information-theoretic distortion measures called Bregman
+divergences. Bregman divergences are versatile, and unify quadratic geometric
+distances with various statistical entropic measures. Because Bregman
+divergences are typically asymmetric, we consider both the left-sided and
+right-sided centroids and the symmetrized centroids, and prove that all three
+are unique. We give closed-form solutions for the sided centroids that are
+generalized means, and design a provably fast and efficient approximation
+algorithm for the symmetrized centroid based on its exact geometric
+characterization that requires solely to walk on the geodesic linking the two
+sided centroids. We report on our generic implementation for computing entropic
+centers of image clusters and entropic centers of multivariate normals, and
+compare our results with former ad-hoc methods.

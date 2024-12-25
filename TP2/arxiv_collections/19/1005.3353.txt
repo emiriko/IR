@@ -1,0 +1,12 @@
+mc4qcd is a web based collaboration tool for analysis of Lattice QCD data.
+Lattice QCD computations consists of a large scale Markov Chain Monte Carlo.
+Multiple measurements are performed at each MC step. Our system acquires the
+data by uploading log files, parses them for results of measurements, filters
+the data, mines for required information by aggregating results, represents the
+results as plots and histograms, and it further allows refining and interaction
+by fitting the results. The system computes moving averages and
+autocorrelations, builds bootstrap samples and bootstrap errors, and allows
+modeling the data using Bayesian correlated constrained linear and non-linear
+fits. It can be scripted to allow real time visualization of results form an
+ongoing computation. The system is modular and it can be adapted to automating
+the analysis workflow of different types of MC computations.

@@ -1,0 +1,10 @@
+We have developed an efficient algorithm for steady axisymmetrical 2D fluid
+equations. The algorithm employs multigrid method as well as standard implicit
+discretization schemes for systems of partial differential equations. Linearity
+of the multigrid method with respect to the number of grid points allowed us to
+use $256\times 256$ grid, where we could achieve solutions in several minutes.
+Time limitations due to nonlinearity of the system are partially avoided by
+using multi level grids(the initial solution on $256\times 256$ grid was
+extrapolated steady solution from $128\times 128$ grid which allowed using
+"long" integration time steps). The fluid solver may be used as the basis for
+hybrid codes for DC discharges.

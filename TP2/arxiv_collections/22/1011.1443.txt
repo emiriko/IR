@@ -1,0 +1,13 @@
+We study the quantum query complexity of minor-closed graph properties, which
+include such problems as determining whether an $n$-vertex graph is planar, is
+a forest, or does not contain a path of a given length. We show that most
+minor-closed properties---those that cannot be characterized by a finite set of
+forbidden subgraphs---have quantum query complexity \Theta(n^{3/2}). To
+establish this, we prove an adversary lower bound using a detailed analysis of
+the structure of minor-closed properties with respect to forbidden topological
+minors and forbidden subgraphs. On the other hand, we show that minor-closed
+properties (and more generally, sparse graph properties) that can be
+characterized by finitely many forbidden subgraphs can be solved strictly
+faster, in o(n^{3/2}) queries. Our algorithms are a novel application of the
+quantum walk search framework and give improved upper bounds for several
+subgraph-finding problems.

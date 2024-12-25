@@ -1,0 +1,31 @@
+Consider a class of decomposable combinatorial structures, using different
+types of atoms $\Atoms = \{\At_1,\ldots ,\At_{|{\Atoms}|}\}$. We address the
+random generation of such structures with respect to a size $n$ and a targeted
+distribution in $k$ of its \emph{distinguished} atoms. We consider two
+variations on this problem. In the first alternative, the targeted distribution
+is given by $k$ real numbers $\TargFreq_1, \ldots, \TargFreq_k$ such that $0 <
+\TargFreq_i < 1$ for all $i$ and $\TargFreq_1+\cdots+\TargFreq_k \leq 1$. We
+aim to generate random structures among the whole set of structures of a given
+size $n$, in such a way that the {\em expected} frequency of any distinguished
+atom $\At_i$ equals $\TargFreq_i$. We address this problem by weighting the
+atoms with a $k$-tuple $\Weights$ of real-valued weights, inducing a weighted
+distribution over the set of structures of size $n$. We first adapt the
+classical recursive random generation scheme into an algorithm taking
+$\bigO{n^{1+o(1)}+mn\log{n}}$ arithmetic operations to draw $m$ structures from
+the $\Weights$-weighted distribution. Secondly, we address the analytical
+computation of weights such that the targeted frequencies are achieved
+asymptotically, i. e. for large values of $n$. We derive systems of functional
+equations whose resolution gives an explicit relationship between $\Weights$
+and $\TargFreq_1, \ldots, \TargFreq_k$. Lastly, we give an algorithm in
+$\bigO{k n^4}$ for the inverse problem, {\it i.e.} computing the frequencies
+associated with a given $k$-tuple $\Weights$ of weights, and an optimized
+version in $\bigO{k n^2}$ in the case of context-free languages. This allows
+for a heuristic resolution of the weights/frequencies relationship suitable for
+complex specifications. In the second alternative, the targeted distribution is
+given by a $k$ natural numbers $n_1, \ldots, n_k$ such that
+$n_1+\cdots+n_k+r=n$ where $r \geq 0$ is the number of undistinguished atoms.
+The structures must be generated uniformly among the set of structures of size
+$n$ that contain {\em exactly} $n_i$ atoms $\At_i$ ($1 \leq i \leq k$). We give
+a $\bigO{r^2\prod_{i=1}^k n_i^2 +m n k \log n}$ algorithm for generating $m$
+structures, which simplifies into a $\bigO{r\prod_{i=1}^k n_i +m n}$ for
+regular specifications.

@@ -1,0 +1,15 @@
+We present a Monte Carlo algorithm that allows the simultaneous determination
+of a few extremal eigenpairs of a very large matrix without the need to compute
+the inner product of two vectors or store all the components of any one vector.
+The new algorithm, a Monte Carlo implementation of a deterministic one we
+recently benchmarked, is an extension of the power method. In the
+implementation presented, we used a basic Monte Carlo splitting and termination
+method called the comb, incorporated the weight cancellation method of Arnow
+{\it et al.}, and exploited a new sampling method, the sewing method, that does
+a large state space sampling as a succession of small state space samplings. We
+illustrate the effectiveness of the algorithm by its determination of the two
+largest eigenvalues of the transfer matrices for variously-sized
+two-dimensional, zero field Ising models. While very likely useful for other
+transfer matrix problems, the algorithm is however quite general and should
+find application to a larger variety of problems requiring a few dominant
+eigenvalues of a matrix.

@@ -1,0 +1,16 @@
+In this article we consider the problem of pricing and hedging
+high-dimensional Asian basket options by Quasi-Monte Carlo simulation. We
+assume a Black-Scholes market with time-dependent volatilities and show how to
+compute the deltas by the aid of the Malliavin Calculus, extending the
+procedure employed by Montero and Kohatsu-Higa (2003). Efficient
+path-generation algorithms, such as Linear Transformation and Principal
+Component Analysis, exhibit a high computational cost in a market with
+time-dependent volatilities. We present a new and fast Cholesky algorithm for
+block matrices that makes the Linear Transformation even more convenient.
+Moreover, we propose a new-path generation technique based on a Kronecker
+Product Approximation. This construction returns the same accuracy of the
+Linear Transformation used for the computation of the deltas and the prices in
+the case of correlated asset returns while requiring a lower computational
+time. All these techniques can be easily employed for stochastic volatility
+models based on the mixture of multi-dimensional dynamics introduced by Brigo
+et al. (2004).

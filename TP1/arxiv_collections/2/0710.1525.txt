@@ -1,0 +1,14 @@
+Minimal-interval semantics associates with each query over a document a set
+of intervals, called witnesses, that are incomparable with respect to inclusion
+(i.e., they form an antichain): witnesses define the minimal regions of the
+document satisfying the query. Minimal-interval semantics makes it easy to
+define and compute several sophisticated proximity operators, provides snippets
+for user presentation, and can be used to rank documents. In this paper we
+provide algorithms for computing conjunction and disjunction that are linear in
+the number of intervals and logarithmic in the number of operands; for
+additional operators, such as ordered conjunction and Brouwerian difference, we
+provide linear algorithms. In all cases, space is linear in the number of
+operands. More importantly, we define a formal notion of optimal laziness, and
+either prove it, or prove its impossibility, for each algorithm. We cast our
+results in a general framework of antichains of intervals on total orders,
+making our algorithms directly applicable to other domains.

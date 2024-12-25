@@ -1,0 +1,25 @@
+Optical tweezers and AFM cantilevers are often calibrated by fitting their
+experimental powerspectra of Brownian motion. We demonstrate here that if this
+is done with typical weighted least-squares methods the result is a bias of
+relative size between -2/n and +1/n on the value of the fitted diffusion
+coefficient. Here n is the number of power-spectra averaged over, so typical
+calibrations contain 10-20% bias. Both the sign and the size of the bias
+depends on the weighting scheme applied. Hence, so do length-scale calibrations
+based on the diffusion coefficient. The fitted value for the characteristic
+frequency is not affected by this bias. For the AFM then, force measurements
+are not affected provided an independent length-scale calibration is available.
+For optical-tweezers there is no such luck, since the spring constant is found
+as the ratio of the characteristic frequency and the diffusion coefficient. We
+give analytical results for the weight-dependent bias for the wide class of
+systems whose dynamics is described by a linear (integro-)differential equation
+with additive noise, white or colored. Examples are optical tweezers with
+hydrodynamic self-interaction and aliasing, calibration of Ornstein-Uhlenbeck
+models in finance, models for cell-migration in biology, etc. Because the bias
+takes the form of a simple multiplicative factor on the fitted amplitude (e.g.
+the diffusion coefficient) it is straightforward to remove, and the user will
+need minimal modifications to his or her favorite least-square fitting
+programs. Results are demonstrated and illustrated using synthetic data, so we
+can compare fits with known true values. We also fit some commonly occurring
+power spectra once-and-for-all in the sense that we give their parameter values
+and associated error-bars as explicit functions of experimental power-spectral
+values.

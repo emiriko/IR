@@ -1,0 +1,15 @@
+Molecular calculations in quantum Monte Carlo frequently employ a mixed basis
+consisting of contracted and primitive Gaussian functions. While standard basis
+sets of varying size and accuracy are available in the literature, we
+demonstrate that reoptimizing the primitive function exponents within quantum
+Monte Carlo yields more compact basis sets for a given accuracy. Particularly
+large gains are achieved for highly excited states. For calculations requiring
+non-diverging pseudopotentials, we introduce Gauss-Slater basis functions that
+behave as Gaussians at short distances and Slaters at long distances. These
+basis functions further improve the energy and fluctuations of the local energy
+for a given basis size. Gains achieved by exponent optimization and
+Gauss-Slater basis use are exemplified by calculations for the ground state of
+carbon, the lowest lying excited states of carbon with $^5S^o$, $^3P^o$,
+$^1D^o$, $^3F^o$ symmetries, carbon dimer, and naphthalene. Basis size
+reduction enables quantum Monte Carlo treatment of larger molecules at high
+accuracy.

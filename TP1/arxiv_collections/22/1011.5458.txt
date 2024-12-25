@@ -1,0 +1,10 @@
+In this paper, we propose a new image inpainting method based on the property
+that much of the image information in the transform domain is sparse. We add a
+redundancy to the original image by mapping the transform coefficients with
+small amplitudes to zero and the resultant sparsity pattern is used as the side
+information in the recovery stage. If the side information is not available,
+the receiver has to estimate the sparsity pattern. At the end, the recovery is
+done by consecutive projecting between two spatial and transform sets.
+Experimental results show that our method works well for both structural and
+texture images and outperforms other techniques in objective and subjective
+performance measures.

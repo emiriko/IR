@@ -1,0 +1,19 @@
+In Distributed Interactive Applications (DIA) such as multiplayer games,
+where many participants are involved in a same game session and communicate
+through a network, they may have an inconsistent view of the virtual world
+because of the communication delays across the network. This issue becomes even
+more challenging when communicating through a cellular network while executing
+the DIA client on a mobile terminal. Consistency maintenance algorithms may be
+used to obtain a uniform view of the virtual world. These algorithms are very
+complex and hard to program and therefore, the implementation and the future
+evolution of the application logic code become difficult. To solve this
+problem, we propose an approach where the consistency concerns are handled
+separately by a distributed component called a Synchronization Medium, which is
+responsible for the communication management as well as the consistency
+maintenance. We present the detailed architecture of the Synchronization Medium
+and the generic interfaces it offers to DIAs. We evaluate our approach both
+qualitatively and quantitatively. We first demonstrate that the Synchronization
+Medium is a reusable component through the development of two game
+applications, a car racing game and a space war game. A performance evaluation
+then shows that the overhead introduced by the Synchronization Medium remains
+acceptable.

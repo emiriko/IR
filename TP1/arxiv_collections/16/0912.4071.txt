@@ -1,0 +1,13 @@
+Grover's quantum search algorithm, involving a large number of qubits, is
+highly sensitive to errors in the physical implementation of the unitary
+operators. This poses an intrinsic limitation to the size of the database that
+can be practically searched. The lack of robustness of Grover's algorithm for a
+large number of qubits is due to quite stringent "phase-matching" condition. To
+overcome this limitation, Tulsi suggested a modified search algorithm [PRA 78,
+022332] which succeeds as long as the errors are reproducible and reversible
+while Grover's algorithm fails. Such systematic errors arise often from
+imperfections in apparatus setup e.g. the errors arising from imperfect pulse
+calibration and offset effect in NMR systems. In this paper, we report the
+experimental NMR implementation of the modified search algorithm and its
+comparison with the original Grover's algorithm. We experimentally validate the
+theoretical predictions made by Tulsi.

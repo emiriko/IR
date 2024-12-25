@@ -1,0 +1,12 @@
+This paper is about the technical design of a large computational lexicon,
+its storage, and its access from a Prolog environment. Traditionally, efficient
+access and storage of data structures is implemented by a relational database
+management system. In Delilah, a lexicon-based NLP system, efficient access to
+the lexicon by the semantic generator is vital. We show that our highly
+detailed HPSG-style lexical specifications do not fit well in the Relational
+Model, and that they cannot be efficiently retrieved. We argue that they fit
+more naturally in the Object-Oriented Model. Although storage of objects is
+redundant, we claim that efficient access is still possible by applying
+indexing, and compression techniques from the Relational Model to the
+Object-Oriented Model. We demonstrate that it is possible to implement
+object-oriented storage and fast access in ISO Prolog.

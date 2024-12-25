@@ -1,0 +1,13 @@
+In the paradigm of computer experiments, the choice of an experimental design
+is an important issue. When no information is available about the black-box
+function to be approximated, an exploratory design have to be used. In this
+context, two dispersion criteria are usually considered: the minimax and the
+maximin ones. In the case of a hypercube domain, a standard strategy consists
+of taking the maximin design within the class of Latin hypercube designs.
+However, in a non hypercube context, it does not make sense to use the Latin
+hypercube strategy. Moreover, whatever the design is, the black-box function is
+typically approximated thanks to kernel interpolation. Here, we first provide a
+theoretical justification to the maximin criterion with respect to kernel
+interpolations. Then, we propose simulated annealing algorithms to determine
+maximin designs in any bounded connected domain. We prove the convergence of
+the different schemes.

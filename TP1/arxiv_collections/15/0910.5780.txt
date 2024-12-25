@@ -1,0 +1,22 @@
+Multiple genome alignment remains a challenging problem. Effects of
+recombination including rearrangement, segmental duplication, gain, and loss
+can create a mosaic pattern of homology even among closely related organisms.
+We describe a method to align two or more genomes that have undergone
+large-scale recombination, particularly genomes that have undergone substantial
+amounts of gene gain and loss (gene flux). The method utilizes a novel
+alignment objective score, referred to as a sum-of-pairs breakpoint score. We
+also apply a probabilistic alignment filtering method to remove erroneous
+alignments of unrelated sequences, which are commonly observed in other genome
+alignment methods. We describe new metrics for quantifying genome alignment
+accuracy which measure the quality of rearrangement breakpoint predictions and
+indel predictions. The progressive genome alignment algorithm demonstrates
+markedly improved accuracy over previous approaches in situations where genomes
+have undergone realistic amounts of genome rearrangement, gene gain, loss, and
+duplication. We apply the progressive genome alignment algorithm to a set of 23
+completely sequenced genomes from the genera Escherichia, Shigella, and
+Salmonella. The 23 enterobacteria have an estimated 2.46Mbp of genomic content
+conserved among all taxa and total unique content of 15.2Mbp. We document
+substantial population-level variability among these organisms driven by
+homologous recombination, gene gain, and gene loss. Free, open-source software
+implementing the described genome alignment approach is available from
+http://gel.ahabs.wisc.edu/mauve .

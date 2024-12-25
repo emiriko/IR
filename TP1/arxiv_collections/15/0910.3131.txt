@@ -1,0 +1,17 @@
+Quantum cryptography makes it possible to expand a short shared key (of e.g.
+256 bits[1]) into an arbitrary long shared key. The novelty of quantum
+cryptography is that whenever a spy tries to eavesdrop the communication he
+causes disturbances in the transmission of the message. Ultimately this
+unavoidable disturbance is a consequence of Heisenberg's uncertainty principle
+that limits the joint knowledge of complementary observables. Now, a problem
+remains: in order to initialize quantum key distribution, Alice and Bob need to
+share a short shared key in order to be able to identify each other
+unambiguously. Therefore a trusted courier is needed. We propose in this paper
+a solution to the trusted courrier problem that was inspired by quantum
+cryptography. The idea is to encode the key that Alice sends to Bob into
+unstable nuclei in such a way that the message gets revealed only after the
+courrier has delivered it to Bob. In this approach, we replace Heisenberg
+uncertainties by another type of uncertainty, that characterizes the knowledge
+of the time at which an unstable nucleus decays. As we shall show, this scheme
+makes it possible to refresh a key even in the case that we do not trust the
+courier who carries the key.

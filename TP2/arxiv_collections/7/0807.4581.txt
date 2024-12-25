@@ -1,0 +1,22 @@
+Traditional sampling theories consider the problem of reconstructing an
+unknown signal $x$ from a series of samples. A prevalent assumption which often
+guarantees recovery from the given measurements is that $x$ lies in a known
+subspace. Recently, there has been growing interest in nonlinear but structured
+signal models, in which $x$ lies in a union of subspaces. In this paper we
+develop a general framework for robust and efficient recovery of such signals
+from a given set of samples. More specifically, we treat the case in which $x$
+lies in a sum of $k$ subspaces, chosen from a larger set of $m$ possibilities.
+The samples are modelled as inner products with an arbitrary set of sampling
+functions. To derive an efficient and robust recovery algorithm, we show that
+our problem can be formulated as that of recovering a block-sparse vector whose
+non-zero elements appear in fixed blocks. We then propose a mixed
+$\ell_2/\ell_1$ program for block sparse recovery. Our main result is an
+equivalence condition under which the proposed convex algorithm is guaranteed
+to recover the original signal. This result relies on the notion of block
+restricted isometry property (RIP), which is a generalization of the standard
+RIP used extensively in the context of compressed sensing. Based on RIP we also
+prove stability of our approach in the presence of noise and modelling errors.
+  A special case of our framework is that of recovering multiple measurement
+vectors (MMV) that share a joint sparsity pattern. Adapting our results to this
+context leads to new MMV recovery methods as well as equivalence conditions
+under which the entire set can be determined efficiently.

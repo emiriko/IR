@@ -1,0 +1,12 @@
+Let $Z(F)$ be the number of solutions of a random $k$-satisfiability formula
+$F$ with $n$ variables and clause density $\alpha$. Assume that the probability
+that $F$ is unsatisfiable is $O(1/\log(n)^{1+\e})$ for $\e>0$. We show that
+(possibly excluding a countable set of `exceptional' $\alpha$'s) the number of
+solutions concentrate in the logarithmic scale, i.e., there exists a non-random
+function $\phi(\alpha)$ such that, for any $\delta>0$, $(1/n)\log Z(F)\in
+[\phi-\delta,\phi+\delta]$ with high probability. In particular, the assumption
+holds for all $\alpha<1$, which proves the above concentration claim in the
+whole satisfiability regime of random $2$-SAT. We also extend these results to
+a broad class of constraint satisfaction problems. The proof is based on an
+interpolation technique from spin-glass theory, and on an application of
+Friedgut's theorem on sharp thresholds for graph properties.

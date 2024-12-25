@@ -1,0 +1,15 @@
+The Fast Tracker (FTK) is a proposed upgrade to the ATLAS trigger system that
+will operate at full Level-1 output rates and provide high quality tracks
+reconstructed over the entire detector by the start of processing in Level-2.
+FTK solves the combinatorial challenge inherent to tracking by exploiting the
+massive parallelism of Associative Memories (AM) that can compare inner
+detector hits to millions of pre-calculated patterns simultaneously. The
+tracking problem within matched patterns is further simplified by using
+pre-computed linearized fitting constants and leveraging fast DSP's in modern
+commercial FPGA's. Overall, FTK is able to compute the helix parameters for all
+tracks in an event and apply quality cuts in approximately one millisecond. By
+employing a pipelined architecture, FTK is able to continuously operate at
+Level-1 rates without deadtime. The system design is defined and studied using
+ATLAS full simulation. Reconstruction quality is evaluated for single muon
+events with zero pileup, as well as WH events at the LHC design luminosity. FTK
+results are compared with the tracking capability of an offline algorithm.

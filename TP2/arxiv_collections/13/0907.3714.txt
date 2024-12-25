@@ -1,0 +1,12 @@
+This article describes haggies, a program for the generation of optimised
+programs for the efficient numerical evaluation of mathematical expressions. It
+uses a multivariate Horner-scheme and Common Subexpression Elimination to
+reduce the overall number of operations. The package can serve as a back-end
+for virtually any general purpose computer algebra program. Built-in type
+inference that allows to deal with non-standard data types in strongly typed
+languages and a very flexible, pattern-based output specification ensure that
+haggies can produce code for a large variety of programming languages. We
+currently use haggies as part of an automated package for the calculation of
+one-loop scattering amplitudes in quantum field theories. The examples in this
+articles, however, demonstrate that its use is not restricted to the field of
+high energy physics.

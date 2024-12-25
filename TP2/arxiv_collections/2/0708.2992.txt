@@ -1,0 +1,11 @@
+We propose a cheat sensitive quantum protocol to perform a private search on
+a classical database which is efficient in terms of communication complexity.
+It allows a user to retrieve an item from the server in possession of the
+database without revealing which item she retrieved: if the server tries to
+obtain information on the query, the person querying the database can find it
+out. Furthermore our protocol ensures perfect data privacy of the database,
+i.e. the information that the user can retrieve in a single queries is bounded
+and does not depend on the size of the database. With respect to the known
+(quantum and classical) strategies for private information retrieval, our
+protocol displays an exponential reduction both in communication complexity and
+in running-time computational complexity.

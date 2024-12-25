@@ -1,0 +1,23 @@
+Owing to the structure of the Gaussian multiple-input multiple-output (MIMO)
+broadcast channel (BC), associated optimization problems such as capacity
+region computation and beamforming optimization are typically non-convex, and
+cannot be solved directly. One feasible approach to these problems is to
+transform them into their dual multiple access channel (MAC) problems, which
+are easier to deal with due to their convexity properties. The conventional
+BC-MAC duality is established via BC-MAC signal transformation, and has been
+successfully applied to solve beamforming optimization,
+signal-to-interference-plus-noise ratio (SINR) balancing, and capacity region
+computation. However, this conventional duality approach is applicable only to
+the case, in which the base station (BS) of the BC is subject to a single sum
+power constraint. An alternative approach is minimax duality, established by Yu
+in the framework of Lagrange duality, which can be applied to solve the
+per-antenna power constraint problem. This paper extends the conventional
+BC-MAC duality to the general linear constraint case, and thereby establishes a
+general BC-MAC duality. This new duality is applied to solve the capacity
+computation and beamforming optimization for the MIMO and multiple-input
+single-output (MISO) BC, respectively, with multiple linear constraints.
+Moreover, the relationship between this new general BC-MAC duality and minimax
+duality is also presented. It is shown that the general BC-MAC duality offers
+more flexibility in solving BC optimization problems relative to minimax
+duality. Numerical results are provided to illustrate the effectiveness of the
+proposed algorithms.

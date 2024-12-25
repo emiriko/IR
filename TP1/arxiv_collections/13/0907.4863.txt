@@ -1,0 +1,12 @@
+We discuss the scalable parallel solution of the Poisson equation within a
+Particle-In-Cell (PIC) code for the simulation of electron beams in particle
+accelerators of irregular shape. The problem is discretized by Finite
+Differences. Depending on the treatment of the Dirichlet boundary the resulting
+system of equations is symmetric or `mildly' nonsymmetric positive definite. In
+all cases, the system is solved by the preconditioned conjugate gradient
+algorithm with smoothed aggregation (SA) based algebraic multigrid (AMG)
+preconditioning. We investigate variants of the implementation of SA-AMG that
+lead to considerable improvements in the execution times. We demonstrate good
+scalability of the solver on distributed memory parallel processor with up to
+2048 processors. We also compare our SAAMG-PCG solver with an FFT-based solver
+that is more commonly used for applications in beam dynamics.

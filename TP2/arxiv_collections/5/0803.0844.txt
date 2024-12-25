@@ -1,0 +1,9 @@
+A dynamic herding model with interactions of trading volumes is introduced.
+At time $t$, an agent trades with a probability, which depends on the ratio of
+the total trading volume at time $t-1$ to its own trading volume at its last
+trade. The price return is determined by the volume imbalance and number of
+trades. The model successfully reproduces the power-law distributions of the
+trading volume, number of trades and price return, and their relations.
+Moreover, the generated time series are long-range correlated. We demonstrate
+that the results are rather robust, and do not depend on the particular form of
+the trading probability.

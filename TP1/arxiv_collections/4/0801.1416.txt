@@ -1,0 +1,11 @@
+We give an $O(N\cdot \log N\cdot 2^{O(\log^*N)})$ algorithm for multiplying
+two $N$-bit integers that improves the $O(N\cdot \log N\cdot \log\log N)$
+algorithm by Sch\"{o}nhage-Strassen. Both these algorithms use modular
+arithmetic. Recently, F\"{u}rer gave an $O(N\cdot \log N\cdot 2^{O(\log^*N)})$
+algorithm which however uses arithmetic over complex numbers as opposed to
+modular arithmetic. In this paper, we use multivariate polynomial
+multiplication along with ideas from F\"{u}rer's algorithm to achieve this
+improvement in the modular setting. Our algorithm can also be viewed as a
+$p$-adic version of F\"{u}rer's algorithm. Thus, we show that the two seemingly
+different approaches to integer multiplication, modular and complex arithmetic,
+are similar.

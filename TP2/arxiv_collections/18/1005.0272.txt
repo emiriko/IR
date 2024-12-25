@@ -1,0 +1,17 @@
+The security of a high speed quantum key distribution system with finite
+detector dead time \tau is analyzed. When the transmission rate becomes higher
+than the maximum count rate of the individual detectors (1/\tau ), security
+issues affect the algorithm for sifting bits. Analytical calculations and
+numerical simulations of the Bennett-Brassard BB84 protocol are performed. We
+study Rogers et al.'s protocol (introduced in "Detector dead-time effects and
+paralyzability in high-speed quantum key distribution," New J. Phys. 9 (2007)
+319) in the presence of an active eavesdropper Eve who has the power to perform
+an intercept-resend attack. It is shown that Rogers et al.'s protocol is no
+longer secure. More specifically, Eve can induce a basis-dependent detection
+efficiency at the receiver's end. Modified key sifting schemes that are secure
+in the presence of dead time and an active eavesdropper are then introduced. We
+analyze and compare these secure sifting schemes for this active Eve scenario,
+and calculate and simulate their key generation rate. It is shown that the
+maximum key generation rate is 1/(2\tau ) for passive basis selection, and
+1/\tau for active basis selection. The security analysis for finite detector
+dead time is also extended to the decoy state BB84 protocol.

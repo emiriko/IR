@@ -1,0 +1,15 @@
+Energy minimization of Ising spin-glasses has played a central role in
+statistical and solid-state physics, facilitating studies of phase transitions
+and magnetism. Recent proposals suggest using Ising spin-glasses for
+non-traditional computing as a way to harness the nature's ability to find
+min-energy configurations, and to take advantage of quantum tunneling to boost
+combinatorial optimization. Laboratory demonstrations have been unconvincing so
+far and lack a non-quantum baseline for definitive comparisons. In this work we
+(i) design and evaluate new computational techniques to simulate natural energy
+minimization in spin glasses and (ii) explore their application to study design
+alternatives in quantum adiabatic computers. Unlike previous work, our
+algorithms are not limited to planar Ising topologies. In one CPU-day, our
+branch-and-bound algorithm finds ground states on 100 spins, while our local
+search approximates ground states on 1, 000, 000 spins. We use this
+computational tool as a simulator to study the significance of hyper-couplings
+in the context of recently implemented adiabatic quantum computers.

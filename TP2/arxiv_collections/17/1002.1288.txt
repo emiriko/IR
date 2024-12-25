@@ -1,0 +1,22 @@
+This paper investigates, using prior shape models and the concept of ball
+scale (b-scale), ways of automatically recognizing objects in 3D images without
+performing elaborate searches or optimization. That is, the goal is to place
+the model in a single shot close to the right pose (position, orientation, and
+scale) in a given image so that the model boundaries fall in the close vicinity
+of object boundaries in the image. This is achieved via the following set of
+key ideas: (a) A semi-automatic way of constructing a multi-object shape model
+assembly. (b) A novel strategy of encoding, via b-scale, the pose relationship
+between objects in the training images and their intensity patterns captured in
+b-scale images. (c) A hierarchical mechanism of positioning the model, in a
+one-shot way, in a given image from a knowledge of the learnt pose relationship
+and the b-scale image of the given image to be segmented. The evaluation
+results on a set of 20 routine clinical abdominal female and male CT data sets
+indicate the following: (1) Incorporating a large number of objects improves
+the recognition accuracy dramatically. (2) The recognition algorithm can be
+thought as a hierarchical framework such that quick replacement of the model
+assembly is defined as coarse recognition and delineation itself is known as
+finest recognition. (3) Scale yields useful information about the relationship
+between the model assembly and any given image such that the recognition
+results in a placement of the model close to the actual pose without doing any
+elaborate searches or optimization. (4) Effective object recognition can make
+delineation most accurate.

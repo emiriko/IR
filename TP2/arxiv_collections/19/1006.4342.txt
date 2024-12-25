@@ -1,0 +1,9 @@
+Concurrent garbage collectors are notoriously difficult to implement
+correctly. Previous approaches to the issue of producing correct collectors
+have mainly been based on posit-and-prove verification or on the application of
+domain-specific templates and transformations. We show how to derive the upper
+reaches of a family of concurrent garbage collectors by refinement from a
+formal specification, emphasizing the application of domain-independent design
+theories and transformations. A key contribution is an extension to the
+classical lattice-theoretic fixpoint theorems to account for the dynamics of
+concurrent mutation and collection.

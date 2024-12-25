@@ -1,0 +1,16 @@
+An importance weight quantifies the relative importance of one example over
+another, coming up in applications of boosting, asymmetric classification
+costs, reductions, and active learning. The standard approach for dealing with
+importance weights in gradient descent is via multiplication of the gradient.
+We first demonstrate the problems of this approach when importance weights are
+large, and argue in favor of more sophisticated ways for dealing with them. We
+then develop an approach which enjoys an invariance property: that updating
+twice with importance weight $h$ is equivalent to updating once with importance
+weight $2h$. For many important losses this has a closed form update which
+satisfies standard regret guarantees when all examples have $h=1$. We also
+briefly discuss two other reasonable approaches for handling large importance
+weights. Empirically, these approaches yield substantially superior prediction
+with similar computational performance while reducing the sensitivity of the
+algorithm to the exact setting of the learning rate. We apply these to online
+active learning yielding an extraordinarily fast active learning algorithm that
+works even in the presence of adversarial noise.

@@ -1,0 +1,24 @@
+We introduce a new class of integrators for stiff ODEs as well as SDEs. These
+integrators are (i) {\it Multiscale}: they are based on flow averaging and so
+do not fully resolve the fast variables and have a computational cost
+determined by slow variables (ii) {\it Versatile}: the method is based on
+averaging the flows of the given dynamical system (which may have hidden slow
+and fast processes) instead of averaging the instantaneous drift of assumed
+separated slow and fast processes. This bypasses the need for identifying
+explicitly (or numerically) the slow or fast variables (iii) {\it
+Nonintrusive}: A pre-existing numerical scheme resolving the microscopic time
+scale can be used as a black box and easily turned into one of the integrators
+in this paper by turning the large coefficients on over a microscopic timescale
+and off during a mesoscopic timescale (iv) {\it Convergent over two scales}:
+strongly over slow processes and in the sense of measures over fast ones. We
+introduce the related notion of two-scale flow convergence and analyze the
+convergence of these integrators under the induced topology (v) {\it Structure
+preserving}: for stiff Hamiltonian systems (possibly on manifolds), they can be
+made to be symplectic, time-reversible, and symmetry preserving (symmetries are
+group actions that leave the system invariant) in all variables. They are
+explicit and applicable to arbitrary stiff potentials (that need not be
+quadratic). Their application to the Fermi-Pasta-Ulam problems shows accuracy
+and stability over four orders of magnitude of time scales. For stiff Langevin
+equations, they are symmetry preserving, time-reversible and Boltzmann-Gibbs
+reversible, quasi-symplectic on all variables and conformally symplectic with
+isotropic friction.

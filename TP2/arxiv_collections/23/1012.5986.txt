@@ -1,0 +1,9 @@
+A Bayesian estimation of a GARCH model is performed for US Dollar/Japanese
+Yen exchange rate by the Metropolis-Hastings algorithm with a proposal density
+given by the adaptive construction scheme. In the adaptive construction scheme
+the proposal density is assumed to take a form of a multivariate Student's
+t-distribution and its parameters are evaluated by using the sampled data and
+updated adaptively during Markov Chain Monte Carlo simulations. We find that
+the autocorrelation times between the data sampled by the adaptive construction
+scheme are considerably reduced. We conclude that the adaptive construction
+scheme works efficiently for the Bayesian inference of the GARCH model.

@@ -1,0 +1,18 @@
+Let $G$ be a graph and ${\mathcal{\tau}}: V(G)\rightarrow \Bbb{N}$ be an
+assignment of thresholds to the vertices of $G$. A subset of vertices $D$ is
+said to be dynamic monopoly (or simply dynamo) if the vertices of $G$ can be
+partitioned into subsets $D_0, D_1,..., D_k$ such that $D_0=D$ and for any
+$i=1,..., k-1$ each vertex $v$ in $D_{i+1}$ has at least $t(v)$ neighbors in
+$D_0\cup ...\cup D_i$. Dynamic monopolies are in fact modeling the irreversible
+spread of influence such as disease or belief in social networks. We denote the
+smallest size of any dynamic monopoly of $G$, with a given threshold
+assignment, by $dyn(G)$. In this paper we first define the concept of a
+resistant subgraph and show its relationship with dynamic monopolies. Then we
+obtain some lower and upper bounds for the smallest size of dynamic monopolies
+in graphs with different types of thresholds. Next we introduce
+dynamo-unbounded families of graphs and prove some related results. We also
+define the concept of a homogenious society that is a graph with probabilistic
+thresholds satisfying some conditions and obtain a bound for the smallest size
+of its dynamos. Finally we consider dynamic monopoly of line graphs and obtain
+some bounds for their sizes and determine the exact values in some special
+cases.

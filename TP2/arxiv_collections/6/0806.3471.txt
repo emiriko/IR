@@ -1,0 +1,16 @@
+In this paper we present the self-stabilizing implementation of a class of
+token based algorithms. In the current work we only consider interactions
+between weak nodes. They are uniform, they do not have unique identifiers, are
+static and their interactions are restricted to a subset of nodes called
+neighbours. While interacting, a pair of neighbouring nodes may create mobile
+agents (that materialize in the current work the token abstraction) that
+perform traversals of the network and accelerate the system stabilization. In
+this work we only explore the power of oblivious stateless agents.
+  Our work shows that the agent paradigm is an elegant distributed tool for
+achieving self-stabilization in Tiny Interaction Protocols (TIP). Nevertheless,
+in order to reach the full power of classical self-stabilizing algorithms more
+complex classes of agents have to be considered (e.g. agents with memory,
+identifiers or communication skills). Interestingly, our work proposes for the
+first time a model that unifies the recent studies in mobile robots(agents)
+that evolve in a discrete space and the already established population
+protocols paradigm.

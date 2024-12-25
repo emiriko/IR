@@ -1,0 +1,15 @@
+In this paper, coded slotted ALOHA (CSA) is introduced as a powerful random
+access scheme to the MAC frame. In CSA, the burst a generic user wishes to
+transmit in the MAC frame is first split into segments, and these segments are
+then encoded through a local a packet-oriented code prior to transmission. On
+the receiver side, iterative interference cancellation combined with decoding
+of the local code is performed to recover from collisions. The new scheme
+generalizes the previously proposed irregular repetition slotted ALOHA (IRSA)
+technique, based on a simple repetition of the users' bursts. An interpretation
+of the CSA interference cancellation process as an iterative erasure decoding
+process over a sparse bipartite graph is identified, and the corresponding
+density evolution equations derived. Based on these equations, asymptotically
+optimal CSA schemes are designed for several rates and their performance for a
+finite number of users investigated through simulation and compared to IRSA
+competitors. Throughputs as high as 0.8 are demonstrated. The new scheme turns
+out to be a good candidate in contexts where power efficiency is required.

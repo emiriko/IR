@@ -1,0 +1,25 @@
+Existing sequence alignment algorithms use heuristic scoring schemes which
+cannot be used as objective distance metrics. Therefore one relies on measures
+like the p- or log-det distances, or makes explicit, and often simplistic,
+assumptions about sequence evolution. Information theory provides an
+alternative, in the form of mutual information (MI) which is, in principle, an
+objective and model independent similarity measure. MI can be estimated by
+concatenating and zipping sequences, yielding thereby the "normalized
+compression distance". So far this has produced promising results, but with
+uncontrolled errors. We describe a simple approach to get robust estimates of
+MI from global pairwise alignments. Using standard alignment algorithms, this
+gives for animal mitochondrial DNA estimates that are strikingly close to
+estimates obtained from the alignment free methods mentioned above. Our main
+result uses algorithmic (Kolmogorov) information theory, but we show that
+similar results can also be obtained from Shannon theory. Due to the fact that
+it is not additive, normalized compression distance is not an optimal metric
+for phylogenetics, but we propose a simple modification that overcomes the
+issue of additivity. We test several versions of our MI based distance measures
+on a large number of randomly chosen quartets and demonstrate that they all
+perform better than traditional measures like the Kimura or log-det (resp.
+paralinear) distances. Even a simplified version based on single letter Shannon
+entropies, which can be easily incorporated in existing software packages, gave
+superior results throughout the entire animal kingdom. But we see the main
+virtue of our approach in a more general way. For example, it can also help to
+judge the relative merits of different alignment algorithms, by estimating the
+significance of specific alignments.

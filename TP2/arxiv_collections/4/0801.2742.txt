@@ -1,0 +1,8 @@
+A simple scheme is described for introducing the correct cusps at nuclei into
+orbitals obtained from Gaussian basis set electronic structure calculations.
+The scheme is tested with all-electron variational quantum Monte Carlo (VMC)
+and diffusion quantum Monte Carlo (DMC) methods for the Ne atom, the H2
+molecule, and 55 molecules from a standard benchmark set. It greatly reduces
+the variance of the local energy in all cases and slightly improves the
+variational energy. This scheme yields a general improvement in the efficiency
+of all-electron VMC and DMC calculations using Gaussian basis sets.

@@ -1,0 +1,11 @@
+This paper discusses that there is significant benefit in providing stronger
+security at lower layers of the network stack for hosts connected to a network.
+It claims to reduce the attack vulnerability of a networked host by providing
+security mechanisms in a programmable Network Interface Card (NIC). Dynamic
+access control mechanisms are implemented in hardware to restrict access to the
+services provided, only to authenticated hosts. This reduces server
+vulnerability to various layer 2 attacks. Also the services will be immune to
+zero-day vulnerabilities due to the minimal code execution paths. To this end,
+it presents architecture and implementation details of a programmable network
+interface card equipped with these measures. It works alongside, and augments,
+existing security protocols making deployment practical.

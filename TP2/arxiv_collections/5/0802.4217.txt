@@ -1,0 +1,19 @@
+Data assimilation schemes are confronted with the presence of model errors
+arising from the imperfect description of atmospheric dynamics. These errors
+are usually modeled on the basis of simple assumptions such as bias, white
+noise, first order Markov process. In the present work, a formulation of the
+sequential extended Kalman filter is proposed, based on recent findings on the
+universal deterministic behavior of model errors in deep contrast with previous
+approaches (Nicolis, 2004). This new scheme is applied in the context of a
+spatially distributed system proposed by Lorenz (1996). It is found that (i)
+for short times, the estimation error is accurately approximated by an
+evolution law in which the variance of the model error (assumed to be a
+deterministic process) evolves according to a quadratic law, in agreement with
+the theory. Moreover, the correlation with the initial condition error appears
+to play a secondary role in the short time dynamics of the estimation error
+covariance. (ii) The deterministic description of the model error evolution,
+incorporated into the classical extended Kalman filter equations, reveals that
+substantial improvements of the filter accuracy can be gained as compared with
+the classical white noise assumption. The universal, short time, quadratic law
+for the evolution of the model error covariance matrix seems very promising for
+modeling estimation error dynamics in sequential data assimilation.

@@ -1,0 +1,19 @@
+An efficient conditioning technique, the so-called Brownian Bridge
+simulation, has previously been applied to eliminate pricing bias that arises
+in applications of the standard discrete-time Monte Carlo method to evaluate
+options written on the continuous-time extrema of an underlying asset. It is
+based on the simple and easy to implement analytic formulas for the
+distribution of one-dimensional Brownian Bridge extremes. This paper extends
+the technique to the valuation of multi-asset options with knock-out barriers
+imposed for all or some of the underlying assets. We derive formula for the
+unbiased option price estimator based on the joint distribution of the
+multi-dimensional Brownian Bridge dependent extrema. As analytic formulas are
+not available for the joint distribution in general, we develop upper and lower
+biased option price estimators based on the distribution of independent extrema
+and the Fr\'echet lower and upper bounds for the unknown distribution. All
+estimators are simple and easy to implement. They can always be used to bind
+the true value by a confidence interval. Numerical tests indicate that our
+biased estimators converge rapidly to the true option value as the number of
+time steps for the asset path simulation increases in comparison to the
+estimator based on the standard discrete-time method. The convergence rate
+depends on the correlation and barrier structures of the underlying assets.

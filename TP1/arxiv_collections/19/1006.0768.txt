@@ -1,0 +1,16 @@
+This paper deals with numerical solutions to an impulse control problem
+arising from optimal portfolio liquidation with bid-ask spread and market price
+impact penalizing speedy execution trades. The corresponding dynamic
+programming (DP) equation is a quasi-variational inequality (QVI) with solvency
+constraint satisfied by the value function in the sense of constrained
+viscosity solutions. By taking advantage of the lag variable tracking the time
+interval between trades, we can provide an explicit backward numerical scheme
+for the time discretization of the DPQVI. The convergence of this discrete-time
+scheme is shown by viscosity solutions arguments. An optimal quantization
+method is used for computing the (conditional) expectations arising in this
+scheme. Numerical results are presented by examining the behaviour of optimal
+liquidation strategies, and comparative performance analysis with respect to
+some benchmark execution strategies. We also illustrate our optimal liquidation
+algorithm on real data, and observe various interesting patterns of order
+execution strategies. Finally, we provide some numerical tests of sensitivity
+with respect to the bid/ask spread and market impact parameters.

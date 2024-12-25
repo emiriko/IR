@@ -1,0 +1,11 @@
+FPGAs, as computing devices, offer significant speedup over microprocessors.
+Furthermore, their configurability offers an advantage over traditional ASICs.
+However, they do not yet enjoy high-level language programmability, as
+microprocessors do. This has become the main obstacle for their wider
+acceptance by application designers. ROCCC is a compiler designed to generate
+circuits from C source code to execute on FPGAs, more specifically on CSoCs. It
+generates RTL level HDLs from frequently executing kernels in an application.
+In this paper, we describe ROCCC's system overview and focus on its data path
+generation. We compare the performance of ROCCC-generated VHDL code with that
+of Xilinx IPs. The synthesis result shows that ROCCC-generated circuit takes
+around 2x ~ 3x area and runs at comparable clock rate.

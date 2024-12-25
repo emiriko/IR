@@ -1,0 +1,20 @@
+Emergence of various vertical search engines highlights the fact that a
+single ranking technology cannot deal with the complexity and scale of search
+problems. For example, technology behind video and image search is very
+different from general web search. Their ranking functions share few features.
+Question answering websites (e.g., Yahoo! Answer) can make use of text matching
+and click features developed for general web, but they have unique page
+structures and rich user feedback, e.g., thumbs up and thumbs down ratings in
+Yahoo! answer, which greatly benefit their own ranking. Even for those features
+shared by answer and general web, the correlation between features and
+relevance could be very different. Therefore, dedicated functions are needed in
+order to better rank documents within individual domains. These dedicated
+functions are defined on distinct feature spaces. However, having one search
+box for each domain, is neither efficient nor scalable. Rather than typing the
+same query two times into both Yahoo! Search and Yahoo! Answer and retrieving
+two ranking lists, we would prefer putting it only once but receiving a
+comprehensive list of documents from both domains on the subject. This
+situation calls for new technology that blends documents from different sources
+into a single ranking list. Despite the content richness of the blended list,
+it has to be sorted by relevance none the less. We call such technology
+blending, which is the main subject of this paper.

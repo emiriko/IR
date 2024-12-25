@@ -1,0 +1,11 @@
+We show that the maximum clique problem (decision version) can be expressed
+in existential second order (ESO) logic, where the first order part is a Horn
+formula in second-order quantified predicates. Without ordering, the first
+order part is $\Pi_2$ Horn; if ordering is used, then it is universal Horn (in
+which case, the second order variables can be determined in polynomial time).
+UPDATE: Manuscript withdrawn, because results are incorrect. If phi = phi_1 AND
+phi_2, and phi is a Horn formula, it does NOT mean that both phi_1 and phi_2
+are Horn formulae. Furthermore, the cardinality constraint CANNOT be expressed
+as a universal Horn sentence in ESO (NOT even when the structure is ordered).
+Graedel's theorem is valid at a lower (machine) level, but probably NOT at a
+higher level.

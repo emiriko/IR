@@ -1,0 +1,16 @@
+We present Sapporo, a library for performing high-precision gravitational
+N-body simulations on NVIDIA Graphical Processing Units (GPUs). Our library
+mimics the GRAPE-6 library, and N-body codes currently running on GRAPE-6 can
+switch to Sapporo by a simple relinking of the library. The precision of our
+library is comparable to that of GRAPE-6, even though internally the GPU
+hardware is limited to single precision arithmetics. This limitation is
+effectively overcome by emulating double precision for calculating the distance
+between particles. The performance loss of this operation is small (< 20%)
+compared to the advantage of being able to run at high precision. We tested the
+library using several GRAPE-6-enabled N-body codes, in particular with Starlab
+and phiGRAPE. We measured peak performance of 800 Gflop/s for running with 10^6
+particles on a PC with four commercial G92 architecture GPUs (two GeForce
+9800GX2). As a production test, we simulated a 32k Plummer model with equal
+mass stars well beyond core collapse. The simulation took 41 days, during which
+the mean performance was 113 Gflop/s. The GPU did not show any problems from
+running in a production environment for such an extended period of time.

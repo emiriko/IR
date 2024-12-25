@@ -1,0 +1,12 @@
+We establish methods for quantum state tomography based on compressed
+sensing. These methods are specialized for quantum states that are fairly pure,
+and they offer a significant performance improvement on large quantum systems.
+In particular, they are able to reconstruct an unknown density matrix of
+dimension d and rank r using O(rd log^2 d) measurement settings, compared to
+standard methods that require d^2 settings. Our methods have several features
+that make them amenable to experimental implementation: they require only
+simple Pauli measurements, use fast convex optimization, are stable against
+noise, and can be applied to states that are only approximately low-rank. The
+acquired data can be used to certify that the state is indeed close to pure, so
+no a priori assumptions are needed. We present both theoretical bounds and
+numerical simulations.

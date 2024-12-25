@@ -1,0 +1,20 @@
+Advances in web technologies have driven massive content uploads and requests
+that can be identified by the increased usage of multimedia web and social web
+services. This situation enforces the content providers to scale their
+infrastructure in order to cope with the extra provisioning of network traffic,
+storage and other resources. Since the complexity and cost factors in scaling
+the infrastructure exist, we propose a novel solution for providing and
+delivering contents to clients by introducing a brokered collaborative content
+delivery system. The architectural design of this system leverages content
+redundancy and content distribution mechanisms in other content providers to
+deliver contents to the clients. With the recent emergence of cloud computing,
+we show that this system can also be adopted to run on the cloud. In this
+paper, we focus on a brokering scheme to mediate user requests to the most
+appropriate content provider based on a ranking system. The architecture
+provides a novel Global Rank Value (GRV) concept in estimating content provider
+capability and transforming the QoS requirement of a content request. A
+fairness model that will bring this design to be attractive to the current
+content delivery regime is also introduced. Through simulation, we show that
+using fair provider selection, contents can be provisioned by a better pool of
+qualified providers thus leveraging the collaboration and preventing potential
+QoS violation that may occur when the size of pool is smaller.

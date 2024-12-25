@@ -1,0 +1,10 @@
+Principal component analysis (PCA) requires the computation of a low-rank
+approximation to a matrix containing the data being analyzed. In many
+applications of PCA, the best possible accuracy of any rank-deficient
+approximation is at most a few digits (measured in the spectral norm, relative
+to the spectral norm of the matrix being approximated). In such circumstances,
+efficient algorithms have not come with guarantees of good accuracy, unless one
+or both dimensions of the matrix being approximated are small. We describe an
+efficient algorithm for the low-rank approximation of matrices that produces
+accuracy very close to the best possible, for matrices of arbitrary sizes. We
+illustrate our theoretical results via several numerical examples.

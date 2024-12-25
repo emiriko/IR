@@ -1,0 +1,13 @@
+Termination properties of actual Prolog systems with constraints are fragile
+and difficult to analyse. The lack of the occurs-check, moded and overloaded
+arithmetical evaluation via is/2 and the occasional nontermination of finite
+domain constraints are all sources for invalidating termination results
+obtained by current termination analysers that rely on idealized assumptions.
+In this paper, we present solutions to address these problems on the level of
+the underlying Prolog system. Improved unification modes meet the requirements
+of norm based analysers by offering dynamic occurs-check detection. A
+generalized finite domain solver overcomes the shortcomings of conventional
+arithmetic without significant runtime overhead. The solver offers unbounded
+domains, yet propagation always terminates. Our work improves Prolog's
+termination and makes Prolog a more reliable target for termination and type
+analysis. It is part of SWI-Prolog since version 5.6.50.

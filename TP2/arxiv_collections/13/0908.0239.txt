@@ -1,0 +1,12 @@
+The sort transform (ST) is a modification of the Burrows-Wheeler transform
+(BWT). Both transformations map an arbitrary word of length n to a pair
+consisting of a word of length n and an index between 1 and n. The BWT sorts
+all rotation conjugates of the input word, whereas the ST of order k only uses
+the first k letters for sorting all such conjugates. If two conjugates start
+with the same prefix of length k, then the indices of the rotations are used
+for tie-breaking. Both transforms output the sequence of the last letters of
+the sorted list and the index of the input within the sorted list. In this
+paper, we discuss a bijective variant of the BWT (due to Scott), proving its
+correctness and relations to other results due to Gessel and Reutenauer (1993)
+and Crochemore, Desarmenien, and Perrin (2005). Further, we present a novel
+bijective variant of the ST.

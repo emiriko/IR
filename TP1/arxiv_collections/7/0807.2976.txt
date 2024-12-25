@@ -1,0 +1,18 @@
+For square-free $N\equiv3$ mod 8 and $N$ coprime to 3, I show how to reduce
+the singular value $k_N$ to radicals, using a novel pair $[f,g]$ of real
+numbers that are algebraic integers of the Hilbert class field of
+$Q(\sqrt{-N})$. One is a class invariant of modular level 48, with a growth
+$g=\alpha(N)\exp(\pi\sqrt{N}/48)+o(1)$, where $\alpha(N)\in[-\sqrt2,\sqrt2]$ is
+uniquely determined by the residue of $N$ modulo 64. Hence $g$ is a very
+economical generator of the class field. For prime $N\equiv3$ mod 4, I
+conjecture that the Chowla--Selberg formula provides an algebraic {\em unit} of
+the class field and determine its minimal polynomial for the 155 cases with
+$N<2000$. For N=2317723, with class number $h(-N)=105$, I compute the minimal
+polynomial of $g$ in 90 milliseconds. Its height is smaller than the {\em cube}
+root of the height of the generating polynomial found by the double
+eta-quotient method of {\em Pari-GP}. I reduce the complete elliptic integral
+$K_{2317723}$ to radicals and values of the $\Gamma$ function, by determining
+the Chowla--Selberg unit and solving the septic, quintic and cubic equations
+that generate sub-fields of the class field. I conclude that the residue 3
+modulo 8, initially discarded in elliptic curve primality proving, outperforms
+the residue 7.

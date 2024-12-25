@@ -1,0 +1,11 @@
+We discuss the problem of building a compiler which can lift in a provably
+correct way pieces of information on the execution cost of the object code to
+cost annotations on the source code. To this end, we need a clear and flexible
+picture of: (i) the meaning of cost annotations, (ii) the method to prove them
+sound and precise, and (iii) the way such proofs can be composed. We propose a
+so-called labelling approach to these three questions. As a first step, we
+examine its application to a toy compiler. This formal study suggests that the
+labelling approach has good compositionality and scalability properties. In
+order to provide further evidence for this claim, we report our successful
+experience in implementing and testing the labelling approach on top of a
+prototype compiler written in OCAML for (a large fragment of) the C language.

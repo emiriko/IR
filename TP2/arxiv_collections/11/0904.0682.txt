@@ -1,0 +1,16 @@
+Search engine companies collect the "database of intentions", the histories
+of their users' search queries. These search logs are a gold mine for
+researchers. Search engine companies, however, are wary of publishing search
+logs in order not to disclose sensitive information. In this paper we analyze
+algorithms for publishing frequent keywords, queries and clicks of a search
+log. We first show how methods that achieve variants of $k$-anonymity are
+vulnerable to active attacks. We then demonstrate that the stronger guarantee
+ensured by $\epsilon$-differential privacy unfortunately does not provide any
+utility for this problem. We then propose an algorithm ZEALOUS and show how to
+set its parameters to achieve $(\epsilon,\delta)$-probabilistic privacy. We
+also contrast our analysis of ZEALOUS with an analysis by Korolova et al. [17]
+that achieves $(\epsilon',\delta')$-indistinguishability. Our paper concludes
+with a large experimental study using real applications where we compare
+ZEALOUS and previous work that achieves $k$-anonymity in search log publishing.
+Our results show that ZEALOUS yields comparable utility to $k-$anonymity while
+at the same time achieving much stronger privacy guarantees.

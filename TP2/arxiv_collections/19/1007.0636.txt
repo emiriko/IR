@@ -1,0 +1,13 @@
+In this paper we present a simple novel approach to tackle the challenges of
+scaling and rotation of face images in face recognition. The proposed approach
+registers the training and testing visual face images by log-polar
+transformation, which is capable to handle complicacies introduced by scaling
+and rotation. Log-polar images are projected into eigenspace and finally
+classified using an improved multi-layer perceptron. In the experiments we have
+used ORL face database and Object Tracking and Classification Beyond Visible
+Spectrum (OTCBVS) database for visual face images. Experimental results show
+that the proposed approach significantly improves the recognition performances
+from visual to log-polar-visual face images. In case of ORL face database,
+recognition rate for visual face images is 89.5% and that is increased to 97.5%
+for log-polar-visual face images whereas for OTCBVS face database recognition
+rate for visual images is 87.84% and 96.36% for log-polar-visual face images.

@@ -1,0 +1,16 @@
+In the Bayesian stochastic search variable selection framework, a common
+prior distribution for the regression coefficients is the g-prior of Zellner
+(1986). However, there are two standard cases in which the associated
+covariance matrix does not exist, and the conventional prior of Zellner can not
+be used: if the number of observations is lower than the number of variables
+(large p and small n paradigm), or if some variables are linear combinations of
+others. In such situations a prior distribution derived from the prior of
+Zellner can be used, by introducing a ridge parameter. This prior introduced by
+Gupta and Ibrahim (2007) is a flexible and simple adaptation of the g-prior. In
+this paper we study the influence of the ridge parameter on the selection of
+variables. A simple way to choose the associated hyper-parameters is proposed.
+The method is valid for any generalized linear mixed model and we focus on the
+case of probit mixed models when some variables are linear combinations of
+others. The method is applied to both simulated and real datasets obtained from
+Affymetrix microarray experiments. Results are compared to those obtained with
+the Bayesian Lasso.

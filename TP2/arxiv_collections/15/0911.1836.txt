@@ -1,0 +1,10 @@
+The purpose of this article is to introduce a new class of kernels on SO(3)
+for approximation and interpolation, and to estimate the approximation power of
+the associated spaces. The kernels we consider arise as linear combinations of
+Green's functions of certain differential operators on the rotation group. They
+are conditionally positive definite and have a simple closed-form expression,
+lending themselves to direct implementation via, e.g., interpolation, or
+least-squares approximation. To gauge the approximation power of the underlying
+spaces, we introduce an approximation scheme providing precise L_p error
+estimates for linear schemes, namely with L_p approximation order conforming to
+the L_p smoothness of the target function.

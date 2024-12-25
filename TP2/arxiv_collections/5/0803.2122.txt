@@ -1,0 +1,23 @@
+For many random Constraint Satisfaction Problems, by now, we have
+asymptotically tight estimates of the largest constraint density for which they
+have solutions. At the same time, all known polynomial-time algorithms for many
+of these problems already completely fail to find solutions at much smaller
+densities. For example, it is well-known that it is easy to color a random
+graph using twice as many colors as its chromatic number. Indeed, some of the
+simplest possible coloring algorithms already achieve this goal. Given the
+simplicity of those algorithms, one would expect there is a lot of room for
+improvement. Yet, to date, no algorithm is known that uses $(2-\epsilon) \chi$
+colors, in spite of efforts by numerous researchers over the years.
+  In view of the remarkable resilience of this factor of 2 against every
+algorithm hurled at it, we believe it is natural to inquire into its origin. We
+do so by analyzing the evolution of the set of $k$-colorings of a random graph,
+viewed as a subset of $\{1,...,k\}^{n}$, as edges are added. We prove that the
+factor of 2 corresponds in a precise mathematical sense to a phase transition
+in the geometry of this set. Roughly, the set of $k$-colorings looks like a
+giant ball for $k \ge 2 \chi$, but like an error-correcting code for $k \le
+(2-\epsilon) \chi$. We prove that a completely analogous phase transition also
+occurs both in random $k$-SAT and in random hypergraph 2-coloring. And that for
+each problem, its location corresponds precisely with the point were all known
+polynomial-time algorithms fail. To prove our results we develop a general
+technique that allows us to prove rigorously much of the celebrated 1-step
+Replica-Symmetry-Breaking hypothesis of statistical physics for random CSPs.

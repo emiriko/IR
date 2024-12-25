@@ -1,0 +1,14 @@
+Transient algebra is a multi-valued algebra for hazard detection in gate
+circuits. Sequences of alternating 0's and 1's, called transients, represent
+signal values, and gates are modeled by extensions of boolean functions to
+transients. Formulas for computing the output transient of a gate from the
+input transients are known for NOT, AND, OR} and XOR gates and their
+complements, but, in general, even the problem of deciding whether the length
+of the output transient exceeds a given bound is NP-complete. We propose a
+method of evaluating extensions of general boolean functions. We introduce and
+study a class of functions with the following property: Instead of evaluating
+an extension of a boolean function on a given set of transients, it is possible
+to get the same value by using transients derived from the given ones, but
+having length at most 3. We prove that all functions of three variables, as
+well as certain other functions, have this property, and can be efficiently
+evaluated.

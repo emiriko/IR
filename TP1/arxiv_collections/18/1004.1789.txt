@@ -1,0 +1,15 @@
+The development and application of various remote sensing platforms result in
+the production of huge amounts of satellite image data. Therefore, there is an
+increasing need for effective querying and browsing in these image databases.
+In order to take advantage and make good use of satellite images data, we must
+be able to extract meaningful information from the imagery. Hence we proposed a
+new algorithm for SAR image segmentation. In this paper we propose segmentation
+using vector quantization technique on entropy image. Initially, we obtain
+entropy image and in second step we use Kekre's Fast Codebook Generation (KFCG)
+algorithm for segmentation of the entropy image. Thereafter, a codebook of size
+128 was generated for the Entropy image. These code vectors were further
+clustered in 8 clusters using same KFCG algorithm and converted into 8 images.
+These 8 images were displayed as a result. This approach does not lead to over
+segmentation or under segmentation. We compared these results with well known
+Gray Level Co-occurrence Matrix. The proposed algorithm gives better
+segmentation with less complexity.

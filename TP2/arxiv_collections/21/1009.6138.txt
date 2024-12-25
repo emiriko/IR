@@ -1,0 +1,21 @@
+Assume that $g(t)\geq 0$, and $$\dot{g}(t)\leq
+-\gamma(t)g(t)+\alpha(t,g(t))+\beta(t),\ t\geq 0;\quad g(0)=g_0;\quad
+\dot{g}:=\frac{dg}{dt}, $$ on any interval $[0,T)$ on which $g$ exists and has
+bounded derivative from the right, $\dot{g}(t):=\lim_{s\to
++0}\frac{g(t+s)-g(t)}{s}$. It is assumed that $\gamma(t)$, and $\beta(t)$ are
+nonnegative continuous functions of $t$ defined on $\R_+:=[0,\infty)$, the
+function $\alpha(t,g)$ is defined for all $t\in \R_+$, locally Lipschitz with
+respect to $g$ uniformly with respect to $t$ on any compact subsets$[0,T]$,
+$T<\infty$, and non-decreasing with respect to $g$, $\alpha(t,g_1)\geq
+\alpha(t,g_2)$ if $g_1\ge g_2$. If there exists a function $\mu(t)>0$,
+$\mu(t)\in C^1(\R_+)$, such that
+$$\alpha\left(t,\frac{1}{\mu(t)}\right)+\beta(t)\leq
+\frac{1}{\mu(t)}\left(\gamma(t)-\frac{\dot{\mu}(t)}{\mu(t)}\right),\quad
+\forall t\ge 0;\quad \mu(0)g(0)\leq 1,$$ then $g(t)$ exists on all of $\R_+$,
+that is $T=\infty$, and the following estimate holds: $$0\leq g(t)\le \frac
+1{\mu(t)},\quad \forall t\geq 0. $$ If $\mu(0)g(0)< 1$, then $0\leq g(t)< \frac
+1{\mu(t)},\quad \forall t\geq 0. $
+  A discrete version of this result is obtained.
+  The nonlinear inequality, obtained in this paper, is used in a study of the
+Lyapunov stability and asymptotic stability of solutions to differential
+equations in finite and infinite-dimensional spaces.

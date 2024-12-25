@@ -1,0 +1,11 @@
+On the one hand, the explicit Euler scheme fails to converge strongly to the
+exact solution of a stochastic differential equation (SDE) with a superlinearly
+growing and globally one-sided Lipschitz continuous drift coefficient. On the
+other hand, the implicit Euler scheme is known to converge strongly to the
+exact solution of such an SDE. Implementations of the implicit Euler scheme,
+however, require additional computational effort. In this article we therefore
+propose an explicit and easily implementable numerical method for such an SDE
+and show that this method converges strongly with the standard order one-half
+to the exact solution of the SDE. Simulations reveal that this explicit
+strongly convergent numerical scheme is considerably faster than the implicit
+Euler scheme.

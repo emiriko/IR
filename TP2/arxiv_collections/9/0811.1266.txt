@@ -1,0 +1,15 @@
+We consider a system of nonlinear wave equations with constraints that arises
+from the Einstein equations of general relativity and describes the geometry of
+the so-called Gowdy symmetric spacetimes on T3. We introduce two numerical
+methods, which are based on pseudo-spectral approximation. The first approach
+relies on marching in the future time-like direction and toward the coordinate
+singularity t=0. The second approach is designed from asymptotic formulas that
+are available near this singularity; it evolves the solutions in the past
+timelike direction from "final" data given at t=0. This backward method relies
+a novel nonlinear transformation, which allows us to reduce the nonlinear
+source terms to simple quadratic products of the unknown variables. Numerical
+experiments are presented in various regimes, including cases where "spiky"
+structures are observed as the coordinate singularity is approached. The
+proposed backward strategy leads to a robust numerical method which allows us
+to accurately simulate the long-time behavior of a large class of Gowdy
+spacetimes.

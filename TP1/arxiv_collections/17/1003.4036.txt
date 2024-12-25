@@ -1,0 +1,10 @@
+Many times we need to plot 3-D functions e.g., in many scientificc
+experiments. To plot this 3-D functions on 2-D screen it requires some kind of
+mapping. Though OpenGL, DirectX etc 3-D rendering libraries have made this job
+very simple, still these libraries come with many complex pre- operations that
+are simply not intended, also to integrate these libraries with any kind of
+system is often a tough trial. This article presents a very simple method of
+mapping from 3D to 2D, that is free from any complex pre-operation, also it
+will work with any graphics system where we have some primitive 2-D graphics
+function. Also we discuss the inverse transform and how to do basic computer
+graphics transformations using our coordinate mapping system.

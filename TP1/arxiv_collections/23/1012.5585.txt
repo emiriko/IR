@@ -1,0 +1,19 @@
+A conservative class of constraint satisfaction problems CSPs is a class for
+which membership is preserved under arbitrary domain reductions. Many
+well-known tractable classes of CSPs are conservative. It is well known that
+lexleader constraints may significantly reduce the number of solutions by
+excluding symmetric solutions of CSPs. We show that adding certain lexleader
+constraints to any instance of any conservative class of CSPs still allows us
+to find all solutions with a time which is polynomial between successive
+solutions. The time is polynomial in the total size of the instance and the
+additional lexleader constraints. It is well known that for complete symmetry
+breaking one may need an exponential number of lexleader constraints. However,
+in practice, the number of additional lexleader constraints is typically
+polynomial number in the size of the instance. For polynomially many lexleader
+constraints, we may in general not have complete symmetry breaking but
+polynomially many lexleader constraints may provide practically useful symmetry
+breaking -- and they sometimes exclude super-exponentially many solutions. We
+prove that for any instance from a conservative class, the time between finding
+successive solutions of the instance with polynomially many additional
+lexleader constraints is polynomial even in the size of the instance without
+lexleaderconstraints.

@@ -1,0 +1,10 @@
+We have developed two computer algebra systems, meditor [Jolly:2007] and JAS
+[Kredel:2006]. These CAS systems are available as Java libraries. For the
+use-case of interactively entering and manipulating mathematical expressions,
+there is a need of a scripting front-end for our libraries. Most other CAS
+invent and implement their own scripting interface for this purpose. We,
+however, do not want to reinvent the wheel and propose to use a contemporary
+scripting language with access to Java code. In this paper we discuss the
+requirements for a scripting language in computer algebra and check whether the
+languages Python, Ruby, Groovy and Scala meet these requirements. We conclude
+that, with minor problems, any of these languages is suitable for our purpose.

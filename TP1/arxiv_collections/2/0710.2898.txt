@@ -1,0 +1,22 @@
+For a positive integer $k$, the rank-$k$ numerical range $\Lambda_k(A)$ of an
+operator $A$ acting on a Hilbert space $\cH$ of dimension at least $k$ is the
+set of scalars $\lambda$ such that $PAP = \lambda P$ for some rank $k$
+orthogonal projection $P$. In this paper, a close connection between low rank
+perturbation of an operator $A$ and $\Lambda_k(A)$ is established. In
+particular, for $1 \le r < k$ it is shown that $\Lambda_k(A) \subseteq
+\Lambda_{k-r}(A+F)$ for any operator $F$ with $\rank (F) \le r$. In quantum
+computing, this result implies that a quantum channel with a $k$-dimensional
+error correcting code under a perturbation of rank $\le r$ will still have a
+$(k-r)$-dimensional error correcting code. Moreover, it is shown that if $A$ is
+normal or if the dimension of $A$ is finite, then $\Lambda_k(A)$ can be
+obtained as the intersection of $\Lambda_{k-r}(A+F)$ for a collection of rank
+$r$ operators $F$. Examples are given to show that the result fails if $A$ is a
+general operator. The closure and the interior of the convex set $\Lambda_k(A)$
+are completely determined. Analogous results are obtained for
+$\Lambda_\infty(A)$ defined as the set of scalars $\lambda$ such that $PAP =
+\lambda P$ for an infinite rank orthogonal projection $P$. It is shown that
+$\Lambda_\infty(A)$ is the intersection of all $\Lambda_k(A)$ for $k = 1, 2,
+>...$. If $A - \mu I$ is not compact for any $\mu \in \IC$, then the closure
+and the interior of $\Lambda_\infty(A)$ coincide with those of the essential
+numerical range of $A$. The situation for the special case when $A-\mu I$ is
+compact for some $\mu \in \IC$ is also studied.

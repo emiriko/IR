@@ -1,0 +1,19 @@
+Bayesian networks are basic graphical models, used widely both in statistics
+and artificial intelligence. These statistical models of conditional
+independence structure are described by acyclic directed graphs whose nodes
+correspond to (random) variables in consideration. A quite important topic is
+the learning of Bayesian network structures, which is determining the best
+fitting statistical model on the basis of given data. Although there are
+learning methods based on statistical conditional independence tests,
+contemporary methods are mainly based on maximization of a suitable quality
+criterion that evaluates how good the graph explains the occurrence of the
+observed data. This leads to a nonlinear combinatorial optimization problem
+that is in general NP-hard to solve. In this paper we deal with the complexity
+of learning restricted Bayesian network structures, that is, we wish to find
+network structures of highest score within a given subset of all possible
+network structures. For this, we introduce a new unique algebraic
+representative for these structures, called the characteristic imset. We show
+that these imsets are always 0-1-vectors and that they have many nice
+properties that allow us to simplify long proofs for some known results and to
+easily establish new complexity results for learning restricted Bayes network
+structures.

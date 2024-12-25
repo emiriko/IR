@@ -1,0 +1,13 @@
+We present a meshfree numerical solver for scalar conservation laws in one
+space dimension. Points representing the solution are moved according to their
+characteristic velocities. Particle interaction is resolved by purely local
+particle management. Since no global remeshing is required, shocks stay sharp
+and propagate at the correct speed, while rarefaction waves are created where
+appropriate. The method is TVD, entropy decreasing, exactly conservative, and
+has no numerical dissipation. Difficulties involving transonic points do not
+occur, however inflection points of the flux function pose a slight challenge,
+which can be overcome by a special treatment. Away from shocks the method is
+second order accurate, while shocks are resolved with first order accuracy. A
+postprocessing step can recover the second order accuracy. The method is
+compared to CLAWPACK in test cases and is found to yield an increase in
+accuracy for comparable resolutions.

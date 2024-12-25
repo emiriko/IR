@@ -1,0 +1,16 @@
+A parameterization strategy for molecular models on the basis of force fields
+is proposed, which allows a rapid development of models for small molecules by
+using results from quantum mechanical (QM) ab initio calculations and
+thermodynamic data. The geometry of the molecular models is specified according
+to the atom positions determined by QM energy minimization. The electrostatic
+interactions are modeled by reducing the electron density distribution to point
+dipoles and point quadrupoles located in the center of mass of the molecules.
+Dispersive and repulsive interactions are described by Lennard-Jones sites, for
+which the parameters are iteratively optimized to experimental vapor-liquid
+equilibrium (VLE) data, i.e. vapor pressure, saturated liquid density, and
+enthalpy of vaporization of the considered substance. The proposed modeling
+strategy was applied to a sample set of ten molecules from different substance
+classes. New molecular models are presented for iso-butane, cyclohexane,
+formaldehyde, dimethyl ether, sulfur dioxide, dimethyl sulfide, thiophene,
+hydrogen cyanide, acetonitrile, and nitromethane. Most of the models are able
+to describe the experimental VLE data with deviations of a few percent.

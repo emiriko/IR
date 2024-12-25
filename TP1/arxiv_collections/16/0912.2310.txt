@@ -1,0 +1,11 @@
+This paper proposes a novel neural-network-based adaptive hybrid-reflectance
+three-dimensional (3-D) surface reconstruction model. The neural network
+combines the diffuse and specular components into a hybrid model. The proposed
+model considers the characteristics of each point and the variant albedo to
+prevent the reconstructed surface from being distorted. The neural network
+inputs are the pixel values of the two-dimensional images to be reconstructed.
+The normal vectors of the surface can then be obtained from the output of the
+neural network after supervised learning, where the illuminant direction does
+not have to be known in advance. Finally, the obtained normal vectors can be
+applied to integration method when reconstructing 3-D objects. Facial images
+were used for training in the proposed approach

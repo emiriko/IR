@@ -1,0 +1,14 @@
+In dyadic prediction, labels must be predicted for pairs (dyads) whose
+members possess unique identifiers and, sometimes, additional features called
+side-information. Special cases of this problem include collaborative filtering
+and link prediction. We present the first model for dyadic prediction that
+satisfies several important desiderata: (i) labels may be ordinal or nominal,
+(ii) side-information can be easily exploited if present, (iii) with or without
+side-information, latent features are inferred for dyad members, (iv) it is
+resistant to sample-selection bias, (v) it can learn well-calibrated
+probabilities, and (vi) it can scale to very large datasets. To our knowledge,
+no existing method satisfies all the above criteria. In particular, many
+methods assume that the labels are ordinal and ignore side-information when it
+is present. Experimental results show that the new method is competitive with
+state-of-the-art methods for the special cases of collaborative filtering and
+link prediction, and that it makes accurate predictions on nominal data.

@@ -1,0 +1,9 @@
+We propose a group membership service for dynamic ad hoc networks. It
+maintains as long as possible the existing groups and ensures that each group
+diameter is always smaller than a constant, fixed according to the application
+using the groups. The proposed protocol is self-stabilizing and works in
+dynamic distributed systems. Moreover, it ensures a kind of continuity in the
+service offer to the application while the system is converging, except if too
+strong topology changes happen. Such a best effort behavior allows applications
+to rely on the groups while the stabilization has not been reached, which is
+very useful in dynamic ad hoc networks.

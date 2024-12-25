@@ -1,0 +1,16 @@
+This paper presents a special subset of the first-order predicate logic named
+S-program calculus (briefly S-calculus). The S-calculus is a calculus
+consisting of so-called S-formulas that are defined over the abstract state
+space of a virtual machine. We show that S-formulas are a highly general tool
+for analyzing program semantics inasmuch as Hoare triplets of total and partial
+correctness are not more than two S-formulas. Moreover, all the rules of Hoare
+logic can be derived using S-formulas and axioms/theorems of first-order
+predicate calculus. The S-calculus is a powerful mechanism for proving program
+correctness as well as for building additional proving tools using theorems of
+the predicate logic. Every proof is based on deriving the validity of some
+S-formula, so the procedure may be automated using automatic theorem provers
+(we will use Coq in this paper). As an example of the use of S-calculus, we
+will prove the four basic properties of Dijsktra's operator wp. The proofs
+given by Dijkstra are not completely formalized and we will show that a full
+formalization can be achieved using S-calculus. Finally, we add one more
+theorem to the above-mentioned four, namely the law of negation.

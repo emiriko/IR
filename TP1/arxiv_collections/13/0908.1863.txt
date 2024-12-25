@@ -1,0 +1,24 @@
+The migration of growing protoplanets depends on the thermodynamics of the
+ambient disc. Standard modelling, using locally isothermal discs, indicate in
+the low planet mass regime an inward (type-I) migration. Taking into account
+non-isothermal effects, recent studies have shown that the direction of the
+type-I migration can change from inward to outward. In this paper we extend
+previous two-dimensional studies, and investigate the planet-disc interaction
+in viscous, radiative discs using fully three-dimensional radiation
+hydrodynamical simulations of protoplanetary accretion discs with embedded
+planets, for a range of planetary masses.
+  We use an explicit three-dimensional (3D) hydrodynamical code NIRVANA that
+includes full tensor viscosity. We have added implicit radiation transport in
+the flux-limited diffusion approximation, and to speed up the simulations
+significantly we have newly adapted and implemented the FARGO-algorithm in a 3D
+context.
+  First, we present results of test simulations that demonstrate the accuracy
+of the newly implemented FARGO-method in 3D. For a planet mass of 20 M_earth we
+then show that the inclusion of radiative effects yields a torque reversal also
+in full 3D. For the same opacity law used the effect is even stronger in 3D
+than in the corresponding 2D simulations, due to a slightly thinner disc.
+Finally, we demonstrate the extent of the torque reversal by calculating a
+sequence of planet masses. Through full 3D simulations of embedded planets in
+viscous, radiative discs we confirm that the migration can be directed outwards
+up to planet masses of about 33 M_earth. Hence, the effect may help to resolve
+the problem of too rapid inward migration of planets during their type-I phase.

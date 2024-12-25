@@ -1,0 +1,20 @@
+Compressed Sensing (CS) seeks to recover an unknown vector with $N$ entries
+by making far fewer than $N$ measurements; it posits that the number of
+compressed sensing measurements should be comparable to the information content
+of the vector, not simply $N$. CS combines the important task of compression
+directly with the measurement task. Since its introduction in 2004 there have
+been hundreds of manuscripts on CS, a large fraction of which develop
+algorithms to recover a signal from its compressed measurements. Because of the
+paradoxical nature of CS -- exact reconstruction from seemingly undersampled
+measurements -- it is crucial for acceptance of an algorithm that rigorous
+analyses verify the degree of undersampling the algorithm permits. The
+Restricted Isometry Property (RIP) has become the dominant tool used for the
+analysis in such cases. We present here an asymmetric form of RIP which gives
+tighter bounds than the usual symmetric one. We give the best known bounds on
+the RIP constants for matrices from the Gaussian ensemble. Our derivations
+illustrate the way in which the combinatorial nature of CS is controlled. Our
+quantitative bounds on the RIP allow precise statements as to how aggressively
+a signal can be undersampled, the essential question for practitioners. We also
+document the extent to which RIP gives precise information about the true
+performance limits of CS, by comparing with approaches from high-dimensional
+geometry.

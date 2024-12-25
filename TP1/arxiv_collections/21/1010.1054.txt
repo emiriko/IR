@@ -1,0 +1,20 @@
+We apply the Gradient-Newton-Galerkin-Algorithm (GNGA) of Neuberger & Swift
+to find solutions to a semilinear elliptic Dirichlet problem on the region
+whose boundary is the Koch snowflake. In a recent paper, we described an
+accurate and efficient method for generating a basis of eigenfunctions of the
+Laplacian on this region. In that work, we used the symmetry of the snowflake
+region to analyze and post-process the basis, rendering it suitable for input
+to the GNGA. The GNGA uses Newton's method on the eigenfunction expansion
+coefficients to find solutions to the semilinear problem. This article
+introduces the bifurcation digraph, an extension of the lattice of isotropy
+subgroups. For our example, the bifurcation digraph shows the 23 possible
+symmetry types of solutions to the PDE and the 59 generic symmetry-breaking
+bifurcations among these symmetry types. Our numerical code uses continuation
+methods, and follows branches created at symmetry-breaking bifurcations, so the
+human user does not need to supply initial guesses for Newton's method.
+Starting from the known trivial solution, the code automatically finds at least
+one solution with each of the symmetry types that we predict can exist. Such
+computationally intensive investigations necessitated the writing of automated
+branch following code, whereby symmetry information was used to reduce the
+number of computations per GNGA execution and to make intelligent branch
+following decisions at bifurcation points.

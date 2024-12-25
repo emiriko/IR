@@ -1,0 +1,11 @@
+In this paper we develop an algorithm to calculate the prices and Greeks of
+barrier options in a hyper-exponential additive model with piecewise constant
+parameters. We obtain an explicit semi-analytical expression for the
+first-passage probability. The solution rests on a randomization and an
+explicit matrix Wiener-Hopf factorization. Employing this result we derive
+explicit expressions for the Laplace-Fourier transforms of the prices and
+Greeks of barrier options. As a numerical illustration, the prices and Greeks
+of down-and-in digital and down-and-in call options are calculated for a set of
+parameters obtained by a simultaneous calibration to Stoxx50E call options
+across strikes and four different maturities. By comparing the results with
+Monte-Carlo simulations, we show that the method is fast, accurate, and stable.

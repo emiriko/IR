@@ -1,0 +1,9 @@
+This paper introduces Quibbs v1.3, a Java application available for free.
+(Source code included in the distribution.) Quibbs is a "code generator" for
+quantum Gibbs sampling: after the user inputs some files that specify a
+classical Bayesian network, Quibbs outputs a quantum circuit for performing
+Gibbs sampling of that Bayesian network on a quantum computer. Quibbs
+implements an algorithm described in earlier papers, that combines various
+apple pie techniques such as: an adaptive fixed-point version of Grover's
+algorithm, Szegedy operators, quantum phase estimation and quantum
+multiplexors.

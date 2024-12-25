@@ -1,0 +1,19 @@
+The problem of Subgraph Isomorphism is defined as follows: Given a pattern H
+and a host graph G on n vertices, does G contain a subgraph that is isomorphic
+to H? Eppstein [SODA 95, J'GAA 99] gives the first linear time algorithm for
+subgraph isomorphism for a fixed-size pattern, say of order k, and arbitrary
+planar host graph, improving upon the O(n^\sqrt{k})-time algorithm when using
+the ``Color-coding'' technique of Alon et al [J'ACM 95]. Eppstein's algorithm
+runs in time k^O(k) n, that is, the dependency on k is superexponential. We
+solve an open problem posed in Eppstein's paper and improve the running time to
+2^O(k) n, that is, single exponential in k while keeping the term in n linear.
+Next to deciding subgraph isomorphism, we can construct a solution and
+enumerate all solutions in the same asymptotic running time. We may list w
+subgraphs with an additive term O(w k) in the running time of our algorithm. We
+introduce the technique of "embedded dynamic programming" on a suitably
+structured graph decomposition, which exploits the topology of the underlying
+embeddings of the subgraph pattern (rather than of the host graph). To achieve
+our results, we give an upper bound on the number of partial solutions in each
+dynamic programming step as a function of pattern size--as it turns out, for
+the planar subgraph isomorphism problem, that function is single exponential in
+the number of vertices in the pattern.

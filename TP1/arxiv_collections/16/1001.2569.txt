@@ -1,0 +1,20 @@
+Structured P2P overlays provide a framework for building distributed
+applications that are self-configuring, scalable, and resilient to node
+failures. Such systems have been successfully adopted in large-scale Internet
+services such as content delivery networks and file sharing; however,
+widespread adoption in small/medium scales has been limited due in part to
+security concerns and difficulty bootstrapping in NAT-constrained environments.
+Nonetheless, P2P systems can be designed to provide guaranteed lookup times,
+NAT traversal, point-to-point overlay security, and distributed data stores. In
+this paper we propose a novel way of creating overlays that are both secure and
+private and a method to bootstrap them using a public overlay. Private overlay
+nodes use the public overlay's distributed data store to discover each other,
+and the public overlay's connections to assist with NAT hole punching and as
+relays providing STUN and TURN NAT traversal techniques. The security framework
+utilizes groups, which are created and managed by users through a web based
+user interface. Each group acts as a Public Key Infrastructure (PKI) relying on
+the use of a centrally-managed web site providing an automated Certificate
+Authority (CA). We present a reference implementation which has been used in a
+P2P VPN (Virtual Private Network). To evaluate our contributions, we apply our
+techniques to an overlay network modeler, event-driven simulations using
+simulated time delays, and deployment in the PlanetLab wide-area testbed.

@@ -1,0 +1,15 @@
+The paper presents Multi-Level Steganography (MLS), which defines a new
+concept for hidden communication in telecommunication networks. In MLS, at
+least two steganographic methods are utilised simultaneously, in such a way
+that one method (called the upper-level) serves as a carrier for the second one
+(called the lower-level). Such a relationship between two (or more) information
+hiding solutions has several potential benefits. The most important is that the
+lower-level method steganographic bandwidth can be utilised to make the
+steganogram unreadable even after the detection of the upper-level method:
+e.g., it can carry a cryptographic key that deciphers the steganogram carried
+by the upper-level one. It can also be used to provide the steganogram with
+integrity. Another important benefit is that the lower-layer method may be used
+as a signalling channel in which to exchange information that affects the way
+that the upper-level method functions, thus possibly making the steganographic
+communication harder to detect. The prototype of MLS for IP networks was also
+developed, and the experimental results are included in this paper.

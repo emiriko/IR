@@ -1,0 +1,22 @@
+It remains an open question whether the apparent additional power of quantum
+computation derives inherently from quantum mechanics, or merely from the
+flexibility obtained by "lifting" Boolean functions to linear operators and
+evaluating their composition cleverly. Holographic algorithms provide a useful
+avenue for exploring this question. We describe a new, simplified construction
+of holographic algorithms in terms of Pfaffian circuits. Novel proofs of some
+key results are provided, and we extend the approach of [34] to nonsymmetric,
+odd, and homogenized signatures, circuits, and various models of execution
+flow. This shows our approach is as powerful as the matchgate approach.
+Holographic algorithms provide in general $O(n^{\omega_p})$ time algorithms,
+where $\omega_p$ is the order of Pfaffian evaluation in the ring of interest
+(with $1.19 \leq \omega_p \leq 3$ depending on the ring) and $n$ is the number
+of inclusions of variables into clauses. Our approach often requires just the
+evaluation of an $n \times n$ Pfaffian, and at most needs an additional two
+rows per gate, whereas the matchgate approach is quartic in the arity of the
+largest gate. We give examples (even before any change of basis) including
+efficient algorithms for certain lattice path problems and an $O(n^{\omega_p})$
+algorithm for evaluation of Tutte polynomials of lattice path matroids. Finally
+we comment on some of the geometric considerations in analyzing Pfaffian
+circuits under arbitrary basis change. Connections are made to the sum-product
+algorithm, classical simulation of quantum computation, and SLOCC equivalent
+entangled states.

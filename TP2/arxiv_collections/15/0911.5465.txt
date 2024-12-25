@@ -1,0 +1,16 @@
+We develop a new class of genetic algorithm that computationally determines
+efficient pulse sequences to implement a quantum gate U in a three-qubit
+system. The method is shown to be quite general, and the same algorithm can be
+used to derive efficient sequences for a variety of target matrices. We
+demonstrate this by implementing the inversion-on-equality gate efficiently
+when the spin-spin coupling constants $J_{12}=J_{23}=J$ and $J_{13}=0$. We also
+propose new pulse sequences to implement the Parity gate and Fanout gate, which
+are about 50% more efficient than the previous best efforts. Moreover, these
+sequences are shown to require significantly less RF power for their
+implementation. The proposed algorithm introduces several new features in the
+conventional genetic algorithm framework. We use matrices instead of linear
+chains, and the columns of these matrices have a well defined hierarchy. The
+algorithm is a genetic algorithm coupled to a fast local optimizer, and is
+hence a hybrid GA. It shows fast convergence, and running on a MATLAB platform
+takes about 20 minutes on a standard personal computer to derive efficient
+pulse sequences for any target 8X8 matrix $U$.

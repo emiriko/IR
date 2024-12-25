@@ -1,0 +1,9 @@
+Most surrogate models for computer experiments are interpolators, and the
+most common interpolator is a Gaussian process (GP) that deliberately omits a
+small-scale (measurement) error term called the nugget. The explanation is that
+computer experiments are, by definition, "deterministic", and so there is no
+measurement error. We think this is too narrow a focus for a computer
+experiment and a statistically inefficient way to model them. We show that
+estimating a (non-zero) nugget can lead to surrogate models with better
+statistical properties, such as predictive accuracy and coverage, in a variety
+of common situations.

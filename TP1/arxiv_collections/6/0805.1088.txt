@@ -1,0 +1,11 @@
+We present a graph theoretic upper bound on speedup needed to achieve 100%
+throughput in a multicast switch using network coding. By bounding speedup, we
+show the equivalence between network coding and speedup in multicast switches -
+i.e. network coding, which is usually implemented using software, can in many
+cases substitute speedup, which is often achieved by adding extra switch
+fabrics. This bound is based on an approach to network coding problems called
+the "enhanced conflict graph". We show that the "imperfection ratio" of the
+enhanced conflict graph gives an upper bound on speedup. In particular, we
+apply this result to K-by-N switches with traffic patterns consisting of
+unicasts and broadcasts only to obtain an upper bound of min{(2K-1)/K,
+2N/(N+1)}.

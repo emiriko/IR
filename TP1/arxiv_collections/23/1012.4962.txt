@@ -1,0 +1,17 @@
+Consider the following problem: given a set system (U,I) and an edge-weighted
+graph G = (U, E) on the same universe U, find the set A in I such that the
+Steiner tree cost with terminals A is as large as possible: "which set in I is
+the most difficult to connect up?" This is an example of a max-min problem:
+find the set A in I such that the value of some minimization (covering) problem
+is as large as possible.
+  In this paper, we show that for certain covering problems which admit good
+deterministic online algorithms, we can give good algorithms for max-min
+optimization when the set system I is given by a p-system or q-knapsacks or
+both. This result is similar to results for constrained maximization of
+submodular functions. Although many natural covering problems are not even
+approximately submodular, we show that one can use properties of the online
+algorithm as a surrogate for submodularity.
+  Moreover, we give stronger connections between max-min optimization and
+two-stage robust optimization, and hence give improved algorithms for robust
+versions of various covering problems, for cases where the uncertainty sets are
+given by p-systems and q-knapsacks.

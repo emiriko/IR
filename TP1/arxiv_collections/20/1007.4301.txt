@@ -1,0 +1,26 @@
+Recent research efforts have shown that the popular BitTorrent protocol does
+not provide fair resource reciprocation and may allow free-riding. In this
+paper, we propose a BitTorrent-like protocol that replaces the peer selection
+mechanisms in the regular BitTorrent protocol with a novel reinforcement
+learning (RL) based mechanism. Due to the inherent opration of P2P systems,
+which involves repeated interactions among peers over a long period of time,
+the peers can efficiently identify free-riders as well as desirable
+collaborators by learning the behavior of their associated peers. Thus, it can
+help peers improve their download rates and discourage free-riding, while
+improving fairness in the system. We model the peers' interactions in the
+BitTorrent-like network as a repeated interaction game, where we explicitly
+consider the strategic behavior of the peers. A peer, which applies the
+RL-based mechanism, uses a partial history of the observations on associated
+peers' statistical reciprocal behaviors to determine its best responses and
+estimate the corresponding impact on its expected utility. The policy
+determines the peer's resource reciprocations with other peers, which would
+maximize the peer's long-term performance, thereby making foresighted
+decisions. We have implemented the proposed reinforcement-learning based
+mechanism and incorporated it into an existing BitTorrent client. We have
+performed extensive experiments on a controlled Planetlab test bed. Our results
+confirm that our proposed protocol (1) promotes fairness in terms of incentives
+to each peer's contribution e.g. high capacity peers improve their download
+completion time by up to 33\%, (2) improves the system stability and robustness
+e.g. reducing the peer selection luctuations by 57\%, and (3) discourages
+free-riding e.g. peers reduce by 64\% their upload to \FR, in comparison to the
+regular \BT~protocol.

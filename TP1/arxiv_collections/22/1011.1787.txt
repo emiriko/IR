@@ -1,0 +1,14 @@
+In this paper we present a new method, which allows for the construction of
+triangular isosurfaces from three-dimensional data sets, such as 3D image data
+and/or numerical simulation data that are based on regularly shaped, cubic
+lattices. This novel volume-enclosing surface extraction technique, which has
+been named VESTA, can produce up to six different results due to the nature of
+the discretized 3D space under consideration. VESTA is neither template-based
+nor it is necessarily required to operate on 2x2x2 voxel cell neighborhoods
+only. The surface tiles are determined with a very fast and robust construction
+technique while potential ambiguities are detected and resolved. Here, we
+provide an in-depth comparison between VESTA and various versions of the
+well-known and very popular Marching Cubes algorithm for the very first time.
+In an application section, we demonstrate the extraction of VESTA isosurfaces
+for various data sets ranging from computer tomographic scan data to simulation
+data of relativistic hydrodynamic fireball expansions.

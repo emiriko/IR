@@ -1,0 +1,8 @@
+The evolution model with parallel mutation-selection scheme is solved for the
+case when selection is accompanied by base substitutions, insertions, and
+deletions. The fitness is assumed to be either a single-peak function (i.e.,
+having one finite discontinuity) or a smooth function of the Hamming distance
+from the reference sequence.
+  The mean fitness is exactly calculated in large-genome limit. In the case of
+insertions and deletions the evolution characteristics depend on the choice of
+reference sequence.

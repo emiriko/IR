@@ -1,0 +1,10 @@
+Balancing a rare and serious possibility against a more common and less
+serious one is a familiar problem in many situations, such as the prediction of
+rare diseases. The relative costs of forecasting errors can be used for any
+prediction method that gives an estimated probability of a future event. The
+probability at which the likely cost (defined as cost x probability) of a
+possible false negative is exactly equal to that of a possible false positive
+gives the relevant cutpoint and all subjects with probability of disease
+greater than this have a positive test result. All standard methods of logistic
+regression will give the log-odds and hence the predicted probability of a
+positive outcome for every subject:

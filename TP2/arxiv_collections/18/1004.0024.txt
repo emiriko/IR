@@ -1,0 +1,12 @@
+Much of the current focus in high-performance computing is on
+multi-threading, multi-computing, and graphics processing unit (GPU) computing.
+However, vectorization and non-parallel optimization techniques, which can
+often be employed additionally, are less frequently discussed. In this paper,
+we present an analysis of several optimizations done on both central processing
+unit (CPU) and GPU implementations of a particular computationally intensive
+Metropolis Monte Carlo algorithm. Explicit vectorization on the CPU and the
+equivalent, explicit memory coalescing, on the GPU are found to be critical to
+achieving good performance of this algorithm in both environments. The
+fully-optimized CPU version achieves a 9x to 12x speedup over the original CPU
+version, in addition to speedup from multi-threading. This is 2x faster than
+the fully-optimized GPU version.

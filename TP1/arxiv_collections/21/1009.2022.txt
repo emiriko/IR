@@ -1,0 +1,13 @@
+Sequential estimation of the success probability $p$ in inverse binomial
+sampling is considered in this paper. For any estimator $\hat p$, its quality
+is measured by the risk associated with normalized loss functions of
+linear-linear or inverse-linear form. These functions are possibly asymmetric,
+with arbitrary slope parameters $a$ and $b$ for $\hat p<p$ and $\hat p>p$
+respectively. Interest in these functions is motivated by their significance
+and potential uses, which are briefly discussed. Estimators are given for which
+the risk has an asymptotic value as $p$ tends to $0$, and which guarantee that,
+for any $p$ in $(0,1)$, the risk is lower than its asymptotic value. This
+allows selecting the required number of successes, $r$, to meet a prescribed
+quality irrespective of the unknown $p$. In addition, the proposed estimators
+are shown to be approximately minimax when $a/b$ does not deviate too much from
+$1$, and asymptotically minimax as $r$ tends to infinity when $a=b$.

@@ -1,0 +1,14 @@
+The $\pi$-calculus is a process algebra where agents interact by sending
+communication links to each other via noiseless communication channels. Taking
+into account the reality of noisy channels, an extension of the $\pi$-calculus,
+called the $\pi_N$-calculus, has been introduced recently. In this paper, we
+present an early transitional semantics of the $\pi_N$-calculus, which is not a
+directly translated version of the late semantics of $\pi_N$, and then extend
+six kinds of behavioral equivalences consisting of reduction bisimilarity,
+barbed bisimilarity, barbed equivalence, barbed congruence, bisimilarity, and
+full bisimilarity into the $\pi_N$-calculus. Such behavioral equivalences are
+cast in a hierarchy, which is helpful to verify behavioral equivalence of two
+agents. In particular, we show that due to the noisy nature of channels, the
+coincidence of bisimilarity and barbed equivalence, as well as the coincidence
+of full bisimilarity and barbed congruence, in the $\pi$-calculus does not hold
+in $\pi_N$.

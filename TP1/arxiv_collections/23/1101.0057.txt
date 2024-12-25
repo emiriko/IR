@@ -1,0 +1,24 @@
+Using cryptography to protect information and communication has bacically two
+major drawbacks. First, the specific entropy profile of encrypted data makes
+their detection very easy. Second, the use of cryptography can be more or less
+regulated, not to say forbidden, according to the countries. If the right to
+freely protect our personal and private data is a fundamental right, it must
+not hinder the action of Nation States with respect to National security.
+Allowing encryption to citizens holds for bad guys as well.
+  In this paper we propose a new approach in information and communication
+security that may solve all these issues, thus representing a rather
+interesting trade-off between apparently opposite security needs. We introduce
+the concept of scalable security based on computationnally hard problem of
+coding theory with the PERSEUS technology.
+  The core idea is to encode date with variable punctured convolutional codes
+in such a way that any cryptanalytic attempt will require a time-consuming
+encoder reconstruction in order to decode. By adding noise in a suitable way,
+that reconstruction becomes untractable in practice except for Intelligence
+services that however must use supercomputers during a significant, scalable
+amount of time. Hence it limits naturally any will to unduly performs such
+attacks (eg. against citizens' privacy).
+  On the users' side, encoder and noise parameters are first exchanged through
+an initial, short HTTPS session. The principles behind that approach have been
+mathematically validated in 1997 and 2007. We present the PERSEUS library we
+have developed under the triple GPL/LGPL/MPL licences. This library can be used
+to protect any kind of data.

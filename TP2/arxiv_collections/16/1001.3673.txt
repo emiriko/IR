@@ -1,0 +1,13 @@
+We address the difficult question of inferring plausible node mobility based
+only on information from wireless contact traces. Working with mobility
+information allows richer protocol simulations, particularly in dense networks,
+but requires complex set-ups to measure, whereas contact information is easier
+to measure but only allows for simplistic simulation models. In a contact trace
+a lot of node movement information is irretrievably lost so the original
+positions and velocities are in general out of reach. We propose a fast
+heuristic algorithm, inspired by dynamic force-based graph drawing, capable of
+inferring a plausible movement from any contact trace, and evaluate it on both
+synthetic and real-life contact traces. Our results reveal that (i) the quality
+of the inferred mobility is directly linked to the precision of the measured
+contact trace, and (ii) the simple addition of appropriate anticipation forces
+between nodes leads to an accurate inferred mobility.

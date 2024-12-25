@@ -1,0 +1,16 @@
+In close binary systems the atmosphere of one or both components can be
+significantly influenced by irradiation from the companion. Often the
+irradiated atmosphere is simulated with a single-temperature approximation for
+the entire half-sphere. We present a scheme to take the varying irradiation
+angle into account by combining several separate 1D models. This is independent
+of the actual code which provides the separate stellar spectra. We calculate
+the projected area of zones with given irradiation angle and use this
+geometrical factor to scale separate 1D models. As an example we calculate two
+different irradiation scenarios with the PHOENIX code. The scheme to calculate
+the projected area is applicable independent of the physical mechanism that
+forms these zones. In the case of irradiation by a primary with T=125000 K, the
+secondary forms ions at different ionisation states for different irradiation
+angles. No single irradiation angle exists which provides an accurate
+description of the spectrum. We show a similar simulation for weaker
+irradiation, where the profile of the H$\alpha$ line depends on the irradiation
+angle.

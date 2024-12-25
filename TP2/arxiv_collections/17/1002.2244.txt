@@ -1,0 +1,20 @@
+The basic goal in combinatorial group testing is to identify a set of up to
+$d$ defective items within a large population of size $n \gg d$ using a pooling
+strategy. Namely, the items can be grouped together in pools, and a single
+measurement would reveal whether there are one or more defectives in the pool.
+The threshold model is a generalization of this idea where a measurement
+returns positive if the number of defectives in the pool reaches a fixed
+threshold $u > 0$, negative if this number is no more than a fixed lower
+threshold $\ell < u$, and may behave arbitrarily otherwise. We study
+non-adaptive threshold group testing (in a possibly noisy setting) and show
+that, for this problem, $O(d^{g+2} (\log d) \log(n/d))$ measurements (where $g
+:= u-\ell-1$ and $u$ is any fixed constant) suffice to identify the defectives,
+and also present almost matching lower bounds. This significantly improves the
+previously known (non-constructive) upper bound $O(d^{u+1} \log(n/d))$.
+Moreover, we obtain a framework for explicit construction of measurement
+schemes using lossless condensers. The number of measurements resulting from
+this scheme is ideally bounded by $O(d^{g+3} (\log d) \log n)$. Using
+state-of-the-art constructions of lossless condensers, however, we obtain
+explicit testing schemes with $O(d^{g+3} (\log d) qpoly(\log n))$ and
+$O(d^{g+3+\beta} poly(\log n))$ measurements, for arbitrary constant $\beta >
+0$.

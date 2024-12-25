@@ -1,0 +1,11 @@
+We describe the design and FPGA implementation of a 3D torus network (TNW) to
+provide nearest-neighbor communications between commodity multi-core
+processors. The aim of this project is to build up tightly interconnected and
+scalable parallel systems for scientific computing. The design includes the
+VHDL code to implement on latest FPGA devices a network processor, which can be
+accessed by the CPU through a PCIe interface and which controls the external
+PHYs of the physical links. Moreover, a Linux driver and a library implementing
+custom communication APIs are provided. The TNW has been successfully
+integrated in two recent parallel machine projects, QPACE and AuroraScience. We
+describe some details of the porting of the TNW for the AuroraScience system
+and report performance results.

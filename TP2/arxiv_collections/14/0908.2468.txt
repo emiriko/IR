@@ -1,0 +1,12 @@
+This paper considers the query complexity of the functions in the family
+F_{N,M} of N-variable Boolean functions with onset size M, i.e., the number of
+inputs for which the function value is 1, where 1<= M <= 2^{N}/2 is assumed
+without loss of generality because of the symmetry of function values, 0 and 1.
+Our main results are as follows: (1) There is a super-linear gap between the
+average-case and worst-case quantum query complexities over F_{N,M} for a
+certain range of M. (2) There is no super-linear gap between the average-case
+and worst-case randomized query complexities over F_{N,M} for every M. (3) For
+every M bounded by a polynomial in N, any function in F_{N,M} has quantum query
+complexity Theta (sqrt{N}). (4) For every M=O(2^{cN}) with an arbitrary large
+constant c<1, any function in F_{N,M} has randomized query complexity Omega
+(N).

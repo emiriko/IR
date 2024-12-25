@@ -1,0 +1,14 @@
+The need for large-scale electronic structure calculations arises recently in
+the field of material physics and efficient and accurate algebraic methods for
+large simultaneous linear equations become greatly important. We investigate
+the generalized shifted conjugate orthogonal conjugate gradient method, the
+generalized Lanczos method and the generalized Arnoldi method. They are the
+solver methods of large simultaneous linear equations of one-electron
+Schr\"odinger equation and maps the whole Hilbert space to a small subspace
+called the Krylov subspace. These methods are applied to systems of fcc Au with
+the NRL tight-binding Hamiltonian (Phys. Rev. B {\bf 63}, 195101 (2001)). We
+compare results by these methods and the exact calculation and show them
+equally accurate. The system size dependence of the CPU time is also discussed.
+The generalized Lanczos method and the generalized Arnoldi method are the most
+suitable for the large-scale molecular dynamics simulations from the view point
+of CPU time and memory size.

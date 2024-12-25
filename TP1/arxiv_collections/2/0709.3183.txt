@@ -1,0 +1,20 @@
+We present a stochastic simulator for polycrystalline phase-change materials
+capable of spatio-temporal modelling of complex anneals. This is based on
+consideration of bulk and surface energies to generate rates of growth and
+decay of crystallites built up of `monomers' that themselves may be quite
+complex molecules. We perform a number of simulations of this model using a
+Gillespie algorithm. The simulations are performed at molecular scale and using
+an approximation of local free energy changes that depend only on immediate
+neighbours. The sites are on a lattice that neither correspond to the crystal
+lattice nor to individual monomers, but instead gives information about a
+two-state local phase $r$ (where $r=0$ corresponds to amorphous and 1
+corresponds to crystalline) and a continuous crystal orientation $\phi$ at each
+site.
+  As an example we use this to model crystallisation in chalcogenide GST
+($GeSbTe$) alloys used for example in phase-change memory devices, where
+reversible changes between amorphous and crystalline regimes are used to store
+and process information. We use our model to simulate anneals of GST including
+ones with non-trivial spatial and temporal variation of temperature; this gives
+good agreement to experimental incubation times at low temperatures while
+modelling non-trivial crystal size distributions and melting dynamics at higher
+temperatures.

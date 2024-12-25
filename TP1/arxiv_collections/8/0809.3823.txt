@@ -1,0 +1,16 @@
+The BABAR Silicon Vertex Tracker (SVT) is a five-layer double-sided silicon
+detector designed to provide precise measurements of the position and direction
+of primary tracks, and to fully reconstruct low-momentum tracks produced in
+e+e- collisions at the PEP-II asymmetric collider at Stanford Linear
+Accelerator Center. This paper describes the design, implementation,
+performance, and validation of the local alignment procedure used to determine
+the relative positions and orientations of the 340 SVT wafers. This procedure
+uses a tuned mix of in-situ experimental data and complementary lab-bench
+measurements to control systematic distortions. Wafer positions and
+orientations are determined by minimizing a chisquared computed using these
+data for each wafer individually, iterating to account for between-wafer
+correlations. A correction for aplanar distortions of the silicon wafers is
+measured and applied. The net effect of residual mis-alignments on relevant
+physical variables is evaluated in special control samples. The BABAR
+data-sample collected between November 1999 and April 2008 is used in the study
+of the SVT stability.

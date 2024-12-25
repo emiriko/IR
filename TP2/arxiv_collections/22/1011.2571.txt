@@ -1,0 +1,19 @@
+In a ground-breaking paper, Indyk and Woodruff (STOC 05) showed how to
+compute $F_k$ (for $k>2$) in space complexity $O(\mbox{\em poly-log}(n,m)\cdot
+n^{1-\frac2k})$, which is optimal up to (large) poly-logarithmic factors in $n$
+and $m$, where $m$ is the length of the stream and $n$ is the upper bound on
+the number of distinct elements in a stream. The best known lower bound for
+large moments is $\Omega(\log(n)n^{1-\frac2k})$. A follow-up work of
+Bhuvanagiri, Ganguly, Kesh and Saha (SODA 2006) reduced the poly-logarithmic
+factors of Indyk and Woodruff to $O(\log^2(m)\cdot (\log n+ \log m)\cdot
+n^{1-{2\over k}})$. Further reduction of poly-log factors has been an elusive
+goal since 2006, when Indyk and Woodruff method seemed to hit a natural
+"barrier." Using our simple recursive sketch, we provide a different yet simple
+approach to obtain a $O(\log(m)\log(nm)\cdot (\log\log n)^4\cdot n^{1-{2\over
+k}})$ algorithm for constant $\epsilon$ (our bound is, in fact, somewhat
+stronger, where the $(\log\log n)$ term can be replaced by any constant number
+of $\log $ iterations instead of just two or three, thus approaching $log^*n$.
+Our bound also works for non-constant $\epsilon$ (for details see the body of
+the paper). Further, our algorithm requires only $4$-wise independence, in
+contrast to existing methods that use pseudo-random generators for computing
+large frequency moments.

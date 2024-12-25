@@ -1,0 +1,13 @@
+In this paper we discuss three symbolic approaches for the generation of a
+finite difference scheme of a partial differential equation (PDE). We prove,
+that for a linear PDE with constant coefficients these three approaches are
+equivalent and discuss the applicability of them to nonlinear PDE's as well as
+to the case of variable coefficients. Moreover, we systematically use another
+symbolic technique, namely the cylindrical algebraic decomposition, in order to
+derive the conditions on the von Neumann stability of a difference s cheme for
+a linear PDE with constant coefficients. For stable schemes we demonst rate
+algorithmic and symbolic approach to handle both continuous and discrete di
+spersion. We present an implementation of tools for generation of schemes,
+which rely on Gr\"obner basis, in the system SINGULAR and present numerous e
+xamples, computed with our implementation. In the stability analysis, we use
+the system MATHEMATICA for cylindrical algebraic decomposition.

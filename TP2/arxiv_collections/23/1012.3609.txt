@@ -1,0 +1,15 @@
+We investigate the dynamical mean-field theory (DMFT) from a quantum chemical
+perspective. Dynamical mean-field theory offers a formalism to extend quantum
+chemical methods for finite systems to infinite periodic problems within a
+local correlation approximation. In addition, quantum chemical techniques can
+be used to construct new ab-initio Hamiltonians and impurity solvers for DMFT.
+Here we explore some ways in which these things may be achieved. First, we
+present an informal overview of dynamical mean-field theory to connect to
+quantum chemical language. Next we describe an implementation of dynamical
+mean-field theory where we start from an ab-initio Hartree- Fock Hamiltonian
+that avoids double counting issues present in many applications of DMFT. We
+then explore the use of the configuration interaction hierarchy in DMFT as an
+approximate solver for the impurity problem. We also investigate some numerical
+issues of convergence within DMFT. Our studies are carried out in the context
+of the cubic hydrogen model, a simple but challenging test for correlation
+methods. Finally we finish with some conclusions for future directions.

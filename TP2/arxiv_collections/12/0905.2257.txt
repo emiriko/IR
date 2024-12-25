@@ -1,0 +1,9 @@
+The behaviour produced by an instruction sequence under execution is a
+behaviour to be controlled by some execution environment: each step performed
+actuates the processing of an instruction by the execution environment and a
+reply returned at completion of the processing determines how the behaviour
+proceeds. In this paper, we are concerned with the case where the processing
+takes place remotely. We describe a protocol to deal with the case where the
+behaviour produced by an instruction sequence under execution leads to the
+generation of a stream of instructions to be processed and a remote execution
+unit handles the processing of that stream of instructions.

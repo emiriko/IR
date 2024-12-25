@@ -1,0 +1,19 @@
+The non-linear optimization method developed by Konnov and Krotov [Automation
+and Remote Control 60, 1427 (1999)] has been used previously to extend the
+capabilities of optimal control theory from the linear to the non-linear
+Schr\"odinger equation [Sklarz and Tannor, Phys. Rev. A 66, 053619 (2002)].
+Here we show that based on the Konnov-Krotov method, monotonically convergent
+algorithms are obtained for a large class of quantum control problems. It
+includes, in addition to non-linear equations of motion, control problems that
+are characterized by non-unitary time evolution, non-linear dependencies of the
+Hamiltonian on the control, time-dependent targets and optimization functionals
+that depend to higher than second order on the time-evolving states. We
+furthermore show that the non-linear (second order) contribution can be
+estimated either analytically or numerically, yielding readily applicable
+optimization algorithms. We demonstrate monotonic convergence for an
+optimization functional that is an eighth-degree polynomial in the states. For
+the 'standard' quantum control problem of a convex final-time functional,
+linear equations of motion and linear dependency of the Hamiltonian on the
+field, the second-order contribution is not required for monotonic convergence
+but can be used to speed up convergence. We demonstrate this by comparing the
+performance of first and second order algorithms for two examples.

@@ -1,0 +1,22 @@
+In a previous article we developed an approach to the optimal (minimum
+variance, unbiased) statistical estimation technique for the equilibrium
+displacement of a damped, harmonic oscillator in the presence of thermal noise.
+Here, we expand that work to include the optimal estimation of several linear
+parameters from a continuous time series. We show that working in the basis of
+the thermal driving force both simplifies the calculations and provides
+additional insight to why various approximate (not optimal) estimation
+techniques perform as they do. To illustrate this point, we compare the
+variance in the optimal estimator that we derive for thermal noise with those
+of two approximate methods which, like the optimal estimator, suppress the
+contribution to the variance that would come from the irrelevant, resonant
+motion of the oscillator. We discuss how these methods fare when the dominant
+noise process is either white displacement noise or noise with power spectral
+density that is inversely proportional to the frequency ($1/f$ noise). We also
+construct, in the basis of the driving force, an estimator that performs well
+for a mixture of white noise and thermal noise. To find the optimal
+multi-parameter estimators for thermal noise, we derive and illustrate a
+generalization of traditional matrix methods for parameter estimation that can
+accommodate continuous data. We discuss how this approach may help refine the
+design of experiments as they allow an exact, quantitative comparison of the
+precision of estimated parameters under various data acquisition and data
+analysis strategies.

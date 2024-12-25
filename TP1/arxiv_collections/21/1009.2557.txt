@@ -1,0 +1,21 @@
+Loss tomography has received considerable attention in recent years and a
+number of estimators have been proposed. Unfortunately, almost all of them are
+devoted to the tree topology despite the general topology is more common in
+practice. In addition, most of the works presented in the literature rely on
+iterative approximation to search for the maximum of a likelihood function
+formed from observations, which have been known neither scalable nor efficient.
+In contrast to the tree topology, there is few paper dedicated to the general
+topology because of the lack of understanding the impacts created by the probes
+sent by different sources. We in this paper present the analytical results
+obtained recently for the general topology that show the correlation created by
+the probes sent by multiple sources to a node located in an intersection of
+multiple trees. The correlation is expressed by a set of polynomials of the
+pass rates of the paths connecting the sources to the node. In addition to the
+expression, a closed form solution is proposed to obtain the MLE of the pass
+rates of the paths connecting the sources to the node. Then, two strategies are
+proposed to estimate the loss rate of a link for the general topology: one is
+path-based and the other is link-based, depending on whether we need to obtain
+the pass rate of a path first. The two strategies are compared in the context
+of the general topology that shows each has its advantages and the link-based
+one is more general. Apart from proving the estimates obtained are the MLEs, we
+prove the estimator presented here has the optimal asymptotic property.

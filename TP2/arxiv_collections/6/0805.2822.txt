@@ -1,0 +1,14 @@
+We present a method to compute the Fermi function of the Hamiltonian for a
+system of independent fermions, based on an exact decomposition of the
+grand-canonical potential. This scheme does not rely on the localization of the
+orbitals and is insensitive to ill-conditioned Hamiltonians. It lends itself
+naturally to linear scaling, as soon as the sparsity of the system's density
+matrix is exploited. By using a combination of polynomial expansion and
+Newton-like iterative techniques, an arbitrarily large number of terms can be
+employed in the expansion, overcoming some of the difficulties encountered in
+previous papers. Moreover, this hybrid approach allows us to obtain a very
+favorable scaling of the computational cost with increasing inverse
+temperature, which makes the method competitive with other Fermi operator
+expansion techniques. After performing an in-depth theoretical analysis of
+computational cost and accuracy, we test our approach on the DFT Hamiltonian
+for the metallic phase of the LiAl alloy.

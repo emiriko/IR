@@ -1,0 +1,23 @@
+The challenge of designing an efficient Medium Access Control (MAC) protocol
+and analyzing it has been an important research topic for over 30 years. This
+paper focuses on the performance analysis (through simulation) and modification
+of a well known MAC protocol CSMA/CD. The existing protocol does not consider
+the wastage of bandwidth due to unutilized periods of the channel. By
+considering this fact, performance of MAC protocol can be enhanced. The purpose
+of this work is to modify the existing protocol by enabling it to adapt
+according to state of the network. The modified protocol takes appropriate
+action whenever unutilized periods detected. In this way, to increase the
+effective bandwidth utilization and determine how it behaves under increasing
+load, and varying packet sizes. It will also include effects of attacks i.e.
+Denial of service attacks, Replay Attack, Continuous Channel Access or
+Exhaustion attack, Flooding attack, Jamming (Radio interference) attack,
+Selective forwarding attack which degrade performance of MAC protocol. In
+Continuous Channel Access or Exhaustion attack, a malicious node disrupts the
+MAC protocol, by continuously requesting or transmitting over the channel. This
+eventually leads a starvation for other nodes in the network w.r.t channel
+access. remedy may be the network ignores excessive requests without sending
+expensive radio transmissions. This limit however cannot drop below the
+expected maximum data rate the network has to support. This limit is usually
+coded into the protocol during the design phase and requires additional logic
+also. Repeated application of these exhaustion or collision based MAC layer
+attacks can lead into unfairness.

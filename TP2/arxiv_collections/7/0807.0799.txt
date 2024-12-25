@@ -1,0 +1,15 @@
+We consider the problem of building robust fuzzy extractors, which allow two
+parties holding similar random variables W, W' to agree on a secret key R in
+the presence of an active adversary. Robust fuzzy extractors were defined by
+Dodis et al. in Crypto 2006 to be noninteractive, i.e., only one message P,
+which can be modified by an unbounded adversary, can pass from one party to the
+other. This allows them to be used by a single party at different points in
+time (e.g., for key recovery or biometric authentication), but also presents an
+additional challenge: what if R is used, and thus possibly observed by the
+adversary, before the adversary has a chance to modify P. Fuzzy extractors
+secure against such a strong attack are called post-application robust.
+  We construct a fuzzy extractor with post-application robustness that extracts
+a shared secret key of up to (2m-n)/2 bits (depending on error-tolerance and
+security parameters), where n is the bit-length and m is the entropy of W. The
+previously best known result, also of Dodis et al., extracted up to (2m-n)/3
+bits (depending on the same parameters).

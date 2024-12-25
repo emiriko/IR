@@ -1,0 +1,23 @@
+Image modeling and simulation are critical to extending the limits of leading
+edge lithography technologies used for IC making. Simultaneous source mask
+optimization (SMO) has become an important objective in the field of
+computational lithography. SMO is considered essential to extending immersion
+lithography beyond the 45nm node. However, SMO is computationally extremely
+challenging and time-consuming. The key challenges are due to run time vs.
+accuracy tradeoffs of the imaging models used for the computational
+lithography. We present a new technique to be incorporated in the SMO flow.
+This new approach is based on the reduced basis method (RBM) applied to the
+simulation of light transmission through the lithography masks. It provides a
+rigorous approximation to the exact lithographical problem, based on fully
+vectorial Maxwell's equations. Using the reduced basis method, the optimization
+process is divided into an offline and an online steps. In the offline step, a
+RBM model with variable geometrical parameters is built self-adaptively and
+using a Finite Element (FEM) based solver. In the online step, the RBM model
+can be solved very fast for arbitrary illumination and geometrical parameters,
+such as dimensions of OPC features, line widths, etc. This approach
+dramatically reduces computational costs of the optimization procedure while
+providing accuracy superior to the approaches involving simplified mask models.
+RBM furthermore provides rigorous error estimators, which assure the quality
+and reliability of the reduced basis solutions. We apply the reduced basis
+method to a 3D SMO example. We quantify performance, computational costs and
+accuracy of our method.

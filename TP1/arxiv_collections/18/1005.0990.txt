@@ -1,0 +1,8 @@
+We present an efficient solution to the following problem, of relevance in a
+numerical optimization scheme: calculation of integrals of the type \[\iint_{T
+\cap \{f\ge0\}} \phi_1\phi_2 \, dx\,dy\] for quadratic polynomials
+$f,\phi_1,\phi_2$ on a plane triangle $T$. The naive approach would involve
+consideration of the many possible shapes of $T\cap\{f\geq0\}$ (possibly after
+a convenient transformation) and parameterizing its border, in order to
+integrate the variables separately. Our solution involves partitioning the
+triangle into smaller triangles on which integration is much simpler.

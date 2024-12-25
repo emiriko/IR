@@ -1,0 +1,12 @@
+We present a formulation of the density-functional theory + Hubbard model
+(DFT+U) method that is self-consistent over the choice of Hubbard projectors
+used to define the correlated subspaces. In order to overcome the arbitrariness
+in this choice, we propose the use of non-orthogonal generalized Wannier
+functions (NGWFs) as projectors for the DFT+U correction. We iteratively refine
+these NGWF projectors and, hence, the DFT+U functional, such that the
+correlated subspaces are fully self-consistent with the DFT+U ground-state. We
+discuss the convergence characteristics of this algorithm and compare
+ground-state properties thus computed with those calculated using hydrogenic
+projectors. Our approach is implemented within, but not restricted to, a
+linear-scaling DFT framework, opening the path to DFT+U calculations on systems
+of unprecedented size.

@@ -1,0 +1,11 @@
+The increasing importance of multicore processors calls for a reevaluation of
+established numerical algorithms in view of their ability to profit from this
+new hardware concept. In order to optimize the existent algorithms, a detailed
+knowledge of the different performance-limiting factors is mandatory. In this
+contribution we investigate sparse matrix-vector multiplication, which is the
+dominant operation in many sparse eigenvalue solvers. Two conceptually
+different storage schemes and computational kernels have been conceived in the
+past to target cache-based and vector architectures, respectively. Starting
+from a series of microbenchmarks we apply the gained insight on optimized
+sparse MVM implementations, whose serial and OpenMP-parallel performance we
+review on state-of-the-art multicore systems.

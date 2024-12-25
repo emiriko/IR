@@ -1,0 +1,15 @@
+We test the operation of two methods for selective application of Artificial
+Viscosity (AV) in SPH simulations of Keplerian Accretion Disks, using a ring
+spreading test to quantify effective viscosity, and a correlation coefficient
+technique to measure the formation of unwanted prograde alignments of
+particles. Neither the Balsara Switch nor Time Dependent Viscosity work
+effectively, as they leave AV active in areas of smooth shearing flow, and do
+not eliminate the accumulation of alignments of particles in the prograde
+direction. The effect of both switches is periodic, the periodicity dependent
+on radius and unaffected by the density of particles. We demonstrate that a
+very simple algorithm activates AV only when truly convergent flow is detected
+and reduces the unwanted formation of prograde alignments. The new switch works
+by testing whether all the neighbours of a particle are in Keplerian orbit
+around the same point, rather than calculating the divergence of the velocity
+field, which is very strongly affected by Poisson noise in the positions of the
+SPH particles.

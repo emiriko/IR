@@ -1,0 +1,9 @@
+The Hull-White one factor model is used to price interest rate options. The
+parameters of the model are often calibrated to simple liquid instruments, in
+particular European swaptions. It is therefore very important to have very
+efficient pricing formula for simple instruments. Such a formula is proposed
+here for European swaption. Based on a very efficient corrector type
+approximation the approximation is efficient both in term of precision and in
+term of spped. In our implementation the approximation is more than ten time
+faster than the direct pricing formula and more than twenty time faster than
+the Jamshidian trick.

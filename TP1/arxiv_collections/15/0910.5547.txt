@@ -1,0 +1,15 @@
+We describe an implementation of compressible inviscid fluid solvers with
+block-structured adaptive mesh refinement on Graphics Processing Units using
+NVIDIA's CUDA. We show that a class of high resolution shock capturing schemes
+can be mapped naturally on this architecture. Using the method of lines
+approach with the second order total variation diminishing Runge-Kutta time
+integration scheme, piecewise linear reconstruction, and a Harten-Lax-van Leer
+Riemann solver, we achieve an overall speedup of approximately 10 times faster
+execution on one graphics card as compared to a single core on the host
+computer. We attain this speedup in uniform grid runs as well as in problems
+with deep AMR hierarchies. Our framework can readily be applied to more general
+systems of conservation laws and extended to higher order shock capturing
+schemes. This is shown directly by an implementation of a magneto-hydrodynamic
+solver and comparing its performance to the pure hydrodynamic case. Finally, we
+also combined our CUDA parallel scheme with MPI to make the code run on GPU
+clusters. Close to ideal speedup is observed on up to four GPUs.

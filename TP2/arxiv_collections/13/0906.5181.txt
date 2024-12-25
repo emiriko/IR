@@ -1,0 +1,13 @@
+In this work we model the ACME (a fictitious company name) "printer case
+incident" and make its specification in Forensic Lucid, a Lucid- and
+intensional-logic-based programming language for cyberforensic analysis and
+event reconstruction specification. The printer case involves a dispute between
+two parties that was previously solved using the finite-state automata (FSA)
+approach, and is now re-done in a more usable way in Forensic Lucid. Our
+simulation is based on the said case modeling by encoding concepts like
+evidence and the related witness accounts as an evidential statement context in
+a Forensic Lucid program, which is an input to the transition function that
+models the possible deductions in the case. We then invoke the transition
+function (actually its reverse) with the evidential statement context to see if
+the evidence we encoded agrees with one's claims and then attempt to
+reconstruct the sequence of events that may explain the claim or disprove it.

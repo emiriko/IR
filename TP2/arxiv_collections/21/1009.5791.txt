@@ -1,0 +1,17 @@
+We propose a method to exponentially speed up computation of various
+fingerprints, such as the ones used to compute similarity and rarity in massive
+data sets. Rather then maintaining the full stream of $b$ items of a universe
+$[u]$, such methods only maintain a concise fingerprint of the stream, and
+perform computations using the fingerprints. The computations are done
+approximately, and the required fingerprint size $k$ depends on the desired
+accuracy $\epsilon$ and confidence $\delta$. Our technique maintains a single
+bit per hash function, rather than a single integer, thus requiring a
+fingerprint of length $k = O(\frac{\ln \frac{1}{\delta}}{\epsilon^2})$ bits,
+rather than $O(\log u \cdot \frac{\ln \frac{1}{\delta}}{\epsilon^2})$ bits
+required by previous approaches. The main advantage of the fingerprints we
+propose is that rather than computing the fingerprint of a stream of $b$ items
+in time of $O(b \cdot k)$, we can compute it in time $O(b \log k)$. Thus this
+allows an exponential speedup for the fingerprint construction, or
+alternatively allows achieving a much higher accuracy while preserving
+computation time. Our methods rely on a specific family of pseudo-random hashes
+for which we can quickly locate hashes resulting in small values.

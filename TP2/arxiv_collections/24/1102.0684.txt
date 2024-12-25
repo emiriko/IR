@@ -1,0 +1,14 @@
+The growth of the World Wide Web has emphasized the need for improvement in
+user latency. One of the techniques that are used for improving user latency is
+Caching and another is Web Prefetching. Approaches that bank solely on caching
+offer limited performance improvement because it is difficult for caching to
+handle the large number of increasingly diverse files. Studies have been
+conducted on prefetching models based on decision trees, Markov chains, and
+path analysis. However, the increased uses of dynamic pages, frequent changes
+in site structure and user access patterns have limited the efficacy of these
+static techniques. In this paper, we have proposed a methodology to cluster
+related pages into different categories based on the access patterns.
+Additionally we use page ranking to build up our prediction model at the
+initial stages when users haven't already started sending requests. This way we
+have tried to overcome the problems of maintaining huge databases which is
+needed in case of log based techniques.

@@ -1,0 +1,10 @@
+Using standard domain-theoretic fixed-points, we present an approach for
+defining recursive functions that are formulated in monadic style. The method
+works both in the simple option monad and the state-exception monad of
+Isabelle/HOL's imperative programming extension, which results in a convenient
+definition principle for imperative programs, which were previously hard to
+define.
+  For such monadic functions, the recursion equation can always be derived
+without preconditions, even if the function is partial. The construction is
+easy to automate, and convenient induction principles can be derived
+automatically.

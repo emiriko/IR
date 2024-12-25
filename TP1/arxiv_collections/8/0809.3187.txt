@@ -1,0 +1,13 @@
+In this paper we present a new approach to control variates for improving
+computational efficiency of Ensemble Monte Carlo. We present the approach using
+simulation of paths of a time-dependent nonlinear stochastic equation. The core
+idea is to extract information at one or more nominal model parameters and use
+this information to gain estimation efficiency at neighboring parameters. This
+idea is the basis of a general strategy, called DataBase Monte Carlo (DBMC),
+for improving efficiency of Monte Carlo. In this paper we describe how this
+strategy can be implemented using the variance reduction technique of Control
+Variates (CV). We show that, once an initial setup cost for extracting
+information is incurred, this approach can lead to significant gains in
+computational efficiency. The initial setup cost is justified in projects that
+require a large number of estimations or in those that are to be performed
+under real-time constraints.

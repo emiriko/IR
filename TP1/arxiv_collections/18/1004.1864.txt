@@ -1,0 +1,18 @@
+The Low Latency Fault Tolerance (LLFT) system provides fault tolerance for
+distributed applications, using the leader-follower replication technique. The
+LLFT system provides application-transparent replication, with strong replica
+consistency, for applications that involve multiple interacting processes or
+threads. The LLFT system comprises a Low Latency Messaging Protocol, a
+Leader-Determined Membership Protocol, and a Virtual Determinizer Framework.
+The Low Latency Messaging Protocol provides reliable, totally ordered message
+delivery by employing a direct group-to-group multicast, where the message
+ordering is determined by the primary replica in the group. The
+Leader-Determined Membership Protocol provides reconfiguration and recovery
+when a replica becomes faulty and when a replica joins or leaves a group, where
+the membership of the group is determined by the primary replica. The Virtual
+Determinizer Framework captures the ordering information at the primary replica
+and enforces the same ordering at the backup replicas for major sources of
+non-determinism, including multi-threading, time-related operations and socket
+communication. The LLFT system achieves low latency message delivery during
+normal operation and low latency reconfiguration and recovery when a fault
+occurs.

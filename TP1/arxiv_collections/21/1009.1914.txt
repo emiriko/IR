@@ -1,0 +1,16 @@
+Variable selection techniques have become increasingly popular amongst
+statisticians due to an increased number of regression and classification
+applications involving high-dimensional data where we expect some predictors to
+be unimportant. In this context, Bayesian variable selection techniques
+involving Markov chain Monte Carlo exploration of the posterior distribution
+over models can be prohibitively computationally expensive and so there has
+been attention paid to quasi-Bayesian approaches such as maximum a posteriori
+(MAP) estimation using priors that induce sparsity in such estimates. We focus
+on this latter approach, expanding on the hierarchies proposed to date to
+provide a Bayesian interpretation and generalization of state-of-the-art
+penalized optimization approaches and providing simultaneously a natural way to
+include prior information about parameters within this framework. We give
+examples of how to use this hierarchy to compute MAP estimates for linear and
+logistic regression as well as sparse precision-matrix estimates in Gaussian
+graphical models. In addition, an adaptive group lasso method is derived using
+the framework.

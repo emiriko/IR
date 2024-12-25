@@ -1,0 +1,21 @@
+Several applications exist in which lattice Boltzmann methods (LBM) are used
+to compute stationary states of fluid motions, particularly those driven or
+modulated by external forces. Standard LBM, being explicit time-marching in
+nature, requires a long time to attain steady state convergence, particularly
+at low Mach numbers due to the disparity in characteristic speeds of
+propagation of different quantities. In this paper, we present a preconditioned
+generalized lattice Boltzmann equation (GLBE) with forcing term to accelerate
+steady state convergence to flows driven by external forces. The use of
+multiple relaxation times in the GLBE allows enhancement of the numerical
+stability. Particular focus is given in preconditioning external forces, which
+can be spatially and temporally dependent. In particular, correct forms of
+moment-projections of source/forcing terms are derived such that they recover
+preconditioned Navier-Stokes equations with non-uniform external forces. As an
+illustration, we solve an extended system with a preconditioned lattice kinetic
+equation for magnetic induction field at low magnetic Prandtl numbers, which
+imposes Lorentz forces on the flow of conducting fluids. Computational studies,
+particularly in three-dimensions, for canonical problems show that the number
+of time steps needed to reach steady state is reduced by orders of magnitude
+with preconditioning. In addition, the preconditioning approach resulted in
+significantly improved stability characteristics when compared with the
+corresponding single relaxation time formulation.

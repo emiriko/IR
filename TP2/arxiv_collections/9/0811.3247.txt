@@ -1,0 +1,14 @@
+We present an experimental investigation of the performance of the
+Lemke-Howson algorithm, which is the most widely used algorithm for the
+computation of a Nash equilibrium for bimatrix games. Lemke-Howson algorithm is
+based upon a simple pivoting strategy, which corresponds to following a path
+whose endpoint is a Nash equilibrium. We analyze both the basic Lemke-Howson
+algorithm and a heuristic modification of it, which we designed to cope with
+the effects of a 'bad' initial choice of the pivot. Our experimental findings
+show that, on uniformly random games, the heuristics achieves a linear running
+time, while the basic Lemke-Howson algorithm runs in time roughly proportional
+to a polynomial of degree seven. To conduct the experiments, we have developed
+our own implementation of Lemke-Howson algorithm, which turns out to be
+significantly faster than state-of-the-art software. This allowed us to run the
+algorithm on a much larger set of data, and on instances of much larger size,
+compared with previous work.

@@ -1,0 +1,15 @@
+We present a new lossy compressor for discrete-valued sources. For coding a
+sequence $x^n$, the encoder starts by assigning a certain cost to each possible
+reconstruction sequence. It then finds the one that minimizes this cost and
+describes it losslessly to the decoder via a universal lossless compressor. The
+cost of each sequence is a linear combination of its distance from the sequence
+$x^n$ and a linear function of its $k^{\rm th}$ order empirical distribution.
+The structure of the cost function allows the encoder to employ the Viterbi
+algorithm to recover the minimizer of the cost. We identify a choice of the
+coefficients comprising the linear function of the empirical distribution used
+in the cost function which ensures that the algorithm universally achieves the
+optimum rate-distortion performance of any stationary ergodic source in the
+limit of large $n$, provided that $k$ diverges as $o(\log n)$. Iterative
+techniques for approximating the coefficients, which alleviate the
+computational burden of finding the optimal coefficients, are proposed and
+studied.

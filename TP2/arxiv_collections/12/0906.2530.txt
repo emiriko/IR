@@ -1,0 +1,24 @@
+We review connections between phase transitions in high-dimensional
+combinatorial geometry and phase transitions occurring in modern
+high-dimensional data analysis and signal processing. In data analysis, such
+transitions arise as abrupt breakdown of linear model selection, robust data
+fitting or compressed sensing reconstructions, when the complexity of the model
+or the number of outliers increases beyond a threshold. In combinatorial
+geometry these transitions appear as abrupt changes in the properties of face
+counts of convex polytopes when the dimensions are varied. The thresholds in
+these very different problems appear in the same critical locations after
+appropriate calibration of variables.
+  These thresholds are important in each subject area: for linear modelling,
+they place hard limits on the degree to which the now-ubiquitous
+high-throughput data analysis can be successful; for robustness, they place
+hard limits on the degree to which standard robust fitting methods can tolerate
+outliers before breaking down; for compressed sensing, they define the sharp
+boundary of the undersampling/sparsity tradeoff in undersampling theorems.
+  Existing derivations of phase transitions in combinatorial geometry assume
+the underlying matrices have independent and identically distributed (iid)
+Gaussian elements. In applications, however, it often seems that Gaussianity is
+not required. We conducted an extensive computational experiment and formal
+inferential analysis to test the hypothesis that these phase transitions are
+{\it universal} across a range of underlying matrix ensembles. The experimental
+results are consistent with an asymptotic large-$n$ universality across matrix
+ensembles; finite-sample universality can be rejected.

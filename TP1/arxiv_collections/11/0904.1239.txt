@@ -1,0 +1,11 @@
+Dynamical mean field theory and its cluster extensions provide a very useful
+approach for examining phase transitions in model Hamiltonians, and, in
+combination with electronic structure theory, constitute powerful methods to
+treat strongly correlated materials. The key advantage to the technique is
+that, unlike competing real space methods, the sign problem is well controlled
+in the Hirsch-Fye (HF) quantum Monte Carlo used as an exact cluster solver.
+However, an important computational bottleneck remains; the HF method scales as
+the cube of the inverse temperature, $\beta$. This often makes simulations at
+low temperatures extremely challenging. We present here a new method based on
+determinant quantum Monte Carlo which scales linearly in $\beta$, and
+demonstrate that the sign problem is identical to HF.

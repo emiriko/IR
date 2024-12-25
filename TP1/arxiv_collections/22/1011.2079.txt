@@ -1,0 +1,21 @@
+Eigen's quasi-species model describes viruses as ensembles of different
+mutants of a high fitness "master" genotype. Mutants are assumed to have lower
+fitness than the master type, yet they coexist with it forming the
+quasi-species. When the mutation rate is sufficiently high, the master type no
+longer survives and gets replaced by a wide range of mutant types, thus
+destroying the quasi-species. It is the so-called "error catastrophe". But
+natural selection acts on phenotypes, not genotypes, and huge amounts of
+genotypes yield the same phenotype. An important consequence of this is the
+appearance of beneficial mutations which increase the fitness of mutants. A
+model has been recently proposed to describe quasi-species in the presence of
+beneficial mutations. This model lacks the error catastrophe of Eigen's model
+and predicts a steady state in which the viral population grows exponentially.
+Extinction can only occur if the infectivity of the quasi-species is so low
+that this exponential is negative. In this work I investigate the transient of
+this model when infection is started from a small amount of low fitness
+virions. I prove that, beyond an initial regime where viral population
+decreases (and can go extinct), the growth of the population is
+super-exponential. Hence this population quickly becomes so huge that selection
+due to lack of host cells to be infected begins to act before the steady state
+is reached. This result suggests that viral infection may widespread before the
+virus has developed its optimal form.

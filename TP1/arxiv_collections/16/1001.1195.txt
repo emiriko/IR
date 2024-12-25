@@ -1,0 +1,26 @@
+Internet worm infection continues to be one of top security threats and has
+been widely used by botnets to recruit new bots. In this work, we attempt to
+quantify the infection ability of individual hosts and reveal the key
+characteristics of the underlying topology formed by worm infection, i.e., the
+number of children and the generation of the worm infection family tree.
+Specifically, we first apply probabilistic modeling methods and a sequential
+growth model to analyze the infection tree of a wide class of worms. We
+analytically and empirically find that the number of children has
+asymptotically a geometric distribution with parameter 0.5. As a result, on
+average half of infected hosts never compromise any vulnerable host, over 98%
+of infected hosts have no more than five children, and a small portion of
+infected hosts have a large number of children. We also discover that the
+generation follows closely a Poisson distribution and the average path length
+of the worm infection family tree increases approximately logarithmically with
+the total number of infected hosts. Next, we empirically study the infection
+structure of localized-scanning worms and surprisingly find that most of the
+above observations also apply to localized-scanning worms. Finally, we apply
+our findings to develop bot detection methods and study potential
+countermeasures for a botnet (e.g., Conficker C) that uses scan-based peer
+discovery to form a P2P-based botnet. Specifically, we demonstrate that
+targeted detection that focuses on the nodes with the largest number of
+children is an efficient way to expose bots. For example, our simulation shows
+that when 3.125% nodes are examined, targeted detection can reveal 22.36% bots.
+However, we also point out that future botnets may limit the maximum number of
+children to weaken targeted detection, without greatly slowing down the speed
+of worm infection.

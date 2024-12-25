@@ -1,0 +1,19 @@
+Motivation: Protein sequence world is discrete as 20 amino acids (AA) while
+its structure world is continuous, though can be discretized into structural
+alphabets (SA). In order to reveal the relationship between sequence and
+structure, it is interesting to consider both AA and SA in a joint space.
+However, such space has too many parameters, so the reduction of AA is
+necessary to bring down the parameter numbers.
+  Result: We've developed a simple but effective approach called entropic
+clustering based on selecting the best mutual information between a given
+reduction of AAs and SAs. The optimized reduction of AA into two groups leads
+to hydrophobic and hydrophilic. Combined with our SA, namely conformational
+letter (CL) of 17 alphabets, we get a joint alphabet called hydropathy
+conformational letter (hp-CL). A joint substitution matrix with (17*2)*(17*2)
+indices is derived from FSSP. Moreover, we check the three coding systems, say
+AA, CL and hp-CL against a large database consisting proteins from family to
+fold, with their performance on the TopK accuracy of both similar fragment pair
+(SFP) and the neighbor of aligned fragment pair (AFP). The TopK selection is
+according to the score calculated by the coding system's substitution matrix.
+Finally, embedding hp-CL in a pairwise alignment algorithm, say CLeFAPS, to
+replace the original CL, will get an improvement on the HOMSTRAD benchmark.

@@ -1,0 +1,8 @@
+This paper reviews the basic ideas behind a Bayesian unfolding published some
+years ago and improves their implementation. In particular, uncertainties are
+now treated at all levels by probability density functions and their
+propagation is performed by Monte Carlo integration. Thus, small numbers are
+better handled and the final uncertainty does not rely on the assumption of
+normality. Theoretical and practical issues concerning the iterative use of the
+algorithm are also discussed. The new program, implemented in the R language,
+is freely available, together with sample scripts to play with toy models.

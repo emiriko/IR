@@ -1,0 +1,19 @@
+Working in Winfree's abstract tile assembly model, we show that a
+constant-size tile assembly system can be programmed through relative tile
+concentrations to build an n x n square with high probability, for any
+sufficiently large n. This answers an open question of Kao and Schweller
+(Randomized Self-Assembly for Approximate Shapes, ICALP 2008), who showed how
+to build an approximately n x n square using tile concentration programming,
+and asked whether the approximation could be made exact with high probability.
+We show how this technique can be modified to answer another question of Kao
+and Schweller, by showing that a constant-size tile assembly system can be
+programmed through tile concentrations to assemble arbitrary finite *scaled
+shapes*, which are shapes modified by replacing each point with a c x c block
+of points, for some integer c. Furthermore, we exhibit a smooth tradeoff
+between specifying bits of n via tile concentrations versus specifying them via
+hard-coded tile types, which allows tile concentration programming to be
+employed for specifying a fraction of the bits of "input" to a tile assembly
+system, under the constraint that concentrations can only be specified to a
+limited precision. Finally, to account for some unrealistic aspects of the tile
+concentration programming model, we show how to modify the construction to use
+only concentrations that are arbitrarily close to uniform.

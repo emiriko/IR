@@ -1,0 +1,21 @@
+When users want to establish wireless communication between/among their
+devices, the channel has to be bootstrapped first. To prevent any malicious
+control of or eavesdropping over the communication, the channel is desired to
+be authenticated and confidential. The process of setting up a secure
+communication channel between two previously unassociated devices is referred
+to as "Secure Device Pairing". When there is no prior security context, e.g.,
+shared secrets, common key servers or public key certificates, device pairing
+requires user involvement into the process. The idea usually involves
+leveraging an auxiliary human-perceptible channel to authenticate the data
+exchanged over the insecure wireless channel.
+  We observe that the focus of prior research has mostly been limited to
+pairing scenarios where a single user controls both the devices. In this paper,
+we consider more general and emerging "two-user" scenarios, where two different
+users establish pairing between their respective devices. Although a number of
+pairing methods exists in the literature, only a handful of those are
+applicable to the two-user setting. We present the first study to identify the
+methods practical for two-user pairing scenarios, and comparatively evaluate
+the usability of these methods. Our results identify methods best-suited for
+users, in terms of efficiency, error-tolerance and of course, usability. Our
+work sheds light on the applicability and usability of pairing methods for
+emerging two-user scenarios, a topic largely ignored so far.

@@ -1,0 +1,11 @@
+We study the problem of identifying an n-bit string using a single quantum
+query to an oracle that computes the Hamming distance between the query and
+hidden strings. The standard action of the oracle on a response register of
+dimension r is by powers of the cycle (1...r), all of which, of course,
+commute. We introduce a new model for the action of an oracle--by general
+permutations in S_r--and explore how the success probability depends on r and
+on the map from Hamming distances to permutations. In particular, we prove that
+when r = 2, for even n the success probability is 1 with the right choice of
+the map, while for odd n the success probability cannot be 1 for any choice.
+Furthermore, for small odd n and r = 3, we demonstrate numerically that the
+image of the optimal map generates a non-abelian group of permutations.

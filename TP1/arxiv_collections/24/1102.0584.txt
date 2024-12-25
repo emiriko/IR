@@ -1,0 +1,11 @@
+In this article, we develop a numerical method to find optimal control pulses
+that accounts for the separation of timescales between the variation of the
+input control fields and the applied Hamiltonian. In traditional numerical
+optimization methods, these timescales are treated as being the same. While
+this approximation has had much success, in applications where the input
+controls are filtered substantially or mixed with a fast carrier, the resulting
+optimized pulses have little relation to the applied physical fields. Our
+technique remains numerically efficient in that the dimension of our search
+space is only dependent on the variation of the input control fields, while our
+simulation of the quantum evolution is accurate on the timescale of the fast
+variation in the applied Hamiltonian.

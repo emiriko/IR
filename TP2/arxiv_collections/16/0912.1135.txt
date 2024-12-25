@@ -1,0 +1,12 @@
+We describe an algorithm that, given any full-rank matrix A having fewer rows
+than columns, can rapidly compute the orthogonal projection of any vector onto
+the null space of A, as well as the orthogonal projection onto the row space of
+A, provided that both A and its adjoint can be applied rapidly to arbitrary
+vectors. As an intermediate step, the algorithm solves the overdetermined
+linear least-squares regression involving the adjoint of A (and so can be used
+for this, too). The basis of the algorithm is an obvious but numerically
+unstable scheme; suitable use of a preconditioner yields numerical stability.
+We generate the preconditioner rapidly via a randomized procedure that succeeds
+with extremely high probability. In many circumstances, the method can
+accelerate interior-point methods for convex optimization, such as linear
+programming (Ming Gu, personal communication).

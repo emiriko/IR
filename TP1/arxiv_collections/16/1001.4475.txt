@@ -1,0 +1,17 @@
+We consider a generalization of stochastic bandits where the set of arms,
+$\cX$, is allowed to be a generic measurable space and the mean-payoff function
+is "locally Lipschitz" with respect to a dissimilarity function that is known
+to the decision maker. Under this condition we construct an arm selection
+policy, called HOO (hierarchical optimistic optimization), with improved regret
+bounds compared to previous results for a large class of problems. In
+particular, our results imply that if $\cX$ is the unit hypercube in a
+Euclidean space and the mean-payoff function has a finite number of global
+maxima around which the behavior of the function is locally continuous with a
+known smoothness degree, then the expected regret of HOO is bounded up to a
+logarithmic factor by $\sqrt{n}$, i.e., the rate of growth of the regret is
+independent of the dimension of the space. We also prove the minimax optimality
+of our algorithm when the dissimilarity is a metric. Our basic strategy has
+quadratic computational complexity as a function of the number of time steps
+and does not rely on the doubling trick. We also introduce a modified strategy,
+which relies on the doubling trick but runs in linearithmic time. Both results
+are improvements with respect to previous approaches.

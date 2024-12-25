@@ -1,0 +1,19 @@
+A complex pervasive system is typically composed of many cooperating
+\emph{nodes}, running on machines with different capabilities, and pervasively
+distributed across the environment. These systems pose several new challenges
+such as the need for the nodes to manage autonomously and dynamically in order
+to adapt to changes detected in the environment. To address the above issue, a
+number of autonomic frameworks has been proposed. These usually offer either
+predefined self-management policies or programmatic mechanisms for creating new
+policies at design time. From a more theoretical perspective, some works
+propose the adoption of prediction models as a way to anticipate the evolution
+of the system and to make timely decisions. In this context, our aim is to
+experiment with the integration of prediction models within a specific
+autonomic framework in order to assess the feasibility of such integration in a
+setting where the characteristics of dynamicity, decentralization, and
+cooperation among nodes are important. We extend an existing infrastructure
+called \emph{SelfLets} in order to make it ready to host various prediction
+models that can be dynamically plugged and unplugged in the various component
+nodes, thus enabling a wide range of predictions to be performed. Also, we show
+in a simple example how the system works when adopting a specific prediction
+model from the literature.

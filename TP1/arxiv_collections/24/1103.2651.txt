@@ -1,0 +1,16 @@
+Keyword search in relational databases has been widely studied in recent
+years because it does not require users neither to master a certain structured
+query language nor to know the complex underlying data schemas. Most of
+existing methods focus on answering snapshot keyword queries in static
+databases. In practice, however, databases are updated frequently, and users
+may have long-term interests on specific topics. To deal with such a situation,
+it is necessary to build effective and efficient facility in database systems
+to support continual keyword queries evaluation.
+  In this paper, we propose an efficient method for continual keyword queries
+answering over relational databases. The proposed method consists of two core
+algorithms. The first one computes a set of potential top-$k$ results by
+evaluating the ranges of the future relevance score for every query result and
+create a light-weight state for each keyword query. The second one uses these
+states to maintain the top-$k$ results of keyword queries when the database is
+continually growing. Experimental results validate the effectiveness and
+efficiency of the proposed method.

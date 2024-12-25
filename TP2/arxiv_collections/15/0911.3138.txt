@@ -1,0 +1,13 @@
+We discuss the properties of an analytical solution for waves in radiating
+fluids, with a view towards its implementation as a quantitative test of
+radiation hydrodynamics codes. A homogeneous radiating fluid in local
+thermodynamic equilibrium is periodically driven at the boundary of a
+one-dimensional domain, and the solution describes the propagation of the waves
+thus excited. Two modes are excited for a given driving frequency, generally
+referred to as a radiative acoustic wave and a radiative diffusion wave. While
+the analytical solution is well known, several features are highlighted here
+that require care during its numerical implementation. We compare the solution
+in a wide range of parameter space to a numerical integration with a Lagrangian
+radiation hydrodynamics code. Our most significant observation is that
+flux-limited diffusion does not preserve causality for waves on a homogeneous
+background.

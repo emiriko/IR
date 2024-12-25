@@ -1,0 +1,11 @@
+To accommodate the needs of large-scale distributed P2P systems, scalable
+data management strategies are required, allowing applications to efficiently
+cope with continuously growing, highly dis tributed data. This paper addresses
+the problem of efficiently stor ing and accessing very large binary data
+objects (blobs). It proposesan efficient versioning scheme allowing a large
+number of clients to concurrently read, write and append data to huge blobs
+that are fragmented and distributed at a very large scale. Scalability under
+heavy concurrency is achieved thanks to an original metadata scheme, based on a
+distributed segment tree built on top of a Distributed Hash Table (DHT). Our
+approach has been implemented and experimented within our BlobSeer prototype on
+the Grid'5000 testbed, using up to 175 nodes.

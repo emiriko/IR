@@ -1,0 +1,19 @@
+We use an empirical approach to characterize the effect of charge-transfer
+efficiency (CTE) losses in images taken with the Wide-Field Channel of the
+Advanced Camera for Surveys. The study is based on profiles of warm pixels in
+168 dark exposures taken between September and October 2009. The dark exposures
+allow us to explore charge traps that affect electrons when the background is
+extremely low. We develop a model for the readout process that reproduces the
+observed trails out to 70 pixels. We then invert the model to convert the
+observed pixel values in an image into an estimate of the original pixel
+values. We find that when we apply the image-restoration process to science
+images with a variety of stars on a variety of background levels, it restores
+flux, position, and shape. This means that the observed trails contain
+essentially all of the flux lost to inefficient CTE. The Space Telescope
+Science Institute is currently evaluating this algorithm with the aim of
+optimizing it and eventually providing enhanced data products. The empirical
+procedure presented here should also work for other epochs (eg., pre-SM4),
+though the parameters may have to be recomputed for the time when ACS was
+operated at a higher temperature than the current -81 C. Finally, this
+empirical approach may also hold promise for other instruments, such as WFPC2,
+STIS, the ACS's HRC, and even WFC3/UVIS.

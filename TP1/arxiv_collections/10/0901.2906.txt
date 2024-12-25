@@ -1,0 +1,7 @@
+We establish a connection between non-deterministic communication complexity
+and instance complexity, a measure of information based on algorithmic entropy.
+Let $\overline{x}$, $\overline{y}$ and $Y_1(\overline{x})$ be respectively the
+input known by Alice, the input known by Bob, and the set of all values of $y$
+such that $f(\overline{x},y)=1$; a string is a witness of the non-deterministic
+communication protocol iff it is a program $p$ that "corresponds exactly" to
+the instance complexity $\ic^{f,t}(\overline{y}:Y_1(\overline{x}))$.
